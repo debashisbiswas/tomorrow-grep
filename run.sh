@@ -12,4 +12,4 @@ if [ ! -f "$MODEL" ]; then
 fi
 
 export MODEL
-./fetch_feed.py | parallel -j2 --colsep '\t' ./transcribe.sh {1} {2}
+./fetch_feed.py | parallel -j6 --colsep '\t' ./transcribe.sh {1} {2}
