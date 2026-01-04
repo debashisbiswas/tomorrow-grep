@@ -1,0 +1,1604 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.000
+ Do you know what living in the city is like? Everyone is like showing thighs all day.
+
+00:00:04.000 --> 00:00:08.000
+ Oh, really? Okay. Well, the Ozarks don't know what to... They don't know what's coming.
+
+00:00:08.000 --> 00:00:10.000
+ Yeah, my thighs are coming out.
+
+00:00:30.000 --> 00:00:36.000
+ You might just always look washed out by comparison.
+
+00:00:36.000 --> 00:00:39.000
+ It's possible. I might just be a washed out person.
+
+00:00:39.000 --> 00:00:41.000
+ Then just by comparison, you know.
+
+00:00:41.000 --> 00:00:43.000
+ Oh, by comparison, I see.
+
+00:00:43.000 --> 00:00:44.000
+ Yeah.
+
+00:00:44.000 --> 00:00:48.000
+ You got really good color. You did a really good job getting your audio visuals set up.
+
+00:00:48.000 --> 00:00:51.000
+ I think so, because I feel like Liz complains that I look too orange.
+
+00:00:51.000 --> 00:00:56.000
+ And I'm like, that just reminds me of Trump. And I'm like, I don't want to look too orange.
+
+00:00:56.000 --> 00:00:58.000
+ But I like the way it looks, so...
+
+00:00:58.000 --> 00:01:02.000
+ I think it looks great. I like the color scheme you got going on behind you, like the purple.
+
+00:01:02.000 --> 00:01:03.000
+ Yeah. The hues.
+
+00:01:03.000 --> 00:01:06.000
+ And that little green LED light.
+
+00:01:06.000 --> 00:01:10.000
+ Yeah. A little tiny spec. I've got the green light behind me.
+
+00:01:10.000 --> 00:01:14.000
+ And it just makes everything so green, because so many cameras are already lean green.
+
+00:01:14.000 --> 00:01:18.000
+ Even with like white balance correction, it just already leans green.
+
+00:01:18.000 --> 00:01:22.000
+ So I really need to get a different light behind me. It needs to be like white or something neutral.
+
+00:01:22.000 --> 00:01:25.000
+ So I've tried, with this lamp, I tried a bunch of different colors.
+
+00:01:25.000 --> 00:01:29.000
+ And when I tried green, it looked really freaky. Like, I looked like an alien.
+
+00:01:29.000 --> 00:01:30.000
+ Yeah.
+
+00:01:30.000 --> 00:01:31.000
+ Yeah.
+
+00:01:31.000 --> 00:01:32.000
+ I hope we see that.
+
+00:01:32.000 --> 00:01:35.000
+ I'm going to jump in. How do you feel about privacy? How do you feel about data privacy?
+
+00:01:35.000 --> 00:01:37.000
+ Like, do you worry about your data being out there?
+
+00:01:37.000 --> 00:01:45.000
+ Man, this is a complicated topic, because I think all of us on like a gut feeling, it feels weird.
+
+00:01:45.000 --> 00:01:50.000
+ It's like, your stuff is out there. And it's like, it feels kind of invasive.
+
+00:01:50.000 --> 00:01:51.000
+ Yeah.
+
+00:01:51.000 --> 00:01:58.000
+ But it is just a big trade-off we all make to get certain features and functionality and convenience out of.
+
+00:01:58.000 --> 00:02:02.000
+ Like when you, like, products get better when they know a lot more about you.
+
+00:02:02.000 --> 00:02:03.000
+ Yeah.
+
+00:02:03.000 --> 00:02:05.000
+ And your experience, a lot of things gets better.
+
+00:02:05.000 --> 00:02:13.000
+ I will say, though, that I recently went in the other direction, not for privacy reasons, but for kind of practical reasons.
+
+00:02:13.000 --> 00:02:18.000
+ So this trade-off might not be as necessary as we think so.
+
+00:02:18.000 --> 00:02:21.000
+ I have a ton of home automation stuff in my house.
+
+00:02:21.000 --> 00:02:25.000
+ Prior, I was running that all through, like, Google's platform.
+
+00:02:25.000 --> 00:02:26.000
+ Mm-hmm.
+
+00:02:26.000 --> 00:02:29.000
+ And it just turns out Google's platform sucks. Like, I couldn't do much.
+
+00:02:29.000 --> 00:02:35.000
+ So it was always, like, kind of janky and, you know, like, it just wasn't a great setup.
+
+00:02:35.000 --> 00:02:41.000
+ And I switched to a completely open-source, self-hosted platform and I have, like, a physical device in my house now.
+
+00:02:41.000 --> 00:02:44.000
+ That's, like, an open-source thing. It runs on a Raspberry Pi.
+
+00:02:44.000 --> 00:02:49.000
+ And it is, like, 1,000 times better in every single, like, every single dimension.
+
+00:02:49.000 --> 00:02:52.000
+ It's just better. Like, it just, overall, it just crushes Google.
+
+00:02:52.000 --> 00:02:54.000
+ That's the thing they were trying to do.
+
+00:02:54.000 --> 00:02:59.000
+ And all the networking happens locally. Like, 90% of it, like, the voices and stuff still has to go through cloud.
+
+00:02:59.000 --> 00:03:02.000
+ But, you know, the device themselves communicate all locally.
+
+00:03:02.000 --> 00:03:13.000
+ And it all just works entirely better. So I think in that case, like, the cloud remote setup that we're used to for most products is actually worse because it's all around orchestrating stuff in your house.
+
+00:03:13.000 --> 00:03:18.000
+ Yeah. Yeah. Like, there's just, you know, it's a tough thing.
+
+00:03:18.000 --> 00:03:20.000
+ I don't know. Like, do you worry about it at all?
+
+00:03:20.000 --> 00:03:29.000
+ No. I want to say on the local, like, you do the home automation stuff local, we moved to all local cameras.
+
+00:03:29.000 --> 00:03:33.000
+ Like, we had a bunch of ring cameras that were Internet-enabled.
+
+00:03:33.000 --> 00:03:41.000
+ We went to, like, these unify, ubiquity, whatever cameras, and we have, like, local storage.
+
+00:03:41.000 --> 00:03:48.000
+ Yeah. It's so much better. Like, just not having to go out on the Internet and come back to our phones. Like, we're just viewing it all locally.
+
+00:03:48.000 --> 00:03:52.000
+ It's way better. And we record it into, like, storage here in my closet.
+
+00:03:52.000 --> 00:04:03.000
+ So that, that I have noticed is a lot better. But in terms of data privacy, I don't really think about it much. And I guess, like, I think of all the activity I do on the Internet, I don't care who knows that it's not sensitive information.
+
+00:04:03.000 --> 00:04:11.000
+ I don't like that my address. Like, it feels like that kind of stuff leaks out and is everyone. I don't like that kind of stuff. Like, I don't want people knowing where I live.
+
+00:04:11.000 --> 00:04:19.000
+ But in terms of, like, I went to this site and then Google knows I went to that site, I don't care who cares. Why do people care so much about this?
+
+00:04:19.000 --> 00:04:20.000
+ Yeah.
+
+00:04:20.000 --> 00:04:24.000
+ Like, I don't want privilege saying, is it just a privilege thing? Like, are people being invited?
+
+00:04:24.000 --> 00:04:33.000
+ No, I just think it's, like, at our core, it maybe feels, if you, like, really sit and think about it, like, somebody at Google technically can go and see every place I've been to.
+
+00:04:33.000 --> 00:04:44.000
+ And if they're, there's, like, this crazy, weird scenario where you have, like, some malicious actor and maybe something can happen or, like, on a base level, it just feels weird to house all this information by yourself.
+
+00:04:44.000 --> 00:04:51.000
+ So I think it starts at the core. Like, it's going to be emotional. Like, this feels wrong, which I definitely understand.
+
+00:04:51.000 --> 00:04:55.000
+ And then there's, like, all of us have potential for abuse, et cetera.
+
+00:04:55.000 --> 00:05:03.000
+ Yeah. I actually don't think many of us, the vast majority of us have ever suffered any kind of abuse. I think it's so pretty theoretical.
+
+00:05:03.000 --> 00:05:15.000
+ But, yeah, for me, there's just so many good features I get. Like, I have Google Maps location has returned on, and I've had it turned on for, like, like, so long, like, years and years and years and years now.
+
+00:05:15.000 --> 00:05:21.000
+ So Google knows exactly every single spot I've been to, like, basically, not almost my whole adult life.
+
+00:05:21.000 --> 00:05:37.000
+ But it's so cool, because I can go back and, like, look at all this stuff. Me and Liz did a funny thing where we, like, looked back to see if our pads ever crossed, like, before we, like, officially met, because she didn't have it turned on, but we, like, looked through her photos to see where she was.
+
+00:05:37.000 --> 00:05:43.000
+ Yeah. And they were, like, times where I was in Miami, when I was trying to figure out where she was, and it doesn't seem like we actually did.
+
+00:05:43.000 --> 00:05:51.000
+ But, like, there's just, like, cool stuff like that. That's, like, a little sentimental that I like, and it does require forking over this stuff.
+
+00:05:51.000 --> 00:05:52.000
+ Yeah.
+
+00:05:52.000 --> 00:06:02.000
+ But, yeah, it doesn't, it doesn't really bother me. I don't really think about it. I just, like, there's, like, so many things in life that are, like, technically weird or scary, and, like, 99% of the time we're just not thinking about it.
+
+00:06:02.000 --> 00:06:12.000
+ Yeah. No, I guess, like, I guess I'm speaking out of both sides of my mouth. I'm a little bit torn, because at the same time, I do hate how easy it is to find information about me, like, where I live.
+
+00:06:12.000 --> 00:06:22.000
+ On the internet, like, that data aggregation or whatever. I think it's more the, like, cookies, and, like, accepting, like, I just don't care who's tracking my online activity.
+
+00:06:22.000 --> 00:06:33.000
+ Like, there's nothing I'm doing that's, like, I'm going to be embarrassed that, that, like, Google employees, they're going to get really bored, like, when they look at what I'm doing.
+
+00:06:33.000 --> 00:06:46.000
+ And so I don't, the whole, like, GDPR and that whole topic, I feel like that's less about, like, your physical privacy, like, security stuff, and more about, like, your online presence.
+
+00:06:46.000 --> 00:06:48.000
+ I don't know. Is that, is that inaccurate?
+
+00:06:48.000 --> 00:07:01.000
+ No, I don't think it's inaccurate. I think, yeah, I think there's a difference between someone taking your personal information and making it public for everyone to see, like, those stupid, like, public, white pages, sites that just have everyone's address.
+
+00:07:01.000 --> 00:07:10.000
+ They probably scrape from, like, a bunch of random registries and stuff. Like, I'm sure, like, your car registries public or something, your address is there, and they probably put it all together.
+
+00:07:10.000 --> 00:07:23.000
+ That's stupid. I don't even know why that's a thing that's allowed. Like, if we're going after companies that are using your data just internally, like, we should be going after companies that are, like, publishing your data publicly.
+
+00:07:23.000 --> 00:07:35.000
+ Like, that's definitely not good. But after the same way, like, yes, there's potential for abuse. Like, as long as there is the ability, someone will do it, and some percentage of people will suffer something.
+
+00:07:35.000 --> 00:07:37.000
+ Probably very small. Yeah.
+
+00:07:37.000 --> 00:07:46.000
+ The companies are very incentivized to make sure that that doesn't happen. I'm sure stuff's through. I'm sure they have, like, moments of, you know, they do the wrong thing.
+
+00:07:46.000 --> 00:07:59.000
+ But overall, I do feel like it's fine. A lot of this compliance stuff I have a tough time with because I think you said a lot of it's, like, theater.
+
+00:07:59.000 --> 00:08:07.000
+ Like, so a lot of my work has been in the healthcare space. And there's so much of this, like, compliance theater thing that happens.
+
+00:08:07.000 --> 00:08:20.000
+ Like, everyone just knows you need to be a complian. You need to be stuck to compliant. Everyone's, like, feigning concern over it and pretend that every time you do business with a vendor, they're, like, I thought, serious about HIPAA compliance or, like, people will, like, say random rules for me.
+
+00:08:20.000 --> 00:08:29.000
+ Like, they know what it means. Everyone's kind of, like, proud to, like, under quote, unquote, understand the literal definition of, like, some of the HIPAA compliance stuff.
+
+00:08:29.000 --> 00:08:38.000
+ But then just spend one day at any company. You just see a million places where data just flying over all the place. Like, in practice, like, it doesn't do anything.
+
+00:08:38.000 --> 00:08:49.000
+ Like, people are, like, taking screenshots and, like, posting them on Slack. But wait, Slack isn't HIPAA compliant. And they're just, like, in practice, it doesn't really do anything.
+
+00:08:49.000 --> 00:08:55.000
+ But everyone acts all serious about it. And it feels like, okay, as long as we're all acting all serious about it, we're, like, actually doing something.
+
+00:08:55.000 --> 00:09:04.000
+ But you're not actually doing something because most companies aren't really even in the healthcare space of vast majority companies are not following good, like, security engineering practices.
+
+00:09:04.000 --> 00:09:13.000
+ It's not, like, it's just, like, good practices make sense for every company. It's not, like, oh, healthcare companies need to do this extra thing that other companies don't.
+
+00:09:13.000 --> 00:09:18.000
+ And most companies just don't do that well because it's, like, an afterthought, especially when you're early on.
+
+00:09:18.000 --> 00:09:25.000
+ So yeah, the whole, like, pretending about, I just, like, hate stuff like that. It's just, like, a waste of energy.
+
+00:09:25.000 --> 00:09:32.000
+ Yeah. And, like, all this, like, legalese and lawyers, all this effort goes into literally doing nothing. And I just, like, really...
+
+00:09:32.000 --> 00:09:39.000
+ Yeah, in practice, like, we still don't have any privacy. And it just feels like, yeah, it feels made up. I don't know.
+
+00:09:39.000 --> 00:09:47.000
+ I get that there's probably good things that have come out of it. I know I said stuff publicly and people came at me for knocking the EU and GDPR and, like, maybe good things have come out of it.
+
+00:09:47.000 --> 00:09:52.000
+ But, I mean, it feels like I still don't have data privacy. And I don't know if I care that much, but...
+
+00:09:52.000 --> 00:10:02.000
+ Yeah, it's, it's funny because, uh, uh, your tweet just hit way too many, like, third rails or whatever they call it. Like, uh...
+
+00:10:02.000 --> 00:10:08.000
+ It's like, you said the word capitalism, which is just going to draw a bunch of people that reflexively, like, freak out whenever they see that word.
+
+00:10:08.000 --> 00:10:10.000
+ Oh, I did say that.
+
+00:10:10.000 --> 00:10:15.000
+ Then you criticized Europe, which is just going to set some portion of people.
+
+00:10:15.000 --> 00:10:26.000
+ Uh, then you said the word privacy, which is just, again, I, again, maybe more cynical view, but I, I also think people that are, like, really obsessed about it are also pretending.
+
+00:10:26.000 --> 00:10:36.000
+ I think it's, like, almost like, uh, it's almost like a role play. They're, like, I'm someone that cares about privacy, and I, like, host everything locally, and I'm, like, a super cool hacker, like, I'm, like, you can't exploit me.
+
+00:10:36.000 --> 00:10:45.000
+ There's, like, that angle to it, so I think you just hit, like, a crazy, so effective stuff that really attracts, like, the wrong type of person.
+
+00:10:45.000 --> 00:10:51.000
+ Yeah, in retrospect, it was a dumb tweet. I was just, like, it was a cookie ban. I was just annoyed at, like, the state of the web.
+
+00:10:51.000 --> 00:10:59.000
+ I wasn't, like, making any big political claims. I was just frustrated, and I tweeted a thing, and then, yeah, people came at me over all kinds of stuff.
+
+00:10:59.000 --> 00:11:08.000
+ I do know people who are really extreme about privacy, and they're not on Twitter talking exactly. They're not, like, responding to tweets.
+
+00:11:08.000 --> 00:11:13.000
+ Yeah, there's, like, there's, like, a, there's a fakeness to it when you're, like, on Twitter, acting really seriously about privacy.
+
+00:11:13.000 --> 00:11:24.000
+ Yeah. I mean, I do think about weird, weird, the cookie banner thing, because I cannot believe the years of effort that went into for the end result to just make the web a little bit shittier.
+
+00:11:24.000 --> 00:11:31.000
+ Sure, hypothetically, you can get better, like, if there is, like, a standard in the browser, and, like, you set it there, and then websites don't have to ask you per website.
+
+00:11:31.000 --> 00:11:40.000
+ But, literally, all that effort today, all, it's just showing up as a stupid pop-up that is just the most annoying thing ever.
+
+00:11:40.000 --> 00:11:49.000
+ And I think about it all the time, right? We're so blind to this. You go to grocery stores, or you go to, like, any place, there's fine print on literally everything.
+
+00:11:49.000 --> 00:11:55.000
+ Literally, everything has tiny print printed on it. It is not changing anything about the world.
+
+00:11:55.000 --> 00:12:01.000
+ Nobody is getting any information about the fine print. It's never saving someone. It's never making someone more aware of something.
+
+00:12:01.000 --> 00:12:11.000
+ It's just an end result of lawyers lawyering, and technically, you have to do something, and that something is now, there's, like, little text printed on everything.
+
+00:12:11.000 --> 00:12:15.000
+ And it's just, like, stupid and makes the world worse and doesn't actually change anything at all.
+
+00:12:15.000 --> 00:12:21.000
+ And it's like, we're so blind to it, but if you really sit down and think about it, there's, like, so much nonsense everywhere that is just a result of.
+
+00:12:21.000 --> 00:12:24.000
+ But we had to say we did something, you know?
+
+00:12:24.000 --> 00:12:32.000
+ Yeah, I mean, I get, like, people trying, and I think, like, maybe people in Europe felt like I was slamming them when they're actually making an effort.
+
+00:12:32.000 --> 00:12:34.000
+ I just think, I don't know, make a better effort.
+
+00:12:34.000 --> 00:12:37.000
+ I gotta say, 'cause I know people are gonna come at you after they hear you say that.
+
+00:12:37.000 --> 00:12:41.000
+ There is more than a cookie banner. The cookie banner may not even be part of GTPR. I don't know.
+
+00:12:41.000 --> 00:12:47.000
+ Maybe a separate dumb thing that was enacted, but, like, you can ask people to delete your information and they have to delete it.
+
+00:12:47.000 --> 00:12:49.000
+ Cool. I guess, like, that's a part of it.
+
+00:12:49.000 --> 00:12:54.000
+ And I think the other issue I have is, like, some of these things are so devoid of any technical practicality.
+
+00:12:54.000 --> 00:13:02.000
+ Like, GDPR is, like, of such a comp-- I don't think, again, I don't think there's a single company in the world compliant with GDPR because it, like, is so confusing.
+
+00:13:02.000 --> 00:13:07.000
+ What do you do when you take database backups and someone asks you to delete their data?
+
+00:13:07.000 --> 00:13:12.000
+ They're not gonna, like, restore every single database backup, delete it, and then snapshot it back down again.
+
+00:13:12.000 --> 00:13:14.000
+ Oh, yeah, delete the-- Oh, wow, good point.
+
+00:13:14.000 --> 00:13:21.000
+ So, again, people can come at me, but I literally have done a bunch of compliance stuff 'cause I've worked in compliance spaces.
+
+00:13:21.000 --> 00:13:27.000
+ And when I, like, think these things are dumb, it's 'cause I just see how ineffective they are.
+
+00:13:27.000 --> 00:13:31.000
+ If people are, like, saying stuff like, "Oh, yeah, it's great and it's gonna make everything good."
+
+00:13:31.000 --> 00:13:36.000
+ Like, you just haven't really been interacting with it. Like, they're just-- Yeah.
+
+00:13:36.000 --> 00:13:43.000
+ I think something needs to be done. I just generally don't trust, like, European legislature stuff.
+
+00:13:43.000 --> 00:13:50.000
+ I feel like it comes from a weird place where there's some level of, like, I don't know.
+
+00:13:50.000 --> 00:13:53.000
+ I mean, people are gonna be upset with this. I'm gonna say it anyway.
+
+00:13:53.000 --> 00:14:00.000
+ Say it's like, they're always regulating stuff that is born not inside Europe.
+
+00:14:00.000 --> 00:14:07.000
+ And I think there's some kind of, like, competitiveness or something to it where it seems a little vindictive at times.
+
+00:14:07.000 --> 00:14:11.000
+ 'Cause I just see so much stuff getting passed just cannot actually--
+
+00:14:11.000 --> 00:14:13.000
+ Like, doesn't actually make sense? Is it not actually practical?
+
+00:14:13.000 --> 00:14:14.000
+ Yeah.
+
+00:14:14.000 --> 00:14:21.000
+ There are rare occasions where-- 'Cause I'm generally against regulation 'cause I feel the people defining them, like, don't understand stuff well enough.
+
+00:14:21.000 --> 00:14:27.000
+ And it generally makes stuff harder for startups. Like, at this point, if you are a B2B company,
+
+00:14:27.000 --> 00:14:31.000
+ you just do not serve Europe 'cause you just cannot take the GDPR liability.
+
+00:14:31.000 --> 00:14:35.000
+ So that's end result. Like, new companies just do not serve Europe, which sucks.
+
+00:14:35.000 --> 00:14:39.000
+ But sometimes it accidentally gets stuff right.
+
+00:14:39.000 --> 00:14:43.000
+ Like forcing Apple to go USB-C. Fantastic. I love it.
+
+00:14:43.000 --> 00:14:44.000
+ Oh, they are.
+
+00:14:44.000 --> 00:14:48.000
+ So they passed something like a year ago. And I'm sure Apple would have done it eventually anyway,
+
+00:14:48.000 --> 00:14:51.000
+ but whatever this, like, forced them to do it sooner.
+
+00:14:51.000 --> 00:14:52.000
+ Yeah.
+
+00:14:52.000 --> 00:14:55.000
+ I hate the different cables in my house.
+
+00:14:55.000 --> 00:14:58.000
+ Oh, I hate that same. I can't wait to never use lightning again.
+
+00:14:58.000 --> 00:15:01.000
+ It sucks. I can't wait to have a USB-C cable everywhere.
+
+00:15:01.000 --> 00:15:04.000
+ I can't wait to go over someone's house and be like, "Hey, do you have a cable?"
+
+00:15:04.000 --> 00:15:07.000
+ Not the specific cable. I mean, do you just have a cable so I can try something?
+
+00:15:07.000 --> 00:15:11.000
+ The whole world just used plug-in. I'm really excited and happy about that.
+
+00:15:11.000 --> 00:15:12.000
+ Yeah.
+
+00:15:12.000 --> 00:15:17.000
+ I think they got it right by coincidence 'cause it just happened to be, like, picking a standard--
+
+00:15:17.000 --> 00:15:21.000
+ Usually governments, government officials, like, that's can't be the thing that they're good at.
+
+00:15:21.000 --> 00:15:24.000
+ They're going to pick something wrong. I didn't get outdated, et cetera.
+
+00:15:24.000 --> 00:15:28.000
+ But I think through sheer coincidence, this ended up being a fantastic thing.
+
+00:15:28.000 --> 00:15:29.000
+ Good job, Europe.
+
+00:15:29.000 --> 00:15:31.000
+ So I'll end it on something positive.
+
+00:15:31.000 --> 00:15:32.000
+ Thank you.
+
+00:15:32.000 --> 00:15:34.000
+ Yeah, we love Europe. I have lots of friends.
+
+00:15:34.000 --> 00:15:37.000
+ Can I say that? Can I say I have lots of friends in Europe?
+
+00:15:37.000 --> 00:15:38.000
+ Well, today.
+
+00:15:38.000 --> 00:15:40.000
+ The Netherlands, is that in Europe? I don't know.
+
+00:15:40.000 --> 00:15:42.000
+ Scoop apples? What's that?
+
+00:15:42.000 --> 00:15:46.000
+ Well, I feel like today, July 4th. I don't know. People were streaming too.
+
+00:15:46.000 --> 00:15:49.000
+ People might be on vacation, so I bet a lot of reviewers today are from Europe.
+
+00:15:49.000 --> 00:15:50.000
+ Oh, good point.
+
+00:15:50.000 --> 00:15:51.000
+ Yeah.
+
+00:15:51.000 --> 00:15:54.000
+ I want to talk about something really different. I want to talk about neighbors.
+
+00:15:54.000 --> 00:16:00.000
+ I have a really funny situation, so I live in this really quiet street.
+
+00:16:00.000 --> 00:16:04.000
+ Mostly everyone is in the phase of their life. They're, like, kind of settled.
+
+00:16:04.000 --> 00:16:06.000
+ They're married. They might have kids already.
+
+00:16:06.000 --> 00:16:10.000
+ It's a really, like, family-oriented street, I would say.
+
+00:16:10.000 --> 00:16:11.000
+ Yeah.
+
+00:16:11.000 --> 00:16:17.000
+ Yeah, but my neighbors, for some reason, are, like, a bunch of frat dudes.
+
+00:16:17.000 --> 00:16:21.000
+ Like, next to the left. A bunch of frat dudes that all live together.
+
+00:16:21.000 --> 00:16:22.000
+ Oh, geez.
+
+00:16:22.000 --> 00:16:24.000
+ And, to be honest, I, like, don't even think they're that young.
+
+00:16:24.000 --> 00:16:27.000
+ I'm, like, they're kind of, they look, I'm, like, looking at their lifestyle.
+
+00:16:27.000 --> 00:16:30.000
+ I'm, like, I don't think you might be, like, two years younger than me.
+
+00:16:30.000 --> 00:16:35.000
+ And you're still living, like, people live, like, 10 years younger than me.
+
+00:16:35.000 --> 00:16:38.000
+ So it's a weird situation, but it's, like, the classic thing.
+
+00:16:38.000 --> 00:16:40.000
+ Like, they just have a bunch of parties.
+
+00:16:40.000 --> 00:16:42.000
+ I don't really care about that music because I sleep through everything.
+
+00:16:42.000 --> 00:16:44.000
+ So that actually generally doesn't bother me.
+
+00:16:44.000 --> 00:16:49.000
+ But they do this thing where a bunch of people show up to their house with, like, a bunch of cars.
+
+00:16:49.000 --> 00:16:52.000
+ And they always park in our spot in front of my house.
+
+00:16:52.000 --> 00:16:55.000
+ It's always, like, an annoying thing where I have to be, like, yeah, who's cars is?
+
+00:16:55.000 --> 00:16:58.000
+ Let me go over and, like, complain. They're constantly doing this.
+
+00:16:58.000 --> 00:17:03.000
+ Eventually, someone from me is a thing where, if you put a baloney slice on a piece of car,
+
+00:17:03.000 --> 00:17:09.000
+ on a car, like a piece of baloney on a car, I forgot for what amount of time it's a short amount of time.
+
+00:17:09.000 --> 00:17:11.000
+ It's a short amount of time, like, eight hours or something.
+
+00:17:11.000 --> 00:17:12.000
+ Oh, no.
+
+00:17:12.000 --> 00:17:14.000
+ It, like, fuses with the paint.
+
+00:17:14.000 --> 00:17:16.000
+ And if you pull it off, it just rip the paint.
+
+00:17:16.000 --> 00:17:18.000
+ But I'm, like, I'm doing that next time.
+
+00:17:18.000 --> 00:17:20.000
+ It's so awful.
+
+00:17:20.000 --> 00:17:23.000
+ Can you not get in trouble for that if you got caught or something?
+
+00:17:23.000 --> 00:17:28.000
+ Yeah, but I mean, the only cameras pointed at the car when it's parked in front of my house are my own cameras.
+
+00:17:28.000 --> 00:17:31.000
+ So they're going to come to your door.
+
+00:17:31.000 --> 00:17:34.000
+ Like, do you have footage of the street from last night?
+
+00:17:34.000 --> 00:17:39.000
+ I swear, I was in my, I was grilling my backyard yesterday and they were like, I can kind of hear them.
+
+00:17:39.000 --> 00:17:40.000
+ They're playing music.
+
+00:17:40.000 --> 00:17:44.000
+ I swear to me, it sounds like they're constantly playing that song.
+
+00:17:44.000 --> 00:17:49.000
+ Do you remember that song that came out and, like, I guess 2010 that I love college song?
+
+00:17:49.000 --> 00:17:50.000
+ No.
+
+00:17:50.000 --> 00:17:57.000
+ It's like a really stupid, like, dumb song by some, like, just frat bro type character.
+
+00:17:57.000 --> 00:18:00.000
+ And he's just, like, singing about all the dumb shit you do in college.
+
+00:18:00.000 --> 00:18:03.000
+ And it's just like, it's such like a dumb frat.
+
+00:18:03.000 --> 00:18:04.000
+ I swear.
+
+00:18:04.000 --> 00:18:09.000
+ It just sounds like that song is playing on loop on, and it's on their backyard.
+
+00:18:09.000 --> 00:18:13.000
+ It's funnier, too, that if they're older and they're not even in college anymore, but they're just really.
+
+00:18:13.000 --> 00:18:16.000
+ They're like, they're like, this is the, they, like, found that lifestyle.
+
+00:18:16.000 --> 00:18:17.000
+ No, this is it.
+
+00:18:17.000 --> 00:18:20.000
+ This is it for us.
+
+00:18:20.000 --> 00:18:23.000
+ Yeah, because I feel like they all have jobs.
+
+00:18:23.000 --> 00:18:26.000
+ I don't think they're, they're definitely not in school.
+
+00:18:26.000 --> 00:18:28.000
+ So that's one thing.
+
+00:18:28.000 --> 00:18:33.000
+ Uh, then this is a really fun thing across the street for me a little bit further down.
+
+00:18:33.000 --> 00:18:34.000
+ There is a duplex.
+
+00:18:34.000 --> 00:18:38.000
+ So it's, it looks like a normal house, but it's actually two completely separate houses, but they share a wall.
+
+00:18:38.000 --> 00:18:40.000
+ And like the fences are separated.
+
+00:18:40.000 --> 00:18:41.000
+ Yeah.
+
+00:18:41.000 --> 00:18:43.000
+ And with one of the left is a normal family.
+
+00:18:43.000 --> 00:18:46.000
+ Mom, dad, a couple of kids, uh, very normal.
+
+00:18:46.000 --> 00:18:52.000
+ The one on the right is a single guy who has a dog.
+
+00:18:52.000 --> 00:18:55.000
+ And the dog is never unleashed, but it's like crazy well trained.
+
+00:18:55.000 --> 00:18:58.000
+ Like it just walks next to him and I see him walking all the time.
+
+00:18:58.000 --> 00:19:00.000
+ Chloe does not have a normal job.
+
+00:19:00.000 --> 00:19:01.000
+ He's like out about all day.
+
+00:19:01.000 --> 00:19:06.000
+ Never has a shirt on, uh, refuses to talk to anyone.
+
+00:19:06.000 --> 00:19:09.000
+ If you like, say hi or like try to engage in something, he'll just keep walking.
+
+00:19:09.000 --> 00:19:10.000
+ He'll like, run and keep walking.
+
+00:19:10.000 --> 00:19:12.000
+ It's like, it's really, really, really weird dude.
+
+00:19:12.000 --> 00:19:13.000
+ Whoa.
+
+00:19:13.000 --> 00:19:15.000
+ He's always doing really weird stuff.
+
+00:19:15.000 --> 00:19:21.000
+ So the other day we go outside and we're like, uh, did he just spray paint his garage or gold?
+
+00:19:21.000 --> 00:19:25.000
+ I guess he spray painted it gold.
+
+00:19:25.000 --> 00:19:29.000
+ And it's really because because the duplex and now looks really awkward because of one.
+
+00:19:29.000 --> 00:19:30.000
+ It's not asymmetrical.
+
+00:19:30.000 --> 00:19:34.000
+ His neighbor is always like dealing with this like guys doing all his weird.
+
+00:19:34.000 --> 00:19:40.000
+ So he was telling us that his pool, he has a pool in the back, but it's like completely black and disgusting and moldy.
+
+00:19:40.000 --> 00:19:44.000
+ Like it's just like a mosquito spawning site at this point.
+
+00:19:44.000 --> 00:19:45.000
+ Oh my word.
+
+00:19:45.000 --> 00:19:47.000
+ Do you have an HOA or something?
+
+00:19:47.000 --> 00:19:53.000
+ That's the thing that one unit that duplex technically has an HOA with each other and usually HOA's are terrible.
+
+00:19:53.000 --> 00:19:56.000
+ But this is the situation it's for because you have a crazy person living next door.
+
+00:19:56.000 --> 00:20:01.000
+ Uh, this guy's always dumping crazy amounts of trash in front of the house.
+
+00:20:01.000 --> 00:20:03.000
+ Like I'm not, it's not like personal trash.
+
+00:20:03.000 --> 00:20:04.000
+ It's like business level trash.
+
+00:20:04.000 --> 00:20:11.000
+ He's like running some kind of business out of his, uh, out of his house and there'll just be like mountains of cardboard.
+
+00:20:11.000 --> 00:20:14.000
+ And like people will tell on him and he'll get financed.
+
+00:20:14.000 --> 00:20:17.000
+ Like does not care.
+
+00:20:17.000 --> 00:20:19.000
+ It's just like a weird vibe.
+
+00:20:19.000 --> 00:20:21.000
+ You got Tesla, but it's like painted.
+
+00:20:21.000 --> 00:20:23.000
+ It's like really weird color.
+
+00:20:23.000 --> 00:20:35.000
+ Uh, he goes, he was down going down the street blasting music and you would think this guy would be blasting some kind of like, like edgy hardcore music, but he was blasting some like girly song from the 2000s.
+
+00:20:35.000 --> 00:20:37.000
+ Like it was just, he's just still weird.
+
+00:20:37.000 --> 00:20:49.000
+ And Liz said the other day, she's like, I think he's an alien. His dog is also an alien and they're like walking around trying to act normal, but like they don't really know how to communicate and they don't really understand what like, like men in black, like stereotypes of people.
+
+00:20:49.000 --> 00:20:52.000
+ Yeah, it feels exactly like the guy coming out of his skin suit.
+
+00:20:52.000 --> 00:20:54.000
+ Yeah, exactly like that.
+
+00:20:54.000 --> 00:21:02.000
+ Cause like he can't hold the conversation with you and he has such a weird combination of he's not like, Oh, this is like this type of person like the guy's next door frat guy.
+
+00:21:02.000 --> 00:21:13.000
+ Yeah, the guy on the street doesn't fit any just any preconceived pattern. He's just like all over the place as an alien. Yeah, exactly. Totally an alien. Yeah, I love it because I love being entertained.
+
+00:21:13.000 --> 00:21:20.000
+ Like this is the most entertaining thing ever. And I don't have the person I deal with the guy next door is the ones to always like the guy next door loves gossipy.
+
+00:21:20.000 --> 00:21:21.000
+ So it always comes over.
+
+00:21:21.000 --> 00:21:22.000
+ Yeah.
+
+00:21:22.000 --> 00:21:24.000
+ He's like, did you see the trash?
+
+00:21:24.000 --> 00:21:25.000
+ Can you believe it?
+
+00:21:25.000 --> 00:21:28.000
+ Like he's always just avenging to us.
+
+00:21:28.000 --> 00:21:30.000
+ So those are my neighbors.
+
+00:21:30.000 --> 00:21:31.000
+ How are your neighbors?
+
+00:21:31.000 --> 00:21:41.000
+ Well, so first of all, hi, Ben, Ben, my neighbor that I go for walks with. He listens to our podcast. He stays very on top of it. So how you doing? Hope you're good. Maybe walk tomorrow. Okay. Anyway.
+
+00:21:41.000 --> 00:21:52.000
+ So a bunch of people on the street have families. In fact, one, two, three, four houses in a row. We all have young kids. They all play in the same backyards.
+
+00:21:52.000 --> 00:22:08.000
+ It's the only four houses on our little street and then it kind of goes into another cul-de-sac. So we all have kids between like three archers, you know, minds, the youngest up to like 12. And there's like 15 of them. I mean, there's a ton of them.
+
+00:22:08.000 --> 00:22:16.000
+ So they're always playing in like their backyards. It's really great. It's very idyllic. I will say, I lived in this neighborhood before. We had a different house on a different street.
+
+00:22:16.000 --> 00:22:25.000
+ And we had a neighbor. It's a very like kind of like young family now, but it started out very old people community and then like the housing downturn happened.
+
+00:22:25.000 --> 00:22:37.000
+ So like nobody bought houses or built houses for a couple of years and the community kind of suffered. There were like 15 houses. We were in that first batch. It was us and a bunch of older people retirees.
+
+00:22:37.000 --> 00:22:46.000
+ Now it's much more affordable to come into this neighborhood. So there's a lot more young families. That's my assumption. I don't know. It's filled out with a much younger crowd than it was.
+
+00:22:46.000 --> 00:22:53.000
+ But back then, there's a very older community, like everybody sort of retirees and then the people that moved next door to me.
+
+00:22:53.000 --> 00:23:06.000
+ Very similar story. Like they weren't, it was a husband and wife, but they were probably early 30s and they just constantly had parties. They were on their back deck drinking, watching TV, people all over the street, just every single night.
+
+00:23:06.000 --> 00:23:17.000
+ It was so out of character for the neighborhood, like didn't fit in at all. But they were like, I mean, they were like working adults. They just, they had a good time, you know, not not the typical lifestyle that we see over here.
+
+00:23:17.000 --> 00:23:21.000
+ Was it a conflict? Like, like, was it annoying for you? Like what?
+
+00:23:21.000 --> 00:23:35.000
+ I think, yeah, I think we grumbled a little bit like Casey and I just to each other. I don't think we said anything to anybody else in the neighborhood. But yeah, just like, and it'd just be like tons of people like outside whenever you go out in the evening.
+
+00:23:35.000 --> 00:23:44.000
+ Like we'd have ace out there riding bikes or whatever. And it's just like the party starts showing up. It's kind of weird. You just don't really want to be around when they're all out in the yard yelling at each other and stuff.
+
+00:23:44.000 --> 00:23:50.000
+ Just that kind of stuff. Not a big deal. But it did stand out like a sore thumb in our neighborhood for sure.
+
+00:23:50.000 --> 00:23:59.000
+ Yeah. It's always funny when you have just one, like a neighborhood send up a specific vibe and then there's like one person or like one house. It's just not falling.
+
+00:23:59.000 --> 00:24:12.000
+ And then say, how do you even end up here? Like these people next door, the frat people. I'm just like, why did you move here? This is like the randomest place to ever move. Like, nothing you care about exists on the streets.
+
+00:24:12.000 --> 00:24:24.000
+ Yeah. Okay. So actually, I've been that person. Not like a frat person. But so Casey and I were just kind of like old souls. We like it quiet. We don't do nightlight stuff. So like we moved to Naples, Florida.
+
+00:24:24.000 --> 00:24:32.000
+ But Naples, very retiree town. Like it's, you know, a lot of older people, older community, not a lot of like young people.
+
+00:24:32.000 --> 00:24:38.000
+ Where Zuko is from? Zuko's from Naples? Oh, really? We're born in Serbia, but we picked them up in Naples. It'd be funny if it was like living on the same street.
+
+00:24:38.000 --> 00:24:48.000
+ Oh, there you go. Yeah. Oh, it was in Naples Park. Anyway, so when we moved back while we were building this house, we lived in a very old neighborhood.
+
+00:24:48.000 --> 00:24:56.000
+ Like we were the only people, literally the only people under 65. And it was like very established. It was a full community of just retirees.
+
+00:24:56.000 --> 00:25:04.000
+ And it was me, Casey, my at the time five year old and a brand new like one and two year old archer. I think when we left you, it's like two.
+
+00:25:04.000 --> 00:25:11.000
+ And we're like riding around the streets with their like play excavators. They're like little tight driver.
+
+00:25:11.000 --> 00:25:21.000
+ Like we were just so weird in that neighborhood because it's all older people water in their flowers and like doing stuff like cutting their lawn with scissors and then we're out like just being crazy young family.
+
+00:25:21.000 --> 00:25:29.000
+ And that just like we're kind of absurd. Like just some of the stuff we do outside just you've been around kids. Like we were definitely that family.
+
+00:25:29.000 --> 00:25:32.000
+ That's really bad. Yeah, it's funny.
+
+00:25:32.000 --> 00:25:45.000
+ Liz is always like kind of embarrassed because I might have talked about before, but I now that I live in a place as warm and I live in a house where I can just step outside at any time of day.
+
+00:25:45.000 --> 00:25:50.000
+ First thing I do every morning is I just walk outside and play with Zuko and I'm usually just in my underwear.
+
+00:25:50.000 --> 00:25:55.000
+ And outside in your underwear. Yeah, I'm just in my boxers.
+
+00:25:55.000 --> 00:26:07.000
+ But like in Miami, it's not accused of the everyone thinks I'm like doing a thing. I'm not doing a thing. I'm just like, I'm waking up. I want to go outside. So I go outside and I play with my dog. But like, I don't want to get dressed for.
+
+00:26:07.000 --> 00:26:14.000
+ We don't have to be do it. I'm not saying you're doing a thing. I'm just saying you are going outside your underwear, which is is enough of a thing to me.
+
+00:26:14.000 --> 00:26:23.000
+ It's just it's uncommon, you know, Liz keeps accusing me of like, Oh, you're like, you think you're like a Florida guy now. This is what Florida guys do. I'm like, no, this is just.
+
+00:26:23.000 --> 00:26:28.000
+ To me, it's like the most obvious thing ever, like getting up and going outside is the best thing ever. But anyway, like people.
+
+00:26:28.000 --> 00:26:32.000
+ Well, yeah, but you put on clothes and you guys are like, wow, why put it's like, that's pretty normal.
+
+00:26:32.000 --> 00:26:38.000
+ It feels so good to just get up and go straight outside. Like I literally have a door in my bedroom to go outside in public. It's in my yard.
+
+00:26:38.000 --> 00:26:49.000
+ That guy that never speaks to you, he's grumbling about you, Dale, his friends. He's got a podcast and he gets on twice a week and he's like, this guy across the street wakes up, walks outside his underwear, walks his dog.
+
+00:26:49.000 --> 00:26:53.000
+ What's baloney on cars?
+
+00:26:53.000 --> 00:26:55.000
+ Well, here's OK.
+
+00:26:55.000 --> 00:27:04.000
+ OK, I understand the practicality of this, but my boxers are long boxers. If I put on shorts and I went out of a problem with that.
+
+00:27:04.000 --> 00:27:12.000
+ My shorts are maybe like one or two inches longer than my boxers. So OK, I'm not really showing anything that people wouldn't see anyway.
+
+00:27:12.000 --> 00:27:24.000
+ I get that the fact that they'll look like underwear gives a completely different vibe. So I know it's not an entire defense. But yeah. So I do wonder like are because like the neighbors when they have parties, they have like drunk people going.
+
+00:27:24.000 --> 00:27:32.000
+ They're just like kind of drunk people like leaving the house and like they see me in my underwear and they probably think like they probably have like a very specific vibe of me because that's the only time they ever see me.
+
+00:27:32.000 --> 00:27:38.000
+ It's like the guy in his underwear in his front yard. So I want to like what they think like they must think I'm like some kind of crazy Florida guy.
+
+00:27:38.000 --> 00:27:43.000
+ I mean, if it's boxers, I guess I kind of understand like they look like shorts.
+
+00:27:43.000 --> 00:27:56.000
+ It's not tight underwear. No. Yeah, not because I wear tight underwear. I don't wear boxers. I am getting into the short shorts. Like, have you noticed a male trend was shorter and shorter shorts? Some five inch inseams.
+
+00:27:56.000 --> 00:28:01.000
+ You got to get those legs out. Get some sun on. You're like you're like six years behind. I don't know what you're talking about.
+
+00:28:01.000 --> 00:28:09.000
+ It's like just getting to the Ozarks. Do you know what living in the city is like? Everyone was like showing thighs all day.
+
+00:28:09.000 --> 00:28:14.000
+ Oh, really? Okay. Well, the Ozarks don't know what they don't know what's coming. My thighs are coming.
+
+00:28:14.000 --> 00:28:21.000
+ I don't go super short, but I definitely have my shorts have only been getting shorter. Like I remember in middle school, my shorts were past my knees and.
+
+00:28:21.000 --> 00:28:24.000
+ Oh, like past the knees. Yeah, Maggie. Yeah. Yeah.
+
+00:28:24.000 --> 00:28:32.000
+ And there's been getting shorter ever since. Yeah, no, same, but mine hadn't caught up to, I guess, fashions.
+
+00:28:32.000 --> 00:28:36.000
+ So I'm still going to work out. You know, you got to show the legs. Women love the thighs.
+
+00:28:36.000 --> 00:28:43.000
+ The main thing, the reason I really want to get some sun on my legs is I go into the sauna every night and I wear a speedo.
+
+00:28:43.000 --> 00:28:48.000
+ So like full leg is on display and they are so white like above my kneecaps.
+
+00:28:48.000 --> 00:28:53.000
+ Just like an awful picture. Everything else on me. I'm outside and then the sun a lot.
+
+00:28:53.000 --> 00:29:00.000
+ So I'm getting pretty tan in the summer. But that part of my body is just, it's stark white. So I got to get them. I got to get them tanned up.
+
+00:29:00.000 --> 00:29:06.000
+ It's an every night. I got to make a note of the speedo in the sauna thing because there's definitely infinite jokes.
+
+00:29:06.000 --> 00:29:10.000
+ I think this can definitely get made into a thing.
+
+00:29:10.000 --> 00:29:14.000
+ Oh, the sauna is so good. I can't recommend a sauna enough.
+
+00:29:14.000 --> 00:29:20.000
+ So he's going to every day. I did an ice bath. Oh, I do every night. Yeah, Casey and I get every night after the kids are down.
+
+00:29:20.000 --> 00:29:27.000
+ It's the best. And I want to get a cold plunge. But Casey's making me like actually take ice baths to prove that I'll do it.
+
+00:29:27.000 --> 00:29:32.000
+ Like that I'll get in 36 degree water. Have you ever gotten in like sub 40 water?
+
+00:29:32.000 --> 00:29:35.000
+ I don't know. I hate it. I absolutely hate it. It's not for me.
+
+00:29:35.000 --> 00:29:42.000
+ It's so intense. Like your body, you start saying things that you're just like reacting that you're not in control of it.
+
+00:29:42.000 --> 00:29:48.000
+ Like you're completely overwhelmed. Maybe if you're used to it, like if you're Wim Hof and do it every day.
+
+00:29:48.000 --> 00:29:58.000
+ But like first time just the other day, we went and got like my son went with me and we got a giant 50 pound bag ice or 20 pound 50 20 pound bag ice filled with the bathtub.
+
+00:29:58.000 --> 00:30:04.000
+ Oof. It was painful, but it was so good. You feel so good later after you get out.
+
+00:30:04.000 --> 00:30:08.000
+ I mean, if you're kind of wind knocked out, I'm sure you have like playing sports, you get hit in like the other plexus.
+
+00:30:08.000 --> 00:30:13.000
+ Oh, yeah. It feels like that to me when I get in and I feel like it's just like stuck in the air out of my lungs.
+
+00:30:13.000 --> 00:30:15.000
+ My whole family actually watched.
+
+00:30:15.000 --> 00:30:21.000
+ So both my boys wanted to watch me react to get it. I was in my speedo, but like got in the ice bath and they just cackled.
+
+00:30:21.000 --> 00:30:25.000
+ They just watched me like freak out and they loved it. It was entertaining.
+
+00:30:25.000 --> 00:30:27.000
+ Do your kids have phones? No.
+
+00:30:27.000 --> 00:30:32.000
+ Yeah. I mean, my oldest is eight. Are eight year olds supposed to have phones? Maybe they are.
+
+00:30:32.000 --> 00:30:35.000
+ No, I'm just waiting for them to get a phone so they record the stuff and send it to me.
+
+00:30:35.000 --> 00:30:39.000
+ Oh, no. Yeah, you'd have a great time with Casey's phone.
+
+00:30:39.000 --> 00:30:42.000
+ You could see all kinds of entertaining things that will never make that up.
+
+00:30:42.000 --> 00:30:47.000
+ I wish she was on Twitter. Well, as long as data privacy, as long as we don't get a leak or something.
+
+00:30:47.000 --> 00:30:54.000
+ I wanted to clarify one thing about data privacy because there is like an angle on it that I do kind of care about.
+
+00:30:54.000 --> 00:30:58.000
+ And I don't want to like omit it. Someone reminded me like what they reminded me.
+
+00:30:58.000 --> 00:31:07.000
+ I'm not afraid of companies generally having the data because like their incentive structure is not perfect, but it's decent.
+
+00:31:07.000 --> 00:31:09.000
+ It's not like terrible.
+
+00:31:09.000 --> 00:31:15.000
+ But there is this reality that if the data exists, it can be abused by someone.
+
+00:31:15.000 --> 00:31:19.000
+ And it might not necessarily be the company. It might be like some government force.
+
+00:31:19.000 --> 00:31:24.000
+ So I do kind of worry about that where and it's not anything that dramatic.
+
+00:31:24.000 --> 00:31:28.000
+ It's not like they're going to use it to like brainwash you or like come and kill you.
+
+00:31:28.000 --> 00:31:34.000
+ Like it's not that dramatic. I mean, there's more practical things that kind of happen that are like a little bit weird.
+
+00:31:34.000 --> 00:31:53.000
+ But with all this, like the abortion stuff that happened in the USA last year, some state governments are now asking for data on people like searching for these topics or like, you know, they can even like find out if you're pregnant, right?
+
+00:31:53.000 --> 00:32:03.000
+ Like there's like a lot of sensitivity to that. So now as a company, I don't want to have any of that data because I don't want the government to come knock at the door.
+
+00:32:03.000 --> 00:32:11.000
+ Like I'm like, I don't want that to support my business. And also like ethical point of view feels weird like screwing over your users in that way.
+
+00:32:11.000 --> 00:32:19.000
+ So yeah, I think that data privacy, I'm like less worried about the companies and I'm more worried about like stuff like that.
+
+00:32:19.000 --> 00:32:26.000
+ Again, I don't think I can't imagine anything today that I'm exposed to, but hypothetically, like no one really imagined this angle.
+
+00:32:26.000 --> 00:32:38.000
+ So I think I generally believe that there's some stuff that needs to be cloud hosted for it to be good and convenient. I don't think everything falls under that.
+
+00:32:38.000 --> 00:32:44.000
+ So stuff that doesn't need to be that way, like things that are like, you know, period trackers stuff like that, like that doesn't need to be.
+
+00:32:44.000 --> 00:32:50.000
+ We talked about this for me because they we work with fertility clinics and like we need to capture some of that data.
+
+00:32:50.000 --> 00:32:56.000
+ If that can be housed locally, it should, because we don't necessarily do anything with it when it's housed on our end, besides thinking it.
+
+00:32:56.000 --> 00:33:05.000
+ Yeah, it's such a conflicting thing for me because on the one hand, I kind of want to go like off the grid and like be completely, like, unfindable.
+
+00:33:05.000 --> 00:33:11.000
+ So like, that's definitely data privacy. But I think the thing that frustrates me is just the stupid, like, cookie stuff.
+
+00:33:11.000 --> 00:33:19.000
+ It's like sites knowing where you've been and all that. Like, I just feel like that stuff is less sensitive than personal information.
+
+00:33:19.000 --> 00:33:30.000
+ I definitely don't want my personal information all over the place. And I know GDPR was trying to limit the spreading of personal information, but like we talked about, it just feels like practically it's not really doing that.
+
+00:33:30.000 --> 00:33:35.000
+ And it's a lot of bureaucracy. I don't know. That's oversimplified.
+
+00:33:35.000 --> 00:33:50.000
+ And the other side of it is like so many of the things we rely on require a certain business model. Like, the thing that Apple did was maybe a year ago now, like, you have to opt in and that like killed like a whole class of small business.
+
+00:33:50.000 --> 00:33:57.000
+ Because like, there was, there's a very clear channel of I'm a small business. I make like a single product. Like, I make like a really cool towel or whatever.
+
+00:33:57.000 --> 00:34:06.000
+ And your entire channel was Instagram is so good at finding people that want to buy this. And I'm going to use it. And after they made that change, like company shut down, like just stuff went out of business.
+
+00:34:06.000 --> 00:34:14.000
+ So a lot, it's all interconnected. Like a lot of stuff depends on this. This is this system that we built monetizing the internet.
+
+00:34:14.000 --> 00:34:25.000
+ Yeah, that was not another thing I want to talk about was capitalism and all of that stuff. I don't know. Just after Twitter, I just don't feel like going into any of that.
+
+00:34:25.000 --> 00:34:39.000
+ Yeah, because I mostly because I don't know anything. I just people think I like have strong opinions when I say things. I don't. I mostly know nothing. I know the world is super complex and did like, I will probably change my mind on every single topic over the next five years.
+
+00:34:39.000 --> 00:34:49.000
+ I'm very easily swayed. I don't know. I'm not like, that's fine. It's fine for you to say you don't know anything. I think the problem is when you start to know a little bit.
+
+00:34:49.000 --> 00:35:01.000
+ That's like, it just doesn't get annoying. I feel like, I mean, especially with that topic, people just use that word to like, they like blame everything on capitalism. It's kind of turns into this like.
+
+00:35:01.000 --> 00:35:11.000
+ Yeah, boogeyman was with no meaning. And it's like anything bad. It's because of this thing. Well, what if you ask them, what is the thing? They can't really explain it. And I would actually ties the thing that's bad.
+
+00:35:11.000 --> 00:35:17.000
+ But again, that's like, if you're entirely like, I don't know anything, you're like, not going to say that. But if you think you know a little bit, that's when
+
+00:35:17.000 --> 00:35:30.000
+ you're saying, I just find all my frustration comes with people in that category because I am not looking at them as some random person. I'm looking at them as like a previous version of me that had complete thoughts.
+
+00:35:30.000 --> 00:35:44.000
+ So it's a very frustrating conversation to have because it's like, I'm not disagreeing with you. Like, I really remember when that was a set of information I had. And I thought exactly the way you did. And I like, now I'm sitting somewhere else having learned more.
+
+00:35:44.000 --> 00:35:57.000
+ Yeah. So I just, I personally just avoid conversations that are like that kind of set up. It's implied that it's hard to save any one time and get them to a point that you've gotten too faster.
+
+00:35:57.000 --> 00:36:13.000
+ Yep. Agreed. Okay. I got two possible topics before we end this. We should probably save one for another episode and you get to pick one is Twitter. What's been going on lately? I got thoughts on like, we could talk about the milk thing.
+
+00:36:13.000 --> 00:36:30.000
+ We could talk about other things that have been talked about on Twitter. Two is like, this tech stack, the stuff going on right now with SST. And I love it. I love this stuff so much. And I generally just love a lot of the new stuff that's coming out and the new tooling and how this stuff's all coming together.
+
+00:36:30.000 --> 00:36:45.000
+ It feels really good. And then that's in contrast with like levels, you know, Peter levels just tweeted that, like, his whole side project makes $6,000 a month. It's one big PHP file or whatever and CSS. And then a lot of people kind of came out and they're like, yeah, see architecture is dumb.
+
+00:36:45.000 --> 00:36:59.000
+ You don't need any of it. And microservices and whatever. But I don't know. I think that's kind of that's all one conversation to me is like, there is a lot of good modern new stuff and not to just dismiss it and throw it all out because Peter levels is good at making.
+
+00:36:59.000 --> 00:37:12.000
+ Side projects. Yeah. Okay. That last one. Oh, God. I want to talk about both. But the last one is like top of mind because I just find that guy. I muted him recently because I like just don't want to see a shit anymore. But I said somehow see that in my feed anyway.
+
+00:37:12.000 --> 00:37:26.000
+ Let's talk about both. Just whichever way to go. Okay. So the thing. So, yeah, so the guy we're talking about, he is an indie hacker. He is in. I mean, I feel we haven't talked about him before. He's exceptional at building one man products that make a shit ton of money.
+
+00:37:26.000 --> 00:37:31.000
+ Top point one percent of the world at doing that, I would say. Yeah.
+
+00:37:31.000 --> 00:37:37.000
+ It's probably top one, like maybe the number one person doing literally the way he does.
+
+00:37:37.000 --> 00:37:54.000
+ I have a very simple explanation for this. He is successful in spite of his tech sec. That's really it. It's so good at what he does. Like it outshines any other property of like you can probably hyper analyze like any little thing like you can probably like.
+
+00:37:54.000 --> 00:38:05.000
+ Like look at his daily schedule and be like he wakes up at 10 a.m. That means you don't have to wake up early to be successful. Yeah, I think that's literally the level conversation that they're having about technology.
+
+00:38:05.000 --> 00:38:14.000
+ But because about technology, it seems like it's less arbitrary. Yeah, the stuff he does. It doesn't matter how he builds it because he tends to follow.
+
+00:38:14.000 --> 00:38:25.000
+ He tends to always have the first. He tends to be the first mover in any new thing because he's just brilliant at seeing that and executing quickly. Like he's good with his stack. He's good with what he does.
+
+00:38:25.000 --> 00:38:34.000
+ Yeah, he's very familiar with it. You can ship it fast. Like great. But you can take away something from that, but you definitely can't take away that architecture is dumb.
+
+00:38:34.000 --> 00:38:46.000
+ Like we are streaming on Twitch right now. Guess what? Twitch isn't built like that. Yeah, you can't go to it that way. And most people are not going down that path.
+
+00:38:46.000 --> 00:38:51.000
+ And even in that path of like being entrepreneur, there's like so many different things you're trying to build, right?
+
+00:38:51.000 --> 00:38:58.000
+ So if you're trying to get a job, you need to most likely you do need to know a lot of those things because those things aren't made up for no reason.
+
+00:38:58.000 --> 00:39:07.000
+ Even if you're trying to build your own thing, depending on what you're like SST, which is a company, a various fall company, we've shared a lot of philosophies as a guy.
+
+00:39:07.000 --> 00:39:16.000
+ It's like staying small and like being lean and being really efficient. We could not build them that way. Boomi, another one absolutely cannot be built in that way.
+
+00:39:16.000 --> 00:39:27.000
+ So it's kind of a dumb conversation to me. It's like you guys are missing the point. Just take what he's good at and like appreciate him and like learn from that, but don't focus on all this other stuff that's completely irrelevant in what he does.
+
+00:39:27.000 --> 00:39:40.000
+ Yeah, he's an outlier. I listened to that book. It's one of the 10 books I've listened to. He's an outlier. And it's like as an individual, as an indie hacker, if you will, there is a ceiling as to what you can build alone.
+
+00:39:40.000 --> 00:39:52.000
+ I think that ceiling is getting higher all the time. And I think like things like SST enable to raise that ceiling, but it's never going to be like an individual can't create, like you said, Twitch, an individual can't create.
+
+00:39:52.000 --> 00:40:06.000
+ Yeah, whatever YouTube and like there are limits, but those limits are still pretty high. Like levels is showing that like you can make a ton of money as an individual if you're top 10 in the world.
+
+00:40:06.000 --> 00:40:17.000
+ Yeah. And it's like, I've definitely come around on this a lot because I definitely was a lot more modest than what I was shooting for. I was like, I just want to be extremely comfortable and not have to think about anything.
+
+00:40:17.000 --> 00:40:28.000
+ And like, that's not that high of a bar for someone like me. If that's what I was focused on, I would kind of go maybe like more towards his approach, like build small products that, you know, make money like that.
+
+00:40:28.000 --> 00:40:40.000
+ But more and more lately, I've just been like, why do that limit? It's like way, way, way more fun playing in like the biggest market and shooting for like the biggest thing possible.
+
+00:40:40.000 --> 00:40:55.000
+ I've found that to be like a lot, a lot more motivating. I think in the process of building SST, it's always been about, like, if you look at our mindset over the years, it's always been us realizing we're focused on this area, but why not focus even wider.
+
+00:40:55.000 --> 00:41:07.000
+ And then we'll like to do that. Okay, but why not focus even wider and just keeps getting wider and wider and wider. It's like way more fun to shoot for like, like right now our scope is anyone building on AWS, the default should be SST.
+
+00:41:07.000 --> 00:41:16.000
+ That's like, it's literally a million people, million businesses. That's huge, right? It's like massive massive. We're like at like a couple thousand, like maybe like 3000 right now.
+
+00:41:16.000 --> 00:41:26.000
+ So to me, like shooting really big is really exciting and really fun. And when you are successful, it's not just about your own life. That's in fact, of course your life is impacted.
+
+00:41:26.000 --> 00:41:36.000
+ But now you have the resources to like invest in other things and like shape the world in different ways and like push things in a direction that you want, you want them to be.
+
+00:41:36.000 --> 00:41:44.000
+ I'm really interested and excited by all that. So yeah, yeah, so I guess it's even if you're an entrepreneur, like you have different.
+
+00:41:44.000 --> 00:42:02.000
+ There's like different flavors of it. And it's really just that. And so much of the conversation on Twitter, unfortunately, it's held back by people in different worldviews, different, like entrepreneurial paths, cross talking and not like not gathering that they're just approaching things very differently because they're looking at the world very differently.
+
+00:42:02.000 --> 00:42:12.000
+ Like there's places for all these types of entrepreneurs. But like we start, especially in the technical realm, we start applying lessons across those boundaries and it just doesn't make any sense.
+
+00:42:12.000 --> 00:42:21.000
+ Yeah, it does. And I feel like every couple months, I feel the need to tweet something like everything I say is from a perspective of you trying to build a big company with a small team.
+
+00:42:21.000 --> 00:42:34.000
+ Like everything I say is under that perspective. Yeah, because you can like take Kubernetes, like just totally trash Kubernetes all day. And it's like for your perspective, it's completely valid.
+
+00:42:34.000 --> 00:42:42.000
+ But like, I don't know, some person that works at Google or I guess Google doesn't use Kubernetes. Whoever uses Kubernetes, maybe it makes sense to them.
+
+00:42:42.000 --> 00:42:54.000
+ Yeah, exactly. I mean, yeah, it's just like when people don't scope what they talk about, I just kind of lose respect for them. So if it was just external people commenting about levels being like, "Oh, look, he does this, blah, blah, blah."
+
+00:42:54.000 --> 00:43:01.000
+ That's whatever because people are misinterpreting it, but he himself really pushes his narrative of like, and it feels like really arbitrary.
+
+00:43:01.000 --> 00:43:11.000
+ Like, why is he upset by this and why is he always attacking it? And that is a fundamental thing for me. If you're going to be successful and you don't know how to be happy and not bitter,
+
+00:43:11.000 --> 00:43:15.000
+ I don't feel like I need to like listen to you at all. Like, that's like the main thing.
+
+00:43:15.000 --> 00:43:26.000
+ So do you get the vibe or you get the feeling that he's upset? I guess I viewed it as like, it's great marketing because he stirs up a whole lot of stuff on Twitter and I don't know, it gets some attention.
+
+00:43:26.000 --> 00:43:29.000
+ I didn't get the sense that he was upset by it.
+
+00:43:29.000 --> 00:43:34.000
+ Maybe I'm reading it wrong, but to me, he sounds kind of like bitter that he's not like a real programmer or something.
+
+00:43:34.000 --> 00:43:42.000
+ Or he wants like more people to, I don't know, there's like something negative about it. It's not inspirational. It's more like...
+
+00:43:42.000 --> 00:43:44.000
+ No, I know what you're saying.
+
+00:43:44.000 --> 00:43:45.000
+ Yeah.
+
+00:43:45.000 --> 00:43:49.000
+ As a fellow, not very inspirational, pretty negative person. I totally understand.
+
+00:43:49.000 --> 00:43:56.000
+ But, okay, so that's a good segue into the second point, which is Twitter is fun.
+
+00:43:56.000 --> 00:44:04.000
+ And you've convinced me, you tweeted something the other day about how he said. But basically, like, it is what you want to make it and it can be a great experience.
+
+00:44:04.000 --> 00:44:11.000
+ And there's a lot of wonderful people. And when you really focus on that and just the hanging out part of Twitter, it really is a great place to be.
+
+00:44:11.000 --> 00:44:14.000
+ And the milk thing was refreshing.
+
+00:44:14.000 --> 00:44:19.000
+ I mean, like, we all know why we were talking about milk. It's obvious.
+
+00:44:19.000 --> 00:44:27.000
+ It was fun. And we were all in on the note. It was so fun to be in on that joke that I totally understood.
+
+00:44:27.000 --> 00:44:39.000
+ What's really funny is I feel like I like learned so much of it. I forgot to have like rich thoughts about all this the past week because they're just like as stupid as it was, but it's like so much sophistication behind it.
+
+00:44:39.000 --> 00:44:47.000
+ So just for context, this is just a random thing that happened. It's just like a random thing. It was really random to start posing with milk.
+
+00:44:47.000 --> 00:44:55.000
+ So it was kind of funny to be like overly serious about, you know, something as stupid as what kind of milk you drink.
+
+00:44:55.000 --> 00:45:03.000
+ And it was just a fun thing to do. And most people saw it. I would guys, some bad story people saw it. They thought it was funny.
+
+00:45:03.000 --> 00:45:07.000
+ They thought, okay, like, let me like get on into you. They liked their little thing. It was a fun thing for all of us.
+
+00:45:07.000 --> 00:45:15.000
+ And I think it came at a nice time where it's just been weeks of like, next is at Browder. Terrible, like ruining my life, my company.
+
+00:45:15.000 --> 00:45:21.000
+ It just like needed some relief from like the most boring topic on the planet.
+
+00:45:21.000 --> 00:45:30.000
+ Yeah. So I think it was just like a nice contrast with that. But it was also so interesting to see how much people overthought it.
+
+00:45:30.000 --> 00:45:39.000
+ And I'm just so convinced more and more every day that every frustration I have is from people like thinking way too hard about something and like coming to some stupid conclusion.
+
+00:45:39.000 --> 00:45:47.000
+ But so a lot of people were like, like, you shouldn't judge people for what kind of milk they drink. And they were like thinking about it.
+
+00:45:47.000 --> 00:45:55.000
+ Like, you're just like entirely like, it's, I can't believe I have to like explain the spell out like why that's not the joke.
+
+00:45:55.000 --> 00:46:01.000
+ And the whole like, are they like suggesting like white supremacy? Like that whole thing was like, Oh, yeah, that whole thing.
+
+00:46:01.000 --> 00:46:10.000
+ Like that sounds like I should have parody. Like there's a whole thread on, like, is this about white supremacy? And people explaining it to me like, no, but like it actually, it's just like...
+
+00:46:10.000 --> 00:46:14.000
+ It's only white people talking about it. I mean, I don't white tech guys.
+
+00:46:14.000 --> 00:46:23.000
+ Dax, are you, are you white? Okay. Yeah. I think like there's some part of like, if you feel like there's an inside joke and you don't really get it.
+
+00:46:23.000 --> 00:46:30.000
+ Okay. So I felt like there's an inside joke. I didn't really get it. I didn't understand. I kind of came back to Twitter after being pretty unplugged.
+
+00:46:30.000 --> 00:46:37.000
+ And like all this milk stuff. And when you don't really get the inside joke, it does feel bad. But then when you realize like there, there is no inside joke.
+
+00:46:37.000 --> 00:46:45.000
+ It's literally just people posting about milk for the funsies. It started with a couple tweets and it just kind of turned into like, Hey, we could talk about something else that's not tech.
+
+00:46:45.000 --> 00:46:50.000
+ When you embrace it for that, then it's really harmless. And it was just a good time. Yeah. And the joke is there is no inside joke.
+
+00:46:50.000 --> 00:46:54.000
+ Anybody who thought there was deeper meaning. Yeah, exactly. There is no deeper anything to it.
+
+00:46:54.000 --> 00:47:04.000
+ And everyone can get in on it and perpetuate it. And again, to me, it's just so obvious that's how it is. But I would imagine 98% of people.
+
+00:47:04.000 --> 00:47:10.000
+ That's what their reaction was. But some people were upset by it. They were like, this isn't funny. Like, I don't like it. I don't like seeing this on my feed.
+
+00:47:10.000 --> 00:47:18.000
+ I'm just like, like, I saw that. And I was like, you know, Twitter is what you make of it. If you are seeing the situation and you can't laugh at it and have a good time.
+
+00:47:18.000 --> 00:47:28.000
+ The problem is in Twitter. There's something going on where you have some perception of these things. And I bet all sorts of things in life are going to trigger negative feelings for you.
+
+00:47:28.000 --> 00:47:35.000
+ Yeah, I can speak from experience because I feel like I've not been enjoying Twitter the last few months. And I've not been enjoying life.
+
+00:47:35.000 --> 00:47:42.000
+ I mean, I feel like everything is so, I've talked about it. Like, I feel like everything is so good. I can't figure out why I'm unhappy.
+
+00:47:42.000 --> 00:47:48.000
+ And I have reasons now that I think I figured it out. But yeah, I think it reflects your current mental health.
+
+00:47:48.000 --> 00:47:52.000
+ Like, I think any social media is going to feel real bad when you're just not feeling real good.
+
+00:47:52.000 --> 00:48:00.000
+ Yeah, it's like a mirror and an amplifier. So it can be really harmful if, but it's not like it's not the source of the problems or somewhere else.
+
+00:48:00.000 --> 00:48:05.000
+ And it's maybe amplifying it or like you're being forced to look at something you don't want to. So, yeah, I don't know.
+
+00:48:05.000 --> 00:48:13.000
+ I think learning, like knowing how to be happy, knowing how to have a good time regardless of like what's going on is like a skill you can develop.
+
+00:48:13.000 --> 00:48:20.000
+ Like, I don't think it's like you're like a victim to the world. I think you can like figure out, okay, here's why I have a bad mindset.
+
+00:48:20.000 --> 00:48:24.000
+ Here's I would have a good mindset. I don't know. I think that is something I've gotten better at over time.
+
+00:48:24.000 --> 00:48:30.000
+ And people that are like people I look up to that are older and like they're, they're usually successful in very material ways.
+
+00:48:30.000 --> 00:48:35.000
+ But then I also see that they just like really enjoy every like minute of their day in their life.
+
+00:48:35.000 --> 00:48:39.000
+ And that's kind of that's like a goal to shoot towards. Yeah.
+
+00:48:39.000 --> 00:48:42.000
+ So will you jump off a plane with me?
+
+00:48:42.000 --> 00:48:44.000
+ Jump out of the milk.
+
+00:48:44.000 --> 00:48:50.000
+ We can go milk video while skydiving to top the Warren and private.
+
+00:48:50.000 --> 00:48:59.000
+ That was crazy. I mean, I think you should do it because to me, that's like a very Ozark thing to do because I feel like there's a lot of empty land and I can see you like landing in the field.
+
+00:48:59.000 --> 00:49:00.000
+ I don't know.
+
+00:49:00.000 --> 00:49:06.000
+ No, I wouldn't do it alone. I would have to have somebody with me and who else would I bring, but that's.
+
+00:49:06.000 --> 00:49:09.000
+ I'm not doing this. I'm just telling you right now. I'm not doing this.
+
+00:49:09.000 --> 00:49:15.000
+ Okay. Me neither. But I did think about it. I honestly thought about asking Casey if she would be completely opposed.
+
+00:49:15.000 --> 00:49:20.000
+ I've never considered jumping out of a plane in my life. But when I saw that video, I was like, somebody's got to do it.
+
+00:49:20.000 --> 00:49:23.000
+ I think we should do it. I don't know. I feel like it makes sense.
+
+00:49:23.000 --> 00:49:32.000
+ Could you even take milk with you jumping out of a plane? Do they let you have objects? Yeah, because you have to ask because you realistically, you wouldn't be on your own.
+
+00:49:32.000 --> 00:49:34.000
+ You'd be tandem. You'd be like attached to them.
+
+00:49:34.000 --> 00:49:37.000
+ Yeah, I'd be like strapped to somebody who knows what they're doing. I'd just be.
+
+00:49:37.000 --> 00:49:42.000
+ They could feed you because they could be holding in. You like strapped to them like a baby.
+
+00:49:42.000 --> 00:49:44.000
+ Okay. Yeah.
+
+00:49:44.000 --> 00:49:45.000
+ Yeah.
+
+00:49:45.000 --> 00:49:47.000
+ So stuff on message me.
+
+00:49:47.000 --> 00:49:54.000
+ I don't know if you know, we've probably seen him around Twitter. He's like, we should do a Miami version where we're at a club and we get bottle service.
+
+00:49:54.000 --> 00:50:00.000
+ And usually we get bottle service like to come out with like, you know, the freaking the sparklers and everything.
+
+00:50:00.000 --> 00:50:07.000
+ But instead of alcohol, it's just be a thing of milk and the milk is his fiance like has the right connections to make that happen.
+
+00:50:07.000 --> 00:50:15.000
+ So I'm like, make that happen. Please do. Just keep it going. There's a lot of steps between what Prime and Warren did on.
+
+00:50:15.000 --> 00:50:20.000
+ They got on the lake and they like wakeboarding, I guess, is that what that's called?
+
+00:50:20.000 --> 00:50:27.000
+ Prime, you know, poured the milk and Warren's mouth just for people who didn't see it. You can find it on Twitter. It's amazing.
+
+00:50:27.000 --> 00:50:31.000
+ There's a lot of steps between that and skydiving. I think there's a lot of incremental things that could be done.
+
+00:50:31.000 --> 00:50:32.000
+ Yes.
+
+00:50:32.000 --> 00:50:35.000
+ And we could amp ourselves up until somebody will jump out of a plane. I'm sure of it.
+
+00:50:35.000 --> 00:50:38.000
+ I think milk has had that kind of effect on us as a community.
+
+00:50:38.000 --> 00:50:47.000
+ But after his white supremacy thing, I feel the momentum kind of slowed down as late as it is to let it ruin it. But yeah, I'm going to come out and just confess that I'm a white supremacist.
+
+00:50:47.000 --> 00:50:54.000
+ I was considering going on Twitter yesterday being like, yeah, there's no thing is about white supremacy. I think white people are better.
+
+00:50:54.000 --> 00:50:58.000
+ People will make it seriously.
+
+00:50:58.000 --> 00:51:03.000
+ That's a problem. There's going to be some section of people that take it seriously and then it's going to become more of a problem.
+
+00:51:03.000 --> 00:51:10.000
+ So July 4th special double, double edition. July 4th. Oh, yeah. Happy Independence Day. If you're in the U.S.
+
+00:51:10.000 --> 00:51:15.000
+ Bigger in America, one hour podcast episode. Do you have a lot of trees around you?
+
+00:51:15.000 --> 00:51:19.000
+ Is that a question? Yes. Well, what? Yeah, of course.
+
+00:51:19.000 --> 00:51:25.000
+ I didn't hear the first part. I couldn't tell if you were like, you have a lot of trees. I don't have an accusation.
+
+00:51:25.000 --> 00:51:29.000
+ Do you, Dax, live in an area that's really like blanketed in trees? Yes.
+
+00:51:29.000 --> 00:51:37.000
+ Yeah, same. And every night that as I hear the fireworks going off for the last four days, because in the Ozarks, they just start buying them and start shooting them off every day.
+
+00:51:37.000 --> 00:51:40.000
+ Do they do that in Miami? Yeah, yeah. All last night. I was like doing test runs.
+
+00:51:40.000 --> 00:51:47.000
+ Every night I'm thinking to myself, as I'm falling asleep, is the forest behind me going to burn down tonight? That's a fun thought.
+
+00:51:47.000 --> 00:51:50.000
+ So let's get past the fourth. Nobody calls any giant fires. That'd be great.
+
+00:51:50.000 --> 00:51:54.000
+ Everything is just so wet here in Miami. Like fire is just not like a concern.
+
+00:51:54.000 --> 00:51:58.000
+ Yeah, we've not had a lot of rain in the Ozarks. So something's getting lit on fire.
+
+00:51:58.000 --> 00:52:03.000
+ Like with the scale of July 4th, do people die every year because of July 4th activities?
+
+00:52:03.000 --> 00:52:10.000
+ Well, I'm sure. And I think I heard California, maybe Nevada. There's some states that have outlawed fireworks now because of forest fires. I can't do it.
+
+00:52:10.000 --> 00:52:15.000
+ Like it's just, it's not a good idea. It causes fires, I guess, every year. So...
+
+00:52:15.000 --> 00:52:21.000
+ I just love seeing those videos where like someone actually lights all the fireworks at once. I think you commented on one the other day.
+
+00:52:21.000 --> 00:52:30.000
+ Oh, yeah. And I watch it a bunch of times and I swear. Okay, so in the video, something small initially goes wrong, then something massive goes wrong.
+
+00:52:30.000 --> 00:52:39.000
+ And I swear after the small thing goes wrong, I see a guy go around the corner and then make the bad, like the massive bad thing happen on purpose.
+
+00:52:39.000 --> 00:52:44.000
+ I'm like, what is going on? Maybe he was trying, maybe he was just trying to kick him away from the fire.
+
+00:52:44.000 --> 00:52:52.000
+ And then he was holding something burning and throwing it into a box of fireworks is what it looked like to me. If she glues her fingers, I know like...
+
+00:52:52.000 --> 00:53:00.000
+ Wasn't that NFL player? Yeah, that happens. People like throw them at each other and say it's just pretty dumb. Anyway, let's just say goodbye.
+
+00:53:00.000 --> 00:53:01.000
+ Yeah. Bye, Dax.
+
+00:53:14.000 --> 00:53:16.580
+ (upbeat music)
+

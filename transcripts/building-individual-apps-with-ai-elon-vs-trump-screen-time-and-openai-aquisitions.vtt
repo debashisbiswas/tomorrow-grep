@@ -1,0 +1,2348 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.600
+ If I turn my headphones down enough to not have you be that loud, I can't hear myself
+
+00:00:03.600 --> 00:00:08.720
+ in the mic and it just bothers me. I like to know like our balanced levels or I'm sorry Chris,
+
+00:00:08.720 --> 00:00:12.160
+ though, because now he's got this little like, he's got it in my room. He's got it. Yeah,
+
+00:00:12.160 --> 00:00:36.800
+ a little extra work. A little extra worky work. There you go.
+
+00:00:37.680 --> 00:00:42.240
+ I feel like every product goes through this where it's like the inch identification thing.
+
+00:00:42.240 --> 00:00:47.280
+ I remember when I first started using Riverside, I didn't really feel like it was
+
+00:00:47.280 --> 00:00:54.480
+ bad or like, it was simple or straightforward. But I feel like what happened is they kept having
+
+00:00:54.480 --> 00:01:01.360
+ to us edge cases because how often did something go wrong recording wise? Like there was maybe
+
+00:01:01.360 --> 00:01:05.600
+ one case and seemed like it was kind of our fault. But up there from their perspective,
+
+00:01:06.720 --> 00:01:12.480
+ if like 1% of recordings were failing, that's like really bad. So then they started to introduce
+
+00:01:12.480 --> 00:01:18.960
+ all these fixes for it. Like it was opening a new tab and doing so from the background for a while,
+
+00:01:18.960 --> 00:01:23.600
+ like, and I'm assuming this I can't switch a mic during recording, that's probably has to do
+
+00:01:23.600 --> 00:01:28.960
+ something with just catching all these things. But yeah, it makes like the average experience
+
+00:01:28.960 --> 00:01:35.440
+ worse while making like the worst case experience better. But it just like there's can't be no other
+
+00:01:35.440 --> 00:01:43.120
+ way, I think. Yeah, like, unless you're building just a thing for you to use. In that case, it's like,
+
+00:01:43.120 --> 00:01:46.640
+ you can make exactly what you want. You don't have to care about the 1%. It's just like,
+
+00:01:46.640 --> 00:01:51.040
+ if it works for you, it works. Is that where we're headed with AI? I had to bring up AI. We're
+
+00:01:51.040 --> 00:01:54.640
+ two minutes in this podcast and I had to say, I was like, damn it, I gave him an angle.
+
+00:01:54.640 --> 00:02:04.160
+ Like, we all just have our own like bespoke software that's handwritten for us on demand lazily.
+
+00:02:04.160 --> 00:02:12.240
+ Okay, so here's my my test for that, right? So I think every person has an idea for the ideal
+
+00:02:12.240 --> 00:02:20.880
+ chopping cart list app or like some kind of to do type thing where there's a 100 of these apps,
+
+00:02:20.880 --> 00:02:26.800
+ but everyone wants like some specific way of doing it. I know Liz specifically has has this.
+
+00:02:27.520 --> 00:02:35.920
+ And I don't think I've seen a single person show off. Oh, hey, I finally use AI to build this
+
+00:02:35.920 --> 00:02:41.120
+ Java card app. I've always knew. So if we see if we see a world where like a bunch of people you
+
+00:02:41.120 --> 00:02:46.880
+ talk to are all like have their own shopping cart app, they built themselves. That's probably a good
+
+00:02:46.880 --> 00:02:52.880
+ test of whether this whole brain programming to the masses thing is happening or not.
+
+00:02:52.880 --> 00:02:58.800
+ Yeah. So I think there it's possible after this podcast episode, we're gonna get like 14 DMs,
+
+00:02:58.800 --> 00:03:02.800
+ people are gonna have built these and bolt and lovable and whatever else. Here's the reason I
+
+00:03:02.800 --> 00:03:09.680
+ bet we haven't seen it yet. None of the people that use those products are living in domestic
+
+00:03:09.680 --> 00:03:14.480
+ bliss. They don't have a need for a shopping app. They're like in cells that are in their basement
+
+00:03:14.480 --> 00:03:19.520
+ just doing what in cells do. You know what I mean? They're not thinking about their shopping.
+
+00:03:19.520 --> 00:03:24.560
+ Yeah, exactly. Mom gets the groceries. They don't just think about it. I guess.
+
+00:03:24.560 --> 00:03:30.480
+ I mean, yeah, but like that's that's that's why it's a good test because it would have to hit.
+
+00:03:30.480 --> 00:03:36.640
+ Yeah, man. The mainstream part of the world where, you know, people are normal and do things like
+
+00:03:36.640 --> 00:03:40.320
+ shopping. I feel like the tech is there. I mean, I feel like the models are good enough that you
+
+00:03:40.320 --> 00:03:44.160
+ could probably see like Jim and I like Google is perfect for that in the next year. I could see
+
+00:03:44.160 --> 00:03:49.280
+ Google having helpful stuff that's just built for Google users. Like you use Gmail. Here's a helpful
+
+00:03:49.280 --> 00:03:54.880
+ thing. I could see that. Yeah, exactly. So yeah, that's why because it's clear that yeah, you can
+
+00:03:54.880 --> 00:04:01.280
+ use an L M to build your ideal shopping cart app. That's like not. I know there's a skeptics, but I
+
+00:04:01.280 --> 00:04:06.720
+ think reasonably you can say that I can do a good job at that. So given it's possible and given there
+
+00:04:06.720 --> 00:04:14.480
+ are tools like Bolt V zero, whatever that let you do it. The remaining question is, is this actually
+
+00:04:14.480 --> 00:04:20.560
+ going to be a thing that the average person is into doing? Yeah, I think there's been waves of
+
+00:04:20.560 --> 00:04:26.320
+ stuff like this where something becomes accessible, but that doesn't mean like everyone starts doing
+
+00:04:26.320 --> 00:04:31.920
+ it. It's usually like there's like a couple months where everyone's like, Oh, we can now do this. And
+
+00:04:31.920 --> 00:04:36.800
+ then everyone does it. And then it just kind of dies out. And it's not like a part of your day to
+
+00:04:36.800 --> 00:04:43.440
+ life at all. This happened with the AI music stuff for me. It was like, I had a burst where I was just
+
+00:04:43.440 --> 00:04:47.760
+ like using it a ton. And I still use it here and there like for Liz's baby shower, I was playing
+
+00:04:47.760 --> 00:04:52.880
+ like really bespoke music for what was literally going on during the baby shower, which was funny.
+
+00:04:52.880 --> 00:04:59.520
+ Yeah. Yeah. So it's not zero, but you know, I'm not like making my all my own music and my
+
+00:04:59.520 --> 00:05:04.000
+ primary listening to music I made myself. I feel like the people using these tools like
+
+00:05:04.000 --> 00:05:10.400
+ bolt, lovable, replant, whatever, they're that guy that everybody knows that has like 14 side
+
+00:05:10.400 --> 00:05:18.720
+ hustles. Like he's he finds like some deal on like, like some old palette of Nike shoes that
+
+00:05:18.720 --> 00:05:23.120
+ were defective. And he like buys the palette and he figures out a way to resell them on eBay or
+
+00:05:23.120 --> 00:05:27.920
+ whatever. Like it's that guy. It's those like very like, I mean, they're very entrepreneurial,
+
+00:05:27.920 --> 00:05:32.720
+ but they're kind of like everything they do is just kind of like sloppy and like just trying to get
+
+00:05:32.720 --> 00:05:37.680
+ just temporary term. Yeah. I feel like that's the kind of guy like I'm thinking of specific
+
+00:05:37.680 --> 00:05:42.000
+ people in my head, the kind of person that uses these apps right now because they're going to
+
+00:05:42.000 --> 00:05:46.400
+ build like these amazing businesses now that they don't need a coder. I think that's where that
+
+00:05:46.400 --> 00:05:52.320
+ market exists right now. And it's like a long ways from like my wife or your wife or people who are
+
+00:05:52.320 --> 00:05:59.760
+ normal. It's the thing is like, I feel like engineers love building for that persona for some reason,
+
+00:05:59.760 --> 00:06:07.440
+ because I think that persona, I'm trying to think about why it's like you need to build a really easy
+
+00:06:07.440 --> 00:06:11.760
+ to use product for someone like that because they're not going to spend time with anything
+
+00:06:11.760 --> 00:06:16.640
+ difficult. So it's like it feels like you're doing something valuable because you're making
+
+00:06:16.640 --> 00:06:21.600
+ something easier and it's challenging to do that. And you generally that maybe can build something
+
+00:06:21.600 --> 00:06:27.360
+ nice. But these people don't pay you anything. So it's just like, right, build these like nice
+
+00:06:27.360 --> 00:06:34.000
+ products for like just the worst customer on the planet. Yeah, it's a big trap that keeps existing.
+
+00:06:34.000 --> 00:06:39.200
+ Yeah, I started to go into some insights I have into the world of degenerate purchasers,
+
+00:06:39.200 --> 00:06:44.240
+ but I'm not going to go there because it's just like, it's probably like inside information I
+
+00:06:44.240 --> 00:06:50.960
+ shouldn't share. But anyway, moving on. So I have some I have some stuff to bring up. So did you see
+
+00:06:50.960 --> 00:06:57.440
+ that crunchy? I almost said crunchy roll. I was thinking when you said crunchy, the first thing I
+
+00:06:57.440 --> 00:07:01.200
+ thought was crunchy roll. I was like, what is crunchy roll? Is that a sushi place? I can't even
+
+00:07:01.200 --> 00:07:06.960
+ remember. No, it's a it's like a Netflix for anime. Oh, how do I know that exists? I don't watch
+
+00:07:06.960 --> 00:07:11.520
+ anime or know anything about it. That's funny. Yeah, I do know some things about anime. I mean,
+
+00:07:11.520 --> 00:07:19.120
+ I blanking on all the words wifu. Hi, hi, I don't know. I've heard a bunch of the words.
+
+00:07:19.680 --> 00:07:23.280
+ Is that a model on Twitter again? Oh, yeah, yeah. Sorry.
+
+00:07:23.280 --> 00:07:28.640
+ Every once in a while, people like throw anime terms at me and I'm like, okay, I guess that
+
+00:07:28.640 --> 00:07:33.920
+ one will stick, but I just forgot them also. Yes. Crunchy, not crunchy. No, not crunchy roll crunchy
+
+00:07:33.920 --> 00:07:40.320
+ data. Sorry, crunchy data. What is crunchy? So crunchy data was a Postgres host and another Postgres
+
+00:07:40.320 --> 00:07:45.280
+ startup. So when that when when average database CEO says eight Postgres startups, there really
+
+00:07:45.280 --> 00:07:49.120
+ are eight of them. I don't even know what they are. But this is like, this is like the real one.
+
+00:07:49.120 --> 00:07:53.280
+ This is like the legit one out of all of them, because they've been around for a long time.
+
+00:07:53.280 --> 00:07:56.400
+ Do you remember Will, Will King, our coach for basketball? Of course.
+
+00:07:56.400 --> 00:08:00.800
+ To our member will. He will go way back. We played basketball. Oh, he works at crunchy data.
+
+00:08:00.800 --> 00:08:04.160
+ Oh, do you go way back? Because you didn't even know where he works. Yeah, we played basketball
+
+00:08:04.160 --> 00:08:12.480
+ together. And that's way back. I guess that was a while ago. So he yeah, he works there, but uh,
+
+00:08:12.480 --> 00:08:18.880
+ they got acquired by this. I'm going to mix with the order. I think this was snowflake
+
+00:08:18.880 --> 00:08:22.640
+ that acquired them. Another database startup, right? Yes, crunchy data. Okay. So crunchy
+
+00:08:22.640 --> 00:08:26.000
+ data is one of the more legit ones. They've been around for a while. Their product is something
+
+00:08:26.000 --> 00:08:32.800
+ that can run on AWS, cool cloud, whatever. It's just very center Postgres. They have a lot of like
+
+00:08:32.800 --> 00:08:38.320
+ the legit Postgres people working there. They're like, they're really like, I know there's obviously
+
+00:08:38.320 --> 00:08:42.880
+ like a hundred Postgres companies, but to me, they're like the Postgres company, similar,
+
+00:08:42.880 --> 00:08:47.200
+ they're the closest to how planned scales with my sequel company. Yeah. Okay.
+
+00:08:47.200 --> 00:08:53.200
+ But they got acquired for 250 million. The reason this is funny to me is because a month ago,
+
+00:08:53.200 --> 00:08:56.400
+ Nian announced that they were acquired for one billion by Databricks.
+
+00:08:56.400 --> 00:09:02.400
+ Wait, what Nian got acquired for a billion dollars? Yeah, which I knew was always going to happen.
+
+00:09:02.400 --> 00:09:06.640
+ Yeah. Well, that's all database companies do is get acquired. It's ever planned scale.
+
+00:09:06.640 --> 00:09:12.160
+ They're just going to be huge. But it feels like I can think of so many stories of database
+
+00:09:12.160 --> 00:09:16.880
+ companies or data companies, I guess, getting acquired. Like if you do something in the analytics,
+
+00:09:16.880 --> 00:09:22.000
+ or database space, sorry. And anything like data, even data engineering related,
+
+00:09:22.000 --> 00:09:28.640
+ tends to get acquired like warp stream. So data bricks and snowflake are like mortal enemies.
+
+00:09:28.640 --> 00:09:36.000
+ They are like in most intense competition, you could think of, I looked at their market cap,
+
+00:09:36.000 --> 00:09:39.440
+ because I'm like, Oh, it's one like clearly better than the other. Their market caps are like
+
+00:09:39.440 --> 00:09:43.600
+ basically the same. They're both public companies. They're like, you know, they're roughly the
+
+00:09:43.600 --> 00:09:50.720
+ exact same market cap. So clear and both of the announcements, which I think is kind of a fake
+
+00:09:50.720 --> 00:09:56.960
+ announcement, we're like, Oh, we're acquiring these Postgres companies, because these are going to
+
+00:09:56.960 --> 00:10:03.600
+ be the back ends for all these AI agents in the future, whatever we need, like an OLTP database
+
+00:10:03.600 --> 00:10:08.160
+ that, you know, does back to stuff. Again, I think that just framing around AI hype, whatever,
+
+00:10:08.160 --> 00:10:14.880
+ to make it make sense. But clearly, something went on behind the scenes, because so Nikita,
+
+00:10:14.880 --> 00:10:20.080
+ the founder of neon, I knew that he was eventually going to get bored of it and sell it for like a
+
+00:10:20.080 --> 00:10:25.200
+ really big number, because he's just in that world. And I know he can maneuver a good exit.
+
+00:10:25.200 --> 00:10:29.360
+ I mean, I don't know if it was good, because they did raise, I'm sure they were valued at 500
+
+00:10:29.360 --> 00:10:33.840
+ million their last round or something like that. So maybe it's like not that crazy of an outcome.
+
+00:10:33.840 --> 00:10:40.800
+ But ignoring that, clearly data bricks and snowflake got played against each other for this neon
+
+00:10:40.800 --> 00:10:46.080
+ acquisition. Because that's the reason they like ratcheted the price up to a billion. And then to
+
+00:10:46.080 --> 00:10:51.760
+ announce a crunchy data acquisition, like right after that, it must have been, you know, data
+
+00:10:51.760 --> 00:10:57.920
+ bricks one that went out that battle and then snowflake went to crunchy. But it's so funny to me,
+
+00:10:57.920 --> 00:11:03.920
+ because if you really want to acquire like a talented team that's good at databases,
+
+00:11:03.920 --> 00:11:09.920
+ like that's clearly the crunchy team, like they built, like they have like real customers,
+
+00:11:09.920 --> 00:11:14.400
+ like it's like a much more tested thing. But they got them for one fourth the price.
+
+00:11:14.400 --> 00:11:20.320
+ Yeah, to be like, so they losing this battle. Yeah, it's kind of good. Yeah.
+
+00:11:21.200 --> 00:11:28.880
+ I mean, I was like, I was saying I was like, maybe snowflake is actually really, really clever,
+
+00:11:28.880 --> 00:11:37.360
+ and they tricked David. Yeah. I love assigning like cleverness to situations.
+
+00:11:37.360 --> 00:11:40.800
+ It's never the case. People, it's called not the case, but it's just fun to think about like,
+
+00:11:40.800 --> 00:11:46.160
+ oh, they galaxy pranked it hard. I love it. That's like, how in what world do you pay
+
+00:11:46.160 --> 00:11:51.520
+ four times as much for neon? That's you do for just, it just makes no sense to me. But yeah,
+
+00:11:51.520 --> 00:11:56.560
+ it's just the times we live in, you know, when there's a churny frothy environment, like,
+
+00:11:56.560 --> 00:12:03.360
+ like there's with AI stuff. Also, like, I don't really get why they're so aggressive about like,
+
+00:12:03.360 --> 00:12:08.960
+ is it really the AI thing? Like, I get them wanting to have an OLTP database in their,
+
+00:12:08.960 --> 00:12:14.720
+ in their product offering that makes little sense. But like, what is this AI angle?
+
+00:12:14.720 --> 00:12:21.120
+ But our OLTP database is really aligned with AI. I feel like just text files is the AI move.
+
+00:12:21.120 --> 00:12:26.160
+ Yeah, I don't, I mean, it's just like, it's just a useful database that can be used for a lot of
+
+00:12:26.160 --> 00:12:31.440
+ things. So like, yeah, you build AI apps on it, just like you build literally anything on post
+
+00:12:31.440 --> 00:12:36.160
+ because maybe it's maybe it's a bet, again, galaxy branding, maybe it's just a bet on the
+
+00:12:36.160 --> 00:12:42.400
+ proliferation proliferation, proliferation of software in general, AI is going to just bring
+
+00:12:42.400 --> 00:12:46.160
+ out a boom in software. Yeah, that makes sense. And I think that that's probably the more more
+
+00:12:46.160 --> 00:12:52.800
+ reasonable thing. But like the data bricks one kept focusing around. So neon's architecture is
+
+00:12:52.800 --> 00:13:02.320
+ good for spinning up a bunch of databases that never get used. Free tier. Yeah, so it's very
+
+00:13:02.320 --> 00:13:06.240
+ optimized for again, what we were talking about earlier, it's a really great DX experience for
+
+00:13:06.240 --> 00:13:11.440
+ the customers that never use you, that never have any usage, I mean. So that I see how it's
+
+00:13:11.440 --> 00:13:16.800
+ primed a little bit more for some of this stuff, because yeah, if both, and these are all these
+
+00:13:16.800 --> 00:13:24.320
+ companies are letting people spin up like a million apps a week. It's good to have a Postgres
+
+00:13:24.320 --> 00:13:29.920
+ database that doesn't cost anything to run. Because I know super base is like integrated
+
+00:13:29.920 --> 00:13:35.360
+ with some of these tools, and they're not like that. I'm pretty sure they're like spinning up
+
+00:13:35.360 --> 00:13:39.120
+ an EC2 instance or like packing an EC2 instance for every single one. And it's just not optimized
+
+00:13:39.120 --> 00:13:47.280
+ for that. So it's probably very expensive, then to support these like zero revenue users. Yeah.
+
+00:13:47.280 --> 00:13:54.320
+ So the neon one, I see why the serverless angle makes makes sense. But I think all these companies
+
+00:13:54.320 --> 00:14:00.400
+ will probably just build a purpose built like completely integrated database that makes sense
+
+00:14:00.400 --> 00:14:06.400
+ for this type of thing. Because like shoehorning Postgres into being serverless is like, you can
+
+00:14:06.400 --> 00:14:11.680
+ do it like neon did, but it's like something like Dynamo like fits a lot more like that model.
+
+00:14:11.680 --> 00:14:16.480
+ They're just like build a custom database and attach to one of these tools. I think that's
+
+00:14:16.480 --> 00:14:20.160
+ probably the end state if these tools even make any sense. Yeah, the free tier thing just reminded
+
+00:14:20.160 --> 00:14:25.040
+ me of the US spending bill. What is what is this human urge to just like forget the future?
+
+00:14:25.040 --> 00:14:29.360
+ What's just like, you know what I mean? Like this, the free tier thing is the same urge to just like
+
+00:14:29.360 --> 00:14:35.200
+ go into crazy debt and like doesn't need to be sustainable. Like Planet Scott, I wish the US government
+
+00:14:35.200 --> 00:14:40.080
+ ran like Planet scale. I feel like that's that's the approach of like we're going to be sustainable.
+
+00:14:40.080 --> 00:14:46.720
+ Well, it's not fundamentally wrong because it makes sense like debt. I think most people
+
+00:14:46.720 --> 00:14:52.960
+ have such a negative relationship with the word debt, but technically it makes total sense if it's
+
+00:14:52.960 --> 00:15:03.280
+ productive. Like if you need to build a farm that produces apples, you need some upfront capital to
+
+00:15:03.280 --> 00:15:09.040
+ do that. You got to borrow it from someone that isn't using it, right? Yeah. But eventually there's
+
+00:15:09.040 --> 00:15:14.400
+ a clear path to that debt being productive. And sometimes it doesn't work out. But yeah, like there's
+
+00:15:14.400 --> 00:15:20.720
+ obviously there's other kinds of debt where it's just like you just take it out to spend it on
+
+00:15:20.720 --> 00:15:26.480
+ something that isn't productive at all. It doesn't increase the future or anything. It's like an
+
+00:15:26.480 --> 00:15:32.160
+ expense luxury. I mean, that's the next topic I was going to bring up. Did you see all the Twitter
+
+00:15:32.160 --> 00:15:38.240
+ stuff yesterday? Yes, Elon. And okay, I want to get into that one last footnote on the Planet
+
+00:15:38.240 --> 00:15:42.560
+ scale thing reminded me the average database CEO Twitter account. That's like the worst kept secret
+
+00:15:42.560 --> 00:15:46.640
+ in the world that that's Sam, right? That's not Sam. It's somebody else. It has to be Sam. No, no,
+
+00:15:46.640 --> 00:15:51.120
+ there's no way that's not Sam. We know who it's actually not a secret. So I asked Sam being like,
+
+00:15:51.120 --> 00:15:55.680
+ who is this? And he linked me to someone and he was like, it's him. And I don't think it's a
+
+00:15:55.680 --> 00:16:02.000
+ secret either. Oh, I just was so sure I read it in Sam's voice. Like all of his insights are
+
+00:16:02.000 --> 00:16:07.040
+ so Sam-like. Okay, interesting. I mean, I'm sure he gets accused that all the time. I think he
+
+00:16:07.040 --> 00:16:12.880
+ mentioned that before. Yeah, it's not him to read it. Interesting. Okay, well, it's a great,
+
+00:16:12.880 --> 00:16:18.000
+ it's a great account though. It's great. I love all the things that that account says. Fantastic.
+
+00:16:18.000 --> 00:16:22.320
+ It's okay. Wait, one more thing. Until that account came out. It's one of those great,
+
+00:16:22.320 --> 00:16:26.880
+ I think they say like comedies about like comedies and observations, like you observe stuff that
+
+00:16:26.880 --> 00:16:31.440
+ has always been there, but no one's looked at or like put into certain words. That's a perfect
+
+00:16:31.440 --> 00:16:36.480
+ example of it because I'm like, oh, yeah, like a database CEO is like a thing. Like I never realized
+
+00:16:36.480 --> 00:16:41.200
+ that was a category of person and we've all had like a lot of experience with it. Yeah.
+
+00:16:41.200 --> 00:16:50.720
+ And so good. Okay, so Elon versus Donald Trump. Yes. This is quite a timeline. It is so interesting.
+
+00:16:50.720 --> 00:16:55.920
+ I mean, just so entertaining. If nothing else, I don't know what it all means, but like,
+
+00:16:56.640 --> 00:17:02.320
+ definitely most entertaining outcome got to say. Yeah, I was a so a few meta things. So one,
+
+00:17:02.320 --> 00:17:07.440
+ I didn't because remember how I like read, I changed my relationship with Twitter. That plugin.
+
+00:17:07.440 --> 00:17:14.800
+ So I didn't see it at all. Someone like Jay posted it in our team discord. That's how I saw it.
+
+00:17:14.800 --> 00:17:20.400
+ Then I was like, Oh, this is a case where I actually want to like see all this, like all the memes
+
+00:17:20.400 --> 00:17:25.920
+ and all this stuff around it. So I flip to the for you tab. It like wasn't showing me anything.
+
+00:17:25.920 --> 00:17:31.440
+ I like successfully fixed my Twitter experience. Like it's not showing me any of this stuff.
+
+00:17:31.440 --> 00:17:34.640
+ You can press it because that's all that's on that timeline.
+
+00:17:34.640 --> 00:17:39.280
+ I saw like nothing. Yeah. And then the other thing I was like,
+
+00:17:39.280 --> 00:17:42.960
+ because I think when when Jay posted it, it was like 10 minutes after Elon posted it and already
+
+00:17:42.960 --> 00:17:48.640
+ had like 200,000 likes or some crazy number. Yeah. I was like, is this going to be the most like
+
+00:17:48.640 --> 00:17:53.840
+ tweet of all time? I saw this morning. It was a million. I've never seen one. That's why I saw
+
+00:17:53.840 --> 00:17:59.120
+ him. Okay. So I was looking at so when I Google like, what are the top most like tweets of all time?
+
+00:17:59.120 --> 00:18:04.800
+ The number one, it's like, it's it's kind of random to me. It's uh, do you guys you remember
+
+00:18:04.800 --> 00:18:08.960
+ when the actor that played Black Panther died? Chadwick Boseman, I think his name is. That's the
+
+00:18:08.960 --> 00:18:14.880
+ number one most like tweet like announcing his death. Really? Yeah. And then Elon is like,
+
+00:18:14.880 --> 00:18:18.880
+ he has like three tweets in the top 10, obviously, because I think his account was rigged. But I think
+
+00:18:18.880 --> 00:18:25.600
+ the third one is next I'm buying Coca Cola to put the cocaine back in. That was like the third most
+
+00:18:25.600 --> 00:18:32.880
+ like tweet. Wow. Yeah. Yeah. I'm just I'm scrolling here to make sure. What is that fact checking me?
+
+00:18:32.880 --> 00:18:38.000
+ No, I'm fact checking. That's number two. Number two is Elon, the Coca Cola one. Oh, that's number two.
+
+00:18:38.000 --> 00:18:41.280
+ I was just trying to find that tweet from yesterday, the one that we're actually talking about,
+
+00:18:41.280 --> 00:18:45.360
+ where he said the F scene file thing, right? Yeah. So so this one. Okay. So here's the thing,
+
+00:18:45.360 --> 00:18:51.920
+ as much as I love this, this feud, and it's funny how predictable this was, because this happens
+
+00:18:51.920 --> 00:18:56.160
+ with Trump and literally everyone, like, yeah, people enters administration, they leave and they
+
+00:18:56.160 --> 00:19:03.760
+ like start talking like they hate to go huge fallout. But Elon also had for the past year has
+
+00:19:03.760 --> 00:19:10.960
+ been just lying about everything left and right and kind of exaggerating everything. So I think
+
+00:19:10.960 --> 00:19:15.600
+ we've known that Donald Trump is technically in the F scene files. Like I think that's been public
+
+00:19:15.600 --> 00:19:21.040
+ knowledge that he's on the flight records and whatever. So he might just be saying that. Yeah.
+
+00:19:21.040 --> 00:19:26.160
+ I've seen pictures way before of him. Yeah. Yeah. So he might just be like
+
+00:19:26.160 --> 00:19:31.520
+ referring to that and playing there's more without knowing anything, unfortunately.
+
+00:19:31.520 --> 00:19:35.120
+ Like you're saying he didn't know anything more than we do? Yeah, exactly. Like he's
+
+00:19:35.120 --> 00:19:38.320
+ not anything more than we do or like there is nothing to know more than we do.
+
+00:19:38.320 --> 00:19:44.320
+ Yeah. I guess that's a good point for it to get like so much praise on Twitter or just like
+
+00:19:44.320 --> 00:19:49.440
+ all the likes and attention. And for him to position is such a like big bomb drop. It is a good point
+
+00:19:49.440 --> 00:19:52.640
+ that I've seen all the videos that have been surfacing now of like Trump at parties without
+
+00:19:52.640 --> 00:19:56.720
+ seeing like I've seen all that before. This isn't like new information.
+
+00:19:56.720 --> 00:20:02.160
+ It just might be the perfect like like populist angle just being like this will do really well
+
+00:20:02.160 --> 00:20:06.320
+ and people won't won't care. So it's possible that, you know, there may be something more but
+
+00:20:07.520 --> 00:20:11.120
+ that could also just be all it is. So I haven't actually followed this very closely. I've just
+
+00:20:11.120 --> 00:20:17.120
+ mostly seen that Elon tweets his Donald Trump gone nuclear on his side like attacking Elon back.
+
+00:20:17.120 --> 00:20:21.280
+ I'm sure I just know he's a very vindictive posting about. Yeah. He was like,
+
+00:20:21.280 --> 00:20:27.280
+ not trouble. He was a great way to save money. Let's just cancel all the contracts with
+
+00:20:27.280 --> 00:20:33.120
+ Elon's companies. And now say it was billions of dollars. And then Elon was like, well,
+
+00:20:33.120 --> 00:20:37.200
+ I'm going to disassemble the Crew Dragon, which I don't know. I saw that tweet. What is that
+
+00:20:37.200 --> 00:20:42.960
+ context? Yeah, what is that rocket that he's going to assemble? I think I mean,
+
+00:20:42.960 --> 00:20:45.360
+ I don't think Trump cares about that because I don't think Trump cares about anything.
+
+00:20:45.360 --> 00:20:53.280
+ It's like a dragon. What are you talking about? Yeah. What are you talking about? I don't care.
+
+00:20:53.280 --> 00:21:00.720
+ But I think I think all man missions for NASA go through that rocket from SpaceX. So it like
+
+00:21:00.720 --> 00:21:05.840
+ messes up. Wait, what? Oh, SpaceX does all the like astronaut missions now? Because they have
+
+00:21:05.840 --> 00:21:10.480
+ that Crew Dragon thing. I think Boeing does some of them too. But obviously there was that big
+
+00:21:10.480 --> 00:21:14.880
+ problem with astronauts got stuck in space with the Boeing one. Oh, geez. Oh, so they're like
+
+00:21:14.880 --> 00:21:21.200
+ manufactured by SpaceX, but like the NASA is the one doing the launches. Sorry. No, it's like
+
+00:21:21.200 --> 00:21:25.920
+ NASA astronauts, but in SpaceX, this launches SpaceX will begin decommissioning its dragon spacecraft
+
+00:21:25.920 --> 00:21:30.400
+ immediately. Dragon spacecraft. Yeah, Trump probably if I don't know, Trump probably doesn't know.
+
+00:21:31.200 --> 00:21:38.720
+ I think pretty much pretty much the US space program is built on top of the dragon spacecraft.
+
+00:21:38.720 --> 00:21:43.280
+ Gotcha. Yeah, I forget we have a space program like what do we do? We go to the we go to the
+
+00:21:43.280 --> 00:21:46.800
+ space station. Sometimes we go up and we're like, is there anything out here yet? Nope.
+
+00:21:46.800 --> 00:21:52.560
+ There's nothing out here. It's so funny to like get into sci-fi and realize like,
+
+00:21:52.560 --> 00:21:58.640
+ I listened to all these books and it's like, we haven't even been to Mars. When you listen to
+
+00:21:58.640 --> 00:22:03.040
+ these books and it's like, we're going to other star systems. We're doing like, it's like nobody
+
+00:22:03.040 --> 00:22:06.720
+ be able to drop something off at Pluto. Like, that's just like commonplace. And then it's like,
+
+00:22:06.720 --> 00:22:10.160
+ you look at real life and it's like, oh, yeah, we don't even like go anywhere. We can't even like
+
+00:22:10.160 --> 00:22:15.200
+ hardly get out of like the Earth orbit. I mean, the other thing that I think sci-fi, I think even
+
+00:22:15.200 --> 00:22:22.720
+ hard sci-fi and some hard sci-fi has like split the explanation to this. It's such a plot breaking
+
+00:22:22.720 --> 00:22:30.240
+ fact that communication is extremely slow. The further away you are, like if you go to Mars,
+
+00:22:30.240 --> 00:22:33.520
+ like the latency, I don't know what it is, but you know, the latency for sending light back is
+
+00:22:33.520 --> 00:22:39.520
+ it takes a while. The further out you are, the slower, and like in most of these stories,
+
+00:22:39.520 --> 00:22:42.400
+ like characters and different plans are like communicating in real time and stuff.
+
+00:22:42.400 --> 00:22:46.640
+ I guess the ones I've listened to, maybe I'm just listening to more accurate ones.
+
+00:22:46.640 --> 00:22:50.240
+ I don't feel like that's been a common thing. Like, if anything, I feel like they've talked
+
+00:22:50.240 --> 00:22:56.640
+ in the books I've listened to or read about the delay to like talk back to Earth.
+
+00:22:56.640 --> 00:23:00.640
+ Yeah. I mean, I've just lived, I'm on like my fourth sci-fi book. So like, well, I know.
+
+00:23:00.640 --> 00:23:06.160
+ I mean, it also can be like a useful plot point where you can like make interesting stuff happen
+
+00:23:06.160 --> 00:23:11.680
+ because there is a delay. Yeah. I think that was a factor in the Martian, if I remember correctly.
+
+00:23:11.680 --> 00:23:17.040
+ Oh, yeah. Yeah, in the Martian. Yeah. But like even a three-body problem,
+
+00:23:17.040 --> 00:23:20.640
+ I remember maybe they explained this. I was kind of confused at how they were like
+
+00:23:20.640 --> 00:23:26.560
+ talking to the aliens. Oh, well, it was quantum entanglement.
+
+00:23:26.560 --> 00:23:34.800
+ Entanglement. Why can't I speak? Entanglement. Yes. Yeah. But like, how do you send messages
+
+00:23:34.800 --> 00:23:39.760
+ in real time if there's also time dilation? Like, it's like something about that doesn't work.
+
+00:23:39.760 --> 00:23:42.800
+ Because I feel like you're basically sending messages from the future before they've actually
+
+00:23:42.800 --> 00:23:51.520
+ happened. If it's in real time. Well, the so fun thing is like just so different from normal,
+
+00:23:51.520 --> 00:23:56.320
+ like it's like, it's the entanglement thing. So I don't, I don't think it applies.
+
+00:23:56.320 --> 00:24:01.360
+ If you can get information to somewhere further away, basically instantly.
+
+00:24:01.360 --> 00:24:08.320
+ And you know, when you travel closest to speed of light, or like anytime you move anywhere,
+
+00:24:08.320 --> 00:24:13.440
+ there's a time dilation concept, where time travel, like time moves at different speeds. If
+
+00:24:13.440 --> 00:24:18.720
+ you can communicate instantly, it's like that information is not impacted by that. So
+
+00:24:18.720 --> 00:24:24.480
+ that leads to really weird situations where I think you can get information. It's like you're
+
+00:24:24.480 --> 00:24:30.240
+ kind of trying traveling. Oh, interesting. Sending that information. So yeah. Okay. Yeah. I need to
+
+00:24:30.240 --> 00:24:33.520
+ think about this more. I thought about this a while ago when I understood this better and I made,
+
+00:24:33.520 --> 00:24:37.280
+ and I concluded something, but I think there is a problem with that.
+
+00:24:37.280 --> 00:24:42.480
+ The trisolarans are moving, spoiler alert, by the way, they're moving close to the speed of light.
+
+00:24:42.480 --> 00:24:45.520
+ And you're saying if they can receive information from Earth through the sofons,
+
+00:24:45.520 --> 00:24:51.280
+ your quantum entanglement, if they're receiving real time information based on a time reference
+
+00:24:51.280 --> 00:24:55.360
+ on Earth, but they're moving in a very different time reference going close to the speed of light,
+
+00:24:55.360 --> 00:24:59.600
+ right? That information could be like from the future of the past or something. Yeah, exactly.
+
+00:24:59.600 --> 00:25:03.680
+ That there's like something, there's something that breaks there. I don't remember exactly which
+
+00:25:03.680 --> 00:25:09.280
+ way it goes, but yeah. That's a very big brain thought. The real life equivalent of all this
+
+00:25:09.280 --> 00:25:16.000
+ stuff is like so primitive, like we can't even. Yeah, we went to the moon once, like haven't tried
+
+00:25:16.000 --> 00:25:24.240
+ again. Have you thought of this concept where if Earth was a little bit bigger, chemical rockets
+
+00:25:24.240 --> 00:25:29.840
+ are just not viable? Oh, well, they discovered this exoplanet that I only thought about this
+
+00:25:30.800 --> 00:25:34.800
+ recently when I learned that there's that planet, it's like eight times the size of Earth, but they
+
+00:25:34.800 --> 00:25:38.400
+ discovered it because it has like one of those biosignatures we talked about on this very podcast.
+
+00:25:38.400 --> 00:25:44.000
+ Oh, yeah. The like biological whatever signature we could observe. It had one. It has some chemical
+
+00:25:44.000 --> 00:25:48.720
+ in the atmosphere that's like apparently tied to life. And it's eight times bigger than Earth. And
+
+00:25:48.720 --> 00:25:52.880
+ the point was, or some of the things that came out and you saw stuff on Twitter, was that like
+
+00:25:52.880 --> 00:25:57.200
+ they're bound to that planet. There's no way to escape the gravity of that planet. And I don't know
+
+00:25:57.200 --> 00:26:01.920
+ what no way means. Like if you had like the whole galaxy's energy, could you not get off? I don't
+
+00:26:01.920 --> 00:26:06.080
+ know. Yeah, but they said they made it sound like it's physically impossible for them to leave
+
+00:26:06.080 --> 00:26:10.560
+ the planet. So not just chemical rockets, theoretically, I guess they can't get off the planet at all,
+
+00:26:10.560 --> 00:26:15.440
+ which is interesting. Yeah, it's like, there's like, I think that people described as like a debt,
+
+00:26:15.440 --> 00:26:18.960
+ like we have like a gravity debt. And every time we want to escape, we have to pay that debt. And
+
+00:26:18.960 --> 00:26:25.760
+ where it's crazy, we have such perfect conditions here where like we can at our level of technology,
+
+00:26:26.880 --> 00:26:32.160
+ the gravity is such that we can actually escape it. Yeah, like if it was a little bit bigger,
+
+00:26:32.160 --> 00:26:36.400
+ like the chances are, yeah, it seems that seems really crazy. And it's like one of those other
+
+00:26:36.400 --> 00:26:41.840
+ things where you know how the solar eclipse or lunar whatever it is, like the moon is at the
+
+00:26:41.840 --> 00:26:47.520
+ perfect distance to probably in the size of probably that. Yeah, that they're basically the same size
+
+00:26:47.520 --> 00:26:53.680
+ in the sky because of distance. There's like pop, like all of the galaxies populated. People would
+
+00:26:53.680 --> 00:26:59.440
+ probably travel to Earth being like, there's this crazy thing that happens on Earth. It is like,
+
+00:26:59.440 --> 00:27:03.600
+ to see a solar eclipse. Yeah, it's such a good point. But like, to us, it doesn't feel that way,
+
+00:27:03.600 --> 00:27:07.600
+ it doesn't feel that special. I wonder if the people that like lived in Hawaii, their whole life
+
+00:27:07.600 --> 00:27:12.880
+ probably feel that way. Like, what do you mean? Like, yeah, volcano, like a crater, waterfalls,
+
+00:27:12.880 --> 00:27:16.400
+ like that's just all normal. No big deal. It's like when I was growing up, we had a pool table,
+
+00:27:16.400 --> 00:27:19.840
+ and we just never used it, because it's like we have one. So like, why would we use it?
+
+00:27:19.840 --> 00:27:24.640
+ Okay. And now I'm like, man, I wish I could play some pool. I don't know. We're talking about like
+
+00:27:24.640 --> 00:27:29.760
+ nature's grand. You're like, yeah, we had a pool table. It's like, kind of the same thing.
+
+00:27:29.760 --> 00:27:33.360
+ That's always the example I go to my brain when I think of like, what if we lived on the beach?
+
+00:27:33.360 --> 00:27:36.880
+ What if we just lived on like a private beach? And it's like, well, we probably just wouldn't go,
+
+00:27:36.880 --> 00:27:41.600
+ because when you have a pool table, you just don't even use it. You never play pool. It's a reality.
+
+00:27:41.600 --> 00:27:45.920
+ Do you guys have a pool pool? Do you? No, neighborhood. We go to the neighborhood door.
+
+00:27:45.920 --> 00:27:50.560
+ Right. We need to do that pretty often. Yeah, in the summer. So we go for like three weeks
+
+00:27:50.560 --> 00:27:53.840
+ every day, and then we get burned out and we never go again. That's basically every single
+
+00:27:53.840 --> 00:27:57.600
+ summer. Every summer, the second half of the summer, we're like, man, we did it again. We got to do
+
+00:27:57.600 --> 00:28:02.080
+ this better next year, and then we don't. Yeah. But that's actually an example of where there's a
+
+00:28:02.080 --> 00:28:06.320
+ break in between. So like, it feels new again. So maybe if you had a pool all the time, you just
+
+00:28:06.320 --> 00:28:09.360
+ never go into it. I remember my parents had a pool. We had a pool growing up and
+
+00:28:09.360 --> 00:28:15.680
+ like my friends came over and were glad that that was a thing. It was fun. But yeah,
+
+00:28:15.680 --> 00:28:19.280
+ we used the pool a lot growing up. I mean, when you live in a place where there's seasons,
+
+00:28:19.280 --> 00:28:22.640
+ it's like, it's only the summer. So like you said, you lose it.
+
+00:28:22.640 --> 00:28:28.640
+ This is dad on the other hand, like, this is a pool like a bathtub, literally every single day.
+
+00:28:28.640 --> 00:28:35.600
+ He keeps it so hot. It's like, yeah, it's like a hot pool. And he just soaks in it, like every
+
+00:28:35.600 --> 00:28:41.200
+ single day, he just goes in and just like sits in it. So he gets used out of it. That's amazing.
+
+00:28:41.200 --> 00:28:49.280
+ I will say, I would love to have like a large hot tub or a pool that was really warm on vacation.
+
+00:28:49.280 --> 00:28:53.040
+ We stayed at a place that had this kind of situation. It was like a cocktail pool or something. It was
+
+00:28:53.040 --> 00:28:57.200
+ basically like a big hot tub, but it was very warm. I love just getting the boys in it at night.
+
+00:28:57.200 --> 00:29:00.400
+ And like, we've been on the beach or I'll Sandy. And then we just like shower off getting there.
+
+00:29:00.400 --> 00:29:04.240
+ And it's like, they're clean. Yeah. They've been like a chlorine pool. They're good. I mean,
+
+00:29:04.240 --> 00:29:06.960
+ you need bath time now. Like we just go to bed. Yeah. It's the best.
+
+00:29:07.520 --> 00:29:12.240
+ So I guess before, you know, maybe I was at maybe into cold plunging even before you because I
+
+00:29:12.240 --> 00:29:18.400
+ remember growing up, we go in our hot tub and like it's be at night and it was like a little bit cold.
+
+00:29:18.400 --> 00:29:23.120
+ We crank the hot tub up to like 100 something degrees. We get in there and get super hot.
+
+00:29:23.120 --> 00:29:29.760
+ Then we would jump into the pool and it would be like freezing and freezing cold. Yeah. And we try
+
+00:29:29.760 --> 00:29:34.400
+ to swim as fast as we could to the pool back into the hot tub for a relief. And we do this over and
+
+00:29:34.400 --> 00:29:39.280
+ over just because it was funny, I guess. Like, I don't know. You were doing contrast therapy before
+
+00:29:39.280 --> 00:29:44.720
+ Hebrew and was even exactly had a podcast. No wonder my my knees are so good or whatever it's
+
+00:29:44.720 --> 00:29:48.880
+ supposed to do. Whatever it's supposed to do. The thing about cold, we've talked about cold
+
+00:29:48.880 --> 00:29:52.560
+ exposure on this. The thing I've come to grips with, cold exposure is just for the fun seats.
+
+00:29:52.560 --> 00:29:56.800
+ It's just for the like dopamine hit. You feel good for a few hours after. I don't think about
+
+00:29:56.800 --> 00:30:00.960
+ anything else. Everything else is like the data is pretty bad. They don't really know if it helps
+
+00:30:00.960 --> 00:30:05.360
+ with anything longevity or whatever. I think song is pretty helpful in a lot of ways for health,
+
+00:30:05.360 --> 00:30:10.160
+ but cold punch is literally just like, I feel good after I do it. And that's enough. That's why
+
+00:30:10.160 --> 00:30:16.400
+ I do it. Yeah, man. I've always been a person where I like don't like to how do I explain this is
+
+00:30:16.400 --> 00:30:21.440
+ gonna sound stupid if I explain it wrong. There's things you can do that put you in a better mood.
+
+00:30:21.440 --> 00:30:26.080
+ And I've always felt like you shouldn't need that. And I just go throughout my day without
+
+00:30:26.080 --> 00:30:30.000
+ doing those things. I'm just like, Oh, yeah, I can wake up and work and do my work every day.
+
+00:30:30.000 --> 00:30:36.640
+ And it's it's fine. But man, like it's just fundamentally true that when you work out,
+
+00:30:36.640 --> 00:30:41.680
+ you just feel amazing for the rest of the day. And it eventually catches up. Like I do the exact
+
+00:30:41.680 --> 00:30:46.000
+ same thing where I'm like, I don't need all those things for mental health. Like I don't need to
+
+00:30:46.000 --> 00:30:51.120
+ like balance my life. I can just go work every day and like be fine. And then it always catches up to
+
+00:30:51.120 --> 00:30:55.440
+ me. I always end up like super moody after like a few weeks of doing that and ignoring my all my
+
+00:30:55.440 --> 00:31:01.440
+ other needs. And I'm just like snippy and just just a terrible person to be around. And it always
+
+00:31:01.440 --> 00:31:05.280
+ does come back to like, Oh, if I just work out in the mornings, life is just good indefinitely.
+
+00:31:05.280 --> 00:31:09.680
+ Like I just do that every day. It's amazing how much it just works. And it's just like,
+
+00:31:09.680 --> 00:31:13.280
+ it's hard to really feel that it's working in the moment. It's like over a long period of time,
+
+00:31:13.280 --> 00:31:17.360
+ you have to see it. Yeah, I mean, it's just like that feeling you have where you know that feeling
+
+00:31:17.360 --> 00:31:20.800
+ you have the rest of the day when you've worked out where like your muscles feel a certain way.
+
+00:31:20.800 --> 00:31:27.440
+ Yeah, something about that just puts your brain in a really positive place. And it's wild how
+
+00:31:27.440 --> 00:31:31.440
+ effective it is. It's not like you need to do a crazy workout, even just like a 10 minutes
+
+00:31:31.440 --> 00:31:35.600
+ intense workout. Yeah, would give you this effect for like the whole day. Yeah,
+
+00:31:35.600 --> 00:31:41.680
+ it's just like, I did something and I feel like kind of exhausted. And it's just nice. I think
+
+00:31:41.680 --> 00:31:44.720
+ that's dope. I mean, I think it's literally just the dopamine thing. Man, we've been talking about
+
+00:31:44.720 --> 00:31:50.960
+ this Casey and I with the boys like art. I'm so nervous for just like being a parent is just
+
+00:31:50.960 --> 00:31:55.440
+ filled with anxiety as you can learn. I'm just so nervous for that generation that like,
+
+00:31:55.440 --> 00:32:00.960
+ it's very hard to avoid now at this point, like our society, we're just like all of our
+
+00:32:00.960 --> 00:32:05.680
+ dopamine systems are just wrecked. And when I first hear about that, like the fact that we're
+
+00:32:05.680 --> 00:32:12.000
+ all just like so with screens and everything else, we're just so like messed up. I'm like,
+
+00:32:12.000 --> 00:32:15.760
+ what is it really messing up? Like we're all fine, but we're not like there's so much anxiety,
+
+00:32:15.760 --> 00:32:20.640
+ depression, all these different things that like, I just feel like this generation coming up,
+
+00:32:20.640 --> 00:32:26.160
+ there's no way to really like you have to work really hard to avoid wrecking your dopamine systems
+
+00:32:26.160 --> 00:32:30.800
+ really badly. Do you have opinions on any of this? Is this just like woo-woo humor and stuff?
+
+00:32:30.800 --> 00:32:37.040
+ No, because like I am also someone. I mean, like I said earlier, like I tend to lean towards
+
+00:32:37.040 --> 00:32:42.400
+ this is kind of stuff gets overblown, but it's gotten to a point where even me who would like
+
+00:32:42.400 --> 00:32:46.960
+ remotely in the other way. Yeah, feels like it's bad. I think I was talking to Jay the other day,
+
+00:32:46.960 --> 00:32:54.240
+ and I was like, I really feel like we've advanced beyond the point of our biology at this point. I
+
+00:32:54.240 --> 00:33:01.360
+ feel like in so many aspects of life, like humans can adapt and we can adapt and we've been adapting
+
+00:33:01.360 --> 00:33:06.880
+ for a long time. But the amount of change in these certain dimensions, I feel like it's beyond what's
+
+00:33:07.120 --> 00:33:12.400
+ adaptable. Like out in front of our skis, like we've outpaced what our biology can adapt to.
+
+00:33:12.400 --> 00:33:16.640
+ Yeah, so like, and this has been obvious for a bit with food. Like that's been
+
+00:33:16.640 --> 00:33:21.520
+ clearly a thing where we can just like crank infinite calories into our bodies now. And like,
+
+00:33:21.520 --> 00:33:27.520
+ it's so easy. You can adapt to that at all. And then now with the other stuff like the cycle,
+
+00:33:27.520 --> 00:33:35.040
+ more psychological stuff, yeah, it's uh, and I think that the tricky part about this is as soon
+
+00:33:35.040 --> 00:33:39.200
+ you start talking about this, it starts to sound very familiar because in throughout all of history,
+
+00:33:39.200 --> 00:33:46.000
+ there's been moral panics about these things. And we probably sound exactly like people in 1900s
+
+00:33:46.000 --> 00:33:51.040
+ being like, are you aware the danger of books? You know, it was like, yeah, that was like a real
+
+00:33:51.040 --> 00:33:56.960
+ thing. But yeah, it's hard to not feel like it's different. Like the rate of change is so fast. I
+
+00:33:56.960 --> 00:34:04.400
+ have to put so much intentionality into my life to preserve some of these things where before it
+
+00:34:04.400 --> 00:34:10.240
+ was automatic. There was like so much work to like do the thing that used to just be you could,
+
+00:34:10.240 --> 00:34:13.600
+ you didn't have another option. When we were growing up, like it was just so different.
+
+00:34:13.600 --> 00:34:18.720
+ I feel like if it just like dropped the word dopamine, which just sounds like research papers
+
+00:34:18.720 --> 00:34:23.360
+ and science and stuff, if you just think about like having to work for any kind of enjoyment,
+
+00:34:23.360 --> 00:34:27.040
+ growing up, like we had to work for enjoyment. Like we were bored. We had to go to friends
+
+00:34:27.040 --> 00:34:32.400
+ house all the time, all the time, every single diet, wake up and be like, I want to die because
+
+00:34:32.400 --> 00:34:38.560
+ there's no plan. And that's like literally as simple as that. Like how much work we had to do
+
+00:34:38.560 --> 00:34:42.480
+ to entertain ourselves, like we'd have to like walk to a friend's house. And then that was like,
+
+00:34:42.480 --> 00:34:45.280
+ even then it's not a given that we're going to be able to entertain and entertain each other
+
+00:34:45.280 --> 00:34:48.240
+ like with our friend. It was nerve wracking. I tweeted about this other day. Do you remember
+
+00:34:48.240 --> 00:34:51.520
+ like knocking on the door and it's like you're like kind of nervous. You have to talk to the
+
+00:34:51.520 --> 00:34:56.720
+ parent who went to the door and you're opening and you're like, oh, can Jimmy play? And then like,
+
+00:34:56.720 --> 00:34:59.440
+ they're like, oh, it's going to say yes, it's going to come out. You must know what the curves are
+
+00:34:59.440 --> 00:35:04.720
+ talking to the adult. Yeah. And it sometimes is a no. And it feels bad. And when you're in a group,
+
+00:35:04.720 --> 00:35:08.320
+ it's always like three kids behind them. One kid has a brain. We're going to go up.
+
+00:35:08.320 --> 00:35:13.760
+ But then there's like strength in numbers because I don't want to miss out. And like, yeah,
+
+00:35:13.760 --> 00:35:17.520
+ yeah, there's just so many of those things. Someone's met a good stuff in that situation
+
+00:35:17.520 --> 00:35:23.120
+ that's happening. And it was just pain. It was like difficulty. Discomfort was like normal in life.
+
+00:35:23.120 --> 00:35:27.920
+ And now I feel like you can literally go a week and have nothing uncomfortable. Is that a word?
+
+00:35:27.920 --> 00:35:37.120
+ Uncomfortable. I suck talking uncomfortable. Whatever. I just need a reel of all the words
+
+00:35:37.120 --> 00:35:40.960
+ that I screwed up. I got you. You're passionate. Keep going. Keep going. Yeah. Well, just like,
+
+00:35:40.960 --> 00:35:45.280
+ I could go a week and not have a single uncomfortable thing in my life. You know what I mean? Like,
+
+00:35:45.280 --> 00:35:51.200
+ we can literally avoid all in comfort, all pain, all like effort. And just literally like,
+
+00:35:51.200 --> 00:35:55.360
+ have an idea, what seems like an ideal life of only pleasure and comfort. That's just like a
+
+00:35:55.360 --> 00:36:00.400
+ attainable in modern society. I know like, not everybody and like, I get there's privilege or
+
+00:36:00.400 --> 00:36:05.520
+ whatever. I don't know. I'm just saying like, society increasingly points us in this direction,
+
+00:36:05.520 --> 00:36:12.000
+ where you can just avoid all the bad stuff, like all the pain and all the work. And that's the whole
+
+00:36:12.000 --> 00:36:16.880
+ problem. Like, we need that stuff. Or we just start getting depressed. Yeah, it's crazy,
+
+00:36:16.880 --> 00:36:21.360
+ because like, you want to deny that you can sort of sing earlier, you want to kind of deny that
+
+00:36:21.360 --> 00:36:27.600
+ you need that stuff. And the time spent on that stuff you're using in a better way or whatever. But
+
+00:36:27.600 --> 00:36:32.800
+ yeah, I think we're just past some some threshold where that that makes any sense. It's like annoying
+
+00:36:32.800 --> 00:36:39.040
+ me how much work it is. Yes. It's like, you know, I think I said, the food thing has been around
+
+00:36:39.040 --> 00:36:44.000
+ for a while where if you want to eat healthy, it's now suddenly work, because there's just
+
+00:36:44.000 --> 00:36:48.240
+ bullshit and everything. And you got to like read the packaging on every single thing. And like,
+
+00:36:48.240 --> 00:36:52.800
+ you have to like learn about this stuff where, you know, before you just you just ate a fucking
+
+00:36:52.800 --> 00:36:57.200
+ potato and then there'd be a very active person to get nutrition right. Yeah.
+
+00:36:57.200 --> 00:37:03.840
+ And then now it's like, I hate that it's it's happening with attention. There's just all this
+
+00:37:03.840 --> 00:37:08.560
+ stuff just trying to hijack you all the time. Oh, just like this week, the amount of time I've
+
+00:37:08.560 --> 00:37:13.040
+ spent trying to configure my phone with the screen time settings to try and get like a thing down
+
+00:37:13.040 --> 00:37:17.760
+ that just really stops me from, especially like when I'm off work and in the evenings just unplugging
+
+00:37:17.760 --> 00:37:23.440
+ and not being so attached to like the notifications and the things going on in the work and whatever.
+
+00:37:23.440 --> 00:37:27.760
+ Like, I'm still, I haven't gotten it right. And I'm still just like, poor, you just have to,
+
+00:37:27.760 --> 00:37:33.040
+ it's so much effort to like fight against the things that are natural today, like with food,
+
+00:37:33.040 --> 00:37:36.880
+ with entertainment that this just like, you so many ways you can screw it up and not,
+
+00:37:36.880 --> 00:37:40.960
+ you can pour a lot of effort and not get it right and still just be off the rails.
+
+00:37:40.960 --> 00:37:45.760
+ Yeah, it's, uh, it's not like it's like before the only thing I had to think about was like,
+
+00:37:45.760 --> 00:37:49.360
+ I had to make sure I'm working out enough. Now it's like, there's other dimension that feels exactly
+
+00:37:49.360 --> 00:37:54.480
+ the same as trying to work out enough in this new place. I'm a little bit more optimistic again,
+
+00:37:54.480 --> 00:38:00.240
+ because this Twitter thing, because I've seen, I've been able to reshape it and I've seen like,
+
+00:38:00.240 --> 00:38:06.640
+ the actual positive change without losing too much. Yeah. So at least I feel a little bit like,
+
+00:38:06.640 --> 00:38:11.680
+ oh, this isn't inescapable. Like there is some amount of hope if you try.
+
+00:38:11.680 --> 00:38:15.680
+ Okay. I think they're, yeah, I think there's hope. I think it's like every individual,
+
+00:38:15.680 --> 00:38:22.400
+ our responsibility to like work really hard to shield yourself from this inevitability of society.
+
+00:38:22.400 --> 00:38:28.160
+ I will say I'm not super in a good place or like hopeful right now because of the screen time stuff.
+
+00:38:28.160 --> 00:38:32.080
+ Like I only started setting up screen time stuff because I learned, and this is so embarrassing,
+
+00:38:32.080 --> 00:38:36.560
+ I learned, I spent three hours a day on my phone. That's, I probably way higher than you.
+
+00:38:36.560 --> 00:38:40.960
+ That's insane to me. If I think about how little time I feel like I have in life and how busy things
+
+00:38:40.960 --> 00:38:46.960
+ are, and I think I spent three hours just on my phone is so depressing. And like 100 pickups a day,
+
+00:38:46.960 --> 00:38:51.200
+ like your iPhone will tell you this stuff. Like how many pickups and how many hours and
+
+00:38:51.200 --> 00:38:56.000
+ minutes or whatever you spend on every app, it's depressing. And I just have been spending
+
+00:38:56.000 --> 00:38:59.600
+ that time this week. And now I'm just like, this all sucks. We got to throw it all away.
+
+00:38:59.600 --> 00:39:04.640
+ Guess what my daily average is? Oh God, you're on Twitter a lot. Now I just want to know what
+
+00:39:04.640 --> 00:39:10.560
+ you've seen this. I'm going to guess four hours, five hours, eight hours. Yeah. Well, now I feel
+
+00:39:10.560 --> 00:39:18.880
+ super good. I mean, it's, I'm just playing. It's a, it's a little bit, I would say maybe we can cut
+
+00:39:18.880 --> 00:39:28.400
+ this in half because I use my phone. Like oftentimes, when I do like, instead of doing support stuff,
+
+00:39:28.400 --> 00:39:33.120
+ like Discord support, some of my tests, yeah, like do it from somewhere else. Like I'll walk around
+
+00:39:33.120 --> 00:39:36.880
+ and stuff. So some of this stuff, I would say cut it in half, but so it's probably higher than yours.
+
+00:39:36.880 --> 00:39:43.920
+ Yeah. So there's two things. One, you don't have kids. I think not having kids before I had kids.
+
+00:39:43.920 --> 00:39:47.920
+ I probably was on my phone twice as much as I am now. The other thing is like, it does count
+
+00:39:47.920 --> 00:39:52.560
+ some things that it makes me feel a little better when I see like, on days I have a lot of calls.
+
+00:39:52.560 --> 00:39:57.200
+ I use my phone, like in Hangouts and stuff. And that's active. It counts that it's active time
+
+00:39:57.200 --> 00:40:01.440
+ on your phone because the screen never goes black, I guess. So those numbers, like, I have two
+
+00:40:01.440 --> 00:40:04.800
+ hours of meetings on Monday and like those numbers get thrown in. So it does make me feel a little
+
+00:40:04.800 --> 00:40:08.480
+ better. Like I'm maybe not spending as much time as I think. But if you go through like the apps,
+
+00:40:08.480 --> 00:40:12.800
+ it's pretty easy to tell like, Oh, I spend too much time on that app. Like the apps that don't,
+
+00:40:12.800 --> 00:40:18.080
+ you don't have an excuse. It's like that one just too high. You know what's interesting about all
+
+00:40:18.080 --> 00:40:22.560
+ this? Yeah, I'm looking at the daily breakdown. And this is confusing. Why is was term on here?
+
+00:40:22.560 --> 00:40:26.960
+ What the heck? Oh, it's because it tracks my Oh, is this track? This is all devices. This is all
+
+00:40:26.960 --> 00:40:32.640
+ devices. Oh, it does it on your Mac too? I mean, I don't use my Mac much or I guess I use my Mac
+
+00:40:32.640 --> 00:40:38.000
+ for half the day or so. Yeah, this is all devices. How do I do just my phone? I didn't know it did
+
+00:40:38.000 --> 00:40:42.320
+ all devices. Okay, because the reason that this was freaking me out, because it said 10 hours.
+
+00:40:42.320 --> 00:40:50.400
+ One day, and I'm like, how did I spend 10 hours on my phone? But, but it's not. It's like,
+
+00:40:50.400 --> 00:40:55.520
+ there's a bunch of the time is in was term. You know what's crazy about all this stuff is?
+
+00:40:55.520 --> 00:41:01.680
+ And I think this is why I do feel like it's different. Historically, you would think playing
+
+00:41:02.400 --> 00:41:09.440
+ an hour of video games falls under this category. But I would say it doesn't, because we're at the
+
+00:41:09.440 --> 00:41:16.080
+ point we're sitting down and playing in our video games without like checking your phone every five
+
+00:41:16.080 --> 00:41:22.880
+ minutes. Like, yeah, that's impressive. Because I think I think doing that stuff is fine. Like,
+
+00:41:22.880 --> 00:41:29.120
+ I think I'm thankful we were we still have this. But like me and Liz, we like sit down and watch
+
+00:41:29.120 --> 00:41:33.200
+ movies all the time. Yeah, don't people I talk to? I think you mentioned this too.
+
+00:41:33.200 --> 00:41:38.800
+ They're like, yeah, we just can't do movies anymore. Like one of us always on our phone,
+
+00:41:38.800 --> 00:41:42.880
+ like we're not paying attention, like in whatever. So yeah, like again, something that's pure
+
+00:41:42.880 --> 00:41:48.960
+ entertainment is watching a full movie. That's like now a bar. Like, yeah, do you do that without
+
+00:41:48.960 --> 00:41:53.280
+ interruption? I really want to talk about video games and movies. I have to pee real quick,
+
+00:41:53.280 --> 00:41:57.360
+ and I'm not going to make it to an hour at all. So take a break for ads or something. I'll bear
+
+00:41:59.120 --> 00:42:00.120
+ you.
+
+00:42:00.120 --> 00:42:05.680
+ Terminal dot shop.
+
+00:42:05.680 --> 00:42:19.360
+ So the gaming thing is like fresh top of mind as well, because both my boys are
+
+00:42:19.360 --> 00:42:24.400
+ I mean, addicted, it's not too strong a word. They are addicted to Minecraft. They get to play
+
+00:42:24.400 --> 00:42:29.040
+ Minecraft one hour a week. Maybe I've talked about this on the podcast on Saturday. And it's
+
+00:42:29.040 --> 00:42:34.640
+ like, it's, it's like the biggest holiday of the year every week. It's like Christmas. It's like,
+
+00:42:34.640 --> 00:42:41.520
+ they are so excited for Saturday. They talk about Minecraft all week. I think my five-year-old
+
+00:42:41.520 --> 00:42:45.680
+ in particular is just way too young to be exposed to games like that at this point.
+
+00:42:45.680 --> 00:42:51.200
+ But like, I think about my childhood and I grew up just nonstop. We played video games. Me and
+
+00:42:51.200 --> 00:42:56.640
+ my brothers, like, yeah, that was my whole childhood. My friends like grew up on Nintendo 64 and
+
+00:42:57.680 --> 00:43:02.480
+ what I was just talking with somebody a friend the other day, just about GoldenEye and Super Mario
+
+00:43:02.480 --> 00:43:08.960
+ 64. I'll never forget that first day that we got them into 64 and playing Super Mario 64 is the
+
+00:43:08.960 --> 00:43:14.800
+ first like 3D game. I mean, hours and hours and hours in my childhood. And I think like,
+
+00:43:14.800 --> 00:43:19.280
+ I turned out fine. But then it's like, I don't know. There's a lot of things that
+
+00:43:19.280 --> 00:43:24.640
+ I think maybe aren't ideal about me. And maybe some of that is because I spent most of my time
+
+00:43:24.640 --> 00:43:29.200
+ playing video games growing up. I don't know. I do think there's a difference. Some games have a
+
+00:43:29.200 --> 00:43:35.120
+ very different effect, right? It was very social growing up. I feel like Minecraft is not, I would
+
+00:43:35.120 --> 00:43:40.880
+ not categorize it as one of these like, it's not a game that's like quick reward, the whole like
+
+00:43:40.880 --> 00:43:44.560
+ reward cycle thing. That's some game zoo. Yeah. Like, if you think about some like Call of Duty,
+
+00:43:44.560 --> 00:43:49.760
+ they like precision engineer, like the sound effects of getting a kill. It's like, yeah,
+
+00:43:49.760 --> 00:43:54.080
+ it's like seared in my brain. And even when I think about it, I feel a good feeling. That's like,
+
+00:43:54.080 --> 00:43:59.600
+ that's like a different thing. I feel like Minecraft is like less, like, cracked out. It's like,
+
+00:43:59.600 --> 00:44:06.080
+ like slower pace and, you know, whatever. No, I agree. It doesn't seem like it would have that,
+
+00:44:06.080 --> 00:44:11.760
+ but maybe it's just different for every person or different for types of people like ages. I don't
+
+00:44:11.760 --> 00:44:17.600
+ know. I know they're addicted because, I mean, literally my 10 year old just like spent hours
+
+00:44:17.600 --> 00:44:21.680
+ just on his watch asking Siri questions about Minecraft. It's all he thinks about.
+
+00:44:21.680 --> 00:44:27.360
+ Yeah, it's like all it's ever on his mind. And I know that feeling from being addicted to video
+
+00:44:27.360 --> 00:44:31.760
+ games. So there's like this delicate balance of, I want them to get to enjoy video games like I did
+
+00:44:31.760 --> 00:44:36.640
+ growing up. And I want the good parts of it. But then there's the like, that takes over your brain,
+
+00:44:36.640 --> 00:44:41.120
+ just like anything else that's it's different from the conversation we're having around dopamine
+
+00:44:41.120 --> 00:44:46.560
+ cycles, I think it's a very different thing to be addicted to something than to just be distracted
+
+00:44:46.560 --> 00:44:50.880
+ by everything. I don't know. You know how it, I think they always show in movies where like,
+
+00:44:50.880 --> 00:44:53.920
+ a kid smokes a cigarette and then make them smoke a whole pack of cigarettes.
+
+00:44:53.920 --> 00:44:59.920
+ Like you guys get that where you just like make them play it for like two days.
+
+00:44:59.920 --> 00:45:07.920
+ It's crazy that you we're literally going to have my 10 year old take a break for the summer and
+
+00:45:07.920 --> 00:45:11.840
+ he's not going to play Minecraft. But before we do that, he's going to get that he's going to get
+
+00:45:11.840 --> 00:45:16.080
+ like a day or two of just like eight hours if he wants to just play it nonstop and just
+
+00:45:17.040 --> 00:45:21.360
+ get all of it out of his system. I don't know if that's smart, but he just, he has so many ideas
+
+00:45:21.360 --> 00:45:24.640
+ about things he wants to do and he gets to play it one hour a week. So like the, the list of things
+
+00:45:24.640 --> 00:45:28.400
+ he wants to do in Minecraft just builds and builds and builds. We're going to be like, you know what,
+
+00:45:28.400 --> 00:45:32.000
+ get it all out of your system and then we're not going to do it. Maybe indefinitely is just like,
+
+00:45:32.000 --> 00:45:36.240
+ we need to get him off of it. Just since we told him, like he was very upset at first that we're
+
+00:45:36.240 --> 00:45:40.560
+ going to take this break from this thing that he's obsessed with. But like, he's been a different
+
+00:45:40.560 --> 00:45:45.280
+ kid. It's amazing. It's almost like he's relieved. Like he's been reading, he's been doing all these
+
+00:45:45.280 --> 00:45:49.680
+ things he used to love doing, building Lego. Like he's just, he's backed up being what seems like
+
+00:45:49.680 --> 00:45:56.160
+ himself now. He's not just so like just staring off into space. Like he just became this like,
+
+00:45:56.160 --> 00:46:02.960
+ this Minecraft child that's all that was on his brain. So it's almost like he's happy now knowing
+
+00:46:02.960 --> 00:46:07.200
+ he's not, he doesn't have to think about it. And I know from being addicted to video games,
+
+00:46:07.200 --> 00:46:11.360
+ there is like a relief when you're finally out of it. And it's like, I don't have to spend my time
+
+00:46:11.360 --> 00:46:16.080
+ doing that anymore. That's amazing. Yeah, I see that makes sense. I probably, yeah, I think it's not
+
+00:46:16.080 --> 00:46:20.400
+ just an area I can really relate to. So I don't know what it looks like. It's just such a different,
+
+00:46:20.400 --> 00:46:24.480
+ yeah, it's such a different thing to play an hour of a video game with friends or just certain
+
+00:46:24.480 --> 00:46:29.280
+ types of video games. Like it's just, it's very different from my experiences with certain video
+
+00:46:29.280 --> 00:46:35.120
+ games. It's very different from the phone problem we all have or like these dopamine interruptions,
+
+00:46:35.120 --> 00:46:41.680
+ like these terrible reward cycles that we have now. Yeah, all very different, all modern things
+
+00:46:41.680 --> 00:46:46.160
+ that can kill you. Sorry, go ahead. It's just so weird what modern side is. I going back to
+
+00:46:46.160 --> 00:46:49.600
+ this thing about like being able to sit down and play video games is actually
+
+00:46:49.600 --> 00:46:59.040
+ a good thing now. I've been literally trying to do that where so I got this is either really
+
+00:46:59.040 --> 00:47:05.040
+ funny setup now where I got this like controller thing. I posted a picture of it yesterday.
+
+00:47:05.040 --> 00:47:09.760
+ It's something that just attached to your phone. It's not it was not a switch. No,
+
+00:47:09.760 --> 00:47:14.480
+ it's not switch. It looked like a switch. Yeah. Yeah. So it's just a thing that it's really well
+
+00:47:14.480 --> 00:47:18.160
+ built in whatever it's like a dock for your phone and you get a controller on each side.
+
+00:47:18.160 --> 00:47:23.840
+ And then I use the Nvidia game streaming stuff, which by the way, this here's a crazy part.
+
+00:47:23.840 --> 00:47:28.160
+ I looked for an app in the app store and there wasn't one. I'm like, oh, this sucks. I can't
+
+00:47:28.160 --> 00:47:32.640
+ use Nvidia game streaming. I looked it up online. And it's a whole thing where Apple wants like
+
+00:47:32.640 --> 00:47:35.760
+ a crazy cut and whatever. So this this is not there.
+
+00:47:35.760 --> 00:47:41.760
+ Okay. Let me try using in Safari, like what this work. I go to the Safari site.
+
+00:47:41.760 --> 00:47:47.440
+ It literally prompts me with instructions on how to pin it to my home screen. I do that.
+
+00:47:47.440 --> 00:47:56.240
+ And it works perfectly with the controller. It feels like this is crazy. They can deliver like
+
+00:47:57.120 --> 00:48:03.920
+ a like triple A game, perfect quality, everything over network through my Safari browser.
+
+00:48:03.920 --> 00:48:09.680
+ That's insane. Yeah. That seems like there's so many reasons that should fail, but it works
+
+00:48:09.680 --> 00:48:13.440
+ well. Yeah. And it works really well. It was a really great setup. I remember like, I remember
+
+00:48:13.440 --> 00:48:16.960
+ when Stadia came out, like when Google did the Stadia thing, it was kind of like,
+
+00:48:16.960 --> 00:48:23.200
+ yeah, it didn't get a lot of traction. I thought it was really good. I mean,
+
+00:48:23.200 --> 00:48:27.520
+ I think I think they killed Stadia, not surprising. That's good. Yeah.
+
+00:48:27.520 --> 00:48:31.600
+ GeForce now is very good. And their game library is quite good.
+
+00:48:31.600 --> 00:48:37.840
+ Yeah. So now I have this like, I can like sit down away from everything and then just
+
+00:48:37.840 --> 00:48:45.600
+ relax for like an hour during this. It's funny though, I'm traveling trouble
+
+00:48:45.600 --> 00:48:52.160
+ finding games that keep my keep my attention, whereas in the past, like, and there's some games
+
+00:48:52.160 --> 00:48:58.640
+ that do nine and I have, but I can, it feels like work to some degree. So I'm like doing work
+
+00:48:58.640 --> 00:49:02.560
+ on myself by playing video games. It's like a weird situation.
+
+00:49:02.560 --> 00:49:06.560
+ Yeah. I mean, it's definitely, I know they've said like the younger generation just doesn't
+
+00:49:06.560 --> 00:49:10.720
+ do the movie thing. Like, yeah, that was like our favorite thing to do in high school is go to
+
+00:49:10.720 --> 00:49:16.640
+ movies on Friday night. I mean, that was just part of our brain. Like our brains were very suited to
+
+00:49:16.640 --> 00:49:20.880
+ that form of entertainment. And it's crazy to think like that might not be for everybody or
+
+00:49:20.880 --> 00:49:24.640
+ whole generations or just like whatever. No, thanks. I'm nice. That's still for two hours.
+
+00:49:24.640 --> 00:49:31.680
+ Yeah. It's a, I would be really upset if the economics from behind all this stuff start to
+
+00:49:31.680 --> 00:49:37.280
+ weaken like theaters have been struggling for a long time. We've known that by probably
+
+00:49:37.280 --> 00:49:40.160
+ struggling more than ever now and they're trying to reinvent themselves to some degree.
+
+00:49:40.160 --> 00:49:44.800
+ Then that's like, okay, but then there's still like streaming services and you can still watch
+
+00:49:44.800 --> 00:49:48.160
+ movies at home and people still seem to do that. If people stop doing that, then like,
+
+00:49:48.160 --> 00:49:53.040
+ can these studios even afford to make these big budget things? I saw something that Frank
+
+00:49:53.040 --> 00:50:00.960
+ told me about that. I'm like, I hate this. So, and this is specifically like a Chinese thing,
+
+00:50:00.960 --> 00:50:05.120
+ but I think there's like probably English versions of this as well. There's this app.
+
+00:50:05.120 --> 00:50:13.040
+ It's like Netflix, but they just have like a billion shows where each episode is like 10 minutes
+
+00:50:13.040 --> 00:50:20.320
+ long and it is just like the most cheesiest plots. I'm sure most of it must be AI generated now.
+
+00:50:20.320 --> 00:50:25.680
+ It's just like this is Alibaba, but for entertainment. Yeah, exactly. It's like, oh,
+
+00:50:25.680 --> 00:50:31.200
+ the you work for you're like this girl. Oh, but her dad is a mafia boss and he's pissed at you.
+
+00:50:31.200 --> 00:50:35.120
+ And then you're like, it's just like the cheesiest cliche like, you know,
+
+00:50:35.120 --> 00:50:39.920
+ back to back to back these really short episodes. And I'm like, if this is where
+
+00:50:40.880 --> 00:50:45.120
+ all the attention minutes go to and people aren't watching movies,
+
+00:50:45.120 --> 00:50:48.480
+ like that would really be a sad thing. That would be very sad.
+
+00:50:48.480 --> 00:50:53.280
+ I hate to be this guy. Man, it like to my core makes me kind of want to throw up,
+
+00:50:53.280 --> 00:50:59.680
+ but is it possible that AI will make video creation cheap enough that the big studios can
+
+00:50:59.680 --> 00:51:03.920
+ still make movies even if they make less money because AI makes them more efficient, like visual
+
+00:51:03.920 --> 00:51:07.680
+ effect or something can be like, yeah, it's possible. Not like whole movies made from AI,
+
+00:51:07.680 --> 00:51:14.080
+ but like can efficiencies of technology drive down the cost to make big movies such that
+
+00:51:14.080 --> 00:51:17.760
+ movies stick around, even if people don't watch them as much. Yeah, I think they have, right?
+
+00:51:17.760 --> 00:51:23.840
+ Like we've seen movies, Sean iPhones and stuff now. So I think that is, I guess, one mitigating
+
+00:51:23.840 --> 00:51:29.200
+ factor, but I do worry. So speaking of the thing you just brought up, there's this really great
+
+00:51:29.200 --> 00:51:34.480
+ show called the studio. It's an it's weird. I think it's I think all the good shows are just
+
+00:51:34.480 --> 00:51:39.200
+ an Apple TV in HBO now and everyone else else just makes garbage. It's called a studio. It's
+
+00:51:39.200 --> 00:51:46.320
+ on Apple TV. Seth Rogan's a main guy. Seth Rogan. Okay. It's this it's this really great show about
+
+00:51:46.320 --> 00:51:50.960
+ a film executive and there's making movies all the time. If you see VEEP or any other kind of
+
+00:51:50.960 --> 00:51:54.800
+ workplace comedy like that, where it just everyone's incompetent and just chaos happening all the
+
+00:51:54.800 --> 00:52:00.000
+ time, it's like that, but set in a in like this movie industry world. And there's always actors
+
+00:52:00.000 --> 00:52:04.720
+ in there that are playing themselves is kind of like entourage. The filmmaking style of the
+
+00:52:04.720 --> 00:52:08.720
+ cinematography of this is really, really good. They do a lot of like one take shots for the whole
+
+00:52:08.720 --> 00:52:13.680
+ episode is one take and it's got like a really unique nice set. What well done show? The reason
+
+00:52:13.680 --> 00:52:18.800
+ I bring it up is we just watched an episode yesterday where it was this hilarious episode where
+
+00:52:18.800 --> 00:52:24.720
+ so they're they're making like a cash out movie. You know how like Barbie was like this big
+
+00:52:24.720 --> 00:52:28.880
+ sellout movie that like made a bunch of money. They're trying to do that with Kool-Aid. They're
+
+00:52:28.880 --> 00:52:34.160
+ like making a Kool-Aid movie with a Kool-Aid man. Yeah. And they're super hyped because they
+
+00:52:34.160 --> 00:52:39.280
+ announced it and it goes like ultra viral on Twitter. Like it's amazing. The next day they're
+
+00:52:39.280 --> 00:52:44.320
+ like finalizing the cast and they're looking at the cast and they're like the cast ice cube
+
+00:52:44.320 --> 00:52:49.040
+ as the Kool-Aid man. Yeah. This is an awesome cast. So looking at everyone that was so great.
+
+00:52:49.040 --> 00:52:55.040
+ And someone points out, wait, is it like racist to make the Kool-Aid man black? Like is there some
+
+00:52:55.760 --> 00:53:03.040
+ like connotation with, you know, Kool-Aid being enjoyed by certain people? And they spiral into
+
+00:53:03.040 --> 00:53:10.480
+ this crazy thing where they're like consulting all these people, recasting. At some point they like,
+
+00:53:10.480 --> 00:53:14.400
+ they like made the whole, they were like, okay, it's fine for the Kool-Aid man to be black,
+
+00:53:14.400 --> 00:53:18.720
+ but his wife has to be black too and his kid has to be black too. But then they realize like,
+
+00:53:18.720 --> 00:53:24.080
+ oh no, all the animated characters are black, but then all the live action people are not black.
+
+00:53:24.080 --> 00:53:29.920
+ So like what are we trying to say here? They go this crazy spiral. It's hilarious. And there's a
+
+00:53:29.920 --> 00:53:33.920
+ little aside where they're like, because of this, like there's casting delays and everything.
+
+00:53:33.920 --> 00:53:40.720
+ The director who's like just down to do anything is like, okay, because of these delays, like we
+
+00:53:40.720 --> 00:53:45.200
+ need to save money. So we're going to use AI to like do something to CGI, like just a little
+
+00:53:45.200 --> 00:53:49.040
+ bit here and there and so we're going to just like the eyebrows and stuff like, you know, don't
+
+00:53:49.040 --> 00:53:56.000
+ go overboard. And then so that's like a little aside. And then they go this whole journey,
+
+00:53:56.000 --> 00:54:00.560
+ then they're like, you know what? The right thing to do is go to Ice Cube and ask him like,
+
+00:54:00.560 --> 00:54:03.760
+ what's the right thing to do here? And he obviously is like, you guys are being crazy.
+
+00:54:03.760 --> 00:54:08.160
+ It's like insulting that you even did this. So they just go with the original thing. Yeah.
+
+00:54:08.160 --> 00:54:12.320
+ And they announced it on stage. And everyone's happy. Everyone's excited. It went well. They're
+
+00:54:12.320 --> 00:54:17.600
+ all glad that it didn't, you know, they didn't recast do this crazy thing. That someone stands
+
+00:54:17.600 --> 00:54:22.160
+ up and asks, Hey, what are these reports that you guys are using AI to replace artists?
+
+00:54:22.160 --> 00:54:29.120
+ And then they just get like totally wrecked by this thing that they were not paying attention
+
+00:54:29.120 --> 00:54:35.120
+ to at all side. Yeah. Yeah. So because that's that's a new thing to get upset by. Anyway,
+
+00:54:35.120 --> 00:54:39.680
+ really good show. I spoil that whole episode, but it's okay. I want to watch the show now.
+
+00:54:39.680 --> 00:54:43.200
+ Yeah. It took my brain when you said the studio. I've heard of it before. I think I heard on
+
+00:54:43.200 --> 00:54:47.200
+ another podcast somebody talking about how good the show is. And they talked about the one take thing.
+
+00:54:47.200 --> 00:54:52.320
+ Yeah. Yeah. So Apple TV is a weird thing where I never hear about their shows. Like there's not
+
+00:54:52.320 --> 00:54:57.600
+ money at all. But every time I go to watch one of them, they're, that's actually surprisingly,
+
+00:54:57.600 --> 00:55:04.560
+ like really, really good. I'm going back to your point. Like, yeah, the whole AI in movies thing
+
+00:55:04.560 --> 00:55:10.720
+ is probably not not a good topic right now. Yeah. Oh, I didn't mean like, I know there's that.
+
+00:55:10.720 --> 00:55:14.960
+ I know. I've really meant, but like, you know, how people are going to take it. Yeah. Oh, yeah.
+
+00:55:14.960 --> 00:55:22.560
+ People will take it ways. I know that people are artists and AI can't be a conscious artist.
+
+00:55:22.560 --> 00:55:29.680
+ I know all that stuff. It's your right code. Huh? It's their jobs. You're taking away their jobs.
+
+00:55:29.680 --> 00:55:34.480
+ Oh, artists jobs. Yeah. Well, we might lose our jobs. So we got to, like, keep the head on
+
+00:55:34.480 --> 00:55:40.480
+ level. Everybody should. Yeah. So I guess we can't lose our jobs if we hire ourselves.
+
+00:55:40.480 --> 00:55:44.080
+ I don't even think I have a job right now. Yeah. What is your job? Do you have a job?
+
+00:55:44.080 --> 00:55:47.520
+ It's kind of floating around and somehow somehow I may survive.
+
+00:55:47.520 --> 00:55:53.520
+ Well, let's talk about open code before we get off. Well, I say that when I said I want to talk
+
+00:55:53.520 --> 00:55:56.800
+ about open code, I really just meant like, I want to sync up with you about open code. So maybe we
+
+00:55:56.800 --> 00:56:00.880
+ should just turn off the report. I can talk about one thing that's a little bit interesting. It's
+
+00:56:00.880 --> 00:56:05.760
+ somewhat open code related. So some of the other news from this week was, do you see how cursor
+
+00:56:05.760 --> 00:56:13.040
+ cut off access to Wensurf? Wait, cursor? You mean, a clock and topic and thoughtful access to Wensurf.
+
+00:56:13.040 --> 00:56:18.800
+ Yeah, it's very interesting. Yeah. So just a recap. So Wensurf got acquired by OpenAI
+
+00:56:18.800 --> 00:56:23.280
+ and anthropic gave them Fridays notice being like, yeah, we're not giving you actual models anymore.
+
+00:56:23.280 --> 00:56:28.480
+ So Wensurf had to, like, now scramble. So there's some interesting things that come out of this.
+
+00:56:28.480 --> 00:56:35.680
+ Anthropic can cut off access, but Claude is still in Wensurf. How? It's because
+
+00:56:35.680 --> 00:56:41.440
+ anthropic no longer controls their own models, because they did deal with Google and AWS and
+
+00:56:41.440 --> 00:56:47.200
+ whatever. And I'm assuming Wensurf got capacity from, from one of these other places.
+
+00:56:47.200 --> 00:56:54.880
+ So that brings up this interesting thing where these LM providers, it's clear that
+
+00:56:54.880 --> 00:56:58.640
+ infrastructure companies are going to make money from the models. Like it's, yeah,
+
+00:56:58.640 --> 00:57:02.560
+ sell providers will get a cut, but they're not really in control of this distribution anymore.
+
+00:57:02.560 --> 00:57:05.840
+ They now have to deal with these other companies selling their products on their behalf,
+
+00:57:05.840 --> 00:57:10.640
+ which is why they're all stepping more into the product category.
+
+00:57:11.200 --> 00:57:16.080
+ So that's why, you know, OpenAI bought Wensurf because they're like trying to actually build
+
+00:57:16.080 --> 00:57:18.880
+ end products with this, even though, you know, they kind of, we talk about they kind of be a
+
+00:57:18.880 --> 00:57:23.280
+ platform, whatever. If they're in that space, then you get all those weird things where they're
+
+00:57:23.280 --> 00:57:28.000
+ like cutting off access to a product because it's like kind of competitive with theirs.
+
+00:57:28.000 --> 00:57:32.080
+ I will say the Wensurf OpenAI thing is kind of an extreme test of that because it's
+
+00:57:32.080 --> 00:57:37.920
+ now owned by like a direct competitor. But it does bring up the question, like with OpenCode,
+
+00:57:38.640 --> 00:57:45.360
+ are they going to see that as this is, we are a platform and it's great that OpenCode exists
+
+00:57:45.360 --> 00:57:50.480
+ because it's built on top of our platform and it's bringing people to our models and that's good.
+
+00:57:50.480 --> 00:57:55.200
+ Or are they going to feel really competitive with the fact that they have cloud code,
+
+00:57:55.200 --> 00:57:59.360
+ which is a product they're trying to do. And OpenCode is competing with that. It reminds me a
+
+00:57:59.360 --> 00:58:05.520
+ little bit of some of the SST and AWS stuff where AWS should not have seen SST as competitive
+
+00:58:05.520 --> 00:58:11.200
+ because we were bringing customers to AWS. But AWS had projects like SST internally,
+
+00:58:11.200 --> 00:58:18.000
+ so they kind of saw it as competitive. So like cloud the organization maybe won't feel OpenCode's
+
+00:58:18.000 --> 00:58:24.080
+ competitive, but it's obviously impossible for the cloud code team to be like, not feel that,
+
+00:58:24.080 --> 00:58:29.200
+ right? Is it that simple? Is it just a human thing? It's just like a political human thing
+
+00:58:29.200 --> 00:58:34.800
+ within organizations? Like there are people who get upset about this idea of competing with some
+
+00:58:34.800 --> 00:58:42.400
+ other companies. So then it feels like AWS is competing now or trying to like compete with SST
+
+00:58:42.400 --> 00:58:48.080
+ because there's teams within AWS. They're like screw SST. We have a better thing. Yeah.
+
+00:58:48.080 --> 00:58:53.520
+ Yeah. I think so because like there's cases where it hasn't felt as much and I'm curious
+
+00:58:53.520 --> 00:58:58.320
+ about the internal structure for this, right? So I think this happens when there's people at a
+
+00:58:58.320 --> 00:59:05.680
+ company whose identity and future and whatever is built on top of a technically not necessary
+
+00:59:05.680 --> 00:59:11.120
+ product from the company's offering. So the equivalent to this is CloudFlare and Wrangler,
+
+00:59:11.120 --> 00:59:16.720
+ right? So Wrangler is a way you deploy stuff through CloudFlare. They have never given a
+
+00:59:16.720 --> 00:59:21.360
+ shit about us building a better way or a different way to do that. They've been really encouraging.
+
+00:59:21.360 --> 00:59:26.480
+ I don't know the head of Wrangler. I don't even think that even exists. I don't know how they're
+
+00:59:26.480 --> 00:59:31.680
+ organized, but they definitely do not feel like they're like trying to protect it at all. They're
+
+00:59:31.680 --> 00:59:36.160
+ trying to just get more people to use CloudFlare. They're on the overall goal. So I believe it can
+
+00:59:36.160 --> 00:59:41.440
+ be structured in a way where that's not a problem, but I don't think Cloud Code is. It seems like
+
+00:59:41.440 --> 00:59:46.640
+ a flagship product. So yeah, we'll see what happens. Yeah. And I want to understand like,
+
+00:59:46.640 --> 00:59:52.960
+ I want to understand their motivations with Cloud Code because I don't that they're not charging
+
+00:59:52.960 --> 00:59:58.720
+ for Cloud Code. It's all just tokens. It's all just usage. But do they view it as like a sales
+
+00:59:58.720 --> 01:00:02.560
+ thing? Like they're selling more max subscriptions because of Cloud Code. Like how do they view
+
+01:00:02.560 --> 01:00:07.920
+ the business value of Cloud Code internally? I think right now it's all territory grabbing.
+
+01:00:07.920 --> 01:00:13.360
+ It's not really about anything tied to selling stuff. So when you say territory grabbing,
+
+01:00:13.360 --> 01:00:18.000
+ like just getting in developer mindshare, like getting there's a space that's unoccupied right
+
+01:00:18.000 --> 01:00:24.960
+ now or like we're coming up here right now, which is CLI driven AI tools. They're boxed out from
+
+01:00:24.960 --> 01:00:28.480
+ the ID because cursor's there once over there, whatever. So they can't go that direction.
+
+01:00:28.480 --> 01:00:34.160
+ So there's this space. So I think they're trying to claim as much space as possible,
+
+01:00:34.160 --> 01:00:40.480
+ which is what like letting Cloud Pro subscribers use Cloud. That's just burning money, right?
+
+01:00:40.480 --> 01:00:46.160
+ Like I don't know. There's limits to it. Twenty dollars a month. Yeah. Yeah. So it seems like
+
+01:00:46.160 --> 01:00:50.560
+ territory grabbing right now to see like what this evolves into. And obviously they like will
+
+01:00:50.560 --> 01:00:56.160
+ reframe it with some really like visionary thing of saying, we're no, we're intentionally not
+
+01:00:56.160 --> 01:01:01.040
+ betting on the IDE because I think these agents will be so good that the IDE becomes less relevant.
+
+01:01:01.040 --> 01:01:04.720
+ It's not the tool developers spend their time in it. I don't know if we ever go that far, but
+
+01:01:04.720 --> 01:01:10.240
+ yeah, so I met some motivation. Okay. So then putting on the open code hat,
+
+01:01:12.320 --> 01:01:17.680
+ should we be excited that cloud code is investing or cloth anthropics investing heavily in cloud
+
+01:01:17.680 --> 01:01:22.800
+ code because they'll grow the space of terminals as the place where this stuff should live. And
+
+01:01:22.800 --> 01:01:28.640
+ they're going to help like grow that overall pie compared to ID versions like cursor.
+
+01:01:28.640 --> 01:01:31.920
+ And then we just need to compete with them to take more of that pie that they grew.
+
+01:01:31.920 --> 01:01:35.120
+ Or do we just want to like compete directly with them and say, if you.
+
+01:01:35.120 --> 01:01:39.520
+ Yeah, I think there's a little nuance here where whenever I talk about competition,
+
+01:01:39.520 --> 01:01:44.400
+ people will always be like, Oh, you know, the world's not zero sum, right? It's like different
+
+01:01:44.400 --> 01:01:49.840
+ layers like, yeah, to the end user, there's a not zero sum. More products in this space is great.
+
+01:01:49.840 --> 01:01:54.320
+ And you get more stuff. Yeah, for the people competing in this space, yeah, it is zero sum.
+
+01:01:54.320 --> 01:01:59.920
+ Somebody's going to use your thing or their thing. Yeah, exactly. So I think
+
+01:01:59.920 --> 01:02:06.880
+ I don't, I wish cloud code didn't exist. I think I'm fine competing with them. I think it's we're
+
+01:02:06.880 --> 01:02:12.400
+ competing on dimensions where we're actually really good at and they're not as good at.
+
+01:02:12.400 --> 01:02:17.520
+ But I'm curious what those dimensions are. Sorry. It's just all on the product side,
+
+01:02:17.520 --> 01:02:21.440
+ right? It's just like, yeah, what makes a good product? How do you want to listen to a good product?
+
+01:02:21.440 --> 01:02:26.640
+ We've thought so hard already about just little details that I don't even think they know to think
+
+01:02:26.640 --> 01:02:33.440
+ about, right? Like we had all these discussions about the exact folder structure of where things
+
+01:02:33.440 --> 01:02:39.520
+ get placed. We respect like the xdg defaults on, uh, which is like, you know, defining where
+
+01:02:39.520 --> 01:02:45.280
+ system folders are just little things like that. Like that's a really minor example. But multiply
+
+01:02:45.280 --> 01:02:50.320
+ that like times a thousand, like all the different places we do that. That's what we're competing on,
+
+01:02:50.320 --> 01:02:55.920
+ just packaging it in a better package. So yeah, for me, like, I want to be the default. I don't
+
+01:02:55.920 --> 01:03:00.960
+ want cloud code to be the one growing the space. I want open code to be the one growing the space.
+
+01:03:00.960 --> 01:03:04.800
+ Yeah. So when I think of the major advantages we have, it would be
+
+01:03:04.800 --> 01:03:10.560
+ the two things. It's open source. Cloud code is not. So we have that whole community side of it,
+
+01:03:10.560 --> 01:03:15.760
+ potentially. And we're not tied to anthropic. So for the three months of the year or six months
+
+01:03:15.760 --> 01:03:21.360
+ of the year where some other model is better, yeah, you can use that model theoretically.
+
+01:03:21.360 --> 01:03:25.360
+ Yeah. Forgot I get any other model to call tools and not just be an idiot. Yeah.
+
+01:03:25.360 --> 01:03:29.920
+ Yeah, exactly. And it's just funny. I was thinking about this morning. I'm like,
+
+01:03:30.480 --> 01:03:37.120
+ sometimes I get these like really clear visuals of abstract concepts. I get this visual of this,
+
+01:03:37.120 --> 01:03:42.640
+ like, damn, that's like there. And there's like a bunch of piling up behind the dam.
+
+01:03:42.640 --> 01:03:48.080
+ And it's just like so much stuff piling behind it that you know, when the dam breaks, all this
+
+01:03:48.080 --> 01:03:52.480
+ stuff is going to flood out. I feel that way about Gemini, because I'm just like, oh, yeah,
+
+01:03:52.480 --> 01:03:58.160
+ one on the planet is just waiting for Gemini not to be stupid at tool calling. And the moment
+
+01:03:58.160 --> 01:04:02.240
+ that happens, like, there's going to be a flood of all this stuff, like so much is going to change.
+
+01:04:02.240 --> 01:04:06.960
+ I've said it before, I still think Google is my bet. I mean, I'd worry if I were anthropic,
+
+01:04:06.960 --> 01:04:10.240
+ if they're trying to just be the developer thing, I feel like Google's going to wipe
+
+01:04:10.240 --> 01:04:14.240
+ all the like all the verticals out. I just feel like Google's going to win this battle. But yeah,
+
+01:04:14.240 --> 01:04:18.000
+ we were talking about this yesterday, where this feels like a repeat of Microsoft, where
+
+01:04:18.000 --> 01:04:25.200
+ you remember how, or not remember, it's still happening. Microsoft just has a foothold in
+
+01:04:25.200 --> 01:04:31.600
+ office, like they had their office software, all businesses were using office. And with every single
+
+01:04:31.600 --> 01:04:36.320
+ new thing that came, they just kept winning because they had this existing customer base.
+
+01:04:36.320 --> 01:04:43.920
+ And Google has the same thing with Google Workspace. So they're rolling out Gemini to like all these
+
+01:04:43.920 --> 01:04:50.080
+ crazy big customers, just because it's integrated with Google Workspace. So I think,
+
+01:04:52.080 --> 01:04:56.960
+ yeah, that's another reason, like some of those distribution things just end up winning in the
+
+01:04:56.960 --> 01:05:02.720
+ end. So yeah, I would make that same bet. Yep. Yeah, it's very clear to see on the coding
+
+01:05:02.720 --> 01:05:09.680
+ assistant side, like the model is very smart. And you can hand it an entire code base and ask it
+
+01:05:09.680 --> 01:05:14.960
+ to like come up with a solution to a problem. It's so much better than the other models at coming
+
+01:05:14.960 --> 01:05:20.320
+ up with that solution in my experience. And I've tried them all a lot. If they just knew how to do
+
+01:05:20.320 --> 01:05:25.280
+ the hands off tool calling stuff, if it would just call the tools reliably, like anthropic has
+
+01:05:25.280 --> 01:05:29.200
+ gone so hard on that path, man, I wouldn't I wouldn't touch anthropic models. I don't have
+
+01:05:29.200 --> 01:05:33.440
+ a reason to sign it still. I mean, even cloud four, I was just I'm so disappointed in sign it for
+
+01:05:33.440 --> 01:05:39.040
+ cloud four. I just built it up in my mind is this like moment that's going to just be like,
+
+01:05:39.040 --> 01:05:43.280
+ because they're the best at developer stuff. They're most focused on developer stuff,
+
+01:05:43.280 --> 01:05:48.160
+ cloud four is going to be this huge shift. And it's just really it's still pretty stupid,
+
+01:05:48.160 --> 01:05:52.800
+ if we're being honest. I mean, like from like a big brain standpoint, it's okay at doing I mean,
+
+01:05:52.800 --> 01:05:56.880
+ it's really good at calling tools. And that's its thing. But if we could get a model that had the
+
+01:05:56.880 --> 01:06:03.040
+ intelligence of Jim and I, and and even like, oh, three, that intelligence with the tool calling
+
+01:06:03.040 --> 01:06:08.000
+ ability of an anthropic model. Yeah, it's gonna be amazing.
+
+01:06:08.000 --> 01:06:11.840
+ Yeah, exactly. Not tight being tight says cool. And going back to this product thing, I was I
+
+01:06:11.840 --> 01:06:19.600
+ posted that a day like, man, I was just so many years spent on terminal tools, like, like building
+
+01:06:19.600 --> 01:06:23.280
+ this new version of open code, I'm like really feeling all that experience, because so much of
+
+01:06:23.280 --> 01:06:29.040
+ it is like, familiar ground. There was that post where someone was complaining, because cloud
+
+01:06:29.040 --> 01:06:33.600
+ code has this like mode where you can just give it a task and just have it run in CLI mode. So
+
+01:06:33.600 --> 01:06:38.080
+ it's not interactive. So it's outputting stuff. And someone was complaining. This is annoying,
+
+01:06:38.080 --> 01:06:41.440
+ because in this mode, I want to see everything it did. It's not this like interactive thing where I
+
+01:06:41.440 --> 01:06:47.920
+ want like the more minimal view that it normally shows. And yeah, we've been there, we know that
+
+01:06:47.920 --> 01:06:51.280
+ with SST, there's like interactive mode, and that needs to look completely different from
+
+01:06:51.280 --> 01:06:55.680
+ running it like when it runs in CI, like there needs to be a different mode when it runs there.
+
+01:06:55.680 --> 01:07:00.640
+ And like, the way you wire all that up and and reuse things between the two, like,
+
+01:07:00.640 --> 01:07:06.320
+ it just so familiar to me, I've done it before. And like, we'll have like a better output in CLI
+
+01:07:06.320 --> 01:07:12.880
+ mode than they do. And I'm sure eventually as the stuff gets copied, but I like the fact that
+
+01:07:12.880 --> 01:07:18.960
+ all of these things that people bring up are product things. They're not so much. It's all
+
+01:07:18.960 --> 01:07:25.680
+ packaging stuff. And so I would like I'm happy competing with anthropicon on that on that zone.
+
+01:07:25.680 --> 01:07:29.600
+ Yeah, I know every team working in this space, because there's a million people working on these
+
+01:07:29.600 --> 01:07:35.920
+ types of tools. I know everybody thinks they've got secret sauce. I am very excited and pleased
+
+01:07:35.920 --> 01:07:39.920
+ about where we're at and what we can launch maybe next week, like compared to cloud codes
+
+01:07:39.920 --> 01:07:44.720
+ specifically. If we just compare the tool we're going to have versus cloud code, there's just a
+
+01:07:44.720 --> 01:07:49.920
+ whole bunch of advantages using open code that don't either can't be replicated in cloud code or
+
+01:07:49.920 --> 01:07:55.520
+ haven't been yet. Yeah, it's just going to be very obviously a better product from next week on.
+
+01:07:55.520 --> 01:08:00.080
+ I'm excited to get it out there. Yeah, I think we got to get it out soon-ish because
+
+01:08:00.640 --> 01:08:07.200
+ again, going back to the same thing earlier, we like we can only go so long without launching
+
+01:08:07.200 --> 01:08:11.840
+ before we start to lose steam. Yeah, yeah. So that that's a good real factor to
+
+01:08:11.840 --> 01:08:18.640
+ Yeah, and cloud codes having a moment. Like, it's definitely been on Twitter a lot
+
+01:08:18.640 --> 01:08:26.720
+ for what that's worth. All right, on that note. All right, should maybe get to it. See you.
+
+01:08:30.640 --> 01:08:40.640
+ [Music]
+

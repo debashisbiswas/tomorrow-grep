@@ -1,0 +1,1679 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.000
+ You want to know something funny I uh this isn't embarrassing, I want to say it anyway.
+
+00:00:04.000 --> 00:00:28.400
+ [Music]
+
+00:00:28.400 --> 00:00:31.200
+ Hey can you tell me about the benchmarking stuff? I just can't wait any longer,
+
+00:00:31.200 --> 00:00:38.000
+ I just need to know like how slow is Vercelle? How slow is Vercelle uh yeah okay so I guess for
+
+00:00:38.000 --> 00:00:44.640
+ some context what I found interesting is it seems like nobody actually benchmarks providers as much
+
+00:00:44.640 --> 00:00:49.040
+ as I thought they would and I think everyone's got in the same position where I'm like oh everyone
+
+00:00:49.040 --> 00:00:53.360
+ says it's fast someone else probably benchmarked it and we're probably assuming the same thing
+
+00:00:53.360 --> 00:00:59.520
+ and uh AJ actually told me the other day that no one had really benchmarked AWS until
+
+00:00:59.520 --> 00:01:04.640
+ like max had that like nice lambda cold start page and that was like what like a year ago
+
+00:01:04.640 --> 00:01:10.000
+ but I think we're just in this funny situation where like we're all engineers but we don't like
+
+00:01:10.000 --> 00:01:16.080
+ really do the engineering stuff a lot of the time yeah um which I get because like you know
+
+00:01:16.080 --> 00:01:20.400
+ one these speed differences might not even matter like you're gonna use the thing you want to use
+
+00:01:20.400 --> 00:01:25.920
+ and you'll just eat the performance overhead if it gives you other benefits but yesterday I was
+
+00:01:25.920 --> 00:01:33.760
+ like okay we built this open next sst thing and deployed next s to AWS we didn't really focus on
+
+00:01:33.760 --> 00:01:38.560
+ performance we were just kind of like let's just make it work and we'll figure out performance later
+
+00:01:38.560 --> 00:01:44.640
+ I assumed that it was just gonna be slower because of that because we know we didn't do anything special
+
+00:01:44.640 --> 00:01:51.600
+ so let me just run a benchmark so I ran it and the results were really surprising I thought open
+
+00:01:51.600 --> 00:01:57.760
+ next would probably be like I was ballparking like maybe like 30 percent slower in general
+
+00:01:57.760 --> 00:02:04.480
+ um it turned out it was actually three times faster and for the mean latency uh the throughput
+
+00:02:04.480 --> 00:02:09.760
+ was also insanely higher I think so I did a benchmark of like 10 seconds 20 concurrent requests
+
+00:02:09.760 --> 00:02:15.040
+ constantly hitting it for 10 for 10 seconds I think the throughput was like almost four times more
+
+00:02:16.000 --> 00:02:22.560
+ on the AWS self-hosted version with open next so this was kind of shocking I was like their brand
+
+00:02:22.560 --> 00:02:29.040
+ is just so much around we focus on making your front ends run well and I think that's true of
+
+00:02:29.040 --> 00:02:34.720
+ how some of the React framework is designed but I think I've always said this performance comes a
+
+00:02:34.720 --> 00:02:39.520
+ lot from architecture like if you improve your architecture you can probably like make a much
+
+00:02:39.520 --> 00:02:45.280
+ bigger impact and improving like oh this function executes faster in my code base so yeah that's
+
+00:02:45.280 --> 00:02:51.200
+ kind of what's that play here is their architecture is probably really complicated for two reasons
+
+00:02:51.200 --> 00:02:55.360
+ I think one reason being they have a lot of additional features that the virtual dashboard
+
+00:02:55.360 --> 00:03:00.640
+ offers and some of these are good features so they probably have to execute some extra stuff to
+
+00:03:00.640 --> 00:03:05.680
+ support them and then two they're in the challenging situation of you know they potentially need to
+
+00:03:05.680 --> 00:03:11.280
+ support a million deployments on their AWS account that means they're running up on all kinds of like
+
+00:03:12.240 --> 00:03:17.360
+ AWS limits all kinds of workarounds they need to do so that part the first part if they have
+
+00:03:17.360 --> 00:03:21.760
+ additional features okay maybe worth the performance trade-off the second part where
+
+00:03:21.760 --> 00:03:26.640
+ them having a scale to a million deployments is not your problem that's their problem
+
+00:03:26.640 --> 00:03:30.560
+ they're getting worse performance for that reason I think again I'm all theorizing
+
+00:03:30.560 --> 00:03:35.120
+ at why it could be so much slower but that to me is like that's like a less acceptable like
+
+00:03:35.120 --> 00:03:40.480
+ I'm not gonna get worse performance just so they can scale more you know yeah yeah there I can see
+
+00:03:40.480 --> 00:03:45.920
+ the self-hosting side being worth it so we're just to clarify were these API requests or these were
+
+00:03:45.920 --> 00:03:53.520
+ like SSR rendering pages yeah so the thing that I posted yesterday was very simple it was just a
+
+00:03:53.520 --> 00:03:59.520
+ hello world type API route just to keep it as stripped down as possible because of what I was
+
+00:03:59.520 --> 00:04:04.160
+ actually looking to test was what the next year's runtime overhead was of just having a simple API
+
+00:04:04.160 --> 00:04:09.120
+ route yeah but I just kind of discovered this other thing I did run benchmarks on like the root page
+
+00:04:09.120 --> 00:04:14.880
+ which is an which is a React server component page also it was also like drastically different
+
+00:04:14.880 --> 00:04:20.640
+ there as well so it doesn't I don't think there's a difference between API router or any other stuff
+
+00:04:20.640 --> 00:04:27.760
+ yeah and it puts into question like if it's this much worse all the streaming stuff that they added
+
+00:04:27.760 --> 00:04:32.480
+ like does that even compensate for that that that is that even worth it on top of all this
+
+00:04:32.480 --> 00:04:36.480
+ like we haven't added streaming and we will and then and so we'll improve the performance even
+
+00:04:36.480 --> 00:04:41.120
+ beyond what we have now but yeah it really confuses me because it's like this is the most basic
+
+00:04:41.120 --> 00:04:47.200
+ thing like what's the server what's the delay from the server and you yep and that's like where
+
+00:04:47.200 --> 00:04:51.520
+ you start optimizing things and I feel like they focus on a bunch of other places while the core
+
+00:04:51.520 --> 00:04:57.280
+ is is kind of slow I mean I've realized when I saw this stuff yesterday that you posted that all
+
+00:04:57.280 --> 00:05:01.520
+ of my stuff on our cell is just like simple websites that don't even have an API just like
+
+00:05:02.240 --> 00:05:06.880
+ informational websites and the only like full stack site where there's like a back end and I
+
+00:05:06.880 --> 00:05:12.000
+ used API routes and I used Prisma 2 so that's probably a lot of the problem but the only one I've ever
+
+00:05:12.000 --> 00:05:16.720
+ built in the point of our cell is so stupid slow I just assumed I was doing something wrong and
+
+00:05:16.720 --> 00:05:24.080
+ then I learned like Prisma's giant and like Prisma in a lambda function is just a bad bad deal I learned
+
+00:05:24.080 --> 00:05:28.320
+ that so that's probably explains a lot of it but I was really surprised and I think it's like it's
+
+00:05:28.320 --> 00:05:33.520
+ kind of like when somebody yells at a crowd for help you just assume somebody's taking care like
+
+00:05:33.520 --> 00:05:38.240
+ someone has done this work if you get out there for cell slow turns out no you just did it yesterday
+
+00:05:38.240 --> 00:05:42.640
+ and that's very surprising yeah it's a diffusion of diffusion of responsibility thing it's like we
+
+00:05:42.640 --> 00:05:46.800
+ all just assume someone else gonna take care of it and it just doesn't happen yeah so it's
+
+00:05:46.800 --> 00:05:50.400
+ interesting so I didn't get a response from them I'm sure they're actually no I did that one of
+
+00:05:50.400 --> 00:05:55.840
+ their employees replied being like and I kind of gave him my setup and he's gonna explore yeah like
+
+00:05:55.840 --> 00:05:59.440
+ they could I've talked to AJ for a bit AJ had a bunch of theories on what they might be doing
+
+00:05:59.440 --> 00:06:04.400
+ behind the scenes that causes some of this because he was at serverless ink when they kind of had
+
+00:06:04.400 --> 00:06:08.960
+ their hosted offering I think they had to do a bunch of weird workarounds also to deal with
+
+00:06:08.960 --> 00:06:15.440
+ just the challenges you're trying to you know support a million deployments so I'm used to like
+
+00:06:15.440 --> 00:06:22.640
+ the true the main tradeoff seems to always be like developer experience or runtime performance
+
+00:06:22.640 --> 00:06:26.960
+ I don't feel like that's like inherently should be the case I feel like we should get to a place
+
+00:06:26.960 --> 00:06:31.440
+ where we have both but it turns out Vercel is that too I didn't know that I was actually sacrificing
+
+00:06:31.440 --> 00:06:37.040
+ runtime performance inherently by deploying to Vercel but like they tout all these dx features
+
+00:06:37.040 --> 00:06:44.240
+ like it's so easy to use at the cost of runtime performance sounds like yeah there's that historical
+
+00:06:44.240 --> 00:06:50.320
+ advice I don't remember exactly how the quote goes it's like make it work make it something make it
+
+00:06:50.320 --> 00:06:54.560
+ fast or whatever I forgot what that is make it work make it good make it fast or something like
+
+00:06:54.560 --> 00:06:59.120
+ that something like that yeah and I find that you can you can you can rearrange that quote in every
+
+00:06:59.120 --> 00:07:03.440
+ any order and you can kind of be like oh that makes sense and I think for us our order is
+
+00:07:03.440 --> 00:07:10.480
+ like we don't have an amazing dashboard or console which is an amazing hook if you're trying
+
+00:07:10.480 --> 00:07:15.600
+ to sell something like Vercel so you show off that look how easy it is that like magic experience
+
+00:07:16.400 --> 00:07:21.280
+ and I think that's kind of where they focused and they when you focus on a certain area you
+
+00:07:21.280 --> 00:07:25.280
+ kind of compromising the others so it might be performance they compromise on also just like
+
+00:07:25.280 --> 00:07:28.880
+ like structure of the project like it's not open source is closed source things like that it's
+
+00:07:28.880 --> 00:07:34.000
+ because they did things in a certain order I think for us we took a harder direction where we were
+
+00:07:34.000 --> 00:07:38.960
+ like let's make it open source first which has his own challenges okay let's make it perform
+
+00:07:38.960 --> 00:07:42.720
+ well which has his own challenges and then now we're getting to okay we're going to eventually
+
+00:07:42.720 --> 00:07:48.880
+ have a dashboard that feels like as magical to use as as Vercels but it's just a different order but
+
+00:07:48.880 --> 00:07:55.440
+ I like our order better because I feel like it leads to something that's sustainable and healthy
+
+00:07:55.440 --> 00:08:00.000
+ whereas the other one grows really big up front because you can really hook a lot of people and then
+
+00:08:00.000 --> 00:08:04.160
+ then you have a bunch of work you have to now do afterward now that you have this this attention
+
+00:08:04.160 --> 00:08:10.160
+ on you yeah I'm so glad though I got out of that world and I'm now just a Laravel developer I'm
+
+00:08:10.160 --> 00:08:16.080
+ never gonna touch next year's or Vercel again wait can we could SST deploy Laravel apps when will
+
+00:08:16.080 --> 00:08:22.160
+ that be a thing uh does that make sense I mean there's Laravel vapor right which is some kind of
+
+00:08:22.160 --> 00:08:27.200
+ serverless deployment option for Laravel so can you just like copy what they did with vapor
+
+00:08:27.200 --> 00:08:31.760
+ and build in into SST yeah we probably I'll talk to Frank I'll get I'll get Frank on it
+
+00:08:31.760 --> 00:08:36.720
+ is that an implication that Frank does all the work yeah no just like he does these new framework
+
+00:08:36.720 --> 00:08:43.440
+ right he just itself that's true we've been we've been laughing so hard at Frank because uh he's like
+
+00:08:43.440 --> 00:08:48.960
+ weirdly becoming a world expert on how all these frameworks work under the hood but he just does
+
+00:08:48.960 --> 00:08:54.240
+ not do front-end development at all so he knows like the exact build processes felt kit and all
+
+00:08:54.240 --> 00:08:58.560
+ their little quirks and how it worked under the hood but like he could never build a spell app
+
+00:08:58.560 --> 00:09:03.600
+ and then he like he does never use next JS and he like he's never used remix and he does understand
+
+00:09:03.600 --> 00:09:09.120
+ any of the conversations that anyone is having about any of these things but he weirdly knows
+
+00:09:09.120 --> 00:09:14.000
+ more about the stuff than anyone it's just like a weird weird situation but yeah that's what happens
+
+00:09:14.000 --> 00:09:18.880
+ in your working infrastructure I guess yeah now I want to see like a youtube video of Frank building
+
+00:09:18.880 --> 00:09:25.440
+ a front-end app that would just be that would be my day can we please make that happen yeah exactly
+
+00:09:25.440 --> 00:09:29.600
+ and he has all his opinions on what he likes and what he doesn't like but it's really related to
+
+00:09:29.600 --> 00:09:36.160
+ like how annoying their internals are so yeah next JS is the most annoying by far right yes yeah yeah
+
+00:09:36.160 --> 00:09:41.520
+ I mean yes everyone else I got tried svelte I got tried the svelte experience people who get
+
+00:09:41.520 --> 00:09:45.680
+ really passionate about svelte my experience was kind of interesting because I was there was a
+
+00:09:45.680 --> 00:09:49.680
+ moment where I knew I didn't want to do react anymore so I was like okay what are the options
+
+00:09:49.680 --> 00:09:55.360
+ and svelte really seemed like it was it I was like I'm gonna be in the svelte world I'm gonna do svelte
+
+00:09:56.080 --> 00:10:05.120
+ but literally right when I was about to go all in uh Ryan published solid 1.0 or I think it was
+
+00:10:05.120 --> 00:10:11.520
+ right before solid 1.0 he had some blog posts that went viral about solid JS and I saw it and I was
+
+00:10:11.520 --> 00:10:16.720
+ like I think I already said this before but I was like oh great another like stupid framework that
+
+00:10:16.720 --> 00:10:22.480
+ looks like react like what's the point of this but it intrigued me enough to like be like okay
+
+00:10:22.480 --> 00:10:26.480
+ maybe I should do more research before I commit to svelte and then that's when I researched solid
+
+00:10:26.480 --> 00:10:31.920
+ and then uh I ended up using that but it just goes to show that yeah so I'm like super in the
+
+00:10:31.920 --> 00:10:36.320
+ solid world I'm building everything in solid but it's like just sheer random coincidence and timing
+
+00:10:36.320 --> 00:10:43.680
+ that that made it so that I uh I used it if if it came out that blog posts came out a week later
+
+00:10:43.680 --> 00:10:50.880
+ I don't think I would be using solid wild sliding doors of tech now next is like one of the big
+
+00:10:50.880 --> 00:10:57.360
+ solid people you're one of the big solid advocates yeah and you could have been doing the same
+
+00:10:57.360 --> 00:11:00.880
+ for svelte who knows what that world would have been like and that means I would have been pro
+
+00:11:00.880 --> 00:11:07.120
+ vercel probably oh yeah alternate universe you might be working at vercel right now oh my god
+
+00:11:07.120 --> 00:11:12.640
+ I feel like I'm working at vercelte without much invention right now right you're doing that work
+
+00:11:12.640 --> 00:11:19.600
+ for them so tell me about this Laravel I curiosity I wanted to make a video so I'm like a free agent
+
+00:11:19.600 --> 00:11:24.240
+ right now like I've left react I don't like that by the way you don't like what me being a free
+
+00:11:24.240 --> 00:11:28.080
+ agent I can be what I want to be a agent I need to know where you are I need to pin
+
+00:11:28.080 --> 00:11:33.120
+ any of them down I don't like being a attorney you can end up anywhere you could end up somewhere
+
+00:11:33.120 --> 00:11:36.960
+ I don't want you to end up maybe I could maybe I could what are you gonna do about it what's the
+
+00:11:36.960 --> 00:11:40.480
+ problem with me ended up anywhere what's gonna I just won't talk to you anymore you just don't
+
+00:11:40.480 --> 00:11:44.480
+ know you just don't want me to be cool you think I'm gonna become cool because I'm gonna get into
+
+00:11:44.480 --> 00:11:49.280
+ some technology that you're not in on yet and then we'll have problems because you like to be the
+
+00:11:49.280 --> 00:11:56.880
+ cool don't worry about you be coming cool that's fair totally fair so Laravel I want to make a video
+
+00:11:56.880 --> 00:12:02.080
+ now that I'm done with react forever and ever I wanted to make a video of my first impressions
+
+00:12:02.080 --> 00:12:06.480
+ of Laravel because I hear it's like they live right beside us they're like our neighbor that
+
+00:12:06.480 --> 00:12:12.240
+ we never really hang out with nice neighbor yeah our nice neighbor the kind considerate neighbor
+
+00:12:12.240 --> 00:12:15.920
+ that like brings your trash to the front door like so it brings your trash can in when it's
+
+00:12:15.920 --> 00:12:21.040
+ out on the street you know that neighbor but then you never interact with them outside of like hey how
+
+00:12:21.040 --> 00:12:24.880
+ how are you I know you had Aaron on your stream so I'm gonna I'm gonna give you credit for that
+
+00:12:24.880 --> 00:12:30.560
+ uh but like they just seem like our cousins and at the same time we have everything in common
+
+00:12:30.560 --> 00:12:34.960
+ nothing in common and I wanted to know what's it all about so I'm making a video of my first
+
+00:12:34.960 --> 00:12:40.880
+ impressions I just spent like an hour going through like Laravel getting started stuff and it's
+
+00:12:40.880 --> 00:12:46.720
+ incredible I can't believe how good it is and I can't believe we chose this path of JavaScript on the
+
+00:12:46.720 --> 00:12:51.360
+ back end and all the drama why is it so I got to figure this out you got to help me you'll you'll
+
+00:12:51.360 --> 00:12:55.680
+ think through this the right way you'll come to the right answer what is it about the Laravel
+
+00:12:55.680 --> 00:12:59.920
+ community that doesn't they're not invested in all the drama they don't get caught up in it and why
+
+00:12:59.920 --> 00:13:06.000
+ does the JavaScript community get so caught up and just like petty stupid stuff is it an age thing my
+
+00:13:06.000 --> 00:13:12.640
+ best theory is older wiser developers use PHP and they don't get caught up in the games of children
+
+00:13:12.640 --> 00:13:17.360
+ and that's the problem with JavaScript ecosystem is that a good theory yeah I can give you my grand
+
+00:13:17.360 --> 00:13:23.600
+ theory are you ready for it yes ready for a grand theory yeah I think this follows a lot of other
+
+00:13:23.600 --> 00:13:29.760
+ things in the world and life in general when you have something that's homogenous and low scale it
+
+00:13:29.760 --> 00:13:35.120
+ tends to be very stable and people tend to look at it as wow like why can't we be like that like
+
+00:13:35.120 --> 00:13:40.480
+ think about how America is always compared to like some Scandinavian country and because you
+
+00:13:40.480 --> 00:13:46.240
+ know the Scandinavian countries smaller people are very very similar culturally very the same
+
+00:13:46.240 --> 00:13:51.360
+ in America we have just complete much bigger scale and complete chaos and who we are where we come
+
+00:13:51.360 --> 00:13:55.440
+ from etc the Laravel is Finland it's what you're telling me yeah it's like everyone's everyone's
+
+00:13:55.440 --> 00:14:00.240
+ happy and there's not too much it's kind of like very stable and and like that I think it's because
+
+00:14:00.240 --> 00:14:06.080
+ you know they all like what Taylor's done with Laravel everyone pretty much agrees like that's
+
+00:14:06.080 --> 00:14:10.160
+ that works I'm sure there's some like you know I'm not going to like paint an extreme picture I'm
+
+00:14:10.160 --> 00:14:13.920
+ sure there's like disagreement of course it's when whenever there's engineers evolved there's
+
+00:14:13.920 --> 00:14:21.040
+ going to be disagreement yeah but it's different than like crazy the crazy level of competition that
+
+00:14:21.040 --> 00:14:27.520
+ exists in the JavaScript world it's just way way way bigger right it's massive compared to
+
+00:14:27.520 --> 00:14:32.800
+ the PHP world why why though so what are the forces that led to JavaScript being so much bigger
+
+00:14:32.800 --> 00:14:38.320
+ than PHP it's a it's a minority rule thing right uh the intolerant minorities always
+
+00:14:38.320 --> 00:14:43.760
+ again with different words there's a concept called minority rule which is a thing where
+
+00:14:43.760 --> 00:14:50.240
+ when there is an intolerant minority it always becomes the most popular so a quick example is
+
+00:14:50.240 --> 00:14:56.240
+ okay you're a vegan it's actually a great example if you're a vegan when me and you hang out it's
+
+00:14:56.240 --> 00:15:00.000
+ almost guaranteed that we're going to eat at a vegan restaurant or a restaurant that has vegan
+
+00:15:00.000 --> 00:15:06.240
+ food because you can't eat meat but I'm willing to eat vegan food right yeah yeah so similarly
+
+00:15:06.240 --> 00:15:10.880
+ no one can avoid JavaScript because it runs on the browser PHP developers are willing to
+
+00:15:10.880 --> 00:15:16.240
+ write JavaScript because they have to it runs on the browser okay and but JavaScript developers
+
+00:15:16.240 --> 00:15:22.320
+ don't really need to write PHP or whatever other language so I think it's just that force drives
+
+00:15:22.320 --> 00:15:26.560
+ it like I wasn't a jobs from the back and developer for a long time I did a bunch of other languages
+
+00:15:26.560 --> 00:15:31.440
+ on the back end I didn't really want to use jobs from the back end because I liked other languages
+
+00:15:31.440 --> 00:15:39.440
+ and ecosystems better but it just got to a point where JavaScript got so big because of this minority
+
+00:15:39.440 --> 00:15:46.160
+ rule thing I think and then yeah like what scale comes problems but also benefits so here's here's
+
+00:15:46.160 --> 00:15:52.640
+ what I will say Laravelle is like a paradise because they have a great BDFL and Taylor right
+
+00:15:52.640 --> 00:15:58.800
+ benevolent dictator for life whatever kind of like Linus okay yeah which is awesome but if you
+
+00:15:58.800 --> 00:16:05.040
+ think about continuity and like it like relies on like one amazing person right now which is
+
+00:16:05.040 --> 00:16:09.280
+ completely fine for PHP like that person is gonna be around for a very long time so it's not a big
+
+00:16:09.280 --> 00:16:15.200
+ deal but it's thinking in terms of like like long term and like really thinking about the downsides
+
+00:16:15.200 --> 00:16:20.560
+ like that is downside like we have more chaos but we also have way more resilience yeah so it's
+
+00:16:20.560 --> 00:16:25.280
+ the bus factor like if if something happened to Taylor or if he just decides he's got his lambo
+
+00:16:25.280 --> 00:16:29.840
+ and his amazing life and he's just gonna quit yeah then the Laravelle community has to figure out
+
+00:16:29.840 --> 00:16:35.520
+ how to go on without him there is no similar figurehead in JavaScript land is there if Guillermo decides
+
+00:16:35.520 --> 00:16:40.960
+ he's done he's gonna live on his angel investments or whatever I think JavaScript will keep going
+
+00:16:40.960 --> 00:16:45.920
+ the way it is now yeah like there's no one person that really holds a future of it
+
+00:16:45.920 --> 00:16:49.600
+ and like I said like I'm describing this in an extreme way I'm sure Laravelle's like
+
+00:16:49.600 --> 00:16:56.160
+ well run where people can take over but just not to that same degree and yeah I think
+
+00:16:56.160 --> 00:17:03.200
+ yes the chaos is annoying but like there is good that comes from it but I also completely get where
+
+00:17:03.200 --> 00:17:08.640
+ you also can just not want to deal with that that also makes complete sense
+
+00:17:09.520 --> 00:17:14.800
+ so this was all kind of a downer I was really excited and then you said all this stuff about
+
+00:17:14.800 --> 00:17:22.560
+ minority reporting and whatever and now I think about how you're judging me because I'm a vegan
+
+00:17:22.560 --> 00:17:26.640
+ you're judging me because I want to do Laravelle I actually want to move to Finland it's a thing
+
+00:17:26.640 --> 00:17:30.000
+ that I would love to do if they would accept me I don't know if the Laravelle community will
+
+00:17:30.000 --> 00:17:34.400
+ accept me it's like they don't want a bunch of Americans just rushing into Finland they probably
+
+00:17:34.400 --> 00:17:39.200
+ don't want a bunch of us coming from the JavaScript ecosystem we'll bring all our drama with us
+
+00:17:39.520 --> 00:17:45.120
+ the worst part about being vegan is that everyone can eat our food so like the deli case
+
+00:17:45.120 --> 00:17:51.200
+ at mama jeans they have sushi and they only have like two different kinds of vegetable only
+
+00:17:51.200 --> 00:17:55.760
+ like vegan friendly sushi vegetable rolls and stuff but everyone gets them even if they're
+
+00:17:55.760 --> 00:18:00.480
+ not vegan so then they run out of that every single day and when we go it's a 50/50 chance
+
+00:18:00.480 --> 00:18:04.720
+ that we can actually get the kind we like because all you meat eaters eating up our veggies
+
+00:18:05.520 --> 00:18:09.600
+ sucks sorry I don't know where that came from okay don't worry I never get veggie sushi so
+
+00:18:09.600 --> 00:18:14.640
+ thank you I'm not contributing to your problem thank you so much I did think it was funny doing
+
+00:18:14.640 --> 00:18:20.480
+ the Laravelle stuff like they didn't escape NPM you have to like NPM install an NPM build like
+
+00:18:20.480 --> 00:18:24.320
+ there's like a piece of your front end that still lives in that world yeah I don't think it's
+
+00:18:24.320 --> 00:18:29.360
+ inescapable you can't escape JavaScript therefore it'll always be around like I don't want like if
+
+00:18:29.360 --> 00:18:34.000
+ I just considered nothing else like I wouldn't be using JavaScript as my back-end language but
+
+00:18:34.800 --> 00:18:39.840
+ it's just inescapable and because inescapable there is and I definitely underestimated this
+
+00:18:39.840 --> 00:18:44.720
+ when I was outside of the JavaScript on the back-end world I was like why do people care so much
+
+00:18:44.720 --> 00:18:48.960
+ they're back-end and their front-end language is the same like who cares like it is it's not
+
+00:18:48.960 --> 00:18:52.960
+ big deal they're different and it's not a big deal they're different but there is a crazy amount of
+
+00:18:52.960 --> 00:18:57.200
+ synergy you get when the back-end and the front-end is in the same language and with SST we've like
+
+00:18:57.200 --> 00:19:01.440
+ made your infrastructure code in the same language as well you just get better at the language no
+
+00:19:01.440 --> 00:19:07.280
+ matter what what you're doing and that is kind of nice and now that I have it like I'm like not
+
+00:19:07.280 --> 00:19:11.760
+ super willing to give that up yeah I do I am but I am jealous for all the same reasons and I
+
+00:19:11.760 --> 00:19:16.880
+ I definitely look to that world to understand where our bar should be because their bar is so
+
+00:19:16.880 --> 00:19:22.560
+ much higher on what is like a good experience what's a good entry-level experience for a new project
+
+00:19:22.560 --> 00:19:27.120
+ what is considered complete for a framework yeah I think we can get there and I think the
+
+00:19:27.120 --> 00:19:32.240
+ right people are like in entering the JavaScript world now that'll help us get there but yeah we
+
+00:19:32.240 --> 00:19:37.840
+ have a long way to go five years I would say yeah I mean there aren't there like people who tried
+
+00:19:37.840 --> 00:19:44.480
+ the Adonis Adonis redwood like are these things just what why do people not run with those I think
+
+00:19:44.480 --> 00:19:50.720
+ redwood is a little bit different because okay so here's the issue in the JavaScript well it makes
+
+00:19:50.720 --> 00:19:55.280
+ us hard because I was thinking about this this morning I was like okay if I was gonna take SST
+
+00:19:55.280 --> 00:19:59.280
+ and build another like bloodstream the thing you were using but I was gonna build an equivalent
+
+00:19:59.280 --> 00:20:03.760
+ like what what could what would that look like and I realized like I wouldn't even be comfortable
+
+00:20:03.760 --> 00:20:09.120
+ saying that you should use TRPC or you should use REST or you should use GraphQL or you should use
+
+00:20:09.120 --> 00:20:14.480
+ replica whatever because I can't make I just don't feel like I have the ability to make that strong
+
+00:20:14.480 --> 00:20:22.160
+ of a decision in the JavaScript world yeah I am not super clear on why it's easier to do that
+
+00:20:22.160 --> 00:20:27.200
+ in other ecosystems because for me I feel there's all kinds of use cases and I personally wouldn't
+
+00:20:27.200 --> 00:20:31.760
+ always just use one of those things yeah I struggle to like create like a really complete
+
+00:20:31.760 --> 00:20:38.640
+ boilerplate for that reason but yeah I'm not sure why that seems to fly in like again maybe just
+
+00:20:38.640 --> 00:20:43.280
+ because they're smaller is yeah I was gonna say in like little era the world is there just one of
+
+00:20:43.280 --> 00:20:47.920
+ all those things and you don't have to make decisions because there's just one way of doing it sounds
+
+00:20:47.920 --> 00:20:52.880
+ nice oh okay so here's like the root issue or here's an example of the problem right if I built
+
+00:20:52.880 --> 00:21:01.600
+ a starter he would have to work whether you're building linear or you're building I don't know
+
+00:21:01.600 --> 00:21:05.520
+ like like an e-commerce website or something or I don't know something some other sass it's not
+
+00:21:05.520 --> 00:21:11.680
+ like intense like linear and the PHP world no one would try to build a linear so they do the
+
+00:21:11.680 --> 00:21:15.920
+ inertia thing have you seen that yeah exactly I've seen that I'm not saying you can't use front
+
+00:21:15.920 --> 00:21:21.200
+ frameworks there but yeah an inertial yeah I don't know I I didn't want to use it because I
+
+00:21:21.200 --> 00:21:26.560
+ was trying to escape the next sass world like that was my whole thing and then it's like inertia
+
+00:21:26.560 --> 00:21:33.840
+ plus next s like no don't take me back I thought it was for like using the frameworks directly like
+
+00:21:33.840 --> 00:21:38.400
+ reactor yeah you can use react view but it said with next s I think you can like build a next
+
+00:21:38.400 --> 00:21:44.160
+ sass app but you just want to build your back end with PHP I guess yeah I guess that's the thing
+
+00:21:44.160 --> 00:21:48.480
+ I got to learn PHP so I can actually be a larval dev because I don't actually know any PHP that's
+
+00:21:48.480 --> 00:21:54.640
+ the other issue I do think TypeScript is a better language than PHP I mean I'm obviously going to
+
+00:21:54.640 --> 00:21:59.120
+ say that because I'm really into going crazy with types and not everyone's into whether any types
+
+00:21:59.120 --> 00:22:04.240
+ in PHP is it does it have a type it does it does have a type system I think the newest version of
+
+00:22:04.240 --> 00:22:08.000
+ PHP types is some Aaron mentioned he doesn't even use it like he hasn't even tried it why is there
+
+00:22:08.000 --> 00:22:16.160
+ not use types why is Aaron wrong he's asked like what give me a compelling reason to use it and
+
+00:22:16.160 --> 00:22:20.160
+ no one has been able to convince him of anything compelling enough that sounds exciting enough for
+
+00:22:20.160 --> 00:22:25.040
+ him to try it out wait we have compelling reasons to use type systems right not really I feel like
+
+00:22:25.040 --> 00:22:28.800
+ someone give him a compelling reason no I feel like I've struggled with this problem for like a
+
+00:22:28.800 --> 00:22:34.640
+ decade now I don't know why I thought we liked types no I love types and I think everyone should
+
+00:22:34.640 --> 00:22:39.040
+ use them but that's different from me being able to get someone excited about types when they don't
+
+00:22:39.040 --> 00:22:43.040
+ understand it oh Aaron's here Aaron's saying he doesn't like types what do you mean we're on a
+
+00:22:43.040 --> 00:22:47.600
+ podcast next what are you talking about who's here Aaron's not here do you want to bring Aaron on
+
+00:22:47.600 --> 00:22:54.960
+ I mean we can yeah we can bring Aaron talk about larval and how Aaron has types type takes but yeah
+
+00:22:54.960 --> 00:23:00.640
+ I don't I love types I just have never been able to found find a convincing way to get someone
+
+00:23:01.520 --> 00:23:06.720
+ excited about trying them out when they aren't already using them understanding the benefits
+
+00:23:06.720 --> 00:23:10.640
+ okay it's hardly explained I think we'll see if you can see if you can convince Aaron
+
+00:23:10.640 --> 00:23:15.360
+ when he comes on this is Aaron Francis joining us from plant scale here I am I was listening in
+
+00:23:15.360 --> 00:23:20.080
+ the car I was out getting coffee and I was listening in the car and I made it just in time go ahead
+
+00:23:20.080 --> 00:23:26.000
+ decks I've seen that PHP has types mm-hmm I'm curious what that means and I'm curious why you're
+
+00:23:26.000 --> 00:23:32.960
+ not like jumping to like go try that out great question I just don't like them so here's the deal
+
+00:23:32.960 --> 00:23:41.040
+ um fair we have types and I think a lot of people think of PHP is like the 5.2 days which was like
+
+00:23:41.040 --> 00:23:46.320
+ you know 15 years ago where it was just the wild wild west we have full on we have full on type
+
+00:23:46.320 --> 00:23:53.440
+ systems now I think in like eight points something we have generics which I understand can be very
+
+00:23:53.440 --> 00:24:00.880
+ fancy I haven't I haven't dug into them very much um I feel like I'm kind of a type incrementalist
+
+00:24:00.880 --> 00:24:06.080
+ in in PHP we have a lot more like proper classes than something like JavaScript so in
+
+00:24:06.080 --> 00:24:10.480
+ JavaScript my understanding is from what I see on on Twitter which is most of my understanding
+
+00:24:10.480 --> 00:24:17.200
+ my understanding is you pass around a lot of objects right just just objects and they have this
+
+00:24:17.200 --> 00:24:23.200
+ amorphous shape and the type system helps enforce like hey this object that I'm passing around it
+
+00:24:23.200 --> 00:24:30.880
+ conforms to the user type or the or the podcast type or the post type and it's like oh that's helpful
+
+00:24:30.880 --> 00:24:37.680
+ because I know I can look for user name or podcast title right I kind of I kind of buy that in PHP
+
+00:24:37.680 --> 00:24:44.400
+ we would be passing around something like a user object like an actual proper class or a podcast
+
+00:24:44.400 --> 00:24:50.880
+ episode class and if you're using you know an IDE or if you're like using PHP storm or something
+
+00:24:50.880 --> 00:24:57.600
+ you get all of that like you get all of that that autocomplete and if you type hint the um
+
+00:24:57.600 --> 00:25:03.120
+ if you type hint the method that accepts the podcast the actual language will say like hey you passed
+
+00:25:03.120 --> 00:25:08.160
+ a user instead of a podcast I'm gonna like I'm gonna blow up and so you can't run um now I think
+
+00:25:08.160 --> 00:25:13.360
+ that is runtime and not like compile because we don't do that so there's a little bit of a difference
+
+00:25:13.360 --> 00:25:20.320
+ there but I where I where I land is like I like type hinting objects like I I like knowing that my
+
+00:25:20.320 --> 00:25:26.080
+ process podcast method is going to receive a podcast object like yeah that makes me feel pretty
+
+00:25:26.080 --> 00:25:33.200
+ comfortable it's it's when you get into stuff like I'm gonna type hint or I'm gonna make a type called
+
+00:25:33.200 --> 00:25:39.440
+ positive integer so that I always know that when I'm charging my user the type is positive
+
+00:25:39.440 --> 00:25:46.960
+ integer I'm like I don't understand the overhead of creating this creating this very base type of
+
+00:25:46.960 --> 00:25:52.880
+ positive integer to protect who am I protecting I think is always the question like what what are
+
+00:25:52.880 --> 00:25:58.320
+ you guys not writing tests not you two but like the the community are you all right I'm not okay
+
+00:25:58.320 --> 00:26:04.640
+ well sorry um because people are always like well how do you know like I never write bugs because I
+
+00:26:04.640 --> 00:26:10.560
+ have a type system and I'm like I don't understand all the bugs that are coming from mismatched types
+
+00:26:10.560 --> 00:26:17.360
+ I understand bugs that are coming from me doing something silly but not because I'm passing you know
+
+00:26:17.360 --> 00:26:23.600
+ a string instead of a integer so that's kind of like my my broad stance so pick that apart as you
+
+00:26:23.600 --> 00:26:29.040
+ will yeah I think that makes sense I think the way I see it is there's almost like two level not
+
+00:26:29.040 --> 00:26:34.560
+ not two but we'll start with two there's like two levels to type systems so there's the basic like
+
+00:26:34.560 --> 00:26:38.800
+ like keep track of the structure of the things I'm passing around which it sounds like if you're
+
+00:26:38.800 --> 00:26:42.560
+ yeah if you're using any language of classes like you kind of already get that without having an
+
+00:26:42.560 --> 00:26:47.600
+ additional set of annotations annotating everything if and most and a lot of languages like that's
+
+00:26:47.600 --> 00:26:51.920
+ kind of where they stop and I think there's this weird gap between that and the next level where
+
+00:26:51.920 --> 00:26:56.160
+ you can add like a few more features but if it's kind of like useless like examples you get right
+
+00:26:56.160 --> 00:27:01.760
+ like yeah those aren't like game-changing I need to have it features but then the next there's like a
+
+00:27:01.760 --> 00:27:06.160
+ language can get a more complex type system if they kind of keep going on that path they can
+
+00:27:06.160 --> 00:27:10.480
+ kind of like break through to another level which is where I think TypeScript has gone to where you
+
+00:27:10.480 --> 00:27:16.560
+ can do like all sorts of like interesting derivations and inference and all kinds of fancy things that
+
+00:27:16.560 --> 00:27:21.520
+ realistically like the end user really never sees it the end developer really never sees
+
+00:27:21.520 --> 00:27:28.400
+ that stuff or needs to touch it but it allows for some like really insane just kind of features in
+
+00:27:28.400 --> 00:27:33.360
+ in when you're using a certain library or using you know certain things if you look at some of
+
+00:27:33.360 --> 00:27:38.720
+ the libraries that do this like you know drizzles like the ORM that new one if you look at like all
+
+00:27:38.720 --> 00:27:44.240
+ the tansec all tanners stuff he's been rewriting on the front end they all kind of follow this model
+
+00:27:44.240 --> 00:27:48.720
+ where the end user just is writing plain JavaScript it's like it's almost like someone's they're like
+
+00:27:48.720 --> 00:27:54.160
+ guiding them on how they're how they're structuring things so they're just weird gap where languages
+
+00:27:54.160 --> 00:28:01.040
+ don't go that far whereas kind of like I don't see the huge benefit of the type system I feel
+
+00:28:01.040 --> 00:28:05.680
+ that way about go I feel like I like everything about go but I feel that type system doesn't go
+
+00:28:05.680 --> 00:28:09.600
+ far enough so it's just kind of it's like annoying type system to deal with where I'm like
+
+00:28:09.600 --> 00:28:15.680
+ like it's not really doing enough for me and it's and again the thing I'm describing like
+
+00:28:15.680 --> 00:28:19.760
+ this next level thing it's really it's a hard to understand if you understand it like I don't
+
+00:28:19.760 --> 00:28:25.120
+ know how else to explain it if I think back to when I understood it I can remember I just remember
+
+00:28:25.120 --> 00:28:30.480
+ like trying a bunch of stuff in TypeScript and like realizing I could do certain things and then that
+
+00:28:30.480 --> 00:28:34.960
+ it turned out that was like a whole category of stuff that didn't know existed but yeah I think
+
+00:28:34.960 --> 00:28:39.120
+ there's like light type systems where I'm like yeah that's that's probably good enough like in
+
+00:28:39.120 --> 00:28:45.280
+ the PHP world what you have is probably definitely good enough and going like 10% more isn't worth
+
+00:28:45.280 --> 00:28:49.120
+ it unless you're going to go like 100% further with the type system if that makes sense and there's
+
+00:28:49.120 --> 00:28:54.000
+ like levels passed that there's like languages with like a really like correct type system like
+
+00:28:54.000 --> 00:28:58.800
+ yeah like the old camels and the Haskells things like that but yeah I think like there's a different
+
+00:28:58.800 --> 00:29:04.400
+ stops on the station if that makes sense yeah that that totally makes it so I will freely admit that
+
+00:29:04.400 --> 00:29:09.680
+ like I haven't I haven't really dug in to TypeScript and I see all these people as a corollary
+
+00:29:09.680 --> 00:29:14.320
+ corollary be like oh man tailwind sucks and I'm like you just got to try tailwind man
+
+00:29:14.320 --> 00:29:20.320
+ and I admit like I'm the person saying TypeScript sucks but I haven't used it like another thing
+
+00:29:20.320 --> 00:29:29.200
+ is PHP community has been relatively slow to adopt more strict typing and I have found in my career
+
+00:29:29.200 --> 00:29:37.680
+ that I I have gotten outsized advantages from ignoring things until like until I'm sure that
+
+00:29:37.680 --> 00:29:45.200
+ they're gonna stick around and so for example Laravel has just recently adopted stronger typing
+
+00:29:45.200 --> 00:29:51.040
+ in Laravel core and so that to me is a signal that like okay Aaron it's time to you know it's time
+
+00:29:51.040 --> 00:29:57.440
+ to move on from 2014 and like catch up a little bit to typing and so I'm now at the point like I'm
+
+00:29:57.440 --> 00:30:03.840
+ now at the point in my career where it's like okay the the benevolent dictator Taylor has decided
+
+00:30:03.840 --> 00:30:09.440
+ we're gonna bring some typing to the core and now it's time for me to say okay well I guess
+
+00:30:09.440 --> 00:30:13.760
+ types are gonna stick around for a while what I don't want to do is I don't want to be the one
+
+00:30:13.760 --> 00:30:20.080
+ expending all of my energy trying to convince Laravel to bring typing to Laravel because I got
+
+00:30:20.080 --> 00:30:25.280
+ other stuff I got to do but now that like now that it's here it's like all right well I guess
+
+00:30:25.280 --> 00:30:31.920
+ types one like I was able to success successfully like ignore angular until it went away I ignored
+
+00:30:31.920 --> 00:30:36.720
+ microservices till they went away I'm still waiting for Docker to go away but like I just
+
+00:30:36.720 --> 00:30:41.600
+ ignore a lot of stuff and then when somebody says like when Laravel says hey we're gonna use
+
+00:30:41.600 --> 00:30:46.240
+ Vue.js now I'm like all right well I guess I got to learn Vue.js and it's been fantastic and I love
+
+00:30:46.240 --> 00:30:50.640
+ it and so I will admit that part of it is like I just don't want to learn it until I'm sure that
+
+00:30:50.640 --> 00:30:55.360
+ it's gonna stick around and now it seems like it's gonna stick around I was gonna say the adoption
+
+00:30:55.360 --> 00:31:01.760
+ curve thing is is interesting because naturally this stuff at the early part of the adoption curve
+
+00:31:01.760 --> 00:31:07.440
+ you're gonna find you're gonna have this weird combination of so like you probably work on
+
+00:31:07.440 --> 00:31:15.280
+ like real products I work on products for their developers right yeah so I tend to be more on
+
+00:31:15.280 --> 00:31:19.840
+ like extremely early adoption of things because I'm like trying to figure out opportunities for
+
+00:31:19.840 --> 00:31:24.080
+ me to build stuff for their developers so I find a lot of the people in that space are
+
+00:31:24.080 --> 00:31:28.480
+ they're all similar to me that we're trying to like figure out the next thing the paradox here
+
+00:31:28.480 --> 00:31:34.080
+ is most of the things in this space are gonna die because they're in we're like in this early zone
+
+00:31:34.080 --> 00:31:40.560
+ so I think a lot of conversation is this weird clash of people in my area talking with people
+
+00:31:40.560 --> 00:31:45.600
+ in your area and we're like kind of doing very different things and you really don't need to be
+
+00:31:45.600 --> 00:31:49.600
+ listening to what we're talking about because we're debating with each other on where we what we're
+
+00:31:49.600 --> 00:31:54.320
+ thinking is gonna make it through and we each have different opinions on it and like one out of 10
+
+00:31:54.320 --> 00:31:58.640
+ of us are gonna be right right so yeah it does make sense if you're just building like like we can
+
+00:31:58.640 --> 00:32:03.120
+ actual thing not just stuff for other developers that you're not at the same part adoption curve
+
+00:32:03.120 --> 00:32:06.320
+ as the rest of us I feel like I'm on Twitter I hate this conversation so much I'm sorry
+
+00:32:06.320 --> 00:32:12.000
+ this is like the same stuff I can't stand listening to when you guys talk about types on
+
+00:32:12.000 --> 00:32:17.120
+ Twitter yeah discord um also as as a show note feel free to tell me to leave whenever once I've
+
+00:32:17.120 --> 00:32:21.920
+ served no no I want to actually talk to you no that's the last thing in the world we should have
+
+00:32:21.920 --> 00:32:26.560
+ talked about with you because you work at planet scale you're actually a good dev rel which is
+
+00:32:26.560 --> 00:32:33.040
+ like thanks unicorn yeah there's that there's I want to know what a perfect Saturday is for Aaron
+
+00:32:33.040 --> 00:32:36.880
+ because someone asked that and I have all kinds of things I want to talk to Aaron about Larry
+
+00:32:36.880 --> 00:32:41.520
+ though hey I am I am here I got my coffee I got my studio what do you want to talk about give me
+
+00:32:41.520 --> 00:32:45.440
+ give me one and I'll pick one that's what we want to talk about I talk about dev rel stuff I
+
+00:32:45.440 --> 00:32:51.920
+ yeah we can ask you an open-ended question of like is this your first role as in being a dev rel
+
+00:32:51.920 --> 00:32:59.680
+ yeah so I was for a minute I was like a marketing engineer at Tupole the pair programming company
+
+00:32:59.680 --> 00:33:06.080
+ which is amazing um for literally like six months and then Ben and I the CEO and I decided like no
+
+00:33:06.080 --> 00:33:11.200
+ y'all need like a you'll need a marketer not someone who's gonna like you know build stuff and talk
+
+00:33:11.200 --> 00:33:16.240
+ about it and so then after that I went to I went to planet scale and this is my first role as like
+
+00:33:16.240 --> 00:33:22.800
+ a developer you know whatever relations evangelist educator I have opinions on that but this is my
+
+00:33:22.800 --> 00:33:30.000
+ first role and that prior to that I spent like six years at a property tax company in Texas where
+
+00:33:30.000 --> 00:33:36.720
+ I live building their internal CRM and it was wonderful I loved it yeah so I'm curious like when
+
+00:33:36.720 --> 00:33:41.920
+ you shifted into this role uh you kind of the plant scale like tell you what their philosophy
+
+00:33:41.920 --> 00:33:46.640
+ around it was or were you like did you have to kind of help them figure it out uh like what did
+
+00:33:46.640 --> 00:33:54.480
+ like what's your goal in your job um my goal is to be happy Dax so here like when I when I joined
+
+00:33:54.480 --> 00:34:00.800
+ when I joined planet scale um I joined because and I think Dax you know I talked a little bit
+
+00:34:00.800 --> 00:34:07.360
+ about this philosophy in the last episode I joined because I was already doing the job that they were
+
+00:34:07.360 --> 00:34:13.040
+ trying to hire someone to do I just wasn't doing it for them so I joined because I was writing
+
+00:34:13.040 --> 00:34:19.760
+ articles about my sequel and I was talking about my sequel and they looked and were like hey we're
+
+00:34:19.760 --> 00:34:27.680
+ trying right now to hire someone to do this under our banner we come do this for us and so they're
+
+00:34:27.680 --> 00:34:32.320
+ like I think the philosophical lesson there is like do the work and put yourself out publicly
+
+00:34:32.320 --> 00:34:37.600
+ and see what happens um because I got a DM from Sam the CEO that was like hey how come you don't
+
+00:34:37.600 --> 00:34:41.760
+ work for us and it's like dude no one's ever asked me to work for you like why would I work for you
+
+00:34:41.760 --> 00:34:47.200
+ and so he said you know hey I like what you're doing we're we're trying to hire developer
+
+00:34:47.200 --> 00:34:51.600
+ educator which I think is nuanced do you want to come do that for us and I was like what does it
+
+00:34:51.600 --> 00:34:55.520
+ mean he said I just kind of do the exact same thing you're doing but more of it and get paid for
+
+00:34:55.520 --> 00:35:02.480
+ it I was like yeah that sounds great and so I think the nuance there is that I am I am a
+
+00:35:02.480 --> 00:35:09.840
+ developer educator and I listen I'm new to this like be a public presence for a company I think
+
+00:35:09.840 --> 00:35:18.000
+ there is a whole community of developer relations that is a little bit different and not a community
+
+00:35:18.000 --> 00:35:24.480
+ that I'm like super involved in I think the developer relations community has structure and
+
+00:35:24.480 --> 00:35:30.000
+ history and leaders and opinions and I'm just like I don't have any I'm I am not a part of that
+
+00:35:30.000 --> 00:35:35.760
+ community and so I think what is slightly different for me is I'm a developer educator and my job
+
+00:35:35.760 --> 00:35:42.240
+ specifically we we have it really good at planet scale because our product is my sequel and my
+
+00:35:42.240 --> 00:35:48.880
+ sequel is broad and huge and useful and useful apart from planet scale I'm biased but I think
+
+00:35:48.880 --> 00:35:54.880
+ it's best on planet scale but it's incredibly useful if you just put it on a box yourself right
+
+00:35:54.880 --> 00:36:00.720
+ and so my job is to like teach people how to use my sequel effectively and as a part of that
+
+00:36:00.720 --> 00:36:06.880
+ hopefully we will convince them that like you can use my sequel effectively and you can use it
+
+00:36:06.880 --> 00:36:12.080
+ most effectively on planet scale but if if you don't choose to come to planet scale we're still
+
+00:36:12.080 --> 00:36:16.880
+ going to give you like all the knowledge you need to to use it effectively and we have this nice
+
+00:36:16.880 --> 00:36:23.040
+ split of like I don't know the lower level of like how to run my sequel effectively and so I don't
+
+00:36:23.040 --> 00:36:26.640
+ teach people how to do that but that's great because that's what planet scale does anyway so we have
+
+00:36:26.640 --> 00:36:32.480
+ this nice split kind of naturally the the broadness is something I've been thinking about so much I'm
+
+00:36:32.480 --> 00:36:38.480
+ so grateful for it I think it's easy when your company is doing a broad space because then this
+
+00:36:38.480 --> 00:36:45.440
+ part of your job it's very easy to deliver broad value like so for us you know we build a very
+
+00:36:45.440 --> 00:36:49.840
+ specific framework but we're just in the serverless space we want to help people do stuff in a serverless
+
+00:36:49.840 --> 00:36:53.920
+ way and help people figure out what the best way to do things is so I get to like talk about
+
+00:36:53.920 --> 00:36:58.000
+ anything like anything related to serverless whether it's on the more on the front-end side
+
+00:36:58.000 --> 00:37:01.680
+ more on the back-end side like that's fun and I can kind of talk about it and it's like not hard
+
+00:37:01.680 --> 00:37:06.400
+ for me to not be talking about SST every day because our scope is so broad like we're what we're
+
+00:37:06.400 --> 00:37:10.880
+ down to like do anything and my sequel is the same where you know there's so much information
+
+00:37:10.880 --> 00:37:18.720
+ that's not planet scale specific and that I find is the best probably only form of like
+
+00:37:18.720 --> 00:37:24.720
+ I am whatever you want to call this category of thing like when companies have people publicly
+
+00:37:24.720 --> 00:37:29.040
+ talking about things like that's the only form of it that I engage with the part that drives me
+
+00:37:29.040 --> 00:37:36.160
+ crazy is when the company's scope and product is very small and specific which is fine because a lot
+
+00:37:36.160 --> 00:37:41.040
+ value and opportunity there but then this side of it like the dev role side of it ends up being
+
+00:37:41.040 --> 00:37:46.000
+ really weird because they can only ever talk about this very specific thing and they need to talk
+
+00:37:46.000 --> 00:37:50.640
+ about it as though it's going to solve every possible scenario every possible problem and like
+
+00:37:50.640 --> 00:37:54.800
+ for me that just kind of loses authenticity there and I think I actually find that's most of it I
+
+00:37:54.800 --> 00:38:00.800
+ would say like 90 percent of companies fall into this category I think like they could do what Aaron
+
+00:38:00.800 --> 00:38:05.120
+ and planet scale are doing in some form like I think of the off-case instead of just making a
+
+00:38:05.120 --> 00:38:09.760
+ bunch of videos they're like here's how this auth service works with Vercel and here's how it
+
+00:38:09.760 --> 00:38:14.560
+ works with whatever they could just like teach people about auth I mean right they could do the
+
+00:38:14.560 --> 00:38:19.920
+ thing where there's like there are a lot of concepts here people are fuzzy on and the more you understand
+
+00:38:19.920 --> 00:38:23.840
+ about auth the more likely you're like I don't want to do this I want to pay someone to just do this
+
+00:38:23.840 --> 00:38:27.920
+ for me right could they do that yeah I mean that all this is actually a good example because I was
+
+00:38:27.920 --> 00:38:31.040
+ actually thinking about it as it's hard to make that broad but you're right because you can just
+
+00:38:31.040 --> 00:38:36.160
+ talk about how OAuth works how OIDC works yeah the history of it like why this all makes sense
+
+00:38:36.160 --> 00:38:39.600
+ like why like why these standards exist and how they like there's just so much you can talk about
+
+00:38:39.600 --> 00:38:44.640
+ there but as many of the part that's going to be spicy you can only do that if you're an expert
+
+00:38:44.640 --> 00:38:50.960
+ in those things and when planet scale hired Aaron they didn't hire him because he was an expert at
+
+00:38:50.960 --> 00:38:55.280
+ he didn't have like years of experience doing this role they hired him because he has a lot of
+
+00:38:55.280 --> 00:38:59.600
+ experience with my sequel and they figured he could learn this other stuff and figure out his own
+
+00:38:59.600 --> 00:39:05.600
+ flavor of it I think that's a much better approach like if you are a company doing auth like make
+
+00:39:05.600 --> 00:39:12.400
+ sure you have someone that's just like the guy that that that can do all the auth stuff so yeah I
+
+00:39:12.400 --> 00:39:16.000
+ think that's maybe where it's hard for like some with a lot of devil experience to like shift into
+
+00:39:16.000 --> 00:39:19.200
+ like one day they're working at a database company the next day they're working on off company the
+
+00:39:19.200 --> 00:39:23.760
+ next day you know you can't become an expert that's the other problem yeah the famous like DevRels
+
+00:39:23.760 --> 00:39:27.680
+ for hire the ones that are on all the conferences like when you don't know what company they work
+
+00:39:27.680 --> 00:39:32.080
+ for at the conference they show up at that's a problem like there's just no authenticity there
+
+00:39:32.080 --> 00:39:36.080
+ like you're shilling a different thing this week that's just that loses everything that we're
+
+00:39:36.080 --> 00:39:40.080
+ talking about which is the thing that's so great about what Aaron's doing at plant scale yeah there
+
+00:39:40.080 --> 00:39:45.920
+ are only there are only a few of these roles I could fill and plant scale is one I would say
+
+00:39:45.920 --> 00:39:52.480
+ Laravel is another if they needed any evangelism I could do that but I would feel like I would feel
+
+00:39:52.480 --> 00:40:00.400
+ really out over my skis if I were at some other company where it was like I'm being paid to evangelize
+
+00:40:00.400 --> 00:40:07.920
+ something and I am the junior here because when like at a planet scale or with Laravel
+
+00:40:07.920 --> 00:40:13.360
+ I can talk intelligently about the shortcomings like I know what the trade-offs are and so when
+
+00:40:13.360 --> 00:40:18.400
+ somebody's like hey I need I need to run an analytics database I can be like I don't think
+
+00:40:18.400 --> 00:40:23.840
+ my SQL is right for that whereas if I were if I were the junior I was like yeah data you said
+
+00:40:23.840 --> 00:40:28.400
+ database I say database like we're talking about the same thing it's like oh boy we're not talking
+
+00:40:28.400 --> 00:40:34.560
+ about the same thing and so like if I were if I were to go to some other company I would feel
+
+00:40:34.560 --> 00:40:39.600
+ really insecure but that's my personality I think some people don't feel insecure they just talk
+
+00:40:39.600 --> 00:40:44.560
+ like they're the expert I'm like wait I know I know more than you about this thing and I know
+
+00:40:44.560 --> 00:40:49.760
+ that you're being paid to say this and you're wrong and that's where I think it's like oh gosh
+
+00:40:49.760 --> 00:40:54.640
+ this is this is a weird and that's why I said I'm not a part of the dev rel because there's a whole
+
+00:40:54.640 --> 00:40:59.440
+ like community I just I teach people how to use my SQL and I think planet scale so good place to do
+
+00:40:59.440 --> 00:41:04.400
+ that yeah yeah I think there's a lot of room to grow hopefully these people hear these kind of
+
+00:41:04.400 --> 00:41:09.520
+ things as constructive criticism like I think there's a lot of room for companies startups to do
+
+00:41:09.520 --> 00:41:15.120
+ better in this area in terms of marketing their products this this whole podcast has been so technical
+
+00:41:15.120 --> 00:41:19.920
+ and so like that we started this without a topic and it just feels like it's it's had like a
+
+00:41:19.920 --> 00:41:24.000
+ track we're going places we can talk about peanut butter and jelly sandwiches if you want let's do
+
+00:41:24.000 --> 00:41:29.600
+ that let's listen I listened to yesterday's episode yeah what's your what's your perfect
+
+00:41:29.600 --> 00:41:34.400
+ Saturday Aaron let's talk about something that's on tech yeah well unfortunately it might be tech
+
+00:41:34.400 --> 00:41:39.520
+ anyway um I was I was just on yesterday I don't know if y'all know Justin Jackson he has a podcast
+
+00:41:39.520 --> 00:41:46.080
+ called build your sass and yeah transistor we use it for this podcast yeah yeah yeah exactly I was
+
+00:41:46.080 --> 00:41:52.800
+ on with him yesterday talking about how at this phase in my life um I'm really trying to like
+
+00:41:52.800 --> 00:41:58.240
+ change the trajectory of my life and so I'm working extremely hard in this era and I call it like my
+
+00:41:58.240 --> 00:42:04.080
+ maximum effort era and it will you know that era will end at some point and so right now my perfect
+
+00:42:04.080 --> 00:42:09.680
+ Saturday is I have two kids who just turned to their twins um my perfect Saturday right now is
+
+00:42:09.680 --> 00:42:16.400
+ usually um we wake up you know seven seven thirty get the kids up do the whole breakfast thing and
+
+00:42:16.400 --> 00:42:22.400
+ then I usually take the kids out so that the boss my wife has some time just like home alone you know
+
+00:42:22.400 --> 00:42:26.640
+ just to like yeah sit and stare at the wall and let the brain come down a little bit um
+
+00:42:26.640 --> 00:42:33.520
+ so I take the kids out and then you know we come back and we usually like we usually hang out this
+
+00:42:33.520 --> 00:42:38.640
+ past weekend we went to the firetruck museum here in Dallas and the kids lost their freaking minds
+
+00:42:38.640 --> 00:42:45.840
+ it was so much fun they just firetruck you you just like all day long so a lot of time with family
+
+00:42:45.840 --> 00:42:52.400
+ and then when they nap um and then in the afternoons I spend a lot of time just like doing side work
+
+00:42:52.400 --> 00:42:57.520
+ and I was telling Justin yesterday I don't have hobbies I don't play video games I don't watch sports
+
+00:42:57.520 --> 00:43:04.080
+ I just freaking work and I'm happy like I like doing that because I'm think I like I am pursuing
+
+00:43:04.080 --> 00:43:09.520
+ my dreams and this is what I want to do and so that's that's my uninspired take for a Saturday
+
+00:43:09.520 --> 00:43:13.680
+ right now yeah this is I mean we're gonna sound I guess people gonna hear this and then again sound
+
+00:43:13.680 --> 00:43:20.240
+ like these are toxic Americans but yeah I love getting worked on on the weekend because it feels
+
+00:43:20.240 --> 00:43:25.600
+ like a bonus it feels like the expectation was zero but again our work done on the weekend it
+
+00:43:25.600 --> 00:43:30.560
+ feels like 10 times more important than or more relevant than that's exactly how I think about it
+
+00:43:30.560 --> 00:43:34.560
+ like as soon as Saturday morning comes around it's like anything I get done today and tomorrow
+
+00:43:34.560 --> 00:43:38.480
+ it's just gravy and that's I love it I love the psychology of there's no pressure it's like I'm
+
+00:43:38.480 --> 00:43:44.800
+ just getting ahead yeah that's awesome and like I'm fully aware of the toxic hustle bro thing and
+
+00:43:44.800 --> 00:43:51.680
+ I think I'm trying literally I'm trying to like make my dreams come true and like it just so happens
+
+00:43:51.680 --> 00:43:57.760
+ that I'm not a painter and I'm not an artist and I'm not I just I happen to be a programmer and so
+
+00:43:57.760 --> 00:44:04.160
+ when I'm like when I am out here working and hustling on the thing that I want my life to be it looks
+
+00:44:04.160 --> 00:44:10.080
+ like the exact same thing that I do nine to five for planet scale so it feels like oh geez he just
+
+00:44:10.080 --> 00:44:14.320
+ works all the time but it's like yeah I'm trying to change I'm trying to change my life and I'm
+
+00:44:14.320 --> 00:44:19.040
+ I'm not a painter so I just I just program more you know yeah no when it's your hobby that's always
+
+00:44:19.040 --> 00:44:24.000
+ been my my problem is like this is what I do for fun it makes me feel really guilty in my
+
+00:44:24.000 --> 00:44:28.320
+ relationship with my wife because every time I'm in my office I'm having a great time she knows
+
+00:44:28.320 --> 00:44:32.720
+ that she's not having a great time so it does feel very like I wish you could live your dream
+
+00:44:32.720 --> 00:44:39.760
+ okay now we're getting too deep I don't want to go back cuddle back to sandwiches back to sandwiches
+
+00:44:39.760 --> 00:44:46.240
+ yeah anything else please my wife doesn't she doesn't sorry on Saturdays we don't just leave her
+
+00:44:46.960 --> 00:44:51.520
+ she leaves the house so all we can she was gone and it's just me and the boys at the house smart
+
+00:44:51.520 --> 00:44:59.920
+ well I have a dog and two cats so that's something you just do it every one all the time that's
+
+00:44:59.920 --> 00:45:05.840
+ amazing oh just soak it up Dax yeah for real if you plan to have kids and not like I mean I love
+
+00:45:05.840 --> 00:45:09.360
+ my kids they're the best thing in the world but it's just life is so different before and after
+
+00:45:09.360 --> 00:45:14.560
+ kids that if I could go back I would have viewed that time before we had kids so differently we just
+
+00:45:14.560 --> 00:45:18.480
+ had all the time in the world to do whatever we wanted and you don't realize it there's literally
+
+00:45:18.480 --> 00:45:22.320
+ everyone in my life is telling me this so I don't I don't think I would take it for granted I'm gonna
+
+00:45:22.320 --> 00:45:28.720
+ miss it yeah okay everyone is saying the exact same thing so okay and I just I just want to hear
+
+00:45:28.720 --> 00:45:34.560
+ just give me just give me two minutes on on Laravel I know that we're Finland or Sweden or whatever
+
+00:45:34.560 --> 00:45:40.720
+ but like tell me how much you loved it so I just I can't believe like there's not more people in
+
+00:45:40.720 --> 00:45:45.760
+ the JavaScript community talking about it or like that have had any brushes with it I've seen people
+
+00:45:45.760 --> 00:45:50.880
+ on Twitter now say like yeah I see the same stuff I see people happy and I just have never tried
+
+00:45:50.880 --> 00:45:56.160
+ like why haven't we tried it's just like I know PHP is a whole nother thing I have to learn
+
+00:45:56.160 --> 00:46:01.520
+ but I've done it with so many other languages why would I be hesitant to learn PHP to get in on this
+
+00:46:01.520 --> 00:46:07.360
+ Laravel thing I don't know man we've seen you try to learn Elixir okay okay just go get it all out
+
+00:46:09.280 --> 00:46:15.360
+ have you learned other languages have I I've done all kinds of stuff probably I would say so Python
+
+00:46:15.360 --> 00:46:21.920
+ Jython okay I'm gonna stop I thought you post the other day you got started in Jython that's
+
+00:46:21.920 --> 00:46:25.280
+ what they did in college that was the first thing they taught us it was like here we're going to
+
+00:46:25.280 --> 00:46:31.120
+ teach you a weird if Python and Java had a baby language that's your first exposure to program
+
+00:46:31.120 --> 00:46:35.200
+ and you stuck with it no no I just did in college like that was I'm saying like you didn't give up on
+
+00:46:35.200 --> 00:46:39.840
+ programming right there oh yeah yeah I kept I kept with the programming thing yeah so Laravel
+
+00:46:39.840 --> 00:46:44.880
+ the starter project though it's just incredible uh and it just the cohesiveness of like going
+
+00:46:44.880 --> 00:46:49.440
+ through the Laravel getting started from Laravel.com the getting started it's just like there's an
+
+00:46:49.440 --> 00:46:54.560
+ answer for all the things and you don't feel like you have to make 50 decisions for every little
+
+00:46:54.560 --> 00:46:57.920
+ piece of it it's like yeah you got to pick a database and there's a few options but it's like
+
+00:46:57.920 --> 00:47:02.240
+ it holds your hand through all of it all of that's great I know a lot of technologies have that
+
+00:47:02.240 --> 00:47:07.120
+ but there's something different with once I did the jetpack thing with Laravel and I saw the project
+
+00:47:07.120 --> 00:47:13.840
+ it's very clear it's so different so different from the JavaScript ecosystem one like the project
+
+00:47:13.840 --> 00:47:19.920
+ is not like optimized for how few files and how little code can there be it's like a ton of stuff
+
+00:47:19.920 --> 00:47:23.680
+ but like it's got a lot of functionality out of the box I don't know I've said a lot of the same
+
+00:47:23.680 --> 00:47:27.360
+ things in like three different formats so if you're hearing this out of my mouth for the third time
+
+00:47:27.360 --> 00:47:32.400
+ I'm sorry I'm just very excited I don't know I want to play with it more yeah I mean like that
+
+00:47:32.400 --> 00:47:36.960
+ cohesiveness you felt I definitely don't take that for granted it's really hard to pull that off
+
+00:47:36.960 --> 00:47:42.160
+ like all the way from like every part of it feeling the same like it's one unit as opposed to a
+
+00:47:42.160 --> 00:47:46.800
+ bunch of things glued together it it is really hard to do that and it's really impressive
+
+00:47:46.800 --> 00:47:50.880
+ what something can do that I haven't deployed it yet like I can't wait to use vapor and I can't
+
+00:47:50.880 --> 00:47:55.520
+ wait to play with all these other there's just so many different Laravel products and knowing that
+
+00:47:55.520 --> 00:48:00.720
+ they're all kind of like under one roof and they have some that cohesiveness the docs are amazing
+
+00:48:00.720 --> 00:48:05.840
+ I love the the comments the lore around like his his three-line comments that are all like
+
+00:48:05.840 --> 00:48:10.640
+ staggered it's true they're all over the place it's incredible the attention to detail all of it
+
+00:48:10.640 --> 00:48:14.720
+ I'm just I'm a big fan yeah I will say I was you know listening while I was getting my coffee
+
+00:48:14.720 --> 00:48:20.960
+ before I came on I think the benevolent dictator plays a huge role I also think the fact that Laravel
+
+00:48:20.960 --> 00:48:29.120
+ is itself a company so it's like if DHH didn't have base camp and DHH and 37 signals spent all of
+
+00:48:29.120 --> 00:48:35.200
+ their time energy and money on rails I feel like it would be closer to Laravel but Laravel is a
+
+00:48:35.200 --> 00:48:41.600
+ company that has like five or six employees and they have SaaS products so they are using Laravel
+
+00:48:41.600 --> 00:48:48.320
+ to build full on SaaS products and they're spending all of their time and all of their money to make
+
+00:48:48.320 --> 00:48:55.680
+ Laravel the ecosystem better for Laravel developers and so that's that's where you end up with things
+
+00:48:55.680 --> 00:49:01.760
+ like vapor and forge and horizon and all that stuff is because they were building a SaaS and we're
+
+00:49:01.760 --> 00:49:06.960
+ like man running queues sucks what if we built a queue management package and I'm like okay we can
+
+00:49:06.960 --> 00:49:12.480
+ do that in open source and it makes sense to like tightly integrate it because they're Laravel LLC
+
+00:49:12.480 --> 00:49:17.840
+ of course it's going to be integrated with Laravel so I think that is part of the secret sauce is
+
+00:49:17.840 --> 00:49:25.040
+ Taylor this is gonna sound mean Taylor has nothing else Taylor has Laravel like he has Laravel
+
+00:49:25.040 --> 00:49:30.000
+ he's not running base camp he's not running you know high rise or whatever he's running Laravel
+
+00:49:30.000 --> 00:49:37.040
+ and so he just just focuses on that and driving the Lambo so I'll leave it there yeah I love that
+
+00:49:37.040 --> 00:49:41.920
+ model like we obviously at SST that's a big exact same model we're trying to recreate like just
+
+00:49:41.920 --> 00:49:48.160
+ having it like we like it's proven out there so we can like trust that we can like it makes sense
+
+00:49:48.160 --> 00:49:52.160
+ but yeah everything about it is awesome like how small the company can stay and like how much
+
+00:49:52.160 --> 00:49:57.040
+ impact they can have despite that like it's it clicks with everything like we want as a team
+
+00:49:57.040 --> 00:50:01.280
+ Aaron thank you so much for coming out we didn't even say like Aaron Francis this is Aaron Francis
+
+00:50:01.280 --> 00:50:06.320
+ joining us from planet scale we just said like hey Aaron yeah it's gonna be kind of a weird
+
+00:50:06.320 --> 00:50:10.560
+ transition in the middle of the podcast well you just said it you just said it I just said it yeah
+
+00:50:10.560 --> 00:50:14.560
+ thanks for having me on I'm glad I'm glad I was chatting in the twitch and y'all could pull me on
+
+00:50:14.560 --> 00:50:19.680
+ I really appreciate being here yeah it was great to have you all right Dax anything we want to say
+
+00:50:19.680 --> 00:50:24.720
+ before we wrap this up nope that's all nope that's all we never have anything at the end goodbye
+

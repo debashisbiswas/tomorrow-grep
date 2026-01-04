@@ -1,0 +1,872 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.320
+ Hey Dax, do you see the Chris Moon's tweet serverless is dead. Yeah, I saw that tweet
+
+00:00:05.320 --> 00:00:11.440
+ I saw the whole thread. I spent a lot of time thinking about it. I felt hurt. I felt confused
+
+00:00:11.440 --> 00:00:16.040
+ I felt angry. I felt sleepy like I thought about it a lot
+
+00:00:16.040 --> 00:00:23.160
+ So yeah, I really got in my head and the whole weekend I was like it's serverless dead
+
+00:00:30.000 --> 00:00:51.240
+ Yeah, I've kind of felt like everything I thought was true is now false. It just shattered
+
+00:00:51.240 --> 00:00:58.360
+ my entire worldview in technology and it took first in context. Chris is one a great guy.
+
+00:00:58.360 --> 00:01:02.400
+ So Chris, if we say anything that sounds like we think you're wrong on this podcast because
+
+00:01:02.400 --> 00:01:06.640
+ we might say something that we I don't know we'll see you're a great guy. We love you Chris.
+
+00:01:06.640 --> 00:01:12.760
+ But Chris is like involved with startups at AWS right he like he does a lot he works
+
+00:01:12.760 --> 00:01:18.360
+ with a lot of startups from the AWS side. So he sees what people actually use in startup
+
+00:01:18.360 --> 00:01:24.520
+ land and like his whole thing is basically like startups don't really use serverless
+
+00:01:24.520 --> 00:01:28.680
+ or at least not pure serverless maybe we should define pure serverless because that is an important
+
+00:01:28.680 --> 00:01:33.160
+ note in this whole conversation. Yeah, you're right. He did say pure serverless. So the idea
+
+00:01:33.160 --> 00:01:39.040
+ behind pure serverless is you're using managed services everywhere. You don't have something
+
+00:01:39.040 --> 00:01:43.920
+ that's running all the time, like, you know, a database that's running all the time that
+
+00:01:43.920 --> 00:01:49.240
+ you're being charged for or a VPC that has like a managed managed night and that's running
+
+00:01:49.240 --> 00:01:55.280
+ all the time. So you're only paying for when your system is doing something. And you know,
+
+00:01:55.280 --> 00:02:00.480
+ it's obviously a spectrum but we're the idea is you push more and more towards not having
+
+00:02:00.480 --> 00:02:06.280
+ stuff running that is being built. Yeah, I just the moment I have to create a VPC or
+
+00:02:06.280 --> 00:02:12.280
+ I guess use the default VPC. I'm just pretty upset. So pure serverless is sort of like
+
+00:02:12.280 --> 00:02:17.240
+ I thought just the default a way of operating when you're building any new products, especially
+
+00:02:17.240 --> 00:02:21.680
+ for startups, I know that that's not the case. Like I know having worked with a lot of startups,
+
+00:02:21.680 --> 00:02:25.680
+ they're mostly still building Rails apps. Like I get that. But I thought like if you
+
+00:02:25.680 --> 00:02:31.040
+ were in serverless, you were pretty well defaulting to pure serverless. That was just like assumed
+
+00:02:31.040 --> 00:02:34.520
+ in my mind. So do you think there's a lot of like this hybrid stuff out there? Is that
+
+00:02:34.520 --> 00:02:40.520
+ what he's kind of implying? Yeah, I think I they're deaf. We see the same thing. We see
+
+00:02:40.520 --> 00:02:46.900
+ container workloads. We see RDS clusters in a VPC with just, you know, everything else
+
+00:02:46.900 --> 00:02:51.640
+ is serverless. The database isn't. It's definitely common and maybe even the norm because it's
+
+00:02:51.640 --> 00:02:57.240
+ hard to go pure serverless. At least today you have to jump through a lot of hoops. And
+
+00:02:57.240 --> 00:03:00.320
+ we tried it like we spent a lot of time thinking about that and trying to make that easier.
+
+00:03:00.320 --> 00:03:05.800
+ But I think the day is probably the day is referring to is correct. I think today it probably
+
+00:03:05.800 --> 00:03:11.360
+ is pretty hybrid. So is there a future for pure serverless? Is he is he right? Is it
+
+00:03:11.360 --> 00:03:14.400
+ dead? And it's not coming back because he implies that it's just not ever going to
+
+00:03:14.400 --> 00:03:20.520
+ be a thing. Yeah, I think the reason I was so disappointed is I agree with him on the
+
+00:03:20.520 --> 00:03:26.040
+ current state of things, but I thought everyone was aligned with where we were going. And
+
+00:03:26.040 --> 00:03:30.280
+ the, you know, the ideal state being, okay, today it's like a mix of stuff, but eventually
+
+00:03:30.280 --> 00:03:35.480
+ it's going to be pure serverless. And this was actually a vision that AWS sold me, you
+
+00:03:35.480 --> 00:03:40.120
+ know, I was not doing things the way at all. AWS came in and started talking about the
+
+00:03:40.120 --> 00:03:45.860
+ advantages of serverless, like a serverless mindset and making things more and more serverless.
+
+00:03:45.860 --> 00:03:50.040
+ So I thought we were all kind of going the same direction of, Hey, like this is just going
+
+00:03:50.040 --> 00:03:54.040
+ to get better and better and things are going to be more like this. So it was a little weird
+
+00:03:54.040 --> 00:04:00.420
+ for me to hear like that dream is dead. We're kind of settling on, okay, it's going to be
+
+00:04:00.420 --> 00:04:05.880
+ a mix of mix of a few things because that's not where I want to be. And it's not like right
+
+00:04:05.880 --> 00:04:10.640
+ now where I was hoping we'd go. Yeah. And Chris also, I mean, he's, he's like very involved
+
+00:04:10.640 --> 00:04:14.080
+ with startups that did this now, but before that he was like the big face of serverless
+
+00:04:14.080 --> 00:04:20.520
+ at AWS, right? What was his title then he was like a developer, something relations. Like
+
+00:04:20.520 --> 00:04:26.660
+ if that's all he did, right? It was serverless. Yeah. So I'm like, I'm really curious what
+
+00:04:26.660 --> 00:04:33.720
+ happened or the vibe I got from that thread was it seemed like he had been patient for
+
+00:04:33.720 --> 00:04:39.860
+ a long time and the patient kind of gave out. And now it's, you know, a little bit of frustration.
+
+00:04:39.860 --> 00:04:46.080
+ So I'm kind of able like wondering what he was hit over and over with. Yeah, I think
+
+00:04:46.080 --> 00:04:51.720
+ at some of the things he said, he was, I think just to kind of summarize what the thread
+
+00:04:51.720 --> 00:05:00.600
+ was. Alex debris pointed out that to use Zenmo DB decks. Yes, haha decks. You need a VPC
+
+00:05:00.600 --> 00:05:06.880
+ and that's a problem. And then Chris responded saying, can we stop bringing up this VPC issue?
+
+00:05:06.880 --> 00:05:15.160
+ You're going to end up with a VPC realistically. So give up on not ever having one. And he and
+
+00:05:15.160 --> 00:05:20.800
+ his argument was well, the data shows that most people have VPCs. And I'm not questioning
+
+00:05:20.800 --> 00:05:28.200
+ the data, but I think whenever you're trying to make a new paradigm or something better,
+
+00:05:28.200 --> 00:05:32.800
+ the data is going to show the opposite because that's the status quo as everyone's doing.
+
+00:05:32.800 --> 00:05:37.760
+ Yeah, most of those companies are probably not fun to work at. So yes, that's what the
+
+00:05:37.760 --> 00:05:42.600
+ data shows. But to me, what the data is actually showing is serverless is still too hard, which
+
+00:05:42.600 --> 00:05:49.920
+ is why people are still using these VPCs. So it's kind of like, AWS has all this great
+
+00:05:49.920 --> 00:05:54.800
+ stuff. It's not great. It's not like super easy to use or discoverable. People don't
+
+00:05:54.800 --> 00:05:58.960
+ really know about it. So they're not using it. And then it's kind of like, well, it's
+
+00:05:58.960 --> 00:06:03.000
+ a point of improving if no one's using it. So if it's a little circular, I think reason
+
+00:06:03.000 --> 00:06:06.560
+ to keep pushing on getting people to use it and eventually, you know, we'll get we'll
+
+00:06:06.560 --> 00:06:10.480
+ get there. Yeah, and I think that's the biggest bummer is the feeling that if it's coming
+
+00:06:10.480 --> 00:06:16.080
+ from AWS, that like that impacts product decisions, road map, I mean, they're so driven off of
+
+00:06:16.080 --> 00:06:20.600
+ what customers are asking for and what customers are needing and using. So to think that that
+
+00:06:20.600 --> 00:06:26.300
+ trend, I remember it was Chris, even I remember an interaction on Twitter, like a year ago,
+
+00:06:26.300 --> 00:06:31.720
+ I think it was leading up to reinvent last year, where some sort of similar thread was
+
+00:06:31.720 --> 00:06:37.600
+ going on and I sort of asked Chris on Twitter, I'm had to find it. Like, is it feels like
+
+00:06:37.600 --> 00:06:42.560
+ serverless is slow moving? Like we're just having a hard time making progress as a community,
+
+00:06:42.560 --> 00:06:46.520
+ like it's just not that it's not moving in the direction of the speed, I would think.
+
+00:06:46.520 --> 00:06:50.840
+ Like, is there any chance that AWS doesn't prioritize it? It was something exactly along
+
+00:06:50.840 --> 00:06:55.040
+ these lines. And he said that AWS was like the biggest customer, like internally, they
+
+00:06:55.040 --> 00:07:00.320
+ use so many serverless offerings for things that they build. So that it was like, just
+
+00:07:00.320 --> 00:07:04.960
+ on that front alone, a huge priority. And to your point, like we've had at every reinvent,
+
+00:07:04.960 --> 00:07:09.000
+ machine bristles is up there, like talking about Legos transformation. And you just kind
+
+00:07:09.000 --> 00:07:13.560
+ of felt like that was, you know, the future in that every, every reinvent would be seeing
+
+00:07:13.560 --> 00:07:19.720
+ more and more progress towards a more serverless future. So it's all very depressing. If now
+
+00:07:19.720 --> 00:07:24.440
+ AWS is like internally, people who are big champions of serverless are frustrated that
+
+00:07:24.440 --> 00:07:27.840
+ the adoption is just not there and they're sort of giving up and saying it's going to
+
+00:07:27.840 --> 00:07:32.120
+ be this weird mishmash of using services that aren't because I just hope like we're just
+
+00:07:32.120 --> 00:07:36.440
+ a few things away, like search. And like, they're going to hit a couple more of these
+
+00:07:36.440 --> 00:07:39.960
+ buckets and we're going to have everything we need to build anything you can imagine
+
+00:07:39.960 --> 00:07:45.880
+ with serverless first stuff. But yeah, maybe it's the tides are turning. I don't like it.
+
+00:07:45.880 --> 00:07:46.880
+ I don't like it.
+
+00:07:46.880 --> 00:07:51.040
+ Yeah. And to be fair, it has been a while, you know, serverless has been around the corner
+
+00:07:51.040 --> 00:07:56.080
+ for seven years, maybe. I don't know what the exact timeline is, but I know Jay and Frank
+
+00:07:56.080 --> 00:08:01.240
+ have been doing it for a very long time. And they've always been hearing, oh, this is like
+
+00:08:01.240 --> 00:08:08.040
+ just a matter of time before this is the thing. So I can see why, you know, as time has gone,
+
+00:08:08.040 --> 00:08:13.520
+ the energy behind it has slowed down simultaneously. I think there's a few interesting things that
+
+00:08:13.520 --> 00:08:20.040
+ are happening. No, within AWS, if does feel like they've slowed down launching, like really
+
+00:08:20.040 --> 00:08:25.720
+ good serverless offerings. Yeah. I think RDS is a big one serverless V1 came out serverless
+
+00:08:25.720 --> 00:08:31.040
+ V2 came out. Both of those are not really serverless. They're kind of scaling serverless.
+
+00:08:31.040 --> 00:08:35.200
+ So yeah, it feels like AWS is kind of polluting that word a little bit. And some of this new
+
+00:08:35.200 --> 00:08:41.280
+ Neptune thing also is not really serverless. Redshift serverless is like kind of serverless,
+
+00:08:41.280 --> 00:08:43.560
+ not really. Yeah. Oh, that big batch that they launched
+
+00:08:43.560 --> 00:08:47.560
+ at last re-invent. There were like four of those analytics offerings that got serverless
+
+00:08:47.560 --> 00:08:52.780
+ options and they all were kind of like a mixed bag of, is that serverless? Like, how many
+
+00:08:52.780 --> 00:08:58.840
+ inches is it? Definitely. They're diluting it. So from the AWS side, it feels like forever
+
+00:08:58.840 --> 00:09:03.520
+ reason. It's not. There's no like new lambda type thing coming out where it definitely
+
+00:09:03.520 --> 00:09:08.840
+ 100% is serverless. But then if you look at the market outside of AWS, there are so many
+
+00:09:08.840 --> 00:09:13.560
+ companies coming out with truly serverless offerings. I think I would trace this all the
+
+00:09:13.560 --> 00:09:20.320
+ way back to snowflake. Snowflake recognized, yes, Redshift exists, but it's hard to deploy
+
+00:09:20.320 --> 00:09:25.560
+ because it's a managed, you know, let's make your managing nodes. So they made a serverless
+
+00:09:25.560 --> 00:09:29.600
+ data warehouse. And that was a long time ago. And now they're like a $100 billion company.
+
+00:09:29.600 --> 00:09:34.440
+ And since then, they've just been, you know, planet scale serverless, MySQL, upstash, serverless
+
+00:09:34.440 --> 00:09:41.200
+ Redis, serverless Kafka, serverless messaging, like just a ton of companies that are really,
+
+00:09:41.200 --> 00:09:44.960
+ they kind of picked up the torch and they're running with it now. Yeah. So it feels odd
+
+00:09:44.960 --> 00:09:51.760
+ that AWS is slowing down on the interest from, you know, new companies is higher than ever.
+
+00:09:51.760 --> 00:09:57.480
+ So maybe the, yeah, maybe the third party ecosystem is enough. And maybe, maybe this
+
+00:09:57.480 --> 00:10:02.720
+ is just part of like AWS isn't great at building the vertical like developer experiences is
+
+00:10:02.720 --> 00:10:08.280
+ serverless just sort of a flavor of that. Like, is this really going to take the community
+
+00:10:08.280 --> 00:10:14.360
+ building on top of the more traditional primitives that AWS builds and launching startups that
+
+00:10:14.360 --> 00:10:17.840
+ survive like the ones that survive will give us all that we need. Because they have planet
+
+00:10:17.840 --> 00:10:24.040
+ scale is looking really good these days. And I think from a serverless perspective, I'd
+
+00:10:24.040 --> 00:10:30.080
+ choose it any day over Aurora serverless V one or V two. If you need Postgres, I guess
+
+00:10:30.080 --> 00:10:33.840
+ then there's neon and I don't know, like there's some company sprouting up for all
+
+00:10:33.840 --> 00:10:39.440
+ these things, different degrees of serverless, I guess. But, but that is all that serverless
+
+00:10:39.440 --> 00:10:46.200
+ is I guess is just sort of like managed services. It doesn't have to be all in your AWS account.
+
+00:10:46.200 --> 00:10:53.440
+ Yeah, and I think at this point, any new dev tool type company that launches, if they don't
+
+00:10:53.440 --> 00:10:58.280
+ have serverless pricing, it's almost to me, I feels like dead, unarrival. So I think the
+
+00:10:58.280 --> 00:10:59.920
+ expectations are there.
+
+00:10:59.920 --> 00:11:09.080
+ I, I'm building, I'm building something with serverless. And I want to test like, this
+
+00:11:09.080 --> 00:11:13.920
+ is a dumb idea. I had just kind of over the weekend. But like thinking about the limits
+
+00:11:13.920 --> 00:11:19.080
+ of what you can build with serverless in terms of like a lot of people want to, on the container
+
+00:11:19.080 --> 00:11:23.480
+ side, oh, that's another topic I want to hit. We'll do that after we take a break. Like
+
+00:11:23.480 --> 00:11:27.320
+ on the containerization side, people like want to throw rocks at serverless and say,
+
+00:11:27.320 --> 00:11:33.720
+ like, cold starts and does it really scale? Like, that's kind of the shtick of serverless
+
+00:11:33.720 --> 00:11:39.120
+ is that it's on demand. It's like all elastic, you're never like provisioning anything. It's
+
+00:11:39.120 --> 00:11:43.520
+ auto scaling. But we all know that there are actual limits in your AWS accounts for how
+
+00:11:43.520 --> 00:11:47.700
+ many like concurrent lambda functions can be executing that sort of thing. So I'm trying
+
+00:11:47.700 --> 00:11:53.240
+ to build like, what is the biggest scale thing? I'm using like a Twitter clone, like with
+
+00:11:53.240 --> 00:11:59.120
+ serverless only things, how, how many tweets per second, how many transactions per second,
+
+00:11:59.120 --> 00:12:03.000
+ can we push with serverless? I'm doing it this week. So it's kind of in line with what
+
+00:12:03.000 --> 00:12:06.360
+ we're doing or what we're talking about here. Like what, what is serverless good for? What
+
+00:12:06.360 --> 00:12:10.840
+ is it not? My thought was that it was good for everything and that it's just the future.
+
+00:12:10.840 --> 00:12:15.260
+ We're still building the developer experience. That part's not there. But like, from a run
+
+00:12:15.260 --> 00:12:19.900
+ time perspective, from like your app actually living in the cloud felt like there are no
+
+00:12:19.900 --> 00:12:23.600
+ limits to, you know, what you can build with serverless. I don't know. Do you have thoughts
+
+00:12:23.600 --> 00:12:27.200
+ on any of that? No, I was going to ask what kind of constraints are you putting on? Is
+
+00:12:27.200 --> 00:12:31.500
+ it all just going to be in a single AWS account? It's all going to be in a single AWS account.
+
+00:12:31.500 --> 00:12:35.960
+ It'll be in separate regions, which I think is fine because Twitter is global. So like,
+
+00:12:35.960 --> 00:12:44.040
+ if I'm trying to mimic a Twitter API, having it spread across six regions, it sort of like
+
+00:12:44.040 --> 00:12:49.560
+ represents a global API that Twitter is, but that gets around some of the limits like the
+
+00:12:49.560 --> 00:12:55.080
+ per region concurrency limits and stuff. Oh, are the Lambda function limits per region?
+
+00:12:55.080 --> 00:12:58.680
+ I don't think the Lambda function ones are, but I know like the app sync. So I'm using
+
+00:12:58.680 --> 00:13:06.680
+ app sync and like app sync operations, so mutations and queries, those are per region. So I'm going
+
+00:13:06.680 --> 00:13:10.640
+ to the process trying to like increase all the limits and get all the quotas up for this
+
+00:13:10.640 --> 00:13:15.720
+ experiment. But yeah, I don't know. I think you can build anything with serverless. And
+
+00:13:15.720 --> 00:13:21.080
+ I think like Simon Wardley, we mentioned on a past podcast, like that the people who can't
+
+00:13:21.080 --> 00:13:26.640
+ build with serverless should be the edge case. And I hope that's still true. I hope we're
+
+00:13:26.640 --> 00:13:30.240
+ not going to be super disappointed to reinvent because AWS doesn't care anymore.
+
+00:13:30.240 --> 00:13:36.240
+ Yeah, I mean, it's a cool idea of what you're doing because I think we all talk about those
+
+00:13:36.240 --> 00:13:41.920
+ benefits, but very few of us actually me myself, like this is a space I operate in. I've never
+
+00:13:41.920 --> 00:13:48.760
+ actually pushed AWS to its limits to see what you actually run into. Because like you said,
+
+00:13:48.760 --> 00:13:54.520
+ it probably won't be that DynamoDB fails. It'll probably be this like weird bottleneck
+
+00:13:54.520 --> 00:14:00.380
+ has like some rate limit that you're going to hit. So that'll be interesting to find
+
+00:14:00.380 --> 00:14:04.840
+ out what actually stops you. Yeah, I'm assuming you are using Dynamo for this.
+
+00:14:04.840 --> 00:14:08.680
+ I am. Yeah, I wasn't going to try this with a SQL based database. I just don't think it
+
+00:14:08.680 --> 00:14:15.480
+ makes sense from like a hundred thousand tweets per second perspective. But if you think about
+
+00:14:15.480 --> 00:14:24.920
+ even just 10,000 tweets per second, Dynamo has like an 80,000 with on demand pricing and 80,000
+
+00:14:24.920 --> 00:14:31.840
+ WCU's was that same for right capacity units. So per second, 80,000, that's a like a soft
+
+00:14:31.840 --> 00:14:37.720
+ limit, it can be raised. But like one tweet being added to a database ultimately has like
+
+00:14:37.720 --> 00:14:41.560
+ a lot of downstream things also being written to the database. So you have to write those
+
+00:14:41.560 --> 00:14:45.520
+ to everyone timelines and all that. I mean, I think that's the best architecture. So I
+
+00:14:45.520 --> 00:14:50.080
+ don't know, it's going to be really interesting to see like what falls over fastest, what,
+
+00:14:50.080 --> 00:14:54.240
+ what can't scale because some of these sources has hard limits. Like you can't do more than
+
+00:14:54.240 --> 00:15:00.280
+ 5,000 secret value reads per second in secrets manager. So can I even use secrets manager?
+
+00:15:00.280 --> 00:15:04.440
+ Those types of questions, it's going to be fun to see. Yeah, so you're actually going
+
+00:15:04.440 --> 00:15:08.660
+ to do the feed part too. So not just tweeting, you're actually going to be like the whole
+
+00:15:08.660 --> 00:15:14.240
+ premise is going to be can it sustain 10,000, 100,000 tweets per second with people still
+
+00:15:14.240 --> 00:15:18.760
+ fetching their, their timeline in a performant way. Like basically mimic as much of the core
+
+00:15:18.760 --> 00:15:21.800
+ Twitter functionality as possible. I'm not thinking about DMs or anything like that,
+
+00:15:21.800 --> 00:15:25.880
+ but I don't know, just this whole like, Elon bought Twitter and everyone's upset. And
+
+00:15:25.880 --> 00:15:30.920
+ then you just, there's the fever pitch around Twitter clones is even higher than ever. I
+
+00:15:30.920 --> 00:15:34.640
+ just started thinking about like, could you build it? Could a single engineer build a Twitter
+
+00:15:34.640 --> 00:15:38.640
+ clone on serverless tech and AWS? What would it cost to run it? Like just kind of
+
+00:15:38.640 --> 00:15:44.480
+ getting into the cost and pricing conversation with serverless. Yeah, I don't know. My mind
+
+00:15:44.480 --> 00:15:48.200
+ is going in a million miles an hour right now. Yeah. I mean, this is also funny because
+
+00:15:48.200 --> 00:15:53.040
+ I think it was Tomasa tweeted this, he was like, there's so many people on hacker news
+
+00:15:53.040 --> 00:15:56.120
+ that could build Twitter in a weekend, but we don't have any, but we don't actually have
+
+00:15:56.120 --> 00:15:59.920
+ any alternatives. Yeah. So you're the guy that's actually going to try to build it in
+
+00:15:59.920 --> 00:16:03.040
+ a weekend. And so just just talking about it. Yeah, no, I'm going to actually try and
+
+00:16:03.040 --> 00:16:06.280
+ build it because I'm going to try and make a YouTube video this week of it. I mean, just
+
+00:16:06.280 --> 00:16:10.440
+ the process and what I learned. But it's really more like testing, I think the serverless
+
+00:16:10.440 --> 00:16:15.520
+ limits, like what, what can you do with serverless? Because obviously if you start running containers
+
+00:16:15.520 --> 00:16:22.800
+ and things like that, it gets easier to manage more expensive probably. But yeah, yeah, it
+
+00:16:22.800 --> 00:16:28.200
+ is good to test this. I think just because I didn't constantly just thinking about the
+
+00:16:28.200 --> 00:16:32.080
+ people that are cynical to serverless, I know what reaction you're already going to get.
+
+00:16:32.080 --> 00:16:37.600
+ Yeah. So even if it all works, people are going to say, well, like no one has that scale.
+
+00:16:37.600 --> 00:16:44.000
+ So who cares about that? Yeah. So I feel like one of the things again, this that gets missed
+
+00:16:44.000 --> 00:16:49.560
+ about serverless is, yeah, of course, top end, well, we'll see maybe not of course, but seemingly
+
+00:16:49.560 --> 00:16:56.440
+ top and all fail. Yeah, high scale, it'll do it. But that's not really the point because
+
+00:16:56.440 --> 00:17:00.960
+ yeah, like none of us in practice have really, really hit that. So it's fair to say that's
+
+00:17:00.960 --> 00:17:07.720
+ not that important. It's more that usually when you're building something, every month
+
+00:17:07.720 --> 00:17:11.840
+ or so you usually run into some kind of minor scaling limit. It might just take you look
+
+00:17:11.840 --> 00:17:16.520
+ at data solving take two days of solve, but it's pretty disruptive. And that's sub your
+
+00:17:16.520 --> 00:17:22.280
+ roadmap mess up your day mess up your momentum. And for me, serverless is more about the fact
+
+00:17:22.280 --> 00:17:27.120
+ that you're not going to run into those bumps, even if you're not ever going to hit like
+
+00:17:27.120 --> 00:17:32.960
+ some crazy top end scale, even at small scale as you run those bumps, the typical architecture.
+
+00:17:32.960 --> 00:17:37.880
+ So yeah, that's why I've never really cared about the top end. I've never had to had to
+
+00:17:37.880 --> 00:17:42.640
+ do that. But yeah, I am so curious to see if it actually works. Maybe AWS banks on nobody
+
+00:17:42.640 --> 00:17:47.840
+ actually. Yeah, yeah, it's kind of like testing some of these quotas that are published, like
+
+00:17:47.840 --> 00:17:52.200
+ I'm just curious what what starts falling over. But I know like, I know the services
+
+00:17:52.200 --> 00:17:55.920
+ that will be involved. So it is just a handful of services that you have to think about and
+
+00:17:55.920 --> 00:18:00.680
+ what quotas will be hit. I don't know. This is a good time. Let's take a break. I want
+
+00:18:00.680 --> 00:18:05.840
+ to read some chat. Jay station. Hey, Jay, having looked at hundreds or perhaps thousands
+
+00:18:05.840 --> 00:18:08.480
+ of job posting over the last few months, I can say that pure serverless does not show
+
+00:18:08.480 --> 00:18:13.360
+ up at all. However, however, feel like it's still just emerging. Engineering leadership
+
+00:18:13.360 --> 00:18:18.280
+ is old. People calling shots aren't there yet. Could be a decade or more. Oof. I have
+
+00:18:18.280 --> 00:18:26.280
+ to the check it decade, decade, ouch. Focus for anything. What's that? Oh, yeah. To like
+
+00:18:26.280 --> 00:18:34.360
+ keep pushing the boulder for a decade. Yeah. The irony there is with every new emergent
+
+00:18:34.360 --> 00:18:40.640
+ technology typically startups adopted first. But yeah, it's weird that like Lego and these
+
+00:18:40.640 --> 00:18:47.120
+ like huge companies are the faces of serverless versus, you know, like some unicorn that was
+
+00:18:47.120 --> 00:18:52.680
+ founded two years ago. That is something that's interesting to me is is serverless more adopted
+
+00:18:52.680 --> 00:18:57.040
+ from an enterprise standpoint than it is in the serverless space, Chris is in the serverless
+
+00:18:57.040 --> 00:19:02.840
+ space or I'm sorry, in the startup space. Is this just like, it's going to take enterprise
+
+00:19:02.840 --> 00:19:07.560
+ pushing this boulder forward? Are they going to see the benefits? It seems unlikely. But
+
+00:19:07.560 --> 00:19:12.840
+ I'm wondering if that's kind of what's messing it up because I think you're right. There
+
+00:19:12.840 --> 00:19:17.920
+ has been a lot of adoption enterprise. That's been the face. At least when AWS showcases
+
+00:19:17.920 --> 00:19:24.880
+ stuff, I typically see these big companies showcase their how they're using serverless.
+
+00:19:24.880 --> 00:19:30.160
+ So you know, AWS being very customer centric, as they say, they are probably very focused
+
+00:19:30.160 --> 00:19:34.520
+ on these companies. And of course, these enterprise companies are not pure serverless. They can't
+
+00:19:34.520 --> 00:19:40.560
+ be they have right potentially decades of systems that they're still dealing with. So their
+
+00:19:40.560 --> 00:19:44.560
+ product energy might be going to supporting the needs of enterprise. And it makes sense
+
+00:19:44.560 --> 00:19:50.640
+ just from like, pay attention to dollars thing. Yeah. So I'm kind of wondering, do they just
+
+00:19:50.640 --> 00:19:56.000
+ suck all the do big enterprise to suck all like the product development energy and startups
+
+00:19:56.000 --> 00:20:00.840
+ are less interesting for AWS because it's way more of an investment, way more of a long
+
+00:20:00.840 --> 00:20:04.000
+ term. And like, like Jay just said, like a, like a 10 year thing.
+
+00:20:04.000 --> 00:20:10.880
+ Yeah, that's an interesting thought that like, what is the breakdown at AWS in terms of people
+
+00:20:10.880 --> 00:20:14.800
+ focused on enterprise versus startups? Like the, I mean, obviously the majority of their
+
+00:20:14.800 --> 00:20:18.320
+ business is enterprise. And we've heard it before, even last year, but I remember some
+
+00:20:18.320 --> 00:20:22.880
+ of the commentary after re-invent last year was about how it's very clear AWS just cares
+
+00:20:22.880 --> 00:20:28.560
+ about enterprise. And the smaller use cases aren't as interesting to them. I just, it's
+
+00:20:28.560 --> 00:20:34.480
+ weird to me because I think of AWS as being this best place to build your startup. Is
+
+00:20:34.480 --> 00:20:40.240
+ that just me looking through AWS glasses? Like I just, everything is a nail, because I know
+
+00:20:40.240 --> 00:20:45.520
+ there's a hammer. I feel like every company I know eventually ends up there. Maybe that
+
+00:20:45.520 --> 00:20:49.760
+ becomes less true over time, but I still think it is true today. So you might, at least today,
+
+00:20:49.760 --> 00:20:53.840
+ you might as well start there. But like I said, with a lot of these services being unbundled
+
+00:20:53.840 --> 00:21:00.000
+ and these other options that are serverless and better than AWS offering, I think it's
+
+00:21:00.000 --> 00:21:04.720
+ more and more likely and more and more possible to glue together a bunch of non AWS services
+
+00:21:04.720 --> 00:21:12.000
+ and get a better outcome than with an AWS. Yeah, so I don't know, I think that feels
+
+00:21:12.000 --> 00:21:17.520
+ in the direction it's going, I don't love it. But I think the worst part about all this is,
+
+00:21:17.520 --> 00:21:22.240
+ at least for me, it's, it always wins no matter what, right? So I'm talking about all the ways
+
+00:21:22.240 --> 00:21:26.400
+ that they're disappointing my expectations for them. But it doesn't matter because the
+
+00:21:26.400 --> 00:21:35.200
+ companies that are serving my needs are paying AWS. So it's like, yeah, I get why they're focused
+
+00:21:35.200 --> 00:21:39.360
+ on enterprise because those are the deals that only they can win. And then the other deals,
+
+00:21:39.360 --> 00:21:43.120
+ other people will win, but AWS will get their, will get their cut.
+
+00:21:43.120 --> 00:21:49.280
+ Yeah. And it just makes our situation building things more fractured and disparate, like we're
+
+00:21:49.280 --> 00:21:53.840
+ having to use more and more pieces, like it makes it feel less likely that we're going to get a
+
+00:21:53.840 --> 00:21:58.720
+ really good serverless search offering from AWS. We're going to have to use the thing that the
+
+00:21:58.720 --> 00:22:05.040
+ community builds that wins out, which is there, I guess, is it Algolia? What is the like, winning
+
+00:22:05.040 --> 00:22:10.160
+ search? I mean, last I checked the two options are Algolia and I'm blanking on the other one.
+
+00:22:10.160 --> 00:22:15.680
+ I don't know if you remember, type sense, which is open source. They have a hosted version. Okay.
+
+00:22:15.680 --> 00:22:22.080
+ Algolia is extremely expensive. Type sense is not serverless. So I don't feel like there's
+
+00:22:22.080 --> 00:22:29.040
+ a clear winner there yet. But yeah, I've heard nothing from AWS about a search thing and
+
+00:22:29.040 --> 00:22:34.480
+ people constantly bring it up. I know. So they're just happy with the last search or whatever it's
+
+00:22:34.480 --> 00:22:40.960
+ called now, cloud. What is it? Cloud search? Open search. Open search. But it's in the VPCs,
+
+00:22:40.960 --> 00:22:48.480
+ it's not very open. No, right. Yeah. Yeah, I don't know. It's a bummer. I just,
+
+00:22:48.480 --> 00:22:55.040
+ I feel like the more you can leverage managed stuff, the more leverage an individual developer
+
+00:22:55.040 --> 00:23:00.320
+ gets. And I guess that's still true if I'm using planet scale versus something built into AWS.
+
+00:23:00.320 --> 00:23:06.320
+ But it does just add more and more complexity and risk, I guess. I always feel bad building on
+
+00:23:06.320 --> 00:23:10.880
+ any startup that's like a series a startup, you build on their thing and you know, the success rate
+
+00:23:10.880 --> 00:23:16.880
+ of it lasting the next decade is like, whatever it is, 50% less. I don't know.
+
+00:23:16.880 --> 00:23:21.120
+ Yeah. I mean, I've been to that cycle enough times where I've been really excited about
+
+00:23:21.120 --> 00:23:26.720
+ something and I've gotten a company to use it and it just died. So at this point, yeah, I agree.
+
+00:23:26.720 --> 00:23:30.640
+ Like there's a level of responsibility you have when making these decisions.
+
+00:23:32.960 --> 00:23:42.240
+ Okay, so serverless is dead. Feels that way. But maybe that the hope is in like these new
+
+00:23:42.240 --> 00:23:46.240
+ companies, they're all doing pretty well. I feel like like planet scale is less than two years old.
+
+00:23:46.240 --> 00:23:52.160
+ They're shipping what they've raised, but they seem to be doing. They're good at things. Yeah.
+
+00:23:52.160 --> 00:23:58.080
+ Upstash is also upstash seems tiny, but they're shipping so much as well. They have four services now.
+
+00:23:59.440 --> 00:24:03.920
+ So yeah, that might just be the future. And I think that lines up a little bit. I think we've
+
+00:24:03.920 --> 00:24:09.360
+ talked about this before where a lot of people build their app on next year. It has deploy to
+
+00:24:09.360 --> 00:24:14.480
+ Vercel, full stack, everything that eventually they hit a pain point, whether it's something
+
+00:24:14.480 --> 00:24:20.000
+ asynchronous, whether it's a background job, whatever it is. And at that point, I think we try to get
+
+00:24:20.000 --> 00:24:25.360
+ them to come to AWS, but that is like a big step, especially when there's always perceptions around
+
+00:24:25.360 --> 00:24:31.840
+ it, whether they're true or not. It might be a much more incremental step for them to use. Oh,
+
+00:24:31.840 --> 00:24:39.040
+ here's like this dedicated jobs API that can let you run background jobs. So that might help people
+
+00:24:39.040 --> 00:24:43.840
+ step by step, make their application more complex than going all like admitting, okay,
+
+00:24:43.840 --> 00:24:47.920
+ we should have been on here with us and going all in. Yeah, it just it does feel painful, though,
+
+00:24:47.920 --> 00:24:53.360
+ when I didn't realize planet scale is only two years old, like that's that kind of blows my mind.
+
+00:24:53.360 --> 00:24:58.640
+ They're just they're shipping some really cool stuff. And like they everything they do from a
+
+00:24:58.640 --> 00:25:04.400
+ marketing perspective is very polished. They seem older than they are. Yeah, I think just a lot of
+
+00:25:04.400 --> 00:25:08.640
+ experienced people at the company that have done this before, and a plus are building on top of
+
+00:25:08.640 --> 00:25:15.520
+ a technology that's much older than two years, right, a decade plus. So I think for them, it's
+
+00:25:15.520 --> 00:25:20.880
+ their experts in that technology and their task is more exposing that to the rest of us who aren't.
+
+00:25:21.760 --> 00:25:27.760
+ So I see why they're shipping fast, but it's so impressive. All around. Interesting. Okay. Well,
+
+00:25:27.760 --> 00:25:32.160
+ I think that's everything I have to say about Chris Moon's kicking this off with that tweet.
+
+00:25:32.160 --> 00:25:37.680
+ Yeah. Do you have anything else? No. Cool. See you, Dax. See you.
+

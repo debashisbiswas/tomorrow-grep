@@ -1,0 +1,1190 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.240
+ So those of you that buy it and you get the package like you'll see that it's not just some
+
+00:00:04.240 --> 00:00:09.120
+ low effort thing. We're not messing around here. You know? Yeah. There's no joke. There's no joke.
+
+00:00:30.800 --> 00:00:37.760
+ Hey. Hello. This is a special episode because it's the first time we have a sponsor.
+
+00:00:37.760 --> 00:00:46.080
+ We do have a sponsor. This episode is brought to you by Terminal Products Incorporated.
+
+00:00:46.080 --> 00:00:52.240
+ The product being coffee. We know you drink coffee. So why not buy it from a terminal?
+
+00:00:52.240 --> 00:00:58.240
+ As I say, terminal dot shop. There you go. Nice ad read. That's just going to do
+
+00:00:58.240 --> 00:01:03.440
+ wonders for the show. That ad read at the beginning of every episode. Yeah. Should we rename Terminal
+
+00:01:03.440 --> 00:01:11.360
+ Product? Because there's not multiple products yet. It also comes with a box and a sticker.
+
+00:01:11.360 --> 00:01:18.320
+ And yeah, say no. You know this because you're packing them, right? Yeah, look right here.
+
+00:01:18.320 --> 00:01:22.640
+ Look at that. Look at that sticker. What a nice sticker. Got a whole box of them.
+
+00:01:22.640 --> 00:01:28.640
+ So thanks to Terminal Products for the sponsorship. It means a lot coming from us.
+
+00:01:28.640 --> 00:01:36.000
+ A real part of confidence in ourselves. Yeah, exactly. We haven't said
+
+00:01:36.000 --> 00:01:42.640
+ like on the podcast. I mean, we've revealed it all over the internet. But our secret project,
+
+00:01:42.640 --> 00:01:48.960
+ we're selling coffee among other things maybe in the future. But right now, coffee.
+
+00:01:49.680 --> 00:01:52.560
+ Yeah. From the terminal. From the terminal. You said all this.
+
+00:01:52.560 --> 00:02:00.160
+ Yeah, I guess to just catch her listeners up for the people that somehow missed like the
+
+00:02:00.160 --> 00:02:07.040
+ chaos of the last two weeks. So we all went down. And me and Adam have been hinting at the secret
+
+00:02:07.040 --> 00:02:15.920
+ project for a little bit. And we revealed it this past week. Me, Adam, the primogen and TJ.
+
+00:02:17.440 --> 00:02:21.600
+ Well, met up in Miami at my house. Everyone stayed here for the week.
+
+00:02:21.600 --> 00:02:28.160
+ And yeah, we just got it launched. So what it is is it's an e-commerce store. But unlike most
+
+00:02:28.160 --> 00:02:33.760
+ stores, it is not in the browser. It's in your terminal. So you just do SSH terminal dot shop.
+
+00:02:33.760 --> 00:02:39.680
+ And you get something that looks like a typical e-commerce experience, but you do it all from
+
+00:02:39.680 --> 00:02:45.840
+ your terminal. You can check out and buy the coffee right there. So we're doing an initial run to see
+
+00:02:45.840 --> 00:02:52.080
+ how it goes. Or we have a lot of exciting ideas. I think we have like way too many ideas. I think
+
+00:02:52.080 --> 00:02:57.760
+ every single day, we think of like an idea we want to do or where we want to take this. But
+
+00:02:57.760 --> 00:03:02.080
+ yeah, we just thought it was one, just fun. It's fun working on something like this. But
+
+00:03:02.080 --> 00:03:08.240
+ nobody markets stuff to developers in this way. So we're hoping it sticks.
+
+00:03:08.240 --> 00:03:13.600
+ Yeah, I think there's a lot of excitement. It's I mean, we've had a great reception
+
+00:03:13.600 --> 00:03:18.480
+ early on. We got to meet a lot of people in Miami and sell some coffee there. The coffee is delicious,
+
+00:03:18.480 --> 00:03:23.120
+ I should say. If you're into coffee, as I am, it's really good.
+
+00:03:23.120 --> 00:03:26.960
+ What's funny is, I don't know if you saw this person delete their tweet, which I didn't think
+
+00:03:26.960 --> 00:03:33.760
+ they had to, but they were like, so apparently there's some service. It's called drip drip
+
+00:03:33.760 --> 00:03:40.720
+ or drizzle. It's something like that. Something that sounds coffee-like. Basically, it's like the
+
+00:03:41.280 --> 00:03:47.520
+ if you're like any kind of influencer, you can just go and like slap your logo onto some crap,
+
+00:03:47.520 --> 00:03:50.800
+ and you get something that looks like your own coffee blend. That's all they do.
+
+00:03:50.800 --> 00:03:54.480
+ So I think for the people in the know, I think they've assumed that's what we did.
+
+00:03:54.480 --> 00:03:57.600
+ And it's not what we did. That's not what we did.
+
+00:03:57.600 --> 00:04:04.880
+ Yeah, this is actually like good coffee. Like we went and we sourced it. And we did every
+
+00:04:04.880 --> 00:04:08.720
+ single part of the process ourselves. We bagged it.
+
+00:04:08.720 --> 00:04:11.840
+ Yeah, we packed it, which we know we're not going to do a long term, but
+
+00:04:11.840 --> 00:04:17.440
+ yeah, it's not going to be some like BS coffee. We're just trying to sell it. We're trying to
+
+00:04:17.440 --> 00:04:23.280
+ make some that's actually good that it's competitive with what you would choose to buy anyway.
+
+00:04:23.280 --> 00:04:27.520
+ And of course, we're getting a lot of help, but yeah, every like we had like David is working
+
+00:04:27.520 --> 00:04:33.440
+ with us was handling all the design and branding. And yeah, you can just tell for those of you
+
+00:04:33.440 --> 00:04:37.920
+ that buy it and you get the package, like you'll see that it's not just some low effort thing.
+
+00:04:37.920 --> 00:04:40.720
+ We're not messing around here. You know, there's no joke.
+
+00:04:40.720 --> 00:04:46.400
+ No joke. Yeah, we I mean, it's been a lot of painstaking labor to this point.
+
+00:04:46.400 --> 00:04:53.360
+ And we're close to like opening it fully. So we've opened it to some select groups of people,
+
+00:04:53.360 --> 00:04:56.800
+ the place orders. We're still working on a couple of things. But I think by the time you
+
+00:04:56.800 --> 00:05:01.600
+ listen to this podcast, it should be available for everybody. So if we haven't sold out, which
+
+00:05:01.600 --> 00:05:04.800
+ is possible, do you think we'll sell out? Do I think we'll sell out over the weekend?
+
+00:05:04.800 --> 00:05:08.720
+ I don't know. We don't have that many. I mean, we don't have that many bags, but I guess it's
+
+00:05:08.720 --> 00:05:12.640
+ I mean, it's still a lot of I think we will sell out. We'll see. But
+
+00:05:12.640 --> 00:05:18.160
+ yeah, I also have no idea how many bags we have just because we've been like, we gave a bunch of
+
+00:05:18.160 --> 00:05:23.840
+ away. And right. So I'm going to put a conservative limit. And then as I run out, I'm going to be
+
+00:05:23.840 --> 00:05:31.360
+ like, okay, we're still not now. The thing about this company, I don't know. It wasn't real until
+
+00:05:32.240 --> 00:05:37.680
+ we all were in Miami for me. Like it was like, it was real in the sense that we'd put some
+
+00:05:37.680 --> 00:05:43.120
+ time into some things. And but like, as a team, we hadn't been together in the same room. And
+
+00:05:43.120 --> 00:05:48.240
+ it's just like, there's no bad scenario here, whether if we if it all flames out, like,
+
+00:05:48.240 --> 00:05:52.320
+ this has already been so much fun. And just doing stuff with your friends, like building
+
+00:05:52.320 --> 00:05:57.280
+ something like this, it's just a lot of fun. A lot of bonding happened over the week.
+
+00:05:57.280 --> 00:06:02.480
+ Yeah, I'm I'm happy no matter what happens at this point. Yeah, yeah, it's a it definitely makes
+
+00:06:02.480 --> 00:06:09.040
+ me miss doing things in person. Yeah, you know, I think I think a lot of us are not doing that at
+
+00:06:09.040 --> 00:06:14.880
+ all anymore. Yeah, but there really isn't anything like getting together and trying to get something
+
+00:06:14.880 --> 00:06:20.160
+ out. It's yeah, it's just it's a lot of fun. Yeah, a lot of energy. Yeah, I'm just excited to see,
+
+00:06:20.160 --> 00:06:25.280
+ like, like, I said, like with every business, it's always like, you have all these ideas for
+
+00:06:25.280 --> 00:06:30.800
+ things you really want to do, but there's like this initial, like, setup phase, which sometimes
+
+00:06:30.800 --> 00:06:34.160
+ takes years, right? I think for something like this, it's not like that because it's
+
+00:06:34.160 --> 00:06:38.480
+ not like really inventing anything new. It's like pretty straightforward what this setup is.
+
+00:06:38.480 --> 00:06:44.960
+ But once that's in place, I'm excited to like, okay, now we can actually do all the fun stuff
+
+00:06:44.960 --> 00:06:48.720
+ that we have in mind. So yeah, I'm excited to get into that. Same.
+
+00:06:48.720 --> 00:06:54.720
+ What else is going on? I mean, we were just in Miami. We just we spent a week at your house in
+
+00:06:54.720 --> 00:06:59.840
+ Miami. I was your experience of Miami. And we would react Miami also. We should mention that.
+
+00:06:59.840 --> 00:07:03.280
+ Yeah, yeah. React Miami was great. The whole week was great. I think
+
+00:07:03.280 --> 00:07:11.120
+ my experience in Miami. So I've lived in South Florida, as you know, and I enjoy South Florida.
+
+00:07:11.120 --> 00:07:15.840
+ I enjoy the warm weather. The mosquitoes ate me alive. So that that sucked.
+
+00:07:15.840 --> 00:07:22.000
+ I was like, why didn't we just get you mosquito repellent for your legs? Like by the second day,
+
+00:07:22.000 --> 00:07:26.640
+ we knew that you were like very specifically being targeted. Okay, just so for context,
+
+00:07:26.640 --> 00:07:31.840
+ when I'm in my backyard, I usually get some amount of mosquito bites. Something crazy,
+
+00:07:31.840 --> 00:07:38.400
+ but I get some amount of them. When Adam was here, I got literally none. And it's really hard to
+
+00:07:38.400 --> 00:07:44.960
+ understand how many mosquito bites this man had, like your legs were 100, your legs look horrible.
+
+00:07:44.960 --> 00:07:49.920
+ I look like a leper. It was awful. Yeah. I mean, I would come out on your back porch and I could
+
+00:07:49.920 --> 00:07:55.680
+ just see them coming. Like, like there they are. They're slowly drifting to my legs. It was insane.
+
+00:07:55.680 --> 00:08:00.400
+ Yeah, it's crazy. I had a great time this week. I've never enjoyed my backyard that much because I
+
+00:08:00.400 --> 00:08:04.480
+ had literally zero mosquito bites because they're all just after you. I've just got to hang out more,
+
+00:08:04.480 --> 00:08:09.440
+ take all the heat. But like, we should just got you like mosquito repellent, you put on your legs.
+
+00:08:09.440 --> 00:08:11.840
+ And I think that would have just solved a problem. Yeah. That's what Casey said. She's like,
+
+00:08:11.840 --> 00:08:17.680
+ you know that there's like spray for that, right? I told her like, there wasn't a lot of down time.
+
+00:08:17.680 --> 00:08:24.400
+ I don't, I didn't really feel like we had a lot of time for like extra like, I'm going to go grab
+
+00:08:24.400 --> 00:08:29.200
+ mosquito repellent. I could have, I guess, but it felt pretty jam-packed for like a week.
+
+00:08:29.200 --> 00:08:35.440
+ The moments in my hotel room were literally just asleep. And a lot of nights that was
+
+00:08:35.440 --> 00:08:42.640
+ two in the morning or whatever. And then getting up at seven or eight, it was, it was packed.
+
+00:08:42.640 --> 00:08:49.760
+ Was it packed for you? Was it just when I, was I just done something wrong? No, it was definitely packed for me. And like, there was people saying in my house, although there's that
+
+00:08:49.760 --> 00:09:00.240
+ stuff too, like getting, yeah, it was pretty packed. There's also a lot of like, you just want to miss out. Like, I don't want to go do anything because I don't want to miss out. I'm like, even like 10 minutes or whatever.
+
+00:09:00.240 --> 00:09:08.720
+ Like the last few nights, I felt like I should go to bed. I should just go back to my hotel and go to bed at a reasonable time. But it's like, I don't know, everybody's doing stuff. Let's do stuff. That sounds fun.
+
+00:09:08.720 --> 00:09:14.960
+ It's, you know, it's a limited time. Like you're going to miss these moments and wish you could have gone back and, I don't know, take advantage of it.
+
+00:09:14.960 --> 00:09:25.760
+ You didn't experience this side of it, but what was really sad for me is, so you know, like people would just hang out at my house, just in general, like whenever there was any downtime. So we've had a bunch of people just there.
+
+00:09:25.760 --> 00:09:36.800
+ The last couple of days, it was like that. And then you and Prime left. And then Melke left. And then someone else left.
+
+00:09:36.800 --> 00:09:47.920
+ So one by one, like, it was just going down. And it was really sad to say, buy to everyone last like two days. It was just two days of people slowly leaving. And I'm never going to see them again.
+
+00:09:47.920 --> 00:09:54.760
+ Well, on that note, when are we going to? Can we do this like quarterly? What do we, what's the plan?
+
+00:09:54.760 --> 00:10:01.240
+ Yeah, I think we just need to find absolutely any excuse. I'm like really motivated. Yeah. But it sounds like Twitch, we really need to film some ads.
+
+00:10:01.240 --> 00:10:12.560
+ Yeah, it sounds like Twitch con will be the next one. I think I will go to that. Is that, that's the fall, isn't it? Oh, yes. Yeah. Or September, it's in August, September, they haven't even announced the tickets yet, but they haven't announced the dates.
+
+00:10:12.560 --> 00:10:19.040
+ Oh, okay. I mean, we can do one in the summer. My summer is kind of crazy, but maybe we can do something.
+
+00:10:19.040 --> 00:10:26.440
+ Well, now I'm curious. I don't know if it's too private, but what what's your guy going on in the summer? When you say your summer is crazy. I'm just curious.
+
+00:10:26.440 --> 00:10:40.240
+ So I don't travel a lot. So when I travel like more than a little, it feels crazy. But yeah, my so we're going to next week, we're going to Indiana for my brother's graduation.
+
+00:10:40.240 --> 00:10:47.160
+ Oh, right. Then the end of the month, we're going to Barcelona and Lisbon has like. Oh, right. Okay, your summer. Yeah, your summer is crazy.
+
+00:10:47.160 --> 00:11:00.840
+ And then I'm going to Maine in the beginning of the summer because Alan is getting married and that's when his girlfriend is doing or sorry, his fiance is doing her bachelor party and we might do something.
+
+00:11:00.840 --> 00:11:09.880
+ I'm going to stop by visit my parents go to New York and go to Maine. Yeah, at the end of the summer, I'm actually going back to Maine for the actual wedding. Okay, you said.
+
+00:11:09.880 --> 00:11:16.920
+ You were like, when I travel even more than a little, it's great. That's a lot of travel.
+
+00:11:16.920 --> 00:11:26.440
+ Yeah. And one, like that's that's a lot. Now that I'm sure I'm like, damn, this is going to be, but you know what, might as well just throw one other thing in there, like it's just going to be September's not that far away.
+
+00:11:26.440 --> 00:11:37.160
+ I would like us to like do the rounds and just go to each other's houses. Yeah, we should do that. We said your house, not rotation. What's the best time of the year to go to your house? Probably fall, unfortunately.
+
+00:11:38.200 --> 00:11:53.240
+ With TwitchCon also being in the fall, like it's nice here in the fall. It's like the Northeast rivals it. I guess we did this wrong because your house is probably because if you think about, okay, if we just rotate through all of everyone's houses.
+
+00:11:53.240 --> 00:12:03.400
+ Yeah, I think all of the winter sucks for all of you guys. Oh, yeah, except for me. So it's every year. Yeah, mine should be in the winter.
+
+00:12:03.400 --> 00:12:10.680
+ Yeah. So we could, in the summer, we could go to, yeah, primes or T.J.'s maybe. It's probably nicer there than it is where we are.
+
+00:12:10.680 --> 00:12:22.360
+ There is also that big sky conference going on. I was actually invited to that one. When is it? In July, I think, or something, June and July, something like that.
+
+00:12:22.360 --> 00:12:28.920
+ We'll figure it out. We'll figure it out. I'm going to Seattle in July for an A to B.S. thing. A to B.S. hero thing.
+
+00:12:28.920 --> 00:12:36.600
+ Oh, is that the hero summit? The summit, yeah, they're doing like one global one this time instead of spread out.
+
+00:12:36.600 --> 00:12:45.720
+ You know, that word always confuse me because does a word summit mean something else or do they just literally name this concept after like the mountain?
+
+00:12:45.720 --> 00:12:51.560
+ You know, like what does summit actually mean? Is it like the peak of a mountain or is it a verb?
+
+00:12:51.560 --> 00:13:00.600
+ It's like the peak of a mountain? Wait, hang on. Is it also like a gathering of people? Let's see. The highest definition.
+
+00:13:00.600 --> 00:13:05.000
+ Yeah. There's no alternate meaning, a conference of highest level officials.
+
+00:13:05.000 --> 00:13:12.120
+ Wow, that makes calling it a hero summit really pretentious, a conference of the highest level, I see.
+
+00:13:12.120 --> 00:13:26.680
+ The most important people, basically, like everyone can go to the A.W.S. hero summit, but they have one hero left behind in case, like, you know, there's an attack on the hero, something and they need someone to take to lead.
+
+00:13:26.680 --> 00:13:34.360
+ Someone has to be able to take over. Yeah. That's funny. Let's start a summit. Let's just be super elitist.
+
+00:13:34.360 --> 00:13:41.160
+ I hung out with Alex to Brie on Tuesday. What crazy social week for me? Like after all the craziness.
+
+00:13:41.160 --> 00:13:47.400
+ He was in Miami? Then he was randomly there. Monday, Wednesday, Monday, Tuesday, Wednesday.
+
+00:13:47.400 --> 00:13:57.680
+ So I saw him and he mentioned he was like, oh, he mentioned he's like, oh, yeah, I'm surprised Adam's going to hero summit. He like never does anything, but he's going to that.
+
+00:13:57.680 --> 00:14:16.720
+ And then we were sitting at we visited him at his hotel. So we're sitting at some bar thing. And then I look and I see someone that looks familiar. And I started waving before I even realized what I was doing because he kind of looked at me too.
+
+00:14:16.720 --> 00:14:27.200
+ And he's just walking over and I'm like, shit, like, did I recognize him or not? So I'd randomly go, Hey, are you the CEO of Netlify? And it turns out he was so it was fun.
+
+00:14:27.200 --> 00:14:43.920
+ Yeah, I did recognize him. Matt Billman. I think Matt. Yeah. Yeah. So we ran to him. And we talked for a bit. That's crazy. What a week for Miami at the same restaurant or something. Like it was at the hotel. Yeah. It's a hotel. Yeah. It's a conference. There's a conference going. Another conference going on.
+
+00:14:43.920 --> 00:14:55.640
+ I wish Alex could have come like a few days earlier. I think he was there on Sunday. Are you kidding? I guess you left on Sunday. Yeah, the waving at somebody.
+
+00:14:55.640 --> 00:15:05.600
+ This reminded me of the story. I haven't told you about this. I was on a walk. And I always look like an idiot when I'm walking anyway. Like I have my rock pack on and I walk backward a lot and all that stuff.
+
+00:15:05.600 --> 00:15:22.280
+ Even just your face. Oh, yeah. But I'm on a walk and a car is coming. And so my my parents live up the road for me now. And I thought it looked just like their car. It was a gray car. And I thought it was one of them.
+
+00:15:22.280 --> 00:15:32.440
+ And so I do the thing you do when you like really know something. I'm like, I wave real big and smiled like ear to ear. Just real big smile. Like, hey, it's my parents.
+
+00:15:32.440 --> 00:15:42.720
+ And it was my parents. It was one of our neighbors. And he kind of like looked at me like what? I got to know the guy. I've just seen him on walks. Like he walks his dogs. I don't even know his name.
+
+00:15:42.720 --> 00:15:51.280
+ And he just kind of like thinks I'm nuts now because I gave this giant toothy grin and wave. I do stuff like that all the time.
+
+00:15:51.280 --> 00:16:07.280
+ Yeah, I have to like relate to that. Liz did the reverse of that one time where okay, for some reason, I'm convinced she has some kind of face blindness thing because we've taught those before where she thinks everyone looks like everyone and they just don't.
+
+00:16:07.280 --> 00:16:19.280
+ But for some reason, she can never remember what our next door neighbor looks like. We'd like see them constantly. Yeah. And we have this issue where sometimes people park in front of our house.
+
+00:16:19.280 --> 00:16:29.280
+ And she saw it's like people like people that are visiting they park in front of her house and block her spot. It's fine when our neighbor does it because it's like temporarily or whatever. And like, we know them.
+
+00:16:29.280 --> 00:16:37.280
+ But Liz saw someone parking in front of her house and she's like runs out being like, you can't park there. And it was our neighbor that she didn't recognize.
+
+00:16:37.280 --> 00:16:44.280
+ And then a neighbor was kind of like flustered being like, Oh, no. Like, okay, it's just like, no, for a little bit. You know, like, we always do. Yeah.
+
+00:16:44.280 --> 00:16:52.280
+ So, yeah, I'm sure they have that like kind of reverse set something to the, you know, like mess up the relationship in some way.
+
+00:16:52.280 --> 00:17:02.280
+ Oh, that sucks. It's all the little mistakes that like, just, you know, from the other person's point of view, they're just like, there's no way that they would consider it was an accident.
+
+00:17:02.280 --> 00:17:09.280
+ They just perceive it as like the weirdest behavior ever. Yeah. And that, I mean, that fear was in my mind. Like, I can't not wait real big.
+
+00:17:09.280 --> 00:17:18.280
+ So if I'm just like, and it's my parents, like, what was he? What was the deal with Adam? So I have to wait real big. And then I just wanted to like chase him down and like get him to roll down the window.
+
+00:17:18.280 --> 00:17:28.280
+ Like, I thought you were my parents. Sorry. I'm not crazy. If you did that crazy wave and then started chasing my car, I would definitely speed off.
+
+00:17:28.280 --> 00:17:37.280
+ And then it would be worse. It's a good point. Oh, man. You might be my neighbor at some point. Oh, man.
+
+00:17:37.280 --> 00:17:48.280
+ Yeah. Coconut Grove is great. The walking, the restaurants and the just all of it. And Casey and I, we've always loved South Florida. We moved there once.
+
+00:17:48.280 --> 00:18:00.280
+ And we've been talking about like, even before I visited about like, maybe we could have like a rental property that we ran out in Florida and we just lived there for stretches.
+
+00:18:00.280 --> 00:18:14.280
+ Because the thing that when we moved the first time, my oldest, we only had one child and he was four. Yeah. It was four. And it was pretty traumatic because we had just like built this nice home here in the Ozarks.
+
+00:18:14.280 --> 00:18:22.280
+ And then we left that and moved into a pretty old rental there in Florida. Everything was like different. And it just, we were all very sad for like a month.
+
+00:18:22.280 --> 00:18:34.280
+ But if we were going down there knowing we still have home up here, it's like the psychological barrier is gone. We could stay for three months. And it's like, we know we can go back home, but we just get to enjoy the great parts of South Florida.
+
+00:18:34.280 --> 00:18:48.280
+ So yeah, after that trip, I'm ready. I'm ready to move. Casey, I'm not ready to move. Sorry, I should say ready to spend some time down there. Unfortunately, time of year, it won't be for a while because we're not going to come in the summer.
+
+00:18:48.280 --> 00:19:01.280
+ No, yeah, I mean, but I think you need some time to figure it out anyway. Yeah, we'd have to find a place. And I love to live down there. Like, because, you know, everyone, people know I live in Miami and everyone has this concept of Miami.
+
+00:19:01.280 --> 00:19:12.280
+ And like, imagine the difference between the hotel you stayed at and then like my neighborhood, like that gap is huge. But everyone always pictures, you know, that South Beach area that you stayed at.
+
+00:19:12.280 --> 00:19:23.280
+ And I always say that I always want people to visit because it's so jarring. And you actually haven't even seen, like, the other side of the highway here is another neighborhood called Coral Gables.
+
+00:19:23.280 --> 00:19:32.280
+ And that's like, that's really nice, right? It's not as walkable as mine because there's not like this easy downtown area, but it is like insanely beautiful.
+
+00:19:32.280 --> 00:19:38.280
+ Like, nobody would see that and be like, this is everyone would see that and be like, this is like, you know, like a crazy place on the planet.
+
+00:19:38.280 --> 00:19:51.280
+ Yeah. Yeah, so I'm really excited that you guys got to got to come and see that. And yeah, I love living here. Like, just, it just feels good. Like, it feels like, yeah, this makes sense.
+
+00:19:51.280 --> 00:19:56.280
+ Like, there's trees everywhere. And like, you can kind of walk to everything. Oh, yeah, it's beautiful. You need for sure.
+
+00:19:56.280 --> 00:20:11.280
+ But like, it's not, but you're like still in a city and you can do like, like city things if you want to. Yeah, it's pretty rare. For some reason, people here don't appreciate that as much. Like, in my head, when I, like, you know, visited Miami, I looked at everything.
+
+00:20:11.280 --> 00:20:23.280
+ I was like, Oh, obviously, this is like the pinnacle. This area is the pinnacle of Miami. Yeah. And a lot of people do like it, but people here just don't think about the walkability thing and like how much it changes your whole, your whole life.
+
+00:20:23.280 --> 00:20:37.280
+ Like, it's not like a priority, which I'm glad about because it reduces the amount of competition. But yeah, the walkability thing, I really wish our life, like, we go for walks, like arbitrary, almost an hour long walk in the whole neighborhood.
+
+00:20:37.280 --> 00:20:46.280
+ Just get the exercise. I really wish our life required. Like, it was just part of our lives that we walk places because I know that's like Europe with people going vacation.
+
+00:20:46.280 --> 00:20:57.280
+ Like, I saw him tweeting about like 20,000 steps a day. Like, that's just not a thing in the Ozarks. You don't like any walking you do is just because you need to walk.
+
+00:20:57.280 --> 00:21:07.280
+ There's nowhere to walk to everything is like at least 10 minutes in the car away. It's like so spread out. So yeah, I wish we had that for sure. That's nice.
+
+00:21:07.280 --> 00:21:16.280
+ Yeah, like to me, it feels like this is what neighborhoods like how neighborhoods should be designed. I don't really know why they're not.
+
+00:21:16.280 --> 00:21:25.280
+ I don't fully get it because yeah, this supports almost all kinds of preferences. Like, I have a house with a yard if that's what you want.
+
+00:21:25.280 --> 00:21:36.280
+ There's also like, not giant buildings, but there's like apartment buildings if like, you know, that's what you want. Yeah, there's also some like crazy houses like that are massive, like mansion type houses.
+
+00:21:36.280 --> 00:21:41.280
+ It's all that's like mixed in together. But I really know what like what the downside is.
+
+00:21:41.280 --> 00:21:51.280
+ Is it more? Is it more of a limitation on the like the commercial side? Like small downtown areas are really nice as a person who wants to walk into a downtown.
+
+00:21:51.280 --> 00:22:00.280
+ But do the suburbs exist because like big boxco's want to put in their giant buildings and like, is that just not conducive to a place like that?
+
+00:22:00.280 --> 00:22:08.280
+ Well, it's like we have those too. Like we have Costco and be able to get in a car. We're not going to like walk to those, obviously, but yeah, those are like 20 minutes away.
+
+00:22:08.280 --> 00:22:20.280
+ A car, though. Yeah, why do suburbs exist the way that they do? Like what happened to walk? Because Europe, it's it probably looks more like your situation, right?
+
+00:22:20.280 --> 00:22:28.280
+ What about America? Did we decide? Yeah, I don't know. I feel like we swung too hard on the giant houses on property, which also to me, it's like a weird middle ground.
+
+00:22:28.280 --> 00:22:38.280
+ Like I totally get being having like a crazy like we have friends that have like a farm in Virginia and like prime has his like crazy ranch.
+
+00:22:38.280 --> 00:22:54.280
+ Yeah, I get that. But like this suburb thing, I don't fully understand. Like I feel like you can kind of have it all, but without having to be like, oh, it's just like completely residential and like a 20 minute radius and all the stores are outside of it.
+
+00:22:54.280 --> 00:23:04.280
+ Yeah, I don't really. Yeah, I don't know. I don't get it. It's just the mechanisms that forced this type of development. Like, yeah, I'd like to look at it now.
+
+00:23:04.280 --> 00:23:10.280
+ I'm going to be on Wikipedia. Maybe it's a density thing that actually just might be it because there's so many people here.
+
+00:23:10.280 --> 00:23:19.280
+ So the small businesses that are in that downtown area are like very successful. Like they make a lot of money. Like people come, not just from our neighborhood.
+
+00:23:19.280 --> 00:23:32.280
+ But they come from everywhere to visit them. So they're like ported by that, which I guess just is not a thing when there is in his dense, like, like that restaurant we went to that vegan sushi place.
+
+00:23:32.280 --> 00:23:41.280
+ I would guess that most of the people going there are not from my neighborhood. I think most of our customers are from around. And we just get to benefit because we live around here.
+
+00:23:41.280 --> 00:23:44.280
+ Yeah, I would travel for it. It was delicious. The service was okay.
+
+00:23:44.280 --> 00:23:51.280
+ There was a horrible there. It was like maybe the worst service we had all week. Yeah, given vegans a bad name.
+
+00:23:51.280 --> 00:24:01.280
+ I mean, the food was really good. It was really good. The one that was like kind of toasted. Like, I keep remembering the flavor and I was like, that was so good.
+
+00:24:01.280 --> 00:24:06.280
+ That was delicious. I can't believe I didn't get that again. Should have over eats it.
+
+00:24:06.280 --> 00:24:21.280
+ You're in here. Yeah, I just do read everything. So I'm not from walkable areas. Yeah. Well, it's funny because the food situation was really funny because nobody, none of us are really catered to Adam at all.
+
+00:24:21.280 --> 00:24:23.280
+ It's okay. I don't want you to.
+
+00:24:23.280 --> 00:24:38.280
+ We kept saying that. I just don't like that feeling of like, yeah, I just don't like it. But you would just eat like two hours. You were just Uber eats two hours before you put out to eat and you just sit there at the restaurant.
+
+00:24:38.280 --> 00:24:43.280
+ No, thank you. No, thank you.
+
+00:24:43.280 --> 00:24:49.280
+ I can't believe how late everyone eats. That's my big wake up call going to Miami and seeing other adults in the wild.
+
+00:24:49.280 --> 00:24:54.280
+ Like, okay, I understand that we eat late in Miami. That's like, definitely a thing.
+
+00:24:54.280 --> 00:25:04.280
+ But your point of reference is like insane. Yeah, you were saying you don't eat after 2 p.m. Like, what the, that's like earlier than old people, you know, old people.
+
+00:25:04.280 --> 00:25:10.280
+ It's not always 2 p.m. It depends on the season. The main thing is stopping like four or five hours before I go to bed.
+
+00:25:10.280 --> 00:25:17.280
+ And I guess in Miami, in your defense, everyone went to bed really late too. So maybe you were eating plenty early for when you go to sleep.
+
+00:25:17.280 --> 00:25:22.280
+ Yeah. Like, if I stay up till two or three, then I guess I don't need to be done eating in the afternoon.
+
+00:25:22.280 --> 00:25:27.280
+ I mean, that week was weird. So if you think about a normal week, we usually eat around eight.
+
+00:25:27.280 --> 00:25:33.280
+ Okay. And then we'll be in bed at like midnight. So. Okay, so four hours before. Yeah, that's, no, that's good.
+
+00:25:33.280 --> 00:25:38.280
+ Okay. Yeah, I just go to bed really early. And that pushes my eating window way early too.
+
+00:25:38.280 --> 00:25:47.280
+ We can't like, we just can't like interact with other people. It's like, we can't have dinner with people because we don't eat dinner.
+
+00:25:47.280 --> 00:25:50.280
+ We eat it two or three in the afternoon.
+
+00:25:50.280 --> 00:25:53.280
+ Well, are there people that you want to interact with and around you?
+
+00:25:53.280 --> 00:25:57.280
+ No. Fairness. Maybe there would be if we could eat with them.
+
+00:25:57.280 --> 00:26:05.280
+ No, I think it's the other way around. I think if you have people you interact with that you'll just kind of be more flexible in certain ways.
+
+00:26:05.280 --> 00:26:10.280
+ That's true. Yeah. I hope you guys lived here. Yeah. And we would go the other way too.
+
+00:26:10.280 --> 00:26:14.280
+ So yeah, you guys would finish eating it too. That sounds fun. Let's do that. We'll just move it on.
+
+00:26:14.280 --> 00:26:22.280
+ It'll be fun if you guys visit because it's like we made fun of you with a vegan thing a lot, but like a lot of foodless makes like she makes very good food.
+
+00:26:22.280 --> 00:26:26.280
+ That's like a hundred percent. That could be a hundred percent vegan. So definitely do that.
+
+00:26:26.280 --> 00:26:32.280
+ You guys were great hosts. The party was great. Party was fun. It was like literally tech Twitter.
+
+00:26:32.280 --> 00:26:36.280
+ There's a few absentee's, but like it was insane.
+
+00:26:36.280 --> 00:26:42.280
+ The density of people whose avatars you recognize are faces you recognize from Twitter.
+
+00:26:42.280 --> 00:26:45.280
+ I barely remember the party for some reason. It was just like all a blur.
+
+00:26:45.280 --> 00:26:51.280
+ It feels like it was early in the week. It wasn't really like, was it Thursday? Yeah, it was Thursday.
+
+00:26:51.280 --> 00:26:54.280
+ I don't know. That Monday through Wednesday was a blur. Yeah.
+
+00:26:54.280 --> 00:27:01.280
+ Like all the streaming that the guys were doing and then just like, I don't know, felt like a whirlwind.
+
+00:27:01.280 --> 00:27:05.280
+ I missed a day there. I thought one of the days was Thursday. I don't know.
+
+00:27:05.280 --> 00:27:12.280
+ It was like Thursday. I thought it was Wednesday. Like I lost an entire day. Yeah, my brain was done.
+
+00:27:12.280 --> 00:27:20.280
+ But yeah, the party was kind of like here and gone smashed between all this craziness because then we went to South Beach for a few days for the conference.
+
+00:27:20.280 --> 00:27:25.280
+ Yeah. Man, if the conference was not in South Beach, everything would have been so much nicer.
+
+00:27:25.280 --> 00:27:31.280
+ So another thing that happened was that we kept getting stuck in those like hour-long car rides between the two.
+
+00:27:31.280 --> 00:27:38.280
+ Okay. So this sounds crazy, but when I normally go to South Beach, it takes literally 15 minutes.
+
+00:27:38.280 --> 00:27:46.280
+ Like we go to the beach at all the time. Are you serious? And for some reason, this weekend, it was like over an hour every single time we had to go back and forth.
+
+00:27:46.280 --> 00:27:51.280
+ So people thought I lived like really far away, but like I don't. I live pretty close to all that.
+
+00:27:51.280 --> 00:27:58.280
+ Is that where you go to the beach or can you just go South? Yeah. So we don't. So there's another area called Keep a Skin.
+
+00:27:58.280 --> 00:28:03.280
+ And that's very close. That's like 10 minutes away. And oftentimes we go there as crazy as South Beach is.
+
+00:28:03.280 --> 00:28:09.280
+ Like it does have really nice beaches. So we usually go there, but we'll go early.
+
+00:28:09.280 --> 00:28:14.280
+ Like we'll go like we'll be done by like noon or like one because we'll go earlier in the day.
+
+00:28:14.280 --> 00:28:20.280
+ And it's like nicer. It's not as hot. Yeah. And there's no traffic. There's usually like not many people there.
+
+00:28:20.280 --> 00:28:26.280
+ Yeah, the traffic was insane. I mean, getting across that bridge was painful. We've mostly just sat.
+
+00:28:26.280 --> 00:28:31.280
+ I think it was from the conference. Not from React Miami, but from the bigger conference, the eMERGE thing.
+
+00:28:31.280 --> 00:28:38.280
+ Yeah, that was brutal. Yeah. Maybe they could just do the conference at a different time and not share it with eMERGE.
+
+00:28:38.280 --> 00:28:47.280
+ Yeah. I want to talk to Michelle more about why they, like what benefits they get from embedding React Miami inside that bigger conference, which is just like to random.
+
+00:28:47.280 --> 00:28:53.280
+ Yeah. It feels like reinvent, but like not everybody's in suits. It was different.
+
+00:28:53.280 --> 00:29:01.280
+ Yeah. It's a different crowd. Yeah, sure. It is weird, though. I didn't like, I was like, because I was walking around the conference booth area thing.
+
+00:29:01.280 --> 00:29:06.280
+ And I saw a big crowd of people. And I was like, Oh, this must be something interesting.
+
+00:29:06.280 --> 00:29:13.280
+ And it was just some person like vaguely talking about AI and like random buzzwords that just didn't make it.
+
+00:29:13.280 --> 00:29:18.280
+ They just weren't really saying anything, but they were drawing a huge crowd. And I'm like, what is this? Like, what is this world?
+
+00:29:18.280 --> 00:29:24.280
+ And like, how do I just like never intersect with it? There's so many people there. Yeah, it's LinkedIn.
+
+00:29:24.280 --> 00:29:32.280
+ Like LinkedIn was there and Twitter was there. And we were having our little party and then LinkedIn was doing their LinkedIn things.
+
+00:29:32.280 --> 00:29:37.280
+ Yeah. That was bizarre. And then Clark had their booth there. And I'm just like, Oh, they had a booth at the eMERGE thing.
+
+00:29:37.280 --> 00:29:44.280
+ Yeah. Yeah. I had to go drop. Oh, really? So when that worked, that clerk left a laptop at my party. Oh, yeah.
+
+00:29:44.280 --> 00:29:53.280
+ That was funny. Oh, it's funny. Yeah, he had to ship some stuff, like some stuff broke. And he was like fixing some stuff at my party.
+
+00:29:53.280 --> 00:29:59.280
+ I saw. Yeah. I saw them in the corner with the laptop. Good thing people put stickers on their laptops.
+
+00:29:59.280 --> 00:30:03.280
+ They had a clerk sticker, right? Is that how you knew it? Yeah. I don't put stickers on my laptop ever.
+
+00:30:03.280 --> 00:30:08.280
+ I don't either, but I put a terminal sticker on mine. Even the terminal one, I don't think I'll do.
+
+00:30:08.280 --> 00:30:16.280
+ I understand. You're just not committed. It's just like, you know, Apple works so hard to make like this very pristine design.
+
+00:30:16.280 --> 00:30:22.280
+ I put it on there thinking this will come off, right? You put it on the bottom.
+
+00:30:22.280 --> 00:30:28.280
+ Yeah. On the underside. Yeah. That's funny. That's an interesting idea.
+
+00:30:28.280 --> 00:30:33.280
+ I cover the underside with stickers and it's like kind of hide it if you don't want to. Yeah. Yeah. Yeah.
+
+00:30:33.280 --> 00:30:38.280
+ Well, like some ventil-- okay, I'm going way too deep on this. I'm going to say ventilation issues.
+
+00:30:38.280 --> 00:30:44.280
+ Going back to conference. Yeah. I'd love to see if-- because it was so big this year that I have a hard time
+
+00:30:44.280 --> 00:30:50.280
+ imagining that it just won't sell out immediately next year. Yeah. So I think like, you know, because the second day of the conference was
+
+00:30:50.280 --> 00:30:56.280
+ not in South Beach, it was just in an office space or in a couple office spaces in downtown Miami.
+
+00:30:56.280 --> 00:31:04.280
+ You had to do that for both next year and just forget South Beach. Yeah. Just-- I would just ask that the both days are on the same
+
+00:31:04.280 --> 00:31:11.280
+ side of that bridge. Yeah. Yeah. Because it's so hard to have a hotel where you were near what is happening the next day.
+
+00:31:11.280 --> 00:31:16.280
+ Yeah. Well, again, this is a problem very specific to us because we were-- Yeah. I mean, I was at your house a lot.
+
+00:31:16.280 --> 00:31:23.280
+ Yeah. Yeah. Yeah. Yeah, it was fun. I'm really happy everyone came. I had a lot of fun, a lot of good memories.
+
+00:31:23.280 --> 00:31:31.280
+ Yeah. That was a good time. Won't forget that one. And then the company, we launched the company. Yeah, there's just a lot going on.
+
+00:31:31.280 --> 00:31:37.280
+ I'm trying to like learn how to style SSA chaps or CLI apps.
+
+00:31:37.280 --> 00:31:41.280
+ Go. I don't think you've done go before, have you? I've done some go. Okay. Okay. Okay.
+
+00:31:41.280 --> 00:31:48.280
+ For a CLI app, actually, but it wasn't this fancy. We're trying to do fancy stuff. It's hard. How's that going?
+
+00:31:48.280 --> 00:31:55.280
+ It's good. I mean, we're using charm and all their stuff, lip gloss, bubble tea. It's--
+
+00:31:55.280 --> 00:32:01.280
+ So, stuff isn't so hard to Google. It's so hard to Google. Yeah. I'm just like pinging bash bunny constantly.
+
+00:32:01.280 --> 00:32:06.280
+ Like, hey, how do I do this? And then she sends me like a gist that has all of it. And I'm like, thank you.
+
+00:32:06.280 --> 00:32:15.280
+ Plug that in on the next thing. It's going well. It looks like the mock mostly on the product page.
+
+00:32:15.280 --> 00:32:17.280
+ Nice. And I'm working on the checkout pages. Nice.
+
+00:32:17.280 --> 00:32:23.280
+ Yeah, it's going to be good. It's an interesting idea. I can't believe nobody's like actually done this, like SSH store.
+
+00:32:23.280 --> 00:32:28.280
+ I feel like that should have been a thing. It's crazy to me that charm built this and nobody like--
+
+00:32:28.280 --> 00:32:34.280
+ It's not like we came with the idea. We saw the tools charm built and we were like, oh, you can do stuff like this.
+
+00:32:34.280 --> 00:32:38.280
+ So, I'm surprised more people haven't come across it and done funny experiences like that.
+
+00:32:38.280 --> 00:32:44.280
+ But I'm excited to put together a template that you can build something and deploy it the same way that we did.
+
+00:32:44.280 --> 00:32:48.280
+ Yeah. So people can put their resume up there or some things like personal site.
+
+00:32:48.280 --> 00:32:55.280
+ I've been looking through, like, we've been looking through a bunch of these logs services and I hate all of them.
+
+00:32:55.280 --> 00:33:02.280
+ And I'm just like, I wish someone was building a stage version of this SSH, my team.logs.app, whatever.
+
+00:33:02.280 --> 00:33:05.280
+ And then I can just like, you know, look through in the terminal.
+
+00:33:05.280 --> 00:33:07.280
+ It'd be a lot of tail or something.
+
+00:33:07.280 --> 00:33:11.280
+ So everything should be in the terminal. Who needs browsers?
+
+00:33:11.280 --> 00:33:17.280
+ Yeah. If you're building software developers, like, that's actually a very reasonable argument to make.
+
+00:33:17.280 --> 00:33:22.280
+ So on the development side, I wish there were like a live reload situation.
+
+00:33:22.280 --> 00:33:28.280
+ Like, is there-- maybe there is a better way. I'm like literally running Go Run.
+
+00:33:28.280 --> 00:33:32.280
+ And then when I make a change, I kill the process. I rerun it. I SSH in.
+
+00:33:32.280 --> 00:33:36.280
+ It's painful. As far as the developer loop, feedback loop goes.
+
+00:33:36.280 --> 00:33:40.280
+ Yeah. I think there's actually another entry point in there that just renders it
+
+00:33:40.280 --> 00:33:43.280
+ instead of like making it SSH in. So that might--
+
+00:33:43.280 --> 00:33:44.280
+ Yeah.
+
+00:33:44.280 --> 00:33:46.280
+ I guess I could do that.
+
+00:33:46.280 --> 00:33:48.280
+ No, I guess I could do that.
+
+00:33:48.280 --> 00:33:52.280
+ I think I-- so I ran the wrong thing. If you run the main.go file in the root.
+
+00:33:52.280 --> 00:33:54.280
+ And so the one in the stage folder, I think that's what it does.
+
+00:33:54.280 --> 00:33:55.280
+ And then you can specify a screen, I think.
+
+00:33:55.280 --> 00:33:56.280
+ I think that's what it does.
+
+00:33:56.280 --> 00:34:00.280
+ So I can't test the interactions. It's just like one screen at a time, I guess.
+
+00:34:00.280 --> 00:34:02.280
+ No, I think it renders a whole app because it's the same--
+
+00:34:02.280 --> 00:34:03.280
+ Oh, the whole app.
+
+00:34:03.280 --> 00:34:05.280
+ Because it's just a bubble T app at the end of the day, whether it's mounted to a stage.
+
+00:34:05.280 --> 00:34:08.280
+ Okay, maybe I'm doing the wrong thing. Yeah, I don't have to test the stage.
+
+00:34:08.280 --> 00:34:09.280
+ That'd be cool.
+
+00:34:09.280 --> 00:34:10.280
+ That might help.
+
+00:34:10.280 --> 00:34:14.280
+ Yeah, the reload is another thing. This whole experience has made me conclude that we definitely
+
+00:34:14.280 --> 00:34:19.280
+ need to build that thing into SSD where you have like a sidebar.
+
+00:34:19.280 --> 00:34:24.280
+ And in there, I can just add a button if you hit R it'll reload or something.
+
+00:34:24.280 --> 00:34:28.280
+ But I think go-- there is something-- it's not a thing fancy.
+
+00:34:28.280 --> 00:34:31.280
+ I think there is some way to just like make it reload when everything's out of change.
+
+00:34:31.280 --> 00:34:32.280
+ Yeah.
+
+00:34:32.280 --> 00:34:33.280
+ Interesting.
+
+00:34:33.280 --> 00:34:36.280
+ That part is a little annoying.
+
+00:34:36.280 --> 00:34:39.280
+ But I mean, it's fun. It's kind of different.
+
+00:34:39.280 --> 00:34:43.280
+ Tickles your brain a little bit because it's everything you think you know about building
+
+00:34:43.280 --> 00:34:46.280
+ things turned on its head and it's different.
+
+00:34:46.280 --> 00:34:47.280
+ Yeah.
+
+00:34:47.280 --> 00:34:51.280
+ Like I so badly want to just like put divs in and like flex box and just be done.
+
+00:34:51.280 --> 00:34:53.280
+ But it's not how it works.
+
+00:34:53.280 --> 00:34:54.280
+ Yeah.
+
+00:34:54.280 --> 00:34:56.280
+ And you can't like have different text sizes, which means like--
+
+00:34:56.280 --> 00:34:57.280
+ Yeah.
+
+00:34:57.280 --> 00:35:00.280
+ The entire way you like think about emphasizing things in a UI is totally different.
+
+00:35:00.280 --> 00:35:01.280
+ Uh-huh.
+
+00:35:01.280 --> 00:35:02.280
+ Yeah.
+
+00:35:02.280 --> 00:35:05.280
+ Like text color, I guess is mainly how we're doing it.
+
+00:35:05.280 --> 00:35:06.280
+ Yeah.
+
+00:35:06.280 --> 00:35:07.280
+ Color and weight.
+
+00:35:07.280 --> 00:35:08.280
+ Right.
+
+00:35:08.280 --> 00:35:09.280
+ Not even waiting.
+
+00:35:09.280 --> 00:35:10.280
+ Yeah.
+
+00:35:10.280 --> 00:35:11.280
+ Not to make it bold or not bold.
+
+00:35:11.280 --> 00:35:12.280
+ That's it.
+
+00:35:12.280 --> 00:35:13.280
+ Right.
+
+00:35:13.280 --> 00:35:14.280
+ Yeah.
+
+00:35:14.280 --> 00:35:15.280
+ Yeah, terminals are crazy.
+
+00:35:15.280 --> 00:35:17.280
+ I feel like I've just learned a lot more about how they work through this.
+
+00:35:17.280 --> 00:35:18.280
+ Yeah.
+
+00:35:18.280 --> 00:35:21.280
+ One problem is that we want to launch today.
+
+00:35:21.280 --> 00:35:23.280
+ And I need to get this done.
+
+00:35:23.280 --> 00:35:26.280
+ And it's-- we missed our podcast last week.
+
+00:35:26.280 --> 00:35:28.280
+ We didn't record in Miami.
+
+00:35:28.280 --> 00:35:31.280
+ I want this one to be long and full, full bodied.
+
+00:35:31.280 --> 00:35:34.280
+ You know, a full bodied episode.
+
+00:35:34.280 --> 00:35:37.280
+ It's something that somebody would want to enjoy on a Saturday afternoon.
+
+00:35:37.280 --> 00:35:38.280
+ Uh-huh.
+
+00:35:38.280 --> 00:35:39.280
+ Uh-huh.
+
+00:35:39.280 --> 00:35:42.280
+ But also, I probably can't sound here very long or we won't get this thing yet.
+
+00:35:42.280 --> 00:35:43.280
+ Uh-huh.
+
+00:35:43.280 --> 00:35:44.280
+ Uh-huh.
+
+00:35:44.280 --> 00:35:45.280
+ Okay.
+
+00:35:45.280 --> 00:35:46.280
+ You can go back.
+
+00:35:46.280 --> 00:35:47.280
+ Do I seem distracted?
+
+00:35:47.280 --> 00:35:51.280
+ Do I seem like every minute of this podcast I've been like--
+
+00:35:51.280 --> 00:35:52.280
+ [laughter]
+
+00:35:52.280 --> 00:35:53.280
+ I'm just--
+
+00:35:53.280 --> 00:35:54.280
+ I'm ready to-- okay.
+
+00:35:54.280 --> 00:35:55.280
+ I got to get back to it now.
+
+00:35:55.280 --> 00:35:56.280
+ A little bit later.
+
+00:35:56.280 --> 00:35:57.280
+ It's fine.
+
+00:35:57.280 --> 00:35:58.280
+ It's exciting.
+
+00:35:58.280 --> 00:35:59.280
+ It's nice to have something like that.
+
+00:35:59.280 --> 00:36:00.280
+ It is.
+
+00:36:00.280 --> 00:36:01.280
+ I also enjoy our podcast.
+
+00:36:01.280 --> 00:36:02.280
+ Uh-huh.
+
+00:36:02.280 --> 00:36:03.280
+ And I miss it.
+
+00:36:03.280 --> 00:36:05.280
+ I miss that we didn't-- I wish we had a recorded in person.
+
+00:36:05.280 --> 00:36:06.280
+ We should have done it.
+
+00:36:06.280 --> 00:36:07.280
+ Should have made it happen.
+
+00:36:07.280 --> 00:36:08.280
+ It's so hard.
+
+00:36:08.280 --> 00:36:09.280
+ So much going on.
+
+00:36:09.280 --> 00:36:11.280
+ It's hard to do things when everyone's together.
+
+00:36:11.280 --> 00:36:14.280
+ Like, 'cause the easiest thing to do is just to fuck around and have fun, which is--
+
+00:36:14.280 --> 00:36:15.280
+ Yeah.
+
+00:36:15.280 --> 00:36:16.280
+ Exactly.
+
+00:36:16.280 --> 00:36:17.280
+ But we actually had to do--
+
+00:36:17.280 --> 00:36:19.280
+ We used to do it wearing mics next time.
+
+00:36:19.280 --> 00:36:20.280
+ Yeah.
+
+00:36:20.280 --> 00:36:24.280
+ Just record the whole thing and then have Chris edit it.
+
+00:36:24.280 --> 00:36:25.280
+ Good luck, Chris.
+
+00:36:25.280 --> 00:36:27.280
+ Here's a week of audio.
+
+00:36:27.280 --> 00:36:29.280
+ [laughter]
+
+00:36:29.280 --> 00:36:30.280
+ Okay.
+
+00:36:30.280 --> 00:36:32.280
+ Well, we'll let you get back to work.
+
+00:36:32.280 --> 00:36:33.280
+ All right.
+
+00:36:33.280 --> 00:36:34.280
+ So this was short.
+
+00:36:34.280 --> 00:36:36.280
+ Blame e-commerce or something.
+
+00:36:36.280 --> 00:36:37.280
+ I don't know.
+
+00:36:37.280 --> 00:36:38.280
+ Buy our coffee.
+
+00:36:38.280 --> 00:36:39.280
+ It's a terminal dot shop.
+
+00:36:39.280 --> 00:36:40.280
+ Yeah.
+
+00:36:40.280 --> 00:36:41.280
+ Send me a screenshot.
+
+00:36:41.280 --> 00:36:42.280
+ Yeah.
+
+00:36:42.280 --> 00:36:43.280
+ Send us a screenshot.
+
+00:36:43.280 --> 00:36:44.280
+ Oh, you want to see a screenshot?
+
+00:36:44.280 --> 00:36:45.280
+ I don't know.
+
+00:36:45.280 --> 00:36:46.280
+ I'll send you a screenshot.
+
+00:36:46.280 --> 00:36:47.280
+ Cool.
+
+00:36:47.280 --> 00:36:48.280
+ All right.
+
+00:36:48.280 --> 00:36:49.280
+ All right.
+
+00:36:49.280 --> 00:36:50.280
+ See ya.
+
+00:36:50.280 --> 00:36:51.280
+ See ya.
+
+00:36:51.280 --> 00:37:04.280
+ [music]
+

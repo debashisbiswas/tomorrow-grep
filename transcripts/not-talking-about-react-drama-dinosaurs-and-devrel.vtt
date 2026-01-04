@@ -1,0 +1,1670 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.320
+ Hey, we are two engineers we do science in one of the oldest professions the one the oldest professions what engineers
+
+00:00:30.000 --> 00:00:42.140
+ In Sandy, maybe use paying lol, you know the company you invested in that does exactly this. Yeah, I know I gotta set it up. I just have
+
+00:00:42.140 --> 00:00:56.920
+ All the best features are hidden because they're all like secret query parameters. Yeah, I just like don't I just haven't Oh, you don't even know what I don't know, you know, I'd set up in my OBS, but I
+
+00:00:56.920 --> 00:01:02.640
+ Uh, my for whatever reason my OBS settings and all my twitch stuff every time I come back to it nothing works
+
+00:01:02.640 --> 00:01:06.380
+ And it's like I have to start over. It's like my new event my new event is so busted right now
+
+00:01:06.380 --> 00:01:12.680
+ Like for the I don't know 12th time. I'm trying to get prettier and Astro to work in my new of them
+
+00:01:12.680 --> 00:01:19.660
+ It's insane how many times this breaks wait, but what are you changing? Are you changing? I'm not I'm not changing anything
+
+00:01:19.660 --> 00:01:25.160
+ I just want to say well, okay, I updated all the packages. I want to update it to Neil them 0.9
+
+00:01:26.000 --> 00:01:32.320
+ Yeah, why does everything break? I did have a little bit of issue is 0.9, but it wasn't that bad
+
+00:01:32.320 --> 00:01:34.960
+ Yeah, I just I did the thing this morning
+
+00:01:34.960 --> 00:01:36.520
+ I was like, okay an hour
+
+00:01:36.520 --> 00:01:41.280
+ I'm spending an hour just making things better because I had just been like plugging through it and like every time
+
+00:01:41.280 --> 00:01:47.440
+ I save a file I get two alerts and like whatever just dealing with it finally I I cleaned all that up
+
+00:01:47.440 --> 00:01:51.440
+ But I still don't have prettier working with Astro just the whole like prettier
+
+00:01:52.120 --> 00:01:57.420
+ TypeScript all the things getting them to work together node whatever all of it
+
+00:01:57.420 --> 00:02:04.520
+ Why is it so hard? Why do I spend so much of my brain cycles thinking about the stupidest stuff in the world like formatting?
+
+00:02:04.520 --> 00:02:11.680
+ Yeah, I know I think I I I have everything working, but I know my setup isn't correct. It was a good better setup
+
+00:02:11.680 --> 00:02:17.720
+ So I copied yours. So that's my problem. Mine works. And that's the reason I'm in touch. No mine doesn't
+
+00:02:17.840 --> 00:02:24.920
+ Can you please after this podcast or maybe right now? Could you please save an astro file dot astro file and see if prettier runs?
+
+00:02:24.920 --> 00:02:28.880
+ Oh, you know what? Yes, there was an issue with this. Yeah, there was an issue
+
+00:02:28.880 --> 00:02:34.440
+ And I did fix it and I can't remember how did you not push the change to your environment repo?
+
+00:02:34.440 --> 00:02:40.360
+ I gotta look I gotta look okay. Maybe you just have a local change that will we'll fix things for me
+
+00:02:40.360 --> 00:02:45.600
+ I hope so prettier is one of those things where I'm like people love rewriting everything and rust
+
+00:02:45.600 --> 00:02:50.880
+ So there's rewrite stuff and rust for no reason. Please rewrite prettier and rust. That's like actually useful
+
+00:02:50.880 --> 00:02:56.320
+ It's so slow. Is it someone doing that like the versatile team with turbo pack or something? I saw
+
+00:02:56.320 --> 00:03:00.720
+ Okay, well, there's there's like a few people always like me to stuff, but it's never
+
+00:03:00.720 --> 00:03:06.600
+ There was that Rome tools company that was that built that spent like five million dollars to build a
+
+00:03:06.600 --> 00:03:09.680
+ Formatter and Russ and then promptly died
+
+00:03:09.680 --> 00:03:15.320
+ That's kind of good. Yeah, I think I've seen like a few a handful of things
+
+00:03:15.320 --> 00:03:17.320
+ I don't know if Vercel is working on a
+
+00:03:17.320 --> 00:03:19.760
+ faster formatter I
+
+00:03:19.760 --> 00:03:26.320
+ Don't I didn't see it anywhere. I use prettier d I do it. I don't know that like I just wish it would all work
+
+00:03:26.320 --> 00:03:30.160
+ I just wish I never had to think about it again and every time I saved a file on my machine
+
+00:03:30.160 --> 00:03:37.480
+ It would format it with prettier like it always should that's another thing. I like I love astro, but I
+
+00:03:37.480 --> 00:03:43.800
+ Hate the fact that there's like a whole set of new tooling required and that just means
+
+00:03:43.800 --> 00:03:47.960
+ I've had a lot of issues with the LSP and with everything else. Yeah. Yeah, it's like one
+
+00:03:47.960 --> 00:03:53.800
+ It's like you introduce one new change, but then it interacts with all the other tools like one-to-one
+
+00:03:53.800 --> 00:03:56.960
+ So you have like just way more points that can break
+
+00:03:56.960 --> 00:04:00.600
+ I appreciate some of the astro file stuff
+
+00:04:00.600 --> 00:04:06.640
+ But to be honest, I would be I would have been okay with just like writing a normal JavaScript file and like declaring
+
+00:04:06.640 --> 00:04:11.400
+ All the stuff at the top and exporting you're saying declaring all the markup
+
+00:04:11.800 --> 00:04:14.760
+ Like in a just like JSX well, I don't know
+
+00:04:14.760 --> 00:04:20.680
+ I feel like you can get a similar experience without having to have created a new file format that astro
+
+00:04:20.680 --> 00:04:26.760
+ Yeah, yeah, it wouldn't be as like slick, but then don't you have the issue then of like
+
+00:04:26.760 --> 00:04:33.960
+ So if it's a JS file with HTML in it, then you still have the issue of a custom LSP, right?
+
+00:04:33.960 --> 00:04:38.880
+ Or now it wouldn't be any different than like a react file or like so it would be just JSX
+
+00:04:38.880 --> 00:04:41.680
+ Yeah, just JSX and I could just use exports
+
+00:04:41.680 --> 00:04:46.160
+ To control what's what yeah, I mean astro does feel a lot like JSX
+
+00:04:46.160 --> 00:04:52.560
+ Like they took a lot of same syntax stuff like for templating and all that stuff embedding stuff in there
+
+00:04:52.560 --> 00:04:59.240
+ I think it literally is just JSX right. Oh, is it? I thought no, it's HTML. It's not like class name. It's class. It's like
+
+00:04:59.240 --> 00:05:04.600
+ actual HTML attributes the class that what you're describing there is a
+
+00:05:05.360 --> 00:05:12.940
+ It's like a react specific thing cuz it's solid. Oh, that's not a JSX thing. No like JSX. I don't know exactly how is it fine, but
+
+00:05:12.940 --> 00:05:19.240
+ like solids JSX flavor looks different and then reacts and
+
+00:05:19.240 --> 00:05:24.560
+ JSX and the JSX part is of like let like allowing you like make JavaScript and
+
+00:05:24.560 --> 00:05:32.240
+ Like those XML type tags. I think it's like just that and you can have whatever tags you want whatever attributes on those tags you want
+
+00:05:32.240 --> 00:05:34.880
+ I actually just used
+
+00:05:36.360 --> 00:05:40.380
+ JSX on the back end without react. I needed to render
+
+00:05:40.380 --> 00:05:48.800
+ render a PDF so I was like let me just render let me just return some HTML and I can turn that into a PDF and
+
+00:05:48.800 --> 00:05:51.080
+ I
+
+00:05:51.080 --> 00:05:53.080
+ didn't want to learn any of these
+
+00:05:53.080 --> 00:05:59.120
+ HTML templating languages like you know all those ones that are from like what no like like I don't even know like
+
+00:05:59.120 --> 00:06:03.280
+ Pugs or like mustache or like you know all those random. Oh, yeah, yeah, yeah
+
+00:06:03.640 --> 00:06:11.200
+ Because I just need to generate some HTML in the bag and my HTML is more complex than I get can just use like a string
+
+00:06:11.200 --> 00:06:16.100
+ It's like more complex than I have loops and all that stuff. It's like I like JSX. It makes sense
+
+00:06:16.100 --> 00:06:19.200
+ So I found a library. I think it's called VHML
+
+00:06:19.200 --> 00:06:25.300
+ You know how when JSX gets compiled just gets compiled a bunch of function calls that like create the elements
+
+00:06:25.300 --> 00:06:30.600
+ And you can swap out that function call so by default they'll go to react
+
+00:06:30.600 --> 00:06:35.560
+ But you can swap it out with a very simple implementation that just takes a tag and turns into a string
+
+00:06:35.560 --> 00:06:38.880
+ So if I was gonna call VHML, and I was like returning
+
+00:06:38.880 --> 00:06:42.520
+ JSX from a lambda function and that just got
+
+00:06:42.520 --> 00:06:46.040
+ That one of my parts of client as a as HTML
+
+00:06:46.040 --> 00:06:49.640
+ It was great actually cuz I don't need state or any of the complex stuff
+
+00:06:49.640 --> 00:06:56.860
+ I just needed to like render static HTML dynamically. So is that I mean, doesn't that RSC's we should talk about all that stuff, right?
+
+00:06:56.860 --> 00:06:59.360
+ I mean, just the current react
+
+00:07:00.600 --> 00:07:03.440
+ Do we have to maybe we don't have to maybe we could just this could be it
+
+00:07:03.440 --> 00:07:08.800
+ We just we said we should talk about then we talk about something else and then we put it in the title like react to drama
+
+00:07:08.800 --> 00:07:14.000
+ Let's talk about why we're not talking about it. Oh, well why I don't want to talk about it
+
+00:07:14.000 --> 00:07:18.840
+ All right. Oh, okay, can you also remind me can you remind me later that we need to talk about HTML?
+
+00:07:18.840 --> 00:07:22.840
+ I just want to know your thoughts on HTML X if you ever used it, and why they're so good it means. Okay, go ahead
+
+00:07:22.840 --> 00:07:29.360
+ They're just more drama slash whatever with next JS and the migration to
+
+00:07:30.440 --> 00:07:35.680
+ App router and all this stuff. I don't care to talk about it because it's just so boring. It's just like I
+
+00:07:35.680 --> 00:07:38.960
+ Was ranting about this yesterday
+
+00:07:38.960 --> 00:07:45.320
+ I was like this is such a boring topic and it is the only topic that ever comes up
+
+00:07:45.320 --> 00:07:49.720
+ We're just always talking about next JS. We're always pretending to care about it
+
+00:07:49.720 --> 00:07:53.560
+ We're always like micro analyzing every little thing everything goes right
+
+00:07:53.560 --> 00:08:00.480
+ Does it bother you because you you think like a marketer and you think like they're not doing the the cool new ways of marketing
+
+00:08:00.480 --> 00:08:03.400
+ They keep getting all the buzz people keep talking about their thing
+
+00:08:03.400 --> 00:08:10.640
+ When they're not even progressive and like doing all the cool marketing stuff. I haven't even had like a metaphor like that
+
+00:08:10.640 --> 00:08:13.720
+ I just took a basic reaction of like this is just boring like this is just
+
+00:08:13.720 --> 00:08:20.600
+ It's just like your front end like you just it's just like the tiniest most irrelevant part of your staggy like you're gonna serve a run
+
+00:08:23.560 --> 00:08:30.500
+ I just don't count how much can we talk about how much can we dissect and like analyze this and think about it's just
+
+00:08:30.500 --> 00:08:32.920
+ it's way too much and I
+
+00:08:32.920 --> 00:08:39.840
+ Just don't care. I just do not do not care. I'm tired of pretending to care. I've never used next JS
+
+00:08:39.840 --> 00:08:45.600
+ I'm not going to use next JS. I never will use next year. Do you are you pretending to care?
+
+00:08:45.600 --> 00:08:50.680
+ I have not seen you pretend to care. You mostly don't care and you're very vocal about that, right?
+
+00:08:50.680 --> 00:08:56.560
+ I need to understand what's happening so I can have the right context for coming. We support next JS
+
+00:08:56.560 --> 00:08:59.840
+ We need to understand what's going on. Yeah, for my strategy around it
+
+00:08:59.840 --> 00:09:03.840
+ But it's just like who it's just why
+
+00:09:03.840 --> 00:09:10.600
+ Why is it talking about it's for most people. It's like a very small portion of their stack
+
+00:09:10.600 --> 00:09:15.200
+ Yeah, for a small amount of people. What's their whole stack? It's their whole stack. Yeah, sure
+
+00:09:15.200 --> 00:09:22.080
+ There's and the biggest users of next JS, which are like these e-commerce sites agencies that like build e-commerce sites
+
+00:09:22.080 --> 00:09:28.880
+ There's not even on Twitter. So I'm just like why why why are we just talking about over and over? Yeah, I don't know
+
+00:09:28.880 --> 00:09:31.440
+ What this one the specific
+
+00:09:31.440 --> 00:09:34.120
+ topic like the more granular
+
+00:09:34.120 --> 00:09:40.840
+ Is that it's not stable because it react it's a canary release etc etc. That's a worse part
+
+00:09:40.840 --> 00:09:48.000
+ It's like they're so little to talk about this topic the only thing that we can devolve into is like a conversation about semantics
+
+00:09:48.000 --> 00:09:54.200
+ Like what does stable mean? Does it mean this? Yeah, it technically means this but I feel like it means this and it's just like
+
+00:09:54.200 --> 00:09:57.240
+ That's the conversation and to me it's summarized very simply
+
+00:09:57.240 --> 00:09:59.840
+ I don't give a shit about a technicality words
+
+00:09:59.840 --> 00:10:03.120
+ People are having a tough time moving to app router
+
+00:10:03.120 --> 00:10:09.560
+ There's a wide range of reasons for that you can talk and think your way out of that or like why they're technically wrong
+
+00:10:09.560 --> 00:10:13.240
+ It just doesn't matter because there are some percentage of people that are having a tough time
+
+00:10:13.240 --> 00:10:15.520
+ That's really all there is to this
+
+00:10:15.520 --> 00:10:18.320
+ And I don't really think there's any more I have too many things
+
+00:10:18.320 --> 00:10:20.280
+ I want to say in response to that and it hurts
+
+00:10:20.280 --> 00:10:26.600
+ I hate this situation on a podcast where there's like four things I want to talk to you about and I gotta like order them
+
+00:10:26.600 --> 00:10:29.680
+ Or can I just list them on you pick? I'm gonna list them on you pick
+
+00:10:29.680 --> 00:10:37.040
+ Okay, well, I already said a shimex that's not in response to that but do you here's one of the topics
+
+00:10:37.040 --> 00:10:41.040
+ Do you think we'll ever run out of this is just a question do you think we'll ever run out of things to talk about like
+
+00:10:41.040 --> 00:10:43.040
+ Will there ever be a moment where like?
+
+00:10:43.040 --> 00:10:48.880
+ There's nothing to talk about not on this podcast like on tech Twitter or just like in the tech community
+
+00:10:48.880 --> 00:10:52.800
+ So that's one thing the other thing was I don't know react
+
+00:10:52.800 --> 00:10:56.280
+ So do you think there's ways they could have like leaned more into being good for spas
+
+00:10:56.280 --> 00:10:59.520
+ Which is what most people use react for or everybody uses react for?
+
+00:10:59.520 --> 00:11:06.240
+ Like was there any more like low-hanging fruit or like progress to be made there or is that why they're going to the server?
+
+00:11:06.240 --> 00:11:08.240
+ Because they ran out of stuff to do. That's another question
+
+00:11:08.240 --> 00:11:12.120
+ Third thing I want to talk about dinosaurs and I know that sounds super random
+
+00:11:12.120 --> 00:11:18.040
+ But I yesterday was blown away by this thought that how do we know what dinosaurs look like?
+
+00:11:18.040 --> 00:11:24.920
+ We don't because look at an animal skeleton. It looks nothing like the animal like nothing like all the dinosaurs are all thin and
+
+00:11:24.920 --> 00:11:30.800
+ Ripped and like the just muscle and skin but like look at an elephant you would never guess an elephant look that way
+
+00:11:30.800 --> 00:11:34.520
+ So sorry, I just I went into the whole top. I have a lot of thoughts on that one. I'm excited for that one
+
+00:11:34.520 --> 00:11:39.920
+ Okay, yeah, yeah, so that was so pick you any of those really that was three no HCMX was another one
+
+00:11:39.920 --> 00:11:43.220
+ Okay, so I'll start with the first one which what I already forgot
+
+00:11:43.220 --> 00:11:53.520
+ There's like a couple react things that are super boring and who cares do we want to even talk about reacting more?
+
+00:11:53.520 --> 00:11:56.440
+ Let's get to the let's get to those real quick. Well, okay, I don't I don't remember
+
+00:11:56.440 --> 00:11:58.440
+ the first one was
+
+00:11:58.440 --> 00:12:02.480
+ Oh, do you think we're running things to talk about are there ever slow newsdays on tech Twitter?
+
+00:12:02.480 --> 00:12:04.880
+ Go ahead definitely death. I was thinking about that. I was showering this morning
+
+00:12:04.880 --> 00:12:06.880
+ I was like I was again just thinking
+
+00:12:06.880 --> 00:12:14.880
+ Actually, I'm like to be honest I myself haven't said anything that interesting in a while
+
+00:12:14.880 --> 00:12:17.640
+ I haven't really seen anyone else saying anything that interesting in a while
+
+00:12:17.640 --> 00:12:23.000
+ I feel like we're in a slump right now, and it's I was stuck on like the stupid tail when thing is coming up yet again
+
+00:12:23.000 --> 00:12:27.160
+ I think the week before that was something about his program
+
+00:12:27.160 --> 00:12:31.800
+ I actually miss a whole this whole thing is programming fun thing. It's just like the same stupid top
+
+00:12:31.800 --> 00:12:38.440
+ It's falling up. Yeah, so I think we are actually in a slump. There's nothing new or interesting so I was like what so milk
+
+00:12:38.440 --> 00:12:43.240
+ So that's I mean, there's a little bulk apparently. It's a no-coversation. Yeah, yeah
+
+00:12:43.240 --> 00:12:47.440
+ So I do work so bored. Yes, we I think we are very bored right now
+
+00:12:47.440 --> 00:12:52.760
+ And can I just say that I feel like like the older I get the more bored I get with like
+
+00:12:52.760 --> 00:12:59.480
+ All of it, and I wonder how much of like the tech discourse on Twitter is people who've been doing this a long time
+
+00:12:59.480 --> 00:13:05.120
+ I don't maybe not but are we all just collectively getting more bored over time is that like the galaxy's moving further away?
+
+00:13:05.120 --> 00:13:11.680
+ Eventually, we'll all just be so bored. We're not even on Twitter. I've maybe like there's like maybe there's just a certain
+
+00:13:11.680 --> 00:13:17.200
+ Because these topics keep coming up and eventually when you first enter this space
+
+00:13:17.200 --> 00:13:20.480
+ It's like 80% of the stuff you see is new and I feel like over time
+
+00:13:20.480 --> 00:13:27.160
+ It's just like you know less and less of that is new and like 10% when you see is new and I definitely feel that right now
+
+00:13:27.160 --> 00:13:32.440
+ I'm just like this conversation again. I can almost like guess all the replies and guess all the things at this point
+
+00:13:32.440 --> 00:13:35.240
+ The first thing the second thing
+
+00:13:35.240 --> 00:13:40.600
+ Are they bored of react or they just don't react speeds? That's actually I never thought about that
+
+00:13:40.600 --> 00:13:45.800
+ Maybe maybe like yeah react SPA has been fine for a while now
+
+00:13:45.800 --> 00:13:50.500
+ In terms of the their current model. I don't know what else is needed
+
+00:13:50.500 --> 00:13:56.720
+ So yeah, maybe they just got bored and they're like, okay, we're gonna move to the server now. Yeah, I mean, it's like
+
+00:13:57.160 --> 00:14:02.340
+ I don't know. It feels like they didn't have to do this. Why did they make the decision to like
+
+00:14:02.340 --> 00:14:07.520
+ Completely shift gears and really cater to like whole different use cases
+
+00:14:07.520 --> 00:14:09.760
+ With this move to the server stuff
+
+00:14:09.760 --> 00:14:16.480
+ I don't know like why why go through all that pain if they're not really just like either really convicted or really bored
+
+00:14:16.480 --> 00:14:22.000
+ That's my that's my prediction. Maybe we can just blame Alex Russell. You know what I'm talking about. Yeah, I know
+
+00:14:22.000 --> 00:14:25.000
+ Microsoft yeah, yeah, because he
+
+00:14:25.460 --> 00:14:28.660
+ Forever had just been angrily shouting about how
+
+00:14:28.660 --> 00:14:33.920
+ Every all these people use SPH inappropriately, which is yeah your thing
+
+00:14:33.920 --> 00:14:41.520
+ And he's like he'll always roast the react team over and over about it. It's just like hammer them like insults
+
+00:14:41.520 --> 00:14:48.220
+ Yeah, and maybe it worked. Maybe the react team was like, you know what they finally yeah, and now they're like okay, that's with SSR. I'm just like
+
+00:14:48.220 --> 00:14:54.000
+ All right, you guys do your thing. I don't know. It just it feels the detach from anything I care about
+
+00:14:54.000 --> 00:14:58.840
+ Which is what makes it even worse like I don't like it's not even that I
+
+00:14:58.840 --> 00:15:04.720
+ Don't like is boring, but I have to use it like I don't have to use it and I find it boring
+
+00:15:04.720 --> 00:15:12.240
+ Double whammy. Yeah, can you tell me about HTML X because when you talk about like a simple templating whatever whatever it sounds like
+
+00:15:12.240 --> 00:15:15.960
+ Is that kind of an HTML X or they make it more simple to do minimal JavaScript?
+
+00:15:15.960 --> 00:15:20.600
+ What is HTML X teach told me I forgot I think they make it simpler to do minimal JavaScript
+
+00:15:20.600 --> 00:15:25.920
+ I haven't used it in anything so I can't really talk about too much, but it does remind me of how I used to build
+
+00:15:25.920 --> 00:15:28.640
+ I can't remember what it was, but I
+
+00:15:28.640 --> 00:15:35.120
+ Definitely remember back in the day. I would build stuff in a way where
+
+00:15:35.120 --> 00:15:40.920
+ Like an asynchronous request would go from the front end the back end return like a partial
+
+00:15:40.920 --> 00:15:45.440
+ Like a partial HTML and then the front end swap out a node
+
+00:15:45.440 --> 00:15:49.240
+ Yeah, some note on the screen with it. I remember doing that pattern
+
+00:15:49.720 --> 00:15:57.960
+ Same and I think and maybe I made from a ASP days or what yeah, Ajax. Yeah, so I think HMX is just like a
+
+00:15:57.960 --> 00:16:05.600
+ Modern better take on that and my formalizing some of those patterns and it looks it looks pretty cool again
+
+00:16:05.600 --> 00:16:07.600
+ I just never built anything that
+
+00:16:07.600 --> 00:16:12.360
+ That makes sense for yeah, sure. They're really good at Twitter. They're so good. He's so fun
+
+00:16:12.360 --> 00:16:16.640
+ Yeah, it's because the guy is the Grug the Grug guy Grug guy. I don't know you say it
+
+00:16:16.640 --> 00:16:20.320
+ I've only read it okay. Have you ever seen that website? That's like
+
+00:16:20.320 --> 00:16:26.520
+ It's like a comedy website, but he makes like interesting points about software engineering where like he acts out one person
+
+00:16:26.520 --> 00:16:33.080
+ That's a caveman. Yeah, that's that guy. I think cuz a Twitter handle is this is his grub something
+
+00:16:33.080 --> 00:16:36.600
+ I don't really so I think it's I think that's that guy and that guy's like so funny
+
+00:16:36.600 --> 00:16:39.800
+ I mean those those things are oh, yeah, that's great communicate. I'd usually well
+
+00:16:39.800 --> 00:16:45.640
+ So I think that that's why okay, so the Mount Rushmore of developer marketing
+
+00:16:46.000 --> 00:16:53.880
+ We've got HMX definitely we've got drizzle drizzle we've got SST who's that fourth? Who's the fourth?
+
+00:16:53.880 --> 00:17:00.240
+ Now rush more I think fly might and make might make it up there cuz there. Oh, that was a good blog post
+
+00:17:00.240 --> 00:17:03.200
+ I saw that yeah, cuz I posted it the other day and
+
+00:17:03.200 --> 00:17:11.200
+ It was a fundraising announcement every company does the same boring announcement of like we raised 20 million dollars from
+
+00:17:11.640 --> 00:17:16.960
+ Andreessen Horowitz and we're excited to use this in a very unique way to hire people and build features
+
+00:17:16.960 --> 00:17:20.520
+ It's just like the most boring generic thing ever and I'm sure the SST
+
+00:17:20.520 --> 00:17:23.520
+ Announcement for our seat was probably very similar
+
+00:17:23.520 --> 00:17:29.000
+ The fly one was so funny. It was like so like funny and self-aware of how like boring these usual are and they were like
+
+00:17:29.000 --> 00:17:35.440
+ They actually communicated interesting stuff well, but like everywhere line was like a joke and it was funny. It was great. So
+
+00:17:35.440 --> 00:17:41.160
+ Yeah, they did a fantastic job with that post well link the blog post will link it in our show notes
+
+00:17:41.160 --> 00:17:45.160
+ I can say things like that now and Chris will just do it. It's awesome. Nice. Yeah
+
+00:17:45.160 --> 00:17:53.400
+ So I think I think they go up that means very it's not like they're not like as weird as drizzle or ancient mixes
+
+00:17:53.400 --> 00:17:59.240
+ But I will say I have never read a fun one. I don't read like I hate reading articles. I just skim
+
+00:17:59.240 --> 00:18:04.600
+ So what kind of articles that often to hell? No, I'm not reading a fundraising article
+
+00:18:04.600 --> 00:18:06.920
+ But somehow I read like every single line of this
+
+00:18:07.480 --> 00:18:13.680
+ This fundraising article and it was it was great. It was really interesting and it's also like I had I think just
+
+00:18:13.680 --> 00:18:18.440
+ Lumped fly as like it's containers. So I don't think about it or care or know anything about it
+
+00:18:18.440 --> 00:18:23.920
+ It was interesting to read through some of that and think about the different like angles of they talk about edge
+
+00:18:23.920 --> 00:18:31.240
+ They talk about this stuff that they're very self-aware themselves in the industry. There's definitely some cool stuff that you can build under that model
+
+00:18:32.200 --> 00:18:37.960
+ Like we were thinking about doing so because ssc as a product seed which is a ci tool and a thing
+
+00:18:37.960 --> 00:18:42.840
+ I hate about every single ci tool is we've made them totally stateless. So there's always like
+
+00:18:42.840 --> 00:18:47.800
+ Set stuff you want to cash and there's a good restore cash set up and that's supposed to make it faster
+
+00:18:47.800 --> 00:18:54.440
+ But then that's like download the cash blah blah. I miss the good old days of having just a stateful ci machine that would just
+
+00:18:54.440 --> 00:18:59.400
+ Like sync the code and like it once it built and it was done
+
+00:18:59.400 --> 00:19:02.680
+ It was a resume from there the next time you got you did it push everything would just be fast
+
+00:19:02.680 --> 00:19:08.120
+ Building a ci tool on fly would be great. You just give every project a container
+
+00:19:08.120 --> 00:19:13.800
+ It spins up or zooms from where it was spins down if there's some issue with like state corrupting things
+
+00:19:13.800 --> 00:19:18.360
+ You can blow it away whatever so yeah, there are some cool things you can build I kind of see them as like
+
+00:19:18.360 --> 00:19:20.840
+ They're like the cloud further approaching
+
+00:19:20.840 --> 00:19:26.360
+ Like the cloud flare but for like the container model, which yeah, we'll be practicing
+
+00:19:26.520 --> 00:19:32.360
+ I didn't know they were on their own hardware. That's you have to be yeah, yeah, that's the thing that I
+
+00:19:32.360 --> 00:19:34.120
+ one of the things that I think is a lot of these
+
+00:19:34.120 --> 00:19:37.320
+ companies in their category
+
+00:19:37.320 --> 00:19:39.160
+ basically
+
+00:19:39.160 --> 00:19:43.960
+ Simplified cloud. I mean they're fed to the simplified cloud. Yeah, a lot of them
+
+00:19:43.960 --> 00:19:49.880
+ Most of them don't own their own hardware. Most of them are selling. Yeah. Yeah, sure well versatile is at least serverless
+
+00:19:49.880 --> 00:19:53.160
+ So it's a little bit different but the ones that are more container based
+
+00:19:53.800 --> 00:19:57.480
+ Like railway or like render they're built on top of AWS or gcp whatever it is
+
+00:19:57.480 --> 00:20:02.520
+ I don't think those business are viable period because I just don't think the margins are there to
+
+00:20:02.520 --> 00:20:07.560
+ Do that. Well, and they actually in the flies blog post they very clearly spelled that out where like yeah
+
+00:20:07.560 --> 00:20:11.960
+ We have done our own our own hardware. Otherwise this whole thing like the margins doesn't make sense
+
+00:20:11.960 --> 00:20:16.280
+ Yeah, so it was cool to see that that validated and I think they're the only ones that are really going to succeed
+
+00:20:16.280 --> 00:20:18.760
+ With that move for that reason
+
+00:20:18.760 --> 00:20:23.240
+ Okay, so can you uh, that's everything but the dinosaurs. Can we tell you what the dinosaurs real quick? Yes, okay
+
+00:20:23.240 --> 00:20:28.920
+ So I love this topic because have you seen uh, the artist's renditions of like rhinos? Yes
+
+00:20:28.920 --> 00:20:31.960
+ Is that my wife showed it to me yesterday? Yeah, yes
+
+00:20:31.960 --> 00:20:36.360
+ That's what this conversation came from. Yeah, just for so people have context
+
+00:20:36.360 --> 00:20:39.880
+ Someone did an exercise where they showed artists
+
+00:20:39.880 --> 00:20:47.560
+ Skeletons of like animals that are alive today like hippos and stuff and these animals have really crazy skeletons
+
+00:20:47.560 --> 00:20:52.120
+ And they the artists guessed what the animal looked like and they drew all these crazy
+
+00:20:52.840 --> 00:20:57.000
+ Sci-fi looking things that looked way cooler than the actual animal is
+
+00:20:57.000 --> 00:20:58.760
+ Yeah
+
+00:20:58.760 --> 00:21:03.320
+ And and yeah, it kind of goes to illustrate how difficult it is to infer too much just from the bones
+
+00:21:03.320 --> 00:21:08.840
+ Yeah, like you take an elephant skull. You would have no idea has these giant ears and this giant trunk
+
+00:21:08.840 --> 00:21:14.680
+ Yeah, like it just they have the tusks, but they end up when they draw these types of things. It looks like a dinosaur
+
+00:21:14.680 --> 00:21:17.560
+ It's like all gaunt and like freaky looking
+
+00:21:18.360 --> 00:21:23.560
+ Yeah, so the but the one thing I will say is uh, so have you seen have you guys watched?
+
+00:21:23.560 --> 00:21:27.160
+ prehistoric planet yet
+
+00:21:27.160 --> 00:21:32.760
+ Uh, oh the second yes, we saw the first one. We didn't know all the dinosaurs are chubby now
+
+00:21:32.760 --> 00:21:37.960
+ Oh, they already started like incorporating this idea into
+
+00:21:37.960 --> 00:21:43.480
+ Yeah, because if you think about the thing you were saying earlier like they're all like skeletal and like ripped
+
+00:21:43.480 --> 00:21:47.720
+ Uh-huh and that's a dinosaur. I remember from being a kid like the models
+
+00:21:47.720 --> 00:21:52.360
+ I had or like Jurassic Park. Yeah stuff. They don't look cool anymore. They all look kind of chubby
+
+00:21:52.360 --> 00:21:56.040
+ Like a hippo. You look at a hippo skull. You would never guess
+
+00:21:56.040 --> 00:21:58.040
+ Yeah, how giant a hippo is
+
+00:21:58.040 --> 00:22:02.600
+ So I do think they're working with more than the bone because if I remember the way the fossils work
+
+00:22:02.600 --> 00:22:06.840
+ Fossils aren't literally the bone. They're like the imprint of the brain
+
+00:22:06.840 --> 00:22:10.760
+ So I think the imprint might also sometimes contain like
+
+00:22:10.760 --> 00:22:13.240
+ the full shape of
+
+00:22:13.240 --> 00:22:18.920
+ Their creature at least like the out or like to some degree potentially I thought I read that it's like the skin and all the tissue
+
+00:22:18.920 --> 00:22:23.560
+ Would shrivel really fast to the bones. So any fossils. Well, it's kind of like a footprint, right?
+
+00:22:23.560 --> 00:22:28.280
+ Like we have footprint fossils. Oh, that's true. The footprint wouldn't be just the bone. It would be
+
+00:22:28.280 --> 00:22:34.120
+ The full shape. Okay, so we do we do actually in some cases know the outline of some of these dinosaurs
+
+00:22:34.120 --> 00:22:39.240
+ Yeah, but I do agree that there's so it's so hard to infer some of these things like colors
+
+00:22:39.240 --> 00:22:42.760
+ Yeah, even that prehistoric planet thing most of what they do is
+
+00:22:42.760 --> 00:22:49.080
+ Look at the hints they have and try to map it to behaviors that exist in almost today
+
+00:22:49.080 --> 00:22:51.160
+ And they're like, okay, it's probably some more behavior
+
+00:22:51.160 --> 00:22:57.320
+ Thing with the t-rex arms yet. No, I don't like that. It was we haven't finished first episode. Okay. It was a
+
+00:22:57.320 --> 00:23:01.240
+ It's like the most ridiculous part of it because the whole thing is
+
+00:23:01.240 --> 00:23:06.040
+ We've always asked like why do t-rex have these tiny stupid stupid arms
+
+00:23:07.720 --> 00:23:14.280
+ And it's like especially in uh in that show they really show how small and stupid they're because dangerous like kind of fat and chubby
+
+00:23:14.280 --> 00:23:16.840
+ And it's got these like useless little things that are just hanging off of it
+
+00:23:16.840 --> 00:23:19.560
+ So there
+
+00:23:19.560 --> 00:23:23.800
+ They haven't seen where these two t-rexes go up to each other ones male one female
+
+00:23:23.800 --> 00:23:28.520
+ And the male just like leans his head up and looks up all the way up
+
+00:23:28.520 --> 00:23:33.080
+ And then opens his arms and starts flapping them like the stupidest way ever
+
+00:23:33.080 --> 00:23:37.160
+ And the and the inside of the arms are uh are like highly colored
+
+00:23:37.800 --> 00:23:41.800
+ Uh, so it's some kind of like mating thing and like it like there's some creature
+
+00:23:41.800 --> 00:23:47.560
+ Some like creature that is alive today that mates in that in that way, but it looks so stupid
+
+00:23:47.560 --> 00:23:53.240
+ Like this cannot this cannot be what the explanation is, but you know, it might be who knows who knows
+
+00:23:53.240 --> 00:23:56.840
+ What's crazy is it like a hundred years ago or maybe it was a little longer
+
+00:23:56.840 --> 00:24:00.200
+ But it wasn't that long ago people didn't even know dinosaurs existed like
+
+00:24:00.200 --> 00:24:05.960
+ There've not been that many generations aware of the dinosaur bones. Have you seen that when was it the first
+
+00:24:06.680 --> 00:24:09.400
+ Dinosaur bone discovered it was like a hundred years ago, wasn't it?
+
+00:24:09.400 --> 00:24:14.360
+ I don't know exactly, but I know our depictions of dinosaurs before
+
+00:24:14.360 --> 00:24:20.360
+ Made them look really stupid like they were like really slow moving or like they were like kind of too upright
+
+00:24:20.360 --> 00:24:20.760
+ All right
+
+00:24:20.760 --> 00:24:26.760
+ I remember like the way we shaped them, but I don't think the first dinosaur bones discovered that because i'm pretty sure that
+
+00:24:26.760 --> 00:24:34.360
+ There's 1677 in europe actually further uh further ago than I realized if you're reading eurocentric history, maybe
+
+00:24:35.080 --> 00:24:39.480
+ Where do you think dragons came from? Yeah, where did dragons come from? Oh, did they come from dinosaurs?
+
+00:24:39.480 --> 00:24:42.360
+ Maybe I just made this entirely up, but isn't it that they just found
+
+00:24:42.360 --> 00:24:44.600
+ skulls
+
+00:24:44.600 --> 00:24:46.280
+ and
+
+00:24:46.280 --> 00:24:51.480
+ They were like oh, so they found dinosaur skulls. They just didn't
+
+00:24:51.480 --> 00:24:56.920
+ Published them in articles. That's my I don't know. That's my bad guy. There's made this entirely interesting
+
+00:24:56.920 --> 00:25:02.360
+ I mean there is a lot of overlap between a dragon and a dinosaur. They don't exist today
+
+00:25:03.320 --> 00:25:08.280
+ And what's the other overlap? I don't know. They're reptiles. I don't know. Okay, there's a lot of overlap
+
+00:25:08.280 --> 00:25:10.680
+ I don't know what it is, but there's a bunch. Yeah
+
+00:25:10.680 --> 00:25:17.640
+ This funny thing, which is always like I always forget dragons. Yeah, it's like to her like the back of her head
+
+00:25:17.640 --> 00:25:22.440
+ They're just some like exact animal. She's like wait. No, they're like not real unicorns. I don't have that problem
+
+00:25:22.440 --> 00:25:27.000
+ Unicorn is so stupid like I feel like
+
+00:25:27.000 --> 00:25:30.600
+ They didn't do enough to make it a mythical horse. Yeah
+
+00:25:32.120 --> 00:25:34.120
+ I mean the rainbow. That's not that exciting
+
+00:25:34.120 --> 00:25:37.960
+ Colorful and sparkly nature of a unicorn
+
+00:25:37.960 --> 00:25:41.240
+ Did I make that up? Is that like a specific unicorn?
+
+00:25:41.240 --> 00:25:43.960
+ Are you just grabbing the background?
+
+00:25:43.960 --> 00:25:48.760
+ Colorful, I guess what would be colorful? They're they're their tails a horn color
+
+00:25:48.760 --> 00:25:53.080
+ They're like mains and their tails a rainbow colored aren't they? Maybe I don't know
+
+00:25:53.080 --> 00:25:57.800
+ I'm just thinking about like a harry potter unicorn, which is just like a horse with the horn on it
+
+00:25:57.800 --> 00:26:01.960
+ I think it also has blood that can keep you alive forever. So that's right
+
+00:26:02.120 --> 00:26:07.400
+ When you said that, I didn't know what you're talking about in harry potter until until the blood thing what's keeping them. Yeah, I remember that
+
+00:26:07.400 --> 00:26:11.720
+ My mom says this funny thing about dinosaur is where it's like too ridiculous to her
+
+00:26:11.720 --> 00:26:16.200
+ Like it's such a good weird concept that they exist so that she just can't even believe they're real
+
+00:26:16.200 --> 00:26:23.080
+ Like she knows they're real but like her mind just rejects the notion of it being real and I kind of get it like what?
+
+00:26:23.080 --> 00:26:25.560
+ Like there's one. Yeah, it is bizarre
+
+00:26:25.560 --> 00:26:30.360
+ And it does like we've done some studies or something right to like make sure that things don't just grow
+
+00:26:30.920 --> 00:26:35.640
+ Over a long period of time like bones in the ground. They don't just like swell
+
+00:26:35.640 --> 00:26:38.440
+ Like these things
+
+00:26:38.440 --> 00:26:40.760
+ Yeah, yeah, well things used to be so big
+
+00:26:40.760 --> 00:26:44.040
+ Everything that's what I'm saying. That's what I'm saying. That's what I'm saying. That's what I'm saying
+
+00:26:44.040 --> 00:26:47.720
+ One interpretation is that things used to always be so big but other interpretation is
+
+00:26:47.720 --> 00:26:50.600
+ Things were little and they swell over time
+
+00:26:50.600 --> 00:26:56.920
+ Like seems like a possible, I don't know avenue of scientific research. Yeah, it's I
+
+00:26:57.720 --> 00:27:02.840
+ My like feeling around it is like nature we're just trying. They're like we're gonna try to make stuff really big and then nature was like
+
+00:27:02.840 --> 00:27:06.920
+ Doesn't work together. Yeah, let's try
+
+00:27:06.920 --> 00:27:10.440
+ Everything gets smaller better over time
+
+00:27:10.440 --> 00:27:14.920
+ So we're gonna accomplish the same thing and more when this in a smaller smaller size
+
+00:27:14.920 --> 00:27:19.160
+ I mean, I think I have looked this up in their theories at least with the bugs thing that there is more
+
+00:27:19.160 --> 00:27:23.720
+ Oxygen like the oxygen in the air like more oxygen and causing some grow bigger
+
+00:27:24.440 --> 00:27:29.560
+ But I do think but that doesn't really explain like stuff like dinosaurs being big
+
+00:27:29.560 --> 00:27:33.720
+ I just think it was a go random thing. It was just like randomly stuff was just getting bigger for no
+
+00:27:33.720 --> 00:27:41.560
+ Really random just because it could I mean as long as it can survive like it can just like why not stuff just gets bigger and
+
+00:27:41.560 --> 00:27:48.280
+ Bigger you are the scarier you are. I guess I just assumed there are like dinosaurs on other planets too like
+
+00:27:48.280 --> 00:27:53.720
+ I don't know. I've just I've taken a very earth centered view of the universe and I've decided
+
+00:27:54.040 --> 00:28:00.040
+ This is the path life starts a little tiny bacteria turns into dinosaurs and then really smart monkeys
+
+00:28:00.040 --> 00:28:05.080
+ All planets all over that's what's happening. Oh, you're convinced that's a case. Yeah. Yeah
+
+00:28:05.080 --> 00:28:08.200
+ No, I don't know
+
+00:28:08.200 --> 00:28:12.200
+ Well, the thing that I think about is that uh
+
+00:28:12.200 --> 00:28:18.440
+ As one of those Fermi paradox things that it's so natural. Wait. What was it? You just said it so fast Fermi
+
+00:28:18.440 --> 00:28:23.240
+ Fermi paradox could you explain what that is for all of us who don't know paradoxes and principles
+
+00:28:23.320 --> 00:28:28.520
+ It's like given the size and age of the universe. Why isn't it like overflowing with life like probability?
+
+00:28:28.520 --> 00:28:33.000
+ Why is it should be yeah, but why isn't it? So there's like all these theories and one theory is that
+
+00:28:33.000 --> 00:28:37.480
+ On earth, it's so natural for us to think of it as
+
+00:28:37.480 --> 00:28:43.640
+ The smarter you are the more of an advantage you have and like the better your species does
+
+00:28:43.640 --> 00:28:48.200
+ So over time there's a pressure on things getting smarter and smarter and smarter. Mm-hmm. Mm-hmm
+
+00:28:48.200 --> 00:28:50.040
+ But it's possible that
+
+00:28:50.040 --> 00:28:53.480
+ There's something about earth that makes that uniquely true in other
+
+00:28:53.480 --> 00:28:57.000
+ Planets with life. It could be that the taller you are
+
+00:28:57.000 --> 00:29:01.960
+ The more likely you're to survive or like the harder your skin is and more like
+
+00:29:01.960 --> 00:29:05.640
+ Oh interesting. So yeah, even if this even if life has been around for billions of years
+
+00:29:05.640 --> 00:29:11.000
+ The result wouldn't be a species that can travel space. It would just be a species. That's like really tall or something. Yeah
+
+00:29:11.000 --> 00:29:17.080
+ So it could be that intelligent life is like a unique property if it's a unique advantage on earth and maybe not as much
+
+00:29:17.080 --> 00:29:23.800
+ The advantage anywhere else interesting. That's really interesting. I'm just thinking about it. I don't have anything to say in response
+
+00:29:23.800 --> 00:29:26.760
+ I was listening
+
+00:29:26.760 --> 00:29:33.800
+ Wow, that's a very wow moment. We've talked about aliens again. Go ahead
+
+00:29:33.800 --> 00:29:41.240
+ Yeah, I guess I think when we did all this stuff everything we just talked about was vastly more interesting than anything going on
+
+00:29:41.240 --> 00:29:45.080
+ And on tech - way more interesting. This is why we're talking about it
+
+00:29:45.080 --> 00:29:48.200
+ And this is why we've hardly talked about tech for three weeks. We're in a slump
+
+00:29:48.200 --> 00:29:51.400
+ It's just a little tech slump. There's just like not much going on
+
+00:29:51.400 --> 00:29:58.120
+ It's like I follow the NFL for them reasons like I don't know. I just I like Patrick Mahomes. Okay, he's cool
+
+00:29:58.120 --> 00:30:05.080
+ Uh, so I follow like that whole season and I listened to podcasts and there's nothing to talk about in the NFL right now
+
+00:30:05.080 --> 00:30:08.920
+ There's just literally nothing so they just make stuff where they talk about what they make stuff up
+
+00:30:08.920 --> 00:30:14.280
+ They're like what if you could take one player from every team and make a super team
+
+00:30:14.360 --> 00:30:18.120
+ Who would you pick? It's like dumb stuff like that. You can just talk about randomly
+
+00:30:18.120 --> 00:30:21.160
+ We need to do stuff like that. We need to have little like yeah, you could do that
+
+00:30:21.160 --> 00:30:23.640
+ I would just say we could do literally that. Oh wait literally what
+
+00:30:23.640 --> 00:30:27.560
+ For the NFL players. No, no, no, no, not not that literally
+
+00:30:27.560 --> 00:30:35.640
+ Take make a company you can draft people you can draft two people from any existing company like software engineers
+
+00:30:35.640 --> 00:30:41.240
+ Create a new team. Anyone anyone. Oh, like a fake startup like a startup simulator. Yeah. Yeah. Yeah
+
+00:30:41.240 --> 00:30:48.760
+ Why is that not a thing? Oh, yeah. Like super like super uh, mockumentary style like making fun of
+
+00:30:48.760 --> 00:30:51.720
+ You know, you have fantasy startup. Yes
+
+00:30:51.720 --> 00:30:56.920
+ How would you score what would be the way to score points that I would be like uh product market fit?
+
+00:30:56.920 --> 00:31:00.760
+ I don't know product market fit. That's how you I don't like score point
+
+00:31:00.760 --> 00:31:07.240
+ Dollars raised who just don't really could follow week to week. Yeah. Yeah, money raised. I think is a good one
+
+00:31:08.760 --> 00:31:11.880
+ Like getting like dunking on twitter. That's like another
+
+00:31:11.880 --> 00:31:19.320
+ Three points a good meme a good a good tech meme now. Yeah. Yeah PR has merged PR's. Sure
+
+00:31:19.320 --> 00:31:21.800
+ GitHub green boxes filled
+
+00:31:21.800 --> 00:31:27.240
+ Oh, you somebody make it please that users. I would say users, but no one has any of those. Yeah
+
+00:31:27.240 --> 00:31:34.120
+ We just created the worst the worst game ever, but it should exist
+
+00:31:34.920 --> 00:31:38.680
+ Should definitely be a thing. Yeah, I was thinking about how like in tech
+
+00:31:38.680 --> 00:31:41.640
+ people who start like becoming
+
+00:31:41.640 --> 00:31:47.880
+ Creators or public like influential people in tech just talk about tech
+
+00:31:47.880 --> 00:31:51.640
+ Why like is that every industry like do doctors just talk about
+
+00:31:51.640 --> 00:31:56.680
+ Do they just talk to doctors about doctor things? No, I see doctors explaining like concepts to me
+
+00:31:56.680 --> 00:32:00.280
+ Why is why are we not doing that in tech? Why are we not like talking to anybody outside of tech?
+
+00:32:00.280 --> 00:32:02.120
+ It's just
+
+00:32:02.120 --> 00:32:07.880
+ Our audience is tech after this conversation. I was like, I just kind of artificially limited what I talk about
+
+00:32:07.880 --> 00:32:09.880
+ I think I
+
+00:32:09.880 --> 00:32:15.320
+ In my head, I'm like, I go wider than most people because I talk about tech and also stuff on the business side
+
+00:32:15.320 --> 00:32:19.480
+ Yeah, but that still is pretty narrow and the grand scheme of things like why aren't I talking about?
+
+00:32:19.480 --> 00:32:24.360
+ Dinosaurs and aliens and stuff like that might as well. We should just we should do that
+
+00:32:24.360 --> 00:32:31.720
+ It's just a job. We just happen to work in tech, but we're people. Yeah, we're just yeah two guys having a podcast
+
+00:32:32.120 --> 00:32:39.960
+ I'm sorry my wife. She uh she made fun of me today something about how we were two bros on a podcast
+
+00:32:39.960 --> 00:32:43.880
+ I was like, I'm offended. I wasn't really so she made fun of me also
+
+00:32:43.880 --> 00:32:46.280
+ Well, it was like it well, okay. Here's what happened
+
+00:32:46.280 --> 00:32:51.720
+ She wanted me to listen to this podcast which I am but the episode is like two hours and 38 minutes or something
+
+00:32:51.720 --> 00:32:56.280
+ It's like a one podcast episode and it's like almost three hours like watching a Lord of the Rings movie
+
+00:32:56.280 --> 00:33:01.080
+ And I said something I was like two hours and 38 minutes like I listened fast
+
+00:33:01.080 --> 00:33:05.320
+ But like that's a long podcast. She's like, well, it's like science. They have stuff to talk about
+
+00:33:05.320 --> 00:33:07.320
+ It's not just two bros on a podcast
+
+00:33:07.320 --> 00:33:17.000
+ That one to hurt cut me deep. Hey, we are two engineers. Oh, we're soft in one of the old
+
+00:33:17.000 --> 00:33:21.400
+ Professions the one of the oldest professions what? I don't know engineers. I don't know
+
+00:33:21.400 --> 00:33:26.920
+ It's funny just don't think of
+
+00:33:27.560 --> 00:33:30.920
+ Yeah, software engineering and prostitution to the oldest profession
+
+00:33:30.920 --> 00:33:34.040
+ History
+
+00:33:34.040 --> 00:33:36.600
+ So this the point I'm trying to make is like
+
+00:33:36.600 --> 00:33:38.360
+ I feel like
+
+00:33:38.360 --> 00:33:42.840
+ Tech needs some ambassadors controlling the messaging to the outside world
+
+00:33:42.840 --> 00:33:45.560
+ Like software developers
+
+00:33:45.560 --> 00:33:49.960
+ A lot of misunderstandings a lot of people don't know what it is every time I meet someone
+
+00:33:49.960 --> 00:33:56.920
+ What do you do? I'm a software developer. What is software? What is developer? What is like?
+
+00:33:57.560 --> 00:34:00.840
+ People around here have no idea and I'm thinking it's because we're not telling people
+
+00:34:00.840 --> 00:34:05.880
+ We're just talking to each other every tech influencer just makes stuff for people that know what they're talking about
+
+00:34:05.880 --> 00:34:11.880
+ Why not let's explain computers to people. Maybe someone's already doing this. I'm sure someone is every time I think something like this
+
+00:34:11.880 --> 00:34:13.960
+ I find out there's like 10 people doing it
+
+00:34:13.960 --> 00:34:20.600
+ Well, you wouldn't be the audience for that. Yeah, I guess not. Yeah, I mean, it is funny because you're right
+
+00:34:20.600 --> 00:34:26.200
+ Explaining what a software engineer does is like for people that don't work in the space or even adjacent to the space
+
+00:34:26.360 --> 00:34:28.360
+ Very mysterious
+
+00:34:28.360 --> 00:34:34.120
+ That's already hard then explaining how I spend my day or how you spend my day is like 10 times harder than that because they're like
+
+00:34:34.120 --> 00:34:40.200
+ The people call my house. They're like why do you have like this fancy camera on this mic and there's lighting in your room
+
+00:34:40.200 --> 00:34:42.440
+ And I'm like oh, I'm a software engineer like
+
+00:34:42.440 --> 00:34:52.120
+ I just it's okay. Just it's too hard to explain. It's not worth explaining
+
+00:34:52.120 --> 00:34:55.080
+ It's weird. It's not an interest rate phenomenon, right?
+
+00:34:55.080 --> 00:35:01.400
+ That's not like every all of us having mics and cameras is not just a tech had too much money for a little while kind of thing
+
+00:35:01.400 --> 00:35:04.920
+ Maybe it is maybe it's exactly where you personally it is. Yeah
+
+00:35:04.920 --> 00:35:11.640
+ Wow, I definitely bought all this stuff in that phase where I was making way too much money
+
+00:35:11.640 --> 00:35:20.120
+ Yeah, same. Do you feel like the interest rate situation like I still feel like it hasn't happened yet like the real
+
+00:35:21.160 --> 00:35:27.000
+ impact of what just transpired in terms of fiscal policy the drastic change
+
+00:35:27.000 --> 00:35:31.000
+ I still feel like the economy and everything else seems to be going too. Well
+
+00:35:31.000 --> 00:35:33.560
+ For what I feel like just happened
+
+00:35:33.560 --> 00:35:38.760
+ It's Silicon Valley bank crashing the only fallout from this whole thing like I feel like 10 years of print
+
+00:35:38.760 --> 00:35:44.680
+ Not printing. I'm not that guy. It's like 10 years of quantity easing stimulus all the like injecting
+
+00:35:44.680 --> 00:35:46.760
+ capital into
+
+00:35:46.760 --> 00:35:52.200
+ A system and then shutting that off. I feel like it should be like a seismic effect and it has not been
+
+00:35:52.200 --> 00:35:56.920
+ Yeah, well the goal of the fed was not to have a seismic effect. They were going for a really crazy
+
+00:35:56.920 --> 00:36:01.160
+ I mean, okay. The issue is the economy is overheated, right? It's like yeah doing too well
+
+00:36:01.160 --> 00:36:03.400
+ And they wanted to slow that down
+
+00:36:03.400 --> 00:36:05.800
+ You can only really slow that down by
+
+00:36:05.800 --> 00:36:09.160
+ Pushing in the negative direction, but I think they didn't want to push it too far in a direction
+
+00:36:09.160 --> 00:36:13.000
+ So there is a version of all that and what we want know what exactly is going to happen for a while
+
+00:36:13.160 --> 00:36:17.160
+ Yeah, uh, there's a version of all this where they actually were very successful in their goal
+
+00:36:17.160 --> 00:36:19.160
+ They just slowed it down
+
+00:36:19.160 --> 00:36:23.720
+ I forgot what they called it. They made so up some new word that they were aiming for
+
+00:36:23.720 --> 00:36:27.400
+ They slowed it down without
+
+00:36:27.400 --> 00:36:31.000
+ Going into like a deep recession or depression. That's their goal
+
+00:36:31.000 --> 00:36:33.400
+ They didn't really want to go there, but they have to go close to it
+
+00:36:33.400 --> 00:36:36.920
+ So it's possible. They like landed the plane exactly perfectly. Okay
+
+00:36:36.920 --> 00:36:40.520
+ As weird as that is to believe that that is
+
+00:36:40.760 --> 00:36:43.480
+ Let me let me ask you this maybe it's just the impact in tech
+
+00:36:43.480 --> 00:36:47.560
+ But I don't feel like has been felt in the way. I thought I mean, I know there's been a lot of layoffs
+
+00:36:47.560 --> 00:36:48.680
+ so
+
+00:36:48.680 --> 00:36:51.560
+ Uh, I'm not trying to have kids. Oh, then the chat is good
+
+00:36:51.560 --> 00:36:54.680
+ It's it's just starting to hit the react team right now
+
+00:36:54.680 --> 00:37:00.280
+ Okay, so let's just say
+
+00:37:00.280 --> 00:37:04.600
+ There are a million devrels. I have no idea how many devrels there are if there's even like a title
+
+00:37:04.600 --> 00:37:07.000
+ That you can like actually I don't know
+
+00:37:07.000 --> 00:37:10.200
+ Uh, let's say there's a million. How many do you think they'll be in five years?
+
+00:37:10.360 --> 00:37:11.880
+ I have no idea
+
+00:37:11.880 --> 00:37:14.680
+ I feel like I felt it in tech heavily
+
+00:37:14.680 --> 00:37:17.080
+ Oh, just like the layoffs or other things
+
+00:37:17.080 --> 00:37:18.040
+ No, not the layout
+
+00:37:18.040 --> 00:37:19.240
+ Well, because this
+
+00:37:19.240 --> 00:37:24.840
+ The space that I operate in is the first to get influence which is a startup like startup funding all that stuff
+
+00:37:24.840 --> 00:37:31.800
+ Yeah, the entire conversation around fundraising is like a thousand percent different than it was for the last five years
+
+00:37:31.800 --> 00:37:35.480
+ Uh, and it actually feels great because it's like a return to normalcy
+
+00:37:35.480 --> 00:37:37.880
+ Yeah, so I feel like that happened in like the course of a year
+
+00:37:38.200 --> 00:37:41.400
+ And I don't want it to go any further because I think we're in like a good place right now
+
+00:37:41.400 --> 00:37:45.800
+ Uh, someone messing with me the other day. They're taking much of BC meetings and they were like
+
+00:37:45.800 --> 00:37:47.720
+ man
+
+00:37:47.720 --> 00:37:52.040
+ BCs don't care about growth or traction like they just want to see revenue numbers. I'm like
+
+00:37:52.040 --> 00:37:56.440
+ Oh, yeah, like that makes that actually makes a lot of sense. Like that's not weird. That's normal
+
+00:37:56.440 --> 00:38:01.640
+ Uh, yeah, but so different from how you would raise money before and I'm happy with it because
+
+00:38:01.640 --> 00:38:04.120
+ For the past five years, it's been a mystery
+
+00:38:04.120 --> 00:38:08.680
+ Like if I wanted to go raise money. I didn't get it. I was like, I see a good business
+
+00:38:08.680 --> 00:38:11.880
+ They're not able to raise money. I see a stupid business. They're raising a shit ton of money
+
+00:38:11.880 --> 00:38:16.200
+ Yeah, I don't understand how to do this. Yeah, doesn't make it. There's like no logical plan
+
+00:38:16.200 --> 00:38:20.600
+ Now it's like returning back to like, yeah, if you have a good business, you get to raise more money
+
+00:38:20.600 --> 00:38:24.040
+ Yeah, if you have a shitty business and don't have a good model, you don't get to raise money
+
+00:38:24.040 --> 00:38:28.040
+ So yeah, that should be I felt that there and that's where the most of the craze was happening
+
+00:38:28.040 --> 00:38:33.640
+ So yeah, that space got impacted very hard a lot of ecs are gonna go bust and it's gonna be brutal
+
+00:38:34.200 --> 00:38:36.520
+ um, I think every layer down is just less
+
+00:38:36.520 --> 00:38:41.480
+ Jurassic of an impact, but you know millions of people did get laid off right so
+
+00:38:41.480 --> 00:38:46.440
+ It's a good idea. Yeah. No, I don't know where are we in the layers? Are we lower or higher?
+
+00:38:46.440 --> 00:38:51.480
+ You said every layer down is less less dramatic of an impact layer. Do we operate in?
+
+00:38:51.480 --> 00:38:55.960
+ Yeah, how much impact are we getting who's we because I think like I said me being the sort of space
+
+00:38:55.960 --> 00:39:00.600
+ I think I was closer to to the oh, we're not in the same layer. We're in different layers
+
+00:39:00.600 --> 00:39:04.760
+ I don't know what layer you're in. I don't know what you do every day. I don't layer you in
+
+00:39:04.760 --> 00:39:10.600
+ Is this like the OSI model kind of like seven layers? Are we talking like a how many layers like a three layer cake?
+
+00:39:10.600 --> 00:39:12.840
+ What are we talking?
+
+00:39:12.840 --> 00:39:18.520
+ How is this going to affect me dax me? It's about me. I don't understand any of your
+
+00:39:18.520 --> 00:39:23.800
+ Finances income. I don't understand any of it. So I have no idea how to affect you
+
+00:39:23.800 --> 00:39:26.920
+ Okay, I believe I am closer to the sun than you are
+
+00:39:27.320 --> 00:39:32.600
+ The sun being like the sun is bad. Do you want to be close? The sun being the VCs and the
+
+00:39:32.600 --> 00:39:37.800
+ Pause of money there. I think I am closer to that. Yeah. Yeah. Okay, that makes sense
+
+00:39:37.800 --> 00:39:42.040
+ I don't know the dev real thing. I tried to like make you talk about everyone you just didn't take the bait
+
+00:39:42.040 --> 00:39:44.440
+ So now I'm trying again milky already posted
+
+00:39:44.440 --> 00:39:49.080
+ That clip of me for this week. So I'm at my limit on talking about dev real
+
+00:39:49.080 --> 00:39:51.240
+ Cliff. Yeah. No, I know
+
+00:39:51.240 --> 00:39:54.120
+ You're trying to walk the line and it's fun
+
+00:39:54.360 --> 00:39:57.400
+ It's fun to just watch you try and dodge all the questions
+
+00:39:57.400 --> 00:40:04.040
+ Well, I said this before there's no group of people are more terrified than dev rel because there are I could think of one group
+
+00:40:04.040 --> 00:40:08.760
+ At least one
+
+00:40:08.760 --> 00:40:11.560
+ I know things you've cut out. Sorry
+
+00:40:11.560 --> 00:40:14.120
+ Yeah, that's true. Yes, that's true
+
+00:40:14.120 --> 00:40:18.680
+ So, but I guess like here's my real question and you don't have to talk about if you don't want to talk about it
+
+00:40:18.680 --> 00:40:19.400
+ Just don't talk about it
+
+00:40:19.400 --> 00:40:24.920
+ But the stripe have a dev rel theme that they just like make good docs and then become like a trillion dollar company
+
+00:40:24.920 --> 00:40:27.480
+ Isn't that the model? Why are we all? I don't understand
+
+00:40:27.480 --> 00:40:31.320
+ They probably have people doing the role because I know one can define
+
+00:40:31.320 --> 00:40:32.760
+ Dev rel role
+
+00:40:32.760 --> 00:40:38.120
+ They probably have people doing that and focusing all their time on docs and SDKs and all that all that great stuff
+
+00:40:38.120 --> 00:40:41.720
+ That makes her probably great. Yeah, I just think they don't uh navel gaze about it
+
+00:40:41.720 --> 00:40:48.280
+ Where they don't have I think right. I think a very common split right now is like
+
+00:40:48.920 --> 00:40:55.320
+ Uh, someone's in developer relations role. They spent 20% of their time doing the job and then Ava's another time talking about the job
+
+00:40:55.320 --> 00:40:57.080
+ I think that's like a very
+
+00:40:57.080 --> 00:40:59.080
+ That thing that we see a lot. Yeah
+
+00:40:59.080 --> 00:41:03.400
+ Uh, I just maybe the stripe team just doesn't do that so we never hear hear from them, but they are
+
+00:41:03.400 --> 00:41:10.280
+ Incredibly good at the point of doing all this which is making developers happy to use your product and understand how to use it
+
+00:41:10.280 --> 00:41:11.240
+ Well
+
+00:41:11.240 --> 00:41:15.320
+ Uh, but yeah, I guess we never I don't know anyone with that's like, I'm a striped that row. Yeah, same
+
+00:41:15.880 --> 00:41:22.280
+ I just think of them as baby. I also got corrected yesterday. Someone was like you can't say uh dev rel because dev rel is developer
+
+00:41:22.280 --> 00:41:25.240
+ Relations, so you're saying uh developer relations how much shut
+
+00:41:25.240 --> 00:41:28.600
+ Shut up shut up
+
+00:41:28.600 --> 00:41:31.560
+ Shut up. Uh, it's funny
+
+00:41:31.560 --> 00:41:36.120
+ I have friends. I mean, I have good friends under the dev rel umbrella
+
+00:41:36.120 --> 00:41:39.960
+ So it's very hard to keep like throwing stuff on dev rel. Why are you laughing so hard?
+
+00:41:39.960 --> 00:41:45.320
+ Well, this is the exact thing where someone says something racist and they're like
+
+00:41:45.880 --> 00:41:47.880
+ Well, you know
+
+00:41:47.880 --> 00:41:51.320
+ No, I'm I'm not saying like
+
+00:41:51.320 --> 00:41:53.640
+ Oh, I have friends that are dev rel don't be offended
+
+00:41:53.640 --> 00:41:58.280
+ I'm saying like it's hard for me. I have so many things. I want to say about that idea
+
+00:41:58.280 --> 00:42:02.600
+ And it's it feels bad because I feel like i'm saying it directly to friends that
+
+00:42:02.600 --> 00:42:06.440
+ Good for them like great job. I have no
+
+00:42:06.440 --> 00:42:14.280
+ Uh qualms with you doing your job. It's more just the idea. Okay, so here's why I think that so that's exactly accurate
+
+00:42:14.280 --> 00:42:18.440
+ I feel it too like I like I know a lot of people in this role and
+
+00:42:18.440 --> 00:42:23.000
+ Uh, I hesitate to make fun of it for that reason but I thought about this the other day
+
+00:42:23.000 --> 00:42:29.000
+ I'm like I have no issue making fun of literally almost everything else like not my between two nerds thing
+
+00:42:29.000 --> 00:42:33.240
+ I do I make fun of all these people in the most direct possible way
+
+00:42:33.240 --> 00:42:36.920
+ And I'm like this is actually the most offensive thing about this
+
+00:42:36.920 --> 00:42:41.160
+ I'm okay making fun of them because to me it's clear that
+
+00:42:41.880 --> 00:42:47.160
+ They have so much value and security they can sit on on some level. I'm being condescending thinking
+
+00:42:47.160 --> 00:42:49.640
+ I can't make fun of this group because
+
+00:42:49.640 --> 00:42:54.760
+ Interesting implying that I think there may be more insecure about yeah about the role
+
+00:42:54.760 --> 00:42:57.160
+ The ultimate burn is not burning
+
+00:42:57.160 --> 00:43:06.520
+ I try to say I try to like uh, you know frame you that way when people are like that's so mean
+
+00:43:06.520 --> 00:43:09.400
+ I'm like no, it means he really likes you. I've I've gone to bat for you
+
+00:43:09.480 --> 00:43:12.440
+ I did see you post that tweet. I remember milky replying
+
+00:43:12.440 --> 00:43:14.520
+ What the hell? That's only been nice to me
+
+00:43:14.520 --> 00:43:18.200
+ And out of sheer coincidence, I just started making fun of them a lot more after that
+
+00:43:18.200 --> 00:43:21.480
+ That's awesome
+
+00:43:21.480 --> 00:43:23.880
+ Okay, I think we're done. I think we are. Yeah, that was good
+
+00:43:23.880 --> 00:43:27.560
+ Yeah, thanks sax. All right. Yeah, we'll see you later
+
+00:43:39.480 --> 00:43:41.480
+ You
+

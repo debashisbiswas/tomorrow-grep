@@ -1,0 +1,2996 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.820
+ Dax, do you use Daxchess?
+
+00:00:04.820 --> 00:00:10.380
+ I don't use Daxchess, but I did watch the conference, and because I don't use Daxchess,
+
+00:00:10.380 --> 00:00:14.820
+ I was pretty confused for most of it, so I honestly would just love for you to explain
+
+00:00:14.820 --> 00:00:17.340
+ to me everything they're talking about.
+
+00:00:17.340 --> 00:00:18.340
+ Oh geez.
+
+00:00:18.340 --> 00:00:23.500
+ I don't know what percentage you understood, but probably more than I did.
+
+00:00:23.500 --> 00:00:42.380
+ [music]
+
+00:00:42.380 --> 00:00:43.380
+ I use Daxchess all the time.
+
+00:00:43.380 --> 00:00:49.820
+ I think that's been my default for like three years, and I'm so confused.
+
+00:00:49.820 --> 00:00:55.100
+ All the React18 stuff has been confusing me for weeks, months, I don't know, a long time,
+
+00:00:55.100 --> 00:01:02.820
+ and now I'm just, I've literally just finished watching all of the next Daxchess Comp videos,
+
+00:01:02.820 --> 00:01:07.060
+ so my headspace right now is I'm swimming in information.
+
+00:01:07.060 --> 00:01:14.060
+ Overwhelmingly, I feel like it's so much to take in, and yet so little.
+
+00:01:14.060 --> 00:01:19.700
+ If you think about the big conference, or the big keynote bullet points, or the three things,
+
+00:01:19.700 --> 00:01:25.640
+ it's like Turbo Pack, so all the rebuilt we'll talk about, all the build tooling, it's like
+
+00:01:25.640 --> 00:01:31.260
+ the Apple Silicon move, they're doing it all in house, they're building it all in Rust.
+
+00:01:31.260 --> 00:01:36.380
+ Then there's the layouts RFC, so there's, that's like the whole routing, next 13, like
+
+00:01:36.380 --> 00:01:39.900
+ the core of it is this layouts RFC, which we'll talk about, and then the third thing
+
+00:01:39.900 --> 00:01:44.340
+ was like components that make things nicer, like using images and fonts.
+
+00:01:44.340 --> 00:01:48.660
+ It's like higher level web stuff, okay?
+
+00:01:48.660 --> 00:01:57.700
+ So the first one, I think the reason I feel so overwhelmed and confused, oh geez, I just
+
+00:01:57.700 --> 00:01:59.860
+ woke up and started watching videos this morning.
+
+00:01:59.860 --> 00:02:05.620
+ Dax is having a look at like my hairs everywhere, mad scientist style.
+
+00:02:05.620 --> 00:02:09.860
+ The overwhelming feeling I have, I think is because of React 18, I think it's just I still
+
+00:02:09.860 --> 00:02:13.380
+ don't fundamentally understand, maybe you understand some of the React 18 stuff.
+
+00:02:13.380 --> 00:02:18.580
+ That's where I really struggle is like, high level I understand server components, but trying
+
+00:02:18.580 --> 00:02:22.380
+ to like parse out what is React versus what is next versus what is Vercelle just feels
+
+00:02:22.380 --> 00:02:23.380
+ like this impossible task.
+
+00:02:23.380 --> 00:02:27.860
+ So that's like my high level meta comments and thoughts, I don't know, like you asked
+
+00:02:27.860 --> 00:02:31.340
+ a specific question and I'm just rambling, because it's early and I don't know.
+
+00:02:31.340 --> 00:02:32.900
+ I mean, overview is helpful.
+
+00:02:32.900 --> 00:02:39.980
+ Yeah, on that last point, what is next, what is React, what is Vercelle?
+
+00:02:39.980 --> 00:02:45.420
+ I think the thing you said is accurate, they're kind of like Apple, trying to own every piece
+
+00:02:45.420 --> 00:02:51.220
+ of it all the way down to the build tooling, which results in probably really cool experiences
+
+00:02:51.220 --> 00:02:56.860
+ like very cohesive if you're in the next world, it's probably going to be as good as it can
+
+00:02:56.860 --> 00:02:58.860
+ possibly get.
+
+00:02:58.860 --> 00:03:01.860
+ But there's some interesting, I don't know if you're following along with the conversation
+
+00:03:01.860 --> 00:03:09.940
+ the other day, there's some interesting implications of it for it because technically React isn't
+
+00:03:09.940 --> 00:03:19.020
+ like owned by Vercelle and at least for technique, yeah, at least for the history of React so
+
+00:03:19.020 --> 00:03:24.700
+ far it was, you know, shepherded by Facebook, Facebook never really directly needed to monetize
+
+00:03:24.700 --> 00:03:25.700
+ React, right?
+
+00:03:25.700 --> 00:03:26.700
+ Right.
+
+00:03:26.700 --> 00:03:34.540
+ So it was somewhat neutral, but now it seems more and more governed by a company that directly
+
+00:03:34.540 --> 00:03:35.540
+ monetize React.
+
+00:03:35.540 --> 00:03:40.660
+ So I think there's a lot of questions around what level of influence is Vercelle having
+
+00:03:40.660 --> 00:03:45.100
+ over the React roadmap, I think some people pointed out yesterday, yeah, it is a little
+
+00:03:45.100 --> 00:03:52.380
+ weird they merge React server components and release it as a beta to time with like a marketing
+
+00:03:52.380 --> 00:03:53.380
+ effort by Vercelle.
+
+00:03:53.380 --> 00:03:56.580
+ That doesn't seem very, very neutral.
+
+00:03:56.580 --> 00:04:00.460
+ I think as an end user in the short term, it's like, oh, that's great, like everything's
+
+00:04:00.460 --> 00:04:07.940
+ working together, that's good, but it does bring up questions for, I mean, other frameworks,
+
+00:04:07.940 --> 00:04:13.220
+ I think the only other framework using RSC is hydrogen right now, which I haven't heard
+
+00:04:13.220 --> 00:04:16.000
+ of before all this, I've heard about it now.
+
+00:04:16.000 --> 00:04:21.720
+ I've been hearing about them forever and it was always just like they're waiting for React
+
+00:04:21.720 --> 00:04:26.100
+ server components to be a thing and there's waiting and waiting and all of a sudden like
+
+00:04:26.100 --> 00:04:30.580
+ next needs in, it's like, boom, ready to go, right, so there's like, yeah, there's some
+
+00:04:30.580 --> 00:04:37.260
+ kind of, I'm curious how that plays out in the long term, if this like level of influence
+
+00:04:37.260 --> 00:04:41.580
+ and bias ends up actually hurting the ecosystem and even the core framework.
+
+00:04:41.580 --> 00:04:46.460
+ Yeah, they had the live Q&A right after the keynote and the React, what's his name?
+
+00:04:46.460 --> 00:04:50.460
+ I forget the React core contributor that was on the panel.
+
+00:04:50.460 --> 00:04:53.540
+ He didn't actually, Lee Rob didn't introduce the people on the panel, so I couldn't even
+
+00:04:53.540 --> 00:04:57.860
+ watch the video and get the names, it's like I know, I know who Tim is, I've seen his face
+
+00:04:57.860 --> 00:05:02.660
+ on GitHub, but the other was, yeah, I mean, you're talking about the guy, I think he was
+
+00:05:02.660 --> 00:05:04.060
+ in a plaid shirt.
+
+00:05:04.060 --> 00:05:09.300
+ Yeah, yeah, yeah, yeah, he's, he's like a, he made Redux maybe with Dan, yeah, he worked
+
+00:05:09.300 --> 00:05:10.300
+ on it with Dan.
+
+00:05:10.300 --> 00:05:11.540
+ I'm bringing Dan as a name too.
+
+00:05:11.540 --> 00:05:18.220
+ Yeah, well, he sat there and said that next year, 13 is like the real React 18 release
+
+00:05:18.220 --> 00:05:21.860
+ and he backed up on Twitter and tried to say like, well, what I should have said was,
+
+00:05:21.860 --> 00:05:26.340
+ if you've listened to that answer, I mean, he very like lays out the case that this is
+
+00:05:26.340 --> 00:05:31.460
+ actually what we needed to showcase all of React 18 and we really couldn't show it until
+
+00:05:31.460 --> 00:05:32.460
+ next 13 came out.
+
+00:05:32.460 --> 00:05:36.300
+ So there's a lot of coordination there, I don't know, yeah, I don't know how I feel
+
+00:05:36.300 --> 00:05:37.300
+ about it.
+
+00:05:37.300 --> 00:05:38.300
+ Yeah.
+
+00:05:38.300 --> 00:05:41.500
+ And there was a thread with, I think it was from Dan Abramov.
+
+00:05:41.500 --> 00:05:46.460
+ He was talking about, okay, like let's step back and zoom out and talk about what React
+
+00:05:46.460 --> 00:05:53.980
+ is and he describes it as, you know, an architecture with certain patterns and it leaves room for
+
+00:05:53.980 --> 00:05:54.980
+ implementation.
+
+00:05:54.980 --> 00:05:59.060
+ So there's a core architecture that you can take advantage of, but it's up to like last
+
+00:05:59.060 --> 00:06:03.500
+ mile frameworks like next JS to, you know, assemble everything together that fully takes
+
+00:06:03.500 --> 00:06:04.980
+ advantage of it.
+
+00:06:04.980 --> 00:06:11.700
+ And he phrase it as next is the first framework to do this and give you a fully packaged thing,
+
+00:06:11.700 --> 00:06:17.060
+ you know, which is great and I think it's a realization of that vision, but it also makes
+
+00:06:17.060 --> 00:06:19.820
+ me wonder, is it the first or is it the last, right?
+
+00:06:19.820 --> 00:06:23.220
+ It's a common thing where you build this like big reusable thing, but only ever use it once
+
+00:06:23.220 --> 00:06:26.740
+ because how many variations of it do you really need?
+
+00:06:26.740 --> 00:06:27.740
+ Yeah.
+
+00:06:27.740 --> 00:06:32.420
+ And that's a good segue into like bullet point number one, I guess, in terms of next JS kind
+
+00:06:32.420 --> 00:06:33.420
+ of turbo pack.
+
+00:06:33.420 --> 00:06:37.780
+ It's a good segue because I think the big question is like, is this just the next JS
+
+00:06:37.780 --> 00:06:38.780
+ build tool?
+
+00:06:38.780 --> 00:06:40.860
+ Or is it going to be a bigger thing in the ecosystem?
+
+00:06:40.860 --> 00:06:42.740
+ Or other people going to use it?
+
+00:06:42.740 --> 00:06:46.140
+ Like they say a lot in the conference and in the talks.
+
+00:06:46.140 --> 00:06:50.700
+ There's like one very specific turbo pack, Maya gives a talk about the details of turbo
+
+00:06:50.700 --> 00:06:56.420
+ pack, like dives into the it's going to be so extensible in the plugin system and like
+
+00:06:56.420 --> 00:06:57.860
+ all this.
+
+00:06:57.860 --> 00:06:58.980
+ But that's all just kind of like talk.
+
+00:06:58.980 --> 00:07:00.820
+ And I think that's the biggest thing about turbo pack.
+
+00:07:00.820 --> 00:07:07.060
+ I was very excited reading through the docs, like looking at turbo pack early and thinking
+
+00:07:07.060 --> 00:07:12.420
+ like this could be this could be really great, but then you quickly realize it's like it's
+
+00:07:12.420 --> 00:07:13.420
+ still very early.
+
+00:07:13.420 --> 00:07:16.580
+ I think it's one of those deals where there's a date on the calendar where there's going
+
+00:07:16.580 --> 00:07:17.580
+ to be a conference.
+
+00:07:17.580 --> 00:07:18.980
+ They're going to announce turbo pack.
+
+00:07:18.980 --> 00:07:23.340
+ They've got all the cool visuals explaining the performance benefits and all this stuff.
+
+00:07:23.340 --> 00:07:25.660
+ But like it's just going to be what it is right now.
+
+00:07:25.660 --> 00:07:27.060
+ They're calling it alpha.
+
+00:07:27.060 --> 00:07:28.900
+ It doesn't support some things.
+
+00:07:28.900 --> 00:07:32.260
+ There's there's like dynamic isn't supported.
+
+00:07:32.260 --> 00:07:38.500
+ It's only dev mode, so there's no production builds yet, but basically, versatile is decided
+
+00:07:38.500 --> 00:07:42.300
+ they're going to build all the tooling for your JavaScript stuff.
+
+00:07:42.300 --> 00:07:48.020
+ So all of it is going to be built with native technologies, Rust mostly, and that they're
+
+00:07:48.020 --> 00:07:49.020
+ going to own that thing.
+
+00:07:49.020 --> 00:07:50.420
+ They're not going to use Vte.
+
+00:07:50.420 --> 00:07:55.460
+ They're not going to use any of the community kind of like the stuff that like people are
+
+00:07:55.460 --> 00:07:56.620
+ mostly moving to, right?
+
+00:07:56.620 --> 00:07:59.700
+ Like most of the framers are kind of congealing on Vte, I think.
+
+00:07:59.700 --> 00:08:00.700
+ Is that accurate?
+
+00:08:00.700 --> 00:08:02.900
+ Yeah, I would say so.
+
+00:08:02.900 --> 00:08:05.180
+ And they're just going to sort of like carve their own past.
+
+00:08:05.180 --> 00:08:09.380
+ So they've got the successor to Webpack is how they're pointing it.
+
+00:08:09.380 --> 00:08:13.660
+ Yeah, all written in Rust, they're going to the turbo pack kind of like a play on turbo
+
+00:08:13.660 --> 00:08:14.660
+ repo.
+
+00:08:14.660 --> 00:08:19.540
+ It's all going to be one thing someday turbo, the rewriting turbo repo in Rust.
+
+00:08:19.540 --> 00:08:24.060
+ There's just a lot to take in, but I think the overwhelming thing is like feels very
+
+00:08:24.060 --> 00:08:27.700
+ Apple Silicon like they're going to do it all in house.
+
+00:08:27.700 --> 00:08:32.340
+ Yeah, in her talk, I felt like she only lacked the like cool room that the guy, the Apple
+
+00:08:32.340 --> 00:08:35.740
+ M1 guy talks about the processors, like they needed that.
+
+00:08:35.740 --> 00:08:38.660
+ She was just sort of like a little circle in her talk.
+
+00:08:38.660 --> 00:08:39.660
+ But yeah, I don't know.
+
+00:08:39.660 --> 00:08:41.140
+ What are your thoughts on turbo pack?
+
+00:08:41.140 --> 00:08:45.420
+ Yeah, I think part of me is really excited for it.
+
+00:08:45.420 --> 00:08:48.780
+ And let me try to, I have a very specific reason why.
+
+00:08:48.780 --> 00:08:57.540
+ So like you use CDK, you know, I work on SST, there's a challenge when using something
+
+00:08:57.540 --> 00:09:05.220
+ like CDK or SST because, you know, with these tools, you're defining, you know, infrastructure
+
+00:09:05.220 --> 00:09:10.060
+ you need as you're going to get deployed AWS, but you're also describing the build artifacts
+
+00:09:10.060 --> 00:09:11.060
+ you need.
+
+00:09:11.060 --> 00:09:14.060
+ You're like, I need this function built, I need this function built, I need this front
+
+00:09:14.060 --> 00:09:16.900
+ end built, et cetera.
+
+00:09:16.900 --> 00:09:23.940
+ So these tools end up being both a infrastructure as code tool, but also a build tool.
+
+00:09:23.940 --> 00:09:28.100
+ But they don't have advanced build tool capabilities, like what turbo repo has, right?
+
+00:09:28.100 --> 00:09:32.140
+ It doesn't, there's not like built in way to do caching or like, you know, skipping
+
+00:09:32.140 --> 00:09:35.380
+ builds that, you know, no, where nothing has changed.
+
+00:09:35.380 --> 00:09:37.700
+ And CDK builds can be pretty slow.
+
+00:09:37.700 --> 00:09:42.900
+ And I want, ever since I started using turbo repo, I'm like, wow, I wish this functionality
+
+00:09:42.900 --> 00:09:48.380
+ worked inside of CDK, because from turbo repo perspective, CDK builds is one thing, it's
+
+00:09:48.380 --> 00:09:51.340
+ either going to build all of it or it's going to build, it's going to skip it because it's
+
+00:09:51.340 --> 00:09:55.140
+ cash, which is helpful, but you know, it's not granular.
+
+00:09:55.140 --> 00:09:59.900
+ So I've been looking for a way to take all the learnings from turbo repo and put it in
+
+00:09:59.900 --> 00:10:00.900
+ CDK.
+
+00:10:00.900 --> 00:10:06.260
+ So only rebuild functions that have been been that have changed only build front ends that
+
+00:10:06.260 --> 00:10:07.260
+ have changed.
+
+00:10:07.260 --> 00:10:10.860
+ But there's a lot of work to build that.
+
+00:10:10.860 --> 00:10:16.660
+ So with this turbo pack thing, I'm kind of hoping, oh, if they expose those library,
+
+00:10:16.660 --> 00:10:22.300
+ I can suck in all that functionality into SST and get all that great, all that great
+
+00:10:22.300 --> 00:10:26.220
+ stuff that they built and even integrate with some of the remote caching stuff can be compatible
+
+00:10:26.220 --> 00:10:29.780
+ with any of the remote caching providers that they'll eventually do.
+
+00:10:29.780 --> 00:10:33.740
+ So it seems very promising and I'd love to like centralize on that instead of kind of
+
+00:10:33.740 --> 00:10:37.700
+ continuously rebuilding everything they've already done.
+
+00:10:37.700 --> 00:10:43.340
+ At the same time, it's kind of like, like you said, the scope is so broad, right?
+
+00:10:43.340 --> 00:10:47.860
+ I would have been happy with just like turbo repo, but kind of polished up and made more
+
+00:10:47.860 --> 00:10:48.860
+ as a library.
+
+00:10:48.860 --> 00:10:49.860
+ Yeah.
+
+00:10:49.860 --> 00:10:54.140
+ But also like building their own, you know, transpiler, like doing all these things, but
+
+00:10:54.140 --> 00:10:57.980
+ in their own dev server, like they're a different approach of how they hot reload all these
+
+00:10:57.980 --> 00:10:58.980
+ things.
+
+00:10:58.980 --> 00:11:04.140
+ I'm sure for their very narrow, specific use case, once they, you know, hit that, it's
+
+00:11:04.140 --> 00:11:09.500
+ going to be amazing, but it's kind of impossible to really build something great if you're not
+
+00:11:09.500 --> 00:11:10.500
+ dogfooding it.
+
+00:11:10.500 --> 00:11:18.220
+ And I'm kind of wondering how much are people in next JS and then in Vercel thinking about
+
+00:11:18.220 --> 00:11:23.100
+ non-next JS users and like thinking about their workflows and what they need, whereas
+
+00:11:23.100 --> 00:11:25.380
+ V is a much more decentralized thing, right?
+
+00:11:25.380 --> 00:11:30.140
+ Every framework kind of centralized on it builds optimal workflows contributes back.
+
+00:11:30.140 --> 00:11:34.900
+ So I'm like, I like the structure of the V project more.
+
+00:11:34.900 --> 00:11:39.100
+ And I think Evan, you also had a good thread on comparing and I think he made some good
+
+00:11:39.100 --> 00:11:42.780
+ counterpoints acknowledged the stuff that Turbo Pack is doing well.
+
+00:11:42.780 --> 00:11:43.780
+ Yeah.
+
+00:11:43.780 --> 00:11:48.580
+ It's a, I don't know, the all the examples, like of this very early turbo pack thing when
+
+00:11:48.580 --> 00:11:52.140
+ they talk about the performance, the starting point is like 3000 modules.
+
+00:11:52.140 --> 00:11:54.540
+ So like you have a react project with 3000 files.
+
+00:11:54.540 --> 00:11:55.620
+ Is that a lot?
+
+00:11:55.620 --> 00:11:56.620
+ That's a lot for me.
+
+00:11:56.620 --> 00:11:57.620
+ I can't imagine.
+
+00:11:57.620 --> 00:12:01.020
+ Is that not just like I, it includes your node depths.
+
+00:12:01.020 --> 00:12:02.020
+ Okay.
+
+00:12:02.020 --> 00:12:03.020
+ Okay.
+
+00:12:03.020 --> 00:12:04.020
+ So that's more realistic.
+
+00:12:04.020 --> 00:12:05.020
+ We all have roughly a million of.
+
+00:12:05.020 --> 00:12:06.020
+ Yeah.
+
+00:12:06.020 --> 00:12:07.020
+ Exactly.
+
+00:12:07.020 --> 00:12:08.020
+ Okay.
+
+00:12:08.020 --> 00:12:11.820
+ That makes way more sense than I'm thinking like in my like pages directory and my components
+
+00:12:11.820 --> 00:12:15.060
+ directory having 3000 files and I never worked on anything like that.
+
+00:12:15.060 --> 00:12:16.060
+ Okay.
+
+00:12:16.060 --> 00:12:20.660
+ So that makes way more sense than I, I guess the, the parcel, I'm going to totally blank
+
+00:12:20.660 --> 00:12:26.300
+ on everybody's name, but the creator of parcel tweeted, he was disappointed.
+
+00:12:26.300 --> 00:12:30.180
+ They didn't reference, because the big thing about turbo pack is the incremental.
+
+00:12:30.180 --> 00:12:34.220
+ It's same with turbo repo, like incrementally building, only building things that change.
+
+00:12:34.220 --> 00:12:35.220
+ Right.
+
+00:12:35.220 --> 00:12:36.220
+ And he was, he tweeted.
+
+00:12:36.220 --> 00:12:37.220
+ He was disappointed.
+
+00:12:37.220 --> 00:12:40.540
+ They didn't mention it at Nick, she has comp as like inspiration for the incremental build
+
+00:12:40.540 --> 00:12:41.540
+ stuff.
+
+00:12:41.540 --> 00:12:45.500
+ They mentioned basil at Google, uh, actually maya and her talk does mention it because
+
+00:12:45.500 --> 00:12:48.660
+ she wrote it for partially, which I didn't know.
+
+00:12:48.660 --> 00:12:49.980
+ This is all very fascinating.
+
+00:12:49.980 --> 00:12:53.220
+ She works for herself now because everyone works for herself now.
+
+00:12:53.220 --> 00:12:56.140
+ So there was some inspiration taken there, the incremental build stuff.
+
+00:12:56.140 --> 00:12:59.780
+ But he also pointed out, or maybe it was Evan that pointed out, we're talking about like
+
+00:12:59.780 --> 00:13:06.920
+ going from 0.9 or 0.09 to 0.01 seconds in terms of the HMR reload, I think is what the
+
+00:13:06.920 --> 00:13:08.980
+ example it was Evan.
+
+00:13:08.980 --> 00:13:11.580
+ So how much does all this matter in practice?
+
+00:13:11.580 --> 00:13:16.340
+ Like how much does, I mean, rust, I know there's a lot of benefits besides performance.
+
+00:13:16.340 --> 00:13:19.380
+ It's like building all their tooling and rust, probably easier to maintain.
+
+00:13:19.380 --> 00:13:20.820
+ I think rust really good about that.
+
+00:13:20.820 --> 00:13:21.820
+ Right.
+
+00:13:21.820 --> 00:13:25.820
+ So there's reasons, but I do wonder the big question for me is, is this just next year
+
+00:13:25.820 --> 00:13:29.780
+ is build tool or will it become a thing in the broader ecosystem?
+
+00:13:29.780 --> 00:13:31.180
+ Will people write plugins for it?
+
+00:13:31.180 --> 00:13:32.420
+ Will that be a thing?
+
+00:13:32.420 --> 00:13:37.540
+ I think people pointed out SWC like there are no third party plugins for SWC.
+
+00:13:37.540 --> 00:13:39.340
+ It's all been written by herself.
+
+00:13:39.340 --> 00:13:41.460
+ And is that another, is that what's going to happen here?
+
+00:13:41.460 --> 00:13:42.460
+ Does it matter?
+
+00:13:42.460 --> 00:13:43.460
+ I don't know.
+
+00:13:43.460 --> 00:13:44.460
+ Yeah.
+
+00:13:44.460 --> 00:13:45.460
+ I do wonder about that too.
+
+00:13:45.460 --> 00:13:50.740
+ And even, I don't know if you saw a thing about, I think it was one of the Webpack core
+
+00:13:50.740 --> 00:13:52.580
+ contributors.
+
+00:13:52.580 --> 00:13:56.740
+ And he was saying it's weird they branded it as a successor to Webpack because I'm still
+
+00:13:56.740 --> 00:13:57.740
+ working on Webpack.
+
+00:13:57.740 --> 00:13:58.740
+ Yeah.
+
+00:13:58.740 --> 00:13:59.940
+ Let me do it in releases.
+
+00:13:59.940 --> 00:14:00.940
+ Yeah.
+
+00:14:00.940 --> 00:14:04.460
+ So the positioning is definitely weird in a few places.
+
+00:14:04.460 --> 00:14:10.140
+ And yeah, I do wonder, like some of these other rich ecosystems, I think you do have
+
+00:14:10.140 --> 00:14:16.140
+ this thing where with a completely open ecosystem, 99% of the plugins are garbage and you're
+
+00:14:16.140 --> 00:14:19.300
+ sifting through them to find the one present that are good.
+
+00:14:19.300 --> 00:14:20.300
+ Yeah.
+
+00:14:20.300 --> 00:14:24.540
+ And so, I'm assuming every single thing that they publish is going to be pretty good.
+
+00:14:24.540 --> 00:14:28.660
+ So yeah, it's honestly the same thing as the Apple versus Android thing.
+
+00:14:28.660 --> 00:14:30.140
+ It's very familiar to that.
+
+00:14:30.140 --> 00:14:34.340
+ If your choice is on Apple, but everything's going to work together and be great, but if
+
+00:14:34.340 --> 00:14:38.220
+ you ever need to go outside of what they think you should be doing, it's just going to be
+
+00:14:38.220 --> 00:14:39.220
+ a pain.
+
+00:14:39.220 --> 00:14:40.220
+ Yeah.
+
+00:14:40.220 --> 00:14:41.220
+ Yeah.
+
+00:14:41.220 --> 00:14:42.220
+ Yeah.
+
+00:14:42.220 --> 00:14:43.220
+ I do use Apple stuff.
+
+00:14:43.220 --> 00:14:45.220
+ And I guess I do use NYXGIS and I've deployed Vercel.
+
+00:14:45.220 --> 00:14:46.220
+ What am I talking about?
+
+00:14:46.220 --> 00:14:47.220
+ I have no complaints.
+
+00:14:47.220 --> 00:14:50.260
+ It's all going to get better.
+
+00:14:50.260 --> 00:14:54.360
+ One thing that's missing from Turbo Pack in this very early alpha release is Tailwind.
+
+00:14:54.360 --> 00:14:55.980
+ You have to like run it in a sidecar.
+
+00:14:55.980 --> 00:14:56.980
+ That bummed me out.
+
+00:14:56.980 --> 00:14:57.980
+ I don't know.
+
+00:14:57.980 --> 00:15:00.140
+ Maybe it's a little thing, but I feel like everyone uses Tailwind, right?
+
+00:15:00.140 --> 00:15:06.180
+ And there was a thing in the QA where Maya actually answered a question about Tailwind support
+
+00:15:06.180 --> 00:15:11.140
+ in Turbo Pack and made it sound more ominous like, oh, yeah, that's a JavaScript thing.
+
+00:15:11.140 --> 00:15:14.700
+ How are we going to like, we're going to have to create some system for running JavaScript-y
+
+00:15:14.700 --> 00:15:17.980
+ things like JavaScript plugins in this Rust thing?
+
+00:15:17.980 --> 00:15:18.980
+ I don't know.
+
+00:15:18.980 --> 00:15:20.700
+ Like, maybe it's not just as simple as like they didn't get to it.
+
+00:15:20.700 --> 00:15:22.460
+ There's actually like a whole thing they have to do.
+
+00:15:22.460 --> 00:15:23.460
+ Yeah.
+
+00:15:23.460 --> 00:15:27.300
+ It is tricky because an ES build and SWC also run into this.
+
+00:15:27.300 --> 00:15:30.380
+ People want to write the plugins in JavaScript, which makes sense.
+
+00:15:30.380 --> 00:15:36.820
+ But the core is in Go or Rust and the interrupt might slow things extremely down unless you
+
+00:15:36.820 --> 00:15:40.500
+ build a fairly limited plugin system.
+
+00:15:40.500 --> 00:15:42.100
+ So yeah, I can definitely see the challenges with that.
+
+00:15:42.100 --> 00:15:45.940
+ It did sound like, at least I've been seeing the talk you're referring to, but at least
+
+00:15:45.940 --> 00:15:50.180
+ when they were up on stage altogether, it sounded like, oh, yeah, it's going to come.
+
+00:15:50.180 --> 00:15:51.180
+ We just haven't gotten to it.
+
+00:15:51.180 --> 00:15:52.180
+ Yeah.
+
+00:15:52.180 --> 00:15:53.180
+ Oh, I think so.
+
+00:15:53.180 --> 00:15:56.140
+ They don't want everyone like package JSON scripts looking like that with concurrently.
+
+00:15:56.140 --> 00:15:57.140
+ Yeah.
+
+00:15:57.140 --> 00:15:58.140
+ Yeah.
+
+00:15:58.140 --> 00:15:59.140
+ Yeah.
+
+00:15:59.140 --> 00:16:00.140
+ Yeah.
+
+00:16:00.140 --> 00:16:05.700
+ I definitely just having done this thing where you like have a big event.
+
+00:16:05.700 --> 00:16:09.900
+ I don't know if a company as big as Versailles is a more sophisticated way of doing this,
+
+00:16:09.900 --> 00:16:14.300
+ but at some point you just have to pick a date for the conference because you need to like
+
+00:16:14.300 --> 00:16:18.420
+ lead up time to do marketing, like all the stuff that goes into planning that, you sound
+
+00:16:18.420 --> 00:16:24.620
+ like randomly pick a date and then you just try to get as much package into that date as
+
+00:16:24.620 --> 00:16:25.380
+ you can.
+
+00:16:25.380 --> 00:16:30.740
+ And which is why I think a lot of these conferences, it's like very exciting, but then it's always
+
+00:16:30.740 --> 00:16:34.300
+ like, oh, this is an alpha or this is coming out soon or this is like, you know, partially
+
+00:16:34.300 --> 00:16:35.300
+ complete.
+
+00:16:35.300 --> 00:16:36.700
+ It's hard to time everything together like that.
+
+00:16:36.700 --> 00:16:37.700
+ Oh, for sure.
+
+00:16:37.700 --> 00:16:41.900
+ And Apple does a really good job with it where like, you can order now, but they're Apple
+
+00:16:41.900 --> 00:16:47.220
+ and everyone else is trying to be Apple, or at least Versailles is, but even at hardware
+
+00:16:47.220 --> 00:16:48.220
+ or software.
+
+00:16:48.220 --> 00:16:49.660
+ It took them a few years to get to that, right?
+
+00:16:49.660 --> 00:16:50.660
+ Oh, yeah.
+
+00:16:50.660 --> 00:16:53.500
+ First you conferences was always like coming in fall of next year.
+
+00:16:53.500 --> 00:16:54.500
+ Yeah.
+
+00:16:54.500 --> 00:16:55.500
+ I can remember so those.
+
+00:16:55.500 --> 00:16:56.500
+ Yeah.
+
+00:16:56.500 --> 00:16:59.220
+ Last thing on Turbo Pack, I thought I had one last thing.
+
+00:16:59.220 --> 00:17:00.220
+ Oh, yeah.
+
+00:17:00.220 --> 00:17:01.220
+ Yeah.
+
+00:17:01.220 --> 00:17:04.860
+ I love the graphics and all the talking points around like it's like 700 or 600 times faster
+
+00:17:04.860 --> 00:17:05.860
+ than Webpack.
+
+00:17:05.860 --> 00:17:09.260
+ It's like that's such a self burn because the only reason anyone uses Webpack anymore
+
+00:17:09.260 --> 00:17:10.460
+ is because I'm the X.
+
+00:17:10.460 --> 00:17:11.460
+ Yeah.
+
+00:17:11.460 --> 00:17:16.660
+ It's like, who uses Webpack and Tobias works there and, I don't know, I just thought that
+
+00:17:16.660 --> 00:17:17.660
+ was funny.
+
+00:17:17.660 --> 00:17:20.460
+ Like it might as well say a million times faster than Webpack.
+
+00:17:20.460 --> 00:17:21.460
+ Yeah.
+
+00:17:21.460 --> 00:17:22.460
+ Yeah.
+
+00:17:22.460 --> 00:17:24.980
+ So this performance stuff, I think in practice is binary.
+
+00:17:24.980 --> 00:17:29.420
+ It either feels instant or you go and do something else while you're waiting for it to.
+
+00:17:29.420 --> 00:17:34.260
+ And once you pass that threshold, I don't know how much these tight, like V hit that
+
+00:17:34.260 --> 00:17:38.180
+ threshold of, I start it and I know it's going to be ready right away.
+
+00:17:38.180 --> 00:17:39.180
+ I build it.
+
+00:17:39.180 --> 00:17:41.020
+ I know it's going to be ready pretty much right away.
+
+00:17:41.020 --> 00:17:47.300
+ So yeah, I'm sure these incremental things are good to do, but as a good end user, it
+
+00:17:47.300 --> 00:17:49.020
+ doesn't feel like a game changer for me.
+
+00:17:49.020 --> 00:17:50.020
+ Yeah.
+
+00:17:50.020 --> 00:17:51.700
+ So that's, so that's Turbo Pack.
+
+00:17:51.700 --> 00:17:52.700
+ I did.
+
+00:17:52.700 --> 00:17:53.700
+ I said last thing.
+
+00:17:53.700 --> 00:17:55.580
+ There's one last thing, uh, spilt kit.
+
+00:17:55.580 --> 00:18:01.820
+ So we're terrorists at Vercel and, and the whole spilt kit has already changed bundlers
+
+00:18:01.820 --> 00:18:02.820
+ twice once.
+
+00:18:02.820 --> 00:18:03.820
+ I don't know.
+
+00:18:03.820 --> 00:18:08.820
+ And now Vercel's building their own bundler does felt kit move to it.
+
+00:18:08.820 --> 00:18:09.820
+ Does that cause drama?
+
+00:18:09.820 --> 00:18:11.420
+ Am I trying to create something that's not there?
+
+00:18:11.420 --> 00:18:12.420
+ I don't know.
+
+00:18:12.420 --> 00:18:14.380
+ I just, the whole ridge here is there is confusing me.
+
+00:18:14.380 --> 00:18:15.380
+ Yeah.
+
+00:18:15.380 --> 00:18:16.380
+ Go ahead.
+
+00:18:16.380 --> 00:18:17.380
+ Yeah.
+
+00:18:17.380 --> 00:18:18.380
+ I mean, cause it didn't, it doesn't.
+
+00:18:18.380 --> 00:18:19.380
+ Rich hair is also, is any of the creative roll up as well?
+
+00:18:19.380 --> 00:18:24.180
+ I think so, but they move from roll up to V. Is that right or no?
+
+00:18:24.180 --> 00:18:26.140
+ Or they move from something to roll up.
+
+00:18:26.140 --> 00:18:27.140
+ V uses.
+
+00:18:27.140 --> 00:18:28.140
+ So V is like a.
+
+00:18:28.140 --> 00:18:29.140
+ V uses role.
+
+00:18:29.140 --> 00:18:30.140
+ Yeah.
+
+00:18:30.140 --> 00:18:34.380
+ It uses role for production, but then they use their like, yes, native ESM thing for
+
+00:18:34.380 --> 00:18:40.140
+ depth, which I've always loved that pattern, but the total repo talks seem like they were
+
+00:18:40.140 --> 00:18:41.140
+ saying that isn't good.
+
+00:18:41.140 --> 00:18:42.140
+ I don't know.
+
+00:18:42.140 --> 00:18:43.140
+ It still makes sense to me.
+
+00:18:43.140 --> 00:18:44.140
+ But yeah.
+
+00:18:44.140 --> 00:18:50.820
+ So he uses, so if Velki uses V right, uh, but they moved to it from something, right?
+
+00:18:50.820 --> 00:18:51.820
+ I think so.
+
+00:18:51.820 --> 00:18:52.820
+ I don't remember.
+
+00:18:52.820 --> 00:18:56.340
+ They've already had a, like their pre version one was felt kit, but they've already changed
+
+00:18:56.340 --> 00:18:57.340
+ bundlers once.
+
+00:18:57.340 --> 00:19:01.820
+ And there's like the mumblings of what they really, what they change again to move on
+
+00:19:01.820 --> 00:19:02.820
+ to the versatile thing.
+
+00:19:02.820 --> 00:19:07.340
+ Cause rich worship rich said something in the pre show that was like, how awesome it was
+
+00:19:07.340 --> 00:19:10.100
+ to work at resell and get to build a work on smelt full time.
+
+00:19:10.100 --> 00:19:13.540
+ Is there no other company that would pay rich Harris to work on smelt full time?
+
+00:19:13.540 --> 00:19:15.100
+ I feel like he could find some more.
+
+00:19:15.100 --> 00:19:16.100
+ I don't know.
+
+00:19:16.100 --> 00:19:17.100
+ I don't know.
+
+00:19:17.100 --> 00:19:19.340
+ I'm sure he courted like, I'm sure he did like a whole round of.
+
+00:19:19.340 --> 00:19:20.340
+ You think so?
+
+00:19:20.340 --> 00:19:21.340
+ Yeah.
+
+00:19:21.340 --> 00:19:22.340
+ Cause I know, I know Ryan did.
+
+00:19:22.340 --> 00:19:23.340
+ So it's all Js.
+
+00:19:23.340 --> 00:19:24.340
+ Yeah.
+
+00:19:24.340 --> 00:19:27.380
+ He talked to literally everyone and he's at Netlify now.
+
+00:19:27.380 --> 00:19:28.380
+ Is that right?
+
+00:19:28.380 --> 00:19:29.380
+ Yeah, he's yeah.
+
+00:19:29.380 --> 00:19:30.380
+ Sorry.
+
+00:19:30.380 --> 00:19:31.380
+ He's at Netlify.
+
+00:19:31.380 --> 00:19:32.380
+ Yeah.
+
+00:19:32.380 --> 00:19:36.340
+ And he like, of course weighed the personal compensation, but also weighed, you know, like
+
+00:19:36.340 --> 00:19:40.020
+ in terms of the best positioning for solid Js as a product.
+
+00:19:40.020 --> 00:19:41.020
+ Yeah.
+
+00:19:41.020 --> 00:19:48.500
+ Going to resell is tricky because you are in a company that has a clear competitor.
+
+00:19:48.500 --> 00:19:49.500
+ Right.
+
+00:19:49.500 --> 00:19:54.500
+ So I can see why some of that's tricky with, with Richard at Vercel.
+
+00:19:54.500 --> 00:19:55.500
+ Yeah.
+
+00:19:55.500 --> 00:19:56.500
+ I don't know.
+
+00:19:56.500 --> 00:19:59.620
+ I think I just have a hard time imagining five years from now how all that plays out.
+
+00:19:59.620 --> 00:20:00.620
+ Yeah.
+
+00:20:00.620 --> 00:20:01.620
+ That's good.
+
+00:20:01.620 --> 00:20:02.620
+ Okay.
+
+00:20:02.620 --> 00:20:03.620
+ I've never used soap.
+
+00:20:03.620 --> 00:20:04.620
+ So I should just stop talking.
+
+00:20:04.620 --> 00:20:05.620
+ I don't know what I'm talking about.
+
+00:20:05.620 --> 00:20:06.620
+ I'm not even a front end engineer.
+
+00:20:06.620 --> 00:20:11.620
+ Why am I talking about any of this?
+
+00:20:11.620 --> 00:20:21.660
+ Okay, so the second bullet point, the layouts RFC, this is probably where you, you hinted,
+
+00:20:21.660 --> 00:20:25.620
+ like you don't follow a lot of it because you don't use next year's and maybe I could
+
+00:20:25.620 --> 00:20:26.620
+ be helpful.
+
+00:20:26.620 --> 00:20:27.620
+ Maybe.
+
+00:20:27.620 --> 00:20:28.620
+ Maybe not.
+
+00:20:28.620 --> 00:20:29.620
+ Yeah.
+
+00:20:29.620 --> 00:20:30.620
+ Okay.
+
+00:20:30.620 --> 00:20:35.420
+ So this was the next year, 13, the big thing is taking advantage of all the react 18 stuff.
+
+00:20:35.420 --> 00:20:38.820
+ So server components, layouts.
+
+00:20:38.820 --> 00:20:39.820
+ What else?
+
+00:20:39.820 --> 00:20:42.540
+ I mean, that's, I mean, that's the big ones, right?
+
+00:20:42.540 --> 00:20:48.900
+ There's just unified data fetching now, which I learned yesterday or today watching all
+
+00:20:48.900 --> 00:20:54.860
+ these talks is actually like experimental underscore use coming out of react to an experimental
+
+00:20:54.860 --> 00:20:55.860
+ use thing.
+
+00:20:55.860 --> 00:20:59.100
+ I thought it was just used, but it's experimentally used.
+
+00:20:59.100 --> 00:21:03.220
+ So basically this one way to fetch data, it sounds like that you don't in next year.
+
+00:21:03.220 --> 00:21:08.460
+ So previously in next year's, I keep forgetting you don't use it previously.
+
+00:21:08.460 --> 00:21:11.020
+ There's like three different major ways.
+
+00:21:11.020 --> 00:21:15.060
+ There's SSG and SSR and ISR, right?
+
+00:21:15.060 --> 00:21:19.340
+ And they have different like named functions that you export from your thing, your pages
+
+00:21:19.340 --> 00:21:21.340
+ specifically.
+
+00:21:21.340 --> 00:21:24.100
+ Those that sounds like are kind of like not going to be there anymore.
+
+00:21:24.100 --> 00:21:27.900
+ You don't use those in this new world and the app directory.
+
+00:21:27.900 --> 00:21:32.500
+ You just fetch data in one way, and they do all these optimizations at runtime to like
+
+00:21:32.500 --> 00:21:33.500
+ D-dupe.
+
+00:21:33.500 --> 00:21:37.980
+ And I don't understand how the ISR part, like how cache still are revalidated.
+
+00:21:37.980 --> 00:21:42.240
+ I don't understand how that gets replaced, but they may, it sound like it does.
+
+00:21:42.240 --> 00:21:47.820
+ So now you can define like a layout in a directory, layout.js or TS, and that defines this sort
+
+00:21:47.820 --> 00:21:48.820
+ of server component.
+
+00:21:48.820 --> 00:21:53.420
+ Well, all components are now server components by default, they can fetch data and allegedly
+
+00:21:53.420 --> 00:21:57.500
+ not send a lot of JavaScript that's not needed to the client, although that's been talked
+
+00:21:57.500 --> 00:22:01.780
+ about already on the internet, like they still send the same amount.
+
+00:22:01.780 --> 00:22:02.780
+ I don't know.
+
+00:22:02.780 --> 00:22:06.980
+ People have been building React 13 or next year's 13 apps and seeing more JavaScript in the
+
+00:22:06.980 --> 00:22:08.500
+ client bundle than before.
+
+00:22:08.500 --> 00:22:14.220
+ So I don't know what it all means, but apparently eventually we'll send as a little JavaScript
+
+00:22:14.220 --> 00:22:17.220
+ to the client as possible in some point in the future.
+
+00:22:17.220 --> 00:22:19.420
+ I don't know when that happens.
+
+00:22:19.420 --> 00:22:20.420
+ That's the layouts RFC.
+
+00:22:20.420 --> 00:22:26.740
+ But then there's also client, you can create client components, which I learned also is
+
+00:22:26.740 --> 00:22:32.020
+ like this weird string at the top, this used client, you just put that at the top and literally
+
+00:22:32.020 --> 00:22:33.020
+ in a string.
+
+00:22:33.020 --> 00:22:37.180
+ Like comment, literally a string, like the used strict thing.
+
+00:22:37.180 --> 00:22:41.780
+ Yeah, like you strict, exactly, but it's like used client, and that's a client component.
+
+00:22:41.780 --> 00:22:42.780
+ Hmm.
+
+00:22:42.780 --> 00:22:43.780
+ I don't know.
+
+00:22:43.780 --> 00:22:46.620
+ I don't know how it's all going to, like I've not done any of this.
+
+00:22:46.620 --> 00:22:52.220
+ So, yeah, the promise though is less JavaScript from the client someday, go ahead.
+
+00:22:52.220 --> 00:22:57.580
+ Some of that is familiar, like the use RFC, which I did read through.
+
+00:22:57.580 --> 00:23:02.980
+ I think the trajectory I see, maybe I might be wrong about this, but I think React Queer
+
+00:23:02.980 --> 00:23:11.060
+ is very sort of got people used to this pattern of just any async test goes into this thing.
+
+00:23:11.060 --> 00:23:16.260
+ And you automatically get certain properties, like whether it's completed, whether it's pending,
+
+00:23:16.260 --> 00:23:19.700
+ you know, the actual value, things like that.
+
+00:23:19.700 --> 00:23:24.500
+ And then there's something called create resource added to solid.js, which is very similar to
+
+00:23:24.500 --> 00:23:25.500
+ the use hook.
+
+00:23:25.500 --> 00:23:32.220
+ It's like a core level primitive that you pass in any async function to, and it returns an
+
+00:23:32.220 --> 00:23:36.260
+ object that has, you know, the value if it's there, if it's loading, et cetera.
+
+00:23:36.260 --> 00:23:38.500
+ So that's native to solid.js.
+
+00:23:38.500 --> 00:23:40.740
+ Because it's native integrassable, it's suspense stuff.
+
+00:23:40.740 --> 00:23:44.860
+ So if you have a suspense up top, and you have like, you know, nested series of components
+
+00:23:44.860 --> 00:23:48.940
+ that are all that I'll have resources that are waiting on, it can just wait on all of
+
+00:23:48.940 --> 00:23:49.940
+ that before rendering them all.
+
+00:23:49.940 --> 00:23:56.180
+ So it fixes that pop in issue, and that integrates nicely with SSR, and it's just like works really
+
+00:23:56.180 --> 00:24:01.580
+ nicely all around a little bit easier in the solid world, because the implementation is
+
+00:24:01.580 --> 00:24:06.500
+ kind of simple, because it's just reactivity based, whereas use and react probably needed
+
+00:24:06.500 --> 00:24:08.940
+ a lot of work to implement correctly.
+
+00:24:08.940 --> 00:24:14.740
+ And it's probably why it's still in experimental, they're trying to figure out what it is pattern.
+
+00:24:14.740 --> 00:24:18.980
+ One people like it, and two, if it's implemented correctly.
+
+00:24:18.980 --> 00:24:24.540
+ But this kind of brings me to a broader feeling I've had where, you know, I don't use Next.js,
+
+00:24:24.540 --> 00:24:28.020
+ but you know, I'm pretty familiar with front end stuff.
+
+00:24:28.020 --> 00:24:35.100
+ Watching the conference and all the Q&A and all that, I was surprised that I didn't understand
+
+00:24:35.100 --> 00:24:36.740
+ most of it.
+
+00:24:36.740 --> 00:24:40.900
+ And I kind of got this feeling of, I generally don't complain, like I know there's a general
+
+00:24:40.900 --> 00:24:44.740
+ complaint around front end really complicated and it moves fast.
+
+00:24:44.740 --> 00:24:49.460
+ I definitely hear that, but I generally don't feel that too much, just something like this
+
+00:24:49.460 --> 00:24:55.020
+ is my hobby, I'm like into this stuff, the more changes, the more fun it is for me.
+
+00:24:55.020 --> 00:24:59.580
+ But I was looking at some of this and I was like, man, does this really have to be this
+
+00:24:59.580 --> 00:25:01.080
+ complicated?
+
+00:25:01.080 --> 00:25:02.860
+ I am like barely falling along.
+
+00:25:02.860 --> 00:25:03.860
+ Yeah.
+
+00:25:03.860 --> 00:25:10.620
+ It seems really hard for what seems like pretty simple outcomes.
+
+00:25:10.620 --> 00:25:11.620
+ Yeah.
+
+00:25:11.620 --> 00:25:13.180
+ If you felt the same way.
+
+00:25:13.180 --> 00:25:14.420
+ I totally feel the same way.
+
+00:25:14.420 --> 00:25:19.700
+ And I think that's like the voices in the community that are like hard on the other side
+
+00:25:19.700 --> 00:25:23.460
+ that have been saying it's all too complicated, this could be way simpler than this and even
+
+00:25:23.460 --> 00:25:25.620
+ have offered up solutions to make it simpler.
+
+00:25:25.620 --> 00:25:28.220
+ They're getting louder and louder in my head as I listen to this stuff.
+
+00:25:28.220 --> 00:25:34.020
+ And I think like how many layers deep are we in this stuff that I can't fully grok.
+
+00:25:34.020 --> 00:25:39.260
+ And I feel like I've been using React for like eight years, almost a decade.
+
+00:25:39.260 --> 00:25:41.260
+ And it still doesn't all click with me.
+
+00:25:41.260 --> 00:25:44.780
+ Like I still build stuff every day where I'm like, wait, oh, yeah, of course, no, I can't
+
+00:25:44.780 --> 00:25:45.780
+ do that.
+
+00:25:45.780 --> 00:25:50.460
+ But like that stuff, the cognitive overhead, it does feel like it's reaching a tipping
+
+00:25:50.460 --> 00:25:53.900
+ point for me and maybe within the broader community.
+
+00:25:53.900 --> 00:25:58.180
+ I do wonder like one of the talks kind of made the case that like we need these layers
+
+00:25:58.180 --> 00:26:01.700
+ of abstraction to do things that scale from startup.
+
+00:26:01.700 --> 00:26:06.620
+ It's totally the SST thing from startup to like mega company, like we need these things
+
+00:26:06.620 --> 00:26:09.980
+ and you stand on the shoulders of Vercel and you can build this thing and you know it'll
+
+00:26:09.980 --> 00:26:13.380
+ work for 100 million users like it works for 10 users.
+
+00:26:13.380 --> 00:26:15.420
+ Do you think there's truth in that?
+
+00:26:15.420 --> 00:26:18.700
+ Like, is that why we need all this complex stuff?
+
+00:26:18.700 --> 00:26:22.500
+ Is it just not there, like eventually it'll be simpler, but we just need more layers?
+
+00:26:22.500 --> 00:26:23.500
+ Yeah.
+
+00:26:23.500 --> 00:26:30.660
+ I mean, I'm biased because I use solid and I see a world where it's not like you're absolutely
+
+00:26:30.660 --> 00:26:34.540
+ beginning to pick it up and they're like good to go, but so much.
+
+00:26:34.540 --> 00:26:39.300
+ I felt like like a weight that I didn't know was there just like dropped out of my head.
+
+00:26:39.300 --> 00:26:40.300
+ Just so much.
+
+00:26:40.300 --> 00:26:43.780
+ I want to get that out of my head, yeah.
+
+00:26:43.780 --> 00:26:48.460
+ I went through this thing where when I first started using it, I was like, because it looks
+
+00:26:48.460 --> 00:26:52.300
+ so much like React, the first two months, I was like, oh, I get it, like I'm doing it.
+
+00:26:52.300 --> 00:26:57.660
+ I'm building stuff and I was building stuff, but two months in, I realized I was making
+
+00:26:57.660 --> 00:27:03.260
+ everything overly complicated because just my like React training.
+
+00:27:03.260 --> 00:27:08.900
+ And once I shed all that, it was like, wow, I'm back to just dealing with DOM element and
+
+00:27:08.900 --> 00:27:12.820
+ like touching them directly and like everything is just so straightforward.
+
+00:27:12.820 --> 00:27:16.660
+ So I feel like it doesn't have to be this complicated.
+
+00:27:16.660 --> 00:27:24.540
+ I think React is incredible in that a core idea from 10 years ago is still like relevant
+
+00:27:24.540 --> 00:27:28.460
+ and the main way people are doing things and they've been able to shift and adapt it.
+
+00:27:28.460 --> 00:27:32.700
+ But at some point, you know, everything, everything goes through its phase of that, you know,
+
+00:27:32.700 --> 00:27:36.100
+ I'm into solid just right now, there's going to be a time where I hate it.
+
+00:27:36.100 --> 00:27:38.980
+ I've been to this with enough with enough technologies.
+
+00:27:38.980 --> 00:27:40.460
+ I know that it always happens.
+
+00:27:40.460 --> 00:27:46.140
+ So and what about so solid kind of like removing that react burden?
+
+00:27:46.140 --> 00:27:52.340
+ What about like what next provides and all of the, so I guess if you're using VIT, you're
+
+00:27:52.340 --> 00:27:56.620
+ using things that are, they've solved like we don't have to think about Webpack or transpiling
+
+00:27:56.620 --> 00:28:00.540
+ or any of that stuff anymore, but like what about the get the data fetching, the get server
+
+00:28:00.540 --> 00:28:01.540
+ side props equivalent?
+
+00:28:01.540 --> 00:28:04.620
+ It's like, if you need to do stuff, I mean, I think you don't really do this much.
+
+00:28:04.620 --> 00:28:10.140
+ You mostly build like client driven, like rich apps that are used by focused groups of people.
+
+00:28:10.140 --> 00:28:15.500
+ But do you think that that's, is the Astro like does Astro and solid get me like 95% of
+
+00:28:15.500 --> 00:28:17.980
+ the way there with what I'm used to in next?
+
+00:28:17.980 --> 00:28:18.980
+ Yeah, exactly.
+
+00:28:18.980 --> 00:28:19.980
+ And so you're right.
+
+00:28:19.980 --> 00:28:23.660
+ Most of my time has spent on like long session apps.
+
+00:28:23.660 --> 00:28:27.900
+ So they tend to be SPA's, but even when you build an SPA at some point, you have to build
+
+00:28:27.900 --> 00:28:33.220
+ a marketing page, blog, like just other things like that.
+
+00:28:33.220 --> 00:28:37.380
+ And yeah, so things like next and in that category, these meta frameworks, yeah, I'm
+
+00:28:37.380 --> 00:28:39.780
+ not going to set up SSR on my own.
+
+00:28:39.780 --> 00:28:41.260
+ I remember used to having to do that.
+
+00:28:41.260 --> 00:28:42.260
+ And it was terrible.
+
+00:28:42.260 --> 00:28:43.500
+ I never actually did it right.
+
+00:28:43.500 --> 00:28:46.940
+ And I think that was even how next described it when I first came out, they were like, nobody
+
+00:28:46.940 --> 00:28:50.080
+ does this, right?
+
+00:28:50.080 --> 00:28:53.620
+ So yeah, I mean, they're great.
+
+00:28:53.620 --> 00:28:55.540
+ But it's not really next for me.
+
+00:28:55.540 --> 00:29:02.500
+ I think next is a great job packaging, this complexity into something pretty digestible.
+
+00:29:02.500 --> 00:29:06.940
+ It's just when I get peaks into the underlying stuff and I get that you don't have to do
+
+00:29:06.940 --> 00:29:07.940
+ that right away.
+
+00:29:07.940 --> 00:29:11.780
+ You can be a beginner and stay at a high level.
+
+00:29:11.780 --> 00:29:16.420
+ But you know, you never feel good if the stuff you're sitting on feels like really chaotic.
+
+00:29:16.420 --> 00:29:17.420
+ Yeah.
+
+00:29:17.420 --> 00:29:21.860
+ You want things to feel like simpler at the low level and you're kind of surprised that
+
+00:29:21.860 --> 00:29:23.940
+ when you dig into it, you want to be surprised.
+
+00:29:23.940 --> 00:29:26.020
+ Oh, this is a lot simpler than I thought it was.
+
+00:29:26.020 --> 00:29:30.340
+ Because the other way around it's kind of, you sort of feel uneasy, at least I do.
+
+00:29:30.340 --> 00:29:31.340
+ Yeah.
+
+00:29:31.340 --> 00:29:36.220
+ So that was the whole middle point of the conference of the keynote, like, is this layouts RFC and
+
+00:29:36.220 --> 00:29:38.300
+ now rolling in the next year, 13?
+
+00:29:38.300 --> 00:29:40.340
+ And it does, I think, leave me uneasy.
+
+00:29:40.340 --> 00:29:45.940
+ I just feel like there's so much that I don't understand and I don't know why I don't understand.
+
+00:29:45.940 --> 00:29:46.940
+ But maybe it'll all start making sense.
+
+00:29:46.940 --> 00:29:47.940
+ I haven't used this stuff.
+
+00:29:47.940 --> 00:29:51.460
+ Maybe once I'm using server components and I'm creating client components and it all just
+
+00:29:51.460 --> 00:29:52.460
+ makes sense to me.
+
+00:29:52.460 --> 00:29:53.460
+ I don't know.
+
+00:29:53.460 --> 00:29:58.580
+ The react contributor on the Q&A did say there will be a learning curve as people start
+
+00:29:58.580 --> 00:30:00.660
+ thinking about the distinction between the two.
+
+00:30:00.660 --> 00:30:05.460
+ Yeah, but then I just think of the Brian LaRouze of the world and like what they think of
+
+00:30:05.460 --> 00:30:06.460
+ all this.
+
+00:30:06.460 --> 00:30:09.460
+ It's so hard for me to hear that voice in my head.
+
+00:30:09.460 --> 00:30:14.580
+ I think he would die if he watched the conference, I think your heart would just stop.
+
+00:30:14.580 --> 00:30:20.340
+ Okay, so then the third thing was like, I don't even remember the name that they use,
+
+00:30:20.340 --> 00:30:22.740
+ but it's like higher level web components.
+
+00:30:22.740 --> 00:30:26.700
+ So it's like, you need to serve images in the right way.
+
+00:30:26.700 --> 00:30:27.780
+ So let's just go through them.
+
+00:30:27.780 --> 00:30:33.020
+ There's like next image, there's next font, there's next link.
+
+00:30:33.020 --> 00:30:36.260
+ Next image and next font or next link existed.
+
+00:30:36.260 --> 00:30:38.940
+ They both got better by removing stuff.
+
+00:30:38.940 --> 00:30:43.580
+ So next image, you don't have like all the JavaScript stuff.
+
+00:30:43.580 --> 00:30:47.100
+ I think they're using like intersection observers and all this, whatever they were doing before
+
+00:30:47.100 --> 00:30:49.660
+ with all this JavaScript now just uses the native browser stuff.
+
+00:30:49.660 --> 00:30:54.980
+ I guess it's far enough along now with browser support, it'll load images based on native
+
+00:30:54.980 --> 00:30:55.980
+ browser API.
+
+00:30:55.980 --> 00:30:58.060
+ So they basically stripped out a lot of the JavaScript.
+
+00:30:58.060 --> 00:31:03.100
+ And now next image is lighter, more accessible, better, just uses the platform.
+
+00:31:03.100 --> 00:31:04.100
+ So that's next image.
+
+00:31:04.100 --> 00:31:06.820
+ I think, I think that's only available next 13.
+
+00:31:06.820 --> 00:31:09.180
+ I don't know if they'd already rolled that out or not.
+
+00:31:09.180 --> 00:31:12.860
+ But next link, you don't have to put anchor tags in anymore.
+
+00:31:12.860 --> 00:31:13.860
+ Again, you don't use next year.
+
+00:31:13.860 --> 00:31:14.860
+ So this may not make sense.
+
+00:31:14.860 --> 00:31:16.500
+ No, I'm familiar with that.
+
+00:31:16.500 --> 00:31:18.980
+ I have used next, so I'm familiar with some of the patterns.
+
+00:31:18.980 --> 00:31:19.980
+ Yeah.
+
+00:31:19.980 --> 00:31:23.300
+ So you had to have like an anchor tag just like this naked anchor tag in your link tags,
+
+00:31:23.300 --> 00:31:24.300
+ which is always dumb.
+
+00:31:24.300 --> 00:31:25.780
+ Now you don't have to.
+
+00:31:25.780 --> 00:31:29.820
+ So now your links don't involve anchor tags about, no, I know they're probably rendering
+
+00:31:29.820 --> 00:31:30.820
+ anchor tags.
+
+00:31:30.820 --> 00:31:34.540
+ I just know people like Brian or Lou would hear that like, great, we don't have to do
+
+00:31:34.540 --> 00:31:36.540
+ anchor tags now.
+
+00:31:36.540 --> 00:31:38.540
+ And then next font is new.
+
+00:31:38.540 --> 00:31:40.160
+ I'm so hyped about this one.
+
+00:31:40.160 --> 00:31:41.700
+ There's a fourth thing we'll talk about, too.
+
+00:31:41.700 --> 00:31:44.700
+ I'm all over the place, I'm sorry.
+
+00:31:44.700 --> 00:31:48.900
+ The next font thing was maybe the most excited I got at the whole conference because the
+
+00:31:48.900 --> 00:31:53.340
+ number of times I want to use a Google font, I search on Google fonts, I find it.
+
+00:31:53.340 --> 00:31:56.300
+ And then it's like, you could just drop the script on your page if you want to be bad
+
+00:31:56.300 --> 00:31:57.300
+ and do bad things.
+
+00:31:57.300 --> 00:31:58.700
+ And I'm like, not going to do that.
+
+00:31:58.700 --> 00:32:04.540
+ I'm going to look up again how to do the best thing and self-host it and preload.
+
+00:32:04.540 --> 00:32:10.660
+ And the inline the CSS, and then also you got to do your, is it optional?
+
+00:32:10.660 --> 00:32:13.580
+ Are you going to swap it like a chump and have layout shift?
+
+00:32:13.580 --> 00:32:16.180
+ Like what are you going to do with the font when you get it?
+
+00:32:16.180 --> 00:32:20.020
+ The problem I have with that whole thing, I always spend forever just like remembering
+
+00:32:20.020 --> 00:32:23.700
+ all the places I have to put stuff and then I use tailwinds, I put the font and tailwind.
+
+00:32:23.700 --> 00:32:25.140
+ I do all that.
+
+00:32:25.140 --> 00:32:29.820
+ And then the best path for performance, if you want to like check all the web vitals
+
+00:32:29.820 --> 00:32:34.620
+ boxes is to use the optional font loading strategy, right?
+
+00:32:34.620 --> 00:32:38.780
+ And optional means everyone that hits your site and then leaves and never comes back
+
+00:32:38.780 --> 00:32:42.580
+ sees the dumb basic font, so this is not your custom font.
+
+00:32:42.580 --> 00:32:46.460
+ So like the first load of the page, it's probably not going to load the font fast enough, even
+
+00:32:46.460 --> 00:32:47.460
+ with your preload.
+
+00:32:47.460 --> 00:32:49.100
+ And they're just not even going to ever see the custom font.
+
+00:32:49.100 --> 00:32:54.780
+ So it always felt like you either have layout shift or you only show the cool font to people
+
+00:32:54.780 --> 00:32:55.780
+ who come back.
+
+00:32:55.780 --> 00:32:56.980
+ And I hated that.
+
+00:32:56.980 --> 00:33:01.580
+ So I love the next font, you just use a font from Google fonts, like you import it into
+
+00:33:01.580 --> 00:33:04.900
+ your thing, just like you import any other module.
+
+00:33:04.900 --> 00:33:09.420
+ You choose like enter or whatever the font is, they download, they self-host it.
+
+00:33:09.420 --> 00:33:13.140
+ I know you've used something that does something like this in node modules, but it self-host
+
+00:33:13.140 --> 00:33:14.140
+ the font.
+
+00:33:14.140 --> 00:33:15.140
+ It does all the preloading.
+
+00:33:15.140 --> 00:33:16.140
+ It just does everything.
+
+00:33:16.140 --> 00:33:17.140
+ It does all those things.
+
+00:33:17.140 --> 00:33:22.060
+ But then also it sounds like it uses a swap font loading strategy and it uses like margins
+
+00:33:22.060 --> 00:33:23.060
+ and stuff.
+
+00:33:23.060 --> 00:33:27.500
+ There's some browser API for it, I guess, for like accommodating, like making the font
+
+00:33:27.500 --> 00:33:30.820
+ not layout shift when it swaps in, which sounds amazing.
+
+00:33:30.820 --> 00:33:33.060
+ If that all works, I'll be very happy.
+
+00:33:33.060 --> 00:33:34.060
+ Got it.
+
+00:33:34.060 --> 00:33:40.340
+ So does it basically know for each font, like some dimensions of what the font would take
+
+00:33:40.340 --> 00:33:41.340
+ up?
+
+00:33:41.340 --> 00:33:42.340
+ I believe so.
+
+00:33:42.340 --> 00:33:45.060
+ I think there's some CSS property, right, that's you adjust it.
+
+00:33:45.060 --> 00:33:46.700
+ So then there's no layout shift when it swaps.
+
+00:33:46.700 --> 00:33:47.700
+ That's pretty awesome.
+
+00:33:47.700 --> 00:33:48.700
+ It is awesome.
+
+00:33:48.700 --> 00:33:49.700
+ I'm so excited about it.
+
+00:33:49.700 --> 00:33:54.900
+ It's also done being like hyped up about this font thing when the whole conference, that's
+
+00:33:54.900 --> 00:33:57.520
+ the only thing that really got me excited.
+
+00:33:57.520 --> 00:34:02.180
+ The fourth thing was the OG generation, which they actually put, they posted this on Twitter
+
+00:34:02.180 --> 00:34:06.180
+ a couple of weeks ago, but they announced it at the conference.
+
+00:34:06.180 --> 00:34:07.260
+ It's actually really cool.
+
+00:34:07.260 --> 00:34:12.580
+ You can render dynamic social images with React components.
+
+00:34:12.580 --> 00:34:16.500
+ It's some weird like stripped down, they've made like their own thing that turns a React
+
+00:34:16.500 --> 00:34:21.260
+ component into an SVG or something, or I don't know, or into an image.
+
+00:34:21.260 --> 00:34:22.460
+ You can use like a subset of tailwind.
+
+00:34:22.460 --> 00:34:23.460
+ Sorry.
+
+00:34:23.460 --> 00:34:24.460
+ I'm talking too much.
+
+00:34:24.460 --> 00:34:25.460
+ Go ahead.
+
+00:34:25.460 --> 00:34:26.460
+ No, no, I was just listening.
+
+00:34:26.460 --> 00:34:30.220
+ Yeah, that was actually one of the old SSD tutorials was building something like that
+
+00:34:30.220 --> 00:34:34.740
+ where you can build a OG image generator, like a serverless thing where a lambda function
+
+00:34:34.740 --> 00:34:35.740
+ generates it once.
+
+00:34:35.740 --> 00:34:38.300
+ But yeah, having that built in is great.
+
+00:34:38.300 --> 00:34:41.260
+ There's even like whole SAS tools that just help you with this, right?
+
+00:34:41.260 --> 00:34:42.260
+ I know there's that.
+
+00:34:42.260 --> 00:34:43.260
+ Oh, yeah.
+
+00:34:43.260 --> 00:34:48.540
+ Cool, and that I think that's like the whole fully integrated vertical thing, the Apple
+
+00:34:48.540 --> 00:34:51.300
+ model of like, we're going to have everything you need.
+
+00:34:51.300 --> 00:34:52.300
+ That's where it's really nice.
+
+00:34:52.300 --> 00:34:56.540
+ I do love like, it's the kind of stuff that'll hook me like I'll keep using next because
+
+00:34:56.540 --> 00:35:02.020
+ of next slash font and the OG image generation like that stuff was just like really annoying
+
+00:35:02.020 --> 00:35:06.740
+ little things that it's really like, I don't like having to manage those on my own.
+
+00:35:06.740 --> 00:35:11.300
+ So I do like that they because they do the hosting with Vercel, like they can actually
+
+00:35:11.300 --> 00:35:15.740
+ pull off this vertical thing that cross cuts several different areas.
+
+00:35:15.740 --> 00:35:21.140
+ Like you're writing this component in your thing that renders an image that gets served
+
+00:35:21.140 --> 00:35:24.180
+ at the edge and all, you know, all that comes into play there.
+
+00:35:24.180 --> 00:35:27.660
+ But you can't really do that if you don't own the full thing.
+
+00:35:27.660 --> 00:35:28.660
+ So it's pretty cool.
+
+00:35:28.660 --> 00:35:29.660
+ Yeah.
+
+00:35:29.660 --> 00:35:30.660
+ Yeah.
+
+00:35:30.660 --> 00:35:33.180
+ And I think these, some of these other meta frameworks, they kind of have to build in
+
+00:35:33.180 --> 00:35:36.300
+ a neutral vendor, neutral way.
+
+00:35:36.300 --> 00:35:40.460
+ And that does limit some of some of their functionality, like they couldn't build like
+
+00:35:40.460 --> 00:35:43.900
+ an ISR feature, for example.
+
+00:35:43.900 --> 00:35:46.420
+ Yeah, it makes sense.
+
+00:35:46.420 --> 00:35:52.860
+ So okay, high level thoughts or do you have anything on any of the app components or
+
+00:35:52.860 --> 00:35:55.860
+ any of that last bullet point that you care about?
+
+00:35:55.860 --> 00:36:04.060
+ Well, I mean, again, it's probably a negative thought, but I did have a moment during the
+
+00:36:04.060 --> 00:36:09.140
+ conference where I was like, we're all sitting here gathered around watching this thing and
+
+00:36:09.140 --> 00:36:11.820
+ excited and we're talking about a link component.
+
+00:36:11.820 --> 00:36:17.180
+ Like I get there's a lot of underlying routing and lots of deep implications there, but it's
+
+00:36:17.180 --> 00:36:23.820
+ like, you don't have to put a tag inside this other tag and that's like, you know, one of
+
+00:36:23.820 --> 00:36:28.660
+ the main announcements and I was thinking back to how I always go this way whenever Unreal
+
+00:36:28.660 --> 00:36:34.060
+ Engine has like a new version and then they do their demo, I'm like, yeah, they're showing
+
+00:36:34.060 --> 00:36:39.920
+ off how you can create like entire universes and like perfect fidelity without any work.
+
+00:36:39.920 --> 00:36:44.700
+ And our equivalent, our industry is like, oh, like this tag doesn't need to go in this
+
+00:36:44.700 --> 00:36:46.100
+ other tag anymore.
+
+00:36:46.100 --> 00:36:47.780
+ And it just makes me feel pretty lame.
+
+00:36:47.780 --> 00:36:51.700
+ Yeah, no, it is kind of a lot to do about nothing.
+
+00:36:51.700 --> 00:36:57.140
+ Yeah, it's hard because I do get excited about some of these things that are pretty trivial
+
+00:36:57.140 --> 00:36:58.300
+ things.
+
+00:36:58.300 --> 00:37:03.540
+ And when you think about like how outsiders, people who aren't web developers would view
+
+00:37:03.540 --> 00:37:04.540
+ what we do.
+
+00:37:04.540 --> 00:37:08.340
+ Like they wouldn't think we'd be excited about the things we get excited about.
+
+00:37:08.340 --> 00:37:09.340
+ I don't know.
+
+00:37:09.340 --> 00:37:12.140
+ It's like Apple, it's the whole Apple parallel.
+
+00:37:12.140 --> 00:37:13.180
+ It's just been all over the internet.
+
+00:37:13.180 --> 00:37:18.660
+ I mean, everybody's like got their memes about how Versailles is very much creating this Apple
+
+00:37:18.660 --> 00:37:19.660
+ of the software world.
+
+00:37:19.660 --> 00:37:27.500
+ I want to talk like high level, Versailles, economics, their Apple comparison.
+
+00:37:27.500 --> 00:37:31.940
+ I think the Apple thing, the reason that reminded me of it is like they announced a new iPhone
+
+00:37:31.940 --> 00:37:35.540
+ every year, and at this point, nothing really changes.
+
+00:37:35.540 --> 00:37:37.420
+ We get excited about the littlest dumbest things.
+
+00:37:37.420 --> 00:37:39.260
+ It's like a new camera.
+
+00:37:39.260 --> 00:37:40.420
+ That's exciting.
+
+00:37:40.420 --> 00:37:43.120
+ But it felt very like that.
+
+00:37:43.120 --> 00:37:46.220
+ There is a lot that they announced, and I don't want to discount that they have a lot
+
+00:37:46.220 --> 00:37:51.500
+ of people at Versailles working very hard on some cool problems, like all the rest stuff.
+
+00:37:51.500 --> 00:37:52.500
+ I don't know.
+
+00:37:52.500 --> 00:37:53.660
+ It's exciting.
+
+00:37:53.660 --> 00:37:57.900
+ But the things I'm most excited about from the talk, from the conference, do feel like
+
+00:37:57.900 --> 00:38:00.260
+ pretty trivial improvements.
+
+00:38:00.260 --> 00:38:05.940
+ It's just like quality of life improvements at this point.
+
+00:38:05.940 --> 00:38:11.140
+ But maybe it's just because I don't understand all of the partial hydration, and which parts
+
+00:38:11.140 --> 00:38:12.820
+ of my page won't have to re-render.
+
+00:38:12.820 --> 00:38:15.540
+ When they say won't re-render, do they mean on the server or the client?
+
+00:38:15.540 --> 00:38:19.540
+ I just get so confused that maybe I don't understand how big this is.
+
+00:38:19.540 --> 00:38:21.900
+ I'm excited about next font.
+
+00:38:21.900 --> 00:38:23.260
+ I don't know.
+
+00:38:23.260 --> 00:38:25.940
+ Well, it's your worst pain point, so.
+
+00:38:25.940 --> 00:38:26.940
+ It is.
+
+00:38:26.940 --> 00:38:27.940
+ Yeah.
+
+00:38:27.940 --> 00:38:29.580
+ It's sad, but that is my worst pain point.
+
+00:38:29.580 --> 00:38:39.100
+ I figure high-level thoughts on like, Versailles and how they pull all this off, I guess.
+
+00:38:39.100 --> 00:38:42.780
+ I can't help but watch that conference see all the lead up to it, which they brought
+
+00:38:42.780 --> 00:38:48.180
+ everybody to San Francisco to be like, "Oh, they didn't bring us, so not everybody."
+
+00:38:48.180 --> 00:38:53.300
+ They brought everybody to San Francisco as this crazy developer party where all the celebrities
+
+00:38:53.300 --> 00:38:56.980
+ in Devland are hanging out, and they have this whole production.
+
+00:38:56.980 --> 00:39:01.660
+ It's this crazy, nobody's seen it in the tech world, but then I can't help but think about
+
+00:39:01.660 --> 00:39:03.580
+ the fact that like, do they make money?
+
+00:39:03.580 --> 00:39:04.580
+ I don't know.
+
+00:39:04.580 --> 00:39:08.800
+ They've raised $350 million, but do they make money, and is this sustainable?
+
+00:39:08.800 --> 00:39:11.140
+ Is this like, are we going down?
+
+00:39:11.140 --> 00:39:13.940
+ Are we going, is this a sign of the end?
+
+00:39:13.940 --> 00:39:14.940
+ Yeah.
+
+00:39:14.940 --> 00:39:15.940
+ Yeah.
+
+00:39:15.940 --> 00:39:21.900
+ There's always moments you think back to when there's been a downturn of like, obviously
+
+00:39:21.900 --> 00:39:24.340
+ that was like the top or whatever.
+
+00:39:24.340 --> 00:39:25.340
+ Yeah.
+
+00:39:25.340 --> 00:39:26.340
+ I don't know.
+
+00:39:26.340 --> 00:39:30.220
+ I think I have a few, like with everything else, I'm pretty confused.
+
+00:39:30.220 --> 00:39:34.300
+ I just feel like lately in life I'm just pretty confused, most of the time, especially when
+
+00:39:34.300 --> 00:39:37.820
+ it comes to the web world.
+
+00:39:37.820 --> 00:39:42.140
+ I'm sure they're doing fine as a business.
+
+00:39:42.140 --> 00:39:45.580
+ You can't be this beloved and not make money.
+
+00:39:45.580 --> 00:39:46.580
+ Sure.
+
+00:39:46.580 --> 00:39:53.020
+ Maybe you can, but I feel like you know you got to, I'm sure some dollars are coming out.
+
+00:39:53.020 --> 00:39:57.580
+ I think the place where, and this is going to come from like my bias and the stuff I
+
+00:39:57.580 --> 00:40:01.940
+ work on, I think for most of my career, I never thought of myself as a web developer.
+
+00:40:01.940 --> 00:40:07.260
+ I thought of myself as, I work on software and oftentimes that software has like a web
+
+00:40:07.260 --> 00:40:14.380
+ component, like we have a dashboard, whatever, but you know, the meat of the value is in the
+
+00:40:14.380 --> 00:40:20.700
+ back end or like whatever, you know, business logic we've written, et cetera.
+
+00:40:20.700 --> 00:40:25.140
+ So like web, the web part was just like a tiny piece of the whole thing.
+
+00:40:25.140 --> 00:40:27.620
+ Of course, web has gotten a lot more complicated.
+
+00:40:27.620 --> 00:40:34.260
+ The experiences people get are, or expect are a lot more sophisticated, but still in my like
+
+00:40:34.260 --> 00:40:42.140
+ overall stack, it still to me feels like it's just like this component of the whole system.
+
+00:40:42.140 --> 00:40:50.140
+ And having a company trying to just monetize just that portion of it, I don't know how much
+
+00:40:50.140 --> 00:40:53.420
+ money I'm going to want to ever give them for this, at least for the stuff that I work
+
+00:40:53.420 --> 00:40:55.220
+ on, right?
+
+00:40:55.220 --> 00:40:59.580
+ In my overall bill, I would expect my front end to be like a minuscule fraction of the
+
+00:40:59.580 --> 00:41:02.380
+ bill, compared to like my database, right?
+
+00:41:02.380 --> 00:41:05.780
+ All these database providers that are coming out, like I know they're going to be making
+
+00:41:05.780 --> 00:41:11.260
+ tons of money, like you'll play, you'll pay plants, kill whatever, because that's like
+
+00:41:11.260 --> 00:41:13.900
+ everything you care about, right?
+
+00:41:13.900 --> 00:41:20.780
+ So I kind of wonder with wherever cell focuses, it's for people where the web part is the thing,
+
+00:41:20.780 --> 00:41:26.580
+ the whole product, and that tends to be, I think I'm maybe missing some things, but it
+
+00:41:26.580 --> 00:41:28.900
+ tends to be things like e-commerce, right?
+
+00:41:28.900 --> 00:41:31.500
+ E-commerce like that, your web platform is the product.
+
+00:41:31.500 --> 00:41:35.260
+ The faster it serves, the more money you make, you know, the higher quality, et cetera.
+
+00:41:35.260 --> 00:41:37.260
+ That's what you care about.
+
+00:41:37.260 --> 00:41:41.180
+ But these aren't like software companies that are making tons and tons of money.
+
+00:41:41.180 --> 00:41:45.340
+ They pretty much have like tough margins, and they are pretty sensitive to prices.
+
+00:41:45.340 --> 00:41:46.340
+ Yeah.
+
+00:41:46.340 --> 00:41:50.580
+ And we see this a lot because we help people deploy next on AWS.
+
+00:41:50.580 --> 00:41:55.140
+ A lot of people are coming to us to switch over to deploying next and AWS because they
+
+00:41:55.140 --> 00:42:00.900
+ got an email from Versailles saying, "Hey, you're like way over, or like fair use thing.
+
+00:42:00.900 --> 00:42:06.820
+ You know, we'd like you to pay like, you know, 75K a year for your usage."
+
+00:42:06.820 --> 00:42:09.340
+ And that's like pretty tough for some of these companies.
+
+00:42:09.340 --> 00:42:15.660
+ So I do, I'm sure that's not like all of Versailles business, but yeah, like how much value can
+
+00:42:15.660 --> 00:42:21.860
+ you get just doing this web portion of it, unless you start to capture like, okay, it's
+
+00:42:21.860 --> 00:42:26.440
+ going to be the whole backend and we're going to host your database, you know, Yeah, I keep
+
+00:42:26.440 --> 00:42:27.440
+ waiting for that.
+
+00:42:27.440 --> 00:42:31.740
+ I keep waiting for them to like make the obvious moves like they figured out a good developer
+
+00:42:31.740 --> 00:42:36.740
+ experience and how to create really performant web apps, like, what about all the rest of
+
+00:42:36.740 --> 00:42:37.740
+ it?
+
+00:42:37.740 --> 00:42:40.760
+ If they did the front end, where's the rest of it?
+
+00:42:40.760 --> 00:42:46.820
+ Are they going to start venturing into data and to actual APIs that just seems natural,
+
+00:42:46.820 --> 00:42:50.900
+ but they just, I mean, we would just go through another next half and they're not hinting
+
+00:42:50.900 --> 00:42:51.900
+ at that.
+
+00:42:51.900 --> 00:42:54.820
+ It seems like they're doubling down on to your point, making this small part of our
+
+00:42:54.820 --> 00:42:58.060
+ broader applications better.
+
+00:42:58.060 --> 00:43:03.340
+ Like if I think about deploying a web app on AWS, if I were not using Versailles, it's
+
+00:43:03.340 --> 00:43:09.580
+ like I spend all my money on DynamoDB and whatever, if you're using a relational database,
+
+00:43:09.580 --> 00:43:14.520
+ you know, whatever, Aurora or something, I said relational, if you're using a SQL based
+
+00:43:14.520 --> 00:43:19.260
+ database, if you're using like, those are always a big expensive thing.
+
+00:43:19.260 --> 00:43:21.260
+ And then you spend like nothing on S3 and Cloud front.
+
+00:43:21.260 --> 00:43:25.500
+ And maybe that's because I don't make apps that people use, but ultimately I do, I see
+
+00:43:25.500 --> 00:43:30.760
+ that parallel, like they are focused on this one part of a broader thing, but yeah, I guess
+
+00:43:30.760 --> 00:43:34.140
+ e-commerce that is mostly the thing, I don't know.
+
+00:43:34.140 --> 00:43:38.380
+ And they mentioned e-commerce in the conference, like as like these major e-commerce companies
+
+00:43:38.380 --> 00:43:42.740
+ that use Next.js and Versailles, I don't know.
+
+00:43:42.740 --> 00:43:43.740
+ Yeah.
+
+00:43:43.740 --> 00:43:48.380
+ And e-commerce is also hard because they serve a ton of impressions because the whole thing
+
+00:43:48.380 --> 00:43:51.820
+ with e-commerce is you drive as many people to your platform responsible and you convert
+
+00:43:51.820 --> 00:43:52.820
+ a small number of them.
+
+00:43:52.820 --> 00:43:53.820
+ Yeah.
+
+00:43:53.820 --> 00:43:57.220
+ And people like look at a lot of images, it's like heavy content stuff.
+
+00:43:57.220 --> 00:43:59.220
+ So that's why these bills add up.
+
+00:43:59.220 --> 00:44:00.220
+ Yeah.
+
+00:44:00.220 --> 00:44:04.380
+ So yeah, that whole space, I'm sure they'll win and I'm sure winning looks like a massively
+
+00:44:04.380 --> 00:44:07.340
+ successful company.
+
+00:44:07.340 --> 00:44:08.340
+ But it feels tough.
+
+00:44:08.340 --> 00:44:14.260
+ It feels a lot tougher than focusing on some of these other just high, higher value areas.
+
+00:44:14.260 --> 00:44:19.660
+ And I think the, I guess the reason if I look at what type of company they are there, really
+
+00:44:19.660 --> 00:44:24.380
+ great at focusing on DX, like solving the last mile problems on top of other infrastructure.
+
+00:44:24.380 --> 00:44:28.060
+ Like, you know, they're building originally built all on AWS.
+
+00:44:28.060 --> 00:44:34.580
+ They have stuff on workers, but I think to sell like more infrastructure type products
+
+00:44:34.580 --> 00:44:37.140
+ like a database, you kind of have to be an infrastructure company.
+
+00:44:37.140 --> 00:44:42.020
+ I don't know if that's like really in their DNA, like they're not, you know, they're not,
+
+00:44:42.020 --> 00:44:45.220
+ their core competency isn't managing like a cluster of servers or anything.
+
+00:44:45.220 --> 00:44:51.060
+ It's more focusing on the last mile on top of someone else doing the other stuff.
+
+00:44:51.060 --> 00:44:56.980
+ I think I'm more confused than I was when we started this and I don't know.
+
+00:44:56.980 --> 00:44:57.980
+ I don't know where it's all headed.
+
+00:44:57.980 --> 00:45:02.580
+ I do feel like we're in weird times in this, I don't know, this landscape right now, not
+
+00:45:02.580 --> 00:45:03.580
+ just next year.
+
+00:45:03.580 --> 00:45:09.020
+ It's just like more broadly, I guess web like, I don't feel like we're in weird times over
+
+00:45:09.020 --> 00:45:12.060
+ in like back end land or cloud land.
+
+00:45:12.060 --> 00:45:16.980
+ I feel like it's just like, that's a play, that's a parallel like AWS actually is just
+
+00:45:16.980 --> 00:45:21.620
+ making a criminal changes to all these wonderful primitives that we can build on reinvent.
+
+00:45:21.620 --> 00:45:24.940
+ I expect nothing to blow me away.
+
+00:45:24.940 --> 00:45:27.780
+ It's all very stable and this web world is so weird.
+
+00:45:27.780 --> 00:45:31.900
+ And there's so many people with strong opinions and they all have platforms and they can voice
+
+00:45:31.900 --> 00:45:33.100
+ those opinions.
+
+00:45:33.100 --> 00:45:36.780
+ And I don't know what to think anymore.
+
+00:45:36.780 --> 00:45:38.180
+ But I do think DevRel sucks.
+
+00:45:38.180 --> 00:45:42.660
+ That's one thing I'll say coming out next comp, I just don't hear more about this.
+
+00:45:42.660 --> 00:45:48.180
+ I just don't know like, what do you think about Vercel is like a culture, like an influencer
+
+00:45:48.180 --> 00:45:53.420
+ of developer culture, like they're trying to create something that really hasn't existed.
+
+00:45:53.420 --> 00:45:58.020
+ I mean, there hasn't been a DevTools company that looks like Apple when they put on an event
+
+00:45:58.020 --> 00:46:04.140
+ and that like brings in all the dignitaries and like has this very flashy, glossy appearance.
+
+00:46:04.140 --> 00:46:05.780
+ How do you think that plays out for them?
+
+00:46:05.780 --> 00:46:11.300
+ Like does that get them more usage like do developers want to use Vercel because of events
+
+00:46:11.300 --> 00:46:13.380
+ like what they just did yesterday?
+
+00:46:13.380 --> 00:46:16.020
+ Yeah, I think it definitely does.
+
+00:46:16.020 --> 00:46:22.140
+ I mean, there's no reason why the Apple strategy wouldn't work.
+
+00:46:22.140 --> 00:46:24.220
+ And I also think there is merit to it.
+
+00:46:24.220 --> 00:46:29.060
+ I kind of think of it as if you're able to pull off good design, it's because you figured
+
+00:46:29.060 --> 00:46:32.020
+ out all the other parts of your business and you have left over time for this.
+
+00:46:32.020 --> 00:46:36.580
+ So when I see good design, I think it is a good signal of something.
+
+00:46:36.580 --> 00:46:38.980
+ Most companies are like scrambling to figure out their core product.
+
+00:46:38.980 --> 00:46:44.340
+ They're never going to like get to the aesthetic stuff, right?
+
+00:46:44.340 --> 00:46:48.700
+ So I do treat it as like a real valid signal.
+
+00:46:48.700 --> 00:46:53.060
+ I think for me, like we've talked about before, whenever I see something getting popular,
+
+00:46:53.060 --> 00:46:55.500
+ I start to hate it.
+
+00:46:55.500 --> 00:47:00.540
+ It's just it's completely irrational and there's no logic to it, but I'm like, next
+
+00:47:00.540 --> 00:47:03.060
+ JS is like the top dog right now.
+
+00:47:03.060 --> 00:47:08.140
+ So I'm looking for, you know, like whoever's going to get the angle on them and like what's
+
+00:47:08.140 --> 00:47:13.500
+ coming up next and how are they going to like fumble their lead.
+
+00:47:13.500 --> 00:47:14.500
+ Yeah.
+
+00:47:14.500 --> 00:47:17.340
+ So, yeah, that's how I think about you.
+
+00:47:17.340 --> 00:47:22.820
+ Yeah, no, my feelings are probably like, they're all just driven from like FOMO, I think.
+
+00:47:22.820 --> 00:47:25.980
+ I wish I was at the conference, so I have salty feelings about the conference.
+
+00:47:25.980 --> 00:47:27.940
+ It's a lot of jealousy too.
+
+00:47:27.940 --> 00:47:29.460
+ Oh, yeah, for sure.
+
+00:47:29.460 --> 00:47:30.460
+ Definitely an angle.
+
+00:47:30.460 --> 00:47:32.860
+ I'm a sucker for aesthetics, they nail design.
+
+00:47:32.860 --> 00:47:36.340
+ I mean, they're folks, I know I've seen some of them on Twitter, they're really good.
+
+00:47:36.340 --> 00:47:38.140
+ Like, I love all of that part of it.
+
+00:47:38.140 --> 00:47:42.980
+ I think the dev role parts the part that I'm like, eh, it feels very fake and just how
+
+00:47:42.980 --> 00:47:46.820
+ many developers are really like positively influenced when they watch if you saw that
+
+00:47:46.820 --> 00:47:47.820
+ pre-show.
+
+00:47:47.820 --> 00:47:51.340
+ Like watching that pre-show, I don't think that helps for sale.
+
+00:47:51.340 --> 00:47:55.260
+ I think developers are a pretty like scrutinizing bunch.
+
+00:47:55.260 --> 00:48:00.900
+ I think we can smell out inauthenticity, inauthenticity, I can't say that word, but
+
+00:48:00.900 --> 00:48:03.380
+ we can smell it when things aren't authentic.
+
+00:48:03.380 --> 00:48:10.220
+ Yeah, I think I fundamentally, the thing that I have an issue with is I don't believe really
+
+00:48:10.220 --> 00:48:16.580
+ in this 100% dev role where that's like just your entire job.
+
+00:48:16.580 --> 00:48:18.740
+ I just find it weird, right?
+
+00:48:18.740 --> 00:48:24.020
+ You spend, you work at a company, you learn to like their product, you spend a bunch of
+
+00:48:24.020 --> 00:48:28.580
+ time like just evangelizing it and explaining to the world why everyone should use it.
+
+00:48:28.580 --> 00:48:32.860
+ You get a lot of followers, people look to you through that job.
+
+00:48:32.860 --> 00:48:38.340
+ Then some other company is like, hey, you have a lot of influence and followers, here's
+
+00:48:38.340 --> 00:48:44.780
+ a bunch of money to come to our company and now say that you love our product.
+
+00:48:44.780 --> 00:48:48.900
+ You've seen this cycle because this dev role role has been there long enough where you've
+
+00:48:48.900 --> 00:48:54.660
+ seen some people like switch companies and all of a sudden they're like vision for the
+
+00:48:54.660 --> 00:48:58.860
+ future and what software looks like is somehow centered around the new company they're working
+
+00:48:58.860 --> 00:48:59.860
+ on.
+
+00:48:59.860 --> 00:49:05.940
+ Yeah, the incentives there just don't make sense to me.
+
+00:49:05.940 --> 00:49:11.100
+ It's one thing where someone's creating the framework that they think is a future and
+
+00:49:11.100 --> 00:49:15.100
+ they love and they really have this vision and therefore they're evangelizing it and
+
+00:49:15.100 --> 00:49:16.660
+ they're committed to it.
+
+00:49:16.660 --> 00:49:22.500
+ If that dies, they can just go hop on to the next thing like it's a large level of commitment.
+
+00:49:22.500 --> 00:49:24.060
+ Dev role is a very low commitment.
+
+00:49:24.060 --> 00:49:27.380
+ You can switch and there's lots of opportunities.
+
+00:49:27.380 --> 00:49:32.860
+ So yeah, I don't know how seriously I can take some of that and the authenticity thing
+
+00:49:32.860 --> 00:49:38.020
+ is also kind of there because you're supposed to, you're like pretending like you're representing
+
+00:49:38.020 --> 00:49:43.060
+ yourself but you technically can't say anything that wouldn't be on brand for the company.
+
+00:49:43.060 --> 00:49:44.500
+ So yeah, it's just really weird.
+
+00:49:44.500 --> 00:49:45.500
+ It's weird to me.
+
+00:49:45.500 --> 00:49:46.500
+ It's weird.
+
+00:49:46.500 --> 00:49:50.740
+ There's definitely a few like prominent dev role folks that have moved around enough that
+
+00:49:50.740 --> 00:49:54.180
+ I just don't know where they work anymore and it just means nothing to me.
+
+00:49:54.180 --> 00:49:58.260
+ And they have big audiences and people, I don't know, I'm sure the people paying them
+
+00:49:58.260 --> 00:50:02.820
+ and hiring them think they're getting this asset but it's just so watered down.
+
+00:50:02.820 --> 00:50:03.820
+ At this point.
+
+00:50:03.820 --> 00:50:08.340
+ And I just think the whole career arc, it's mostly like engineers that are good at stuff
+
+00:50:08.340 --> 00:50:11.180
+ and then they start talking about the thing they're working on and then people hire them
+
+00:50:11.180 --> 00:50:15.160
+ to do dev rel and now they're like getting more and more out of touch with real engineering
+
+00:50:15.160 --> 00:50:19.860
+ problems every day and they're probably not that good at actually like being in front and
+
+00:50:19.860 --> 00:50:22.420
+ facing like representing your company.
+
+00:50:22.420 --> 00:50:26.060
+ That's the overwhelming feeling I get is that like these dev rel, they should just hire like
+
+00:50:26.060 --> 00:50:27.060
+ actual TV people.
+
+00:50:27.060 --> 00:50:30.780
+ Like you're going to make this amazing event and you're going to have somebody stand up
+
+00:50:30.780 --> 00:50:35.780
+ on stage and not look like an idiot and I'm trying not to be like, I don't want to call
+
+00:50:35.780 --> 00:50:40.060
+ out people like I ultimately, I think they're good at what they did and then they get put
+
+00:50:40.060 --> 00:50:43.460
+ into a situation where they're not so good at the thing they're doing now and why?
+
+00:50:43.460 --> 00:50:44.460
+ Why are we doing this?
+
+00:50:44.460 --> 00:50:45.460
+ What is the dev rel thing?
+
+00:50:45.460 --> 00:50:46.460
+ I just, I don't know.
+
+00:50:46.460 --> 00:50:47.460
+ I have friends that are dev rel.
+
+00:50:47.460 --> 00:50:52.780
+ I don't think it's a terrible role and I think there are reasons that they exist.
+
+00:50:52.780 --> 00:50:59.580
+ I just think sometimes they're not properly scouted and hired, I don't know.
+
+00:50:59.580 --> 00:51:00.580
+ Yeah.
+
+00:51:00.580 --> 00:51:05.220
+ It's like, I think in most other industries, they do hire professional people that are
+
+00:51:05.220 --> 00:51:07.580
+ just like good hosts and good like them.
+
+00:51:07.580 --> 00:51:08.580
+ Yeah.
+
+00:51:08.580 --> 00:51:09.580
+ It's a skill.
+
+00:51:09.580 --> 00:51:12.340
+ And it's not like an engineer necessarily has that skill.
+
+00:51:12.340 --> 00:51:13.340
+ Yeah.
+
+00:51:13.340 --> 00:51:14.340
+ Okay.
+
+00:51:14.340 --> 00:51:18.060
+ I'm going to stop because I'm just salty.
+
+00:51:18.060 --> 00:51:19.060
+ I'm just FOMO.
+
+00:51:19.060 --> 00:51:20.060
+ I missed.
+
+00:51:20.060 --> 00:51:21.940
+ This just looked like an amazing time.
+
+00:51:21.940 --> 00:51:26.900
+ Like all of them playing ping pong and all of that looks like so much fun.
+
+00:51:26.900 --> 00:51:27.900
+ Okay.
+
+00:51:27.900 --> 00:51:28.900
+ I guess we should wrap this up.
+
+00:51:28.900 --> 00:51:29.900
+ I don't know.
+
+00:51:29.900 --> 00:51:30.900
+ We've been talking for a while.
+
+00:51:30.900 --> 00:51:31.900
+ Next.
+
+00:51:31.900 --> 00:51:32.900
+ Yes, conf is good.
+
+00:51:32.900 --> 00:51:33.900
+ I'm going to make a video about it.
+
+00:51:33.900 --> 00:51:34.900
+ It's a, I don't know.
+
+00:51:34.900 --> 00:51:39.380
+ I'm trying to keep it short, but it's like 10 hours of stuff that happened.
+
+00:51:39.380 --> 00:51:41.380
+ I couldn't believe how many community talks.
+
+00:51:41.380 --> 00:51:43.560
+ So many community talks.
+
+00:51:43.560 --> 00:51:45.060
+ They were happening in parallel too, right?
+
+00:51:45.060 --> 00:51:46.060
+ Yeah.
+
+00:51:46.060 --> 00:51:47.060
+ There's the two stages.
+
+00:51:47.060 --> 00:51:48.060
+ Yeah.
+
+00:51:48.060 --> 00:51:50.340
+ The J and the S stage stands for JavaScript.
+
+00:51:50.340 --> 00:51:51.500
+ I just looked at my other camera.
+
+00:51:51.500 --> 00:51:52.500
+ I'm used to being on Twitch.
+
+00:51:52.500 --> 00:51:57.020
+ Whenever I say something tongue in cheek, I always look at that camera.
+
+00:51:57.020 --> 00:51:59.540
+ JavaScript.
+
+00:51:59.540 --> 00:52:03.780
+ Are there any talks that sit out to you so far?
+
+00:52:03.780 --> 00:52:05.940
+ So they're just kind of all over the place, like what?
+
+00:52:05.940 --> 00:52:11.580
+ I guess the one that stood out the most is there's somebody making like this.
+
+00:52:11.580 --> 00:52:13.940
+ It's like a music synthesizing library.
+
+00:52:13.940 --> 00:52:16.740
+ I forget the name reactatizer or something.
+
+00:52:16.740 --> 00:52:20.940
+ And he just did a whole talk where he's like making beats with like react components.
+
+00:52:20.940 --> 00:52:22.780
+ It's kind of cool.
+
+00:52:22.780 --> 00:52:23.780
+ Yeah.
+
+00:52:23.780 --> 00:52:24.780
+ The rest of it.
+
+00:52:24.780 --> 00:52:25.780
+ I don't know.
+
+00:52:25.780 --> 00:52:29.500
+ The DevRels being DevRels things like they're a DevRel for a company.
+
+00:52:29.500 --> 00:52:32.420
+ This talks about Vercel, but also here's what our company does.
+
+00:52:32.420 --> 00:52:33.420
+ But no, this is about Vercelle.
+
+00:52:33.420 --> 00:52:35.620
+ That's not that literally saying like this is not what this is about.
+
+00:52:35.620 --> 00:52:38.900
+ It's about Vercelle and how Vercelle enables us to make this awesome product.
+
+00:52:38.900 --> 00:52:42.460
+ Let me show you this awesome product.
+
+00:52:42.460 --> 00:52:44.540
+ That's just the whole conference thing, I don't know.
+
+00:52:44.540 --> 00:52:48.860
+ My feeling with that is it's cool to invite other companies, but just let them talk about
+
+00:52:48.860 --> 00:52:51.620
+ how awesome their product is like it's like weird thing where they're trying to tie it
+
+00:52:51.620 --> 00:52:52.620
+ in.
+
+00:52:52.620 --> 00:52:56.380
+ Like if PlanetScale was there, you don't need to be like tied in a Vercelle, just be like
+
+00:52:56.380 --> 00:52:57.380
+ here's our product.
+
+00:52:57.380 --> 00:52:58.380
+ Look how awesome it is.
+
+00:52:58.380 --> 00:52:59.380
+ Yeah.
+
+00:52:59.380 --> 00:53:00.380
+ PlanetScale.
+
+00:53:00.380 --> 00:53:01.380
+ It's exactly.
+
+00:53:01.380 --> 00:53:02.380
+ It's better for both parties, I think.
+
+00:53:02.380 --> 00:53:03.380
+ Yeah.
+
+00:53:03.380 --> 00:53:04.380
+ All right.
+
+00:53:04.380 --> 00:53:05.380
+ Thanks again, Dax.
+
+00:53:05.380 --> 00:53:06.380
+ This has been fun.
+
+00:53:06.380 --> 00:53:07.380
+ Yeah.
+
+00:53:07.380 --> 00:53:08.380
+ Thank you.
+
+00:53:08.380 --> 00:53:08.380
+ [Music]
+

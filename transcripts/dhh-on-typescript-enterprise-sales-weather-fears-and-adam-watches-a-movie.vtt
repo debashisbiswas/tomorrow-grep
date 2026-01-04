@@ -1,0 +1,1847 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.040
+ I want everyone listening to know that Adam is on a Mac and I am on a Linux machine and the
+
+00:00:05.040 --> 00:00:09.360
+ audio problem is his fault. So readjust your perception of it.
+
+00:00:09.360 --> 00:00:11.040
+ It's so true.
+
+00:00:30.000 --> 00:00:38.320
+ No, no. I just met. I bet next week Twitter is going to launch the thing that I sent you
+
+00:00:38.320 --> 00:00:42.880
+ because they're going to. Oh, the video thing. Yeah, they're going to put videos up on the
+
+00:00:42.880 --> 00:00:46.480
+ front page the same way they put spaces. I mean, you think they're that fast though?
+
+00:00:46.480 --> 00:00:50.320
+ That was like a designer that put out a mock up. You think they're just going to that quickly?
+
+00:00:50.320 --> 00:00:53.600
+ Yeah, it probably won't be that quick, but I can see it being pretty quick.
+
+00:00:53.600 --> 00:00:56.400
+ I got to be honest. I was thinking about this yesterday.
+
+00:00:57.680 --> 00:01:02.960
+ And I know you haven't been using Twitter as much except to show up and piss everyone off and leave,
+
+00:01:02.960 --> 00:01:10.720
+ but I feel like there's more activity on it than ever. And if we think back to a year ago when
+
+00:01:10.720 --> 00:01:16.160
+ we were like, is it going to die? I don't know. To me, I feel like people are using it more than
+
+00:01:16.160 --> 00:01:21.520
+ they ever have. And there's all this new stuff coming out on it. So this is a really dumb observation
+
+00:01:21.520 --> 00:01:27.120
+ of mine, but I felt like it was pretty dead. And that's someone who hasn't been on there much this
+
+00:01:27.120 --> 00:01:32.000
+ summer. So that's probably why I felt like it was dead is not actually on there. But I do feel like
+
+00:01:32.000 --> 00:01:41.200
+ it's been reinvigorated from a DHH blog post and tweet. Man, everybody, it's so funny. Most of
+
+00:01:41.200 --> 00:01:46.320
+ what I've seen is just people reacting to the reaction of like, why is everybody talking about
+
+00:01:46.320 --> 00:01:50.240
+ TypeScript? Nobody cares. It's like, no, this is why we're here. This is why Twitter exists
+
+00:01:50.240 --> 00:01:54.560
+ for these moments. Like, I don't care about Twitter until something like this happens.
+
+00:01:54.560 --> 00:01:58.480
+ So like muting the word TypeScript, that sounds like you're missing the whole point of Twitter.
+
+00:01:58.480 --> 00:02:02.080
+ I know the right way to use Twitter is to hang out with your friends, all that stuff.
+
+00:02:02.080 --> 00:02:06.960
+ To me, the right way to use Twitter is to jump on all the exciting inflammatory wars.
+
+00:02:06.960 --> 00:02:11.200
+ Yeah, it's crazy though. Somehow, I like mostly missed all of this. Yesterday,
+
+00:02:11.200 --> 00:02:17.520
+ I think Jay linked in our channel, DHH post, I skimmed it and I was like, well, that sounds
+
+00:02:17.520 --> 00:02:24.160
+ about right. And then I just didn't see anything. And then later in the day, I started seeing like,
+
+00:02:24.720 --> 00:02:31.280
+ Theo's pull request, Darren's pull request at TypeScript repo.
+
+00:02:31.280 --> 00:02:35.520
+ And then everyone just being upset. Wait, what was that one? I didn't see that one.
+
+00:02:35.520 --> 00:02:41.600
+ I forgot what it was. I think he was removing TypeScript from the TypeScript repo or something
+
+00:02:41.600 --> 00:02:50.960
+ like that. Yeah. That's a lot of work though, if he actually made a legitimate PR.
+
+00:02:50.960 --> 00:02:55.200
+ I mean, both the PRs seem like a lot of work. I don't know what exactly they did.
+
+00:02:55.200 --> 00:03:01.040
+ Well, Theo just did a revert, right? He just reverted to DHH, his commit, I would think.
+
+00:03:01.040 --> 00:03:08.000
+ Yeah, that makes sense. Yeah. And of course, well, it's funny because I actually had no interest
+
+00:03:08.000 --> 00:03:14.320
+ really in talking about it because I don't know, it's just like such an old conversation that we
+
+00:03:14.320 --> 00:03:19.840
+ had a million times like types. Are they, do you need them? Are they good? Can you live without them?
+
+00:03:19.840 --> 00:03:24.160
+ Like, it's just the same conversation over and over. That conversation I don't care about,
+
+00:03:24.160 --> 00:03:27.760
+ but you care to talk about DHH anymore. And we've had that conversation a lot too.
+
+00:03:27.760 --> 00:03:30.240
+ Just how about that guy? Stir in the pie. He's so good at it.
+
+00:03:30.240 --> 00:03:36.960
+ It's funny because I, I've been trying not to let myself make this point because I know it's not
+
+00:03:36.960 --> 00:03:43.520
+ logical. But the last time he did this was around all the moving away from cloud stuff.
+
+00:03:43.520 --> 00:03:48.880
+ And even then I was just like, okay, it makes sense for them, but like has no impact on
+
+00:03:48.880 --> 00:03:55.600
+ anything that I think about or see. But people consistently reference that post. It constantly
+
+00:03:55.600 --> 00:03:59.600
+ referenced that post. Like it comes up like once a week, they're like, you know, with companies
+
+00:03:59.600 --> 00:04:03.920
+ like 37 signals moving away from the cloud, like is, is that the fate of every company?
+
+00:04:03.920 --> 00:04:07.440
+ Like people keep citing that. And he makes this post and I'm like,
+
+00:04:07.440 --> 00:04:12.400
+ this is not a rational point. But back in my head, I'm like, yeah, like this is the guy you've
+
+00:04:12.400 --> 00:04:16.960
+ been citing. Like do you so want to keep citing him now? Like the two points are unrelated.
+
+00:04:16.960 --> 00:04:20.560
+ No, people are going to use this. Yeah. They're going to, they're going to cite the TypeScript
+
+00:04:20.560 --> 00:04:24.720
+ article now. Every anti TypeScript person is going to come out and they're going to link this
+
+00:04:24.720 --> 00:04:29.680
+ article. Yeah, like in every reply. It's true. But I just feel like the number of people that are
+
+00:04:29.680 --> 00:04:34.320
+ maybe like anti cloud, I think that's a larger group than the number of people that are anti
+
+00:04:34.320 --> 00:04:38.720
+ can see like, yeah, I feel like cloud. Okay, I'm going to be honest. The cloud thing,
+
+00:04:38.720 --> 00:04:42.320
+ most people do not understand it well enough to have an opinion on it. So when they read that
+
+00:04:42.320 --> 00:04:47.200
+ article, I think people will defer to it to being like, see, they said this, therefore,
+
+00:04:47.200 --> 00:04:51.920
+ this point without really understanding any of the details, the TypeScript one, I feel like most
+
+00:04:51.920 --> 00:04:59.520
+ people get that it's kind of like an extreme, like maybe not so great point. So I don't think a
+
+00:04:59.520 --> 00:05:04.640
+ lot of people are like, he's right. I don't even think anti TypeScript people would cite this to be
+
+00:05:04.640 --> 00:05:10.240
+ honest. I feel like it just wasn't that compelling. Can I just say, I feel like your voice sounds
+
+00:05:10.240 --> 00:05:17.600
+ deeper. Did you like EQ your voice to be deeper? It sounds because I got my I hurt my throat and
+
+00:05:17.600 --> 00:05:22.080
+ my voice got really low. And you're like, Oh, man, I started smoking cigars. We talked about it last
+
+00:05:22.080 --> 00:05:27.760
+ last time. Got the gravel in there. The range of my voice goes up and down a lot. Oh, really?
+
+00:05:27.760 --> 00:05:34.000
+ It's always deep. But some days I wake up and just deeper than usual, it seems way deeper today. I don't
+
+00:05:34.000 --> 00:05:39.200
+ know. Maybe it's Twitter spaces. Maybe that's just something about maybe your voice on Twitter. Oh,
+
+00:05:39.200 --> 00:05:42.400
+ because it's a different crowd on Twitter. This is like people that you have like,
+
+00:05:42.400 --> 00:05:47.200
+ you've fought for these people. You're saying I'm acting different. You got to come out and be like,
+
+00:05:47.200 --> 00:05:52.320
+ yeah, you just kind of have a little different air to you, you know, a deeper voice. This does
+
+00:05:52.320 --> 00:06:00.880
+ point out to me that because we met in a work context. And she says that I'm lucky that I have
+
+00:06:00.880 --> 00:06:06.160
+ a deep voice because there's like a subtle boost to everything I say because it sounds more correct
+
+00:06:06.160 --> 00:06:10.240
+ or it sounds like it should be taking more seriously. She's like, you said that I probably have never
+
+00:06:10.240 --> 00:06:16.560
+ really worried too much about being taken seriously because there's like this subtle impact of having
+
+00:06:16.560 --> 00:06:21.840
+ a deeper voice. And I do think it's valid. Like all these little things affect people. The way
+
+00:06:21.840 --> 00:06:26.560
+ someone looks, you might take them more seriously or less seriously. Yeah, I'm tall. I've always
+
+00:06:26.560 --> 00:06:32.400
+ had that tall advantage, except on the internet, not so much. It doesn't really help me. You should
+
+00:06:32.400 --> 00:06:38.000
+ shift your camera so that your head's like a little bit frame. You can like see, yeah, you can see my
+
+00:06:38.000 --> 00:06:46.000
+ height, my camera angle, get my whole body in view. Yeah, but those things matter. Yeah, historically.
+
+00:06:46.000 --> 00:06:52.000
+ Yeah, I wonder as we move to the metaverse, I'm just kidding. So do you think DHH, do you think
+
+00:06:52.000 --> 00:06:56.880
+ they were able to remove TypeScript and not care because they didn't have in the end type safety?
+
+00:06:56.880 --> 00:07:02.800
+ Is it because they use rails and they're missing out on the glory of TypeScript front and back?
+
+00:07:02.800 --> 00:07:09.200
+ I think that the mistake that everyone is making is that the same mistake that everyone always makes,
+
+00:07:09.200 --> 00:07:16.320
+ which is assuming just because we're in tech, all their decisions have some rational thing that
+
+00:07:16.320 --> 00:07:21.120
+ we can take away some logic from. Half of our decisions, if not more, are just arbitrary.
+
+00:07:21.120 --> 00:07:26.400
+ This is an arbitrary decision from DHH. He doesn't like TypeScript. Why? He just doesn't like it.
+
+00:07:26.400 --> 00:07:29.600
+ It doesn't click for him. It doesn't feel good when he looks at TypeScript.
+
+00:07:29.600 --> 00:07:32.960
+ For me, when I look at TypeScript, it makes me feel good, also kind of arbitrary.
+
+00:07:32.960 --> 00:07:38.720
+ So I think they just removed it randomly. I think they're going to have some benefits that are
+
+00:07:38.720 --> 00:07:43.440
+ maybe objectively rational. There's already a ton of downsides if you saw all the screenshots
+
+00:07:43.440 --> 00:07:48.160
+ people are pulling from the comments on the repo. I posted one of them. Whether they're like,
+
+00:07:48.160 --> 00:07:52.640
+ they already have like bugs from removing TypeScript or like things that are confusing.
+
+00:07:54.240 --> 00:07:58.720
+ But yeah, this is just a random decision. It's funny that everyone reacts to it
+
+00:07:58.720 --> 00:08:04.400
+ with a bunch of rational reactions, but it's like rolling the dice from my point of view.
+
+00:08:04.400 --> 00:08:12.240
+ So, DHH, a little young impressionable to ask was such a DHH fan when remote came out or whatever.
+
+00:08:12.240 --> 00:08:15.920
+ Like he was pretty influential in your early career. And then he came out,
+
+00:08:15.920 --> 00:08:20.160
+ and he came out swinging against the cloud, against TypeScript. Where you at on the DHH
+
+00:08:20.160 --> 00:08:26.320
+ love-hate scale. I think the way I think about people. I feel like people are so complex that I
+
+00:08:26.320 --> 00:08:34.080
+ don't like just being like, "This person now sucks." I have to give them credit for what they did,
+
+00:08:34.080 --> 00:08:40.000
+ right? The thing I always say is there was a time where DHH was extremely contrarian
+
+00:08:40.000 --> 00:08:45.920
+ and extremely correct. In a world where nobody agreed with the way he viewed building companies.
+
+00:08:47.520 --> 00:08:52.480
+ And he pushed the bar on that, put in the work to publish books on it to spread
+
+00:08:52.480 --> 00:08:58.960
+ this concept of working remotely. And now people love this, and they're all grateful that people
+
+00:08:58.960 --> 00:09:06.880
+ that can't work remotely, they're grateful for it. His work did impact that. His company was one
+
+00:09:06.880 --> 00:09:14.080
+ of the leading voices in one building remotely, and two building companies that maybe didn't have
+
+00:09:14.080 --> 00:09:20.320
+ to follow the traditional VC path. Yeah, like small company. Yeah. So I kind of provide
+
+00:09:20.320 --> 00:09:24.480
+ inspiration from people that didn't want to go to the VC path and saw that, "Okay, I can still have
+
+00:09:24.480 --> 00:09:30.160
+ what I want if I go down the bootstrap path." So yeah, I gave them credit for that. And just
+
+00:09:30.160 --> 00:09:36.000
+ because they're saying a bunch of stuff that I don't agree with anymore, I can't take that away.
+
+00:09:36.000 --> 00:09:42.640
+ That's all still there. Plus, I love racing. And it was awesome to see someone that was an engineer
+
+00:09:42.640 --> 00:09:46.560
+ that became a race car driver. That is just cool. He did that, didn't he?
+
+00:09:46.560 --> 00:09:51.520
+ I'm sorry if you hate DHH, but that's just a cool thing. If you look up a picture of him,
+
+00:09:51.520 --> 00:09:56.800
+ he's in a race car outfit. That is cool. Yeah, I've seen the race car. I think I've seen him
+
+00:09:56.800 --> 00:10:02.800
+ sitting in a Formula One car. So what did he do? Did he compete in real races?
+
+00:10:02.800 --> 00:10:07.920
+ Yeah, I think his big thing was the 24-hour... This is a French name, and I always sound weird
+
+00:10:07.920 --> 00:10:12.560
+ saying. It's Le Mans. Le Mans? I don't know how to pronounce it, but it's like a really famous race,
+
+00:10:12.560 --> 00:10:18.480
+ a 24-hour race where you do it and shifts with your team. So I think that was the thing he mostly
+
+00:10:18.480 --> 00:10:21.680
+ competed in. And there are obviously different classes of vehicles, and there was a good specific
+
+00:10:21.680 --> 00:10:27.280
+ class that he was in. It doesn't matter if you win or not. Driving those vehicles at those speeds
+
+00:10:27.280 --> 00:10:32.480
+ on those roads is extremely hard. Most people can't do that. Oh, it's very, very difficult.
+
+00:10:33.760 --> 00:10:38.000
+ Speaking of someone that spent hours in the simulator, and I've kind of crashed a lot of cars in the
+
+00:10:38.000 --> 00:10:44.240
+ simulator. Like a physical simulator or just like a video game? Like a video game? But I had like
+
+00:10:44.240 --> 00:10:50.000
+ the VR setup. I had the wheels at the pedals. Like as much as you can go at home. Yeah, like a pretty
+
+00:10:50.000 --> 00:10:56.400
+ good setup. And the software that I use was like very accurate as well as far as you can get at home.
+
+00:10:56.400 --> 00:11:00.960
+ That sounds awesome. Wait, do you not still have this setup? I do. I just don't have it set up. I had
+
+00:11:00.960 --> 00:11:05.200
+ it in New York. Does it work? It also works. I just haven't set it up again. Me and my friends
+
+00:11:05.200 --> 00:11:09.360
+ were really into it for a while. Like we'd spend like a couple hours every day in the simulator
+
+00:11:09.360 --> 00:11:14.480
+ racing together. That is awesome. I would love to try this out if ever I'm in Miami.
+
+00:11:14.480 --> 00:11:19.520
+ Yeah. I'm going to make you set everything up. You actually visit. That's the next time you guys
+
+00:11:19.520 --> 00:11:24.000
+ do a family vacation, consider. No, I think we will. Yeah, we're definitely going to do it.
+
+00:11:24.000 --> 00:11:29.840
+ We were just talking about our next vacation. Life has just been man. Life is so hard. I don't
+
+00:11:29.840 --> 00:11:34.240
+ know if it's the ages of our kids. We're just constantly thinking of how do we get them out of the house?
+
+00:11:34.240 --> 00:11:39.840
+ How do we go somewhere? So like our next vacation will not be to the beach. That's the only reason
+
+00:11:39.840 --> 00:11:44.960
+ we wouldn't come to Miami. We want to go somewhere else. But we're not really sure. Like we thought,
+
+00:11:44.960 --> 00:11:50.160
+ oh, like a like a national park, like a hiking vacation, but our three-year-olds you just can't,
+
+00:11:50.160 --> 00:11:56.960
+ they don't hike. Like, and I get tired carrying them. So I don't know. We're going to go somewhere
+
+00:11:56.960 --> 00:12:01.920
+ not the beach. And then we'll probably come to like Miami, South Florida, something like that.
+
+00:12:01.920 --> 00:12:08.640
+ So in my neighborhood, there's a place 10 minutes away by walk. And it's like this really good
+
+00:12:08.640 --> 00:12:14.080
+ vegan place. Everyone loves it. But I've never been there because I'm like, if Adam ever visits
+
+00:12:14.080 --> 00:12:18.560
+ me, that's when I'll go there. So I'm saving a visit to that place. Because I'm like, I'm not
+
+00:12:18.560 --> 00:12:25.360
+ going to eat vegan food unless I have to get Adams here. Unless you have to. Yeah, that's a good reason.
+
+00:12:25.360 --> 00:12:30.800
+ Yeah. And now that sound, I'm intrigued. I want to go to this restaurant, this mysterious vegan
+
+00:12:30.800 --> 00:12:35.360
+ restaurant. People love it. It's actually, it's in a bunch of, I've seen it in New York also. I think
+
+00:12:35.360 --> 00:12:41.360
+ it's called Planta, P-L-A-N-T-A. But people love it. And everyone says it's really good, but you know,
+
+00:12:41.360 --> 00:12:49.040
+ I'll never know until you visit me. So I think there's a jiu-jitsu, like a IBJJF tournament in Miami.
+
+00:12:49.040 --> 00:12:53.200
+ I can't remember when. You're going to come fight. But that would be a good excuse. It's not
+
+00:12:53.200 --> 00:13:00.240
+ a fight. It's what's a verb. Sparring, rolling. I mean, we call it rolling, but in a tournament
+
+00:13:00.240 --> 00:13:04.400
+ setting, I don't know what they call it. Matches? I don't know. I'll find out. I'll let you know.
+
+00:13:04.400 --> 00:13:08.560
+ Matches? I'm going to travel around the country as a white belt and compete.
+
+00:13:08.560 --> 00:13:15.920
+ Is that what people do? No. So you're still going this? Is it this weekend?
+
+00:13:15.920 --> 00:13:22.320
+ No, it's the 23rd, the Kansas City tournament. Did anyone else sign up in your class yet?
+
+00:13:22.320 --> 00:13:30.880
+ Not in my way, not in my way, class yet. We'll see. TBA. T-B-D. What? What's TBA?
+
+00:13:30.880 --> 00:13:36.000
+ To be announced. I don't know. To be announced. No. To be determined.
+
+00:13:36.000 --> 00:13:40.000
+ You're tired. What's going on? TBA. Does it work?
+
+00:13:40.000 --> 00:13:47.120
+ I'm physically rundown. It's just been sickness in the house. It's just been, it's been a nightmare.
+
+00:13:47.120 --> 00:13:52.000
+ Just the boys, like, they are very at each other right now. Do not, do not spread your
+
+00:13:52.320 --> 00:13:58.320
+ side. It's like the age gap. It is so delicate. I think ours are just a little too far apart,
+
+00:13:58.320 --> 00:14:04.800
+ but they're just explosive together. The eight-year-old, you would think he'd just play down with the
+
+00:14:04.800 --> 00:14:10.000
+ three-year-old, but he gets invested in what he's doing. The three-year-old just destroy it for the
+
+00:14:10.000 --> 00:14:16.320
+ fun of it, and it just becomes this knockdown screaming at each other. I just feel like if they
+
+00:14:16.320 --> 00:14:22.480
+ were like a year closer or a year farther apart, it would have been better. But at least at this
+
+00:14:22.480 --> 00:14:27.120
+ age, I'm sure they'll grow out of it. I can't leave him in a room alone. My brother is 10 years
+
+00:14:27.120 --> 00:14:34.560
+ younger than me, so we never fought the way siblings fight because I got a 10-year-old. It's not
+
+00:14:34.560 --> 00:14:41.600
+ going to beat up a one-year-old. No, you're like a parent. Exactly. You probably didn't play that
+
+00:14:41.600 --> 00:14:46.400
+ much together when he was little. It's like you're more watching him. Yeah. I mean, we played a good
+
+00:14:46.400 --> 00:14:52.400
+ amount because I like playing with little kids because you can just make up any thing you want,
+
+00:14:52.400 --> 00:14:56.480
+ and those kind of go along with it, so I enjoyed it growing up playing with him. And all of my
+
+00:14:56.480 --> 00:15:03.120
+ parents' friends are really, really young kids, so I was kind of used to that. But yeah, there's
+
+00:15:03.120 --> 00:15:08.880
+ always a weird zone. So the weird zone for me was probably closer to now, where I'm very much an
+
+00:15:08.880 --> 00:15:16.560
+ adult and I'm really settling down. And my brother's in a frat. He's in a complete-- I cannot relate
+
+00:15:16.560 --> 00:15:23.520
+ to anything he's doing. He's in a frat. Oh, wow. That's wild. He's doing his summer internship
+
+00:15:23.520 --> 00:15:28.880
+ on Wall Street in New York. He's DJing at a club at night. It's just like a completely different
+
+00:15:28.880 --> 00:15:34.480
+ world. I can't relate to any of it. He just makes fun of me because I just seem really,
+
+00:15:34.480 --> 00:15:38.080
+ really old to him. But it's just a 10-year gap. Things change a lot in that time.
+
+00:15:38.080 --> 00:15:42.320
+ I mean, your whole life has changed in the last 10 years. I know this because I know all the
+
+00:15:42.320 --> 00:15:46.880
+ things I've been doing for 10 years. Yeah. My life started 10 years ago, basically.
+
+00:15:46.880 --> 00:15:52.240
+ It really did. Yeah. So is his just not starting? I mean, maybe instead of Neil
+
+00:15:52.240 --> 00:16:00.080
+ then an arch, his starts with fraternities and DJ situation. He's not an engineer. He's a finance
+
+00:16:00.080 --> 00:16:06.960
+ bro. That's the path he's going down, which is good. I hope he becomes good at what I really need
+
+00:16:06.960 --> 00:16:11.040
+ is I need him to become good at enterprise sales. That's like this skillset that's not
+
+00:16:11.040 --> 00:16:17.280
+ in my zone. You don't have that in your inner circle. I don't have that. Either that or he's
+
+00:16:17.280 --> 00:16:23.280
+ not going to become a product designer. I would love a product designer that is related to me.
+
+00:16:23.280 --> 00:16:30.240
+ That would be awesome. Oh, yeah. But things far from that. I used to wish I had a lawyer in the
+
+00:16:30.240 --> 00:16:37.680
+ family. Not so much anymore. Yeah. Product designer. That would be amazing. There's something about
+
+00:16:37.680 --> 00:16:42.960
+ the enterprise sales thing. So SST, you guys need like, you guys actually have to sell the big
+
+00:16:42.960 --> 00:16:47.360
+ enterprises, don't you? Yeah. I mean, we're very focused on type of company we want to build. So
+
+00:16:47.360 --> 00:16:53.520
+ we're not like, we want to get as far as we can avoiding building like an actual enterprise sales
+
+00:16:53.520 --> 00:16:57.680
+ team. I don't think we were going to need to for a while. I think we can hit like, I'll just show
+
+00:16:57.680 --> 00:17:02.160
+ them your Twitter. It's like, here's your, here's your sales. I got to keep them away from my Twitter.
+
+00:17:02.160 --> 00:17:11.600
+ But we do have these giant, giant companies that use us. And now that we have like an actual product
+
+00:17:11.600 --> 00:17:15.920
+ that they can pay for, it's unrealistic to expect that there's going to sign up for it and have
+
+00:17:15.920 --> 00:17:20.640
+ their credit card. You know, it's like W is not going to be like, okay, we're going to add the BMW
+
+00:17:20.640 --> 00:17:25.680
+ credit card to the Stripe. Check out flow they have. So it's going to require some amount of
+
+00:17:25.680 --> 00:17:32.000
+ outreach, but it really shouldn't look like a typical enterprise sales process, I hope.
+
+00:17:32.000 --> 00:17:36.160
+ But you know, this is tweeting about this morning, I was talking about how
+
+00:17:36.160 --> 00:17:44.800
+ even at the small scale, we're at a large portion of our users want to self-host
+
+00:17:44.800 --> 00:17:49.600
+ the product that we built. So obviously, we have to see the open source thing. That's obviously
+
+00:17:49.600 --> 00:17:53.280
+ by nature, self-hosted because there's a point resource into your account. But now our product
+
+00:17:53.280 --> 00:17:57.360
+ that works with it, which we launched as like a hosted offering that you sign up for.
+
+00:17:57.360 --> 00:18:02.480
+ And we talked about before, there's like a ceiling on the type of companies that will sign up and
+
+00:18:02.480 --> 00:18:09.040
+ put in their credit card. But we have companies like like BMW or like Samsung or Tesla, like they're
+
+00:18:09.040 --> 00:18:15.120
+ not going to do that. So they needed it all deployed in their AWS account. So from the beginning, we
+
+00:18:15.120 --> 00:18:20.240
+ knew this was going to be the case when we built our product, we made sure that there was like a
+
+00:18:20.240 --> 00:18:24.160
+ reasonable pathway to self-hosting it without it being a ton of work for us.
+
+00:18:24.160 --> 00:18:30.400
+ And that's one of the reasons why I struggle to use a lot of these third party like dev tools,
+
+00:18:30.400 --> 00:18:37.520
+ because as good as they can be and as useful as they can be, I can't just go and like if I'm
+
+00:18:37.520 --> 00:18:43.680
+ using clerk, for example, I can't be like, oh, let me just Samsung self-host our product,
+
+00:18:43.680 --> 00:18:48.160
+ but then like the audit is still done through clerk, it just doesn't work. So you kind of
+
+00:18:48.160 --> 00:18:53.120
+ look at it and how much you can use third party services like that.
+
+00:18:53.120 --> 00:19:00.400
+ That makes sense. Yeah. Yeah. I'm just thinking like small team thing, it's like enterprise sales
+
+00:19:00.400 --> 00:19:05.360
+ really does kind of conflict with that few number of people. Are there any examples
+
+00:19:05.360 --> 00:19:11.360
+ of like the model tiny companies that have to have the enterprise sales stuff? Like I think of,
+
+00:19:11.360 --> 00:19:17.280
+ we talked about like tailwind labs, big and awesome tiny company doing big stuff, but they
+
+00:19:17.280 --> 00:19:20.960
+ don't probably have the enterprise sales problem. Are there examples of people?
+
+00:19:20.960 --> 00:19:26.480
+ I don't think there is, but weirdly, I think our old product is a weird example of this. So seed,
+
+00:19:26.480 --> 00:19:32.160
+ I just keep discovering more stuff about it because, in other words, we're the steep for two years,
+
+00:19:32.160 --> 00:19:36.960
+ guys have never looked at that hard. I looked at their pricing page out there,
+
+00:19:36.960 --> 00:19:42.880
+ our pricing page like two months ago, and I was like, wait, what are all these things?
+
+00:19:42.880 --> 00:19:48.800
+ So they actually, you know how there's usually like free tier, pro tier enterprise tier contact
+
+00:19:48.800 --> 00:19:54.880
+ us? Yeah. Instead of a contact us, but they actually just listed all the prices of everything.
+
+00:19:54.880 --> 00:20:00.160
+ Like they did not bother doing the whole contact us thing. So there's like all the enterprise
+
+00:20:00.160 --> 00:20:06.160
+ add-ons and like it just, it just priced there. So because they didn't want to just deal with
+
+00:20:06.160 --> 00:20:11.760
+ that whole process. They couldn't handle. Yeah. That's two people. So and it all works. It all
+
+00:20:11.760 --> 00:20:17.200
+ worked. And then it is, again, it's not like the extreme of a completely self-serve, but it's also
+
+00:20:17.200 --> 00:20:23.360
+ not the extreme of, you know, three month sales process either. So there are some benefits to
+
+00:20:23.360 --> 00:20:29.040
+ gating that stuff behind a contact us. But I think for us, we really need to lean as much
+
+00:20:29.040 --> 00:20:36.080
+ as we can towards self-serve. And it's not going to be perfect, but I think we'll land
+
+00:20:36.080 --> 00:20:41.280
+ somewhere that's better than most companies. But like I said, I don't think I can think of an
+
+00:20:41.280 --> 00:20:44.480
+ example. So we might have to like, I think we're like, in this case, we're like trying to be
+
+00:20:44.480 --> 00:20:50.320
+ flexed at the example. Yeah. Can you like outsource enterprise sales? Is there like a
+
+00:20:50.320 --> 00:20:55.920
+ enterprise sales as a service? You can just like sign up. Pretty much most of the companies I've
+
+00:20:55.920 --> 00:21:02.240
+ worked at had that kind of process because we were in some, I think the good thing here is we
+
+00:21:02.240 --> 00:21:07.360
+ sell to developers and developers like understand this process and don't like it. So they're kind of
+
+00:21:07.360 --> 00:21:12.880
+ in favor of like, even if it's enterprise company, they'll try to move stuff along quickly. But my
+
+00:21:12.880 --> 00:21:19.280
+ previous experiences selling to non tech companies, like in the healthcare space, you can't avoid
+
+00:21:19.280 --> 00:21:25.040
+ the process because there's just so many little weird dynamics, politics, and all these little
+
+00:21:25.040 --> 00:21:28.800
+ things that start to come into play. Yeah. And I get there's no avoiding it. Like, I don't think
+
+00:21:28.800 --> 00:21:32.400
+ you can outsource it. It's all dumb. It's all dumb and pointless. There's no reason it has to be that
+
+00:21:32.400 --> 00:21:41.280
+ way. But it'll be like, I mean, it helps you and hurts you. So I remember one situation where,
+
+00:21:41.280 --> 00:21:48.560
+ yeah, we started talking to an executive at a healthcare company and they needed something
+
+00:21:48.560 --> 00:21:53.600
+ to show to the other people, the company that they were like really innovative. And they're like,
+
+00:21:53.600 --> 00:21:58.400
+ really like putting their bar and like thinking about tech. So it's a very smooth process because
+
+00:21:58.400 --> 00:22:03.040
+ that person had this weird like political reason to like want to use us to show that he's like,
+
+00:22:03.040 --> 00:22:06.800
+ you know, progressive or whatever. But then there's other people, the company that
+
+00:22:06.800 --> 00:22:11.760
+ don't want him to succeed personally and don't care about your product, even if they like your
+
+00:22:11.760 --> 00:22:15.920
+ product. So then that gets in your way. So yeah, yeah, all that stuff is just like,
+
+00:22:15.920 --> 00:22:21.200
+ that's kind of what you need your sales team for that their time gets burned and like navigating
+
+00:22:21.200 --> 00:22:26.000
+ these is not easy. It's hard. And like, people are very good at navigating this, but that's kind of
+
+00:22:26.000 --> 00:22:31.440
+ where the effort and the resources go. So I looked at Twitter and there's friends here. We have friends
+
+00:22:31.440 --> 00:22:34.640
+ in the Twitter space. It's nice to see you all. Yeah. It's the first time we've recorded the
+
+00:22:34.640 --> 00:22:40.640
+ podcast on a Twitter space. We tried the Twitter live thing. Nobody saw it because there's no
+
+00:22:40.640 --> 00:22:44.720
+ discoverability. Yeah. It's what we're blaming on. Well, there's more people here than there was
+
+00:22:44.720 --> 00:22:48.800
+ the Twitter live. So I hope they'll merge it together, but it looks like they will.
+
+00:22:48.800 --> 00:22:53.200
+ That'd be great. Yeah. We haven't streamed on Twitch and forever. Are you ever going to stream on
+
+00:22:53.200 --> 00:22:57.360
+ Twitch again? Man, I don't know how long my gap has been now. I think it's definitely over a month,
+
+00:22:57.360 --> 00:23:02.960
+ maybe two months now. I don't think I've streamed. I don't know. Wow. Like, aside from we've probably
+
+00:23:02.960 --> 00:23:07.920
+ streamed the podcast. Yeah. I haven't done like a normal stream. You haven't done like a standalone.
+
+00:23:07.920 --> 00:23:13.520
+ Yeah, habit I had for a while. And I think I just got so busy that working on Twitch for me is so
+
+00:23:13.520 --> 00:23:17.920
+ productive, but it's always going to be X percent less productive. Like, let's say 20 percent was
+
+00:23:17.920 --> 00:23:25.600
+ productive in the best case scenario. I never had that problem. I would say maybe like three to five
+
+00:23:25.600 --> 00:23:33.040
+ percent less. I don't think I literally I think I feel like your best case stream that I ever saw,
+
+00:23:33.040 --> 00:23:37.520
+ you were maybe like, okay, I know where this 10 X less productive. That's like the best case.
+
+00:23:37.520 --> 00:23:41.920
+ Sometimes it was shocking how slow you were going. I couldn't believe it.
+
+00:23:43.440 --> 00:23:48.080
+ There were streams I didn't I literally didn't accomplish anything. Yeah, I'm going to TwitchCon.
+
+00:23:48.080 --> 00:23:52.560
+ And I feel like I got a stream before TwitchCon. So I don't just walk in like it's been six months,
+
+00:23:52.560 --> 00:23:59.200
+ but I use stream. What's up, everybody? Are you are you guys planning anything? Well,
+
+00:23:59.200 --> 00:24:03.680
+ they're surprises. There's a lot of there's a lot of like for us for like us as the audience.
+
+00:24:03.680 --> 00:24:07.280
+ Like, are you guys in a stream from there? You know, oh, no, we hadn't talked about
+
+00:24:07.280 --> 00:24:11.680
+ none of that was in the plants. That should be that should be the plan. You have to do something.
+
+00:24:11.680 --> 00:24:15.680
+ I'll take a camera. I've got cameras. I'll bring a camera and I'm going to turn it on when we're
+
+00:24:15.680 --> 00:24:20.560
+ hanging out at some bar doing whatever we're going to do. Yeah. I mean, there's talks of like,
+
+00:24:20.560 --> 00:24:24.720
+ places we're all going to hang out. I just I don't think it's talked about like doing some kind of
+
+00:24:24.720 --> 00:24:30.080
+ live thing. That'd be fun. I mean, you guys are all together. I think they did that when yeah,
+
+00:24:30.080 --> 00:24:34.640
+ remember they're all in San Francisco together. They do that occasionally. Okay. Well, we'll do it.
+
+00:24:34.640 --> 00:24:39.120
+ I guess you just do it for your phone. Can you just stream from your phone? Oh, yeah, you can.
+
+00:24:39.680 --> 00:24:43.280
+ Because I don't know how to do it. I guess if I had Wi-Fi, which has a thing.
+
+00:24:43.280 --> 00:24:47.600
+ They call it something. Actually, it's actually a different format and they call it something
+
+00:24:47.600 --> 00:24:53.280
+ different. IRL or something which IRL. IRL is an IRL stream. I don't know. Am I going to become
+
+00:24:53.280 --> 00:24:58.880
+ an IRL streamer? I'm going to get a GoPro and I'm going to walk around Las Vegas and you're going
+
+00:24:58.880 --> 00:25:02.880
+ to be able to see my hands like a first person shooter. It's going to be awesome. Speaking of IRL,
+
+00:25:02.880 --> 00:25:09.360
+ so even we know live in San Francisco, how come it seems like they never hang out? I feel like
+
+00:25:09.360 --> 00:25:13.280
+ if I lived in SF. Do a lot of people we know live in San Francisco still? Because I know a lot of
+
+00:25:13.280 --> 00:25:19.280
+ people that left. Me too, but if you have to take one city that has the most, it probably is still
+
+00:25:19.280 --> 00:25:25.360
+ SF, I assume. Yeah, I guess so. Trash is outside of San Francisco. He's still in that area, right?
+
+00:25:25.360 --> 00:25:31.760
+ Are you nearly? Wait, trash? I mean, I don't want to dox trash. He's right here. I'm pretty sure he's
+
+00:25:31.760 --> 00:25:37.120
+ in the Bay area. Oh, really? Okay. I'm pretty sure. He has LA vibes to me. I could be wrong.
+
+00:25:38.240 --> 00:25:43.920
+ LA vibes to hear that trash. It's the Santa Claus hat, isn't it? You're around Santa Claus hat.
+
+00:25:43.920 --> 00:25:52.000
+ I think it's something else. Yeah, but I feel like they I don't really see people hanging out
+
+00:25:52.000 --> 00:25:58.240
+ together as much. No, that's a good point. I guess like, yeah, I don't know. Are there really like
+
+00:25:58.240 --> 00:26:04.800
+ hubs in our little friend group? I don't really feel like there's more than two people in any one
+
+00:26:04.800 --> 00:26:10.640
+ place. But yeah, maybe that's the issue. Maybe no, maybe it's not like a threshold.
+
+00:26:10.640 --> 00:26:13.920
+ Now, when are we doing the big party thing? I guess React Miami next year was just going
+
+00:26:13.920 --> 00:26:18.400
+ to be a party, right? Yeah, I mean, they're going to announce it officially on the 24th, I think.
+
+00:26:18.400 --> 00:26:25.360
+ They've been teasing videos of things. I'm excited for it. They were talking to me,
+
+00:26:25.360 --> 00:26:29.600
+ they're still going to try to keep it at 500 people. At what not? What? Last year, they always
+
+00:26:29.600 --> 00:26:34.720
+ only sold 500 tickets and they're not going to try to make it any bigger. Oh, it's exclusive.
+
+00:26:35.280 --> 00:26:40.480
+ Yeah, there's all this. It's a small, intimate setting. Yeah, so you know, some foam grab those
+
+00:26:40.480 --> 00:26:44.080
+ tickets when they come out because they're going to they're going to sell out fast. How about that?
+
+00:26:44.080 --> 00:26:48.320
+ I didn't know this. I'd never heard of a tech conference like preventing people from buying
+
+00:26:48.320 --> 00:26:53.360
+ like having a limited number. Well, no, there's always a ceiling because like the venue can only
+
+00:26:53.360 --> 00:26:58.320
+ support so many, but typically conferences try to grow every year because they just get bigger
+
+00:26:58.320 --> 00:27:02.640
+ every year. Like I went to render and they talked about how it doubled every year for three or four
+
+00:27:02.640 --> 00:27:08.240
+ years. Yeah, so but you're saying eventually like they do cap out when they can't get space.
+
+00:27:08.240 --> 00:27:14.240
+ Yeah, but but React Miami is capping out like lower than most people most conferences do. So,
+
+00:27:14.240 --> 00:27:20.000
+ because they want it to be like elite. No, I actually don't think it's that. So Michelle,
+
+00:27:20.000 --> 00:27:25.040
+ who runs a conference, she's a really smart and she like thinks about this stuff a lot and she
+
+00:27:25.040 --> 00:27:29.280
+ goes to a lot of conferences and she really thinks about the dynamics of it. And she was telling me
+
+00:27:29.280 --> 00:27:37.440
+ that she feels that after 500, like once they're getting closer to 750, it starts to hit that phase
+
+00:27:37.440 --> 00:27:43.360
+ where this reverse thing happens where there's more people there, but everyone's kind of overwhelmed.
+
+00:27:43.360 --> 00:27:48.640
+ So they're more likely to stick very tightly to the people they know and not really like branch
+
+00:27:48.640 --> 00:27:52.720
+ out as much and the people that typically serve as bridges to different groups of people,
+
+00:27:52.720 --> 00:27:56.720
+ because they know like people from different groups. Yeah, they also start sticking closer to
+
+00:27:56.720 --> 00:28:01.840
+ like their primary group. And she feels like it just turns into this different thing. And if you
+
+00:28:01.840 --> 00:28:06.000
+ remember re-invent, which is like the extreme of that, that's exactly what happened. We stuck
+
+00:28:06.000 --> 00:28:10.720
+ with the same people and we physically stuck in the same place for like the whole conference.
+
+00:28:10.720 --> 00:28:17.360
+ We just sat in that same room. I mean, even render was was intense for me. I think I did that. I stuck
+
+00:28:17.360 --> 00:28:22.640
+ with the people I knew and I didn't really try to branch out. So the thing that was nice about
+
+00:28:22.640 --> 00:28:27.360
+ React Miami is I feel like I think it hit that nice zone where there's a lot of people I knew
+
+00:28:27.360 --> 00:28:31.600
+ and I was excited to go hang out with them. But when we were hanging out, it wasn't this thing
+
+00:28:31.600 --> 00:28:37.680
+ where other people couldn't join in. So it was like 50% people and 50% people that was meeting.
+
+00:28:37.680 --> 00:28:41.680
+ So I think, yeah, she thinks really hard about those like little social dynamics and
+
+00:28:41.680 --> 00:28:48.080
+ figuring out exactly like how to optimize that. She also talked about there's this whole like
+
+00:28:48.080 --> 00:28:51.280
+ opportunity cost thing that's always in the back of someone's head. Like, am I talking to this person
+
+00:28:51.280 --> 00:28:56.640
+ for too long? Am I missing out something else? So there's a, yeah, there's all this psychology
+
+00:28:56.640 --> 00:29:00.720
+ to it, which is, yeah, I guess you're wearing a conference is the type of stuff that you would
+
+00:29:00.720 --> 00:29:04.400
+ really think hard about. Yeah, no, that's when did the tickets go on sale?
+
+00:29:04.400 --> 00:29:09.840
+ Cause I'm going to have to be a really bird on the hook. I am. I've already got photo.
+
+00:29:09.840 --> 00:29:16.880
+ They said they're going to announce just the conference itself. They've been doing teasers
+
+00:29:16.880 --> 00:29:22.160
+ this whole week, but you should follow the account at react Miami conf. I should follow the account.
+
+00:29:22.160 --> 00:29:30.480
+ I might be following it. And yeah, I think they're launching October 2nd. So they're going to launch
+
+00:29:30.480 --> 00:29:36.000
+ like this site in the tickets. I'm assuming October 2nd. October 2nd. I don't even know if
+
+00:29:36.000 --> 00:29:39.280
+ I'll do a talk this year. I'm pretty excited. I'm definitely going to that one. You're not going
+
+00:29:39.280 --> 00:29:45.040
+ to do a talk. I don't even know because even last year, I was like really reaching for a topic that
+
+00:29:45.040 --> 00:29:50.640
+ I knew about that was related to react. And I'm like, at this point, when this conference
+
+00:29:50.640 --> 00:29:55.440
+ happens, it's going to be like three years since I really, really like used react.
+
+00:29:55.440 --> 00:30:00.800
+ I'm like, I can't keep getting talks at react. I mean, when I'm just not a react user.
+
+00:30:00.800 --> 00:30:07.440
+ It's funny. You didn't know you didn't wear your solid shirt, did you?
+
+00:30:07.440 --> 00:30:12.240
+ No, you know why? Because I have a, I only have a solid sweatshirt, which it's an awesome
+
+00:30:12.240 --> 00:30:15.760
+ sweatshirt. And I love it. But I'm not wearing a sweatshirt in Miami, even for a second.
+
+00:30:15.760 --> 00:30:20.480
+ Yeah, Miami. That's, that's too hot. Yeah. A lot of people do sweatshirts of swag,
+
+00:30:20.480 --> 00:30:24.000
+ and I'm just like, I can never participate. I don't need sweatshirts.
+
+00:30:24.000 --> 00:30:29.040
+ Because we're all, it's the Silicon Valley bias. It's all these startups buying swag and
+
+00:30:29.040 --> 00:30:32.880
+ Silicon Valley where you need a sweatshirt. Yeah. Oh, it's, it's, it's so chilly. I need a
+
+00:30:32.880 --> 00:30:38.240
+ sweatshirt. It's so chilly. That's like most people in tech. It's like 65. I never, I never
+
+00:30:38.240 --> 00:30:42.960
+ experienced that at all. So I like, it's starting to get a little cooler here. Like the humidity's
+
+00:30:42.960 --> 00:30:48.800
+ kind of left. So the evenings are cool. I love it so much. I'm such a sucker for fall. It's all
+
+00:30:48.800 --> 00:30:54.480
+ the stereotypes, the pumpkins and the bombs and all that stuff. Yeah. Love it. Yeah. The weather
+
+00:30:54.480 --> 00:30:58.480
+ right here right now is also, I think it's what people, people say is like the best weather
+
+00:30:58.480 --> 00:31:04.240
+ of the year in Miami. So those were asking me, she was like, Oh, like, you know, it's your first
+
+00:31:04.240 --> 00:31:08.960
+ year. Like how you like, you know, can you like tell there's like different seasons and stuff? And
+
+00:31:08.960 --> 00:31:15.040
+ I'm like, yeah, I guess technically like it was like a little too hot a month ago. And now it's like
+
+00:31:15.040 --> 00:31:21.120
+ good. But it's so subtle compared to where we live in the Northeast where it was like the
+
+00:31:21.120 --> 00:31:26.400
+ colors you see are just completely different. Like in the summer, everything's green and like
+
+00:31:26.400 --> 00:31:31.040
+ bright. And then in the fall, it's all like crazy colorful and kind of dull in the winter. It's like
+
+00:31:31.040 --> 00:31:35.520
+ all gray and white. Yeah, you're just so subtle. There are seasons, but they're just like very,
+
+00:31:35.520 --> 00:31:41.840
+ very subtle. We the six months we lived in Naples was like the snowbird season. Like we moved down
+
+00:31:41.840 --> 00:31:48.160
+ in December and came back and like whatever it was, April May, I don't remember. May day was
+
+00:31:48.160 --> 00:31:53.440
+ perfect. But the weather there over the winter, I get it. I get the South Florida thing in the
+
+00:31:53.440 --> 00:32:00.400
+ winter. It's nice. We swam in February. It was great. We're uh, we're entering hurricane season
+
+00:32:00.400 --> 00:32:07.360
+ right now. So that's like our weird time of the year. Um, we had a. Oh, right. We had a guy come to
+
+00:32:07.360 --> 00:32:12.160
+ the house and he's like the tree guy like manages all the trees. And he was telling me a bunch of
+
+00:32:12.160 --> 00:32:19.920
+ stuff. He like cut a bunch of trees, like the branches off them. And they look like really not
+
+00:32:19.920 --> 00:32:24.640
+ good right now. They look like they've been like butchered. And I'm just like, uh, like this is
+
+00:32:24.640 --> 00:32:27.840
+ going to grow back. And he's like, Oh, yeah, don't worry. Like they grow back really fast. And like,
+
+00:32:27.840 --> 00:32:33.440
+ I did this two years ago. So whatever you saw, like that happened in two years. But he was telling
+
+00:32:33.440 --> 00:32:40.480
+ me that it's crazy complicated. So certain trees, uh, there's one called a sea grape. They have
+
+00:32:40.480 --> 00:32:46.080
+ these really strong big sturdy leaves. And you would think, okay, big sturdy. That's good for
+
+00:32:46.080 --> 00:32:51.040
+ a hurricane. But it turns out they like retain a bunch of water. And because they're strong,
+
+00:32:51.040 --> 00:32:55.280
+ they kind of help pull the tree down during a hurricane. Oh, those trees. Like if you don't
+
+00:32:55.280 --> 00:32:59.360
+ manage them, they like just are completely completely told during hurricane. So everyone's
+
+00:32:59.360 --> 00:33:05.440
+ kind of like vaguely like prepping for, for stuff. I never thought about like pruning trees ahead
+
+00:33:05.440 --> 00:33:08.880
+ of her. Yeah, that's crazy. Yeah, you gotta do like a lot like that tree. It's called the sea
+
+00:33:08.880 --> 00:33:13.200
+ grape. He's saying there's like not even that many left in in Miami because they had the first
+
+00:33:13.200 --> 00:33:19.280
+ to go in in hurricanes. The tree that I have in the front right is is it's like this 80 year old
+
+00:33:19.280 --> 00:33:24.960
+ tamarind tree. And that survived all the hurricanes and everything over the year. So yeah, if you
+
+00:33:24.960 --> 00:33:30.320
+ maintain them, they'll be fine. I'm so glad I don't think about hurricanes. We just we have tornadoes.
+
+00:33:30.320 --> 00:33:34.560
+ Do you actually have tornadoes? Like what does that mean? Like do you like worry about it? Do
+
+00:33:34.560 --> 00:33:40.960
+ you know people that have been like, uh, well, Joplin is like an hour from me. They were completely
+
+00:33:40.960 --> 00:33:46.080
+ wiped off the face of the earth, like 10 years ago. Oh, wow. I mean that like that it was a it was
+
+00:33:46.080 --> 00:33:54.000
+ like a dual, uh, dual. What do they call like a tornado with two counts? Scouts or cones. Yeah,
+
+00:33:54.000 --> 00:33:58.880
+ whatever there. Yeah. It was a dual, but it was an F five and it just completely destroyed Joplin.
+
+00:33:58.880 --> 00:34:03.840
+ You can look it up, uh, like half the city. I want to say like half the buildings were destroyed.
+
+00:34:03.840 --> 00:34:07.840
+ I mean, it was, it was intense. And it kind of snuck up on them. Like there was a graduation that
+
+00:34:07.840 --> 00:34:15.600
+ day and there's all kinds of stories. So yeah, it was a mess. I mean, that's, that's not that far
+
+00:34:15.600 --> 00:34:20.000
+ from. I know Oklahoma, Kansas, like they get a lot of tornadoes too. I don't know. It feels like
+
+00:34:20.000 --> 00:34:25.200
+ it has shifted the last like five years. I don't feel like we get as many tornado warnings.
+
+00:34:25.200 --> 00:34:30.240
+ Uh, and I do feel like the southeast has had a lot of tornadoes in the last five years. Like we
+
+00:34:30.240 --> 00:34:37.440
+ had to turn things changed. Yeah. Yeah. It's weird. Like Mississippi, Alabama, like there's been a
+
+00:34:37.440 --> 00:34:43.520
+ lot of kind of weird patterns with tornadoes that maybe that's a shift with climate stuff. I don't
+
+00:34:43.520 --> 00:34:46.960
+ know. Yeah. Turn it. But it does feel like the last five years we've had less of it. But I mean,
+
+00:34:46.960 --> 00:34:52.400
+ I've lives are a lot of like close. We had a neighbor, had a tree land on the roof. I mean,
+
+00:34:52.400 --> 00:34:57.360
+ like that's the closest call probably I've ever had to a tornado. But when I was growing up,
+
+00:34:57.360 --> 00:35:01.920
+ I was really scared of tornadoes because I don't know if you remember, they were just,
+
+00:35:01.920 --> 00:35:06.400
+ you know how like the certain types of movies get popular. I feel like tornado movies were super
+
+00:35:06.400 --> 00:35:14.560
+ in during. Oh, Twister. Yeah. That was a good one. That show like tornado chasers or something
+
+00:35:14.560 --> 00:35:17.920
+ like that. There was those people that would like drive the trucks into the tornadoes and stuff.
+
+00:35:17.920 --> 00:35:22.800
+ The storm chaser. Yeah. Yeah. So I was really scared of tornadoes and I was like terrified
+
+00:35:22.800 --> 00:35:27.920
+ as a kid. Uh, is there anything you can do? Like, I know you're supposed to go in the basement or
+
+00:35:27.920 --> 00:35:33.680
+ something like is there anything you can do with this tornado approaching? I mean, yeah, we always,
+
+00:35:33.680 --> 00:35:38.880
+ we are in the basement in a shower, like a bath tower, a bath shower combo with like couch
+
+00:35:38.880 --> 00:35:43.440
+ cushions over us. You see, that's really scary. That was the drill as kids. Yeah. Now thinking
+
+00:35:43.440 --> 00:35:47.200
+ about it, that is kind of traumatic, but we, it was just the thing we did. Like when the tornado
+
+00:35:47.200 --> 00:35:51.680
+ sirens were going off, you're in the tub with couch cushions on your head. I don't know if that's
+
+00:35:51.680 --> 00:35:58.640
+ a good idea. Now we have like a concrete like a enclosed safe room. Uh, like it's fully enclosed
+
+00:35:58.640 --> 00:36:04.960
+ concrete, but that's where we go. If there's a real bad storm. Uh, yeah. That's basically it.
+
+00:36:04.960 --> 00:36:10.400
+ That's basements. That's why like trailers are so dangerous in the Midwest. Like looking around.
+
+00:36:10.400 --> 00:36:16.080
+ You don't want to live on. Yeah. Something like that. I can get tossed around. I mean,
+
+00:36:16.080 --> 00:36:22.320
+ there's been like like SUV, like wrapped around tree situations. Joplin. I saw an SUV wrapped around
+
+00:36:22.320 --> 00:36:28.880
+ a big tree. I mean, that kind of stuff is crazy just to think that the wind, I guess the tornado is
+
+00:36:28.880 --> 00:36:35.920
+ tossing large vehicles. Uh, it's not good. Yeah, that's really crazy. Like the guy was also telling
+
+00:36:35.920 --> 00:36:41.760
+ me that he saw me about Hurricane Andrew, which was in 1992. And he was saying, so remember I was
+
+00:36:41.760 --> 00:36:46.560
+ telling you like a week ago that I think I'm on like an area that doesn't flood weirdly enough.
+
+00:36:46.560 --> 00:36:51.680
+ Uh, so he was, he was actually explaining it to me that there's actually this shelf that goes around
+
+00:36:52.320 --> 00:36:55.840
+ kind of where I live. And it's actually the highest point in South Florida. So the area that
+
+00:36:55.840 --> 00:37:01.520
+ I mean, like just doesn't flood. But on the other side of the shelf, 65 feet above sea level,
+
+00:37:01.520 --> 00:37:10.880
+ highest point in all of Florida. Yeah. Uh, but he melts back. Yeah. If you're, if you're in South
+
+00:37:10.880 --> 00:37:17.040
+ Florida and it's flooding, come to my house. I'll save you. He was saying that the other side of
+
+00:37:17.040 --> 00:37:23.760
+ the shelf, uh, there were boats that were dropped three miles inland and then the, the waters receded.
+
+00:37:23.760 --> 00:37:31.200
+ So people had like yachts, sailboats, just dropping their front yard. And I mean,
+
+00:37:31.200 --> 00:37:36.080
+ the house was like covered in mud also, but yeah, there was all these stranded, stranded boats and
+
+00:37:36.080 --> 00:37:41.040
+ like, this is so much work to clean up. Like sometimes I like spill stuff on the ground in my
+
+00:37:41.040 --> 00:37:45.680
+ kitchen and I'm just like, this is like so annoying. I got to clean all this up. And I'll imagine like
+
+00:37:45.680 --> 00:37:49.440
+ spilling stuff across the whole city. And you're cleaning up every little thing. Like that's so
+
+00:37:49.440 --> 00:37:55.280
+ much work. Oh, no, kid. How do you, how does somebody move a yacht that's like sitting in a lawn?
+
+00:37:55.280 --> 00:38:00.080
+ That sounds like how the cranes come in. And I don't even know. Yeah. It's some crazy damage.
+
+00:38:00.080 --> 00:38:07.200
+ But it's also, it's also amazing how there's no sign of this at all. There's like no, like the
+
+00:38:07.200 --> 00:38:12.800
+ area it all gets picked up there. I was in was not flooded, but the wind was so crazy that all the
+
+00:38:12.800 --> 00:38:18.320
+ trees got stripped and a bunch of them are destroyed. But I have my perception of where I live is like
+
+00:38:18.320 --> 00:38:22.800
+ just crazy amounts of dense trees and everything is like thriving and everything. But it all got
+
+00:38:22.800 --> 00:38:28.960
+ reset 20 years ago, but it's back now. Huh. Yeah. The humans are pretty capable of
+
+00:38:28.960 --> 00:38:36.720
+ recovery cleaning stuff up our bodies individually. And then also just collectively these disasters.
+
+00:38:36.720 --> 00:38:41.200
+ I watched the movie last night. This is totally unrelated. But if you watch the movie in a while,
+
+00:38:41.200 --> 00:38:45.120
+ our movies good. I think movies are bad now. Okay. First of all, I watch movies all the time.
+
+00:38:45.120 --> 00:38:49.520
+ You know, I like just consume a crazy amount of stuff to do you. You see, you watch them. I
+
+00:38:49.520 --> 00:38:54.400
+ thought you never watch movies. This is like, I don't. And my wife and I decided last night to
+
+00:38:54.400 --> 00:38:59.680
+ watch a movie. Yes. And it was, it was just a giant waste of time. Was it like an hour in,
+
+00:38:59.680 --> 00:39:04.960
+ she was on her phone. I don't know what it was called. It was a Netflix movie. It was like,
+
+00:39:04.960 --> 00:39:12.480
+ what's the girl? She's on the office, I think. Unbreakable. Kimmy Schmidt. Yeah. What's her name?
+
+00:39:12.480 --> 00:39:17.520
+ What's her name? She was in it. They went like hiking. I don't know. Okay. It's just like.
+
+00:39:17.520 --> 00:39:23.520
+ I don't know. You you watch a movie like once a year and you just chose some random Netflix
+
+00:39:23.520 --> 00:39:28.560
+ movie. So, okay, here's the thing from my point of view. I've seen a lot of movies.
+
+00:39:28.560 --> 00:39:32.880
+ So when I want to watch a movie, it's a struggle because like there's not all the stuff that's
+
+00:39:32.880 --> 00:39:37.360
+ really good I've seen. You, on the other hand, you haven't seen anything. So you have, you have
+
+00:39:37.360 --> 00:39:42.480
+ this gift, you have this gift where there's just like thousands of incredible films for you to watch
+
+00:39:42.480 --> 00:39:46.800
+ and then you choose the random. Are these thousands of incredible films? Are they on Netflix?
+
+00:39:46.800 --> 00:39:51.360
+ Because we just opened up Netflix and we're like, let's find something. Do you have like a list
+
+00:39:51.360 --> 00:39:55.920
+ that you're waiting to watch a movie? Just go to the list. And I'll give you a recommendation.
+
+00:39:55.920 --> 00:39:59.840
+ Okay. Personal recommendation for the mood that you're in, I will find you something that is on
+
+00:39:59.840 --> 00:40:04.800
+ Netflix. Oh, the mood that generally the mood that we're in is, oh my God, why is life so hard?
+
+00:40:04.800 --> 00:40:10.080
+ So if you could find us a good movie for that where we don't get on our phones an hour in,
+
+00:40:10.080 --> 00:40:14.560
+ that'd be great. Pop and Hymer, give you some perspective on your little worries.
+
+00:40:14.560 --> 00:40:19.440
+ No, that's a theater. We have to go into a theater for that, right? Yeah. And eventually you want.
+
+00:40:19.440 --> 00:40:23.760
+ Do movies make it on the Netflix? Is that the place to watch good movies?
+
+00:40:23.760 --> 00:40:31.200
+ Well, trash is here in the audience. You can probably tell you. Yeah, trash. Do the good movies
+
+00:40:31.200 --> 00:40:36.000
+ end up on Netflix or is it just for Netflix movies? Someone like you that hasn't seen a lot,
+
+00:40:36.000 --> 00:40:40.560
+ there's enough stuff. There's enough good stuff on Netflix that you don't have to worry about that.
+
+00:40:40.560 --> 00:40:47.680
+ Yeah. I'll wait for your word. You tell us what's worth watching. But I'm not convinced that long
+
+00:40:47.680 --> 00:40:53.440
+ form video content isn't on the way out. It just felt like an ancient relic trying to watch a movie.
+
+00:40:53.440 --> 00:40:58.480
+ I think your attention span has been eroded to nothing. Is that what it is? Am I projecting
+
+00:40:58.480 --> 00:41:02.240
+ that on everybody? Is this not everybody's attention span? I think it's what you're describing is
+
+00:41:02.240 --> 00:41:10.240
+ extremely common. So this is really funny clip of a so Oppenheimer came out and I think any reasonable
+
+00:41:10.240 --> 00:41:15.840
+ person will agree. It's like an incredible film. But there's this clip of Logan Paul being like,
+
+00:41:15.840 --> 00:41:19.760
+ yeah, I walked out 20 minutes in and like it was just boring. It was just people talking.
+
+00:41:20.320 --> 00:41:24.800
+ And then someone made a clip of, you know how on TikTok, they like show you two things at once.
+
+00:41:24.800 --> 00:41:28.480
+ They show you like the subway surfer. Have you seen this? Oh, yeah.
+
+00:41:28.480 --> 00:41:32.000
+ Because people can't focus on it. So we made a clip of Oppenheimer, but that Minecraft stuff,
+
+00:41:32.000 --> 00:41:36.160
+ like the Minecraft things on the side so that when people get bored, they can look at that because
+
+00:41:36.160 --> 00:41:40.800
+ that, yeah, I think people's attention spans are are eroding. I don't think it's just you. But
+
+00:41:40.800 --> 00:41:47.360
+ I think, I don't know, to me, I find it crazy. I'm like these movies, some of these moves are so
+
+00:41:47.360 --> 00:41:52.480
+ engaging where I just cannot believe how fast the time flew because they're so good. Really?
+
+00:41:52.480 --> 00:41:58.320
+ And it's so deeply impactful. I used to feel that way. Yeah. Well, I didn't feel that way.
+
+00:41:58.320 --> 00:42:07.840
+ I don't know if I was ever deeply impacted. I feel like if you watch the right movie,
+
+00:42:07.840 --> 00:42:12.480
+ you can have the experience that I'm describing. I don't think it's on his way.
+
+00:42:12.480 --> 00:42:17.760
+ If it is, that's kind of crazy. And that would be my first experience of being extremely out
+
+00:42:17.760 --> 00:42:22.560
+ of touch and being like, oh, remember the good old days when we had movies? That would be really
+
+00:42:22.560 --> 00:42:28.880
+ crazy to me. What's weird to me? I don't feel like I am consuming the things that would probably
+
+00:42:28.880 --> 00:42:34.400
+ drive attention spans down. I'm not on TikTok. That's true. I don't watch a lot of short-form
+
+00:42:34.400 --> 00:42:40.080
+ video stuff. I don't consume media much. Why am I? I guess I'm on Twitter. Would Twitter
+
+00:42:40.080 --> 00:42:44.080
+ erode my attention span? To some degree, I think. But you're right. You're not someone that is
+
+00:42:44.080 --> 00:42:48.720
+ exposing themselves that much to that stuff. Yeah. I don't know. I just think you picked a
+
+00:42:48.720 --> 00:42:53.440
+ bad movie. I think it's that simple. We probably did. It was just pretty dumb.
+
+00:42:53.440 --> 00:43:00.560
+ Yeah. I do notice, though, the bar for the movie has to be higher for him to be really engaged
+
+00:43:00.560 --> 00:43:04.960
+ with it. Otherwise, it'll be on his phone. Liz's sister is kind of a summer situation.
+
+00:43:06.240 --> 00:43:11.120
+ Well, something is going on, but man, if movies are on their way out, I'm gonna be sad. I love
+
+00:43:11.120 --> 00:43:17.120
+ movies. Maybe just bad movies. Maybe they'll just be fewer good movies, like fewer really quality
+
+00:43:17.120 --> 00:43:21.440
+ movies that'll stick around. I want more really good movies. Good documentary. I can remember
+
+00:43:21.440 --> 00:43:27.760
+ watching documentaries and being on the edge of my seat. Oh, interesting. Oh, you mean like those
+
+00:43:27.760 --> 00:43:32.320
+ like when there's information to be gleaned. It's because you're just a tech bro that's trying to
+
+00:43:32.320 --> 00:43:38.480
+ optimize every moment. I am. It's like, I can't spend time wasting my time learning or watching
+
+00:43:38.480 --> 00:43:44.640
+ some fiction story. It's got to be raw information that's upgrading my life.
+
+00:43:44.640 --> 00:43:49.840
+ So how are you? How are you? Are you coming to terms with your new identity as a tech bro?
+
+00:43:49.840 --> 00:43:56.240
+ You know, it sucks so hard because I realize it actually is true. Like I just actually am this
+
+00:43:56.240 --> 00:44:02.240
+ person and it's then I started like kind of doing half satire tweets and I'm like, actually, I believe
+
+00:44:02.240 --> 00:44:08.080
+ half this stuff. So what am I doing? Like I'm making fun of myself. Like I just listened to
+
+00:44:08.080 --> 00:44:12.320
+ Huberman and like I'm making a joke about all of us tech bros listening to Huberman. Like, wait a
+
+00:44:12.320 --> 00:44:16.640
+ minute. What is going on? I actually am the person who stopped making fun of this person.
+
+00:44:16.640 --> 00:44:22.080
+ I don't want to be that person. Like I feel like I view those people negatively. Why would I be
+
+00:44:22.080 --> 00:44:26.640
+ that person and view them negatively? I don't understand that because you guys suck. That's why.
+
+00:44:26.640 --> 00:44:32.400
+ I guess I guess though, at least I'm self-aware. I'm a self-aware tech bro.
+
+00:44:32.400 --> 00:44:36.480
+ Maybe I don't even like tech bros. I don't even like myself. So it's okay if you don't like me.
+
+00:44:36.480 --> 00:44:41.440
+ We were taught me unless we're talking about it yesterday about your tweet yesterday and she
+
+00:44:41.440 --> 00:44:49.280
+ explained to me why she found it annoying. She was like, we literally don't have anything anymore.
+
+00:44:49.280 --> 00:44:56.160
+ We can't eat bad food. We can't not exercise. We have to do everything. We have nothing good
+
+00:44:56.160 --> 00:45:00.320
+ in our life anymore. The coffee is the last thing we have. And then Adam is trying to take it away.
+
+00:45:00.320 --> 00:45:06.240
+ Take it away from me. But you don't drink coffee. No, I don't. She just loves. She has like
+
+00:45:06.240 --> 00:45:12.320
+ whole rituals and habits around coffee. It's like, yeah, big for her. And what sucks is like I
+
+00:45:12.320 --> 00:45:18.240
+ actually, I totally empathize with that. I loved coffee. I would still drink it if Casey weren't so
+
+00:45:18.240 --> 00:45:22.160
+ opposed. She just doesn't like the smell and the smell on me and all of the side effects. I love
+
+00:45:22.160 --> 00:45:28.000
+ the smell. I hate the taste, but I love the smell. I did too. Yeah. And maybe she wouldn't mind the
+
+00:45:28.000 --> 00:45:32.960
+ smell of it roasting. It's the smell of it like on my breath or just like me smelling like a pot
+
+00:45:32.960 --> 00:45:36.960
+ of coffee all the time. She doesn't like that part of it. And she just doesn't like like anything
+
+00:45:36.960 --> 00:45:41.200
+ that has a hold of you, like that you're addicted to that you have to have or you just feel like
+
+00:45:41.200 --> 00:45:47.760
+ a worthless human being. So I would totally be a coffee drinker. And I understand coffee drinkers.
+
+00:45:47.760 --> 00:45:52.560
+ I didn't ever mean to be like, you're wrong. I guess I did say you're doing it.
+
+00:45:52.560 --> 00:46:00.160
+ Yeah. There's no defense. But I go ahead. I just want to share a good thing with the world, you know,
+
+00:46:00.160 --> 00:46:03.440
+ like here's an alternative. No, you wanted to hurt the world. For those who can't drink coffee
+
+00:46:03.440 --> 00:46:07.040
+ hurts the world. I wanted to hurt everyone. I want to watch the world burn. So here's a funny thing.
+
+00:46:07.040 --> 00:46:13.520
+ I was talking to Alan and I think your claim might actually be like
+
+00:46:14.800 --> 00:46:18.480
+ not necessarily true. You're claiming the thread. Oh, really? Because
+
+00:46:18.480 --> 00:46:25.280
+ obviously when you don't drink coffee and you then you drink coffee, like randomly,
+
+00:46:25.280 --> 00:46:29.040
+ you feel the effects a lot. It's like very observable. You feel the effects. Yeah.
+
+00:46:29.040 --> 00:46:32.960
+ But it's the research. It's not clear. No one's been able to prove that even if you drink it every
+
+00:46:32.960 --> 00:46:37.600
+ day and you don't feel the effects, you might still be getting the same benefit. It's just not
+
+00:46:37.600 --> 00:46:43.200
+ observable. So it's like unclear whether like taking a break and then using it sparingly actually
+
+00:46:43.200 --> 00:46:47.120
+ has any positive effect you get from it, you might be just you could just drink it every day and you
+
+00:46:47.120 --> 00:46:52.480
+ might still be getting it. It's not very clear. Okay. So two things. First, I don't really believe
+
+00:46:52.480 --> 00:47:00.080
+ in papers or science. So I'm going to take all that with a grain of salt. But that was a joke
+
+00:47:00.080 --> 00:47:07.200
+ because that's what you say. Two, so you're saying people who drink it every day are also
+
+00:47:07.200 --> 00:47:12.480
+ getting that same high. They just get it every day. No, no, sorry. You might not feel it every day.
+
+00:47:12.480 --> 00:47:15.600
+ Okay, let's say, okay, let's say you can, this is completely made up, but let's say
+
+00:47:15.600 --> 00:47:20.560
+ you do some tasks that can be measured. You do it without coffee, you do it with coffee,
+
+00:47:20.560 --> 00:47:26.560
+ and let's say with coffee, you could do a 20% better. It's not clear that using coffee every
+
+00:47:26.560 --> 00:47:31.680
+ single day doesn't make you just make you 20% better every single day. And if you can't really
+
+00:47:31.680 --> 00:47:37.120
+ feel the coffee affecting you. Yeah, yeah. So the like what I'm saying is that if you drink it every
+
+00:47:37.120 --> 00:47:44.160
+ day, you lose that benefit. Like you're now just like dependent on it. It's like you go from having
+
+00:47:44.160 --> 00:47:50.240
+ the plus 20% days to every day is minus 20% until you have coffee. That's my view of it
+
+00:47:50.240 --> 00:47:57.280
+ from the outside now. That's how I felt that like I was I was losing the ability to have this like
+
+00:47:57.280 --> 00:48:04.400
+ high on caffeine and it was just I needed caffeine. But you're saying that's not proven. It's possible
+
+00:48:04.400 --> 00:48:07.200
+ that you could just have it every day if you just drink it every day. Yeah. So Liz is listening
+
+00:48:07.200 --> 00:48:11.200
+ right now and she's messaging me being like, you're wrong. Can't you tell me that I'm wrong?
+
+00:48:11.200 --> 00:48:16.080
+ Because she listened to this thing from Michael Pollan about coffee. I do remember she did this
+
+00:48:16.080 --> 00:48:21.280
+ where. Oh, I listened to that too. I listened to Michael Pollan's. Is it a book about coffee? I
+
+00:48:21.280 --> 00:48:25.280
+ listened to the whole thing. Yeah. I think it's like a shorter thing he did. I mean,
+
+00:48:25.280 --> 00:48:28.960
+ it was a short. Yeah. I was on a whole. Yeah. I listened to it. Yeah. I think, I think.
+
+00:48:28.960 --> 00:48:33.680
+ Big Michael Pollan. I think she's saying in his experience, he thought, I actually don't know
+
+00:48:33.680 --> 00:48:37.360
+ what the point she's making. I don't know. She just has me saying that I'm wrong. That's all.
+
+00:48:37.360 --> 00:48:42.960
+ I remember now. I think he did talk about this. And I got to say to Liz because I tried to tell
+
+00:48:42.960 --> 00:48:49.040
+ this to my wife. She did not appreciate it. But I love the ending where he like all the whole book.
+
+00:48:49.040 --> 00:48:52.880
+ It's like maybe shouldn't do caffeine and then he goes against the coffee. I love it so much.
+
+00:48:52.880 --> 00:48:56.800
+ Well, that's that's the thing. He was like, here's everything. But I just freaking like it. So I'm
+
+00:48:56.800 --> 00:49:01.760
+ going to keep doing it. That's what I'm still going to get coffee. Yeah. Yeah. Yeah. It was good.
+
+00:49:01.760 --> 00:49:06.480
+ I enjoyed it. I told that started my life. And this was like, she knew I wanted to still drink
+
+00:49:06.480 --> 00:49:11.120
+ coffee. And she's like, you would read a book just to like justify your drinking coffee.
+
+00:49:11.120 --> 00:49:16.400
+ The ultimate sin of drinking coffee. It's terrible. Can't believe everyone does it for
+
+00:49:16.400 --> 00:49:21.280
+ thousands of years. You terrible thousands of years? Okay. It's been a long time. Everybody
+
+00:49:21.280 --> 00:49:25.040
+ always talks about that. Like coffee and tea have been around forever. So it's good for you.
+
+00:49:25.040 --> 00:49:29.680
+ There you go. I got to go work out. Speaking of good for you. I took pre-workout like an hour and
+
+00:49:29.680 --> 00:49:37.040
+ a half ago. I'm such a tech bro. I took pre-workout. I'm such a tech bro. I don't want to be a tech
+
+00:49:37.040 --> 00:49:42.800
+ bro. I did something stupid yesterday. The gym. So I like, I was like, now that I'm like feeling
+
+00:49:42.800 --> 00:49:48.240
+ better off my knee, I started working out again. So I was trying to ease back into the deadlift.
+
+00:49:48.240 --> 00:49:55.040
+ So I racked the weights and I was like, okay, I'm going to do less than I was doing before.
+
+00:49:55.040 --> 00:50:00.640
+ So I don't know, like hurt myself again. And then I did my set and I was like, wow, that was the
+
+00:50:00.640 --> 00:50:05.360
+ hardest it's ever been. I like really atrophied in those three weeks that I took that break. And
+
+00:50:05.360 --> 00:50:10.000
+ I was feeling really bad. Then I look at the weights and somehow, I don't know how I did this.
+
+00:50:10.000 --> 00:50:17.520
+ I miss red 20 kilograms as 20 pounds. So I accidentally wracked like 40 pounds more than I normally
+
+00:50:17.520 --> 00:50:24.240
+ normally do. And I did it. So that was cool. Your knee is better than ever. So I was like,
+
+00:50:24.240 --> 00:50:28.160
+ great, I can do it. Just need a little rest. I felt it was, I need to go down a little bit
+
+00:50:28.160 --> 00:50:33.600
+ and wait. Like it was, it was really hard. But I was really like, wow, I am like so weak. I can't
+
+00:50:33.600 --> 00:50:40.160
+ even lift this little amount of weight. That's awesome. I've been doing the backward walking stuff,
+
+00:50:40.160 --> 00:50:45.440
+ the knees over toes guy. Yeah, me too. Like I put on the rock, because I've been going just for
+
+00:50:45.440 --> 00:50:50.960
+ rucks. I put on the rock and I've got like my son hat on and I'm walking backwards at the hill.
+
+00:50:50.960 --> 00:50:54.720
+ And I'm doing dual lingo at the same time. And I just know my neighbors think I'm the biggest
+
+00:50:54.720 --> 00:50:59.920
+ asshole in the world. But I got it. I got it. I got to clip that and send it to that guy that was
+
+00:50:59.920 --> 00:51:06.560
+ ranting about you. What? Oh, the Northern guy that was like this tech bro. Yeah, imagine hearing
+
+00:51:06.560 --> 00:51:11.680
+ about you walking backwards, not walking you all because you're carrying weights.
+
+00:51:11.680 --> 00:51:16.560
+ Rucking. Yeah, I've got the weight on my back. I've got my sunglasses in this giant, like,
+
+00:51:16.560 --> 00:51:20.080
+ you know, like the giant hats that keep the sun on your neck. Of course, there's Florida. I know
+
+00:51:20.080 --> 00:51:24.320
+ one of those on. Yeah. Oh, yeah, of course. Yeah. But you don't have to worry about sun,
+
+00:51:24.320 --> 00:51:30.480
+ remember, you can't sunburn. So you've probably never worn one. Now I am kind of worried after
+
+00:51:30.480 --> 00:51:34.720
+ I visit. Do you use your phone when you go for a walk? Like, are you just looking at your phone
+
+00:51:34.720 --> 00:51:40.240
+ while you're on a walk? I'm usually walking Zuko, which makes it a little bit more challenging,
+
+00:51:40.240 --> 00:51:44.480
+ because it's like a more active thing than just walking. And I'm walking with Liz. So
+
+00:51:45.440 --> 00:51:50.400
+ it'd be weird if I was on my phone. Oh, okay. So I walk, I walk alone and I try to do stuff on my
+
+00:51:50.400 --> 00:51:54.320
+ phone while I'm walking, because otherwise it's very hard to spend an hour with your own thoughts
+
+00:51:54.320 --> 00:51:59.520
+ walking around doing nothing else. Yeah. Well, I always listen to something. I don't, I don't have
+
+00:51:59.520 --> 00:52:04.160
+ my own thoughts. I don't take headphones out. I don't have I don't really have. You just always
+
+00:52:04.160 --> 00:52:08.160
+ have one. No, no. I'm saying I don't like when I leave the house, I don't wear headphones ever.
+
+00:52:08.160 --> 00:52:14.160
+ I just I just don't ever. Yeah. People found this weird because especially when I was living in
+
+00:52:14.160 --> 00:52:19.280
+ New York, it's just not something that people do. When everyone goes out in the subway, whatever,
+
+00:52:19.280 --> 00:52:24.640
+ they have something in their ears. I just never picked up that habit. So I don't know.
+
+00:52:24.640 --> 00:52:28.800
+ Every time if I have to go to the grocery store, if I have to go anywhere for an errand or something,
+
+00:52:28.800 --> 00:52:34.080
+ I'm always listening to something. And now it just occurred to me. I'm that guy from like 15 years
+
+00:52:34.080 --> 00:52:39.920
+ ago with the big like jawbone, like Bluetooth headset on walking around the store. Oh, no,
+
+00:52:39.920 --> 00:52:43.600
+ it's a little better because it's an air pod and she's kind of in your ear. But I'm that guy,
+
+00:52:43.600 --> 00:52:48.240
+ who's like, I'm too busy to just like. But that's everyone now. I guess. Yeah, maybe not here in the
+
+00:52:48.240 --> 00:52:52.720
+ Ozarks. I don't see a lot of people listening to something at the grocery store. Have you tried
+
+00:52:52.720 --> 00:52:57.440
+ not doing that? Because I just think about like work. I like, I guess I could try kind of work
+
+00:52:57.440 --> 00:53:02.000
+ in my head and as much as I can. I think about random stuff. Yeah, I guess I do that sometimes.
+
+00:53:02.000 --> 00:53:06.320
+ Sometimes I go for a walk without anything. If I'm working through a problem, it's kind of like an
+
+00:53:06.320 --> 00:53:10.080
+ extension of work. Yeah, exactly. I should try it. Maybe I do have thoughts and I just have
+
+00:53:10.080 --> 00:53:15.440
+ thoughts. You can maybe maybe this was stopping you from having just the most brilliant thoughts
+
+00:53:15.440 --> 00:53:20.000
+ ever. Maybe this is why my attention span. Yeah, I'm gonna have tons of brilliant thoughts now.
+
+00:53:20.000 --> 00:53:23.840
+ I just don't listen to stuff. Well, yeah, you need to give space for your mind to think, you know,
+
+00:53:23.840 --> 00:53:29.200
+ on his own. I don't know. I think it's the opposite. I think when I listen to like a lot of the books
+
+00:53:29.200 --> 00:53:34.640
+ I listen to, that expands me into all kinds of things that I just wouldn't have thought of otherwise.
+
+00:53:34.640 --> 00:53:38.720
+ So like, it's the only way I get any outside influence. Well, you're using books wrong. Here's
+
+00:53:38.720 --> 00:53:46.560
+ my thread on how to use books right. Oh boy. One shot that one down. Lean into the tech,
+
+00:53:46.560 --> 00:53:52.800
+ bro. I want you to go more extreme because I feel like there's like so much untapped humor here.
+
+00:53:52.800 --> 00:53:58.720
+ Oh, there is. But at the end of the day, I don't know how funny it is. If like this all came out of
+
+00:53:58.720 --> 00:54:03.680
+ me writing a serious post that was basically just as bad as anything I would make a joke about.
+
+00:54:03.680 --> 00:54:12.320
+ Yeah, you're naturally a joke. You know what I mean? Okay. Okay. You know what I mean? Like,
+
+00:54:12.320 --> 00:54:17.920
+ is it funny if I keep exaggerating and like try to make even worse ones when like the first one
+
+00:54:17.920 --> 00:54:24.080
+ was arguably just as bad and it was real? I don't know. Now you're thinking about this is also funny.
+
+00:54:24.080 --> 00:54:33.680
+ Like this is also part of the universe. Okay, I'm done. I'm not I'm not gonna lean into it anymore.
+
+00:54:33.680 --> 00:54:37.520
+ I'm gonna counter whatever you want me to do. I'm gonna do the opposite. If you want me to do it
+
+00:54:37.520 --> 00:54:43.040
+ more, I'm gonna stop. Okay, I think that's my best move. But I will take your movie recommendations.
+
+00:54:43.040 --> 00:54:47.360
+ So if you want to send those over. Yeah, and don't be afraid. If you watch and you hate it,
+
+00:54:47.360 --> 00:54:52.560
+ it's fine. I'm not going to feel bad. I just I just want to go. I just want to shot. I want
+
+00:54:52.560 --> 00:54:57.920
+ to shot at entertaining you. Okay, I like it. Yeah, I like you taking your shots. All right,
+
+00:54:57.920 --> 00:55:02.560
+ I got a P and worked out. Enjoy. We'll see you next time. Yeah.
+

@@ -1,0 +1,4997 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.760
+ - Are we talking about this on the pod?
+
+00:00:01.760 --> 00:00:03.260
+ This is going on terminal.shop anyway.
+
+00:00:03.260 --> 00:00:04.260
+ - We're recording.
+
+00:00:04.260 --> 00:00:06.060
+ - Okay, okay, good, good, good, all right.
+
+00:00:06.060 --> 00:00:08.640
+ (upbeat music)
+
+00:00:29.360 --> 00:00:31.000
+ - What kind of coffee are you drinking?
+
+00:00:31.000 --> 00:00:33.500
+ - Oh, just a little bit of terminal down shop.
+
+00:00:33.500 --> 00:00:36.200
+ A little artisan blend actually this morning.
+
+00:00:36.200 --> 00:00:37.600
+ - Wow, it's a limited edition.
+
+00:00:37.600 --> 00:00:41.080
+ We're gonna, I totally forgot that we're gonna run out of
+
+00:00:41.080 --> 00:00:43.040
+ - Both of our limited editions right now.
+
+00:00:43.040 --> 00:00:44.800
+ - Yeah, I know.
+
+00:00:44.800 --> 00:00:49.040
+ - I don't know if you saw it, but we did the cron run this
+
+00:00:49.040 --> 00:00:51.600
+ this week with flow. - Right with flow, yeah.
+
+00:00:51.600 --> 00:00:53.840
+ - Yeah, I'm glad it was only two or three.
+
+00:00:53.840 --> 00:00:56.400
+ I guess it was, there was three that were out.
+
+00:00:56.400 --> 00:00:58.080
+ I'm like, okay, I gotta factor that in.
+
+00:00:58.080 --> 00:01:00.760
+ Sometimes we run out of materials, you know,
+
+00:01:00.760 --> 00:01:03.280
+ just use the software where there's infinite everything.
+
+00:01:03.280 --> 00:01:05.780
+ - I just pay more money and it shows up instantly.
+
+00:01:05.780 --> 00:01:08.960
+ - Yeah, exactly, we kept trying to do intros
+
+00:01:08.960 --> 00:01:10.680
+ and it was always so awkward.
+
+00:01:10.680 --> 00:01:12.120
+ So then we just let Chris out a little.
+
+00:01:12.120 --> 00:01:13.240
+ - I did see in the last one
+
+00:01:13.240 --> 00:01:14.960
+ that Adam accused you of having white face.
+
+00:01:14.960 --> 00:01:17.800
+ So I did see, at least that was the last one that I watched.
+
+00:01:17.800 --> 00:01:19.840
+ So I think that was the very first words
+
+00:01:19.840 --> 00:01:21.800
+ out of your guys' mouth on the new channel too,
+
+00:01:21.800 --> 00:01:22.640
+ which was great.
+
+00:01:22.640 --> 00:01:25.000
+ So I was like, wow, this is super good for the brand.
+
+00:01:25.000 --> 00:01:26.160
+ Thanks guys.
+
+00:01:27.120 --> 00:01:28.160
+ - I was taking it back.
+
+00:01:28.160 --> 00:01:30.400
+ He, you know, Adam's not usually that aggressive.
+
+00:01:30.400 --> 00:01:33.080
+ He doesn't usually leave me speechless that often, so.
+
+00:01:33.080 --> 00:01:35.960
+ - Well, when he is that aggressive, it's not on purpose.
+
+00:01:35.960 --> 00:01:38.960
+ He's like, he's just saying your face looks really bright.
+
+00:01:38.960 --> 00:01:43.240
+ Like he's a friend, there's no additional connotations.
+
+00:01:43.240 --> 00:01:45.240
+ - That's also the episode where he said
+
+00:01:45.240 --> 00:01:46.680
+ that other thing that we can't repeat.
+
+00:01:46.680 --> 00:01:48.040
+ - Yeah, I remember, I know, I wasn't gonna,
+
+00:01:48.040 --> 00:01:50.880
+ I didn't want to accidentally slip up and say it again, you know.
+
+00:01:50.880 --> 00:01:55.920
+ - He was definitely on a weird headspace.
+
+00:01:55.920 --> 00:01:58.240
+ - He was getting ready to unplug.
+
+00:01:58.240 --> 00:01:59.240
+ He was getting ready to unplug.
+
+00:01:59.240 --> 00:02:00.080
+ - That's true.
+
+00:02:00.080 --> 00:02:00.920
+ - I guess I should explain that.
+
+00:02:00.920 --> 00:02:02.120
+ The reason, this is not Adam,
+
+00:02:02.120 --> 00:02:04.680
+ for everyone listening, this is TDA.
+
+00:02:04.680 --> 00:02:07.120
+ Adam is on a force vacation.
+
+00:02:07.120 --> 00:02:10.600
+ I mean, just a normal vacation for the past week,
+
+00:02:10.600 --> 00:02:11.440
+ but he didn't try unplug.
+
+00:02:11.440 --> 00:02:14.280
+ - But he was like, guys, if you see me on Slack,
+
+00:02:14.280 --> 00:02:15.520
+ reprimand me.
+
+00:02:15.520 --> 00:02:17.600
+ - I have not been doing that.
+
+00:02:17.600 --> 00:02:19.680
+ I've been messaging him like several times a day
+
+00:02:19.680 --> 00:02:21.240
+ with every open code update.
+
+00:02:21.240 --> 00:02:23.240
+ So I've been doing the exact opposite.
+
+00:02:23.240 --> 00:02:24.280
+ - I've been using open code.
+
+00:02:24.280 --> 00:02:25.880
+ I was using it today on stream.
+
+00:02:25.880 --> 00:02:27.040
+ - Yeah, I saw you were doing Elixir.
+
+00:02:27.040 --> 00:02:29.040
+ I was like, see, I'm surprised to work.
+
+00:02:29.040 --> 00:02:30.440
+ - I said, hey, he's in this dark mode,
+
+00:02:30.440 --> 00:02:32.120
+ and it just changed everything perfectly.
+
+00:02:32.120 --> 00:02:33.000
+ It was actually great.
+
+00:02:33.000 --> 00:02:33.960
+ - Was that Elixir?
+
+00:02:33.960 --> 00:02:35.240
+ Was that more?
+
+00:02:35.240 --> 00:02:37.600
+ - Well, it's like, it's inside of Heeks,
+
+00:02:37.600 --> 00:02:39.520
+ which is their like template string thing
+
+00:02:39.520 --> 00:02:42.560
+ for generating like HTML stuff.
+
+00:02:42.560 --> 00:02:44.040
+ - No, I've never said that out loud.
+
+00:02:44.040 --> 00:02:44.920
+ Is that how you say it?
+
+00:02:44.920 --> 00:02:47.040
+ - I don't know, it's H-E-E-X, right?
+
+00:02:47.040 --> 00:02:48.040
+ - I guess that makes sense,
+
+00:02:48.040 --> 00:02:49.840
+ but it's one of those things that I never said out loud.
+
+00:02:49.840 --> 00:02:50.840
+ Heeks.
+
+00:02:50.840 --> 00:02:53.880
+ - I figured it was kind of like mixing like HTML
+
+00:02:53.880 --> 00:02:56.440
+ and like Elixir. - E-E-X, yeah.
+
+00:02:56.440 --> 00:02:59.400
+ - So those in my eyes go E-E-X, but I guess.
+
+00:02:59.400 --> 00:03:00.920
+ - But there's an H at the beginning.
+
+00:03:00.920 --> 00:03:02.400
+ You're just silent h-ing it?
+
+00:03:02.400 --> 00:03:05.600
+ - Well, I love to Elixir by the time they added the H.
+
+00:03:05.600 --> 00:03:09.040
+ - Okay, oh, you should just be dot E-E-X.
+
+00:03:09.040 --> 00:03:11.640
+ - I think that's just their general templating language,
+
+00:03:11.640 --> 00:03:14.000
+ and then the H is the HTML flavor.
+
+00:03:14.000 --> 00:03:15.880
+ I thought I remember correctly, it's been a while.
+
+00:03:15.880 --> 00:03:17.800
+ - Okay, I haven't done anything besides,
+
+00:03:17.800 --> 00:03:19.960
+ I also don't usually put it in the separate file.
+
+00:03:19.960 --> 00:03:23.560
+ There's like a really nice way to just do like a sigil.
+
+00:03:23.560 --> 00:03:26.240
+ Be like the daily H, and then you can put it directly
+
+00:03:26.240 --> 00:03:28.640
+ in the file, and that's pretty much what I always do,
+
+00:03:28.640 --> 00:03:31.120
+ although no Elixir experts, so.
+
+00:03:31.120 --> 00:03:34.160
+ - I'm surprised that it works well with Elixir.
+
+00:03:34.160 --> 00:03:36.000
+ - It did a lot of good stuff so far,
+
+00:03:36.000 --> 00:03:40.320
+ it even was like it was kind of paying attention
+
+00:03:40.320 --> 00:03:43.240
+ to sending messages in like the app JS side
+
+00:03:43.240 --> 00:03:47.320
+ and the like the actual Elixir component,
+
+00:03:47.320 --> 00:03:48.680
+ 'cause like you gotta communicate with them
+
+00:03:48.680 --> 00:03:50.240
+ via message passing, right?
+
+00:03:50.240 --> 00:03:51.080
+ - Right.
+
+00:03:51.080 --> 00:03:52.880
+ - And it was actually like keeping track of it
+
+00:03:52.880 --> 00:03:54.480
+ between the two and stuff, so I was really impressed.
+
+00:03:54.480 --> 00:03:56.720
+ I was like, "That's good, that's good."
+
+00:03:56.720 --> 00:03:57.560
+ - Nice.
+
+00:03:57.560 --> 00:04:02.240
+ - Yeah, did it switch to V4, or I don't know if you noticed?
+
+00:04:02.240 --> 00:04:04.080
+ - No, I think I'm still, I needed to,
+
+00:04:04.080 --> 00:04:05.560
+ I didn't run an update. - Oh, you did, great.
+
+00:04:05.560 --> 00:04:07.480
+ Yeah, gotcha, gotcha.
+
+00:04:07.480 --> 00:04:10.400
+ - But I was gonna try it with V4, but I didn't know,
+
+00:04:10.400 --> 00:04:12.520
+ I didn't know how fast I was gonna run out of your tokens,
+
+00:04:12.520 --> 00:04:14.320
+ you know, so I was trying to be.
+
+00:04:14.320 --> 00:04:15.600
+ (laughing)
+
+00:04:15.600 --> 00:04:16.960
+ I didn't see what the pricing,
+
+00:04:16.960 --> 00:04:18.960
+ what's the scoop on V4, Dax?
+
+00:04:18.960 --> 00:04:21.000
+ - V4 is the exact same price, which is good.
+
+00:04:21.000 --> 00:04:21.840
+ - Oh, nice.
+
+00:04:21.840 --> 00:04:23.360
+ - It's a kind of no-brainer upgrade,
+
+00:04:23.360 --> 00:04:24.840
+ and I was kind of worried it was gonna be,
+
+00:04:24.840 --> 00:04:27.800
+ you know how like Chachi BT adds new models
+
+00:04:27.800 --> 00:04:29.400
+ where they never remove the old ones?
+
+00:04:29.400 --> 00:04:30.240
+ - Yeah.
+
+00:04:30.240 --> 00:04:31.720
+ - So now it's like a never-growing listener
+
+00:04:31.720 --> 00:04:33.040
+ you know what to use, so I was worried
+
+00:04:33.040 --> 00:04:35.200
+ that Panthropper wasn't gonna do that too,
+
+00:04:35.200 --> 00:04:36.320
+ but it seems like there's just,
+
+00:04:36.320 --> 00:04:38.680
+ this is like a one-to-one replacement,
+
+00:04:38.680 --> 00:04:41.560
+ and there's same pricing,
+
+00:04:41.560 --> 00:04:43.600
+ it's like become a default in their web app,
+
+00:04:43.600 --> 00:04:46.200
+ there's like no reason to use the old one.
+
+00:04:46.200 --> 00:04:49.120
+ I used it a bunch yesterday, I didn't notice any immediate,
+
+00:04:49.120 --> 00:04:51.720
+ like whoa, this is definitely better,
+
+00:04:51.720 --> 00:04:56.160
+ but there's some people that do like reviews
+
+00:04:56.160 --> 00:04:58.440
+ of these things in a more rigorous way,
+
+00:04:58.440 --> 00:05:00.840
+ and it seemed pretty good.
+
+00:05:00.840 --> 00:05:02.080
+ Someone, I don't know if that's true or not,
+
+00:05:02.080 --> 00:05:04.320
+ but someone said that it stopped
+
+00:05:04.320 --> 00:05:08.720
+ in certain comments everywhere, which is a huge deal.
+
+00:05:08.720 --> 00:05:11.640
+ - No way, anthropic and shambles dude,
+
+00:05:11.640 --> 00:05:15.160
+ like 25% of their like tokens were comments,
+
+00:05:15.160 --> 00:05:16.000
+ they're gonna be-
+
+00:05:16.000 --> 00:05:16.840
+ - That's true.
+
+00:05:16.840 --> 00:05:20.320
+ - They're gonna be down in revenue so hard after this.
+
+00:05:20.320 --> 00:05:22.640
+ - Yeah, the funniest thing about the token-based
+
+00:05:22.640 --> 00:05:26.280
+ billing thing is sometimes it just doesn't work,
+
+00:05:26.280 --> 00:05:28.600
+ you talk to it for like five minutes,
+
+00:05:28.600 --> 00:05:30.040
+ and it doesn't give you what you want,
+
+00:05:30.040 --> 00:05:32.360
+ but then you end up paying for it anyway, which is like-
+
+00:05:32.360 --> 00:05:35.720
+ - Yes, and it is kind of a weird, like incentive,
+
+00:05:35.720 --> 00:05:37.280
+ I mean like they're still incentivized
+
+00:05:37.280 --> 00:05:39.840
+ to get the best model, you know what I mean?
+
+00:05:39.840 --> 00:05:43.360
+ But they're definitely not incentivized in the same way
+
+00:05:43.360 --> 00:05:45.840
+ to make like the most brief model.
+
+00:05:45.840 --> 00:05:46.680
+ (laughs)
+
+00:05:46.680 --> 00:05:47.520
+ Right, you know what I mean?
+
+00:05:47.520 --> 00:05:49.880
+ Like they're like, well we have the best one,
+
+00:05:49.880 --> 00:05:52.520
+ it just has to talk a lot to get there.
+
+00:05:52.520 --> 00:05:55.000
+ Sorry guys, I don't know what to tell you.
+
+00:05:55.000 --> 00:05:59.360
+ - Yeah, I mean hopefully the space is competitive enough
+
+00:05:59.360 --> 00:06:03.240
+ that they can't like sit on anything like that, but-
+
+00:06:03.240 --> 00:06:05.400
+ - Yeah, but it does just seem like it's just a little bit
+
+00:06:05.400 --> 00:06:09.760
+ sort of weird in the sense that, like you compare it
+
+00:06:09.760 --> 00:06:12.320
+ to like cursor, cursor if they're gonna give you
+
+00:06:12.320 --> 00:06:14.960
+ like a flat rate for the month, they're like desperately
+
+00:06:14.960 --> 00:06:18.040
+ trying to make sure that they're like pushing down
+
+00:06:18.040 --> 00:06:21.280
+ all the token costs as much as possible.
+
+00:06:21.280 --> 00:06:25.160
+ So it is kind of interesting, but like it's also,
+
+00:06:25.160 --> 00:06:26.920
+ yeah, it doesn't seem like they have the space
+
+00:06:26.920 --> 00:06:28.800
+ to just be like, we'll just let it yap forever
+
+00:06:28.800 --> 00:06:30.640
+ and people not like it.
+
+00:06:30.640 --> 00:06:32.600
+ - The other model, it like cuts both ways, right?
+
+00:06:32.600 --> 00:06:34.480
+ 'Cause the other model is kind of like a gym membership
+
+00:06:34.480 --> 00:06:35.480
+ where you hope-
+
+00:06:35.480 --> 00:06:37.080
+ - They're hoping you don't use it.
+
+00:06:37.080 --> 00:06:39.280
+ - Yeah, in a way you're like, we want them to use it
+
+00:06:39.280 --> 00:06:40.360
+ but like not too much, yeah.
+
+00:06:40.360 --> 00:06:42.840
+ - Yeah, only for the first two or three months of the year.
+
+00:06:42.840 --> 00:06:45.760
+ (laughing)
+
+00:06:45.760 --> 00:06:48.240
+ - I can't believe how real of a trope that is.
+
+00:06:48.240 --> 00:06:50.560
+ Like I, just the first month of the year,
+
+00:06:50.560 --> 00:06:52.080
+ the gym is just insane.
+
+00:06:52.080 --> 00:06:54.720
+ And it's crazy that we're all aware of this
+
+00:06:54.720 --> 00:06:56.240
+ but everyone just does it anyway.
+
+00:06:56.240 --> 00:06:57.720
+ - It doesn't stop anybody from being like,
+
+00:06:57.720 --> 00:06:59.680
+ well, this is my year for the gym.
+
+00:06:59.680 --> 00:07:01.760
+ Oh, you know, it's like those other guys.
+
+00:07:01.760 --> 00:07:06.240
+ This is like, this just goes to show engineers are so wrong
+
+00:07:06.240 --> 00:07:09.040
+ when they think like the best product is gonna win.
+
+00:07:09.040 --> 00:07:11.400
+ Like, no, the one that understands people,
+
+00:07:11.400 --> 00:07:12.240
+ the best is gonna win.
+
+00:07:12.240 --> 00:07:15.480
+ If you could make a pop up gym that only existed
+
+00:07:15.480 --> 00:07:16.400
+ for three months of the year
+
+00:07:16.400 --> 00:07:17.720
+ and then their other nine months of the year,
+
+00:07:17.720 --> 00:07:19.160
+ you didn't have to pay rent,
+
+00:07:19.160 --> 00:07:21.720
+ you would be the richest gym owner of all time.
+
+00:07:21.720 --> 00:07:22.560
+ - What is that?
+
+00:07:22.560 --> 00:07:24.480
+ What is that like Halloween costume store
+
+00:07:24.480 --> 00:07:25.320
+ that works this way?
+
+00:07:25.320 --> 00:07:26.160
+ - Oh, Spirit.
+
+00:07:26.160 --> 00:07:28.960
+ Spirit is gonna always be appropriate, exactly.
+
+00:07:28.960 --> 00:07:31.320
+ Dude, they should be switching.
+
+00:07:31.320 --> 00:07:32.160
+ You know what I'm saying?
+
+00:07:32.160 --> 00:07:35.640
+ Like they, 'cause Spirit Halloween does nothing January
+
+00:07:35.640 --> 00:07:38.880
+ through June, I think we just found a merger
+
+00:07:38.880 --> 00:07:40.600
+ that could really change the game.
+
+00:07:40.600 --> 00:07:42.440
+ Like, don't publish this episode.
+
+00:07:42.440 --> 00:07:43.720
+ We need to get straight to it.
+
+00:07:43.720 --> 00:07:46.040
+ We need to go talk to some VCs really quick about this.
+
+00:07:46.040 --> 00:07:48.120
+ - That's actually genius.
+
+00:07:48.120 --> 00:07:50.960
+ - 'Cause they have enough time after Halloween
+
+00:07:50.960 --> 00:07:52.200
+ to turn it back into the gym,
+
+00:07:52.200 --> 00:07:53.880
+ get it all out of the boxes.
+
+00:07:53.880 --> 00:07:54.760
+ You got three months.
+
+00:07:54.760 --> 00:07:57.440
+ They can leave one corner of Spirit,
+
+00:07:57.440 --> 00:07:59.160
+ always set up for the gym.
+
+00:07:59.160 --> 00:08:00.000
+ You know what I mean?
+
+00:08:00.000 --> 00:08:00.840
+ - Yeah, that's true.
+
+00:08:00.840 --> 00:08:02.720
+ - For the six people that like,
+
+00:08:02.720 --> 00:08:04.520
+ actually keep their New Year's resolution
+
+00:08:04.520 --> 00:08:05.920
+ and are there like in June.
+
+00:08:05.920 --> 00:08:06.920
+ (laughing)
+
+00:08:06.920 --> 00:08:10.200
+ But then they just like auto,
+
+00:08:10.200 --> 00:08:11.800
+ it's an auto-scaling gym, dude.
+
+00:08:11.800 --> 00:08:14.360
+ We're just taking the things with what we've learned
+
+00:08:14.360 --> 00:08:17.600
+ from the cloud and bringing it to the physical space.
+
+00:08:17.600 --> 00:08:20.200
+ - You just get the people that show on January 1st
+
+00:08:20.200 --> 00:08:23.040
+ to like move the gym equipment in,
+
+00:08:23.040 --> 00:08:23.880
+ to set it up.
+
+00:08:23.880 --> 00:08:26.560
+ That's for the workout for the day, yeah.
+
+00:08:26.560 --> 00:08:28.000
+ - And you're like,
+
+00:08:28.000 --> 00:08:30.080
+ well actually what you have to do is starting in December,
+
+00:08:30.080 --> 00:08:31.480
+ you have to be saying,
+
+00:08:31.480 --> 00:08:34.440
+ oh, the real way to properly lose weight
+
+00:08:34.440 --> 00:08:36.280
+ is real kinds of labor.
+
+00:08:36.280 --> 00:08:38.240
+ See like machine equipment labor
+
+00:08:38.240 --> 00:08:40.000
+ is really not the optimal way.
+
+00:08:40.000 --> 00:08:41.000
+ You know, so it's like,
+
+00:08:41.000 --> 00:08:43.240
+ you need real muscles, not like J.
+
+00:08:43.240 --> 00:08:45.000
+ We don't want just show muscles, right?
+
+00:08:45.000 --> 00:08:47.240
+ We need actual muscles here.
+
+00:08:47.240 --> 00:08:48.080
+ J's over there,
+
+00:08:48.080 --> 00:08:49.760
+ they just have J on the side like doing this,
+
+00:08:49.760 --> 00:08:51.000
+ but then he can't lift up the couch.
+
+00:08:51.000 --> 00:08:52.240
+ And they're like, see?
+
+00:08:52.240 --> 00:08:53.920
+ See guys, you should be moving the couches.
+
+00:08:53.920 --> 00:08:56.280
+ That's how you get actually strong.
+
+00:08:56.280 --> 00:08:58.520
+ - It's funny, there was a TV show,
+
+00:08:58.520 --> 00:08:59.360
+ I can't remember what it was,
+
+00:08:59.360 --> 00:09:00.280
+ maybe it was shameless or something,
+
+00:09:00.280 --> 00:09:02.120
+ where that's like a plot point.
+
+00:09:02.120 --> 00:09:05.960
+ The guy starts a gym training program,
+
+00:09:05.960 --> 00:09:09.600
+ but they're just doing like moving work.
+
+00:09:09.600 --> 00:09:11.400
+ Well, that construction work.
+
+00:09:11.400 --> 00:09:12.480
+ But like, the thing is--
+
+00:09:12.480 --> 00:09:13.720
+ - They're paying him.
+
+00:09:13.720 --> 00:09:15.680
+ They're paying him, and yeah.
+
+00:09:15.680 --> 00:09:17.120
+ So he's making money on both sides.
+
+00:09:17.120 --> 00:09:19.200
+ But like, it's also not stupid
+
+00:09:19.200 --> 00:09:20.760
+ 'cause the people that do that work
+
+00:09:20.760 --> 00:09:22.520
+ are the strongest people I've ever met.
+
+00:09:22.520 --> 00:09:24.560
+ Like, it's crazy how,
+
+00:09:24.560 --> 00:09:27.560
+ and they don't, they usually don't look like anything,
+
+00:09:27.560 --> 00:09:29.920
+ but just doing that stuff every day,
+
+00:09:29.920 --> 00:09:31.080
+ like it just makes you a beast.
+
+00:09:31.080 --> 00:09:32.200
+ - Right, and then they're just like,
+
+00:09:32.200 --> 00:09:33.960
+ picking up stuff, no problem.
+
+00:09:33.960 --> 00:09:34.800
+ Like, you know, like,
+
+00:09:34.800 --> 00:09:36.400
+ oh, I need some help moving my couch.
+
+00:09:36.400 --> 00:09:37.440
+ And they're like, I can do it.
+
+00:09:37.440 --> 00:09:40.000
+ You're like, isn't it a two-person job?
+
+00:09:40.000 --> 00:09:40.840
+ Oh, no, I got it.
+
+00:09:40.840 --> 00:09:43.560
+ It's just like, up on the shoulder.
+
+00:09:43.560 --> 00:09:44.760
+ - Yeah, it's crazy.
+
+00:09:44.760 --> 00:09:46.200
+ So I moved, when I moved from New York,
+
+00:09:46.200 --> 00:09:48.680
+ we hired movers, and when I moved one house over,
+
+00:09:48.680 --> 00:09:50.680
+ we hired some, just help with a few things.
+
+00:09:50.680 --> 00:09:53.680
+ And like, yeah, they like soloed stuff
+
+00:09:53.680 --> 00:09:54.680
+ where I would just be like,
+
+00:09:54.680 --> 00:09:57.040
+ there's no way I could even move that with multiple.
+
+00:09:57.040 --> 00:09:58.640
+ 'Cause it's not just like a strength thing.
+
+00:09:58.640 --> 00:10:01.440
+ It's like, stuff is just weirdly shaped.
+
+00:10:01.440 --> 00:10:02.600
+ I guess this is a strength thing.
+
+00:10:02.600 --> 00:10:03.440
+ But it's like weirdly shaped.
+
+00:10:03.440 --> 00:10:04.880
+ You can't grab it the right way.
+
+00:10:04.880 --> 00:10:06.400
+ We have one of those, egg,
+
+00:10:06.400 --> 00:10:07.400
+ like we have a Kamado Joe.
+
+00:10:07.400 --> 00:10:09.520
+ It's one of those like really heavy ceramic egg.
+
+00:10:09.520 --> 00:10:11.640
+ - Oh, we've seen your, we've seen your steak bricks.
+
+00:10:11.640 --> 00:10:12.480
+ It's fine.
+
+00:10:12.480 --> 00:10:13.320
+ Yeah, yeah, yeah, we know.
+
+00:10:13.320 --> 00:10:14.160
+ We're aware.
+
+00:10:14.160 --> 00:10:15.440
+ - Yeah, they just like, you like put on--
+
+00:10:15.440 --> 00:10:19.160
+ - Don't put the top though on to the fake grass, dude.
+
+00:10:19.160 --> 00:10:20.000
+ - Yes.
+
+00:10:20.000 --> 00:10:20.840
+ Oh man.
+
+00:10:20.840 --> 00:10:23.280
+ I did that twice, you know that.
+
+00:10:23.280 --> 00:10:24.120
+ That was a second time.
+
+00:10:24.120 --> 00:10:24.960
+ - Did you get it again?
+
+00:10:24.960 --> 00:10:26.360
+ - I did it in the other house.
+
+00:10:26.360 --> 00:10:29.600
+ - You had fake grass in the other house, too?
+
+00:10:29.600 --> 00:10:31.760
+ - I mean, the same landlord owns both houses
+
+00:10:31.760 --> 00:10:32.600
+ and whenever he--
+
+00:10:32.600 --> 00:10:33.600
+ - Okay, yeah, yeah, he did.
+
+00:10:33.600 --> 00:10:35.160
+ - Just for the listeners.
+
+00:10:35.160 --> 00:10:40.160
+ I accidentally put a hot cast iron pan on the ground
+
+00:10:40.160 --> 00:10:43.320
+ but my ground is fake grass made of plastic.
+
+00:10:43.320 --> 00:10:46.120
+ And within like less than a second,
+
+00:10:46.120 --> 00:10:46.960
+ 'cause I realized right away
+
+00:10:46.960 --> 00:10:48.560
+ and I tried to lift it back up,
+
+00:10:48.560 --> 00:10:51.480
+ it like fused to the growling belts of plastic and fused.
+
+00:10:51.480 --> 00:10:53.920
+ But yeah, I've done this, I've done this twice.
+
+00:10:53.920 --> 00:10:55.840
+ So it feels extra stupid the second time around.
+
+00:10:55.840 --> 00:10:57.320
+ - But I mean, have you ever done it
+
+00:10:57.320 --> 00:11:00.480
+ where you just grabbed it like with no gloves
+
+00:11:00.480 --> 00:11:02.320
+ or have you escaped that fate?
+
+00:11:02.320 --> 00:11:03.160
+ Like without another man, I'm saying?
+
+00:11:03.160 --> 00:11:06.920
+ - Like by myself? - Yeah, I've touched it
+
+00:11:06.920 --> 00:11:09.680
+ by accident, like with my elbow.
+
+00:11:09.680 --> 00:11:11.240
+ - Dude, 'cause I'm always worried about that.
+
+00:11:11.240 --> 00:11:14.040
+ Also, are your slacks not just going ham right now, Dex?
+
+00:11:14.040 --> 00:11:14.880
+ That's gonna be in the--
+
+00:11:14.880 --> 00:11:15.720
+ - I got it, I think it--
+
+00:11:15.720 --> 00:11:17.000
+ - Yo, leave that in.
+
+00:11:17.000 --> 00:11:17.840
+ Chris, leave that in.
+
+00:11:17.840 --> 00:11:19.200
+ - I got the vacuum in last time.
+
+00:11:19.200 --> 00:11:21.360
+ Now I got the slack noise of this.
+
+00:11:21.360 --> 00:11:22.400
+ I'm over here.
+
+00:11:22.400 --> 00:11:23.240
+ - Yeah, I'm always--
+
+00:11:23.240 --> 00:11:26.000
+ Catelyn's been all about cast iron lately
+
+00:11:26.000 --> 00:11:28.240
+ and like, you know, we've been doing lots of eggs
+
+00:11:28.240 --> 00:11:29.080
+ on the cast iron.
+
+00:11:29.080 --> 00:11:31.160
+ Now we have like many cast irons and stuff
+
+00:11:31.160 --> 00:11:33.000
+ so she can do like little eggs for the kids
+
+00:11:33.000 --> 00:11:34.040
+ and all this stuff.
+
+00:11:34.040 --> 00:11:36.200
+ And I'm always so nervous.
+
+00:11:36.200 --> 00:11:38.680
+ It's like three hours afterwards.
+
+00:11:38.680 --> 00:11:40.020
+ Can I touch this?
+
+00:11:40.020 --> 00:11:41.760
+ (laughing)
+
+00:11:41.760 --> 00:11:43.400
+ I'll get on the oven just in case.
+
+00:11:43.400 --> 00:11:44.920
+ She's like, that was yesterday.
+
+00:11:44.920 --> 00:11:46.880
+ You know, like-- (laughing)
+
+00:11:46.880 --> 00:11:49.520
+ - Yeah, no, I've definitely, I use a cast iron
+
+00:11:49.520 --> 00:11:51.680
+ as my primary, I've used a cast iron as a primary hand
+
+00:11:51.680 --> 00:11:53.080
+ for like many years.
+
+00:11:53.080 --> 00:11:55.000
+ And the first thing I do after cooking
+
+00:11:55.000 --> 00:11:56.520
+ is just blast it in the sink.
+
+00:11:56.520 --> 00:11:59.640
+ 'Cause I'm just so paranoid that I'm gonna touch it.
+
+00:11:59.640 --> 00:12:02.760
+ - You're not supposed to put it in the sink though
+
+00:12:02.760 --> 00:12:04.160
+ afterwards, doesn't that mess it up?
+
+00:12:04.160 --> 00:12:06.240
+ - Okay, so I've experimented a lot
+
+00:12:06.240 --> 00:12:08.040
+ and I think it's a little overstated.
+
+00:12:08.040 --> 00:12:11.320
+ So I, like you can even use soap.
+
+00:12:11.320 --> 00:12:13.720
+ Like it's actually not that big of a deal.
+
+00:12:13.720 --> 00:12:16.440
+ But I also switched to carbon steel.
+
+00:12:16.440 --> 00:12:18.160
+ I don't know which one you guys have, but uh--
+
+00:12:18.160 --> 00:12:19.000
+ - Oh, I don't know.
+
+00:12:19.000 --> 00:12:21.880
+ - The newer flavor of cast iron is like a carbon steel thing.
+
+00:12:21.880 --> 00:12:22.800
+ - You're licking it or something?
+
+00:12:22.800 --> 00:12:24.200
+ What do you mean flavor?
+
+00:12:24.200 --> 00:12:26.480
+ (laughing)
+
+00:12:26.480 --> 00:12:27.840
+ - The newer material.
+
+00:12:27.840 --> 00:12:29.360
+ (laughing)
+
+00:12:29.360 --> 00:12:31.280
+ - I'm just like, I'm just eating it.
+
+00:12:31.280 --> 00:12:32.460
+ - Well, you should, isn't that the whole thing
+
+00:12:32.460 --> 00:12:33.300
+ with the cast iron?
+
+00:12:33.300 --> 00:12:34.600
+ They like retain the flavor over the year.
+
+00:12:34.600 --> 00:12:36.960
+ So there's a literal flavor to it too.
+
+00:12:36.960 --> 00:12:37.880
+ - Yeah.
+
+00:12:37.880 --> 00:12:40.400
+ - But the carbon steel ones, I think,
+
+00:12:40.400 --> 00:12:42.920
+ are definitely a lot more, not a lot less delicate.
+
+00:12:42.920 --> 00:12:43.760
+ You can--
+
+00:12:43.760 --> 00:12:45.600
+ - Yeah, they let you get away with a lot more.
+
+00:12:45.600 --> 00:12:46.440
+ - Yeah.
+
+00:12:46.440 --> 00:12:49.360
+ - Yeah, Caitlin just says don't, just don't do anything
+
+00:12:49.360 --> 00:12:50.200
+ with them.
+
+00:12:50.200 --> 00:12:52.440
+ She's like, I've spent a lot of time seasoning these
+
+00:12:52.440 --> 00:12:54.880
+ correctly, just don't touch them.
+
+00:12:54.880 --> 00:12:56.280
+ You know, so I'm like, okay, you got it.
+
+00:12:56.280 --> 00:12:57.880
+ That seems like a smart plan.
+
+00:12:57.880 --> 00:12:58.720
+ - Yeah.
+
+00:12:58.720 --> 00:13:01.000
+ It's crazy that I don't, to be honest,
+
+00:13:01.000 --> 00:13:03.520
+ it seemed like magic to me because you just like,
+
+00:13:03.520 --> 00:13:05.720
+ rub oil on them and then you heat it up
+
+00:13:05.720 --> 00:13:06.880
+ and just do that consistently.
+
+00:13:06.880 --> 00:13:09.480
+ And then like, it becomes extremely non-stick.
+
+00:13:09.480 --> 00:13:10.800
+ Like, I don't even understand how anything can work.
+
+00:13:10.800 --> 00:13:11.640
+ - And it's clean?
+
+00:13:11.640 --> 00:13:12.920
+ You're like, how can it be clean?
+
+00:13:12.920 --> 00:13:15.080
+ Everything else I have to put in the dishwasher.
+
+00:13:15.080 --> 00:13:15.920
+ That doesn't make sense.
+
+00:13:15.920 --> 00:13:18.680
+ - Yeah, I know, I know, but yeah, it works.
+
+00:13:18.680 --> 00:13:19.920
+ But I've been through a few.
+
+00:13:19.920 --> 00:13:21.080
+ I've definitely messed up some.
+
+00:13:21.080 --> 00:13:23.680
+ Well, I messed up the one that I stuck to the ground.
+
+00:13:23.680 --> 00:13:26.000
+ By the way, like imagine a cast iron,
+
+00:13:26.000 --> 00:13:28.160
+ like you understand how heavy and strong it is?
+
+00:13:28.160 --> 00:13:29.000
+ - Yeah.
+
+00:13:29.000 --> 00:13:31.280
+ - When it fused into the grass
+
+00:13:31.280 --> 00:13:33.160
+ and we were trying to pull it off.
+
+00:13:33.160 --> 00:13:34.000
+ - Yeah.
+
+00:13:34.000 --> 00:13:35.800
+ - We bent the handle all the way
+
+00:13:35.800 --> 00:13:37.920
+ and like warped it all before it came out.
+
+00:13:37.920 --> 00:13:40.120
+ That's how strong this thing was.
+
+00:13:40.120 --> 00:13:41.760
+ - That's crazy.
+
+00:13:41.760 --> 00:13:43.280
+ That's so funny though.
+
+00:13:43.280 --> 00:13:44.120
+ - That's surprising.
+
+00:13:44.120 --> 00:13:45.440
+ Yeah, one of the surprising downsides
+
+00:13:45.440 --> 00:13:46.640
+ that I think plastic grass that
+
+00:13:46.640 --> 00:13:48.040
+ literally nobody will tell you about.
+
+00:13:48.040 --> 00:13:48.960
+ - Yeah, yeah, yeah.
+
+00:13:48.960 --> 00:13:50.880
+ That's, you're one of a select few.
+
+00:13:50.880 --> 00:13:53.520
+ It's like, it's just like,
+
+00:13:53.520 --> 00:13:56.560
+ I just imagine like, does anyone else ever accidentally
+
+00:13:56.560 --> 00:14:01.440
+ get up at the beginning of a stand up show?
+
+00:14:01.440 --> 00:14:04.120
+ Hey guys, thanks for coming to the idea of Dax.
+
+00:14:04.120 --> 00:14:05.800
+ Anyone else ever get their cast iron sucked
+
+00:14:05.800 --> 00:14:07.440
+ into their fake grass in the back yard?
+
+00:14:07.440 --> 00:14:08.440
+ Am I right?
+
+00:14:08.440 --> 00:14:09.280
+ Am I right?
+
+00:14:09.280 --> 00:14:13.360
+ Just dead silence like crickets.
+
+00:14:13.360 --> 00:14:16.040
+ - You're joking, but I honestly feel like
+
+00:14:16.040 --> 00:14:17.360
+ I can't be the only one.
+
+00:14:17.360 --> 00:14:19.600
+ Like this must be a common thing.
+
+00:14:19.600 --> 00:14:22.200
+ - Probably in Miami, I feel like there's a better chance.
+
+00:14:22.200 --> 00:14:23.280
+ There's a better chance.
+
+00:14:23.280 --> 00:14:26.080
+ The overlap of people who like making stakes
+
+00:14:26.080 --> 00:14:28.920
+ on cast iron and who have fake grass back yard
+
+00:14:28.920 --> 00:14:31.640
+ is a lot higher than the average, I would say.
+
+00:14:31.640 --> 00:14:33.920
+ - Yeah, the fake grass thing is huge here
+
+00:14:33.920 --> 00:14:36.000
+ and it's grown on me a little bit, but.
+
+00:14:36.000 --> 00:14:38.040
+ - It doesn't grow Dax, it literally can't.
+
+00:14:38.040 --> 00:14:39.960
+ (laughing)
+
+00:14:39.960 --> 00:14:41.800
+ - I swear, I think I've seen it grow.
+
+00:14:41.800 --> 00:14:43.160
+ - I'm like, you're watching.
+
+00:14:43.160 --> 00:14:46.040
+ - Liz, are we sure this is fake?
+
+00:14:46.040 --> 00:14:47.760
+ I swear it's taller.
+
+00:14:47.760 --> 00:14:50.160
+ - The funniest is when I post videos
+
+00:14:50.160 --> 00:14:52.720
+ and people, and I get it like Twitter compression
+
+00:14:52.720 --> 00:14:54.720
+ and stuff, they can't exactly tell it's fake.
+
+00:14:54.720 --> 00:14:57.680
+ They're like, wow, like your grass is amazing.
+
+00:14:57.680 --> 00:14:59.280
+ What's your secret? - It's so green, dude.
+
+00:14:59.280 --> 00:15:00.680
+ How are you doing that?
+
+00:15:00.680 --> 00:15:04.240
+ - Yeah, that's like, well, I do have a trick.
+
+00:15:04.240 --> 00:15:07.240
+ - Yeah, yeah, it's this one trick.
+
+00:15:07.240 --> 00:15:09.600
+ Landscapers, hey, you know, like,
+
+00:15:09.600 --> 00:15:11.040
+ that's like I go over to my dad's
+
+00:15:11.040 --> 00:15:14.480
+ and his grass is always immaculate, but it's real.
+
+00:15:14.480 --> 00:15:16.920
+ - Yeah, funny, I was gonna say the exact same thing
+
+00:15:16.920 --> 00:15:20.720
+ 'cause my dad has gotten super into grass the past.
+
+00:15:20.720 --> 00:15:21.960
+ We've always, like he's always had people
+
+00:15:21.960 --> 00:15:22.960
+ come and take care of it.
+
+00:15:22.960 --> 00:15:24.280
+ But he's doing, he's been doing it all himself.
+
+00:15:24.280 --> 00:15:26.880
+ It's been out for the past, like two years.
+
+00:15:26.880 --> 00:15:28.320
+ And it looks insane.
+
+00:15:28.320 --> 00:15:31.120
+ And to the point where he's like the consultant
+
+00:15:31.120 --> 00:15:33.920
+ for the neighborhood where the neighbors are like,
+
+00:15:33.920 --> 00:15:35.100
+ yeah, they're like, okay,
+
+00:15:35.100 --> 00:15:37.320
+ help me out with the situation.
+
+00:15:37.320 --> 00:15:38.880
+ Are you like a grass person?
+
+00:15:38.880 --> 00:15:40.320
+ Like, do you manage the grass in your house?
+
+00:15:40.320 --> 00:15:42.720
+ - I mean, I'm the one that goes and like
+
+00:15:42.720 --> 00:15:44.300
+ does all of the things that need it,
+
+00:15:44.300 --> 00:15:46.160
+ but I always told Kaitlyn, like,
+
+00:15:46.160 --> 00:15:47.720
+ I don't want to be a grass farmer.
+
+00:15:47.720 --> 00:15:50.200
+ Like, I'm not interested in that.
+
+00:15:50.200 --> 00:15:52.000
+ My dad makes fun of me 'cause I always told him
+
+00:15:52.000 --> 00:15:52.840
+ when I was growing up.
+
+00:15:52.840 --> 00:15:55.760
+ Like, dad, I will never buy a house with a lawn.
+
+00:15:55.760 --> 00:15:57.640
+ I will find, like, you know,
+
+00:15:57.640 --> 00:16:00.000
+ 'cause I always hated doing yard work.
+
+00:16:00.000 --> 00:16:02.480
+ Surprise, like, who could have guessed
+
+00:16:02.480 --> 00:16:05.440
+ the computer guy who likes to sit in his basement?
+
+00:16:05.440 --> 00:16:06.280
+ You know?
+
+00:16:06.280 --> 00:16:07.920
+ And then he's like, so you bought a house
+
+00:16:07.920 --> 00:16:10.240
+ with a bunch of grass and you have a dog now.
+
+00:16:10.240 --> 00:16:12.280
+ You told me none of these things were gonna happen.
+
+00:16:12.280 --> 00:16:13.760
+ (laughing)
+
+00:16:13.760 --> 00:16:15.680
+ But yeah, so I like, I do this stuff for a grass,
+
+00:16:15.680 --> 00:16:19.440
+ but it's just like, you know, very, very simple.
+
+00:16:19.440 --> 00:16:21.440
+ Put out some seed at the beginning of the year,
+
+00:16:21.440 --> 00:16:22.360
+ throw some fertilizer
+
+00:16:22.360 --> 00:16:23.760
+ and weed killer at some point.
+
+00:16:23.760 --> 00:16:27.080
+ We're, like, backed up to, like, some woods area,
+
+00:16:27.080 --> 00:16:30.560
+ so we have a lot of, like, thistles and other stuff
+
+00:16:30.560 --> 00:16:33.080
+ that kind of, like, come up out of the woods every year,
+
+00:16:33.080 --> 00:16:35.480
+ so if I don't put anything down,
+
+00:16:35.480 --> 00:16:37.680
+ then we get a lot of, like, really pokey thistles
+
+00:16:37.680 --> 00:16:39.880
+ on the ground when the kids can't run around.
+
+00:16:39.880 --> 00:16:40.720
+ But it was, like, it's fine.
+
+00:16:40.720 --> 00:16:43.080
+ I just put, like, twice in the summer,
+
+00:16:43.080 --> 00:16:44.240
+ I just put something down on it,
+
+00:16:44.240 --> 00:16:47.200
+ and then it's like, oh, it's good, and then it's soft.
+
+00:16:47.200 --> 00:16:48.600
+ But it doesn't look like my dad's.
+
+00:16:48.600 --> 00:16:50.480
+ You know, I feel like my dad's looks like I could lay down
+
+00:16:50.480 --> 00:16:51.720
+ and, like, take a nap on it,
+
+00:16:51.720 --> 00:16:53.800
+ and it'd be, like, soft and comfy.
+
+00:16:53.800 --> 00:16:56.160
+ Mine is not that level.
+
+00:16:56.160 --> 00:16:58.760
+ - You have, like, a sloping.
+
+00:16:58.760 --> 00:17:00.080
+ I've seen, like, videos of your backyard.
+
+00:17:00.080 --> 00:17:01.920
+ Your backyard, like, kind of slopes down, right, yeah.
+
+00:17:01.920 --> 00:17:04.520
+ - Yeah, so it's, like, I have, like, a, like,
+
+00:17:04.520 --> 00:17:05.680
+ it's flat for a little bit after the house,
+
+00:17:05.680 --> 00:17:07.920
+ then it slopes down into the woods,
+
+00:17:07.920 --> 00:17:10.080
+ and then I got tired of mowing that,
+
+00:17:10.080 --> 00:17:13.400
+ so I just, like, left it to grow wild,
+
+00:17:13.400 --> 00:17:15.640
+ and so far, none of my neighbors have complained,
+
+00:17:15.640 --> 00:17:16.480
+ so that's good.
+
+00:17:16.480 --> 00:17:18.640
+ (laughing)
+
+00:17:18.640 --> 00:17:20.120
+ - 'Cause, like, they don't have to look at it?
+
+00:17:20.120 --> 00:17:20.960
+ - Yeah, well, yeah.
+
+00:17:20.960 --> 00:17:21.800
+ - Yeah.
+
+00:17:21.800 --> 00:17:22.640
+ - Yeah, people look at it.
+
+00:17:22.640 --> 00:17:23.480
+ - No, I mean, I get it.
+
+00:17:23.480 --> 00:17:24.840
+ - They're doing their yard.
+
+00:17:24.840 --> 00:17:26.760
+ They're doing their yard, and then mine doesn't look the same,
+
+00:17:26.760 --> 00:17:27.600
+ but it's fine.
+
+00:17:27.600 --> 00:17:30.400
+ Like, where I am, it's like, it goes into the woods,
+
+00:17:30.400 --> 00:17:34.000
+ so it looks pretty natural, but yeah, it's pretty funny.
+
+00:17:34.000 --> 00:17:37.080
+ The thing that looks really bad in my backyard right now
+
+00:17:37.080 --> 00:17:39.320
+ is we just removed.
+
+00:17:39.320 --> 00:17:41.880
+ We had, like, a above-ground pool from when we moved in,
+
+00:17:41.880 --> 00:17:44.840
+ but, like, with a deck, like, built around half of it.
+
+00:17:44.840 --> 00:17:45.680
+ - Oh, I see.
+
+00:17:45.680 --> 00:17:46.720
+ - And we took out the pool,
+
+00:17:46.720 --> 00:17:48.200
+ 'cause I don't really like it that much,
+
+00:17:48.200 --> 00:17:50.240
+ and you don't get as much use in Michigan
+
+00:17:50.240 --> 00:17:51.080
+ as you do in Miami.
+
+00:17:51.080 --> 00:17:51.920
+ - Right.
+
+00:17:51.920 --> 00:17:53.680
+ - You know, like, most of the year,
+
+00:17:53.680 --> 00:17:57.000
+ it's just a big circle of ice.
+
+00:17:57.000 --> 00:17:59.120
+ - Yeah, I mean, the main thing is it's just annoying
+
+00:17:59.120 --> 00:18:01.240
+ with, like, little kids, 'cause you don't want your little kids
+
+00:18:01.240 --> 00:18:04.960
+ to run around unsupervised in the backyard without the pool.
+
+00:18:04.960 --> 00:18:06.880
+ Like, it doesn't matter how many gates you put around it,
+
+00:18:06.880 --> 00:18:10.320
+ I'm like, I can't figure out gates.
+
+00:18:10.320 --> 00:18:11.720
+ - Yeah, it's still worrying in the back of your head.
+
+00:18:11.720 --> 00:18:13.560
+ Yeah, we just took an infant CPR class,
+
+00:18:13.560 --> 00:18:16.320
+ and they were just, like, describing all the different ways.
+
+00:18:16.320 --> 00:18:17.440
+ - Yeah.
+
+00:18:17.440 --> 00:18:18.440
+ - Things can go wrong.
+
+00:18:18.440 --> 00:18:21.240
+ - Yeah, that's a surefire way to start getting you nervous.
+
+00:18:21.240 --> 00:18:23.400
+ You're like, oh my goodness.
+
+00:18:23.400 --> 00:18:26.520
+ There's so many things that could be not right about this.
+
+00:18:26.520 --> 00:18:27.360
+ But yeah, so we ripped that out,
+
+00:18:27.360 --> 00:18:29.320
+ so now we have a, actually the kids love it, though.
+
+00:18:29.320 --> 00:18:31.120
+ They're gonna be so sad when I change it,
+
+00:18:31.120 --> 00:18:34.720
+ 'cause underneath the pool was just like sand, you know,
+
+00:18:34.720 --> 00:18:36.840
+ 'cause they used that to, like, level it and everything.
+
+00:18:36.840 --> 00:18:39.120
+ So it's a huge sandbox.
+
+00:18:39.120 --> 00:18:41.360
+ Like, 24 feet, right?
+
+00:18:41.360 --> 00:18:44.240
+ Like, diameter, a big circle sandbox.
+
+00:18:44.240 --> 00:18:46.520
+ And the kids are like, this is awesome.
+
+00:18:46.520 --> 00:18:49.240
+ They're, like, digging up sand and then, like, throwing in
+
+00:18:49.240 --> 00:18:52.360
+ and, like, going in, like, taking rocks from the sand
+
+00:18:52.360 --> 00:18:54.520
+ and throwing it off the deck back into the sand.
+
+00:18:54.520 --> 00:18:55.760
+ And they're, like, this is so cool.
+
+00:18:55.760 --> 00:18:58.200
+ I'm, like, I hate to tell you guys this,
+
+00:18:58.200 --> 00:19:00.080
+ but that is gonna take that away soon.
+
+00:19:00.080 --> 00:19:03.400
+ I am gonna not, I'm not gonna let the big sand circle
+
+00:19:03.400 --> 00:19:04.960
+ stay in the backyard forever.
+
+00:19:04.960 --> 00:19:07.760
+ - That does sound really awesome.
+
+00:19:07.760 --> 00:19:09.600
+ Are you guys, like, gonna put something else there
+
+00:19:09.600 --> 00:19:10.960
+ or just bring up the space?
+
+00:19:10.960 --> 00:19:13.960
+ - Yeah, we're gonna make the, so, like,
+
+00:19:13.960 --> 00:19:17.200
+ we have a walkout basement, so the back of the house
+
+00:19:17.200 --> 00:19:18.480
+ is two, like, two stores, right?
+
+00:19:18.480 --> 00:19:20.000
+ So we have, like, a deck that comes out
+
+00:19:20.000 --> 00:19:21.120
+ from, like, the kitchen area.
+
+00:19:21.120 --> 00:19:22.440
+ And then there's steps down.
+
+00:19:22.440 --> 00:19:24.800
+ And then that was, like, the deck with the pool.
+
+00:19:24.800 --> 00:19:27.000
+ So we're just turning that now, like, into a rectangle
+
+00:19:27.000 --> 00:19:28.600
+ for, like, a spot to sit and hang out
+
+00:19:28.600 --> 00:19:30.440
+ and, like, have another table and other stuff there.
+
+00:19:30.440 --> 00:19:34.400
+ And then we're gonna put a bunch of, like, gardens
+
+00:19:34.400 --> 00:19:35.600
+ and possibly chicken coop.
+
+00:19:35.600 --> 00:19:36.720
+ - Oh, chicken coop.
+
+00:19:36.720 --> 00:19:37.560
+ - Back there, too.
+
+00:19:37.560 --> 00:19:39.200
+ So, yeah, it was, it's very funny.
+
+00:19:39.200 --> 00:19:42.760
+ There was a video I saw recently where it was this guy
+
+00:19:42.760 --> 00:19:45.320
+ talking and he was, like, if your wife says,
+
+00:19:45.320 --> 00:19:47.400
+ she's gonna start making sourdough
+
+00:19:47.400 --> 00:19:49.880
+ because she doesn't like the chemicals in bread.
+
+00:19:49.880 --> 00:19:51.880
+ Congrats, you're a farmer now.
+
+00:19:51.880 --> 00:19:53.520
+ - And, like, it was, like, literally describing
+
+00:19:53.520 --> 00:19:56.000
+ my exact last year, where I was, like,
+
+00:19:56.000 --> 00:19:57.480
+ I'm just gonna start making sourdough.
+
+00:19:57.480 --> 00:19:58.560
+ And I'm, like, sick.
+
+00:19:58.560 --> 00:19:59.400
+ Like, that sounds good.
+
+00:19:59.400 --> 00:20:01.800
+ She's like, cheddar jalapeno sourdough bread sound good?
+
+00:20:01.800 --> 00:20:03.360
+ Yes, that sounds amazing.
+
+00:20:03.360 --> 00:20:05.680
+ Hey, so just throwing it out there.
+
+00:20:05.680 --> 00:20:08.280
+ What about chickens, you know?
+
+00:20:08.280 --> 00:20:10.960
+ (both laughing)
+
+00:20:10.960 --> 00:20:14.280
+ - So, it's like, just go to the hardware store
+
+00:20:14.280 --> 00:20:15.840
+ and start buying the coop materials.
+
+00:20:15.840 --> 00:20:17.320
+ You're gonna be building it in no time.
+
+00:20:17.320 --> 00:20:18.640
+ (both laughing)
+
+00:20:18.640 --> 00:20:19.960
+ - That's so funny.
+
+00:20:19.960 --> 00:20:22.160
+ Yeah, my house had a chicken coop
+
+00:20:22.160 --> 00:20:24.080
+ in the, like, where that shed area was.
+
+00:20:24.080 --> 00:20:24.920
+ - Oh, yeah.
+
+00:20:24.920 --> 00:20:28.280
+ - Yeah, it's, like, it got removed before we moved in,
+
+00:20:28.280 --> 00:20:30.280
+ but, yeah, someone had chickens back there.
+
+00:20:30.280 --> 00:20:33.440
+ I guess, I'm assuming the grass is real back then also.
+
+00:20:33.440 --> 00:20:35.000
+ - Yeah, you wouldn't want it with fake grass.
+
+00:20:35.000 --> 00:20:37.080
+ It'll be so gross, so fast.
+
+00:20:37.080 --> 00:20:39.760
+ - Yeah, yeah, there's a, there's a weirdly,
+
+00:20:39.760 --> 00:20:41.520
+ even though mine is a city,
+
+00:20:41.520 --> 00:20:43.480
+ there's a lot of people that have chickens.
+
+00:20:43.480 --> 00:20:45.840
+ - Yeah, it's pretty in right now, pretty in.
+
+00:20:45.840 --> 00:20:46.680
+ - Yeah.
+
+00:20:46.680 --> 00:20:48.880
+ - I mean, it's nice, like, so right now though,
+
+00:20:48.880 --> 00:20:50.280
+ I mean, I feel like the life hack
+
+00:20:50.280 --> 00:20:52.240
+ is we have a bunch of people at our church
+
+00:20:52.240 --> 00:20:54.240
+ who are doing chickens, like, we got this friend,
+
+00:20:54.240 --> 00:20:55.080
+ they got, like, a hundred.
+
+00:20:55.080 --> 00:20:55.920
+ - Yep, exactly.
+
+00:20:55.920 --> 00:20:58.680
+ - Like, they're, like, seriously, they were,
+
+00:20:58.680 --> 00:21:00.600
+ they're growing, like, crazy.
+
+00:21:00.600 --> 00:21:02.520
+ Their egg business is growing, like, crazy.
+
+00:21:02.520 --> 00:21:04.000
+ It's 10xing, you know?
+
+00:21:04.000 --> 00:21:05.480
+ Like, this is hockey stick growth.
+
+00:21:05.480 --> 00:21:07.400
+ They've got over at their house.
+
+00:21:07.400 --> 00:21:09.720
+ And, like, all the, and so they're like,
+
+00:21:09.720 --> 00:21:10.800
+ we have so many eggs.
+
+00:21:10.800 --> 00:21:12.640
+ Like, here's, you know, you like, a dozen
+
+00:21:12.640 --> 00:21:13.720
+ for, like, barely anything.
+
+00:21:13.720 --> 00:21:15.720
+ I'm like, I mean, this is not so bad.
+
+00:21:15.720 --> 00:21:18.360
+ I just pick up a, you know, a dozen or two dozen eggs
+
+00:21:18.360 --> 00:21:20.080
+ every week at church from them.
+
+00:21:20.080 --> 00:21:22.080
+ That's simpler than cleaning up the chicken coop.
+
+00:21:22.080 --> 00:21:23.160
+ I'm just throwing it up there.
+
+00:21:23.160 --> 00:21:27.960
+ - Yeah, when all those egg prices were going up,
+
+00:21:27.960 --> 00:21:31.280
+ there was like this similar, like, underground network
+
+00:21:31.280 --> 00:21:34.920
+ that was forming here where Liz's sister was getting eggs
+
+00:21:34.920 --> 00:21:36.120
+ from someone that had chickens
+
+00:21:36.120 --> 00:21:37.680
+ and then dropping them off.
+
+00:21:37.680 --> 00:21:41.680
+ Yeah, it was a, but yeah, it's crazy how many they produce.
+
+00:21:41.680 --> 00:21:42.920
+ Like, you get a lot of eggs from--
+
+00:21:42.920 --> 00:21:44.400
+ - Like, almost a nag a day.
+
+00:21:44.400 --> 00:21:45.480
+ - They do that every day.
+
+00:21:45.480 --> 00:21:46.320
+ That's crazy.
+
+00:21:46.320 --> 00:21:47.360
+ - That is crazy, dude.
+
+00:21:47.360 --> 00:21:48.200
+ - A lot of work.
+
+00:21:48.200 --> 00:21:51.720
+ - It reminds me, though, I was talking to a buddy of mine.
+
+00:21:51.720 --> 00:21:56.480
+ He's mechanical engineer, very, very buttoned up.
+
+00:21:56.480 --> 00:21:59.480
+ You know, very straightforward guy about a lot of stuff.
+
+00:21:59.480 --> 00:22:01.200
+ He likes to do all of his own projects,
+
+00:22:01.200 --> 00:22:02.880
+ this kind of thing, right?
+
+00:22:02.880 --> 00:22:04.720
+ And he's got, like, five kids.
+
+00:22:04.720 --> 00:22:06.760
+ You know, he's got a bunch of kids, et cetera.
+
+00:22:06.760 --> 00:22:08.680
+ And we were having breakfast and I'm cracking up
+
+00:22:08.680 --> 00:22:10.720
+ because we were just, we were actually talking about
+
+00:22:10.720 --> 00:22:12.480
+ going on the yacht and doing the music video
+
+00:22:12.480 --> 00:22:14.240
+ and other stuff like this.
+
+00:22:14.240 --> 00:22:17.560
+ And like how, you know, you can just like spend money
+
+00:22:17.560 --> 00:22:19.040
+ and like make things happen.
+
+00:22:19.040 --> 00:22:20.960
+ You know, and like sometimes not even that much money.
+
+00:22:20.960 --> 00:22:22.800
+ Like to do the yacht, it wasn't even that much money.
+
+00:22:22.800 --> 00:22:26.280
+ Like, compared to going out for dinner
+
+00:22:26.280 --> 00:22:27.560
+ at a nice restaurant, right?
+
+00:22:27.560 --> 00:22:28.720
+ Like, a bunch of companies are like,
+
+00:22:28.720 --> 00:22:29.920
+ yeah, we'll have a whole company out
+
+00:22:29.920 --> 00:22:31.920
+ for dinner at a restaurant, whatever.
+
+00:22:31.920 --> 00:22:34.080
+ So, so we're talking about this and everything.
+
+00:22:34.080 --> 00:22:37.360
+ And my buddy goes, yeah, I just,
+
+00:22:37.360 --> 00:22:38.280
+ I just don't really get it.
+
+00:22:38.280 --> 00:22:41.360
+ Like, I can never even think of things to spend money on.
+
+00:22:41.360 --> 00:22:45.000
+ And the rest of the table is like, what?
+
+00:22:45.000 --> 00:22:48.560
+ You know, like, dude, like, he's like, yeah,
+
+00:22:48.560 --> 00:22:50.280
+ I just like, I've got all these projects
+
+00:22:50.280 --> 00:22:51.440
+ that I need to do and stuff.
+
+00:22:51.440 --> 00:22:55.800
+ And we're like, Brian, that's what you can spend money on.
+
+00:22:55.800 --> 00:22:58.280
+ Dude, your wife would be so happy
+
+00:22:58.280 --> 00:23:00.600
+ if like 30 construction dude came in
+
+00:23:00.600 --> 00:23:02.680
+ and like finished all your projects in one week.
+
+00:23:02.680 --> 00:23:06.040
+ You know, like, it just reminds me of the eggs thing.
+
+00:23:06.040 --> 00:23:09.400
+ I'm like, I can turn money into time.
+
+00:23:09.400 --> 00:23:11.760
+ And I can do time to money and I can do both.
+
+00:23:11.760 --> 00:23:16.160
+ And, and, you know, like, I can just buy eggs for $4.
+
+00:23:16.160 --> 00:23:18.920
+ Oh, but I was cracking up.
+
+00:23:18.920 --> 00:23:22.360
+ I knew you would like, I can't even imagine like what?
+
+00:23:22.360 --> 00:23:24.280
+ I don't even know how to spend money.
+
+00:23:24.280 --> 00:23:27.200
+ And I'm like, dude, man, I wish I had that problem.
+
+00:23:27.200 --> 00:23:29.280
+ It sounds nice.
+
+00:23:29.280 --> 00:23:30.600
+ That is not relatable.
+
+00:23:30.600 --> 00:23:32.200
+ I just have all this money that I don't know
+
+00:23:32.200 --> 00:23:33.200
+ what to do with it.
+
+00:23:33.200 --> 00:23:34.040
+ Wow.
+
+00:23:34.040 --> 00:23:34.880
+ Well, it wasn't even that.
+
+00:23:34.880 --> 00:23:38.480
+ It's just like, you know, he works like regular mechanical
+
+00:23:38.480 --> 00:23:39.320
+ engineering job.
+
+00:23:39.320 --> 00:23:41.200
+ He'd just like, you know, just not like,
+
+00:23:41.200 --> 00:23:43.440
+ oh, he owns a random plumbing business
+
+00:23:43.440 --> 00:23:45.920
+ that actually, you know, secretly does $5 million a year
+
+00:23:45.920 --> 00:23:48.800
+ or something like that, like regular mechanical engineer.
+
+00:23:48.800 --> 00:23:51.640
+ Like, yeah, man, I just can't even think of like,
+
+00:23:51.640 --> 00:23:53.400
+ what do people even spend money on?
+
+00:23:53.400 --> 00:23:57.800
+ I'm like, oh, that's really funny.
+
+00:23:57.800 --> 00:24:00.480
+ If you don't have any use for it, like I'm available.
+
+00:24:02.840 --> 00:24:04.520
+ You can hire me to do anything.
+
+00:24:04.520 --> 00:24:05.800
+ Yeah, I mean, or just give it to me.
+
+00:24:05.800 --> 00:24:07.800
+ Like if you're really like, it's so useless.
+
+00:24:07.800 --> 00:24:11.720
+ That's funny.
+
+00:24:11.720 --> 00:24:14.440
+ So are you guys, you said you're going to do like a garden
+
+00:24:14.440 --> 00:24:17.040
+ also, you said, going to grow like little vegetables?
+
+00:24:17.040 --> 00:24:20.120
+ When we lived in Madison before we had kids,
+
+00:24:20.120 --> 00:24:23.240
+ I built a pretty big raised bed garden like around,
+
+00:24:23.240 --> 00:24:25.400
+ we had like just a deck.
+
+00:24:25.400 --> 00:24:27.440
+ It was probably, I don't know, maybe like 10 feet
+
+00:24:27.440 --> 00:24:28.840
+ by 20 feet, something like this.
+
+00:24:28.840 --> 00:24:31.720
+ I built like a raised bed garden like around most of that.
+
+00:24:31.720 --> 00:24:33.680
+ And we grew a ton, a ton of stuff,
+
+00:24:33.680 --> 00:24:37.280
+ which was really fun, like a bunch of like peppers,
+
+00:24:37.280 --> 00:24:40.320
+ like different kinds to like jalapenos as well as like Bell
+
+00:24:40.320 --> 00:24:42.600
+ and some like Anaheim and a few other kinds.
+
+00:24:42.600 --> 00:24:44.240
+ We, you know, did tomatoes.
+
+00:24:44.240 --> 00:24:45.440
+ All that grows in Michigan.
+
+00:24:45.440 --> 00:24:46.280
+ That's kind of crazy.
+
+00:24:46.280 --> 00:24:47.120
+ Yeah, all of it'll grow.
+
+00:24:47.120 --> 00:24:48.360
+ I mean, you won't be able to grow it in the winter time.
+
+00:24:48.360 --> 00:24:49.200
+ You know what I'm saying?
+
+00:24:49.200 --> 00:24:51.600
+ But like you get, for some of them,
+
+00:24:51.600 --> 00:24:53.920
+ like you might need to do a little bit of sprouting
+
+00:24:53.920 --> 00:24:58.560
+ like inside beforehand, like especially 'cause you run the risk
+
+00:24:58.560 --> 00:25:02.960
+ of like a random like frost happening in May
+
+00:25:02.960 --> 00:25:04.560
+ and then like all your plants die, right?
+
+00:25:04.560 --> 00:25:07.440
+ You're like, oh, well, that sucks.
+
+00:25:07.440 --> 00:25:09.640
+ Yeah, I guess I'm done for this year.
+
+00:25:09.640 --> 00:25:13.040
+ Yeah, I guess we need to either go buy them all now,
+
+00:25:13.040 --> 00:25:16.760
+ like in the expensive version of like partially grown
+
+00:25:16.760 --> 00:25:17.600
+ or not, but yeah.
+
+00:25:17.600 --> 00:25:21.000
+ I mean, we also grew like cucumbers, peas, potatoes.
+
+00:25:21.000 --> 00:25:23.160
+ Potatoes are hilarious to grow.
+
+00:25:23.160 --> 00:25:25.560
+ Like, so it's super easy way
+
+00:25:25.560 --> 00:25:28.560
+ as if you get like a big bucket or something.
+
+00:25:28.560 --> 00:25:31.120
+ They also make these like little bags that you can do it in.
+
+00:25:31.120 --> 00:25:33.520
+ You plant the potatoes in that have sprouted.
+
+00:25:33.520 --> 00:25:34.920
+ You put them like at the bottom
+
+00:25:34.920 --> 00:25:37.680
+ and you only fill the bucket up like this high, right?
+
+00:25:37.680 --> 00:25:38.840
+ Okay. With dirt.
+
+00:25:38.840 --> 00:25:42.680
+ And then as the stocks grow taller,
+
+00:25:42.680 --> 00:25:46.320
+ you just keep on piling more dirt on and more dirt
+
+00:25:46.320 --> 00:25:48.280
+ 'cause you eat the root part, right?
+
+00:25:48.280 --> 00:25:51.000
+ So then it's like, oh, the place like, bro,
+
+00:25:51.000 --> 00:25:52.080
+ we got more dirt.
+
+00:25:52.080 --> 00:25:54.160
+ Time to put some more potatoes in the ground.
+
+00:25:54.160 --> 00:25:57.440
+ And so like, so then when you're done,
+
+00:25:57.440 --> 00:26:00.640
+ you have this huge like bush of like potato shoots,
+
+00:26:00.640 --> 00:26:01.840
+ like shooting up at the top,
+
+00:26:01.840 --> 00:26:04.880
+ but then all the way down our potatoes.
+
+00:26:04.880 --> 00:26:07.280
+ And so we want to do it.
+
+00:26:07.280 --> 00:26:08.760
+ We did it a little bit last year,
+
+00:26:08.760 --> 00:26:10.360
+ but we'll do it again sometime.
+
+00:26:10.360 --> 00:26:12.640
+ It's like, then it's like a dinosaur expedition.
+
+00:26:12.640 --> 00:26:15.160
+ Dude, you jump out the big bag and you like have your kids,
+
+00:26:15.160 --> 00:26:17.080
+ like they're like sifting through and like,
+
+00:26:17.080 --> 00:26:20.520
+ I've got a potato, but you can get a ton.
+
+00:26:20.520 --> 00:26:24.040
+ You can turn one potato into like 20, probably.
+
+00:26:24.040 --> 00:26:25.520
+ Like seriously, it's crazy.
+
+00:26:25.520 --> 00:26:27.280
+ - Is that like, like sometimes you have a potato
+
+00:26:27.280 --> 00:26:28.600
+ for too long, it like starts to--
+
+00:26:28.600 --> 00:26:30.240
+ - Yeah, yeah, you can just bite those mostly.
+
+00:26:30.240 --> 00:26:31.080
+ - That's basically what that is.
+
+00:26:31.080 --> 00:26:31.920
+ Oh, I see.
+
+00:26:31.920 --> 00:26:33.960
+ - The only thing you get worried about for like,
+
+00:26:33.960 --> 00:26:36.240
+ when you get it from the store and planting them,
+
+00:26:36.240 --> 00:26:39.880
+ some of them have like some like already pesticides
+
+00:26:39.880 --> 00:26:43.160
+ or insecticides on them that like will prevent them
+
+00:26:43.160 --> 00:26:46.760
+ from like properly, like all the way sprouting.
+
+00:26:46.760 --> 00:26:47.600
+ You know what I'm saying?
+
+00:26:47.600 --> 00:26:50.400
+ Like they might do like a little bit of sprout,
+
+00:26:50.400 --> 00:26:51.800
+ but yeah, like it's crazy too.
+
+00:26:51.800 --> 00:26:53.920
+ 'Cause then if you take your seed potatoes,
+
+00:26:53.920 --> 00:26:56.040
+ that you used, you grow a bunch of potatoes,
+
+00:26:56.040 --> 00:26:58.320
+ you just have new seed potatoes again.
+
+00:26:58.320 --> 00:27:01.280
+ You're like, that's magic.
+
+00:27:01.280 --> 00:27:02.100
+ - It's actually that again,
+
+00:27:02.100 --> 00:27:03.560
+ another exponential growth situation.
+
+00:27:03.560 --> 00:27:04.400
+ - It's exponential growth, that's like--
+
+00:27:04.400 --> 00:27:05.240
+ - You played all of those.
+
+00:27:05.240 --> 00:27:06.400
+ - Dude, that was literally the meme.
+
+00:27:06.400 --> 00:27:08.300
+ - I know, I think it was tomatoes.
+
+00:27:08.300 --> 00:27:11.480
+ - So funny for tomatoes, it was crazy up every time.
+
+00:27:11.480 --> 00:27:13.880
+ Like would you rather have a million dollars
+
+00:27:13.880 --> 00:27:17.480
+ or would you rather have 10 tomatoes and he's like,
+
+00:27:17.480 --> 00:27:20.760
+ number one, a million dollars would stop me from grinding.
+
+00:27:20.760 --> 00:27:22.680
+ Number two, think about it like this.
+
+00:27:22.680 --> 00:27:24.320
+ You start growing your tomatoes today.
+
+00:27:24.320 --> 00:27:26.480
+ Each tomato grows 30 seeds.
+
+00:27:26.480 --> 00:27:28.160
+ Each seed, you can play it again.
+
+00:27:28.160 --> 00:27:30.800
+ Before you know it, you've got 10 billion tomatoes.
+
+00:27:30.800 --> 00:27:33.920
+ (both laughing)
+
+00:27:33.920 --> 00:27:34.760
+ - This is so funny.
+
+00:27:34.760 --> 00:27:36.000
+ - I know, I--
+
+00:27:36.000 --> 00:27:38.480
+ - We got that mango tree last year.
+
+00:27:38.480 --> 00:27:39.320
+ - Oh yeah.
+
+00:27:39.320 --> 00:27:40.160
+ - And it's still in the pot.
+
+00:27:40.160 --> 00:27:41.440
+ Like we haven't put it in the ground yet
+
+00:27:41.440 --> 00:27:42.960
+ and it's been a year.
+
+00:27:42.960 --> 00:27:45.520
+ And a couple of months ago, it started flowering
+
+00:27:45.520 --> 00:27:47.040
+ and I was like, oh, this is crazy.
+
+00:27:47.040 --> 00:27:48.480
+ Like we only had this for a year.
+
+00:27:48.480 --> 00:27:49.320
+ - Yeah.
+
+00:27:49.320 --> 00:27:52.480
+ - And then they were like probably like 100 to 200
+
+00:27:52.480 --> 00:27:53.680
+ and it's a small mango tree.
+
+00:27:53.680 --> 00:27:54.960
+ It's like, it's got babies still.
+
+00:27:54.960 --> 00:27:57.800
+ There's like 100 to 200 little tiny little mangoes.
+
+00:27:57.800 --> 00:27:59.760
+ And I was like, this is crazy that's already happening.
+
+00:27:59.760 --> 00:28:00.600
+ - Yeah.
+
+00:28:00.600 --> 00:28:05.040
+ - And it's so brutal because over the next couple of weeks,
+
+00:28:05.040 --> 00:28:06.800
+ every single one of them either like--
+
+00:28:06.800 --> 00:28:07.800
+ - Just fell down.
+
+00:28:07.800 --> 00:28:10.080
+ - Yeah, the wind knocked it off or like it just dried up
+
+00:28:10.080 --> 00:28:11.080
+ and died.
+
+00:28:11.080 --> 00:28:12.640
+ And now there is one.
+
+00:28:12.640 --> 00:28:14.160
+ There is one mango.
+
+00:28:14.160 --> 00:28:16.680
+ Like that's like this size, but like two inches.
+
+00:28:16.680 --> 00:28:19.560
+ And it's like the lone survivor out of hundreds of these things.
+
+00:28:19.560 --> 00:28:21.720
+ - Dude, Succo's gonna eat it when you're not looking.
+
+00:28:21.720 --> 00:28:24.600
+ - He likes mangoes.
+
+00:28:24.600 --> 00:28:25.720
+ I share mangoes with them all the time.
+
+00:28:25.720 --> 00:28:26.720
+ So he knows.
+
+00:28:26.720 --> 00:28:27.720
+ - Oh, it's funny.
+
+00:28:27.720 --> 00:28:30.640
+ - We had this one flower that would grow in our like,
+
+00:28:30.640 --> 00:28:33.000
+ you walk out the front door and then there's like,
+
+00:28:33.000 --> 00:28:34.640
+ we got a little garden next to the front door.
+
+00:28:34.640 --> 00:28:36.520
+ Right in front of it, there's this big,
+
+00:28:36.520 --> 00:28:39.080
+ like some sort of crazy lily that would grow.
+
+00:28:39.080 --> 00:28:40.720
+ But it'll always grow kind of late.
+
+00:28:40.720 --> 00:28:42.680
+ But the problem is the deer always come and eat it
+
+00:28:42.680 --> 00:28:43.600
+ in our front yard.
+
+00:28:43.600 --> 00:28:46.440
+ So like they hang out in the woods and they just walk in.
+
+00:28:46.440 --> 00:28:47.920
+ They're chill with all the people, dude.
+
+00:28:47.920 --> 00:28:48.760
+ It's so funny.
+
+00:28:48.760 --> 00:28:50.680
+ Like when I walk Ember around that night,
+
+00:28:50.680 --> 00:28:52.720
+ there's sometimes you just see like five deer.
+
+00:28:52.720 --> 00:28:54.560
+ They're just walking on the street.
+
+00:28:54.560 --> 00:28:58.160
+ They're just like casually hanging out in the neighborhood.
+
+00:28:58.160 --> 00:28:59.520
+ - They're like using the sidewalks.
+
+00:28:59.520 --> 00:29:00.880
+ - Yeah, literally.
+
+00:29:00.880 --> 00:29:02.280
+ No, literally I've seen them like on the side
+
+00:29:02.280 --> 00:29:04.320
+ was just walking down the street or like hanging out.
+
+00:29:04.320 --> 00:29:05.720
+ And so they would always eat it.
+
+00:29:05.720 --> 00:29:08.160
+ One year, I'd like the six that we've lived at this house
+
+00:29:08.160 --> 00:29:09.160
+ or something like that.
+
+00:29:09.160 --> 00:29:10.760
+ One year, I finally see it grow.
+
+00:29:10.760 --> 00:29:12.440
+ I'm like, wow, that's really pretty.
+
+00:29:12.440 --> 00:29:13.480
+ That's crazy.
+
+00:29:13.480 --> 00:29:14.840
+ I'm like, Kayleen, you gotta come see this
+
+00:29:14.840 --> 00:29:15.880
+ and we were busy so she didn't see it.
+
+00:29:15.880 --> 00:29:17.440
+ So she's gonna go look at it tomorrow.
+
+00:29:17.440 --> 00:29:18.680
+ Ember destroyed it.
+
+00:29:18.680 --> 00:29:21.680
+ (everyone laughing)
+
+00:29:21.680 --> 00:29:26.400
+ She got it up and was like, oh, this one looks fun.
+
+00:29:26.400 --> 00:29:27.720
+ And she like pulled it out from the root
+
+00:29:27.720 --> 00:29:29.000
+ and was like running around with them
+
+00:29:29.000 --> 00:29:30.480
+ to put the balls in her mouth and stuff.
+
+00:29:30.480 --> 00:29:32.600
+ And you're like, that's crazy dog.
+
+00:29:32.600 --> 00:29:33.440
+ Like, what are you doing?
+
+00:29:33.440 --> 00:29:34.280
+ - That's so funny.
+
+00:29:34.280 --> 00:29:35.600
+ - How is she gonna be with the chickens?
+
+00:29:35.600 --> 00:29:36.440
+ - Good, I think.
+
+00:29:36.440 --> 00:29:38.040
+ Yeah, she's actually really like chill
+
+00:29:38.040 --> 00:29:40.320
+ with little animals actually one time.
+
+00:29:40.320 --> 00:29:43.240
+ It was a little, the thing is I know my dog.
+
+00:29:43.240 --> 00:29:44.760
+ So I knew it was gonna be fine.
+
+00:29:44.760 --> 00:29:47.400
+ We have like a bunch of baby birds that always,
+
+00:29:47.400 --> 00:29:49.240
+ they like in the underneath our deck,
+
+00:29:49.240 --> 00:29:50.880
+ they always make nests and stuff up there.
+
+00:29:50.880 --> 00:29:53.240
+ And then like, so we always get some baby birds hanging out.
+
+00:29:53.240 --> 00:29:54.920
+ And one time I was literally streaming
+
+00:29:54.920 --> 00:29:57.200
+ and I went out, I had to go take Ember outside
+
+00:29:57.200 --> 00:29:58.280
+ to go to the bathroom 'cause I was streaming
+
+00:29:58.280 --> 00:29:59.480
+ for a while in that day.
+
+00:29:59.480 --> 00:30:01.720
+ And so I did like, I just switched to my phone
+
+00:30:01.720 --> 00:30:02.920
+ and I was going to go outside.
+
+00:30:02.920 --> 00:30:04.920
+ One of the baby birds is on the ground.
+
+00:30:04.920 --> 00:30:06.400
+ And I went outside with Ember.
+
+00:30:06.400 --> 00:30:09.440
+ And I'm like, I'm gonna let her go say hi to the bird.
+
+00:30:09.440 --> 00:30:10.360
+ Like I knew it would be fine.
+
+00:30:10.360 --> 00:30:11.280
+ And it was totally fine.
+
+00:30:11.280 --> 00:30:13.480
+ She just went up and she's like really gentle with the bird.
+
+00:30:13.480 --> 00:30:15.400
+ She didn't try and like demolish it or anything.
+
+00:30:15.400 --> 00:30:19.160
+ She's like super gentle with little animals.
+
+00:30:19.160 --> 00:30:20.800
+ But chat was like freaking out.
+
+00:30:20.800 --> 00:30:23.640
+ You know, they're like monk ass spamming like they're freaking out.
+
+00:30:23.640 --> 00:30:25.640
+ (laughing)
+
+00:30:25.640 --> 00:30:26.800
+ - That's so funny.
+
+00:30:26.800 --> 00:30:28.560
+ - It was like, in retrospect,
+
+00:30:28.560 --> 00:30:29.840
+ that could have probably gone bad.
+
+00:30:29.840 --> 00:30:33.520
+ Like, you know, like, I don't know.
+
+00:30:33.520 --> 00:30:38.040
+ And, but yeah, she's really chill with other animals.
+
+00:30:38.040 --> 00:30:41.960
+ I think if we like, like we were working on introducing them
+
+00:30:41.960 --> 00:30:44.760
+ to her slowly and she got that it was like fun
+
+00:30:44.760 --> 00:30:46.360
+ and the kids were hanging out with it
+
+00:30:46.360 --> 00:30:47.560
+ with other animals and everything,
+
+00:30:47.560 --> 00:30:49.600
+ she would be, she would be good with them.
+
+00:30:49.600 --> 00:30:52.520
+ So, but there is, there is always the chance
+
+00:30:52.520 --> 00:30:54.560
+ where one day she's like, I'm a little hungry.
+
+00:30:54.560 --> 00:30:57.240
+ (laughing)
+
+00:30:57.240 --> 00:31:00.240
+ - Yeah, there is this, I'm forgetting his name now,
+
+00:31:00.240 --> 00:31:02.680
+ but he's like, he's on Twitter
+
+00:31:02.680 --> 00:31:04.780
+ and he's like part of the AWS community.
+
+00:31:04.780 --> 00:31:06.800
+ He had a crazy-- - Adam, that's F.
+
+00:31:06.800 --> 00:31:08.400
+ (laughing)
+
+00:31:08.400 --> 00:31:10.280
+ - No, this is a different AWS here.
+
+00:31:10.280 --> 00:31:11.360
+ - Okay, all right, got it, got it.
+
+00:31:11.360 --> 00:31:12.440
+ - There are many of them.
+
+00:31:12.440 --> 00:31:13.280
+ - Yeah, yeah, yeah.
+
+00:31:13.280 --> 00:31:15.680
+ - Adam's the weakest one of all AWS here is.
+
+00:31:15.680 --> 00:31:17.360
+ Like, everyone always forgets that he's won.
+
+00:31:17.360 --> 00:31:18.920
+ He forgets that he's won.
+
+00:31:18.920 --> 00:31:20.360
+ I forget that he's won.
+
+00:31:20.360 --> 00:31:23.840
+ - Yeah, if the AWS heroes were the Avengers,
+
+00:31:23.840 --> 00:31:25.000
+ which one would Adam be?
+
+00:31:25.000 --> 00:31:27.520
+ - Not even Hawkeye, like probably--
+
+00:31:27.520 --> 00:31:29.400
+ - Like Ant-Man or something useless?
+
+00:31:29.400 --> 00:31:31.160
+ - No, probably the new generation of them
+
+00:31:31.160 --> 00:31:34.420
+ or literally knows who they are.
+
+00:31:34.420 --> 00:31:38.000
+ - Superhero number 37 was unnamed practically.
+
+00:31:38.000 --> 00:31:41.040
+ (laughing)
+
+00:31:41.040 --> 00:31:43.240
+ - The new generation, that's brutal.
+
+00:31:43.240 --> 00:31:46.280
+ (laughing)
+
+00:31:46.280 --> 00:31:48.360
+ - Wait, this guy, I think he lived somewhere in Texas.
+
+00:31:48.360 --> 00:31:49.560
+ So he had a pretty big property
+
+00:31:49.560 --> 00:31:52.080
+ and he had like a crazy amount of chickens,
+
+00:31:52.080 --> 00:31:54.960
+ like 40 or 50, some of them were for eggs.
+
+00:31:54.960 --> 00:31:58.000
+ You know, it was a pretty big situation.
+
+00:31:58.000 --> 00:32:00.160
+ And he'd always post videos with these chickens
+
+00:32:00.160 --> 00:32:01.560
+ of them like sitting on him and everything.
+
+00:32:01.560 --> 00:32:03.040
+ It was a fun little thing.
+
+00:32:03.040 --> 00:32:05.480
+ And one day it was either Foxes or Wolves
+
+00:32:05.480 --> 00:32:06.440
+ or something I can't remember.
+
+00:32:06.440 --> 00:32:08.360
+ They killed all of them except for two.
+
+00:32:08.360 --> 00:32:12.680
+ - Yang, that's crazy. - Which is really, yeah.
+
+00:32:12.680 --> 00:32:15.640
+ Imagine going out and there's like 40 dead chickens
+
+00:32:15.640 --> 00:32:16.840
+ in your backyard.
+
+00:32:16.840 --> 00:32:17.880
+ - Wow.
+
+00:32:17.880 --> 00:32:19.680
+ - Yeah, really crazy.
+
+00:32:19.680 --> 00:32:22.040
+ I think wolves, it must have been,
+
+00:32:22.040 --> 00:32:23.240
+ maybe it was wolves or coyotes.
+
+00:32:23.240 --> 00:32:25.840
+ 'Cause I think I know, I think wolves are the only ones
+
+00:32:25.840 --> 00:32:27.040
+ that like just kill for fun
+
+00:32:27.040 --> 00:32:29.160
+ where they just kill a bunch of animals
+
+00:32:29.160 --> 00:32:30.000
+ and they just leave.
+
+00:32:30.000 --> 00:32:32.200
+ - That seems much more like a cat-like behavior though
+
+00:32:32.200 --> 00:32:34.200
+ than a dog-like behavior.
+
+00:32:34.200 --> 00:32:35.240
+ - That's true.
+
+00:32:35.240 --> 00:32:36.960
+ - So I don't know, but I guess it could do wolves.
+
+00:32:36.960 --> 00:32:39.000
+ - Yeah, that is wild though.
+
+00:32:39.000 --> 00:32:40.320
+ That would be devastating, dude.
+
+00:32:40.320 --> 00:32:41.800
+ - The kids would have to see all that stuff.
+
+00:32:41.800 --> 00:32:42.920
+ - Oh, I don't imagine you're like,
+
+00:32:42.920 --> 00:32:44.080
+ "All right, kiddos, go let out."
+
+00:32:44.080 --> 00:32:45.600
+ You know, like go open up the cages.
+
+00:32:45.600 --> 00:32:46.440
+ It's out bad.
+
+00:32:46.440 --> 00:32:47.600
+ You know, just like, I'm not doing that.
+
+00:32:47.600 --> 00:32:48.840
+ Like I'm not getting up and doing that.
+
+00:32:48.840 --> 00:32:51.160
+ Like you guys can go get them started for the day
+
+00:32:51.160 --> 00:32:53.840
+ and they walk out and like, "Dad?"
+
+00:32:53.840 --> 00:32:58.960
+ There's like 50/50 chance though my son,
+
+00:32:58.960 --> 00:32:59.960
+ he's just like me.
+
+00:32:59.960 --> 00:33:01.440
+ He would just go out there and like do it
+
+00:33:01.440 --> 00:33:03.840
+ and then come back inside and like not notice.
+
+00:33:03.840 --> 00:33:05.400
+ - Not notice.
+
+00:33:05.400 --> 00:33:07.160
+ - That's like the same way.
+
+00:33:07.160 --> 00:33:09.360
+ - Just so locked in, I'm like, "Well, I'll do my task."
+
+00:33:09.360 --> 00:33:10.680
+ Like it's totally fine.
+
+00:33:10.680 --> 00:33:13.240
+ And he just comes back in and he's like,
+
+00:33:13.240 --> 00:33:14.080
+ "None of them came out.
+
+00:33:14.080 --> 00:33:14.920
+ It was fine."
+
+00:33:14.920 --> 00:33:16.760
+ I'm like, "I don't have them came out to eat."
+
+00:33:16.760 --> 00:33:18.320
+ Then none of them came out to eat.
+
+00:33:18.320 --> 00:33:19.480
+ I'm like, "I don't know.
+
+00:33:19.480 --> 00:33:20.680
+ Can I play Legos now?"
+
+00:33:20.680 --> 00:33:24.480
+ - That's so relatable.
+
+00:33:24.480 --> 00:33:25.560
+ - Dude, he just got on.
+
+00:33:25.560 --> 00:33:27.640
+ He just got on doing some Lego stuff by himself
+
+00:33:27.640 --> 00:33:28.480
+ and it's crazy.
+
+00:33:28.480 --> 00:33:30.440
+ So he's like four and a half.
+
+00:33:30.440 --> 00:33:34.040
+ And I've never seen him sit down
+
+00:33:34.040 --> 00:33:36.280
+ for an extended period of time in my entire life.
+
+00:33:36.280 --> 00:33:38.760
+ Like even like a movie is pushing it.
+
+00:33:38.760 --> 00:33:41.120
+ Like we usually don't even watch a movie in one go.
+
+00:33:41.120 --> 00:33:42.800
+ He just likes to get up and run around.
+
+00:33:42.800 --> 00:33:45.200
+ Or when we finish a movie and it's like
+
+00:33:45.200 --> 00:33:46.680
+ if we watch the whole one, he gets up
+
+00:33:46.680 --> 00:33:47.720
+ and he just goes back upstairs
+
+00:33:47.720 --> 00:33:48.960
+ so it's running around in circles.
+
+00:33:48.960 --> 00:33:51.960
+ Like he literally like, "I'm not joking."
+
+00:33:51.960 --> 00:33:53.320
+ We can hear him upstairs.
+
+00:33:53.320 --> 00:33:55.000
+ We hear the thump, thump, thump, thump, thump,
+
+00:33:55.000 --> 00:33:56.160
+ thump, thump, thump of like his steps
+
+00:33:56.160 --> 00:33:58.200
+ all around the upstairs.
+
+00:33:58.200 --> 00:33:59.280
+ And he's just like running around
+
+00:33:59.280 --> 00:34:01.180
+ 'cause like that was way too long of sitting.
+
+00:34:02.280 --> 00:34:05.160
+ But his past Saturday, he got a bunch of Legos
+
+00:34:05.160 --> 00:34:06.040
+ like throughout the past year.
+
+00:34:06.040 --> 00:34:08.280
+ And he was finally like, "I wanna do my Legos."
+
+00:34:08.280 --> 00:34:09.560
+ Like, "Okay, that sounds good, dude."
+
+00:34:09.560 --> 00:34:12.400
+ So he like starts before breakfast, then we eat breakfast,
+
+00:34:12.400 --> 00:34:13.720
+ then he goes back to his Legos,
+
+00:34:13.720 --> 00:34:15.480
+ then he like skips lunch practically
+
+00:34:15.480 --> 00:34:17.120
+ 'cause he was like so locked in.
+
+00:34:17.120 --> 00:34:18.560
+ He just did him the whole day.
+
+00:34:18.560 --> 00:34:20.140
+ And I was like, "Wow."
+
+00:34:20.140 --> 00:34:20.980
+ Dude.
+
+00:34:20.980 --> 00:34:22.320
+ And then I was thinking, "He's just like me.
+
+00:34:22.320 --> 00:34:24.160
+ "I can't wait to get him into programming."
+
+00:34:24.160 --> 00:34:25.240
+ (laughing)
+
+00:34:25.240 --> 00:34:27.800
+ Except I have to trick him that it's cool and not lame
+
+00:34:27.800 --> 00:34:29.560
+ is something that your dad does.
+
+00:34:29.560 --> 00:34:31.040
+ (laughing)
+
+00:34:31.040 --> 00:34:32.480
+ - Yeah, like in hindsight.
+
+00:34:32.480 --> 00:34:34.840
+ So I remember when I was a kid, at some point,
+
+00:34:34.840 --> 00:34:37.000
+ maybe I was like eight or nine.
+
+00:34:37.000 --> 00:34:37.840
+ - Yeah.
+
+00:34:37.840 --> 00:34:40.080
+ - I got super into assembling furniture
+
+00:34:40.080 --> 00:34:43.080
+ 'cause in my head it was just like a big Lego thing.
+
+00:34:43.080 --> 00:34:44.640
+ I remember like literally for years,
+
+00:34:44.640 --> 00:34:45.480
+ whatever my parents got,
+
+00:34:45.480 --> 00:34:46.720
+ I think I'd be the one to assemble it.
+
+00:34:46.720 --> 00:34:47.680
+ And now I'm a hindsight.
+
+00:34:47.680 --> 00:34:49.440
+ I'm like, "Man, my parents are so lucky.
+
+00:34:49.440 --> 00:34:51.440
+ "I hate doing this."
+
+00:34:51.440 --> 00:34:53.840
+ I would kill to have a kid that's like demanding to do it.
+
+00:34:53.840 --> 00:34:54.920
+ - That's so funny.
+
+00:34:54.920 --> 00:34:58.240
+ And they were probably like, "Oh no, little dad,
+
+00:34:58.240 --> 00:34:59.760
+ "you don't need to do it."
+
+00:34:59.760 --> 00:35:02.680
+ - Yeah. (laughing)
+
+00:35:02.680 --> 00:35:05.280
+ - Oh, mom and dad love to assemble the furniture.
+
+00:35:05.280 --> 00:35:06.280
+ You should let us do it.
+
+00:35:06.280 --> 00:35:07.280
+ - No, I got it, dad.
+
+00:35:07.280 --> 00:35:08.920
+ - Shut up. - I know.
+
+00:35:08.920 --> 00:35:10.840
+ - Yeah, I remember feeling like so lucky
+
+00:35:10.840 --> 00:35:11.800
+ that I got to do it.
+
+00:35:11.800 --> 00:35:13.680
+ Man, I'm so stupid.
+
+00:35:13.680 --> 00:35:15.640
+ (laughing)
+
+00:35:15.640 --> 00:35:18.480
+ - That's like I'm hoping there's like some outdoor chores
+
+00:35:18.480 --> 00:35:20.920
+ that they feel that way about like pulling weeds.
+
+00:35:20.920 --> 00:35:23.400
+ Ooh, who can get the most weeds, you know, like?
+
+00:35:23.400 --> 00:35:24.480
+ - Yeah, yeah.
+
+00:35:24.480 --> 00:35:26.520
+ Do they have chores yet or be young too?
+
+00:35:26.520 --> 00:35:28.160
+ - They do like some simple ones.
+
+00:35:28.160 --> 00:35:30.240
+ - Yeah, I mean, like my oldest is four, right?
+
+00:35:30.240 --> 00:35:35.000
+ So it's like most of the like main chores you want to do.
+
+00:35:35.000 --> 00:35:36.320
+ We just have to do it again.
+
+00:35:36.320 --> 00:35:37.320
+ (laughing)
+
+00:35:37.320 --> 00:35:38.960
+ - That's right. - It's after he's done.
+
+00:35:38.960 --> 00:35:41.960
+ - Yeah, it's more for training than actually getting anything done.
+
+00:35:41.960 --> 00:35:43.120
+ It's a good junior developer.
+
+00:35:43.120 --> 00:35:45.600
+ - Yeah, so he has like a bunch of like tasks
+
+00:35:45.600 --> 00:35:46.440
+ that he's supposed to do.
+
+00:35:46.440 --> 00:35:48.280
+ And he does like school stuff and things like that.
+
+00:35:48.280 --> 00:35:50.240
+ But like in terms, and like they're,
+
+00:35:50.240 --> 00:35:51.600
+ I guess they are like chores.
+
+00:35:51.600 --> 00:35:53.400
+ Like he has to do stuff with making his bed
+
+00:35:53.400 --> 00:35:55.240
+ and how he does that and putting away his toys
+
+00:35:55.240 --> 00:35:56.080
+ and everything.
+
+00:35:56.080 --> 00:35:59.160
+ Like, and like he helps sometimes with like laundry
+
+00:35:59.160 --> 00:36:00.800
+ and stuff like that in terms of folding it.
+
+00:36:00.800 --> 00:36:05.600
+ But mostly it's like what am I going to do?
+
+00:36:05.600 --> 00:36:07.440
+ Have you like wipe something down
+
+00:36:07.440 --> 00:36:08.560
+ so we can wipe it down again?
+
+00:36:08.560 --> 00:36:10.400
+ But now there's also crumbs on the floor.
+
+00:36:10.400 --> 00:36:14.600
+ Like, so it's also, I also see a lot of myself and him
+
+00:36:14.600 --> 00:36:16.400
+ and I'm like, we can ask him to do that.
+
+00:36:16.400 --> 00:36:19.640
+ But I have a strong feeling it's not going to go anywhere.
+
+00:36:19.640 --> 00:36:22.060
+ (laughing)
+
+00:36:22.060 --> 00:36:23.680
+ - That's funny.
+
+00:36:23.680 --> 00:36:25.880
+ - Yeah, but they like to help with a lot of stuff
+
+00:36:25.880 --> 00:36:28.480
+ or like do, sometimes they like chop up veggies
+
+00:36:28.480 --> 00:36:30.600
+ and stuff like that in the kitchen or things like that.
+
+00:36:30.600 --> 00:36:31.880
+ You get like the little kids,
+
+00:36:31.880 --> 00:36:33.360
+ like the kids version of the knives
+
+00:36:33.360 --> 00:36:35.920
+ that are like they're sharp enough to cut like a bean
+
+00:36:35.920 --> 00:36:38.080
+ but not really going to cut your finger off, you know,
+
+00:36:38.080 --> 00:36:38.920
+ like a green bean.
+
+00:36:38.920 --> 00:36:42.840
+ So yeah, so it's a, it's a mix we'll see probably
+
+00:36:42.840 --> 00:36:45.520
+ like once he turns five and we're going to start doing,
+
+00:36:45.520 --> 00:36:47.880
+ we've been doing like some homeschooling stuff with him
+
+00:36:47.880 --> 00:36:49.800
+ but we'll probably go like a little bit, you know,
+
+00:36:49.800 --> 00:36:51.720
+ like in more advanced each year for it.
+
+00:36:51.720 --> 00:36:53.920
+ I mean, I guess that's kind of the idea for doing school.
+
+00:36:53.920 --> 00:36:56.960
+ - It's cool. - Yeah, he'll probably,
+
+00:36:56.960 --> 00:36:59.880
+ he'll gain a few new responsibilities as he goes older.
+
+00:36:59.880 --> 00:37:01.960
+ Right now though, it's like when I'm on the lawn,
+
+00:37:01.960 --> 00:37:04.440
+ they want to come and push their bubble lawn mower with me.
+
+00:37:04.440 --> 00:37:06.240
+ So I'm like, okay, I mean, that kind of counts.
+
+00:37:06.240 --> 00:37:07.080
+ You know what I mean?
+
+00:37:07.080 --> 00:37:09.080
+ Like, I'm not going to let you push the real lawn mower.
+
+00:37:09.080 --> 00:37:10.800
+ You can chop your foot off, you know what I mean?
+
+00:37:10.800 --> 00:37:14.680
+ Like, so they just do their bubble mower with me outside
+
+00:37:14.680 --> 00:37:16.400
+ or something like that, which is hilarious.
+
+00:37:16.400 --> 00:37:18.440
+ - Can you, can you read yet?
+
+00:37:18.440 --> 00:37:21.600
+ - He can read some, not like he's not going to sit down
+
+00:37:21.600 --> 00:37:22.440
+ and read like a whole book
+
+00:37:22.440 --> 00:37:24.240
+ but he can sound out quite a few words right now.
+
+00:37:24.240 --> 00:37:26.280
+ He's like iterating on that for sure.
+
+00:37:26.280 --> 00:37:27.920
+ Probably like by when he turns five,
+
+00:37:27.920 --> 00:37:29.800
+ like he'll be doing pretty good, yeah.
+
+00:37:29.800 --> 00:37:32.000
+ - Yeah, that's the reason I ask is like,
+
+00:37:32.000 --> 00:37:33.400
+ I'm into the idea of homeschooling,
+
+00:37:33.400 --> 00:37:35.360
+ but then I had this like kind of rational fear that like,
+
+00:37:35.360 --> 00:37:37.280
+ what if I'm, what if I do such a bad job
+
+00:37:37.280 --> 00:37:39.600
+ of setting them up that they literally can't read?
+
+00:37:39.600 --> 00:37:40.440
+ So I'm like--
+
+00:37:40.440 --> 00:37:41.520
+ - That one will be pretty obvious.
+
+00:37:41.520 --> 00:37:43.640
+ Like that one is really easy to judge.
+
+00:37:43.640 --> 00:37:44.480
+ Like, I don't remember.
+
+00:37:44.480 --> 00:37:46.920
+ - Prime got all the way to have roles he is.
+
+00:37:46.920 --> 00:37:48.280
+ - That's true, that's true.
+
+00:37:48.280 --> 00:37:50.880
+ But, you know, he at least, you know,
+
+00:37:50.880 --> 00:37:51.800
+ give him a little bit of time.
+
+00:37:51.800 --> 00:37:52.880
+ He can sound it out, okay?
+
+00:37:52.880 --> 00:37:53.720
+ Like he'll get there.
+
+00:37:53.720 --> 00:37:55.680
+ (laughing)
+
+00:37:55.680 --> 00:37:57.080
+ That one I feel like that one's really,
+
+00:37:57.080 --> 00:37:59.320
+ it'll be super obvious to you if it's like,
+
+00:37:59.320 --> 00:38:04.320
+ if it's going like well or not in a lot of those directions.
+
+00:38:04.320 --> 00:38:07.080
+ It's also like, I mean, they don't really expect kids
+
+00:38:07.080 --> 00:38:09.320
+ going into kindergarten to be reading already.
+
+00:38:09.320 --> 00:38:11.360
+ So like if he's reading, you know, you're like,
+
+00:38:11.360 --> 00:38:13.160
+ it's fine.
+
+00:38:13.160 --> 00:38:15.360
+ I also, I always tell Kayleigh,
+
+00:38:15.360 --> 00:38:17.520
+ like you don't have to be the world's best teacher for this.
+
+00:38:17.520 --> 00:38:19.800
+ Like just think of what the like average teachers--
+
+00:38:19.800 --> 00:38:21.360
+ - Yeah, and I think about all the time.
+
+00:38:21.360 --> 00:38:22.680
+ Yeah, you know what I mean?
+
+00:38:22.680 --> 00:38:25.240
+ No offense, but like I think you're crushing it.
+
+00:38:25.240 --> 00:38:27.520
+ (laughing)
+
+00:38:27.520 --> 00:38:31.640
+ - Yeah, it's funny 'cause I think about like nowadays
+
+00:38:31.640 --> 00:38:34.040
+ where I'm like, okay, I'm gonna go learn a new programming
+
+00:38:34.040 --> 00:38:36.840
+ language, something that I like is really foreign.
+
+00:38:36.840 --> 00:38:38.600
+ Yeah, I've never learned before.
+
+00:38:38.600 --> 00:38:42.840
+ Like within a year, I'm probably gonna be pretty good at it.
+
+00:38:42.840 --> 00:38:45.240
+ And I'm like, I'm like used to things at most
+
+00:38:45.240 --> 00:38:46.240
+ taking a year to learn.
+
+00:38:46.240 --> 00:38:49.680
+ And then I think about how it took me 12 years to learn math.
+
+00:38:49.680 --> 00:38:51.880
+ And I get that my brain had to literally grow,
+
+00:38:51.880 --> 00:38:55.040
+ but I'm like, does it really have to take that many years?
+
+00:38:55.040 --> 00:38:56.960
+ Like I learned so little
+
+00:38:56.960 --> 00:38:58.520
+ compared to how fast other things go.
+
+00:38:58.520 --> 00:39:02.360
+ - Well, the thing that's crazy to like about
+
+00:39:02.360 --> 00:39:05.080
+ just like the general structure of it is like,
+
+00:39:05.080 --> 00:39:07.720
+ obviously some kids learn math faster than other kids.
+
+00:39:07.720 --> 00:39:10.240
+ Doesn't mean anything like besides that they learn math
+
+00:39:10.240 --> 00:39:12.440
+ faster, like it's literally unrelated
+
+00:39:12.440 --> 00:39:13.920
+ to pretty much anything else.
+
+00:39:13.920 --> 00:39:17.680
+ But it's crazy 'cause the system is set up that it's like,
+
+00:39:17.680 --> 00:39:21.800
+ they can only be effectively like some offset
+
+00:39:21.800 --> 00:39:22.640
+ from each other.
+
+00:39:22.640 --> 00:39:24.360
+ Like, oh, you're one grade ahead.
+
+00:39:24.360 --> 00:39:25.640
+ Like this is what happened to me, right?
+
+00:39:25.640 --> 00:39:29.240
+ I was basically, you know, like started was,
+
+00:39:29.240 --> 00:39:30.520
+ and then like started sixth grade.
+
+00:39:30.520 --> 00:39:32.600
+ And I was like in doing seventh or eighth grade, right?
+
+00:39:32.600 --> 00:39:33.960
+ By the time I'm like in ninth grade,
+
+00:39:33.960 --> 00:39:35.040
+ I was doing some other ones.
+
+00:39:35.040 --> 00:39:36.800
+ And then like before I graduated,
+
+00:39:36.800 --> 00:39:39.240
+ I was doing some classes at like community college for it,
+
+00:39:39.240 --> 00:39:40.080
+ right? - Yeah.
+
+00:39:40.080 --> 00:39:41.360
+ - But that was still like,
+
+00:39:41.360 --> 00:39:44.080
+ I was still just some offset from my peers.
+
+00:39:44.080 --> 00:39:44.920
+ That's crazy.
+
+00:39:44.920 --> 00:39:46.800
+ Clearly I learned math at a faster rate.
+
+00:39:46.800 --> 00:39:48.680
+ It should be going like this, right?
+
+00:39:48.680 --> 00:39:51.840
+ Like any time you have a rate difference
+
+00:39:51.840 --> 00:39:53.520
+ between people for something.
+
+00:39:53.520 --> 00:39:55.200
+ - Yeah, it adds up over the years.
+
+00:39:55.200 --> 00:39:56.040
+ - Yeah.
+
+00:39:56.040 --> 00:39:57.560
+ - And you're like, the whole thing.
+
+00:39:57.560 --> 00:39:59.600
+ So yeah, so that's the thing that I'm like most,
+
+00:39:59.600 --> 00:40:01.680
+ probably like most excited for with them
+
+00:40:01.680 --> 00:40:03.320
+ is finding out what their things are
+
+00:40:03.320 --> 00:40:05.680
+ that they like really like learning
+
+00:40:05.680 --> 00:40:07.720
+ that they're like fast at doing, right?
+
+00:40:07.720 --> 00:40:10.440
+ And it's not like, oh, well,
+
+00:40:10.440 --> 00:40:14.320
+ now you're just in geometry instead of algebra one.
+
+00:40:14.320 --> 00:40:15.440
+ And so you're one year ahead.
+
+00:40:15.440 --> 00:40:17.320
+ I mean, that's good. Like, I think it's better.
+
+00:40:17.320 --> 00:40:20.320
+ All things equal to have like some classes
+
+00:40:20.320 --> 00:40:22.040
+ where you can go advance.
+
+00:40:22.040 --> 00:40:24.200
+ Apparently controversial take these days.
+
+00:40:24.200 --> 00:40:28.400
+ But it is kind of crazy because you're like,
+
+00:40:28.400 --> 00:40:32.200
+ surely, like I could have been done with my math major
+
+00:40:32.200 --> 00:40:33.720
+ by the time I graduated high school.
+
+00:40:33.720 --> 00:40:35.800
+ Like, 'cause I got one anyways when I was at Calvin,
+
+00:40:35.800 --> 00:40:38.840
+ like for fun, like I just got one as like a side thing
+
+00:40:38.840 --> 00:40:41.800
+ 'cause I enjoyed math and I was like far.
+
+00:40:41.800 --> 00:40:42.760
+ But like, I could have been done.
+
+00:40:42.760 --> 00:40:46.200
+ And most of the time I spend like waiting around in class.
+
+00:40:46.200 --> 00:40:47.040
+ You know what I'm saying?
+
+00:40:47.040 --> 00:40:49.040
+ - Yeah, it's crazy how much waiting in
+
+00:40:49.040 --> 00:40:50.840
+ just doing nothing there was.
+
+00:40:50.840 --> 00:40:53.080
+ I think the school I went to,
+
+00:40:53.080 --> 00:40:55.000
+ it's so roughly followed what you're describing,
+
+00:40:55.000 --> 00:40:56.400
+ but I think they were pretty good about it
+
+00:40:56.400 --> 00:41:01.400
+ because when I was in ninth grade,
+
+00:41:01.400 --> 00:41:04.880
+ I had a classmate that was already taking math classes
+
+00:41:04.880 --> 00:41:06.240
+ at Princeton at that point.
+
+00:41:06.240 --> 00:41:07.240
+ - Oh nice, yeah.
+
+00:41:07.240 --> 00:41:10.360
+ - And he basically, by the time we graduated,
+
+00:41:10.360 --> 00:41:13.680
+ he finished, he basically just needed to get,
+
+00:41:13.680 --> 00:41:16.520
+ he ended up going to MIT and he finished his math degree
+
+00:41:16.520 --> 00:41:18.880
+ like in his first semester at MIT.
+
+00:41:18.880 --> 00:41:20.280
+ And it did like a second thing.
+
+00:41:20.280 --> 00:41:24.120
+ So, I mean, he was one of those like freak of nature
+
+00:41:24.120 --> 00:41:24.960
+ type of people.
+
+00:41:24.960 --> 00:41:28.440
+ Like he won some national math contest
+
+00:41:28.440 --> 00:41:31.120
+ and got like a medal from George Bush.
+
+00:41:31.120 --> 00:41:33.520
+ Like, we're just kind of planning to be clear.
+
+00:41:33.520 --> 00:41:34.360
+ - That never happened to me to be clear stuff.
+
+00:41:34.360 --> 00:41:35.280
+ - So he had George Bush and math together,
+
+00:41:35.280 --> 00:41:37.080
+ but that's a reward if you really get a math
+
+00:41:37.080 --> 00:41:38.720
+ like George Bush, you have to meet George Bush.
+
+00:41:38.720 --> 00:41:41.400
+ If you want, you're like, "Hmm, okay."
+
+00:41:41.400 --> 00:41:42.240
+ - Do you know what I did?
+
+00:41:42.240 --> 00:41:43.540
+ - Fool me once.
+
+00:41:43.540 --> 00:41:45.400
+ (laughing)
+
+00:41:45.400 --> 00:41:47.400
+ - Oh man, that quote is so good though.
+
+00:41:47.400 --> 00:41:49.520
+ Don't you miss that, like that era
+
+00:41:49.520 --> 00:41:50.640
+ where like every couple of weeks
+
+00:41:50.640 --> 00:41:53.320
+ we're just getting a banger like that.
+
+00:41:53.320 --> 00:41:54.680
+ - I mean, Trump's got some good ones.
+
+00:41:54.680 --> 00:41:56.600
+ My favorite one's recently from him.
+
+00:41:56.600 --> 00:41:58.880
+ I don't know if you saw this one, but it's so funny
+
+00:41:58.880 --> 00:42:01.680
+ is he's in like the palace or whatever
+
+00:42:01.680 --> 00:42:03.960
+ of like one of the, either like the Saudis
+
+00:42:03.960 --> 00:42:06.320
+ or Connor or something like that I don't remember.
+
+00:42:06.320 --> 00:42:07.760
+ And they're taking pictures, right?
+
+00:42:07.760 --> 00:42:10.720
+ It's like this huge palace, it's insane, right?
+
+00:42:10.720 --> 00:42:13.080
+ And then you hear like the camp,
+
+00:42:13.080 --> 00:42:14.840
+ I don't even know, I mean, Trump probably knows
+
+00:42:14.840 --> 00:42:16.680
+ the cameras are on everything, the mics can still hear them,
+
+00:42:16.680 --> 00:42:17.880
+ but all the cameras are far away,
+
+00:42:17.880 --> 00:42:20.400
+ everything's walking away with them, it just goes.
+
+00:42:20.400 --> 00:42:21.680
+ - Nice house.
+
+00:42:21.680 --> 00:42:23.920
+ (laughing)
+
+00:42:23.920 --> 00:42:30.880
+ - I'm just like this, that's so funny.
+
+00:42:30.880 --> 00:42:31.720
+ - Nice house.
+
+00:42:31.720 --> 00:42:33.980
+ (laughing)
+
+00:42:37.480 --> 00:42:39.400
+ - Oh, like that's an all-time banger dude,
+
+00:42:39.400 --> 00:42:41.960
+ that was so funny, like that's insane.
+
+00:42:41.960 --> 00:42:45.000
+ - I think the one that sticks out my head the most
+
+00:42:45.000 --> 00:42:47.320
+ is that from the standpoint of water one.
+
+00:42:47.320 --> 00:42:48.680
+ (laughing)
+
+00:42:48.680 --> 00:42:49.840
+ - I don't even know if I told that one.
+
+00:42:49.840 --> 00:42:50.680
+ (laughing)
+
+00:42:50.680 --> 00:42:54.640
+ - I can't remember the exact quote,
+
+00:42:54.640 --> 00:42:56.880
+ but it's like during one of those Puerto Rican hurricanes
+
+00:42:56.880 --> 00:43:00.480
+ things, he's like, this is one of the wettest hurricanes
+
+00:43:00.480 --> 00:43:02.080
+ from the standpoint of water.
+
+00:43:02.080 --> 00:43:03.680
+ - I'm from the standpoint of water.
+
+00:43:03.680 --> 00:43:06.120
+ (laughing)
+
+00:43:06.120 --> 00:43:08.400
+ - Like how does his brain work this way?
+
+00:43:08.400 --> 00:43:11.400
+ - Oh, that's like, that's like, you know dude,
+
+00:43:11.400 --> 00:43:14.280
+ like what he says to me like, oh, he's just riffing.
+
+00:43:14.280 --> 00:43:15.200
+ That's insane.
+
+00:43:15.200 --> 00:43:17.800
+ - Like he thought of that, like 500 milliseconds
+
+00:43:17.800 --> 00:43:18.640
+ before he said it.
+
+00:43:18.640 --> 00:43:19.800
+ (laughing)
+
+00:43:19.800 --> 00:43:22.160
+ - You're like, if I'm president dude, I'm thinking,
+
+00:43:22.160 --> 00:43:24.200
+ I don't know, do I really feel like I should be riffing
+
+00:43:24.200 --> 00:43:25.040
+ all the time?
+
+00:43:25.040 --> 00:43:27.360
+ I feel like I gotta be like a little bit more like,
+
+00:43:27.360 --> 00:43:29.560
+ I'm gonna try and make sure I've got my message across.
+
+00:43:29.560 --> 00:43:31.520
+ I've only got five minutes of air time.
+
+00:43:31.520 --> 00:43:32.960
+ But it's like, that's so funny.
+
+00:43:32.960 --> 00:43:35.440
+ He's like, oh, he's just riffing on the idea completely
+
+00:43:35.440 --> 00:43:38.520
+ is insane, like hurricanes.
+
+00:43:38.520 --> 00:43:40.280
+ It's just like, that's all he's got.
+
+00:43:40.280 --> 00:43:42.280
+ All he's got, right, he's got a big part.
+
+00:43:42.280 --> 00:43:43.880
+ - 'Cause it hurricanes water, there's a lot of water.
+
+00:43:43.880 --> 00:43:44.880
+ - There's a big part, they hold it up
+
+00:43:44.880 --> 00:43:48.200
+ and it just says, it just says hurricanes, big.
+
+00:43:48.200 --> 00:43:51.400
+ And he goes, okay, I got it, give me five, boys.
+
+00:43:51.400 --> 00:43:53.760
+ (laughing)
+
+00:43:53.760 --> 00:43:55.520
+ - Yeah, I was saying this the other day,
+
+00:43:55.520 --> 00:43:58.840
+ I'm like jealous of people that have such a distinct way
+
+00:43:58.840 --> 00:44:00.800
+ of talking that people can like,
+
+00:44:00.800 --> 00:44:02.800
+ it's so distinct that people can do impressions.
+
+00:44:02.800 --> 00:44:06.240
+ I was thinking about this 'cause of all the Uncle Bob video
+
+00:44:06.240 --> 00:44:08.440
+ she's been doing, I'm just like, how do you develop this?
+
+00:44:08.440 --> 00:44:11.400
+ This is so crazy to be this like specific.
+
+00:44:11.400 --> 00:44:13.360
+ - That's true, in the bathroom.
+
+00:44:13.360 --> 00:44:15.680
+ It's been, he's been really keeping it up.
+
+00:44:15.680 --> 00:44:16.800
+ I've been impressed.
+
+00:44:16.800 --> 00:44:18.680
+ - I haven't seen them for a week,
+
+00:44:18.680 --> 00:44:20.040
+ but I think there's haven't come across my feet.
+
+00:44:20.040 --> 00:44:22.520
+ - I think he's been doing them just like on Mondays.
+
+00:44:22.520 --> 00:44:23.880
+ It seems like, 'cause it seems like I've been,
+
+00:44:23.880 --> 00:44:25.520
+ I've been getting them only like once a week
+
+00:44:25.520 --> 00:44:26.360
+ or something like that.
+
+00:44:26.360 --> 00:44:29.360
+ So I usually just like them and then don't watch,
+
+00:44:29.360 --> 00:44:32.760
+ but I like I want this to show back up in my feet again.
+
+00:44:32.760 --> 00:44:35.960
+ - Dude, I love, I just love, I just love the thumbnails.
+
+00:44:35.960 --> 00:44:40.040
+ I love the thumbnail and morning bathrobe rant, dipes.
+
+00:44:40.040 --> 00:44:42.560
+ - And I'm like, yes, I don't know what he's saying,
+
+00:44:42.560 --> 00:44:45.400
+ but I'm glad it's in the world, you know.
+
+00:44:45.400 --> 00:44:47.280
+ - I just wonder if he sounds like that
+
+00:44:47.280 --> 00:44:49.560
+ in his normal day to day or if he's like, if it's--
+
+00:44:49.560 --> 00:44:51.640
+ - He's playing it up, he's playing it up in that.
+
+00:44:51.640 --> 00:44:53.560
+ 'Cause like we've talked to him, we did a long form.
+
+00:44:53.560 --> 00:44:54.400
+ - Oh, it's true, yeah, yeah, yeah.
+
+00:44:54.400 --> 00:44:56.240
+ - Or maybe two long form interviews with him.
+
+00:44:56.240 --> 00:44:59.920
+ I mean, he has like, it's definitely still him
+
+00:44:59.920 --> 00:45:02.600
+ like in the, in the bathrobe rant,
+
+00:45:02.600 --> 00:45:05.720
+ but he's definitely like playing it up
+
+00:45:05.720 --> 00:45:07.120
+ like a little bit for that.
+
+00:45:07.120 --> 00:45:09.440
+ Like when he talks, he still has that like same kind
+
+00:45:09.440 --> 00:45:10.400
+ of humor, it seems to me.
+
+00:45:10.400 --> 00:45:13.240
+ I mean, I've only talked to him for like two or three hours,
+
+00:45:13.240 --> 00:45:14.080
+ you know what I mean?
+
+00:45:14.080 --> 00:45:18.280
+ But he still has like that same kind of like joke
+
+00:45:18.280 --> 00:45:21.240
+ and like when he's like impersonating like, you know,
+
+00:45:21.240 --> 00:45:23.400
+ the opposition of something right or whatever,
+
+00:45:23.400 --> 00:45:26.480
+ he's still like gonna do those same sort of tropes.
+
+00:45:26.480 --> 00:45:28.360
+ But yeah, I think it's a little played up for the bathroom.
+
+00:45:28.360 --> 00:45:30.680
+ I like, he knows, like he knows what he's doing.
+
+00:45:30.680 --> 00:45:31.720
+ Like it's funny, you know?
+
+00:45:31.720 --> 00:45:36.280
+ - Me and Liz were rewatching the second Avengers movie,
+
+00:45:36.280 --> 00:45:37.120
+ the one with Ultron.
+
+00:45:37.120 --> 00:45:38.120
+ I don't know if you've seen it, but-
+
+00:45:38.120 --> 00:45:39.400
+ - Age of Ultron, that one?
+
+00:45:39.400 --> 00:45:40.560
+ - Yeah.
+
+00:45:40.560 --> 00:45:41.840
+ - It's been a while, yeah.
+
+00:45:41.840 --> 00:45:43.560
+ I thought you were gonna say Pirates of the Caribbean,
+
+00:45:43.560 --> 00:45:44.400
+ but that's fine too.
+
+00:45:44.400 --> 00:45:46.400
+ - Yeah, so we're going through that now.
+
+00:45:46.400 --> 00:45:48.880
+ - Yeah, yeah, tell him why though, Dax, tell him why.
+
+00:45:48.880 --> 00:45:51.560
+ - Okay, well, me and Liz have been rewatching Pirates of Caribbean
+
+00:45:51.560 --> 00:45:55.960
+ 'cause TJ has called me Dax Barrow several times.
+
+00:45:55.960 --> 00:45:57.840
+ - Dax Barrow.
+
+00:45:57.840 --> 00:46:00.200
+ - And I was like, you know, I haven't seen those movies
+
+00:46:00.200 --> 00:46:01.040
+ in a really long time.
+
+00:46:01.040 --> 00:46:03.200
+ I should have at least rewatching that.
+
+00:46:03.200 --> 00:46:04.360
+ - They're pretty good though, right?
+
+00:46:04.360 --> 00:46:05.960
+ I mean, I feel like they're,
+
+00:46:05.960 --> 00:46:09.160
+ they kind of is like one of those things where like,
+
+00:46:09.160 --> 00:46:11.400
+ you look back and thought, oh, they're probably cheesy
+
+00:46:11.400 --> 00:46:12.240
+ or lame or whatever.
+
+00:46:12.240 --> 00:46:13.520
+ It's like, no, they're just earnest.
+
+00:46:13.520 --> 00:46:14.360
+ - No, it's so pretty good.
+
+00:46:14.360 --> 00:46:15.840
+ - It's pirate movies, like it's good.
+
+00:46:15.840 --> 00:46:17.880
+ - Yeah, well, also the,
+
+00:46:17.880 --> 00:46:21.280
+ some of the technical stuff is actually pretty insane
+
+00:46:21.280 --> 00:46:23.160
+ 'cause we're watching the Davy Jones one now.
+
+00:46:23.160 --> 00:46:24.000
+ - Oh yeah.
+
+00:46:24.000 --> 00:46:26.960
+ - And he looks great, like a CGI looks great,
+
+00:46:26.960 --> 00:46:29.400
+ the acting and like the little mannerisms and takes on like,
+
+00:46:29.400 --> 00:46:32.480
+ I can't believe this is like 15 years now.
+
+00:46:32.480 --> 00:46:33.920
+ - You want to know why?
+
+00:46:33.920 --> 00:46:36.000
+ It's because they had physical things
+
+00:46:36.000 --> 00:46:38.080
+ that they used for the props.
+
+00:46:38.080 --> 00:46:41.360
+ And because they didn't let stupid executives
+
+00:46:41.360 --> 00:46:43.480
+ make all the decisions along the way
+
+00:46:43.480 --> 00:46:46.480
+ and they had a vision for the movie, like cars.
+
+00:46:46.480 --> 00:46:49.560
+ Not just, I mean, the Pirates,
+
+00:46:49.560 --> 00:46:50.840
+ but that's a whole category of movies
+
+00:46:50.840 --> 00:46:51.960
+ I feel like they don't make anymore.
+
+00:46:51.960 --> 00:46:54.960
+ These like kind of adventure slash,
+
+00:46:54.960 --> 00:46:57.000
+ there's like some kind of magic to it too.
+
+00:46:57.000 --> 00:46:59.200
+ Like like, like, do you remember the mummy movies?
+
+00:46:59.200 --> 00:47:00.200
+ - Yeah.
+
+00:47:00.200 --> 00:47:01.040
+ - Yeah.
+
+00:47:01.040 --> 00:47:03.280
+ So I feel like that category and movie like,
+
+00:47:03.280 --> 00:47:04.760
+ I don't think they do anymore really.
+
+00:47:04.760 --> 00:47:07.240
+ - I feel like superhero movies kind of like took the slot.
+
+00:47:07.240 --> 00:47:08.080
+ - That's true.
+
+00:47:08.080 --> 00:47:08.920
+ They kind of looked like that.
+
+00:47:08.920 --> 00:47:10.280
+ - But now Super Mario's are kind of out.
+
+00:47:10.280 --> 00:47:12.720
+ So maybe we're due for a Pirates resurgence.
+
+00:47:12.720 --> 00:47:13.560
+ You know what I mean?
+
+00:47:13.560 --> 00:47:14.800
+ - Yeah.
+
+00:47:14.800 --> 00:47:16.320
+ - But they'll probably just make remake
+
+00:47:16.320 --> 00:47:19.240
+ of the Pirates of the Caribbean three, blah, blah, blah, blah.
+
+00:47:19.240 --> 00:47:21.320
+ - Well, did you know there's like six of these movies?
+
+00:47:21.320 --> 00:47:22.640
+ I've only ever seen three of them.
+
+00:47:22.640 --> 00:47:24.480
+ There's so many more than I thought.
+
+00:47:24.480 --> 00:47:25.320
+ - Wait, there's six?
+
+00:47:25.320 --> 00:47:26.160
+ I knew there was three.
+
+00:47:26.160 --> 00:47:27.760
+ - No, there's more than three.
+
+00:47:27.760 --> 00:47:29.440
+ I think it's either five or six.
+
+00:47:29.440 --> 00:47:32.400
+ There's a, so they already, they already milked it.
+
+00:47:32.400 --> 00:47:34.560
+ - You gotta know when it's time to stop guys.
+
+00:47:34.560 --> 00:47:36.160
+ That's the other thing that's part of the reason
+
+00:47:36.160 --> 00:47:38.640
+ that the franchise I feel like it's not looked upon
+
+00:47:38.640 --> 00:47:40.200
+ with the way that it should be,
+
+00:47:40.200 --> 00:47:43.960
+ is you gotta cut, you gotta, you gotta be Barry Sanders.
+
+00:47:43.960 --> 00:47:47.760
+ You know, Barry Sanders, great Detroit lines running back,
+
+00:47:47.760 --> 00:47:50.880
+ probably one of the all time greats, played for 10 years,
+
+00:47:50.880 --> 00:47:53.240
+ saw that the lines were never gonna win a Super Bowl.
+
+00:47:53.240 --> 00:47:55.400
+ And so he said, I'm out and he retired.
+
+00:47:55.400 --> 00:47:58.280
+ And everyone thinks, he's the awesome, amazing running back.
+
+00:47:58.280 --> 00:48:00.440
+ Yes, everyone needs to learn how to do that
+
+00:48:00.440 --> 00:48:02.320
+ with TV shows and movies, because otherwise
+
+00:48:02.320 --> 00:48:04.840
+ you get made fun of, you become Brett Favre.
+
+00:48:04.840 --> 00:48:06.760
+ Right? And it's like, Brevard used to be good,
+
+00:48:06.760 --> 00:48:08.360
+ and now they're like, he's the Levi's guy.
+
+00:48:08.360 --> 00:48:10.120
+ He makes jeans commercials, right?
+
+00:48:10.120 --> 00:48:11.120
+ - There's having a LeBron too.
+
+00:48:11.120 --> 00:48:11.960
+ - Yeah, it is, it is.
+
+00:48:11.960 --> 00:48:13.520
+ He should have retired too.
+
+00:48:13.520 --> 00:48:16.240
+ - Liz was bringing this up where she's like,
+
+00:48:16.240 --> 00:48:19.000
+ 'cause with the whole Kanye thing, she was like,
+
+00:48:19.000 --> 00:48:19.840
+ oh, I think--
+
+00:48:19.840 --> 00:48:21.080
+ - He's done with anti-Semitism.
+
+00:48:21.080 --> 00:48:23.480
+ - I did see that, but like, do you remember that clip
+
+00:48:23.480 --> 00:48:26.240
+ where he's like, I'm not gonna say what kind of doctor?
+
+00:48:26.240 --> 00:48:27.840
+ - Yeah, yeah, of course.
+
+00:48:27.840 --> 00:48:28.680
+ Yeah, yeah, of course.
+
+00:48:28.680 --> 00:48:30.560
+ - And he says, like five, so I'm pretty sure
+
+00:48:30.560 --> 00:48:31.560
+ it's gonna go like that.
+
+00:48:31.560 --> 00:48:32.400
+ - Yeah, yeah.
+
+00:48:32.400 --> 00:48:33.400
+ - It's gonna come out again tomorrow.
+
+00:48:33.400 --> 00:48:34.400
+ - Yeah, yeah, yeah.
+
+00:48:34.400 --> 00:48:36.840
+ (laughing)
+
+00:48:36.840 --> 00:48:38.600
+ - Yeah, yeah, yeah.
+
+00:48:38.600 --> 00:48:39.800
+ - But she's like, this is why,
+
+00:48:39.800 --> 00:48:42.920
+ maybe this is why celebrity should die young, because--
+
+00:48:42.920 --> 00:48:44.080
+ - Dang, Liz.
+
+00:48:44.080 --> 00:48:47.440
+ - Kanye had died five or 10 years ago, you know?
+
+00:48:47.440 --> 00:48:48.280
+ - All time great.
+
+00:48:48.280 --> 00:48:50.560
+ - Like, she would have been amazing, but now, you know,
+
+00:48:50.560 --> 00:48:51.560
+ we gotta witness this.
+
+00:48:51.560 --> 00:48:54.160
+ - Right after he made my favorite albums of his,
+
+00:48:54.160 --> 00:48:55.000
+ Jesus's King.
+
+00:48:55.000 --> 00:48:56.280
+ (laughing)
+
+00:48:56.280 --> 00:48:57.120
+ Of course, like--
+
+00:48:57.120 --> 00:48:59.240
+ (laughing)
+
+00:48:59.240 --> 00:49:00.840
+ - Yeah, I mean, that would have been good timing, I think.
+
+00:49:00.840 --> 00:49:03.200
+ That was like right before he got too crazy.
+
+00:49:03.200 --> 00:49:04.520
+ - Yeah, yeah, then he went,
+
+00:49:04.520 --> 00:49:05.920
+ hung out with Joel Osteen too much.
+
+00:49:05.920 --> 00:49:08.600
+ I won't make, I won't get too controversial here,
+
+00:49:08.600 --> 00:49:09.800
+ but yeah, no.
+
+00:49:09.800 --> 00:49:11.560
+ - Is that literally true?
+
+00:49:11.560 --> 00:49:13.400
+ - From an outsider looking in,
+
+00:49:13.400 --> 00:49:14.800
+ it felt like-- - Was he like,
+
+00:49:14.800 --> 00:49:16.360
+ involved with that whole thing?
+
+00:49:16.360 --> 00:49:19.280
+ - Like, he was on stage with him once or twice, at least,
+
+00:49:19.280 --> 00:49:20.680
+ like at his church and everything.
+
+00:49:20.680 --> 00:49:21.960
+ It literally felt like Kanye was like,
+
+00:49:21.960 --> 00:49:23.560
+ all right, I'm trying out Christianity.
+
+00:49:23.560 --> 00:49:26.360
+ So he Googles like, most popular Christians, right?
+
+00:49:26.360 --> 00:49:29.000
+ And it's like, top hit, Joel Osteen.
+
+00:49:29.000 --> 00:49:31.280
+ And you're like, I'm the most popular,
+
+00:49:31.280 --> 00:49:33.640
+ he's the most popular, we should probably like collab.
+
+00:49:33.640 --> 00:49:34.480
+ You know?
+
+00:49:34.480 --> 00:49:36.480
+ And then he's like, this guy represents everything
+
+00:49:36.480 --> 00:49:37.840
+ that's good and right about Christianity.
+
+00:49:37.840 --> 00:49:38.680
+ And you're like,
+
+00:49:38.680 --> 00:49:41.120
+ (laughing)
+
+00:49:41.120 --> 00:49:45.480
+ So, yeah, that part was, that was a little devastating
+
+00:49:45.480 --> 00:49:49.240
+ for those of us who were rooting for his Christian arc.
+
+00:49:49.240 --> 00:49:50.840
+ 'Cause I'm not saved with Osteen and it was like,
+
+00:49:50.840 --> 00:49:53.200
+ mm, that's the wrong crowd.
+
+00:49:53.200 --> 00:49:54.600
+ That's the kind of Copeland bunch
+
+00:49:54.600 --> 00:49:55.800
+ and all these guys who are like,
+
+00:49:55.800 --> 00:49:57.400
+ yeah, of course I have a private jet.
+
+00:49:57.400 --> 00:49:58.880
+ How else am I supposed to fly around?
+
+00:49:58.880 --> 00:50:01.120
+ - Okay, that guy, I show people
+
+00:50:01.120 --> 00:50:03.080
+ that clip of him being interviewed all the time.
+
+00:50:03.080 --> 00:50:04.760
+ 'Cause like-- - He's crazy, dude.
+
+00:50:04.760 --> 00:50:08.480
+ - His face just looks so evil.
+
+00:50:08.480 --> 00:50:11.680
+ And the way he talks, like I cannot believe it.
+
+00:50:11.680 --> 00:50:13.440
+ - Like he literally looks demonic.
+
+00:50:13.440 --> 00:50:14.800
+ It's like actually insane.
+
+00:50:14.800 --> 00:50:18.200
+ You're like, this is so crazy
+
+00:50:18.200 --> 00:50:19.920
+ that people send him money.
+
+00:50:19.920 --> 00:50:21.680
+ Like a lot of money. - I know, it's like so obvious.
+
+00:50:21.680 --> 00:50:22.920
+ Like you look at his face. - Yeah, when they could be buying
+
+00:50:22.920 --> 00:50:24.920
+ coffee over SSH instead,
+
+00:50:24.920 --> 00:50:26.880
+ like at least do something good with your money guys.
+
+00:50:26.880 --> 00:50:28.880
+ (laughing)
+
+00:50:28.880 --> 00:50:30.520
+ - Yeah, that clip where he's like saying,
+
+00:50:30.520 --> 00:50:32.120
+ Tyler's a great guy.
+
+00:50:32.120 --> 00:50:35.480
+ He made this jet so cheap for me that I had to buy it.
+
+00:50:35.480 --> 00:50:36.480
+ - Yeah, yeah.
+
+00:50:36.480 --> 00:50:38.680
+ (laughing)
+
+00:50:38.680 --> 00:50:40.000
+ - Yeah. - Yes.
+
+00:50:40.000 --> 00:50:41.920
+ - But yeah, I think going out on top is,
+
+00:50:41.920 --> 00:50:44.760
+ I think it's, I get it, it's hard 'cause
+
+00:50:44.760 --> 00:50:47.600
+ by definition, on top is when you feel--
+
+00:50:47.600 --> 00:50:49.480
+ - There's still a lot of area under the curve
+
+00:50:49.480 --> 00:50:51.920
+ on the way down, you know, that you can still collect, right?
+
+00:50:51.920 --> 00:50:53.520
+ So that's part of the difficulty.
+
+00:50:53.520 --> 00:50:56.360
+ Even if you see that you're all the way at the top, right?
+
+00:50:56.360 --> 00:50:59.640
+ Like the down slope is not directly down to zero, right?
+
+00:50:59.640 --> 00:51:01.800
+ You still have a lot of area-- - Yeah, that's pretty good.
+
+00:51:01.800 --> 00:51:03.800
+ - Yeah. - To collect.
+
+00:51:03.800 --> 00:51:05.480
+ Like you still have at least a few,
+
+00:51:05.480 --> 00:51:07.960
+ like a few thousand cameo appearances you can make
+
+00:51:07.960 --> 00:51:08.800
+ or something like that.
+
+00:51:08.800 --> 00:51:10.920
+ (laughing)
+
+00:51:10.920 --> 00:51:12.640
+ - I always go to cameo thinking like,
+
+00:51:12.640 --> 00:51:14.400
+ oh, this is gonna be such a cool thing.
+
+00:51:14.400 --> 00:51:16.080
+ I'm gonna think it's something funny to do with it.
+
+00:51:16.080 --> 00:51:19.560
+ And it's never, it's obviously never anyone cool because--
+
+00:51:19.560 --> 00:51:22.360
+ - Right. - Like $200 for--
+
+00:51:22.360 --> 00:51:25.840
+ - They're on premium cameo, which is like a talent agency
+
+00:51:25.840 --> 00:51:30.120
+ that says someone wants $500,000 for you to go do this thing.
+
+00:51:30.120 --> 00:51:31.360
+ - I can't afford that one, so--
+
+00:51:31.360 --> 00:51:32.280
+ - Right, yes, exactly.
+
+00:51:32.280 --> 00:51:34.360
+ But that's why I'm saying all those guys are all,
+
+00:51:34.360 --> 00:51:35.960
+ they're all on, they have their talent agent
+
+00:51:35.960 --> 00:51:37.280
+ that like manages that for them.
+
+00:51:37.280 --> 00:51:39.600
+ They don't need cameo to get them random
+
+00:51:39.600 --> 00:51:41.560
+ one off like funny things.
+
+00:51:41.560 --> 00:51:44.360
+ But maybe new Airbnb experiences, Dax.
+
+00:51:44.360 --> 00:51:47.960
+ You can go hang out with Sabrina Carpenter, so, you know?
+
+00:51:47.960 --> 00:51:50.600
+ - What is up with Prime always bringing up Sabrina Carpenter?
+
+00:51:50.600 --> 00:51:52.200
+ - I think it was literally because he was like,
+
+00:51:52.200 --> 00:51:54.880
+ she's really popular and I bet there's some songs
+
+00:51:54.880 --> 00:51:56.720
+ that she doesn't have a lot of views on.
+
+00:51:56.720 --> 00:51:59.920
+ So I wanna beat some of those with our music video.
+
+00:51:59.920 --> 00:52:01.600
+ It's like literally-- - But there was that,
+
+00:52:01.600 --> 00:52:05.320
+ but then I see him bringing her up just in other--
+
+00:52:05.320 --> 00:52:09.360
+ To me, it sounds like she's like the one celebrity he knows.
+
+00:52:09.360 --> 00:52:11.440
+ So he just like-- - Oh, you know what that goes to that?
+
+00:52:11.440 --> 00:52:12.880
+ - That's probably true as well.
+
+00:52:12.880 --> 00:52:15.600
+ - It's probably 'cause she has the song Espresso.
+
+00:52:15.600 --> 00:52:18.640
+ And so he's like, he's trying to do subliminal messaging
+
+00:52:18.640 --> 00:52:21.120
+ to trick people into thinking about coffee, right?
+
+00:52:21.120 --> 00:52:23.200
+ So he's three steps ahead of us, right here.
+
+00:52:23.200 --> 00:52:24.440
+ He's 40 chessing us. - I see.
+
+00:52:24.440 --> 00:52:26.120
+ He's actually doing something really smart.
+
+00:52:26.120 --> 00:52:27.680
+ - Yes, for once, exactly.
+
+00:52:27.680 --> 00:52:28.840
+ Yes, so-- - Let's fake that.
+
+00:52:28.840 --> 00:52:30.800
+ (laughing)
+
+00:52:30.800 --> 00:52:33.800
+ - No, I think your hypothesis of he's like,
+
+00:52:33.800 --> 00:52:37.480
+ I don't know any pop singer names.
+
+00:52:37.480 --> 00:52:42.480
+ Like if you asked him, prime name three relevant pop singers.
+
+00:52:43.720 --> 00:52:45.920
+ I think he would be like Sabrina Carpenter.
+
+00:52:45.920 --> 00:52:48.240
+ Like that.
+
+00:52:48.240 --> 00:52:50.080
+ (laughing)
+
+00:52:50.080 --> 00:52:51.880
+ This is probably what would happen.
+
+00:52:51.880 --> 00:52:53.840
+ (laughing)
+
+00:52:53.840 --> 00:52:55.120
+ I do think you're probably right about that one.
+
+00:52:55.120 --> 00:52:55.960
+ I think you're probably right.
+
+00:52:55.960 --> 00:52:57.240
+ There's a good chance.
+
+00:52:57.240 --> 00:53:00.600
+ It's much more about, he doesn't have the vocabulary
+
+00:53:00.600 --> 00:53:02.800
+ to express any other singers.
+
+00:53:02.800 --> 00:53:06.080
+ - It's funny 'cause I feel like teenagers like her
+
+00:53:06.080 --> 00:53:08.280
+ or she's like big with much younger people.
+
+00:53:08.280 --> 00:53:09.920
+ So it's weird to hear him constantly talk about it.
+
+00:53:09.920 --> 00:53:11.960
+ - It's probably as kids like the songs.
+
+00:53:11.960 --> 00:53:12.800
+ - Oh, okay.
+
+00:53:12.800 --> 00:53:13.640
+ That's how he's heard of this.
+
+00:53:13.640 --> 00:53:15.640
+ - That are like, you know, nearly teens, right?
+
+00:53:15.640 --> 00:53:17.640
+ So they probably know the song
+
+00:53:17.640 --> 00:53:19.560
+ to like, it's playing on Fortnite or something
+
+00:53:19.560 --> 00:53:21.560
+ while he's playing with the kids or something, right?
+
+00:53:21.560 --> 00:53:22.720
+ So--
+
+00:53:22.720 --> 00:53:25.520
+ - It's just, I never hear him talk about music otherwise.
+
+00:53:25.520 --> 00:53:26.360
+ - Yeah.
+
+00:53:26.360 --> 00:53:27.960
+ - So in my head, I'm like, oh,
+
+00:53:27.960 --> 00:53:29.920
+ this is like the music prime listens to.
+
+00:53:29.920 --> 00:53:30.760
+ Like he's into Sabrina Carpenter.
+
+00:53:30.760 --> 00:53:33.760
+ - No prime press listens to like random DJs on the internet
+
+00:53:33.760 --> 00:53:34.920
+ and then codes to music.
+
+00:53:34.920 --> 00:53:37.200
+ I don't think he listens to music and it's spare time.
+
+00:53:37.200 --> 00:53:39.560
+ (laughing)
+
+00:53:39.560 --> 00:53:41.800
+ It's like exclusively a programming tool.
+
+00:53:41.800 --> 00:53:42.640
+ - Yeah, yeah.
+
+00:53:42.640 --> 00:53:43.480
+ That makes sense.
+
+00:53:43.480 --> 00:53:44.320
+ - I'll find out, I'll find out.
+
+00:53:44.320 --> 00:53:45.440
+ I'm gonna hang out with him next week
+
+00:53:45.440 --> 00:53:48.760
+ and then we'll all sneak into his like Spotify
+
+00:53:48.760 --> 00:53:50.760
+ and then I'll figure out what he's been listening to.
+
+00:53:50.760 --> 00:53:52.040
+ - It's gonna be all Sabrina Carpenter,
+
+00:53:52.040 --> 00:53:53.040
+ why we're just completely wrong now.
+
+00:53:53.040 --> 00:53:54.200
+ He's actually a side-heart fan.
+
+00:53:54.200 --> 00:53:55.040
+ - It's gonna be, it's gonna be nothing.
+
+00:53:55.040 --> 00:54:00.040
+ It's gonna be like A540 Hertz like Donald's brown noise.
+
+00:54:00.040 --> 00:54:05.800
+ - I guarantee you, Adam's using those though.
+
+00:54:05.800 --> 00:54:06.640
+ - I was just thinking that.
+
+00:54:06.640 --> 00:54:07.480
+ I was just thinking that.
+
+00:54:07.480 --> 00:54:09.560
+ - Like there's no way, Adam's probably like,
+
+00:54:09.560 --> 00:54:14.020
+ 10 hour A440 Hertz like brown noise.
+
+00:54:14.020 --> 00:54:16.400
+ Oh, it's gonna be a good day, boys.
+
+00:54:16.400 --> 00:54:17.240
+ (laughing)
+
+00:54:17.240 --> 00:54:18.080
+ - It's a banger.
+
+00:54:18.080 --> 00:54:19.640
+ - It's a banger.
+
+00:54:19.640 --> 00:54:20.460
+ - Who's your favorite?
+
+00:54:20.460 --> 00:54:22.520
+ Who's your A440 Hertz favorite artist?
+
+00:54:22.520 --> 00:54:25.840
+ Like for me, personally, I'm a big fan of Mr. Brown,
+
+00:54:25.840 --> 00:54:26.640
+ but what are you like?
+
+00:54:26.640 --> 00:54:28.640
+ Oh really, Brown vintage, got it, nice.
+
+00:54:28.640 --> 00:54:29.480
+ It's like.
+
+00:54:29.480 --> 00:54:31.200
+ - Okay, you're saying this?
+
+00:54:31.200 --> 00:54:34.680
+ Like you're making this joke, but I'm realizing that
+
+00:54:34.680 --> 00:54:36.280
+ this is the exact conversation I heard him
+
+00:54:36.280 --> 00:54:37.520
+ and being an halving.
+
+00:54:37.520 --> 00:54:38.360
+ - Yeah, yeah.
+
+00:54:38.360 --> 00:54:39.480
+ - And also it's like. - There was only talking
+
+00:54:39.480 --> 00:54:40.320
+ like this.
+
+00:54:40.320 --> 00:54:42.400
+ - What headphones do you use to listen to your brown noise?
+
+00:54:42.400 --> 00:54:44.840
+ (laughing)
+
+00:54:44.840 --> 00:54:46.560
+ - Oh, really?
+
+00:54:46.560 --> 00:54:47.400
+ - Really?
+
+00:54:47.400 --> 00:54:48.800
+ - Yeah, it's like judging each other based
+
+00:54:48.800 --> 00:54:51.640
+ on their headphones usage for, oh, a Bose?
+
+00:54:51.640 --> 00:54:53.360
+ Yeah, tell me you don't know anything about music
+
+00:54:53.360 --> 00:54:54.680
+ without telling me anything about it.
+
+00:54:54.680 --> 00:54:57.040
+ (laughing)
+
+00:54:57.040 --> 00:54:58.200
+ - Oh man, that's a worse thing,
+
+00:54:58.200 --> 00:55:00.360
+ 'cause I think the Bose thing is funny,
+
+00:55:00.360 --> 00:55:02.560
+ 'cause I like the way they sound.
+
+00:55:02.560 --> 00:55:03.400
+ - Yeah, me too.
+
+00:55:03.400 --> 00:55:05.640
+ - And I like Bose speakers, but I know that it's like,
+
+00:55:05.640 --> 00:55:07.120
+ people just are judging you immediately for it.
+
+00:55:07.120 --> 00:55:09.760
+ - And audio files, but it feels like one of those things
+
+00:55:09.760 --> 00:55:12.880
+ where you know it's like the best norming option,
+
+00:55:12.880 --> 00:55:15.120
+ so that's what all of the like
+
+00:55:15.120 --> 00:55:17.400
+ really professional people hate, right?
+
+00:55:17.400 --> 00:55:18.240
+ You know what I'm saying?
+
+00:55:18.240 --> 00:55:19.080
+ - Right, yeah.
+
+00:55:19.080 --> 00:55:21.000
+ - Right, so they're like, oh, that's just normy.
+
+00:55:21.000 --> 00:55:22.360
+ I remember when I used to like Bose,
+
+00:55:22.360 --> 00:55:26.280
+ that was before I really understood the underground audio scene.
+
+00:55:26.280 --> 00:55:29.760
+ Mine are handcrafted by Bon Jovi himself, you know,
+
+00:55:29.760 --> 00:55:32.160
+ or something like this, or whoever the guy is from Apple,
+
+00:55:32.160 --> 00:55:34.800
+ you know, so I know his name's not Bon Jovi,
+
+00:55:34.800 --> 00:55:37.320
+ but I can't even joke every time.
+
+00:55:37.320 --> 00:55:39.560
+ I was really hoping I was gonna trigger David with that,
+
+00:55:39.560 --> 00:55:40.840
+ but. (laughs)
+
+00:55:40.840 --> 00:55:43.240
+ - Yeah, I'm like, this one's probably hits home
+
+00:55:43.240 --> 00:55:47.120
+ for me particularly, because I have these three speakers,
+
+00:55:47.120 --> 00:55:48.200
+ and they're very good.
+
+00:55:48.200 --> 00:55:49.680
+ They're really good. - Yeah, they're nice.
+
+00:55:49.680 --> 00:55:51.480
+ - Like audio, yeah, you've seen them.
+
+00:55:51.480 --> 00:55:54.680
+ But like, I go home to my parents' house,
+
+00:55:54.680 --> 00:55:56.640
+ and they have these Bose speakers
+
+00:55:56.640 --> 00:56:00.720
+ surround sound that wall that they had for 20 years,
+
+00:56:00.720 --> 00:56:02.240
+ and they sound better.
+
+00:56:02.240 --> 00:56:04.240
+ They just sound better than whatever I have.
+
+00:56:04.240 --> 00:56:07.440
+ - Yeah, maybe I like don't have all the extra 10,000 hours
+
+00:56:07.440 --> 00:56:10.000
+ of equipment I need to make this thing sound good,
+
+00:56:10.000 --> 00:56:12.080
+ but I'm just like, I should've just gone with it.
+
+00:56:12.080 --> 00:56:13.520
+ - But that's like, no, it's not fair.
+
+00:56:13.520 --> 00:56:16.000
+ Every time Adam brings his camera to somewhere,
+
+00:56:16.000 --> 00:56:19.160
+ and he turns it on, even if it's the same iPhone,
+
+00:56:19.160 --> 00:56:22.120
+ it's like, Adam uses the iPhone camera, I look really good.
+
+00:56:22.120 --> 00:56:24.200
+ I use the iPhone camera, I look washed out.
+
+00:56:24.200 --> 00:56:26.400
+ That doesn't make sense, there's not even settings.
+
+00:56:26.400 --> 00:56:27.240
+ There's not even setting.
+
+00:56:27.240 --> 00:56:28.680
+ I can't even, you know, what's up with that?
+
+00:56:28.680 --> 00:56:31.040
+ - It's just a light that he emits from his body.
+
+00:56:31.040 --> 00:56:32.560
+ - Yes, that's true.
+
+00:56:32.560 --> 00:56:35.840
+ - He's blowing. - He's being blowing, yeah.
+
+00:56:35.840 --> 00:56:36.680
+ No, that's funny.
+
+00:56:36.680 --> 00:56:38.720
+ - Okay, my mom's visiting,
+
+00:56:38.720 --> 00:56:39.960
+ we gotta go pick her up from the airport,
+
+00:56:39.960 --> 00:56:41.520
+ so there's probably pop-offs too.
+
+00:56:41.520 --> 00:56:42.360
+ - Okay, that sounds good.
+
+00:56:42.360 --> 00:56:43.560
+ I gotta get ready to talk to DHH.
+
+00:56:43.560 --> 00:56:45.360
+ - Oh, yes, have fun with that.
+
+00:56:45.360 --> 00:56:46.200
+ - I will.
+
+00:56:46.200 --> 00:56:49.880
+ All right, bye Dax, bye tomorrow, fans, see you later.
+
+00:56:49.880 --> 00:56:51.640
+ Hey, comment that you like me more than Adam.
+
+00:56:51.640 --> 00:56:52.480
+ Thanks, bye.
+
+00:56:52.480 --> 00:56:53.960
+ - That's probably gonna happen.
+
+00:56:53.960 --> 00:56:56.540
+ (upbeat music)
+
+00:57:02.560 --> 00:57:05.140
+ (upbeat music)
+

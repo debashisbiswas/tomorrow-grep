@@ -1,0 +1,5483 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.320
+ - No, I don't think I've ever met anyone, actually,
+
+00:00:02.320 --> 00:00:03.160
+ from the skull.
+
+00:00:03.160 --> 00:00:04.800
+ - Okay, well why would you, we're all, you know,
+
+00:00:04.800 --> 00:00:06.040
+ JavaScript developers, so.
+
+00:00:06.040 --> 00:00:07.800
+ - Filthy JavaScript developers.
+
+00:00:07.800 --> 00:00:09.120
+ (laughing)
+
+00:00:09.120 --> 00:00:11.700
+ (upbeat music)
+
+00:00:30.000 --> 00:00:31.880
+ (upbeat music)
+
+00:00:31.880 --> 00:00:33.080
+ - I would like to get out of this call
+
+00:00:33.080 --> 00:00:34.860
+ and understand what is full stack.
+
+00:00:34.860 --> 00:00:37.000
+ Like, what does that actually mean?
+
+00:00:37.000 --> 00:00:38.960
+ Maybe everyone else on the call knows,
+
+00:00:38.960 --> 00:00:40.920
+ but I'm more confused than ever.
+
+00:00:40.920 --> 00:00:42.640
+ And mostly from Twitter.
+
+00:00:42.640 --> 00:00:46.120
+ I think I thought I knew what it meant,
+
+00:00:46.120 --> 00:00:47.920
+ but I think everyone probably has different takes on it.
+
+00:00:47.920 --> 00:00:49.160
+ And maybe it's just a dumb word
+
+00:00:49.160 --> 00:00:50.640
+ or a dumb term that we don't need.
+
+00:00:50.640 --> 00:00:51.880
+ - And just to set some context,
+
+00:00:51.880 --> 00:00:53.640
+ the reason we're even doing this is,
+
+00:00:53.640 --> 00:00:55.560
+ so last we, what's his username?
+
+00:00:55.560 --> 00:00:59.480
+ WebdevCody, he was trying out Clarabel,
+
+00:00:59.480 --> 00:01:01.520
+ and his initial reaction was like,
+
+00:01:01.520 --> 00:01:02.920
+ ah, there's so much stuff here.
+
+00:01:02.920 --> 00:01:05.800
+ Like, why there's so much stuff that feels bloated, you know?
+
+00:01:05.800 --> 00:01:08.440
+ Is it really overwhelming?
+
+00:01:08.440 --> 00:01:11.560
+ And Taylor, quote, tweet it, adding some context,
+
+00:01:11.560 --> 00:01:13.600
+ which is, well, you know,
+
+00:01:13.600 --> 00:01:15.400
+ we focus a lot on backend needs
+
+00:01:15.400 --> 00:01:17.240
+ and backend needs a lot of stuff.
+
+00:01:17.240 --> 00:01:19.200
+ Doing stuff asynchronously, job processing,
+
+00:01:19.200 --> 00:01:21.280
+ queues, like, everything that you find
+
+00:01:21.280 --> 00:01:23.960
+ in any like moderately complex app.
+
+00:01:23.960 --> 00:01:25.400
+ And there's a whole bunch of discussion around.
+
+00:01:25.400 --> 00:01:28.840
+ - Mailers, roles on users.
+
+00:01:28.840 --> 00:01:29.680
+ - Yeah.
+
+00:01:29.680 --> 00:01:30.720
+ - Middleware, yeah.
+
+00:01:30.720 --> 00:01:33.280
+ - And in that tweet, I didn't say that I contrasted it
+
+00:01:33.280 --> 00:01:35.760
+ with things like Next.js and Remix,
+
+00:01:35.760 --> 00:01:37.360
+ where it has almost none of that.
+
+00:01:37.360 --> 00:01:39.480
+ And they focus in a completely different area.
+
+00:01:39.480 --> 00:01:42.280
+ And the claim was those aren't full stack
+
+00:01:42.280 --> 00:01:44.800
+ because it's missing these things that are,
+
+00:01:44.800 --> 00:01:46.320
+ like you said, like every application
+
+00:01:46.320 --> 00:01:48.120
+ eventually ends up having some of those.
+
+00:01:48.120 --> 00:01:50.040
+ - Yeah, I think that makes sense.
+
+00:01:50.040 --> 00:01:51.560
+ Although I'm willing to actually concede
+
+00:01:51.560 --> 00:01:53.720
+ that I think those things are full stack
+
+00:01:53.720 --> 00:01:55.720
+ in some sense of the word.
+
+00:01:55.720 --> 00:01:59.440
+ And it's maybe better to talk about Laraval and Rails
+
+00:01:59.440 --> 00:02:02.040
+ as like a different word, like batteries included
+
+00:02:02.040 --> 00:02:06.880
+ or some other term, you know, that is more than full stack.
+
+00:02:06.880 --> 00:02:10.520
+ - I think the default is what Rails and help me out.
+
+00:02:10.520 --> 00:02:12.360
+ How do you pronounce the name of your framework?
+
+00:02:12.360 --> 00:02:13.400
+ - I say Laraval.
+
+00:02:13.400 --> 00:02:15.720
+ Some people say Laraval.
+
+00:02:15.720 --> 00:02:16.760
+ Some people say Larval.
+
+00:02:16.760 --> 00:02:20.440
+ Larval, larval, like a thing coming out of an egg
+
+00:02:20.440 --> 00:02:21.360
+ or something or an insect.
+
+00:02:21.360 --> 00:02:23.440
+ - Taylor, Tyler, what else is that?
+
+00:02:23.440 --> 00:02:25.760
+ (all laughing)
+
+00:02:25.760 --> 00:02:26.760
+ - You can butcher everything.
+
+00:02:26.760 --> 00:02:29.280
+ - Okay, so you say Laraval.
+
+00:02:29.280 --> 00:02:30.200
+ - Yeah, that's how I say it.
+
+00:02:30.200 --> 00:02:33.160
+ - Larval, okay.
+
+00:02:33.160 --> 00:02:34.720
+ That's the best pronunciation.
+
+00:02:34.720 --> 00:02:37.960
+ - I feel like you get to decide, Taylor, how it's said.
+
+00:02:37.960 --> 00:02:39.880
+ - Yeah, you can just make everyone do what you want.
+
+00:02:39.880 --> 00:02:40.760
+ - I mean, to do?
+
+00:02:40.760 --> 00:02:42.960
+ - Yeah, our framework is called "Remeeks."
+
+00:02:42.960 --> 00:02:43.800
+ It's not...
+
+00:02:43.800 --> 00:02:45.960
+ (all laughing)
+
+00:02:45.960 --> 00:02:47.280
+ But everyone says it wrong.
+
+00:02:47.280 --> 00:02:49.480
+ Even though it's that Elon Musk calls it Tesla
+
+00:02:49.480 --> 00:02:51.040
+ with like a Z Tesla.
+
+00:02:51.040 --> 00:02:52.520
+ - Oh yeah, that's funny.
+
+00:02:52.520 --> 00:02:53.720
+ Nobody else does that.
+
+00:02:53.720 --> 00:02:57.800
+ I think the default definition of full stack
+
+00:02:57.800 --> 00:03:01.560
+ is basically what Rails and Laraval are.
+
+00:03:01.560 --> 00:03:04.760
+ Like, I don't think that should change
+
+00:03:04.760 --> 00:03:06.040
+ and they should have a new name.
+
+00:03:06.040 --> 00:03:07.320
+ Like, we're the weirdos coming in
+
+00:03:07.320 --> 00:03:09.280
+ and being like, "Hey, I'm running JavaScript
+
+00:03:09.280 --> 00:03:11.240
+ "on the server, it's full stack."
+
+00:03:11.240 --> 00:03:14.080
+ - I think historically it was like Rails, for example,
+
+00:03:14.080 --> 00:03:16.920
+ was full stack and something like Sinatra,
+
+00:03:16.920 --> 00:03:19.320
+ people called like a micro framework.
+
+00:03:19.320 --> 00:03:20.160
+ - Yeah.
+
+00:03:20.160 --> 00:03:22.480
+ - And those were sort of the two distinctions.
+
+00:03:22.480 --> 00:03:25.000
+ But now, like, I do think the word full stack
+
+00:03:25.000 --> 00:03:27.400
+ has kind of changed a little bit in the JavaScript world
+
+00:03:27.400 --> 00:03:30.680
+ to mean just the ability to run code on the server
+
+00:03:30.680 --> 00:03:32.080
+ or the client.
+
+00:03:32.080 --> 00:03:34.800
+ - Which, like, I think that's not wrong.
+
+00:03:34.800 --> 00:03:35.920
+ I don't think it's totally wrong.
+
+00:03:35.920 --> 00:03:37.880
+ It's just different than how it used to be.
+
+00:03:37.880 --> 00:03:40.280
+ - Yeah, so I'll give you a little background
+
+00:03:40.280 --> 00:03:43.560
+ on why I used the term on the remix website
+
+00:03:43.560 --> 00:03:44.400
+ when we first launched.
+
+00:03:44.400 --> 00:03:46.520
+ And honestly, this last week has been kind of funny
+
+00:03:46.520 --> 00:03:48.560
+ because internally on the remix team
+
+00:03:48.560 --> 00:03:50.920
+ we're like arguing about, is it actually full stack?
+
+00:03:50.920 --> 00:03:52.640
+ But my personal definition,
+
+00:03:52.640 --> 00:03:54.120
+ this isn't like the remix team
+
+00:03:54.120 --> 00:03:56.600
+ and as much as people like to think that Michael and I
+
+00:03:56.600 --> 00:03:58.240
+ are the same person, we're not.
+
+00:03:58.240 --> 00:04:01.840
+ And that's where the magic happens, right?
+
+00:04:01.840 --> 00:04:03.160
+ If you just agreed on everything,
+
+00:04:03.160 --> 00:04:05.800
+ you'd probably end up like selling coffee
+
+00:04:05.800 --> 00:04:09.240
+ through a terminal and requiring people to do their IDRSA key
+
+00:04:09.240 --> 00:04:10.240
+ to buy something.
+
+00:04:10.240 --> 00:04:13.280
+ - We are all very aligned on that.
+
+00:04:13.280 --> 00:04:15.000
+ (laughing)
+
+00:04:15.000 --> 00:04:18.080
+ - No, my definition of full stack is,
+
+00:04:18.080 --> 00:04:19.840
+ you can run code on both sides.
+
+00:04:19.840 --> 00:04:22.760
+ Actually, I have two things I want to say right off the bat.
+
+00:04:22.760 --> 00:04:25.200
+ First of all, butcher box.
+
+00:04:25.200 --> 00:04:28.760
+ I think Taylor and I know this about butcher box.
+
+00:04:28.760 --> 00:04:30.120
+ I don't know if anybody else does.
+
+00:04:30.120 --> 00:04:31.880
+ - I'm a vegan, so no.
+
+00:04:31.880 --> 00:04:33.400
+ - Actually, I'm a butcher box customer.
+
+00:04:33.400 --> 00:04:35.720
+ I've been a customer for an extremely long time.
+
+00:04:35.720 --> 00:04:36.760
+ - What do you think butcher box is?
+
+00:04:36.760 --> 00:04:39.080
+ A remix app or a larval?
+
+00:04:39.080 --> 00:04:40.240
+ Larval, oh, I did it wrong.
+
+00:04:40.240 --> 00:04:44.720
+ - Larval, a larval app, my experience with butcher box
+
+00:04:44.720 --> 00:04:46.880
+ is when they first started.
+
+00:04:46.880 --> 00:04:49.200
+ This site was the slowest site I'd ever used in my life.
+
+00:04:49.200 --> 00:04:50.840
+ Like, just crazy, crazy slow.
+
+00:04:50.840 --> 00:04:52.160
+ So I don't know what they were doing.
+
+00:04:52.160 --> 00:04:54.440
+ And at some point, it got a lot better.
+
+00:04:54.440 --> 00:04:55.360
+ That's my only experience.
+
+00:04:55.360 --> 00:04:57.600
+ And I have no idea what the reason is for that.
+
+00:04:57.600 --> 00:04:58.920
+ I'm sure it was user error.
+
+00:04:58.920 --> 00:05:01.080
+ Like, it was like way too slow.
+
+00:05:01.080 --> 00:05:02.440
+ But I don't know.
+
+00:05:02.440 --> 00:05:03.400
+ I have no idea about it.
+
+00:05:03.400 --> 00:05:07.560
+ - So I don't know what it was before it got fast,
+
+00:05:07.560 --> 00:05:10.880
+ but I know today it's a remix app
+
+00:05:10.880 --> 00:05:12.680
+ that talks to a larval backend.
+
+00:05:12.680 --> 00:05:16.440
+ So first of all, like our two frameworks are not like
+
+00:05:16.440 --> 00:05:17.600
+ always competing, right?
+
+00:05:17.600 --> 00:05:19.560
+ They work together really well.
+
+00:05:19.560 --> 00:05:21.720
+ And lots of people to play stuff like that.
+
+00:05:21.720 --> 00:05:23.600
+ So that's the first thing about this whole thing
+
+00:05:23.600 --> 00:05:26.240
+ is that it's like, we have focused on different things
+
+00:05:26.240 --> 00:05:28.160
+ to the point that some people want to put a big line
+
+00:05:28.160 --> 00:05:29.840
+ between it and be like, all right, everything backend
+
+00:05:29.840 --> 00:05:32.320
+ is larval, everything front end is remix.
+
+00:05:32.320 --> 00:05:35.400
+ And then in remix loaders, they're just gonna talk
+
+00:05:35.400 --> 00:05:37.800
+ between the two things, right?
+
+00:05:37.800 --> 00:05:39.960
+ But the other thing that kind of bothers me,
+
+00:05:39.960 --> 00:05:42.120
+ especially in your Tweet Taylor is,
+
+00:05:42.120 --> 00:05:43.360
+ and has nothing to do with you,
+
+00:05:43.360 --> 00:05:45.440
+ this has happened to us since we launched remix,
+
+00:05:45.440 --> 00:05:48.520
+ is that everybody just saw remix, they saw React,
+
+00:05:48.520 --> 00:05:50.800
+ they saw an X in the name just like next,
+
+00:05:50.800 --> 00:05:54.120
+ and they're like, oh, this is like next.
+
+00:05:54.120 --> 00:05:57.040
+ And in your Tweet, you were talking about in next remix,
+
+00:05:57.040 --> 00:05:59.240
+ it seems to mean that there's simply the bare ability
+
+00:05:59.240 --> 00:06:01.320
+ to run code on the server at all
+
+00:06:01.320 --> 00:06:03.200
+ and an advertisement for clerk.
+
+00:06:03.200 --> 00:06:04.520
+ (laughing)
+
+00:06:04.520 --> 00:06:05.560
+ - I love that line.
+
+00:06:05.560 --> 00:06:06.880
+ (laughing)
+
+00:06:06.880 --> 00:06:07.720
+ - It's so good.
+
+00:06:07.720 --> 00:06:12.480
+ Which, so first of all, like when we launched remix
+
+00:06:12.480 --> 00:06:13.480
+ I was like, how do I do off?
+
+00:06:13.480 --> 00:06:16.800
+ And we're like, just make a table and hash the password
+
+00:06:16.800 --> 00:06:20.000
+ and put it in there, like, just give it a shot.
+
+00:06:20.000 --> 00:06:22.600
+ Don't go to clerk, or sure, go use clerk.
+
+00:06:22.600 --> 00:06:23.720
+ And then the second thing was,
+
+00:06:23.720 --> 00:06:26.040
+ next and others are really, really great at the get.
+
+00:06:26.040 --> 00:06:28.000
+ They're not mature for post, put, and delete,
+
+00:06:28.000 --> 00:06:30.600
+ especially when things start getting non-trivial.
+
+00:06:30.600 --> 00:06:33.440
+ So this is like a huge badge of pride for us with remix,
+
+00:06:33.440 --> 00:06:38.200
+ is that we're old school PHP,
+
+00:06:38.200 --> 00:06:41.840
+ I did code igniter in symphony and Kohana,
+
+00:06:41.840 --> 00:06:44.000
+ Kohana was my favorite one, actually.
+
+00:06:44.000 --> 00:06:47.080
+ And then, and I did like just bare bones.
+
+00:06:47.080 --> 00:06:48.480
+ Like, I was setting up line notes,
+
+00:06:48.480 --> 00:06:51.360
+ like setting up IP tables and stuff.
+
+00:06:51.360 --> 00:06:52.760
+ And then lots of real stuff.
+
+00:06:52.760 --> 00:06:55.240
+ So we kind of brought a lot of that to react.
+
+00:06:55.240 --> 00:06:57.040
+ Like we just, just like,
+
+00:06:57.040 --> 00:06:59.000
+ it's like it's this whole community of reactators
+
+00:06:59.000 --> 00:07:00.480
+ that look at react, like all those idiots
+
+00:07:00.480 --> 00:07:02.320
+ that don't even know how the web works.
+
+00:07:02.320 --> 00:07:04.160
+ And we're like, ah, we actually like,
+
+00:07:04.160 --> 00:07:05.520
+ we're in that group with you.
+
+00:07:05.520 --> 00:07:06.520
+ (laughing)
+
+00:07:06.520 --> 00:07:09.240
+ And remix was our attempt to be like,
+
+00:07:09.240 --> 00:07:12.000
+ let's bring HTTP to react.
+
+00:07:12.000 --> 00:07:13.080
+ You can render it on the server.
+
+00:07:13.080 --> 00:07:15.680
+ So remix from the start has had,
+
+00:07:15.680 --> 00:07:17.000
+ we did a convention where you can stick
+
+00:07:17.000 --> 00:07:18.640
+ an extra component where you get your component,
+
+00:07:18.640 --> 00:07:19.560
+ loader, and action.
+
+00:07:19.560 --> 00:07:22.440
+ Loader is what we do when it's a get with the component.
+
+00:07:22.440 --> 00:07:25.720
+ And then action is when we respond with a post.
+
+00:07:25.720 --> 00:07:28.080
+ So we've always supported that stuff.
+
+00:07:28.080 --> 00:07:28.920
+ Mm-hmm.
+
+00:07:28.920 --> 00:07:30.160
+ And it's always been frustrating,
+
+00:07:30.160 --> 00:07:32.200
+ like getting lumped into like,
+
+00:07:32.200 --> 00:07:34.440
+ oh, I bet you just statically generate stuff.
+
+00:07:34.440 --> 00:07:37.320
+ To the point that we kind of purposely
+
+00:07:37.320 --> 00:07:39.040
+ didn't do static rendering,
+
+00:07:39.040 --> 00:07:42.160
+ just like keep that difference very, very clear.
+
+00:07:42.160 --> 00:07:43.880
+ They're like, no, we want you to run a server
+
+00:07:43.880 --> 00:07:45.400
+ and we want to speak HTTP.
+
+00:07:45.400 --> 00:07:47.000
+ Yeah, that makes sense.
+
+00:07:47.000 --> 00:07:48.720
+ I mean, I think like,
+
+00:07:48.720 --> 00:07:51.080
+ I honestly think this entire discussion,
+
+00:07:51.080 --> 00:07:54.920
+ the most interesting part to me is not really the full stack,
+
+00:07:54.920 --> 00:07:58.200
+ the what is full stack stuff.
+
+00:07:58.200 --> 00:08:00.640
+ It's more like, what is the easiest,
+
+00:08:00.640 --> 00:08:02.400
+ I guess you would say ecosystem or platform
+
+00:08:02.400 --> 00:08:06.680
+ for actually shipping a real product, a real business.
+
+00:08:06.680 --> 00:08:08.640
+ Which is really the most,
+
+00:08:08.640 --> 00:08:10.720
+ like the whole thing I'm interested in
+
+00:08:10.720 --> 00:08:12.240
+ because that's why Laravel was built
+
+00:08:12.240 --> 00:08:16.040
+ was so that I could build startups faster
+
+00:08:16.040 --> 00:08:18.680
+ and ship them out of the web and make money.
+
+00:08:18.680 --> 00:08:21.920
+ And I think that's really why Rails was built too.
+
+00:08:21.920 --> 00:08:25.080
+ And it feels like Laravel and Rails
+
+00:08:25.080 --> 00:08:26.960
+ are just more fleshed out in a way
+
+00:08:26.960 --> 00:08:29.400
+ where if you want to sit down as one person
+
+00:08:29.400 --> 00:08:33.040
+ and build an honest to God product that you can ship,
+
+00:08:34.040 --> 00:08:37.800
+ it just feels a lot faster if you're using something like
+
+00:08:37.800 --> 00:08:41.440
+ Rails or Laravel versus like a JavaScript framework
+
+00:08:41.440 --> 00:08:43.280
+ where you sort of have to like reconstruct
+
+00:08:43.280 --> 00:08:45.640
+ a lot of those opinions from scratch.
+
+00:08:45.640 --> 00:08:50.040
+ Which tends to, I think I could be wrong,
+
+00:08:50.040 --> 00:08:54.480
+ tends to mean that like all of the apps look pretty different
+
+00:08:54.480 --> 00:08:56.960
+ in terms of how they're architected and set up
+
+00:08:56.960 --> 00:08:59.280
+ and there's versus like Laravel or Rails
+
+00:08:59.280 --> 00:09:03.520
+ where from app to app there's some pretty good similarities
+
+00:09:03.520 --> 00:09:06.880
+ and understanding of how you do a lot of things
+
+00:09:06.880 --> 00:09:09.720
+ on the backend that a lot of products need.
+
+00:09:09.720 --> 00:09:12.320
+ So I actually find that actually more interesting,
+
+00:09:12.320 --> 00:09:14.880
+ you know, than the sort of like what's full stack,
+
+00:09:14.880 --> 00:09:17.240
+ what's back in, what's front end and all of that.
+
+00:09:17.240 --> 00:09:19.640
+ - So I like I could say all the exact same stuff
+
+00:09:19.640 --> 00:09:21.960
+ but like in reverse where it's like,
+
+00:09:21.960 --> 00:09:25.000
+ I'm interested in, so you're talking about all the stuff.
+
+00:09:25.000 --> 00:09:26.240
+ Like if it's a gradient, right?
+
+00:09:26.240 --> 00:09:28.080
+ A full stack is a gradient and on the,
+
+00:09:28.080 --> 00:09:30.560
+ on this side we've got your database, your mailers,
+
+00:09:30.560 --> 00:09:32.360
+ your queues, all that kind of stuff.
+
+00:09:32.360 --> 00:09:33.280
+ And then like you come over here,
+
+00:09:33.280 --> 00:09:35.560
+ you get to the network, you send HTML and JSON
+
+00:09:35.560 --> 00:09:36.720
+ and then you start sending JavaScript
+
+00:09:36.720 --> 00:09:39.040
+ and then you start building like a pending UI
+
+00:09:39.040 --> 00:09:41.720
+ or an optimistic UI or, you know,
+
+00:09:41.720 --> 00:09:44.200
+ just a really dynamic experience.
+
+00:09:44.200 --> 00:09:46.440
+ I, remix wants to come as far back
+
+00:09:46.440 --> 00:09:48.600
+ as controllers basically.
+
+00:09:48.600 --> 00:09:51.680
+ Then we're like, ah, there's a ton of databases.
+
+00:09:51.680 --> 00:09:52.880
+ You've already got your Rails app.
+
+00:09:52.880 --> 00:09:54.480
+ You've already got your Laravel app.
+
+00:09:54.480 --> 00:09:56.400
+ Like you've got that part done.
+
+00:09:56.400 --> 00:09:59.220
+ This stuff is where we're trying to push
+
+00:09:59.220 --> 00:10:01.720
+ the ceiling of a user experience.
+
+00:10:01.720 --> 00:10:04.200
+ You know, that's where we've approached this is it's like,
+
+00:10:04.200 --> 00:10:07.200
+ how do you build that really, really dynamic experience
+
+00:10:07.200 --> 00:10:10.360
+ and bend the, bend the trade-offs of like,
+
+00:10:10.360 --> 00:10:12.280
+ how much you do on the server for that UI
+
+00:10:12.280 --> 00:10:14.200
+ and how much you do on the backend?
+
+00:10:14.200 --> 00:10:17.720
+ I asked for a few Laravel apps just to go and like click around
+
+00:10:17.720 --> 00:10:19.080
+ in the network and look in the browser
+
+00:10:19.080 --> 00:10:22.320
+ and see if I could kind of reverse engineer
+
+00:10:22.320 --> 00:10:24.160
+ how it was working.
+
+00:10:24.160 --> 00:10:27.380
+ But all of the sites that people sent me were react
+
+00:10:27.380 --> 00:10:28.940
+ and view and stuff.
+
+00:10:30.600 --> 00:10:35.040
+ But I understand that Laravel has stuff to do
+
+00:10:35.040 --> 00:10:35.880
+ in the browser.
+
+00:10:35.880 --> 00:10:38.000
+ So like I'm more familiar with Rails with like Turbo
+
+00:10:38.000 --> 00:10:41.280
+ and Hotwire and Pjax a long time ago.
+
+00:10:41.280 --> 00:10:43.440
+ So what does Laravel have?
+
+00:10:43.440 --> 00:10:45.000
+ Like I want to make a combo box, right?
+
+00:10:45.000 --> 00:10:46.960
+ I want to do a type ahead and I want to search
+
+00:10:46.960 --> 00:10:50.080
+ my user table and drop something in there.
+
+00:10:50.080 --> 00:10:51.720
+ What is there in Laravel for that?
+
+00:10:51.720 --> 00:10:53.200
+ - So I'll kind of back up a little bit
+
+00:10:53.200 --> 00:10:56.240
+ and kind of explain how Laravel got to where it is today
+
+00:10:56.240 --> 00:10:58.720
+ and how it's different than something like Rails
+
+00:10:58.720 --> 00:11:00.200
+ because I think it's mainly differences
+
+00:11:00.200 --> 00:11:02.160
+ between like me and DHH.
+
+00:11:02.160 --> 00:11:04.520
+ You know when Laravel first came out,
+
+00:11:04.520 --> 00:11:08.800
+ it was just straight up PHP rendered templates
+
+00:11:08.800 --> 00:11:12.320
+ sent to the client just like ERB templates in Rails
+
+00:11:12.320 --> 00:11:13.160
+ or something.
+
+00:11:13.160 --> 00:11:16.840
+ That was like 2010, 2011.
+
+00:11:16.840 --> 00:11:21.680
+ I actually got really into Vue.js around 2015, 2016.
+
+00:11:21.680 --> 00:11:24.120
+ And I think this is one of the key differences
+
+00:11:24.120 --> 00:11:28.320
+ between us and Rails is that it seems like DHH
+
+00:11:28.320 --> 00:11:30.600
+ is like very anti-JavaScript at all.
+
+00:11:30.600 --> 00:11:33.600
+ You know, just wants to do as minimal JavaScript as possible
+
+00:11:33.600 --> 00:11:37.120
+ whereas we've actually always been pretty open minded
+
+00:11:37.120 --> 00:11:38.960
+ about different kinds of frontends
+
+00:11:38.960 --> 00:11:40.000
+ that are paired with Laravel.
+
+00:11:40.000 --> 00:11:43.520
+ So eventually this library called inertia.js was written
+
+00:11:43.520 --> 00:11:48.520
+ that basically lets you tie a React, a Vue, a Svelte frontend
+
+00:11:48.520 --> 00:11:53.480
+ to your Laravel backends within like a monolithic Laravel app
+
+00:11:53.480 --> 00:11:57.160
+ that's all in the same GitHub repo, for example.
+
+00:11:57.160 --> 00:11:59.220
+ And so what it looks like actually is
+
+00:11:59.220 --> 00:12:01.040
+ all of the routing is handled by Laravel.
+
+00:12:01.040 --> 00:12:04.520
+ So you hit a controller and then you return
+
+00:12:04.520 --> 00:12:08.120
+ in a nursery response that corresponds to like a React page
+
+00:12:08.120 --> 00:12:11.800
+ or component and you actually pass the props and data
+
+00:12:11.800 --> 00:12:16.440
+ from the server side controller to the Vue react page
+
+00:12:16.440 --> 00:12:17.800
+ and it's all hydrated in.
+
+00:12:17.800 --> 00:12:19.960
+ You know, I don't actually know exactly how inertia works
+
+00:12:19.960 --> 00:12:21.320
+ because I didn't write it.
+
+00:12:21.320 --> 00:12:23.320
+ And then once you're, once that renders, you know,
+
+00:12:23.320 --> 00:12:25.640
+ like as far as like a combo box or whatever,
+
+00:12:25.640 --> 00:12:28.280
+ you could use whatever React or Vue
+
+00:12:28.280 --> 00:12:30.200
+ component library you'd like.
+
+00:12:30.200 --> 00:12:33.880
+ So if you like, you know, Shad CN or the new catalyst stuff
+
+00:12:33.880 --> 00:12:37.080
+ from tailwind or whatever, you could just drop that in.
+
+00:12:37.080 --> 00:12:38.640
+ And then to hook it up to the back end, you know,
+
+00:12:38.640 --> 00:12:42.440
+ it's just a matter of, you know, I guess just making either,
+
+00:12:42.440 --> 00:12:44.120
+ you know, fetch requests to the back end
+
+00:12:44.120 --> 00:12:46.280
+ or inertia has their own kind of built-in mechanisms
+
+00:12:46.280 --> 00:12:48.120
+ for pulling data as well.
+
+00:12:48.120 --> 00:12:49.560
+ But once you're on the front end, you know,
+
+00:12:49.560 --> 00:12:50.880
+ you can kind of use whatever you want.
+
+00:12:50.880 --> 00:12:53.240
+ So I would actually say, honestly, I wouldn't be surprised
+
+00:12:53.240 --> 00:12:57.040
+ at this point of 50% of Laravel apps, new ones are built
+
+00:12:57.040 --> 00:12:59.400
+ with like a Vue or React front end.
+
+00:12:59.400 --> 00:13:03.040
+ And maybe the other 50% or something like Laravel Livewire,
+
+00:13:03.040 --> 00:13:06.080
+ which is basically like our version of Elixir's,
+
+00:13:06.080 --> 00:13:09.520
+ or Phoenix's live view or it's a little bit different
+
+00:13:09.520 --> 00:13:11.400
+ than Hotwire, I wouldn't fully compare it to that.
+
+00:13:11.400 --> 00:13:13.880
+ But so I think that's kind of the current state, you know,
+
+00:13:13.880 --> 00:13:15.040
+ a front end in Laravel.
+
+00:13:15.040 --> 00:13:16.480
+ - So I'm looking at the inertia website.
+
+00:13:16.480 --> 00:13:20.200
+ So when I say return, inertia render users,
+
+00:13:20.200 --> 00:13:21.480
+ or if I'm doing like a combo box.
+
+00:13:21.480 --> 00:13:24.840
+ So is this is just passing data to the front end?
+
+00:13:24.840 --> 00:13:26.680
+ Or is it like rendering that React component
+
+00:13:26.680 --> 00:13:29.120
+ and sending HTML like of the component?
+
+00:13:29.120 --> 00:13:30.960
+ - Yeah, so I mean, I know they have a server,
+
+00:13:30.960 --> 00:13:33.280
+ there's a server-side rendering part of it you can run,
+
+00:13:33.280 --> 00:13:34.640
+ but let's say you're not doing that.
+
+00:13:34.640 --> 00:13:38.360
+ It actually just sends like JSON data to the front end,
+
+00:13:38.360 --> 00:13:40.680
+ which is then hydrated into the, you know,
+
+00:13:40.680 --> 00:13:43.200
+ the Vue or React components.
+
+00:13:43.200 --> 00:13:45.360
+ But I mean, inertia is kind of like a wire protocol.
+
+00:13:45.360 --> 00:13:47.920
+ You almost might think of it as something like that
+
+00:13:47.920 --> 00:13:50.040
+ that ties together these different front ends
+
+00:13:50.040 --> 00:13:51.080
+ with Laravel on the back end.
+
+00:13:51.080 --> 00:13:52.840
+ But again, I'm not really the expert to talk to
+
+00:13:52.840 --> 00:13:56.920
+ on how it works, but just that a large percentage
+
+00:13:56.920 --> 00:13:59.080
+ of Laravel apps are written this way now.
+
+00:13:59.080 --> 00:14:01.680
+ - Okay, that's a pretty important part for me
+
+00:14:01.680 --> 00:14:03.560
+ coming out from front end is that I want it
+
+00:14:03.560 --> 00:14:05.760
+ to actually send the HTML for that combo box.
+
+00:14:05.760 --> 00:14:10.120
+ I don't want just like a div that's empty that then,
+
+00:14:10.120 --> 00:14:11.320
+ okay, JavaScript showed up.
+
+00:14:11.320 --> 00:14:13.520
+ I got like a spinner or I get layout shift
+
+00:14:13.520 --> 00:14:16.480
+ or I got like, or JavaScript hasn't loaded yet
+
+00:14:16.480 --> 00:14:18.920
+ and they like submit a quick little logarithm.
+
+00:14:18.920 --> 00:14:20.080
+ - No, it's not like that at all.
+
+00:14:20.080 --> 00:14:23.080
+ So it's not sending HTML of all your React components.
+
+00:14:23.080 --> 00:14:24.600
+ - I just know there's no layout shift,
+
+00:14:24.600 --> 00:14:27.640
+ there's no loading, there's no weird stuff like that.
+
+00:14:27.640 --> 00:14:30.880
+ - So that would require a node process though
+
+00:14:30.880 --> 00:14:32.040
+ on the back end somewhere.
+
+00:14:32.040 --> 00:14:33.600
+ - Yeah, yep, correct.
+
+00:14:33.600 --> 00:14:36.640
+ - Okay, so inertia.js, if you want to get HTML rendering
+
+00:14:36.640 --> 00:14:39.120
+ of your front end, you're gonna plug in
+
+00:14:39.120 --> 00:14:43.400
+ some kind of node React request handler.
+
+00:14:43.400 --> 00:14:47.760
+ - There's a console command like artisan inertia colon SSR
+
+00:14:47.760 --> 00:14:49.640
+ which starts off like a node process
+
+00:14:49.640 --> 00:14:52.320
+ that does server-side rendering and all of that.
+
+00:14:52.320 --> 00:14:55.200
+ And then it all just like works automatically.
+
+00:14:55.200 --> 00:14:57.400
+ You still return the same thing from your controller
+
+00:14:57.400 --> 00:14:59.600
+ and inertia will handle like rendering that
+
+00:14:59.600 --> 00:15:00.920
+ using that node process.
+
+00:15:00.920 --> 00:15:01.760
+ - That's interesting.
+
+00:15:01.760 --> 00:15:03.960
+ - Yeah, it's probably like Astro in a lot of ways
+
+00:15:03.960 --> 00:15:06.800
+ where it's just doing the rendering part
+
+00:15:06.800 --> 00:15:09.080
+ but the actual framework doesn't matter.
+
+00:15:09.080 --> 00:15:10.680
+ - On Forge, we actually don't even use
+
+00:15:10.680 --> 00:15:11.680
+ the server-side rendering
+
+00:15:11.680 --> 00:15:14.160
+ because it all works fine actually without that.
+
+00:15:14.160 --> 00:15:17.800
+ If you don't care about kind of not sending HTML
+
+00:15:17.800 --> 00:15:19.320
+ to the client like fully rendered.
+
+00:15:19.320 --> 00:15:24.240
+ So I have a personal gripe with what happened in my career.
+
+00:15:24.240 --> 00:15:25.560
+ - You don't have a Lambo?
+
+00:15:25.560 --> 00:15:27.960
+ - Well, I should sell that guitar
+
+00:15:27.960 --> 00:15:32.560
+ and then we'll get like a really old 82
+
+00:15:32.560 --> 00:15:34.360
+ or something that barely works.
+
+00:15:34.360 --> 00:15:36.600
+ I always felt like a full stack developer.
+
+00:15:36.600 --> 00:15:38.320
+ I liked, I liked, like I told it before,
+
+00:15:38.320 --> 00:15:41.800
+ I even enjoyed setting up IP tables on my line-out VPS.
+
+00:15:41.800 --> 00:15:46.040
+ I ran a website from my office on like an old iMac
+
+00:15:46.040 --> 00:15:48.360
+ for a while but I also care a whole lot
+
+00:15:48.360 --> 00:15:49.560
+ about the user experience.
+
+00:15:49.560 --> 00:15:51.760
+ And in fact, I probably geek out a little bit more
+
+00:15:51.760 --> 00:15:54.200
+ about the buttons and the styles
+
+00:15:54.200 --> 00:15:57.560
+ and the like stripes checkout button
+
+00:15:57.560 --> 00:15:59.560
+ where like the little word inside the button
+
+00:15:59.560 --> 00:16:01.240
+ is animating in with the spinner
+
+00:16:01.240 --> 00:16:02.520
+ and then like it animates out, right?
+
+00:16:02.520 --> 00:16:05.160
+ Like that kind of stuff is so much fun to me.
+
+00:16:05.160 --> 00:16:08.560
+ I ended up at a startup a long time ago
+
+00:16:08.560 --> 00:16:10.400
+ and because I was super interested
+
+00:16:10.400 --> 00:16:13.800
+ in building a great user experience,
+
+00:16:13.800 --> 00:16:15.400
+ I just kind of got pushed more and more
+
+00:16:15.400 --> 00:16:17.760
+ and more and more away from the server.
+
+00:16:18.920 --> 00:16:22.880
+ And this happened across the whole industry
+
+00:16:22.880 --> 00:16:25.560
+ where you end up with these two teams eventually.
+
+00:16:25.560 --> 00:16:27.720
+ You got the backend team and you got the front end team
+
+00:16:27.720 --> 00:16:30.680
+ and you click going to lunch with some of your friends
+
+00:16:30.680 --> 00:16:33.040
+ 'cause you just go to lunch with the front end team
+
+00:16:33.040 --> 00:16:36.160
+ and apps started to get really crappy.
+
+00:16:36.160 --> 00:16:40.800
+ Loading spinners, content shift, like there's just a mess.
+
+00:16:40.800 --> 00:16:44.960
+ And then I need to take no offense to designers
+
+00:16:44.960 --> 00:16:47.720
+ but like a lot of designers started to write
+
+00:16:47.720 --> 00:16:50.160
+ a little bit more code too without,
+
+00:16:50.160 --> 00:16:52.600
+ this is going to sound totally wrong or rude
+
+00:16:52.600 --> 00:16:55.840
+ but like not as much programming experience
+
+00:16:55.840 --> 00:16:57.760
+ and a lot more just slap a thing together
+
+00:16:57.760 --> 00:16:58.600
+ because it looks great.
+
+00:16:58.600 --> 00:17:00.200
+ And I'm one of those people too.
+
+00:17:00.200 --> 00:17:03.000
+ So how dare you, Brian, how dare you?
+
+00:17:03.000 --> 00:17:07.040
+ Someone who has been quietly canceled over stuff
+
+00:17:07.040 --> 00:17:09.000
+ I didn't do, I'm very careful now.
+
+00:17:09.000 --> 00:17:11.400
+ Anyway, so I hated that split.
+
+00:17:11.400 --> 00:17:14.160
+ The architecture you're describing continues
+
+00:17:14.160 --> 00:17:17.320
+ to I think create that kind of a split.
+
+00:17:17.320 --> 00:17:19.160
+ And I think the best user experiences are built
+
+00:17:19.160 --> 00:17:23.480
+ by people who like can cross over that line really well.
+
+00:17:23.480 --> 00:17:25.840
+ And when it's like, oh, inertia is going to render
+
+00:17:25.840 --> 00:17:27.320
+ the React app for you.
+
+00:17:27.320 --> 00:17:30.880
+ So put all the weirdo front end people over there
+
+00:17:30.880 --> 00:17:34.760
+ and all of us real programmers who have CS degrees
+
+00:17:34.760 --> 00:17:37.520
+ or whatever and talk to databases, we're going to go do this.
+
+00:17:37.520 --> 00:17:41.160
+ And I hate that split both on a personal level
+
+00:17:41.160 --> 00:17:44.400
+ and I think it's made websites a lot worse.
+
+00:17:44.400 --> 00:17:46.480
+ Like I should not log into my bank
+
+00:17:46.480 --> 00:17:51.480
+ and it's making a bunch of fetches to some JSON endpoint
+
+00:17:51.480 --> 00:17:54.360
+ and like bouncing spinners all over the place.
+
+00:17:54.360 --> 00:17:56.920
+ You know, do you feel that at all or?
+
+00:17:56.920 --> 00:17:57.760
+ You know, I don't know.
+
+00:17:57.760 --> 00:17:59.800
+ I think the Laravel ecosystem is sort of unique
+
+00:17:59.800 --> 00:18:02.840
+ where most of the developers building Laravel apps
+
+00:18:02.840 --> 00:18:06.360
+ I think would truly consider themselves full stack developers
+
+00:18:06.360 --> 00:18:09.080
+ mainly just because of the historical context
+
+00:18:09.080 --> 00:18:13.440
+ of Laravel being geared towards like bootstrappers,
+
+00:18:13.440 --> 00:18:15.480
+ people that want to launch things
+
+00:18:15.480 --> 00:18:18.360
+ and kind of have to do everything themselves, you know?
+
+00:18:18.360 --> 00:18:21.840
+ Obviously it's been adopted into larger organizations
+
+00:18:21.840 --> 00:18:24.520
+ and enterprises and stuff, but just the vibe
+
+00:18:24.520 --> 00:18:29.520
+ of Laravel has always been a toolkit for launching a product
+
+00:18:29.520 --> 00:18:32.600
+ is quickly and efficiently and as high quality as possible.
+
+00:18:32.600 --> 00:18:35.000
+ So most developers kind of know view.
+
+00:18:35.000 --> 00:18:37.800
+ They may not be as good as like someone
+
+00:18:37.800 --> 00:18:40.520
+ that's just a hardcore front end developer full time
+
+00:18:40.520 --> 00:18:42.000
+ but they're serviceable, you know,
+
+00:18:42.000 --> 00:18:44.360
+ and view or react or something else.
+
+00:18:44.360 --> 00:18:46.200
+ - I think that's probably how most people would think
+
+00:18:46.200 --> 00:18:47.680
+ of themselves in Laravel.
+
+00:18:47.680 --> 00:18:48.520
+ - Yeah.
+
+00:18:48.520 --> 00:18:50.160
+ - Something else I think kind of interesting to discuss.
+
+00:18:50.160 --> 00:18:52.600
+ I think DAX may have tweeted this is, you know,
+
+00:18:52.600 --> 00:18:55.920
+ we mentioned that tools like Next and Remix
+
+00:18:55.920 --> 00:18:58.080
+ kind of stop at that controller level
+
+00:18:58.080 --> 00:19:01.840
+ and there's not a lot of like opinions or conventions
+
+00:19:01.840 --> 00:19:05.040
+ beyond that as far as, you know, user roles,
+
+00:19:05.040 --> 00:19:07.400
+ what database to talk to, how you're going to send email,
+
+00:19:07.400 --> 00:19:09.160
+ how you're going to do background work.
+
+00:19:09.160 --> 00:19:10.880
+ And I think it's the one brought up on Twitter.
+
+00:19:10.880 --> 00:19:12.520
+ It's not for like lack of trying.
+
+00:19:12.520 --> 00:19:15.960
+ Like people have tried to build those kinds of tools
+
+00:19:15.960 --> 00:19:18.560
+ for JavaScript before and they just have never seemed
+
+00:19:18.560 --> 00:19:21.440
+ to achieve any sort of critical mass.
+
+00:19:21.440 --> 00:19:24.920
+ And why do we think that it is, you know, like,
+
+00:19:24.920 --> 00:19:27.120
+ is it just a cultural thing within JavaScript
+
+00:19:27.120 --> 00:19:29.840
+ that it's just seen as better to like kind of roll
+
+00:19:29.840 --> 00:19:32.760
+ your own way of doing things or what is it?
+
+00:19:32.760 --> 00:19:34.840
+ - I got two thoughts on that.
+
+00:19:34.840 --> 00:19:38.560
+ I went for a run this morning so I gathered all my thoughts.
+
+00:19:38.560 --> 00:19:41.240
+ I got like a whole outline in my head.
+
+00:19:41.240 --> 00:19:44.880
+ The first is, and I've talked to Adam about this,
+
+00:19:44.880 --> 00:19:49.880
+ there is no JavaScript community, like that doesn't exist.
+
+00:19:49.880 --> 00:19:53.680
+ JavaScript is this island because of the browser
+
+00:19:53.680 --> 00:19:55.560
+ where every other community comes
+
+00:19:55.560 --> 00:19:58.680
+ and just has a battle royale, right?
+
+00:19:58.680 --> 00:20:02.720
+ It's like it's Fortnite for developers.
+
+00:20:02.720 --> 00:20:04.560
+ And so it's a lot of people are like,
+
+00:20:04.560 --> 00:20:06.800
+ oh, how come the JavaScript community hasn't ever landed
+
+00:20:06.800 --> 00:20:07.640
+ on whatever?
+
+00:20:07.640 --> 00:20:10.240
+ It's like, well, 'cause I'm a real, I'm a, I'm Ruby.
+
+00:20:10.240 --> 00:20:15.240
+ Like, Remix comes from Ruby and Ember and PHP,
+
+00:20:15.240 --> 00:20:18.080
+ Laravel people come in, that's Laravel coming
+
+00:20:18.080 --> 00:20:20.400
+ into JavaScript and then someone's really interested
+
+00:20:20.400 --> 00:20:23.000
+ in the front end and they start doing more of the React stuff
+
+00:20:23.000 --> 00:20:24.240
+ and then maybe they start getting interested
+
+00:20:24.240 --> 00:20:25.800
+ and then you start pointing at them like,
+
+00:20:25.800 --> 00:20:29.360
+ oh, that developer is in the JavaScript ecosystem.
+
+00:20:29.360 --> 00:20:31.360
+ It's like, no, no, no, they came from Laravel.
+
+00:20:31.360 --> 00:20:33.120
+ So that's my first thing is it's like,
+
+00:20:33.120 --> 00:20:37.000
+ it's just a big battle royale on the island of the browser.
+
+00:20:38.080 --> 00:20:41.680
+ And so, we're all coming at it from different angles.
+
+00:20:41.680 --> 00:20:42.880
+ I think one is kind of forming,
+
+00:20:42.880 --> 00:20:44.920
+ but I don't think there is one.
+
+00:20:44.920 --> 00:20:48.440
+ So it's a lot easier for Laravel to build a community
+
+00:20:48.440 --> 00:20:51.480
+ and PHP where everyone can look at Taylor
+
+00:20:51.480 --> 00:20:54.480
+ and be like, yeah, we trust him or look at DHH
+
+00:20:54.480 --> 00:20:55.320
+ and be like, yeah, we trust him.
+
+00:20:55.320 --> 00:20:56.160
+ We're gonna do this.
+
+00:20:56.160 --> 00:20:58.400
+ You get to JavaScript and it's like,
+
+00:20:58.400 --> 00:21:00.080
+ which Ryan are you gonna listen to?
+
+00:21:00.080 --> 00:21:07.520
+ The second thing is kind of what I was talking about
+
+00:21:07.520 --> 00:21:10.400
+ before, how the industry has ended up
+
+00:21:10.400 --> 00:21:12.480
+ with the split of backend and front end
+
+00:21:12.480 --> 00:21:16.080
+ and like this jam stack wall in front of it
+
+00:21:16.080 --> 00:21:19.680
+ that kind of showed up or in the case of Laravel,
+
+00:21:19.680 --> 00:21:23.440
+ you got inertia that it's a great scene between that,
+
+00:21:23.440 --> 00:21:25.720
+ but like you're either writing PHP
+
+00:21:25.720 --> 00:21:27.840
+ or you're writing React or Vue,
+
+00:21:27.840 --> 00:21:29.520
+ but it isn't all Laravel, right?
+
+00:21:29.520 --> 00:21:30.960
+ There's something that connects it
+
+00:21:30.960 --> 00:21:33.360
+ and so it's very easy to split those two things up.
+
+00:21:33.360 --> 00:21:35.040
+ And so because we have that split,
+
+00:21:36.000 --> 00:21:39.800
+ you can't look at Laravel and Rails
+
+00:21:39.800 --> 00:21:42.640
+ and JavaScript frameworks in like a snapshot
+
+00:21:42.640 --> 00:21:43.760
+ in time of like right now,
+
+00:21:43.760 --> 00:21:46.400
+ you have to take it all in context and be like, okay,
+
+00:21:46.400 --> 00:21:48.720
+ back when Rails was created,
+
+00:21:48.720 --> 00:21:49.920
+ I don't even know when that was.
+
+00:21:49.920 --> 00:21:50.960
+ I felt like I was a little kid.
+
+00:21:50.960 --> 00:21:52.360
+ I don't even know if I had any kids yet
+
+00:21:52.360 --> 00:21:54.440
+ and my daughter's almost 17.
+
+00:21:54.440 --> 00:21:56.200
+ Everyone was pretty much issues in MySQL
+
+00:21:56.200 --> 00:21:57.800
+ or I don't know how to pronounce that.
+
+00:21:57.800 --> 00:21:59.040
+ I'm a front end developer.
+
+00:21:59.040 --> 00:22:02.520
+ And so it's like, yeah, we can build an arm on that
+
+00:22:02.520 --> 00:22:03.680
+ and everyone can agree.
+
+00:22:03.680 --> 00:22:06.480
+ Today, there's eight million databases.
+
+00:22:06.480 --> 00:22:09.480
+ So if you kind of take the context of like, okay,
+
+00:22:09.480 --> 00:22:14.880
+ in what environment were these JavaScript
+
+00:22:14.880 --> 00:22:17.360
+ full stack frameworks created,
+
+00:22:17.360 --> 00:22:20.440
+ people already have their 15 year old Rails app.
+
+00:22:20.440 --> 00:22:21.800
+ And we got this split, right?
+
+00:22:21.800 --> 00:22:23.240
+ So that's the way the world looks today.
+
+00:22:23.240 --> 00:22:25.240
+ There's a split of front end and back end.
+
+00:22:25.240 --> 00:22:27.600
+ And so if people are like, you know what,
+
+00:22:27.600 --> 00:22:30.760
+ we need to get back to server rendering this stuff.
+
+00:22:30.760 --> 00:22:32.720
+ You don't go back over to Rails and start doing that
+
+00:22:32.720 --> 00:22:34.880
+ 'cause then you're gonna lose all the combo boxes
+
+00:22:34.880 --> 00:22:37.000
+ and all of the great UX that you did in React.
+
+00:22:37.000 --> 00:22:39.000
+ You gotta figure out how to bridge that gap differently.
+
+00:22:39.000 --> 00:22:42.680
+ And so React apps are not looking for a database.
+
+00:22:42.680 --> 00:22:44.080
+ Maybe an indie developer who's like,
+
+00:22:44.080 --> 00:22:47.120
+ oh, I wanna start my app with React like they would be.
+
+00:22:47.120 --> 00:22:49.920
+ But for the most part, the current state
+
+00:22:49.920 --> 00:22:53.080
+ of web development is we've got these Rails apps,
+
+00:22:53.080 --> 00:22:56.960
+ these PHP apps, they already have everything they need
+
+00:22:56.960 --> 00:22:58.280
+ on the back end.
+
+00:22:58.280 --> 00:23:01.840
+ And so the React frameworks just need to cross that gap
+
+00:23:01.840 --> 00:23:03.360
+ and then get them there and then it's like, okay,
+
+00:23:03.360 --> 00:23:06.080
+ now go talk to your Rails app.
+
+00:23:06.080 --> 00:23:08.480
+ That's another reason why nothing ever really like sticks
+
+00:23:08.480 --> 00:23:09.480
+ in the JavaScript community
+
+00:23:09.480 --> 00:23:12.880
+ because they've already got the backend over there.
+
+00:23:12.880 --> 00:23:14.160
+ - So Ryan, what about you?
+
+00:23:14.160 --> 00:23:17.320
+ Like a new project, you're building a new repax app
+
+00:23:17.320 --> 00:23:19.560
+ or React router seven or whatever.
+
+00:23:19.560 --> 00:23:21.640
+ Like what do you like to use for mailers
+
+00:23:21.640 --> 00:23:23.200
+ and databases and queues?
+
+00:23:23.200 --> 00:23:25.120
+ And like, is it all kind of patched together?
+
+00:23:25.120 --> 00:23:28.000
+ Is there a go-to thing that you use?
+
+00:23:28.000 --> 00:23:30.000
+ - My full-time job is work on a framework.
+
+00:23:30.000 --> 00:23:31.520
+ - Yeah, maybe a better question is like,
+
+00:23:31.520 --> 00:23:33.520
+ what do you prescribe?
+
+00:23:33.520 --> 00:23:35.840
+ Like if a remix user asks you like,
+
+00:23:35.840 --> 00:23:38.840
+ is there a recommended thing for all those things?
+
+00:23:38.840 --> 00:23:40.320
+ Or is it just sort of like,
+
+00:23:40.320 --> 00:23:43.800
+ that is the stance of most JavaScript front-end frameworks
+
+00:23:43.800 --> 00:23:45.760
+ is you get to choose?
+
+00:23:45.760 --> 00:23:48.360
+ - Yeah, well, my first question to somebody,
+
+00:23:48.360 --> 00:23:51.200
+ do you already have infrastructure?
+
+00:23:51.200 --> 00:23:52.640
+ Like, do you already have the Rails app?
+
+00:23:52.640 --> 00:23:53.840
+ Do you already have the Laravel app?
+
+00:23:53.840 --> 00:23:54.680
+ Do you already have that stuff?
+
+00:23:54.680 --> 00:23:56.040
+ And if they do, it's like,
+
+00:23:56.040 --> 00:23:57.960
+ just deploy them on the same server
+
+00:23:57.960 --> 00:24:02.000
+ and talk to them through HTTP and tell it to send an email
+
+00:24:02.000 --> 00:24:04.200
+ for you or queue a job or something, right?
+
+00:24:04.200 --> 00:24:07.080
+ But then from there, I think it's like,
+
+00:24:07.080 --> 00:24:10.200
+ well, go look at, where do you intend to host?
+
+00:24:10.200 --> 00:24:11.480
+ Are you hosting on CloudFlare?
+
+00:24:11.480 --> 00:24:12.520
+ Are you hosting on Bursale?
+
+00:24:12.520 --> 00:24:15.080
+ Are you hosting on Netlify on AWS?
+
+00:24:15.080 --> 00:24:19.360
+ Especially AWS, they have everything you need there, right?
+
+00:24:19.360 --> 00:24:22.160
+ And so it's like, well, use Cognito,
+
+00:24:22.160 --> 00:24:24.080
+ use, I don't even know what they're all,
+
+00:24:24.080 --> 00:24:27.640
+ use DynamoDB, like use the platform that you're on.
+
+00:24:27.640 --> 00:24:29.440
+ - Yeah, the infrastructure thing is interesting.
+
+00:24:29.440 --> 00:24:32.320
+ I think Bax, you need to talk about something here,
+
+00:24:32.320 --> 00:24:33.760
+ I don't know, the timeline of like,
+
+00:24:33.760 --> 00:24:35.200
+ how these things all evolved
+
+00:24:35.200 --> 00:24:38.680
+ and how infrastructure has changed in the last five years.
+
+00:24:38.680 --> 00:24:43.680
+ - Yeah, yeah, so I think we, just from working on SST,
+
+00:24:43.680 --> 00:24:48.120
+ I think we come across a portion of the community
+
+00:24:48.120 --> 00:24:49.560
+ that's maybe not as visible,
+
+00:24:49.560 --> 00:24:52.800
+ which is people building back ends with JavaScript.
+
+00:24:52.800 --> 00:24:54.520
+ So I think whenever we talk about
+
+00:24:54.520 --> 00:24:56.040
+ people building JavaScript stacks,
+
+00:24:56.040 --> 00:24:58.360
+ we always start with remakes and XJS,
+
+00:24:58.360 --> 00:25:00.680
+ like just the front end portion of it.
+
+00:25:00.680 --> 00:25:03.520
+ But there are like, there is like a backend community
+
+00:25:03.520 --> 00:25:05.600
+ that builds back ends in JavaScript.
+
+00:25:05.600 --> 00:25:06.800
+ And they might not even,
+
+00:25:06.800 --> 00:25:08.520
+ and all these people don't know front end,
+
+00:25:08.520 --> 00:25:09.600
+ like they're not even front end developers
+
+00:25:09.600 --> 00:25:11.480
+ 'cause if there is a split there.
+
+00:25:11.480 --> 00:25:15.480
+ So the question is, why do these people even exist?
+
+00:25:15.480 --> 00:25:18.840
+ Like, why are they choosing to use jobs that are on the backend?
+
+00:25:18.840 --> 00:25:22.440
+ The majority of them do not like JavaScript.
+
+00:25:22.440 --> 00:25:24.040
+ Like, that's not like their first pick.
+
+00:25:24.040 --> 00:25:26.000
+ They didn't start in JavaScript.
+
+00:25:26.000 --> 00:25:28.040
+ They come from other environments.
+
+00:25:28.040 --> 00:25:29.640
+ Myself personally, prior to,
+
+00:25:29.640 --> 00:25:32.840
+ for me doing jobs on the backend started three years ago.
+
+00:25:32.840 --> 00:25:34.640
+ Prior to that was doing Elixir.
+
+00:25:34.640 --> 00:25:35.720
+ Prior to that was doing Go.
+
+00:25:35.720 --> 00:25:37.680
+ Prior to that was doing C#.
+
+00:25:37.680 --> 00:25:40.000
+ So what like made me end up in a language
+
+00:25:40.000 --> 00:25:43.000
+ that I don't even like that much on the backend?
+
+00:25:43.000 --> 00:25:47.320
+ It's specifically how infrastructure evolved.
+
+00:25:47.320 --> 00:25:48.640
+ I think there's a portion of people,
+
+00:25:48.640 --> 00:25:49.920
+ like not everyone has to buy into this,
+
+00:25:49.920 --> 00:25:51.440
+ but there are a portion of people
+
+00:25:51.440 --> 00:25:55.560
+ that understand that if you commit to an environment,
+
+00:25:55.560 --> 00:25:57.840
+ whether that's AWS or CloudFlare
+
+00:25:57.840 --> 00:26:00.520
+ and you like do things exactly the way they want you to,
+
+00:26:00.520 --> 00:26:02.160
+ there's a bunch of benefits from doing that.
+
+00:26:02.160 --> 00:26:04.000
+ Like, I haven't used DataDog
+
+00:26:04.000 --> 00:26:05.560
+ or like had a monitoring service in years
+
+00:26:05.560 --> 00:26:08.200
+ because I use like extremely managed services
+
+00:26:08.200 --> 00:26:11.720
+ that scale themselves, model themselves, run themselves.
+
+00:26:11.720 --> 00:26:13.680
+ - A.J.'s and shambles.
+
+00:26:13.680 --> 00:26:15.000
+ - Well, it's our friend A.J. works at DataDog.
+
+00:26:15.000 --> 00:26:17.280
+ - To be fair, I did sign up for DataDog recently
+
+00:26:17.280 --> 00:26:19.240
+ because it's the SSH app, that needed.
+
+00:26:19.240 --> 00:26:20.240
+ - He's backing up.
+
+00:26:20.240 --> 00:26:21.920
+ - That needed monitoring.
+
+00:26:21.920 --> 00:26:25.840
+ - But, mine is that one, everything I've built in the past,
+
+00:26:25.840 --> 00:26:27.920
+ you know, three or four years just did not need
+
+00:26:27.920 --> 00:26:30.960
+ the usual babysitting that I normally have to do.
+
+00:26:30.960 --> 00:26:32.560
+ And if you wanna make that trade off,
+
+00:26:32.560 --> 00:26:35.360
+ these Cloud providers pretty much ask you to do JavaScript.
+
+00:26:35.360 --> 00:26:37.000
+ That's just kind of the reality of it.
+
+00:26:37.000 --> 00:26:39.120
+ Like, you can do other things, of course, on AWS.
+
+00:26:39.120 --> 00:26:41.120
+ You can write other languages,
+
+00:26:41.120 --> 00:26:44.240
+ but the support for certain things just isn't there
+
+00:26:44.240 --> 00:26:46.440
+ to the level it is in JavaScript.
+
+00:26:46.440 --> 00:26:47.480
+ And if you take something like CloudFlare,
+
+00:26:47.480 --> 00:26:48.400
+ it's even more extreme, right?
+
+00:26:48.400 --> 00:26:49.960
+ Like, you literally can't do anything else.
+
+00:26:49.960 --> 00:26:51.400
+ This is all a JavaScript native.
+
+00:26:51.400 --> 00:26:54.800
+ And they kind of, they gave this decision to you
+
+00:26:54.800 --> 00:26:58.960
+ where if you accept these, like, pretty hardcore constraints,
+
+00:26:58.960 --> 00:27:00.280
+ we can do all this stuff for you
+
+00:27:00.280 --> 00:27:02.720
+ that you pretty much can't find anywhere else, right?
+
+00:27:02.720 --> 00:27:05.960
+ So most of the backend community is reluctantly
+
+00:27:05.960 --> 00:27:08.080
+ using JavaScript because they're committing themselves
+
+00:27:08.080 --> 00:27:09.840
+ to this other thing.
+
+00:27:09.840 --> 00:27:11.640
+ And it's not that everyone has to, like, do that.
+
+00:27:11.640 --> 00:27:13.000
+ And it's definitely the way everyone has to go,
+
+00:27:13.000 --> 00:27:15.680
+ but there are just tangible trade-offs and benefits
+
+00:27:15.680 --> 00:27:16.520
+ from doing that.
+
+00:27:16.520 --> 00:27:19.800
+ So the needs of this group of people
+
+00:27:19.800 --> 00:27:23.040
+ is quite different than just cloning,
+
+00:27:23.040 --> 00:27:26.560
+ like, what Rails, Phoenix, Laravel has,
+
+00:27:26.560 --> 00:27:29.960
+ because a lot of the dynamics there are,
+
+00:27:29.960 --> 00:27:33.200
+ we create this really nice bubble for you to live in.
+
+00:27:33.200 --> 00:27:36.480
+ And pretty much wherever you want to deploy,
+
+00:27:36.480 --> 00:27:38.200
+ we'll give you a way to do that through adapters
+
+00:27:38.200 --> 00:27:39.400
+ or whatever, like, you kind of just live
+
+00:27:39.400 --> 00:27:41.640
+ in the Laravel bubble and you have to worry too much
+
+00:27:41.640 --> 00:27:44.400
+ about where it eventually ends up going.
+
+00:27:44.400 --> 00:27:46.200
+ Whereas this is the opposite setup.
+
+00:27:46.200 --> 00:27:49.000
+ If I wanted something like that in JavaScript,
+
+00:27:49.000 --> 00:27:50.280
+ like, I just wouldn't, right?
+
+00:27:50.280 --> 00:27:51.360
+ If I wanted something that was, like,
+
+00:27:51.360 --> 00:27:54.480
+ a nice, full-featured, like, agnostic environment,
+
+00:27:54.480 --> 00:27:58.360
+ I would just go back to using Elixir or whatever else.
+
+00:27:58.360 --> 00:28:00.040
+ So I think a lot of these frameworks are just kind of,
+
+00:28:00.040 --> 00:28:01.280
+ like, one-to-one copy.
+
+00:28:01.280 --> 00:28:04.080
+ And I'm not, like, talking down in the middle,
+
+00:28:04.080 --> 00:28:06.520
+ like, there's Adonis and there's, like,
+
+00:28:06.520 --> 00:28:08.400
+ newer work with Redwood that are trying to hit
+
+00:28:08.400 --> 00:28:10.000
+ in that direction.
+
+00:28:10.000 --> 00:28:11.640
+ I just don't think the market is there
+
+00:28:11.640 --> 00:28:14.120
+ 'cause no one is like, I absolutely love JavaScript.
+
+00:28:14.120 --> 00:28:16.960
+ I'm gonna write jobs in the backend no matter what.
+
+00:28:16.960 --> 00:28:18.760
+ I just want, like, a full framework for it.
+
+00:28:18.760 --> 00:28:21.560
+ That's at least my perspective on why I'm here
+
+00:28:21.560 --> 00:28:23.600
+ and why a lot of the people that we, you know,
+
+00:28:23.600 --> 00:28:26.440
+ work with are doing jobs in the backend at all.
+
+00:28:26.440 --> 00:28:28.560
+ - Are you saying there's no JavaScript community?
+
+00:28:28.560 --> 00:28:30.120
+ (laughing)
+
+00:28:30.120 --> 00:28:31.160
+ - Yeah, I mean, I agree with you.
+
+00:28:31.160 --> 00:28:33.760
+ It's like, we're all coming from something else
+
+00:28:33.760 --> 00:28:35.120
+ for the most part.
+
+00:28:35.120 --> 00:28:38.920
+ I think there is, like, what gets confused is,
+
+00:28:38.920 --> 00:28:42.880
+ I do agree with Taylor that there is a portion
+
+00:28:42.880 --> 00:28:46.880
+ of these, like, indie hacker, indie maker-type people
+
+00:28:46.880 --> 00:28:49.560
+ that are trying to do that type of thing
+
+00:28:49.560 --> 00:28:51.200
+ in the JavaScript world.
+
+00:28:51.200 --> 00:28:55.240
+ And it's like, you can't start from,
+
+00:28:55.240 --> 00:28:57.760
+ I'm, like, I'm definitely gonna build a React app
+
+00:28:57.760 --> 00:28:59.040
+ and then, like, then I'm gonna figure out
+
+00:28:59.040 --> 00:28:59.880
+ everything on the backend.
+
+00:28:59.880 --> 00:29:01.720
+ Like, that's gonna be a tough situation
+
+00:29:01.720 --> 00:29:03.960
+ and you either have to do, like, what me and Adam
+
+00:29:03.960 --> 00:29:05.280
+ are doing to commit to infrastructure
+
+00:29:05.280 --> 00:29:07.920
+ or pick one of these other options in different languages
+
+00:29:07.920 --> 00:29:10.080
+ that are really geared towards that.
+
+00:29:10.080 --> 00:29:11.960
+ Like, that just doesn't, there's not really a market
+
+00:29:11.960 --> 00:29:15.080
+ for that in the JavaScript space, like, that's how I feel.
+
+00:29:15.080 --> 00:29:16.560
+ - Yeah, that's interesting.
+
+00:29:16.560 --> 00:29:18.800
+ I mean, yeah, I mean, I think that's kind of, like,
+
+00:29:18.800 --> 00:29:22.320
+ the summary of where I've been at the past couple of years.
+
+00:29:22.320 --> 00:29:23.920
+ Like, one of the people I talked to the most
+
+00:29:23.920 --> 00:29:26.360
+ that I guess would be adjacent to the JavaScript ecosystem
+
+00:29:26.360 --> 00:29:28.520
+ is Adam Wavin from Tailwind,
+
+00:29:28.520 --> 00:29:30.880
+ who started in the Laravel ecosystem.
+
+00:29:30.880 --> 00:29:34.320
+ You know, and when we were looking at tools like Next.js
+
+00:29:34.320 --> 00:29:37.920
+ or whatever else, it was just very hard for us to imagine
+
+00:29:37.920 --> 00:29:42.320
+ how we would build something like, I don't know,
+
+00:29:42.320 --> 00:29:44.800
+ any sort of, like, robust web app.
+
+00:29:44.800 --> 00:29:46.920
+ It could be, like, Laravel Forge, something like Basecamp,
+
+00:29:46.920 --> 00:29:51.200
+ something like Linear, using, like, only these tools
+
+00:29:51.200 --> 00:29:52.160
+ and those alone.
+
+00:29:52.160 --> 00:29:54.720
+ But I guess if it's like, sort of accepted
+
+00:29:54.720 --> 00:29:55.960
+ that, like, of course you wouldn't do that,
+
+00:29:55.960 --> 00:29:58.800
+ you would just call some Rails or PHP backend
+
+00:29:58.800 --> 00:30:01.120
+ to do a lot of the, like, the back-and-heavy lifting
+
+00:30:01.120 --> 00:30:01.960
+ than fine.
+
+00:30:01.960 --> 00:30:03.320
+ - Or what your host provides, yeah.
+
+00:30:03.320 --> 00:30:04.400
+ - Yeah.
+
+00:30:04.400 --> 00:30:06.160
+ But it just felt like a lot of, some of the messaging,
+
+00:30:06.160 --> 00:30:09.680
+ I guess, was like, yeah, I guess just, like,
+
+00:30:09.680 --> 00:30:11.560
+ almost like, Next versus Laravel.
+
+00:30:11.560 --> 00:30:15.840
+ Like, it's like a real alternative to that robust,
+
+00:30:15.840 --> 00:30:19.200
+ full-stack experience when, you know, I don't know,
+
+00:30:19.200 --> 00:30:20.760
+ it just didn't feel that way.
+
+00:30:20.760 --> 00:30:23.000
+ So we were, like, perpetually confused of, like,
+
+00:30:23.000 --> 00:30:25.960
+ how would we ever ship a product like this?
+
+00:30:25.960 --> 00:30:27.720
+ But maybe we're just, like, kind of coming at it
+
+00:30:27.720 --> 00:30:29.240
+ from the wrong angle, I'm not sure.
+
+00:30:29.240 --> 00:30:32.200
+ - So I will say, a big portion of what we do
+
+00:30:32.200 --> 00:30:36.280
+ is help companies ship the front-end portion of it.
+
+00:30:36.280 --> 00:30:40.840
+ Very few of them is that thing, their whole app.
+
+00:30:40.840 --> 00:30:43.320
+ They have, like, a completely separate backend
+
+00:30:43.320 --> 00:30:45.040
+ that does typical backend things.
+
+00:30:45.040 --> 00:30:46.280
+ They're also written in JavaScript,
+
+00:30:46.280 --> 00:30:49.600
+ but to me, at least right now,
+
+00:30:49.600 --> 00:30:52.120
+ and I don't see why this really changed.
+
+00:30:52.120 --> 00:30:54.080
+ Like, I don't see many projects,
+
+00:30:54.080 --> 00:30:56.920
+ even early stage ones that are just, yeah,
+
+00:30:56.920 --> 00:31:00.360
+ just this, my whole system, it just lives in this.
+
+00:31:00.360 --> 00:31:01.200
+ Next JS app.
+
+00:31:01.200 --> 00:31:02.480
+ - But on Twitter, you would think,
+
+00:31:02.480 --> 00:31:05.000
+ it seems like Next JS is all you need.
+
+00:31:05.000 --> 00:31:06.000
+ Like, you're good.
+
+00:31:06.000 --> 00:31:08.240
+ I mean, that's what VersaO would kind of make you think.
+
+00:31:08.240 --> 00:31:10.400
+ - I do think it comes across that way, you know,
+
+00:31:10.400 --> 00:31:12.760
+ like, is VersaO written with Next JS?
+
+00:31:12.760 --> 00:31:15.680
+ Like, I don't know, like, the whole app, you know,
+
+00:31:15.680 --> 00:31:17.920
+ it seems unlikely, you know,
+
+00:31:17.920 --> 00:31:19.800
+ I don't know that the whole, like, deployment pipeline
+
+00:31:19.800 --> 00:31:21.120
+ is in Next JS app.
+
+00:31:21.120 --> 00:31:23.040
+ - It's up to, like, Kubernetes and stuff, right?
+
+00:31:23.040 --> 00:31:23.880
+ - Yeah.
+
+00:31:23.880 --> 00:31:24.960
+ - Guys, I'm right here.
+
+00:31:24.960 --> 00:31:25.800
+ (laughing)
+
+00:31:25.800 --> 00:31:28.880
+ - Oh, yeah, sorry, we have an ambassador
+
+00:31:28.880 --> 00:31:30.040
+ from the JavaScript framework,
+
+00:31:30.040 --> 00:31:31.160
+ but you're not even a framework anymore.
+
+00:31:31.160 --> 00:31:32.400
+ You're just like a library, right?
+
+00:31:32.400 --> 00:31:33.240
+ - There's differences or something.
+
+00:31:33.240 --> 00:31:34.840
+ - We're talking about Next JS.
+
+00:31:34.840 --> 00:31:37.160
+ Like, saying over here.
+
+00:31:37.160 --> 00:31:38.640
+ Oh, yeah, yeah, no, that's a good point, yeah.
+
+00:31:38.640 --> 00:31:40.520
+ - In the beginning, Remix is the Next JS,
+
+00:31:40.520 --> 00:31:42.120
+ and here we are talking about Next JS.
+
+00:31:42.120 --> 00:31:43.280
+ (laughing)
+
+00:31:43.280 --> 00:31:45.680
+ And Next is in TypeScript, it's not even Next JS,
+
+00:31:45.680 --> 00:31:46.760
+ it's Next TS.
+
+00:31:46.760 --> 00:31:47.600
+ - I don't think--
+
+00:31:47.600 --> 00:31:49.080
+ (laughing)
+
+00:31:49.080 --> 00:31:52.280
+ - I don't think Remix is as big a fender as Next
+
+00:31:52.280 --> 00:31:53.120
+ in that regard.
+
+00:31:53.120 --> 00:31:53.960
+ Like, I don't--
+
+00:31:53.960 --> 00:31:54.800
+ - That's what I was gonna ask.
+
+00:31:54.800 --> 00:31:56.560
+ Like, Taylor, have you felt anything
+
+00:31:56.560 --> 00:31:58.080
+ from the Remix community that's like,
+
+00:31:58.080 --> 00:32:02.000
+ oh, we can totally, we're the whole stack for you.
+
+00:32:02.000 --> 00:32:03.600
+ - No, I don't really get those vibes.
+
+00:32:03.600 --> 00:32:05.440
+ I think that mainly seems to come from, like,
+
+00:32:05.440 --> 00:32:08.000
+ Twitter is such like a weird place,
+
+00:32:08.000 --> 00:32:09.080
+ disconnected from reality.
+
+00:32:09.080 --> 00:32:12.240
+ But like, the vibes I get are that like,
+
+00:32:12.240 --> 00:32:15.600
+ all you need is Next, and it's mainly from that community.
+
+00:32:15.600 --> 00:32:16.440
+ - Yeah.
+
+00:32:16.440 --> 00:32:18.280
+ - I don't know, so that's the main vibe I get.
+
+00:32:18.280 --> 00:32:20.080
+ Dax, like, on the back end JavaScript,
+
+00:32:20.080 --> 00:32:22.600
+ like, what's kind of the thing there these days?
+
+00:32:22.600 --> 00:32:25.280
+ Like, is it Express JS, or is it something,
+
+00:32:25.280 --> 00:32:26.200
+ like, what are they calling?
+
+00:32:26.200 --> 00:32:28.520
+ - I was gonna say, it's like Cloudflare,
+
+00:32:28.520 --> 00:32:30.080
+ you put a bunch of files in a folder,
+
+00:32:30.080 --> 00:32:32.400
+ and they call 'em, right?
+
+00:32:32.400 --> 00:32:33.320
+ Like, you don't really--
+
+00:32:33.320 --> 00:32:35.080
+ - There isn't, there's a spectrum here.
+
+00:32:35.080 --> 00:32:37.080
+ So if you're like, infrastructure heavy, right?
+
+00:32:37.080 --> 00:32:40.480
+ So let's take AWS, you use something called API Gateway,
+
+00:32:40.480 --> 00:32:42.760
+ which is a router that's like a service.
+
+00:32:42.760 --> 00:32:44.680
+ So you're not like, you don't need something to route
+
+00:32:44.680 --> 00:32:46.720
+ in your application level to handle the infrastructure level.
+
+00:32:46.720 --> 00:32:48.120
+ It's a bunch of benefits from that.
+
+00:32:48.120 --> 00:32:50.280
+ I actually don't like that much,
+
+00:32:50.280 --> 00:32:51.680
+ 'cause I don't like that specific service.
+
+00:32:51.680 --> 00:32:53.200
+ - And does that route to like a Lambda
+
+00:32:53.200 --> 00:32:54.400
+ that's running some JavaScript?
+
+00:32:54.400 --> 00:32:55.760
+ - Yes, one or many Lambdas,
+
+00:32:55.760 --> 00:32:59.520
+ you can also tell it, here's the schema that I expect,
+
+00:32:59.520 --> 00:33:02.280
+ and it'll do validation before it even hits your code.
+
+00:33:02.280 --> 00:33:03.960
+ So obviously, you're paying less for that.
+
+00:33:03.960 --> 00:33:05.960
+ It's written in a really efficient language.
+
+00:33:05.960 --> 00:33:07.880
+ There's a bunch of benefits to doing that stuff.
+
+00:33:07.880 --> 00:33:10.160
+ Again, I personally don't love that,
+
+00:33:10.160 --> 00:33:11.680
+ but there is a section in the AWS community
+
+00:33:11.680 --> 00:33:13.760
+ that like really takes advantage of those primitives.
+
+00:33:13.760 --> 00:33:15.080
+ - It goes even further, right, Dax?
+
+00:33:15.080 --> 00:33:17.320
+ Like the more extreme example would be like step functions
+
+00:33:17.320 --> 00:33:20.000
+ where you're not even writing loops anymore or like--
+
+00:33:20.000 --> 00:33:20.960
+ - Traditional code, yeah.
+
+00:33:20.960 --> 00:33:22.440
+ - Yeah, back off mechanisms.
+
+00:33:22.440 --> 00:33:24.440
+ All this stuff is like in the infrastructure,
+
+00:33:24.440 --> 00:33:26.120
+ and you're writing these tiny little,
+
+00:33:26.120 --> 00:33:27.720
+ if you're even writing any JavaScript,
+
+00:33:27.720 --> 00:33:29.640
+ you're writing these tiny little functions
+
+00:33:29.640 --> 00:33:31.000
+ that do single purpose stuff.
+
+00:33:31.000 --> 00:33:32.520
+ So there's like this very extreme case
+
+00:33:32.520 --> 00:33:35.000
+ where people think you should take advantage
+
+00:33:35.000 --> 00:33:37.600
+ of the extremities of AWS.
+
+00:33:37.600 --> 00:33:39.360
+ - It's like AWS becomes your programming language
+
+00:33:39.360 --> 00:33:40.600
+ in a lot of ways.
+
+00:33:40.600 --> 00:33:42.720
+ Like I said, I don't know if that,
+
+00:33:42.720 --> 00:33:44.760
+ there are a lot of companies that are super into that model
+
+00:33:44.760 --> 00:33:46.640
+ and they built big complex things with it
+
+00:33:46.640 --> 00:33:48.160
+ and then they make it work.
+
+00:33:48.160 --> 00:33:49.440
+ It just doesn't click for me personally
+
+00:33:49.440 --> 00:33:51.120
+ 'cause I like programming languages
+
+00:33:51.120 --> 00:33:53.520
+ and I don't wanna get away from them so much.
+
+00:33:53.520 --> 00:33:54.720
+ Then you take something like Cloudflare,
+
+00:33:54.720 --> 00:33:56.880
+ which is a little bit kind of in between.
+
+00:33:56.880 --> 00:33:59.400
+ They don't provide you as much,
+
+00:33:59.400 --> 00:34:01.680
+ and you're still running like your application codes
+
+00:34:01.680 --> 00:34:02.880
+ doing the routing.
+
+00:34:02.880 --> 00:34:05.000
+ And there you have some options like HONO,
+
+00:34:05.000 --> 00:34:07.160
+ which is like, it's very much like express,
+
+00:34:07.160 --> 00:34:10.000
+ but just runs across all these different places
+
+00:34:10.000 --> 00:34:13.040
+ and takes advantage of the infrastructure-specific details
+
+00:34:13.040 --> 00:34:14.200
+ that exist there.
+
+00:34:14.200 --> 00:34:15.360
+ But yeah, beyond that,
+
+00:34:15.360 --> 00:34:18.680
+ you just don't need as much application stuff.
+
+00:34:18.680 --> 00:34:20.160
+ Like wherever you end up falling on this spectrum,
+
+00:34:20.160 --> 00:34:22.240
+ you just don't need it.
+
+00:34:22.240 --> 00:34:24.280
+ If the services are designed, well,
+
+00:34:24.280 --> 00:34:25.120
+ and you wanna use it.
+
+00:34:25.120 --> 00:34:27.760
+ - Ignoring the marketing that feels one way or another
+
+00:34:27.760 --> 00:34:29.200
+ from Versailles and Next,
+
+00:34:29.200 --> 00:34:31.120
+ where we're coming from remixes,
+
+00:34:31.120 --> 00:34:34.200
+ it's like we recognize that there is this
+
+00:34:34.200 --> 00:34:36.160
+ different way to deploy apps
+
+00:34:36.160 --> 00:34:39.320
+ and that there are these infrastructure companies now
+
+00:34:39.320 --> 00:34:40.640
+ that have all of this stuff for you.
+
+00:34:40.640 --> 00:34:42.880
+ So it's like, we're not gonna show up and be like,
+
+00:34:42.880 --> 00:34:43.720
+ hey, guess what?
+
+00:34:43.720 --> 00:34:45.720
+ Yeah, deploy this to...
+
+00:34:45.720 --> 00:34:47.080
+ I forgot what the name is.
+
+00:34:47.080 --> 00:34:48.400
+ Not Heroku, the other one.
+
+00:34:48.400 --> 00:34:52.000
+ A digital ocean droplet like that's how remix works.
+
+00:34:52.000 --> 00:34:53.960
+ It's a node process.
+
+00:34:53.960 --> 00:34:55.240
+ If we were just a node process,
+
+00:34:55.240 --> 00:34:57.600
+ then yeah, we could do a whole bunch of the,
+
+00:34:57.600 --> 00:34:59.800
+ we could do a bunch more abstraction for people,
+
+00:34:59.800 --> 00:35:02.880
+ but we were born in a different era
+
+00:35:02.880 --> 00:35:05.720
+ where all this infrastructure exists
+
+00:35:05.720 --> 00:35:09.320
+ and people's own personal infrastructure also exists.
+
+00:35:09.320 --> 00:35:12.840
+ So it's definitely different target audiences
+
+00:35:12.840 --> 00:35:15.840
+ that I think we're going for.
+
+00:35:15.840 --> 00:35:17.200
+ - Yeah, and I think a lot of this stuff,
+
+00:35:17.200 --> 00:35:18.600
+ I think people look at it externally
+
+00:35:18.600 --> 00:35:21.320
+ and it feels like it should be able to be replicated,
+
+00:35:21.320 --> 00:35:23.080
+ but since the other day,
+
+00:35:23.080 --> 00:35:26.720
+ where there's brief moments of time
+
+00:35:26.720 --> 00:35:29.240
+ and there's like comes down to like singular individuals
+
+00:35:29.240 --> 00:35:31.400
+ seeing something and executing it on it well.
+
+00:35:31.400 --> 00:35:34.040
+ And I think a lot of what we're seeing with Laravel today
+
+00:35:34.040 --> 00:35:36.920
+ is a result of some decisions you made 10 years ago
+
+00:35:36.920 --> 00:35:39.240
+ that were correct that are just panning out now, right?
+
+00:35:39.240 --> 00:35:42.520
+ So it's really hard to like exactly recreate it
+
+00:35:42.520 --> 00:35:44.800
+ 'cause there's just sort of brief moments
+
+00:35:44.800 --> 00:35:47.200
+ where everything aligns and there's the right environment,
+
+00:35:47.200 --> 00:35:48.560
+ there's a right appetite for something,
+
+00:35:48.560 --> 00:35:51.120
+ there's the right opportunity to the right people leading it.
+
+00:35:51.120 --> 00:35:53.240
+ Yeah, these things are kind of like miracles to me
+
+00:35:53.240 --> 00:35:54.600
+ when they actually pan out.
+
+00:35:54.600 --> 00:35:56.120
+ So it's hard to recreate.
+
+00:35:56.120 --> 00:35:57.760
+ - Dude, in Laravel, oh my gosh, dude,
+
+00:35:57.760 --> 00:36:00.320
+ I have so much respect for what you've done, Taylor.
+
+00:36:00.320 --> 00:36:02.800
+ When we started Remix, it was like,
+
+00:36:02.800 --> 00:36:05.520
+ VCs wanted us to be versatile.
+
+00:36:05.520 --> 00:36:06.720
+ Everyone was trying to give us money
+
+00:36:06.720 --> 00:36:08.760
+ 'cause like, oh, we missed out on them,
+
+00:36:08.760 --> 00:36:10.960
+ so maybe we can give it to these guys.
+
+00:36:10.960 --> 00:36:13.600
+ We didn't really wanna do that.
+
+00:36:13.600 --> 00:36:15.680
+ We were probably going to do something
+
+00:36:15.680 --> 00:36:16.680
+ a lot more like what you did.
+
+00:36:16.680 --> 00:36:18.840
+ I love when you go to Laravel and it's like community
+
+00:36:18.840 --> 00:36:22.680
+ and you click and it's like, here's 18 things right here
+
+00:36:22.680 --> 00:36:23.920
+ that are gonna like solve the problems
+
+00:36:23.920 --> 00:36:26.200
+ that your app actually needs to solve.
+
+00:36:26.200 --> 00:36:28.640
+ That's before we open source and stuff.
+
+00:36:28.640 --> 00:36:30.280
+ That's kind of what I was imagining we would do.
+
+00:36:30.280 --> 00:36:31.960
+ So huge respect for what you've done.
+
+00:36:31.960 --> 00:36:34.680
+ I have a little bit different topic I wanna bring up
+
+00:36:34.680 --> 00:36:36.960
+ if everybody is ready to move on from this.
+
+00:36:36.960 --> 00:36:37.800
+ - Yeah, let's do it.
+
+00:36:37.800 --> 00:36:41.040
+ - I think JavaScript frameworks are the only ones
+
+00:36:41.040 --> 00:36:44.760
+ in position to be the fullest stack.
+
+00:36:44.760 --> 00:36:46.140
+ - Keep going. - Interesting.
+
+00:36:46.140 --> 00:36:47.160
+ (laughing)
+
+00:36:47.160 --> 00:36:49.360
+ - I think I agree, but I'll let you continue.
+
+00:36:49.360 --> 00:36:50.360
+ - Like we talked about before,
+
+00:36:50.360 --> 00:36:51.720
+ there's this line between like,
+
+00:36:51.720 --> 00:36:53.120
+ I'm writing the PHP and now I'm writing
+
+00:36:53.120 --> 00:36:54.920
+ the JavaScript side of the app, right?
+
+00:36:54.920 --> 00:36:58.840
+ React server components that we've been excited about
+
+00:36:58.840 --> 00:37:01.600
+ the whole time, but also critical of as we're doing it
+
+00:37:01.600 --> 00:37:03.200
+ because a lot of what React is doing
+
+00:37:03.200 --> 00:37:06.760
+ is creeping into the remix problem space,
+
+00:37:06.760 --> 00:37:08.320
+ which we're fine now.
+
+00:37:08.320 --> 00:37:11.200
+ Anyway, nobody cares about the React stuff in here.
+
+00:37:11.200 --> 00:37:16.320
+ But what it does, it's dissolving the network, right?
+
+00:37:16.320 --> 00:37:17.280
+ You got your back end code,
+
+00:37:17.280 --> 00:37:18.120
+ you got your front end code
+
+00:37:18.120 --> 00:37:20.120
+ and then there's like a network in between there.
+
+00:37:20.120 --> 00:37:22.440
+ Prime example of this is if you're always rendering
+
+00:37:22.440 --> 00:37:24.760
+ on the server, the hey calendar.
+
+00:37:24.760 --> 00:37:26.080
+ If you go to the hey calendar,
+
+00:37:26.080 --> 00:37:27.920
+ I don't know if any of you've played with it,
+
+00:37:27.920 --> 00:37:30.280
+ but there's so much-- - It is slow.
+
+00:37:30.280 --> 00:37:32.480
+ - In every single user interaction.
+
+00:37:32.480 --> 00:37:33.320
+ - Yeah, it's not good.
+
+00:37:33.320 --> 00:37:35.480
+ - It's not good, inertia is super cool
+
+00:37:35.480 --> 00:37:38.120
+ because it lets you render that stuff on the server.
+
+00:37:38.120 --> 00:37:41.280
+ But so we'll go back like a step even farther back
+
+00:37:41.280 --> 00:37:43.480
+ that I think isn't good with Rails.
+
+00:37:43.480 --> 00:37:45.840
+ And it's like the calendar pop up
+
+00:37:45.840 --> 00:37:47.960
+ is was the first thing I noticed.
+
+00:37:47.960 --> 00:37:51.040
+ When you click on a day to like get the calendar pop up,
+
+00:37:51.040 --> 00:37:54.520
+ there's latency there because they gotta go to the server,
+
+00:37:54.520 --> 00:37:56.920
+ render the HTML and then send it back, right?
+
+00:37:56.920 --> 00:37:59.480
+ And then we drag events back and forth.
+
+00:37:59.480 --> 00:38:02.360
+ You drag it, let go, and then it pops back
+
+00:38:02.360 --> 00:38:04.000
+ exactly where it was.
+
+00:38:04.000 --> 00:38:05.120
+ And then after the network's done,
+
+00:38:05.120 --> 00:38:06.600
+ it shows up over in the new spot.
+
+00:38:06.600 --> 00:38:11.600
+ So these problems, you have to render in the browser, right?
+
+00:38:11.600 --> 00:38:16.280
+ So you've got to have a JavaScript template somewhere
+
+00:38:16.280 --> 00:38:17.400
+ that when you click the button,
+
+00:38:17.400 --> 00:38:19.440
+ you can just tell the browser render this thing.
+
+00:38:19.440 --> 00:38:21.280
+ We used to like send hidden divs
+
+00:38:21.280 --> 00:38:23.320
+ and like show like pop them up and stuff.
+
+00:38:23.320 --> 00:38:26.800
+ Like I think everyone is kind of beyond that phase of it
+
+00:38:26.800 --> 00:38:28.480
+ with all the problems that it caused.
+
+00:38:28.480 --> 00:38:30.600
+ And so that movement of like, okay,
+
+00:38:30.600 --> 00:38:33.240
+ this interaction, the latency's bad.
+
+00:38:33.240 --> 00:38:35.040
+ We need to render this in the browser.
+
+00:38:35.040 --> 00:38:39.040
+ With inertia and Laravel and React,
+
+00:38:39.040 --> 00:38:44.040
+ you're gonna move that pop up from PHP over to React, right?
+
+00:38:44.040 --> 00:38:46.520
+ You know, you're gonna cross that gap
+
+00:38:46.520 --> 00:38:48.000
+ and now the person in charge of that
+
+00:38:48.000 --> 00:38:50.640
+ is the guy who went to eat at McDonald's for lunch
+
+00:38:50.640 --> 00:38:53.280
+ instead of the guy who went over to wherever else, right?
+
+00:38:53.280 --> 00:38:55.840
+ But it's now a different team in charge of that template.
+
+00:38:55.840 --> 00:38:58.120
+ Or just in your own mind, you're an individual.
+
+00:38:58.120 --> 00:38:59.520
+ - I would like to believe
+
+00:38:59.520 --> 00:39:01.560
+ if I could get DHH to try inertia,
+
+00:39:01.560 --> 00:39:03.240
+ he would just delete Hotwire.
+
+00:39:03.240 --> 00:39:06.060
+ (all laughing)
+
+00:39:06.060 --> 00:39:09.120
+ Because I think I do think like he's,
+
+00:39:09.120 --> 00:39:11.360
+ it's holding Rails back.
+
+00:39:11.360 --> 00:39:13.360
+ And I loved DHH is my hero.
+
+00:39:13.360 --> 00:39:15.920
+ And I hate to say it pained me to say this,
+
+00:39:15.920 --> 00:39:19.240
+ but it's holding Rails back and you can,
+
+00:39:19.240 --> 00:39:22.200
+ hey, calendar is a perfect example of how
+
+00:39:22.200 --> 00:39:24.860
+ and why it's holding Rails back.
+
+00:39:24.860 --> 00:39:27.960
+ - It's an amazing product.
+
+00:39:27.960 --> 00:39:31.220
+ The team there is so good at building great products.
+
+00:39:31.220 --> 00:39:36.220
+ But the UX, it seriously feels like I woke up in 2010
+
+00:39:36.220 --> 00:39:38.720
+ and it's like, what is this?
+
+00:39:38.720 --> 00:39:42.360
+ Like this is crap, like go use linear
+
+00:39:42.360 --> 00:39:45.400
+ and you'll see what is possible now.
+
+00:39:45.400 --> 00:39:47.280
+ And they're just still, anyway.
+
+00:39:47.280 --> 00:39:48.680
+ It's, I feel the same way.
+
+00:39:48.680 --> 00:39:50.960
+ - Dax just perked up, linear mention.
+
+00:39:50.960 --> 00:39:53.560
+ - I'm glad someone else brought it up and down.
+
+00:39:53.560 --> 00:39:56.040
+ (all laughing)
+
+00:39:56.040 --> 00:39:57.640
+ - I feel like it's like, I don't know.
+
+00:39:57.640 --> 00:39:58.840
+ Yeah, it hurts me.
+
+00:39:58.840 --> 00:40:00.960
+ It's like Michael Jordan, when he played for the Wizards,
+
+00:40:00.960 --> 00:40:03.020
+ like it's just, I don't know.
+
+00:40:03.020 --> 00:40:05.860
+ (all laughing)
+
+00:40:05.860 --> 00:40:08.760
+ It's just, I don't know, it's not good.
+
+00:40:08.760 --> 00:40:10.080
+ And if I could get him on inertia,
+
+00:40:10.080 --> 00:40:12.360
+ I just feel like he would see the light, you know?
+
+00:40:12.360 --> 00:40:15.160
+ - Yeah, so I think inertia is a great step
+
+00:40:15.160 --> 00:40:16.600
+ in the right direction.
+
+00:40:16.600 --> 00:40:18.760
+ But you still have to like,
+
+00:40:18.760 --> 00:40:20.680
+ you still have to constantly make this decision
+
+00:40:20.680 --> 00:40:24.560
+ of like, is this a thing that I do in Laravel,
+
+00:40:24.560 --> 00:40:25.960
+ in a PHP template or is this a thing
+
+00:40:25.960 --> 00:40:28.360
+ that I move over to the JavaScript app, right?
+
+00:40:28.360 --> 00:40:32.600
+ And that, for an individual, that is a lot of friction.
+
+00:40:32.600 --> 00:40:35.760
+ And for a team, that's enormous friction to the point
+
+00:40:35.760 --> 00:40:38.480
+ where like, they might not even deploy these things together.
+
+00:40:38.480 --> 00:40:40.960
+ How is someone, a designer going to be like,
+
+00:40:40.960 --> 00:40:42.680
+ "Hey, this interaction sucks, let's fix it."
+
+00:40:42.680 --> 00:40:44.840
+ And it's like, okay, let's get two product managers
+
+00:40:44.840 --> 00:40:47.080
+ in the room and let's get the team lead of each of these
+
+00:40:47.080 --> 00:40:49.280
+ and let's figure out how to move this template
+
+00:40:49.280 --> 00:40:52.120
+ from PHP over to JavaScript, right?
+
+00:40:52.120 --> 00:40:56.440
+ And so, what React, what we've been doing with Remix
+
+00:40:56.440 --> 00:40:59.920
+ and now what React can do on its own,
+
+00:40:59.920 --> 00:41:02.760
+ I think is so interesting with the use client directive
+
+00:41:02.760 --> 00:41:05.040
+ for a React component.
+
+00:41:05.040 --> 00:41:07.400
+ You can have that calendar pop up
+
+00:41:07.400 --> 00:41:09.720
+ and it's just rendered on the server
+
+00:41:09.720 --> 00:41:13.800
+ and you can click on click, go fetch that RSC stream
+
+00:41:13.800 --> 00:41:15.640
+ and then hand it back to React and it'll render it.
+
+00:41:15.640 --> 00:41:19.360
+ And it's a really easy little one-line thing to do
+
+00:41:19.360 --> 00:41:20.800
+ and you're keeping rendering on the server.
+
+00:41:20.800 --> 00:41:21.640
+ And then you're like, you know what?
+
+00:41:21.640 --> 00:41:24.000
+ This interaction sucks, let's get rid of the latency
+
+00:41:24.000 --> 00:41:25.880
+ and let's move the template to the browser.
+
+00:41:25.880 --> 00:41:28.480
+ You literally just put use client
+
+00:41:28.480 --> 00:41:31.680
+ at the top of that thing of the module.
+
+00:41:31.680 --> 00:41:33.160
+ That's it.
+
+00:41:33.160 --> 00:41:35.400
+ And now that is part of the JavaScript bundles
+
+00:41:35.400 --> 00:41:36.760
+ and then when you click, you just say
+
+00:41:36.760 --> 00:41:39.040
+ set state open true or whatever, right?
+
+00:41:39.040 --> 00:41:40.360
+ And now boom, it's there.
+
+00:41:40.360 --> 00:41:43.640
+ That's what I mean by like, we're dissolving the network
+
+00:41:43.640 --> 00:41:45.400
+ in a way that I don't think you can do
+
+00:41:45.400 --> 00:41:48.200
+ with any other framework than a JavaScript framework
+
+00:41:48.200 --> 00:41:52.000
+ because your template never has to really change.
+
+00:41:52.000 --> 00:41:53.960
+ You just put use client at the top
+
+00:41:53.960 --> 00:41:56.720
+ and you can teleport it over the network now,
+
+00:41:56.720 --> 00:41:58.040
+ which I think is super interesting.
+
+00:41:58.040 --> 00:42:01.160
+ So that's what I think all of us weirdos
+
+00:42:01.160 --> 00:42:02.680
+ over in this React world are doing.
+
+00:42:02.680 --> 00:42:04.840
+ I know that it's really easy to look at from the outside
+
+00:42:04.840 --> 00:42:08.280
+ and be like, what kind of Rube Goldberg machine
+
+00:42:08.280 --> 00:42:10.200
+ are those weirdos making?
+
+00:42:10.200 --> 00:42:11.320
+ But like, that's it.
+
+00:42:11.320 --> 00:42:14.040
+ I want that hate calendar pop up
+
+00:42:14.040 --> 00:42:15.680
+ to be rendered in the browser,
+
+00:42:15.680 --> 00:42:17.840
+ drop a use client at the top.
+
+00:42:17.840 --> 00:42:19.040
+ That's it.
+
+00:42:19.040 --> 00:42:20.920
+ I think it's super compelling.
+
+00:42:20.920 --> 00:42:22.720
+ And with that, thanks for coming to another episode
+
+00:42:22.720 --> 00:42:23.800
+ of tomorrow with them.
+
+00:42:23.800 --> 00:42:26.120
+ (laughing)
+
+00:42:26.120 --> 00:42:28.120
+ - When do you think like, I mean,
+
+00:42:28.120 --> 00:42:29.920
+ JavaScript's been around a long time.
+
+00:42:29.920 --> 00:42:34.920
+ When will it, if ever have sort of the robust full stack
+
+00:42:34.920 --> 00:42:39.440
+ product building tool to match something
+
+00:42:39.440 --> 00:42:41.360
+ like Rails from 2006?
+
+00:42:41.360 --> 00:42:42.960
+ - So this is what I think is, yeah.
+
+00:42:42.960 --> 00:42:45.080
+ So I think that this is where I get really excited
+
+00:42:45.080 --> 00:42:47.520
+ 'cause I'm like, okay, all of us weirdos in React.
+
+00:42:47.520 --> 00:42:50.560
+ We're like, we're solving this really, really weird
+
+00:42:50.560 --> 00:42:53.000
+ difficult problem of dissolving the network
+
+00:42:53.000 --> 00:42:54.720
+ that I think a lot of other people are like,
+
+00:42:54.720 --> 00:42:55.760
+ ah, whatever, it doesn't matter.
+
+00:42:55.760 --> 00:42:57.720
+ Just like move it over through inertia,
+
+00:42:57.720 --> 00:42:58.640
+ put it over in React app.
+
+00:42:58.640 --> 00:42:59.680
+ Like just keep doing that.
+
+00:42:59.680 --> 00:43:00.920
+ But we're like obsessed with this.
+
+00:43:00.920 --> 00:43:03.760
+ Like, no, we're going to fix,
+
+00:43:03.760 --> 00:43:05.360
+ we're gonna change this thing.
+
+00:43:05.360 --> 00:43:06.800
+ Once we get that done,
+
+00:43:07.800 --> 00:43:09.960
+ once we're done just hyper focusing on this,
+
+00:43:09.960 --> 00:43:12.640
+ like crossing that network gap,
+
+00:43:12.640 --> 00:43:14.720
+ we've been doing delayed jobs and mailers
+
+00:43:14.720 --> 00:43:16.720
+ and databases for decades now.
+
+00:43:16.720 --> 00:43:21.120
+ So I think, I think in the next few years
+
+00:43:21.120 --> 00:43:24.840
+ in the React ecosystem, you're gonna see an explosion
+
+00:43:24.840 --> 00:43:29.440
+ of amazingly composable backend functionality
+
+00:43:29.440 --> 00:43:31.940
+ that is just so easy to add to an app.
+
+00:43:31.940 --> 00:43:34.760
+ Like easier than Rails or Laravel
+
+00:43:34.760 --> 00:43:36.360
+ or any other non-JavaScript thing.
+
+00:43:36.360 --> 00:43:38.440
+ We're not there yet 'cause we're just so hyper focused
+
+00:43:38.440 --> 00:43:39.920
+ on this one problem.
+
+00:43:39.920 --> 00:43:42.600
+ But I think we're gonna be able to backfill that stuff
+
+00:43:42.600 --> 00:43:45.160
+ really fast and they'll be platform specific.
+
+00:43:45.160 --> 00:43:48.560
+ It'll be like, this is for SST and AWS or CloudFlare
+
+00:43:48.560 --> 00:43:51.960
+ or your own node process or Prisma,
+
+00:43:51.960 --> 00:43:53.080
+ Mailgun, whatever, right?
+
+00:43:53.080 --> 00:43:54.080
+ We got that kind of stuff.
+
+00:43:54.080 --> 00:43:55.600
+ I think it'll fill in quickly.
+
+00:43:55.600 --> 00:43:58.520
+ - I think the other dynamic that is annoying
+
+00:43:58.520 --> 00:44:00.720
+ but does have a big impact is jobs
+
+00:44:00.720 --> 00:44:03.000
+ we did have a reset with TypeScript.
+
+00:44:03.000 --> 00:44:05.680
+ I know like it's just effectively a linter
+
+00:44:05.680 --> 00:44:07.880
+ at the end of the day, but it did change a lot of things
+
+00:44:07.880 --> 00:44:09.280
+ and there's so many versions of TypeScript
+
+00:44:09.280 --> 00:44:11.720
+ before it became what's concerned modern TypeScript.
+
+00:44:11.720 --> 00:44:15.080
+ I would say 4.0 plus is when it was like,
+
+00:44:15.080 --> 00:44:17.800
+ okay, this is like, now we get it now.
+
+00:44:17.800 --> 00:44:19.800
+ But when I say we get it, it also took a couple years
+
+00:44:19.800 --> 00:44:21.520
+ for people to really get it and for libraries
+
+00:44:21.520 --> 00:44:25.000
+ to pop up really taking advantage of TypeScript correctly
+
+00:44:25.000 --> 00:44:27.840
+ so that the end user isn't bogged down
+
+00:44:27.840 --> 00:44:30.400
+ by all the concepts of types and everything.
+
+00:44:30.400 --> 00:44:33.600
+ And I think in the past year, I feel like
+
+00:44:33.600 --> 00:44:36.040
+ there's finally like enough understanding around these things
+
+00:44:36.040 --> 00:44:38.760
+ that we're seeing libraries and tools come out
+
+00:44:38.760 --> 00:44:40.920
+ that properly do stuff.
+
+00:44:40.920 --> 00:44:43.320
+ So this is like a big reset.
+
+00:44:43.320 --> 00:44:44.800
+ There's also a whole like stupid things
+
+00:44:44.800 --> 00:44:46.360
+ like the CJSSM thing.
+
+00:44:46.360 --> 00:44:48.280
+ Like there's a lot of like dumb,
+
+00:44:48.280 --> 00:44:51.400
+ like historical bad decisions problems
+
+00:44:51.400 --> 00:44:53.360
+ that the ecosystem is just saddled with.
+
+00:44:53.360 --> 00:44:56.240
+ And these are all just headwinds that do exist.
+
+00:44:56.240 --> 00:44:58.640
+ And there's like a way out of it,
+
+00:44:58.640 --> 00:45:00.880
+ but that kind of explains why it seems like
+
+00:45:00.880 --> 00:45:02.080
+ it's taking forever.
+
+00:45:02.080 --> 00:45:02.920
+ - Makes sense.
+
+00:45:02.920 --> 00:45:04.400
+ But before we move on past that one,
+
+00:45:04.400 --> 00:45:06.240
+ I guess everything you said, Ryan,
+
+00:45:06.240 --> 00:45:07.880
+ about you guys all obsessing about
+
+00:45:07.880 --> 00:45:10.600
+ the dissolving the network and all that stuff,
+
+00:45:10.600 --> 00:45:12.960
+ once you figure that out and you guys like,
+
+00:45:12.960 --> 00:45:15.640
+ you crack the code and it's all done,
+
+00:45:15.640 --> 00:45:17.800
+ could Laravel just like use that?
+
+00:45:17.800 --> 00:45:19.880
+ Like instead of inertia, could there be a third option
+
+00:45:19.880 --> 00:45:22.520
+ where like Laravel bolts on all this decade
+
+00:45:22.520 --> 00:45:25.160
+ of backend stuff and says,
+
+00:45:25.160 --> 00:45:26.920
+ well, now we're gonna use that cool thing
+
+00:45:26.920 --> 00:45:28.880
+ on the network dissolving thing.
+
+00:45:28.880 --> 00:45:32.200
+ - And that will always be a part of the React world
+
+00:45:32.200 --> 00:45:33.640
+ or the front end jobs for framework world.
+
+00:45:33.640 --> 00:45:35.640
+ Like they're like butcher box,
+
+00:45:35.640 --> 00:45:38.080
+ they're not gonna go back to Shopify.
+
+00:45:38.080 --> 00:45:40.520
+ We've got a five million line React app.
+
+00:45:40.520 --> 00:45:45.120
+ And I don't know, it's like 15 million line rails app behind it.
+
+00:45:45.120 --> 00:45:47.000
+ No one's gonna move that to node.
+
+00:45:47.000 --> 00:45:48.840
+ (laughing)
+
+00:45:48.840 --> 00:45:50.880
+ That is what it does for a very, very long time.
+
+00:45:50.880 --> 00:45:52.000
+ - Yeah, most backends are not
+
+00:45:52.000 --> 00:45:53.440
+ and it's gonna be the case forever.
+
+00:45:53.440 --> 00:45:55.960
+ - But yeah, I think what you'll see is
+
+00:45:55.960 --> 00:45:58.080
+ you'll get rid of all the templates
+
+00:45:58.080 --> 00:45:59.640
+ from that backend framework.
+
+00:45:59.640 --> 00:46:03.040
+ Like you're not gonna do any rendering with that thing.
+
+00:46:03.040 --> 00:46:06.080
+ There's just gonna be in your server components,
+
+00:46:06.080 --> 00:46:08.200
+ you're just gonna be talking either through the local network
+
+00:46:08.200 --> 00:46:11.040
+ or in some cases you'll go straight to the database.
+
+00:46:11.040 --> 00:46:13.720
+ Oh, but yeah, it's designed for that, I think, Adam,
+
+00:46:13.720 --> 00:46:17.200
+ to, that's why we don't prescribe the backend stuff
+
+00:46:17.200 --> 00:46:18.960
+ 'cause it's like we wanna work with your existing backend.
+
+00:46:18.960 --> 00:46:21.520
+ - You know that Blitz.js thing, do you all remember that?
+
+00:46:21.520 --> 00:46:22.360
+ - Yeah.
+
+00:46:22.360 --> 00:46:24.480
+ - I mean, I guess the website is still up.
+
+00:46:24.480 --> 00:46:25.920
+ Do you think, I mean, that's an example of someone
+
+00:46:25.920 --> 00:46:28.680
+ that tried to sort of bring this missing full stack toolkit
+
+00:46:28.680 --> 00:46:31.920
+ or whatever, in their words, to a next JS?
+
+00:46:31.920 --> 00:46:33.880
+ And do you think that didn't really take off
+
+00:46:33.880 --> 00:46:36.320
+ kind of going back to what you said, Dax, about like,
+
+00:46:36.320 --> 00:46:39.120
+ people just don't, there's just not a market
+
+00:46:39.120 --> 00:46:41.920
+ for people looking for this, like in JavaScript.
+
+00:46:41.920 --> 00:46:44.240
+ - Yeah, I think there's, there's just, again,
+
+00:46:44.240 --> 00:46:46.040
+ with all these things, there's so many variables,
+
+00:46:46.040 --> 00:46:48.400
+ like time, place, people, all of it.
+
+00:46:48.400 --> 00:46:52.800
+ Blitz, let's say, let's take for granted that they did want
+
+00:46:52.800 --> 00:46:55.040
+ to, like people did want it and there was value.
+
+00:46:55.040 --> 00:46:57.320
+ And I know a lot of people did use it.
+
+00:46:57.320 --> 00:47:02.080
+ But what hurt them a lot was next JS evolved really rapidly
+
+00:47:02.080 --> 00:47:04.320
+ and they were building on top of a framework
+
+00:47:04.320 --> 00:47:07.160
+ that they didn't really control or like, you know,
+
+00:47:07.160 --> 00:47:10.000
+ have influence on and they were constantly chasing
+
+00:47:10.000 --> 00:47:12.600
+ breaking stuff and they had to like tap into next
+
+00:47:12.600 --> 00:47:16.320
+ in ways that I imagine the next developers don't tear out,
+
+00:47:16.320 --> 00:47:17.160
+ actually.
+
+00:47:17.160 --> 00:47:18.000
+ - Oh yeah, did they?
+
+00:47:18.000 --> 00:47:19.200
+ - Yeah, he eventually forked it
+
+00:47:19.200 --> 00:47:23.160
+ and that'll kill any communities, like trust in it, right?
+
+00:47:23.160 --> 00:47:24.320
+ Like, oh, you forked next?
+
+00:47:24.320 --> 00:47:25.160
+ All right, never mind.
+
+00:47:25.160 --> 00:47:26.000
+ - Yeah, exactly.
+
+00:47:26.000 --> 00:47:28.840
+ - I mean, we get that with Remix where it's like,
+
+00:47:28.840 --> 00:47:30.920
+ oh, next has a couple of people
+
+00:47:30.920 --> 00:47:32.440
+ from the React core team working on it.
+
+00:47:32.440 --> 00:47:36.000
+ Therefore, it's the only one that you should use.
+
+00:47:36.000 --> 00:47:36.820
+ - It's more pure.
+
+00:47:36.820 --> 00:47:43.560
+ Yeah, so it's just, it's really hard in this space to,
+
+00:47:43.560 --> 00:47:48.200
+ like, I think what's in all these other spaces,
+
+00:47:48.200 --> 00:47:50.800
+ someone dominant kind of emerged,
+
+00:47:50.800 --> 00:47:52.920
+ some dominant framework, something,
+
+00:47:52.920 --> 00:47:54.600
+ they reach a level of dominance.
+
+00:47:54.600 --> 00:47:57.920
+ What really kills you is if you bet on something
+
+00:47:57.920 --> 00:47:59.920
+ that fails to reach that.
+
+00:47:59.920 --> 00:48:02.080
+ Because if a bunch of people use Laravel
+
+00:48:02.080 --> 00:48:05.760
+ and Laravel didn't become as big as it is today,
+
+00:48:05.760 --> 00:48:07.280
+ you're in like a horrible place.
+
+00:48:07.280 --> 00:48:08.600
+ And I think in the JavaScript space,
+
+00:48:08.600 --> 00:48:10.560
+ it's like, because of what Ryan said,
+
+00:48:10.560 --> 00:48:13.000
+ there's so many different communities in it.
+
+00:48:13.000 --> 00:48:15.200
+ It's really hard to achieve deep dominance.
+
+00:48:15.200 --> 00:48:17.040
+ It's really hard to like deliver something great
+
+00:48:17.040 --> 00:48:19.600
+ when you don't really have full attention
+
+00:48:19.600 --> 00:48:21.800
+ of everyone in this space.
+
+00:48:21.800 --> 00:48:26.080
+ And the other thing with Blitz is it's very geared
+
+00:48:26.080 --> 00:48:27.840
+ towards people trying to have,
+
+00:48:27.840 --> 00:48:29.880
+ next day has to be their whole system,
+
+00:48:29.880 --> 00:48:32.540
+ which, you know, they're just, it's tough.
+
+00:48:32.540 --> 00:48:34.760
+ So that's like a very small market.
+
+00:48:34.760 --> 00:48:36.000
+ And there's existing backend,
+
+00:48:36.000 --> 00:48:37.480
+ there's people that don't want to write
+
+00:48:37.480 --> 00:48:40.080
+ jobs on the backend, all kinds of reasons.
+
+00:48:40.080 --> 00:48:43.200
+ But I actually think everyone would be happy with this future
+
+00:48:43.200 --> 00:48:47.440
+ where if Remix solves this really nicely,
+
+00:48:47.440 --> 00:48:51.160
+ this whole problem of get the data, render something,
+
+00:48:51.160 --> 00:48:52.840
+ deliver it to the end user,
+
+00:48:52.840 --> 00:48:55.680
+ but then have a really snappy feel on the app
+
+00:48:55.680 --> 00:48:56.960
+ and you actually use it.
+
+00:48:56.960 --> 00:48:59.480
+ And everyone can just use that, like Laravel can use it,
+
+00:48:59.480 --> 00:49:01.320
+ Phoenix can use it, like everyone can just tap into that.
+
+00:49:01.320 --> 00:49:04.560
+ That kind of nicely splits the responsibilities, right?
+
+00:49:04.560 --> 00:49:07.840
+ Where you guys don't have to try to resolve that,
+
+00:49:07.840 --> 00:49:08.800
+ you can just use it,
+
+00:49:08.800 --> 00:49:11.800
+ which I guess is like the idea behind inertia to begin with.
+
+00:49:11.800 --> 00:49:13.720
+ Like we're not trying to build the competitor react,
+
+00:49:13.720 --> 00:49:15.640
+ we can just tap into everything that they do.
+
+00:49:15.640 --> 00:49:17.520
+ - Yeah, the difference is probably that the requests
+
+00:49:17.520 --> 00:49:19.800
+ come to Remix at that point.
+
+00:49:19.800 --> 00:49:22.920
+ And then Remix calls out to Laravel to get the data,
+
+00:49:22.920 --> 00:49:24.760
+ instead of Laravel handing the requests
+
+00:49:24.760 --> 00:49:27.520
+ and then calling out to node to render, right?
+
+00:49:27.520 --> 00:49:28.360
+ - Yeah, right.
+
+00:49:28.360 --> 00:49:29.680
+ - Yeah, that would be pretty sweet.
+
+00:49:29.680 --> 00:49:30.520
+ - Yeah.
+
+00:49:30.520 --> 00:49:33.340
+ - Yeah, I mean, it would work with inertia too.
+
+00:49:33.340 --> 00:49:36.680
+ I would imagine anyway, I'd be surprised if it didn't.
+
+00:49:36.680 --> 00:49:37.640
+ - Taylor, what do you want to see
+
+00:49:37.640 --> 00:49:40.280
+ from the Remix community on Twitter?
+
+00:49:40.280 --> 00:49:43.680
+ - I think we need to do better on, at least on our side,
+
+00:49:43.680 --> 00:49:46.160
+ we've made small attempts at this with Next,
+
+00:49:46.160 --> 00:49:47.720
+ but we should probably look at Remix too,
+
+00:49:47.720 --> 00:49:51.880
+ of like how to best pair these technologies, you know?
+
+00:49:51.880 --> 00:49:55.100
+ Whether that be, I know this is kind of on trend right now,
+
+00:49:55.100 --> 00:49:59.600
+ but starter kit, starter kit for, you know,
+
+00:49:59.600 --> 00:50:02.780
+ because when you said you've got someone pairing
+
+00:50:02.780 --> 00:50:04.360
+ a Laravel back in an a Remix front,
+
+00:50:04.360 --> 00:50:06.200
+ and I was just actually very curious to see
+
+00:50:06.200 --> 00:50:07.920
+ like how that all works together,
+
+00:50:07.920 --> 00:50:09.320
+ how the authentication works,
+
+00:50:09.320 --> 00:50:12.440
+ how they talk to each other, how they structure all that,
+
+00:50:12.440 --> 00:50:13.840
+ because I actually don't have a great idea
+
+00:50:13.840 --> 00:50:15.480
+ in my head of what that looks like,
+
+00:50:15.480 --> 00:50:17.680
+ just 'cause I'm not a super expert, you know,
+
+00:50:17.680 --> 00:50:19.000
+ front end developer.
+
+00:50:19.000 --> 00:50:21.360
+ I think we just need to do better about educating people.
+
+00:50:21.360 --> 00:50:22.440
+ - They're an awesome team.
+
+00:50:22.440 --> 00:50:24.360
+ I can put you in contact with them,
+
+00:50:24.360 --> 00:50:27.360
+ and I'm sure they would love to chat with you about it.
+
+00:50:27.360 --> 00:50:28.680
+ I worked with them,
+
+00:50:28.680 --> 00:50:30.440
+ I was having like bi-weekly meetings with them
+
+00:50:30.440 --> 00:50:33.240
+ as they were moving over to Remix for a little while.
+
+00:50:33.240 --> 00:50:36.240
+ Yeah, though, they would love to talk to you, I'm sure.
+
+00:50:36.240 --> 00:50:38.480
+ - Yeah, because like I said, I've always been very,
+
+00:50:38.480 --> 00:50:41.920
+ I like JavaScript fine, I like view, I like React,
+
+00:50:41.920 --> 00:50:45.840
+ so I would actually like to flesh out our just kind of
+
+00:50:45.840 --> 00:50:47.840
+ documentation and educational material
+
+00:50:47.840 --> 00:50:51.840
+ about how to pair some of these frameworks like Remix
+
+00:50:51.840 --> 00:50:55.000
+ with Laravel in the most sensible and like productive way,
+
+00:50:55.000 --> 00:50:57.600
+ 'cause I haven't seen a lot of that out there.
+
+00:50:57.600 --> 00:50:59.200
+ - Yeah, yeah, that'd be cool.
+
+00:50:59.200 --> 00:51:02.960
+ - The other thing is any backend can return
+
+00:51:02.960 --> 00:51:06.120
+ like an RSE stream hypothetically, right?
+
+00:51:06.120 --> 00:51:08.680
+ Like technically you could have that stream coming
+
+00:51:08.680 --> 00:51:11.080
+ from a Laravel application, I don't know if it makes sense,
+
+00:51:11.080 --> 00:51:13.560
+ but my understanding is it's possible.
+
+00:51:13.560 --> 00:51:16.240
+ - So yeah, yeah, so that's actually interesting, right?
+
+00:51:16.240 --> 00:51:18.120
+ Are you kind of talking about like,
+
+00:51:18.120 --> 00:51:23.120
+ I wrote a Laravel component, it's in PHP.
+
+00:51:23.120 --> 00:51:26.120
+ Like I didn't write any JavaScript,
+
+00:51:26.120 --> 00:51:28.600
+ I wanna build this whole thing with PHP,
+
+00:51:28.600 --> 00:51:33.600
+ send some sort of PHP thing through the RSE wire format
+
+00:51:33.600 --> 00:51:37.600
+ and then dump it in the page.
+
+00:51:37.600 --> 00:51:42.600
+ So the trick there is how do you turn your PHP module
+
+00:51:42.600 --> 00:51:47.200
+ into a JavaScript module for the browser, right?
+
+00:51:47.200 --> 00:51:51.560
+ Because if you're gonna do the proverbial counter button,
+
+00:51:51.560 --> 00:51:53.920
+ right, and you're gonna click that thing
+
+00:51:53.920 --> 00:51:56.680
+ and the count's gonna go up and it's 100% just in the browser
+
+00:51:56.680 --> 00:52:00.280
+ or the pop up on the hey calendar,
+
+00:52:00.280 --> 00:52:03.360
+ how do you convert that PHP template to a JavaScript template?
+
+00:52:03.360 --> 00:52:05.160
+ So I don't know if that's Wasm
+
+00:52:05.160 --> 00:52:08.160
+ or it fits a crazy PHP transform.
+
+00:52:08.160 --> 00:52:09.680
+ - Everyone says Wasm everything.
+
+00:52:09.680 --> 00:52:12.040
+ Wasm was supposed to fix every problem for the last 10 years
+
+00:52:12.040 --> 00:52:14.920
+ and it's the only thing about using it nowadays.
+
+00:52:14.920 --> 00:52:19.360
+ - But reason ML, did you guys ever look at--
+
+00:52:19.360 --> 00:52:20.200
+ - I love reason.
+
+00:52:20.200 --> 00:52:22.200
+ - Yeah, so Jordan Wock made React
+
+00:52:22.200 --> 00:52:24.520
+ and then he went and made Reason ML
+
+00:52:24.520 --> 00:52:29.520
+ and it compiled down to React components.
+
+00:52:29.520 --> 00:52:30.640
+ So totally different language.
+
+00:52:30.640 --> 00:52:32.200
+ So I mean, it should be possible,
+
+00:52:32.200 --> 00:52:34.640
+ but that would be the trick.
+
+00:52:34.640 --> 00:52:36.640
+ And maybe that's what you're asking more earlier, Adam,
+
+00:52:36.640 --> 00:52:39.800
+ of like, can't you just use RSC in Laravel?
+
+00:52:39.800 --> 00:52:42.520
+ Yeah, if you build a thing that can,
+
+00:52:42.520 --> 00:52:45.480
+ if you build an API and PHP of like,
+
+00:52:45.480 --> 00:52:47.800
+ here's what a component looks like
+
+00:52:47.800 --> 00:52:50.920
+ and then you build some sort of compiler
+
+00:52:50.920 --> 00:52:54.600
+ that can turn that into a JavaScript module
+
+00:52:54.600 --> 00:52:58.840
+ that then targets the React runtimes like you stayed
+
+00:52:58.840 --> 00:53:01.080
+ and use effect and all that kind of stuff,
+
+00:53:01.080 --> 00:53:02.880
+ you could totally do that.
+
+00:53:02.880 --> 00:53:03.840
+ That'd be super cool.
+
+00:53:03.840 --> 00:53:04.680
+ - Mm-hmm, yeah.
+
+00:53:04.680 --> 00:53:06.400
+ I like how throughout this entire discussion,
+
+00:53:06.400 --> 00:53:09.400
+ we just sort of taken for granted the PHP's a serious language
+
+00:53:09.400 --> 00:53:11.040
+ that people should be using.
+
+00:53:11.040 --> 00:53:12.120
+ - We're just funny.
+
+00:53:12.120 --> 00:53:14.120
+ (laughing)
+
+00:53:14.120 --> 00:53:16.000
+ - We never stopped even questioning that
+
+00:53:16.000 --> 00:53:17.480
+ from first principles or anything.
+
+00:53:17.480 --> 00:53:19.480
+ (laughing)
+
+00:53:19.480 --> 00:53:20.320
+ - Is that what you expect?
+
+00:53:20.320 --> 00:53:21.960
+ - Thank you all and appreciate that.
+
+00:53:21.960 --> 00:53:24.000
+ (laughing)
+
+00:53:24.000 --> 00:53:26.240
+ - Michael and I always say that we've just been chasing
+
+00:53:26.240 --> 00:53:28.360
+ that PHP high our whole careers.
+
+00:53:28.360 --> 00:53:29.200
+ - Like math.
+
+00:53:29.200 --> 00:53:31.520
+ - Yeah, when React people are like,
+
+00:53:31.520 --> 00:53:34.200
+ this is like PHP, like we mean that
+
+00:53:34.200 --> 00:53:36.000
+ as endearingly as possible.
+
+00:53:36.000 --> 00:53:37.840
+ (laughing)
+
+00:53:37.840 --> 00:53:39.080
+ - I've definitely heard you, Taylor.
+
+00:53:39.080 --> 00:53:42.800
+ I've heard you like say derogatory things about PHP
+
+00:53:42.800 --> 00:53:45.040
+ and I can tell you've got more to say on that front.
+
+00:53:45.040 --> 00:53:46.880
+ - No, I mean, I like PHP fine.
+
+00:53:46.880 --> 00:53:48.840
+ Like it's not like the prettiest,
+
+00:53:48.840 --> 00:53:51.400
+ most elegant language or whatever, but like it's fine.
+
+00:53:51.400 --> 00:53:54.240
+ I'm only accidentally a PHP developer.
+
+00:53:54.240 --> 00:53:57.600
+ I started as a cobalt and C-sharp developer.
+
+00:53:57.600 --> 00:53:58.600
+ - Me and Adam also.
+
+00:53:58.600 --> 00:53:59.480
+ - Yeah, same.
+
+00:53:59.480 --> 00:54:00.320
+ Well, not cobalt. - Not cobalt.
+
+00:54:00.320 --> 00:54:02.320
+ - C-sharp, no, no, sorry, thank you.
+
+00:54:02.320 --> 00:54:03.160
+ (laughing)
+
+00:54:03.160 --> 00:54:04.000
+ - C-sharp.
+
+00:54:04.000 --> 00:54:06.680
+ (laughing)
+
+00:54:06.680 --> 00:54:08.720
+ - And I just wanted a way to build products faster
+
+00:54:08.720 --> 00:54:10.680
+ and PHP was easy to throw up on a host.
+
+00:54:10.680 --> 00:54:13.400
+ So I just created a framework for doing that
+
+00:54:13.400 --> 00:54:14.800
+ and other people started using it.
+
+00:54:14.800 --> 00:54:15.960
+ - That's interesting.
+
+00:54:15.960 --> 00:54:17.480
+ Oh, that's super interesting.
+
+00:54:17.480 --> 00:54:20.840
+ Because that's kind of what me and Dax were getting at
+
+00:54:20.840 --> 00:54:24.640
+ of like, well, today AWS and Cloudflour
+
+00:54:24.640 --> 00:54:25.880
+ are like these whole platforms, right?
+
+00:54:25.880 --> 00:54:29.200
+ So like we're building a framework to take advantage of that
+
+00:54:29.200 --> 00:54:32.320
+ where you're like, I want to like PHP hosting was super easy.
+
+00:54:32.320 --> 00:54:33.640
+ You just throw the files up there
+
+00:54:33.640 --> 00:54:36.400
+ and then the host knew how to do stuff.
+
+00:54:36.400 --> 00:54:39.240
+ And yeah, that's interesting.
+
+00:54:39.240 --> 00:54:41.240
+ - I mean, to be honest though, like,
+
+00:54:41.240 --> 00:54:44.160
+ I feel like even that API gateway story
+
+00:54:44.160 --> 00:54:46.680
+ and that Cloudflour stuff still sounds worse than Rails.
+
+00:54:46.680 --> 00:54:48.320
+ Like, is that better?
+
+00:54:48.320 --> 00:54:52.240
+ Like then just like building a Rails app?
+
+00:54:52.240 --> 00:54:54.280
+ - Oh, the DX is absolutely worse, it's way worse.
+
+00:54:54.280 --> 00:54:55.120
+ Yeah, it's way worse.
+
+00:54:55.120 --> 00:54:56.080
+ - The DX is really bad.
+
+00:54:56.080 --> 00:54:56.920
+ It's immature.
+
+00:54:56.920 --> 00:55:00.920
+ We're at the point right before a DHH was like,
+
+00:55:00.920 --> 00:55:02.000
+ I'm done with this crap.
+
+00:55:02.000 --> 00:55:03.480
+ Like let's make this good.
+
+00:55:03.480 --> 00:55:08.280
+ Like, we're at that point still.
+
+00:55:08.280 --> 00:55:09.360
+ The capabilities are there,
+
+00:55:09.360 --> 00:55:12.240
+ but like piecing all together still totally sucks.
+
+00:55:12.240 --> 00:55:13.080
+ - Yeah.
+
+00:55:13.080 --> 00:55:13.920
+ So what is it unlocking then?
+
+00:55:13.920 --> 00:55:15.080
+ Is it unlocking scale?
+
+00:55:15.080 --> 00:55:17.840
+ Is it, what is it, what is it giving you?
+
+00:55:17.840 --> 00:55:22.240
+ Reliable, it's just reliable or easy to run and scale up?
+
+00:55:22.240 --> 00:55:25.520
+ - It's, I would say it's very low long-term ops.
+
+00:55:25.520 --> 00:55:27.600
+ So I think typically when you were talking about building
+
+00:55:27.600 --> 00:55:29.840
+ something from zero to one, it's not as fast.
+
+00:55:29.840 --> 00:55:32.160
+ You're gonna go a little bit slower.
+
+00:55:32.160 --> 00:55:34.360
+ But the number of surprises you'll run into
+
+00:55:34.360 --> 00:55:36.720
+ week to week, month to month is a lot lower.
+
+00:55:36.720 --> 00:55:39.720
+ You're offloading a ton of stuff that you wouldn't normally do.
+
+00:55:39.720 --> 00:55:41.600
+ Like my team is three people.
+
+00:55:41.600 --> 00:55:44.240
+ We have a ton of products that we run and maintain.
+
+00:55:44.240 --> 00:55:46.160
+ One of them is a full-blown CI services.
+
+00:55:46.160 --> 00:55:48.960
+ Like CI services are notoriously like annoying
+
+00:55:48.960 --> 00:55:50.760
+ and difficult to run.
+
+00:55:50.760 --> 00:55:52.520
+ But if you look at how we designed it,
+
+00:55:52.520 --> 00:55:54.200
+ you would be like, why the hell did you guys build it
+
+00:55:54.200 --> 00:55:56.160
+ in this like really weird way?
+
+00:55:56.160 --> 00:55:59.680
+ It's 'cause we maximize this other property of like,
+
+00:55:59.680 --> 00:56:02.680
+ this is the lowest overhead for us to run.
+
+00:56:02.680 --> 00:56:05.200
+ So yeah, I think it's all about operations
+
+00:56:05.200 --> 00:56:06.760
+ and reducing that.
+
+00:56:06.760 --> 00:56:08.280
+ And like I said, you don't have to buy into that.
+
+00:56:08.280 --> 00:56:10.400
+ And that's not like what everyone,
+
+00:56:10.400 --> 00:56:12.040
+ that's not what everyone's like number one pain is.
+
+00:56:12.040 --> 00:56:13.720
+ But for, let's say to make inside of people,
+
+00:56:13.720 --> 00:56:15.200
+ that's kind of what they care about.
+
+00:56:15.200 --> 00:56:16.200
+ - Yeah, makes sense.
+
+00:56:16.200 --> 00:56:18.840
+ Lowest operational complexity, I guess.
+
+00:56:18.840 --> 00:56:19.680
+ - Yeah.
+
+00:56:19.680 --> 00:56:20.520
+ - Or a pain.
+
+00:56:20.520 --> 00:56:23.480
+ - And I agree that DX right now is not great.
+
+00:56:23.480 --> 00:56:26.160
+ It is like I said, that zero to one,
+
+00:56:26.160 --> 00:56:28.640
+ even just learning which one of these things to use,
+
+00:56:28.640 --> 00:56:30.480
+ like how do I play them together?
+
+00:56:30.480 --> 00:56:33.440
+ It is a long journey and it's way longer than it should be.
+
+00:56:33.440 --> 00:56:37.520
+ But again, I think we're still like kind of early
+
+00:56:37.520 --> 00:56:38.440
+ in that process.
+
+00:56:38.440 --> 00:56:40.880
+ - So this is a slight, I don't know how much longer
+
+00:56:40.880 --> 00:56:44.280
+ we wanna talk, but maybe a slight change of topic.
+
+00:56:44.280 --> 00:56:45.840
+ Something I've thought about is, you know,
+
+00:56:45.840 --> 00:56:47.760
+ when I first started building Laravel,
+
+00:56:47.760 --> 00:56:50.840
+ I feel like the top of the web developer funnel,
+
+00:56:50.840 --> 00:56:52.400
+ it was very common for people to enter
+
+00:56:52.400 --> 00:56:54.600
+ web development through PHP.
+
+00:56:54.600 --> 00:56:57.160
+ It was not definitely not rare, you know,
+
+00:56:57.160 --> 00:56:59.120
+ either through WordPress or some other framework
+
+00:56:59.120 --> 00:57:01.040
+ like Codeignite or like Ryan mentioned.
+
+00:57:01.040 --> 00:57:02.720
+ - Kind of for Bluehost and they're like,
+
+00:57:02.720 --> 00:57:05.840
+ which meant that incoming new developers
+
+00:57:05.840 --> 00:57:09.640
+ to web development inevitably ended up learning things
+
+00:57:09.640 --> 00:57:13.000
+ like SQL, some amount about how databases work,
+
+00:57:13.000 --> 00:57:16.680
+ how sessions work, you know, like all of that stuff,
+
+00:57:16.680 --> 00:57:17.800
+ more back in knowledge.
+
+00:57:17.800 --> 00:57:21.360
+ Whereas, you know, now it feels like the top of funnel
+
+00:57:21.360 --> 00:57:23.400
+ for people coming into web development,
+
+00:57:23.400 --> 00:57:26.120
+ at least again, from my perception on Twitter,
+
+00:57:26.120 --> 00:57:29.040
+ seems to be almost exclusively JavaScript,
+
+00:57:29.040 --> 00:57:32.040
+ typically through something like remix or next
+
+00:57:32.040 --> 00:57:33.840
+ or solid or whatever these other,
+
+00:57:33.840 --> 00:57:36.360
+ what other frameworks are out there.
+
+00:57:36.360 --> 00:57:39.040
+ Do you all feel like that sort of like created
+
+00:57:39.040 --> 00:57:42.720
+ a generation of new developers that is not as familiar
+
+00:57:42.720 --> 00:57:45.760
+ with backend web development as they should be?
+
+00:57:45.760 --> 00:57:46.800
+ And is that a bad thing?
+
+00:57:46.800 --> 00:57:48.920
+ Like, do you feel like most people coming
+
+00:57:48.920 --> 00:57:52.400
+ to web development now know how to write SQL?
+
+00:57:52.400 --> 00:57:54.360
+ Whereas that would be very common to know that,
+
+00:57:54.360 --> 00:57:56.040
+ you know, 10 years ago.
+
+00:57:56.040 --> 00:57:57.720
+ Whereas today, is that the case, do you think?
+
+00:57:57.720 --> 00:57:58.880
+ And is that bad, if not?
+
+00:57:58.880 --> 00:58:00.960
+ - So this is like, this is like what I was saying earlier
+
+00:58:00.960 --> 00:58:03.600
+ where I was like, I feel like sometimes people look at remix
+
+00:58:03.600 --> 00:58:06.200
+ and put it in this lump of like,
+
+00:58:06.200 --> 00:58:07.920
+ those kinds of developers that you're talking about
+
+00:58:07.920 --> 00:58:09.520
+ or this top of that funnel and I'm like,
+
+00:58:09.520 --> 00:58:12.640
+ no, no, no, no, no, we're with you on this.
+
+00:58:12.640 --> 00:58:14.800
+ See, I generally would agree with everything you just said
+
+00:58:14.800 --> 00:58:19.600
+ and remix is honestly kind of, I can't speak for everyone else
+
+00:58:19.600 --> 00:58:22.200
+ who's designed and built it, but for me personally,
+
+00:58:22.200 --> 00:58:24.720
+ it was an answer to that.
+
+00:58:24.720 --> 00:58:27.760
+ Back in, if Elon hadn't deleted my Twitter account,
+
+00:58:27.760 --> 00:58:29.480
+ I could go pull up some old tweets.
+
+00:58:29.480 --> 00:58:33.400
+ When we were about to launch remix,
+
+00:58:33.400 --> 00:58:36.120
+ I started making a bunch of tweets about,
+
+00:58:36.120 --> 00:58:39.200
+ hey, remember HTML forms?
+
+00:58:39.200 --> 00:58:41.320
+ Most of you probably don't even know what these do anymore,
+
+00:58:41.320 --> 00:58:46.000
+ like, and 'cause our whole mutation API
+
+00:58:46.000 --> 00:58:48.480
+ was built around forms for both progressive enhancement
+
+00:58:48.480 --> 00:58:50.280
+ and it's just a good API.
+
+00:58:50.280 --> 00:58:52.040
+ And so I held a whole bunch of tweets
+
+00:58:52.040 --> 00:58:53.360
+ like showing people how forms work
+
+00:58:53.360 --> 00:58:55.120
+ and tons of people don't even know.
+
+00:58:55.120 --> 00:59:00.120
+ So ignoring SQL, they don't even like three, four years ago,
+
+00:59:00.120 --> 00:59:04.880
+ I was arguing with people not arguing and lightning,
+
+00:59:04.880 --> 00:59:07.400
+ it looked like arguing, people that like forms
+
+00:59:07.400 --> 00:59:09.160
+ actually cause a navigation.
+
+00:59:09.160 --> 00:59:12.440
+ Like, there's this one guy where he was just like,
+
+00:59:12.440 --> 00:59:14.400
+ trying to tell me that they don't cause a navigation,
+
+00:59:14.400 --> 00:59:17.320
+ I'm like, dude, put a form in an HTML file
+
+00:59:17.320 --> 00:59:20.000
+ and hit submit and watch the URL, it's gonna change
+
+00:59:20.000 --> 00:59:22.080
+ and then click the back button.
+
+00:59:22.080 --> 00:59:25.800
+ And so, yeah, there's a huge, and I think,
+
+00:59:25.800 --> 00:59:26.840
+ this goes back to where I'm like,
+
+00:59:26.840 --> 00:59:29.480
+ this kind of split happened where it was like,
+
+00:59:29.480 --> 00:59:32.200
+ all right, people who kind of know HTTP in the web
+
+00:59:32.200 --> 00:59:35.280
+ and sessions and cookies and databases
+
+00:59:35.280 --> 00:59:36.880
+ went over to lunch over here
+
+00:59:36.880 --> 00:59:38.680
+ and then they had all the front end people
+
+00:59:38.680 --> 00:59:40.880
+ go to lunch over here and yeah,
+
+00:59:40.880 --> 00:59:42.240
+ this is kind of the funnel now.
+
+00:59:42.240 --> 00:59:44.200
+ And I think that's, I personally think that is.
+
+00:59:44.200 --> 00:59:45.960
+ - I don't understand it at all, I've talked about this.
+
+00:59:45.960 --> 00:59:48.680
+ I don't like, I don't think there's anything more complicated.
+
+00:59:48.680 --> 00:59:50.120
+ In terms of the number of concepts
+
+00:59:50.120 --> 00:59:52.480
+ than like modern front end, I feel like
+
+00:59:52.480 --> 00:59:53.760
+ we should start even simpler.
+
+00:59:53.760 --> 00:59:55.560
+ Like people new to programming should be writing
+
+00:59:55.560 --> 00:59:58.800
+ like little CLI apps and they're just like taking input
+
+00:59:58.800 --> 01:00:00.360
+ and doing something with it and now putting it.
+
+01:00:00.360 --> 01:00:04.400
+ Like I just, to me, I can't think of a worse starting point
+
+01:00:04.400 --> 01:00:06.400
+ in software development than being dropped into like,
+
+01:00:06.400 --> 01:00:10.520
+ there's bundlers and there's TypeScript and EJS and CJS
+
+01:00:10.520 --> 01:00:12.600
+ and whatever, like all that stuff.
+
+01:00:12.600 --> 01:00:15.160
+ I made one out of PJS and it was like,
+
+01:00:15.160 --> 01:00:17.000
+ I feel like it's a lot, right?
+
+01:00:17.000 --> 01:00:18.480
+ Like to like figure all that stuff out.
+
+01:00:18.480 --> 01:00:20.960
+ - When you get an error and you got this discussing stack trace
+
+01:00:20.960 --> 01:00:23.480
+ that's in the middle of the guts of React's render cycles,
+
+01:00:23.480 --> 01:00:24.840
+ not even your code.
+
+01:00:24.840 --> 01:00:25.680
+ - Yeah.
+
+01:00:25.680 --> 01:00:26.520
+ - Yeah.
+
+01:00:26.520 --> 01:00:27.680
+ Back when I was at, so I spent a lot of time
+
+01:00:27.680 --> 01:00:30.080
+ consulting prior to my current work
+
+01:00:30.080 --> 01:00:33.920
+ and I felt like a lot of my job was making,
+
+01:00:33.920 --> 01:00:36.640
+ helping people realize like programming could be fun.
+
+01:00:36.640 --> 01:00:39.480
+ 'Cause a lot of them were just in these like nightmarish,
+
+01:00:39.480 --> 01:00:44.680
+ entirely front end code bases that just did not,
+
+01:00:44.680 --> 01:00:47.160
+ this weren't designed well and everything was difficult to do.
+
+01:00:47.160 --> 01:00:49.560
+ And anytime you built a feature,
+
+01:00:49.560 --> 01:00:50.760
+ they were just trained to expect
+
+01:00:50.760 --> 01:00:52.000
+ like every single thing to go wrong.
+
+01:00:52.000 --> 01:00:53.880
+ And like nothing can ever really work correctly.
+
+01:00:53.880 --> 01:00:56.200
+ That's kind of their perspective.
+
+01:00:56.200 --> 01:00:58.720
+ And showing them that, oh, like, you know,
+
+01:00:58.720 --> 01:01:00.000
+ it doesn't really have to be like this.
+
+01:01:00.000 --> 01:01:01.200
+ That is like a very common thing.
+
+01:01:01.200 --> 01:01:02.960
+ And I think that might be, it's unfortunate.
+
+01:01:02.960 --> 01:01:05.760
+ I feel very lucky that I got started programming when I did
+
+01:01:05.760 --> 01:01:09.160
+ 'cause it feels like the world was simple.
+
+01:01:09.160 --> 01:01:10.440
+ It got more complex with me.
+
+01:01:10.440 --> 01:01:13.520
+ So I just learned like one new concept every couple months,
+
+01:01:13.520 --> 01:01:17.240
+ whereas now it really feels like the entry point is,
+
+01:01:17.240 --> 01:01:18.120
+ is quite difficult.
+
+01:01:18.120 --> 01:01:19.560
+ And maybe everyone always feels this way,
+
+01:01:19.560 --> 01:01:21.920
+ but it really feels kind of crazy right now.
+
+01:01:21.920 --> 01:01:23.880
+ - I think user expectations are a lot different now
+
+01:01:23.880 --> 01:01:25.760
+ than they were 15 years ago too, right?
+
+01:01:25.760 --> 01:01:28.240
+ Like before it was fine when used like,
+
+01:01:28.240 --> 01:01:30.720
+ do you remember Lighthouse, the Rails app
+
+01:01:30.720 --> 01:01:33.680
+ for like issue tracking?
+
+01:01:33.680 --> 01:01:38.200
+ It was just like, it looked like a straight up rail scaffold
+
+01:01:38.200 --> 01:01:40.600
+ with a little bit of extra thoughts on it.
+
+01:01:40.600 --> 01:01:43.400
+ You'd fill out a form, you'd click submit,
+
+01:01:43.400 --> 01:01:46.320
+ the browser would spin and then you'd go to the next page.
+
+01:01:46.320 --> 01:01:49.960
+ And then the other thought is, in the front end we're really,
+
+01:01:49.960 --> 01:01:51.320
+ first of all, the platform's not designed
+
+01:01:51.320 --> 01:01:53.120
+ for what we're trying to build in it, right?
+
+01:01:53.120 --> 01:01:55.240
+ Like it's not designed for apps
+
+01:01:55.240 --> 01:01:56.680
+ and we're trying to build apps in it.
+
+01:01:56.680 --> 01:01:58.880
+ And so that's already kind of a hostile environment.
+
+01:01:58.880 --> 01:02:00.360
+ And we're really on the front end
+
+01:02:00.360 --> 01:02:03.360
+ trying to like, we're pushing the limits of it right now.
+
+01:02:03.360 --> 01:02:06.080
+ So new developers getting dumped into like,
+
+01:02:06.080 --> 01:02:08.360
+ I don't even know, like the,
+
+01:02:08.360 --> 01:02:10.040
+ they're dropped right next to the dynamite
+
+01:02:10.040 --> 01:02:11.280
+ where we're blowing up on mine,
+
+01:02:11.280 --> 01:02:14.480
+ was like, oh yeah, we think that there's gold down there.
+
+01:02:14.480 --> 01:02:15.680
+ Instead of like putting them over
+
+01:02:15.680 --> 01:02:17.960
+ on the monkey bars or something, right?
+
+01:02:17.960 --> 01:02:18.920
+ Where it would be fun.
+
+01:02:18.920 --> 01:02:24.560
+ And so I think, I honestly think a lot of developers
+
+01:02:24.560 --> 01:02:25.760
+ should start with Laravel.
+
+01:02:25.760 --> 01:02:26.920
+ They should start with Rails.
+
+01:02:26.920 --> 01:02:29.520
+ They should start with, without any front end anything,
+
+01:02:29.520 --> 01:02:31.640
+ just do document requests, talk to a database.
+
+01:02:31.640 --> 01:02:32.960
+ Like you can build a product like that.
+
+01:02:32.960 --> 01:02:37.600
+ You don't need super high fidelity user interactions.
+
+01:02:37.600 --> 01:02:40.160
+ And so what I hope, what I hope we're doing
+
+01:02:40.160 --> 01:02:41.680
+ in the React world over here,
+
+01:02:41.680 --> 01:02:43.920
+ and tell you should know in the React world
+
+01:02:43.920 --> 01:02:47.040
+ like it's, there's factions in here
+
+01:02:47.040 --> 01:02:48.920
+ that like are always battling as well.
+
+01:02:48.920 --> 01:02:51.000
+ So like we aren't this big cohesive group.
+
+01:02:51.000 --> 01:02:55.480
+ But in the, right now I'm representing the React nation.
+
+01:02:55.480 --> 01:02:59.000
+ What I hope happens with what we're doing
+
+01:02:59.000 --> 01:03:01.240
+ is that we can actually get back to like,
+
+01:03:01.240 --> 01:03:04.600
+ you can use React in this really simple way, right?
+
+01:03:04.600 --> 01:03:09.600
+ Imagine a React server component framework, a world
+
+01:03:09.600 --> 01:03:11.640
+ where you don't even send any JavaScript.
+
+01:03:11.640 --> 01:03:13.240
+ Everything is just a React component.
+
+01:03:13.240 --> 01:03:14.240
+ It just runs on the server.
+
+01:03:14.240 --> 01:03:16.720
+ You have no use client, you have no use state.
+
+01:03:16.720 --> 01:03:19.200
+ You don't have any fancy stuff like that.
+
+01:03:19.200 --> 01:03:23.160
+ Just forms and actions and data loading from a database.
+
+01:03:23.160 --> 01:03:27.200
+ I think, I think we're right,
+
+01:03:27.200 --> 01:03:29.080
+ we're right up like to that line
+
+01:03:29.080 --> 01:03:31.480
+ and we're just about to cross it to where,
+
+01:03:31.480 --> 01:03:33.640
+ okay, everything can be simple again.
+
+01:03:33.640 --> 01:03:37.400
+ But yeah, we're pushing on that edge right now.
+
+01:03:37.400 --> 01:03:38.240
+ I think we're almost there.
+
+01:03:38.240 --> 01:03:40.960
+ - The one other thing that comes up is,
+
+01:03:40.960 --> 01:03:42.720
+ again, like for the people that are trying to push,
+
+01:03:42.720 --> 01:03:43.960
+ what can we do in the browser?
+
+01:03:43.960 --> 01:03:46.560
+ Like how can we, there's kind of forever been this,
+
+01:03:46.560 --> 01:03:50.560
+ at least for me, how can we make the web feel
+
+01:03:50.560 --> 01:03:51.680
+ as good as a native app?
+
+01:03:51.680 --> 01:03:55.280
+ And there's been people pushing that for a very long time.
+
+01:03:55.280 --> 01:03:59.240
+ There's no way to do that without writing a lot of JavaScript.
+
+01:03:59.240 --> 01:04:01.040
+ Everything from getting accessibility right,
+
+01:04:01.040 --> 01:04:02.920
+ all the little details right.
+
+01:04:02.920 --> 01:04:05.360
+ Now taking advantage of like the browser storage,
+
+01:04:05.360 --> 01:04:06.960
+ that's like critical for building anything
+
+01:04:06.960 --> 01:04:08.960
+ that feels as good as linear.
+
+01:04:08.960 --> 01:04:11.120
+ That just makes you have to write a lot of jobs.
+
+01:04:11.120 --> 01:04:12.800
+ There's like no avoiding that.
+
+01:04:12.800 --> 01:04:14.600
+ Not every app needs to go to that degree.
+
+01:04:14.600 --> 01:04:17.160
+ I think it's productivity apps that people use every day
+
+01:04:17.160 --> 01:04:18.000
+ for their work.
+
+01:04:18.000 --> 01:04:20.520
+ I think all of those should be going to that degree
+
+01:04:20.520 --> 01:04:22.080
+ and I think a lot don't.
+
+01:04:22.080 --> 01:04:26.560
+ But that's maybe a small subset of what everyone works on.
+
+01:04:26.560 --> 01:04:27.600
+ You just can't avoid it.
+
+01:04:27.600 --> 01:04:30.840
+ So again, reluctantly doing this stuff,
+
+01:04:30.840 --> 01:04:32.600
+ not because we enjoy it, but because it's the only way
+
+01:04:32.600 --> 01:04:34.840
+ to kind of deliver a certain experience.
+
+01:04:34.840 --> 01:04:36.320
+ - There is no JavaScript community.
+
+01:04:36.320 --> 01:04:37.160
+ - Right.
+
+01:04:37.160 --> 01:04:39.360
+ - That's what I think of it too.
+
+01:04:39.360 --> 01:04:41.360
+ That's why it all looks like such a mess
+
+01:04:41.360 --> 01:04:45.200
+ is it's like we're trying to build really,
+
+01:04:45.200 --> 01:04:46.720
+ really great user experiences
+
+01:04:46.720 --> 01:04:48.560
+ and that requires a ton of JavaScript.
+
+01:04:48.560 --> 01:04:49.400
+ - I mean, that makes sense.
+
+01:04:49.400 --> 01:04:52.520
+ If everyone was going to build an app like that with Laravel,
+
+01:04:52.520 --> 01:04:54.680
+ they would definitely choose inertia every time.
+
+01:04:54.680 --> 01:04:57.640
+ Like they would never try to do it with PHP
+
+01:04:57.640 --> 01:04:58.840
+ or even with Live Wire.
+
+01:04:58.840 --> 01:05:00.360
+ I think if you're going to try to build something
+
+01:05:00.360 --> 01:05:02.680
+ like as high fidelity as something like a linear
+
+01:05:02.680 --> 01:05:05.200
+ or a real, a good calendar, you know,
+
+01:05:05.200 --> 01:05:07.840
+ like you would always start with inertia.
+
+01:05:07.840 --> 01:05:11.480
+ I don't think any Laravel developer really
+
+01:05:11.480 --> 01:05:13.080
+ would try to do otherwise.
+
+01:05:13.080 --> 01:05:14.080
+ - Have we said it all?
+
+01:05:14.080 --> 01:05:14.920
+ - A little over time.
+
+01:05:14.920 --> 01:05:17.400
+ Any last thoughts anything we didn't get to?
+
+01:05:17.400 --> 01:05:19.720
+ - Rhinas notes from his jog.
+
+01:05:19.720 --> 01:05:21.240
+ - I always have notes, man.
+
+01:05:21.240 --> 01:05:24.120
+ I'm coming to these unprepared.
+
+01:05:24.120 --> 01:05:24.960
+ I got a win.
+
+01:05:24.960 --> 01:05:27.720
+ (both laughing)
+
+01:05:27.720 --> 01:05:31.840
+ No, no, I just, just huge respect for you, Taylor.
+
+01:05:31.840 --> 01:05:34.280
+ I absolutely love what you've done with Laravel.
+
+01:05:34.280 --> 01:05:38.000
+ And I, your target audience,
+
+01:05:38.000 --> 01:05:40.200
+ they should absolutely start with Laravel
+
+01:05:40.200 --> 01:05:42.200
+ instead of a cobbling together,
+
+01:05:42.200 --> 01:05:44.240
+ some crazy back end with remix.
+
+01:05:44.240 --> 01:05:45.480
+ 100% I agree with that.
+
+01:05:45.480 --> 01:05:46.320
+ - Yeah.
+
+01:05:46.320 --> 01:05:49.560
+ - And we, like, as a C, we study the Laravel docs,
+
+01:05:49.560 --> 01:05:52.000
+ a ton just to understand everything,
+
+01:05:52.000 --> 01:05:55.760
+ just from like taste to scope to how you communicate things.
+
+01:05:55.760 --> 01:05:58.920
+ So it's been a huge influence on us as well.
+
+01:05:58.920 --> 01:06:01.000
+ Obviously, for the reason I said,
+
+01:06:01.000 --> 01:06:03.160
+ we're not like trying to do exactly the same thing,
+
+01:06:03.160 --> 01:06:08.160
+ but the goals of what you guys have done
+
+01:06:08.160 --> 01:06:12.280
+ and are trying to do, definitely going to appreciate it.
+
+01:06:12.280 --> 01:06:15.040
+ - We should get a definition of full stack.
+
+01:06:15.040 --> 01:06:17.120
+ - Yes, a humble circle.
+
+01:06:17.120 --> 01:06:18.080
+ - I've talked way too much,
+
+01:06:18.080 --> 01:06:19.440
+ so I'm not going to give the definition.
+
+01:06:19.440 --> 01:06:22.000
+ - I'm actually fine saying it just means the ability
+
+01:06:22.000 --> 01:06:24.880
+ to run code on client or server,
+
+01:06:24.880 --> 01:06:27.960
+ which I think honestly qualifies like, you know, remix
+
+01:06:27.960 --> 01:06:30.240
+ and next, and those tools is full stack.
+
+01:06:30.240 --> 01:06:34.040
+ I think like, I'm fine with that as like a definition.
+
+01:06:34.040 --> 01:06:36.920
+ - Are we losing batteries like clav on rails
+
+01:06:36.920 --> 01:06:41.040
+ or something more, yeah, as something beyond that.
+
+01:06:41.040 --> 01:06:43.520
+ It goes deeper, one direction or the other.
+
+01:06:43.520 --> 01:06:45.440
+ - Yeah, and that's kind of why--
+
+01:06:45.440 --> 01:06:47.000
+ - It's kind of like that definition.
+
+01:06:47.000 --> 01:06:49.240
+ - That's kind of why I brought the way it's all started
+
+01:06:49.240 --> 01:06:50.880
+ because it really wasn't about that.
+
+01:06:50.880 --> 01:06:52.520
+ The original thing was like,
+
+01:06:52.520 --> 01:06:54.720
+ this implication that we're about was bloated.
+
+01:06:54.720 --> 01:06:58.440
+ And, you know, there's an explanation for why the goal is there.
+
+01:06:58.440 --> 01:07:01.520
+ - I only responded to that because I saw Theo retweeted it.
+
+01:07:01.520 --> 01:07:04.000
+ And then I knew it was like, it had to be addressed at point.
+
+01:07:04.000 --> 01:07:06.320
+ - He's always like, oh, every single thing.
+
+01:07:06.320 --> 01:07:10.560
+ It's like a little like, oh, Theo involvement, of course.
+
+01:07:11.400 --> 01:07:14.120
+ (laughing)
+
+01:07:14.120 --> 01:07:15.840
+ Oh, hang on, I got one more thing to say.
+
+01:07:15.840 --> 01:07:17.280
+ I have one more thing to say.
+
+01:07:17.280 --> 01:07:18.760
+ A little bit spicy.
+
+01:07:18.760 --> 01:07:21.080
+ My whole impression forever is that,
+
+01:07:21.080 --> 01:07:22.280
+ and Adam, you got at this too.
+
+01:07:22.280 --> 01:07:24.920
+ We're like, the Laravel community is amazing.
+
+01:07:24.920 --> 01:07:27.120
+ They use tailwind and they don't talk about it.
+
+01:07:27.120 --> 01:07:29.520
+ (laughing)
+
+01:07:29.520 --> 01:07:32.320
+ Everyone, it's like, it sounded like Laravel was like Canada.
+
+01:07:32.320 --> 01:07:34.760
+ We're like, everyone is just so nice
+
+01:07:34.760 --> 01:07:39.720
+ and so even Theo and nuanced and like this big kumbaya.
+
+01:07:39.720 --> 01:07:43.200
+ I got some like funny people in my replies
+
+01:07:43.200 --> 01:07:44.760
+ with just a couple of things I said.
+
+01:07:44.760 --> 01:07:46.280
+ And I don't feel like I said anything spicy
+
+01:07:46.280 --> 01:07:49.680
+ 'cause I don't like, I have tons of respect for Laravel.
+
+01:07:49.680 --> 01:07:54.240
+ So anyway, I got lots of Laravel fans in my mentions
+
+01:07:54.240 --> 01:07:57.280
+ that were not Canadian.
+
+01:07:57.280 --> 01:07:58.800
+ (laughing)
+
+01:07:58.800 --> 01:07:59.840
+ - In any sense of the term.
+
+01:07:59.840 --> 01:08:00.680
+ - Yeah.
+
+01:08:00.680 --> 01:08:02.000
+ (laughing)
+
+01:08:02.000 --> 01:08:05.120
+ - Oh, you're not better than us.
+
+01:08:05.120 --> 01:08:07.480
+ (laughing)
+
+01:08:07.480 --> 01:08:10.480
+ - Like you get pumped a little bit and it's just as bad
+
+01:08:10.480 --> 01:08:11.680
+ as the JavaScript world.
+
+01:08:11.680 --> 01:08:13.280
+ (laughing)
+
+01:08:13.280 --> 01:08:15.440
+ - No, yeah, that's probably true for sure.
+
+01:08:15.440 --> 01:08:16.720
+ (laughing)
+
+01:08:16.720 --> 01:08:17.560
+ - We're all the same.
+
+01:08:17.560 --> 01:08:19.480
+ - Don't justify it from the worst.
+
+01:08:19.480 --> 01:08:21.680
+ I will acknowledge I think the JavaScript community
+
+01:08:21.680 --> 01:08:23.720
+ is the worst of the worst, but it's the worst.
+
+01:08:23.720 --> 01:08:24.560
+ - It's the worst.
+
+01:08:24.560 --> 01:08:25.400
+ (laughing)
+
+01:08:25.400 --> 01:08:26.880
+ - Yeah, yeah, yeah, that's a agree.
+
+01:08:26.880 --> 01:08:28.240
+ - 100%.
+
+01:08:28.240 --> 01:08:30.080
+ - Well, the JavaScript community,
+
+01:08:30.080 --> 01:08:32.120
+ does it even make sense to think that it would ever be
+
+01:08:32.120 --> 01:08:35.600
+ like unified in the Ruby or the Rails
+
+01:08:35.600 --> 01:08:36.640
+ or like Laravel sense?
+
+01:08:36.640 --> 01:08:37.680
+ Well, that just like never.
+
+01:08:37.680 --> 01:08:40.120
+ - No, I argue more with the JavaScript people.
+
+01:08:40.120 --> 01:08:42.840
+ - Yeah, I argue more with the JavaScript community
+
+01:08:42.840 --> 01:08:45.440
+ than any like any other community.
+
+01:08:45.440 --> 01:08:47.240
+ Like I have more issues with what's happening internally
+
+01:08:47.240 --> 01:08:49.480
+ than anything against some other thing.
+
+01:08:49.480 --> 01:08:51.640
+ So yeah, I just don't think it's gonna happen.
+
+01:08:51.640 --> 01:08:53.640
+ We all come from too many different backgrounds.
+
+01:08:53.640 --> 01:08:56.400
+ - It's the island of the JavaScript browser.
+
+01:08:56.400 --> 01:08:57.600
+ - It's a good metaphor.
+
+01:08:57.600 --> 01:09:00.600
+ It's a deadly island, violent, deadly island.
+
+01:09:00.600 --> 01:09:02.600
+ (laughing)
+
+01:09:02.600 --> 01:09:06.360
+ - And even in the camps we're battling, it's crazy.
+
+01:09:07.480 --> 01:09:08.480
+ - It's hilarious.
+
+01:09:08.480 --> 01:09:10.040
+ (laughing)
+
+01:09:10.040 --> 01:09:12.040
+ - It's good for people that are retired, I think,
+
+01:09:12.040 --> 01:09:14.560
+ that are like kind of retired, I would say.
+
+01:09:14.560 --> 01:09:15.560
+ - Yeah, one day.
+
+01:09:15.560 --> 01:09:17.480
+ - It's not great place to spend if you're early in your career.
+
+01:09:17.480 --> 01:09:19.120
+ Just, it's a great place to waste time.
+
+01:09:19.120 --> 01:09:19.960
+ - All right, full stack.
+
+01:09:19.960 --> 01:09:21.360
+ You can run code in both places.
+
+01:09:21.360 --> 01:09:22.200
+ - There you go.
+
+01:09:22.200 --> 01:09:23.560
+ And Laravel's battery is included.
+
+01:09:23.560 --> 01:09:25.160
+ - Makes sense to me.
+
+01:09:25.160 --> 01:09:26.000
+ - Okay.
+
+01:09:26.000 --> 01:09:27.160
+ Well, thank you both for joining.
+
+01:09:27.160 --> 01:09:28.240
+ - Thanks for coming, guys.
+
+01:09:28.240 --> 01:09:29.080
+ - Yeah, I appreciate it.
+
+01:09:29.080 --> 01:09:30.280
+ - Yeah, fun times.
+
+01:09:30.280 --> 01:09:31.120
+ Thanks for having us.
+
+01:09:31.120 --> 01:09:33.120
+ - That's fun, sorry for having to push it back.
+
+01:09:33.120 --> 01:09:34.760
+ - No worries.
+
+01:09:34.760 --> 01:09:37.280
+ - Have a good time. Well, let's say we're gonna see Taylor
+
+01:09:37.280 --> 01:09:40.400
+ in August officially in Dallas.
+
+01:09:40.400 --> 01:09:42.840
+ We're super excited for that kind of getting planned.
+
+01:09:42.840 --> 01:09:45.720
+ - Why are you guys getting to go to another con?
+
+01:09:45.720 --> 01:09:48.320
+ As total, as part of the coffee thing.
+
+01:09:48.320 --> 01:09:49.280
+ - Oh, okay.
+
+01:09:49.280 --> 01:09:50.120
+ - One's Laracon.
+
+01:09:50.120 --> 01:09:51.360
+ - August 27th and 28th.
+
+01:09:51.360 --> 01:09:54.320
+ - I'll be camping with a bunch of kids.
+
+01:09:54.320 --> 01:09:56.800
+ - Us too.
+
+01:09:56.800 --> 01:09:57.640
+ - Getting.
+
+01:09:57.640 --> 01:09:58.480
+ (laughing)
+
+01:09:58.480 --> 01:10:01.760
+ - I got to come down to like a React conference at some point.
+
+01:10:01.760 --> 01:10:04.680
+ It actually seems pretty lit at these conferences.
+
+01:10:04.680 --> 01:10:07.120
+ I compared to a lot of other dev conferences.
+
+01:10:07.120 --> 01:10:08.360
+ (laughing)
+
+01:10:08.360 --> 01:10:10.040
+ - Yeah, the React mining one especially,
+
+01:10:10.040 --> 01:10:12.400
+ it's like, it's so loosely tied to React.
+
+01:10:12.400 --> 01:10:13.640
+ - Yeah, the React's mining is just like,
+
+01:10:13.640 --> 01:10:14.880
+ it has nothing to do with React.
+
+01:10:14.880 --> 01:10:17.440
+ It's just a big like party.
+
+01:10:17.440 --> 01:10:18.280
+ - Yeah.
+
+01:10:18.280 --> 01:10:19.640
+ - I'm coming to that next year for sure.
+
+01:10:19.640 --> 01:10:20.480
+ - Yes.
+
+01:10:20.480 --> 01:10:22.080
+ - That'll be great.
+
+01:10:22.080 --> 01:10:22.920
+ - I'll be there.
+
+01:10:22.920 --> 01:10:24.280
+ So we'll finally meet, that'll be great.
+
+01:10:24.280 --> 01:10:25.120
+ - Yeah.
+
+01:10:25.120 --> 01:10:26.320
+ The percentage of people that go to React
+
+01:10:26.320 --> 01:10:28.040
+ mine me that don't use React is just increasing
+
+01:10:28.040 --> 01:10:30.320
+ every single year, so we got to keep that going.
+
+01:10:30.320 --> 01:10:31.320
+ (laughing)
+
+01:10:31.320 --> 01:10:32.160
+ - Yeah.
+
+01:10:33.720 --> 01:10:35.040
+ - All right, well, thanks everyone.
+
+01:10:35.040 --> 01:10:35.880
+ You wanna end the recording on it?
+
+01:10:35.880 --> 01:10:36.720
+ - See you guys.
+
+01:10:36.720 --> 01:10:37.640
+ What'd you say next?
+
+01:10:37.640 --> 01:10:38.920
+ You wanna end the recording?
+
+01:10:38.920 --> 01:10:40.640
+ - Oh yeah, yeah, that's a great way to end it.
+
+01:10:40.640 --> 01:10:43.200
+ I'll click the button that ends the recording.
+
+01:10:43.200 --> 01:10:45.780
+ (upbeat music)
+

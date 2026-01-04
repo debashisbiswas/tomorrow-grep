@@ -1,0 +1,2663 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.960
+ my life is great. I know you believe that. That's why it's so funny to me. Like you really love
+
+00:00:06.960 --> 00:00:16.400
+ your life. And I love it for you. It's taking amazing. So it's 10 years of art that do it for you. Go ahead.
+
+00:00:30.000 --> 00:00:45.040
+ I gotta just my white balance. I look kind of dead. Oh yeah. Like a little gray. A little gray.
+
+00:00:45.040 --> 00:00:55.040
+ Maybe maybe you're a little dead. Maybe we're all dead. I adjusted it when I was recording the
+
+00:00:55.040 --> 00:00:59.280
+ video. The thing we published yesterday. Yeah. You wanted to look a little dead for that one.
+
+00:01:00.240 --> 00:01:13.120
+ Yeah. Yeah. Let's talk about it. So SST ion is. This is the general availability. What is this?
+
+00:01:13.120 --> 00:01:17.280
+ Because there's been a few releases. It was kind of like kind of available. Now it's really
+
+00:01:17.280 --> 00:01:21.520
+ available. It's funny. And I wonder if we're doing this wrong because every other company is
+
+00:01:21.520 --> 00:01:28.320
+ like a hundred percent secretive until they like launch it. Which I get because it makes a bigger
+
+00:01:28.320 --> 00:01:34.800
+ impact. And it's like you don't spread out the you don't like dilute the excitement at all. Yeah as
+
+00:01:34.800 --> 00:01:40.800
+ much. But we just can't help talking about shit. Yeah. Yeah. I'm just excited about stuff
+
+00:01:40.800 --> 00:01:44.160
+ I'm working on. I'm just like I just want to constantly talk about it. And that has like different
+
+00:01:44.160 --> 00:01:52.800
+ benefits. But yeah, it does feel like there's like endless releases. Yeah, in that sense. But
+
+00:01:52.800 --> 00:01:58.480
+ yeah, I think for us, we were just we were just working in public. So if you were watching our docs
+
+00:01:58.480 --> 00:02:03.840
+ and watching our commits and looking at the repo, like you could use all of it this whole time.
+
+00:02:03.840 --> 00:02:10.240
+ Hashtag built in public. I think we're doing the indie hacker strategy.
+
+00:02:10.240 --> 00:02:20.640
+ Except people actually care. Oh man, shots fired so early in the podcast. I prefer the
+
+00:02:20.640 --> 00:02:24.720
+ way you guys do it. I mean, I like knowing, but it does raise the question. I'm constantly like,
+
+00:02:24.720 --> 00:02:30.080
+ wait, should I be? Can I use this? Yeah, exactly. Is it ready for me? But now there's a YouTube
+
+00:02:30.080 --> 00:02:34.640
+ video. So I feel like I should use it now. It's it's really out there. Yeah, there's like, I mean,
+
+00:02:34.640 --> 00:02:40.480
+ I think the downside is it feels like a bunch of false starts, which maybe we'll try it differently
+
+00:02:40.480 --> 00:02:45.280
+ for the next one. But we'll see. Oh yeah. So we're calling this generally available.
+
+00:02:45.280 --> 00:02:49.920
+ To be honest, it's because we don't want to call it a 1.0 because we're not like that
+
+00:02:49.920 --> 00:02:54.400
+ confident. And we don't want to say like, ah, it's stable because we're not that confident.
+
+00:02:54.400 --> 00:02:59.120
+ Yeah, we are. But like we need that we give us like a couple of weeks where people are actually
+
+00:02:59.120 --> 00:03:06.480
+ using it and nothing crazy happens. But yeah, so it's generally available, which is great,
+
+00:03:06.480 --> 00:03:11.680
+ because I know a lot of people were waiting on it. It's been amazing to see how many people have
+
+00:03:11.680 --> 00:03:16.080
+ one already been using it just from just people that are really excited, like found ways to use
+
+00:03:16.080 --> 00:03:22.000
+ it even though we haven't documented it. They even found ways to use stuff that we didn't technically
+
+00:03:22.000 --> 00:03:25.600
+ supply, we're going to support, but we didn't technically support. And so somebody was like,
+
+00:03:25.600 --> 00:03:29.600
+ Oh, I want to like spin up an upstairs queue. And obviously with ion, like we're going to help you
+
+00:03:29.600 --> 00:03:33.600
+ spin up everything. Yeah, I forgot to do one little thing to make that easier. And someone
+
+00:03:33.600 --> 00:03:38.080
+ replied with like a perfect way to use that even though we didn't intentionally supply,
+
+00:03:38.080 --> 00:03:41.360
+ they found a way to use it anyway. Yeah. And this keeps happening over and over. Like people are
+
+00:03:41.360 --> 00:03:47.360
+ like finding clever ways to do things that we didn't foresee or we did foresee and we haven't
+
+00:03:47.360 --> 00:03:52.640
+ actually supported it yet. It feels like it feels like the community is like water. And like, you
+
+00:03:52.640 --> 00:03:57.040
+ know, when you like spill water, it gets in like every crack. It feels like it feels like they're
+
+00:03:57.040 --> 00:04:00.880
+ like flowing into like every crack and every groove and figuring everything out. So that's
+
+00:04:00.880 --> 00:04:06.480
+ the benefit of the open thing, right? Like you guys can get functionality. I mean, even if it's not
+
+00:04:06.480 --> 00:04:13.440
+ like PRs or whatever, but like the community's eyes on stuff early just opens up all kinds of
+
+00:04:13.440 --> 00:04:17.520
+ awareness for you guys, I think. Yeah, that's exactly why we do it. Because there's just,
+
+00:04:17.520 --> 00:04:21.280
+ that's a benefit of open source. You can like really scale out some stuff that you just can't
+
+00:04:21.280 --> 00:04:25.360
+ do internally. So yeah, people found all kinds of bugs. We did get a bunch of PR too, which have
+
+00:04:25.360 --> 00:04:31.760
+ been great. Oh, yeah. So we for yesterday, we wanted to do like, okay, like this, this is going to
+
+00:04:31.760 --> 00:04:39.040
+ feel like a normal launch. So of course, we always do one of our videos, which yeah, I was kind of
+
+00:04:39.040 --> 00:04:45.920
+ close to my this morning where our videos have constraints, because I can only allocate so much
+
+00:04:45.920 --> 00:04:51.120
+ time for it. So this one that we did yesterday, I was like, okay, Monday's gonna be the day that I
+
+00:04:51.120 --> 00:04:57.040
+ do it. I just sat and I filmed and edited it at the same time as I like I would like record
+
+00:04:57.040 --> 00:05:01.280
+ some stuff, edit it, see how it went, then I would throw more stuff than like, I would kind of do it all
+
+00:05:01.280 --> 00:05:08.480
+ together. Interesting. Yeah. And that works because I didn't have time to spend like really fleshing
+
+00:05:08.480 --> 00:05:12.080
+ out a script ahead of time and really thinking at things through, I needed like try it as I went
+
+00:05:12.080 --> 00:05:16.000
+ along. And like, a lot of it wasn't good at first. And I like thought of new lines and like,
+
+00:05:16.000 --> 00:05:21.520
+ rerecorded and stuff. But I like it. I like the way you write these things. It's always like,
+
+00:05:21.520 --> 00:05:28.240
+ Oh, Dax can do that. Like, it's like a whole second skill you have. You should all the talent
+
+00:05:28.240 --> 00:05:32.560
+ show at React Miami. You should write a little, a little, I don't know. What is what would you
+
+00:05:32.560 --> 00:05:37.040
+ write? I was thinking about that. Michelle mentioned there's a talent show, the opening party and I
+
+00:05:37.040 --> 00:05:41.440
+ fruit. And she hasn't mentioned anything about it. She hasn't like asked anyone. I don't know if
+
+00:05:41.440 --> 00:05:45.600
+ that's what's happening. I hope anybody signed up for it. Yeah. Huh. Was is there a signup? I don't
+
+00:05:45.600 --> 00:05:50.800
+ know. Maybe it's just a spontaneous get up on the stage. Show your talents. That actually makes
+
+00:05:50.800 --> 00:05:55.280
+ sense. Maybe I'll just, I was thinking about, yeah, I can just get up on stage for five minutes
+
+00:05:55.280 --> 00:05:59.440
+ and like roast everyone. Just roast. I can possibly imagine your skill. And everyone knows you have
+
+00:05:59.440 --> 00:06:05.280
+ that skill. I guess it's kind of the same part of your brain, probably, as these like comedy
+
+00:06:05.280 --> 00:06:11.600
+ sketches that you're able to write, which is always surprising to me. Yeah. Yeah. This one was,
+
+00:06:11.600 --> 00:06:16.560
+ I think the format. So again, we're very constrained, which is good in one sense, because we're not
+
+00:06:16.560 --> 00:06:21.280
+ professional comedy writer. So if you gave us like infinite time and budget, I think we would just
+
+00:06:21.280 --> 00:06:28.480
+ be completely lost. So it's always constrained to like, what can I do at my desk talking to the
+
+00:06:28.480 --> 00:06:34.400
+ camera? That's like, you know, somewhat funny. But with this one, what, the way I went about it was
+
+00:06:34.400 --> 00:06:40.880
+ like, oh, let me think of every annoying question we're going to get. Or like, just predict every
+
+00:06:40.880 --> 00:06:44.400
+ single thing that's going to come up and get ahead of it. Yeah. And let me just give you like a
+
+00:06:44.400 --> 00:06:52.000
+ dumb ass response to every single thing. Because the one that really sticks out is the, like,
+
+00:06:52.000 --> 00:06:56.640
+ what's the point of SST? Like, why can't you see this plume? Like, we've been getting this question
+
+00:06:56.640 --> 00:07:02.160
+ for so long. I think I asked you that question. It's a reasonable question. It's just like,
+
+00:07:02.160 --> 00:07:08.400
+ we first started as a thin rapper over CDK from day one, like, and myself too. Okay, when I first
+
+00:07:08.400 --> 00:07:14.320
+ found SST, I was like, this is cool, but I'm going to try to stick to CDK. I don't want to use like
+
+00:07:14.560 --> 00:07:18.240
+ a, use like a rapper. And then eventually I just got sucked in. I think that's what happens to
+
+00:07:18.240 --> 00:07:21.200
+ everyone. So that's like a constant thing. And I'm like, oh, we're going to have to go through
+
+00:07:21.200 --> 00:07:26.480
+ this again, because we're starting off again on top of a new thing. Yeah. And like, yeah, we'll be
+
+00:07:26.480 --> 00:07:31.680
+ less than in the future, but we are kind of thin right now. But yeah, when that's come up,
+
+00:07:31.680 --> 00:07:37.440
+ the benchmark stuff, I thought was also a classic thing. Like we put so much effort into the speed and
+
+00:07:37.440 --> 00:07:44.720
+ we're, it's like, we hope people know this faster, but like, there's a lot of cases where it's still
+
+00:07:44.720 --> 00:07:49.920
+ slow. Yeah. Did you see the cloud formation announcement that like this 40 percent faster?
+
+00:07:49.920 --> 00:07:56.160
+ Yeah. Okay. One, that was a longest blog post I've ever seen for something so basic.
+
+00:07:56.160 --> 00:08:01.920
+ Okay. Yeah. Yeah. Yeah. The, the, you know, the concept they did was good. It was,
+
+00:08:03.760 --> 00:08:09.200
+ they're going to add an intermediary state for resources. So when a resource is created,
+
+00:08:09.200 --> 00:08:15.040
+ like it's been sent to AWS scheduled to be created, it gets an intermediary state instead of waiting
+
+00:08:15.040 --> 00:08:22.320
+ for it to fully be like created and replicated and all that. Once it's in that intermediary state,
+
+00:08:22.320 --> 00:08:26.480
+ other resources that depend on it can assume that it'll probably come up so they can, they can go.
+
+00:08:26.480 --> 00:08:30.560
+ So it like it's, it's less blocking, very straightforward. But for some reason,
+
+00:08:30.560 --> 00:08:36.000
+ it included like a full tutorial on how to build a new application on cloud formation.
+
+00:08:36.000 --> 00:08:40.720
+ And I was like, this is so long. I just want to know what they did. So that was, that was a good
+
+00:08:40.720 --> 00:08:46.080
+ improvement. I think, I think, uh, yeah, like, like other IAC tools should like probably have
+
+00:08:46.080 --> 00:08:48.960
+ something like that. They kind of already do, but I think they could do a little bit more
+
+00:08:48.960 --> 00:08:54.560
+ specifically. Um, so yes, we did see that, but then we go to use it and it's just so slow.
+
+00:08:55.760 --> 00:09:01.520
+ Well, yeah, I mean, I know there's so many reasons that you guys made the movie did that are not
+
+00:09:01.520 --> 00:09:06.480
+ just performance, like, yeah, just the speed or the pain of cloud formation deployments.
+
+00:09:06.480 --> 00:09:09.840
+ Yeah, I'm excited. I'm excited to play with it. I'm, I'm, it's going to be a big part of,
+
+00:09:09.840 --> 00:09:15.200
+ I'm working on a course, as you know, yeah, and filming this morning, actually. Oh, wow.
+
+00:09:15.200 --> 00:09:20.640
+ And it's going to be, I'm so excited that I on is timing out, like I'm so slow at making things.
+
+00:09:20.640 --> 00:09:27.040
+ And now that we're done. And I on is ready and I can just make my course on I on instead of
+
+00:09:27.040 --> 00:09:31.680
+ anything else. I'm pumped pro AWS.dev. Just a little chill. If you guys want to check it out,
+
+00:09:31.680 --> 00:09:36.240
+ you can sign up. Yeah, I actually think it's going to be especially good for your course.
+
+00:09:36.240 --> 00:09:43.200
+ Cause the one thing that I'm actually really proud of is how much we removed where it's like a single
+
+00:09:43.200 --> 00:09:49.440
+ thing and a single config file. And that's all you to know, like, yeah, no NPM packages, no, like,
+
+00:09:50.320 --> 00:09:55.280
+ split your stuff up into stacks. Like none of that. Like stuff you don't really need to know.
+
+00:09:55.280 --> 00:09:59.600
+ That concept is so like, I hate it. It's a hard time to explain that people do it's like,
+
+00:09:59.600 --> 00:10:04.480
+ why do you have to split it? Okay. But then like, how do I split it? It's just like a leaked
+
+00:10:04.480 --> 00:10:09.440
+ extra traction or something. Yeah. Yeah, exactly. So, uh, yeah, a lot of people comment to like,
+
+00:10:09.440 --> 00:10:13.280
+ wow, this is so simple. And I'm like, so glad that came through, like, especially getting rid of
+
+00:10:13.280 --> 00:10:20.080
+ like all the NPM confusions where it's like, okay, SSTs, then this version. And that needs a very
+
+00:10:20.080 --> 00:10:23.840
+ specific version of AWS and Eclipse. So if they're out of sync, then certain their types are going
+
+00:10:23.840 --> 00:10:28.400
+ to be messed up. And yeah, it's, uh, we're really focusing on simplicity this time around.
+
+00:10:28.400 --> 00:10:33.840
+ What is the escape hatch again? It's just terraform providers. Like, can any terraform provider work?
+
+00:10:33.840 --> 00:10:39.040
+ How does that? Yeah. So it's, it's funny. Like everyone makes fun of web because it's just like
+
+00:10:39.040 --> 00:10:44.560
+ layers of shit on top of each other. Like, like Nux is built on nitro, which is built on top of
+
+00:10:44.560 --> 00:10:51.120
+ each, which is built. Yeah. So we always make fun of that. But then if you look at this stuff,
+
+00:10:51.120 --> 00:10:58.640
+ it's pretty similar where, uh, SST use Pulumi for infrastructure as code, but Pulumi really
+
+00:10:58.640 --> 00:11:05.040
+ mostly invented like the state management and like the language bindings and how all that stuff
+
+00:11:05.040 --> 00:11:13.280
+ works. And like really clever design around that. But for the actual stuff that like calls API's,
+
+00:11:13.280 --> 00:11:18.880
+ calls, AWS calls, whatever, they mostly rely on terraform providers. So you can adapt a terraform
+
+00:11:18.880 --> 00:11:22.800
+ provider to work inside Pulumi. And most of the things that are in the Pulumi registry are
+
+00:11:22.800 --> 00:11:27.200
+ like source from terraform providers, which is smart because you tap into the existing ecosystem.
+
+00:11:27.200 --> 00:11:31.840
+ You don't like fragmented, which is great. Yeah. And they do have some native ones. So if you look at
+
+00:11:31.840 --> 00:11:37.920
+ their registry, a lot of stuff that you need is there. Um, even like newer stuff, like I was
+
+00:11:37.920 --> 00:11:43.520
+ surprised to see that Upstash had, uh, had stuff in the Pulumi registry. And then any terraform
+
+00:11:43.520 --> 00:11:48.160
+ provider that's not, but it hasn't been adapted, there is a process to adapt it. And we're probably
+
+00:11:48.160 --> 00:11:52.400
+ going to spend a bunch of time like doing that for people for stuff that is not in there.
+
+00:11:52.400 --> 00:11:57.920
+ So did you show me something where like, I can, what was the thing you showed me where like I could
+
+00:11:57.920 --> 00:12:05.040
+ create some kind of binding for any thing I want to find resources? Yeah, the linkable thing.
+
+00:12:05.600 --> 00:12:09.520
+ Is that a terraform? Yeah. So we rename binding to link. No, that that's actually,
+
+00:12:09.520 --> 00:12:12.880
+ if you think of what, okay, go and that's a question of why wouldn't you just use Pulumi
+
+00:12:12.880 --> 00:12:18.400
+ directly? Uh, really the only thing we actually invented is a concept of linking. That's like our
+
+00:12:18.400 --> 00:12:24.640
+ main feature. But when we haven't documented this yet, uh, but we now have a way to like flag any
+
+00:12:24.640 --> 00:12:31.120
+ resource, let's say you're like, Oh, I'm creating a Redis instance in Upstash. Uh, I want to link
+
+00:12:31.120 --> 00:12:36.080
+ this to my functions. You can like market linkable and say what fields should get exposed to the
+
+00:12:36.080 --> 00:12:40.960
+ function and everything will work. Uh, but that's not documented yet because we're going to finalize
+
+00:12:40.960 --> 00:12:46.240
+ API, but we will do that. I like the word link over bind. By the way, binding was always kind of
+
+00:12:46.240 --> 00:12:50.560
+ confusing to me. You know, we had to switch. It's just, it, when you actually go through design,
+
+00:12:50.560 --> 00:12:54.480
+ some of this stuff, it's like really funny what you have to consider. Cloudflare natively has a
+
+00:12:54.480 --> 00:13:00.800
+ concept called binding. Oh, so if we're going to support Cloudflare, it's very confusing because
+
+00:13:00.800 --> 00:13:06.080
+ there's like a cloud fighting in our binding. So that forced the change, but then we're like,
+
+00:13:06.080 --> 00:13:12.480
+ okay, link is the verb. What are the things that get linked? And that was like a whole conversation,
+
+00:13:12.480 --> 00:13:17.600
+ like resources get linked. And it was, we spent like days on it literally. Yeah. But yeah,
+
+00:13:17.600 --> 00:13:24.000
+ I think it's a, it's a better word. It sounds like lighter. Yeah, I like it. I'm excited, excited for
+
+00:13:24.000 --> 00:13:30.080
+ I on. Yeah, it's a new era. Do you feel like a weight lifted after this release or is it like it's
+
+00:13:30.080 --> 00:13:34.160
+ same old, same old every day right now? I'll feel a weight lifted once we get all the Cloudflare
+
+00:13:34.160 --> 00:13:40.240
+ stuff done. Because right now we is roughly a lateral move, like obviously, like infinite things
+
+00:13:40.240 --> 00:13:46.160
+ are better, but capability wise, it's roughly the same capabilities. Yeah. But once we do native
+
+00:13:46.160 --> 00:13:52.080
+ Cloudflare support, then then it's going to be cool. You guys launched your docs, right? Yeah.
+
+00:13:52.080 --> 00:13:57.760
+ Is there a document for migration? I'm assuming. No. No. Okay.
+
+00:13:57.760 --> 00:14:03.120
+ Because we we explicitly say this is best for new projects right now. Yeah.
+
+00:14:03.120 --> 00:14:08.480
+ Yeah. So probably can't move my big repo over to this right now. We're going to do that for you
+
+00:14:08.480 --> 00:14:12.880
+ most likely. Oh, you're going to do it for me? Like a pull request? Yeah, because we we're going to
+
+00:14:12.880 --> 00:14:16.480
+ work through our own stuff. And then we're going to work through your stuff. And that's going to be
+
+00:14:16.480 --> 00:14:22.000
+ how we we like figure out what the migration process should be, what tools are missing, etc.
+
+00:14:22.000 --> 00:14:25.360
+ So lucky for you. I love it. Lucky for me. So excited.
+
+00:14:25.360 --> 00:14:30.640
+ Again, the benefit of just randomly making your shit open source, like you have to we can just
+
+00:14:30.640 --> 00:14:34.880
+ decide to do that in our own without any coordination on your own. I love it so much.
+
+00:14:34.880 --> 00:14:40.720
+ Okay. What's what's going on? I feel like I've been disconnected for a while.
+
+00:14:40.720 --> 00:14:44.480
+ Is there anything going on right now? I don't think it's funny because like we usually talk
+
+00:14:44.480 --> 00:14:50.320
+ about other news, but this week, like we were kind of the news. So we just we went over the news.
+
+00:14:50.320 --> 00:14:53.600
+ It was you. Is there anything else going on? I feel like the only thing I see on Twitter is people
+
+00:14:53.600 --> 00:14:58.640
+ angry about people's on Twitter or something. I don't know or angry about it not being fun.
+
+00:14:58.640 --> 00:15:02.720
+ I was talking about that, but I'm not seeing that. I'm not either.
+
+00:15:02.720 --> 00:15:07.600
+ And I thought I was just because I'm not on Twitter enough. But like, what are people's timelines
+
+00:15:07.600 --> 00:15:12.800
+ look like right now? There's a lot of talk about Twitter not being fun anymore.
+
+00:15:12.800 --> 00:15:16.880
+ Whenever I see things that this comes up every once in a while, and whenever I'm like,
+
+00:15:16.880 --> 00:15:20.960
+ not on the same page as that, I feel good because I feel like, okay, I like curated the right,
+
+00:15:20.960 --> 00:15:24.720
+ the right level where I'm not seeing all this stuff that's annoying other people.
+
+00:15:24.720 --> 00:15:30.400
+ I mean, we have there were a few things. I guess we talk about Astro DB.
+
+00:15:30.400 --> 00:15:35.840
+ Oh, we have talked about Astro DB was this week. Oh, I didn't see anything about torso.
+
+00:15:35.840 --> 00:15:42.160
+ Yeah, they did a launch week. Okay. So, so, so, so, so, I don't know. I'm going to be honest.
+
+00:15:42.160 --> 00:15:48.480
+ I think companies should stop doing launch weeks. Very few companies, especially startups have
+
+00:15:48.480 --> 00:15:53.440
+ enough stuff for a launch week. You're better off doing a launch day and just like being like,
+
+00:15:53.440 --> 00:15:59.840
+ boom, here's everything we've got. Yeah. Like AWS, when they do kind of like pre-invent or
+
+00:15:59.840 --> 00:16:05.200
+ reinvent and it's a whole week of launches, that makes sense. There's a lot, a lot of stuff in AWS.
+
+00:16:05.200 --> 00:16:09.680
+ But yeah, if you're a startup, it'd be tough to have enough noise for a whole week.
+
+00:16:09.680 --> 00:16:16.160
+ And Fred said, Fred said for him for Astro, they see it more as a way to like coordinate and plan,
+
+00:16:16.160 --> 00:16:22.000
+ as opposed to actually caring about the actual week. But still, I just feel like it's just hard,
+
+00:16:22.000 --> 00:16:26.400
+ like, I think, okay. So, and then Terso, Terso, Terso, I don't know.
+
+00:16:26.400 --> 00:16:34.720
+ I'm so glad I questioned the pronunciation. Terso, Terso.
+
+00:16:35.440 --> 00:16:46.880
+ In the SQLite as a service companies launch week, they had some really interesting stuff there.
+
+00:16:46.880 --> 00:16:53.040
+ But then by day three, it was like, we have HIPAA and SOC 2 support and we'll sign BAA.
+
+00:16:53.040 --> 00:16:57.360
+ That's not enough for all the day. That's a tough one to announce. How many people were like,
+
+00:16:57.360 --> 00:17:06.240
+ oh, they didn't already? Oh, no. Take this down. So they had some interesting stuff.
+
+00:17:06.240 --> 00:17:13.280
+ So I always talk about, because they are trying to, one of the things that their architecture enables
+
+00:17:13.280 --> 00:17:21.520
+ is doing things like having a database per customer, which has some benefits.
+
+00:17:21.520 --> 00:17:24.480
+ And I've done this in the past specifically, and I thought that's a bunch, but I've done this
+
+00:17:24.480 --> 00:17:31.040
+ in the past when I was in healthcare. We would sign customers and each customer was worth
+
+00:17:31.040 --> 00:17:36.800
+ like six figures a year, intense security process, like all that stuff. So to make it simple,
+
+00:17:36.800 --> 00:17:42.080
+ we just deployed a database, it's actually a file-based database per customer. So we can just say,
+
+00:17:42.080 --> 00:17:45.920
+ your data is isolated, it's in its own thing, whatever makes those conversations easier.
+
+00:17:45.920 --> 00:17:50.320
+ And that was great, but there were a lot of downsides that you're just used to being able
+
+00:17:50.320 --> 00:17:54.480
+ to query across your data sets. You used to be able to do schema changes across all your customers.
+
+00:17:54.480 --> 00:17:59.360
+ It just comes with a lot of overhead. There's a lot I don't reach for that pattern unless it's
+
+00:17:59.360 --> 00:18:07.280
+ really, really required. But for so, added some features to help with that. So they added the
+
+00:18:07.280 --> 00:18:13.120
+ ability to have a primary database. And if you apply schema changes to that, it gets applied
+
+00:18:13.120 --> 00:18:18.880
+ to all the databases. Or if you have a thousand databases, it's one step. And they also added
+
+00:18:18.880 --> 00:18:22.800
+ this ability to query across them. That one, though, I don't think is actually going to work
+
+00:18:22.800 --> 00:18:28.800
+ that well if I understand it right. But anyway, point being is they're trying to
+
+00:18:28.800 --> 00:18:33.200
+ address this. If they're trying to push this idea of you can do this pattern, they need to solve
+
+00:18:33.200 --> 00:18:38.640
+ some of these problems. So I think those two things are great, great things to launch,
+
+00:18:38.640 --> 00:18:42.320
+ but just do it all in one day. Yeah, yeah, that's a one day announcement.
+
+00:18:42.320 --> 00:18:47.680
+ Well, I need to go back to the torso thing, because there's been so much buzz on SQLite.
+
+00:18:47.680 --> 00:18:52.960
+ Like, torso literally uses SQLite. It's literally like that file that's like your database.
+
+00:18:52.960 --> 00:18:57.840
+ Yeah, it's a fork of SQLite called libSQL, which adds a bunch of replication features.
+
+00:18:57.840 --> 00:19:03.840
+ Okay, so I have, I've seen people even not using torso talking about the benefits. Well,
+
+00:19:03.840 --> 00:19:10.480
+ Kinsey Dodds talks about it with Epic Web, the benefits of SQLite and people do it like at the edge.
+
+00:19:10.480 --> 00:19:17.440
+ My question is like, is it, does it force that pattern where every edge node is its own
+
+00:19:17.440 --> 00:19:22.720
+ database? And then how does that work? Do they replicate? Like, do you interact with this thing
+
+00:19:22.720 --> 00:19:27.600
+ like you would a normal database, now I'm speaking specifically to torso? Do you like,
+
+00:19:27.600 --> 00:19:32.480
+ just query it? And it's just a database? Or is it like, you have to choose which database you're
+
+00:19:32.480 --> 00:19:36.640
+ querying? Because this is so confusing to me, you just choose it. So if we look at who's doing
+
+00:19:36.640 --> 00:19:44.160
+ this, it's, it's what's for cells one, Li has their own stuff with light Fs. And then CloudFlare
+
+00:19:44.160 --> 00:19:50.320
+ is not offering like any traditional SQL databases are only offering CloudFlare D1,
+
+00:19:50.320 --> 00:19:55.920
+ which is a SQLite based thing. And obviously, all their stuff is like crazy as replicated and stuff.
+
+00:19:55.920 --> 00:20:00.720
+ So yeah, in a lot of ways, it looks like a normal database. It's you have a thing that you can
+
+00:20:00.720 --> 00:20:09.280
+ sell to 10 SQL statements to their schema, all of that. The fact that it replicates to me is like,
+
+00:20:09.840 --> 00:20:15.920
+ a bonus. I think bonus is even overstating. I think it's a thing you can do, right? It's
+
+00:20:15.920 --> 00:20:21.200
+ a thing you can do. But it's similarly like you guys use Postgres. Do you guys have read replicas?
+
+00:20:21.200 --> 00:20:27.280
+ Yeah. Yeah, our rides and our reads are split. And we have a few replicas on the read side.
+
+00:20:27.280 --> 00:20:31.440
+ So it's it's just that. Wait, it's just that. Okay, so there's one writer.
+
+00:20:31.440 --> 00:20:37.600
+ There's only one like writer node. And where does that live? Is that at the edge? Because like,
+
+00:20:37.600 --> 00:20:41.360
+ no, it can't be, right? Because that's to be at a single location. Okay, so it's in some region,
+
+00:20:41.360 --> 00:20:47.760
+ and then it just every it's just read replicas and every node, every like edge location. Yep,
+
+00:20:47.760 --> 00:20:52.080
+ exactly. Okay, well, that makes way more sense. Yeah, yeah. So all the rights are still having to go
+
+00:20:52.080 --> 00:20:58.720
+ back to one central writer instance. That that's the thing I was hung up on. It's like, if all of these
+
+00:20:58.720 --> 00:21:05.760
+ are just like individual SQLite files living on the edge, where's the sort of truth? And how is that
+
+00:21:05.760 --> 00:21:12.160
+ how does that work? Okay, that makes a lot more sense. I do think though that I think the replica
+
+00:21:12.160 --> 00:21:17.040
+ thing is a little overstated. I get why these companies talk about that a lot because it's like
+
+00:21:17.040 --> 00:21:23.040
+ a key differentiator because you can have like 1000 replicas. And that's cool. But it like just
+
+00:21:23.040 --> 00:21:27.200
+ comes with a lot of complexity. Like I get there's the advantages, but most people have never even
+
+00:21:27.200 --> 00:21:31.600
+ deployed Postgres with a single read replica. The only reason we have read replicas is we use
+
+00:21:31.600 --> 00:21:37.200
+ serverless v2 and there's a ceiling on how much that can scale. Yeah, so by splitting up our rights
+
+00:21:37.200 --> 00:21:41.520
+ and then having multiple readers, we just raise the ceiling. It doesn't increase our cost really.
+
+00:21:41.520 --> 00:21:46.080
+ I mean, there's a little bit of additional cost for each instance, I guess, but it's really just
+
+00:21:46.080 --> 00:21:50.960
+ raising the ceiling of how much compute we can scale to because in our peak times, we use more
+
+00:21:50.960 --> 00:21:56.800
+ than one like 128 ACU instance to provide. Yeah, like your writer, your right, your rights are
+
+00:21:56.800 --> 00:22:03.520
+ capped. We can scale the reads right. And we're not close to hitting our right like the 128 ACUs.
+
+00:22:03.520 --> 00:22:08.960
+ Yeah, there's like this natural phenomenon where most high scale things tend to be
+
+00:22:08.960 --> 00:22:15.120
+ read heavy. Yeah, like public stuff, you know, more writer, more recent writers.
+
+00:22:15.120 --> 00:22:18.880
+ Yeah, even if we had a lot of like interactivity stuff that where the users are writing to the
+
+00:22:18.880 --> 00:22:25.360
+ database, like that's a percentage of your users that actually do that stuff. But we mostly all
+
+00:22:25.360 --> 00:22:30.880
+ of our rights are mostly internal, like it's our stuff, writing stats to databases and stuff like that.
+
+00:22:30.880 --> 00:22:38.560
+ And then the reading is just generating pages. So yeah, by like a ton, reads is our much heavier
+
+00:22:38.560 --> 00:22:43.040
+ workload. Yeah, it's like nice that the world works that way that most people are lurkers,
+
+00:22:43.040 --> 00:22:46.960
+ small percentage of writers and that like trickles all the way down into the
+
+00:22:46.960 --> 00:22:53.040
+ when it comes to database architecture. Yeah. Yeah. So keep lurking. Don't get any ideas here.
+
+00:22:53.040 --> 00:23:00.000
+ Don't start clicking on everything. Yeah, we need to be a creator. We can't handle it.
+
+00:23:00.000 --> 00:23:05.520
+ No, exactly. But yeah, so I would say most people haven't even gotten to that point.
+
+00:23:05.520 --> 00:23:12.720
+ I think even read replicas are like a so small percentage of projects. Sure. So that's why I
+
+00:23:12.720 --> 00:23:20.480
+ think focusing on replicas is a little weird because it is tricky for someone that's 100% used to
+
+00:23:20.480 --> 00:23:27.040
+ having a single like primary database node that does both to switch because in your case,
+
+00:23:27.040 --> 00:23:30.480
+ it's probably fine because like you said, most rights are happening internally.
+
+00:23:30.480 --> 00:23:36.000
+ But there's all kinds of weird stuff where like if you have a comment section and like you press
+
+00:23:36.000 --> 00:23:42.320
+ enter to submit a comment and the page reloads all the comments, it might pull it from the reader,
+
+00:23:42.320 --> 00:23:46.560
+ which hasn't have, which hasn't replicated your right yet and a little like your right hasn't
+
+00:23:46.560 --> 00:23:52.560
+ showed up. So that read read after right thing. So I'm not saying it's like impossible, which is
+
+00:23:52.560 --> 00:23:58.320
+ like a new thing you have to think about. Yeah. And then when you have, you know, lots of replicas,
+
+00:23:58.320 --> 00:24:03.680
+ like hundreds of them, it just becomes a bigger question. In practice, I think what it ends up
+
+00:24:03.680 --> 00:24:08.880
+ looking like is you have a database per customer, whatever, like it's really just like a couple
+
+00:24:08.880 --> 00:24:14.400
+ people every single database. It's never like experiencing anything crazy. Yeah. So I can see
+
+00:24:14.400 --> 00:24:20.480
+ how it works, but yeah, I don't know. To me, there's just a lot of like things that come up,
+
+00:24:20.480 --> 00:24:26.240
+ right? Like you guys can just plug in BI tools, plug in ETL tools to get that data out into other
+
+00:24:26.240 --> 00:24:30.480
+ places, do queries, like support the operations of your company. Like there's a lot of things
+
+00:24:30.480 --> 00:24:37.280
+ that come up when you're starting to use some of these more like exotic database offerings.
+
+00:24:37.280 --> 00:24:45.600
+ Yeah, so there's a lot of like buzz. I mean, I know people that are into it, but I'd never really
+
+00:24:45.600 --> 00:24:50.240
+ use it. So all these questions around SQLite have been lingering in my head, just hadn't gotten to
+
+00:24:50.240 --> 00:24:55.280
+ it to asking them. Yeah, I think to me, if I step back and look at it, there's nothing there that's
+
+00:24:55.280 --> 00:25:02.560
+ meaningfully different yet that would make me use it instead. I think from a, for these companies,
+
+00:25:02.560 --> 00:25:08.720
+ operations-wise, it allows them to do weird things that other companies can't offer like
+
+00:25:08.720 --> 00:25:14.400
+ thousands of databases for a low price. Yeah. But that's like interesting for
+
+00:25:14.400 --> 00:25:19.520
+ the business. It's not interesting for like the end user as much. Yeah, yeah. Yeah, yep.
+
+00:25:19.520 --> 00:25:26.000
+ It's okay. AstroDB, I'm a big Astro user. I have not had time to really sink in. I think
+
+00:25:26.000 --> 00:25:30.720
+ we've had access to AstroDB in like some kind of a beta form for a long time and I still haven't
+
+00:25:30.720 --> 00:25:35.280
+ looked at it. So could you please catch me up to speed on AstroDB? Yeah, so AstroDB is built
+
+00:25:35.280 --> 00:25:46.640
+ on top of a torso. Oh, here we are again. Yeah, the layers, the layers, turtle all the way down the
+
+00:25:46.640 --> 00:25:51.440
+ layers. Yeah, so again, they probably get the same question. Why wouldn't I just use this?
+
+00:25:56.560 --> 00:26:01.760
+ This is where I start feeling like house the cards and like I love Astro. So I'm not trying
+
+00:26:01.760 --> 00:26:07.760
+ to throw like shaded Astro, but I start feeling like the number of abstractions on top of, I mean,
+
+00:26:07.760 --> 00:26:12.560
+ you guys deal with this with SST. Like we are so many layers thick now. Sometimes I just worry
+
+00:26:12.560 --> 00:26:16.080
+ that this is a house of cards and it's all just going to collapse and like there's going to be
+
+00:26:16.080 --> 00:26:20.960
+ two layers again. I don't know. It's fine. None of us are learning simply at this point.
+
+00:26:20.960 --> 00:26:25.600
+ I think typically the things that top collapse, the things that are in the middle and the bottom
+
+00:26:25.600 --> 00:26:33.840
+ are kind of here. Yeah, we're good. Yeah. But yeah, so it's okay. So if you step back,
+
+00:26:33.840 --> 00:26:39.200
+ I think Astro went through this thing where like they came out, they got a lot of attention and
+
+00:26:39.200 --> 00:26:42.640
+ people wanted to use it for everything. So they got pulled in a lot of directions. If you look at
+
+00:26:42.640 --> 00:26:46.560
+ what they originally really set out to do is it's actually very simple like kill WordPress.
+
+00:26:46.560 --> 00:26:52.080
+ Right, you want to like work so much of still built on WordPress. If you kill WordPress,
+
+00:26:52.080 --> 00:26:59.360
+ you're like a multi-billion dollar company. That's huge. A big part of WordPress is the fact that
+
+00:26:59.360 --> 00:27:04.800
+ like there was just a database there that came with it and all plugins could use it to sort their
+
+00:27:04.800 --> 00:27:08.880
+ data and the user could use it for the native WordPress features. So just having some sort of
+
+00:27:08.880 --> 00:27:15.120
+ persistence built in. It's like a low level primitive that like enables all these higher things like,
+
+00:27:15.120 --> 00:27:19.840
+ you know, people, there's like plugins that build like a Shopify equivalent inside WordPress,
+
+00:27:20.480 --> 00:27:25.120
+ right? Like people have taken this thing to a crazy place. So to get there,
+
+00:27:25.120 --> 00:27:31.360
+ it is helpful if Astro says most Astro users are using this thing to store their data.
+
+00:27:31.360 --> 00:27:37.760
+ And that I think is a key thing to like allow this ecosystem to pop up. Like someone might drop
+
+00:27:37.760 --> 00:27:42.560
+ in like an Astro Commerce plugin that just like, you know, lets you create products and store them
+
+00:27:42.560 --> 00:27:48.320
+ and all that. So I think right now it's positioned a little low level, like it's a developer tool
+
+00:27:48.320 --> 00:27:52.080
+ because they like integrated drizzle into it. They have like a schema definition language and
+
+00:27:52.080 --> 00:28:00.400
+ all this stuff. But to me, I see it as in the distant future, you're mostly configuring Astro
+
+00:28:00.400 --> 00:28:04.560
+ with the template, adding some plugins. If you have a developer, they can kind of customize
+
+00:28:04.560 --> 00:28:12.240
+ everything, but it's mostly like low code stuff. You see how this database is a key component to it.
+
+00:28:12.240 --> 00:28:13.120
+ Yeah. Yeah. Yeah.
+
+00:28:13.120 --> 00:28:19.920
+ So I think that's where it makes a lot of sense to me. It's I've never considered the Astro replacing
+
+00:28:19.920 --> 00:28:27.680
+ WordPress angle. Is that like a thing they've talked about publicly? Like that that's their angle?
+
+00:28:27.680 --> 00:28:33.680
+ I think I don't know if they talked about it publicly, but I just kind of intuited.
+
+00:28:33.680 --> 00:28:38.560
+ Well, I think it seems that way and Fred has talked about it.
+
+00:28:38.560 --> 00:28:43.600
+ Okay. So it's just so interesting to think about like the Twitter perception of like replacing
+
+00:28:43.600 --> 00:28:48.160
+ WordPress would be like, what? Why would you? Who cares? WordPress is so old. But like the
+
+00:28:48.160 --> 00:28:53.360
+ economic impact of replacing WordPress, like if they actually succeed, it's a huge, huge market.
+
+00:28:53.360 --> 00:28:58.240
+ It's like mostly internet powered by WordPress. So it's funny, like the disconnect. I just
+
+00:28:58.240 --> 00:29:03.120
+ imagine on Twitter, if they were to announce like, we now have this percentage share of WordPress
+
+00:29:03.120 --> 00:29:10.160
+ sites have converted to Astro. It's like, what? Who cares? But it's like actually a huge deal.
+
+00:29:10.160 --> 00:29:15.680
+ A lot of people care. A lot of dollars. Yeah. Yeah. Well, it's funny because I think even for
+
+00:29:15.680 --> 00:29:22.160
+ the people working on Astro, that type of thing gets in your head and use your, like, excuse you.
+
+00:29:22.160 --> 00:29:29.120
+ So I think there was a point where on, again, like the way people want to use it in terms
+
+00:29:29.120 --> 00:29:32.880
+ like the Twitter bubble, like they want to use it for all these things that aren't WordPress related.
+
+00:29:32.880 --> 00:29:36.960
+ So I think Astro got pulled into like really exploring that really seeing if that was possible,
+
+00:29:36.960 --> 00:29:41.360
+ like really trying to say like, this is the ultimate framework for everything.
+
+00:29:41.360 --> 00:29:46.480
+ And they did push that far. And I think a lot of that is possible if you want to go that route.
+
+00:29:46.480 --> 00:29:53.680
+ Yeah. But really where their value is, is like these obvious places where obviously you would use
+
+00:29:53.680 --> 00:29:59.120
+ Astro and there's like no reasonable other option. And those tend to be like the WordPress sites,
+
+00:29:59.120 --> 00:30:05.360
+ big public facing sites, documentation sites, is doubling on that and they're back to focusing
+
+00:30:05.360 --> 00:30:09.600
+ on that now. Yeah, it's really interesting now for me to think about where they're headed and
+
+00:30:09.600 --> 00:30:13.680
+ what kind of things will crop up because it does seem like there'd be a pretty leap for somebody
+
+00:30:13.680 --> 00:30:19.600
+ who's run like the WordPress site for years. And that's all they know to like get started
+
+00:30:19.600 --> 00:30:24.880
+ with Astro sounds like a big undertaking still. It still feels like very, yeah, it's very developer
+
+00:30:24.880 --> 00:30:32.080
+ first. I guess is the idea I would think of. So it's interesting to see how I'm very curious to
+
+00:30:32.080 --> 00:30:37.600
+ watch that evolve and turn into something that like small business owner could spin up a site with
+
+00:30:37.600 --> 00:30:45.360
+ Astro like they would with WordPress. Yeah, I think the the order they're doing it in is perfect
+
+00:30:45.360 --> 00:30:51.760
+ because you start with like the most high skill version. Yeah, then you like slowly build up from
+
+00:30:51.760 --> 00:30:59.520
+ there to like just lower effort offerings. And that works well because they can always the trade-off
+
+00:30:59.520 --> 00:31:04.240
+ is the low code, no code thing is restrictive. And if you want to escape out of that, it feels
+
+00:31:04.240 --> 00:31:07.920
+ like shit because it wasn't built in that direction. But because it's built in this direction,
+
+00:31:07.920 --> 00:31:12.640
+ the lower level is actually going to be very nice because that's where they started higher
+
+00:31:12.640 --> 00:31:17.280
+ development, like you could have a developer that knows Astro that could really go anywhere
+
+00:31:17.280 --> 00:31:22.320
+ with it because it started that way. That makes sense. What's the old crusty thing that SST is
+
+00:31:22.320 --> 00:31:27.840
+ competing with? Well, that's, you know, it sucks. What's the word press equivalent?
+
+00:31:27.840 --> 00:31:32.480
+ I think what's interesting and why I'm really motivated and why I find my job interesting
+
+00:31:32.480 --> 00:31:38.880
+ is because we're actually not competing with anything because I really feel like it's like
+
+00:31:38.880 --> 00:31:44.240
+ a new thing that we're suggesting that people drop into their stack. The way I think about it,
+
+00:31:44.240 --> 00:31:50.400
+ the simplest way to explain it is there was a time where no one thought about formatting.
+
+00:31:50.400 --> 00:31:55.120
+ Like formatting your code wasn't like a thing we all automatically did. And at some point,
+
+00:31:55.120 --> 00:31:58.880
+ someone like invented a formatter and they were like, every single project should have
+
+00:31:58.880 --> 00:32:05.200
+ a code formatter built in that's going to format your code and all that. And then it became a thing
+
+00:32:05.200 --> 00:32:11.200
+ that is like a default part of everyone set up now. But I think we're like trying to do something
+
+00:32:11.200 --> 00:32:16.640
+ like that where we're like this type of thing that defines everything your app needs outside
+
+00:32:16.640 --> 00:32:21.520
+ of the code. It's something that should just be in every project. And I know like we're not like
+
+00:32:21.520 --> 00:32:25.360
+ the first to that, like infrastructure's code has been around for a while, but in the form
+
+00:32:25.360 --> 00:32:31.280
+ that we're trying to do. Yeah, like it hasn't fully taken on. I guess there's still a lot of,
+
+00:32:31.280 --> 00:32:38.400
+ especially web developers that just don't understand it's that gap to like they're used to throwing
+
+00:32:38.400 --> 00:32:43.520
+ their thing over the fence to get deployed by some thing or some way teams use these tools
+
+00:32:43.520 --> 00:32:49.040
+ and as well adopt it there. Yeah. Yeah. The formatting thing, I think about that like at least
+
+00:32:49.040 --> 00:32:53.760
+ every month about how I used to have to like think about the format of my code.
+
+00:32:53.760 --> 00:33:01.920
+ So bad. Yeah. And you thought about it, you had opinions of it and then because you had opinions
+
+00:33:01.920 --> 00:33:05.600
+ of it, people have different opinions. Yeah. And people aren't about it. That's not a thing that
+
+00:33:05.600 --> 00:33:10.000
+ happens anymore. Thank you, prettier. And all the other tools in that space, Black used to do some
+
+00:33:10.000 --> 00:33:18.240
+ Python work. It's widely impactful. Like just the reduction of discussion around this and thought.
+
+00:33:18.240 --> 00:33:24.000
+ Yeah. It's like every time you save a file, I'm not thinking about it anymore. It's nice. Although
+
+00:33:24.000 --> 00:33:33.440
+ I will say my new VIN prettier D works about 40% of the time. Yeah, it's my astrophiles. There's
+
+00:33:33.440 --> 00:33:37.840
+ something wrong with the astral SP or something. There's something I do in every astro file or
+
+00:33:37.840 --> 00:33:44.560
+ like 40% of them, 60% of them that causes prettier D to not work prettier works, but prettier D
+
+00:33:44.560 --> 00:33:48.080
+ doesn't. And that's what's incorporated in my new events. Then I have to like run the prettier
+
+00:33:48.080 --> 00:33:54.160
+ format command. It's just a mess. Sorry. I knew them problems. I think you're gonna have to make a
+
+00:33:54.160 --> 00:33:57.600
+ decision. I think I have to pick like, do you want to use Asher or do you want to use Neil VIN?
+
+00:33:59.760 --> 00:34:05.040
+ I guess. I mean, I do wonder that sometimes. Like, am I actually going to install VS Code again and
+
+00:34:05.040 --> 00:34:09.920
+ and just embrace it for my astro development? Well, you can try that Z editor that everyone's like
+
+00:34:09.920 --> 00:34:16.960
+ now. Oh, yeah. Wait, that's newer. Is that going to have a chance at working better with Astro?
+
+00:34:16.960 --> 00:34:22.160
+ I don't know. But I'll try. It's definitely more batteries included type of thing.
+
+00:34:22.160 --> 00:34:28.000
+ Okay. Now I'm curious because I hope he just isn't listening. I mean, I love Neil Bim. Neil Bim's
+
+00:34:28.000 --> 00:34:31.840
+ my favorite, but like I hear about something like Z and it's like when I used to be addicted to
+
+00:34:31.840 --> 00:34:35.680
+ World of Warcraft and I would hear about a new game and it's like, I know I'm never going to play
+
+00:34:35.680 --> 00:34:40.160
+ it because I just play this all the time. It's just like that. It's like Z came out and I was like,
+
+00:34:40.160 --> 00:34:43.680
+ sounds interesting, but I know I'm never going to use it because I just use Neil VIN. But maybe
+
+00:34:43.680 --> 00:34:48.960
+ maybe I could use it. Maybe I could just play with it a little bit. Just a little bit to her.
+
+00:34:48.960 --> 00:34:53.920
+ Just trying. Wait, Z Industries, is this it? Is this the website?
+
+00:34:54.800 --> 00:34:58.000
+ No, it's kind of cool. It's light mode. Z dot dev. No.
+
+00:34:58.000 --> 00:35:05.840
+ Z editor. Yeah. It is Z dot dev. Interesting website. Can I just say, they don't even have dark
+
+00:35:05.840 --> 00:35:11.680
+ mode. It doesn't look like linear. It's got this totally like grid thing going on. It's interesting.
+
+00:35:11.680 --> 00:35:17.760
+ I'm drawn in, but I did not expect to see Z Industries at the top. I'm at the wrong place for sure.
+
+00:35:17.760 --> 00:35:23.440
+ What? You make a code editor. What is the industry part of this?
+
+00:35:24.160 --> 00:35:30.640
+ Anyway, okay, now I'm totally going to download this and try it. Don't tell, don't tell teach.
+
+00:35:30.640 --> 00:35:38.080
+ So did I tell you that I have a Mac now? You have a Mac? I knew you had the iPhone. It started with
+
+00:35:38.080 --> 00:35:44.240
+ the iPhone and they lured you in. Everyone says this. Everyone said that they were like,
+
+00:35:44.240 --> 00:35:48.800
+ you're going to get, you're going to get a, you're going to get an iPhone and you're going to get
+
+00:35:49.360 --> 00:35:54.640
+ a Mac right away. What kind of Mac would talk to me more? Okay, more. It isn't really funny.
+
+00:35:54.640 --> 00:36:00.560
+ So Liz has an iMac and I have my desktop set up, obviously. Linux, by the way,
+
+00:36:00.560 --> 00:36:08.960
+ arch by the way. Of course. Nerd by the way. And my life is great.
+
+00:36:08.960 --> 00:36:16.720
+ I know you believe that. That's so funny to me. You really love your life and I love it for you.
+
+00:36:18.640 --> 00:36:24.720
+ It's an amazing. So it's 10 years of arch that did it for you. Go ahead.
+
+00:36:24.720 --> 00:36:29.520
+ So she's like, okay, I think I want to get a laptop because she likes to work from
+
+00:36:29.520 --> 00:36:35.440
+ coffee shops, whatever. Yeah. And I was like, okay, you know, when we travel,
+
+00:36:35.440 --> 00:36:41.280
+ which we never do, and actually a big part of it is because I don't have a good work set up as a
+
+00:36:41.280 --> 00:36:49.280
+ family. Yeah. My little not trouble. I'm like, you know what, it would actually be good for me to
+
+00:36:49.280 --> 00:36:55.360
+ like solve this so we can, and I have a funny story about this share after about traveling. So,
+
+00:36:55.360 --> 00:37:01.520
+ okay, let's get a laptop. You can use it and then I can use it when we're traveling. So we
+
+00:37:01.520 --> 00:37:06.560
+ have to get a shared laptop, which is kind of funny. But so we're like, okay, what's the best
+
+00:37:06.560 --> 00:37:13.120
+ laptop to get? It is by far a MacBook and it's been that way ever since M chips because nothing
+
+00:37:13.120 --> 00:37:18.960
+ comes close in terms of anything like with laptops with the hardware matters a lot because they're
+
+00:37:18.960 --> 00:37:24.880
+ like carrying them up. Yeah. Yeah. There's battery. There's battery questions. There's performance
+
+00:37:24.880 --> 00:37:29.840
+ questions because you can't just put in the fattest processor ever in there. There's trackpad
+
+00:37:29.840 --> 00:37:36.240
+ things. And across those dimensions, like nobody really comes close to the point where I'm, I care
+
+00:37:36.240 --> 00:37:41.040
+ more about that than the operating system. So we're like, yeah, let's get, we got just the M3,
+
+00:37:41.040 --> 00:37:48.000
+ M3 errors just came out. So we got an M3. Just came out. Yeah. 15 inch. And it's really nice
+
+00:37:48.000 --> 00:37:53.200
+ laptop. Yeah. For me, it doesn't make me a new error, by the way. Oh, nice. Yeah. It's a
+
+00:37:53.200 --> 00:37:57.840
+ no, that champagne color. No, the champagne one. Yeah. No, they're whatever it's called starlight
+
+00:37:57.840 --> 00:38:02.720
+ or whatever. Yeah. But for me, it's great because all I had to do was install a lackety and then
+
+00:38:02.720 --> 00:38:08.080
+ as stated to my server and I'm back to. Oh, because you're just doing all your stuff on your server.
+
+00:38:08.080 --> 00:38:13.040
+ Oh, nice. I'm not really using Mac, but I get to use some of the cool things that I wish
+
+00:38:13.040 --> 00:38:20.640
+ existed on Linux. So Raycast, which I don't think you use. I have it. I never use, I use the confetti
+
+00:38:20.640 --> 00:38:25.680
+ on when I stream. It's like literally the reason I have Raycast. I don't know what it does. I don't
+
+00:38:25.680 --> 00:38:31.360
+ even know what it does. So I'd love to know. It's funny. I'm actually using it to study how far you
+
+00:38:31.360 --> 00:38:37.040
+ can push like the Command K bar concept because obviously in all the products that it is, it's
+
+00:38:37.040 --> 00:38:40.720
+ geared towards that. Yeah. And they like took it where you can kind of, it's like a whole operating
+
+00:38:40.720 --> 00:38:44.720
+ system where you can like build apps inside this thing. Is this like Nix? Is this the thing that
+
+00:38:44.720 --> 00:38:49.440
+ you get into? And then like, that's all you talk about is Raycast. I think so. I'm like not going
+
+00:38:49.440 --> 00:38:52.800
+ that far into it. I'm actually just more curious about their framework and their structure and so
+
+00:38:52.800 --> 00:38:57.360
+ because like it's giving me ideas from like a UX perspective. But I love doing things from my
+
+00:38:57.360 --> 00:39:02.800
+ keyboard. And I think Raycast is great. It's just, it's like you can appreciate how well they
+
+00:39:02.800 --> 00:39:07.200
+ executed on this concept. And if you don't use it to a crazy degree, yeah. They have all this AI
+
+00:39:07.200 --> 00:39:13.280
+ stuff in there now, which is, which is interesting. Oh, really? Yeah. So that, it really, it's just
+
+00:39:13.280 --> 00:39:18.000
+ that. I think there was that in a very similar thing. So you can use that on Linux. It's only on
+
+00:39:18.000 --> 00:39:22.480
+ Mac, I guess. Yeah. It's like built, it's built just for Mac, like with all the Mac native stuff.
+
+00:39:22.480 --> 00:39:26.800
+ I have a bunch of things I want to say. Can I say a few of them and then you can keep going?
+
+00:39:27.760 --> 00:39:34.240
+ First, uh, a laccory, really? Oh, as opposed to what would you use on Linux? I use a laccory
+
+00:39:34.240 --> 00:39:39.920
+ everywhere. So it's a Linux thing. Okay, too. Yeah. Interesting. Well, I don't know. Ghosty is
+
+00:39:39.920 --> 00:39:45.520
+ like, you know, the exclusive. I know. I know it. I know it's cool. You say exclusive. I mean,
+
+00:39:45.520 --> 00:39:51.200
+ you had to get invited. I'm just saying, but it's not like I got a personal invitation
+
+00:39:51.200 --> 00:39:55.280
+ from Mitchell. It was just how many I'm going to go get a personal invitation. You can go get a
+
+00:39:55.280 --> 00:40:00.480
+ personal one. I'm going to send it to you. Okay. Yeah. To make you feel bad. I'm not going to install
+
+00:40:00.480 --> 00:40:06.800
+ it. Just download it. Setting it in your downloads folder. The other thing I want to say is on Mac
+
+00:40:06.800 --> 00:40:12.560
+ hardware or Apple hardware, the, I used to work at Best Buy in the Geek Squad and people bring in
+
+00:40:12.560 --> 00:40:17.760
+ their computers that are broken that they bought at Best Buy and we fix them. And at least like
+
+00:40:17.760 --> 00:40:25.120
+ six to 10 times a day, someone would bring in a laptop that's like a Dell or like a Toshiba
+
+00:40:25.280 --> 00:40:31.520
+ or whatever. And it would be the exact same issue every time where the power cord has wiggled
+
+00:40:31.520 --> 00:40:36.160
+ too much because they bump it into stuff and we have to send it off to the service center to
+
+00:40:36.160 --> 00:40:41.760
+ replace the motherboard because literally that thing can't like you can't just like fix the port.
+
+00:40:41.760 --> 00:40:46.400
+ And so that their laptop wouldn't charge anymore because it got wiggled too much too loose and now
+
+00:40:46.400 --> 00:40:51.600
+ a whole motherboard replacement. Apple with MagSafe, you don't have that issue. And that's like the
+
+00:40:51.600 --> 00:40:55.600
+ one thing that I cared about on Apple and then they got rid of it for a while, which was annoying,
+
+00:40:55.600 --> 00:41:00.400
+ but they brought it back. It's the best invention that's ever been invented in computing, transistor,
+
+00:41:00.400 --> 00:41:06.800
+ whatever. Like we're talking MagSafe. You just pull it and it just snaps off because it's a magnet.
+
+00:41:06.800 --> 00:41:12.640
+ It's brilliant. There's no like loosening. It's all hard and sturdy. And anyway, that's why you
+
+00:41:12.640 --> 00:41:17.760
+ buy Mac. Is it like crazy patented? Like why isn't that just copied to hell? I don't know. Yeah,
+
+00:41:17.760 --> 00:41:22.160
+ that's a great question. And why did they go away from it? And like they just did the, they were
+
+00:41:22.160 --> 00:41:26.800
+ like, well, all you need is USB-C ports. And they went way too far with that. And I guess that was
+
+00:41:26.800 --> 00:41:31.200
+ the reason to not have MagSafe, but I'm so glad it's back. It's the best. Yeah. Yeah, it's great.
+
+00:41:31.200 --> 00:41:36.240
+ So you're an Apple, you're Mac OS now. Or are you going to put Mac OS on your on your desktop now?
+
+00:41:36.240 --> 00:41:41.040
+ No, that's actually kind of dead. I don't think that what's dead putting Mac operating systems on
+
+00:41:41.040 --> 00:41:48.000
+ desktop. Okay, go ahead. Okay. So I think there's a few interesting things here. One, I think the,
+
+00:41:48.000 --> 00:41:54.160
+ I think in the past, Apple's OS was so good that you bought their hardware to have access to the OS.
+
+00:41:54.160 --> 00:42:01.040
+ I think it flipped now where their hardware is so good. You're like, I want the end chips.
+
+00:42:01.040 --> 00:42:05.840
+ I'm down to use whatever OS they're giving me. It's good, right? But like it's not the primary
+
+00:42:05.840 --> 00:42:12.720
+ draw. So putting the OS on my desktop, there's not really an upside to the exit. I don't get
+
+00:42:12.720 --> 00:42:18.080
+ the hardware and the hardware is what I care about. And then two, they have their own chips now. So
+
+00:42:18.080 --> 00:42:24.880
+ they sold the last Mac Pro, the Intel-based Mac Pro. I think they're finally like marked it as,
+
+00:42:24.880 --> 00:42:30.640
+ we're not selling these anymore, which means in X amount of years, three, four years,
+
+00:42:31.280 --> 00:42:35.520
+ I think the Mac Pro will support it for five years or something. They have no reason to ship
+
+00:42:35.520 --> 00:42:44.240
+ Intel-based Mac OS, which is key to getting a working off of Mac hardware. So I think in the
+
+00:42:44.240 --> 00:42:50.000
+ future, installing Mac OS on non-Apple hardware is basically going to zero.
+
+00:42:50.000 --> 00:42:54.480
+ Yeah. You know what, operating systems don't matter. And I don't mean that in like a Twitter
+
+00:42:54.480 --> 00:43:00.240
+ contrarian way. I just mean, I've always thought like, it doesn't really come up that much. The
+
+00:43:00.240 --> 00:43:05.040
+ thing that matters is it's in my browser window. That's what I use. It's like whatever is inside
+
+00:43:05.040 --> 00:43:10.800
+ that pane. But like the operating system is so little part of my usage of a computer. I don't
+
+00:43:10.800 --> 00:43:14.720
+ know. I guess there's certain apps that if you've been on Linux for 10 years, you know that you
+
+00:43:14.720 --> 00:43:19.120
+ don't just get everything that everyone else gets. And I guess if you're like a gamer and you're like,
+
+00:43:19.120 --> 00:43:24.640
+ well, it can't run on Mac, well, whatever. If you're just like writing code and being a programmer
+
+00:43:24.640 --> 00:43:29.120
+ or being an internet citizen in 2024, you're operating systems such a little part. Like I see
+
+00:43:29.120 --> 00:43:32.640
+ all these announcements for like all the new stuff. And I haven't updated the latest Mac OS,
+
+00:43:32.640 --> 00:43:37.760
+ whatever it is, an Elma or whatever. I just don't care. What is it? Like something in finder change?
+
+00:43:37.760 --> 00:43:44.000
+ I don't care. I don't know. I think operating systems are overrated. Like the fact that it's
+
+00:43:44.000 --> 00:43:49.040
+ still a thing people market and like innovate on and whatever. And it just feels pointless. I don't
+
+00:43:49.040 --> 00:43:53.280
+ know. Like I said, for me, on my desktop, I really need good window management. And I haven't been
+
+00:43:53.280 --> 00:43:59.760
+ able to recreate that on Mac OS. I think you tried. Sorry, go ahead. I mean, I tried with this laptop
+
+00:43:59.760 --> 00:44:06.560
+ a little bit. I'm down to try further. I mean, if you tried the the Yabai, yeah, which it's such a
+
+00:44:06.560 --> 00:44:12.720
+ pain to install, like the installation, which I guess there's reasons. But if it wasn't so hard
+
+00:44:12.720 --> 00:44:17.200
+ to install, I yell about it. It feels like Apple doesn't want you using it. That's what it feels
+
+00:44:17.200 --> 00:44:22.160
+ like to me. It's like you're jailbreaking your computer is what it feels like to me. So there's
+
+00:44:22.160 --> 00:44:26.880
+ that. And then I obviously game. So I'm always going to have a Windows machine for that. Yeah,
+
+00:44:26.880 --> 00:44:32.960
+ when do you win? Do you game? Oh, you don't have kids. Like when it seems like all you guys game
+
+00:44:32.960 --> 00:44:37.600
+ and like all my friends in the programming space are gaming. And I'm like, when do you even win?
+
+00:44:37.600 --> 00:44:38.880
+ What prime has kids?
+
+00:44:38.880 --> 00:44:43.840
+ Prime has kids. When does he use wakes up at four AM to play? Okay, that yeah, I guess if you're
+
+00:44:43.840 --> 00:44:48.160
+ really into it, they just get up earlier. Okay, interesting. I don't play that much in that often.
+
+00:44:48.800 --> 00:44:54.880
+ And it comes in waves. So I can see myself still doing it occasionally. Yeah, when I have kids,
+
+00:44:54.880 --> 00:44:59.120
+ because it's just it's like an hour or two. I really didn't mean it as like a productivity
+
+00:44:59.120 --> 00:45:03.600
+ shaming or whatever. Like, no, no, no. Do you find time? I'm just busy being productive all the time.
+
+00:45:03.600 --> 00:45:08.320
+ It's not sick. All goes back to like my, I feel guilty.
+
+00:45:08.320 --> 00:45:13.760
+ Priorities change too. Yeah. Yeah, I just it's like relieving Casey is my number one priority in life.
+
+00:45:13.760 --> 00:45:18.160
+ It's like as soon as I'm done working every day, I am with the kids and letting her do what she
+
+00:45:18.160 --> 00:45:22.880
+ wants to do. So yeah, yeah, that doesn't leave a lot of time for anything. That makes sense.
+
+00:45:22.880 --> 00:45:26.800
+ I do watch one movie every weekend, but now I'm feeling guilty about that. She was like,
+
+00:45:26.800 --> 00:45:31.920
+ you got up early to watch a movie this morning. I'm like, yeah. She found out. She found out what
+
+00:45:31.920 --> 00:45:37.600
+ you were doing. Yeah. Yeah, she was like, wait, you you got up at five to watch that before the
+
+00:45:37.600 --> 00:45:41.440
+ kids got up like, yes, I did, because I want to watch one movie per week. I have a nice theater
+
+00:45:41.440 --> 00:45:45.280
+ and I want to watch a movie every week. I didn't watch what you suggested. I watched something
+
+00:45:45.280 --> 00:45:48.640
+ else. I'll talk about it. Would you watch? I just want to know what you watch. Tinker Taylor,
+
+00:45:48.640 --> 00:45:52.960
+ Soldier Spy. Oh, yeah. That movie is really hard to understand. I'm so confused. I don't
+
+00:45:52.960 --> 00:45:58.160
+ I still don't know what happened. I'm not going to watch like three times. Yeah. It's weird,
+
+00:45:58.160 --> 00:46:02.720
+ because I think I watched it. So I've seen it twice. And the first time I understood it,
+
+00:46:02.720 --> 00:46:06.080
+ and the second time I had no idea what the hell was going on. So I feel like, like, did I literally
+
+00:46:06.080 --> 00:46:12.640
+ get dumber? I watched it like five years later. And I was like, this is what happened to this movie.
+
+00:46:12.640 --> 00:46:16.720
+ And I did feel like it was a good movie. It's one of those, like, you feel like you're the problem.
+
+00:46:16.720 --> 00:46:20.640
+ Like, no, this is my fault. You guys did a great job, but this is not what I'm too dumb.
+
+00:46:20.640 --> 00:46:24.480
+ But then you read a lot of people are too dumb. So I don't know. Yeah. I borrow on that.
+
+00:46:24.480 --> 00:46:29.760
+ So in that category, so do you see what I was posting about? I got a projector screen yesterday.
+
+00:46:29.760 --> 00:46:34.720
+ Oh, yeah. Oh, you've just got the project. Oh, the screen you just got. You had the projector.
+
+00:46:34.720 --> 00:46:40.000
+ I've had like a four K short ultra short throw projector for years now, and we've loaded it
+
+00:46:40.000 --> 00:46:43.680
+ because it's traveled with us when we used to put time between New York and Miami.
+
+00:46:43.680 --> 00:46:47.120
+ And we've always found a wall to throw it on. And it was like, I'm using and we love it.
+
+00:46:47.120 --> 00:46:51.680
+ And we had it in our other house against in the bedroom. It's kind of where we watched
+
+00:46:51.680 --> 00:46:56.800
+ almost everything, like 80% of what we watch was on there. And then in this new bedroom,
+
+00:46:56.800 --> 00:47:01.520
+ we moved and we're like, there's like no good wall in this bedroom to put this on,
+
+00:47:01.520 --> 00:47:05.600
+ because we have these two huge double doors that lead out to the backyard, which we love.
+
+00:47:05.600 --> 00:47:10.080
+ Yep. But that's where the wall would have been. So we're like, let's get a screen.
+
+00:47:10.080 --> 00:47:16.320
+ So we got a screen. We mounted it above the door. So like, it comes down in front of the doors.
+
+00:47:16.320 --> 00:47:22.000
+ We want to use it and it goes back up. And holy shit, that's a good place to put a retractable
+
+00:47:22.000 --> 00:47:25.920
+ screen is in front of the door. Because it's like, you're in there. You don't need the door anymore.
+
+00:47:25.920 --> 00:47:29.680
+ Unless you have to stand and knock in the screen and knock it over. Yeah.
+
+00:47:29.680 --> 00:47:36.000
+ Anyway, door locks. Oh, there you go. Convenient in the bedroom. This ago was confused.
+
+00:47:36.000 --> 00:47:39.760
+ He was like trying to go outside and was like, what the fuck? You're like snipping the projector
+
+00:47:39.760 --> 00:47:47.520
+ screen door shut. Where'd the door go? Yeah. And wow, the quality difference is insane.
+
+00:47:47.520 --> 00:47:53.200
+ Like it looks almost as good as my old TV now, like the blacks and everything, like getting a
+
+00:47:53.200 --> 00:47:59.520
+ like a good projector screen made specifically for the type of projector you have. I was blown away.
+
+00:48:00.000 --> 00:48:02.640
+ So I did a bunch of projector screen research and I got this thing.
+
+00:48:02.640 --> 00:48:07.120
+ And I also discovered they have floor raising ones now. Have you seen these?
+
+00:48:07.120 --> 00:48:09.680
+ Floor raising production screens that come out of the floor.
+
+00:48:09.680 --> 00:48:13.120
+ So you have a fixed screen because you have a dedicated room, right? It's just a rectangle.
+
+00:48:13.120 --> 00:48:20.480
+ How big is it, the screen? Oh, I should know this. I'm basically a theater installer at this point.
+
+00:48:20.480 --> 00:48:24.000
+ I think it's 140 inches. That's what I assumed. Yeah. Okay.
+
+00:48:24.560 --> 00:48:31.120
+ So and that's fixed. You have dedicated room for it. But they have these ones now that are like,
+
+00:48:31.120 --> 00:48:35.760
+ it's just a good horizontal bar. And you can install it like if you have a living room,
+
+00:48:35.760 --> 00:48:41.120
+ you have a media console, you can put it kind of behind the media console on the ground.
+
+00:48:41.120 --> 00:48:46.320
+ And it comes up from the ground and it's perfectly tensioned.
+
+00:48:46.320 --> 00:48:52.240
+ So and then the and then you have the short throw projector on the media console. So it lines up
+
+00:48:52.240 --> 00:48:58.080
+ perfectly. Yep. So you can now have this like 100 inch screen that's completely hidden in your
+
+00:48:58.080 --> 00:49:01.920
+ living room when you're not using it. And for me, I like, I knew this was possible, but
+
+00:49:01.920 --> 00:49:07.920
+ I didn't know the quality was so good. But the quality is, yeah, it is. It is like, I can't
+
+00:49:07.920 --> 00:49:12.160
+ understand this. Like it's having a good screen with it. Like it's incredible.
+
+00:49:12.160 --> 00:49:15.760
+ What's the cost comparison? I haven't priced a TV in forever.
+
+00:49:15.760 --> 00:49:19.680
+ It's like more expensive. Well, I mean, more expensive than a TV. Well, if you're trying to
+
+00:49:19.680 --> 00:49:26.080
+ get a 100 inch. Oh, yeah, you can spend like $100,000 on a giant TV, but like, yeah, a normal TV that
+
+00:49:26.080 --> 00:49:30.400
+ people buy like at Best Buy. It's more expensive than that, but it's also a lot larger. Yeah, I would
+
+00:49:30.400 --> 00:49:37.760
+ say like a really good OLED TV that's like 65, 75 inches is probably like 4k 4 to 5k. That's confusing
+
+00:49:37.760 --> 00:49:42.640
+ because that's also a resolution. Let's say $4,000 to $5,000. Yeah.
+
+00:49:42.640 --> 00:49:48.480
+ You can go cheaper, obviously, but I think you want to get like, if you want to like push that,
+
+00:49:48.480 --> 00:49:54.080
+ the projector itself is going to be around that price and the screen is like can be pretty expensive
+
+00:49:54.080 --> 00:49:59.440
+ to like a couple thousand there. So it's going to be more expensive. But, you know, me and Liz,
+
+00:49:59.440 --> 00:50:04.160
+ at this point, we never use our TV in the living room. It's just kind of like taking up space on our
+
+00:50:04.160 --> 00:50:09.520
+ wall. Yeah. It's like the TVs look don't look bad. We've given out thin they are, but we don't.
+
+00:50:09.520 --> 00:50:13.280
+ Yeah, we don't have a TV in any of our living spaces. We have one in our bedroom and we have
+
+00:50:13.280 --> 00:50:18.240
+ our theater, but we kind of decided in this house, like we don't need one. Like we don't watch in
+
+00:50:18.240 --> 00:50:23.600
+ the living room. Like it's not a thing we're going to do. Yeah. So yeah. So the next time we like go
+
+00:50:23.600 --> 00:50:29.200
+ and like really like figure out or set up again, I think I'm like out on TVs. I'd never watch them
+
+00:50:29.200 --> 00:50:34.400
+ during the day. Even if you do watch them during the day, the short throw projectors, since the light
+
+00:50:34.400 --> 00:50:41.520
+ comes from the bottom, the screens are optimized. They're like textured in a way where they ignore
+
+00:50:41.520 --> 00:50:46.320
+ light coming from any other angle than from directly underneath. So if you're in a bright room,
+
+00:50:47.040 --> 00:50:52.160
+ it still looks very good. And then again, the fact that you can like roll down and be completely
+
+00:50:52.160 --> 00:50:56.960
+ invisible, if it's in like, yeah, it's pretty on dedicated room. Like some of the some of the
+
+00:50:56.960 --> 00:51:02.400
+ videos I saw set up with that like, yeah, everyone should be doing this. Like it's the room looks
+
+00:51:02.400 --> 00:51:08.160
+ way nicer without this like huge screen just mounted on the wall permanently. That makes sense.
+
+00:51:08.160 --> 00:51:11.760
+ Yeah, we've got the theater. So I could go on and on about projectors and screens.
+
+00:51:12.480 --> 00:51:17.520
+ And yeah, all kinds of things. But but for the living room, that's awesome. Yeah, yeah.
+
+00:51:17.520 --> 00:51:22.320
+ And it's also kind of obvious because like obviously movie theaters use projectors still. So the best
+
+00:51:22.320 --> 00:51:27.600
+ of the best is still a projector. Yeah, I guess the big draw the big knock on them was and you got
+
+00:51:27.600 --> 00:51:32.880
+ ahead of it. But the the light like if it's ambient, like there's a bunch of daylight in the room,
+
+00:51:32.880 --> 00:51:36.640
+ it's harder to see. But yeah, if they've gotten better with that, and it makes sense that the
+
+00:51:36.640 --> 00:51:41.760
+ short throw would be better at that, I would think. Yeah, we also never watched TV during the day.
+
+00:51:41.760 --> 00:51:45.680
+ And that's a good lifestyle thing. Yeah. Yeah, we watched stuff every the kids go to bed at night.
+
+00:51:45.680 --> 00:51:49.360
+ That's if we ever watch anything, that's what it would be. So yeah, at this point, I'm like,
+
+00:51:49.360 --> 00:51:53.440
+ I guess I just I'm probably never going to buy a TV again. This is just a bad option.
+
+00:51:53.440 --> 00:51:59.040
+ End of an era. Dax isn't buying TVs anymore. He's buying Mac books. What is this world that we
+
+00:51:59.040 --> 00:52:03.920
+ live in now? Yeah, this is like me switching into serverless. Like I have all these smart
+
+00:52:03.920 --> 00:52:14.160
+ training reasons, but really I just wanted to change. Yeah, right after I put all this effort
+
+00:52:14.160 --> 00:52:19.120
+ in mounting that TV, like perfectly centered at the exact right height. We just haven't just.
+
+00:52:19.120 --> 00:52:25.360
+ That's funny. That's fun. The second thing I wanted to tell you about is the traveling
+
+00:52:25.360 --> 00:52:30.640
+ thing I was talking about earlier. So me and Liz have not traveled at all since we like started
+
+00:52:30.640 --> 00:52:37.600
+ dating and now we're married. We basically haven't traveled like meaningfully, like we haven't like
+
+00:52:37.600 --> 00:52:42.800
+ gone on vacation really. Oh, on vacation. Okay. Yeah. So they say you brought her like you guys both
+
+00:52:42.800 --> 00:52:48.000
+ came to me and we flew places together before, but we've never like taken a vacation together.
+
+00:52:48.000 --> 00:52:52.320
+ Yeah. Yeah. Vacation. Gotcha. You're gonna laugh. I can't wait to tell you this. So
+
+00:52:52.320 --> 00:52:58.800
+ because we got together, then COVID happened, then we got really busy with work and like just
+
+00:52:59.440 --> 00:53:02.640
+ it just hasn't been like a thing that we wanted to spend money on. And so we'd like never went
+
+00:53:02.640 --> 00:53:06.080
+ on the honeymoon. You know, if we got married, which is pretty common, right? That's not like.
+
+00:53:06.080 --> 00:53:12.000
+ Yeah, it's not the weirdest thing, but it came into the late honeymoon. Yeah, continue. I knew
+
+00:53:12.000 --> 00:53:16.480
+ where this is headed. That's why. Yeah. I'm like, okay, we just have to, we have to travel. Like,
+
+00:53:16.480 --> 00:53:20.720
+ we have to do it. Like we need to go spend much money and like actually travel. I've like literally
+
+00:53:20.720 --> 00:53:25.760
+ never been to Europe. I haven't been in a lot of places. Yeah, same. So I was like, you know what
+
+00:53:25.760 --> 00:53:34.560
+ I'm going to do? I got wind that Bitcoin halving was coming up. Like, you know, like the rate it
+
+00:53:34.560 --> 00:53:40.480
+ comes out. Yeah, the halving. Yeah, very rare. Yeah. And I was like, let me just let me just
+
+00:53:40.480 --> 00:53:49.360
+ buy a lottery ticket. So I bought this is a funny part. So I bought so there's a company called
+
+00:53:49.360 --> 00:53:55.920
+ MicroStrategy. I'm sure you've come across this ever for. Yeah, Michael. Michael Saylor is run by
+
+00:53:55.920 --> 00:53:59.760
+ is the company doesn't do anything anymore, except by Bitcoin. It's all it does. All it does is buy
+
+00:53:59.760 --> 00:54:06.480
+ Bitcoin infinitely. And his is like really crazy hack to like do it basically for free. But they're
+
+00:54:06.480 --> 00:54:12.240
+ publicly traded. So you can like buy stock in this company. So it's like a weird hack to publicly buy
+
+00:54:12.240 --> 00:54:19.280
+ Bitcoin in like a normal market. And they also sell options against it. And if you're not aware,
+
+00:54:19.280 --> 00:54:25.680
+ options, the only thing you need to be aware of is you can risk a lot more and make a lot more
+
+00:54:25.680 --> 00:54:34.880
+ with options. So I bought a bunch of options a few weeks ago, into into MicroStrategy. Yep.
+
+00:54:34.880 --> 00:54:43.680
+ And literally two days later, they were up like 400%. It was insane. And I made like almost 15k.
+
+00:54:44.640 --> 00:54:50.640
+ That's amazing. In a couple weeks now. And we just we like sold it all. And we took the profits
+
+00:54:50.640 --> 00:54:55.440
+ and we're just going to spend it on a vacation on a vacation. And we're going to go to Spain,
+
+00:54:55.440 --> 00:55:00.240
+ Barcelona specifically, and South of France, which is nearby.
+
+00:55:00.240 --> 00:55:05.760
+ We're going to finally have our honeymoon because of this random Bitcoin thing that happens.
+
+00:55:05.760 --> 00:55:12.400
+ That's amazing. You never hear the success story on like person invest in thing thing goes up.
+
+00:55:12.400 --> 00:55:21.360
+ They actually sell it. They watch it go back down. Yeah, all the greed was kicking in. And I was
+
+00:55:21.360 --> 00:55:28.400
+ like, I'm just going to go to the moon. I've had this driving thing of like a thing you want to
+
+00:55:28.400 --> 00:55:32.880
+ do to go on a honeymoon. And like we haven't done this and we put this off for so long. So like,
+
+00:55:32.880 --> 00:55:38.560
+ that kind of forced me to force me to sell. I still have some, I still have some in it.
+
+00:55:39.440 --> 00:55:44.800
+ And it's up. Okay, I'm looking at my thing. It's up $8,000 today.
+
+00:55:44.800 --> 00:55:52.000
+ So cheese. Well, the halving is still a little bit away, right? So where are you thinking like
+
+00:55:52.000 --> 00:55:57.120
+ you're going to time it with like you're investing now and then selling after having everyone knows
+
+00:55:57.120 --> 00:56:01.600
+ it's coming up. So everyone is just kind of priced in maybe it just keeps. Yeah. But like,
+
+00:56:01.600 --> 00:56:06.320
+ I've just seen this enough times where I know it goes up. Yeah, the one around when this happens
+
+00:56:06.320 --> 00:56:11.520
+ for no reason. And like the Fed minutes were yesterday and they like said they're not going to hike.
+
+00:56:11.520 --> 00:56:16.160
+ And that like, Oh, what's the Yeah, I haven't heard the latest on interest rates.
+
+00:56:16.160 --> 00:56:18.720
+ They're not they're not cutting them yet. But they're also not hiking them.
+
+00:56:18.720 --> 00:56:23.680
+ Not hiking them. Okay. Like the market is up the last two days a bunch because then obviously
+
+00:56:23.680 --> 00:56:29.280
+ Bitcoin is up, which it should be the opposite, which is how funny broken it is. But Bitcoin is
+
+00:56:29.280 --> 00:56:34.160
+ up as well. So I was trying to have been scrolling Twitter for three minutes now just trying to find
+
+00:56:34.160 --> 00:56:39.440
+ somebody is in in Paris right now, France. I saw the Eiffel Tower on my Twitter. Yeah,
+
+00:56:39.440 --> 00:56:44.000
+ Vic Vic isn't. Is that what it is in Paris? It's funny because he didn't say it mentioned it at
+
+00:56:44.000 --> 00:56:48.560
+ all. And all of a sudden you just keep seeing these pictures that seem like they're in France. Yeah.
+
+00:56:48.560 --> 00:56:55.200
+ Yeah. Yeah. Because he's talking about the bakery. Yeah. Yeah. Yeah. Yeah. And I remember when he said
+
+00:56:55.200 --> 00:56:59.280
+ something to me and I was like, Oh, I didn't mean it that way. And he's like, I need to go to sleep.
+
+00:56:59.280 --> 00:57:03.120
+ And I was like, well, it's like two in the afternoon. What do you mean? I figured it out
+
+00:57:03.120 --> 00:57:08.160
+ later. Like, Oh, he's in Europe. Okay. Yeah. Yeah. So I don't think we're going to go to Paris.
+
+00:57:08.160 --> 00:57:14.000
+ I think we're going to stay by the ocean at the on this other side. But South France. Is that like
+
+00:57:14.000 --> 00:57:18.480
+ less touristy? Are you trying to go for like an edgy? You would do like an edgy vacation where you're
+
+00:57:18.480 --> 00:57:28.000
+ like, we don't go to the places you would go to normal people. I don't like, I don't like going
+
+00:57:28.000 --> 00:57:33.520
+ to stuff. Yeah, that makes sense. I also don't like it. Most people don't. It's like everyone feels
+
+00:57:33.520 --> 00:57:36.560
+ like they have to because you're supposed to. What do you do? You take a picture of it? Like,
+
+00:57:36.560 --> 00:57:40.640
+ I could find a million pictures of it right now on my phone. I basically and this is the same.
+
+00:57:40.640 --> 00:57:44.480
+ We just like pretending like we live somewhere. Like we like to go there and like pretend to have
+
+00:57:44.480 --> 00:57:48.320
+ like a normal day there. Rent a house in the village and just like, what would it be like?
+
+00:57:48.320 --> 00:57:54.160
+ Actually, I can relate to that. We when we went to Maui, we stayed not on like the West Coast where
+
+00:57:54.160 --> 00:57:58.320
+ all the resorts, Lahaina and all that. Yeah, all the resorts. We just stayed in an Airbnb in the
+
+00:57:58.320 --> 00:58:03.520
+ middle of Maui. And it was like this little town that had this, it was like this health food store
+
+00:58:03.520 --> 00:58:07.440
+ that's really famous there. And we want to stay in that town and just like go to the store every
+
+00:58:07.440 --> 00:58:11.040
+ day and see what it felt like. So we did that for a week. It was nice, but it's also hot and
+
+00:58:11.040 --> 00:58:18.480
+ no air conditioning. Turns out hotels are pretty nice. Yeah. People are slowly realizing that
+
+00:58:18.480 --> 00:58:26.000
+ about Airbnb. They're like, you know what? Yeah, someone clean up and having like people clean
+
+00:58:26.000 --> 00:58:30.960
+ up the room and the towels and all that. Like, it's kind of nice. A lot of basically the same price.
+
+00:58:30.960 --> 00:58:37.680
+ So yeah. Yeah. So we liked it. When are you going? Did you say when? No, we were going to
+
+00:58:37.680 --> 00:58:44.080
+ plug in a book everything this weekend. We don't know when like it's like peak. Anytime we want to
+
+00:58:44.080 --> 00:58:48.880
+ go as like peak pricing season. But thanks to Bitcoin, maybe we don't need to care. Hey, maybe
+
+00:58:48.880 --> 00:58:58.480
+ it's amazing. There's like three, I got to book three flights for April. And it's not me. Well,
+
+00:58:58.480 --> 00:59:03.600
+ it's like I've got a work thing at the beginning of the month. It's literally like me and Casey are
+
+00:59:03.600 --> 00:59:08.800
+ tagging. So I go somewhere for three days, literally at the very beginning of the month.
+
+00:59:08.800 --> 00:59:14.080
+ And then when I get home, Casey leaves the next day for a week for a volleyball camp. And when she
+
+00:59:14.080 --> 00:59:19.600
+ gets home two days later, I go to Miami for React Miami. So it's like, we are not going to see each
+
+00:59:19.600 --> 00:59:24.800
+ other for the month of April. I guess the end of April. But yeah, it's like we never go anywhere.
+
+00:59:24.800 --> 00:59:30.160
+ And now we're going everywhere at once. Yeah. Yeah. And one furious month. Yeah. Like we were
+
+00:59:30.160 --> 00:59:36.880
+ looking at tickets and the per like insanely cheap tickets happen to be like the week before
+
+00:59:36.880 --> 00:59:43.280
+ React Miami. And we're like, ah, that's too much. We can't do it. That's like, because you're like
+
+00:59:43.280 --> 00:59:49.680
+ hosting a party. Yeah, like people are saying. So I don't know, maybe we haven't decided anything
+
+00:59:49.680 --> 00:59:54.480
+ yet. But maybe we'll do it back to that. And my brother's graduating at the end of April. So we
+
+00:59:54.480 --> 01:00:02.480
+ have to go to Indiana. Oh, wow. That's random. Why don't we get into the video roots? Is that a
+
+01:00:02.480 --> 01:00:10.000
+ college roots? Yeah. My brother is in college. Oh, okay. I was thinking high school, like lives
+
+01:00:10.000 --> 01:00:14.800
+ with your family in Indiana. Like what your parents live in Indiana? No, I got an Indian. That's
+
+01:00:14.800 --> 01:00:21.120
+ different. Like Indians moved to America. They're like, I guess Indiana, you got to pick a place.
+
+01:00:21.120 --> 01:00:27.840
+ That's funny. Is that how it was named? I mean, obviously not for my kind of Indian,
+
+01:00:27.840 --> 01:00:33.360
+ but for like native. I have no idea. They were like, this place is really Indian, Indiana. That was
+
+01:00:33.360 --> 01:00:39.440
+ happened. Oh, man. It's so unsophisticated. It's so unsophisticated. That's funny.
+
+01:00:39.440 --> 01:00:45.120
+ Well, it's funny because a lot of stuff is just like when you think when we go to name
+
+01:00:45.120 --> 01:00:49.360
+ anything now, it's like this big high effort process of like, what do we want this to convey?
+
+01:00:49.360 --> 01:00:54.880
+ But so many places are named for such a dumb reason. It's like, I live in coconut growth.
+
+01:00:55.520 --> 01:01:01.280
+ And literally, the only reason it's called this, and it's actually a nice stunning name,
+
+01:01:01.280 --> 01:01:07.440
+ right? It sounds like, oh, like, no, whatever. But some guy, one of this area was completely
+
+01:01:07.440 --> 01:01:11.920
+ unsettled. He was like trying to like rig something where he like got like ownership
+
+01:01:11.920 --> 01:01:17.520
+ of all of the land. And he was doing his weird hack of like incorporating a post office here.
+
+01:01:17.520 --> 01:01:21.760
+ Like it was like filing for permits for post office. So he just made up coconut growth
+
+01:01:21.760 --> 01:01:28.560
+ because he happened to see two coconuts. And he misspelled it. He spelled it C O C O A like cocoa,
+
+01:01:28.560 --> 01:01:33.840
+ cocoa, yeah, grove. And he followed for a post office thing. And like his plan didn't work out.
+
+01:01:33.840 --> 01:01:40.000
+ So he just bailed. And then like it technically was on record as being called coconut growth.
+
+01:01:40.000 --> 01:01:47.520
+ So it's just cocoa, coconut. Yeah, I think they they fix that. But yeah, there's some older signs
+
+01:01:47.520 --> 01:01:55.040
+ around that still say, cocoa and that girl. Wow. Yeah, most places are named after like
+
+01:01:55.040 --> 01:01:58.640
+ some geographical feature, I don't know, waterbend or something.
+
+01:01:58.640 --> 01:02:05.040
+ Well, you're a spring. I grew up in Willow Springs. Pretty sure that was like, there's a
+
+01:02:05.040 --> 01:02:11.360
+ willow tree by the spring, Willow Springs, spring field. Yeah, interesting. There was probably spring
+
+01:02:11.360 --> 01:02:20.080
+ in a field. It's so dumb. The Ozarks are ridiculous. Mountain Grove. Wow. All of them,
+
+01:02:20.080 --> 01:02:24.480
+ mountain grove. People love the word grove. They throw the word grove on onto anything. It sounds
+
+01:02:24.480 --> 01:02:29.680
+ fancy. Yeah, it does sound fancy. I feel like there's a restaurant with grove in it that I like.
+
+01:02:29.680 --> 01:02:35.520
+ My parents neighborhood was called Windmere Grove, just like some vaguely British sounding
+
+01:02:36.080 --> 01:02:42.400
+ like rich thing. Windmere. That's like, oh, yeah. I feel like I cost a lot of money to live there
+
+01:02:42.400 --> 01:02:50.000
+ just immediately. It's funny you go there. It's just like the typical neighborhood with like 300
+
+01:02:50.000 --> 01:02:56.240
+ houses, five models, just copy pasted over and over, you know, I've got to I've got to go to Europe.
+
+01:02:56.240 --> 01:03:01.360
+ I'm so jealous that you're going to Europe, the baby never been there. No, my brother. So my
+
+01:03:01.360 --> 01:03:05.520
+ brother's a pilot because you've never left Missouri. I have left Missouri. You keep trying to spread
+
+01:03:05.520 --> 01:03:08.560
+ this rumor. I love when you get something in your head where you're like, I'm going to make this a
+
+01:03:08.560 --> 01:03:15.120
+ thing and you keep saying it. I've been all over the place. I'm quite a traveler, just not to Europe.
+
+01:03:15.120 --> 01:03:23.440
+ My brother is a captain with Delta just recently. And he, they went to Europe. He can just fly to
+
+01:03:23.440 --> 01:03:29.600
+ Europe. Him and his wife just went on a vacation for free to Europe, not like he was the pilot.
+
+01:03:29.600 --> 01:03:33.440
+ Like he can just, he just could ride on any Delta flight. Yeah, he'd jump on.
+
+01:03:33.440 --> 01:03:37.520
+ That's so awesome. Yeah. It's just amazing. That is really cool.
+
+01:03:37.520 --> 01:03:42.000
+ That's such a crazy perk. Oh, yeah. What a crazy, because it's such an expensive thing to fly around.
+
+01:03:42.000 --> 01:03:46.800
+ To be able to do that for free and to have like a buddy pass and all that. Like once he gets
+
+01:03:46.800 --> 01:03:51.280
+ more senior and he can choose those, because those are the ones people want at the long like
+
+01:03:51.280 --> 01:03:55.200
+ international flights, like pilots, the most senior people fly those international flights.
+
+01:03:55.200 --> 01:04:02.880
+ Then he could just be flying those legs and it's like vacation all the time as part of your work,
+
+01:04:02.880 --> 01:04:05.920
+ you're going to these cool places. I don't know. Yeah, that is really cool.
+
+01:04:05.920 --> 01:04:10.400
+ What are his roots now? Where does he generally go? You know, within the U.S.
+
+01:04:10.400 --> 01:04:15.040
+ Yeah, it's all domestic. I think so. Okay. Oh, I say that. I don't know. I shouldn't ask him.
+
+01:04:15.040 --> 01:04:17.840
+ What he's doing lately, because it's the last time I talked to him, it was totally different.
+
+01:04:17.840 --> 01:04:21.440
+ Like he, he used to be with American and then he moved to Delta and started over and
+
+01:04:21.440 --> 01:04:25.680
+ so he flies a lot out of Atlanta now. That's all. It turns out he's like in Japan right now and
+
+01:04:25.680 --> 01:04:29.440
+ you have no idea. Yeah, right. He's flying all the international legs. I don't know what I'm talking
+
+01:04:29.440 --> 01:04:38.320
+ about. We're getting out of gas car. I don't know if it was always as expensive, but
+
+01:04:38.320 --> 01:04:42.640
+ man, traveling is really expensive and I'm surprised that so many people do it.
+
+01:04:42.640 --> 01:04:46.560
+ I know. How is everyone affording to do this all the time? I think about this with lots of
+
+01:04:46.560 --> 01:04:50.800
+ things because like we've done pretty well. We live in a really cheap area. I've made a high income
+
+01:04:50.800 --> 01:04:55.440
+ for like 15 years and I feel like I see people do stuff and I'm like, how can they afford to do
+
+01:04:55.440 --> 01:05:00.640
+ that? Like I would never do that and like we're pretty well off, but how do so many people do it?
+
+01:05:00.640 --> 01:05:04.800
+ Yeah. There's certain things in American culture that are like normal and it's like that's,
+
+01:05:04.800 --> 01:05:08.960
+ they have travel. Super expensive. Yeah, it's weird. But maybe it's just because it's Twitter. We see
+
+01:05:08.960 --> 01:05:13.520
+ everybody. I don't know where you're seeing people travel, but we see like everybody and like maybe
+
+01:05:13.520 --> 01:05:16.960
+ that's the only time they've ever traveled or maybe they don't do it very often at all, but it feels
+
+01:05:16.960 --> 01:05:22.400
+ like now. I think everyone that I generally, most people at me are more traveled than I am.
+
+01:05:22.400 --> 01:05:26.640
+ Like, most people have been to more places than I have. Same, but I'm like smarter than them.
+
+01:05:26.640 --> 01:05:32.720
+ So that's why because you've not spent your money traveling, right? That's smart.
+
+01:05:32.720 --> 01:05:38.000
+ Yeah. So I'm just like, everyone's just traveling all the time. And then when I go to do it, I'm like,
+
+01:05:38.000 --> 01:05:44.320
+ yeah, I'm not like going to do multiple of these every year. Like that's crazy. Maybe they like
+
+01:05:44.320 --> 01:05:48.560
+ travel in a different way where it's like more, I don't know, but there's no getting around the
+
+01:05:48.560 --> 01:05:54.400
+ flights. The flights are always in like half the cost of everything. So yeah, yeah, if I guess like,
+
+01:05:54.400 --> 01:06:00.400
+ uh, my brain just shut off. I don't think it's ever happened on the podcast where like,
+
+01:06:00.400 --> 01:06:05.280
+ I had a thought and it just literally went somewhere else. It's completely gone. I can't,
+
+01:06:05.280 --> 01:06:09.120
+ I can't think of what it was. What were we talking about? It's just like a stroke.
+
+01:06:09.120 --> 01:06:14.160
+ I literally don't know what we were just talking about. Were we talking about travel?
+
+01:06:14.160 --> 01:06:18.480
+ Traveling and how expensive it is. Yeah. It wasn't like the thought got replaced with another thought.
+
+01:06:18.560 --> 01:06:23.840
+ It was like, yeah, it was like, I literally had nothing in my brain. I feel like I died for a
+
+01:06:23.840 --> 01:06:28.080
+ second. That was weird. It happens. Don't worry. You're probably not dying. The case he like talks
+
+01:06:28.080 --> 01:06:32.880
+ about, uh, she's going to get me checked out for my memory, like all the time. But we, we talked
+
+01:06:32.880 --> 01:06:37.280
+ about it before, I think like every wife feels this way about. Oh, yeah. Yeah. Okay. I don't
+
+01:06:37.280 --> 01:06:42.880
+ remember that. See more evidence. I've got to get to check that. What are they going to check?
+
+01:06:42.880 --> 01:06:48.720
+ They're going to just like a brain scan. I don't know. Yeah. What do they scan your brain and look
+
+01:06:48.720 --> 01:06:51.680
+ for the memory center? I don't know. I don't know. I don't know. I don't think about. Oh man.
+
+01:06:51.680 --> 01:06:56.960
+ Speaking of brain scan, did you see the, uh, neural link thing? No. I mean, I know I've heard of
+
+01:06:56.960 --> 01:07:01.600
+ neural link, but something happened. Okay. So here's a, here's why I find hilarious. So a couple
+
+01:07:01.600 --> 01:07:07.200
+ weeks ago, or maybe a couple of months ago, there was news that somebody, a human got the first
+
+01:07:07.200 --> 01:07:13.280
+ neural link and plant in their brain. What? Okay. That's a reaction we all had. We're all like,
+
+01:07:13.280 --> 01:07:18.800
+ that's so crazy. Like it must, like what a crazy thing to do. And, uh, it must be some like crazy
+
+01:07:18.800 --> 01:07:23.120
+ guy that's like so obsessed with becoming a robot. We're, we all had this like stereotype of what
+
+01:07:23.120 --> 01:07:27.840
+ we imagined that this person was. Yep. And they put out a video yesterday. Do you know who it was?
+
+01:07:27.840 --> 01:07:32.720
+ Can you guess who who it's a person that we would know who it is? We all had this expectation of
+
+01:07:32.720 --> 01:07:37.840
+ this to be some like crazy sci-fi of this person. It was a person that was paralyzed from neck down.
+
+01:07:37.840 --> 01:07:45.040
+ Oh, this thing gave them the ability to use a computer. They can like use them on a computer with
+
+01:07:45.040 --> 01:07:50.240
+ their, with their brain. And they was like playing like chess on a computer. And I'm like, wow,
+
+01:07:50.240 --> 01:07:56.160
+ we all saw this as like some crazy like early adopting extreme. Yeah. But like it has this
+
+01:07:56.160 --> 01:08:02.000
+ crazy practical place where it makes total sense, massive impact on this person's life and makes
+
+01:08:02.000 --> 01:08:09.440
+ total sense for, for them. It's not like this weird like wild idea. Yeah. So he said the first
+
+01:08:09.440 --> 01:08:13.440
+ telekinetic human. Isn't that insane? That's really cool. I need to learn more about the
+
+01:08:13.440 --> 01:08:18.160
+ neural link stuff. Like what they're actually capable of doing. Is it mostly just like peripheral,
+
+01:08:18.160 --> 01:08:23.680
+ you become like a peripheral for your computer? Or is there other stuff you can control? I think
+
+01:08:23.680 --> 01:08:28.960
+ because the videos I've seen before was a monkey playing Pong, I think with, with this brain. Yeah.
+
+01:08:28.960 --> 01:08:33.680
+ And I think so. Yeah. I think right now monkeys can play Pong. Like they're smart enough to like
+
+01:08:33.680 --> 01:08:37.760
+ follow the little ball around. Yeah. They teach them to play Pong with the joystick and they slowly
+
+01:08:37.760 --> 01:08:43.120
+ remove the joystick with the month was implemented. Yeah. That's impressive. And they like give it
+
+01:08:43.120 --> 01:08:49.200
+ treats whenever it, it scores or whatever. It's not monkey. It's I think it's a chimpanzee.
+
+01:08:49.200 --> 01:08:56.640
+ So, oh, let's be politically correct here. Yeah. Don't offend someone is a fit in that.
+
+01:08:56.640 --> 01:09:03.200
+ On Twitter. Now they have neural link. They might be getting online. Who knows?
+
+01:09:03.200 --> 01:09:07.440
+ We're going to be joined. Not the only species on Twitter.
+
+01:09:07.440 --> 01:09:13.920
+ So it's a yeah, it's really crazy. And I'm like, wow, this is this is going to make such a huge
+
+01:09:13.920 --> 01:09:17.840
+ impact. And what I think it's amazing about the human brain. I'm so glad it works this way.
+
+01:09:17.840 --> 01:09:22.000
+ And there's been so much research that has our experiments that have proved this.
+
+01:09:23.120 --> 01:09:29.280
+ You can incorporate new senses to feel native in your brain. So like beyond the five senses,
+
+01:09:29.280 --> 01:09:35.120
+ there's new things we could sense. Yeah, like if you get like a new like they've done this where
+
+01:09:35.120 --> 01:09:40.640
+ they've taken blind people and they've put like a like a electrode array on their tongue and they
+
+01:09:40.640 --> 01:09:47.040
+ have like projected images by like stimulating the senses in their tongue. And eventually the
+
+01:09:47.040 --> 01:09:52.800
+ person has an intuitive sense of like what it looks like. Wow. The thing that they're being shown.
+
+01:09:52.800 --> 01:09:57.360
+ Yeah, so your brain can like incorporate new like, it's like, you know, like a USB port,
+
+01:09:57.360 --> 01:10:03.360
+ like you, your brain develops a driver for it eventually. So that's such a good
+
+01:10:03.360 --> 01:10:10.000
+ person with drivers. Yeah. For this person, moving the mouse starts to feel like a natural
+
+01:10:10.000 --> 01:10:15.360
+ thing that they can do it to them. It probably feels like they have telekinesis. Like it doesn't
+
+01:10:15.360 --> 01:10:19.520
+ feel like, yeah, I'm like manipulating this thing. That's what I mean to do is just feels like
+
+01:10:20.160 --> 01:10:25.840
+ I'm natively controlling the mouse, which is really wild. And like it's crazy what that
+
+01:10:25.840 --> 01:10:29.440
+ potentially means in the future. I wish I could experience it. Like I just wonder like,
+
+01:10:29.440 --> 01:10:34.240
+ are you thinking? Are you thinking like, I'm moving my mouse to that? Or are you just looking?
+
+01:10:34.240 --> 01:10:39.840
+ Like what? No, it's not that it's like, it's not that you're thinking I'm moving the mouse.
+
+01:10:39.840 --> 01:10:45.760
+ It's you feel it's like skipping that step. I think I can kind of like relate this to other things.
+
+01:10:46.800 --> 01:10:50.720
+ You know how I'm sure you took some language class in high school?
+
+01:10:50.720 --> 01:10:54.800
+ Do they have other languages? I think two years of Spanish. Yeah. And in the Ozarks, it turns out.
+
+01:10:54.800 --> 01:11:02.720
+ Like I've heard of other languages before. When you were in that class and you read something
+
+01:11:02.720 --> 01:11:07.200
+ in Spanish, there was a step in your brain where you translate it to English first,
+
+01:11:07.200 --> 01:11:10.880
+ and then to understand it the other way around you like thought of it English first and you
+
+01:11:10.880 --> 01:11:16.480
+ translated to Spanish to say it. You see how eventually if you get good enough with the language,
+
+01:11:16.480 --> 01:11:20.080
+ that stops being the process and you just start like a two to the understanding of Spanish.
+
+01:11:20.080 --> 01:11:23.520
+ Yeah. There's no translation step. It's like, it's kind of like that.
+
+01:11:23.520 --> 01:11:28.720
+ Yeah. Appon Mac that worked through the Rosetta thing versus like native.
+
+01:11:28.720 --> 01:11:35.280
+ Yeah, exactly. No translation. Yeah. So I think that's where you get to and your brain is capable
+
+01:11:35.280 --> 01:11:40.240
+ of doing that with new inputs. You're totally going to get this chip in your brain, aren't you?
+
+01:11:40.240 --> 01:11:45.760
+ As soon as you can. Actually, yeah, why not? Yeah. I don't know. Like like, this is messed up, but
+
+01:11:46.480 --> 01:11:50.400
+ whenever I think about like, oh, if I'm in an accident, I like, when I lose my foot,
+
+01:11:50.400 --> 01:11:55.440
+ I'm like, I'm kind of excited about that because I kind of want like a bionic foot.
+
+01:11:55.440 --> 01:11:57.840
+ A prosthetic foot. You want to be a robot.
+
+01:11:57.840 --> 01:12:02.720
+ You know, ones that are like springy? The curve like this? They're like an athletic advantage.
+
+01:12:02.720 --> 01:12:06.560
+ Yeah. So I've always been very close to dunking. I've been like, if I could jump like
+
+01:12:06.560 --> 01:12:12.800
+ one or two inches higher, I could dunk. I've never had a satisfying dunk. And with this thing,
+
+01:12:12.800 --> 01:12:17.920
+ I think you get there. I was buying a dunk. Is that a fake foot? Oh, that's awesome.
+
+01:12:17.920 --> 01:12:20.720
+ Would it feel a little cheaper, though, if you ducked with your fake foot?
+
+01:12:20.720 --> 01:12:23.360
+ No, I don't care about that. You don't care. I love cheating.
+
+01:12:23.360 --> 01:12:31.840
+ It feels even better. You're tall. Can you dunk? I can't jump anymore.
+
+01:12:31.840 --> 01:12:35.840
+ I mean, I don't think I haven't tried. Yeah, I'm sure my vertical has gone down a lot as well.
+
+01:12:35.840 --> 01:12:42.240
+ Yeah. I think that's like way more so than other things. Vertical and like speed, like sprinting speed.
+
+01:12:42.240 --> 01:12:45.920
+ Seems to deteriorate quickly. We were just running around in the yard the other day playing tag,
+
+01:12:45.920 --> 01:12:51.680
+ and I felt so slow. I remember feeling so fast and high school, and I feel like at 37,
+
+01:12:51.680 --> 01:12:57.280
+ it's gone. I feel like I'm strong. I can still be strong if I want at 37, but fast and big vertical.
+
+01:12:57.280 --> 01:13:03.200
+ No, probably not. Yeah, I know. It's what kind of sucks. Like, so growing up, I was very good at
+
+01:13:03.200 --> 01:13:06.880
+ jumping. I could jump extremely high and far and everything. And that was like, you're not like
+
+01:13:06.880 --> 01:13:11.600
+ super tall. So it's surprising. Like, if you're close to dunking, that's, that's a vertical.
+
+01:13:11.600 --> 01:13:15.360
+ Like my angle for being good at sports. Like any sport that I involved, any kind of jumping,
+
+01:13:15.360 --> 01:13:18.320
+ like I always outreadbound people and I was like, jump over people out there. I was like,
+
+01:13:18.320 --> 01:13:24.000
+ the way I was good at it. And now I feel like actually be good at the sport. Because I can't,
+
+01:13:24.000 --> 01:13:28.080
+ I don't have the old man, like the old man tricks. You got to start getting all like,
+
+01:13:28.080 --> 01:13:32.720
+ likely. Yeah. And I remember when I would, when I would play ultimate in high school,
+
+01:13:32.720 --> 01:13:35.440
+ we'd play in the summer with these guys that were older occasionally.
+
+01:13:35.440 --> 01:13:40.720
+ And I would always think like, wow, like they're always in the right place at the right time. Like,
+
+01:13:40.720 --> 01:13:44.880
+ they're just so smart about their positioning. I'm like, I have to go do that now.
+
+01:13:44.880 --> 01:13:51.280
+ It is really, it's crazy. Maybe you should bust out cleats for when you're playing tag in the
+
+01:13:51.280 --> 01:13:59.440
+ back there. I'm probably still got some lace them up. It's on. Yeah. I guess I probably didn't
+
+01:13:59.440 --> 01:14:05.760
+ throw away. That's funny. Yeah. But yeah, I'm stronger than I'd ever been in my whole life.
+
+01:14:05.760 --> 01:14:10.560
+ I'm not stronger than I've ever been. I was just talking about this with my personal trainer.
+
+01:14:10.880 --> 01:14:16.240
+ I wish I were. I feel like old man strength is a thing. And I've just slacked off enough in adulthood.
+
+01:14:16.240 --> 01:14:21.040
+ Or maybe I just got really in high school. I was like three years of varsity football. Like,
+
+01:14:21.040 --> 01:14:26.240
+ it was like a lot of weight training, right? Like, I was bench. I think I maxed like 290,
+
+01:14:26.240 --> 01:14:31.040
+ which pisses me off so much. That's so crazy. But I got so close to 300, but I didn't bench 300.
+
+01:14:31.040 --> 01:14:35.040
+ And now it's like, I have to start over and like, I'm trying to get that goal in life.
+
+01:14:35.040 --> 01:14:38.800
+ I could squat a ton. I can't remember what I squatted, but my squat was way more impressive
+
+01:14:38.800 --> 01:14:43.120
+ than I bench, power clean, all those things. I was really strong in high school. And it kind of,
+
+01:14:43.120 --> 01:14:47.680
+ it's really disappointing to think about like, an 18 year old me could have beat me up.
+
+01:14:47.680 --> 01:14:56.320
+ I'm so much weaker than I was when I was a baby. Like, just how little we were in high school.
+
+01:14:56.320 --> 01:15:00.000
+ It just seems crazy. Like, I should be stronger. But yeah, I'm not. I'm still going to, I'm going
+
+01:15:00.000 --> 01:15:04.000
+ to be working my way up again. Well, he couldn't beat you up because now you have training in
+
+01:15:04.000 --> 01:15:09.600
+ Jiu Jitsu. That's true. I would pull on the ground. Yeah. I'm a wiper, four and stripe people.
+
+01:15:09.600 --> 01:15:14.960
+ Okay. I know things. I know some things about Jiu Jitsu. Yeah. I think you can beat a 18 year old
+
+01:15:14.960 --> 01:15:18.880
+ self. Yeah, maybe. I think most people have a different experience than you. I think it's more
+
+01:15:18.880 --> 01:15:23.280
+ some of my experience where when I was young, I played a lot of sports and we'd always like,
+
+01:15:23.280 --> 01:15:29.360
+ but I never played like football. So like, yeah, we had to go do weight training, but like, we never
+
+01:15:29.360 --> 01:15:33.360
+ like to get that serious. It wasn't super serious. Yeah. All we had was football, football and basketball.
+
+01:15:33.360 --> 01:15:36.880
+ Like, we didn't have wrestling. We didn't have ultimate Frisbee. Are you kidding me? You had
+
+01:15:36.880 --> 01:15:40.960
+ like ultimate Frisbee is that organized sport you could play. Well, I was invented in like,
+
+01:15:40.960 --> 01:15:46.560
+ in New Jersey. So it was kind of really big there. Yeah. We literally had like the three sports play
+
+01:15:46.560 --> 01:15:53.200
+ with the MKBHD. I think I told you this, right? Oh, yeah. That's crazy. I could picture you two out
+
+01:15:53.200 --> 01:15:58.480
+ there throwing the Frisbee around. It's not really physical. It's a weirdly physical sport.
+
+01:15:58.480 --> 01:16:03.920
+ Really? Because there's no referees and you're all like teenagers and like full of like anger.
+
+01:16:03.920 --> 01:16:13.760
+ Yeah. So it gets pretty physical. It was fun though. But yeah, so like now I can't play sports.
+
+01:16:13.760 --> 01:16:18.160
+ All I have is like, I can't play sports as much. Like I don't have much time and it's not as fun
+
+01:16:18.160 --> 01:16:23.680
+ because I'm not as good at it. So all I have now is like weight training. So I'm way stronger now
+
+01:16:23.680 --> 01:16:29.360
+ than I then I've ever been in my life. Have you considered Jiu Jitsu? Have you considered the martial
+
+01:16:29.360 --> 01:16:34.320
+ arts? Because you say you can't play sports and I feel the same way. But Jiu Jitsu has brought
+
+01:16:34.320 --> 01:16:38.080
+ that back to me. It feels like I'm making up for last time. Okay. So no, it's not that I can't
+
+01:16:38.080 --> 01:16:46.000
+ play sports. I still do and I enjoy that more than I would martial arts. It is not my thing. I get
+
+01:16:46.000 --> 01:16:52.960
+ it and I see how it's fun and I see why people like it. But I really like team sports. Like I
+
+01:16:52.960 --> 01:16:57.920
+ that's like one of the biggest reasons why I enjoy sports. Like the team aspect of it and like
+
+01:16:57.920 --> 01:17:05.760
+ executing stuff as a team. So that's big for me. And I love like, yeah, I think when I see Jiu Jitsu,
+
+01:17:05.760 --> 01:17:11.680
+ it's like really intense and focused and precise. Whereas sports tend to have like these like
+
+01:17:11.680 --> 01:17:16.560
+ like downtime and like moments of uptime and downtime and moments of like it's like,
+
+01:17:16.560 --> 01:17:19.840
+ yeah. So I think I tend to like like that a little bit more. Okay.
+
+01:17:19.840 --> 01:17:24.720
+ Well, trash, milky. There's just a growing coalition and the techs are going to all your friends are
+
+01:17:24.720 --> 01:17:29.440
+ going to be Jay used to do to also did he really? Yeah. I keep finding out about people that used
+
+01:17:29.440 --> 01:17:32.560
+ to do Jiu Jitsu. And that makes me sad because that means like there's a shelf life here. I'm
+
+01:17:32.560 --> 01:17:36.480
+ eventually going to stop and I'm going to be one of those people that have used to do Jiu Jitsu.
+
+01:17:36.480 --> 01:17:40.000
+ Feels like a thing I want to do forever. But I know it's going to stop. But why did he stop?
+
+01:17:40.000 --> 01:17:43.120
+ Why did Jay stop? Well, it's not something to do with Jiu Jitsu. It's like this with everything.
+
+01:17:43.120 --> 01:17:48.240
+ Like how many things have seasons of life used to stream on Twitch? That's true. Hey,
+
+01:17:48.240 --> 01:17:58.320
+ I'm supposed to do a bunch of seasons of life. Speaking of seasons, I need to move on to a
+
+01:17:58.320 --> 01:18:04.000
+ different season of this day. I think it's time to eat food. I haven't eaten. I actually haven't
+
+01:18:04.000 --> 01:18:10.240
+ eaten in 24 hours. I fast a lot lately because of Jiu Jitsu. It's just introduced so many positive
+
+01:18:10.240 --> 01:18:14.480
+ habits. Why are you fasting because of Jiu Jitsu? I mean, I'm cutting. I've got a competition in
+
+01:18:14.480 --> 01:18:19.840
+ two weeks. I guess there are a lot of bulking and cutting these days, which is mostly just
+
+01:18:19.840 --> 01:18:25.200
+ I don't eat for two weeks before my competition could fit in the back of the living.
+
+01:18:25.200 --> 01:18:32.480
+ It's pretty fun. I forgot when I was in or when I stopped. I was keto for like three months and I
+
+01:18:32.480 --> 01:18:36.480
+ dropped a bunch in weight. I'm going in the opposite direction where I'm trying to gain as much weight
+
+01:18:36.480 --> 01:18:42.400
+ as possible. I'm on a going up phase. It's hard to eat. If you're weight training and you're trying
+
+01:18:42.400 --> 01:18:48.320
+ to build mass, it's really hard to eat enough of what you need. I mean, I'm going to say protein,
+
+01:18:48.320 --> 01:18:53.760
+ but it triggers me to the word. It's impossible to eat enough protein. It's so hard. Anyone who
+
+01:18:53.760 --> 01:18:59.600
+ says it's not is lying because it isn't possible. If you really get how much you should get for
+
+01:18:59.600 --> 01:19:05.200
+ building strength and mass, it's like a full-time job. You're just basically always eating. It sucks.
+
+01:19:05.200 --> 01:19:10.320
+ Yeah. It is impossible. It's so filling. Protein is so filling. Anything you're eating that's high
+
+01:19:10.320 --> 01:19:17.840
+ protein is like you don't want to eat again. If I eat 50 grams of protein with breakfast and
+
+01:19:17.840 --> 01:19:23.680
+ I'm like, I don't need lunch or dinner. I'm good. I know. And I need another 150 or whatever. It sucks.
+
+01:19:23.680 --> 01:19:28.320
+ Yeah. If you actually measure it out, everyone's not getting enough protein.
+
+01:19:28.320 --> 01:19:34.800
+ Oh, yeah. Well, in terms of building strength, most people like my wife, people that don't care,
+
+01:19:34.800 --> 01:19:39.600
+ they're fine. There's no medical term for not getting enough protein.
+
+01:19:39.600 --> 01:19:44.400
+ It's just like you're malnourished. You're not eating enough. But if you're trying to build
+
+01:19:44.400 --> 01:19:49.840
+ strength and do these stupid athletic things, it's way harder. Yeah. Okay. All right. Well,
+
+01:19:49.840 --> 01:19:55.520
+ this was long. I feel like I'm going to stop saying that. It's an hour and 20, whatever. It is what
+
+01:19:55.520 --> 01:20:01.840
+ it is. We're slowly inching up. Our average has been inching up slowly. And then eventually,
+
+01:20:01.840 --> 01:20:10.000
+ we'll be at Joe Rogan levels. Yes. Four hour podcasts. You're ready. All right. All right. See you next.
+

@@ -1,0 +1,2396 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.400
+ Oh god. The couch is wet. Oh. Yeah, I can't be outside. Unfortunately. Okay. Well, it was a nice
+
+00:00:10.400 --> 00:00:15.200
+ trap. I'm sure you're wondering why Dax's couch is too wet to record. But before we get to that,
+
+00:00:15.200 --> 00:00:19.600
+ Adam woke me up at 5am on a Saturday morning to ask me to tell you, if you'd like to support
+
+00:00:19.600 --> 00:00:24.720
+ Adam and Dax and this very podcast, you can do so by subscribing to their new monthly box called
+
+00:00:24.720 --> 00:00:29.840
+ CRON. You can open up your terminal and type SSH terminal dot shop. Find out all the details there.
+
+00:00:29.840 --> 00:00:34.240
+ It promises to be the most entertaining thing you get every month when it shows up at your door.
+
+00:00:34.240 --> 00:00:38.240
+ And hey, maybe you're like me and your client wakes you up at 5am on a Saturday task you do
+
+00:00:38.240 --> 00:00:42.240
+ something. What better way to recover from that early morning wake up than to receive a special
+
+00:00:42.240 --> 00:00:47.520
+ flavor of a month blend themed around the topics and memes that drive tech culture. So visit terminal
+
+00:00:47.520 --> 00:00:53.360
+ dot shop in your web browser or open up a terminal window and type SSH terminal dot shop for more
+
+00:00:53.360 --> 00:01:22.560
+ details. We're doing it. We're doing it. You are not in America. I'm not in America. It's fine.
+
+00:01:22.560 --> 00:01:26.720
+ This is technically international travel. Do you care to share? I'm in the Dominican Republic.
+
+00:01:26.720 --> 00:01:35.840
+ I got here on Wednesday. We're here till Sunday. We're doing a big family vacation with Elizabeth
+
+00:01:35.840 --> 00:01:44.400
+ family. It's actually hilarious because we have like 20 something people here. Wow. And so it's
+
+00:01:44.400 --> 00:01:50.240
+ kind of cool because it's a resort, but it's not like a giant resort, which means when we're all
+
+00:01:50.240 --> 00:01:58.640
+ together, we're just like this giant mob just taking over the whole place. And it's a rowdy mob.
+
+00:01:58.640 --> 00:02:05.680
+ So it's been pretty funny. And slash funny. Yeah, I can imagine. There were some like stereotypes
+
+00:02:05.680 --> 00:02:10.880
+ I want to go down, but I'm not going to go down. But I can imagine what? Well, like a lot of people.
+
+00:02:10.880 --> 00:02:17.040
+ Yeah. Yeah. Yeah. I can imagine. I miss I miss this. But Liz was describing the situation where
+
+00:02:17.840 --> 00:02:22.800
+ they were waiting to get on one of those like golf cart trolley transport things or whatever.
+
+00:02:22.800 --> 00:02:28.560
+ Yeah. They always have these resorts. And it was like 20 of them. And they had a boombox playing
+
+00:02:28.560 --> 00:02:33.520
+ like Lao Latin music and they were like just being super rowdy and like her dad was dancing with
+
+00:02:33.520 --> 00:02:38.720
+ her mom and they think it was crazy like Latin stuff. And they like were at the stop. And then
+
+00:02:38.720 --> 00:02:46.240
+ there was like this Asian family of like it was like to like the grandparents and like the parents
+
+00:02:46.240 --> 00:02:51.680
+ and the kids. Yeah. And they were just like sitting and like slowly just like edging away and clearly
+
+00:02:51.680 --> 00:02:56.800
+ like where they were really overwhelmed by everything that was going on. Yeah. And it was just like a
+
+00:02:56.800 --> 00:03:04.960
+ funny juxtaposition of a, you know, two different cultures. Yeah, that's awesome. Yeah. The funny
+
+00:03:04.960 --> 00:03:10.800
+ thing also is when when you have this many people at a resort this size, you just randomly run into
+
+00:03:11.360 --> 00:03:15.920
+ people over and over. Like we're just going out and we just you see like your family members everywhere.
+
+00:03:15.920 --> 00:03:20.160
+ Yeah. It really feels like we just took over this place. So it's a lot of fun.
+
+00:03:20.160 --> 00:03:25.040
+ Yeah. I didn't know you were going. This was like a surprise to me. Did you tell me and I forgot?
+
+00:03:25.040 --> 00:03:29.200
+ No, I also it was just one of those things where we had the New York stuff. And then I just knew
+
+00:03:29.200 --> 00:03:35.200
+ this was after but like in my head nothing existed until, you know, like after that point in time.
+
+00:03:35.200 --> 00:03:41.840
+ Because there was so much focus and work. So yeah, I kind of forgot too. I want to talk. This is I
+
+00:03:41.840 --> 00:03:47.760
+ feel like you'll never have a problem with this talk. I want to talk about SST because I've been
+
+00:03:47.760 --> 00:03:55.280
+ using SST a lot and I have questions about like all of your plans because I'm just really how much
+
+00:03:55.280 --> 00:04:02.560
+ I rely on it for like everything I do. The console super good better all the time. It's so cool to
+
+00:04:02.560 --> 00:04:08.240
+ just have like all of my work is in the console at this point being able to find logs being able
+
+00:04:08.240 --> 00:04:12.960
+ to find live stuff that's happening. Like I've got external parties testing stuff and just being
+
+00:04:12.960 --> 00:04:18.320
+ able to watch the logs. It's so it's so nice. Everything is so nice. The auto deploys now.
+
+00:04:18.320 --> 00:04:24.480
+ Are you guys ever going to add? And this is this is where I don't know like where SST wants to focus
+
+00:04:24.480 --> 00:04:31.120
+ where you three care about focusing because this is like one specific thing you deploy which is like
+
+00:04:31.120 --> 00:04:37.120
+ web products. Do you ever plan to add like analytics stuff where I could just never use another
+
+00:04:37.120 --> 00:04:43.200
+ external analytics party again and just have it in the console? Yeah, so I guess I'll give you like
+
+00:04:43.200 --> 00:04:51.120
+ quick like overview where our heads at with a bunch of things. So the console itself the
+
+00:04:51.120 --> 00:04:55.040
+ for us spending time the console is always tricky because it is like the bottom
+
+00:04:55.040 --> 00:05:00.560
+ thing in our funnel, right? There's like people out here best to if they're using the console they're
+
+00:05:00.560 --> 00:05:04.080
+ like all the way towards the end. They're probably something like already deployed a production. Yeah,
+
+00:05:04.080 --> 00:05:09.840
+ and we need to have something there because that's like, you know, important. But
+
+00:05:09.840 --> 00:05:15.600
+ it's hard like when you're like at the phase we are, we like it feels like we have to like
+
+00:05:15.600 --> 00:05:19.840
+ work on the console again. I'd rather focus on like getting two times as many users at the top.
+
+00:05:19.840 --> 00:05:26.160
+ Yeah, it's like you already have us like us people using the console. You already sold us. So like,
+
+00:05:26.160 --> 00:05:31.760
+ yeah, focusing your three people effort towards growing that big number at the top of the funnel,
+
+00:05:31.760 --> 00:05:34.560
+ that makes sense. I think I've seen you tweet things like this and I wasn't smart enough at
+
+00:05:34.560 --> 00:05:41.120
+ the time to know what you meant. Yeah, so it's like it's I think the thing that balances it out
+
+00:05:41.120 --> 00:05:46.880
+ though is I'm an ST user. So when I can't do things on the console, I'm annoyed. You want to fix it?
+
+00:05:46.880 --> 00:05:50.720
+ Yeah. Yeah, we improved it a lot over the past couple of months. I still feel like I want to
+
+00:05:50.720 --> 00:05:56.720
+ improve it a lot more. But yeah, it's just like there's always attention. So the second thing is
+
+00:05:56.720 --> 00:06:02.800
+ we obviously widen our scope a ton because with V3, you know, we support all different types of
+
+00:06:02.800 --> 00:06:10.960
+ providers, et cetera. But we are kind of, I wouldn't say done, but it's just like we had a phase where
+
+00:06:10.960 --> 00:06:15.920
+ we were like expanding wide just to make sure our stuff could work really well in all kinds of
+
+00:06:15.920 --> 00:06:22.400
+ scenarios, test it all. But the next couple weeks, months are going to be back to focusing on AWS
+
+00:06:22.400 --> 00:06:27.920
+ and making sure that there's lots of that's not very polished there as well. So we want to make
+
+00:06:27.920 --> 00:06:34.160
+ sure we lock down the idea of this is going to be the best way to do AWS. We want to make sure that
+
+00:06:34.160 --> 00:06:40.000
+ we don't like lose that as we kind of widen our focus a bit. Yeah, it's a good timing to shift over
+
+00:06:40.000 --> 00:06:44.480
+ with all the new stuff too. There might be things that that changes or components you want to add
+
+00:06:44.480 --> 00:06:51.680
+ stuff like I'd love the scale to zero config. And yep, like I've got databases, I just randomly like
+
+00:06:51.680 --> 00:06:58.320
+ had this $200 AWS bill every month for like my personal account where I was doing, it's like
+
+00:06:58.320 --> 00:07:02.640
+ where I was in pro AWS stuff. And then also it's like my stream overlays. There's like no traffic
+
+00:07:02.640 --> 00:07:06.960
+ to any of that. And I realized like, Oh, it's because I have these databases spun up in every
+
+00:07:06.960 --> 00:07:11.360
+ account. And then it's also the NAT gateways. I think the cluster I just saw in the, in your
+
+00:07:11.360 --> 00:07:15.840
+ guy's little note on the cluster thing, it doesn't use NAT gateway in the new version or something.
+
+00:07:15.840 --> 00:07:20.320
+ I've got to update all my stuff. Yeah. Yeah. I'll be with that. We found a nice upgrade path with the
+
+00:07:20.320 --> 00:07:24.720
+ the NAT gateway stuff where you don't have to use it at all if you don't want to any kind of
+
+00:07:24.720 --> 00:07:28.720
+ progressively add it in if you if you need it. Yeah. Yeah. Okay. So that's actually one of the
+
+00:07:28.720 --> 00:07:34.160
+ reasons we are shifting back to Polish and AWS stuff with all the cloud front, not really all
+
+00:07:34.160 --> 00:07:37.920
+ the cloud front changes with that one big cloud front change of functions being able to change
+
+00:07:37.920 --> 00:07:43.440
+ origins, the router stuff. Yeah. So like that just deserves us to go and look to see what this
+
+00:07:43.440 --> 00:07:48.880
+ enables like such a wide range of things like all those weird astral limitations with the 25
+
+00:07:48.880 --> 00:07:54.960
+ behavior stuff. Obviously that that could all be fixed, but also stuff like sharing a single CDN
+
+00:07:54.960 --> 00:08:00.960
+ across multiple stages. So you deploy cloud front once and you can have like a sub domain for every
+
+00:08:00.960 --> 00:08:06.640
+ PR like that type of thing. So yeah, I think we were doing another pass on all of our SSR sites
+
+00:08:06.640 --> 00:08:11.360
+ with this new capability to see like how much better can we make things and what promises itself.
+
+00:08:11.360 --> 00:08:17.040
+ So yeah, that's like our current focus. But the thing you brought up of like the analytics thing.
+
+00:08:17.040 --> 00:08:23.680
+ So yes, that is falls, probably falls under a scope of stuff that we would want to do. If you
+
+00:08:23.680 --> 00:08:28.400
+ look at what I'm working on with open auth right now, it's kind of in that category. It's taking
+
+00:08:28.400 --> 00:08:33.600
+ something that typically is delivered as a host service and delivering it again as a host of
+
+00:08:33.600 --> 00:08:39.120
+ services inside your account. So you spin it up and you get like dedicated endpoints for it and it
+
+00:08:39.120 --> 00:08:43.680
+ looks the integration with it looks very similar to an integration you would do with Auth0,
+
+00:08:43.680 --> 00:08:48.960
+ but it's an on your infrastructure and integrates with the rest of our stuff. Analytics is obviously
+
+00:08:48.960 --> 00:08:57.120
+ another thing like that. And we try to like find ways to do it that's a little bit unique since we
+
+00:08:57.120 --> 00:09:03.520
+ can spin up any infrastructure we want in your account. And I think our equivalent for analytics
+
+00:09:03.520 --> 00:09:08.960
+ would be so typically analytics is delivered as like a JavaScript tracking thing on the front end.
+
+00:09:08.960 --> 00:09:16.080
+ But because we have access to all of your infrastructure logs and everything, we can probably also
+
+00:09:16.080 --> 00:09:22.160
+ source data that most analytics solutions can't. But like for you specifically, like what were you
+
+00:09:22.160 --> 00:09:27.200
+ when you're having analytics like what are you what are you imagining? Yeah, just like I use
+
+00:09:27.200 --> 00:09:34.480
+ I'm not going to name them because I don't want to I don't I use like Google analytics alternatives
+
+00:09:34.480 --> 00:09:39.200
+ in the community. Yeah. Right now I don't know why I don't want to name I don't want to
+
+00:09:39.200 --> 00:09:42.880
+ I don't want to come up and I'm like just moving off of them I guess because I like the people.
+
+00:09:42.880 --> 00:09:49.360
+ But just like having to have another thing outside of me is what I'm just laughing because
+
+00:09:49.360 --> 00:09:54.480
+ there's like literally two options and I'm pretty sure like when you said I like that and I'm like
+
+00:09:54.480 --> 00:10:00.560
+ there's probably only one of these people you personally know. So it's obviously yeah. It's like
+
+00:10:00.560 --> 00:10:09.440
+ I am I'm not going to want to name this PHP based analytics tool who I really like by the way they
+
+00:10:09.440 --> 00:10:18.080
+ also do this a lot. Yeah. Anyway, no, I do like them. I just just like help you feel better about
+
+00:10:18.080 --> 00:10:23.920
+ this. Yeah. A lot of our set is geared towards not being better than these products. It's just
+
+00:10:24.800 --> 00:10:29.360
+ nice when they're kind of in the same place. So consolidated. Yeah. And all in my AWS account.
+
+00:10:29.360 --> 00:10:33.840
+ Yeah, exactly. So we build like a worse we will build a verse version of whatever you're using.
+
+00:10:33.840 --> 00:10:41.680
+ But like you might still use it just because it's adjacent. Yeah. Right. So just like high level.
+
+00:10:41.680 --> 00:10:45.920
+ This is not like I'm not even for stat news. I'm not even thinking for that use case because we
+
+00:10:45.920 --> 00:10:51.040
+ have all kinds of custom stuff we do for analytics that I just don't imagine like a box off the
+
+00:10:51.040 --> 00:10:57.920
+ box off the shelf box solution would work anyway. This is just like high level like what you get
+
+00:10:57.920 --> 00:11:03.200
+ in Cloudflare. I think Cloudflare has like a basic analytics for web properties just to like know.
+
+00:11:03.200 --> 00:11:08.240
+ Oh, people actually hit this. That's basically it. Yeah. So I yeah, I think our approach is always
+
+00:11:08.240 --> 00:11:12.800
+ hoping and this doesn't work out too much. But I think it could work out for this.
+
+00:11:12.800 --> 00:11:19.920
+ Hoping there is an open source effort in building something like this and just wrapping it in a
+
+00:11:19.920 --> 00:11:26.400
+ really slick component that just you drop it and you just get it at an endpoint. And so Drizzle
+
+00:11:26.400 --> 00:11:30.240
+ released their $1 stats thing. I don't know if you saw that. I don't even know if they announced
+
+00:11:30.240 --> 00:11:33.920
+ it because I saw some like random account posting it but they didn't mention to me they were working
+
+00:11:33.920 --> 00:11:39.840
+ on it. It's exactly that. It's like just a high overview of whatever at the end cost of $1 a
+
+00:11:39.840 --> 00:11:44.800
+ month or something. I don't know if that's open source is probably not but there's probably some
+
+00:11:44.800 --> 00:11:49.680
+ open source efforts around this. Yeah. So just wrapping that into your account and you just get it at
+
+00:11:50.400 --> 00:11:56.400
+ analytics.mydomain.com or whatever. Yeah. I mean, that makes a lot of sense and
+
+00:11:56.400 --> 00:12:03.040
+ it's nice for us because it's like pretty much every single company needs it. It's like so
+
+00:12:03.040 --> 00:12:10.640
+ general. Yep. I will say you just a little word of advice. If this is helpful, this might be
+
+00:12:10.640 --> 00:12:17.200
+ context I have server side versus like browser analytics are so wildly different. Maybe it's
+
+00:12:17.200 --> 00:12:22.880
+ unique to stat means because we get a lot of like bots a lot of scraping our site but like our
+
+00:12:22.880 --> 00:12:27.680
+ server side numbers if we go off our cloud front logs are so much larger than like actual browser
+
+00:12:27.680 --> 00:12:32.880
+ sessions from something like I see Google analytics. Like when you narrow it to things that actually
+
+00:12:32.880 --> 00:12:37.600
+ execute JavaScript, it's just a huge it's like half. I mean, it's a huge discrepancy. And again,
+
+00:12:37.600 --> 00:12:43.280
+ that might be just stat means is unique because we do again have a lot of that people trying to
+
+00:12:43.280 --> 00:12:48.400
+ get our data and stuff. So I don't know if that colors. No, I think that make that, but I think
+
+00:12:48.400 --> 00:12:53.040
+ that makes sense. I think it probably is good to do it from the browser. We could probably just
+
+00:12:53.040 --> 00:12:57.200
+ put a flag on our SSR site. So you say analytics true and then we could just inject the
+
+00:12:57.200 --> 00:13:01.680
+ JavaScript. Yeah, just inject in there. That's so cool. You guys can do like anything like that,
+
+00:13:01.680 --> 00:13:05.440
+ which is super cool. Yeah, we have a nice entry point to all this stuff. Like other people,
+
+00:13:05.440 --> 00:13:09.520
+ what's cool about it? And maybe this is just infrastructure nerd stuff that no one cares about.
+
+00:13:09.520 --> 00:13:16.480
+ But it's cool because if you did that, you decided I want to inject like actual JavaScript into your
+
+00:13:16.480 --> 00:13:22.000
+ sites, there might be like infrastructure level things that still have to be done to like allow
+
+00:13:22.000 --> 00:13:26.880
+ that traffic or something. And you guys can do that too. Like you can also modify cloud front
+
+00:13:26.880 --> 00:13:33.280
+ behaviors or something to like you can work front to back in a way that if you're not doing what
+
+00:13:33.280 --> 00:13:37.120
+ SSC is doing, which is like the whole thing, all the infrastructure deployment, all that stuff,
+
+00:13:37.120 --> 00:13:42.160
+ you can't do that. Like someone who just hands you a JavaScript library, they're kind of the like
+
+00:13:42.160 --> 00:13:47.120
+ whims, they're the holding to your infrastructure and how you deploy and all that. Anyway,
+
+00:13:47.120 --> 00:13:50.720
+ yeah, exactly. That's cool. Historically, if you wanted to distribute something open source,
+
+00:13:50.720 --> 00:13:56.880
+ you can only distribute a library and then that kind of limits the type of stuff you can distribute
+
+00:13:56.880 --> 00:14:01.280
+ or you have to like give them crazy instructions on like, right, you got to have instructions per
+
+00:14:01.280 --> 00:14:05.200
+ like place that can put their thing. And you guys don't have that problem.
+
+00:14:05.840 --> 00:14:12.160
+ Yeah. So if you look at open off, so the way we set it up is we still expect most you to like
+
+00:14:12.160 --> 00:14:17.200
+ own most of your data in your main database, but we needed some amount of state, just so like a
+
+00:14:17.200 --> 00:14:21.840
+ basic key values or type of things or store like refresh tokens and things like that.
+
+00:14:21.840 --> 00:14:26.480
+ You don't need access to that. It can just basically be a black box. Yep. If it was just a
+
+00:14:26.480 --> 00:14:32.640
+ library, we would have to make an adapter for use an adapter for Redis and for my
+
+00:14:32.640 --> 00:14:38.960
+ SQL and for both your database. But then for us, we're like, if you're on AWS, it's just going
+
+00:14:38.960 --> 00:14:44.080
+ to be a DynamoDB table. It's never something you have to ever look into. So it's kind of invisible
+
+00:14:44.080 --> 00:14:47.760
+ to you. If you're on Cloudflare, just Cloudflare, KV. So we need to implement those too. And then
+
+00:14:47.760 --> 00:14:54.240
+ we're good because we can ship the infrastructure with a library, basically. So yeah, we haven't
+
+00:14:54.240 --> 00:14:58.880
+ taken advantage of it too much, but that's kind of like the grand vision of like what we can
+
+00:14:58.880 --> 00:15:03.840
+ eventually do. Yeah, more random, just like questions for you. One, have you ever considered,
+
+00:15:03.840 --> 00:15:08.560
+ maybe this is a huge hurdle, but like billing through our AWS account, I feel like some third
+
+00:15:08.560 --> 00:15:13.520
+ parties have done that, but it'd be cool if the console could just, yeah, that would be even better,
+
+00:15:13.520 --> 00:15:18.000
+ because then it really is like, we just pay our AWS bill every month. And we can imagine all these
+
+00:15:18.000 --> 00:15:22.960
+ things coming under the fold of SST, like analytics and all that, and it's just like one bill. That
+
+00:15:22.960 --> 00:15:28.880
+ would be awesome. Well, our create, okay, so not only is that good for you guys, we are highly
+
+00:15:28.880 --> 00:15:34.880
+ motivated to do that because of the way that AWS Negotiates contracts, it's now like committed
+
+00:15:34.880 --> 00:15:41.040
+ spend, right? So if you committed spend a million dollars a year with them, us being part of that
+
+00:15:41.040 --> 00:15:46.880
+ bill counts to that. So going through the procurement process for these giant enterprise companies,
+
+00:15:46.880 --> 00:15:51.920
+ there's basically no procurement process. They don't have to go like do any of that typical
+
+00:15:51.920 --> 00:15:57.680
+ stuff, which could take like six months to a year. So that AWS marketplace thing is like,
+
+00:15:57.680 --> 00:16:03.840
+ is very, very, very cool, because it kind of solves the enterprise sales problem.
+
+00:16:03.840 --> 00:16:10.240
+ The other thing we really want to do is, okay, so it's not easy to get that set up. We should,
+
+00:16:10.240 --> 00:16:14.880
+ because we're, you know, there's we have such a good reason to. Once we have that set up,
+
+00:16:14.880 --> 00:16:21.440
+ we might as well have our own marketplace on there as well. So if somebody distributes apps
+
+00:16:21.440 --> 00:16:27.360
+ using SST, so there's a few apps out there that are like kind of the type of things that we build,
+
+00:16:27.360 --> 00:16:32.480
+ but other people have built them where it's open source or like maybe you even pay for it,
+
+00:16:32.480 --> 00:16:37.040
+ and I guess you've distributed to your account. Yeah, I would love to just see an app store one
+
+00:16:37.040 --> 00:16:43.040
+ day in the SC console that's like installing. Yes, like if someone else built open auth,
+
+00:16:43.040 --> 00:16:47.440
+ like that someone else could have built an auth solution, and that's like in your marketplace,
+
+00:16:47.440 --> 00:16:51.120
+ you can turn that on. Oh, that's a great point. And we'd all just get built through the same
+
+00:16:51.440 --> 00:16:55.440
+ if if there is building associated with it, it can just get built to the same. Yeah, kind of
+
+00:16:55.440 --> 00:17:01.840
+ interface. So it would be an app store that would be multi cloud, which I think is a pretty
+
+00:17:01.840 --> 00:17:09.200
+ like unique. Oh, yeah, this is cool. What if like, yeah, what if the incumbents had motivation,
+
+00:17:09.200 --> 00:17:13.040
+ like, well, why wouldn't clerk want to have an auth thing that you could deploy into your AWS
+
+00:17:13.040 --> 00:17:18.960
+ account through SST like, yeah, exactly. Just like they view SST users as this whole other bucket of
+
+00:17:19.600 --> 00:17:24.880
+ sales potential. Yeah, yeah, exactly. And it's like, it should, I mean, in the most extreme view,
+
+00:17:24.880 --> 00:17:29.760
+ like, why wouldn't that just be the default? Because you eventually have to build that anyway,
+
+00:17:29.760 --> 00:17:35.200
+ because as soon as you hit enterprise, they're going to want the stuff in their account. So you
+
+00:17:35.200 --> 00:17:39.680
+ might as well start with the platform that's you'd do that from day one, and we can build then like
+
+00:17:39.680 --> 00:17:45.280
+ SDKs for all kinds of things like, I mean, billing for one, but like, just all sort of common
+
+00:17:46.160 --> 00:17:50.800
+ problems when you're deploying some into other people's accounts, like monitoring it, doing updates,
+
+00:17:50.800 --> 00:17:56.320
+ like all kinds of stuff. Yeah, this is a great idea. SST was a good idea. Good job, guys.
+
+00:17:56.320 --> 00:18:03.040
+ Like, I can see the future for like, that everything before this, it's like the whole
+
+00:18:03.040 --> 00:18:08.880
+ generation of dev tool companies before this was so like, agnostic to infrastructure.
+
+00:18:08.880 --> 00:18:13.280
+ And this just seems like the most obvious, well, what if we weren't, what if we weren't
+
+00:18:13.280 --> 00:18:18.960
+ agnostic? What if we also included your infrastructure in the thing? Is that kind of the bet? I mean,
+
+00:18:18.960 --> 00:18:24.720
+ that's the like thing that is unique. Yeah, I think we basically are most extreme bet is that
+
+00:18:24.720 --> 00:18:30.480
+ delivering software as a service is not like a permanent long term thing. And we're betting that
+
+00:18:30.480 --> 00:18:34.480
+ we can make that change or think of that change happens. And if it does,
+
+00:18:34.480 --> 00:18:39.520
+ obviously massive win would show up if you do that. The other thing that changed a lot,
+
+00:18:39.520 --> 00:18:44.160
+ which makes us possible is if you think about why you were paying for a SaaS before, it was a
+
+00:18:44.160 --> 00:18:49.840
+ combination of two things. They wrote a bunch of code that you don't have. It's like close source,
+
+00:18:49.840 --> 00:18:54.480
+ and they wrote it, they put in the time and effort investment to write it. But once it's written,
+
+00:18:54.480 --> 00:18:59.280
+ like, obviously there's updates, but roughly like once it's written, it can be deployed a
+
+00:18:59.280 --> 00:19:03.360
+ billion times over like it's, it's no more investment needs to go into it. But the reason you pay them
+
+00:19:03.360 --> 00:19:12.240
+ monthly is because they also deal with the operations of running that code. So spinning up the database,
+
+00:19:12.240 --> 00:19:17.440
+ like all that economics of scale, you're just renting a small portion of whatever infrastructure
+
+00:19:17.440 --> 00:19:20.800
+ that they have. So that's why software service made sense. It wasn't just for the software,
+
+00:19:20.800 --> 00:19:27.280
+ it was also for like the operations of running it. But if cloud primitives become more and more
+
+00:19:27.280 --> 00:19:34.080
+ self-running, where like AWS is basically can do all that for you, you start to pay companies
+
+00:19:34.080 --> 00:19:39.760
+ just for their code, right? Like a lot of modern companies have, they're not managing infrastructure
+
+00:19:39.760 --> 00:19:45.440
+ at all, they're just using managed infrastructure themselves. So you're only paying for code now.
+
+00:19:45.440 --> 00:19:50.320
+ So that means anyone that can produce the code can produce a competitor. So I think
+
+00:19:51.760 --> 00:19:57.200
+ that that should has also happened where, yeah, like the miles around us have to change because
+
+00:19:57.200 --> 00:20:01.360
+ the moment something open source clones you, and it's just easy to self-host it because the
+
+00:20:01.360 --> 00:20:08.480
+ operations are basically the same, you're not a problem. Yeah, elastic. Yeah, there's probably a
+
+00:20:08.480 --> 00:20:13.520
+ dozen examples. Is that fit what you're saying? Oh, yeah, for sure. Like anytime like something
+
+00:20:13.520 --> 00:20:19.040
+ gets cloned by a big cloud, it's, it's that it's just, there's already like the biggest company in
+
+00:20:19.040 --> 00:20:27.520
+ the world offering here we deal with operations for you. Yeah, as a service. So it's hard to also
+
+00:20:27.520 --> 00:20:31.520
+ sell product being like, oh yeah, and then we deal with the operations for you. Yep, makes sense.
+
+00:20:31.520 --> 00:20:38.080
+ I just thought of another random idea. This was one while we've been talking of things I want in
+
+00:20:38.080 --> 00:20:46.080
+ this SST marketplace, or maybe I want you guys to build it. Like a simple cost explorer, a simple
+
+00:20:46.080 --> 00:20:54.000
+ like AWS spend diagnostics. Oh man, if you guys do that, and you just do the like SST version that's
+
+00:20:54.000 --> 00:21:00.720
+ super simple and very easy to parse, because like I've spent a decade in the AWS billing and
+
+00:21:00.720 --> 00:21:04.800
+ management console or whatever. So I have like some experience, but it's still overwhelming.
+
+00:21:04.800 --> 00:21:09.440
+ And I spill, I still spend way more time just for some basic information I want, like a top down,
+
+00:21:09.440 --> 00:21:15.600
+ like single page overview of my AWS spend. Oh man, I'm getting really excited about SST.
+
+00:21:15.600 --> 00:21:18.880
+ Can I invest, you guys are going to do another round, right? Can we talk about that on a podcast?
+
+00:21:18.880 --> 00:21:23.920
+ Is that a thing that could be talked about? We might do another round in January. Yeah.
+
+00:21:23.920 --> 00:21:28.960
+ Oh, I just realized I said you guys are. I don't know if that's something I can say.
+
+00:21:28.960 --> 00:21:35.760
+ Maybe you say the thing about Chris. Okay. Because if I say it, it's fine. I mean,
+
+00:21:35.760 --> 00:21:38.960
+ nothing where it's like very early. We're just exploring. Yeah, yeah, yeah.
+
+00:21:38.960 --> 00:21:43.600
+ Or options, but. Wink, Wink, let me know. I might want to. That'd be weird if I was one of your
+
+00:21:43.600 --> 00:21:51.440
+ investors. I'd be an annoying investors. Is that a conflict of interest? No, I don't know.
+
+00:21:51.440 --> 00:22:01.120
+ I don't know anything about this. Yeah, that's right. I knew that. I mean,
+
+00:22:01.120 --> 00:22:04.720
+ I would be like a needy investor. I would not be like them money. I would be like,
+
+00:22:04.720 --> 00:22:08.400
+ I'd be checking in all the time. I'd be super annoying. Like, where's the quarterly update?
+
+00:22:08.400 --> 00:22:14.400
+ I need a quarterly update. We actually do monthly updates, so you'd be free. Look at you guys.
+
+00:22:14.400 --> 00:22:17.760
+ I'm going to write like a $10,000 check and I'm going to be the most needy person on the cap table.
+
+00:22:17.760 --> 00:22:23.360
+ Just watch me. The thing is like, I don't think it would be worth the investment because we're just
+
+00:22:23.360 --> 00:22:27.840
+ a little bit further along for like it to make sense for individual investments, you know?
+
+00:22:27.840 --> 00:22:31.840
+ Sure. Yeah. This is where the big money, the institutions come in.
+
+00:22:31.840 --> 00:22:38.000
+ Big boys with their spenders. If you're saying that you're going to invest in it and be annoying,
+
+00:22:38.000 --> 00:22:44.560
+ then clearly you're getting an ROI there that's not like monetary related. So it's about the
+
+00:22:44.560 --> 00:22:52.000
+ relationship. I want to be close to the SST people. That's all. But anyway, all this stuff,
+
+00:22:52.000 --> 00:22:57.040
+ again, sounds really good, but yeah, we're still like a long ways off from seeing if it's actually
+
+00:22:57.040 --> 00:23:02.160
+ going to work out or like, there's like a lot that still needs to be put into place. Yeah.
+
+00:23:02.160 --> 00:23:06.800
+ Yeah, the stuff just takes forever. It's like building anything takes such a long time.
+
+00:23:06.800 --> 00:23:11.600
+ Yeah. Well, yeah. And there's just three of you. Do you guys feel like it'll always just be the
+
+00:23:11.600 --> 00:23:16.960
+ three of you? Do you ever think about like, we're definitely hitting our limits in terms of what
+
+00:23:16.960 --> 00:23:22.480
+ we can do is three. I'm really proud of how much we've done as three. And I think it's really good
+
+00:23:22.480 --> 00:23:27.840
+ to like just push ourselves. Can I say I'm very proud of what you guys, yeah, like when I see like
+
+00:23:27.840 --> 00:23:32.160
+ blog posts and stuff that are so well done and like the fact that you guys have time to do that
+
+00:23:32.160 --> 00:23:36.720
+ kind of stuff and build all this, it's kind of insane. Sorry, I cut you off. Yeah, no, I think it's
+
+00:23:36.720 --> 00:23:41.760
+ like it's, I've always wanted to be able to say like, oh yeah, well, I'm on a team where everyone
+
+00:23:41.760 --> 00:23:44.960
+ looks at it and they're like, how the hell are they doing all this stuff? And I feel like we've hit
+
+00:23:44.960 --> 00:23:50.400
+ that bar. But there's just like a ceiling, like I was terms of, I'm sure there's another team of
+
+00:23:50.400 --> 00:23:55.520
+ three that can do more than we can. But in terms of where we are, I feel like we've been as clever
+
+00:23:55.520 --> 00:24:00.160
+ as we can and found the leverage and did all that stuff. And we're definitely at our limits of how
+
+00:24:00.160 --> 00:24:05.280
+ much we can do. And I think our ambition is like, it's like hitting up against our vision of what we
+
+00:24:05.280 --> 00:24:11.360
+ want to do. I think the thing that suffers is, I don't think you just cannot do with a small team
+
+00:24:11.360 --> 00:24:17.760
+ is polish. Like, I'm pretty proud of how much polish we do given our size. But I mean, the console
+
+00:24:17.760 --> 00:24:23.280
+ feels polished to me. That's because we just did a round of polish on it. It was kind of been like
+
+00:24:23.280 --> 00:24:29.600
+ not a great state for a little bit. Yeah. So, but like other other companies that are a lot bigger.
+
+00:24:29.600 --> 00:24:34.480
+ Yes, when I look at them, like there's they have like a whole team for something that is should not
+
+00:24:34.480 --> 00:24:41.280
+ even be like a one full time role. But upside from that is you never get something that feels like
+
+00:24:41.280 --> 00:24:45.920
+ unpolished. So like, obviously we don't want to rotate to that extreme, but you know, adding one
+
+00:24:45.920 --> 00:24:50.400
+ more person. Yeah, that makes sense. Yeah, but would yeah, would it be weird to like,
+
+00:24:50.400 --> 00:24:55.840
+ have a non founder involved at this point? Like, would it feel weird for you guys?
+
+00:24:55.840 --> 00:25:01.680
+ I'm technically not a founder. So, it's, yeah, yeah, bigger, like, you've been there a long time.
+
+00:25:01.680 --> 00:25:04.960
+ Yeah. And that's, I mean, it's more like a me personality thing. I've been there for a long time.
+
+00:25:04.960 --> 00:25:08.160
+ And when I work on something, I like, I'm going to treat it the same
+
+00:25:08.160 --> 00:25:12.640
+ wave as I'm technically a founder or not. And obviously, I was like, they're super early. So,
+
+00:25:12.640 --> 00:25:16.960
+ it's a little bit different. So yeah, it is going to be weird when we add someone, like,
+
+00:25:16.960 --> 00:25:22.080
+ like that dynamic, like just having like a new employee is weird on its own.
+
+00:25:22.080 --> 00:25:24.720
+ You'll have to start wearing a shirt on the calls. I mean,
+
+00:25:24.720 --> 00:25:31.440
+ yeah. That would hurt. That's actually what I was going to bring up. Like, we have such a
+
+00:25:31.440 --> 00:25:37.680
+ tight dynamic that it's just so, it feels just so scary adding a fourth person,
+
+00:25:37.680 --> 00:25:42.240
+ because it's going to like reset our dynamic a little bit for a while. Just like, as we,
+
+00:25:42.240 --> 00:25:46.800
+ like, suss everything out and like fall into a new flow. And so, it's always scary and feels like
+
+00:25:46.800 --> 00:25:54.560
+ you might, you might lose something. So, yeah. And that's what's also slowed down us ever,
+
+00:25:54.560 --> 00:25:58.240
+ bringing out another person we just want to like, I just want to bring on something that I already
+
+00:25:58.240 --> 00:26:02.400
+ know. Like, if you join the team, that would be great. I was just like, no worry about that.
+
+00:26:02.400 --> 00:26:07.920
+ All that stuff. When can I start? I'll build the analytics and the billing thing.
+
+00:26:07.920 --> 00:26:09.680
+ Yeah, perfect. Things I want.
+
+00:26:09.680 --> 00:26:17.840
+ I mean, I just work on things I want to. That's really all that happens. It's like,
+
+00:26:17.840 --> 00:26:22.080
+ isn't it so weird that our roadmap and things I want just happen to always coincide? Like,
+
+00:26:22.080 --> 00:26:30.080
+ what a weird, fun coincidence. I just, I want to say, I ask you a lot of questions and then I
+
+00:26:30.080 --> 00:26:34.960
+ interrupt you immediately. And I just remembered some comment I read across one of our platforms,
+
+00:26:34.960 --> 00:26:40.240
+ maybe YouTube, where someone was like, bro, stop cutting DAX off, like chill. And it's in my head.
+
+00:26:40.240 --> 00:26:44.800
+ Every time I cut you off, it's in my head. I do all the time. I'm sorry.
+
+00:26:44.800 --> 00:26:48.480
+ No, but the thing is, you cut me off because I'm long winded. It's like, it's fine. Don't worry
+
+00:26:48.480 --> 00:26:53.200
+ about that. It's just me both. It's like immediately. It's like immediately after ash. I'll be like,
+
+00:26:53.200 --> 00:27:01.520
+ so DAX, what do you think about this? But then, I don't let you actually ignore that comment.
+
+00:27:01.520 --> 00:27:06.240
+ Okay. You heard it here. DAX gave me permission to interrupt him all I want.
+
+00:27:06.240 --> 00:27:11.760
+ SSC is great. That's all. That's what the segment was. I'm a big fan. And it's so cool to look at the
+
+00:27:11.760 --> 00:27:16.880
+ little workspace drop down in the console. And it's like, stat news, terminal. And then like,
+
+00:27:16.880 --> 00:27:21.120
+ my personal stuff is just cool. That's like my whole world digitally. And it's all here in the
+
+00:27:21.120 --> 00:27:26.400
+ console now. And I can go to logs and I can, I don't have to think about like, just launching
+
+00:27:26.400 --> 00:27:31.440
+ something new. I just did a little side project at stat news the other day. And it's so nice to
+
+00:27:31.440 --> 00:27:35.920
+ like hook it up in the console and just know like, I never have to open the cloudwatch thing to try
+
+00:27:35.920 --> 00:27:40.560
+ and figure out like, is this getting activity? I can just go to the log thing. I can watch the live
+
+00:27:40.560 --> 00:27:45.120
+ log. It's so nice. And you guys aren't doing a whole lot yet. Like, you're still early in the
+
+00:27:45.120 --> 00:27:51.680
+ console. And it's still so useful. So keep doing stuff. It's nice. I just I just keep track of one
+
+00:27:51.680 --> 00:27:56.320
+ night and open AWS console, because I still end up having to go other a bunch. The billing thing is
+
+00:27:56.320 --> 00:28:01.040
+ is a big one. I'm always in there to like figure out cost stuff. So obviously, if I'm in there a
+
+00:28:01.040 --> 00:28:08.080
+ bunch, we need to do a feature for that. Our log stuff, I've always been like, it's an okay
+
+00:28:08.080 --> 00:28:12.320
+ thing right now. I think it's particularly useful for what you're talking about where you're building
+
+00:28:12.320 --> 00:28:15.600
+ something new. And it's like not fully in production yet. And you're just trying to like good stuff.
+
+00:28:15.600 --> 00:28:20.640
+ It's not very good when you have like production traffic, because there's no like search and stuff
+
+00:28:20.640 --> 00:28:25.520
+ that you kind of expect from a login tool. So we need to add that stuff. We are like constrained
+
+00:28:25.520 --> 00:28:31.440
+ by, because we don't we try to just build on top of what AWS gives you. CloudWatch insights,
+
+00:28:31.440 --> 00:28:37.360
+ obviously, is constrained to, you know, certain capabilities. That said, they haven't announced
+
+00:28:37.360 --> 00:28:42.160
+ anything with this yet, but they did one small announcement where before when you wanted to search
+
+00:28:42.160 --> 00:28:46.000
+ across your logs, you're limited to 50 log groups at once, which always sucks. You have to like
+
+00:28:46.000 --> 00:28:50.640
+ click them all. Yeah, just like all of them. You can search across at like all of them, which is
+
+00:28:50.640 --> 00:28:56.240
+ great. And I noticed this and later Frank bought brought it up independently. So I think it might
+
+00:28:56.240 --> 00:29:01.680
+ be true. I'm like, these results are coming back a lot faster. It feels like, because it was kind
+
+00:29:01.680 --> 00:29:06.080
+ of slow before. And it feels like I'm getting like search results pretty quickly. And the reason we
+
+00:29:06.080 --> 00:29:11.040
+ never wrapped it, that search functionality was because it felt like kind of slow and not great.
+
+00:29:11.040 --> 00:29:16.560
+ Too slow. Yeah. Yeah. But now it's kind of good. So maybe it's worth like doing another
+
+00:29:16.560 --> 00:29:22.080
+ pass it and seeing if we can expose the search functionality. The thing for me is,
+
+00:29:22.080 --> 00:29:29.840
+ okay, so if I search for a log, let's say I'm looking for, I log out event dot user created,
+
+00:29:29.840 --> 00:29:36.000
+ when a user is created or something like that. I search it and I get a bunch of results.
+
+00:29:36.000 --> 00:29:40.400
+ Every single time it sees that. But I don't care about a bunch of results.
+
+00:29:40.400 --> 00:29:44.720
+ I like want to find one I'm looking for and then immediately see the logs above and below it.
+
+00:29:44.720 --> 00:29:51.280
+ Yeah. And CloudWatch makes that kind of annoying to do. So if we just nail that flow, I think then
+
+00:29:51.280 --> 00:29:56.080
+ it's pretty good as like a general purpose logging thing. Yeah. Maybe you don't need to ship it to
+
+00:29:56.080 --> 00:30:02.160
+ somewhere else. Yeah, we'll say I don't really use the logs feature at Stat Muse so much like on
+
+00:30:02.160 --> 00:30:08.480
+ our website. But I do like, I know that the issues will show all the function failures. That's huge.
+
+00:30:08.480 --> 00:30:12.000
+ And that kind of like, circumvents my like, I don't even know what I would look for in the logs.
+
+00:30:12.000 --> 00:30:17.200
+ I'm just looking for like where our scale is stuff breaking. We also hit that limit a lot,
+
+00:30:17.200 --> 00:30:22.240
+ though, where I have to like, click the button to refresh because we have too much going on.
+
+00:30:22.240 --> 00:30:25.840
+ Yeah. Well, okay. So the other thing is we're going to move issue processing into your own
+
+00:30:25.840 --> 00:30:30.560
+ account, at which point there's going to be no limits. Oh, so right now it's in your account.
+
+00:30:30.560 --> 00:30:34.960
+ Yeah. So that's the one thing we did. Nice. More in a traditional SaaS way. Yeah.
+
+00:30:34.960 --> 00:30:38.960
+ The log subscriber goes to our account. That's where a lot of our bills come from. So well,
+
+00:30:38.960 --> 00:30:43.600
+ I just put it in the user's account. Oh, yeah. So every time I click that button to re-enable,
+
+00:30:43.600 --> 00:30:47.840
+ I'm like costing you money. I'm sorry. No, no, it's like a feature you're paying for. So,
+
+00:30:47.840 --> 00:30:51.760
+ yeah, yeah, yeah. I'm sorry. But if you could move into our account, that'd be great to not
+
+00:30:51.760 --> 00:30:54.880
+ have to click that button because I don't even know what that means. I just click it every time I see
+
+00:30:54.880 --> 00:31:00.640
+ it. Yeah. We hit some threshold and like, I'm like, I want all the logs. So I click it. Yeah.
+
+00:31:00.640 --> 00:31:05.280
+ So, but see, these are just things that come up from a traditional SaaS thing. It's like,
+
+00:31:05.280 --> 00:31:09.760
+ okay, I have a centralized service with all my customers. But then like, I have this one
+
+00:31:09.760 --> 00:31:14.000
+ customer that sends me a ton of stuff and they're kind of breaking our pricing model and this other
+
+00:31:14.000 --> 00:31:19.600
+ customer is somehow like under our threshold, but they're like traffic patterns are weird. So like,
+
+00:31:19.600 --> 00:31:22.720
+ they're kind of breaking our pricing model in another way. And how do we juggle free tier?
+
+00:31:22.720 --> 00:31:25.920
+ Yeah. Yeah. All those problems go away. We just put that shit into your account.
+
+00:31:25.920 --> 00:31:30.720
+ And it's yeah, no limits. Whatever you use, you pay for at the literally the cheapest possible rate
+
+00:31:30.720 --> 00:31:34.800
+ because you're paying directly to the infrastructure provider. Yeah. It's just makes a lot of sense.
+
+00:31:34.800 --> 00:31:40.240
+ I'm remembering, like, I'm remembering times now when we first turned on some of the Stephanie
+
+00:31:40.240 --> 00:31:44.880
+ stuff where you'd be like, Hey, we're getting this error like 10,000 times. Do you like want to
+
+00:31:44.880 --> 00:31:49.280
+ have that error? Like, and it's stuff that we just we just ignore it. Like, we're pretty small team
+
+00:31:49.280 --> 00:31:52.960
+ too. So there's stuff that like, we could fix it in like 10 minutes, but we don't. And I just think
+
+00:31:52.960 --> 00:32:00.160
+ now, like, is that costing you guys money? That's what's flawed about this model, right? It's just like,
+
+00:32:00.160 --> 00:32:05.600
+ you are you effectively just become like a dumb compute storage provider at the end of the day.
+
+00:32:05.600 --> 00:32:10.240
+ Issue detecting part is not where energy goes to. Like, we're not spending our time making
+
+00:32:10.240 --> 00:32:14.320
+ that stuff better. It can be way better. We're spending our time like looking at our kinesis
+
+00:32:14.320 --> 00:32:19.280
+ situation and figuring out how to optimize it. So again, last generation of companies,
+
+00:32:19.280 --> 00:32:25.760
+ that's how they all got big. Right. But I don't know if replaying that is so gonna work out nowadays.
+
+00:32:25.760 --> 00:32:32.880
+ Anyways, trying to transition into anything else. I don't know. We could talk about us to see the
+
+00:32:32.880 --> 00:32:38.640
+ hubs out. I don't care. No, this is a good, good summary of what's going on. Have you been to
+
+00:32:38.640 --> 00:32:45.120
+ the making republic? You haven't been to Caribbean. I've been I've been to the Baja Peninsula, Mexico
+
+00:32:45.120 --> 00:32:51.840
+ for a week. That's my international exposure in that Gulf area. Yeah, like south of San Diego,
+
+00:32:51.840 --> 00:32:58.560
+ not golf, sorry, like the Pacific side. Yeah. Yeah. Okay. You should go to Caribbean. It's great.
+
+00:32:58.560 --> 00:33:02.800
+ I should. Yeah. Oh, well, you know what? Never mind. I've been to the Bahamas. Is that international?
+
+00:33:02.800 --> 00:33:08.560
+ I think so. It's in the Caribbean, right? Yeah. I mean, it's like it's confusing because Puerto Rico
+
+00:33:08.560 --> 00:33:16.560
+ is not international, technically. Oh, Puerto Rico is like a US country. We flew first class.
+
+00:33:16.560 --> 00:33:22.560
+ And I was horizontal the whole time, because it was an international flight. So it was like,
+
+00:33:22.560 --> 00:33:28.080
+ and it was actually one of those like it lays down. Yeah. Yeah. So it was like had the reclining
+
+00:33:28.080 --> 00:33:32.480
+ thing. And then we got to blank it. And it was great. Because our flight was at a, we have to
+
+00:33:32.480 --> 00:33:37.680
+ get to airport like five a.m. or four a.m. So we just didn't sleep. That sucks. Yeah. How long
+
+00:33:37.680 --> 00:33:42.480
+ of a flight is that? I wouldn't have thought to the well, what's stuck? I want this flight to
+
+00:33:42.480 --> 00:33:47.840
+ never end because I want to milk this first class experience for as much as I can because like first
+
+00:33:47.840 --> 00:33:53.520
+ class, I'm I mostly fight domestic and I'm just like, yeah, I'll get like the nicer seat, like the
+
+00:33:53.520 --> 00:33:58.640
+ seat that has a more legroom. And I'm like sitting right behind first class. And it's like, to me,
+
+00:33:58.640 --> 00:34:05.520
+ that feels like like a 20% gap, I would say for like twice. Yeah, it's not a huge like the comfort
+
+00:34:05.520 --> 00:34:09.360
+ plus versus first class. Yeah, it's not a huge difference. Yeah, it's like they treat you a little
+
+00:34:09.360 --> 00:34:14.400
+ bit nicer. Like it's about it. Yeah, they serve food, I guess, like I never take any of the food or
+
+00:34:14.400 --> 00:34:19.120
+ drink. So like, I don't get that benefit. But this was an international life. That's different.
+
+00:34:19.120 --> 00:34:25.680
+ Those Caribbean and it was like giant, like a massive difference. Like it was so nice. And the
+
+00:34:25.680 --> 00:34:29.200
+ people were the staff was really great. So it was definitely worth it. I think the only time I've had
+
+00:34:29.200 --> 00:34:34.000
+ a plane. Is it just the size of the plane that makes for that first class experience? It was an
+
+00:34:34.000 --> 00:34:38.960
+ it was an LA to New York. That's the only time I've seen those like lay down seats. And they're
+
+00:34:38.960 --> 00:34:43.520
+ like all individual. It's like you have a little cockpit you're in. Yeah, is that the kind of was?
+
+00:34:43.520 --> 00:34:49.680
+ Yeah, yeah, yeah. Those are so great. Yeah. And then it was, uh, yeah, they just had,
+
+00:34:49.680 --> 00:34:54.640
+ it was great. I think I barely got any sleep that night. And I was like, this is perfect. So I was
+
+00:34:54.640 --> 00:34:57.680
+ only at two and a half flight and I was like, I wish it was like a five or flight so I could
+
+00:34:59.200 --> 00:35:04.000
+ put it in. It would have been more expensive. So it makes sense. Yeah. So I hate not flying first
+
+00:35:04.000 --> 00:35:10.240
+ class and I'll tell you why. I'm mostly fly first class because not because I'm bougie,
+
+00:35:10.240 --> 00:35:15.920
+ which I am too, but I have broad shoulders. I mean, I'm a big guy. Oh, yeah, big. That's true. Yeah,
+
+00:35:15.920 --> 00:35:20.160
+ I always think about that. It's not the knee. Everyone always thinks like, oh, you're hitting
+
+00:35:20.160 --> 00:35:24.800
+ your knees on the seat and coach. No, it's the shoulder to shoulder. I'm always with some other
+
+00:35:24.800 --> 00:35:30.160
+ giant male and like we're both one of us has to like, yeah, from exactly we're flying from the
+
+00:35:30.160 --> 00:35:34.880
+ Midwest. I have to like either lean forward or he has to lean forward. Like one of us, we can't
+
+00:35:34.880 --> 00:35:39.600
+ step side to side. Like we're shoving each other this way. Does that make sense? Yeah. Yeah.
+
+00:35:39.600 --> 00:35:44.160
+ That's why I fly first class because the width of the seats is so much better. It's not about the
+
+00:35:44.160 --> 00:35:48.480
+ depth. I don't care about who's in front of me. You can lay your seat back in my lap. There's only
+
+00:35:48.480 --> 00:35:55.840
+ two seats per column or whatever. There's so much wider. And I always like, feel like I could
+
+00:35:55.840 --> 00:35:59.200
+ actually get my laptop out. And sometimes I do. I get my laptop out and I can actually do something
+
+00:35:59.200 --> 00:36:04.000
+ in first class. In the back, there's no way it's impossible. That's crazy because I work. So it's
+
+00:36:04.000 --> 00:36:10.480
+ an ROI. I work on my lots of all the time in the normal seats. So it's a huge difference. I think
+
+00:36:10.480 --> 00:36:19.280
+ most of the time, because I'm like, if you're huge, like this is impossible. Like I'm like just barely okay. So I'm not I'm like a normal
+
+00:36:19.280 --> 00:36:23.760
+ sized person. If you're bigger than me, like, that sucks. And it doubles us because it's not like
+
+00:36:23.760 --> 00:36:29.600
+ your income correlates to your height. You can just still not have a lot of money.
+
+00:36:29.600 --> 00:36:35.360
+ No, right. This is a big tax. Yeah. It's just like so arbitrary. It was in some like crazy car
+
+00:36:35.360 --> 00:36:38.960
+ the other day. And I was just imagining like Shaquille O'Neal being in this car. I'm like, oh,
+
+00:36:38.960 --> 00:36:45.200
+ just literally would not be able to do it. Thank God. It's a super rich basketball player, you know.
+
+00:36:45.200 --> 00:36:49.680
+ Yeah. Think if you're like, if you're an NBA player, you're this giant person, and you're really in the
+
+00:36:49.680 --> 00:36:54.880
+ cars, you can't just like do the J Leno thing and own all these tiny cars. You just wouldn't fit and
+
+00:36:54.880 --> 00:36:58.640
+ suck. No, it sucks. I guess you could own them just to look at them like matchbox cars.
+
+00:36:58.640 --> 00:37:07.040
+ Collect them. Yeah. You probably need to get custom cars, like even if it's not like a even
+
+00:37:07.040 --> 00:37:11.520
+ just like an SUV is probably not enough for him. Like, and almost you'd be probably so wouldn't fit.
+
+00:37:11.520 --> 00:37:15.920
+ Yeah. For someone that's seven foot two or whatever. Yeah. It's impossible. Like, did he ever
+
+00:37:15.920 --> 00:37:20.800
+ fly a car? Is he like allowed to fly economy? Oh, maybe not weight and balance. Like, if you like
+
+00:37:20.800 --> 00:37:23.920
+ want to move from one side of the plane to the other, they're like, hang on, we'll have to check
+
+00:37:23.920 --> 00:37:28.400
+ with the pilots because weight and balance is like, I'm 200 pounds. Like, what is the plane that
+
+00:37:28.400 --> 00:37:33.280
+ delicate? Oh, I've never heard that. You never heard that? That sounds like an excuse, they say.
+
+00:37:33.280 --> 00:37:37.840
+ It probably is, but they like, they'll say when someone wants to move because it's like not a full
+
+00:37:37.840 --> 00:37:41.840
+ flight and then want to move to the other side to be in the aisle or whatever, just because there's
+
+00:37:41.840 --> 00:37:45.440
+ like two people on one side and there's nobody on there. So it's like, I want to switch. If they've
+
+00:37:45.440 --> 00:37:48.960
+ already done the weight and balance, like the pilots have already like done that whatever step
+
+00:37:48.960 --> 00:37:53.280
+ it is, they're like, we'll have to check because, I don't know, the plane's going to crash.
+
+00:37:53.280 --> 00:37:58.000
+ You should ask your brother if it's real. I'm going to ask him because that's scary if it's that
+
+00:37:58.000 --> 00:38:04.080
+ sensitive, like the one person moving across the aisle would like throw the plane into a
+
+00:38:04.080 --> 00:38:09.440
+ tailspin or something. I wasn't even thinking about that. I was just saying like, is it,
+
+00:38:09.440 --> 00:38:15.680
+ if Shaquille knows, buys a single economy seat, he probably is not going to physically fit and
+
+00:38:15.680 --> 00:38:21.600
+ whoever would see next to him is just completely screwed. Oh, maybe he could probably buy two seats.
+
+00:38:21.600 --> 00:38:25.040
+ Yeah, he can, but do they force you to? That's my question. I think they might force you to.
+
+00:38:25.840 --> 00:38:30.000
+ They have to have a policy there. How would they know, like they could book the full flight,
+
+00:38:30.000 --> 00:38:34.560
+ like, they don't ask your height and wait when you buy a ticket, right?
+
+00:38:34.560 --> 00:38:38.640
+ That'd take you off. Basically, they're like, you're too large. We can't fly you. And I'm sure
+
+00:38:38.640 --> 00:38:42.880
+ they're allowed to do that. Yeah. I mean, now he probably like flies private every time he flies.
+
+00:38:42.880 --> 00:38:47.040
+ But there was a point in Shaq's life when he was seven foot two and he was young and he didn't have
+
+00:38:47.040 --> 00:38:53.360
+ money and he probably had to fly. I'd like to know this story everywhere. Maybe like John Madden.
+
+00:38:53.360 --> 00:38:56.000
+ Do you ever heard the story of John Madden? No, what is that?
+
+00:38:56.000 --> 00:39:00.720
+ I'm just bouncing all over the question. John Madden was like, do you know who he was?
+
+00:39:00.720 --> 00:39:06.880
+ He was a football coach. Yeah. Yeah. He refused to fly. He was terrified of flying. Like, would
+
+00:39:06.880 --> 00:39:11.760
+ not get in a plane. So he had the Madden is like this giant bus that I can't remember the name of,
+
+00:39:11.760 --> 00:39:16.480
+ the man mobile. I don't know. I just say they drove everywhere. He, I mean, he was a commentator.
+
+00:39:16.480 --> 00:39:21.840
+ He was going to every like city in America every week and they drove a bus all over the country
+
+00:39:21.840 --> 00:39:27.680
+ for him to do. That's so crazy. Yeah. Yeah. I think Travis Barker, who's a drummer,
+
+00:39:27.680 --> 00:39:34.480
+ he was in some crazy plane crash. I think he was like a, it was like a commercial
+
+00:39:34.480 --> 00:39:38.400
+ point. It wasn't like a problem. Oh, geez. And like all this skin burns. There's something
+
+00:39:38.400 --> 00:39:42.720
+ crazy like brutal thing and he just never flies ever anymore. Yeah. He drives everyone.
+
+00:39:42.720 --> 00:39:46.800
+ It always is weird when you hear of a plane crash where people survive. You just assume
+
+00:39:46.800 --> 00:39:52.960
+ a plane crash dead. Like everyone dies. Every time I imagine a plane crash, I'm going to survive it.
+
+00:39:52.960 --> 00:39:58.560
+ Really? I'm going to survive. I'm going to clench my abs at the right moment and it's not saving me.
+
+00:39:58.560 --> 00:40:10.320
+ That's hilarious. There's that woman that fell. What was it? It's this crazy. Have you heard this?
+
+00:40:10.320 --> 00:40:14.000
+ It was on Twitter at some point falling out of a plane. Yeah. She was like tied to,
+
+00:40:14.000 --> 00:40:21.040
+ she was strapped her seat and her seat fell 30,000 feet and she lived. Like what in the world?
+
+00:40:21.040 --> 00:40:25.600
+ And then she had to like survive in the Amazon for like, how long do you know what I'm talking
+
+00:40:25.600 --> 00:40:31.200
+ about this specific person on the Amazon? Damn. It was like a jungle. I don't don't quote me on
+
+00:40:31.200 --> 00:40:37.920
+ Amazon. Okay. But she fell in like the trees, they think like broke or fall or something. I don't know.
+
+00:40:37.920 --> 00:40:43.120
+ I don't know how you call 30,000 feet and live, but you could see it, huh?
+
+00:40:44.160 --> 00:40:49.120
+ I could see it. But then she like lived with some tribe and like it's this crazy story.
+
+00:40:49.120 --> 00:40:55.760
+ Yes. Who is this person? Oh, I feel bad. She was like a god because she like fell.
+
+00:40:55.760 --> 00:41:01.840
+ Yeah. No, seriously, she was like praise. Hang on. Woman falls from plane and lives.
+
+00:41:01.840 --> 00:41:03.840
+ Oh, here we go. Here we go.
+
+00:41:05.040 --> 00:41:15.760
+ Vezna volofa chick. 510 aborted. We flight attendant. I'm guessing January 1970.
+
+00:41:15.760 --> 00:41:20.000
+ Hang on. Hang on. Yes. The classic Russian plane flying over the Amazon. It wasn't the Amazon.
+
+00:41:20.000 --> 00:41:24.240
+ I'm sorry. I screwed that part up. Is this the one I'm thinking of?
+
+00:41:24.240 --> 00:41:34.080
+ I'm sorry. This is not the one. This lady like survived in a jungle. Was she pregnant?
+
+00:41:34.080 --> 00:41:37.680
+ Choose. Oh, my God. I'm sorry. This story are there. Here we go. Yes.
+
+00:41:37.680 --> 00:41:44.000
+ Juliane Copka. This is one of the most wild things I've ever in my life. German Peruvian
+
+00:41:44.000 --> 00:41:48.000
+ man, I'm going to survive the plane crash. Peruvian Peruvian Amazon rainforest in 1971.
+
+00:41:48.000 --> 00:41:53.200
+ Soul survivor of lands of flight 508, which disintegrated in mid-air after being struck by
+
+00:41:53.200 --> 00:41:58.720
+ lightning. Oh, yeah. New fear unlocked, by the way, apparently lightning disintegrated.
+
+00:41:58.720 --> 00:42:05.120
+ What do we disintegrated? That is the word they used. Well, Gemini used it. Maybe Gemini's wrong.
+
+00:42:05.120 --> 00:42:10.000
+ She fell 10,000 feet while strapped to her seat in the jungle, survived 11 days in the jungle,
+
+00:42:10.000 --> 00:42:14.880
+ eating sweets from the wreckage and using survival skills she learned from her zoologist parents.
+
+00:42:14.880 --> 00:42:20.960
+ What are the odds? The soul survivor of a plane crash over the Amazon had zoologist parents.
+
+00:42:20.960 --> 00:42:24.240
+ Actually, maybe pretty high because if you're flying over the Amazon, maybe it's because you
+
+00:42:24.240 --> 00:42:29.120
+ live near the Amazon, your parents, zoologists. I don't know. Risked by local lumberjacks after
+
+00:42:29.120 --> 00:42:34.720
+ finding their camp, recovered in a Peru hospital later. Okay, wait, such is more to this story.
+
+00:42:34.720 --> 00:42:38.560
+ I feel like there is. That's crazy. That's crazy. I don't need any more than that.
+
+00:42:38.560 --> 00:42:43.600
+ Okay. She might have been pregnant and there may have been something about worshiping her or
+
+00:42:43.600 --> 00:42:51.760
+ something. I don't know. Look it up. The lumberjacks worshiped her. Yeah. That's crazy. But yeah,
+
+00:42:51.760 --> 00:42:56.400
+ I would survive. I would also survive. You totally would, little bro. If anyone would survive,
+
+00:42:56.400 --> 00:43:02.800
+ it would be little bro himself. I knew you changed your name to that. I saw it,
+
+00:43:02.800 --> 00:43:11.840
+ but I just saw this morning why you changed it. So funny. I know. It's a, that was a funny
+
+00:43:11.840 --> 00:43:15.280
+ situation yesterday. I was a little surprised that he called you little bro. I feel like,
+
+00:43:15.280 --> 00:43:21.040
+ that was, was it aggressive or was it in context not so aggressive? I would say it is aggressive,
+
+00:43:21.040 --> 00:43:26.560
+ but it's just mostly the thing he does where he tries to like just do internet talk. You know,
+
+00:43:26.560 --> 00:43:30.640
+ he does a lot. Like he was just putting the word cracked into everything like a few months ago.
+
+00:43:30.640 --> 00:43:36.640
+ Hello fellow kids. He's just trying so hard to fit in. Anyway, the one thing I'll say is,
+
+00:43:36.640 --> 00:43:42.880
+ you guys all know how good I am in talking shit. It took a lot of mercy in me to not
+
+00:43:42.880 --> 00:43:48.560
+ say anything back to him because when someone that's four feet tall calls you little bro,
+
+00:43:48.560 --> 00:43:56.560
+ there's a lot of things you can say back to. Oh, wow. Well, you just did it in the mercy that you had.
+
+00:43:56.560 --> 00:44:01.200
+ No, I didn't. I said I didn't do that, but you did just now on the podcast.
+
+00:44:01.200 --> 00:44:03.920
+ This is I didn't. I didn't. I said I didn't do that.
+
+00:44:03.920 --> 00:44:11.360
+ I don't think that's how it works. I did. You're lucky. I didn't call you a
+
+00:44:11.360 --> 00:44:18.640
+ shithead. You're lucky. I didn't. It's funny. I'm getting more comfortable with saying shit
+
+00:44:18.640 --> 00:44:23.360
+ apparently. That's like the second time on this podcast that I said it if it doesn't get edited
+
+00:44:23.360 --> 00:44:29.360
+ out. I'm confused because I like, I'm pretty sure you curse. Yeah, no, I do. You're not someone
+
+00:44:29.360 --> 00:44:34.080
+ that doesn't curse. So is it something you like withhold when you're in public or like,
+
+00:44:34.080 --> 00:44:37.840
+ what is the deal here? What's like your rubric for it? You know, I'm learning about my a lot
+
+00:44:37.840 --> 00:44:44.320
+ about myself. Uh, I'm still not the same person with every person I interact with. Does that make
+
+00:44:44.320 --> 00:44:51.920
+ sense? Yeah. Then it's probably normalish. Yeah. Uh, so I think I like there's a public persona of
+
+00:44:51.920 --> 00:44:59.280
+ me that doesn't curse maybe. Even when I do curse though, it does sound unnatural. I'll say that.
+
+00:44:59.280 --> 00:45:03.440
+ I spent most of my life not cursing. I'm one of those people that like grew up in a very conservative
+
+00:45:03.440 --> 00:45:09.440
+ home and, and then like graduated high school and it's like, oh, I can say words. I'm going to say
+
+00:45:09.440 --> 00:45:14.640
+ them. You know what I mean? Like it just sounds so forced when I do curse. I think I type curse a
+
+00:45:14.640 --> 00:45:20.960
+ lot more than I speak. Does that make sense? I see. Yeah. Uh, like it's in me. It wants to come out,
+
+00:45:20.960 --> 00:45:26.240
+ but my lips just don't have a lot of practice. So it sounds like it just sounds weird when it
+
+00:45:26.240 --> 00:45:30.640
+ comes out. I don't know. It's funny. I have the opposite problem where like, I really like the idea
+
+00:45:30.640 --> 00:45:37.520
+ of being someone that doesn't, that doesn't curse. Yeah. But I literally don't know how to punctuate
+
+00:45:37.520 --> 00:45:43.200
+ certain things without doing it. Like it's just so, it's just dramatic effect. It really adds
+
+00:45:43.200 --> 00:45:50.000
+ something to language. Yeah. It does. I can't make jokes and I can't do like certain jokey tones
+
+00:45:50.000 --> 00:45:54.480
+ without like throwing that in there. Yeah. I can just look at Northeast thing like it's
+
+00:45:54.480 --> 00:46:00.240
+ it's impossible. So yeah, I don't think I can stop. No, it's hard. There's, there's no other,
+
+00:46:00.240 --> 00:46:05.680
+ yeah, there's no other way to land certain points or to like dramatic effect emphasis.
+
+00:46:05.680 --> 00:46:09.920
+ It's usually humor. It's not it's just not. Yeah. For me, it's like, if I don't curse,
+
+00:46:09.920 --> 00:46:14.080
+ I don't have a sense of humor. So it's, it's hard. Yeah. I get it.
+
+00:46:14.080 --> 00:46:19.680
+ No, it's something that Casey and I, I think started doing together in the last few years,
+
+00:46:19.680 --> 00:46:24.960
+ where we will just like, it's just like parenting. There's stuff that just, you just need to curse
+
+00:46:24.960 --> 00:46:31.360
+ sometimes. And it, we always say like, after a good one lands, it's like, man, that added a lot
+
+00:46:31.360 --> 00:46:35.680
+ to our life. Like just reintroducing cursing. I think I did in high school and then like,
+
+00:46:35.680 --> 00:46:40.720
+ didn't for a while again, and then we're back at it. I don't know. It's an interesting phenomenon,
+
+00:46:40.720 --> 00:46:44.240
+ but it still sounds weird on the podcast. Cause I think on the podcast, I'm, I'm kind of the
+
+00:46:44.240 --> 00:46:49.920
+ part of me that doesn't curse. If that makes sense, I don't know why I'm just talking to you. I kind
+
+00:46:49.920 --> 00:46:57.280
+ of care, but there's people to listen. That's why I just remembered. Yeah. Like I don't curse on my
+
+00:46:57.280 --> 00:47:02.960
+ stream either. I kind of have like a persona in, in certain contexts where I'm like the Midwestern
+
+00:47:02.960 --> 00:47:09.520
+ guy that is a certain way. I don't know. That is who you are. So I'd like to just be the one person.
+
+00:47:09.520 --> 00:47:14.320
+ That'd be nice. It feels very nice to just be one person. You know, you're just a little Midwestern
+
+00:47:14.320 --> 00:47:21.840
+ bitch. Hmm. Is that my persona? I'll take it. Okay. I'm just kidding. I don't know how to make a
+
+00:47:21.840 --> 00:47:32.800
+ joke without cursing. There's also like kids around like, I don't want my kids to just start.
+
+00:47:32.800 --> 00:47:38.080
+ I don't know why though. I don't know if I don't want my kids to say words that are offensive to
+
+00:47:38.080 --> 00:47:43.520
+ like their teachers. That would be bad. Yeah. I talked to Elizabeth about this a lot because both
+
+00:47:43.520 --> 00:47:47.520
+ of us curse and we're like, okay, how are we going to, we have this guy's in conversation.
+
+00:47:47.520 --> 00:47:52.400
+ Like our kids, we need to modify what we say so they don't pick up on that stuff. And obviously,
+
+00:47:52.400 --> 00:47:57.760
+ the next question is like, why does it matter? It's just a word. Yeah. And ultimately, the explanation
+
+00:47:57.760 --> 00:48:01.680
+ is like not satisfying to me. It's the point where like, I don't know if I buy it. It's just,
+
+00:48:01.680 --> 00:48:07.360
+ there's a social norm and it's embarrassing when your kid curses and the norm is kids don't do that.
+
+00:48:07.360 --> 00:48:12.640
+ It's that simple. It's so funny when they curse. It's so funny. It's really funny curses.
+
+00:48:12.640 --> 00:48:19.920
+ So how am I not going to laugh? Yeah. So my five year old, he is not the clearest of speakers.
+
+00:48:19.920 --> 00:48:25.920
+ Like Asa at his age was way clearer. Like everything he said sounded like an adult. Archie has a bit
+
+00:48:25.920 --> 00:48:32.480
+ of a like, I don't know, baby is unto his speak. And there's sometimes where he's saying a different
+
+00:48:32.480 --> 00:48:38.400
+ word, but it comes out as a curse word. And it is hilarious. Yeah. Like that is the peak of our week.
+
+00:48:38.400 --> 00:48:43.840
+ So yeah, it is funny that it's this thing that's like, you don't want your kid to curse to somebody
+
+00:48:43.840 --> 00:48:49.120
+ that just feels awkward and embarrassing. But when they do it at home, it is the funniest thing.
+
+00:48:49.120 --> 00:48:56.400
+ And yeah, why is it's funny? Like, I can go to the root of it. Like, why does it matter what words
+
+00:48:56.400 --> 00:49:01.760
+ we say? And then I know, I know there are people that are very offended when they hear certain words.
+
+00:49:02.560 --> 00:49:05.920
+ And I guess that's why. That's why we don't just all curse all the time, because
+
+00:49:05.920 --> 00:49:09.520
+ some people are offended by it. Is that how it works? Or but there's other things people do that
+
+00:49:09.520 --> 00:49:14.800
+ there's someone offended by like everything. So you have to draw a line somewhere where like,
+
+00:49:14.800 --> 00:49:19.280
+ I'm not going to not step on a crack on the sidewalk because somebody's offended by it. Like, that's
+
+00:49:19.280 --> 00:49:24.880
+ an extreme. But yeah, like, there has to be some line. What is the line? And I think it's just
+
+00:49:24.880 --> 00:49:29.440
+ even if collectively it feels like the average person finds out outside the range of normal.
+
+00:49:29.440 --> 00:49:35.840
+ Like, if I just walked out with this completely naked. Yeah, that would be offensive. I think
+
+00:49:35.840 --> 00:49:42.640
+ the word of yeah, is maybe sound more extreme than it is. Yeah, that word has a lot of like,
+
+00:49:42.640 --> 00:49:47.600
+ weight today, I think. Yeah, maybe. So I wouldn't be naked because, you know, I would make a bunch
+
+00:49:47.600 --> 00:49:52.560
+ of people uncomfortable. Yeah, I'm talking about too. But then it's context specific too, right?
+
+00:49:52.560 --> 00:49:58.160
+ Like in New York, there's probably more like social acceptance to just drop in F bombs because
+
+00:49:58.960 --> 00:50:03.920
+ it's just how you speak. Is that right? Yeah, I'm sure kids like, it's like a totally different
+
+00:50:03.920 --> 00:50:13.120
+ thing there. Yeah. I feel like I've heard kids recently drop the F bomb and it was kind of
+
+00:50:13.120 --> 00:50:17.840
+ surprising, but like nobody like really thought much of it. So I don't know, maybe things are shifted.
+
+00:50:17.840 --> 00:50:23.920
+ I have no idea. Oh, maybe get across ages. It's different too. Like once once the generation above
+
+00:50:23.920 --> 00:50:28.640
+ us passes and we're the oldest, we're probably not going to care as much, right? Yeah, it's true.
+
+00:50:28.640 --> 00:50:32.320
+ I feel like we'll be old people that are like, but they'll come up with new words that we do feel
+
+00:50:32.320 --> 00:50:38.480
+ uncomfortable. They'll just have like new slang that's like, ew, don't say that. Don't just.
+
+00:50:38.480 --> 00:50:44.320
+ I mean, I don't want to feel that way. I like hate almost all of the Zoomer,
+
+00:50:44.320 --> 00:50:51.120
+ yeah, slang that they use. I have a role. I'm pretty generous with this, I think.
+
+00:50:52.560 --> 00:50:56.000
+ I'll give you till age of 30, okay? I think it should be a lot younger, but
+
+00:50:56.000 --> 00:51:01.680
+ after the age of 30, just don't add new phrases into your vocabulary. You don't need it. Just
+
+00:51:01.680 --> 00:51:06.000
+ you do. Do I do this? I feel like I kind of do this. You do? There's words I say that
+
+00:51:06.000 --> 00:51:10.880
+ maybe just on Twitter, I feel like on Twitter, I say words that I didn't say
+
+00:51:10.880 --> 00:51:15.680
+ ever before. I've probably added words in my 30s. I'll give small allowances, but broadly,
+
+00:51:15.680 --> 00:51:21.360
+ you don't need to add new phrases. You know how to express everything you can express by that age?
+
+00:51:21.360 --> 00:51:26.640
+ Yeah. You don't need it. Don't need to. I think it was when I started streaming on Twitch,
+
+00:51:26.640 --> 00:51:31.920
+ that people in Twitch say so many words, and I'm like, I don't know, I started introducing,
+
+00:51:31.920 --> 00:51:35.360
+ I can't even think of one right now, actually. I think mostly when I say words like that,
+
+00:51:35.360 --> 00:51:40.640
+ I'm joking. It's like a joke to use a word that's way below you, way younger than you.
+
+00:51:40.640 --> 00:51:48.400
+ I think that's my problem, too. When I go to say it, to me, it sounds so
+
+00:51:49.600 --> 00:51:53.120
+ forced, and I'm like super aware of what I'm doing, that I'm like,
+
+00:51:53.120 --> 00:51:59.840
+ this just doesn't make any sense for me to say this, so I can always say in a satirical context.
+
+00:51:59.840 --> 00:52:06.400
+ I think there's also this confusing thing where there's internet language versus what is young
+
+00:52:06.400 --> 00:52:13.280
+ people language, because the internet is skews very young, but there's also just language that's
+
+00:52:13.280 --> 00:52:18.560
+ kind of in our circles that I don't know, maybe it's because we hang out with younger people.
+
+00:52:18.560 --> 00:52:21.280
+ I don't know, some of our friends are still in their late 20s.
+
+00:52:21.280 --> 00:52:26.560
+ It's hard, it's hard. I don't know what's, maybe there's just a taste factor that goes in,
+
+00:52:26.560 --> 00:52:30.560
+ there's just stuff that you like and stuff that you don't. The whole crack engineer shit,
+
+00:52:30.560 --> 00:52:35.360
+ I hate that. I hate when that one's like, "Oh, he's cracked." You got a higher crack engineer.
+
+00:52:35.360 --> 00:52:39.360
+ Yeah, the younger generation, that's the rock star. Our generation was like,
+
+00:52:39.360 --> 00:52:42.880
+ "He's a rock star programmer." That was kind of like, too, though.
+
+00:52:42.880 --> 00:52:46.560
+ I know we hated that, because it was like the LinkedIn recruiters that said that stuff,
+
+00:52:46.560 --> 00:52:53.520
+ but like, I see LinkedIn cracked. It's like the same thing, it's like, "Oh, that's so funny."
+
+00:52:53.520 --> 00:52:59.200
+ It was like some, some like tech CEO said crack the other day.
+
+00:52:59.200 --> 00:53:05.360
+ Was it right Armstrong, the Coinbase guy? It was somebody. I was just like, "Dude, like, come on."
+
+00:53:05.360 --> 00:53:11.120
+ You don't need to be saying this. You don't need to be saying cracked.
+
+00:53:11.120 --> 00:53:14.960
+ Okay, the reason it extra bothers me, and it's the same problem with the rock star engineer,
+
+00:53:16.000 --> 00:53:20.880
+ it becomes a thing. People sort of just self-prescribe to them. Everyone wants to be a cracked engineer,
+
+00:53:20.880 --> 00:53:25.360
+ so they're saying the things that they think crack, quote unquote, "cracked engineers."
+
+00:53:25.360 --> 00:53:28.640
+ It just becomes like this hard to watch thing, you know?
+
+00:53:28.640 --> 00:53:35.680
+ I want to say something about the whole levels of programmers, like 10x engineers or whatever.
+
+00:53:35.680 --> 00:53:40.320
+ Or I want to just have a conversation. I have a lot of thoughts here that have made me think
+
+00:53:40.320 --> 00:53:43.200
+ about this recently. Are you in a rush? Because I don't want to start a conversation.
+
+00:53:43.200 --> 00:53:48.960
+ You can't. I don't want a vacation. You're on vacation, yeah. So, so many thoughts. One,
+
+00:53:48.960 --> 00:53:56.800
+ I had the thought that like so many people, like people who aren't engineers that hire
+
+00:53:56.800 --> 00:54:02.640
+ engineers will never know how good an engineer is because they could be an amazing engineer, like
+
+00:54:02.640 --> 00:54:07.840
+ literally get anything done in short amount of time, but like they won't give you all their time.
+
+00:54:07.840 --> 00:54:12.560
+ They'll just like spread their time across other things. You know what I mean? I've hired people
+
+00:54:12.560 --> 00:54:17.120
+ like this who were incredible and they could turn something around very quickly when they needed to
+
+00:54:17.120 --> 00:54:21.360
+ to just appease you. But you knew they had like four other gigs going on and they were just like,
+
+00:54:21.360 --> 00:54:27.680
+ that's just they're good enough to balance all that and it's just kind of life. So like to even
+
+00:54:27.680 --> 00:54:32.240
+ ever be able to assess someone you hire from like a hiring standpoint, how good they are or how
+
+00:54:32.240 --> 00:54:36.080
+ efficient they are or how smart they are, it's going to be hard because the smarter they are,
+
+00:54:36.080 --> 00:54:39.200
+ the less likely they're giving you all of them. Does that make sense?
+
+00:54:39.200 --> 00:54:44.880
+ Yeah, no, it's 100% accurate. I think this is the kind of thing I bring up a lot where I feel like
+
+00:54:44.880 --> 00:54:51.680
+ when it comes to questions about hiring, people are so like there's so much anxiety around it
+
+00:54:51.680 --> 00:54:57.120
+ that we can't ever have a conversation about how it actually works and what the actual dynamics are
+
+00:54:57.120 --> 00:55:02.320
+ because people get like upset about it and they like want the world to work in a certain way.
+
+00:55:02.320 --> 00:55:05.440
+ Yeah. And they never hear about this stuff and it's actually useful to hear about because you
+
+00:55:05.440 --> 00:55:11.680
+ understand how it works and you can kind of align yourself with it. Yeah. Like people are always
+
+00:55:11.680 --> 00:55:16.400
+ like, oh, yeah, like, you know, this is how you hire great engineers, this interview process is
+
+00:55:16.400 --> 00:55:21.440
+ used for great engineers. That's to hire like a really great person, the thing you're talking about,
+
+00:55:21.440 --> 00:55:24.960
+ it has an interview process. The problem is they never even showed up to an interview process because
+
+00:55:24.960 --> 00:55:31.600
+ like they're not in you or like it's just the root problem of hiring great people is to like
+
+00:55:31.600 --> 00:55:36.560
+ be someone that attracts great people. It's not your stupid process, you know? Yeah, all the,
+
+00:55:36.560 --> 00:55:41.520
+ all like most all of our hires were like, hey, you worked with somebody that was awesome,
+
+00:55:41.520 --> 00:55:45.360
+ they're hired. I don't care. Like we just hired people that other people had worked with.
+
+00:55:45.360 --> 00:55:49.520
+ It's like, if you have one good person to start with and they worked with somebody they knew
+
+00:55:49.520 --> 00:55:54.800
+ was awesome, it just kind of like trails out from there. And maybe that has its own issues, but
+
+00:55:54.800 --> 00:56:00.320
+ I don't know. Yeah, we never really like did a lot of the post-a-job and get a hire that way.
+
+00:56:00.320 --> 00:56:03.920
+ Like through interviewing. Yeah. So more things I want to say about this.
+
+00:56:03.920 --> 00:56:12.960
+ So first of all, yeah, there's like, how good is somebody and how much of your focus are they
+
+00:56:12.960 --> 00:56:16.560
+ getting or their focus? Are you getting? Well, there was one, another thing I thought about this
+
+00:56:16.560 --> 00:56:21.920
+ recently was just watching you at the terminal few thing and like, what are you like a 1000x
+
+00:56:21.920 --> 00:56:26.320
+ engineer? Because that was insane. Just the amount, I'm just like puffing you up and blowing your head
+
+00:56:26.320 --> 00:56:34.240
+ up at this point. But just like people don't understand how much was going on. And it's like
+
+00:56:34.240 --> 00:56:36.960
+ a dumb thing, the terminal if you think, well, it wasn't dumb. It was super cool, actually,
+
+00:56:36.960 --> 00:56:41.520
+ that we did that and very newly appreciating it this morning after watching some of it.
+
+00:56:41.520 --> 00:56:49.760
+ Just like the ability to juggle across so many vectors of things. I don't know. You're definitely
+
+00:56:49.760 --> 00:56:53.200
+ one of those people. So you've earned the right. I think I said this to you that day. You've earned
+
+00:56:53.200 --> 00:56:57.600
+ the right to like talk all the shit on Twitter that you talk through shit in again. I'm just
+
+00:56:57.600 --> 00:57:01.200
+ gonna say that a lot. Something was shit in it. I know Chris.
+
+00:57:01.200 --> 00:57:08.720
+ Because I like spent a lot of time in front of a laptop like on that Sunday and Monday,
+
+00:57:08.720 --> 00:57:15.040
+ just like pumping stuff out. And I haven't done that in a really long time. And to be honest,
+
+00:57:15.040 --> 00:57:20.560
+ I was like, this felt it was good to like do that again and know that I can still do that. But like,
+
+00:57:20.560 --> 00:57:25.600
+ I don't want to do that anymore. Yeah. Well, that's the other thing is who old for this.
+
+00:57:25.600 --> 00:57:33.440
+ There's the aging process of like, you just like your 20s, you kind of use up a lot of your cares.
+
+00:57:33.440 --> 00:57:38.080
+ And like how much you're willing to just like throw yourself, but you get more efficient too.
+
+00:57:38.080 --> 00:57:41.440
+ I mean, we've talked about that before. Like as you age, you're getting faster.
+
+00:57:41.440 --> 00:57:46.320
+ That's why I felt that it felt so, it felt so low leverage to like,
+
+00:57:46.880 --> 00:57:51.600
+ just be like exerting my like, it's effectively manual labor. Like I'm exerting my raw, whatever.
+
+00:57:51.600 --> 00:57:58.000
+ And it's like, I have gotten to a point of life where I rarely, that's like really the
+
+00:57:58.000 --> 00:58:01.760
+ thing I need to do, you know. So it feels bad from that point of view. Yeah.
+
+00:58:01.760 --> 00:58:05.760
+ I feel like this is a really hard conversation. I'm just having a hard time like vocalizing all
+
+00:58:05.760 --> 00:58:11.440
+ the feelings I have around this. It does tie in. I think you kind of hit on like from the hiring
+
+00:58:11.440 --> 00:58:17.760
+ standpoint and just like how people view labor, I guess, there's like the return to office stuff,
+
+00:58:17.760 --> 00:58:23.040
+ the like fear of like, it's just like, how do you control how much people are giving you or
+
+00:58:23.040 --> 00:58:27.680
+ what they're giving you or like, there's this dated thing and I don't know what to replace it with.
+
+00:58:27.680 --> 00:58:32.080
+ What is like the modern, because not every company can be SST where it's like three people
+
+00:58:32.080 --> 00:58:37.360
+ highly aligned, highly incentivized to make this thing work in the long run.
+
+00:58:37.360 --> 00:58:43.280
+ How does someone who like does need to hire people ever feel good about hiring people?
+
+00:58:43.280 --> 00:58:49.920
+ What is the metric? The thing is, I think that people are turning the wrong lever
+
+00:58:49.920 --> 00:58:53.680
+ and they're like, okay, I'm working on this thing, which needs a lot of people.
+
+00:58:53.680 --> 00:58:58.240
+ So how do I like deal with all this annoying stuff? That's a side effect of it.
+
+00:58:58.240 --> 00:59:03.920
+ And like people endlessly discuss how that's a case. You could also choose just to work on
+
+00:59:03.920 --> 00:59:07.760
+ something else, you know? You choose to work on something that doesn't need a lot of people
+
+00:59:07.760 --> 00:59:11.440
+ and like can live up to the ideals that you imagine you use the other people doing.
+
+00:59:11.440 --> 00:59:19.200
+ So a lot of the times were like, I brought up the other day, like I think the further you get in
+
+00:59:19.200 --> 00:59:25.840
+ like business stuff, the more your obstacles look, like in the beginning, it's like, how do I even
+
+00:59:25.840 --> 00:59:30.240
+ make a dollar? Like it's impossible. How the hell do like, I don't know if anyone making any money,
+
+00:59:30.240 --> 00:59:34.640
+ just getting something working at all is so hard. But then I think as you get better at it,
+
+00:59:34.640 --> 00:59:40.560
+ all of your thoughts are around, wait, I can make money this way, I can make money that way,
+
+00:59:40.560 --> 00:59:46.000
+ I can make money this way. How do I avoid the nine out of 10 situations that lead me to a bad place?
+
+00:59:46.000 --> 00:59:51.840
+ The all of them will make you money, a lot of money, but you spend all this time like trying
+
+00:59:51.840 --> 00:59:56.400
+ to avoid being put in situations like that where you're like, well, that seems like a miserable
+
+00:59:56.400 --> 01:00:00.960
+ type of company, even though it's successful. So yeah, so for me, my focus is entirely on like,
+
+01:00:00.960 --> 01:00:07.360
+ how do I build something big without doing this other stuff? And the solution isn't to like,
+
+01:00:07.360 --> 01:00:11.600
+ find some way to avoid that, find some way to like do that better than anywhere else,
+
+01:00:11.600 --> 01:00:16.400
+ just like find a version of your business that doesn't need any of that.
+
+01:00:16.400 --> 01:00:20.880
+ Oh, people. So it's big. Yeah. So but yeah, so I just don't try to help solve that problem,
+
+01:00:20.880 --> 01:00:25.040
+ or think about it at all. Like I don't think there's a solution, like stuff just sucks
+
+01:00:25.040 --> 01:00:30.960
+ after serving size stuff just sucks. I just I have so many like tangential thoughts
+
+01:00:30.960 --> 01:00:34.560
+ shoving into my brain. And I feel like the dumbest human being on earth trying to vocalize any of
+
+01:00:34.560 --> 01:00:39.360
+ it. Like I just started going into my brain into the birth rate problem and like population
+
+01:00:39.360 --> 01:00:42.720
+ of dwindling, but maybe that's good because we're gonna have technology and we don't need as many
+
+01:00:42.720 --> 01:00:47.520
+ people in the workforce. I just there's so many of these like thoughts that are all kind of related
+
+01:00:47.520 --> 01:00:53.680
+ small teams, big teams. I'm just gonna stop. This is just like the dumbest version of some
+
+01:00:53.680 --> 01:01:00.160
+ business podcasts. You're saying some intelligent things and I'm like, but also, I don't know,
+
+01:01:00.160 --> 01:01:04.560
+ I'm just gonna stop. Hey, people like this dynamic. It's a I think Liz said that we've
+
+01:01:04.560 --> 01:01:12.560
+ accidentally landed on a very, very good format for our show and that you represent the audience.
+
+01:01:12.560 --> 01:01:17.280
+ Yeah, yeah. So the dumb people like vocalize. Sorry.
+
+01:01:20.000 --> 01:01:24.400
+ I would say you tend to vocalize questions. You know, yeah, right now I'm having a hard time
+
+01:01:24.400 --> 01:01:29.280
+ just even getting the questions out that are coherent. I have all these thoughts around this
+
+01:01:29.280 --> 01:01:33.680
+ problem. It ties into stuff I've talked about the past with like the fake jobs, like the economy's
+
+01:01:33.680 --> 01:01:42.640
+ half made up and and like I've hired people and been on the employing end. I've been on the employer
+
+01:01:42.640 --> 01:01:47.040
+ and and it all just is very confusing to me. I don't know what my question is.
+
+01:01:47.040 --> 01:01:51.600
+ Can I bring up something that's related to this that we never talked about but it upset a lot of
+
+01:01:51.600 --> 01:01:57.680
+ people. I love it a couple months ago. Keith Reboi, it got summarized in a really stupid way.
+
+01:01:57.680 --> 01:02:01.680
+ It was like there's some headline like Keith Reboi says never hire anyone under 30 years old.
+
+01:02:01.680 --> 01:02:04.880
+ Did you say Keith Reboi? What did you say? Keith Reboi, I don't know how to say his name.
+
+01:02:04.880 --> 01:02:08.400
+ Is it a name? Okay, I just want to make sure it's a name. Okay, that's fine.
+
+01:02:08.400 --> 01:02:12.640
+ Yeah, he's like a audience for the best the same question. I just needed to ask
+
+01:02:12.640 --> 01:02:19.680
+ whatever. He's extremely annoying. He's extremely extremely annoying person but you know occasionally
+
+01:02:19.680 --> 01:02:24.800
+ he has something interesting to say. Could you restate his question? I was I was so busy trying
+
+01:02:24.800 --> 01:02:29.840
+ to figure out if you said Kiefer, like the dairy product, I was so confused. Please do it.
+
+01:02:29.840 --> 01:02:35.440
+ Yeah, I think that's why it's Kefir. Oh, Kefir? Of course. Yeah. Okay. Say it again.
+
+01:02:35.440 --> 01:02:45.280
+ So Keith Reboi, Keith Reboi. He had this longer discussion on some panel and it got summarized as
+
+01:02:45.280 --> 01:02:50.640
+ he says to never hire anyone under the age of 30. This like pissed everyone off. Of course,
+
+01:02:50.640 --> 01:02:54.240
+ because it's a great end to your headline. But if you look at and this is exactly a
+
+01:02:54.240 --> 01:02:59.200
+ demonstration of what I mean by we are so afraid to like talk about this stuff because it
+
+01:02:59.200 --> 01:03:04.160
+ upsets people so much they miss out on understanding how the world works and like taking some
+
+01:03:04.160 --> 01:03:09.120
+ advantage. Like you getting upset by this is not helping you get rich. Like it's just not.
+
+01:03:09.120 --> 01:03:15.440
+ Right. Yeah. So what he describes is a really true thing which is his point isn't people above
+
+01:03:15.440 --> 01:03:21.760
+ 30 have no value or like whatever. He's like generally by the time you're 30 years old,
+
+01:03:21.760 --> 01:03:28.080
+ the market has fairly assessed you. Like you as an individual are probably not like
+
+01:03:29.040 --> 01:03:34.160
+ getting into situations where you're like, oh, this is I deserve more than this. Like there's
+
+01:03:34.160 --> 01:03:38.560
+ enough in your career, there's enough data points that there's probably plenty of bidders in the
+
+01:03:38.560 --> 01:03:44.400
+ market to like get you a great outcome or like the correct outcome. And he's saying when we're
+
+01:03:44.400 --> 01:03:50.880
+ in a startup, you can't play that game because there are always bigger bidders than you. So if
+
+01:03:50.880 --> 01:03:55.760
+ you want to find and people don't understand what fun alpha, what that means is like something
+
+01:03:55.760 --> 01:04:01.040
+ in the market is missing above what the average return is. Yeah. You have to go for people that
+
+01:04:01.040 --> 01:04:06.720
+ are not being correctly evaluated by the market. And you know, that makes the time. Typically,
+
+01:04:06.720 --> 01:04:09.760
+ when someone's younger, they don't have a lot of data points. So they might be punching above
+
+01:04:09.760 --> 01:04:13.600
+ their weight and you don't know. So some people try to explain this and then people are upset
+
+01:04:13.600 --> 01:04:18.480
+ from another angle. They're like, oh, so you're just not paying people what they're worth. You
+
+01:04:18.480 --> 01:04:23.200
+ want to like, you know, whatever. Yeah. But the point here is is you are a startup with a fixed
+
+01:04:23.200 --> 01:04:28.080
+ amount of resources to spend on something. Yeah. And you are connecting with someone that is not
+
+01:04:28.080 --> 01:04:35.520
+ able to find a job, right? Or not able to find a thing. And you identify that the market is
+
+01:04:35.520 --> 01:04:39.760
+ ignoring this currently very valuable person and you like, you know, we work with them. That's how
+
+01:04:39.760 --> 01:04:45.520
+ my career started. Like it was all situations like that. Yeah. And it technically is in line with
+
+01:04:45.520 --> 01:04:49.600
+ what people say they care about, right? Like you want people say they want diversity. Well,
+
+01:04:49.600 --> 01:04:54.400
+ it's what diversity looks like. You go find areas that everyone else thinks are useless and you
+
+01:04:54.400 --> 01:05:00.080
+ actually find talent there. That's how you do it. And yeah, they work for you for a little bit.
+
+01:05:00.080 --> 01:05:05.280
+ And that's going to like springboard them into being someone older that now is properly, you know,
+
+01:05:05.280 --> 01:05:13.200
+ valued. And the other thing I found funny was like, people on both sides are like, oh, no,
+
+01:05:13.200 --> 01:05:19.360
+ it means you were like underpaying people. Those are more. But then I'm like, don't people also
+
+01:05:19.360 --> 01:05:23.120
+ argue that the older you are, the more you should get paid? So like, yeah, the younger person should
+
+01:05:23.120 --> 01:05:27.360
+ get paid. Like it just doesn't, it doesn't all make sense. So like, this is a type of thing. Well,
+
+01:05:27.360 --> 01:05:32.880
+ like if you understand the world in this way, yeah, like you can benefit from that. You like,
+
+01:05:32.880 --> 01:05:36.080
+ no, this is how people are going to hire is how you can find like these, these like,
+
+01:05:36.080 --> 01:05:40.240
+ Adam just got up and ran away. So I don't know what happened. I'm so sorry.
+
+01:05:40.240 --> 01:05:45.680
+ What happened? Do you know what happened? Did someone fall down the stairs?
+
+01:05:46.240 --> 01:05:50.960
+ No, I said P. And I didn't, I didn't want you to stop. I wanted to let you cook.
+
+01:05:50.960 --> 01:05:58.480
+ That was so weird that you just, you just, you like sprinted out. I've had to be for five minutes.
+
+01:05:58.480 --> 01:06:05.200
+ No, I just have had to pee so bad. And it was like, I cannot wait any longer. And, but I didn't
+
+01:06:05.200 --> 01:06:09.760
+ want to stop you. You're, you're going. Did you keep going? I did. I did stop because you left.
+
+01:06:09.760 --> 01:06:16.240
+ Oh man. That made no sense. It was just jarring the way you left. Okay. I forgot what I was talking
+
+01:06:16.240 --> 01:06:20.720
+ about too. If ever I just take off in the middle again, just keep going. That means I just want
+
+01:06:20.720 --> 01:06:29.920
+ you to finish your thought and not kill the train that happened at him. I guess it doesn't make
+
+01:06:29.920 --> 01:06:35.200
+ sense. You're literally talking to me. Why would you keep talking if I'm not here? Yeah. Sorry.
+
+01:06:35.200 --> 01:06:44.720
+ Anyway, just to summarize my point, yes, this headline is upsetting. But it's worth, like,
+
+01:06:44.720 --> 01:06:50.240
+ understanding it beyond just getting upset about it. Because like, yeah, yeah, the world
+
+01:06:50.240 --> 01:06:55.120
+ does work in certain ways. And like, it's not this idealized form of hiring you have in your head.
+
+01:06:55.120 --> 01:07:00.160
+ And most idealized forms of hiring people have on their head is like, I should walk in and people
+
+01:07:00.160 --> 01:07:04.880
+ just hand me a job and it should pay like a million dollars. And like, that's how everyone should get.
+
+01:07:04.880 --> 01:07:08.160
+ That they just have this like unrealistic way of the world working. So it's worth.
+
+01:07:08.160 --> 01:07:12.560
+ And then realistic. Some of these situations. On the other side too. Like on the employer side,
+
+01:07:12.560 --> 01:07:16.560
+ this unrealistic expectation that you should hire every person. They should be amazing. And
+
+01:07:16.560 --> 01:07:20.320
+ you should pay them next to nothing. Like, there's just, there's that competing
+
+01:07:20.320 --> 01:07:26.640
+ worldview on both sides. That's not accurate. Yeah. And to me, it's always like people are like,
+
+01:07:26.640 --> 01:07:33.440
+ well, this number is fair. Like, there's no such thing as fair. Like, this is just a very basic
+
+01:07:33.440 --> 01:07:39.200
+ transaction between two parties where both sides are trying to get as most as they can without
+
+01:07:39.200 --> 01:07:42.880
+ giving up as much as they can. And given all the leverage that exists in the world,
+
+01:07:42.880 --> 01:07:47.280
+ it lands on a specific price. And that's where it is. If you're being quote unquote underpaid,
+
+01:07:47.280 --> 01:07:54.000
+ it's not because your boss is evil, your employer is evil. It's that there aren't enough opportunities
+
+01:07:54.000 --> 01:07:58.640
+ for you to like negotiate a better situation. And that's what you need to fix. Not like
+
+01:07:58.640 --> 01:08:04.000
+ being like, you should pay more for no reason. It just doesn't give people more power. If they're
+
+01:08:04.000 --> 01:08:08.240
+ just getting paid more because the employer is being nice. Like, that doesn't actually give you
+
+01:08:08.240 --> 01:08:12.480
+ any amount of freedom. Give me taking away any point. Yeah. I'm glad you hit on the
+
+01:08:12.480 --> 01:08:17.920
+ not the way the world works. Because I do feel like all of my confusion and
+
+01:08:17.920 --> 01:08:23.680
+ struggle to even voice coherent questions, all of that aside, I just want to know what the
+
+01:08:23.680 --> 01:08:27.520
+ reality is. Like, I know there's some reality to all this stuff. And maybe it's just too complex
+
+01:08:27.520 --> 01:08:35.200
+ for there to be simple answers. But there's something about the way businesses and hiring
+
+01:08:35.200 --> 01:08:39.680
+ and all that works that just still feels so messed up in my head. And I can't sort it out.
+
+01:08:39.680 --> 01:08:43.920
+ Yeah. There's a lot of games that I played. Yeah, sorry.
+
+01:08:43.920 --> 01:08:48.880
+ Yeah. The other thing that comes up a lot is, people are always like, I just want to program
+
+01:08:48.880 --> 01:08:54.000
+ for my whole life. Like, why is there always an opportunity to advance, you know, to go into
+
+01:08:54.000 --> 01:08:58.880
+ management or whatever? Everyone sees this as like a fundamentally wrong thing, the world shouldn't
+
+01:08:58.880 --> 01:09:04.480
+ work this way. But the actual dynamics, I think that lead to this are, it's not what people want
+
+01:09:04.480 --> 01:09:10.000
+ to hear, but I think it is a truth. When you are hiring someone, again, you're always looking for
+
+01:09:10.000 --> 01:09:16.320
+ that like, oh, this person clearly is going to be like incredible in a couple years. So if we like,
+
+01:09:16.320 --> 01:09:20.800
+ you know, get them in now, we get to benefit from this obvious growth they're going to have.
+
+01:09:20.800 --> 01:09:24.560
+ So a lot of people when they're interviewing you, yeah, they care about your current state,
+
+01:09:24.560 --> 01:09:32.880
+ but they really look for your like growth potential. And like your own energy around that. And the
+
+01:09:32.880 --> 01:09:40.160
+ reality is the more experience you have, the less that becomes, the less you can like convey
+
+01:09:40.160 --> 01:09:46.640
+ that, right? Like for me, when I was half the experience I do now, like where I might end up
+
+01:09:46.640 --> 01:09:51.680
+ landing was like so undefined, like I could end up like being like amazing. Like it was just like
+
+01:09:51.680 --> 01:09:56.800
+ so I could see how when someone was talking to me, they would be like really excited by that aspect.
+
+01:09:56.800 --> 01:10:01.040
+ Whereas now like they kind of know, like I kind of know where I am and I kind of like know where I'm
+
+01:10:01.040 --> 01:10:08.480
+ going. So like, yeah, I need to like be advancing in some place. So that's why a lot of people end up
+
+01:10:08.480 --> 01:10:14.160
+ going into managing people. And like the reality is, is if you're a programmer with 30 years of
+
+01:10:14.160 --> 01:10:19.280
+ experience versus 20, it's really hard to get that much more excited about the person with 30,
+
+01:10:19.280 --> 01:10:26.080
+ the person with 20 versus 10, that makes sense. And there's only so much work that really needs
+
+01:10:26.080 --> 01:10:31.680
+ 30 years versus 10. And yeah, it's not we want to hear because we want to like, we like programming,
+
+01:10:31.680 --> 01:10:36.080
+ we want to do that forever and we want to like be able to have a nice life by just doing that stuff
+
+01:10:36.080 --> 01:10:42.880
+ forever. But this is just how, it's just how the world is. And I don't know, like you have to understand
+
+01:10:42.880 --> 01:10:46.640
+ that and position your life properly. So you heard it here first, Zach says AI is going to take your
+
+01:10:46.640 --> 01:10:56.560
+ job. Basically, basically just said, that's what I heard. I do have to get off here because my kids
+
+01:10:56.560 --> 01:11:03.840
+ want to come in my office and do something. So what destroy it? No, they actually want to clean it up.
+
+01:11:03.840 --> 01:11:08.480
+ They destroyed it yesterday. They want to clean it up. Well, they have to clean it up before they
+
+01:11:08.480 --> 01:11:13.760
+ can do something that Casey has said a stipulation. Yeah, yeah. I see. It's how it's how the world
+
+01:11:13.760 --> 01:11:18.240
+ works right here. If we want something done, we have to incentivize. It's kind of like employing
+
+01:11:18.240 --> 01:11:23.840
+ people. And if your kids had other opportunities, they would pursue that would not be your office.
+
+01:11:23.840 --> 01:11:31.600
+ It's a lot of alpha right now at their ages, at nine and five, you know. Yeah, it's funny.
+
+01:11:32.320 --> 01:11:35.680
+ All right, well, this was good. Thanks for taking a break from your vacation to record.
+
+01:11:35.680 --> 01:11:40.160
+ Yeah, it was fun. It was fun. All right, see you. See you.
+

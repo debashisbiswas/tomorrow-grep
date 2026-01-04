@@ -1,0 +1,1691 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.760
+ Adam, I was excited to see how excited you got when you heard about the news today about
+
+00:00:06.760 --> 00:00:07.760
+ the acquisition.
+
+00:00:07.760 --> 00:00:09.760
+ You were on your stream, and you just-
+
+00:00:09.760 --> 00:00:10.760
+ I'm so excited.
+
+00:00:10.760 --> 00:00:11.760
+ Yeah.
+
+00:00:11.760 --> 00:00:13.360
+ I'd love to hear more about that.
+
+00:00:13.360 --> 00:00:14.360
+ Yeah, no.
+
+00:00:14.360 --> 00:00:21.480
+ You told me Shopify acquires remix, and then I went on and on about how excited I was before
+
+00:00:21.480 --> 00:00:24.580
+ I realized half of what you were saying.
+
+00:00:24.580 --> 00:00:28.660
+ You explained that it was hydrogen, they were the first to adopt react components, but I'm
+
+00:00:28.660 --> 00:00:32.960
+ like not reading chat, and I'm just like, "This is so crazy, oh my word," and then like
+
+00:00:32.960 --> 00:00:35.760
+ I didn't understand half the plot, so it seems the writer.
+
+00:00:35.760 --> 00:00:37.200
+ Yeah, that whole goes deep in this one.
+
+00:00:37.200 --> 00:00:38.200
+ Oh, yeah.
+
+00:00:38.200 --> 00:00:45.640
+ I can't wait to unpack it.
+
+00:00:45.640 --> 00:01:04.460
+ I don't even know where to start, do you have thoughts on where to start here?
+
+00:01:04.460 --> 00:01:11.620
+ No, I guess let's just lay out what happened, I guess, and so it's all happening.
+
+00:01:11.620 --> 00:01:15.540
+ It's unfolding right now, so there's going to be more that's probably happening as we're
+
+00:01:15.540 --> 00:01:22.460
+ talking about it, but yeah, news this morning, remix acquired by Shopify, which is pretty
+
+00:01:22.460 --> 00:01:25.740
+ crazy because people have been wondering, "Remix is the underdog, are they going to be
+
+00:01:25.740 --> 00:01:31.380
+ able to take on Next.js on their own for sales backing and all this stuff," but now they're
+
+00:01:31.380 --> 00:01:32.540
+ backed by Shopify.
+
+00:01:32.540 --> 00:01:40.700
+ So one huge on its own, then Fred from Astro tweeted, he actually read through the blog post
+
+00:01:40.700 --> 00:01:46.620
+ in the roadmap, and Shopify seems to be suggesting that their own framework, which they've been
+
+00:01:46.620 --> 00:01:51.020
+ building, Hydrogen, which was the only other React Server component framework, is going
+
+00:01:51.020 --> 00:01:55.460
+ to be moving away from RSC, which is a really big deal, I think the narrative is really
+
+00:01:55.460 --> 00:02:01.620
+ interesting where, you know, Next.js conference happened, React Server components was released,
+
+00:02:01.620 --> 00:02:04.480
+ everyone wanted to try it, I know you have a lot of thoughts on this, and it felt like
+
+00:02:04.480 --> 00:02:09.220
+ half-baked, terrible, like not good, then Shopify is announcing, "Well, we're not going
+
+00:02:09.220 --> 00:02:13.820
+ to be using it either, we just prefer to use React Router and that whole model."
+
+00:02:13.820 --> 00:02:16.580
+ Yeah, can you unpack that for me?
+
+00:02:16.580 --> 00:02:21.580
+ Because it looked like when I read the posts, I didn't read the whole thing, but I read
+
+00:02:21.580 --> 00:02:24.500
+ parts of it, quoted parts on tweets and stuff.
+
+00:02:24.500 --> 00:02:30.060
+ It sounded like they were saying, "For now, is there a chance they're going to still use
+
+00:02:30.060 --> 00:02:31.660
+ RSCs in the future?
+
+00:02:31.660 --> 00:02:32.660
+ Did you see that?"
+
+00:02:32.660 --> 00:02:35.740
+ They definitely hedged a lot, and every single place where someone said something about
+
+00:02:35.740 --> 00:02:40.980
+ moving away from RSC, they like prefaced it or qualified it by saying, "We still believe
+
+00:02:40.980 --> 00:02:46.420
+ RSCs are great in the future, and we're really excited that we think that's a future of
+
+00:02:46.420 --> 00:02:48.780
+ React, but we're not using them, right?"
+
+00:02:48.780 --> 00:02:51.580
+ So it's like, yeah, it is interesting.
+
+00:02:51.580 --> 00:02:56.140
+ So I think ultimately, and we were just having a meeting at SST, and we ended up talking
+
+00:02:56.140 --> 00:03:02.940
+ about a bunch about this as well, because now Next and React are so tied together, any
+
+00:03:02.940 --> 00:03:08.940
+ fumble that Next does or Vercel does splashes back on a React, right?
+
+00:03:08.940 --> 00:03:09.940
+ Yeah.
+
+00:03:09.940 --> 00:03:10.940
+ Oh, sure.
+
+00:03:10.940 --> 00:03:11.940
+ Yeah.
+
+00:03:11.940 --> 00:03:14.980
+ So I think RSCs are fine and great, and they're going to be really-- they're going to be good
+
+00:03:14.980 --> 00:03:17.940
+ and they're going to work the way they're advertised.
+
+00:03:17.940 --> 00:03:22.860
+ But I think Next kind of fumbled this release, and like, you know, with people trying it
+
+00:03:22.860 --> 00:03:26.300
+ out, and the bundle size are bigger, there's a lot of questions and ambiguity around it.
+
+00:03:26.300 --> 00:03:27.300
+ Yeah.
+
+00:03:27.300 --> 00:03:31.260
+ And I want to get into that a lot, because I think that's so much of this story to me
+
+00:03:31.260 --> 00:03:36.820
+ is the Vercel response, the Guillermo response, like all of this stuff.
+
+00:03:36.820 --> 00:03:44.220
+ But I guess, like, so to summarize here, Shopify buying remix, Shopify powers, like, everything
+
+00:03:44.220 --> 00:03:45.980
+ that's e-commerce, but Amazon, right?
+
+00:03:45.980 --> 00:03:48.740
+ Like, they are it for e-commerce.
+
+00:03:48.740 --> 00:03:53.900
+ So now you've got remix, and they sort of build a lot of tooling for developers who
+
+00:03:53.900 --> 00:03:55.540
+ are building storefronts, right?
+
+00:03:55.540 --> 00:03:59.820
+ Like, Shopify provides all this, like, in the past, they've got APIs for interacting
+
+00:03:59.820 --> 00:04:03.940
+ with your merchant account and all that, but they also provide, like, front-end stuff,
+
+00:04:03.940 --> 00:04:04.940
+ right?
+
+00:04:04.940 --> 00:04:09.500
+ And so now, presumably, remix is going to be the way people build their Shopify stores.
+
+00:04:09.500 --> 00:04:10.500
+ Is that parsed correctly?
+
+00:04:10.500 --> 00:04:12.540
+ Yeah, I think that makes sense.
+
+00:04:12.540 --> 00:04:16.580
+ I think from the beginning, remix felt like a weird set of trade-offs, like, the way that
+
+00:04:16.580 --> 00:04:18.620
+ they say you should build stuff.
+
+00:04:18.620 --> 00:04:22.540
+ But that set of trade-offs made perfect sense for e-commerce, and I would argue, like, maybe
+
+00:04:22.540 --> 00:04:23.540
+ for nothing else.
+
+00:04:23.540 --> 00:04:24.540
+ Yeah.
+
+00:04:24.540 --> 00:04:27.260
+ So, teaming up with Shopify is perfect.
+
+00:04:27.260 --> 00:04:30.260
+ Yeah, and that's the next JS thing, too, right?
+
+00:04:30.260 --> 00:04:35.580
+ Like, it's mostly, it fits really well in terms of feature set for e-commerce, and that's
+
+00:04:35.580 --> 00:04:37.860
+ what they always cite, like, at the conference they just said.
+
+00:04:37.860 --> 00:04:42.780
+ It's like, here's all the major e-commerce stores using next JS in Versailles.
+
+00:04:42.780 --> 00:04:48.860
+ So it's a big deal to Versailles if remix falls into the hands of Shopify, where, presumably,
+
+00:04:48.860 --> 00:04:53.020
+ there's a lot of next-ish stores built for Shopify, I guess.
+
+00:04:53.020 --> 00:04:57.220
+ Yeah, and I think that's where Versailles makes a lot of money, because I think we're
+
+00:04:57.220 --> 00:05:02.420
+ talking about this in a previous podcast, where e-commerce stores deliver a lot of traffic
+
+00:05:02.420 --> 00:05:06.460
+ with, like, high-quality images, like, all this stuff, and Versailles gets to charge people
+
+00:05:06.460 --> 00:05:07.460
+ for that.
+
+00:05:07.460 --> 00:05:08.460
+ Yeah.
+
+00:05:08.460 --> 00:05:12.420
+ So, yeah, it's, like, it's really interesting, and it goes right to the heart of their business
+
+00:05:12.420 --> 00:05:13.420
+ model, I think.
+
+00:05:13.420 --> 00:05:17.300
+ Yeah, and did you see any of the Guillermo response tweets, because there's been stuff?
+
+00:05:17.300 --> 00:05:18.300
+ Yeah.
+
+00:05:18.300 --> 00:05:25.180
+ I saw the one where he was kind of stuff tweeting, like, "Oh, you don't want your front-end coupled
+
+00:05:25.180 --> 00:05:30.420
+ with your back-end," and something like that, which is really odd, because I don't think
+
+00:05:30.420 --> 00:05:33.220
+ remakes is going to get, like, Shopify-specific features.
+
+00:05:33.220 --> 00:05:35.460
+ That doesn't really make sense.
+
+00:05:35.460 --> 00:05:39.620
+ I think it's just going to be a framework that you can use with Shopify or with other
+
+00:05:39.620 --> 00:05:40.620
+ stuff if you want.
+
+00:05:40.620 --> 00:05:41.620
+ So I think that was kind of a weird.
+
+00:05:41.620 --> 00:05:45.260
+ I think he, like, he should have a workshop that one more, because you're going to get
+
+00:05:45.260 --> 00:05:46.260
+ a response.
+
+00:05:46.260 --> 00:05:50.460
+ And it just drew attention to the fact that, well, actually, next JS in Bursailles are coupled.
+
+00:05:50.460 --> 00:05:51.860
+ Yeah, exactly.
+
+00:05:51.860 --> 00:05:58.080
+ That's the big, such, like, everybody's sort of piled on, the pot calling the kettle black.
+
+00:05:58.080 --> 00:06:01.860
+ I don't want to just keep talking and jumping straight to Bursailles and next JS, but that's
+
+00:06:01.860 --> 00:06:03.260
+ just where my head's at right now.
+
+00:06:03.260 --> 00:06:09.860
+ I guess, like, for the Shopify remix situation, they're going to continue to operate remix
+
+00:06:09.860 --> 00:06:13.860
+ as this open-source unit, like, they're going to keep doing what they've been doing.
+
+00:06:13.860 --> 00:06:18.620
+ The remix folks aren't, like, suddenly working on Shopify internal stuff.
+
+00:06:18.620 --> 00:06:21.620
+ They're building remix just as they have them, but they've got this backing.
+
+00:06:21.620 --> 00:06:25.720
+ So now, I think one of them, Michael Jackson, or I can't remember, Ryan, one of them pointed
+
+00:06:25.720 --> 00:06:29.900
+ out that it's a huge deal for a framework like this, just for any open-source framework,
+
+00:06:29.900 --> 00:06:33.660
+ to now have, like, an indefinite timeline, like, they have financial backing, they don't
+
+00:06:33.660 --> 00:06:35.940
+ have to worry about money.
+
+00:06:35.940 --> 00:06:37.100
+ They can focus on building.
+
+00:06:37.100 --> 00:06:40.140
+ It's just a whole other element to this whole thing.
+
+00:06:40.140 --> 00:06:41.140
+ Is that all accurate?
+
+00:06:41.140 --> 00:06:42.140
+ Did I get all that right?
+
+00:06:42.140 --> 00:06:43.140
+ That they're stating?
+
+00:06:43.140 --> 00:06:44.140
+ Yeah.
+
+00:06:44.140 --> 00:06:45.140
+ Yeah, I think so.
+
+00:06:45.140 --> 00:06:46.140
+ And for a couple of minutes, I had to Shopify.
+
+00:06:46.140 --> 00:06:47.140
+ This is...
+
+00:06:47.140 --> 00:06:48.340
+ The numbers are probably pretty low for them.
+
+00:06:48.340 --> 00:06:49.780
+ It's probably, like, a good deal.
+
+00:06:49.780 --> 00:06:53.520
+ Even though they're probably really high, like, subjectively.
+
+00:06:53.520 --> 00:06:58.580
+ But for them, you know, to hire two developers of that quality, to work on something like
+
+00:06:58.580 --> 00:07:03.140
+ this, like, it's like a tiny fraction of anything else they spend their money on.
+
+00:07:03.140 --> 00:07:07.340
+ So Shopify gets to, I mean, it's an acquisition, right?
+
+00:07:07.340 --> 00:07:08.340
+ They're acquiring...
+
+00:07:08.340 --> 00:07:09.340
+ It's like an Aquaire.
+
+00:07:09.340 --> 00:07:16.500
+ I don't know if you can acquire MIT license software, but they're going to have some say,
+
+00:07:16.500 --> 00:07:21.780
+ right, over Ryan and Michael's focus, like, what they're building into remix.
+
+00:07:21.780 --> 00:07:25.540
+ Like, it's going to be better and better all the time for e-commerce use cases, I would
+
+00:07:25.540 --> 00:07:26.540
+ imagine.
+
+00:07:26.540 --> 00:07:27.540
+ Yeah.
+
+00:07:27.540 --> 00:07:30.700
+ I wonder what degree, like, even needs to specialize that hard.
+
+00:07:30.700 --> 00:07:35.500
+ I feel like just their model, just making that better and more complete and, like, seeing
+
+00:07:35.500 --> 00:07:39.540
+ through their vision, coincidentally happens to work well for e-commerce, so I think that
+
+00:07:39.540 --> 00:07:41.380
+ might be enough for a long time.
+
+00:07:41.380 --> 00:07:45.060
+ And I'm sure they, like, negotiated all of that because they had probably, after working
+
+00:07:45.060 --> 00:07:51.820
+ independently for so long, and they'd have probably wanted to retain that control.
+
+00:07:51.820 --> 00:07:52.820
+ Yeah.
+
+00:07:52.820 --> 00:07:53.820
+ Sorry.
+
+00:07:53.820 --> 00:08:00.260
+ And then, on the Shopify benefits side, like, what they're going to get, I assume they're
+
+00:08:00.260 --> 00:08:01.260
+ going to...
+
+00:08:01.260 --> 00:08:04.180
+ Like, I wasn't jumping to conclusions, but I had that they're going to, like, package
+
+00:08:04.180 --> 00:08:08.300
+ some of remix up into their dev tools that they provide to merchants.
+
+00:08:08.300 --> 00:08:09.300
+ Is that presumptuous?
+
+00:08:09.300 --> 00:08:11.020
+ Or does it say in the blog post?
+
+00:08:11.020 --> 00:08:12.860
+ I should read the blog post.
+
+00:08:12.860 --> 00:08:17.620
+ No, I don't think, well, I don't think they explicitly mentioned any of that.
+
+00:08:17.620 --> 00:08:20.180
+ And I think if they do that, it'll be...
+
+00:08:20.180 --> 00:08:24.620
+ I don't think they need to do that any time soon, but, yeah, I guess, hydrogen...
+
+00:08:24.620 --> 00:08:29.140
+ Can you explain hydrogen to me, because I've never used or known anything about hydrogen?
+
+00:08:29.140 --> 00:08:30.140
+ Yeah.
+
+00:08:30.140 --> 00:08:31.140
+ I'm also a little bit...
+
+00:08:31.140 --> 00:08:33.060
+ I'm, like, not super familiar with it.
+
+00:08:33.060 --> 00:08:34.060
+ Or I'm not...
+
+00:08:34.060 --> 00:08:39.700
+ I don't know it to a crazy degree either, but yeah, it is a React-based framework that...
+
+00:08:39.700 --> 00:08:41.220
+ It's kind of what you're describing.
+
+00:08:41.220 --> 00:08:46.640
+ It's a little bit more that I give you stuff to build storefronts with, for you to find
+
+00:08:46.640 --> 00:08:48.300
+ things where it all works.
+
+00:08:48.300 --> 00:08:53.820
+ And the interesting part is they really focused on the architecture of it so that it renders
+
+00:08:53.820 --> 00:08:56.460
+ in a way that is efficient for e-commerce.
+
+00:08:56.460 --> 00:08:58.340
+ So I think they will...
+
+00:08:58.340 --> 00:09:07.780
+ I honestly feel like the remix team might just go work on React Router more and just make
+
+00:09:07.780 --> 00:09:12.220
+ all the remix features, and they've already been doing this, but it's bringing all the
+
+00:09:12.220 --> 00:09:17.740
+ features to React Router, and then hydrogen will just use React Router.
+
+00:09:17.740 --> 00:09:20.700
+ So they're still kind of independent, but there's a nice energy there.
+
+00:09:20.700 --> 00:09:23.540
+ And hydrogen can be like the very Shopify-focused effort.
+
+00:09:23.540 --> 00:09:24.700
+ Yeah.
+
+00:09:24.700 --> 00:09:27.820
+ So I can remember, I've played with Shopify in the past.
+
+00:09:27.820 --> 00:09:30.900
+ I was building a thing that involved a Shopify plugin.
+
+00:09:30.900 --> 00:09:35.620
+ And I can remember, like, if you want to build a Shopify site for your store, your e-commerce
+
+00:09:35.620 --> 00:09:39.620
+ store, and have it be completely headless, kind of getting to gear modes tweet where
+
+00:09:39.620 --> 00:09:45.220
+ he said like they should allow Shopify merchants to build with any front end or whatever and
+
+00:09:45.220 --> 00:09:46.500
+ use their back end APIs.
+
+00:09:46.500 --> 00:09:49.820
+ They do allow you to do that unless things have changed.
+
+00:09:49.820 --> 00:09:54.940
+ You just have to have one of the like expensive premium accounts if they should be doing business.
+
+00:09:54.940 --> 00:09:55.940
+ Yeah.
+
+00:09:55.940 --> 00:09:56.940
+ Yeah.
+
+00:09:56.940 --> 00:10:01.660
+ So like the current, if you're not one of those premium customers, you build with all
+
+00:10:01.660 --> 00:10:06.860
+ the Shopify UI stuff and you don't think that part, or is that hydrogen?
+
+00:10:06.860 --> 00:10:11.140
+ I'm not sure I understand like how it all fits into, I'm a merchant, I want to store
+
+00:10:11.140 --> 00:10:12.780
+ on Shopify.
+
+00:10:12.780 --> 00:10:18.140
+ Am I choosing remix and remix-like technologies more in the future, or does it not affect
+
+00:10:18.140 --> 00:10:20.620
+ it at all based on this deal?
+
+00:10:20.620 --> 00:10:21.620
+ I think, yeah.
+
+00:10:21.620 --> 00:10:27.180
+ I do think they have to figure out their pricing model because you can't, yeah, you're right.
+
+00:10:27.180 --> 00:10:28.700
+ The tier is so high.
+
+00:10:28.700 --> 00:10:30.420
+ I think it's like several thousand a month.
+
+00:10:30.420 --> 00:10:31.420
+ Yeah, it's a lot.
+
+00:10:31.420 --> 00:10:36.380
+ For the headless API, and I do wonder why they structured it that way, but it like eliminates
+
+00:10:36.380 --> 00:10:39.780
+ the type of person that's just going to pick up remix and try to build any commerce because
+
+00:10:39.780 --> 00:10:42.020
+ you literally can't do that.
+
+00:10:42.020 --> 00:10:47.300
+ But also the kind of person who would take a next JS project, like build a next JS storefront,
+
+00:10:47.300 --> 00:10:48.300
+ I guess.
+
+00:10:48.300 --> 00:10:49.300
+ Yeah.
+
+00:10:49.300 --> 00:10:53.900
+ It seems like they're really focused on the funnel of when you're small, use our no code
+
+00:10:53.900 --> 00:10:57.140
+ tools, when you're successful, build your own thing.
+
+00:10:57.140 --> 00:10:58.140
+ Yeah.
+
+00:10:58.140 --> 00:11:04.060
+ It makes sense historically, but I think now there's just so many good tools for building
+
+00:11:04.060 --> 00:11:07.420
+ e-commerce front ends, like remakes, and actually all these things.
+
+00:11:07.420 --> 00:11:08.420
+ Yeah.
+
+00:11:08.420 --> 00:11:12.580
+ So, yeah, I feel like they got to figure out their pricing there, if it makes sense.
+
+00:11:12.580 --> 00:11:16.980
+ So the bigger story here then, I think I'm still missing the plot because I think I keep
+
+00:11:16.980 --> 00:11:21.300
+ circling around trying to find something bigger, but the big story here is maybe a not vote
+
+00:11:21.300 --> 00:11:22.300
+ of confidence.
+
+00:11:22.300 --> 00:11:23.660
+ What's a lack of vote of confidence?
+
+00:11:23.660 --> 00:11:30.740
+ An anti-vote of confidence for RSCs in hydrogen, and the financial backing that now the remix
+
+00:11:30.740 --> 00:11:35.580
+ team will have to continue competing with next JS and Versailles and the others.
+
+00:11:35.580 --> 00:11:36.580
+ Is that accurate?
+
+00:11:36.580 --> 00:11:37.580
+ Yeah, exactly.
+
+00:11:37.580 --> 00:11:46.960
+ Yeah, I think the vote of no confidence, I guess, I don't know if it's that dramatic,
+
+00:11:46.960 --> 00:11:50.820
+ like they hedged everywhere they said stuff, but you can say stuff, I think the actions
+
+00:11:50.820 --> 00:11:51.820
+ matter more.
+
+00:11:51.820 --> 00:11:56.860
+ They're not betting on it now, and they have a business running, they have to make bets
+
+00:11:56.860 --> 00:11:57.860
+ that make sense.
+
+00:11:57.860 --> 00:11:58.860
+ Yeah.
+
+00:11:58.860 --> 00:12:02.860
+ And they're choosing not to bet on RSCs for the time being, just a timing of everything
+
+00:12:02.860 --> 00:12:03.860
+ I think is insane.
+
+00:12:03.860 --> 00:12:09.300
+ I think there's been all these negative feelings around just a confusion around RSCs and next
+
+00:12:09.300 --> 00:12:16.020
+ 13, and then now someone who should really be pro RSC that's been doing it for a long
+
+00:12:16.020 --> 00:12:19.860
+ time is also bailing, it just doesn't look good.
+
+00:12:19.860 --> 00:12:21.740
+ So let's talk about all that confusion.
+
+00:12:21.740 --> 00:12:24.900
+ This is the thing that I'm most, it's in my head right now.
+
+00:12:24.900 --> 00:12:31.020
+ So next year, 13, they just launched at next comp, and I thought next year, 13 would be
+
+00:12:31.020 --> 00:12:32.540
+ the thing that was pretty baked.
+
+00:12:32.540 --> 00:12:37.020
+ Like if Turbo Pack is a thing that is clearly very unbaked, they're just still mixing stuff
+
+00:12:37.020 --> 00:12:40.940
+ in the mixing bowl, then I thought like next 13 and all the routing stuff, the layouts
+
+00:12:40.940 --> 00:12:48.260
+ RFC, all of that, I assumed was pretty well done, like ready for public consumption.
+
+00:12:48.260 --> 00:12:54.520
+ But so far, it sounds a lot like the next 13, the layouts, the routing, all of it makes
+
+00:12:54.520 --> 00:12:59.380
+ sense except it's still a giant client bundle, no matter what you do with server components,
+
+00:12:59.380 --> 00:13:01.540
+ there's server components by default in the app directory.
+
+00:13:01.540 --> 00:13:05.340
+ As far as I know, there's people building projects and I should do this, but with entirely
+
+00:13:05.340 --> 00:13:07.940
+ server components, no client components whatsoever.
+
+00:13:07.940 --> 00:13:10.100
+ And it's like a bigger bundle than ever.
+
+00:13:10.100 --> 00:13:14.780
+ So is this a, you said, maybe this is the next JS fumble of herself humble, not so much
+
+00:13:14.780 --> 00:13:18.620
+ a react server component fumble, but can you, what do you understand of the whole thing?
+
+00:13:18.620 --> 00:13:20.660
+ I've been asking, I don't seem to get any answers.
+
+00:13:20.660 --> 00:13:21.660
+ Yeah.
+
+00:13:21.660 --> 00:13:25.420
+ I was going to ask you, have you, have you seen anyone get a good result yet?
+
+00:13:25.420 --> 00:13:26.420
+ No.
+
+00:13:26.420 --> 00:13:28.620
+ Because I saw people who replies me like, well, you did XYZ wrong.
+
+00:13:28.620 --> 00:13:29.620
+ Oh, no.
+
+00:13:29.620 --> 00:13:33.180
+ I've not seen a single example, like a single project that was like, look here, you did
+
+00:13:33.180 --> 00:13:36.220
+ the right thing, you turned on the right experimental flag or whatever.
+
+00:13:36.220 --> 00:13:37.300
+ Now the bundles are tiny.
+
+00:13:37.300 --> 00:13:38.300
+ Haven't seen it.
+
+00:13:38.300 --> 00:13:39.300
+ Oh, yeah.
+
+00:13:39.300 --> 00:13:43.580
+ So I, from what I understand about RSCs, I feel like this is, it's just not packaged.
+
+00:13:43.580 --> 00:13:44.580
+ Like I don't know what they're doing.
+
+00:13:44.580 --> 00:13:46.220
+ They did something wrong.
+
+00:13:46.220 --> 00:13:49.420
+ It shouldn't be worse than next 12, which is what I'm seeing.
+
+00:13:49.420 --> 00:13:50.420
+ That seems impossible.
+
+00:13:50.420 --> 00:13:53.420
+ Like RSCs can't be that bad, right?
+
+00:13:53.420 --> 00:13:54.420
+ Yeah.
+
+00:13:54.420 --> 00:13:58.020
+ So yeah, I think, I don't know, it just feels like maybe I haven't heard anything from
+
+00:13:58.020 --> 00:13:59.020
+ them either.
+
+00:13:59.020 --> 00:14:02.140
+ I feel like there's like this big vacuum of, yes, wait, what?
+
+00:14:02.140 --> 00:14:07.460
+ And I haven't seen anyone from their side clarifying, even just saying, oh, you guys
+
+00:14:07.460 --> 00:14:08.460
+ are right.
+
+00:14:08.460 --> 00:14:10.580
+ This isn't working right now, but it's going to work.
+
+00:14:10.580 --> 00:14:13.820
+ So I saw Dan or somebody.
+
+00:14:13.820 --> 00:14:18.780
+ Oh, I think it was somebody from the React team say that, oh, yeah, next 13 is missing
+
+00:14:18.780 --> 00:14:23.060
+ this XYZ optimization, which sounds like the whole thing.
+
+00:14:23.060 --> 00:14:26.940
+ Like if it's not pulling JavaScript out of the bundle, it's the whole point, what we've
+
+00:14:26.940 --> 00:14:32.260
+ been sold on the whole next 13 server components, all of this was like small bundles and not
+
+00:14:32.260 --> 00:14:34.260
+ shipping JavaScript if you don't need to.
+
+00:14:34.260 --> 00:14:35.660
+ And that's not the case.
+
+00:14:35.660 --> 00:14:37.420
+ And when is it going to be the case?
+
+00:14:37.420 --> 00:14:38.420
+ Yeah.
+
+00:14:38.420 --> 00:14:39.420
+ Okay.
+
+00:14:39.420 --> 00:14:40.420
+ I think something clicked for me.
+
+00:14:40.420 --> 00:14:47.420
+ What happened was Vercel was very excited about the API changes that RSCs provide right
+
+00:14:47.420 --> 00:14:50.340
+ before you had like get server side props, all these things.
+
+00:14:50.340 --> 00:14:52.900
+ And now there's like one clean way to do everything.
+
+00:14:52.900 --> 00:14:53.900
+ Yeah.
+
+00:14:53.900 --> 00:14:57.980
+ Like whether it's client, whether it's ISR, whether it's SSR, like there's just one very
+
+00:14:57.980 --> 00:15:00.820
+ natural react way of fetching data.
+
+00:15:00.820 --> 00:15:04.660
+ That's probably what they were super excited about and excited a demo because that stuff
+
+00:15:04.660 --> 00:15:05.860
+ works, right?
+
+00:15:05.860 --> 00:15:06.860
+ Yeah.
+
+00:15:06.860 --> 00:15:10.140
+ But I think everyone, what made what they have missed is everyone is so trained on these
+
+00:15:10.140 --> 00:15:14.220
+ performance things now, just because it's been the conversation for the past year.
+
+00:15:14.220 --> 00:15:16.020
+ Everyone's obsessed with this.
+
+00:15:16.020 --> 00:15:20.220
+ So I almost was like, people are like, don't really care about the API change, which are
+
+00:15:20.220 --> 00:15:22.540
+ I think good and will clean up all the code.
+
+00:15:22.540 --> 00:15:24.300
+ It just seems like everyone's glossing over that.
+
+00:15:24.300 --> 00:15:28.340
+ And they just focus on the performance thing, which maybe Vercel expected it to be the other
+
+00:15:28.340 --> 00:15:29.340
+ way around.
+
+00:15:29.340 --> 00:15:30.820
+ We're like, oh, they can wait for the performance stuff.
+
+00:15:30.820 --> 00:15:32.540
+ They're going to be excited about the API.
+
+00:15:32.540 --> 00:15:34.220
+ I think they just didn't read the room.
+
+00:15:34.220 --> 00:15:38.700
+ Like you've got all these HTML first frameworks that are making more and more buzz.
+
+00:15:38.700 --> 00:15:42.100
+ Everyone's really excited about shipping as little JavaScript as possible.
+
+00:15:42.100 --> 00:15:43.100
+ Yeah.
+
+00:15:43.100 --> 00:15:45.060
+ And I mean, for e-commerce, that makes sense, right?
+
+00:15:45.060 --> 00:15:50.540
+ Like, you should be shipping as little JavaScript as possible, like 160k bundle for a storefront.
+
+00:15:50.540 --> 00:15:51.540
+ That's bad.
+
+00:15:51.540 --> 00:15:52.540
+ Like, right?
+
+00:15:52.540 --> 00:15:53.540
+ Am I crazy?
+
+00:15:53.540 --> 00:15:54.540
+ Yeah.
+
+00:15:54.540 --> 00:15:55.540
+ No, that is bad.
+
+00:15:55.540 --> 00:15:59.660
+ And I feel like really interactive apps I've built haven't even been that big.
+
+00:15:59.660 --> 00:16:00.660
+ Right.
+
+00:16:00.660 --> 00:16:01.660
+ Yeah.
+
+00:16:01.660 --> 00:16:02.660
+ It's worse than like a spa.
+
+00:16:02.660 --> 00:16:03.660
+ And it's not supposed to be.
+
+00:16:03.660 --> 00:16:04.860
+ It's supposed to be this other thing.
+
+00:16:04.860 --> 00:16:09.660
+ So I just think like most of the conversation, at least in Twitter circles and wherever else,
+
+00:16:09.660 --> 00:16:12.820
+ like most of the conversation these days is very performance aware.
+
+00:16:12.820 --> 00:16:16.860
+ Like people know how big bundles are and how big the React runtime is.
+
+00:16:16.860 --> 00:16:19.460
+ And like all these things, people are very aware.
+
+00:16:19.460 --> 00:16:24.220
+ So I think it's pretty crazy to me that no one on their side expected this kind of pushback
+
+00:16:24.220 --> 00:16:28.460
+ or this kind of confusion when the bundles are giant and we're using server components.
+
+00:16:28.460 --> 00:16:30.060
+ And that was the whole thing, I thought.
+
+00:16:30.060 --> 00:16:31.060
+ I don't know.
+
+00:16:31.060 --> 00:16:36.740
+ Yeah, and yelling at class right now.
+
+00:16:36.740 --> 00:16:37.740
+ What else?
+
+00:16:37.740 --> 00:16:38.740
+ What else happened?
+
+00:16:38.740 --> 00:16:43.060
+ I think, oh, there was some more details about remixes of business.
+
+00:16:43.060 --> 00:16:47.580
+ I don't know if you saw that Ryan Florence tweeted some stuff about it.
+
+00:16:47.580 --> 00:16:48.580
+ He mentioned that.
+
+00:16:48.580 --> 00:16:53.220
+ Do you remember that remix used to be a private or proprietary framework, your license?
+
+00:16:53.220 --> 00:16:54.220
+ Pay for the license.
+
+00:16:54.220 --> 00:16:55.220
+ Yeah.
+
+00:16:55.220 --> 00:16:56.220
+ Yeah.
+
+00:16:56.220 --> 00:16:57.220
+ Yeah.
+
+00:16:57.220 --> 00:16:59.620
+ So he said they were closing in on 200k ARR prior to their 1.0.
+
+00:16:59.620 --> 00:17:04.580
+ AR, annual, okay, occurring 200, okay.
+
+00:17:04.580 --> 00:17:10.900
+ So like, okay, I think the license must renew every year or something.
+
+00:17:10.900 --> 00:17:13.740
+ Otherwise, it's so one time they wouldn't be ARR.
+
+00:17:13.740 --> 00:17:14.740
+ Yeah.
+
+00:17:14.740 --> 00:17:19.180
+ So then they, they, then they decided to erase VC so that they could, what did they say?
+
+00:17:19.180 --> 00:17:20.180
+ So they could.
+
+00:17:20.180 --> 00:17:21.180
+ Oh, I did see this tweet.
+
+00:17:21.180 --> 00:17:22.180
+ Yeah.
+
+00:17:22.180 --> 00:17:23.180
+ Yeah.
+
+00:17:23.180 --> 00:17:24.900
+ So they could skip, like having a focus on growing AR in the short term.
+
+00:17:24.900 --> 00:17:25.900
+ Yeah.
+
+00:17:25.900 --> 00:17:28.260
+ And now that was a focus.
+
+00:17:28.260 --> 00:17:29.260
+ Yeah, exactly.
+
+00:17:29.260 --> 00:17:30.260
+ Yeah.
+
+00:17:30.260 --> 00:17:33.380
+ So that was interesting because everyone's been curious about like what was their business
+
+00:17:33.380 --> 00:17:36.860
+ model and what did it look like when they were charging.
+
+00:17:36.860 --> 00:17:43.340
+ So yeah, 200k ARR, you know, for, it's not that big, but I'm surprised it was.
+
+00:17:43.340 --> 00:17:44.340
+ Yeah.
+
+00:17:44.340 --> 00:17:47.660
+ I was going to say, but what it was, what it was, I'm pretty surprised for proprietary
+
+00:17:47.660 --> 00:17:48.660
+ framework.
+
+00:17:48.660 --> 00:17:49.660
+ 200k ARR.
+
+00:17:49.660 --> 00:17:50.660
+ Very good.
+
+00:17:50.660 --> 00:17:51.660
+ Yeah.
+
+00:17:51.660 --> 00:17:52.660
+ Interesting.
+
+00:17:52.660 --> 00:17:53.660
+ I don't.
+
+00:17:53.660 --> 00:17:54.660
+ Yeah.
+
+00:17:54.660 --> 00:17:55.660
+ The whole remix crap.
+
+00:17:55.660 --> 00:17:56.660
+ I just don't know.
+
+00:17:56.660 --> 00:17:59.100
+ Like I've never played, but they've actually built anything with remix.
+
+00:17:59.100 --> 00:18:00.100
+ Yeah.
+
+00:18:00.100 --> 00:18:01.100
+ I've played with it.
+
+00:18:01.100 --> 00:18:04.340
+ We actually support remix on SST is I want to, we don't support next very well.
+
+00:18:04.340 --> 00:18:06.380
+ We support remakes incredibly well.
+
+00:18:06.380 --> 00:18:07.380
+ Yeah.
+
+00:18:07.380 --> 00:18:08.780
+ Well, cause it's a lot easier to deploy, right?
+
+00:18:08.780 --> 00:18:09.780
+ Yeah, exactly.
+
+00:18:09.780 --> 00:18:10.780
+ Like X is a nightmare to deploy.
+
+00:18:10.780 --> 00:18:11.780
+ That was funny.
+
+00:18:11.780 --> 00:18:12.780
+ I saw a gearmo tweet.
+
+00:18:12.780 --> 00:18:16.740
+ I keep bringing all this back to gearmo in Vercelle, but I saw a gearmo tweet that was
+
+00:18:16.740 --> 00:18:20.820
+ like about, he was trying to combat the whole argument that you can't deploy next anywhere
+
+00:18:20.820 --> 00:18:21.820
+ else.
+
+00:18:21.820 --> 00:18:25.340
+ And it was like, you can deploy it on AWS and yada, yada, yada, and like, I've know all
+
+00:18:25.340 --> 00:18:27.700
+ these sites that, that are doing that.
+
+00:18:27.700 --> 00:18:28.700
+ It's impossible.
+
+00:18:28.700 --> 00:18:29.700
+ It's not impossible.
+
+00:18:29.700 --> 00:18:30.700
+ But it's a lot of work.
+
+00:18:30.700 --> 00:18:35.420
+ And to have all the features is just a fool's errand you're just not keeping up with all
+
+00:18:35.420 --> 00:18:36.580
+ the features they roll out.
+
+00:18:36.580 --> 00:18:37.580
+ Next 13.
+
+00:18:37.580 --> 00:18:43.220
+ Now, I don't think the open source solution for deploying next JS on AWS is that serverless
+
+00:18:43.220 --> 00:18:44.620
+ next JS framework.
+
+00:18:44.620 --> 00:18:45.700
+ It's like an open source library.
+
+00:18:45.700 --> 00:18:48.060
+ There's like a single maintainer and he's trying to get out there.
+
+00:18:48.060 --> 00:18:49.060
+ He's done.
+
+00:18:49.060 --> 00:18:50.060
+ It's been done.
+
+00:18:50.060 --> 00:18:51.060
+ It's been done.
+
+00:18:51.060 --> 00:18:52.060
+ It's completely about it.
+
+00:18:52.060 --> 00:18:53.060
+ Yeah.
+
+00:18:53.060 --> 00:18:54.060
+ It was on next 11.
+
+00:18:54.060 --> 00:18:55.060
+ They couldn't get next 12 done.
+
+00:18:55.060 --> 00:18:56.060
+ And now there's 13.
+
+00:18:56.060 --> 00:18:57.060
+ So yeah.
+
+00:18:57.060 --> 00:18:58.060
+ Yeah.
+
+00:18:58.060 --> 00:18:59.060
+ We've tried.
+
+00:18:59.060 --> 00:19:00.060
+ We really tried.
+
+00:19:00.060 --> 00:19:01.060
+ Yeah.
+
+00:19:01.060 --> 00:19:02.060
+ Yeah.
+
+00:19:02.060 --> 00:19:05.780
+ So, so the remix, what is it with the remix crew though?
+
+00:19:05.780 --> 00:19:07.580
+ Why are they, why are they so bitter?
+
+00:19:07.580 --> 00:19:11.340
+ That's just the only, my only question is like, why are they so angry on the internet?
+
+00:19:11.340 --> 00:19:12.340
+ I don't know.
+
+00:19:12.340 --> 00:19:13.340
+ This is like, especially if they're getting a fire.
+
+00:19:13.340 --> 00:19:14.340
+ Yeah.
+
+00:19:14.340 --> 00:19:15.340
+ It was a great day for them.
+
+00:19:15.340 --> 00:19:17.380
+ And I feel like the last month they've surely known this.
+
+00:19:17.380 --> 00:19:18.540
+ And why are they even salty at all?
+
+00:19:18.540 --> 00:19:21.220
+ I'd be like doing my victory lap, just not saying it yet.
+
+00:19:21.220 --> 00:19:24.260
+ Like, yeah, everything is timing out amazing for them.
+
+00:19:24.260 --> 00:19:28.140
+ But I think, I just feel this is the way they, they like living their life.
+
+00:19:28.140 --> 00:19:31.780
+ Like this is what they're into is the way they want to interact with the world and how
+
+00:19:31.780 --> 00:19:33.500
+ they want to get their stuff out there.
+
+00:19:33.500 --> 00:19:36.860
+ I think, yeah, like you said, for me, it's like, oh, now I can chill.
+
+00:19:36.860 --> 00:19:37.860
+ I'm not stressed anymore.
+
+00:19:37.860 --> 00:19:42.700
+ Because we were perceiving it as the angst comes from the stress of being this underdog,
+
+00:19:42.700 --> 00:19:45.820
+ trying to get something out there and like worried about being crushed.
+
+00:19:45.820 --> 00:19:46.820
+ Yeah.
+
+00:19:46.820 --> 00:19:50.020
+ But now they have like backing, they don't have to worry anymore.
+
+00:19:50.020 --> 00:19:51.020
+ But it's still the same.
+
+00:19:51.020 --> 00:19:54.980
+ So I guess it was never angst driven, it's just like they still have the same like chip
+
+00:19:54.980 --> 00:19:58.500
+ on their shoulder because they're still like gearmo still talking down to them on Twitter.
+
+00:19:58.500 --> 00:20:03.940
+ And like, yeah, they're still having to deal with the like, are we relevant?
+
+00:20:03.940 --> 00:20:06.500
+ Is it just a next year's world that we live in that whole thing?
+
+00:20:06.500 --> 00:20:08.180
+ I guess that makes sense.
+
+00:20:08.180 --> 00:20:09.180
+ That's another thing.
+
+00:20:09.180 --> 00:20:14.060
+ I feel like I hadn't seen gearmo tweet anything specific and like, I've been following him
+
+00:20:14.060 --> 00:20:15.060
+ forever.
+
+00:20:15.060 --> 00:20:18.380
+ I feel like I just generally hear like, read tweets about next year's or their events.
+
+00:20:18.380 --> 00:20:23.060
+ And all of a sudden, there's like, you know, like, yeah, out of nowhere.
+
+00:20:23.060 --> 00:20:26.980
+ So that behavior changes all something to note, you know, Oh, for sure.
+
+00:20:26.980 --> 00:20:29.260
+ I know I've been reading the gearmo tea leaves.
+
+00:20:29.260 --> 00:20:31.300
+ I can't help it.
+
+00:20:31.300 --> 00:20:34.500
+ Like I went through his tweets and replies, I'm just like reading everything he's tweeted
+
+00:20:34.500 --> 00:20:36.420
+ in the last 24 hours, just after this announcement.
+
+00:20:36.420 --> 00:20:40.980
+ And I've just not seen him be this like vocally against other things.
+
+00:20:40.980 --> 00:20:44.340
+ It always felt like Vercel was kind of up on this mountain above everything else.
+
+00:20:44.340 --> 00:20:48.500
+ They just above the fray, they didn't have to think about other competitors or like acknowledge
+
+00:20:48.500 --> 00:20:49.820
+ their existence.
+
+00:20:49.820 --> 00:20:53.020
+ That has definitely changed in some tangible sense.
+
+00:20:53.020 --> 00:20:56.540
+ And it's interesting that they just came off their big conference.
+
+00:20:56.540 --> 00:20:57.660
+ Big moment for them.
+
+00:20:57.660 --> 00:21:03.820
+ This should be like peak Vercel excitement and does not seem that that is the case.
+
+00:21:03.820 --> 00:21:08.860
+ I mean, just based on gearmo tweets, I don't know, I'm reading into a lot, but we got it.
+
+00:21:08.860 --> 00:21:09.860
+ It's just, it's so fun.
+
+00:21:09.860 --> 00:21:10.860
+ All this.
+
+00:21:10.860 --> 00:21:11.860
+ It's just so fun.
+
+00:21:11.860 --> 00:21:16.580
+ I was so excited when I saw it today, because I saw this morning and I started watching
+
+00:21:16.580 --> 00:21:20.220
+ your stream and I was like, I'm an idiot, how did that not bring us up already?
+
+00:21:20.220 --> 00:21:21.220
+ It's been like 20 minutes.
+
+00:21:21.220 --> 00:21:22.220
+ Yeah.
+
+00:21:22.220 --> 00:21:24.820
+ And I brought it up and you're like, boom, like, like flew into it.
+
+00:21:24.820 --> 00:21:26.900
+ This is so exciting.
+
+00:21:26.900 --> 00:21:32.020
+ I, yeah, I just, I feel like things are changing the most they've changed in the web landscape
+
+00:21:32.020 --> 00:21:33.500
+ in a long time.
+
+00:21:33.500 --> 00:21:37.540
+ And I do think this is the year, I think it's just a high likelihood.
+
+00:21:37.540 --> 00:21:41.700
+ I feel like five years from now, we're looking back at this kind of time period where things
+
+00:21:41.700 --> 00:21:44.300
+ started to change.
+
+00:21:44.300 --> 00:21:48.420
+ And I don't know what it all looks like, but I do think there's a lot of interesting players
+
+00:21:48.420 --> 00:21:52.860
+ in the space, like a lot of frameworks that are very compelling and look more compelling
+
+00:21:52.860 --> 00:21:53.860
+ all the time.
+
+00:21:53.860 --> 00:21:56.860
+ And if you already were looking for a reason not to use React, you're just kind of tired
+
+00:21:56.860 --> 00:21:57.860
+ of it.
+
+00:21:57.860 --> 00:22:01.100
+ If you've been building with React for five years, there's, there's a lot of interesting
+
+00:22:01.100 --> 00:22:02.540
+ places you can look now.
+
+00:22:02.540 --> 00:22:07.660
+ Yeah, we were talking about this earlier where we love, like I said, we have a remix
+
+00:22:07.660 --> 00:22:09.260
+ contract that works perfectly.
+
+00:22:09.260 --> 00:22:14.060
+ We love building stuff for these new frameworks, like remakes, we're doing one for Astro, we're
+
+00:22:14.060 --> 00:22:17.340
+ doing one for Solid Start, we're going to do one for Svelte Kit.
+
+00:22:17.340 --> 00:22:22.580
+ It's so easy for us because all these frameworks standardize around HTTP request.
+
+00:22:22.580 --> 00:22:23.580
+ We do our magic.
+
+00:22:23.580 --> 00:22:25.260
+ Here's the HTTP response.
+
+00:22:25.260 --> 00:22:28.380
+ Just make sure you serve that correctly and everything's just going to work.
+
+00:22:28.380 --> 00:22:30.380
+ And that is like so easy for us to implement.
+
+00:22:30.380 --> 00:22:33.300
+ We can just support all of these frameworks on AWS really easily.
+
+00:22:33.300 --> 00:22:39.460
+ And it really feels like, oh, these projects are architected for like the future, like they're
+
+00:22:39.460 --> 00:22:43.960
+ going to be deployed serverlessly on AWS, on Cloudflare, like wherever you need it, it's
+
+00:22:43.960 --> 00:22:46.700
+ going to work exactly the same way.
+
+00:22:46.700 --> 00:22:52.300
+ That feels definitely different than the story around next JS in Brazil.
+
+00:22:52.300 --> 00:22:53.300
+ Yeah.
+
+00:22:53.300 --> 00:22:57.380
+ Next JS feels like it's designed around building something that only Vercel can run.
+
+00:22:57.380 --> 00:22:59.140
+ I mean, it has to be right.
+
+00:22:59.140 --> 00:23:03.180
+ Like there's no way, I know they would never like admit that, but there's no way that doesn't
+
+00:23:03.180 --> 00:23:05.980
+ play into their consideration in terms of the roadmap.
+
+00:23:05.980 --> 00:23:11.060
+ Like they know they got a way to deploy next JS, a lot of people use next JS and you need
+
+00:23:11.060 --> 00:23:13.820
+ to run it on Vercel if you don't want pain.
+
+00:23:13.820 --> 00:23:17.820
+ And they can point to a few cases of huge companies that deploy it in other ways.
+
+00:23:17.820 --> 00:23:21.460
+ But ultimately, like that's, that's their whole thing.
+
+00:23:21.460 --> 00:23:25.820
+ And it drives, has to drive their product roadmap, I would think.
+
+00:23:25.820 --> 00:23:26.820
+ Yeah.
+
+00:23:26.820 --> 00:23:27.820
+ Yeah, exactly.
+
+00:23:27.820 --> 00:23:32.820
+ And I think like who's, who actually offers like a commercial solution for next JS outside
+
+00:23:32.820 --> 00:23:33.820
+ of that?
+
+00:23:33.820 --> 00:23:34.820
+ I think I think Netlify has now.
+
+00:23:34.820 --> 00:23:35.820
+ Netlify.
+
+00:23:35.820 --> 00:23:36.820
+ Yeah.
+
+00:23:36.820 --> 00:23:37.820
+ And amplify.
+
+00:23:37.820 --> 00:23:38.820
+ Yeah.
+
+00:23:38.820 --> 00:23:39.820
+ Amplify.
+
+00:23:39.820 --> 00:23:41.060
+ I think amplifies is going to get a little better.
+
+00:23:41.060 --> 00:23:47.500
+ I think right now, I don't know what Amplify does, but I think it's getting ready to support
+
+00:23:47.500 --> 00:23:48.500
+ more of the features.
+
+00:23:48.500 --> 00:23:52.620
+ I think they're going to go more of the containerized, like the Netlify route where like they're
+
+00:23:52.620 --> 00:23:58.940
+ running next JS and managing the infrastructure for you, not just deploying it into serverless
+
+00:23:58.940 --> 00:23:59.940
+ stuff.
+
+00:23:59.940 --> 00:24:01.300
+ I don't actually, I don't know yet.
+
+00:24:01.300 --> 00:24:03.900
+ I do know, amplify, not leaking anything.
+
+00:24:03.900 --> 00:24:09.180
+ This is just the current amplify implementation uses that abandoned open source library.
+
+00:24:09.180 --> 00:24:10.180
+ Yeah.
+
+00:24:10.180 --> 00:24:11.180
+ As do we.
+
+00:24:11.180 --> 00:24:12.180
+ Yeah.
+
+00:24:12.180 --> 00:24:13.180
+ Just like SST.
+
+00:24:13.180 --> 00:24:16.980
+ So they're moving away from that into more of the Netlify model, which I think Netlify
+
+00:24:16.980 --> 00:24:19.100
+ runs it in containers.
+
+00:24:19.100 --> 00:24:20.100
+ It's running next to us.
+
+00:24:20.100 --> 00:24:24.940
+ So they get all the features, just like Vercel does, but the only people like Netlify or AWS
+
+00:24:24.940 --> 00:24:29.220
+ can compete with a Vercel, I mean, like smaller, it's hard for like SST.
+
+00:24:29.220 --> 00:24:31.420
+ You guys can't, well, maybe you can, but run.
+
+00:24:31.420 --> 00:24:32.420
+ No, it's hard.
+
+00:24:32.420 --> 00:24:33.420
+ We can't.
+
+00:24:33.420 --> 00:24:34.420
+ We tried and we've, we did.
+
+00:24:34.420 --> 00:24:40.380
+ I think now we Frank tried and he's like bloodied by the effort and we're talking about
+
+00:24:40.380 --> 00:24:45.260
+ his offering a container version of it as well because yeah, like it's going to take a full
+
+00:24:45.260 --> 00:24:47.420
+ time team to support those features.
+
+00:24:47.420 --> 00:24:48.420
+ Yep.
+
+00:24:48.420 --> 00:24:50.420
+ Oh man.
+
+00:24:50.420 --> 00:24:51.420
+ All the drama.
+
+00:24:51.420 --> 00:24:52.420
+ I love it.
+
+00:24:52.420 --> 00:24:55.700
+ I feel like I've probably missed like five tweets that are really juicy just in the time
+
+00:24:55.700 --> 00:24:56.700
+ we've been talking.
+
+00:24:56.700 --> 00:24:57.700
+ Yeah.
+
+00:24:57.700 --> 00:24:58.700
+ Yeah.
+
+00:24:58.700 --> 00:25:02.620
+ And they also announced it in, um, they're not so early.
+
+00:25:02.620 --> 00:25:07.820
+ So like me and you, like if a time zone we're in, it's, uh, like it works for us.
+
+00:25:07.820 --> 00:25:08.820
+ Yeah.
+
+00:25:08.820 --> 00:25:11.900
+ I think a lot of people woke up to the drama already on fellow people on the West Coast.
+
+00:25:11.900 --> 00:25:12.900
+ Yeah.
+
+00:25:12.900 --> 00:25:13.900
+ Yeah.
+
+00:25:13.900 --> 00:25:14.900
+ Yeah.
+
+00:25:14.900 --> 00:25:15.900
+ I haven't seen.
+
+00:25:15.900 --> 00:25:16.900
+ They're still rolling out of bed in the West Coast.
+
+00:25:16.900 --> 00:25:17.900
+ I think.
+
+00:25:17.900 --> 00:25:18.900
+ Yeah.
+
+00:25:18.900 --> 00:25:19.900
+ Like the usual people commenting on this.
+
+00:25:19.900 --> 00:25:20.900
+ I haven't seen them comment on it yet.
+
+00:25:20.900 --> 00:25:23.340
+ So I think they maybe haven't even woken up and seen it yet.
+
+00:25:23.340 --> 00:25:24.340
+ Yeah.
+
+00:25:24.340 --> 00:25:25.660
+ I think the best is still yet to come.
+
+00:25:25.660 --> 00:25:26.660
+ Still to come.
+
+00:25:26.660 --> 00:25:29.140
+ Well, this has been fun.
+
+00:25:29.140 --> 00:25:31.060
+ I really am enjoying this.
+
+00:25:31.060 --> 00:25:36.820
+ We can talk about whatever we want podcasts coming from like having an AWS podcast.
+
+00:25:36.820 --> 00:25:42.380
+ Now it's like there's no, no limits to what we could talk about in one episode, really.
+
+00:25:42.380 --> 00:25:43.380
+ Yeah.
+
+00:25:43.380 --> 00:25:47.060
+ As long as the dev world keeps providing us with drama every single week, I think, I think
+
+00:25:47.060 --> 00:25:48.060
+ we're safe.
+
+00:25:48.060 --> 00:25:49.060
+ I think we're safe.
+
+00:25:49.060 --> 00:25:50.060
+ Yeah.
+
+00:25:50.060 --> 00:25:51.060
+ Yeah.
+
+00:25:51.060 --> 00:25:52.060
+ Keep continuing to happen.
+
+00:25:52.060 --> 00:25:53.060
+ All right.
+
+00:25:53.060 --> 00:25:55.460
+ Do you have anything else you want to say on this?
+
+00:25:55.460 --> 00:25:56.460
+ No, I think that's it.
+
+00:25:56.460 --> 00:25:57.460
+ Yeah.
+
+00:25:57.460 --> 00:25:58.460
+ Same.
+
+00:25:58.460 --> 00:25:59.460
+ All right.
+
+00:25:59.460 --> 00:26:00.460
+ Thanks, Max.
+
+00:26:00.460 --> 00:26:01.460
+ See you.
+
+00:26:01.460 --> 00:26:01.460
+ See you.
+

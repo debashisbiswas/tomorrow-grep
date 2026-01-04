@@ -1,0 +1,2921 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.600
+ People commented that I am a skinwalker, or I look like a skinwalker, or I'm definitely AI.
+
+00:00:06.600 --> 00:00:12.000
+ Listen, I'm not AI, ah, could AI do this? That's what I thought.
+
+00:00:12.000 --> 00:00:15.000
+ So, look, I'm a person, I'm a human being with real feelings.
+
+00:00:15.000 --> 00:00:17.300
+ I don't actually have real many feelings. Oh my God, I am AI.
+
+00:00:17.300 --> 00:00:18.800
+ Am I a real boy?
+
+00:00:18.800 --> 00:00:24.600
+ No, Pinocchio. To make Jupetto's wish come true will be entirely up to you.
+
+00:00:24.600 --> 00:00:32.600
+ Up to me? Prude yourself brave, truthful and unselfish, and someday you will be a real boy.
+
+00:00:32.600 --> 00:00:34.600
+ A real boy!
+
+00:00:54.600 --> 00:01:01.600
+ I've been in hell for the past like 48 hours.
+
+00:01:01.600 --> 00:01:05.600
+ Oh, really? I feel like you've been quieter than normal. What's been going on?
+
+00:01:05.600 --> 00:01:08.600
+ Yeah, so, you know this multiplexer thing that I showed you?
+
+00:01:08.600 --> 00:01:09.600
+ Yes.
+
+00:01:09.600 --> 00:01:13.600
+ And I was like, okay, it's basically done.
+
+00:01:13.600 --> 00:01:17.600
+ It was pretty hard to put together, like not doing a little bit of terminal stuff like that,
+
+00:01:17.600 --> 00:01:23.600
+ but thankfully I glued together a bunch of random code that I found on GitHub and I got something working.
+
+00:01:23.600 --> 00:01:28.600
+ And the last step was to support scrolling.
+
+00:01:28.600 --> 00:01:29.600
+ Oh, no.
+
+00:01:29.600 --> 00:01:33.600
+ And I was like, okay, I checked a while ago.
+
+00:01:33.600 --> 00:01:38.600
+ There was a scroll function in one of the libraries that I'm using.
+
+00:01:38.600 --> 00:01:40.600
+ So, let me just map it up.
+
+00:01:40.600 --> 00:01:46.600
+ So, I mapped it up and it turns out that it does not work.
+
+00:01:46.600 --> 00:01:55.600
+ Like, their understanding what scroll meant was totally different than what I needed, which is like keeping a scroll back buffer so you can scroll up and down your output.
+
+00:01:55.600 --> 00:01:57.600
+ So, I was like, okay, what does this mean?
+
+00:01:57.600 --> 00:02:01.600
+ And I started digging more into, okay, what do I need to do to support this?
+
+00:02:01.600 --> 00:02:06.600
+ And it like unraveled everything, like pretty much everything that I was relying on could not work.
+
+00:02:06.600 --> 00:02:08.600
+ I had to go like one level lower.
+
+00:02:08.600 --> 00:02:13.600
+ The past 48 hours, I've just been like figuring out what the hell to do.
+
+00:02:13.600 --> 00:02:17.600
+ And like, I'll solve one thing and there's like so many cascading issues.
+
+00:02:17.600 --> 00:02:22.600
+ And for the last, I would say like eight hours or so, I've been struggling with this one issue where.
+
+00:02:22.600 --> 00:02:26.600
+ So in my multiplex here, when I spawn processes, everything's working.
+
+00:02:26.600 --> 00:02:33.600
+ But when I spawn a fancy process, like one that like the terminal website or the terminal server, for example, or.
+
+00:02:33.600 --> 00:02:43.600
+ But the STF that does like more complex stuff inside terminal, it would like a lag for five seconds for it started. I was like, what the hell is this issue.
+
+00:02:43.600 --> 00:02:48.600
+ I've been trying to track it down the last eight hours and literally five minutes ago, I found it.
+
+00:02:48.600 --> 00:02:49.600
+ Nice.
+
+00:02:49.600 --> 00:02:51.600
+ There is a, but the answer.
+
+00:02:51.600 --> 00:02:58.600
+ So, I mean, I don't know what the fix is, but I know the problem is I traced it all the way down to where it's freezing.
+
+00:02:58.600 --> 00:03:07.600
+ And there is 10 lines commented out in this low level library that I'm using that says to do.
+
+00:03:07.600 --> 00:03:13.600
+ Oh, that's good.
+
+00:03:13.600 --> 00:03:14.600
+ Yeah.
+
+00:03:14.600 --> 00:03:15.600
+ So you've got it right.
+
+00:03:15.600 --> 00:03:17.600
+ Those two lines.
+
+00:03:17.600 --> 00:03:18.600
+ Yeah, I got to figure that out.
+
+00:03:18.600 --> 00:03:27.600
+ It's a, yeah, the stuff is interesting because, you know, like the stuff we're using for, for terminal bubble tea.
+
+00:03:27.600 --> 00:03:31.600
+ That gives us a high level abstraction over building UIs in the terminal.
+
+00:03:31.600 --> 00:03:35.600
+ And if you keep going lower and lower level, it gets like more and more crazy.
+
+00:03:35.600 --> 00:03:41.600
+ But if you go like low level enough, it gets simple again, because it's just like the most basic stuff.
+
+00:03:41.600 --> 00:03:48.600
+ I mean, it's the complexity comes from the fact that it can't do much on its own.
+
+00:03:48.600 --> 00:03:53.600
+ Like you have to implement all the functionality yourself, but the underlying system is very, very easy.
+
+00:03:53.600 --> 00:03:58.600
+ It's just like a grid and you can move the cursor and like paint on the grid.
+
+00:03:58.600 --> 00:04:01.600
+ And when you get down to that level, that that's all there is.
+
+00:04:01.600 --> 00:04:02.600
+ There's nothing else.
+
+00:04:02.600 --> 00:04:05.600
+ And you can paint text and you can change like the color of the text.
+
+00:04:05.600 --> 00:04:06.600
+ You can change it, whatever.
+
+00:04:06.600 --> 00:04:11.600
+ And if you want to like update it, you like repaint the screen.
+
+00:04:11.600 --> 00:04:13.600
+ It's like very, very straightforward.
+
+00:04:13.600 --> 00:04:15.600
+ But yeah, it's been quite a journey.
+
+00:04:15.600 --> 00:04:18.600
+ I am in love with terminal UIs.
+
+00:04:18.600 --> 00:04:19.600
+ I think it's so fun.
+
+00:04:19.600 --> 00:04:20.600
+ Me too.
+
+00:04:20.600 --> 00:04:25.600
+ It's like this whole world that, yeah, I mean, you've been engrossed in it.
+
+00:04:25.600 --> 00:04:29.600
+ So you've, you know, where I'm coming from, like building the terminal shop.
+
+00:04:29.600 --> 00:04:34.600
+ There's, there's just parts of it that tickle the brain in ways that hasn't been tickled in a while.
+
+00:04:34.600 --> 00:04:35.600
+ You know what I mean?
+
+00:04:35.600 --> 00:04:37.600
+ It's been a lot of building stuff in the browser.
+
+00:04:37.600 --> 00:04:41.600
+ And this has been so refreshing to build back to the basics.
+
+00:04:41.600 --> 00:04:48.600
+ What's cool about it is, I think there's this dream for the browser where there's like a
+
+00:04:48.600 --> 00:04:54.600
+ really rich set of components that every website uses and everything kind of same.
+
+00:04:54.600 --> 00:04:55.600
+ It's consistent, et cetera.
+
+00:04:55.600 --> 00:04:58.600
+ But obviously it will never happen on web and the web has different goals.
+
+00:04:58.600 --> 00:05:01.600
+ But you kind of have that in the terminal just because there's so many constraints.
+
+00:05:01.600 --> 00:05:05.600
+ Like you can't even have like one element that's one font size.
+
+00:05:05.600 --> 00:05:07.600
+ Another amount of different font size.
+
+00:05:07.600 --> 00:05:10.600
+ So that like standardizes all UIs.
+
+00:05:10.600 --> 00:05:16.600
+ And then people can theme their stuff locally so that all the apps look the same and match
+
+00:05:16.600 --> 00:05:17.600
+ each other.
+
+00:05:17.600 --> 00:05:22.600
+ So it's like a different take on like optimizing for different, different goals.
+
+00:05:22.600 --> 00:05:24.600
+ It's like optimizing more for standardization.
+
+00:05:24.600 --> 00:05:30.600
+ You lose out on some of the creativity, but you kind of get this like I get to build the
+
+00:05:30.600 --> 00:05:31.600
+ experience that I want.
+
+00:05:31.600 --> 00:05:35.600
+ And no matter what app I'm using, it's going to look the same as a user.
+
+00:05:35.600 --> 00:05:36.600
+ Yeah.
+
+00:05:36.600 --> 00:05:38.600
+ So a few thoughts in response to your specific situation.
+
+00:05:38.600 --> 00:05:40.600
+ First, I'm glad I didn't start using it.
+
+00:05:40.600 --> 00:05:44.600
+ I guess you said I could start using the you had a version of it.
+
+00:05:44.600 --> 00:05:49.600
+ Well, I was using it and I was like, wow, and I'll be able to scroll up the logs.
+
+00:05:49.600 --> 00:05:51.600
+ It's like really bad.
+
+00:05:51.600 --> 00:05:54.600
+ It's really not usable without that.
+
+00:05:54.600 --> 00:05:55.600
+ Yeah.
+
+00:05:55.600 --> 00:05:57.600
+ Well, I hadn't gotten to using it.
+
+00:05:57.600 --> 00:06:00.600
+ So you added it to terminal.
+
+00:06:00.600 --> 00:06:07.120
+ The second thought is, man, scroll, scroll sucks, scroll in the terminal.
+
+00:06:07.120 --> 00:06:11.600
+ Like the bubble tea solution to it, there's like a bubble, which is like a component for
+
+00:06:11.600 --> 00:06:12.600
+ scrolling.
+
+00:06:12.600 --> 00:06:13.600
+ Right.
+
+00:06:13.600 --> 00:06:14.600
+ And it's given us a lot of issues.
+
+00:06:14.600 --> 00:06:18.600
+ Like there's still all kinds of outstanding stuff in terminal that I want to fix.
+
+00:06:18.600 --> 00:06:24.040
+ Terminal to capital T. When you have a company named, what in the world, why did my music
+
+00:06:24.040 --> 00:06:25.040
+ just start?
+
+00:06:25.040 --> 00:06:26.040
+ Hang on.
+
+00:06:26.040 --> 00:06:27.040
+ Okay.
+
+00:06:27.040 --> 00:06:31.040
+ So title, title, do you use title or Spotify?
+
+00:06:31.040 --> 00:06:34.040
+ I used to back in the day, I'm back on Spotify now.
+
+00:06:34.040 --> 00:06:36.040
+ So I use Spotify in my headphones.
+
+00:06:36.040 --> 00:06:37.040
+ Oh, geez.
+
+00:06:37.040 --> 00:06:39.040
+ Where did you go?
+
+00:06:39.040 --> 00:06:45.800
+ I use Spotify in my headphones, but I've been playing title because I got these speakers.
+
+00:06:45.800 --> 00:06:48.040
+ I got speakers, physical speakers, again, like computer speakers.
+
+00:06:48.040 --> 00:06:49.040
+ It's been a long time.
+
+00:06:49.040 --> 00:06:50.040
+ They're not computer speakers.
+
+00:06:50.040 --> 00:06:51.040
+ They're like these kef.
+
+00:06:51.040 --> 00:06:52.040
+ I don't know.
+
+00:06:52.040 --> 00:06:53.040
+ Yeah.
+
+00:06:53.040 --> 00:06:54.040
+ Yeah.
+
+00:06:54.040 --> 00:06:55.040
+ They're awesome.
+
+00:06:55.040 --> 00:06:56.040
+ I got this quality.
+
+00:06:56.040 --> 00:06:59.760
+ So I got the title for that, but title will just randomly start playing.
+
+00:06:59.760 --> 00:07:00.760
+ I've noticed this.
+
+00:07:00.760 --> 00:07:04.280
+ I leave that all the time and it'll just start randomly playing for no reason.
+
+00:07:04.280 --> 00:07:05.280
+ I can stop it.
+
+00:07:05.280 --> 00:07:06.280
+ That's so funny.
+
+00:07:06.280 --> 00:07:07.280
+ I'm just.
+
+00:07:07.280 --> 00:07:10.000
+ They should fix that because that means they're paying more to the artist.
+
+00:07:10.000 --> 00:07:11.000
+ Oh, good point.
+
+00:07:11.000 --> 00:07:12.000
+ Yeah.
+
+00:07:12.000 --> 00:07:15.000
+ No, but like I've come to my computer like in the morning and it's been playing overnight
+
+00:07:15.000 --> 00:07:16.000
+ for sure.
+
+00:07:16.000 --> 00:07:18.120
+ So there's definitely a bug there they need to figure out.
+
+00:07:18.120 --> 00:07:20.800
+ This scrolling thing's funny because I think it.
+
+00:07:20.800 --> 00:07:26.680
+ So even though this was hell for the last 48 hours, I think there was something about
+
+00:07:26.680 --> 00:07:30.140
+ it that I felt like I'd been missing for a while.
+
+00:07:30.140 --> 00:07:35.200
+ So I think we've talked about how when I do normal development these days, like if I'm
+
+00:07:35.200 --> 00:07:43.960
+ making a web application or whatever, things have gotten so simple and abstracted and it
+
+00:07:43.960 --> 00:07:47.040
+ feels like I'm writing configuration more than I'm programming.
+
+00:07:47.040 --> 00:07:49.720
+ You haven't written any next year, slightly, have you?
+
+00:07:49.720 --> 00:07:52.320
+ Especially next year, it's like really like you're programming.
+
+00:07:52.320 --> 00:07:55.280
+ You feel like you're writing configuration.
+
+00:07:55.280 --> 00:07:58.760
+ The simple is not the word I was thinking of with my experiences lately.
+
+00:07:58.760 --> 00:07:59.760
+ I wouldn't say.
+
+00:07:59.760 --> 00:08:00.760
+ Okay.
+
+00:08:00.760 --> 00:08:02.240
+ So yeah, maybe simple isn't the right word.
+
+00:08:02.240 --> 00:08:07.680
+ It's that you're, you're operating in such like a high level that I feel like I've lost
+
+00:08:07.680 --> 00:08:11.200
+ the feel of programming, like it doesn't feel like I'm programming.
+
+00:08:11.200 --> 00:08:12.200
+ Yeah.
+
+00:08:12.200 --> 00:08:13.200
+ Yeah.
+
+00:08:13.200 --> 00:08:15.480
+ But with this type of works, again, if mine is scrolling, right, there's like very like
+
+00:08:15.480 --> 00:08:20.080
+ programming, programming stuff to it, right?
+
+00:08:20.080 --> 00:08:21.080
+ Yeah.
+
+00:08:21.080 --> 00:08:22.080
+ What is scrolling?
+
+00:08:22.080 --> 00:08:27.000
+ It's just calculating when the height of your buffers outside the height of the screen
+
+00:08:27.000 --> 00:08:29.480
+ and like putting it into a different matrix.
+
+00:08:29.480 --> 00:08:35.120
+ And then when someone hits scroll, like they want to scroll up one, you like render a part
+
+00:08:35.120 --> 00:08:37.560
+ of that matrix and then part of the active screen.
+
+00:08:37.560 --> 00:08:41.240
+ But then what if it's like more stuff is printing while they're scrolling?
+
+00:08:41.240 --> 00:08:43.560
+ Like how do you manage all that?
+
+00:08:43.560 --> 00:08:50.080
+ That to me really scratches what I think I've been missing for a while, which is like just
+
+00:08:50.080 --> 00:08:57.240
+ the very basic arithmetic to do that, the very basic logic to do that, that to me feels
+
+00:08:57.240 --> 00:08:58.240
+ like programming.
+
+00:08:58.240 --> 00:09:01.560
+ And I think a lot of that is basically gone from the day to day.
+
+00:09:01.560 --> 00:09:02.560
+ Okay.
+
+00:09:02.560 --> 00:09:03.560
+ I have a lot to say here.
+
+00:09:03.560 --> 00:09:04.560
+ I'm sorry.
+
+00:09:04.560 --> 00:09:05.560
+ Yeah.
+
+00:09:05.560 --> 00:09:07.200
+ I'm going to do that thing where I talked to much and you just got stopped me.
+
+00:09:07.200 --> 00:09:11.360
+ But this is tying together a lot of thoughts I've had, which is like, I've said it, I don't
+
+00:09:11.360 --> 00:09:14.560
+ have to sit on the podcast, but I've said it before that I just, I hate that newcomers
+
+00:09:14.560 --> 00:09:18.360
+ are being shoved into like react because it's just such a different thing than what I started
+
+00:09:18.360 --> 00:09:22.640
+ programming in, not that everybody has to start programming the way we started programming.
+
+00:09:22.640 --> 00:09:28.400
+ But exactly what you're saying, doing this like terminal UI and go has like brought back
+
+00:09:28.400 --> 00:09:33.080
+ that like, Oh yeah, this, like this is what programming computers used to feel like.
+
+00:09:33.080 --> 00:09:40.440
+ I'm not writing react hooks and stuff that just feels so like different from programming.
+
+00:09:40.440 --> 00:09:44.680
+ It takes me back to like early, when I was in college and I, or when I first started dating
+
+00:09:44.680 --> 00:09:49.120
+ Casey, my now wife, I made her like a little tile game, like a picture, scramble up the
+
+00:09:49.120 --> 00:09:50.200
+ picture.
+
+00:09:50.200 --> 00:09:53.120
+ And like you slide the tiles around and I made it like wind forms or something.
+
+00:09:53.120 --> 00:09:58.240
+ It was like super old school, but it ran on her laptop and the doing that kind of stuff,
+
+00:09:58.240 --> 00:10:01.800
+ like the math for like figuring out where the tiles can go and can't go and like moving
+
+00:10:01.800 --> 00:10:06.680
+ them around and how you would represent that, you know, in state, that kind of stuff.
+
+00:10:06.680 --> 00:10:07.680
+ Yeah.
+
+00:10:07.680 --> 00:10:11.720
+ It's connected from it, writing a modern web app, like in some ways, that's great.
+
+00:10:11.720 --> 00:10:13.920
+ All the abstractions we have are wonderful.
+
+00:10:13.920 --> 00:10:17.760
+ In other ways, it just feels less and less like this familiar thing.
+
+00:10:17.760 --> 00:10:18.760
+ I don't know.
+
+00:10:18.760 --> 00:10:19.760
+ Is that going away?
+
+00:10:19.760 --> 00:10:21.920
+ Is like our roots of programming?
+
+00:10:21.920 --> 00:10:24.400
+ Is that just going to be like a thing you do?
+
+00:10:24.400 --> 00:10:28.960
+ It's like a hobby, but it's not really part of day to day business operations.
+
+00:10:28.960 --> 00:10:29.960
+ Yeah.
+
+00:10:29.960 --> 00:10:33.920
+ I've been trying to figure out, I don't think it was until this week, I really understood
+
+00:10:33.920 --> 00:10:39.840
+ what like I felt like something was off and then after this week, I think I really understand
+
+00:10:39.840 --> 00:10:40.840
+ what was off.
+
+00:10:40.840 --> 00:10:43.520
+ But so I'm still trying to understand how I feel or think about it.
+
+00:10:43.520 --> 00:10:44.520
+ Yeah.
+
+00:10:44.520 --> 00:10:47.720
+ It's just like in certain scenarios, I have certain goals, right?
+
+00:10:47.720 --> 00:10:53.600
+ So when me and Liz are working on radiant, here's a perfect example of this.
+
+00:10:53.600 --> 00:10:56.800
+ We have like the ultimate boss of lists.
+
+00:10:56.800 --> 00:11:01.000
+ We have a list that needs to be keyboard navigatable, needs to be able to multi select
+
+00:11:01.000 --> 00:11:02.000
+ toggle it.
+
+00:11:02.000 --> 00:11:04.920
+ And all these little details that we need to get right.
+
+00:11:04.920 --> 00:11:11.520
+ And in that situation, it's a little frustrating to have to do the programming parts.
+
+00:11:11.520 --> 00:11:16.080
+ Because yeah, like I'm, I'm actually excited about something quite different with that
+
+00:11:16.080 --> 00:11:17.080
+ project.
+
+00:11:17.080 --> 00:11:18.720
+ Like I'm not trying to get into those details.
+
+00:11:18.720 --> 00:11:20.560
+ It's kind of like a like a burden.
+
+00:11:20.560 --> 00:11:24.120
+ It's funny because I did end up implementing it because I have this problem everywhere.
+
+00:11:24.120 --> 00:11:27.840
+ Like in the SEC console, like everywhere at this keyboard navigator list is the problem.
+
+00:11:27.840 --> 00:11:32.360
+ And I was talking in the solid discord about it and literally the next day, like one of
+
+00:11:32.360 --> 00:11:37.880
+ the best solid people like happened to just build a list thing for it right after I spent
+
+00:11:37.880 --> 00:11:40.960
+ like time, time doing it, which again, it was fun.
+
+00:11:40.960 --> 00:11:44.800
+ But like it wasn't, it's not a point of that of that project.
+
+00:11:44.800 --> 00:11:50.720
+ But like I can't letting that go to zero where I'm never doing that stuff feels hollow to
+
+00:11:50.720 --> 00:11:51.720
+ me.
+
+00:11:51.720 --> 00:11:56.040
+ It feels like I've like over optimized on something to a weird, weird place.
+
+00:11:56.040 --> 00:12:00.200
+ I don't know if it goes away in terms of like it's only like a fake thing you do for
+
+00:12:00.200 --> 00:12:01.200
+ fun.
+
+00:12:01.200 --> 00:12:06.600
+ Like if I look at my other work at SST, I'm there, there's unique work of there too,
+
+00:12:06.600 --> 00:12:07.600
+ but it's quite different.
+
+00:12:07.600 --> 00:12:11.160
+ So the work there is like designing very good abstractions, which is not like this, but
+
+00:12:11.160 --> 00:12:13.400
+ it's also very like stimulating and interesting.
+
+00:12:13.400 --> 00:12:14.400
+ Yeah.
+
+00:12:14.400 --> 00:12:20.600
+ But yeah, I think it just goes to show there's so many like sub categories of program, so
+
+00:12:20.600 --> 00:12:27.840
+ like zones, your brain is in, and it does feel off when you're not getting to do all
+
+00:12:27.840 --> 00:12:28.840
+ of them.
+
+00:12:28.840 --> 00:12:32.240
+ And I guess a lot of people might not even be aware that there are different zones.
+
+00:12:32.240 --> 00:12:33.240
+ That's the thing.
+
+00:12:33.240 --> 00:12:37.280
+ So many people just operate in the one zone probably for their day job and they don't
+
+00:12:37.280 --> 00:12:38.280
+ tickle all those zones.
+
+00:12:38.280 --> 00:12:43.040
+ I think like being a part of small companies, being a founder, we probably get more of that
+
+00:12:43.040 --> 00:12:46.640
+ on average than the average dev, I guess.
+
+00:12:46.640 --> 00:12:49.960
+ Like I think of the thing that makes me think of, I think I've said this before.
+
+00:12:49.960 --> 00:12:53.680
+ I don't know where I said it, or I may be tweeted it.
+
+00:12:53.680 --> 00:13:00.080
+ It reminds me of like, like you can just buy like a glass jar at the store and they're
+
+00:13:00.080 --> 00:13:04.520
+ made like by the thousands in some factory, we can also go to Silver Dollar City, which
+
+00:13:04.520 --> 00:13:09.160
+ is like this old timey amusement park here in Branson, Missouri.
+
+00:13:09.160 --> 00:13:13.320
+ You can go there and watch people blow glass and they do it through the tube and they like
+
+00:13:13.320 --> 00:13:16.360
+ they have the furnace and they heat up the stuff and whatever.
+
+00:13:16.360 --> 00:13:20.280
+ But it's like they're wearing these old timey clothes and they're like behind these glass
+
+00:13:20.280 --> 00:13:23.720
+ panels and you just watch them and people are lined up just watching them blow glass.
+
+00:13:23.720 --> 00:13:27.600
+ I feel like that's what some of the like roots of programming you're going to feel like.
+
+00:13:27.600 --> 00:13:33.640
+ It feels more and more like this novel thing, like remember when we used to do this stuff,
+
+00:13:33.640 --> 00:13:38.080
+ but it's like commercialized to the Instagram, we have always abstractions and now you'd
+
+00:13:38.080 --> 00:13:42.840
+ never need to do this stuff, but some people did do it for fun, like on stream or something.
+
+00:13:42.840 --> 00:13:43.840
+ I don't know.
+
+00:13:43.840 --> 00:13:47.880
+ When you do like weird versions of it, yeah, that might be a two thing.
+
+00:13:47.880 --> 00:13:52.640
+ So the first thing is, I'm sure you can relate to this because you spend time as a consultant.
+
+00:13:52.640 --> 00:13:59.840
+ I will never stop being like mind blown by how when I'm working on something that feels
+
+00:13:59.840 --> 00:14:04.840
+ very, very specific for one project, it like somehow shows up on the other project too.
+
+00:14:04.840 --> 00:14:09.520
+ And I can never tell whether I'm forcing it or if it's just actually happening, like what
+
+00:14:09.520 --> 00:14:15.680
+ are the chances that we do this like crazy terminal thing for our coffee thing and then
+
+00:14:15.680 --> 00:14:20.920
+ like the biggest problem we have at SST is that we need to build like a lower level terminal.
+
+00:14:20.920 --> 00:14:21.920
+ That's really odd.
+
+00:14:21.920 --> 00:14:22.920
+ Yeah.
+
+00:14:22.920 --> 00:14:27.200
+ And then if you look at what Prime did, Prime did the whole doom and ask you the thing.
+
+00:14:27.200 --> 00:14:28.200
+ The doom.
+
+00:14:28.200 --> 00:14:29.200
+ Yeah.
+
+00:14:29.200 --> 00:14:30.200
+ I think it was one of the best videos ever.
+
+00:14:30.200 --> 00:14:31.200
+ I think that was so good.
+
+00:14:31.200 --> 00:14:33.160
+ I feel like it's incredible to a whole new thing.
+
+00:14:33.160 --> 00:14:34.160
+ Yeah.
+
+00:14:34.160 --> 00:14:36.600
+ You're so entertaining and so interesting.
+
+00:14:36.600 --> 00:14:42.320
+ He's doing a bunch of like ASCII like like terminal character quotes over the exact same
+
+00:14:42.320 --> 00:14:44.000
+ thing I've been staring at the past week.
+
+00:14:44.000 --> 00:14:46.200
+ So it's like, how is this happening?
+
+00:14:46.200 --> 00:14:47.640
+ Is this just pure coincidence?
+
+00:14:47.640 --> 00:14:48.840
+ Are we like forced?
+
+00:14:48.840 --> 00:14:53.240
+ Is there like some correlation here where it's in our heads and we're actually making
+
+00:14:53.240 --> 00:14:54.240
+ it happen?
+
+00:14:54.240 --> 00:14:56.920
+ It's always mind blowing when, when that's the case.
+
+00:14:56.920 --> 00:14:57.920
+ Yeah.
+
+00:14:57.920 --> 00:15:01.400
+ I'd love it if we could somehow create an industry shift back to terminal UIs.
+
+00:15:01.400 --> 00:15:02.400
+ I know.
+
+00:15:02.400 --> 00:15:04.360
+ We'd some more coffee that way.
+
+00:15:04.360 --> 00:15:07.200
+ There's more tension on the terminal.
+
+00:15:07.200 --> 00:15:10.880
+ It is wild because someone picked up on this because we've had the experience where we
+
+00:15:10.880 --> 00:15:14.440
+ go in and like place an order and everything's already set up and like, this is the best
+
+00:15:14.440 --> 00:15:15.920
+ checkout experience that exists here.
+
+00:15:15.920 --> 00:15:16.920
+ It's so good.
+
+00:15:16.920 --> 00:15:17.920
+ Now.
+
+00:15:17.920 --> 00:15:21.560
+ And then I saw someone, someone did a reorder and they were like, what the hell, this is
+
+00:15:21.560 --> 00:15:22.560
+ so great.
+
+00:15:22.560 --> 00:15:24.920
+ They're like, everything was saved and it was so easy.
+
+00:15:24.920 --> 00:15:25.920
+ Yeah.
+
+00:15:25.920 --> 00:15:29.760
+ Once it's got your card and your address, yeah, it's you don't want to open a browser anymore.
+
+00:15:29.760 --> 00:15:34.880
+ It is wild when you step back and you forget everything that exists and you're like, the
+
+00:15:34.880 --> 00:15:38.720
+ goal is to build the best possible experience.
+
+00:15:38.720 --> 00:15:46.480
+ This actually is the best possible experience and it is, it is really crazy that how so much
+
+00:15:46.480 --> 00:15:49.960
+ gets in the way of that and we like convince ourselves of other stuff.
+
+00:15:49.960 --> 00:15:54.040
+ But yeah, I mean, obviously I don't think the world will shift to this, but there is
+
+00:15:54.040 --> 00:15:57.520
+ something to be learned, I think from it.
+
+00:15:57.520 --> 00:16:00.800
+ There will be more e-commerce experiences in the terminal.
+
+00:16:00.800 --> 00:16:02.960
+ I know that we've inspired enough people.
+
+00:16:02.960 --> 00:16:03.960
+ That's going to happen.
+
+00:16:03.960 --> 00:16:04.960
+ Right.
+
+00:16:04.960 --> 00:16:08.760
+ There's been too many people like very excited about this, even if it's not in the terminal,
+
+00:16:08.760 --> 00:16:14.160
+ I'm just like, there's nothing innate about the terminal that like that good experience
+
+00:16:14.160 --> 00:16:17.800
+ that we gave you in the terminal you could get in the browser too.
+
+00:16:17.800 --> 00:16:23.720
+ But for some reason, yeah, even Amazon is slower to just reorder something.
+
+00:16:23.720 --> 00:16:24.720
+ Yeah.
+
+00:16:24.720 --> 00:16:25.720
+ It is a little weird.
+
+00:16:25.720 --> 00:16:29.640
+ The second thing I was going to say was this thing you talked about the class was interesting.
+
+00:16:29.640 --> 00:16:37.280
+ The world tries to optimize in certain ways and we lose a lot of things by like kind of
+
+00:16:37.280 --> 00:16:38.680
+ blindly pursuing it.
+
+00:16:38.680 --> 00:16:46.200
+ So an example of this is obviously like as like a species we're trying to get our emissions
+
+00:16:46.200 --> 00:16:51.160
+ down and we're trying to get our cars to be electric and put in policies in place that
+
+00:16:51.160 --> 00:16:55.160
+ make it so that you know, more and more vehicles than we're electric.
+
+00:16:55.160 --> 00:17:00.960
+ There was this whole thing with Ferrari where they were like, oh, yeah, you guys can't do
+
+00:17:00.960 --> 00:17:01.960
+ this.
+
+00:17:01.960 --> 00:17:04.840
+ You guys can't make Ferraris anymore and like you need to make them electric and everyone
+
+00:17:04.840 --> 00:17:09.960
+ was like, yeah, like fuck rich people and like they think they can not be part of this.
+
+00:17:09.960 --> 00:17:14.720
+ And I get like that's like the immediate sentiment, but it's a little if you really think about
+
+00:17:14.720 --> 00:17:19.720
+ what it actually is like, I think they should get an exemption because what a Ferrari actually
+
+00:17:19.720 --> 00:17:29.640
+ is is this extremely tiny niche thing of people that still hand build cars in a very inefficient
+
+00:17:29.640 --> 00:17:34.160
+ way in a very artistic way in a very like craftsmanship way.
+
+00:17:34.160 --> 00:17:39.600
+ And the reality is is like the literal carbon impact of those vehicles is probably basically
+
+00:17:39.600 --> 00:17:40.600
+ zero.
+
+00:17:40.600 --> 00:17:41.600
+ Right.
+
+00:17:41.600 --> 00:17:44.800
+ I get that there's like this metaphorical thing where it feels like if you're rich, you get
+
+00:17:44.800 --> 00:17:51.480
+ it away with it, but do we really want to lose that in pursuit of this other thing?
+
+00:17:51.480 --> 00:17:54.720
+ And I feel like this check shows up in a bunch of the bunch of places in the world.
+
+00:17:54.720 --> 00:18:00.480
+ Yeah, I think it's my personality to is drawn towards like, I would love to do more work
+
+00:18:00.480 --> 00:18:10.080
+ that felt like that, like artisan, like artisanal, extremely like inefficient yet rare.
+
+00:18:10.080 --> 00:18:15.620
+ That's like, I would love to just throw time at things that shouldn't have a lot of time
+
+00:18:15.620 --> 00:18:16.620
+ spent on them.
+
+00:18:16.620 --> 00:18:21.280
+ Like, if I could somehow make a living doing that, I just love, I don't know, something
+
+00:18:21.280 --> 00:18:26.520
+ about, I mean, you just describing Ferrari, I drive electric, but now I want a Ferrari.
+
+00:18:26.520 --> 00:18:30.320
+ I mean, just the idea that's handmade and like something about that.
+
+00:18:30.320 --> 00:18:31.320
+ It just feels nice.
+
+00:18:31.320 --> 00:18:32.320
+ I don't know.
+
+00:18:32.320 --> 00:18:36.280
+ Yeah, it's I think the I had this rule that I figured out a while ago where when it comes
+
+00:18:36.280 --> 00:18:42.480
+ to luxury items, I am definitely willing to pay a crazy amount of money for a luxury.
+
+00:18:42.480 --> 00:18:48.860
+ But only when it's expensive because it hasn't scaled and if you look at the world, there's
+
+00:18:48.860 --> 00:18:53.720
+ a lot of things that are expensive and skilled, which means it's a kind of a scam.
+
+00:18:53.720 --> 00:18:55.720
+ And I think recently it's actually showed up in a very little way.
+
+00:18:55.720 --> 00:19:00.520
+ I don't know if you saw the there's a bunch of news about I think Dior, where it turns
+
+00:19:00.520 --> 00:19:06.600
+ out like their bags cost like $57 to make the ones they're selling for $1,000 like those
+
+00:19:06.600 --> 00:19:09.960
+ things are expensive for no reason, like it could be a lot cheaper.
+
+00:19:09.960 --> 00:19:15.520
+ It just there's like a scam going around it where people think it's rare, but it's not.
+
+00:19:15.520 --> 00:19:20.920
+ But there are other things in fashion where it's a small group that is doing something
+
+00:19:20.920 --> 00:19:25.560
+ that's not that there's not a lot of demand for, but like you might personally like it.
+
+00:19:25.560 --> 00:19:29.840
+ And then it's very expensive because, you know, that's what they need to keep it going.
+
+00:19:29.840 --> 00:19:32.880
+ I'm like super happy to pay for stuff like that.
+
+00:19:32.880 --> 00:19:33.880
+ And I don't think that's a scam.
+
+00:19:33.880 --> 00:19:37.560
+ I think that's like, yeah, I'm also very interested in things like that.
+
+00:19:37.560 --> 00:19:40.000
+ Those are things that should exist in the world.
+
+00:19:40.000 --> 00:19:41.000
+ Can we talk about turmoil?
+
+00:19:41.000 --> 00:19:42.840
+ Can we have like a strategy session here?
+
+00:19:42.840 --> 00:19:47.720
+ I know like we're two fifths of the team on the call right now, but I just feel like
+
+00:19:47.720 --> 00:19:53.400
+ I could use a little bit of like high level discussion, co-founder to co-founder on the
+
+00:19:53.400 --> 00:19:54.400
+ terminal coffee.
+
+00:19:54.400 --> 00:19:58.440
+ It kind of ties into this conversation because like, really, the question is, what is terminal?
+
+00:19:58.440 --> 00:19:59.440
+ What is it going to be?
+
+00:19:59.440 --> 00:20:00.440
+ What do you want it to be?
+
+00:20:00.440 --> 00:20:01.440
+ What's interesting to you?
+
+00:20:01.440 --> 00:20:05.480
+ Every time I think of like a million things I could do every day towards the terminal
+
+00:20:05.480 --> 00:20:10.080
+ effort, I just hear you in my head being like, well, that's not a business worth even making.
+
+00:20:10.080 --> 00:20:12.640
+ And I'm like, what is the business worth making backs?
+
+00:20:12.640 --> 00:20:13.640
+ What does DAX want to make?
+
+00:20:13.640 --> 00:20:14.640
+ Yeah.
+
+00:20:14.640 --> 00:20:20.880
+ I think the way I'm thinking about things is we, there's a lot of things we want, I talk
+
+00:20:20.880 --> 00:20:22.720
+ about things in these terms all the time.
+
+00:20:22.720 --> 00:20:25.920
+ There's a lot of things we want to do, but they actually fall in the category of things
+
+00:20:25.920 --> 00:20:28.440
+ we get to do after we hit a certain point.
+
+00:20:28.440 --> 00:20:32.920
+ We usually get to a place where we like, understand the numbers, we have a sale amount of money
+
+00:20:32.920 --> 00:20:36.920
+ coming in and then we can figure out how to reinvest all of the stuff that people bring
+
+00:20:36.920 --> 00:20:37.920
+ up.
+
+00:20:37.920 --> 00:20:39.600
+ I think they're like, interesting ideas that we should do.
+
+00:20:39.600 --> 00:20:44.960
+ It's just like, we don't get to do that yet because we got to figure out a way where we're
+
+00:20:44.960 --> 00:20:50.360
+ not doing these like single shot, like two weeks, we're doing a bunch of sales and it
+
+00:20:50.360 --> 00:20:53.800
+ goes to basically zero and then we're like saying, like, we got to have like something
+
+00:20:53.800 --> 00:20:54.800
+ steady.
+
+00:20:54.800 --> 00:20:56.720
+ Otherwise, it's, it's quite hard.
+
+00:20:56.720 --> 00:21:01.480
+ Yeah, I'm not thinking about the new ideas, even like there's been a lot of ideas thrown
+
+00:21:01.480 --> 00:21:04.160
+ out over the last three months in our Discord.
+
+00:21:04.160 --> 00:21:08.760
+ I'm saying just in terms of the business we have right now with coffee, selling coffee,
+
+00:21:08.760 --> 00:21:14.320
+ what are like the next moves and what in your mind is it just, we need to wait and learn
+
+00:21:14.320 --> 00:21:18.720
+ more about how much coffee we're selling over time.
+
+00:21:18.720 --> 00:21:19.720
+ Yeah.
+
+00:21:19.720 --> 00:21:20.720
+ I think so.
+
+00:21:20.720 --> 00:21:26.520
+ I think I'm going to be back from what I was saying, it's, I want to have predictable sales
+
+00:21:26.520 --> 00:21:27.520
+ every month.
+
+00:21:27.520 --> 00:21:28.520
+ Yeah.
+
+00:21:28.520 --> 00:21:32.960
+ And to do that, you need to sell something that is somewhat recurring, which is why the
+
+00:21:32.960 --> 00:21:38.620
+ only thing I really care about right now is, is getting that, uh, subscription, that monthly
+
+00:21:38.620 --> 00:21:39.920
+ thing, thing going.
+
+00:21:39.920 --> 00:21:41.720
+ And that also, it like serves two purposes.
+
+00:21:41.720 --> 00:21:45.920
+ Like it solves that problem, but it also is a channel for all our weird ideas because
+
+00:21:45.920 --> 00:21:50.800
+ every one month we can execute on one, on one weird idea, so it took a nice like stable
+
+00:21:50.800 --> 00:21:54.240
+ schedule for us to actually do something with the ideas that we have.
+
+00:21:54.240 --> 00:21:55.240
+ That's the only thing I care about.
+
+00:21:55.240 --> 00:22:00.240
+ But I also am like, I don't think we can do anything till we get all the layer, layer
+
+00:22:00.240 --> 00:22:01.240
+ of concept.
+
+00:22:01.240 --> 00:22:02.240
+ Oh, yeah, layer con.
+
+00:22:02.240 --> 00:22:03.240
+ Yep.
+
+00:22:03.240 --> 00:22:04.240
+ Done.
+
+00:22:04.240 --> 00:22:05.240
+ Yeah.
+
+00:22:05.240 --> 00:22:06.240
+ That makes sense.
+
+00:22:06.240 --> 00:22:07.240
+ So we get, yeah, it makes sense.
+
+00:22:07.240 --> 00:22:14.040
+ So we get layer con next month that behind us, which I was thinking about a, so we're doing
+
+00:22:14.040 --> 00:22:17.240
+ some set amount of bags for the conference, we're going to have to have those bags shipped
+
+00:22:17.240 --> 00:22:18.240
+ to Mahra.
+
+00:22:18.240 --> 00:22:21.080
+ He's going to fill them all and ship them to us in Dallas, right?
+
+00:22:21.080 --> 00:22:23.480
+ It's just got it really in the weeds.
+
+00:22:23.480 --> 00:22:24.480
+ Okay.
+
+00:22:24.480 --> 00:22:32.760
+ So sort of, but not really, uh, we are going to, so yes, the number one thing is we get
+
+00:22:32.760 --> 00:22:37.040
+ the bags I imprinted because that's actually the only thing that's like kind of sensitive
+
+00:22:37.040 --> 00:22:42.520
+ that can get screwed, uh, they can screw us, they need to ship to our roaster, but he doesn't
+
+00:22:42.520 --> 00:22:44.360
+ have to fill all the bags.
+
+00:22:44.360 --> 00:22:49.440
+ He's needs to fill 30 or 40 that he can ship to Texas because we're only going to sell
+
+00:22:49.440 --> 00:22:53.080
+ not that many in person, mostly, we're not going to sell very many in person.
+
+00:22:53.080 --> 00:22:54.080
+ Okay.
+
+00:22:54.080 --> 00:22:56.360
+ We'll sell some in person, but like people can just order.
+
+00:22:56.360 --> 00:22:57.360
+ Yeah.
+
+00:22:57.360 --> 00:22:58.360
+ Like, okay.
+
+00:22:58.360 --> 00:22:59.360
+ Ideas with the bags will be in the store.
+
+00:22:59.360 --> 00:23:02.960
+ I had a time before the conference and I can just fulfill those normally.
+
+00:23:02.960 --> 00:23:03.960
+ So, okay.
+
+00:23:03.960 --> 00:23:04.960
+ Cool.
+
+00:23:04.960 --> 00:23:05.960
+ Yeah.
+
+00:23:05.960 --> 00:23:08.560
+ His side of it is bracing by and he's going to ship a few larger bags, just actually serve
+
+00:23:08.560 --> 00:23:11.160
+ the coffee there for the people to end the conference.
+
+00:23:11.160 --> 00:23:15.400
+ So the only, only variable thing here is, uh, getting the bags printed.
+
+00:23:15.400 --> 00:23:16.400
+ Um, yeah.
+
+00:23:16.400 --> 00:23:21.760
+ Me and Liz made up a big list of a few other things, but yeah, it's operationally forward.
+
+00:23:21.760 --> 00:23:25.520
+ So Laracon, then we do the monthly subs thing, which is like going to be a different blend
+
+00:23:25.520 --> 00:23:27.880
+ every month, which is very exciting for the creativity.
+
+00:23:27.880 --> 00:23:28.880
+ Yeah.
+
+00:23:28.880 --> 00:23:32.080
+ If that works, like there's so many ways to make that work like we can eat.
+
+00:23:32.080 --> 00:23:35.840
+ We can say like the first hunter subscribers get the first month free, uh, the partnerships
+
+00:23:35.840 --> 00:23:39.400
+ with other companies that sponsor the boxes that there's not even a charge that month
+
+00:23:39.400 --> 00:23:42.760
+ for, yeah, people subscribe to like, there's so many things that I'm able.
+
+00:23:42.760 --> 00:23:46.800
+ So if that works, then yeah, then this thing can stick around for a long time.
+
+00:23:46.800 --> 00:23:47.800
+ Cool.
+
+00:23:47.800 --> 00:23:48.800
+ Okay.
+
+00:23:48.800 --> 00:23:49.800
+ And then we can, we get to do all the stuff we want to do.
+
+00:23:49.800 --> 00:23:50.800
+ Yeah.
+
+00:23:50.800 --> 00:23:51.800
+ We, we do want to do a lot of stuff.
+
+00:23:51.800 --> 00:23:52.800
+ I know.
+
+00:23:52.800 --> 00:23:53.800
+ Yeah.
+
+00:23:53.800 --> 00:23:54.800
+ There's also like people just rebying coffee.
+
+00:23:54.800 --> 00:24:01.160
+ How do you ever learn like whether people are buying coffee, uh, because they saw something
+
+00:24:01.160 --> 00:24:08.160
+ on Twitter versus, I feel like we need some intelligence around knowing why we sell coffee.
+
+00:24:08.160 --> 00:24:09.160
+ Like our people just rebying.
+
+00:24:09.160 --> 00:24:13.480
+ I guess we know that if there's a previous customer, well, I'm getting way too in the
+
+00:24:13.480 --> 00:24:14.480
+ weed too.
+
+00:24:14.480 --> 00:24:17.680
+ This, this just got way too specific for a podcast.
+
+00:24:17.680 --> 00:24:18.680
+ Probably.
+
+00:24:18.680 --> 00:24:21.760
+ Well, I mean, if you take a step back.
+
+00:24:21.760 --> 00:24:25.920
+ So I am curious of that, like what analytics you guys look.
+
+00:24:25.920 --> 00:24:30.680
+ So at SST, we're like really, we're pretty numbers driven.
+
+00:24:30.680 --> 00:24:34.720
+ I think that's a lot more relevant when you're earlier than when maybe where is that means
+
+00:24:34.720 --> 00:24:35.720
+ is that?
+
+00:24:35.720 --> 00:24:39.400
+ Yeah, everything we're doing, it's like very clear for the numbers, whether it's working
+
+00:24:39.400 --> 00:24:40.400
+ or what we should be doing.
+
+00:24:40.400 --> 00:24:41.600
+ There's like no mystery on.
+
+00:24:41.600 --> 00:24:42.600
+ Yeah.
+
+00:24:42.600 --> 00:24:43.600
+ About anything.
+
+00:24:43.600 --> 00:24:47.120
+ Uh, so I feel like it'll be the same way given that terminals early, but do you guys
+
+00:24:47.120 --> 00:24:50.600
+ still like obsess over the numbers the way like an earlier stage company would?
+
+00:24:50.600 --> 00:24:51.600
+ Yeah.
+
+00:24:51.600 --> 00:24:55.400
+ I mean, like we've grown over a hundred percent year over year the last three years in a row.
+
+00:24:55.400 --> 00:25:01.400
+ So like the, it's, we're obsessed in like the way that, uh, it's just exciting to look
+
+00:25:01.400 --> 00:25:02.400
+ at them every day.
+
+00:25:02.400 --> 00:25:06.880
+ Eventually when the numbers aren't so good every year, if it slows down, then we'll be
+
+00:25:06.880 --> 00:25:10.760
+ obsessed in the bad way where it's like, Oh, we got to get these numbers up right now.
+
+00:25:10.760 --> 00:25:14.200
+ It's just kind of like enjoying the ride and like, look at number go up.
+
+00:25:14.200 --> 00:25:20.560
+ Uh, the main, like our main metric is just page views, which is what we sell ads against.
+
+00:25:20.560 --> 00:25:22.880
+ So I mean, that's the main driver of revenue.
+
+00:25:22.880 --> 00:25:27.120
+ Uh, but like a large percentage of our page views just come from Google.
+
+00:25:27.120 --> 00:25:32.880
+ So we also stare at the Google search console a lot, just seeing the numbers day-to-day clicks
+
+00:25:32.880 --> 00:25:35.200
+ from Google and what pages are driving traffic.
+
+00:25:35.200 --> 00:25:39.240
+ Yeah, we, I'd say we're like, we're very aware of the numbers as a team over the last few
+
+00:25:39.240 --> 00:25:43.920
+ years, just since they got so big, uh, but I wouldn't say obsess because we all, we just
+
+00:25:43.920 --> 00:25:45.120
+ have so much to do.
+
+00:25:45.120 --> 00:25:51.520
+ Uh, we do kind of like take bets on like, we think this will drive up time on page, like
+
+00:25:51.520 --> 00:25:54.160
+ engagement numbers could be better here on this page.
+
+00:25:54.160 --> 00:26:00.480
+ So, uh, I'd say it like influences product decisions, but, uh, it's mostly a healthy relationship
+
+00:26:00.480 --> 00:26:02.440
+ because again, the numbers have been good.
+
+00:26:02.440 --> 00:26:03.440
+ Yeah.
+
+00:26:03.440 --> 00:26:07.000
+ So for us, we literally look at the same numbers every week and that kind of tells us whether
+
+00:26:07.000 --> 00:26:08.520
+ what we did the last week.
+
+00:26:08.520 --> 00:26:09.520
+ Yeah.
+
+00:26:09.520 --> 00:26:10.520
+ Worked or not.
+
+00:26:10.520 --> 00:26:14.160
+ Uh, so we're like still pretty in like in the micro of like, when we go to be good,
+
+00:26:14.160 --> 00:26:15.400
+ the next week will be bad.
+
+00:26:15.400 --> 00:26:17.200
+ So things change pretty frequently.
+
+00:26:17.200 --> 00:26:18.200
+ Yeah.
+
+00:26:18.200 --> 00:26:20.960
+ Like for stammies, it's so driven off the sports schedule.
+
+00:26:20.960 --> 00:26:21.960
+ Right.
+
+00:26:21.960 --> 00:26:22.960
+ Yeah.
+
+00:26:22.960 --> 00:26:23.960
+ It's super interesting.
+
+00:26:23.960 --> 00:26:24.960
+ Yeah.
+
+00:26:24.960 --> 00:26:27.600
+ Like you can see a down day and then you look at year over year and it's like, oh, this
+
+00:26:27.600 --> 00:26:32.760
+ week, every single year is a low week just because of the nature of the sports schedule.
+
+00:26:32.760 --> 00:26:36.360
+ The sports schedule is oddly consistent, but we have like added sports and that kind of
+
+00:26:36.360 --> 00:26:40.360
+ fills in some of the gaps and yeah, it's largely like day to day.
+
+00:26:40.360 --> 00:26:43.960
+ We can't get too worked up over numbers just because it just totally depends on what happens.
+
+00:26:43.960 --> 00:26:48.880
+ Somebody could break a record in a game and we can have our best day in the last six months
+
+00:26:48.880 --> 00:26:49.880
+ and it's just kind of random.
+
+00:26:49.880 --> 00:26:50.880
+ Mm.
+
+00:26:50.880 --> 00:26:51.880
+ I see.
+
+00:26:51.880 --> 00:26:52.880
+ That makes sense.
+
+00:26:52.880 --> 00:26:55.880
+ I look forward to having some basic numbers that we can look at week to week.
+
+00:26:55.880 --> 00:27:01.200
+ So I think next week will be the first week where we have like stable data.
+
+00:27:01.200 --> 00:27:06.680
+ The last two weeks have been like crazy spiky because of we just launched and then we'll
+
+00:27:06.680 --> 00:27:11.200
+ see from there like how many new people are we getting week to week, which is very hard
+
+00:27:11.200 --> 00:27:16.160
+ to change by the way, like the user sense of the flat for like just hard to move that
+
+00:27:16.160 --> 00:27:17.160
+ number.
+
+00:27:17.160 --> 00:27:18.160
+ Yeah.
+
+00:27:18.160 --> 00:27:21.160
+ And with how many reorders we get it, we see how much all that and think it'll be clear
+
+00:27:21.160 --> 00:27:22.160
+ what to do.
+
+00:27:22.160 --> 00:27:26.720
+ So you said something and discord about like ready for it to settle into like a normal
+
+00:27:26.720 --> 00:27:27.720
+ rent.
+
+00:27:27.720 --> 00:27:30.240
+ And I guess like for me, will there be a normal rate?
+
+00:27:30.240 --> 00:27:35.120
+ I feel like it's always going to be pretty spiky depending on like our activity on socials.
+
+00:27:35.120 --> 00:27:36.920
+ Like I don't know what other driver right now.
+
+00:27:36.920 --> 00:27:42.240
+ Well, the active if the activity on socials don't translate to increasing your baseline
+
+00:27:42.240 --> 00:27:44.480
+ of like this, we can always guarantee on this happening.
+
+00:27:44.480 --> 00:27:46.200
+ You're like not compounding anything.
+
+00:27:46.200 --> 00:27:47.200
+ Yeah.
+
+00:27:47.200 --> 00:27:48.200
+ You know what I mean?
+
+00:27:48.200 --> 00:27:49.200
+ Like that's what we are right now.
+
+00:27:49.200 --> 00:27:54.880
+ We're like, we can do a bunch of effort and we'll get a bunch of sales, but they don't
+
+00:27:54.880 --> 00:27:55.880
+ keep coming.
+
+00:27:55.880 --> 00:27:56.880
+ Yeah.
+
+00:27:56.880 --> 00:28:00.400
+ But they're slower things that'll take time, like word of mouth.
+
+00:28:00.400 --> 00:28:02.560
+ I feel like word of mouth is going to be really strong with this.
+
+00:28:02.560 --> 00:28:05.560
+ Like everybody who's in an office is going to tell their friends.
+
+00:28:05.560 --> 00:28:06.560
+ That's a developer.
+
+00:28:06.560 --> 00:28:07.560
+ Right.
+
+00:28:07.560 --> 00:28:09.720
+ I mean, it's just kind of like it's got that novelty.
+
+00:28:09.720 --> 00:28:10.720
+ That's kind of what I'm talking about.
+
+00:28:10.720 --> 00:28:15.240
+ Like if you have a healthy thing going, like, yeah, you'll see growth just from long term
+
+00:28:15.240 --> 00:28:16.240
+ things like that.
+
+00:28:16.240 --> 00:28:17.240
+ Okay.
+
+00:28:17.240 --> 00:28:22.000
+ Fresh is in the pan kind of like help seed more little champions of the company and the
+
+00:28:22.000 --> 00:28:23.000
+ brand.
+
+00:28:23.000 --> 00:28:24.000
+ Yeah.
+
+00:28:24.000 --> 00:28:25.000
+ Yeah, they should.
+
+00:28:25.000 --> 00:28:26.000
+ They should increase.
+
+00:28:26.000 --> 00:28:27.000
+ Just like an overtime.
+
+00:28:27.000 --> 00:28:28.000
+ It all just grows.
+
+00:28:28.000 --> 00:28:29.000
+ What?
+
+00:28:29.000 --> 00:28:30.000
+ Like our averages should go up over time, I guess.
+
+00:28:30.000 --> 00:28:31.000
+ Yeah.
+
+00:28:31.000 --> 00:28:32.000
+ Like week to week.
+
+00:28:32.000 --> 00:28:33.000
+ Yeah.
+
+00:28:33.000 --> 00:28:37.240
+ If they're flats, then you know, it's, it's still fun, but it's not like something that
+
+00:28:37.240 --> 00:28:38.240
+ is compounding.
+
+00:28:38.240 --> 00:28:39.520
+ Yeah, I gotcha.
+
+00:28:39.520 --> 00:28:43.480
+ So business is basically it's the number keeps going up.
+
+00:28:43.480 --> 00:28:44.480
+ Things are good.
+
+00:28:44.480 --> 00:28:49.520
+ Well, so it's really funny it's we were a second years ago, we were hanging out with
+
+00:28:49.520 --> 00:28:55.200
+ Liz's very successful uncle, and I mentioned before he's got like probably a second biggest
+
+00:28:55.200 --> 00:28:59.360
+ healthcare business in Miami billboards everywhere, like vehicles on the road.
+
+00:28:59.360 --> 00:29:02.960
+ You see it all the time, massive, massive company.
+
+00:29:02.960 --> 00:29:05.120
+ And what time we're hanging out with him?
+
+00:29:05.120 --> 00:29:13.080
+ Of course, this was at his, he's got a giant apartment on the beach and has a private beach
+
+00:29:13.080 --> 00:29:15.160
+ with like people that like serve you when you're there.
+
+00:29:15.160 --> 00:29:18.320
+ So you go and you just hang on the beach and people, like it's like you're at a resort,
+
+00:29:18.320 --> 00:29:19.320
+ but it's house.
+
+00:29:19.320 --> 00:29:20.320
+ So we're there.
+
+00:29:20.320 --> 00:29:24.360
+ Like obviously enjoying this like really like rich, successful situation.
+
+00:29:24.360 --> 00:29:28.680
+ And he was like describing to us is like a bunch of random things about his outlook on
+
+00:29:28.680 --> 00:29:30.040
+ life and business and all that.
+
+00:29:30.040 --> 00:29:34.320
+ And he was literally, he literally said what you said, he was like, I go to people every
+
+00:29:34.320 --> 00:29:39.280
+ week, the people that are managers and I look at their chart, if the numbers are going up,
+
+00:29:39.280 --> 00:29:40.280
+ that's good.
+
+00:29:40.280 --> 00:29:45.240
+ They're not going up, they're out and that was like, it was really that simple.
+
+00:29:45.240 --> 00:29:48.960
+ And I think a lot of stuff in business is that simple, like you can complicate it.
+
+00:29:48.960 --> 00:29:51.640
+ But yeah, and that was it.
+
+00:29:51.640 --> 00:29:55.800
+ And like it was so convincing because we were like around all of his success.
+
+00:29:55.800 --> 00:30:00.440
+ Yeah, he had this other funny point where he was like, oh yeah, like people should definitely
+
+00:30:00.440 --> 00:30:05.000
+ like go to a really good school and like go to Harvard and get a business degree so that
+
+00:30:05.000 --> 00:30:10.240
+ you can, so I can hire you, you can come work for me.
+
+00:30:10.240 --> 00:30:15.640
+ It was like this kind of condescending thing, but I was like, yeah, yeah, it was, yes,
+
+00:30:15.640 --> 00:30:16.960
+ number go up is good.
+
+00:30:16.960 --> 00:30:19.840
+ Number go up, we'll just keep making that number go up.
+
+00:30:19.840 --> 00:30:25.000
+ I got to say something here before we move on to something else before I forget.
+
+00:30:25.000 --> 00:30:33.200
+ We had a clip on TikTok and people commented that I am a skinwalker or I look like a skinwalker
+
+00:30:33.200 --> 00:30:35.000
+ or I'm definitely AI.
+
+00:30:35.000 --> 00:30:36.720
+ Listen, I'm not AI.
+
+00:30:36.720 --> 00:30:40.640
+ Ah, could they I do this, that's what I thought.
+
+00:30:40.640 --> 00:30:43.400
+ So look, I'm a person, I'm a human being with real feelings.
+
+00:30:43.400 --> 00:30:44.680
+ I don't actually have very many feelings.
+
+00:30:44.680 --> 00:30:45.680
+ Oh my God.
+
+00:30:45.680 --> 00:30:46.680
+ I am AI.
+
+00:30:46.680 --> 00:30:47.680
+ Oh, am I AI?
+
+00:30:47.680 --> 00:30:55.440
+ Oh no, I found that so funny, like that, okay, that you post a screenshot, like of like five
+
+00:30:55.440 --> 00:30:59.120
+ or six people agreeing that you only comment from the video, they're all like that guy's
+
+00:30:59.120 --> 00:31:00.120
+ definitely AI.
+
+00:31:00.120 --> 00:31:01.440
+ What does that mean?
+
+00:31:01.440 --> 00:31:03.280
+ Just my voice, the tone?
+
+00:31:03.280 --> 00:31:09.360
+ I found it so funny because to me it's so random, but to have such a consistent response.
+
+00:31:09.360 --> 00:31:12.800
+ It's such a consistent response, yeah, like what are people saying?
+
+00:31:12.800 --> 00:31:13.800
+ Is it?
+
+00:31:13.800 --> 00:31:14.800
+ What were you saying?
+
+00:31:14.800 --> 00:31:15.800
+ Was it the content that we were saying?
+
+00:31:15.800 --> 00:31:16.800
+ I mean, I watched the clip.
+
+00:31:16.800 --> 00:31:20.640
+ I was just kind of like, it was like five seconds of me just talking very monotone before
+
+00:31:20.640 --> 00:31:22.800
+ you then like elaborated on a bunch of stuff.
+
+00:31:22.800 --> 00:31:25.880
+ I was kind of asking you a question, but I did it very monotone.
+
+00:31:25.880 --> 00:31:26.880
+ I don't know.
+
+00:31:26.880 --> 00:31:29.000
+ I guess that was enough to make me look like AI.
+
+00:31:29.000 --> 00:31:30.000
+ A nice camera?
+
+00:31:30.000 --> 00:31:31.000
+ I don't know.
+
+00:31:31.000 --> 00:31:32.000
+ I look sick.
+
+00:31:32.000 --> 00:31:38.160
+ It was so funny and I think there's like, and I got me thinking about this, like there's
+
+00:31:38.160 --> 00:31:47.400
+ some kind of reverse Turing test now, if you're not, like people think you're AI when you're
+
+00:31:47.400 --> 00:31:48.400
+ actually a human.
+
+00:31:48.400 --> 00:31:50.880
+ It's like the opposite of what we were trying to do.
+
+00:31:50.880 --> 00:31:51.880
+ Yeah.
+
+00:31:51.880 --> 00:31:52.880
+ That's a great question.
+
+00:31:52.880 --> 00:31:53.880
+ Yeah.
+
+00:31:53.880 --> 00:31:57.680
+ What's like the most human thing you could do on a video that would be like, that's clearly
+
+00:31:57.680 --> 00:31:58.680
+ not AI.
+
+00:31:58.680 --> 00:32:01.360
+ Like how could I literally not be AI?
+
+00:32:01.360 --> 00:32:02.360
+ What would be a thing?
+
+00:32:02.360 --> 00:32:07.120
+ Like when you think of text, like that chat GPT spits out and like there's models that
+
+00:32:07.120 --> 00:32:12.800
+ can figure out that it was AI generated, what's the equivalent for like a talking head?
+
+00:32:12.800 --> 00:32:15.200
+ Like what would be proved easy answer?
+
+00:32:15.200 --> 00:32:16.200
+ Is it?
+
+00:32:16.200 --> 00:32:17.200
+ Yeah.
+
+00:32:17.200 --> 00:32:18.200
+ Pick my nose.
+
+00:32:18.200 --> 00:32:19.200
+ What?
+
+00:32:19.200 --> 00:32:20.200
+ No.
+
+00:32:20.200 --> 00:32:21.200
+ Just say the most offensive word you can think of.
+
+00:32:21.200 --> 00:32:22.200
+ Oh, because AI would do that.
+
+00:32:22.200 --> 00:32:23.200
+ That's funny.
+
+00:32:23.200 --> 00:32:24.200
+ I'm not going to do that.
+
+00:32:24.200 --> 00:32:25.200
+ Yeah.
+
+00:32:25.200 --> 00:32:26.200
+ Exactly.
+
+00:32:26.200 --> 00:32:31.360
+ Oh, man.
+
+00:32:31.360 --> 00:32:36.280
+ So if anything on this podcast episode ends up on TikTok, I'd appreciate if you kept in
+
+00:32:36.280 --> 00:32:38.480
+ mind that we're real human beings that we're here.
+
+00:32:38.480 --> 00:32:39.680
+ There's no AI on this podcast.
+
+00:32:39.680 --> 00:32:42.080
+ Hey, I wasn't accused of being AI.
+
+00:32:42.080 --> 00:32:45.960
+ It did make me think like it's so easy to create like an AI version of yourself now.
+
+00:32:45.960 --> 00:32:49.440
+ There's so many tools that like offer AI voices or like why not?
+
+00:32:49.440 --> 00:32:54.040
+ If people already think I'm AI, why shouldn't I just like clone me and then check out and
+
+00:32:54.040 --> 00:32:59.560
+ like never show up on the podcast I'm just talking to an AI version of you.
+
+00:32:59.560 --> 00:33:01.200
+ I won't even tell you actually.
+
+00:33:01.200 --> 00:33:02.440
+ You won't even be able to tell.
+
+00:33:02.440 --> 00:33:05.760
+ I'll just make sure it's super convincing and you'll just think you're talking to me.
+
+00:33:05.760 --> 00:33:07.760
+ You might be talking to AI right now.
+
+00:33:07.760 --> 00:33:08.760
+ Just saying.
+
+00:33:08.760 --> 00:33:09.760
+ I wouldn't be surprised.
+
+00:33:09.760 --> 00:33:12.920
+ I can't prove that I'm not.
+
+00:33:12.920 --> 00:33:13.920
+ What's going on?
+
+00:33:13.920 --> 00:33:17.040
+ I've been in a hole myself doing some programming.
+
+00:33:17.040 --> 00:33:18.720
+ What's the what's the latest?
+
+00:33:18.720 --> 00:33:20.520
+ What's what is going on?
+
+00:33:20.520 --> 00:33:23.880
+ Have you been like plugged into the tech scene?
+
+00:33:23.880 --> 00:33:27.460
+ I saw on Twitter people are talking about commit hooks or something.
+
+00:33:27.460 --> 00:33:30.240
+ I swear it really is just like a cycle.
+
+00:33:30.240 --> 00:33:33.840
+ It's just like we get bored of something and then we talk we bring up the same thing.
+
+00:33:33.840 --> 00:33:35.480
+ We brought up three months ago.
+
+00:33:35.480 --> 00:33:37.800
+ I had a bunch of fun with that yesterday.
+
+00:33:37.800 --> 00:33:41.040
+ I posted like I post like 50 tweets in 30 minutes.
+
+00:33:41.040 --> 00:33:44.000
+ I believe you're in favor of commit hooks.
+
+00:33:44.000 --> 00:33:47.640
+ I could tell you the list of people who are not it's just it's getting.
+
+00:33:47.640 --> 00:33:48.640
+ It's getting out of hand.
+
+00:33:48.640 --> 00:33:52.520
+ We got to come up with something in favor of commit hooks in general.
+
+00:33:52.520 --> 00:34:00.320
+ I have one hook that I set up a pre push hook to do a type check because I've observed
+
+00:34:00.320 --> 00:34:04.240
+ behavior in myself and my team where that's an easy thing.
+
+00:34:04.240 --> 00:34:07.320
+ We miss and then waiting for CI to fail is like way too slow with the.
+
+00:34:07.320 --> 00:34:08.320
+ Yeah.
+
+00:34:08.320 --> 00:34:09.320
+ I get that.
+
+00:34:09.320 --> 00:34:10.320
+ Just run it there.
+
+00:34:10.320 --> 00:34:11.720
+ It's definitely very teams.
+
+00:34:11.720 --> 00:34:19.080
+ The context specific right like within a given team what you do from code authoring like
+
+00:34:19.080 --> 00:34:24.840
+ your little fingers hit in the keyboard to it being deployed somewhere that's very team
+
+00:34:24.840 --> 00:34:28.960
+ specific right like there's no general like this is how you should do things for every
+
+00:34:28.960 --> 00:34:29.960
+ single team.
+
+00:34:29.960 --> 00:34:33.960
+ Well the thing I was having fun with was this is making fun of as usual making fun of everyone
+
+00:34:33.960 --> 00:34:37.960
+ else's process because they have process it's oh yeah.
+
+00:34:37.960 --> 00:34:42.720
+ So in my head I'm like when I make a code change and I push I want to be done like I'm
+
+00:34:42.720 --> 00:34:47.880
+ done when I get push on my code is done so I want to make sure that if it pushed successfully
+
+00:34:47.880 --> 00:34:50.040
+ like I can consider it done.
+
+00:34:50.040 --> 00:34:51.040
+ Yep.
+
+00:34:51.040 --> 00:34:55.240
+ But then I realized oh that's not how everyone else works they're like oh I'm actually pushing
+
+00:34:55.240 --> 00:35:01.800
+ to a feature branch so no matter what I have to go to GitHub like to wait for the PR checks
+
+00:35:01.800 --> 00:35:06.120
+ to finish and then squash merge so to them I guess it's fine.
+
+00:35:06.120 --> 00:35:09.640
+ I said squash merge other instincts probably not squash merge probably some other weird
+
+00:35:09.640 --> 00:35:10.640
+ thing.
+
+00:35:10.640 --> 00:35:15.240
+ So other weird thing that people do it's all because it wait.
+
+00:35:15.240 --> 00:35:19.000
+ I mean teams aren't just made up of taxes you know there's believe it or not there are
+
+00:35:19.000 --> 00:35:20.920
+ some programmers who aren't very good.
+
+00:35:20.920 --> 00:35:25.800
+ That's what I made fun of everyone for it's like you guys all suck so you need this stupid
+
+00:35:25.800 --> 00:35:30.680
+ ass linter running so I can tell you that please add an underscore to this variable that is
+
+00:35:30.680 --> 00:35:34.720
+ not used because if there wasn't an underscore there like the world would collapse like it
+
+00:35:34.720 --> 00:35:40.240
+ was just like they're just people just add so many tools and all this stuff so I get why
+
+00:35:40.240 --> 00:35:43.800
+ you don't want to run all that on every commit because that's just a lot of stuff but for
+
+00:35:43.800 --> 00:35:49.000
+ me I'm just like just don't use any of that just don't use it just be good at programming
+
+00:35:49.000 --> 00:35:51.960
+ and you don't need all that stuff and then of course responses like that works for you
+
+00:35:51.960 --> 00:35:55.040
+ because you're a small team but it doesn't work for us because we're a big team and we
+
+00:35:55.040 --> 00:36:00.080
+ have a big team and people don't know anything and we have to make them do the right thing
+
+00:36:00.080 --> 00:36:04.800
+ that's basically the gist of it right yeah like we hire a bunch of people who are still
+
+00:36:04.800 --> 00:36:09.040
+ learning lots of things and we're like we want our code to be perfect and just like this
+
+00:36:09.040 --> 00:36:14.880
+ and so we're going to force everyone into this through automated tooling and my response
+
+00:36:14.880 --> 00:36:20.120
+ to that is always oh like but if it was just you would you still need it or you do this
+
+00:36:20.120 --> 00:36:23.520
+ for everyone else because everyone else is stupid on your team and that's when they don't
+
+00:36:23.520 --> 00:36:26.560
+ have an answer for it it's like well I bet like everybody's side projects have all the
+
+00:36:26.560 --> 00:36:30.800
+ same it's also because you're stupid well I'm sure like most people's side projects have
+
+00:36:30.800 --> 00:36:34.000
+ all the same tooling they use at work because they're just in that habit and then like you're
+
+00:36:34.000 --> 00:36:39.040
+ a solo person working in repo with all this nonsense you helped me see the light of like
+
+00:36:39.040 --> 00:36:43.120
+ getting rid of ESLent and like why don't I do this for why do I have ESLent at all I was
+
+00:36:43.120 --> 00:36:47.920
+ so tired of configuring ESLent and all the other tools that everybody configures I just
+
+00:36:47.920 --> 00:36:51.800
+ just sheep you know I just follow along I just I see everybody else with all these things
+
+00:36:51.800 --> 00:36:56.360
+ in their repos and I'm like I guess I need all that stuff they'll talk to you yeah ESLent
+
+00:36:56.360 --> 00:37:02.760
+ is so important that we've now like rewritten it in Rust it just and wait okay here's another
+
+00:37:02.760 --> 00:37:06.840
+ thing that's funny if you asked people the question if all of your pre commit hooks could
+
+00:37:06.840 --> 00:37:10.960
+ run a hundred times faster would you still be against them and they probably would say
+
+00:37:10.960 --> 00:37:14.400
+ no they wouldn't be against them that was a question I had for you like I saw somebody
+
+00:37:14.400 --> 00:37:22.920
+ was it was it can't see dots that said he runs them no it was Matt Pokkok somebody runs
+
+00:37:22.920 --> 00:37:30.720
+ them like in a watcher they run TSC in a watcher and you said you don't like that I
+
+00:37:30.720 --> 00:37:35.260
+ think but my question to you was I mean that's that's fine but that doesn't guarantee that
+
+00:37:35.260 --> 00:37:41.200
+ I even noticed the watcher like I see I said I want to know when I push I'm good that's
+
+00:37:41.200 --> 00:37:46.360
+ my thought was also just like if you have a big complex code base TSC is not exactly
+
+00:37:46.360 --> 00:37:52.480
+ instant but if it could be instant what TSC watcher is gonna be faster than running it
+
+00:37:52.480 --> 00:37:57.640
+ full type check on oh it's just it does like a diff or something like it only well and
+
+00:37:57.640 --> 00:38:02.160
+ you can still do that with what I'm describing but okay I don't I don't know if there's
+
+00:38:02.160 --> 00:38:07.280
+ a speed difference between the two I just I just know that TSC watchers is gonna be like
+
+00:38:07.280 --> 00:38:11.440
+ I'm not gonna pay attention to it or it's easy to miss that makes sense I've officially
+
+00:38:11.440 --> 00:38:15.960
+ waited into waters I am not smart enough to understand we ended up just talking about
+
+00:38:15.960 --> 00:38:22.480
+ the thing we were being in front of actually don't care about any of that I don't even
+
+00:38:22.480 --> 00:38:27.840
+ run type checking I don't care I just put stuff and sometimes it we actually don't even have
+
+00:38:27.840 --> 00:38:32.480
+ it turned on and it's our code base sometimes things work when I push sometimes they don't
+
+00:38:32.480 --> 00:38:37.800
+ and we do we also haven't turned it on and the ion code base either but we need to but
+
+00:38:37.800 --> 00:38:45.040
+ yeah it's just like I posted a picture of the SR-71 blackbird being like people built
+
+00:38:45.040 --> 00:38:49.300
+ this was a fucking roller it's all that is that true like they actually had like hand
+
+00:38:49.300 --> 00:38:54.640
+ tool that they that's crazy yeah the hand can operate a calculator wait a minute we're
+
+00:38:54.640 --> 00:39:01.720
+ like modern commercial aircraft built that way no that was the last like big effort that
+
+00:39:01.720 --> 00:39:05.280
+ was ever built okay okay slide rule I think because I got a couple flights coming up
+
+00:39:05.280 --> 00:39:12.760
+ and I don't want to be thinking about that slide rule nonsense I mean it works I guess
+
+00:39:12.760 --> 00:39:18.240
+ yeah it's true sometimes I stare especially in New York sometimes I would like just stand
+
+00:39:18.240 --> 00:39:23.000
+ and stare at buildings being like how the hell is that door like in the exact center of the
+
+00:39:23.000 --> 00:39:27.880
+ building like how did they do that it's such a large building a large door on like on even
+
+00:39:27.880 --> 00:39:32.800
+ ground like every part of the building is like perfectly symmetrical it's impossible
+
+00:39:32.800 --> 00:39:38.120
+ yeah I mean the pyramids right yeah okay I just I just said that because I've heard like
+
+00:39:38.120 --> 00:39:41.240
+ the pyramids are amazing are they really that amazing they look kind of shitty to me if I'm
+
+00:39:41.240 --> 00:39:46.600
+ being honest like I mean they don't look like perfectly straight edges like what why do we
+
+00:39:46.600 --> 00:39:50.520
+ just like we praise the people who built the pyramids I think a skyscraper is a little
+
+00:39:50.520 --> 00:39:54.220
+ more impressive personally people are like I can't even imagine we could build the pyramids
+
+00:39:54.220 --> 00:40:00.000
+ now the picture with a long time ago yeah but like I'm just saying it's not okay they're
+
+00:40:00.000 --> 00:40:04.520
+ impressive because they're large and they were built a long time ago we are ancestors
+
+00:40:04.520 --> 00:40:09.560
+ were dumb dums they can't build big things only little things is that is out is out is
+
+00:40:09.560 --> 00:40:17.040
+ well hang on this is a complex topic because well Stonehenge is funny cuz it's just a that
+
+00:40:17.040 --> 00:40:21.040
+ is also just not impressive it's not very impressive don't we just yeah it's not impressive but
+
+00:40:21.040 --> 00:40:25.160
+ don't we like not know why it's like that like clearly somebody did it but we're like
+
+00:40:25.160 --> 00:40:29.800
+ who and why yeah there's theories yeah let's go back to the pyramids I want you to explain
+
+00:40:29.800 --> 00:40:33.160
+ to me why the pyramids are impressive well the pyramids is just it's a lot of these things
+
+00:40:33.160 --> 00:40:40.080
+ are funny cuz it's like how do they do that well you know through slavery how do they achieve
+
+00:40:40.080 --> 00:40:47.020
+ this crazy thing that by forcing lots of people to do it yeah and you know is ground people
+
+00:40:47.020 --> 00:40:51.440
+ but there's like there's like actually some impressive engineering stuff about the pyramids
+
+00:40:51.440 --> 00:40:54.840
+ I guess I'm sure there is like I mean people there's so many theories on how they think
+
+00:40:54.840 --> 00:40:59.720
+ they've lifted all the blocks up there's like some really wild theories involving like basically
+
+00:40:59.720 --> 00:41:03.800
+ like high hydraulics like when like water pushes things up like there's all those weird
+
+00:41:03.800 --> 00:41:08.160
+ theories but there's no like definitive answer I don't I don't think on this is the exact
+
+00:41:08.160 --> 00:41:12.160
+ process that was used and I think that's makes it interesting that does make it interesting
+
+00:41:12.160 --> 00:41:15.040
+ yeah it's interesting I should take back all the bad things I said about the pyramids
+
+00:41:15.040 --> 00:41:20.600
+ you're very impressive apologize to the ancient Egyptians right now I'm so sorry if you are
+
+00:41:20.600 --> 00:41:26.680
+ listening to this podcast I'm so sorry do you ever think about like when we're all dead
+
+00:41:26.680 --> 00:41:30.720
+ and gone and it's been how many years has been since previous were made like 3,000 years
+
+00:41:30.720 --> 00:41:36.760
+ 2000 what was it I don't know it's some thousands in the thousands right do you ever think about
+
+00:41:36.760 --> 00:41:40.800
+ like when it's been thousands of years and like some remnants of these skyscrapers and
+
+00:41:40.800 --> 00:41:44.960
+ stuff are left and people are like look at what they built that's so impressive and like
+
+00:41:44.960 --> 00:41:49.640
+ that is on the head they made these nice little towers they're like floating up in space driving
+
+00:41:49.640 --> 00:42:00.800
+ their flying cars and all that and they're like look at those towers how soon more you
+
+00:42:00.800 --> 00:42:05.560
+ want to get morbid do you ever think about like how many millions of years before there's
+
+00:42:05.560 --> 00:42:11.600
+ no trace of us literally on earth it's not that long it's kind of wild I heard this in
+
+00:42:11.600 --> 00:42:16.800
+ a book actually or maybe a podcast it's like 10 million years or something it's not a lot
+
+00:42:16.800 --> 00:42:22.120
+ somebody looked at a fact check me but it's like there'll be literally no trace of humanity
+
+00:42:22.120 --> 00:42:28.520
+ in that wild way but like if we die out yeah assuming like well I think you make the number
+
+00:42:28.520 --> 00:42:32.040
+ big enough and you can just kind of like I guess unless we start traveling to the planets
+
+00:42:32.040 --> 00:42:35.760
+ or something maybe that's the whole you own Mustang I don't know but I it was this book
+
+00:42:35.760 --> 00:42:40.640
+ that talked about well we'll be transformed to pure energy oh okay well I'm just ball
+
+00:42:40.640 --> 00:42:46.480
+ be Adams across the universe okay I don't know what that means but I believe I'm sure there's
+
+00:42:46.480 --> 00:42:52.280
+ an optimistic that's probably optimistic case right the thing I heard was like if we wanted
+
+00:42:52.280 --> 00:42:57.560
+ to determine if another intelligent species lived on this planet a hundred million years
+
+00:42:57.560 --> 00:43:04.400
+ ago a billion years ago could we actually do it and the conclusion was no like you go
+
+00:43:04.400 --> 00:43:11.040
+ far enough back is in the millions of years and literally there's no trace like the way
+
+00:43:11.040 --> 00:43:17.120
+ the sediment layers work and isotope half lives and all that stuff it's like literally do we
+
+00:43:17.120 --> 00:43:21.200
+ would have no idea there could have been another intelligent civilization living on earth far
+
+00:43:21.200 --> 00:43:25.840
+ enough back in time that we just can't even detect it and then it's like well you do the
+
+00:43:25.840 --> 00:43:32.480
+ same thing forward if we die out there will be no trace of us isn't that wild that is true
+
+00:43:32.480 --> 00:43:37.560
+ it's nuts yeah I mean it's crazy how nothing is permanent like you but we build these things
+
+00:43:37.560 --> 00:43:41.720
+ and they slowly erode just entropy always I think it is all the time with my house because
+
+00:43:41.720 --> 00:43:47.200
+ it's so old and I'm like there's so many forces working against it there's like physical forces
+
+00:43:47.200 --> 00:43:51.200
+ of like just deteriorating the house and there's like yeah economic forces that like also want
+
+00:43:51.200 --> 00:43:57.400
+ to get rid of it spiritual forces like the voodoo dolls that I just poke around about
+
+00:43:57.400 --> 00:44:04.240
+ your house this isn't a hundred percent related but there's a short story that if you haven't
+
+00:44:04.240 --> 00:44:11.600
+ read you should you should read called the last question it's an isogasm of thing and it like plays
+
+00:44:11.600 --> 00:44:18.040
+ forward like trillions of years of a little imagines like all these all these other trillion years
+
+00:44:18.040 --> 00:44:22.880
+ there have been a trillion years that's a good question what is a year is a spin around the earth
+
+00:44:22.880 --> 00:44:30.640
+ I'm talking very badly today I might be a a year no that this proves you're not because a year is a
+
+00:44:30.640 --> 00:44:37.560
+ spin around the earth is that what you said I said it's been around the earth rotation of the earth
+
+00:44:37.560 --> 00:44:51.280
+ oh yeah that's it that's it okay a year when we say a year we mean one trip around the Sun for
+
+00:44:51.280 --> 00:44:56.240
+ the planet earth what is a year in the universe there is no such thing time isn't like that
+
+00:44:56.240 --> 00:45:04.280
+ no time is a thing you can measure it but it's really different ways right it's like saying Fahrenheit
+
+00:45:04.280 --> 00:45:08.240
+ and Celsius you know we got two different ways of measuring the same concept kind of the same
+
+00:45:08.240 --> 00:45:12.920
+ thing okay so but when we say like no I'm so curious about this one night when people are like the
+
+00:45:12.920 --> 00:45:18.760
+ universe is 13 billion years old they're basing that off 13 billion earth trips around the Sun yeah
+
+00:45:18.760 --> 00:45:24.040
+ but it's not like the earth had to exist for all those all that time right okay there could still be
+
+00:45:24.040 --> 00:45:28.640
+ years even if we weren't floating around the Sun that makes sense but there hasn't been a trillion
+
+00:45:28.640 --> 00:45:33.000
+ years yet right so when you say like trillions years in the future no there hasn't it's it's in
+
+00:45:33.000 --> 00:45:38.920
+ the billions so like what is this book how does it explore trillions of years like what do we know
+
+00:45:38.920 --> 00:45:43.080
+ about what would happen in a trillion years I mean it's actually not about that concept that's kind
+
+00:45:43.080 --> 00:45:49.360
+ of the fact that trillions are passing is kind of a side thing to the main story but wow what is the
+
+00:45:49.360 --> 00:45:55.120
+ main story because that's quite a side thing it's about a computer that is just ingesting data to
+
+00:45:55.120 --> 00:46:00.540
+ answer the last question and just ingesting data over time and it plays forward millions of your
+
+00:46:00.540 --> 00:46:05.000
+ trillions years and now I got it now I got to know what the last question is can you just tell me
+
+00:46:05.000 --> 00:46:09.080
+ no I'm gonna tell you yeah I have to like read the book or something okay or just listen to it
+
+00:46:09.080 --> 00:46:13.480
+ listen to it on like just search the last question on YouTube and someone will have narrated it
+
+00:46:13.480 --> 00:46:20.600
+ I don't know if you could audible it's a short story little little sketch ripping it off YouTube
+
+00:46:20.600 --> 00:46:28.080
+ huh it's a short story short story fine I'll look it up on YouTube what was last question I listen to
+
+00:46:28.080 --> 00:46:34.080
+ it I want to my drives to Miami yeah okay you need to listen to if I told you about Project
+
+00:46:34.080 --> 00:46:39.000
+ Hail Mary have I told the podcast about Project Hail Mary because yes we talked about it and I
+
+00:46:39.000 --> 00:46:43.800
+ need to wait like this is really pissing me that I haven't read it yeah you have to read it and listen
+
+00:46:43.800 --> 00:46:48.920
+ to it on audible don't read it she listened to it right yeah yeah okay yeah I feel like it has to
+
+00:46:48.920 --> 00:46:54.640
+ be better on audible than it would be reading it just like yeah I know yeah yeah okay so if you're
+
+00:46:54.640 --> 00:46:59.960
+ listening to this podcast right now please stop and download Project Hail Mary it's on audible because
+
+00:46:59.960 --> 00:47:04.600
+ it's an actual book you won't find it on YouTube if it's on YouTube it'll probably get taken down
+
+00:47:04.600 --> 00:47:10.120
+ because that's how books work you have to get like the author has to get money somehow so you don't
+
+00:47:10.120 --> 00:47:15.560
+ listen to books on YouTube commentary to to Dax's I'm really struggling with English today like
+
+00:47:15.560 --> 00:47:21.400
+ just like every word it feels so labored I've not been talking much I feel like I've been in a
+
+00:47:21.400 --> 00:47:29.560
+ hole in my office for a week and I haven't been practicing English or communicating I also really
+
+00:47:29.560 --> 00:47:37.240
+ have to pee are you just letting me squirm right now so I refresh my memory on this last question
+
+00:47:37.240 --> 00:47:42.680
+ short story exactly what it was so I can tell you what the question is that's not oh okay yes the
+
+00:47:42.680 --> 00:47:46.840
+ the premise of the short story is they build a computer and the purpose of the computers to
+
+00:47:46.840 --> 00:47:51.960
+ answer the question how do we stop and reverse entropy oh and they keep revisiting the computer
+
+00:47:51.960 --> 00:47:58.520
+ every million billion billion years and asking at the question how do we do it and at the end it
+
+00:47:58.520 --> 00:48:05.080
+ finally tells you basically oh I want to listen to it now how many hours we talking not that I mean
+
+00:48:05.080 --> 00:48:10.360
+ probably one or two oh really maybe less than you weren't kidding on the short story no it's only
+
+00:48:10.360 --> 00:48:18.920
+ 28 minutes 28 minutes yeah wow do you listen to those like 36 hour books unaudible I've got a few
+
+00:48:18.920 --> 00:48:23.480
+ of those biographies is that a lot or a little I'd like no like 12 hours is normal I think right
+
+00:48:24.360 --> 00:48:30.040
+ I mean a lot of books are five to ten I mean not really and then if you listen at two times speed
+
+00:48:30.040 --> 00:48:37.160
+ it's half that everything's half that everything is half that yet like I'm struggling decks I feel
+
+00:48:37.160 --> 00:48:43.640
+ like did I have a stroke every like every yes everything every number divided by two is in fact
+
+00:48:43.640 --> 00:48:51.480
+ half of that number what is going on with me you discovered a new law of mathematics i don't know
+
+00:48:51.480 --> 00:48:58.120
+ what's going on uh it just feels like everything feels slow check your CO2 meter okay no kidding
+
+00:48:58.120 --> 00:49:06.200
+ 1400 it's actually pretty high yeah that's actually big that's funny that's funny if you listen at
+
+00:49:06.200 --> 00:49:12.040
+ two x speed though that's that's not very big i don't know i'm talking about i'm not a two extreme
+
+00:49:12.040 --> 00:49:17.800
+ person you're not a two x speed what are you what what do you listen at i'm a one x i mean i don't
+
+00:49:17.800 --> 00:49:23.080
+ listen to much what i don't listen to much but when i do it's a one x thing wait a minute
+
+00:49:23.080 --> 00:49:29.240
+ you don't you don't listen like do you go for walks i guess you like have to walk places
+
+00:49:29.240 --> 00:49:35.560
+ for purposes and usually i'm walking with Liz so do you never okay you never just go on like an
+
+00:49:35.560 --> 00:49:41.560
+ arbitrary walk just to get steps i do sometimes when i'm walking zuko but i mean i walk in my backyard
+
+00:49:41.560 --> 00:49:45.960
+ like when i'm playing with him especially with the whole yeah bubble thing as you saw but i'm
+
+00:49:45.960 --> 00:49:52.600
+ usually not alone and walking huh so i go on like several little 15-minute walks every day just
+
+00:49:52.600 --> 00:49:57.400
+ because i literally just have to move because the human race has gotten so convenient that we
+
+00:49:57.400 --> 00:50:03.560
+ don't have to move so we have to do it for arbitrary reasons uh so i always listen to books or podcasts
+
+00:50:03.560 --> 00:50:07.800
+ when i walk but if i didn't have that i guess if i didn't walk i wouldn't listen anything either
+
+00:50:07.800 --> 00:50:13.080
+ so for a while when i was doing my mowingward team with zuko i had uh an audiobook playing
+
+00:50:13.080 --> 00:50:17.240
+ i did definitely maybe two months and i haven't for a month now yeah i don't know i just like just
+
+00:50:17.240 --> 00:50:21.320
+ have it never sticks for me i never like really listen to stuff maybe you need to you just need
+
+00:50:21.320 --> 00:50:25.720
+ to start listening to project hillmary you need something so riveting that you can't like i go for
+
+00:50:25.720 --> 00:50:30.280
+ more walks like that yeah when i get into a book like really into it i just go for more walks which
+
+00:50:30.280 --> 00:50:36.600
+ is good i need to move more anyway so i'm gonna listen to project hillmary at two time or you're
+
+00:50:36.600 --> 00:50:41.400
+ gonna listen to project hillmary and i'm gonna listen to have one x at one x and i'm gonna have fun with
+
+00:50:41.400 --> 00:50:47.160
+ that i'm gonna listen to your recommendation at point three x i don't know i gotta make it
+
+00:50:47.160 --> 00:50:53.400
+ last longer than 20 minutes yeah otherwise you might be left alone with your thoughts oh okay
+
+00:50:53.400 --> 00:50:58.920
+ actually it's funny you said that this morning i did my first not my first ever but like in a long
+
+00:50:58.920 --> 00:51:06.200
+ time uh meditation meditation practice yeah i'm trying casey's making me uh because there's some
+
+00:51:06.200 --> 00:51:12.520
+ alarming things about my brain well you've seen today on this podcast so uh she's making me just like
+
+00:51:12.520 --> 00:51:18.200
+ sit and the the instruction is i've set a five-minute timer i do this every morning now today was day
+
+00:51:18.200 --> 00:51:24.840
+ one uh i have to just sit and observe my thoughts like watch them go by like cars on the road it's
+
+00:51:24.840 --> 00:51:30.600
+ like the stereotypical meditation thing like for beginners and i'm a beginner it's very hard
+
+00:51:30.600 --> 00:51:36.120
+ and my brain does not want to sit still did yours i don't know if you know this but jay is like has
+
+00:51:36.120 --> 00:51:41.000
+ had a very consistent i thought of ancient practice and it's like hat made some pretty big
+
+00:51:41.000 --> 00:51:45.640
+ profound changes in his life i want that yeah could you just talk about some of the changes
+
+00:51:45.640 --> 00:51:52.280
+ mmm no okay that's fair we'll have you on the podcast and maybe he can he can tell you
+
+00:51:52.280 --> 00:51:57.560
+ oh yeah that's that's pretty personal yeah yeah but i i like i think i know what i i was asking not
+
+00:51:57.560 --> 00:52:03.960
+ because i want to know jay's whatever it asking because i want to know like what to expect what
+
+00:52:03.960 --> 00:52:09.000
+ can i expect to improve in my life with meditation could you tell me some generic things that generally
+
+00:52:09.000 --> 00:52:13.320
+ people improve it's it's really i think yeah i just can't articulate it because i haven't yeah it's
+
+00:52:13.320 --> 00:52:24.280
+ not a me thing but i will say that uh back when i used to do a lot more hallucinogens i also was
+
+00:52:24.920 --> 00:52:33.240
+ doing meditative stuff a lot where i would just let my mind just run on its own and honestly i found
+
+00:52:33.240 --> 00:52:37.320
+ this like infinitely entertaining and when i remember when i remember this every now and then
+
+00:52:37.320 --> 00:52:41.880
+ when i'm bored i'll do it again and i find it like really really fun like for me when i just like
+
+00:52:41.880 --> 00:52:48.600
+ release control like i started seeing all this like crazy interesting stuff and it's all wild to
+
+00:52:48.600 --> 00:52:53.240
+ me how like my brain just jumped from one thing to another so yeah it's weird because i don't find
+
+00:52:53.240 --> 00:52:59.880
+ meditating boring really i just find it i like i think it's like really fun i don't know how to
+
+00:52:59.880 --> 00:53:06.520
+ put it i yeah i didn't it's not like this morning in my experience of meditating of one day i thought
+
+00:53:06.520 --> 00:53:12.040
+ that i found it boring it's just really hard it's really hard to not run with every release control
+
+00:53:12.040 --> 00:53:16.200
+ yeah to like literally just do the thing you're supposed to do when you meditate it feels like my
+
+00:53:16.200 --> 00:53:22.600
+ brain it's it's a learned skill and it has not done it yeah for sure i gotta learn it and i want to i
+
+00:53:22.600 --> 00:53:28.200
+ think there are some things that i need to improve in my brain and my and there is a big that people
+
+00:53:28.200 --> 00:53:33.720
+ link meditation and husgens a lot together they like kind of can put you in the same mental state
+
+00:53:33.720 --> 00:53:38.520
+ right that's what i've heard that like uh like hallucinogens are the cheap
+
+00:53:38.520 --> 00:53:43.080
+ and easy way to get into states that through years and years of practice with meditation you can
+
+00:53:43.080 --> 00:53:49.000
+ eventually get to is that kind of what you've gathered yeah i've heard that too and i i can kind
+
+00:53:49.000 --> 00:53:56.680
+ of see the link uh because i definitely wasn't able to much more release in that way yeah when i was
+
+00:53:56.680 --> 00:54:01.720
+ when i was doing that stuff more um the visual i always got was it felt like i was in the ocean
+
+00:54:01.720 --> 00:54:07.800
+ that like the waves were just like all the bombing around that's deep ocean with the waves and that's
+
+00:54:07.800 --> 00:54:12.280
+ what it felt like my brain was doing for me this morning and my one experience it felt kind of like
+
+00:54:12.280 --> 00:54:20.840
+ being in the middle of stone hinge and wondering what the hell are lots of rocks doing in my head
+
+00:54:20.840 --> 00:54:28.040
+ i can't wait till i have really deep profound things to say after my years of meditation i'm
+
+00:54:28.040 --> 00:54:32.040
+ going to become dax basically i'm going to like get on twitter and like wow people with my wisdom
+
+00:54:32.040 --> 00:54:37.880
+ because i meditate that's the goal it's really the only goal you could do that now if you just
+
+00:54:37.880 --> 00:54:42.360
+ limit yourself to like five words and just randomly pick five words that kind of sound like it makes
+
+00:54:42.360 --> 00:54:46.440
+ sense together and post it and you'll probably get like 80 percent the way they're i'm gonna do
+
+00:54:46.440 --> 00:54:50.440
+ that actually right after we get off i'm gonna write i'm gonna do exactly five words i'm gonna
+
+00:54:50.440 --> 00:54:54.040
+ tweet something that's five words and they will be random words i don't know about random but they
+
+00:54:54.040 --> 00:54:58.920
+ won't make sense and we'll see what that we'll see what happens if you hear this find the tweet
+
+00:54:58.920 --> 00:55:03.720
+ like it boost it thank you it's funny we're talking about stone hinge so much and the stone hinge was
+
+00:55:03.720 --> 00:55:10.200
+ recently vandalized i saw that i did see that what are your feelings on that i really hate
+
+00:55:10.200 --> 00:55:15.880
+ stuff like this because that's exactly why i hate it it's like one of my core things that i just
+
+00:55:15.880 --> 00:55:21.480
+ that really bother me so again it's one of the situations where there are so-called climate
+
+00:55:21.480 --> 00:55:27.880
+ activists that do these crazy things uh to get attention for that or like it's like a way to like
+
+00:55:27.880 --> 00:55:36.280
+ you know in their view i think it's to like find places to strike that are painful uh yeah to you
+
+00:55:36.280 --> 00:55:41.160
+ know it's like trying to get leverage in that way yep what i hate about this kind of thing is
+
+00:55:41.160 --> 00:55:51.160
+ this type of thing tends to be done by people that have no personal risk of their cause not working
+
+00:55:51.160 --> 00:55:57.000
+ out and you can see it because they don't consider backlash at all if you were truly someone that
+
+00:55:57.000 --> 00:56:01.560
+ is like dedicated their life to solving your climate problems you don't want stuff like that
+
+00:56:01.560 --> 00:56:05.640
+ because you know it creates backlash and you know it creates it just makes it harder for you to do
+
+00:56:05.640 --> 00:56:10.280
+ your actual job of like convincing people to care about things in a genuine way and to you know do
+
+00:56:10.280 --> 00:56:15.400
+ whatever you need to do i think so much in life is like this there's just people that are unaffected
+
+00:56:15.400 --> 00:56:20.360
+ by the problems they're trying to solve and they do things that create backlash for the people
+
+00:56:20.360 --> 00:56:27.160
+ they're supposedly trying to help um but yeah i just i just hate all that yeah how how do they get
+
+00:56:27.160 --> 00:56:33.160
+ to that i mean i guess like how does one become insulated from the ramifications of just like
+
+00:56:33.160 --> 00:56:37.320
+ doing stupid stuff most people are rich for one like if you look at all if you look up all these
+
+00:56:37.320 --> 00:56:42.360
+ people they're just like children of wealthy people that have this so that's where they're not having
+
+00:56:42.360 --> 00:56:49.160
+ root guilt ramifications okay like if they if they weren't made of money then they'd be worried about
+
+00:56:49.160 --> 00:56:54.600
+ losing a job or they'd be worried about yeah other just normal pressures interesting the
+
+00:56:54.600 --> 00:57:00.440
+ the climate one's interesting because it's obviously so big that it's hard to imagine like an individual
+
+00:57:00.440 --> 00:57:04.920
+ that's more affected by it so i kind of categorize it more as people that are like trying to do actual
+
+00:57:04.920 --> 00:57:10.440
+ work to improve the stuff versus people that are just like role-playing and this weird thing that
+
+00:57:10.440 --> 00:57:14.920
+ they're trying to do yeah i gotcha yeah if you're someone that like is trying to get a certain
+
+00:57:14.920 --> 00:57:20.360
+ policy passed and then these climate activists are pissing off millions of people that does not
+
+00:57:20.360 --> 00:57:25.720
+ help you no right you're upset yeah yeah but yeah i mean it's become a trend like there's
+
+00:57:25.720 --> 00:57:32.440
+ though shit on the on paintings and stuff yes i saw the painting i saw the painting the uh stone
+
+00:57:32.440 --> 00:57:37.080
+ hinge things it made me sad a little bit like i didn't i didn't actually see in the initial
+
+00:57:37.080 --> 00:57:42.280
+ articles like does it come off can they get that off i don't know no i i think pretty much every
+
+00:57:42.280 --> 00:57:48.360
+ situation they've been able to undo the damage as far as to undo okay i see but because that's
+
+00:57:48.360 --> 00:57:54.760
+ artisanal handmade stone yeah it's gonna be nice back to our original thing like it yeah it's rare
+
+00:57:54.760 --> 00:58:00.840
+ what's the purpose of our species continuing to exist if like we're gonna destroy right these
+
+00:58:00.840 --> 00:58:06.760
+ things yeah seems bad don't be like that if you're a listener of the podcast and you're considering
+
+00:58:06.760 --> 00:58:13.640
+ vandalizing precious humanity no maybe just don't i doubt any of our listeners would do that we got
+
+00:58:13.640 --> 00:58:18.360
+ really good listeners i hear they're really nice i like them i don't know what am i talking about
+
+00:58:18.360 --> 00:58:22.680
+ we should get off here i my brain i should not be talking right now i don't know what's going on
+
+00:58:22.680 --> 00:58:28.760
+ you should go get some oxygen i think yeah i'm gonna open the window it's at me what it seems like
+
+00:58:28.760 --> 00:58:33.720
+ is this meditation has had a reverse effect on you meditation it's meditations fault it's the
+
+00:58:33.720 --> 00:58:38.840
+ first day i'm meditated and my brain is like mashed potatoes oh my word it's like it's like you
+
+00:58:38.840 --> 00:58:43.960
+ have a fixed number of thoughts you can have and then use you just use them all in the morning
+
+00:58:43.960 --> 00:58:52.760
+ remember when i said that uh one uh one year is when the earth one spin earth
+
+00:58:53.400 --> 00:59:03.000
+ what if i can't oh man i know there's one spin of the earth i'm gonna one spin that's what i said
+
+00:59:03.000 --> 00:59:08.280
+ i'm gonna uh i'm gonna submit this episode to kc as evidence that maybe meditation not for me
+
+00:59:08.280 --> 00:59:11.960
+ just possibly were you breathing during it like maybe you were focused so hard on meditation
+
+00:59:11.960 --> 00:59:18.280
+ that you just you know i said five minutes not breathing back you're talking to me but dad this
+
+00:59:18.280 --> 00:59:25.400
+ is AI i had to get AI to replace me a real boy uh this was episode 99 by the way really nice
+
+00:59:25.400 --> 00:59:31.080
+ yeah wow this next episode it was like a chill 100 no big deal not like i've been anticipating it for
+
+00:59:31.080 --> 00:59:37.960
+ year plus are we gonna do something special uh yeah i think so i'm not exactly sure so i'm gonna
+
+00:59:37.960 --> 00:59:43.000
+ not say anymore but i think so i don't want to make promises something really really really special
+
+00:59:43.000 --> 00:59:47.640
+ i promise it's gonna be a very special episode you don't want to miss it uh also if you're listening
+
+00:59:47.640 --> 00:59:53.560
+ this long uh i know some people do uh hey why don't you why don't you do stuff what do you what
+
+00:59:53.560 --> 00:59:59.000
+ subscribe what do we even ask for on a podcast subscribe it's not even a thing is it like if you
+
+00:59:59.000 --> 01:00:04.120
+ listen to this on spotify i don't know what's something i could ask you to do i'd like to ask
+
+01:00:04.120 --> 01:00:08.440
+ you to do something because i don't know we have that power you to go run out in the streets and
+
+01:00:08.440 --> 01:00:17.000
+ scream about tomorrow yes say my favorite podcast ever uh what what would they say dax you you tell
+
+01:00:17.000 --> 01:00:22.520
+ me because i'm my brain run up to someone and demand that they listen to tomorrow fm right now make
+
+01:00:22.520 --> 01:00:27.240
+ them pull out their phone and listen to an episode and show repeatedly punch them until they do well
+
+01:00:27.240 --> 01:00:31.480
+ maybe not the punching but yeah all the other stuff for sure oh but the rest of it's fine yeah the
+
+01:00:31.480 --> 01:00:36.520
+ rest of it was great oh uh leave a review that's the thing i can ask for please leave reviews on your
+
+01:00:36.520 --> 01:00:42.040
+ favorite actually no cancel that you can't even leave reviews i was checking out spotify like i'm
+
+01:00:42.040 --> 01:00:47.400
+ a podcast listener you can't really do anything to interact with a podcast this is a one way street
+
+01:00:47.400 --> 01:00:53.720
+ folks i'm sorry send us money send us money that'd be great mail apple podcast i think you can actually
+
+01:00:53.720 --> 01:00:57.880
+ leave reviews on apple podcast but does anyone use that i don't even know okay i'm done let's be
+
+01:00:57.880 --> 01:01:04.120
+ done okay all right yeah uh next time i see you it'll be episode 100 it's pretty exciting right if i
+
+01:01:04.120 --> 01:01:11.480
+ show up i'll show up i'm getting on a plane next week oh if you show up is that a threat okay
+
+01:01:12.520 --> 01:01:16.440
+ uh see definitely you're hanging it episode 100 you're waiting so long for it that would be so
+
+01:01:16.440 --> 01:01:20.840
+ sad this is such a good prank oh don't do it i'll just never talk to you again this
+
+01:01:20.840 --> 01:01:27.560
+ this is like uh the dax has an opportunity to do something really funny right now this is that
+
+01:01:27.560 --> 01:01:41.960
+ yeah exactly oh man i'll see you next time dax if i don't die on a plane okay see ya yeah
+
+01:01:42.040 --> 01:01:46.040
+ you
+

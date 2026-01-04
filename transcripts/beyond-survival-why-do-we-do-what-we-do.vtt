@@ -1,0 +1,2066 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.380
+ Linux no not Linux Linux am I right I just had it said differently for Josay, okay?
+
+00:00:30.560 --> 00:00:35.720
+ How do you how do you do things like that? How do you just be like hey creator of elixir come get on my on my twitch
+
+00:00:35.720 --> 00:00:41.960
+ Is that what you said? Yeah, basically. I actually wrote out the message while I was on stream. Um, wow
+
+00:00:41.960 --> 00:00:48.540
+ I guess yeah, I mean I just realized after it was so easy with him that it probably is with like literally anyone at this point
+
+00:00:48.540 --> 00:00:52.360
+ I mean, yeah, it's like people want to talk about their stuff
+
+00:00:52.360 --> 00:00:55.660
+ I mean, I know like when someone asked me to be on a podcast. I'm not like, I don't know
+
+00:00:55.660 --> 00:00:59.720
+ Is this a big podcast? I'm just like sure I'll talk about myself for an hour sounds fun
+
+00:01:00.760 --> 00:01:07.880
+ Yeah, what's crazy is the it ended up having a crazy impact on SSC because I didn't really put together
+
+00:01:07.880 --> 00:01:13.680
+ I mean, I I was generally aware of this but actually hearing him talk through every single thing. It was like
+
+00:01:13.680 --> 00:01:19.760
+ so apparent what an insane accomplishment that whole ecosystem is because I
+
+00:01:19.760 --> 00:01:25.400
+ Don't know there's anything comparable. That's gotten as big as quick or was as ambitious and
+
+00:01:25.400 --> 00:01:29.400
+ Has made its way into like literally every corner of the world
+
+00:01:30.000 --> 00:01:32.000
+ and also in some of the biggest
+
+00:01:32.000 --> 00:01:34.680
+ most intense like
+
+00:01:34.680 --> 00:01:40.360
+ Engineering efforts right like I don't know any of this you're gonna you're I think you think I have some context
+
+00:01:40.360 --> 00:01:42.960
+ But I don't know the story of Elixir at all. Oh, well
+
+00:01:42.960 --> 00:01:48.440
+ I mean just generally like one starting a new language is like insane like starting new language and getting people adopted is crazy
+
+00:01:48.440 --> 00:01:50.800
+ then building the
+
+00:01:50.800 --> 00:01:57.900
+ Core libraries around it then like the ecosystem and all the tooling is so it's a huge massive massive task into like
+
+00:01:58.680 --> 00:02:00.800
+ It's not something you can do progressively, right?
+
+00:02:00.800 --> 00:02:05.160
+ It's not like they can do a little bit get a little bit adoption do a little bit more get more adoption
+
+00:02:05.160 --> 00:02:09.560
+ It's like you kind of need all of it to get any so it's it's a much harder thing to do and
+
+00:02:09.560 --> 00:02:17.000
+ And you know like giant companies like discord use it to like run all their messaging and just like the most high-performance thing
+
+00:02:17.000 --> 00:02:19.000
+ So I didn't know that
+
+00:02:19.000 --> 00:02:24.080
+ Yeah, it's like it's like it's not this thing where I mean there's other comparable things that are there like
+
+00:02:24.080 --> 00:02:26.640
+ frameworks that are successful, but
+
+00:02:26.840 --> 00:02:28.720
+ it tends to be
+
+00:02:28.720 --> 00:02:33.360
+ For simpler things as opposed to like the most complex things and this like scales to both
+
+00:02:33.360 --> 00:02:39.960
+ So yeah, we we we end up talking a lot internally at SSC apps are worried about like what we can learn from their approach and
+
+00:02:39.960 --> 00:02:44.280
+ It's kind of like kind of shifted the way we think about I mean
+
+00:02:44.280 --> 00:02:47.480
+ It's like very practically shifted our roadmap a little bit
+
+00:02:47.480 --> 00:02:51.480
+ but then just more generally shifted the way we think about stuff because
+
+00:02:52.040 --> 00:02:56.640
+ Yeah, they pulled off like a moonshot for sure and again, it's it's just
+
+00:02:56.640 --> 00:03:01.400
+ It's obvious when I think about it, but it doesn't feel that way because you know just another language
+
+00:03:01.400 --> 00:03:08.040
+ But yeah, well what can you name like one other language that's come out in the past ten years that has gotten big without
+
+00:03:08.040 --> 00:03:11.200
+ like something like someone like Google behind it. It's a
+
+00:03:11.200 --> 00:03:19.840
+ Really uncommon for like a random person of a small team to pull that off. Yeah, I didn't really know any of that
+
+00:03:19.840 --> 00:03:26.080
+ I mean, I just seemed it'd been around. I don't know. I know it's it's story. Yeah, that was cool
+
+00:03:26.080 --> 00:03:31.800
+ I use a lickser by the way. I mean sometimes I mean we've seen how you use a look to
+
+00:03:31.800 --> 00:03:37.360
+ Alex use a little way where you're like I am never gonna write like certain my life again
+
+00:03:37.360 --> 00:03:40.480
+ so true
+
+00:03:40.480 --> 00:03:48.880
+ Yeah, it's not really an insult to your lecture skills. It's just just an observation my mentality coming in it's like this is
+
+00:03:48.880 --> 00:03:51.680
+ This is not a thing. I'm gonna do long term. Yeah
+
+00:03:51.680 --> 00:04:00.720
+ It's funny. I'm feeling much better next I realized the last time it was the last one we recorded where I was kind of unhinged
+
+00:04:00.720 --> 00:04:05.680
+ I think they just Chris just edited so I just got to listen to it
+
+00:04:05.680 --> 00:04:11.040
+ Uh, well, just the first bit. I didn't listen the whole thing. It's like an hour long. So there's that let's not do that today
+
+00:04:11.040 --> 00:04:14.640
+ That'd be great. Yeah. Well, what do you like adjust your?
+
+00:04:15.360 --> 00:04:22.000
+ The substances you're consuming the coffee everything. Yeah, no, it's so like just taking all the substances out of it
+
+00:04:22.000 --> 00:04:29.360
+ Like regardless of what I take all I have to do. It's a simple formula. Really. I'm such a tech tech valley. Whatever bro
+
+00:04:29.360 --> 00:04:36.080
+ That silicon valley whatever, you know what I mean? Like tech bro tech bro is the word I was looking for tech valley
+
+00:04:36.080 --> 00:04:40.880
+ Uh all I have to do is get in the sauna for about 20 minutes cold plunge
+
+00:04:40.880 --> 00:04:43.680
+ Do about 40 minutes of grounding
+
+00:04:44.000 --> 00:04:46.000
+ And what's the hell is grounding
+
+00:04:46.000 --> 00:04:52.560
+ I was waiting for it, uh, you know like touching the earth with your bear skin
+
+00:04:52.560 --> 00:04:59.440
+ Letting the the earth's what's the word polarity? No, uh chart electric charge. I don't know
+
+00:04:59.440 --> 00:05:05.040
+ It's got a negative charge and we down or something and this is like science. It's actually science
+
+00:05:05.040 --> 00:05:10.640
+ It's not like a pseudo science. What does this physically look like? Like you are just lying down just like standing in the grass bare feet
+
+00:05:10.880 --> 00:05:16.000
+ No, no, like I went for a walk in our meadow down below our house. This sounds like a fairy tale
+
+00:05:16.000 --> 00:05:18.640
+ Wow went for a walk in the meadow
+
+00:05:18.640 --> 00:05:25.200
+ Uh for like 40 minutes and wait with your bare feet. Yeah, yeah bare feet because your shoes are rubber. They're not conductive
+
+00:05:25.200 --> 00:05:28.640
+ So you ladies describing going outside? Uh, yes, but
+
+00:05:28.640 --> 00:05:30.720
+ Okay
+
+00:05:30.720 --> 00:05:32.560
+ I see what you just said
+
+00:05:32.560 --> 00:05:35.680
+ I go outside. Okay. Look at this tan. I go outside
+
+00:05:35.680 --> 00:05:40.480
+ But now I do it barefoot like a hobbit and I just walk around in the grass
+
+00:05:40.880 --> 00:05:43.200
+ It's really there's science. There's actually science behind it
+
+00:05:43.200 --> 00:05:44.720
+ It sounds so ludicrous
+
+00:05:44.720 --> 00:05:50.400
+ And especially when you combine this when you're like I do it the sauna. I do a cold plunge. I ground
+
+00:05:50.400 --> 00:05:52.320
+ You just kind of start sounding like a hippie
+
+00:05:52.320 --> 00:05:57.360
+ But I'm telling you my mental health never been better. So I've been doing the last few days. Nice exercising
+
+00:05:57.360 --> 00:06:00.480
+ All the things people say you should do and I'm always like whatever
+
+00:06:00.480 --> 00:06:04.480
+ I'm fine and then I go off the rails and like oh, I'm probably not fine. I should do all these things
+
+00:06:04.480 --> 00:06:07.520
+ There's very high maintenance. I'm very hot. You said that in the last one
+
+00:06:07.520 --> 00:06:10.800
+ I just heard you say that to me and now you're saying is this a thing you're trying to really nail home?
+
+00:06:10.800 --> 00:06:13.600
+ Did I say in the last one? I feel like the first time I was ever saying this to you
+
+00:06:13.600 --> 00:06:16.800
+ I just heard you say your eye maintenance. I'm pretty sure
+
+00:06:16.800 --> 00:06:22.160
+ Maybe it was my dreams last night. Maybe it wasn't the podcast. I don't know. I mean whatever works for you
+
+00:06:22.160 --> 00:06:25.680
+ Is good. I know you don't mean that. What do you what do you mean?
+
+00:06:25.680 --> 00:06:29.360
+ I do mean you got a smirk on your face when you said whatever works for you
+
+00:06:29.360 --> 00:06:34.320
+ I'm high maintenance. Okay, you should try it next. No, it's just things. Look, I don't
+
+00:06:35.520 --> 00:06:37.520
+ It's just funny because
+
+00:06:37.520 --> 00:06:44.480
+ People are gonna hear the I need to go in a sauna every day
+
+00:06:44.480 --> 00:06:48.080
+ The one that I have in my house like
+
+00:06:48.080 --> 00:06:50.960
+ To keep maintain my mental health
+
+00:06:50.960 --> 00:06:55.520
+ Uh, I just know how that's gonna be spun and I'm just excited to see that. It's gonna be spun
+
+00:06:55.520 --> 00:07:00.480
+ Listen, I have a sauna. I have a sauna. It's true. All I need not to go crazy is to have a sauna
+
+00:07:02.240 --> 00:07:08.720
+ I I mean, honestly, I think uh, I don't know how people who don't have the means to do some of the things I can do
+
+00:07:08.720 --> 00:07:14.080
+ How they survive in this digital age. I just my brain would be I would just be struggling
+
+00:07:14.080 --> 00:07:17.040
+ Or maybe just like if I were worried about survival, I wouldn't be struggling
+
+00:07:17.040 --> 00:07:18.240
+ Huh
+
+00:07:18.240 --> 00:07:21.120
+ Maybe that's my problem is I don't have to think about survival anymore
+
+00:07:21.120 --> 00:07:25.840
+ And what do we do when we don't have to think about survival? That's a big big question
+
+00:07:25.840 --> 00:07:29.760
+ big philosophical question a common reaction that
+
+00:07:30.480 --> 00:07:35.520
+ Was years from me all the time whenever I hear certain things is uh, the world's gotten too easy
+
+00:07:35.520 --> 00:07:38.480
+ Yeah, because sometimes I'm just like people
+
+00:07:38.480 --> 00:07:41.920
+ Get so upset by certain things where I'm like
+
+00:07:41.920 --> 00:07:48.720
+ If your life was a little bit harder, I probably might it might be better because you wouldn't be obsessing over xyz things
+
+00:07:48.720 --> 00:07:55.440
+ I think it's true actually. I think there's a curve. It's like you don't want to be like really fighting for survival
+
+00:07:55.520 --> 00:08:01.360
+ That's obviously really hard, but then you get to like a sweet spot and then if it gets too much easier
+
+00:08:01.360 --> 00:08:05.120
+ You have new problems. It's like board problems or just like
+
+00:08:05.120 --> 00:08:13.920
+ Problems of it's a mental thing. It's I think this is probably documented somewhere someone in a health journal or whatever is probably
+
+00:08:13.920 --> 00:08:21.760
+ Documented the effect of not having not having to actually like fight for anything and just like sort of having it pretty easy
+
+00:08:22.000 --> 00:08:25.520
+ I fight for things every day, man. I don't know what you're talking about. I know you do
+
+00:08:25.520 --> 00:08:28.400
+ I know you do for the the truth of serverless
+
+00:08:28.400 --> 00:08:32.240
+ Is that yeah? What what drives you dax because like you you're not worried about survival
+
+00:08:32.240 --> 00:08:35.920
+ What what gets you out of bed every day to be completely honest? I just really love money
+
+00:08:35.920 --> 00:08:39.760
+ Okay, that's fair. That that really is just a I want more and more
+
+00:08:39.760 --> 00:08:42.000
+ part of it
+
+00:08:42.000 --> 00:08:43.360
+ and
+
+00:08:43.360 --> 00:08:46.160
+ That that provides the fights and
+
+00:08:46.160 --> 00:08:48.960
+ Yeah, like the motivation and the energy
+
+00:08:49.520 --> 00:08:55.120
+ So 20 years from now dax has accumulated like let's call it tens of millions
+
+00:08:55.120 --> 00:09:00.640
+ What are you doing with your money? I'm just curious what you want to like do you have like do you want to own part of a sports team?
+
+00:09:00.640 --> 00:09:04.080
+ Like what are your like rich person goals? Like everybody has something that they want
+
+00:09:04.080 --> 00:09:08.400
+ What do you want someday? I think the problem is people like me
+
+00:09:08.400 --> 00:09:11.680
+ Typically don't have a crazy answer to that
+
+00:09:11.680 --> 00:09:18.160
+ I uh, I mean you want the money. It's not that you want a thing. You want the money itself
+
+00:09:18.400 --> 00:09:20.400
+ I just like the
+
+00:09:20.400 --> 00:09:22.800
+ Security and
+
+00:09:22.800 --> 00:09:26.640
+ The optionality that having more more money brings
+
+00:09:26.640 --> 00:09:31.760
+ As opposed to like I want this very specific thing. I mean there's there's general stuff, right? Like I
+
+00:09:31.760 --> 00:09:37.600
+ Uh, we saw those before like I love my neighborhood. I want to one day build a house here
+
+00:09:37.600 --> 00:09:42.000
+ Um, let's give a very tangible thing. That's not like crazy out of reach. That's just like
+
+00:09:42.000 --> 00:09:46.400
+ I don't know just like not not have my life is set up right now to do that
+
+00:09:46.880 --> 00:09:49.440
+ That'll probably happen the most of the things I like
+
+00:09:49.440 --> 00:09:55.920
+ Tangibly want or nothing crazy. Like I'm not sitting here like wanting a yacht. Sure most of the stuff I want is like
+
+00:09:55.920 --> 00:10:02.240
+ You know like one level up like nothing too crazy. I probably will get it at some point in my life like nothing insane
+
+00:10:02.240 --> 00:10:06.480
+ Anything beyond that like I don't really feel the urge to like own
+
+00:10:06.480 --> 00:10:10.720
+ Like a sports team or like anything insane like that. But yeah
+
+00:10:11.120 --> 00:10:17.200
+ I guess it's less about the money and more about just like being able to like do bigger and bigger things with with my work
+
+00:10:17.200 --> 00:10:20.400
+ Uh, there's like a range of things I can do now because I need to balance
+
+00:10:20.400 --> 00:10:23.760
+ Some chance of success of me practically being able to do it
+
+00:10:23.760 --> 00:10:26.080
+ With it being ambitious
+
+00:10:26.080 --> 00:10:28.640
+ And at some point I don't have to worry so much about the
+
+00:10:28.640 --> 00:10:33.200
+ This needs to be successful because if it's not like no like that impacts my life or career
+
+00:10:33.200 --> 00:10:35.760
+ Um, so I'm just excited about
+
+00:10:35.760 --> 00:10:38.960
+ having enough wealth to then like do
+
+00:10:40.720 --> 00:10:46.160
+ Things that I thought like what kind of outer reach if that makes sense. Okay, like
+
+00:10:46.160 --> 00:10:48.960
+ Making a game with me
+
+00:10:48.960 --> 00:10:51.520
+ Great transition
+
+00:10:51.520 --> 00:10:56.160
+ Okay, wait, I want I want to set I want to set uh, well, yes that it's funny because
+
+00:10:56.160 --> 00:11:00.400
+ Almost literally yes that because I've thought about this very very clearly
+
+00:11:00.400 --> 00:11:01.520
+ Um
+
+00:11:01.520 --> 00:11:03.840
+ Adam messaged me yesterday and he goes
+
+00:11:03.840 --> 00:11:08.400
+ He was asking about something about rust and I was like what is this for and he's like, I don't want to tell you
+
+00:11:08.960 --> 00:11:10.480
+ Like why not?
+
+00:11:10.480 --> 00:11:14.640
+ Like I'm going to make fun of you because like you're going to make fun of me for like another project that i'm starting
+
+00:11:14.640 --> 00:11:17.200
+ And I just kept saying
+
+00:11:17.200 --> 00:11:19.760
+ Tell me at some point adam says
+
+00:11:19.760 --> 00:11:25.840
+ Okay, but you have to promise how to make fun of me. I replied to that saying tell me I didn't say
+
+00:11:25.840 --> 00:11:29.840
+ Yes, I would or like no, okay. Okay, promise will make fun of you
+
+00:11:29.840 --> 00:11:32.800
+ I just said tell me and then you assumed that was me agreeing
+
+00:11:32.800 --> 00:11:37.280
+ And then you told me the project, but yeah, you can you can share you can share your thoughts now
+
+00:11:37.520 --> 00:11:40.400
+ Yeah, so it's not a project. I'm starting right now. I want to be very clear
+
+00:11:40.400 --> 00:11:45.440
+ This is like it really is kind of like if I ever retired. This is the kind of thing I want to do
+
+00:11:45.440 --> 00:11:48.800
+ Uh, so it's kind of a thing. I've always had in the back of my mind
+
+00:11:48.800 --> 00:11:53.280
+ But it's just never like you said it's just like a thing that I would pour so much time into and there's no
+
+00:11:53.280 --> 00:11:57.520
+ Like guarantee that would ever see the light of day or have any success
+
+00:11:57.520 --> 00:12:01.280
+ So it's hard to like in the middle of your prime so to speak
+
+00:12:01.840 --> 00:12:07.760
+ Spend your time on something like that, but I've always wanted to make a game and specifically saw as a kid
+
+00:12:07.760 --> 00:12:10.880
+ My brother and I would play a game called earthbound
+
+00:12:10.880 --> 00:12:14.400
+ And it was this game that was made in japan. Oh, you know, you're you're nodding
+
+00:12:14.400 --> 00:12:15.760
+ It's kind of obscure
+
+00:12:15.760 --> 00:12:18.240
+ But like you seem like you would know things like what earthbound?
+
+00:12:18.240 --> 00:12:23.600
+ I only know because of you because you've referenced it a bunch. I looked it up. Okay, so uh, it was this game in japan
+
+00:12:23.600 --> 00:12:25.600
+ It's sort of like uh
+
+00:12:25.600 --> 00:12:30.000
+ Made by people from japan about america like the game is set in america
+
+00:12:30.080 --> 00:12:33.760
+ And it's sort of like a caricature of america like almost like overly
+
+00:12:33.760 --> 00:12:36.880
+ Stereotype to be funny
+
+00:12:36.880 --> 00:12:43.760
+ Uh, it's just it's really it's just a fun game. It's like a top-down 2d pixel art kind of game eight bit
+
+00:12:43.760 --> 00:12:47.040
+ Uh, but it it was like it has this cult following right?
+
+00:12:47.040 --> 00:12:50.960
+ It's just like you just kind of fell in love with the characters and the story and the whatever
+
+00:12:50.960 --> 00:12:53.680
+ I'm that guy like I like to play the game for the story
+
+00:12:53.680 --> 00:12:59.840
+ Uh, but it's very retro. Anyway, I've always wanted to make a game with that style where you can just like dump so much
+
+00:13:00.080 --> 00:13:03.280
+ Stuff into it in terms of like yeah pop culture references
+
+00:13:03.280 --> 00:13:06.320
+ They do that a lot and so like obviously I would make it
+
+00:13:06.320 --> 00:13:11.760
+ Thematically like the character is a software developer because that's the world I know and it's sort of like
+
+00:13:11.760 --> 00:13:16.560
+ Everything is themed around that. Uh, but then I also wanted to be like
+
+00:13:16.560 --> 00:13:23.600
+ Massively online where you've got people from all over playing together and and you mentioned something that I've thought about so much
+
+00:13:23.600 --> 00:13:28.160
+ Which is like being able to have your own little spot on the map and like it's such a vast
+
+00:13:28.480 --> 00:13:34.880
+ Well, you know map that you can everyone can kind of like own parts of it and and build a house or whatever
+
+00:13:34.880 --> 00:13:38.880
+ Uh, it's so nerdy to say it out loud now typing it felt so much better
+
+00:13:38.880 --> 00:13:44.560
+ No, no, it's not. Okay, so let me tell you something that you don't know, uh, so
+
+00:13:44.560 --> 00:13:52.560
+ That that second half away just described. Um, so years ago, so this is a concept that I've wanted forever where
+
+00:13:52.560 --> 00:13:58.000
+ Uh, and this comes from like my days building stuff in the Minecraft space
+
+00:13:58.000 --> 00:14:00.160
+ I was like it was kind of like a natural progression of this
+
+00:14:00.160 --> 00:14:02.240
+ To me and my friend tried to build this thing
+
+00:14:02.240 --> 00:14:06.640
+ It actually it didn't work out mostly because I just couldn't get my life together enough to focus on it
+
+00:14:06.640 --> 00:14:12.880
+ So he was fairly decent at like 3d 3d stuff. Yeah, so he like designed like a really beautiful
+
+00:14:12.880 --> 00:14:16.400
+ Like world with mountains and rivers and lakes
+
+00:14:16.400 --> 00:14:22.160
+ Uh, and the idea is it's a fixed single thing. We're gonna cut it up into plots
+
+00:14:22.160 --> 00:14:26.240
+ And you can go online and like purchase a plot and it's yours forever
+
+00:14:26.400 --> 00:14:33.600
+ Um, and we had all these ideas around like adding more assets and things to the games that were all limited in scope
+
+00:14:33.600 --> 00:14:38.400
+ Like we might like put, you know, uh, like I started to have a car in the game
+
+00:14:38.400 --> 00:14:42.160
+ But there's only like three of it and we didn't we didn't figure out like how you would claim it
+
+00:14:42.160 --> 00:14:46.640
+ Like there might be like different events things people would win them and from then on only three people ever have it
+
+00:14:46.640 --> 00:14:48.720
+ It can you know people can exchange it and it can trade
+
+00:14:48.720 --> 00:14:51.920
+ Um, we're gonna move around people move around through different owners
+
+00:14:51.920 --> 00:14:55.920
+ And I just love this idea of having this like world so they get built by the people
+
+00:14:56.400 --> 00:14:58.000
+ That are living in it
+
+00:14:58.000 --> 00:15:02.560
+ And, uh, at the time there was a company I actually looked them up this morning after a conversation yesterday called, uh,
+
+00:15:02.560 --> 00:15:04.160
+ Improbable
+
+00:15:04.160 --> 00:15:07.120
+ I think unfortunately they've pivoted away from this but there I there
+
+00:15:07.120 --> 00:15:13.040
+ Their product was like an mmo back end as a service basically so
+
+00:15:13.040 --> 00:15:17.520
+ They would connect to like they had adapters like unity and unreal
+
+00:15:17.520 --> 00:15:19.520
+ But basically they had like a few primitives of like
+
+00:15:19.520 --> 00:15:25.440
+ Events and then like entities and you can like take an entity and like connect it to their system and it would live
+
+00:15:26.240 --> 00:15:31.840
+ And like the physics of it would be simulated and that would be synced across everyone and they would basically work on how do we make it?
+
+00:15:31.840 --> 00:15:35.600
+ So a thousand people 10,000 people can be in this world at once
+
+00:15:35.600 --> 00:15:39.840
+ And you just focus on like the fun and portion of it. Uh, I think they're they're still kind of going
+
+00:15:39.840 --> 00:15:43.280
+ They like pivoted now and if you go to the website, they're like we're the metaverse company
+
+00:15:43.280 --> 00:15:45.280
+ So I don't know exactly what they're doing anymore
+
+00:15:45.280 --> 00:15:50.480
+ Uh, but I did realize later like this actually was too ambitious to do it in 3d
+
+00:15:50.480 --> 00:15:55.920
+ The magic of it is more the creativity and like the social aspect of it
+
+00:15:55.920 --> 00:15:57.920
+ Like this could have been just as good
+
+00:15:57.920 --> 00:16:03.680
+ Executed well in 2d would have been way less effort. Um, we could have like cranked out way more assets
+
+00:16:03.680 --> 00:16:09.440
+ and uh, you know, it can be way more accessible can be delivered in like a web experience
+
+00:16:09.440 --> 00:16:14.960
+ As opposed to like you need like a really good gaming pc to run. So when you describe that I was like
+
+00:16:14.960 --> 00:16:19.840
+ Oh, that sounds very similar to the dream thing. I've always wanted
+
+00:16:19.840 --> 00:16:23.840
+ Yeah, there's all kinds of other little tidbits of things that I've dreamt up in this
+
+00:16:23.840 --> 00:16:26.160
+ But I just I love the idea of having this kind of canvas
+
+00:16:26.160 --> 00:16:30.960
+ Of in terms of like a creative outlet. It seems like the ultimate like you could just put so much
+
+00:16:30.960 --> 00:16:36.400
+ Uh, you know like things that you dream up easter eggs and just things that I don't know
+
+00:16:36.400 --> 00:16:39.440
+ It just it's very exciting. I think it'd be cool as a developer
+
+00:16:39.440 --> 00:16:42.240
+ Uh, if this game were sort of like themed
+
+00:16:42.240 --> 00:16:48.160
+ In that way that there's like an emulator and there's actually ways you could not like you have to be a programmer to play the game
+
+00:16:48.160 --> 00:16:51.360
+ But like there's some like mini game kind of interaction where you're actually
+
+00:16:51.920 --> 00:16:55.840
+ Writing some code for something. I don't know. Did you see the rooms that xyz thing?
+
+00:16:55.840 --> 00:17:00.000
+ No, I saw you mentioned rooms in discord. I didn't know what you're talking about. I was going to ask you
+
+00:17:00.000 --> 00:17:02.320
+ Yeah, so if you look at it, uh
+
+00:17:02.320 --> 00:17:04.720
+ It's probably
+
+00:17:04.720 --> 00:17:09.280
+ More on the thing that I'm describing versus yours, which is like a mix of like a game and just like a sandbox but
+
+00:17:09.280 --> 00:17:14.000
+ Uh, basically you can make a room in rooms at xyz and they have like a whole
+
+00:17:14.000 --> 00:17:16.960
+ Simplified way of like
+
+00:17:16.960 --> 00:17:20.480
+ Writing code to make it stuff interactive and you can design your own room and like wow
+
+00:17:20.640 --> 00:17:22.880
+ People have built like little mini games in there
+
+00:17:22.880 --> 00:17:24.880
+ Um
+
+00:17:24.880 --> 00:17:29.920
+ But for me, like I love this concept. Yeah, it's it's so cool and it's so simple and that the style is great
+
+00:17:29.920 --> 00:17:33.120
+ Um, it's all delivered through web. I think
+
+00:17:33.120 --> 00:17:35.200
+ and
+
+00:17:35.200 --> 00:17:39.440
+ Yeah, I love this concept, but I also want the feeling of like a physical
+
+00:17:39.440 --> 00:17:45.840
+ Persistent like world that you can explore and these rooms are in like physical places in that world and you have to go to and
+
+00:17:45.840 --> 00:17:48.320
+ Yeah, it'd be so cool if like
+
+00:17:48.320 --> 00:17:51.920
+ We could all just like visit each other and like and and do all this yeah same stuff
+
+00:17:51.920 --> 00:17:54.320
+ We do on twitter but just in like a different different format
+
+00:17:54.320 --> 00:17:58.400
+ I think delivery through web is critical because it's it needs to be like easy to use
+
+00:17:58.400 --> 00:18:02.160
+ Yeah, so in my dream scenario, like it's a reason to learn rust
+
+00:18:02.160 --> 00:18:04.880
+ You build it and it runs and wasm in the browser
+
+00:18:04.880 --> 00:18:10.800
+ There's already like a pretty great rust game engine for they do 3d stuff too
+
+00:18:10.800 --> 00:18:15.200
+ But they do everything that we need to do in 2d in terms of sprites and everything else
+
+00:18:15.520 --> 00:18:19.520
+ Yeah, and then like in terms of the massively multiplayer back end stuff
+
+00:18:19.520 --> 00:18:24.880
+ Rust at the edge you could just write the whole thing in rust because yeah, I know you like to use the same language
+
+00:18:24.880 --> 00:18:27.920
+ On the front and the back end that's really important to you
+
+00:18:27.920 --> 00:18:33.760
+ Uh, so instead of typescript, it's just all rust and you've shipped rust in production. So you're already. Oh, yeah, it's true
+
+00:18:33.760 --> 00:18:39.520
+ Uh, yeah, and I thought there's so many like recent innovations that make some of those easier like you imagine
+
+00:18:39.520 --> 00:18:42.320
+ Like you want like a character creator thing and you obviously want like
+
+00:18:43.360 --> 00:18:47.680
+ Like millions of combinations of what people can do and with all those ais stuff
+
+00:18:47.680 --> 00:18:51.920
+ I know if you can like generate like you can a thousand hats and like a thousand
+
+00:18:51.920 --> 00:18:58.240
+ Yeah, like shirts pixel art. I didn't realize how prevalent it is in the AI image gen stuff
+
+00:18:58.240 --> 00:19:02.320
+ Like people are doing pixel art generation like crazy if you just scroll through mid-journey channels
+
+00:19:02.320 --> 00:19:04.160
+ Like you can find just search
+
+00:19:04.160 --> 00:19:09.520
+ In mid-journey discord you can you can see all kinds of stuff people are creating and so it does like maybe it doesn't do everything
+
+00:19:09.600 --> 00:19:13.840
+ Maybe it inspires a lot of the stuff you would do by hand. Yeah, I'm sure it's some mix
+
+00:19:13.840 --> 00:19:18.320
+ But it does seem like it could accelerate what like a small team could do and what you could crank out in terms of like
+
+00:19:18.320 --> 00:19:20.640
+ The scale if you really want to make something large
+
+00:19:20.640 --> 00:19:24.560
+ Yeah, and not have a whole team of people making pixel art
+
+00:19:24.560 --> 00:19:30.400
+ Yeah, I think it's really interesting to think about the AI overlap right now particularly
+
+00:19:30.400 --> 00:19:36.560
+ The other thing I was also interested in as I was wondering kind of like if you've played the sims they have like
+
+00:19:37.360 --> 00:19:43.280
+ Kind of scripted scenarios that can happen that are like random enough that it feels somewhat natural
+
+00:19:43.280 --> 00:19:47.600
+ But I was like, I wonder if you can use AI to generate like a complex scenario of like
+
+00:19:47.600 --> 00:19:51.600
+ This person is have like if you have AI characters in the world
+
+00:19:51.600 --> 00:19:52.000
+ Yeah
+
+00:19:52.000 --> 00:19:56.880
+ This person's gonna have a party and they're gonna invite these five people and then like this drama is gonna unfold and kind of AI
+
+00:19:56.880 --> 00:20:01.920
+ Just completely generate that dynamically. It would yeah, it would be it would feel like way more alive than any other
+
+00:20:02.640 --> 00:20:07.520
+ World you've had before yeah, I've thought about that a lot it kind of helps with like the the cold start problem too
+
+00:20:07.520 --> 00:20:11.520
+ If you sort of like AI you had AI generated characters that aren't just NPCs
+
+00:20:11.520 --> 00:20:13.600
+ but like other players
+
+00:20:13.600 --> 00:20:19.600
+ As you're kind of growing and trying to fill out the the game. Yeah, I I think like that as NPC dialogue
+
+00:20:19.600 --> 00:20:24.960
+ I mean there's so many opportunities to inject some of this new technology into it and make it better
+
+00:20:24.960 --> 00:20:27.840
+ I don't know. I'm excited. I think it's a thing. I would love to do someday
+
+00:20:28.080 --> 00:20:33.200
+ Yeah, it is really cool. I just love little thing little sandbox is allow for like emergent
+
+00:20:33.200 --> 00:20:35.920
+ emergent stuff to come out of it. There's a
+
+00:20:35.920 --> 00:20:39.120
+ I have a funny little story. So
+
+00:20:39.120 --> 00:20:44.960
+ A few years ago for my uh, my brothers on my birthday where coincidence my friends don't want to dinner then they all came over
+
+00:20:44.960 --> 00:20:50.240
+ And I was like hey, I heard about this new thing not new thing. It's been around for a while, but I just heard about it
+
+00:20:50.240 --> 00:20:53.200
+ It's called a grand theft auto role play. So
+
+00:20:53.200 --> 00:20:56.560
+ Uh, there's basically these like modded custom
+
+00:20:57.440 --> 00:20:59.440
+ servers for grand theft auto 5
+
+00:20:59.440 --> 00:21:03.760
+ Uh where it's like the same game, but they like injected all this
+
+00:21:03.760 --> 00:21:04.960
+ these
+
+00:21:04.960 --> 00:21:07.600
+ Restrictions limitations and they've extended the game a bunch
+
+00:21:07.600 --> 00:21:13.760
+ And the concept is like it's hyper hyper realistic and people live entire lives in there like
+
+00:21:13.760 --> 00:21:17.360
+ Someone will play as a police officer and they just spend hours
+
+00:21:17.360 --> 00:21:23.920
+ Like pulling people over giving them tickets, but like not in like a video game way like a very realistic way where they're like
+
+00:21:23.920 --> 00:21:29.040
+ Yeah, it wouldn't do things that they wouldn't just like roundly start shooting people because that's like against the spirit of the role
+
+00:21:29.040 --> 00:21:31.040
+ Play and you get banned if you start to like break the immersion
+
+00:21:31.040 --> 00:21:36.240
+ Yeah, and so we tried it and for two and it was insane like I don't think we tried it a bunch of times, but
+
+00:21:36.240 --> 00:21:42.160
+ That first session was crazy like played out like three episodes of breaking bad
+
+00:21:42.160 --> 00:21:47.200
+ It was like we like found these people and they were trying to like do this drug deal and we joined them and they like
+
+00:21:47.200 --> 00:21:50.800
+ Then like there's really sketchy dude walked up that was supposed to be with them
+
+00:21:50.800 --> 00:21:54.160
+ And we're really like nervous about the whole thing and they eventually end up betraying us
+
+00:21:54.160 --> 00:21:57.920
+ and then we tried to like get them back and
+
+00:21:57.920 --> 00:22:03.680
+ Just all this crazy drama like unfolded in a very very hyper realistic way and I and I did
+
+00:22:03.680 --> 00:22:06.640
+ We did this thing for a couple of weeks
+
+00:22:06.640 --> 00:22:10.000
+ And I realized like oh the metaverse concept is already here
+
+00:22:10.000 --> 00:22:14.240
+ The fidelity is very low like it's like just like a hacky thing built on top of
+
+00:22:14.960 --> 00:22:20.720
+ Grand Theft Auto, but people were 100 percent in character like living full lives with backstories and all this stuff
+
+00:22:20.720 --> 00:22:25.360
+ And I was like this is actually what the metaverse is and it's it already exists
+
+00:22:25.360 --> 00:22:30.800
+ The obsession with like VR and like pushing that stuff without having like the magic of
+
+00:22:30.800 --> 00:22:33.360
+ A world that feels alive
+
+00:22:33.360 --> 00:22:38.560
+ That part's like irrelevant. So I feel like you can you can do that even with like a very low fidelity even if it's just
+
+00:22:38.560 --> 00:22:41.280
+ Yeah, yeah pixel art. Yep. No, I'm sold
+
+00:22:42.000 --> 00:22:45.520
+ I told you in discord like not a big ambitious project, but I lied
+
+00:22:45.520 --> 00:22:48.240
+ I mean, I just said that because I didn't want you to make fun of me
+
+00:22:48.240 --> 00:22:50.960
+ I mean, it's a big ambitious project. Just like any other project
+
+00:22:50.960 --> 00:22:55.120
+ You know who has like low ambition projects. That's not a thing, right?
+
+00:22:55.120 --> 00:23:00.960
+ It's definitely one of the things I would love to do if again, I'm super rich. I can just spend all my time. Yeah, making this
+
+00:23:00.960 --> 00:23:06.000
+ Something like so goals. That's what's gonna drive us. We're gonna make a lot of money decks so we can
+
+00:23:06.000 --> 00:23:09.920
+ Build a game to someday. Okay. It's a cool idea though
+
+00:23:10.640 --> 00:23:15.760
+ Yeah, thanks. I mean, yeah, cool idea. You hit you. Is that is that nest character from smash?
+
+00:23:15.760 --> 00:23:22.720
+ Yeah, he's from earthbound. He's from earthbound. Yeah. Okay. This is the main main character of earthbound
+
+00:23:22.720 --> 00:23:24.960
+ Anyone who
+
+00:23:24.960 --> 00:23:29.280
+ Played earthbound loves earthbound and they're very excited to hear this in this episode right now
+
+00:23:29.280 --> 00:23:35.520
+ It's a very tight knit group. I remember the it's like hard to find the box and like strategy guide
+
+00:23:35.520 --> 00:23:38.240
+ They had this really great strategy guide. It came in the box
+
+00:23:38.960 --> 00:23:40.960
+ Well that you could maybe buy without it
+
+00:23:40.960 --> 00:23:43.040
+ I don't know but like this bundle that came with all of it
+
+00:23:43.040 --> 00:23:46.720
+ And they were really hard to find or they are really hard to find today
+
+00:23:46.720 --> 00:23:47.840
+ I think they're very expensive
+
+00:23:47.840 --> 00:23:53.280
+ But I can remember when they had them like on sale at best buy for like half off or something and my brother bought like five of them
+
+00:23:53.280 --> 00:23:56.960
+ Because they were just like sitting on the shelf. This was like 15 years ago
+
+00:23:56.960 --> 00:24:00.640
+ I don't know if he still has them, but I'm pretty sure you can sell them for a lot now
+
+00:24:00.640 --> 00:24:03.120
+ Yeah, I've seen pictures of the game. It looks really like
+
+00:24:03.920 --> 00:24:09.120
+ Definitely like it's a really pleasant. I think it's a word. I would describe it's uh, like the style
+
+00:24:09.120 --> 00:24:14.240
+ It feels like like cozy and like nice. Yeah, it's very quirky. The humor is just it's very unique
+
+00:24:14.240 --> 00:24:18.480
+ I don't know you can play it like on ROMs. I think we've like played it on the pc before
+
+00:24:18.480 --> 00:24:20.880
+ Anyway, that's earthbound. I try it
+
+00:24:20.880 --> 00:24:27.200
+ Yeah, I feel like the that whole like 2d like semi 3d to like that rooms xyz like it's technically 3d
+
+00:24:27.200 --> 00:24:32.080
+ But it's like low. It's like yeah, I know what you're saying. I'm looking at it here
+
+00:24:33.680 --> 00:24:38.880
+ Yeah, I think that that format has a lot of potential. Oh you were talking about kind of like you don't have these like
+
+00:24:38.880 --> 00:24:42.960
+ Giant it's like one level up not giant aspirations. Honestly, we feel like
+
+00:24:42.960 --> 00:24:46.960
+ One with me. I have kids like you don't want to move. You just don't want to like
+
+00:24:46.960 --> 00:24:51.120
+ Disrupt them. We did it once and we just never want to move again
+
+00:24:51.120 --> 00:24:54.960
+ So we're just kind of like settled into our lifestyle and we really feel like I mean
+
+00:24:54.960 --> 00:25:02.240
+ There's little things like we want to put some money into landscaping or like just different things like creating some spaces in our backyard
+
+00:25:02.240 --> 00:25:04.400
+ that we enjoy like there's things we'll put like
+
+00:25:04.400 --> 00:25:07.040
+ low dollar amounts relatively
+
+00:25:07.040 --> 00:25:12.400
+ But there's not like a big thing anything really that we want for that like we would change our lives like
+
+00:25:12.400 --> 00:25:18.080
+ Ultimately, we're just kind of like at a place where if we could just maintain this lifestyle for the rest of our lives
+
+00:25:18.080 --> 00:25:23.920
+ We're happy and that totally changes everything psychology wise like now. It's just kind of like
+
+00:25:23.920 --> 00:25:29.600
+ I don't know. Yeah, I don't like just like not working. I did that for a bit
+
+00:25:30.240 --> 00:25:34.080
+ Uh, I mean maybe like six months when I started streaming doing all that stuff
+
+00:25:34.080 --> 00:25:38.640
+ And that starts to wear on your mind like when you're just kind of poking around and not driven by anything
+
+00:25:38.640 --> 00:25:44.000
+ Uh, but it does change like the psychology of money when you kind of reach that point and you're just content with your lifestyle
+
+00:25:44.000 --> 00:25:45.760
+ You're not gonna be like chasing
+
+00:25:45.760 --> 00:25:51.360
+ Bigger and better all the time. Uh, I don't know kids helped for me to get there. I don't know where I'm going with this
+
+00:25:51.360 --> 00:25:55.680
+ I'm realizing I have no way to land this point. But did I make a point? Was that a point? I don't even know
+
+00:25:55.680 --> 00:26:00.480
+ No, I I think that makes sense. I think for me. It's like we're close to that point
+
+00:26:00.480 --> 00:26:06.080
+ I mean we could I think for me. It's like there's different ways for me to get to that point. There's
+
+00:26:06.080 --> 00:26:13.760
+ Ways that I don't I'm not gonna enjoy I can just go find a job that pays the most amount of money possible
+
+00:26:13.760 --> 00:26:16.480
+ And I'm sure I can have a good crazy life. So doing that
+
+00:26:16.480 --> 00:26:23.040
+ And there's ways where I do want to do it like by you know owning businesses that make money. That's like the ideal
+
+00:26:23.360 --> 00:26:28.640
+ Yeah, but yeah, I think I don't think I'm far from that when I neither direction like you know one of those options will work out
+
+00:26:28.640 --> 00:26:34.400
+ But yeah, so like for the tangible world like I don't I really don't uh
+
+00:26:34.400 --> 00:26:38.640
+ Like I said, I'm similar to you. I don't want to think that that insane
+
+00:26:38.640 --> 00:26:43.440
+ But I still and like the thing you said though, the thing that's relevant is
+
+00:26:43.440 --> 00:26:49.840
+ I know I want to work a lot my whole life. Yeah, so for me. It's more around
+
+00:26:50.480 --> 00:26:55.680
+ The money helps me like make that more interesting or shape it in the way that that I want it to be
+
+00:26:55.680 --> 00:26:59.440
+ Uh, because I'll go somewhere to you. I'll go crazy if I don't work
+
+00:26:59.440 --> 00:27:04.720
+ Yeah, I honestly don't even I haven't even considered like the concept of not working because it doesn't even make sense to me
+
+00:27:04.720 --> 00:27:06.080
+ Like that's how like
+
+00:27:06.080 --> 00:27:07.680
+ It's just not for me. That is
+
+00:27:07.680 --> 00:27:11.360
+ So yeah, I just want to like be able to do crazier and crazier things with with my work
+
+00:27:11.360 --> 00:27:15.840
+ The rest of my life like yeah, it doesn't take a lot to feel like resettled and uncomfortable and good
+
+00:27:15.840 --> 00:27:19.280
+ At least for me one of the struggles for us right now is just trying
+
+00:27:19.280 --> 00:27:21.280
+ We want to figure out a way for Casey
+
+00:27:21.280 --> 00:27:25.520
+ to also have like a creative pursuit and
+
+00:27:25.520 --> 00:27:28.640
+ And just with the kids and trying to like balance
+
+00:27:28.640 --> 00:27:31.200
+ both of our
+
+00:27:31.200 --> 00:27:34.800
+ Days, I don't know. It's a it's a challenge, but we've got some ideas
+
+00:27:34.800 --> 00:27:40.400
+ I mean, we've we've talked about some ways little side businesses things. I mean you've got you did it right
+
+00:27:40.400 --> 00:27:42.400
+ You just like co-founded a company with your wife
+
+00:27:42.400 --> 00:27:48.640
+ I mean, I guess with no kids it's a little easier, but it's funny though because we had
+
+00:27:49.280 --> 00:27:52.720
+ We were talking about like a similar challenge, but like another direction
+
+00:27:52.720 --> 00:27:56.320
+ I was actually after we hung with you guys that we realized this but
+
+00:27:56.320 --> 00:28:02.800
+ the list works on two businesses and that's like almost a hundred percent of
+
+00:28:02.800 --> 00:28:09.600
+ What she thinks about and we realized at some point. Oh, she has like no
+
+00:28:09.600 --> 00:28:15.920
+ Like non-work hobby or escape from that not that you didn't escape from that
+
+00:28:15.920 --> 00:28:20.000
+ But if I think about myself, I'm like, yeah, I spent a lot of time working
+
+00:28:20.000 --> 00:28:23.680
+ But I also spent a lot of time like a lot of my work overlaps with a bunch of social stuff
+
+00:28:23.680 --> 00:28:28.560
+ Like yeah, I mean things like this or like interacting with people online and like there's like a bunch of like
+
+00:28:28.560 --> 00:28:36.560
+ It's not exactly work. That's like a bunch of other social stuff where the primary goal is into like push a business forward
+
+00:28:36.560 --> 00:28:40.160
+ Uh, and I realized like oh, yeah, I get that almost by accident
+
+00:28:40.160 --> 00:28:46.160
+ So I take it for granted if I didn't have those I probably would be like in a sports league or doing other stuff
+
+00:28:46.160 --> 00:28:49.280
+ Uh, and we realized for Liz like oh, she's actually not
+
+00:28:49.280 --> 00:28:54.160
+ She lives that part of her life is missing and like I think case you talking about like the volleyball stuff she does
+
+00:28:54.160 --> 00:28:58.560
+ I realized like oh, yeah, like that's a whole thing like you need to
+
+00:28:58.560 --> 00:29:06.160
+ Have stuff like that. Uh, so now is like just just realize like she's missing that um and she loves
+
+00:29:06.160 --> 00:29:09.120
+ Uh like agriculture stuff. So she's actually gonna go
+
+00:29:09.600 --> 00:29:12.800
+ Uh, she's volunteering on like a farm that's nearby
+
+00:29:12.800 --> 00:29:17.920
+ Uh, she loves food and she loves growing it preparing it everything end to end. Yeah
+
+00:29:17.920 --> 00:29:20.160
+ So yeah, it's like
+
+00:29:20.160 --> 00:29:25.760
+ That part is important too. I think not having that was like indirectly driving her crazy in in a few ways
+
+00:29:25.760 --> 00:29:27.840
+ Yeah, it's so easy like for us
+
+00:29:27.840 --> 00:29:32.400
+ To not realize that's a thing. It's just like blends so much with our work
+
+00:29:32.400 --> 00:29:35.760
+ I mean the the lines between work and hobby and interests and
+
+00:29:36.480 --> 00:29:42.720
+ I don't know. It's all kind of like a big and then yeah, the being online on twitter and whatever else making twitch stuff
+
+00:29:42.720 --> 00:29:47.200
+ Yeah, yeah, it's fun. Like the social part of it. It's
+
+00:29:47.200 --> 00:29:53.840
+ It's almost something of the setup to like deliver social things into your life. It's kind of like yeah setting up anything else in your life
+
+00:29:53.840 --> 00:29:55.920
+ Uh, yeah, I realized like yeah, you know
+
+00:29:55.920 --> 00:30:01.280
+ Like maybe once or twice a month someone I know from online is like stopping by in Miami and I get to like
+
+00:30:01.280 --> 00:30:05.280
+ Hang out with them for a little bit. And that's just something that happens automatically
+
+00:30:05.920 --> 00:30:11.440
+ Uh, so you see to have things in your life that like funnel new people to you or just funnel a group of people to you
+
+00:30:11.440 --> 00:30:13.680
+ Otherwise, it's like yeah, if you don't have that
+
+00:30:13.680 --> 00:30:18.000
+ It's it's really hard and you don't you normally get that through building a business because building a business usually
+
+00:30:18.000 --> 00:30:21.600
+ A very lonely thing for a very very long time. So yep
+
+00:30:21.600 --> 00:30:24.640
+ Yeah, that's kind of phase that she's in with with the thing that she's working on
+
+00:30:24.640 --> 00:30:27.600
+ Only once a month you only get people coming into Miami like once a month
+
+00:30:27.600 --> 00:30:33.520
+ I'm probably like every week here and the other side something like that people coming to branson. They want to go on the lake, you know
+
+00:30:35.280 --> 00:30:37.600
+ Anyone ever come to the Ozarks that you know
+
+00:30:37.600 --> 00:30:43.120
+ Don't think so has anyone ever been like or what about like Missouri? Like the whole state this week
+
+00:30:43.120 --> 00:30:49.120
+ It's so crazy. You said that casey casey dc case canvas city developer conference is
+
+00:30:49.120 --> 00:30:53.920
+ Wednesday, it's like wednesday through friday and I saw dev is like road tripping to kansas city
+
+00:30:53.920 --> 00:30:57.120
+ We were gonna go to kansas city this week like not even kidding
+
+00:30:57.120 --> 00:31:00.640
+ We were gonna go we still might like at the end of the way it'd be like friday and saturday
+
+00:31:00.640 --> 00:31:01.760
+ uh
+
+00:31:01.760 --> 00:31:03.040
+ but like
+
+00:31:03.040 --> 00:31:07.200
+ People I know are gonna be in kansas city. That's missouri. Well, it's also kansas
+
+00:31:07.200 --> 00:31:11.600
+ It's both it straddles the line kansas city dev conference. Is that what you said?
+
+00:31:11.600 --> 00:31:13.440
+ Yeah kc dc
+
+00:31:13.440 --> 00:31:18.720
+ Oh, how big is it like other people this is for people in kansas city? I don't know. I mean dev's coming
+
+00:31:18.720 --> 00:31:25.280
+ He's not from kansas city. He's road tripping with friends. He's bringing multiple developer friends like a conference pro
+
+00:31:25.280 --> 00:31:28.160
+ He has been at some conferences dev has
+
+00:31:29.280 --> 00:31:33.760
+ The clirk team they represent they've got the table if you've seen the pictures like they do the little dinner
+
+00:31:33.760 --> 00:31:39.920
+ They've got people at a table about every week. Well, I know I know clirk does that but i'm saying separate from clirk
+
+00:31:39.920 --> 00:31:42.320
+ I feel like dev's just been uh
+
+00:31:42.320 --> 00:31:45.920
+ He likes I haven't met anyone that's just like so loved conferences
+
+00:31:45.920 --> 00:31:50.320
+ I feel like he just goes to every he's found every opportunity ever to go to like a conference
+
+00:31:50.320 --> 00:31:53.840
+ And he's been to so many i've been to two i've been to two. Yeah
+
+00:31:53.840 --> 00:31:56.640
+ same
+
+00:31:57.200 --> 00:32:01.440
+ Yeah, I mean they are fun. Totally get it. They are. Yeah, no, I mean it was fun
+
+00:32:01.440 --> 00:32:08.000
+ There were very different experiences to go from reinvent to in my case render and i'm sure react my ami same for you
+
+00:32:08.000 --> 00:32:14.800
+ Not the same as reinvent but they were both fun in different ways. I feel like render next year is going to be even
+
+00:32:14.800 --> 00:32:18.560
+ Like super insane. I feel they generated so much hype this year
+
+00:32:18.560 --> 00:32:22.960
+ Yeah, and it I remember somebody saying it's like three years. They've done it like the numbers
+
+00:32:23.200 --> 00:32:29.120
+ How they've like doubled each each year. I mean it's grown a lot. So yeah, if it doubles again, it's gonna be bananas
+
+00:32:29.120 --> 00:32:34.800
+ It was already pretty crazy. You know, I would definitely love to get into doing that like hosting
+
+00:32:34.800 --> 00:32:36.880
+ some kind of event
+
+00:32:36.880 --> 00:32:40.320
+ Uh on a yearly basis. Oh rival react my ami
+
+00:32:40.320 --> 00:32:42.880
+ You should start solid my ami
+
+00:32:42.880 --> 00:32:46.080
+ SSC Miami
+
+00:32:46.080 --> 00:32:49.280
+ Here's my here's my worry
+
+00:32:49.760 --> 00:32:54.800
+ Do you remember fire festival as that the one where there's a documentary about it or something?
+
+00:32:54.800 --> 00:32:58.960
+ Yeah, yeah, we're like it's not the same as burning man fire burning different things
+
+00:32:58.960 --> 00:33:04.480
+ Okay similar name, but now like basically super hyped complete disaster like just
+
+00:33:04.480 --> 00:33:11.280
+ The level of organization it would have taken to deliver on the hype. We're just like way beyond what the creator could do
+
+00:33:11.280 --> 00:33:12.880
+ Yeah
+
+00:33:12.880 --> 00:33:15.680
+ I'm worried that's that's a path. I would go down
+
+00:33:16.080 --> 00:33:19.680
+ But you lean into it. Just like the it's like the between two nerds thing
+
+00:33:19.680 --> 00:33:23.040
+ You just like make it the fact that it's bad is funny
+
+00:33:23.040 --> 00:33:27.680
+ And like that's the whole point that traveled and paid money to go there
+
+00:33:27.680 --> 00:33:32.400
+ Are gonna find it super funny. They're like, okay. This is this funny like I think all of you
+
+00:33:32.400 --> 00:33:36.640
+ What a good break
+
+00:33:36.640 --> 00:33:42.320
+ but I know I'm definitely in type of person to get ahead of myself with a lot of that stuff and
+
+00:33:43.040 --> 00:33:47.600
+ So here's the thing the other day. I'm a software engineer. If you're a software engineer, you are you're
+
+00:33:47.600 --> 00:33:54.240
+ The thing you're constantly trained into like I'll just ship it
+
+00:33:54.240 --> 00:33:59.200
+ We can fix any issues that come out after so you're constantly like shipping stuff like half done and like you just
+
+00:33:59.200 --> 00:34:04.880
+ Then that's good. Like you you can like you would build the whole workflow around that where something like an event
+
+00:34:04.880 --> 00:34:07.860
+ It's all about like a lot of upfront
+
+00:34:08.640 --> 00:34:13.920
+ Perfection and like delivering it all in one shot, which I feel like it's the entire opposite of half
+
+00:34:13.920 --> 00:34:17.200
+ I'm going to gloss over so many details that that end up mattering
+
+00:34:17.200 --> 00:34:21.120
+ So I'm always impressed by a lot of these events when they're not complete disasters
+
+00:34:21.120 --> 00:34:23.680
+ I don't think I'm suited to actually run one render went really well
+
+00:34:23.680 --> 00:34:27.840
+ I can imagine the amount of preparation. You just get the sense like all the people in staff shirts
+
+00:34:27.840 --> 00:34:31.600
+ Like that was a lot of coordinating a lot of people to pull something off
+
+00:34:31.600 --> 00:34:34.720
+ Uh, yeah, it's very different from software development. That's good point
+
+00:34:34.720 --> 00:34:38.880
+ I mean unless you were like doing like waterfall development at Microsoft like 20 years ago
+
+00:34:38.880 --> 00:34:42.400
+ Exactly that
+
+00:34:42.400 --> 00:34:47.840
+ Because it's gonna ship in a box. That's like a printed box and it's got a CD in there and if you don't get it right
+
+00:34:47.840 --> 00:34:55.360
+ It's that's what all engineering is like except for software engineering, which is why software engineering is like a complete different kind and not like
+
+00:34:55.360 --> 00:34:59.920
+ Quote-unquote real engineering because that's a good point. Like you got to get a bridge right
+
+00:34:59.920 --> 00:35:02.560
+ You don't get like multiple iterations of a bridge
+
+00:35:03.280 --> 00:35:08.240
+ I heard a bridge just collapsed. Oh, sorry like a philadelphia bridge. I want to say nobody was hurt
+
+00:35:08.240 --> 00:35:15.200
+ Do you did you hear about this a bridge collapse really in philadelphia like a major interstate or something?
+
+00:35:15.200 --> 00:35:19.200
+ It was like that's really scary national emergency because of like logistics
+
+00:35:19.200 --> 00:35:24.480
+ Oh, yeah, I just ripped everything. Yeah. Yeah, the collapsing thing is crazy
+
+00:35:24.480 --> 00:35:29.520
+ My I think I told you about this last time but my ami has just like had a phase of really poor
+
+00:35:30.000 --> 00:35:34.000
+ Building practices and a bunch of stuff has collapsed in the last 10 years
+
+00:35:34.000 --> 00:35:39.440
+ Ooh from that and then you got the day floods which everyone's just like this is fine
+
+00:35:39.440 --> 00:35:42.640
+ Just flirting a little bit in the day. What are day floods?
+
+00:35:42.640 --> 00:35:44.720
+ Why do you told me about day floods?
+
+00:35:44.720 --> 00:35:48.720
+ You did didn't you what do what they call them like in my ami when the streets are just filled with water one day
+
+00:35:48.720 --> 00:35:51.440
+ And you're like oh the ocean's just pouring into the streets. It's okay. We're fine
+
+00:35:51.440 --> 00:35:55.680
+ This is this is a flood. I don't think I use a word day because if i think i'm sitting there in a day is not
+
+00:35:56.320 --> 00:36:00.480
+ A little bit. Yeah, okay. There was another word attached. Maybe it wasn't day floods
+
+00:36:00.480 --> 00:36:02.880
+ But it was like I think I was calling them
+
+00:36:02.880 --> 00:36:09.440
+ Those silly little floods that are happening in my ami because the ocean is right. Yeah, there's a part of my ami that like just
+
+00:36:09.440 --> 00:36:15.280
+ Gets the every single time it rains heavily. It's just they're just like a little lake that forms
+
+00:36:15.280 --> 00:36:18.960
+ Um, and it's it's not like in a random spot. It's like in the
+
+00:36:18.960 --> 00:36:23.680
+ City like center with all the tallest buildings and I don't understand why people will continue to live there
+
+00:36:24.240 --> 00:36:29.440
+ Has this been like recent development or has it always been that way that that part of my ami is weird
+
+00:36:29.440 --> 00:36:31.520
+ It's it's below sea level
+
+00:36:31.520 --> 00:36:35.120
+ Uh, and they've built a ton of really tall buildings there
+
+00:36:35.120 --> 00:36:40.960
+ So a lot of people have moved there recently. So yeah, I don't know how long the flooding's been but now there are a lot more people there
+
+00:36:40.960 --> 00:36:44.240
+ Yeah, I think more people are aware of it
+
+00:36:44.240 --> 00:36:47.360
+ Uh where I am weirdly enough there's there's that uh
+
+00:36:47.360 --> 00:36:49.280
+ It's like a website
+
+00:36:49.280 --> 00:36:54.640
+ I don't know what it is, but they basically you put in your address and they like try to like figure out all the climate change risk
+
+00:36:54.640 --> 00:37:02.080
+ Weirdly enough. I'm like basically a zero for flood risk. What from where where my house physically is. It's like very let's not zero. It's like a
+
+00:37:02.080 --> 00:37:11.360
+ It's not it's like basically irrelevant the flooding. Well, have you seen the maps the bad case scenarios of florida where florida doesn't exist anymore?
+
+00:37:11.360 --> 00:37:14.560
+ Have you seen those maps? I'd say you're a risk and that's when I'm dead
+
+00:37:15.280 --> 00:37:21.840
+ 50 years you died in 50 years. That's what I had seen. I'm not saying in 50 years. I'm going to be a detached body floating in space
+
+00:37:21.840 --> 00:37:24.080
+ just a brain
+
+00:37:24.080 --> 00:37:25.440
+ What
+
+00:37:25.440 --> 00:37:28.960
+ Is that a thing someone's working on that don't you hope it's a thing? I know
+
+00:37:28.960 --> 00:37:32.960
+ Uh, or maybe I don't a detached head floating in space
+
+00:37:32.960 --> 00:37:37.520
+ So you would just be looking at space all the time and you don't need anything out your body would just continue to live
+
+00:37:37.520 --> 00:37:41.520
+ How's this well space only if the earth is screwed?
+
+00:37:42.320 --> 00:37:45.280
+ Ideally, my physical form is no longer relevant. Oh, okay
+
+00:37:45.280 --> 00:37:49.760
+ Oh, you mean like your consciousness like sort of like sucked out of your brain and put into some digital device that lives forever
+
+00:37:49.760 --> 00:37:53.600
+ I might as well be in space because I wanted to see if there's alien. So might as well shoot me in a direction
+
+00:37:53.600 --> 00:37:59.680
+ Oh, just any direction. Just what are the odds? I mean you've got you've got a chance eventually. I'm gonna find something
+
+00:37:59.680 --> 00:38:01.680
+ There's a chance
+
+00:38:01.680 --> 00:38:03.680
+ So you're saying there's a chance
+
+00:38:03.680 --> 00:38:07.200
+ Zuko you need to calm down. Okay, Zuko the the playing
+
+00:38:07.200 --> 00:38:10.240
+ Don't make daddy get stern
+
+00:38:10.800 --> 00:38:13.040
+ Let's keep his dropping him off every single time
+
+00:38:13.040 --> 00:38:15.520
+ Then recording
+
+00:38:15.520 --> 00:38:17.520
+ It's fine bad timing
+
+00:38:17.520 --> 00:38:25.360
+ Yeah, detached head consciousness live forever floating into space find aliens who can maybe restore my body
+
+00:38:25.360 --> 00:38:26.880
+ Oh
+
+00:38:26.880 --> 00:38:30.160
+ Aliens with very advanced technology like there are aliens, right?
+
+00:38:30.160 --> 00:38:34.320
+ We've just we can just accept that there are definitely aliens in this infinite universe
+
+00:38:34.320 --> 00:38:35.600
+ I really hope so
+
+00:38:35.600 --> 00:38:37.600
+ I don't think they've ever been to earth, but
+
+00:38:37.600 --> 00:38:41.120
+ No, and I don't think there's any chance where we're gonna really like connect with them
+
+00:38:41.120 --> 00:38:44.560
+ But I just feel like out there with that much stuff out there
+
+00:38:44.560 --> 00:38:46.880
+ Surely there are aliens
+
+00:38:46.880 --> 00:38:50.720
+ You know, it's a really creepy concept that I thought of a while ago
+
+00:38:50.720 --> 00:38:57.600
+ Uh, because okay, there was a situation where we were looking at a star and there was a weird debris around the star
+
+00:38:57.600 --> 00:39:02.160
+ And there's a star that was like, I don't know 10 light years away or something. I don't remember what it is
+
+00:39:02.160 --> 00:39:07.120
+ So basically and possibly far for 10 10 light years. Yeah, that's not very far at all
+
+00:39:07.760 --> 00:39:08.960
+ I think that's pretty close
+
+00:39:08.960 --> 00:39:11.920
+ Well, like in terms of us being able to literally travel there like we can't do that
+
+00:39:11.920 --> 00:39:16.800
+ I'm being 10 years at the speed of light. That's doable. It's within a human life thing
+
+00:39:16.800 --> 00:39:18.880
+ Do you know how to travel the speed of light?
+
+00:39:18.880 --> 00:39:22.240
+ Once you got a travel speed of light, maybe it's not okay
+
+00:39:22.240 --> 00:39:27.200
+ Okay, so we saw this thing and someone was like and obviously wasn't this but someone would theorize like what if it was a
+
+00:39:27.200 --> 00:39:34.240
+ Dyson sphere and just if you're not aware a dyson sphere is like a theoretical device that
+
+00:39:35.920 --> 00:39:40.720
+ It would go around the it would go around a star and capture all the energy of the star and people theorize that
+
+00:39:40.720 --> 00:39:46.160
+ Eventually as civilization gets more advanced they would eventually start building these dyson spheres because they would
+
+00:39:46.160 --> 00:39:50.000
+ You know, but they will want to capture all the energy of of these energy sources
+
+00:39:50.000 --> 00:39:53.840
+ So we could theoretically look for dyson spheres and that would be signs that
+
+00:39:53.840 --> 00:39:58.080
+ Okay, there's if there are aliens that are advanced theoretically we would find these
+
+00:39:58.080 --> 00:40:01.840
+ Someone was like, okay, maybe it is it is one of those when we were observing this debris
+
+00:40:02.240 --> 00:40:06.960
+ And I was like, that's so creepy because what if we got absolute confirmation it was that
+
+00:40:06.960 --> 00:40:13.360
+ All we can do is go about our day and then know that that thing is there and we would know for sure that aliens there
+
+00:40:13.360 --> 00:40:16.080
+ We'd have no way to contact them. We'd have no way to
+
+00:40:16.080 --> 00:40:18.560
+ You know, actually go there or find anything
+
+00:40:18.560 --> 00:40:23.440
+ I guess we could contact them because we could send a message and we would get a reply back in in 20 years theoretically
+
+00:40:23.440 --> 00:40:25.520
+ If they also can only come to get a speed of light
+
+00:40:25.520 --> 00:40:27.280
+ Um
+
+00:40:27.280 --> 00:40:31.920
+ But like yeah, we would just have to go like nothing would change none like none of life would change
+
+00:40:32.000 --> 00:40:35.760
+ But we would have defended a proof that like we know there are some things
+
+00:40:35.760 --> 00:40:40.640
+ Yeah over there, but we just never find out there's no way for us to find out anything more
+
+00:40:40.640 --> 00:40:43.760
+ And that's like a very creepy concept. I'm wondering if that's actually
+
+00:40:43.760 --> 00:40:48.720
+ Gonna be what happens at some point like we'll eventually be able to detect
+
+00:40:48.720 --> 00:40:54.720
+ Like proof, but there's just nothing that it really does for us. Like I can't change everything. Yeah
+
+00:40:54.720 --> 00:40:58.400
+ I mean to me. I don't need the proof. I just I'm pretty confident like
+
+00:40:59.040 --> 00:41:02.560
+ There's other life out there. You know, I think so too. I think probability wise
+
+00:41:02.560 --> 00:41:07.360
+ I hope I find out for sure though. I need to know well. I'm telling you. I mean i'm telling you for sure there is
+
+00:41:07.360 --> 00:41:09.520
+ So there you go. What do they look like on them?
+
+00:41:09.520 --> 00:41:14.240
+ Oh, it doesn't that there's all kind I bet there's plan. I bet there's places with dinosaurs. Something it looks like
+
+00:41:14.240 --> 00:41:16.560
+ probably
+
+00:41:16.560 --> 00:41:18.560
+ I mean there's so much like commonality
+
+00:41:18.560 --> 00:41:25.920
+ It the like all the different laws or whatever of physics sort of put constraints on the way life develops that it's all pretty similar
+
+00:41:25.920 --> 00:41:27.360
+ like
+
+00:41:27.360 --> 00:41:29.120
+ I don't know
+
+00:41:29.120 --> 00:41:30.560
+ There's a book
+
+00:41:30.560 --> 00:41:32.560
+ My kids have it kids have this book
+
+00:41:32.560 --> 00:41:34.640
+ Uh, it's not about aliens
+
+00:41:34.640 --> 00:41:37.840
+ But there's at one page where there's alien dropping off this person
+
+00:41:37.840 --> 00:41:42.720
+ Anyway, the alien has like two butts or like three cheeks and I just think that's so funny
+
+00:41:42.720 --> 00:41:45.520
+ Like why would you have that third middle cheek? But it's like why wouldn't you? I don't know
+
+00:41:45.520 --> 00:41:50.480
+ I mean even on earth there's some like really weird looking
+
+00:41:50.480 --> 00:41:52.240
+ Life
+
+00:41:52.240 --> 00:41:54.240
+ Oh for sure like underwater
+
+00:41:54.240 --> 00:41:59.840
+ I wonder I always wonder like what if there we see aliens there's like so disgusting like you just look at them
+
+00:41:59.840 --> 00:42:04.400
+ You want to vomit like what if that's just maybe a movie sometimes kind of make it look that way?
+
+00:42:04.400 --> 00:42:05.760
+ Yeah
+
+00:42:05.760 --> 00:42:09.040
+ That would be weird. I would be weird. I know I hope I know I want to see a picture
+
+00:42:09.040 --> 00:42:16.640
+ Tell me a picture of an alien if you heard about like the the like milky way as an island like because the universe is expanding
+
+00:42:16.640 --> 00:42:21.680
+ There's some point in the very distant future like we can't even see the other galaxies. Isn't that wild?
+
+00:42:21.760 --> 00:42:24.640
+ Yeah, the observable universe everything is going further away
+
+00:42:24.640 --> 00:42:26.800
+ And so they better shoot you real fast
+
+00:42:26.800 --> 00:42:29.760
+ If you're going to be out in space and you want to see anything else
+
+00:42:29.760 --> 00:42:34.320
+ I know that then you go down the whole like entropy thing and how everything is going to stop
+
+00:42:34.320 --> 00:42:37.840
+ At some point and that's really freaky wait. What?
+
+00:42:37.840 --> 00:42:40.640
+ Everything is going to stop say it again
+
+00:42:40.640 --> 00:42:41.840
+ All right more words
+
+00:42:41.840 --> 00:42:46.160
+ Well like any energy that you expend like you just lifting your arm
+
+00:42:46.480 --> 00:42:51.520
+ Yeah, the energy is gone forever like you got it from some source. Uh-huh and you just spent it
+
+00:42:51.520 --> 00:42:56.080
+ And some of it could be recaptured, but not a hundred percent of it. So over time
+
+00:42:56.080 --> 00:43:01.920
+ Paul energy in the universe goes away. Oh, um, that's depressing everything would just stop
+
+00:43:01.920 --> 00:43:07.520
+ I thought energy couldn't be destroyed. Isn't there like a law of something about that matter can be created or destroyed
+
+00:43:07.520 --> 00:43:09.600
+ Yeah, well, it's does it matter? Oh, yeah
+
+00:43:09.600 --> 00:43:13.280
+ It's the point is like you can't like you can't plug in a circuit into us
+
+00:43:13.280 --> 00:43:18.160
+ Or you can't plug in a generator into a generator and have it like uh like infinite energy like some of his losses
+
+00:43:18.160 --> 00:43:20.160
+ He lives until his losses. Yeah
+
+00:43:20.160 --> 00:43:25.680
+ Uh, there's an insanely insanely insanely good is one of the things that we would listen on our drives
+
+00:43:25.680 --> 00:43:28.720
+ Uh, it's not a short story. It's a little bit long than a short story
+
+00:43:28.720 --> 00:43:34.320
+ Um called exhalation. It's by Ted Chiang. He also wrote a rival, which is like a fantastic book and movie
+
+00:43:34.320 --> 00:43:36.320
+ Uh, okay
+
+00:43:36.320 --> 00:43:38.320
+ And he describes this
+
+00:43:38.320 --> 00:43:43.040
+ Universe or this world where everyone's kind of a robot and the robots only understand how they work
+
+00:43:43.760 --> 00:43:45.120
+ and
+
+00:43:45.120 --> 00:43:50.080
+ They go just like humans didn't understand how we worked and we eventually like dissected ourselves and figured it out
+
+00:43:50.080 --> 00:43:52.400
+ and they eventually find out that they're
+
+00:43:52.400 --> 00:43:54.320
+ powered by
+
+00:43:54.320 --> 00:43:55.120
+ like
+
+00:43:55.120 --> 00:43:57.920
+ Like air pressure basically like pneumatics. Mm-hmm
+
+00:43:57.920 --> 00:44:04.880
+ And that's like a big discovery, but then they slowly realize that the pressure of their world is decreasing
+
+00:44:04.880 --> 00:44:07.520
+ So they're starting to run slower and slower and it's written
+
+00:44:08.080 --> 00:44:13.440
+ Super super well and you realize at the end of it. It's like an analogy for this concept of entropy
+
+00:44:13.440 --> 00:44:17.520
+ Uh where everything is just gonna like slow down at some point and it's so well
+
+00:44:17.520 --> 00:44:21.440
+ It's like one of the most fantastic like one of the concepts is amazing
+
+00:44:21.440 --> 00:44:26.560
+ The writing itself is so good. Like Liz describes it as like there wasn't one extra word
+
+00:44:26.560 --> 00:44:30.240
+ In in the whole book everything. That's good. Absolutely perfect. It's gonna masterpiece
+
+00:44:30.240 --> 00:44:36.000
+ Yeah, yeah, it explains this concept really why it is very depressing but like beautiful and like deep
+
+00:44:36.160 --> 00:44:41.440
+ Yeah, no, I'm I'm interested. I don't read a lot of books. Like I listened to it for sure. Yeah, we listened to it
+
+00:44:41.440 --> 00:44:44.560
+ Okay, we listened to it. Yeah, we read it. It's on audible. Yeah, I think so
+
+00:44:44.560 --> 00:44:49.440
+ Okay, please DM me the name of that. I'd love to I've got credits. I've got some credits just sitting around, you know
+
+00:44:49.440 --> 00:44:53.120
+ I have so many audible credits. I'm always a build up and I'm always like Liz
+
+00:44:53.120 --> 00:44:58.240
+ Like do you need a book because I never listened audio books and we have it's like a benefit from our
+
+00:44:58.240 --> 00:45:01.040
+ Amex like we use the audible benefit
+
+00:45:01.040 --> 00:45:01.840
+ So
+
+00:45:01.840 --> 00:45:04.480
+ I'm always giving her my credits and I'm always expiring
+
+00:45:04.480 --> 00:45:08.160
+ I'm like Liz like just pick any book like like an expiring but she she listens to a ton
+
+00:45:08.160 --> 00:45:10.640
+ Yeah, I don't I listen on walks. I don't get to 12
+
+00:45:10.640 --> 00:45:14.880
+ But usually three or four credits build up and I can go on a spree and and spend them on it
+
+00:45:14.880 --> 00:45:18.720
+ You might be the same but she's got like every single achievement unlocked
+
+00:45:18.720 --> 00:45:25.040
+ In the I've got a bunch of them. Yeah, I've actually spent active time trying to complete one of them where you have to like check your
+
+00:45:25.040 --> 00:45:27.920
+ Listen time so many times you get an achievement for you
+
+00:45:27.920 --> 00:45:33.520
+ I'm like actually spent time trying to get audible achievements, which is super stupid but
+
+00:45:34.480 --> 00:45:39.920
+ The master piece thing real quick and we should probably get off here. I guess the the book masterpiece reminded me of this thing
+
+00:45:39.920 --> 00:45:41.040
+ I saw
+
+00:45:41.040 --> 00:45:45.680
+ It's been like a few months ago probably but it was just like game genie book or maybe not
+
+00:45:45.680 --> 00:45:50.320
+ Some kind of like cheat codes book where they wrote like the person who wrote it
+
+00:45:50.320 --> 00:45:54.960
+ Like every line has the same number of characters or something crazy like that
+
+00:45:54.960 --> 00:45:57.600
+ Like it makes this perfect block like every page is like
+
+00:45:57.600 --> 00:46:04.160
+ It's just insane feet that I just can't believe and it's some weird genre like game hacks or something
+
+00:46:04.480 --> 00:46:07.920
+ But it's like this masterpiece people have dissected it decided to take this other history
+
+00:46:07.920 --> 00:46:09.120
+ It's got this wild
+
+00:46:09.120 --> 00:46:12.080
+ I gotta find the exact reference because I feel like I'm botching it
+
+00:46:12.080 --> 00:46:16.720
+ But it's something like that where like literally the amount of painstaking effort they had to put in
+
+00:46:16.720 --> 00:46:22.560
+ To write this thing in that way just blows the mind and for what it seems like something you would do it does
+
+00:46:22.560 --> 00:46:28.800
+ It's kind of my thing. I like monotony and like just like rolling time and things. I do you live in the Ozarks
+
+00:46:30.400 --> 00:46:36.320
+ It's one of my favorite things like kasey will there'll be some task we have to do that's just like scraping something off of a huge surface
+
+00:46:36.320 --> 00:46:39.440
+ And it's like she can't spend five minutes to just drive your crazy
+
+00:46:39.440 --> 00:46:42.720
+ I go give it to me and I just sat there the rest of the day like I love
+
+00:46:42.720 --> 00:46:48.160
+ Just playing monotony that like there's nothing to get excited about but it's something about it
+
+00:46:48.160 --> 00:46:52.720
+ Just soothes my soul. I can definitely relate to this because I often enjoy
+
+00:46:52.720 --> 00:46:57.760
+ Refactoring tasks and code that are really like brain dead tasks
+
+00:46:57.840 --> 00:47:01.120
+ It's like I decided to move all these files into its sub folder
+
+00:47:01.120 --> 00:47:05.760
+ So I need to go fix all the imports that references go file by file by file
+
+00:47:05.760 --> 00:47:08.240
+ and this to the point where I'm like
+
+00:47:08.240 --> 00:47:12.640
+ I can use tooling to make it go faster, but oftentimes I just don't do it by hand
+
+00:47:12.640 --> 00:47:15.120
+ It's something about it. It's soothing
+
+00:47:15.120 --> 00:47:18.640
+ I need things like that. It's because all the work is so like
+
+00:47:18.640 --> 00:47:23.200
+ Thinking so much thinking so it feels good to like get something done without having to think at all
+
+00:47:23.200 --> 00:47:26.960
+ Yeah, we can just kind of turn off for a bit. Yeah, I like it. Yeah
+
+00:47:27.600 --> 00:47:32.160
+ Okay, sometimes as we're recording now, I think about how Chris makes these like he
+
+00:47:32.160 --> 00:47:34.640
+ When he edits chris the editor
+
+00:47:34.640 --> 00:47:37.440
+ He makes these chapters that are like all the things we discuss
+
+00:47:37.440 --> 00:47:41.520
+ And I just started imagining the chapters for the episode we're talking about like oh geez
+
+00:47:41.520 --> 00:47:44.240
+ There's gonna be like 15 on this one and they're just all over the place
+
+00:47:44.240 --> 00:47:46.880
+ Not coherent at all
+
+00:47:46.880 --> 00:47:50.080
+ Entropy but not yeah, I mean that actually sounds very good
+
+00:47:50.080 --> 00:47:54.320
+ If it was just those but I'm afraid there were a lot of other things
+
+00:47:56.640 --> 00:47:58.640
+ Yeah, it's always a good one sure
+
+00:47:58.640 --> 00:48:03.680
+ I think it was fun. It's always fun. That's the thing about this is like
+
+00:48:03.680 --> 00:48:08.320
+ This podcast is just set up to succeed because we can do this every week for the rest of our lives
+
+00:48:08.320 --> 00:48:09.680
+ It's just true
+
+00:48:09.680 --> 00:48:12.960
+ It's uh, I mean I am seeing more feedback on twitter. That's been
+
+00:48:12.960 --> 00:48:17.520
+ Yeah, people are listening. We have people listening. You're not alone out there
+
+00:48:17.520 --> 00:48:21.200
+ There's aliens and there are other people listening to this podcast
+
+00:48:21.200 --> 00:48:23.680
+ You're not alone
+
+00:48:23.680 --> 00:48:30.160
+ Some of them might be aliens. Oh, yeah, possibly. Okay. We should probably go cool. See it. All right. See it
+

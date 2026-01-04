@@ -1,0 +1,1820 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.560
+ so prime has you convinced to try to get everyone to say squeal it sounds like because you're saying
+
+00:00:04.560 --> 00:00:09.840
+ squeal light and my squeal because he's because he's right i mean it's the when you think about
+
+00:00:09.840 --> 00:00:14.480
+ it's the only possible pronunciation because it's not a sequel like like ask you well it's
+
+00:00:14.480 --> 00:00:19.120
+ too weird and sequel is like so what's the prequel do you want do we need a prequel now is there
+
+00:00:19.120 --> 00:00:24.560
+ a sequel so squeal look he's just right and that's it right he's just right there's technically no
+
+00:00:24.560 --> 00:00:29.680
+ problems with squeal besides the fact that it maybe just sounds a little ridiculous to most people
+
+00:00:29.680 --> 00:00:44.320
+ but that's only until you get used to it
+
+00:00:44.320 --> 00:00:59.520
+ yeah if there's any germans listening to that like uh the only phrase i know in german
+
+00:00:59.520 --> 00:01:05.760
+ is ich glauben ich bin glauber yeah which means i believe i am the believer good glauben
+
+00:01:05.760 --> 00:01:11.600
+ and then i am the believer i guess i guess i don't know i mean that's better maybe they're all
+
+00:01:11.600 --> 00:01:15.440
+ trolling me because the entirety of german is trolling me that's definitely a possibility yeah
+
+00:01:15.440 --> 00:01:19.680
+ when i when i saw your name i i've seen this whole time you're a european because it i could
+
+00:01:19.680 --> 00:01:25.920
+ like recognize it was like a more european sound yeah i i met i met a guy in germany as well he said
+
+00:01:25.920 --> 00:01:33.760
+ he hated me because of my name but his name was jon glauber right and he said before you started
+
+00:01:33.760 --> 00:01:39.520
+ contributing to the links kernel i could just look into the logs like a contribution and grab
+
+00:01:39.520 --> 00:01:43.520
+ for glauber and i would find myself but now you've completely ruined that experience for me because
+
+00:01:43.520 --> 00:01:48.800
+ now there's you because obviously you want to do this with jon just yeah lava was his last name
+
+00:01:48.800 --> 00:01:54.400
+ right just that it was my first name but cost that costa is Portuguese which is my last name okay
+
+00:01:54.400 --> 00:01:58.160
+ hey you said you're from brazil but i know like in argentina there's a lot of i was born
+
+00:01:58.160 --> 00:02:01.360
+ brazil yeah argentina is a lot of like european ancestry there too because i know a bunch of
+
+00:02:01.360 --> 00:02:08.320
+ argentinans that have european last names like like very german last names yeah well like i guess
+
+00:02:08.320 --> 00:02:12.720
+ uh one of the most famous brazilian persons there is like josel she has a very extremely
+
+00:02:12.720 --> 00:02:17.440
+ german last name i mean this is not my case like my family i think is mostly Portuguese just my
+
+00:02:17.440 --> 00:02:23.120
+ names there okay when do they go over the brazil how many generations ago the how do i know i was
+
+00:02:23.120 --> 00:02:29.120
+ actually like i i'm going to get canceled for that one but um here we are uh i was i actually had my
+
+00:02:29.120 --> 00:02:35.360
+ brazilian citizenship revoked uh they don't allow me in the country yeah oh wow i absolutely despise
+
+00:02:35.360 --> 00:02:40.640
+ soccer i hate it just like get the f out of here don't ever come back and i i don't come back i mean
+
+00:02:40.640 --> 00:02:47.200
+ i just i don't have a lot of cultural uh connection yeah so to speak mostly because of that right i don't
+
+00:02:47.200 --> 00:02:52.880
+ like soccer so who are you yeah i mean i'm the same way i'm like at this point i'm fully american
+
+00:02:52.880 --> 00:03:00.320
+ like i haven't been back to india in 15 years maybe i am an american citizen but i think i have
+
+00:03:00.320 --> 00:03:04.640
+ the i forgot what it was but i have this thing where i'm technically the us doesn't recognize dual
+
+00:03:04.640 --> 00:03:09.760
+ citizenship but uh india is fine with it so i think i'm taking it's like my backup in case
+
+00:03:09.760 --> 00:03:15.040
+ something really really bad happens i do have a backup but again i have no real connection there
+
+00:03:15.040 --> 00:03:21.520
+ at all always good to have a backup now well you're saying uh you're talking about you used to be or
+
+00:03:21.520 --> 00:03:26.640
+ you're contributed to the linux kernel um so i guess before we get into some stuff like it's
+
+00:03:26.640 --> 00:03:33.360
+ set a little bit of context so uh you are now a founder of a company called torso um prior to that
+
+00:03:33.360 --> 00:03:37.680
+ you worked on something called cilla which i'm actually familiar with and we can kind of talk
+
+00:03:37.680 --> 00:03:42.560
+ about that a little bit and as well as you were a linux contributor so tell me more about like
+
+00:03:42.560 --> 00:03:49.200
+ how all that came together and kind of your career path up to starting to work on torso yeah
+
+00:03:49.200 --> 00:03:54.160
+ yeah absolutely so like when i when i started my career like i didn't much care about startups
+
+00:03:54.160 --> 00:03:59.360
+ or anything like that uh i again i i think the environment that i was it wouldn't have made sense
+
+00:03:59.360 --> 00:04:04.320
+ anyway but like i really liked open source and i i think we had some exchanges you might have been
+
+00:04:04.320 --> 00:04:09.440
+ part of some of them on twitter like when i was doing open source back then first of all i didn't
+
+00:04:09.440 --> 00:04:16.080
+ do open source because open source was the dirty word i did free software right so i was actually a
+
+00:04:16.080 --> 00:04:21.520
+ member of the free software foundation and like uh richard stoneman and all the things like that
+
+00:04:21.520 --> 00:04:26.000
+ and and i still think by the way that like if it richard stoneman i don't know if we can curse or
+
+00:04:26.000 --> 00:04:31.200
+ not but if it wasn't such an asshole uh we will probably be in a better position because like the
+
+00:04:31.200 --> 00:04:38.000
+ ideas of resaupture are great just this personality is intractable uh but anyway this wasn't in the
+
+00:04:38.000 --> 00:04:44.240
+ original question but like i i took i i always so i like free software or open source as as we call
+
+00:04:44.240 --> 00:04:48.880
+ it the distilled version today and i liked uh low-level stuff i was never too much i mean this
+
+00:04:48.880 --> 00:04:55.440
+ distinguishable like uh the web and and later on mobile like you never attracted me uh as as as a
+
+00:04:55.440 --> 00:05:01.680
+ developer uh i i always was fascinated with the Linux kernel and and systems like systems level
+
+00:05:01.680 --> 00:05:06.240
+ software in general and the moment i found oh i can actually read the code for this stuff uh that
+
+00:05:06.240 --> 00:05:10.800
+ that sold me 100 so i started there and i was just i mean i was still in school so i was contributing
+
+00:05:11.280 --> 00:05:18.240
+ um i have the story and and and i try to find it just for for twitter's sake uh where my first
+
+00:05:18.240 --> 00:05:23.120
+ contribution to the Linux kernel unfortunately this happened in 2004 and i think the the oldest
+
+00:05:23.120 --> 00:05:28.960
+ thread that i could find was 2005 like archive threads so i i couldn't find this message my first
+
+00:05:28.960 --> 00:05:34.320
+ contribution to the Linux kernel this guy i'll never forget him or viral uh he comes and say that
+
+00:05:34.320 --> 00:05:39.520
+ this patch is is wrong in so many ways it has only three lines of code but introduces seven bugs
+
+00:05:39.520 --> 00:05:43.280
+ and it should never be allowed to close your computer again so i mean that was that was my first
+
+00:05:43.280 --> 00:05:49.760
+ introduction like Linux is known to be like this very welcoming place right uh i don't know if
+
+00:05:49.760 --> 00:05:54.000
+ it's bad or not today but like i did this for you any anyhow i got super sad about that but i didn't
+
+00:05:54.000 --> 00:05:59.520
+ let them you know it affected me for a couple of days but i kept doing it uh and i just started
+
+00:05:59.520 --> 00:06:05.520
+ contributing for you know fun fun and giggles uh obviously i mean i liked it so i wanted a career
+
+00:06:05.520 --> 00:06:10.480
+ out of that but it wasn't clear at that point so i started doing it eventually got hired by Red Hat
+
+00:06:10.480 --> 00:06:17.600
+ uh they started i worked in total uh in the Linux kernel uh a little bit before Red Hat i had a
+
+00:06:17.600 --> 00:06:22.480
+ small job uh in a company in Russia that's when i moved to Russia which i did uh to work for this
+
+00:06:22.480 --> 00:06:27.760
+ company for another two years but in total i spent like ten years doing this and one of my major
+
+00:06:27.760 --> 00:06:33.040
+ things that i did in the Linux kernel uh was i i was a part of the kvm team uh the virtualization
+
+00:06:33.040 --> 00:06:39.600
+ the hypervisor that AWS today uses and i got to be very good friends with the creator of kvm and
+
+00:06:39.600 --> 00:06:45.440
+ when they started startup uh they don't say hey maybe maybe now is the time for me to stop looking
+
+00:06:45.440 --> 00:06:50.960
+ into just like hey cold cold cold cold then go work in a startup environment uh i i don't think at
+
+00:06:50.960 --> 00:06:55.200
+ the time i would have worked very well in like a general purpose startup i mean it was a very
+
+00:06:55.200 --> 00:07:00.480
+ heavy infrastructure startup so i joined uh we were trying to do something that did not work at all
+
+00:07:01.200 --> 00:07:06.640
+ uh so we spent a lot of time doing that uh that was called OSV which was a no which was an operating
+
+00:07:06.640 --> 00:07:12.000
+ system like a library OS uh just just for dimension and then after that didn't work that company
+
+00:07:12.000 --> 00:07:16.720
+ pivoted into cilla so that's uh that's how i ended up with cilla at the time i knew nothing
+
+00:07:16.720 --> 00:07:21.440
+ about databases you could argue that i still don't you know just uh it's always a you could
+
+00:07:21.440 --> 00:07:26.800
+ argue i mean why not just uh it would be fun but uh that's how i got introduced to like the database
+
+00:07:26.800 --> 00:07:34.880
+ world and etc yeah so i think uh i think that's maybe where it's not other paths cross but i guess
+
+00:07:34.880 --> 00:07:41.360
+ your work crossed crossed me at least uh so i was i was pretty early on my career at the point i was
+
+00:07:41.360 --> 00:07:47.200
+ working at a company that was just collecting a ton of ton of analytics data um and we deployed
+
+00:07:47.200 --> 00:07:53.280
+ Cassandra i was back in the day you know like deploying Cassandra meant like running up your servers
+
+00:07:53.280 --> 00:07:56.320
+ and like creating the club like doing everything or it's not it's not like there was a managed
+
+00:07:56.320 --> 00:07:59.840
+ Cassandra actually there was a managed Cassandra option i'm forgetting the name of the company
+
+00:07:59.840 --> 00:08:05.120
+ uh was it data starting this training one no data stacks their managed data stacks was the
+
+00:08:05.120 --> 00:08:10.800
+ main company they did manage Cassandra much later that was just the cluster cluster yeah yeah yeah
+
+00:08:10.800 --> 00:08:16.880
+ that's the one good guys the super good folks nice yeah but uh at this time we were kind of
+
+00:08:16.880 --> 00:08:22.320
+ running it on our own and i was like i like and i i think i've had a weird career maybe
+
+00:08:23.360 --> 00:08:27.520
+ your career is also maybe a little bit non-traditional um i spent a lot to say the least
+
+00:08:27.520 --> 00:08:34.080
+ in terms like databases i think most people when they start to build stuff they will use like a
+
+00:08:34.080 --> 00:08:37.440
+ relational database and they'll spend most of their career there and maybe every once in a while
+
+00:08:37.440 --> 00:08:44.720
+ they're like interact with like a non sequel type database uh is weird inverse path where i mostly
+
+00:08:44.720 --> 00:08:48.560
+ work with non-sequel databases for a long time and only more recently i've been using
+
+00:08:49.200 --> 00:08:54.320
+ uh sequel focused databases um so so look my my career if it's even weird than that because
+
+00:08:54.320 --> 00:09:00.880
+ before i used the non-sequel database i wrote one yeah that's funny like i wasn't a user of that
+
+00:09:00.880 --> 00:09:05.040
+ like eventually i which is why like honest honest you got i mean i think the founders know that
+
+00:09:05.040 --> 00:09:08.880
+ are so very good friends of them i love them too to my hard but i i considered quitting
+
+00:09:08.880 --> 00:09:12.880
+ right because when we were pivoting it was like what the hell do i know about this i mean like it
+
+00:09:12.880 --> 00:09:18.640
+ doesn't doesn't feel like i know about it like so again i was not the the person ideating that we
+
+00:09:18.640 --> 00:09:23.760
+ should build this but we decided to build this and i was like i feel very out of place uh two months
+
+00:09:23.760 --> 00:09:29.920
+ my my the first like two months before after we officially pivoted it was like really a bad time
+
+00:09:29.920 --> 00:09:34.240
+ for me because imagine that i came i came from this perspective like i've done this thing that i know
+
+00:09:34.240 --> 00:09:39.040
+ how to do for 10 years and then i'm in the startup what i call it the whole reason i'm in the startup
+
+00:09:39.040 --> 00:09:44.320
+ is because we're doing this the stuff that i'm really i'm really good at uh and talk what you want
+
+00:09:44.320 --> 00:09:49.680
+ about you have to be flexible etc like after 10 years you kind of get set in your ways and it
+
+00:09:49.680 --> 00:09:55.280
+ also easier said than done uh eventually i got to the point where hey look now i'm in a good place
+
+00:09:55.280 --> 00:10:00.240
+ i'm cruising but my first two months were like a really complicated man because but then i wrote
+
+00:10:00.240 --> 00:10:05.040
+ a database before i even even knew about one i just i had no idea how no sequel worked or anything
+
+00:10:05.040 --> 00:10:09.600
+ like that yeah i mean once you're 10 years into something you're like used to being pretty good at
+
+00:10:09.600 --> 00:10:14.960
+ it and then when you have to shift yeah exactly this feeling is not easy yeah it's tough this feeling
+
+00:10:14.960 --> 00:10:18.880
+ is not easy yeah but it's also like the most important thing to get through yeah i feel it today
+
+00:10:18.880 --> 00:10:24.800
+ because i've been a developer like a low-level systems programmer for 20 years now if you sum up
+
+00:10:24.800 --> 00:10:30.480
+ both and i'm a founder like what the hell do i know i know nothing yeah it's a it's a painful
+
+00:10:30.480 --> 00:10:34.800
+ feeling but it's also what prevents you from getting bored right i'm sure like you do anything for
+
+00:10:34.800 --> 00:10:40.320
+ long enough it's like you there's not as many opportunities to to feel like you're you're progressing so
+
+00:10:40.320 --> 00:10:46.160
+ those resets are good um so yeah we were we had a Cassandra deployment and i think that's when i
+
+00:10:46.160 --> 00:10:50.320
+ first i think still i had just come out or like it came out of it so i forgot what it was but then
+
+00:10:50.320 --> 00:10:55.920
+ it came across uh and we were constantly oh here's the other thing so we did not know what we were
+
+00:10:55.920 --> 00:11:00.240
+ doing when we were sort of first started using Cassandra it took us a little while to understand
+
+00:11:00.240 --> 00:11:05.920
+ the idea of partitions and how partitions and how you should like how you data model stuff uh so
+
+00:11:05.920 --> 00:11:10.800
+ we definitely went through that cycle of doing it wrong uh wondering why our cluster was like just
+
+00:11:10.800 --> 00:11:16.080
+ dying but also at that point we were like man this is this model is interesting and it's
+
+00:11:16.080 --> 00:11:22.800
+ useful but i really felt like the Java aspect of it was kind of really killing us in a lot of ways
+
+00:11:22.800 --> 00:11:27.520
+ and just dealing with a lot of those side effects you have when you are running such a large-scale
+
+00:11:27.520 --> 00:11:34.240
+ Java fateful thing um yeah and it's still kind of still it was in C++ right it was like uh
+
+00:11:34.240 --> 00:11:38.640
+ that's right compatible with Cassandra and then but like the under the hood it was completely
+
+00:11:38.640 --> 00:11:42.880
+ from scratch yeah C++ and then like i i will never forget when we announced till there was this
+
+00:11:42.880 --> 00:11:47.440
+ message on the Cassandra mailing list like people commenting on it and a bunch of people man this
+
+00:11:47.440 --> 00:11:51.120
+ is their reaction the favorite reaction of the internet like those a bunch of idiots like oh
+
+00:11:51.120 --> 00:11:55.040
+ yeah don't other people we had another group of people claiming that they're better how can they
+
+00:11:55.040 --> 00:11:59.840
+ be 10 times faster because like C++ is like and then it starts CPU bound and IO bound and
+
+00:11:59.840 --> 00:12:05.280
+ blah blah nobody deeply looked into that yeah and then it's just like oh they must be they must be
+
+00:12:05.280 --> 00:12:10.240
+ running everything in memory that's why it's faster like it just uh man and like the the thing is that
+
+00:12:10.240 --> 00:12:15.440
+ the arcade yes we wrote the whole thing in C++ but then the architectural differences between Cassandra
+
+00:12:15.440 --> 00:12:22.560
+ and C++ and Cilla were so immense like the the 10x was usually the baseline i mean we were much
+
+00:12:22.560 --> 00:12:28.880
+ more than 10 times faster by the way i'm watching bun now yeah with with that feeling of like hey
+
+00:12:28.880 --> 00:12:34.480
+ those guys are doing what we did to uh to Cassandra back then so i know how that story plays out and
+
+00:12:34.480 --> 00:12:40.880
+ like uh i'm wishing Jared here all the all the luck in the world it's tough it's hard uh he's already
+
+00:12:40.880 --> 00:12:45.200
+ starting to hear some of the things that we heard back then oh you said this is dropping replacement
+
+00:12:45.200 --> 00:12:49.600
+ but it isn't really because there is this different and those differences will be there forever right
+
+00:12:49.600 --> 00:12:53.840
+ so it's a tough fight but it's a fight we're fighting because man like we need more efficiency in our
+
+00:12:53.840 --> 00:12:57.520
+ lives i guess yeah you know it's definitely an important thing and i think especially when something
+
+00:12:57.520 --> 00:13:03.360
+ new comes out uh i talk about it's all the time people will point to things that are missing as
+
+00:13:03.360 --> 00:13:10.240
+ though it's like relevant uh there are some things in bun that are missing but there's nothing architecturally
+
+00:13:10.240 --> 00:13:14.480
+ that prevents those things from eventually showing up so i think people get hung up we hit we hit an
+
+00:13:14.480 --> 00:13:19.440
+ issue we hit an issue with through so uh running with bun as well so when i get it i get it and but
+
+00:13:19.440 --> 00:13:25.520
+ what happens is like what from the point of view of the person like Jared or like us at Silla what
+
+00:13:25.520 --> 00:13:30.400
+ you do is that you look at the market you look at how people are using this and then you notice that
+
+00:13:30.400 --> 00:13:35.600
+ okay there's a thousand people they use this uh this feature is needed by 800 people and then
+
+00:13:35.600 --> 00:13:39.840
+ i'm going to go and quote that feature this other feature is like needed by 10 people or 20 people
+
+00:13:39.840 --> 00:13:46.480
+ etc so maybe i'll do this later i'm not going to do it at all so if a thousand people try it and
+
+00:13:46.480 --> 00:13:51.760
+ they say well i just dropped in and it worked and then some other people try it and it doesn't work
+
+00:13:51.760 --> 00:13:54.720
+ like is it dropping replacement i think it is because i mean so
+
+00:13:54.720 --> 00:14:01.920
+ Cassandra wasn't dropping replacement with Cassandra at the times and i guess no it has the same
+
+00:14:01.920 --> 00:14:05.120
+ thing right you change something here you change something there so yeah it's a different thing
+
+00:14:05.840 --> 00:14:11.040
+ but you know at the end of the day you can definitely claim it is yeah yeah i think people get hung
+
+00:14:11.040 --> 00:14:15.280
+ up on like the little details but it eventually will be and there's nothing preventing it from
+
+00:14:15.280 --> 00:14:20.720
+ covering it and that's kind of one of the nice things about selling into a market that's so clearly
+
+00:14:20.720 --> 00:14:25.680
+ defined like when you're doing drop on placement people will just tell you exactly what you need
+
+00:14:25.680 --> 00:14:30.240
+ to do and in what order i think when you're building things that are a little bit more like brand new
+
+00:14:30.240 --> 00:14:34.800
+ or it's not really established you're constantly like what do i do next i have these hundred things
+
+00:14:34.800 --> 00:14:40.160
+ that i can do which one do i do which one matters the moment you have something so established it's
+
+00:14:40.160 --> 00:14:44.720
+ like the roadmap is included i mean it's very challenging in a bunch of different ways but
+
+00:14:44.720 --> 00:14:51.040
+ the question of like what do what should we be doing isn't you know as as prevalent you worked
+
+00:14:51.040 --> 00:14:57.040
+ at sila did you have you been there since then and you started to sew or did you stop by anywhere else
+
+00:14:57.040 --> 00:15:03.360
+ full story like the full story is that like after in 2020 i left sila so i was i knew i was ready
+
+00:15:03.360 --> 00:15:08.720
+ to make them move i mean i've been there for almost eight years and and etc but then in 2020 everybody
+
+00:15:08.720 --> 00:15:13.840
+ remembers what happens in 2020 so just uh wasn't wasn't the right time i was moving homes as well as
+
+00:15:13.840 --> 00:15:21.040
+ moving to a different city i have i have recently had my first kid so i joined data dog and my plan
+
+00:15:21.040 --> 00:15:25.680
+ of course like no joke my plan was to stay a data dog for like a couple a couple of years i said
+
+00:15:25.680 --> 00:15:29.440
+ in two years four years maybe let me get my full vesting when you know let me because that's the
+
+00:15:29.440 --> 00:15:34.560
+ time i mean i never like doing like a lot of uh job hopping uh which is what i said i've done
+
+00:15:34.560 --> 00:15:40.720
+ almost eight years of red hat uh and then maybe i'm doing like they do the popes i mean there was
+
+00:15:40.720 --> 00:15:44.720
+ the story that with popes like they have a long raining pop and then the next one they tried to
+
+00:15:44.720 --> 00:15:48.960
+ make it short but then you know i just i have kind of did this uh by accident so after eight years of
+
+00:15:48.960 --> 00:15:54.480
+ red hat they had two years that i stayed in this company in russia uh then i stayed eight years with
+
+00:15:54.480 --> 00:16:01.520
+ with cilla uh and one year a data dog again i wanted to do more uh but uh i think fate wanted
+
+00:16:01.520 --> 00:16:06.720
+ this way uh i had a couple of investors that were reaching capital in 2020 was very early
+
+00:16:06.720 --> 00:16:12.320
+ abundant right oh i remember good times oh yeah good times yeah i had a bunch of investors reaching
+
+00:16:12.320 --> 00:16:17.840
+ out to me essentially hey if you ready to start the company which i always wanted to do right just
+
+00:16:17.840 --> 00:16:24.000
+ i'm ready to sign a check it's okay like just uh uh and then uh michael founder and i like we doodle on
+
+00:16:24.000 --> 00:16:28.640
+ some ideas uh the the first idea that we hit was also not through so like we started doing something
+
+00:16:28.640 --> 00:16:33.760
+ else which is super funny because it was always like when i start my own company i had this trauma
+
+00:16:33.760 --> 00:16:39.120
+ of like the company that became cilla doing this extreme like very very little validation like
+
+00:16:39.120 --> 00:16:44.320
+ just not and if they've done i've seen none of that right uh and then we ended up pivoting because
+
+00:16:44.320 --> 00:16:48.720
+ nobody wanted to use the product like they were like in in your very wise words the the words that
+
+00:16:48.720 --> 00:16:54.640
+ you are uh very famous for on twitter they had zero users uh after two years developing so i said i
+
+00:16:54.640 --> 00:16:58.080
+ you know the thing of when i have my kids i'm not gonna do like that same thing when i have my own
+
+00:16:58.080 --> 00:17:03.040
+ startup i'm gonna do tons of validation which i did and ended up ended up with zero users anyway
+
+00:17:03.040 --> 00:17:06.800
+ so i mean that taught me a lesson that taught me a lesson right to just the easier said than done
+
+00:17:06.800 --> 00:17:12.000
+ and validation and where do you look for those signs so it's essentially an opportunistic thing
+
+00:17:12.000 --> 00:17:15.840
+ i mean i saw the cap that we had an idea that we truly believed in we thought hey this is this
+
+00:17:15.840 --> 00:17:20.320
+ is a good idea this is something that we want to do uh and then i talked to peck i said michael
+
+00:17:20.320 --> 00:17:24.320
+ founder and said hey peck like if let's let's do it man and just that he was a little bit frightened
+
+00:17:24.320 --> 00:17:30.240
+ you know because europeans they're not as adventurous as we are like uh but eventually we decided we
+
+00:17:30.240 --> 00:17:34.720
+ decided to do it yeah so i mean the the validation thing is really interesting i did the basically
+
+00:17:34.720 --> 00:17:39.920
+ the exact same thing it's funny like you can know all this stuff and then until you do it you just
+
+00:17:39.920 --> 00:17:45.360
+ make the exact same mistakes that you thought you were gonna avoid i ended up i read it i later on
+
+00:17:45.360 --> 00:17:50.880
+ like and i almost dislike the guy now i'm kidding i just i love him one of my best advisors uh pete
+
+00:17:50.880 --> 00:17:56.960
+ hunter creator or react if you're hearing that uh as you know i love you i got borderline mad at him
+
+00:17:56.960 --> 00:18:03.040
+ for not mentioning this to me before right but obviously he recommend he recommended me a book
+
+00:18:03.040 --> 00:18:08.160
+ that i read and recommend it to your audience here called the mom test hmm have you heard this
+
+00:18:08.160 --> 00:18:12.720
+ book i know the concept i didn't know it was a whole book yeah it's a whole book and the concept is
+
+00:18:12.720 --> 00:18:17.680
+ again pretty simple that i had never done before like if you ask people uh what do they think of
+
+00:18:17.680 --> 00:18:22.000
+ your idea they're gonna lie to you so the book is about like strategies to extract the truth
+
+00:18:22.000 --> 00:18:27.520
+ from a group of people that you know gonna lie to you because your mom it's just she's never gonna
+
+00:18:27.520 --> 00:18:33.360
+ say oh it sucks it's a great idea oh of course a great idea go for it like uh but like how do you
+
+00:18:33.360 --> 00:18:38.480
+ extract the truth from people that uh are lying to you and reading that book i mean i saw the story of
+
+00:18:39.680 --> 00:18:43.200
+ many things that i've done wrong many many things that i've done wrong because you think you're
+
+00:18:43.200 --> 00:18:46.960
+ validating you think you're validating like because you're talking to a lot of people because you're
+
+00:18:46.960 --> 00:18:51.840
+ asking a lot of questions but then everybody's lying to you and in some ways you're worse off by
+
+00:18:51.840 --> 00:18:57.280
+ having tried to validate incorrectly then they're not validating at all because now you're like
+
+00:18:57.280 --> 00:19:02.800
+ very committed to a direction that's not maybe maybe sound yeah it's the stuff is so counter-intuitive
+
+00:19:02.800 --> 00:19:07.600
+ like another thing that i run to is uh i think oh i see a lot as people pick like ideas that are
+
+00:19:07.600 --> 00:19:11.680
+ too small the emotions behind it kind of make sense it's like you are trying to start something
+
+00:19:11.680 --> 00:19:17.840
+ from zero you got to pick a narrow area to focus on so you can like start somewhere but you still
+
+00:19:17.840 --> 00:19:22.560
+ need an idea that's huge otherwise like you're just gonna get stuck in this little tiny thing that
+
+00:19:22.560 --> 00:19:25.760
+ you know you're never really gonna break break into something so that's another mistake i've made
+
+00:19:25.760 --> 00:19:31.360
+ where you had to find you got to make sure you start small but your entire idea can't just be
+
+00:19:31.360 --> 00:19:35.520
+ just that and we're listening you can listen to me say this you can hear me say as you think you
+
+00:19:35.520 --> 00:19:40.480
+ understand it but you're gonna make this mistake too nobody can save you time it's as impossible
+
+00:19:40.480 --> 00:19:44.480
+ it's not only the hardest things that uh you have to deal with maybe want to give a quick description
+
+00:19:44.480 --> 00:19:48.480
+ of what terso is and we can kind of talk about what was so compelling for you guys to start it
+
+00:19:48.480 --> 00:19:52.240
+ also again we didn't start terso so the compelling the compelling thing was uh
+
+00:19:52.240 --> 00:19:55.440
+ was a different idea right the original project that we had was called chisel strike
+
+00:19:55.440 --> 00:20:00.320
+ i'm i'm getting convinced i mean this is super hard thing for us to admit because like as a founder
+
+00:20:00.320 --> 00:20:04.320
+ you kind of love your ideas you you always tend to think oh i have the right idea but the wrong
+
+00:20:04.320 --> 00:20:08.960
+ this happened and this happened it's it's easy to put blame outside right but but i think i put
+
+00:20:08.960 --> 00:20:16.000
+ the blame squarely on us i think we've uh we ended up with what uh y combinator and so a great video
+
+00:20:16.000 --> 00:20:21.440
+ of them describes is a tarpet idea right because that idea there's very reductive and then you look
+
+00:20:21.440 --> 00:20:25.520
+ at the market and there is no established players and then you think wow this is my opportunity but
+
+00:20:25.520 --> 00:20:31.680
+ again the reason there is no established players is that people tried before and and they got you
+
+00:20:31.680 --> 00:20:37.360
+ know they started to tarpet uh so but uh again i'm not gonna spend too much time on it but it was
+
+00:20:37.360 --> 00:20:43.280
+ essentially uh what we we understood a couple of we had a couple of good ideas as part of this
+
+00:20:43.280 --> 00:20:49.600
+ tarpet idea one of them was that uh squeal light it was a great database for like today's workload
+
+00:20:49.600 --> 00:20:57.760
+ uh again go back to mongo tv in 2010 like the web scale kind of thing this kind of workloads
+
+00:20:57.760 --> 00:21:01.440
+ that people run on mongo tv back then didn't grow that much like so the workloads are
+
+00:21:01.440 --> 00:21:05.120
+ growing but they're growing very slowly like people talk about data growing exponentially
+
+00:21:05.120 --> 00:21:11.520
+ this is true for some subsets of data but uh you know but the the machines got a lot bigger like the
+
+00:21:11.520 --> 00:21:18.480
+ mongo tv that back then like a today can have a device they rent from AWS with a terabyte of
+
+00:21:18.480 --> 00:21:24.480
+ of of NVMe like like it's nothing uh and big data back then was like a hundred gigabytes right and
+
+00:21:24.480 --> 00:21:30.880
+ and so we understood like for the today's workload squeal light is the thing to do and it runs locally
+
+00:21:30.880 --> 00:21:35.440
+ the developer experience is the best possible uh and it's super cheap so you can really put it
+
+00:21:35.440 --> 00:21:43.120
+ everywhere and and like uh and we wanted we we knew that the edge was real uh in in a sense because
+
+00:21:43.120 --> 00:21:47.360
+ like there's a lot of confusion about what is the edge and like is this a runtime or what not but
+
+00:21:47.360 --> 00:21:51.680
+ like from from my i didn't come from this industry so like oh this whole thing about edge run time
+
+00:21:51.680 --> 00:21:59.200
+ this was new to me i was looking into the edges like hey this thing between the cloud and you yes
+
+00:21:59.200 --> 00:22:04.480
+ right so this is real i mean however you want to call it this is how you get latency to this
+
+00:22:04.480 --> 00:22:08.320
+ in place so we knew this was the thing and then we knew like all those front and developers are
+
+00:22:08.320 --> 00:22:13.440
+ all trying to deploy to the edge let's look into that uh we knew squeal light was part of the answer
+
+00:22:13.440 --> 00:22:18.240
+ because uh you know my squeal and postgres were not really up to you know they're too just too heavy
+
+00:22:18.240 --> 00:22:23.920
+ uh and and and we've done a bunch of stuff around that we we embedded dino into like a we had a
+
+00:22:23.920 --> 00:22:28.000
+ something that was dino plus squeal light plus a bunch of stuff together and that was chisel strike
+
+00:22:28.000 --> 00:22:34.240
+ right yeah catch it over time we kind of noticed that uh yeah we weren't really getting the traction
+
+00:22:34.240 --> 00:22:42.160
+ that we needed but the database part was uh was super people really liked it and
+
+00:22:42.160 --> 00:22:47.360
+ tells you a lot by the way about market and about there are some ideas that they potentially are
+
+00:22:47.360 --> 00:22:55.520
+ good idea depending where and and from whom they come from uh and what a lot of people told us is
+
+00:22:55.520 --> 00:23:00.320
+ that look your idea is very confusing because you're claiming to be a code platform because there
+
+00:23:00.320 --> 00:23:07.120
+ is TypeScript but then you but you also database and like it what where do I deploy this i mean
+
+00:23:07.120 --> 00:23:12.000
+ is this something in the place of herself like no you deploy part of you deploy a front end coach
+
+00:23:12.000 --> 00:23:15.680
+ of herself but they need to play her back and coach to us so there was some confusion in there
+
+00:23:15.680 --> 00:23:22.240
+ and being just a database allow us to get the nice parts of that idea like the parts that were
+
+00:23:22.240 --> 00:23:27.840
+ resonating more of the people put this in a category i mean and the category thing matters
+
+00:23:27.840 --> 00:23:32.320
+ for people who are thinking about creating your own startups matter a lot more than you would
+
+00:23:32.320 --> 00:23:39.040
+ think it matters so just which category that that you choose to play so it's a it's a category
+
+00:23:39.040 --> 00:23:44.480
+ that i that we understand as as the founders it's a categories that developers understood lots of
+
+00:23:44.480 --> 00:23:49.840
+ the resistance that developer had to a point to your your out to the service when you say point
+
+00:23:49.840 --> 00:23:55.440
+ as your out to your database right this this resistance is gone and again we knew that squirrel
+
+00:23:55.440 --> 00:24:01.120
+ like there was the way to get this thing replicated everywhere at a low cost which is what we specialize
+
+00:24:01.120 --> 00:24:06.720
+ in doing and go from there and develops locally so the good parts like we took the good parts so
+
+00:24:06.720 --> 00:24:11.680
+ let's try to build a company out just on top of that and that was like a billion trillion times
+
+00:24:11.680 --> 00:24:15.520
+ more successful of course but let's talk about this edge so i i also agree with the whole like
+
+00:24:15.520 --> 00:24:20.240
+ edge runtime so i don't know if you remember or if you saw like i was very upset for a couple of
+
+00:24:20.240 --> 00:24:24.480
+ days being like can we stop it with this edge runtime thing it's like the worst name thing in
+
+00:24:24.480 --> 00:24:29.840
+ the world everyone is so confused about it whenever we talk about it they're like wait like nobody
+
+00:24:29.840 --> 00:24:33.680
+ understands because sometimes when people think about it as like the geography some people think
+
+00:24:33.680 --> 00:24:41.280
+ about it as a runtime uh and then the thing that kills me that proves my point is edge runtime is
+
+00:24:41.280 --> 00:24:47.200
+ a bad name if you now also release a project product called regional edge runtime they just
+
+00:24:47.200 --> 00:24:53.040
+ out of the word regional yeah just like just call it something else please uh but i think it's too late
+
+00:24:53.040 --> 00:24:57.360
+ i think it's it's messed up the name i get i go crazy with the naming stuff because there's more
+
+00:24:57.360 --> 00:25:03.200
+ and there's more the the part that annoys me the most is that like i again uh application developers
+
+00:25:03.200 --> 00:25:09.600
+ put it this way because i i'm saying that because i i it's not a mistake that i believe i've seen
+
+00:25:09.600 --> 00:25:14.240
+ first people like you making like people in infrastructure so uh maybe it's just because like
+
+00:25:14.240 --> 00:25:19.520
+ however selling cloud fair have been marketing this but application developers tend to associate
+
+00:25:19.520 --> 00:25:24.960
+ too much edge with serverless yeah so a lot of a lot of the things they say about the quote unquote
+
+00:25:24.960 --> 00:25:30.000
+ the edge are really limitations because of the serverless model not because of the edge
+
+00:25:30.000 --> 00:25:35.920
+ uh and then because of the specific platform so here's stuff like go edge on the edge so the
+
+00:25:35.920 --> 00:25:41.360
+ other databases for example like the planet scale neon for example they claim we have an edge
+
+00:25:41.360 --> 00:25:46.720
+ database why because it talks over HTTP what what why does that make you an edge database
+
+00:25:46.720 --> 00:25:55.120
+ well because the edge only supports fetch no just yeah no the edge just uh those specific places
+
+00:25:55.120 --> 00:25:59.040
+ like the versatile cloud fair it does not even truly mark because you look at cloud flare they're
+
+00:25:59.040 --> 00:26:05.840
+ changing now their workers to do TCP yeah so what what is an edge database and our response to that
+
+00:26:05.840 --> 00:26:12.640
+ is that like an edge database needs to be a database that replicates so there are two things that
+
+00:26:12.640 --> 00:26:18.400
+ makes the edge of the edge for me first of all massive replication because the edge in any
+
+00:26:18.400 --> 00:26:24.480
+ incarnation is that i'm executing my code close to my users boom right so if the data is far you're
+
+00:26:24.480 --> 00:26:30.320
+ you're you're you're either not better or at worse slower now because you have many round trips to
+
+00:26:30.320 --> 00:26:36.000
+ the database before you you know it was simpler like the difference between deploying to the edge
+
+00:26:36.000 --> 00:26:41.200
+ and then i'm everywhere and deploying to AWS in five regions with five Kubernetes clusters is that
+
+00:26:41.200 --> 00:26:46.160
+ when you do the latter you're very aware of where your regions are you're very aware of west room
+
+00:26:46.160 --> 00:26:50.960
+ going where like those those things are very explicit in your design and and i think when you think
+
+00:26:50.960 --> 00:26:55.600
+ about the edge those things are transparent right so you push your code out there be to a
+
+00:26:55.600 --> 00:27:01.280
+ serverful edge offering or a serverless edge offering and shit kind of just works and you don't
+
+00:27:01.280 --> 00:27:06.080
+ have to be thinking about where is my stuff right now it is where it needs to be so for me an edge
+
+00:27:06.080 --> 00:27:11.440
+ database is not only a database that is replicated in a lot of locations for a reasonable price
+
+00:27:11.440 --> 00:27:16.960
+ but also a database that doesn't require you to worry about where my replicas are how do i get
+
+00:27:16.960 --> 00:27:21.440
+ there which replica has which data this does have to be transparent so that's what we've done with
+
+00:27:21.440 --> 00:27:27.520
+ tourism it happens to be over HTTP because we were like a sure i mean if everybody thinks this
+
+00:27:27.520 --> 00:27:32.560
+ limitation is there let's do it which it is in practice for those run times but that's not the
+
+00:27:32.560 --> 00:27:37.360
+ most important part but the important part is how how massively it replicates and how you don't
+
+00:27:37.360 --> 00:27:41.360
+ have to worry about any of that yeah yeah exactly i think that confusion is definitely there i think
+
+00:27:41.360 --> 00:27:46.080
+ when i was writing about this i pointed out because a lot of people were saying like oh you can't deploy
+
+00:27:46.080 --> 00:27:51.920
+ no js the edge and i was like well here use AWS lambda at edge you know okay it's not like fully
+
+00:27:51.920 --> 00:27:55.760
+ replicated like everything else but that is no js you can run go at the edge if you want because
+
+00:27:55.760 --> 00:28:01.840
+ they support go functions if you use fly.io you can deploy whatever you want to deploy whatever so
+
+00:28:01.840 --> 00:28:06.800
+ yeah i think the thing that kills me is a confusion because it just makes communicating super inefficient
+
+00:28:06.800 --> 00:28:11.200
+ so like every single day among millions of people in this space there's like all these little
+
+00:28:11.200 --> 00:28:15.200
+ misconceptions and infusions and so that's why i'm like obsessed with getting naming right because
+
+00:28:15.200 --> 00:28:19.440
+ you can just save a lot of backing for the time people get into arguments people get into arguments
+
+00:28:19.440 --> 00:28:25.120
+ because they just are misunderstanding each other too right so that's what bothers me and for example
+
+00:28:25.120 --> 00:28:30.400
+ this week this week is our it's the middle for launch week so we have we have launched two things
+
+00:28:30.400 --> 00:28:36.720
+ well more more than two things but like two things there for me like very important one of them if
+
+00:28:36.720 --> 00:28:42.960
+ you had checked out that was our launch on Tuesday the 26th is embedded replicas right so embedded
+
+00:28:42.960 --> 00:28:48.400
+ replicas essentially allow you to get your like so torso now becomes your primary your rights go
+
+00:28:48.400 --> 00:28:54.480
+ to the torso and you can still replicate at our infrastructure but it can also have a replica
+
+00:28:54.480 --> 00:29:03.840
+ in your infrastructure whatever you want to be on AWS on fly.io etc so like this is for me like
+
+00:29:03.840 --> 00:29:08.400
+ just to some extent the real edge because now it's like hey what is the closest point that i have
+
+00:29:08.400 --> 00:29:14.560
+ to my user i can put the database there and this first of all is microsecond latency right because
+
+00:29:14.560 --> 00:29:20.080
+ you're running but but but to do that i need a file system right so it this will not run on the
+
+00:29:20.080 --> 00:29:24.000
+ first cell edge this will not run on the cloud flare edge but it can put like anywhere you want
+
+00:29:24.000 --> 00:29:29.760
+ to can put it on fly.io can put on koya you can put like really on a server that you want and it
+
+00:29:29.760 --> 00:29:34.640
+ even works with environments in which you don't have connectivity if you have no connectivity of
+
+00:29:34.640 --> 00:29:38.560
+ course it doesn't work but if you have like intermittent connectivity you come back online and then you
+
+00:29:38.560 --> 00:29:43.280
+ sync to the primary but from their point on you have like local reads so again this is us taking
+
+00:29:43.280 --> 00:29:48.400
+ stuff to really the let's call it the edge of the edge but this is also edge this is also part of
+
+00:29:48.400 --> 00:29:54.320
+ the edge this is also part of okay how do i get my data as close as possible to my users right just
+
+00:29:54.320 --> 00:30:01.520
+ people were still running some stuff on AWS so for you running on the AWS in a specific region
+
+00:30:01.520 --> 00:30:07.600
+ the closest place to you is there it's not like a in my infrastructure yeah yeah that makes sense
+
+00:30:07.600 --> 00:30:14.720
+ um yeah the other thing i think you mentioned briefly is uh i think people heard the word edge
+
+00:30:14.720 --> 00:30:18.320
+ and they started to think okay everything is going to move to the edge so they started moving
+
+00:30:18.320 --> 00:30:23.680
+ their application code to the edge but then uh i think you mentioned before like if you're doing
+
+00:30:23.680 --> 00:30:28.560
+ let's say three round trips to your database those three round trips are now really expensive
+
+00:30:29.280 --> 00:30:34.720
+ and your application quality is going to be slower so i think unless you unless you move your database
+
+00:30:34.720 --> 00:30:39.680
+ to the edge as well which is but then again it has to be it has to be actually moving the data and
+
+00:30:39.680 --> 00:30:44.480
+ not just like all database at the edge because it talks issue no yeah physically yeah i think the
+
+00:30:44.480 --> 00:30:49.520
+ the metaphor i use is like imagine a string with a bunch of beads on it one's a user one's your
+
+00:30:49.520 --> 00:30:53.280
+ application one's your database you move your application close to the user and you don't move
+
+00:30:53.280 --> 00:30:59.440
+ your database use now have a problem so you have to move everything closer but even if you move
+
+00:30:59.440 --> 00:31:03.360
+ your database closer it's now further away from all the other replication nodes and that's something
+
+00:31:03.360 --> 00:31:09.360
+ i wanted to ask you about was uh with this model uh kind of what are the new things you need to start
+
+00:31:09.360 --> 00:31:14.000
+ considering right because i think a lot of people that are used to like a single master uh database
+
+00:31:14.000 --> 00:31:19.040
+ they may not be used to considering certain scenarios that can that can happen my counterpoint
+
+00:31:19.040 --> 00:31:25.280
+ to that is that lots of people think about a database of a single master yes but they they're
+
+00:31:25.280 --> 00:31:29.600
+ usually thinking about that plus a cache like there are very few deployments that don't have
+
+00:31:29.600 --> 00:31:34.800
+ some form of pressure right so when you if you if you're thinking about replacing those two things
+
+00:31:34.800 --> 00:31:39.760
+ together uh which again you don't have to but you should then then things become a little bit easier
+
+00:31:39.760 --> 00:31:45.200
+ but but to your point like when you have a database in a single place like every time every time you
+
+00:31:45.200 --> 00:31:54.000
+ read the database everything is 100 consistent for everyone at all times in every place in every
+
+00:31:54.000 --> 00:31:58.800
+ situation uh when when you have when you have something like what we're providing then you have
+
+00:31:58.800 --> 00:32:04.400
+ relaxed consistency it's not that different than reading from a read replica from like say Postgres
+
+00:32:04.400 --> 00:32:10.160
+ or or any any other database that people are used to that read replica can be a little bit out of sync
+
+00:32:10.960 --> 00:32:15.840
+ but depending on the model which then is the model that we follow you can never break a transaction
+
+00:32:15.840 --> 00:32:20.640
+ so in silo for example Cassandra which was full eventual consistency right as you probably remember
+
+00:32:20.640 --> 00:32:27.680
+ you never truly know what you're reading from the from the database so it never it's it's like a
+
+00:32:27.680 --> 00:32:32.560
+ those mutations are applied and they can happen out of order and and you know you write to two
+
+00:32:32.560 --> 00:32:36.320
+ keys and then there's no if you hit this note this it will have one of the keys but you won't have
+
+00:32:36.320 --> 00:32:41.280
+ the other like that is full like eventual consistency uh and then you have a very expensive process
+
+00:32:41.280 --> 00:32:46.480
+ running on the background that is finding those differences and merging those differences that's
+
+00:32:46.480 --> 00:32:51.360
+ not what we do right so what we do is that like a once the right first of all you can write from
+
+00:32:51.360 --> 00:32:55.120
+ any replica you can write we don't have we don't talk too much in in those terms because you can
+
+00:32:55.120 --> 00:32:59.600
+ write from any node in fact we only give you a single URL you have the single URL and you're
+
+00:32:59.600 --> 00:33:04.720
+ automatically routed to the closest uh location so you can always read you can always write from
+
+00:33:04.720 --> 00:33:11.360
+ those locations always but the rights always go to a proxy that we consider the primary right so if
+
+00:33:11.360 --> 00:33:17.680
+ you happen to hit a quote-quote-unquote replica the replica itself will write to the primary wait for
+
+00:33:17.680 --> 00:33:22.720
+ the right to complete and bring it back so as long as you're always by the way as long as you're
+
+00:33:22.720 --> 00:33:28.160
+ hitting the same replica uh you do have this vision so for the application that is like for the user
+
+00:33:28.160 --> 00:33:34.160
+ imagine you have a user in India like so the user if you have a replica in India very likely your user
+
+00:33:34.160 --> 00:33:39.600
+ is always hitting that same uh that same location so that person will have a fully consistent view
+
+00:33:39.600 --> 00:33:44.880
+ uh of of of the timeline the person who's hitting you from Australia may see data that is a little
+
+00:33:44.880 --> 00:33:50.720
+ bit behind but always transactional this call essentially is snapshot isolation so always
+
+00:33:50.720 --> 00:33:56.800
+ transactional a transaction is never broken they're always applied in every replica in the same order
+
+00:33:56.800 --> 00:34:03.440
+ so you you boy you can be it's similar so like if you have a long standing transaction on a database
+
+00:34:04.000 --> 00:34:08.720
+ uh so the transaction is going on let's exaggerate for minutes like the clients that are coming
+
+00:34:08.720 --> 00:34:13.200
+ before the transaction have committed they haven't really seen the state update right so it's a
+
+00:34:13.200 --> 00:34:19.520
+ similar thing I mean people who are in different locations they are seeing an older state uh but
+
+00:34:19.520 --> 00:34:26.640
+ but but never out of order and always uh you know always transactional if you need if you say hope
+
+00:34:26.640 --> 00:34:32.240
+ for this specific request they absolutely need to select the latest stage and etc then you can
+
+00:34:32.240 --> 00:34:36.320
+ force this request to go to the primary you can read from the primary can pay the price but you
+
+00:34:36.320 --> 00:34:41.280
+ can have so it is one thing that developers have to consider am I okay with this request at this
+
+00:34:41.280 --> 00:34:48.000
+ point being can transactional like in the same order that everybody seen not missing any data
+
+00:34:48.000 --> 00:34:53.360
+ until that point but uh maybe a couple of milliseconds in the past if you're okay then read from a
+
+00:34:53.360 --> 00:34:57.440
+ replica right just then yeah if you're not okay maybe again you should be using a central database
+
+00:34:57.440 --> 00:35:02.800
+ which is yeah that makes sense um yeah I mean it's like the what I forgot they call that read after
+
+00:35:02.800 --> 00:35:07.680
+ write consistency whatever yeah read your own rights that that's what we have like read your own
+
+00:35:07.680 --> 00:35:13.440
+ rights so if you write it said if for monorapica and I write uh this right will not be acknowledged
+
+00:35:13.440 --> 00:35:17.440
+ until all the the state has come back so you're going to always read your own rights right got it
+
+00:35:17.440 --> 00:35:20.880
+ got it yeah yeah except I think that that's probably maybe the most common case of people
+
+00:35:20.880 --> 00:35:26.800
+ would run into um but yeah very cool so I am kind of curious so what kind of are there certain types
+
+00:35:26.800 --> 00:35:32.080
+ of applications that are that you guys see more often or is it kind of widespread do all kinds of
+
+00:35:32.080 --> 00:35:37.760
+ stuff like yeah so I mean there are there is a couple of clusters forming and again this week
+
+00:35:37.760 --> 00:35:43.920
+ we're hoping to expansion one more cluster uh but first about like the ones that we already seen
+
+00:35:43.920 --> 00:35:48.480
+ the applications that want to be fast from from anywhere right so there are like uh there are a
+
+00:35:48.480 --> 00:35:53.680
+ group of people uh who and one example we have they use case on our website a super fast site like
+
+00:35:53.680 --> 00:35:58.720
+ trippedepan.com always talked about them because their site really is like incredibly fast and like
+
+00:35:58.720 --> 00:36:04.560
+ a first time I talked to their founder he was like look I'm selling trips to Japan my customers are
+
+00:36:04.560 --> 00:36:08.560
+ everywhere in the world accepting Japan I can and I want to sell like those you know you're going
+
+00:36:08.560 --> 00:36:14.000
+ there so you're trying to sell this personalized bundles I think it's a very latency sensitive thing
+
+00:36:14.000 --> 00:36:18.480
+ I mean you I want to provide you like uh I don't want customers giving up I want to provide you
+
+00:36:18.480 --> 00:36:23.280
+ with always a fast experience uh and wear like pretty much everywhere so the point on cloud for our
+
+00:36:23.280 --> 00:36:29.520
+ workers uh using tours so uh the other the other thing that we see a lot are used cases where you
+
+00:36:29.520 --> 00:36:34.320
+ essentially are a platform uh so again because because of squirrel light because this thing runs
+
+00:36:34.320 --> 00:36:41.920
+ locally uh if you have an SDK uh you have something that you want to ship to people you you put
+
+00:36:41.920 --> 00:36:45.680
+ dinos doing this I mean they they're doing something similar than what we're doing they just build
+
+00:36:45.680 --> 00:36:50.000
+ their own infrastructure but with us you can have something like what dinner is building with dino
+
+00:36:50.000 --> 00:36:55.840
+ kv uh except in you know in in much shorter time because we built a lot of the infrastructure as well
+
+00:36:55.840 --> 00:37:00.720
+ and one example that we have of that is Fermi on a web assembly platform uh there are they're doing
+
+00:37:00.720 --> 00:37:05.600
+ a similar thing so you use their SDK there's squirrel light locally everything works you have the
+
+00:37:05.600 --> 00:37:09.760
+ database is always there so you can we can build those advanced functionalities that depend on the
+
+00:37:09.760 --> 00:37:14.800
+ database and when you deploy to their platform then tour so provisions of database for you everything
+
+00:37:14.800 --> 00:37:19.600
+ is API based and and again the other thing that we hear a lot and this is not again we don't have
+
+00:37:19.600 --> 00:37:25.440
+ use cases with that yet but people come to us and say hey you guys are school I based and
+
+00:37:25.440 --> 00:37:31.040
+ it's just a file why is it that you're why why is it that you're you're limited to three databases
+
+00:37:31.040 --> 00:37:36.000
+ in the free plan and five databases in in the scalar plan or six databases in the scalar plan I
+
+00:37:36.000 --> 00:37:42.160
+ want to I want to write a multi-tenant SAS application and again I heard this word with from a variety of
+
+00:37:42.160 --> 00:37:47.440
+ people I do not know that this was a use case right because it was like maybe use case naming use
+
+00:37:47.440 --> 00:37:52.240
+ cases is as hard as naming everything anything but people would come with this specific wording
+
+00:37:52.240 --> 00:37:57.840
+ like I have a multi-tenant SAS and I want to give a database for each customer which is why yesterday
+
+00:37:57.840 --> 00:38:03.600
+ we up the limit again we can go into the technical details as to why we did it this way and why it
+
+00:38:03.600 --> 00:38:08.000
+ wasn't possible before but we're essentially you as you can see on the website we up the limit
+
+00:38:08.880 --> 00:38:15.760
+ from three databases in the free tier to 500 databases oh wow and on the scalar on the scalar
+
+00:38:15.760 --> 00:38:22.080
+ tier instead of six databases I have 10,000 databases and this should allow you as long as you have
+
+00:38:22.080 --> 00:38:28.480
+ users of course so people who don't have users who listen to DAX okay you maybe only need a database
+
+00:38:28.480 --> 00:38:34.880
+ but as you as you increase your users hopefully then then you can still give them a database per
+
+00:38:34.880 --> 00:38:40.000
+ user and keep your cost extremely low and we did this by making our platform itself multi-tenant
+
+00:38:40.000 --> 00:38:43.680
+ right so the way we the way you used to do is that every time you provision a trace of database
+
+00:38:43.680 --> 00:38:51.120
+ we provision a VM for you with firecracker and etc full isolation and etc but then we moved to
+
+00:38:51.120 --> 00:38:58.640
+ our server allowing more than one namespace or more than one file per server and now in the same
+
+00:38:58.640 --> 00:39:04.000
+ server you can have all of those files in and again if you're doing per user data each one each one
+
+00:39:04.000 --> 00:39:09.680
+ of those databases maybe have like a megabyte or 100 kilobytes or something like that so very small
+
+00:39:09.680 --> 00:39:15.280
+ so provisioning a full volume for that database doesn't work but like we essentially made everything
+
+00:39:15.280 --> 00:39:20.000
+ multi-tenant and now we can give you like a this unreasonable amount of databases yeah it's very
+
+00:39:20.000 --> 00:39:24.560
+ cool it's a use case that I think is like I said it's very common I worked at a company and we had
+
+00:39:24.560 --> 00:39:29.840
+ that exact model we used very familiar with LMDB of course I am yeah yeah yeah so LMDB is like it's
+
+00:39:29.840 --> 00:39:35.840
+ very cool for what it's optimized for it's just a key value store uh ghost with single file memory
+
+00:39:35.840 --> 00:39:41.920
+ mapped extremely fast or reads uh we basically had one of those per customer we were in a
+
+00:39:41.920 --> 00:39:47.120
+ compliance sense of space and it was actually very nice because we never had to usually get like a
+
+00:39:47.120 --> 00:39:51.840
+ giant security questionnaire of like all these things the moment we said you get your own database
+
+00:39:51.840 --> 00:39:54.960
+ half those questions they don't need to ask and they don't have to worry about uh it's just something
+
+00:39:54.960 --> 00:40:01.200
+ that makes people more comfortable the other nice part is you don't have to handle the concept of
+
+00:40:01.200 --> 00:40:07.120
+ multiple customers in your application code so usually people need to remember oh with every query
+
+00:40:07.120 --> 00:40:13.840
+ I I write I need to make sure I add like where customer equals whatever and inevitably you
+
+00:40:13.840 --> 00:40:18.400
+ forget to do that in one place you're accidentally querying stuff across customer when you do it
+
+00:40:18.400 --> 00:40:22.560
+ when you have a database per customer you just configure that in one place and then all queries
+
+00:40:22.560 --> 00:40:27.440
+ are guaranteed to be limited so yeah that is a very cool model and uh I haven't used that as
+
+00:40:27.440 --> 00:40:31.920
+ much lately but it is something that it's like very clean if you're winning something up yeah
+
+00:40:31.920 --> 00:40:38.240
+ again uh we just had to build it because again going back to our previous thing about validation
+
+00:40:38.240 --> 00:40:44.400
+ this is validation right this is not me talking to a customer uh and say hey would you like 10,000
+
+00:40:44.400 --> 00:40:50.160
+ databases so of course their answer is gonna be yes right of course right who would say no yeah
+
+00:40:50.160 --> 00:40:55.360
+ right and then and then you ask them like hey do you know do you think it's nice what if I offer
+
+00:40:55.360 --> 00:41:02.160
+ you this feature they say yes but do they use it no again but what we had what we had was of with
+
+00:41:02.160 --> 00:41:06.720
+ this feature in particular was a stream of users you go to our discord channel this is there all
+
+00:41:06.720 --> 00:41:11.360
+ the time you go on twitter you don't believe me you go on twitter you you look for true so uh
+
+00:41:11.360 --> 00:41:17.600
+ and there's a lot of people asking for this on twitter and they all asking the exact same thing
+
+00:41:17.600 --> 00:41:22.720
+ with with the exact same words like uh for iance here and there but like hey i want
+
+00:41:22.720 --> 00:41:27.680
+ i want to do a database per customer intuitively i think it should be doable in your model because
+
+00:41:27.680 --> 00:41:32.240
+ you're based on squealite and people are doing this with school like why can't i do it with you
+
+00:41:32.240 --> 00:41:37.360
+ yeah right so for maybe i'm wrong and nobody's gonna use this the week is just getting started
+
+00:41:37.360 --> 00:41:42.160
+ but in in my book i mean this is this is a lot more validation than the usual like hey go and
+
+00:41:42.160 --> 00:41:49.200
+ ask and see and talk and then take notes because it was good it was good on a personal level that's
+
+00:41:49.200 --> 00:41:53.280
+ what i mean like just that taught me the real difference between like listening to your customers
+
+00:41:53.280 --> 00:41:58.160
+ there's one way to do it and and there's another way to do it right yeah that's actually the best
+
+00:41:58.160 --> 00:42:04.160
+ part of actually having users is just they'll just tell you and like demand things uh and oftentimes
+
+00:42:04.160 --> 00:42:09.200
+ it's always like should we do this and then you can just say let's wait till people start complaining
+
+00:42:09.200 --> 00:42:14.480
+ and when they do you know you have to do it so it's it's funny like the hardest time is when you
+
+00:42:14.480 --> 00:42:19.440
+ have no users by yourself in your head the moment you have at least some it just gets a hundred times
+
+00:42:19.440 --> 00:42:23.920
+ easier so this this is why i like the stuff that you talk about twitter so much because when you
+
+00:42:23.920 --> 00:42:30.320
+ have no users like man if i tell you the amount of stuff that we've done in the beginning in the
+
+00:42:30.320 --> 00:42:34.960
+ early days of thursu because imagine that we were coming from a pivot we were like oh man we would
+
+00:42:34.960 --> 00:42:41.040
+ screw this up we you know what what's up like in our mind like the most important thing was
+
+00:42:41.040 --> 00:42:46.400
+ will people want this like we were we were not like we don't have another chance i mean if we come
+
+00:42:46.400 --> 00:42:50.080
+ up or something that people don't want it like we had we had the theory that people would want it
+
+00:42:50.080 --> 00:42:53.440
+ because that's the part they liked the most about the the whole story before but so what right just
+
+00:42:53.440 --> 00:42:58.480
+ the uh if if i don't build something that people want it now i don't have another chance that's what
+
+00:42:58.480 --> 00:43:04.240
+ crossed our minds right so man it it things that we didn't care about in the beginning will this service
+
+00:43:04.240 --> 00:43:10.080
+ scale right like what what if i have 10 000 users and i was like look i'm happy if i have a hundred
+
+00:43:10.080 --> 00:43:16.320
+ right just uh are like are things automatic like uh it's another podcast just for me to tell the
+
+00:43:16.320 --> 00:43:21.920
+ whole story of the kind of corners we cut back then yeah and then what we saw now it's picking up
+
+00:43:21.920 --> 00:43:27.040
+ or now users are getting okay now we're going to sit down uh and we're going to re-architecture this
+
+00:43:27.040 --> 00:43:33.120
+ thing and and the multitenis is just one example but you know the you need to have users and to
+
+00:43:33.120 --> 00:43:37.680
+ have users you don't need Kubernetes you don't need microservices you don't need scaling you don't
+
+00:43:37.680 --> 00:43:43.520
+ need any of that crap right just uh you need to put it out there yeah yeah you need you need to
+
+00:43:43.520 --> 00:43:49.520
+ shift um yeah and it's just like the thing that always gets me is it just gets so much easier like
+
+00:43:49.520 --> 00:43:54.640
+ the hardest you'll ever work and think is very very early and that you have new challenges and
+
+00:43:54.640 --> 00:44:02.720
+ and new problems of course but uh for me once a company is past the at stage of like is what
+
+00:44:02.720 --> 00:44:06.880
+ the most miserable time is when you don't know if anything you're doing will ever be paid attention
+
+00:44:06.880 --> 00:44:11.680
+ to by anyone that's like the most miserable time uh but you got to go through that and i think for
+
+00:44:11.680 --> 00:44:17.120
+ me uh i think people have a lot of opinions and i talk about all these things and i i can kind of
+
+00:44:17.120 --> 00:44:23.360
+ look back at younger versions of myself and see how i thought and see how i thought like how i expected
+
+00:44:23.360 --> 00:44:29.200
+ things to work then i looked through how okay when i was actually in the seat doing this work
+
+00:44:29.200 --> 00:44:33.200
+ completely different i was like became a completely different person so i think the opposite of what
+
+00:44:33.200 --> 00:44:37.360
+ used to think um so with a lot of these things it's tough to have these conversations a lot of times
+
+00:44:37.360 --> 00:44:42.640
+ because i remember thinking a certain way and i nothing no one could have said anything to me
+
+00:44:42.640 --> 00:44:47.360
+ nothing changed my mind until i was in that position and i like really understood are we stubborn are
+
+00:44:47.360 --> 00:44:52.160
+ we stubborn backs is that what's that is i'm definitely a stubborn person for sure i'm definitely a
+
+00:44:52.160 --> 00:44:57.840
+ smart person it's very hard to get through to me but i think uh some level it's true for
+
+00:44:57.840 --> 00:45:01.360
+ true for everyone you don't really understand till you're in the in the seat you know one of my
+
+00:45:01.360 --> 00:45:06.480
+ favorite movies is the matrix the original one of course like not uh let's not even talk about the
+
+00:45:06.480 --> 00:45:11.920
+ last one there's a scene that that stuff i mean i actually think they did it on purpose because
+
+00:45:11.920 --> 00:45:17.600
+ there's a bunch of jokes in the movie about like a crappy sequels or two who knows but i there's
+
+00:45:17.600 --> 00:45:23.520
+ the scene that i love in which guy is neo it's like the chosen one like essentially right there's
+
+00:45:23.520 --> 00:45:29.520
+ jesus christ figure who's gonna come and save us all in the movie and it has to take this jump from
+
+00:45:29.520 --> 00:45:36.000
+ the building and everybody's looking like expecting everybody fails right oh yeah sure everybody but
+
+00:45:36.000 --> 00:45:40.800
+ here's the one so there's this expectation that has gonna succeed but he fails nevertheless yeah
+
+00:45:40.800 --> 00:45:44.800
+ right so i think there are some things that you only learn when you do it and because you don't
+
+00:45:45.600 --> 00:45:50.000
+ you think you know before you actually do it but then like they don't it doesn't match reality
+
+00:45:50.000 --> 00:45:56.000
+ exactly as you as you thought so you may have a good you know foundation but it's not a perfect
+
+00:45:56.000 --> 00:46:00.480
+ fit it's only a perfect fit after you go through it yeah yeah there's so many times where i'm like
+
+00:46:00.480 --> 00:46:05.920
+ this is a principle i know it's bad to do it companies should not do this six months later
+
+00:46:05.920 --> 00:46:11.200
+ somehow i find myself oops i did it like it just you can think you know i did it again yeah and then
+
+00:46:11.200 --> 00:46:16.080
+ you just don't tell it takes a couple times why britainous peers britainous peers will be a better
+
+00:46:16.080 --> 00:46:22.720
+ startup advisor than a lot of people just under i did it again yeah just uh just it's why all these
+
+00:46:22.720 --> 00:46:26.560
+ things is all about being able to stick around for the long term you know kind of been doing this for
+
+00:46:26.560 --> 00:46:33.600
+ in the startup space for a very long time i think it'll pass maybe year or two i think i finally
+
+00:46:33.600 --> 00:46:37.920
+ feel like okay i think i kind of starting to get what this is about but i've made the same mistake
+
+00:46:37.920 --> 00:46:42.720
+ like a bunch of times for me to really get there by the way the thing the the thing that we've done
+
+00:46:42.720 --> 00:46:46.720
+ that is one of the things that we've done yeah we had this we had this thing in the
+
+00:46:46.720 --> 00:46:53.520
+ beginning like we were we knew we want to charge people per usage not like vms and cpu and etc
+
+00:46:53.520 --> 00:46:58.640
+ like planet scale is kind of backtracking on that they're giving like now vms but we were hearing
+
+00:46:58.640 --> 00:47:02.880
+ from the community i mean we made in the future who knows me but we were hearing for a lot of
+
+00:47:02.880 --> 00:47:07.680
+ people that they prefer just requests okay so we're gonna charge for requests and we didn't have
+
+00:47:07.680 --> 00:47:13.840
+ the time to building for a structure to track those requests right yeah and we're like oh but i
+
+00:47:13.840 --> 00:47:19.280
+ want to put this out on a specific date and like how how and how long does it's gonna take to build
+
+00:47:19.280 --> 00:47:26.560
+ this i just said like a this again such a such a life lesson man because we hear about mvp do your
+
+00:47:26.560 --> 00:47:31.040
+ do the list amount possible but you know until you're there like you obviously oh but we need this
+
+00:47:31.040 --> 00:47:34.960
+ this is super important this is super important it's only when you have the deadline yeah in the
+
+00:47:34.960 --> 00:47:39.360
+ commitment they said they start seeing that yeah you know what this thing that i thought was super
+
+00:47:39.360 --> 00:47:43.920
+ important turns out is not and the request tracking was the first you go we essentially didn't build
+
+00:47:43.920 --> 00:47:51.360
+ any we said you have a billion reads per month for free and we never measured yeah we are doing
+
+00:47:51.360 --> 00:47:57.040
+ the exact same thing with our current product like we we have a free tier measured but if you go out
+
+00:47:57.040 --> 00:48:02.560
+ of free tier we're not stopping you from accessing it so exactly yeah because you start thinking like
+
+00:48:02.560 --> 00:48:06.480
+ why that the hell would anybody care i mean like what i need now it's just to validate that this
+
+00:48:06.480 --> 00:48:10.400
+ thing is going to work and people are going to like it yeah if they use a billion and chew like are
+
+00:48:10.400 --> 00:48:13.440
+ they going to complain no nobody's going to complain i mean they would complain for us the other way
+
+00:48:13.440 --> 00:48:17.840
+ around i promised a billion and i gave you half a billion right i'm giving you more whatever register
+
+00:48:17.840 --> 00:48:25.920
+ just do it and number of people who complain yeah number of people who noticed zero nobody noticed
+
+00:48:25.920 --> 00:48:32.400
+ yeah the usage base thing is big for me i mean like for us uh we model our entire business
+
+00:48:32.560 --> 00:48:37.760
+ on the idea of our cost being usage base and it simplifies so many so many so many things but
+
+00:48:37.760 --> 00:48:41.760
+ our cost our cost is not usage based oh yeah of course because you're you're an infrastructure
+
+00:48:41.760 --> 00:48:46.560
+ provider yeah so you have the challenge of trans translating from one to the other but that but that's
+
+00:48:46.560 --> 00:48:50.400
+ a challenge that i'm having now because now now i projected the growth that we have because we're
+
+00:48:50.400 --> 00:48:56.560
+ seeing like 30 to 40 percent growth every month oh wow in the platform right so from zero users to
+
+00:48:56.560 --> 00:49:04.000
+ zero which is not like uh but we're we're seeing like good growth in in the first three months we
+
+00:49:04.000 --> 00:49:09.200
+ were like cost you know just just do it just do it just do it we promised we promised you like up
+
+00:49:09.200 --> 00:49:14.000
+ to nine gigabytes which people misunderstand because it's really like three gigabytes replicated in
+
+00:49:14.000 --> 00:49:19.040
+ three regions so your database is three gigabytes but replica gets replicated so i promise you that
+
+00:49:19.040 --> 00:49:23.440
+ but we didn't have any code to out of scale you to that level so we provisioned everybody with
+
+00:49:23.440 --> 00:49:29.040
+ nine gigabytes and people use like a hundred k so like our costs started to get they are getting
+
+00:49:29.040 --> 00:49:33.920
+ like completely out of control because we provision uvms but we're charging up our users there is a
+
+00:49:33.920 --> 00:49:38.800
+ mismatch there but now again now that i have a product now that i know that people like you now
+
+00:49:38.800 --> 00:49:44.240
+ that i have my first couple of paying users we have around like 15 to 20 users on the scalar plan
+
+00:49:44.240 --> 00:49:50.880
+ and a bunch of other like three users in the thousands now is the time to go and and oh let's
+
+00:49:50.880 --> 00:49:55.920
+ raining the costs and bring figure out the different architecture yeah we start optimizing
+
+00:49:55.920 --> 00:50:00.160
+ right before it wasn't the time to even the multi-tenancy like we wanted to build the server
+
+00:50:00.160 --> 00:50:04.480
+ multi-tenant from the start we knew it was a good use case like it takes a lot longer like in the
+
+00:50:04.480 --> 00:50:08.960
+ vm stuff you put a database there provision boom we've done right and now people are asking me now
+
+00:50:08.960 --> 00:50:14.720
+ i know it's a it's real why i would love for people to understand is you guys are paying that price
+
+00:50:14.720 --> 00:50:21.920
+ that cost that effort of translating a vm to use based that is like a fantastic service that you
+
+00:50:21.920 --> 00:50:27.760
+ are providing for other people because now anyone building on top they're not being charged by you
+
+00:50:27.760 --> 00:50:31.760
+ guys unless they are making money or like they're like doing some kind of operation that that's
+
+00:50:31.760 --> 00:50:36.480
+ useful and i think people do not understand how magical and incredible that is it's one of the
+
+00:50:36.480 --> 00:50:42.000
+ big reasons why uh like we build everything on AWS we have all users based costs there it's it's
+
+00:50:42.000 --> 00:50:49.520
+ amazing like AWS gigantic company does the crazy difficult accounting work of across all their
+
+00:50:49.520 --> 00:50:54.880
+ customers what do they need to provision so that they can charge a user's base it's like it simplifies
+
+00:50:54.880 --> 00:51:00.160
+ your business so so so so much and whenever you see a provider offering user based you take a
+
+00:51:00.160 --> 00:51:06.000
+ advantage of it because that's like otherwise that leaks into your it becomes your problem right if
+
+00:51:06.000 --> 00:51:11.200
+ i'm running if you guys aren't doing that if i'm paying for like database vms i now need to do
+
+00:51:11.200 --> 00:51:16.560
+ that translation which is a lot harder because i only have myself as a user you guys have
+
+00:51:16.560 --> 00:51:23.120
+ you know a bunch of users that you can distribute the cost of that between so uh yeah i love
+
+00:51:23.120 --> 00:51:28.160
+ user based pricing um i like whenever i see that i'm like okay that's the option we got to go with
+
+00:51:28.160 --> 00:51:33.760
+ yeah and that and that's uh that's our Wednesday announcement which will uh lots of people lots
+
+00:51:33.760 --> 00:51:38.880
+ of people have been asking us that like because what we have now is uh what we had until last week
+
+00:51:38.880 --> 00:51:44.800
+ was a free tier which costs you nothing gives a certain allowances and then a 29 dollars a month
+
+00:51:44.800 --> 00:51:49.040
+ tier which gives you a lot more grant so it's a hundred times in terms of reads it's a hundred
+
+00:51:49.040 --> 00:51:53.840
+ times more for 29 bucks but what a lot of people have been asking us is like what if what if i'm
+
+00:51:53.840 --> 00:51:59.040
+ in the middle right i i want to right but like uh we have our reasons i think not to go full
+
+00:51:59.040 --> 00:52:04.560
+ usage basis also because some people don't like it right just to because of the predictability
+
+00:52:04.560 --> 00:52:10.320
+ so what we're doing is essentially allowing you to go over like okay so so you and and i'm going
+
+00:52:10.320 --> 00:52:15.600
+ to give you a discount if you move to if you commit to the 29 dollars a month yeah so i would charge
+
+00:52:15.600 --> 00:52:21.600
+ you for example you have your allowances and then i'm going to charge you a dollar for an extra
+
+00:52:21.600 --> 00:52:28.160
+ billion dollar queries yeah now our free tier offers one billion our scalar pen offers you a hundred
+
+00:52:28.160 --> 00:52:32.320
+ billion so if you are purely usage based until the 29 you're going to be paying you a hundred
+
+00:52:32.320 --> 00:52:36.880
+ dollars a month but like what i'm doing is that i'm giving you the opportunity to spend one to
+
+00:52:36.880 --> 00:52:43.440
+ spend two yeah exactly and then we just say oh now now i'm crossing the chasm let let me just
+
+00:52:43.440 --> 00:52:48.640
+ commit for 29 right yeah yeah and on the 29 dollars instead of this extra billion instead
+
+00:52:48.640 --> 00:52:54.160
+ instead of costing you one dollar it's it costs you 75 cents so again i want people to upgrade i
+
+00:52:54.160 --> 00:52:58.640
+ want people to become paying customers but we're giving you this like this initial ramp as well
+
+00:52:58.640 --> 00:53:03.920
+ yeah the ramp is what's key because otherwise you have these jumps like with other providers like
+
+00:53:03.920 --> 00:53:09.040
+ it'll be whatever they're charging you maybe supports a thousand users the moment you have a
+
+00:53:09.040 --> 00:53:13.040
+ thousand and one you're selling your cost of now like triple you might go from making money to
+
+00:53:13.040 --> 00:53:18.960
+ losing money yeah so the the ramp of it like the act the absolute price is fine whatever they're
+
+00:53:18.960 --> 00:53:23.600
+ charging me for that tier is fine but i want to ramp up there i don't want to just go there because
+
+00:53:23.600 --> 00:53:29.760
+ i got one extra user right so yeah those little things like that i think again i think until you're
+
+00:53:29.760 --> 00:53:34.560
+ in the position of it's your money that you're spending you maybe don't pay attention that stuff
+
+00:53:34.560 --> 00:53:40.960
+ as much but it's it's it just lower so much complexity it's not about the costs about the things you
+
+00:53:40.960 --> 00:53:45.840
+ have to think about and things that you can avoid thinking about which is what i really appreciate
+
+00:53:45.840 --> 00:53:58.240
+ thank you for joining me it's great yeah appreciate i'm glad i finally got to cut to chat thanks thank you
+

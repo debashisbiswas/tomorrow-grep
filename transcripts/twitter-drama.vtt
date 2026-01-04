@@ -1,0 +1,1553 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.420
+ Adam, are you still going to be on Twitter?
+
+00:00:02.420 --> 00:00:03.840
+ Undecided.
+
+00:00:03.840 --> 00:00:06.400
+ What are you waiting for?
+
+00:00:06.400 --> 00:00:07.860
+ Wait, I don't know.
+
+00:00:07.860 --> 00:00:14.040
+ I'm waiting for the buzz to die down, there's a lot of buzz, and it's unclear if everyone's
+
+00:00:14.040 --> 00:00:18.760
+ going to mast it on, or if Twitter is going to implode because all the SREs were laid
+
+00:00:18.760 --> 00:00:19.760
+ off.
+
+00:00:19.760 --> 00:00:25.120
+ I just don't know what to think, and I don't know if I'm upset about it, if it does die.
+
+00:00:25.120 --> 00:00:26.120
+ I don't know.
+
+00:00:26.120 --> 00:00:29.680
+ It sounds like we're both just going to wait to see what everyone else does and follow them
+
+00:00:29.680 --> 00:00:30.680
+ there.
+
+00:00:30.680 --> 00:00:31.680
+ Yeah, I'm just going to do whatever you do.
+
+00:00:31.680 --> 00:00:32.680
+ Whatever you do.
+
+00:00:32.680 --> 00:00:33.680
+ I'm following you.
+
+00:00:33.680 --> 00:00:59.020
+ I'm following everyone else.
+
+00:00:59.020 --> 00:01:02.800
+ In all seriousness, have you looked at any of these alternatives?
+
+00:01:02.800 --> 00:01:07.080
+ I mean, there's just so much talk now about Twitter's dead, there's people that have said
+
+00:01:07.080 --> 00:01:08.080
+ they've left.
+
+00:01:08.080 --> 00:01:15.820
+ I don't know if they really left, it's the Canada thing, people serious.
+
+00:01:15.820 --> 00:01:21.520
+ Yeah, I think I've been through this cycle before where I've looked at alternatives.
+
+00:01:21.520 --> 00:01:26.360
+ Not because I was trying to leave Twitter, but just out of curiosity with what other models
+
+00:01:26.360 --> 00:01:27.360
+ are there.
+
+00:01:27.360 --> 00:01:30.360
+ I was pretty into federated stuff at one point.
+
+00:01:30.360 --> 00:01:35.200
+ Could you explain what that is to me, or I mean for the listeners who don't know.
+
+00:01:35.200 --> 00:01:40.080
+ So I think the idea behind federated, there's like a few different setups, right?
+
+00:01:40.080 --> 00:01:44.320
+ You can have a completely centralized setup like Twitter, super easy to sign up, everyone
+
+00:01:44.320 --> 00:01:48.640
+ has one account, except for the bots who have a hundred accounts, apparently.
+
+00:01:48.640 --> 00:01:55.360
+ But theory of everyone has one account, everything's in one place, one company serves everyone.
+
+00:01:55.360 --> 00:02:01.520
+ And there's a totally decentralized model where that's when you start talking about blockchain.
+
+00:02:01.520 --> 00:02:07.040
+ So that's like with all the crypto blockchain stuff, where people talk about putting the
+
+00:02:07.040 --> 00:02:10.280
+ whole social network on the blockchain.
+
+00:02:10.280 --> 00:02:13.760
+ In general, I don't think anyone who says that really knows what they're talking about,
+
+00:02:13.760 --> 00:02:20.120
+ it just does not really make sense to go that far, it's not what blockchain systems can handle.
+
+00:02:20.120 --> 00:02:26.240
+ The federated stuff is a little bit more interesting where there is a single protocol, kind of
+
+00:02:26.240 --> 00:02:27.240
+ like email.
+
+00:02:27.240 --> 00:02:31.920
+ You know, email, there's a single protocol for receiving messages, but anyone can stand
+
+00:02:31.920 --> 00:02:37.320
+ up a server and join the protocol and you compete based off of delivering good experiences.
+
+00:02:37.320 --> 00:02:43.200
+ So you can think about Gmail as they're, they're huge, everyone uses Gmail, but they're technically
+
+00:02:43.200 --> 00:02:48.120
+ on a federated protocol where you can message people that aren't on Gmail, people that aren't
+
+00:02:48.120 --> 00:02:52.320
+ on Gmail can message you, anyone can come in and compete with Gmail.
+
+00:02:52.320 --> 00:02:57.840
+ So that's kind of the appeal of federated systems where it's a protocol that is universal,
+
+00:02:57.840 --> 00:03:02.440
+ but you're not trapped on platform, if it starts to suck, you can move and you don't
+
+00:03:02.440 --> 00:03:03.440
+ lose as much.
+
+00:03:03.440 --> 00:03:06.320
+ It's not the case with, you know, fully centralized things.
+
+00:03:06.320 --> 00:03:10.560
+ So that's what Mastodon is and that's why everyone's really excited about it.
+
+00:03:10.560 --> 00:03:18.160
+ I checked out Mastodon a few years ago when it was a little bit smaller and I wasn't super
+
+00:03:18.160 --> 00:03:19.160
+ excited by it.
+
+00:03:19.160 --> 00:03:23.200
+ Like I liked the concept, like I just love the idea of protocols and people building whatever
+
+00:03:23.200 --> 00:03:29.600
+ they want, but it's pretty rough, some of the trade offs that you have to make.
+
+00:03:29.600 --> 00:03:30.600
+ Yeah.
+
+00:03:30.600 --> 00:03:31.600
+ Yeah.
+
+00:03:31.600 --> 00:03:33.400
+ And so I, I have all kinds of questions.
+
+00:03:33.400 --> 00:03:37.840
+ First of all, I guess the Gmail example is the protocol is just like email, just SMTP.
+
+00:03:37.840 --> 00:03:40.960
+ Yeah, I don't know the details of the email protocol, but yeah.
+
+00:03:40.960 --> 00:03:41.960
+ Yeah.
+
+00:03:41.960 --> 00:03:42.960
+ Okay.
+
+00:03:42.960 --> 00:03:46.000
+ And I guess with the Mastodon thing, I, first of all, I didn't know it's been around for
+
+00:03:46.000 --> 00:03:47.000
+ years.
+
+00:03:47.000 --> 00:03:53.800
+ I thought it was just like some startup that launched because Twitter was under some duress.
+
+00:03:53.800 --> 00:03:56.360
+ But it makes actually a ton of sense in my mind that you said this.
+
+00:03:56.360 --> 00:04:01.080
+ If I take all of the like stuff I've seen about Mastodon on Twitter out of my mind,
+
+00:04:01.080 --> 00:04:05.200
+ if I just ignore all of that because we'll talk about what we've, what I've seen on Twitter.
+
+00:04:05.200 --> 00:04:08.820
+ If I take all that out, the idea makes a ton of sense that like Twitter should be this
+
+00:04:08.820 --> 00:04:14.840
+ just general infrastructure that it sucks for it to be a single company, now a private
+
+00:04:14.840 --> 00:04:19.840
+ company, when it is so important in terms of messaging, public figures, you think of
+
+00:04:19.840 --> 00:04:24.560
+ all the organizations that use Twitter to put out important messages, it's become this
+
+00:04:24.560 --> 00:04:28.000
+ very vital infrastructure I feel like in society.
+
+00:04:28.000 --> 00:04:32.800
+ And the idea that that could just be a protocol like email that could have multiple different
+
+00:04:32.800 --> 00:04:38.720
+ versions of it, different clients, but like it's hard for that protocol to die or harder,
+
+00:04:38.720 --> 00:04:42.680
+ I would think, than if it's a single company with a single person at the helm.
+
+00:04:42.680 --> 00:04:43.680
+ Is that all check out?
+
+00:04:43.680 --> 00:04:44.680
+ Yeah.
+
+00:04:44.680 --> 00:04:45.680
+ Yeah, it makes sense.
+
+00:04:45.680 --> 00:04:51.840
+ And I think a lot of social networking, like peer-to-peer stuff, when I say pre-to-peer,
+
+00:04:51.840 --> 00:04:57.000
+ I mean, like you interacting with a bunch of people, they all could benefit from calling
+
+00:04:57.000 --> 00:04:58.000
+ protocol.
+
+00:04:58.000 --> 00:04:59.000
+ They eat even payments, right?
+
+00:04:59.000 --> 00:05:02.760
+ It kind of sucks that if you're on Venmo and I'm on square cash, those are all...
+
+00:05:02.760 --> 00:05:05.320
+ Like, inoperable.
+
+00:05:05.320 --> 00:05:09.080
+ So but the actual experience of Mastodon, I've seen a lot of things on Twitter, that it's
+
+00:05:09.080 --> 00:05:10.240
+ bad.
+
+00:05:10.240 --> 00:05:11.240
+ And that...
+
+00:05:11.240 --> 00:05:12.240
+ Yeah.
+
+00:05:12.240 --> 00:05:16.400
+ So basically, people have to run these independent, like if you want to run a server for Mastodon,
+
+00:05:16.400 --> 00:05:19.920
+ you have to run your own infrastructure and you're paying the bill, that whole thing.
+
+00:05:19.920 --> 00:05:20.920
+ But they're all...
+
+00:05:20.920 --> 00:05:21.920
+ Are they all somehow connected?
+
+00:05:21.920 --> 00:05:25.320
+ Like users across servers can interact or now?
+
+00:05:25.320 --> 00:05:26.320
+ Yeah, exactly.
+
+00:05:26.320 --> 00:05:35.560
+ So it's on a protocol called ActivityPub, which is a general social media publishing protocol.
+
+00:05:35.560 --> 00:05:42.680
+ And any server that's running ActivityPub or Mastodon can federate with other servers.
+
+00:05:42.680 --> 00:05:47.840
+ The thing that I don't love about the Mastodon setup is that your identity is tied to one
+
+00:05:47.840 --> 00:05:48.840
+ server.
+
+00:05:48.840 --> 00:05:54.560
+ So if I set up my own server, I could be DAX at my server, whatever.
+
+00:05:54.560 --> 00:05:59.840
+ If I feel like I'm sick of her hosting my own server, like my identity is kind of tied
+
+00:05:59.840 --> 00:06:00.840
+ to that.
+
+00:06:00.840 --> 00:06:01.840
+ I have to host it forever to keep it up forever.
+
+00:06:01.840 --> 00:06:05.160
+ It doesn't travel with me if I decide to switch servers.
+
+00:06:05.160 --> 00:06:07.400
+ So I still feel like you're a little bit locked in.
+
+00:06:07.400 --> 00:06:14.520
+ And I think a lot of the UX issues come from that because, you know, if you see people
+
+00:06:14.520 --> 00:06:19.280
+ posting their Mastodon handles, it's like their username at some random server they chose,
+
+00:06:19.280 --> 00:06:23.840
+ which is pretty arbitrary at this point, like none of us know what we're doing.
+
+00:06:23.840 --> 00:06:25.880
+ So that's I think some of the rough edges come from that.
+
+00:06:25.880 --> 00:06:30.520
+ And the reason I bring this up is because there's another project which I haven't seen come
+
+00:06:30.520 --> 00:06:31.520
+ up a lot.
+
+00:06:31.520 --> 00:06:33.720
+ And I think it might be because it's like crypto related.
+
+00:06:33.720 --> 00:06:38.200
+ So there's just automatic skepticism, which I'm all in for, like I don't generally like
+
+00:06:38.200 --> 00:06:40.360
+ stuff in that space.
+
+00:06:40.360 --> 00:06:44.040
+ But I don't know if you heard of it, Farkaster, everyone tell me.
+
+00:06:44.040 --> 00:06:48.280
+ Well, I've heard you say that maybe on Discord, about, I don't know, can you continue?
+
+00:06:48.280 --> 00:06:51.800
+ I guess I don't know if I'm talking about it.
+
+00:06:51.800 --> 00:06:59.960
+ A couple of years ago, the former CTO, I think of Coinbase, he had this thought it was management
+
+00:06:59.960 --> 00:07:07.400
+ of what is the minimum blockchain you need to do a decentralized or federated Twitter
+
+00:07:07.400 --> 00:07:08.400
+ replacement.
+
+00:07:08.400 --> 00:07:09.400
+ Okay.
+
+00:07:09.400 --> 00:07:13.160
+ And he spent, I think a couple of years, I think it's been a couple of years now with
+
+00:07:13.160 --> 00:07:17.840
+ his co-founder and they released something and it's called Farkaster and they have a great
+
+00:07:17.840 --> 00:07:18.840
+ blog post about it.
+
+00:07:18.840 --> 00:07:21.760
+ I'm not going to try to explain it because I don't understand it well enough.
+
+00:07:21.760 --> 00:07:27.360
+ But the idea there is they laid out what you need for a minimum social network.
+
+00:07:27.360 --> 00:07:32.720
+ And they basically thought of it as the identity piece is the only piece that really needs
+
+00:07:32.720 --> 00:07:35.240
+ to be, you know, on blockchain.
+
+00:07:35.240 --> 00:07:38.800
+ So that's where all the rough edges are like creating an account, like setting all that
+
+00:07:38.800 --> 00:07:44.480
+ up is a little bit trickier because crypto UX is just not great.
+
+00:07:44.480 --> 00:07:46.960
+ And but once you do that, that's your identity.
+
+00:07:46.960 --> 00:07:51.720
+ If you're identity forever, it is a matter of what client using like how you're accessing
+
+00:07:51.720 --> 00:07:55.320
+ the network, that is just you, as long as you have control over that account, that is going
+
+00:07:55.320 --> 00:07:58.080
+ to be you forever and no one can take that away from you.
+
+00:07:58.080 --> 00:07:59.980
+ The rest of it does not operate on blockchain.
+
+00:07:59.980 --> 00:08:04.180
+ It's kind of like Macedon where it's, you know, it's federated.
+
+00:08:04.180 --> 00:08:06.240
+ People can build whatever experiences they want on it.
+
+00:08:06.240 --> 00:08:11.320
+ And that model, I'm like, I'm really excited about and I feel like your identity, like
+
+00:08:11.320 --> 00:08:15.780
+ your identity stays with you no matter which of the federated servers you join in that
+
+00:08:15.780 --> 00:08:17.160
+ far castor example.
+
+00:08:17.160 --> 00:08:18.160
+ Yeah, exactly.
+
+00:08:18.160 --> 00:08:20.180
+ And people find you like mine would just be THGXR.
+
+00:08:20.180 --> 00:08:24.520
+ You're going to find me no matter what, what way you're entering the network.
+
+00:08:24.520 --> 00:08:25.520
+ Yeah.
+
+00:08:25.520 --> 00:08:26.520
+ So that sounds attractive.
+
+00:08:26.520 --> 00:08:29.440
+ I guess I've realized we've kind of like jumped into these Twitter alternatives.
+
+00:08:29.440 --> 00:08:34.760
+ Maybe we should talk about like, do we need a Twitter alternative?
+
+00:08:34.760 --> 00:08:36.280
+ What is the situation with Twitter?
+
+00:08:36.280 --> 00:08:37.280
+ What is the read on it?
+
+00:08:37.280 --> 00:08:40.200
+ There's kind of like two angles, I think, to talk about and I'd like to dive into both,
+
+00:08:40.200 --> 00:08:46.080
+ like the technical side with the layoffs and all the people like pointing out bugs or pointing
+
+00:08:46.080 --> 00:08:47.160
+ out things that are going wrong.
+
+00:08:47.160 --> 00:08:52.800
+ And then there's sort of the, uh, just company and leadership, the Elon Musk side, like,
+
+00:08:52.800 --> 00:08:55.080
+ is he capable of running a software company?
+
+00:08:55.080 --> 00:08:58.520
+ I think there's a lot of people I just love to hear your opinions on all this.
+
+00:08:58.520 --> 00:09:00.120
+ I don't know where you want to start.
+
+00:09:00.120 --> 00:09:01.120
+ Yeah.
+
+00:09:01.120 --> 00:09:04.480
+ I guess let's start about whether we should be looking for a Twitter alternative.
+
+00:09:04.480 --> 00:09:05.480
+ Yeah.
+
+00:09:05.480 --> 00:09:08.040
+ I personally don't feel like that.
+
+00:09:08.040 --> 00:09:10.080
+ I think I do a kind of agree with you.
+
+00:09:10.080 --> 00:09:11.920
+ It's kind of the, I'm going to move to Canada.
+
+00:09:11.920 --> 00:09:17.480
+ If that person becomes president, um, what it's funny, I said, like, is we actually know
+
+00:09:17.480 --> 00:09:19.000
+ someone that literally did that.
+
+00:09:19.000 --> 00:09:20.000
+ They moved to Panama.
+
+00:09:20.000 --> 00:09:21.000
+ There you go.
+
+00:09:21.000 --> 00:09:22.560
+ They're out on their, on their promise.
+
+00:09:22.560 --> 00:09:23.560
+ Yeah.
+
+00:09:23.560 --> 00:09:27.800
+ I'm sure it's happened in small numbers, just maybe not the number of people who said they
+
+00:09:27.800 --> 00:09:28.800
+ would.
+
+00:09:28.800 --> 00:09:29.800
+ Yeah.
+
+00:09:29.800 --> 00:09:33.440
+ So yeah, it's obviously a really chaotic time, you know, the future of it.
+
+00:09:33.440 --> 00:09:34.440
+ It's unknown.
+
+00:09:34.440 --> 00:09:36.880
+ It's going to be rough and bumpy, which is unfortunate.
+
+00:09:36.880 --> 00:09:41.480
+ Um, especially the people that work there for, you know, all of us using the, using Twitter
+
+00:09:41.480 --> 00:09:47.800
+ that love Twitter, but I don't, I feel like it's a little bit of an overreaction.
+
+00:09:47.800 --> 00:09:52.520
+ I don't think there really has been anything crazy that's happened yet at least, uh, the
+
+00:09:52.520 --> 00:09:57.000
+ thing I was talking about, the thread that I saw this morning, um, there were some new
+
+00:09:57.000 --> 00:10:03.120
+ stories going around about how like hateful tweets have gone up, like a thousand X or something.
+
+00:10:03.120 --> 00:10:05.960
+ But if you actually get the numbers, there were like a thousand accounts that were created
+
+00:10:05.960 --> 00:10:09.240
+ right after Twitter got acquired and they were doing that.
+
+00:10:09.240 --> 00:10:10.800
+ And then Twitter like clamped down on it.
+
+00:10:10.800 --> 00:10:14.440
+ And ever since then, it's pretty much been the same old Twitter, except everyone's kind
+
+00:10:14.440 --> 00:10:16.240
+ of having this meta conversation.
+
+00:10:16.240 --> 00:10:17.240
+ Yeah.
+
+00:10:17.240 --> 00:10:18.240
+ No, yeah.
+
+00:10:18.240 --> 00:10:22.640
+ It has dominated a lot of what I see on Twitter is just this talk of the situation at Twitter.
+
+00:10:22.640 --> 00:10:27.560
+ I guess like the, I, I assumed all the, the increased spam and increased hate speech stuff
+
+00:10:27.560 --> 00:10:32.640
+ was overblown and that it wasn't necessarily, like people didn't do all the, the real research
+
+00:10:32.640 --> 00:10:38.000
+ to, to back those claims, but I guess there have been some notable things that have happened.
+
+00:10:38.000 --> 00:10:41.720
+ Well, I don't know how notable, but there have been instances where with the new verification
+
+00:10:41.720 --> 00:10:45.880
+ system, companies were impersonated and tweets were put out and stock prices dropped.
+
+00:10:45.880 --> 00:10:46.880
+ I don't know.
+
+00:10:46.880 --> 00:10:49.920
+ If you know anything about those stories or if there's real concern, I guess you ended
+
+00:10:49.920 --> 00:10:54.040
+ up pulling the feature shortly thereafter.
+
+00:10:54.040 --> 00:10:55.440
+ So there had to be something to it.
+
+00:10:55.440 --> 00:10:56.440
+ Yeah.
+
+00:10:56.440 --> 00:10:57.440
+ It's funny.
+
+00:10:57.440 --> 00:11:01.640
+ Prior to that, I was talking to my friends and I was, we were talking about, okay, what's
+
+00:11:01.640 --> 00:11:05.920
+ the most lucrative thing you could do to, if like fake, impersonate company.
+
+00:11:05.920 --> 00:11:10.720
+ And the thing we came up with is you impersonate your own Powell and say, Hey, we're dropping
+
+00:11:10.720 --> 00:11:12.880
+ rates again and a stock market goes crazy.
+
+00:11:12.880 --> 00:11:13.880
+ Oh, wow.
+
+00:11:13.880 --> 00:11:14.880
+ Yeah.
+
+00:11:14.880 --> 00:11:17.760
+ But then the next day someone actually did something like that with that pharma company.
+
+00:11:17.760 --> 00:11:18.760
+ Yeah.
+
+00:11:18.760 --> 00:11:21.920
+ And yeah, that, that was interesting because I don't know how much money they made off
+
+00:11:21.920 --> 00:11:22.920
+ of that.
+
+00:11:22.920 --> 00:11:23.920
+ Maybe, maybe it was clever.
+
+00:11:23.920 --> 00:11:24.920
+ I don't know.
+
+00:11:24.920 --> 00:11:25.920
+ Yeah.
+
+00:11:25.920 --> 00:11:31.760
+ But yeah, that, I guess that yes, I agree, the product development side has been really
+
+00:11:31.760 --> 00:11:32.760
+ questionable.
+
+00:11:32.760 --> 00:11:35.000
+ It feels like they're making unforced errors.
+
+00:11:35.000 --> 00:11:39.920
+ I would love to have a Twitter where every human has one account and I think that's what
+
+00:11:39.920 --> 00:11:44.160
+ they should try to get to this first like incremental thing they did.
+
+00:11:44.160 --> 00:11:48.240
+ I think it was kind of, I think everyone kind of saw what was going to happen and then it
+
+00:11:48.240 --> 00:11:49.600
+ did happen.
+
+00:11:49.600 --> 00:11:54.840
+ I still want to give them the benefit of the doubt because as obvious as it is us, like
+
+00:11:54.840 --> 00:11:59.160
+ I'm sure it's a completely chaotic, you'd expect the people in Twitter to do better.
+
+00:11:59.160 --> 00:12:03.720
+ Elon Musk included, but I'm kind of in a wait and see mode.
+
+00:12:03.720 --> 00:12:04.720
+ Yeah.
+
+00:12:04.720 --> 00:12:10.120
+ Do you have any like thoughts on Elon Musk as like CEO of a software, like a tech company?
+
+00:12:10.120 --> 00:12:15.720
+ Because I, like as I think about his successes and I know that's all debated a lot, but SpaceX
+
+00:12:15.720 --> 00:12:18.360
+ and Tesla are very different companies than Twitter.
+
+00:12:18.360 --> 00:12:23.520
+ Do you think his style of coming in and trying to run a software company plays or is there
+
+00:12:23.520 --> 00:12:24.960
+ concern on that front?
+
+00:12:24.960 --> 00:12:30.560
+ Yeah, I think for myself for a long time, even before Tesla and SpaceX were as big as
+
+00:12:30.560 --> 00:12:36.720
+ they are, I've kind of like had, I was kind of 50/50 on Elon Musk.
+
+00:12:36.720 --> 00:12:42.720
+ I won in the past, I've kind of always been like, well, I like him because I have the
+
+00:12:42.720 --> 00:12:46.000
+ way he spends his money, you know, kind of trying these really crazy things and putting
+
+00:12:46.000 --> 00:12:47.280
+ it all on the line.
+
+00:12:47.280 --> 00:12:51.800
+ I imagine that if I had that much money, I would be brave enough to do that, which who
+
+00:12:51.800 --> 00:12:54.120
+ knows if I would actually be.
+
+00:12:54.120 --> 00:12:58.200
+ The other side that always was a red flag, and I see it as with Mark Zuckerberg also,
+
+00:12:58.200 --> 00:13:03.680
+ is when they get this reputation of being an engineer and I know that doesn't happen
+
+00:13:03.680 --> 00:13:08.960
+ by accident, it has to be very intentionally cultivated where they're like, oh, look, he
+
+00:13:08.960 --> 00:13:13.800
+ actually knows XYZ technical concept.
+
+00:13:13.800 --> 00:13:17.120
+ That to me is always a red flag because I feel like that has to be like very intentional
+
+00:13:17.120 --> 00:13:19.840
+ PR and that just makes me not trust it.
+
+00:13:19.840 --> 00:13:20.840
+ Yeah.
+
+00:13:20.840 --> 00:13:26.060
+ You know, these companies are big and successful people, I think that upsets a lot of people
+
+00:13:26.060 --> 00:13:30.840
+ because they don't like the way he runs them or they don't like who he is or et cetera.
+
+00:13:30.840 --> 00:13:35.160
+ And there's always attempts at taking away the fact that there are successful people will
+
+00:13:35.160 --> 00:13:40.360
+ try to say, well, you know, he didn't do that, it was the engineers or like, whatever the
+
+00:13:40.360 --> 00:13:44.480
+ details are, at the end of the day, at some point he kind of had to put it on the line
+
+00:13:44.480 --> 00:13:48.640
+ and take a lot of personal risks to try to make these companies successful.
+
+00:13:48.640 --> 00:13:53.880
+ These are like crazy moonshot companies, there's not been like a single profitable American
+
+00:13:53.880 --> 00:13:59.520
+ car company and I don't know how long, you know, getting rockets to 100 X cheaper, also
+
+00:13:59.520 --> 00:14:02.600
+ like insane just to do as a person with no background in that space.
+
+00:14:02.600 --> 00:14:08.000
+ So it's undeniable that he's entered spaces where he's had very little reason to be an
+
+00:14:08.000 --> 00:14:10.120
+ expert and delivered.
+
+00:14:10.120 --> 00:14:13.160
+ So I generally would not bet against him.
+
+00:14:13.160 --> 00:14:16.480
+ It is hard now him entering a space that I think I understand a little bit because you
+
+00:14:16.480 --> 00:14:21.840
+ know, I work on software and it seems like he's doing all the wrong things but kind of
+
+00:14:21.840 --> 00:14:25.520
+ the history that you, I feel like I would still give him the benefit of the doubt.
+
+00:14:25.520 --> 00:14:30.560
+ Yeah, it's all very entertaining at the very end, I've seen people tweet that that there's
+
+00:14:30.560 --> 00:14:35.120
+ more traffic hitting Twitter now than ever because all this craziness.
+
+00:14:35.120 --> 00:14:36.120
+ Yeah.
+
+00:14:36.120 --> 00:14:37.120
+ And that's been the case with all his companies.
+
+00:14:37.120 --> 00:14:41.960
+ Like, at least with Tesla, it's been a lot about this controversial marketing angle, which
+
+00:14:41.960 --> 00:14:43.200
+ I do not understand at all.
+
+00:14:43.200 --> 00:14:44.200
+ I don't either.
+
+00:14:44.200 --> 00:14:45.200
+ I don't either.
+
+00:14:45.200 --> 00:14:49.720
+ I really love to hate him, it seems, like there's a lot of, and I'm not like an Elon
+
+00:14:49.720 --> 00:14:50.720
+ Musk fan.
+
+00:14:50.720 --> 00:14:53.320
+ I just, I think I'm like, you know, I'm sort of indifferent.
+
+00:14:53.320 --> 00:14:58.720
+ I think he's done interesting things and yeah, to your point, like you can't deny the success
+
+00:14:58.720 --> 00:15:04.520
+ that they've had that those companies, whoever wasn't responsible for that, but people like
+
+00:15:04.520 --> 00:15:08.200
+ people have really come out with this Twitter thing and that's been a lot of the discourse
+
+00:15:08.200 --> 00:15:12.680
+ on Twitter is just this sort of like either very strongly for, very strongly against Elon
+
+00:15:12.680 --> 00:15:18.720
+ Musk and the sky is falling, I'm not getting numbers on my tweet notifications now, clearly
+
+00:15:18.720 --> 00:15:20.480
+ he doesn't know what he's doing.
+
+00:15:20.480 --> 00:15:25.520
+ Like, have you seen any of the technical, like actual decay that people sort of, there's
+
+00:15:25.520 --> 00:15:29.760
+ been a lot of murmurs that now, like things are degrading, it's just happening slowly,
+
+00:15:29.760 --> 00:15:32.160
+ but just watch six months from now Twitter won't exist.
+
+00:15:32.160 --> 00:15:33.160
+ Do you believe any of that?
+
+00:15:33.160 --> 00:15:34.160
+ Yeah.
+
+00:15:34.160 --> 00:15:37.160
+ So I have not faced, I haven't hit any of that myself.
+
+00:15:37.160 --> 00:15:41.520
+ I haven't noticed anything, but other people have posted and I'll take, you know, I'll take
+
+00:15:41.520 --> 00:15:46.440
+ their word for it, that there's stuff that's degrading and of course there's some articles
+
+00:15:46.440 --> 00:15:51.040
+ from ex-employees saying, you know, this company will blow up in six months.
+
+00:15:51.040 --> 00:15:55.720
+ I've left companies where I've thought that about myself, like, oh, there's all these
+
+00:15:55.720 --> 00:16:00.400
+ little things that I'm doing and there's no way someone's going to know how to do that.
+
+00:16:00.400 --> 00:16:06.920
+ Just times where I left and it wasn't like a friendly, friendly parting and it was really
+
+00:16:06.920 --> 00:16:12.600
+ chaotic and it was a complete mess, but it survived and it always does, like people always
+
+00:16:12.600 --> 00:16:19.120
+ figure it out and it's, there's going to be some short term pain and pressure, but I generally
+
+00:16:19.120 --> 00:16:22.200
+ believe that people will eventually figure it out.
+
+00:16:22.200 --> 00:16:27.960
+ It's not like no one can resuscitate it, you know, no one on the planet is capable of resuscitating
+
+00:16:27.960 --> 00:16:28.960
+ it.
+
+00:16:28.960 --> 00:16:34.120
+ So I, yeah, I believe it'll degrade and things will break.
+
+00:16:34.120 --> 00:16:37.840
+ Like there's always some random servers that need to be rebooted every two weeks, no matter
+
+00:16:37.840 --> 00:16:41.720
+ how, like, good of an engineering company you are.
+
+00:16:41.720 --> 00:16:45.520
+ And if someone's not there to do it, maybe it kind of creeps up.
+
+00:16:45.520 --> 00:16:49.040
+ And I guess when that stuff happens, will anyone really leave over that?
+
+00:16:49.040 --> 00:16:54.480
+ I guess what would it take for you to leave Twitter.com?
+
+00:16:54.480 --> 00:16:58.480
+ I'm just here because everyone I like is here and as long as it continues to be the case,
+
+00:16:58.480 --> 00:17:01.960
+ I'm going to continue to be here even if the experience is not great.
+
+00:17:01.960 --> 00:17:05.920
+ I would argue that the Twitter experience has not been that great in terms of a product
+
+00:17:05.920 --> 00:17:06.920
+ for a while.
+
+00:17:06.920 --> 00:17:08.240
+ It's kind of stagnated.
+
+00:17:08.240 --> 00:17:10.120
+ It's gotten bloated in some ways.
+
+00:17:10.120 --> 00:17:15.320
+ The ads are really, really bad, but I'm still here because everyone I care about is here.
+
+00:17:15.320 --> 00:17:16.320
+ Yeah.
+
+00:17:16.320 --> 00:17:19.960
+ So, yeah, it's been the only, it's really been the only place I hang out on the internet
+
+00:17:19.960 --> 00:17:23.520
+ for a long time, but to your point, yeah, it hasn't really changed much.
+
+00:17:23.520 --> 00:17:27.640
+ I think that is exciting to me, whoever's in charge, like the idea that they're coming
+
+00:17:27.640 --> 00:17:32.640
+ in and making a lot of changes, it seems really fast, it makes me think they'll figure something
+
+00:17:32.640 --> 00:17:37.600
+ out that's interesting and we won't just have the same Twitter we've had for a decade or
+
+00:17:37.600 --> 00:17:38.600
+ whatever.
+
+00:17:38.600 --> 00:17:39.600
+ Yeah.
+
+00:17:39.600 --> 00:17:40.600
+ Exactly.
+
+00:17:40.600 --> 00:17:43.240
+ I mean, it's like my favorite platform, but it's not good.
+
+00:17:43.240 --> 00:17:47.040
+ So, just the chance of it becoming better is exciting.
+
+00:17:47.040 --> 00:17:48.040
+ Yeah.
+
+00:17:48.040 --> 00:17:54.680
+ I think of the whole, the things I really don't like about Twitter, just the ways that things
+
+00:17:54.680 --> 00:17:55.680
+ get in front of you.
+
+00:17:55.680 --> 00:17:59.880
+ So, there's ways to like, you can change your feed to be chronological and all that, but
+
+00:17:59.880 --> 00:18:03.800
+ the algorithm in quotes generally feels pretty bad.
+
+00:18:03.800 --> 00:18:06.400
+ The things that are, and maybe that's just the way our brains work, but the things that
+
+00:18:06.400 --> 00:18:11.600
+ are sort of amplified on the platform seem backwards from what I really care about.
+
+00:18:11.600 --> 00:18:15.400
+ And I would think that he's, he's aware of that, like he's talked about the algorithm
+
+00:18:15.400 --> 00:18:17.040
+ a lot and fairness and all this stuff.
+
+00:18:17.040 --> 00:18:21.720
+ I'm sure they're going to make changes, I don't know, that seems like the kind of thing
+
+00:18:21.720 --> 00:18:25.600
+ that could go really badly or it could be awesome, I don't know.
+
+00:18:25.600 --> 00:18:26.600
+ I'm excited to watch it.
+
+00:18:26.600 --> 00:18:27.600
+ I'll play out.
+
+00:18:27.600 --> 00:18:28.600
+ Yeah.
+
+00:18:28.600 --> 00:18:32.520
+ And that's kind of one of the reasons I've liked Twitter is because it does take work.
+
+00:18:32.520 --> 00:18:36.640
+ You have to follow the right people and you have to like set your feed in a certain way.
+
+00:18:36.640 --> 00:18:39.800
+ But you can get to a place where it doesn't feel like this thing is just hijacking things
+
+00:18:39.800 --> 00:18:41.360
+ you can't control.
+
+00:18:41.360 --> 00:18:47.160
+ When I see other platforms like Instagram, every single thing put in front of me is like
+
+00:18:47.160 --> 00:18:51.360
+ creating an involuntary reaction for me that I just cannot like control.
+
+00:18:51.360 --> 00:18:52.360
+ Yeah.
+
+00:18:52.360 --> 00:18:53.360
+ And I hate that feeling.
+
+00:18:53.360 --> 00:18:56.760
+ I just don't like that and with Twitter, I feel like, okay, I'm in control.
+
+00:18:56.760 --> 00:18:59.760
+ I'm like using it because I like it.
+
+00:18:59.760 --> 00:19:01.600
+ But you know, that's not the default Twitter experience.
+
+00:19:01.600 --> 00:19:06.360
+ The fall Twitter experience is you follow a bunch of people and someone that thinks like
+
+00:19:06.360 --> 00:19:09.960
+ you quote tweets, someone that doesn't think like you and they're like, look at this idiot
+
+00:19:09.960 --> 00:19:12.640
+ and then you can't help but we don't like hate, read all replies.
+
+00:19:12.640 --> 00:19:14.840
+ And that's like just hijacking your time.
+
+00:19:14.840 --> 00:19:15.840
+ Yeah.
+
+00:19:15.840 --> 00:19:19.600
+ So I'd love to see that not be the default experience and a lot of people hate Twitter
+
+00:19:19.600 --> 00:19:20.600
+ because of that.
+
+00:19:20.600 --> 00:19:21.600
+ I think it's a terrible place because of that.
+
+00:19:21.600 --> 00:19:23.600
+ Yeah, I don't know that I've gotten out of that.
+
+00:19:23.600 --> 00:19:25.360
+ I don't know that I've gotten out of the default experience.
+
+00:19:25.360 --> 00:19:29.400
+ I don't know if I've put enough work into my, there are a lot of times I feel like I spent
+
+00:19:29.400 --> 00:19:33.720
+ time on Twitter and I wasn't like pleased at the end that I didn't spend the time wisely
+
+00:19:33.720 --> 00:19:34.720
+ or something.
+
+00:19:34.720 --> 00:19:35.720
+ Yeah.
+
+00:19:35.720 --> 00:19:36.720
+ It still happens.
+
+00:19:36.720 --> 00:19:42.320
+ It's just to what degree to me it's, yeah, it's it's 100% off my feed, but it's like mostly
+
+00:19:42.320 --> 00:19:43.320
+ off my feet.
+
+00:19:43.320 --> 00:19:45.800
+ But I've never thought about that as Twitter's like differentiator.
+
+00:19:45.800 --> 00:19:52.000
+ Is it, it's like almost the worst of the big social media platforms at being a good social
+
+00:19:52.000 --> 00:19:57.480
+ media platform in terms of like what they want to do, which is hijack your attention.
+
+00:19:57.480 --> 00:19:58.960
+ Like Twitter's the worst at it.
+
+00:19:58.960 --> 00:20:00.680
+ And maybe that's why we like it the most.
+
+00:20:00.680 --> 00:20:01.680
+ That's interesting.
+
+00:20:01.680 --> 00:20:02.680
+ Yeah.
+
+00:20:02.680 --> 00:20:05.560
+ I guess it's just hard to do when it's text only, I think it's other platforms.
+
+00:20:05.560 --> 00:20:11.240
+ I mean, there's videos and whatever on Twitter, but yeah, the ad side is also something.
+
+00:20:11.240 --> 00:20:12.240
+ I don't know.
+
+00:20:12.240 --> 00:20:13.240
+ What kind of ads do you get on Twitter?
+
+00:20:13.240 --> 00:20:17.960
+ I used to get a lot of like, it was like, Lemigo and like serverless stuff.
+
+00:20:17.960 --> 00:20:20.880
+ I mean, just, I don't know if they somehow knew I was able to be us.
+
+00:20:20.880 --> 00:20:22.160
+ These days, I don't really notice the ads.
+
+00:20:22.160 --> 00:20:23.640
+ I think I just skip right past them.
+
+00:20:23.640 --> 00:20:26.160
+ I don't know if I just don't even register in my brain.
+
+00:20:26.160 --> 00:20:27.160
+ Yeah.
+
+00:20:27.160 --> 00:20:28.160
+ Yeah.
+
+00:20:28.160 --> 00:20:29.160
+ I, yeah.
+
+00:20:29.160 --> 00:20:34.240
+ So I did, I do get some of that, like the technology focused ones, but it's, I always
+
+00:20:34.240 --> 00:20:39.840
+ found it annoying because it feels like they don't have enough ads to fulfill that category.
+
+00:20:39.840 --> 00:20:42.800
+ So you just do the same thing over and over from us.
+
+00:20:42.800 --> 00:20:45.000
+ I do see, I see the same, like promoted tweet.
+
+00:20:45.000 --> 00:20:47.560
+ It's the guy that's like, you don't, one does not simply.
+
+00:20:47.560 --> 00:20:48.560
+ Simply do.
+
+00:20:48.560 --> 00:20:49.560
+ Simply do.
+
+00:20:49.560 --> 00:20:50.560
+ That's funny.
+
+00:20:50.560 --> 00:20:51.560
+ Yeah.
+
+00:20:51.560 --> 00:20:53.360
+ Is that an ad?
+
+00:20:53.360 --> 00:20:54.440
+ I mean, it's a promoted tweet.
+
+00:20:54.440 --> 00:20:58.520
+ I guess it's an ad in a sense, but it's the same that we're talking about here, the slots
+
+00:20:58.520 --> 00:21:01.640
+ that big companies put in, or is that somebody that just paid to have that tweet?
+
+00:21:01.640 --> 00:21:02.640
+ I don't know.
+
+00:21:02.640 --> 00:21:04.240
+ I think it's, I'm too afraid to click on it.
+
+00:21:04.240 --> 00:21:05.240
+ Yeah.
+
+00:21:05.240 --> 00:21:06.240
+ No, same.
+
+00:21:06.240 --> 00:21:07.240
+ Yeah.
+
+00:21:07.240 --> 00:21:12.240
+ So I get that, and I just hammered you over the head with that, then I get this other
+
+00:21:12.240 --> 00:21:15.040
+ category of things for those fake mobile games.
+
+00:21:15.040 --> 00:21:16.040
+ Have you seen those?
+
+00:21:16.040 --> 00:21:17.920
+ Oh, I think I have, yeah.
+
+00:21:17.920 --> 00:21:24.020
+ Where it'll be like this weird 3D rendering of a game that's not, it's not the actual
+
+00:21:24.020 --> 00:21:27.600
+ game, but it's like really goofy and funny.
+
+00:21:27.600 --> 00:21:28.960
+ It's always like some mafia boss.
+
+00:21:28.960 --> 00:21:31.280
+ It's like being like some guy, it's, yeah.
+
+00:21:31.280 --> 00:21:35.040
+ I actually found entertaining because they feel like little soap operas to me where I
+
+00:21:35.040 --> 00:21:38.200
+ just cannot predict where, where it's going to go.
+
+00:21:38.200 --> 00:21:41.160
+ But you know, also a really terrible ad.
+
+00:21:41.160 --> 00:21:47.080
+ I don't use Instagram much, but when I do, every single ad I get, I'm literally happy
+
+00:21:47.080 --> 00:21:48.080
+ to get the ads.
+
+00:21:48.080 --> 00:21:49.080
+ I'm like, wow, I needed that.
+
+00:21:49.080 --> 00:21:50.080
+ Like I just got a dog.
+
+00:21:50.080 --> 00:21:51.080
+ That's what my wife said.
+
+00:21:51.080 --> 00:21:53.880
+ I'm getting all this really cool dog stuff, so yeah, yeah.
+
+00:21:53.880 --> 00:21:57.760
+ My wife said like they're so good on Instagram about feeding her stuff that she's looking
+
+00:21:57.760 --> 00:21:58.760
+ for.
+
+00:21:58.760 --> 00:22:03.920
+ She'll just like search something so that she knows she'll get more ads about that thing.
+
+00:22:03.920 --> 00:22:05.360
+ Like she uses Instagram for that.
+
+00:22:05.360 --> 00:22:06.360
+ And it's interesting.
+
+00:22:06.360 --> 00:22:09.760
+ Like it's working out well for them and their advertisers, I guess that Instagram.
+
+00:22:09.760 --> 00:22:10.760
+ Yeah.
+
+00:22:10.760 --> 00:22:14.600
+ I would use an ad-only version of Instagram where I'm just like showing me all the stuff
+
+00:22:14.600 --> 00:22:16.440
+ you think I want because it's usually right.
+
+00:22:16.440 --> 00:22:17.440
+ Yeah.
+
+00:22:17.440 --> 00:22:21.720
+ Yeah, that's the funny part about like the privacy angle, everybody wants like no tracking
+
+00:22:21.720 --> 00:22:22.720
+ and all that.
+
+00:22:22.720 --> 00:22:25.480
+ But it makes for a better like ads don't have to be bad.
+
+00:22:25.480 --> 00:22:26.480
+ Yeah.
+
+00:22:26.480 --> 00:22:30.320
+ I generally think, what do you think about the whole on Twitter, the move to subscriptions?
+
+00:22:30.320 --> 00:22:33.280
+ Maybe I don't see as many ads because I am Twitter blue.
+
+00:22:33.280 --> 00:22:34.280
+ I'm subscribed.
+
+00:22:34.280 --> 00:22:38.440
+ Well, speaking of Twitter being a product that's bad, I've been subscribed to Twitter blue
+
+00:22:38.440 --> 00:22:43.400
+ for since it came out and I've had every single feature turned off because I think every
+
+00:22:43.400 --> 00:22:44.920
+ feature makes it worse.
+
+00:22:44.920 --> 00:22:45.920
+ No, I agree.
+
+00:22:45.920 --> 00:22:47.560
+ I've had the $2.99 forever too.
+
+00:22:47.560 --> 00:22:50.760
+ And I turned off the undo thing like so many of those features just annoyed me.
+
+00:22:50.760 --> 00:22:52.600
+ I like that you can upload longer videos.
+
+00:22:52.600 --> 00:22:55.600
+ So I did some longer videos on Twitter, which is dumb because nobody wants to watch video
+
+00:22:55.600 --> 00:22:56.760
+ on Twitter.
+
+00:22:56.760 --> 00:22:57.760
+ But I did it.
+
+00:22:57.760 --> 00:22:59.640
+ I'm trying to think of there's other features.
+
+00:22:59.640 --> 00:23:01.320
+ I guess I changed the icon.
+
+00:23:01.320 --> 00:23:02.320
+ Wait, what?
+
+00:23:02.320 --> 00:23:03.320
+ On my screen.
+
+00:23:03.320 --> 00:23:04.320
+ Yeah.
+
+00:23:04.320 --> 00:23:07.440
+ You can use like a different like holiday themed ones like the icon on your phone.
+
+00:23:07.440 --> 00:23:09.400
+ I've done that.
+
+00:23:09.400 --> 00:23:13.760
+ I mean, I'm into finding ways for the people like I'll I subscribe to them because like
+
+00:23:13.760 --> 00:23:17.320
+ I said, I Twitter is a big part of my life and a lot of value from it.
+
+00:23:17.320 --> 00:23:18.880
+ So I'm like, I'll pay.
+
+00:23:18.880 --> 00:23:23.200
+ I don't care about the features, but you know, honestly, it's not it's like if it makes it
+
+00:23:23.200 --> 00:23:27.720
+ easier for them to not do as many ads or something, like that to me is a reason to pay for it.
+
+00:23:27.720 --> 00:23:30.320
+ It's a thing I use a lot and I'm okay paying for things.
+
+00:23:30.320 --> 00:23:31.320
+ I use a lot.
+
+00:23:31.320 --> 00:23:32.320
+ I'm hoping it'll make it better.
+
+00:23:32.320 --> 00:23:35.800
+ I don't know if that's the general, if that's the broad consensus.
+
+00:23:35.800 --> 00:23:37.080
+ I don't feel like that's been the reaction.
+
+00:23:37.080 --> 00:23:42.120
+ I've seen on Twitter people seem pretty upset about the whole thing, but yeah.
+
+00:23:42.120 --> 00:23:49.480
+ I think people are still as far as we've come, people are still not used to paying for software
+
+00:23:49.480 --> 00:23:50.480
+ in general.
+
+00:23:50.480 --> 00:23:55.760
+ Like eight dollars a month is like two random things you would grab like while you're checking
+
+00:23:55.760 --> 00:23:57.680
+ out at a grocery store without thinking about it.
+
+00:23:57.680 --> 00:24:01.360
+ So yeah, it's I think people aren't used to used to paying for it.
+
+00:24:01.360 --> 00:24:06.520
+ And I think when it was tied to the verification stuff that just really muddied up the conversation.
+
+00:24:06.520 --> 00:24:07.520
+ Yeah.
+
+00:24:07.520 --> 00:24:10.560
+ So we think Twitter is sticking around.
+
+00:24:10.560 --> 00:24:13.600
+ We don't think it's gone in six months.
+
+00:24:13.600 --> 00:24:15.480
+ Yeah, I think it's I think it took around.
+
+00:24:15.480 --> 00:24:19.040
+ Like I said, there's a few things.
+
+00:24:19.040 --> 00:24:22.600
+ I've just seen this before like a M&A type of thing happens.
+
+00:24:22.600 --> 00:24:23.600
+ Things change hands.
+
+00:24:23.600 --> 00:24:25.400
+ It's always really chaotic.
+
+00:24:25.400 --> 00:24:26.400
+ It's never going to be smooth.
+
+00:24:26.400 --> 00:24:27.400
+ It's never going to be elegant.
+
+00:24:27.400 --> 00:24:33.160
+ Really can't expect that from even like an expert operator.
+
+00:24:33.160 --> 00:24:39.640
+ And to I you know, say whatever you want about Elon Musk, but he generally hasn't had huge
+
+00:24:39.640 --> 00:24:40.640
+ failures.
+
+00:24:40.640 --> 00:24:41.640
+ Yeah.
+
+00:24:41.640 --> 00:24:42.640
+ Yeah.
+
+00:24:42.640 --> 00:24:43.640
+ Yeah.
+
+00:24:43.640 --> 00:24:49.000
+ And I think the other thing we didn't talk about is all the layoffs.
+
+00:24:49.000 --> 00:24:56.840
+ And I think that one I mean, I think if I if you look into it, it's it's like a suspension,
+
+00:24:56.840 --> 00:24:57.840
+ I think.
+
+00:24:57.840 --> 00:24:58.840
+ Oh, really?
+
+00:24:58.840 --> 00:25:04.360
+ And it's like you're suspended for three months, you'll still get paid for like a furlough.
+
+00:25:04.360 --> 00:25:05.360
+ Yeah.
+
+00:25:05.360 --> 00:25:06.360
+ Exactly.
+
+00:25:06.360 --> 00:25:10.400
+ You might get, you know, unsuspended or whatever it is.
+
+00:25:10.400 --> 00:25:12.920
+ So yeah, so we'll see.
+
+00:25:12.920 --> 00:25:14.920
+ We'll see what where they end up.
+
+00:25:14.920 --> 00:25:17.920
+ It's interesting that Twitter made these big layoffs took a lot of heat.
+
+00:25:17.920 --> 00:25:20.680
+ But like all the tech companies, big ones are doing these huge layoffs.
+
+00:25:20.680 --> 00:25:25.160
+ So it kind of timed poorly for if you're looking at it from Elon Musk's standpoint, like he
+
+00:25:25.160 --> 00:25:26.160
+ bought Twitter.
+
+00:25:26.160 --> 00:25:31.720
+ But like, how much of that's just the global macroeconomic situation?
+
+00:25:31.720 --> 00:25:32.720
+ Yeah.
+
+00:25:32.720 --> 00:25:34.600
+ I mean, they were headed that way either way.
+
+00:25:34.600 --> 00:25:40.000
+ These companies that are much more profitable than them had to do layoffs, you know, 10,
+
+00:25:40.000 --> 00:25:41.000
+ 20%.
+
+00:25:41.000 --> 00:25:46.360
+ So Twitter was at least seeing that much, if not more.
+
+00:25:46.360 --> 00:25:47.360
+ Interesting.
+
+00:25:47.360 --> 00:25:52.480
+ Well, I guess I'll reserve, I'll not go out and get a mastodon handle or whatever you
+
+00:25:52.480 --> 00:25:53.480
+ have to do.
+
+00:25:53.480 --> 00:25:54.480
+ I don't even know what server I would use.
+
+00:25:54.480 --> 00:25:55.480
+ That's the other problem.
+
+00:25:55.480 --> 00:26:00.580
+ Like you first have to pick your username, which I guess users would be atom.dev.
+
+00:26:00.580 --> 00:26:05.960
+ But then you have to pick from servers and there's like, no, yeah, it's federated stuff
+
+00:26:05.960 --> 00:26:11.600
+ can be very cool, but it needs to kind of be a Gmail situation where there's one really
+
+00:26:11.600 --> 00:26:13.120
+ excellent provider.
+
+00:26:13.120 --> 00:26:14.120
+ Yeah.
+
+00:26:14.120 --> 00:26:17.760
+ And then, you know, like niche providers for people that are more advanced.
+
+00:26:17.760 --> 00:26:18.760
+ Cool.
+
+00:26:18.760 --> 00:26:23.240
+ Well, I think you said it all back, so I don't know that I have any other questions about
+
+00:26:23.240 --> 00:26:24.240
+ Twitter.
+
+00:26:24.240 --> 00:26:25.240
+ Yeah.
+
+00:26:25.240 --> 00:26:26.240
+ All right.
+
+00:26:26.240 --> 00:26:27.240
+ Well, I guess I'll see you on Twitter then.
+
+00:26:27.240 --> 00:26:28.240
+ Yeah.
+
+00:26:28.240 --> 00:26:29.240
+ I'll see you on Twitter.
+
+00:26:29.240 --> 00:26:30.240
+ See you next time.
+
+00:26:30.240 --> 00:26:31.240
+ See you.
+
+00:26:31.240 --> 00:26:32.240
+ See you next time.
+
+00:26:32.240 --> 00:26:33.240
+ See you next time.
+
+00:26:33.240 --> 00:26:34.240
+ Bye.
+
+00:26:34.240 --> 00:26:35.240
+ Bye.
+
+00:26:35.240 --> 00:26:36.240
+ Bye.
+

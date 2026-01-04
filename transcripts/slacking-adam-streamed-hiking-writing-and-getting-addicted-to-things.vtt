@@ -1,0 +1,2579 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.380
+ Are you going to tell me about how you have fiber right into your closet again, it's in my closet like I can see where the fiber
+
+00:00:06.380 --> 00:00:13.340
+ Yeah, like probably twice a month I would say
+
+00:00:30.000 --> 00:00:43.280
+ How'd you're how'd your stream end up going good my throat hurts apparently streaming is
+
+00:00:43.280 --> 00:00:48.820
+ Taxing on your voice. I didn't remember this. Do you feel like riding a bike or was it you feel off?
+
+00:00:48.820 --> 00:00:52.480
+ Oh, yeah, no, I mean all the streaming part was fine, but I
+
+00:00:52.480 --> 00:00:55.940
+ Just forgot they're like talking for four hours straight
+
+00:00:55.940 --> 00:00:58.720
+ actually hurt you
+
+00:00:58.720 --> 00:01:05.620
+ Did you you finish so for some context? I'm building a little app for Jason Langsorf
+
+00:01:05.620 --> 00:01:08.440
+ I've learned with Jason
+
+00:01:08.440 --> 00:01:12.720
+ He's making a video. We've got four devs making the same app or the same premise
+
+00:01:12.720 --> 00:01:15.440
+ Like we're all building a slack app to make our lives easier
+
+00:01:15.440 --> 00:01:19.060
+ He's just kind of comparing and contrasting how different developers solve problems
+
+00:01:19.060 --> 00:01:26.680
+ So I'm building a slack app using their new next generation app platform. I think they called it something like that
+
+00:01:27.240 --> 00:01:30.800
+ And the idea is that it will summarize using
+
+00:01:30.800 --> 00:01:38.780
+ LLM's it'll summarize like a thread and your slack or whatever a bunch of messages from your team that you don't want to read
+
+00:01:38.780 --> 00:01:44.300
+ It gives you a little summary. So at the end of the stream. I had it
+
+00:01:44.300 --> 00:01:51.200
+ It was the communication was happening. So slack was able to hit the API on the API side and get back the response
+
+00:01:51.200 --> 00:01:56.480
+ Now I'm just I'm triggering it differently. So I was it was kind of manual on the slack side
+
+00:01:56.560 --> 00:01:58.720
+ Now I'm gonna have it trigger off of like an emoji
+
+00:01:58.720 --> 00:02:03.580
+ Like if you put an emoji on the thread like a robot emoji or something. It'll send you a summary
+
+00:02:03.580 --> 00:02:07.160
+ That's the idea. So I'll go a little bit left and I'm making an icon because I'm a nerd
+
+00:02:07.160 --> 00:02:15.200
+ Situation a lot where you're like I'm looking at a giant thread of slack messages, and I need to know what's going on
+
+00:02:15.200 --> 00:02:17.200
+ I don't use slack
+
+00:02:17.200 --> 00:02:25.160
+ So now do not bonus for yourself at all so when I was in a slack workspace last
+
+00:02:25.840 --> 00:02:30.840
+ It was the biggest company I've ever worked for there's like a hundred and fifty devs something like that and
+
+00:02:30.840 --> 00:02:34.120
+ yeah, lots of channels that I did not keep up on and
+
+00:02:34.120 --> 00:02:39.640
+ It'd be nice. I think to be like hey, what's going on over there? What are they talking about?
+
+00:02:39.640 --> 00:02:42.880
+ I'm in a weird situation with slack where it was
+
+00:02:42.880 --> 00:02:49.140
+ So central to everything I did for so long that I
+
+00:02:49.140 --> 00:02:53.260
+ Put other stuff into slack as well like me and Liz
+
+00:02:54.080 --> 00:02:57.160
+ We only communicate through slack. We do everything through slack
+
+00:02:57.160 --> 00:03:07.000
+ Even me and my friends like my like the closest circle of friends like we primarily communicate through a shared slack group as all friends do
+
+00:03:07.000 --> 00:03:11.880
+ Yeah, well, it's just convenient because most I think about it this way, right?
+
+00:03:11.880 --> 00:03:16.880
+ There are certain apps on people's computers that are always gonna be there and always gonna be up
+
+00:03:16.880 --> 00:03:21.180
+ And for all my friends that was slack cuz like they had their work stuff on there
+
+00:03:21.920 --> 00:03:23.920
+ Alcoholics
+
+00:03:23.920 --> 00:03:31.360
+ All my friends I met you work too, so like yeah, so yeah, everyone just had it up
+
+00:03:31.360 --> 00:03:36.060
+ So I'm like I might as well put the social stuff in there too because then it's like not competing with the solar
+
+00:03:36.060 --> 00:03:40.720
+ Yeah, that makes sense, but but now my work is no longer in
+
+00:03:40.720 --> 00:03:46.240
+ Fragmented again where SST is on discord
+
+00:03:46.240 --> 00:03:50.120
+ Yes, and this is a huge pink is now it's have two
+
+00:03:50.600 --> 00:03:57.700
+ Chat apps up so kind of defeats the purpose of what I everything I just said. Yeah, you need texts.com. Sorry. Thanks
+
+00:03:57.700 --> 00:04:00.760
+ Yeah, okay, I don't know I don't I don't believe in that idea
+
+00:04:00.760 --> 00:04:06.680
+ I could talk about it some more, but you go ahead. Yeah, so now I have both slag and discord up
+
+00:04:06.680 --> 00:04:11.060
+ And now I'm like can I get everyone to like make one more move and just everyone's on this for now until like
+
+00:04:11.060 --> 00:04:15.060
+ The other issue that slack is just kind of getting
+
+00:04:15.960 --> 00:04:21.560
+ Good here. I'm actually very upset with slack to be honest. I'm upset that they let I mean they sold right
+
+00:04:21.560 --> 00:04:26.080
+ Yeah, it's a sales force and like it's obviously I'm like is there a dumber company in the world in Salesforce?
+
+00:04:26.080 --> 00:04:28.480
+ What does Salesforce even do like what do they do?
+
+00:04:28.480 --> 00:04:34.880
+ Does anyone know it's what they do it literally everything. Oh, really? Okay. Well, their app is again everything app
+
+00:04:34.880 --> 00:04:39.920
+ Is it when I was like they do everything so they do nothing kind of things? Yeah, exactly everything at all
+
+00:04:39.920 --> 00:04:45.000
+ Terribly, but the benefit is it does everything. Okay, sounds awful
+
+00:04:45.200 --> 00:04:49.040
+ I've never used it never had to I guess yeah, I'm upset with slack for
+
+00:04:49.040 --> 00:04:55.440
+ They just like lost gas. I feel like they did so well so fast and I think everyone
+
+00:04:55.440 --> 00:04:57.960
+ understandably was very satisfied with
+
+00:04:57.960 --> 00:05:04.800
+ The outcome their success like where they got to and it just never went anywhere after it
+
+00:05:04.800 --> 00:05:10.880
+ Like disc how do they let discord scoop up the whole open source world that makes no sense to me at all
+
+00:05:11.280 --> 00:05:19.120
+ It's actually the reason yeah, it's because of it. It's expensive right slack is just kind of prohibitively expensive for like an open source community
+
+00:05:19.120 --> 00:05:22.280
+ Yeah, we were paying a thousand dollars a month at one point for SST
+
+00:05:22.280 --> 00:05:27.600
+ And here's why it's actually a bad thing right because most of our customers use slack at work if
+
+00:05:27.600 --> 00:05:34.560
+ We were still on slack. It's a very convenient thing for them to also be in our SEC slack or for people like and I know
+
+00:05:34.560 --> 00:05:36.560
+ other open source companies do this where they have
+
+00:05:36.560 --> 00:05:40.720
+ For customers paying for like prior to support they get a dedicated slack shared
+
+00:05:41.280 --> 00:05:43.840
+ Black connect channel thing, which I think it was like a fantastic
+
+00:05:43.840 --> 00:05:49.720
+ Like experience and they just didn't care like we tried so much to be like hey
+
+00:05:49.720 --> 00:05:52.640
+ Like can you help us and clearly discord was like scooping up that whole?
+
+00:05:52.640 --> 00:05:58.200
+ Face and they just didn't fight back and they let it happen. They're like no, we're not gonna offer some kind of like
+
+00:05:58.200 --> 00:06:05.640
+ Cheaper tier for big communities. The community is not just open source. Are they a public company? They were they were a public company for a little bit
+
+00:06:07.320 --> 00:06:12.720
+ Or bought them like is it working out for them? Are they like are they not do that care about discord?
+
+00:06:12.720 --> 00:06:19.840
+ They're just competing with like Microsoft. Well, they're getting crushed there too because the Microsoft Teams, which is a genuinely terrible product
+
+00:06:19.840 --> 00:06:26.560
+ Their numbers are like insane, which is understandable because it's just like they just have this audience
+
+00:06:26.560 --> 00:06:32.760
+ That's huge. Yeah pays money and we'll just do the incremental thing that works with all the other other stuff
+
+00:06:32.760 --> 00:06:35.920
+ Which is just gonna be teams I saw when I was in New York
+
+00:06:35.920 --> 00:06:41.160
+ I actually saw the slack IPO like they could always decorate the stock market. Oh, yeah
+
+00:06:41.160 --> 00:06:46.320
+ The big flag outside and I remember seeing this like thing when they went public just interesting fact
+
+00:06:46.320 --> 00:06:51.280
+ Yeah, I might be making all that up, but that doesn't seem familiar like a real memory that I had. Yeah
+
+00:06:51.280 --> 00:06:55.120
+ I just that whole world like a
+
+00:06:55.120 --> 00:06:59.840
+ enterprise software just think about people who use Microsoft Teams like whoa
+
+00:06:59.840 --> 00:07:03.000
+ It's it's all just gonna come down right like
+
+00:07:04.080 --> 00:07:10.800
+ So all that stuff fake or no, I think it's the most real thing ever. Oh really? Okay. Yeah, I think it's the opposite
+
+00:07:10.800 --> 00:07:19.440
+ I think it's it's like all the medium small to medium-sized businesses that like you'd never hear about but that employees like most of the world
+
+00:07:19.440 --> 00:07:25.080
+ Yeah, they just are always gonna be on Microsoft because why would they ever do any kind of dramatic change?
+
+00:07:25.080 --> 00:07:28.880
+ Hmm, I guess so they're either gonna die or they're just never gonna change, you know
+
+00:07:28.880 --> 00:07:32.720
+ I've just been I've been so disconnected from that world my entire career and life
+
+00:07:33.320 --> 00:07:35.880
+ I've never worked in a place where it's like
+
+00:07:35.880 --> 00:07:42.480
+ I have an IT department and they dish out Microsoft licenses. Yeah, I don't know
+
+00:07:42.480 --> 00:07:46.160
+ Kind of bizarre so Liz is uncle's business. So he has this
+
+00:07:46.160 --> 00:07:52.240
+ fairly large health care business in Miami and I visited their like HQ and
+
+00:07:52.240 --> 00:07:57.440
+ I visited their IT team and it's just like it's all these people wearing
+
+00:07:57.440 --> 00:07:59.880
+ Like they're like they dressed up for work
+
+00:07:59.880 --> 00:08:05.440
+ They had like you know colored shirts and ties and all that and they're crammed in this tiny room just like
+
+00:08:05.440 --> 00:08:10.960
+ They like put desks all around the perimeter and everyone's like facing outward and like they're so crammed in there
+
+00:08:10.960 --> 00:08:13.800
+ and they have this like one giant screen monitoring like
+
+00:08:13.800 --> 00:08:19.200
+ they're like tiny little like co-located data center with like their servers and like all this stuff and
+
+00:08:19.200 --> 00:08:25.880
+ Yeah, I mean, they're you know, so running is all this stuff on premise. It's all Microsoft stuff
+
+00:08:25.880 --> 00:08:32.760
+ That just blows my mind and yeah, they'd like serve like hundreds of employees and like all their locations and and all the various software
+
+00:08:32.760 --> 00:08:39.160
+ They run they also they self-host everything. It's that's just nuts, right? Like that shouldn't exist. Am I
+
+00:08:39.160 --> 00:08:45.000
+ Am I wrong? Well, the tricky thing is so the reason I was there was her uncle was like, okay
+
+00:08:45.000 --> 00:08:49.320
+ Should we be moving to cloud like he just knew that he knew something was all about that
+
+00:08:49.320 --> 00:08:52.680
+ But he has wanted me to go look to see mm-hmm. Are they doing it right?
+
+00:08:52.680 --> 00:08:58.560
+ Like he just can't tell whether the whoever's running it is like scamming him with the stuff. They're saying you're not
+
+00:08:58.560 --> 00:09:02.000
+ Yeah, so I went and like I I audited everything and I was like
+
+00:09:02.000 --> 00:09:06.320
+ Yeah, if I was building this company from scratch today would look very different
+
+00:09:06.320 --> 00:09:14.760
+ but there's absolutely no reason why you should go and try to innovate here like you can maybe if you did it all right and you
+
+00:09:14.760 --> 00:09:17.600
+ Like moved everything which impossible you're not gonna do that
+
+00:09:18.280 --> 00:09:23.000
+ It's like in a fail and things are gonna go wrong like you would maybe save like 50 or 60%
+
+00:09:23.000 --> 00:09:26.640
+ Plus, it's like the avoid a distraction of like managing all those people
+
+00:09:26.640 --> 00:09:31.560
+ But I'm just like there's just probably a place for you to place those risks
+
+00:09:31.560 --> 00:09:37.480
+ Yeah, so they're gonna be on that forever saving 50 to 60% and not having to manage an entire IT department sounds like
+
+00:09:37.480 --> 00:09:39.760
+ Not insignificant
+
+00:09:39.760 --> 00:09:43.120
+ Yeah quality of life improvements, but just a business at that size
+
+00:09:43.120 --> 00:09:49.440
+ It's just like that's there's like another things that could be more impactful that are more like related to the business
+
+00:09:49.440 --> 00:09:52.440
+ It's just like a random like efficiency thing which yeah
+
+00:09:52.440 --> 00:09:58.000
+ Yeah, I just saw it like I look at it and it bothers me how yeah much better it could be but there's just
+
+00:09:58.000 --> 00:10:00.560
+ Rationality there's nothing to do
+
+00:10:00.560 --> 00:10:02.240
+ interesting
+
+00:10:02.240 --> 00:10:05.840
+ Feels like if I mean I guess like companies won't just move to cloud
+
+00:10:05.840 --> 00:10:12.080
+ They'll just eventually die because companies die like not exactly that reason. It's just like companies don't live forever
+
+00:10:12.320 --> 00:10:17.080
+ So I guess new companies are being built and those new companies are likely being built on cloud
+
+00:10:17.080 --> 00:10:21.800
+ But not really yeah, it's a lot. I'm just being built on it's so dumb
+
+00:10:21.800 --> 00:10:26.400
+ Why I don't understand it's not even the cloud versus I know some of the Microsoft thing like yeah
+
+00:10:26.400 --> 00:10:31.080
+ There are new companies being built, but they're just on like Microsoft cloud like it's not
+
+00:10:31.080 --> 00:10:37.640
+ Running office locally. It's like the hosted version of office and the hosted outlook and the hosted everything
+
+00:10:37.640 --> 00:10:40.720
+ they just have
+
+00:10:40.960 --> 00:10:44.240
+ Just destroyed that space and like nobody can
+
+00:10:44.240 --> 00:10:50.800
+ Wedge it away from that these people use like Google talks and Gmail. Yeah, I mean here's not a decision tree goes
+
+00:10:50.800 --> 00:10:56.520
+ Right. It's like I need all my employees need laptops. I'm not buying them all Mac with pros
+
+00:10:56.520 --> 00:11:02.480
+ Now you're then then after that part of this entry. You're now with Microsoft for everything. I gotcha
+
+00:11:02.480 --> 00:11:05.080
+ Yeah, I think like such a startup bro
+
+00:11:07.560 --> 00:11:12.400
+ Yeah, it's just like yeah, ultimately, there's cheap windows laptops. I'm just telling you on the stream
+
+00:11:12.400 --> 00:11:18.560
+ This is totally off job. Yeah at the end after I'd already left like I'd already rated teach
+
+00:11:18.560 --> 00:11:23.160
+ Yeah, somebody posted a first-time message and chat and they said
+
+00:11:23.160 --> 00:11:27.240
+ You're the guy who's stuck between PHP and JavaScript
+
+00:11:27.240 --> 00:11:31.800
+ Just like on a delay
+
+00:11:33.880 --> 00:11:39.920
+ When you were so convinced that you're gonna build something in Laravel and you just never did like I predicted oh man
+
+00:11:39.920 --> 00:11:45.240
+ I never did I sewed it like you predicted. I was just so distracted. I've got so much going on
+
+00:11:45.240 --> 00:11:51.520
+ Yeah, I know I totally would have built something player. Oh, you're gonna. So you're gonna keep claiming that. Okay. I guess technically
+
+00:11:51.520 --> 00:11:56.440
+ I'm not yeah, no, I'm so I'm not right until you die. I guess it's exactly
+
+00:11:56.440 --> 00:11:59.280
+ I'm gonna be like a hundred and
+
+00:11:59.280 --> 00:12:02.600
+ And you know, you still won't have built anything
+
+00:12:03.880 --> 00:12:13.720
+ Did you get the new iPhone? I think you said you're getting it for your wife Casey? Yeah, I got one for Casey
+
+00:12:13.720 --> 00:12:18.120
+ Have you tried like did you I feel like you did or something? I did I did yeah? Oh, no
+
+00:12:18.120 --> 00:12:22.120
+ I think I saw Theo mentioned something about log recording tell me more
+
+00:12:22.120 --> 00:12:28.840
+ Like just like a camera like a DSLR does log yeah that there's like a log mode now you get like this
+
+00:12:29.760 --> 00:12:34.360
+ Well, it's funny because people look at it and they're like wait, I thought it was supposed to look good
+
+00:12:34.360 --> 00:12:38.960
+ But you know you get that like completely flat like no saturation really washed out
+
+00:12:38.960 --> 00:12:41.600
+ Yeah, so it's kind of cool because now I'm like
+
+00:12:41.600 --> 00:12:45.200
+ Especially if we want to make more content as a team for SSD
+
+00:12:45.200 --> 00:12:50.760
+ I don't have to be like hey everyone go get these like expensive cameras that you're only gonna use for this one purpose
+
+00:12:50.760 --> 00:12:53.560
+ I think we can just be like okay. I want to upgrade your phone and
+
+00:12:53.560 --> 00:12:56.040
+ That's basically good enough
+
+00:12:56.040 --> 00:13:02.780
+ That we do so yeah, it's like it really feels like a pro ish type of device now
+
+00:13:02.780 --> 00:13:09.560
+ Which is pretty awesome like workflow. Yeah. Yeah, so yeah shoot the Nexus ST video on iPhones
+
+00:13:09.560 --> 00:13:11.960
+ Maybe you can make it on an Apple commercial or something
+
+00:13:11.960 --> 00:13:18.080
+ Well, I saw that people like famous directors have done that now where they shoot the whole thing on on iPhones Apple
+
+00:13:18.080 --> 00:13:23.240
+ Always has all those like images and videos during the launch events that are like shot from iPhone
+
+00:13:23.920 --> 00:13:30.720
+ Yeah, incredible. Yeah, I mean there's that but like the guy that made oceans 13 and all the ocean movies
+
+00:13:30.720 --> 00:13:36.920
+ Yeah, I love the ocean movies. Yeah. Yeah, so I think he he's like really committed to only shooting on iPhones now really
+
+00:13:36.920 --> 00:13:40.320
+ Like he shoots movies on iPhones. Yeah
+
+00:13:40.320 --> 00:13:44.680
+ Did they pay him to do this? I mean, he's a really successful director
+
+00:13:44.680 --> 00:13:47.800
+ So he can probably just do whatever he wants, but yeah high-flying bird
+
+00:13:47.800 --> 00:13:52.640
+ I never saw it, but child an iPhone 8. It's a movie like in the theaters
+
+00:13:52.640 --> 00:13:55.600
+ I don't know if it was as widely distributed as other stuff
+
+00:13:55.600 --> 00:14:00.600
+ But so how was your return to twitch? Did you enjoy streaming again? Are you gonna do it a lot more now?
+
+00:14:00.600 --> 00:14:05.000
+ Was it nice, but you're not really gonna do it again. It's about opportunities
+
+00:14:05.000 --> 00:14:08.400
+ I don't I don't know how many opportunities right now. I'll have to stream
+
+00:14:08.400 --> 00:14:11.640
+ Today I really needed to because I well
+
+00:14:11.640 --> 00:14:12.840
+ I just needed to make this thing
+
+00:14:12.840 --> 00:14:16.680
+ I needed to take a block of time and do this for Jason because I said I would do it
+
+00:14:16.680 --> 00:14:20.200
+ So that was kind of a forcing actually agreed at things. Why do you agree to do things?
+
+00:14:20.200 --> 00:14:24.840
+ I don't know Jason. I always regret it. I do every single time I ever say I'll do something
+
+00:14:24.840 --> 00:14:30.600
+ So I almost I have a local friend who's a teacher at a local school who asked me to do a presentation on
+
+00:14:30.600 --> 00:14:33.240
+ Computer science at a career day thing at his school
+
+00:14:33.240 --> 00:14:35.240
+ And I didn't text him back for like two weeks
+
+00:14:35.240 --> 00:14:40.040
+ Because it was just like painful cuz he's a good friend like we were like really close in college
+
+00:14:40.040 --> 00:14:44.560
+ I just I wanted to say yes because I also have this thing where like I really wish
+
+00:14:44.560 --> 00:14:48.880
+ Students especially in rural areas like this were learning about computer science more
+
+00:14:49.240 --> 00:14:52.320
+ Than they are like I it saved me from like a very
+
+00:14:52.320 --> 00:14:54.400
+ impoverished area anyway
+
+00:14:54.400 --> 00:14:57.760
+ So I have this like value and he's like a friend and it's like I feel like I should do it
+
+00:14:57.760 --> 00:15:02.060
+ It's like I'll have to make a slide presentation and all this stuff. So I text it back after two weeks. I'm like
+
+00:15:02.060 --> 00:15:04.800
+ Okay, yeah, I'll do it if you still need some basic
+
+00:15:04.800 --> 00:15:08.680
+ Yeah, I'll give you a call tomorrow and he called and someone had already taken the spot
+
+00:15:08.680 --> 00:15:12.000
+ Someone's already doing CS from the local college. Were you relieved?
+
+00:15:12.000 --> 00:15:17.000
+ So yeah, so relieved because it's like more now like I don't feel bad that I'm not doing it
+
+00:15:17.000 --> 00:15:20.760
+ I didn't say no just I couldn't do it. So this is kind of same thing. We're like
+
+00:15:20.760 --> 00:15:27.200
+ Well, they're very different, but Jason's just somebody I really look up to like he was one of the first dev content creators
+
+00:15:27.200 --> 00:15:32.500
+ I ever saw any of this stuff. So him asking me to do this was just kind of like wow
+
+00:15:32.500 --> 00:15:34.160
+ That's that's so cool
+
+00:15:34.160 --> 00:15:38.240
+ I want to do it because I don't want to say no and then they'll never think of me again. I don't know
+
+00:15:38.240 --> 00:15:44.840
+ So I said yes, but immediately you just start regretting and dreading the like action item
+
+00:15:44.840 --> 00:15:47.680
+ I have a deadline and like a date. I have to do a thing. Bye. Oh
+
+00:15:47.680 --> 00:15:51.240
+ Hey do on Monday. Yeah
+
+00:15:51.240 --> 00:15:56.340
+ Well, that's a whole week. Is it Monday today? No, it's Thursday. Oh my god
+
+00:15:56.340 --> 00:16:07.120
+ Have you been yeah, I have not been able to keep track of the weeks of the days at all. I have no kid went
+
+00:16:07.120 --> 00:16:14.500
+ Is it October? It's October. Yeah, I do I hate whenever like I got to go in person for something like a
+
+00:16:14.840 --> 00:16:19.840
+ Insurance form or something. I have to write the date or like on a check and it's like what the hey, it's it
+
+00:16:19.840 --> 00:16:23.720
+ Yeah, like 13th, and I'm thinking like I don't know
+
+00:16:23.720 --> 00:16:30.720
+ Know what I struggle with I struggle with the physical act of writing
+
+00:16:30.720 --> 00:16:36.800
+ I haven't like really written 10 years and it's just like my usual 10 years range my default number
+
+00:16:36.800 --> 00:16:41.360
+ Yeah, everything you did. Yeah, go ahead. I wasn't saying like my hands like shake and like hurts to write yes
+
+00:16:41.360 --> 00:16:45.320
+ And like my handwriting is non-existent anymore
+
+00:16:45.320 --> 00:16:50.880
+ Because it's like every other month that I have to write a physical check or something somebody does some work or something here
+
+00:16:50.880 --> 00:16:52.080
+ and it's like
+
+00:16:52.080 --> 00:16:57.360
+ There's just very few instances in the year that I have to write and I realize like that's yeah
+
+00:16:57.360 --> 00:17:03.960
+ It's been 10 15 years of that like I've just not really had to write much and our kid our oldest Asa
+
+00:17:03.960 --> 00:17:08.160
+ He hates writing like of all the subjects in school
+
+00:17:09.360 --> 00:17:15.800
+ He loves he enjoys doing some of us like math. He enjoys it. He just hates having to write out stuff
+
+00:17:15.800 --> 00:17:21.440
+ Like he would just sit there and do it with you like telling you the answers or if you could write for him
+
+00:17:21.440 --> 00:17:27.680
+ But he just hates physically writing and it's hard to be like you got to learn to write because I just don't write
+
+00:17:27.680 --> 00:17:31.760
+ And I wonder if I just be teaching him to type and like forget this stupid
+
+00:17:31.760 --> 00:17:34.760
+ I don't know writing with your dumb hands
+
+00:17:34.760 --> 00:17:38.880
+ There's something about the act of writing that helps with the learning of the thing
+
+00:17:39.360 --> 00:17:44.480
+ I don't know is there could typing did the same thing? I think maybe but I'm gonna think about math
+
+00:17:44.480 --> 00:17:50.760
+ I'm like I I see how that's like a tool to like understand what's happening kind of
+
+00:17:50.760 --> 00:17:56.160
+ Like even something like more complex math in my head. I like sometimes visualize what I would have written
+
+00:17:56.160 --> 00:18:00.080
+ I mean he ends up writing it like we he does have to just write yeah
+
+00:18:00.080 --> 00:18:03.200
+ It's the thing. It's the thing. He likes the least out of all of school
+
+00:18:03.200 --> 00:18:09.120
+ Like especially having to write out words lots of them like he reads like a book a day
+
+00:18:09.360 --> 00:18:10.640
+ The kid has read
+
+00:18:10.640 --> 00:18:13.920
+ Hundreds maybe thousands of books at this point way more books that I've ever read
+
+00:18:13.920 --> 00:18:18.960
+ He's just constantly reading but hate writing and I don't know how much I can fall from for it
+
+00:18:18.960 --> 00:18:24.720
+ Just feels like a useless skill. Maybe it just doesn't matter because to be honest if I couldn't write
+
+00:18:24.720 --> 00:18:29.920
+ I mean at this point I like can't write and it just doesn't really affect my life besides filling out
+
+00:18:29.920 --> 00:18:36.640
+ Random DMV or yeah, right we had to learn that cursive. That was totally yeah
+
+00:18:37.200 --> 00:18:41.440
+ I mean I was just thinking about that how we had to like trace the thing and I still kind of know the paper that like
+
+00:18:41.440 --> 00:18:45.680
+ How like divide into three horizontal lines and all that
+
+00:18:45.680 --> 00:18:49.520
+ Completely a waste of time. We spent so much time doing that
+
+00:18:49.520 --> 00:18:55.040
+ I mean you realize most of school once you get older like there's mostly just daycare like you were just being
+
+00:18:55.040 --> 00:18:59.600
+ Kept somewhere so your parents could enjoy their lives. Well, not really
+
+00:19:07.520 --> 00:19:09.520
+ The european mind cannot comprehend
+
+00:19:09.520 --> 00:19:16.240
+ Yeah, it's uh, yeah, this is dake. I mean it's yeah, it sucks
+
+00:19:16.240 --> 00:19:19.760
+ I try to think about it because it like it could actually make me angry because I'm like
+
+00:19:19.760 --> 00:19:22.640
+ That was my whole childhood. It was like yeah
+
+00:19:22.640 --> 00:19:27.200
+ How much of our childhood was fit in my childhood was busy work and I knew at the time too
+
+00:19:27.200 --> 00:19:30.960
+ I knew at the time it didn't make any sense and I was annoyed and frustrated by it
+
+00:19:30.960 --> 00:19:35.920
+ But yeah too late for us too late for us, but maybe not for the next generation
+
+00:19:36.000 --> 00:19:40.480
+ Well, I mean your kids don't probably don't waste that much time. No, I mean homeschool is awesome
+
+00:19:40.480 --> 00:19:42.800
+ But you'd like to think that it could get that way
+
+00:19:42.800 --> 00:19:46.720
+ No for public schools. Sorry. That was a weird noise to make out a podcast
+
+00:19:46.720 --> 00:19:52.560
+ Do kids know what they're gonna do when they grow up? No, well, I mean ace
+
+00:19:52.560 --> 00:19:58.640
+ I take that back ace that says he wants to be a lego master builder a lego master builder. What does that mean like uh
+
+00:19:58.640 --> 00:20:05.840
+ Builds legos all day. I guess is that a career is that a job? Uh, there are I mean there are people who if you ask them what their job is
+
+00:20:06.000 --> 00:20:09.040
+ They're a lego master builder like they work for lego and they build
+
+00:20:09.040 --> 00:20:13.120
+ Things like there's a lego land in kids a city and there's lego
+
+00:20:13.120 --> 00:20:18.560
+ Master builders that work there and they just build stuff in the shop for like the exhibits and all that
+
+00:20:18.560 --> 00:20:20.480
+ Yeah, that's even more structured than I was imagining
+
+00:20:20.480 --> 00:20:25.680
+ I thought this was like the content creator route where you like make youtube videos and have a twitch channel. Oh, no
+
+00:20:25.680 --> 00:20:31.360
+ No, it's mostly people who I think they all work for lego. It's the people who design the sets like they come up with
+
+00:20:32.240 --> 00:20:37.360
+ Actual new sets and stuff like that. Those are master builders. Oh, it's literally like what's in the movie there could they call the master builder?
+
+00:20:37.360 --> 00:20:44.080
+ Yeah, yeah, uh-huh. That's right. Yeah, are there lego influencers? Like are they like, uh, there's youtube channels
+
+00:20:44.080 --> 00:20:48.240
+ Like there's someone making like a million dollars a year just being a lego influencer. There must be right
+
+00:20:48.240 --> 00:20:52.320
+ I'm probably yeah. I mean, there's a lot of people in the lego. So
+
+00:20:52.320 --> 00:20:56.640
+ Yeah, I feel like the audience is big enough. I mean, I feel like he's almost old enough to
+
+00:20:56.640 --> 00:21:02.720
+ I mean, he's been consistent. He's yeah, he's always said that's what he wants to do. I mean, that's the only thing he's ever said
+
+00:21:02.720 --> 00:21:05.760
+ And then archer he didn't I mean, he's not the age where
+
+00:21:05.760 --> 00:21:09.600
+ He would think about it would be funny if he would read it to something already
+
+00:21:09.600 --> 00:21:14.080
+ What would he I'm trying to think what he would say
+
+00:21:14.080 --> 00:21:18.720
+ Archer he could cut if he could grasp. Yeah, he could grasp the idea of like working
+
+00:21:18.720 --> 00:21:21.120
+ I mean, he knows that I come down here and work
+
+00:21:21.120 --> 00:21:22.400
+ So
+
+00:21:22.400 --> 00:21:26.160
+ Yeah, what would he say he wants to do for work? It would be something so goofy
+
+00:21:26.640 --> 00:21:28.640
+ He'd probably be bathroom humor
+
+00:21:28.640 --> 00:21:38.560
+ Yeah, when I was little uh, it's funny when you're little you just don't think about things until someone asks you so I
+
+00:21:38.560 --> 00:21:42.640
+ Remember my parents my parents asked me like
+
+00:21:42.640 --> 00:21:47.600
+ I was saying something about my dad being on his laptop or something and they were like
+
+00:21:47.600 --> 00:21:50.080
+ Oh, like he's working and
+
+00:21:50.080 --> 00:21:54.320
+ I said something like oh, yeah, like he goes in his laptop and he plays games
+
+00:21:54.960 --> 00:21:56.960
+ Every day. Like that's
+
+00:21:56.960 --> 00:22:01.040
+ A laptop before that was what he meant was doing when he was working
+
+00:22:01.040 --> 00:22:03.200
+ But the nuance here is
+
+00:22:03.200 --> 00:22:05.840
+ I wasn't going around life thinking. That's what my dad did
+
+00:22:05.840 --> 00:22:09.600
+ I just had literally never thought about it till they asked me in that moment
+
+00:22:09.600 --> 00:22:13.680
+ And I was forced to come up with an answer and I was like this makes sense. Yeah, he put it together
+
+00:22:13.680 --> 00:22:17.680
+ But from my parents point of view they they like still think that that's like what I was thinking this whole time
+
+00:22:17.680 --> 00:22:19.920
+ But it's like no, I just wasn't thinking anything at all
+
+00:22:19.920 --> 00:22:22.080
+ Yeah
+
+00:22:22.080 --> 00:22:25.440
+ Yeah, you don't why would you again? That's that's what they say about kids
+
+00:22:25.440 --> 00:22:30.720
+ like they're basically like on hallucinogenics like what that like if an adult
+
+00:22:30.720 --> 00:22:32.480
+ human
+
+00:22:32.480 --> 00:22:34.480
+ Does like psilocybin like mushrooms
+
+00:22:34.480 --> 00:22:39.360
+ They're like it turns off your default brain or whatever they call it the default center
+
+00:22:39.360 --> 00:22:46.000
+ That like thinks about the future in the past and like worries about the future and has anxiety about the past all this stuff regret
+
+00:22:46.000 --> 00:22:51.520
+ But like kids only live in the current moment. They don't have I don't remember what age they can start
+
+00:22:52.160 --> 00:22:57.120
+ Living outside the current moment, but that's what happens to us on like these crazy psychedelics
+
+00:22:57.120 --> 00:23:01.680
+ And for kids who just always always walk around on mushrooms. Yeah, that's what we always say
+
+00:23:01.680 --> 00:23:08.720
+ That's nice. They're just on mushrooms all the time. Yeah, I think about it as my dog where he has no idea what each day
+
+00:23:08.720 --> 00:23:10.720
+ He's gonna be because I plan it
+
+00:23:10.720 --> 00:23:13.280
+ And more specifically I'm like, okay
+
+00:23:13.280 --> 00:23:19.120
+ Sometimes we take him on a hike and he's like exerting himself because he's like I'm gonna run this way
+
+00:23:19.120 --> 00:23:24.320
+ I'm gonna do this. I'm gonna do that. He has no idea. This is like a three-day hike. He has no idea how long this is
+
+00:23:24.320 --> 00:23:26.800
+ He's not like conserving energy. He's not like
+
+00:23:26.800 --> 00:23:31.040
+ He's like there's no sense of that at all and I keep thinking about that
+
+00:23:31.040 --> 00:23:36.480
+ I'm like it's so insane to live in that way where you just have absolutely no idea what's gonna happen like five minutes
+
+00:23:36.480 --> 00:23:40.320
+ In five minutes. It's so true. Wow. Yeah, it might be kind of fun
+
+00:23:40.320 --> 00:23:46.000
+ But not really because he just he just gets too tired and if the time is too long and he's just like kind of miserable for the last
+
+00:23:46.160 --> 00:23:49.440
+ 30 percent of it, but there's absolutely no way for him to know
+
+00:23:49.440 --> 00:23:53.200
+ There's also no way for me to communicate being like hey chill like this is gonna take
+
+00:23:53.200 --> 00:23:55.680
+ You know a while. Yeah, yeah
+
+00:23:55.680 --> 00:24:00.560
+ Yourself. Yeah pace yourself. Exactly. I really want to the hiking thing
+
+00:24:00.560 --> 00:24:04.640
+ like I love hiking clothes and hiking shoes and
+
+00:24:04.640 --> 00:24:08.000
+ I love pictures of places where you would go hiking
+
+00:24:08.000 --> 00:24:12.000
+ I really want our family to like go on vacations. Wait, hang on
+
+00:24:12.000 --> 00:24:15.840
+ You didn't you described everything except for the actual hiking. Do you not like the actual hiking?
+
+00:24:15.920 --> 00:24:17.600
+ I'm not done it. I mean, I'm not really hiked
+
+00:24:17.600 --> 00:24:23.760
+ I just like all the things about hiking, but I don't think with kids. I just don't know if they're old enough
+
+00:24:23.760 --> 00:24:26.560
+ I think I would just be carrying one of them the entire way
+
+00:24:26.560 --> 00:24:29.520
+ I don't think they could walk for like 20 minutes without getting bored
+
+00:24:29.520 --> 00:24:32.720
+ Hiking is like I wouldn't say I'm like a big hiker
+
+00:24:32.720 --> 00:24:34.880
+ But I've done a lot because in in New York
+
+00:24:34.880 --> 00:24:39.840
+ If you live in Manhattan one of the nicest easiest things to do if you want to do like an outdoorsy thing
+
+00:24:40.080 --> 00:24:46.880
+ City is to go like take a train like an hour north and it drops you off at like this very classic
+
+00:24:46.880 --> 00:24:52.320
+ Pretty nice hiking spot. It's like we usually did like a three-hour hike and the peak of it
+
+00:24:52.320 --> 00:24:57.440
+ Like if this crate you get super high gets like crazy nice view of like the huts in and the rolling mountains
+
+00:24:57.440 --> 00:25:01.200
+ All that it's super beautiful. Yeah, we would see all kinds of people on that hike
+
+00:25:01.200 --> 00:25:06.640
+ We would see like that was like working out every day where they would just literally sprint up the mountain
+
+00:25:07.360 --> 00:25:12.240
+ insane like the most insane shape people you'll ever see. Oh, yeah, then sometimes like families with kids and
+
+00:25:12.240 --> 00:25:14.560
+ I think it's just I think it's the habit thing
+
+00:25:14.560 --> 00:25:18.960
+ I think you will end up carrying them till they like understand how long it is and like know what to expect
+
+00:25:18.960 --> 00:25:22.800
+ but but there's also like almost every hiking trail has
+
+00:25:22.800 --> 00:25:29.520
+ Different versions of it so you can do like a really conservative one or you can do one that takes longer or more challenging
+
+00:25:29.520 --> 00:25:34.400
+ Um, so I'm sure they're especially by you like I'm surprised you haven't really done it because there's no
+
+00:25:34.400 --> 00:25:37.600
+ They're I mean, there's like a nature center that we go for walks on
+
+00:25:37.600 --> 00:25:42.720
+ I guess you could call them hikes there's through the woods, but it's it's not like mountainous or I mean
+
+00:25:42.720 --> 00:25:46.880
+ There's like rolling hills, but it's not like I wouldn't call it like a hike
+
+00:25:46.880 --> 00:25:52.000
+ We should go for a walk. Let's have the same thing because she grew up in florida and she was like oh, yeah
+
+00:25:52.000 --> 00:25:57.680
+ Like I've done hikes before then she he came to like the northeast and she was like did not know
+
+00:25:57.680 --> 00:26:03.280
+ Oh, that's different. It's actually a thing where you exert yourself. She's like oh, I'm kind of like walking around in nature
+
+00:26:03.280 --> 00:26:08.560
+ This is like a hike much much different. I guess I've recently like like Tahoe
+
+00:26:08.560 --> 00:26:12.000
+ I went for some hikes up the mountain and
+
+00:26:12.000 --> 00:26:18.480
+ That that was really enjoyable. I couldn't imagine. Yeah, I couldn't imagine the kids though doing those
+
+00:26:18.480 --> 00:26:22.560
+ I don't think we did any yeah, there's like but like there's that app
+
+00:26:22.560 --> 00:26:29.600
+ What's the app? I like trails some kind of trails all trails or something like that. Yeah, and they're all rated
+
+00:26:30.000 --> 00:26:34.160
+ Like very and like there's like reviews and there's like pictures and it's like family friendly ones
+
+00:26:34.160 --> 00:26:36.320
+ Yeah, I know what to expect
+
+00:26:36.320 --> 00:26:41.120
+ Uh, the the one that I did that I liked the most actually actually did it twice
+
+00:26:41.120 --> 00:26:43.920
+ uh was in portland
+
+00:26:43.920 --> 00:26:45.920
+ there is uh
+
+00:26:45.920 --> 00:26:50.160
+ An area called canon beach and there's this hike and at the top of the hike
+
+00:26:50.160 --> 00:26:56.160
+ You get this insane view of just like the ocean but even in the pacific northeast. It's like
+
+00:26:56.640 --> 00:27:02.480
+ It's like uh, it's like a moody ocean. It's like really flat lots of fog like
+
+00:27:02.480 --> 00:27:06.640
+ There's these like dark forest trees like coming down right up to it
+
+00:27:06.640 --> 00:27:12.160
+ Uh, and it looks amazing. You know, it's super nice. Uh, that's a really great one too
+
+00:27:12.160 --> 00:27:16.320
+ I think I would love the pacific northwest. I've been to like I think I've been to Seattle
+
+00:27:16.320 --> 00:27:20.800
+ Maybe that's it. Uh, I just I love that kind of weather like
+
+00:27:21.600 --> 00:27:26.960
+ Damp coat kind of cool. Like I prefer you think you'd like it all the time. I think so
+
+00:27:26.960 --> 00:27:31.280
+ That just the other day. It was like it's like 45 in the morning here right now
+
+00:27:31.280 --> 00:27:36.640
+ And just going out in it like going for a walk. I was telling kasey like I think I'd like it to be like this all the time
+
+00:27:36.640 --> 00:27:41.600
+ Like I could do without the summer like it's not rainy though. It's quite different. No, yeah, it's true
+
+00:27:41.600 --> 00:27:46.720
+ Yeah, I guess if it's raining and cold that's that's not so great when I went to Seattle
+
+00:27:46.800 --> 00:27:53.360
+ Everyone that we were when we were there everyone that we ran into was like, oh, you're here for like the one good week of weather
+
+00:27:53.360 --> 00:27:57.360
+ Per year and it was amazing. It was like kind of what you're describing
+
+00:27:57.360 --> 00:28:01.280
+ But like not annoying and you know, this one was shining and everything
+
+00:28:01.280 --> 00:28:07.200
+ Um, and the outdoor stuff they have there is like so crazy like Mount Rainier and all that all that stuff
+
+00:28:07.200 --> 00:28:12.320
+ Uh, but the issue is it really I really do not like it
+
+00:28:13.040 --> 00:28:18.480
+ Most of the year from what I've seen it's like really dark and gloomy. Oh, yeah, I guess I wouldn't like that
+
+00:28:18.480 --> 00:28:19.440
+ Well
+
+00:28:19.440 --> 00:28:24.400
+ The the thing I like about dark gloomy rainy days is I don't feel guilty that I didn't go outside
+
+00:28:24.400 --> 00:28:27.040
+ Like I take my vitamin D gummies
+
+00:28:27.040 --> 00:28:32.880
+ And I just enjoy the indoors with no guilt, but when it's really sunny and nice like a beautiful day. It's like, okay
+
+00:28:32.880 --> 00:28:34.880
+ I guess we can go outside whatever. Wow
+
+00:28:34.880 --> 00:28:37.920
+ Okay, but would you still feel that if that was every day?
+
+00:28:38.000 --> 00:28:44.080
+ I think so. I like my rainy days too. Like I love rainy days being inside. Like that just feels so cozy and like feels so nice
+
+00:28:44.080 --> 00:28:48.800
+ Um, yeah, but only in contrast with the other days to me. I don't know I
+
+00:28:48.800 --> 00:28:53.120
+ I could probably just be indoors all the time and be fine with it. That's probably awful
+
+00:28:53.120 --> 00:28:55.200
+ And it's bad for you and all that but
+
+00:28:55.200 --> 00:28:58.640
+ I don't know. I really like it inside. Have you tried inside? It's nice
+
+00:28:58.640 --> 00:29:03.840
+ Yeah, I was at that New York too. Like I wouldn't leave my apartment for like a week straight and I never thought I was insane
+
+00:29:03.840 --> 00:29:07.120
+ But yeah, well if I lived in New York, I would yeah, I would never leave
+
+00:29:07.680 --> 00:29:09.680
+ I've never got
+
+00:29:09.680 --> 00:29:15.200
+ Well, I don't know. I mean a lot of people live in Seattle a lot if you live in the Pacific Northwest and they love it
+
+00:29:15.200 --> 00:29:16.720
+ I mean poreland's not
+
+00:29:16.720 --> 00:29:20.480
+ That bern's a lot like Seattle like it's not as rainy. Yeah, no
+
+00:29:20.480 --> 00:29:25.440
+ Yeah, those places are like crazy beautiful like it's insane. The west coast just has
+
+00:29:25.440 --> 00:29:29.040
+ Just has that dominated like beautiful
+
+00:29:29.040 --> 00:29:34.480
+ Nature northern california. Yeah, uh, we should probably like I don't know
+
+00:29:34.480 --> 00:29:37.680
+ Is there something going on on like the tech front? Do you want to talk about something?
+
+00:29:37.680 --> 00:29:40.160
+ It seems so passionate about tech lately
+
+00:29:40.160 --> 00:29:47.120
+ Actually, I'm loving like programming again. So there's that I just I kind of saw you today
+
+00:29:47.120 --> 00:29:50.000
+ Oh, ouch
+
+00:29:50.000 --> 00:29:50.960
+ Listen
+
+00:29:50.960 --> 00:29:55.840
+ Everyone makes fun of me. I love it so much fun. I was gonna say that did you miss that?
+
+00:29:55.840 --> 00:29:59.200
+ No, I'd be I've been programmed pretty hard for like months
+
+00:29:59.200 --> 00:30:02.080
+ I just don't do it in front of people anymore
+
+00:30:03.040 --> 00:30:08.160
+ Program I love programming. I don't I just have fallen out of love with the
+
+00:30:08.160 --> 00:30:14.400
+ The community aspect. I mean, it's not the people. It's just like the like wanting to talk about it ever
+
+00:30:14.400 --> 00:30:20.880
+ I think I'm just born out from like talking about tech. Mm-hmm. Oh, I'm definitely I'm making a like a non tech
+
+00:30:20.880 --> 00:30:27.600
+ Instagram and I'm so excited about this because I'm not dev I heard about it. Yeah. Yeah, adam not dev. Yeah, yeah, it's instagram
+
+00:30:27.600 --> 00:30:30.400
+ That's good. You can come follow me. There's no post yet. That's good
+
+00:30:30.560 --> 00:30:36.320
+ So the thing is I was talking to kc about like what kind of stuff I'll do on this adam not dev because it's just gonna be like
+
+00:30:36.320 --> 00:30:40.800
+ Lifestyle like I don't know everything that's not my work. Yeah, and
+
+00:30:40.800 --> 00:30:44.480
+ I learned from her that it's not like tech
+
+00:30:44.480 --> 00:30:51.440
+ And you don't have to like convince people of anything like posting stuff on instagram is just gonna be like it's not like
+
+00:30:51.440 --> 00:30:55.200
+ Here's why you should understand this and believe me. It's just like
+
+00:30:55.200 --> 00:31:00.480
+ Sharing stuff sounds so nice because I feel like tech everything with tech is like you have to convince people
+
+00:31:00.960 --> 00:31:02.880
+ of a thing
+
+00:31:02.880 --> 00:31:05.600
+ And this is just like I don't know here's what I did today
+
+00:31:05.600 --> 00:31:11.200
+ I'm awesome. You're very naive. Oh, really, but it's worse. It's a get worse
+
+00:31:11.200 --> 00:31:17.680
+ No, it just look every every platform has its thing and instagram's thing is it's like a visual medium
+
+00:31:17.680 --> 00:31:25.280
+ Yeah, and some people's life just looks really visually amazing. And that's kind of like what you maximize
+
+00:31:25.280 --> 00:31:28.960
+ Yeah, that's that's kind of what I'm going for. I feel like I've got a kind of aesthetic life
+
+00:31:29.040 --> 00:31:33.440
+ You know, I feel like I've got a lot in life. Do you have one? Listen?
+
+00:31:33.440 --> 00:31:37.760
+ I'm not saying I'm a static. I'm saying like with that black shirt you wear every day
+
+00:31:37.760 --> 00:31:41.840
+ Okay, so not fashion. I didn't say fashion
+
+00:31:41.840 --> 00:31:45.280
+ That's a good part of it. That's like 50 percent. Oh, really?
+
+00:31:45.280 --> 00:31:50.400
+ You're gonna have yourself in there. I guess sometimes yeah, but it's more like
+
+00:31:50.400 --> 00:31:54.320
+ I don't know the vibe of my home and
+
+00:31:54.320 --> 00:31:58.640
+ My lifestyle. We'll see. I don't know talking about it. It just feels dumb
+
+00:31:59.040 --> 00:32:02.720
+ I should probably post it. What is a visual medium? So you you just got a show
+
+00:32:02.720 --> 00:32:05.600
+ Yeah, just show just wait on a show
+
+00:32:05.600 --> 00:32:11.120
+ The one tech related thing that I was refreshing myself on was the concept of a hackintosh
+
+00:32:11.120 --> 00:32:15.360
+ Did you ever do this a hackintosh is like a Mac that you've actually like
+
+00:32:15.360 --> 00:32:20.480
+ Made changes too close. It's when you install Mac OS on not oh
+
+00:32:20.480 --> 00:32:22.800
+ Wait
+
+00:32:22.800 --> 00:32:26.960
+ Oh, I'm thinking of installing windows on Mac. There's a lot of combinations of this. Yeah, okay
+
+00:32:27.680 --> 00:32:30.640
+ So I used to do this when I was younger because I
+
+00:32:30.640 --> 00:32:38.880
+ Still wanted to have a windows pc for gaming, but I like like using Mac OS. Yeah, I was younger and a fool
+
+00:32:38.880 --> 00:32:41.840
+ a fool didn't just get
+
+00:32:41.840 --> 00:32:44.080
+ And I haven't done in a while another day
+
+00:32:44.080 --> 00:32:50.480
+ I was like, you know what like I think some of like the content creation stuff is like better on Mac like yeah
+
+00:32:50.480 --> 00:32:52.640
+ I want to try some of that stuff
+
+00:32:52.640 --> 00:32:55.360
+ So I was considering doing that again to my computer
+
+00:32:56.400 --> 00:32:58.960
+ And it's it's like so mature like the whole community like there
+
+00:32:58.960 --> 00:33:06.240
+ It like is very easy to do there's like tons of guides and like they've kind of solved all all little problems and all little details
+
+00:33:06.240 --> 00:33:09.920
+ Uh, so it is fairly simple to install at least today
+
+00:33:09.920 --> 00:33:15.440
+ the latest Mac OS on your pc and use like reboot into it when you want to use it
+
+00:33:15.440 --> 00:33:17.760
+ uh, but
+
+00:33:17.760 --> 00:33:21.200
+ There's like a big thing that's gonna end this all which is
+
+00:33:21.200 --> 00:33:24.400
+ the fact that uh apple doesn't
+
+00:33:25.280 --> 00:33:28.240
+ Is they sold their last mac pro that uses intel
+
+00:33:28.240 --> 00:33:31.600
+ Here we go. Yeah
+
+00:33:31.600 --> 00:33:36.240
+ Yeah, so there's like very little reason for them long-term to continue maintaining a
+
+00:33:36.240 --> 00:33:39.440
+ Works on like x86
+
+00:33:39.440 --> 00:33:44.240
+ Uh-huh fault arm now. Yeah, so I'm like, oh, what's the point of getting like?
+
+00:33:44.240 --> 00:33:49.200
+ I'm sure they're gonna support that mac pro for like another five years or so. So it's not like it's dying tomorrow. Yeah
+
+00:33:49.200 --> 00:33:51.520
+ right, I'm like
+
+00:33:51.520 --> 00:33:53.520
+ In my head as soon as I know that something isn't like
+
+00:33:54.000 --> 00:33:59.360
+ Gonna be around them just like there's no point in here. Yeah doing it. So kind of disappointing
+
+00:33:59.360 --> 00:34:01.760
+ It's kind of like the last sucks. Yeah, it's gonna end up in era
+
+00:34:01.760 --> 00:34:03.760
+ It's been around for like end of an era long
+
+00:34:03.760 --> 00:34:06.880
+ People have been doing this but what so the benefits are
+
+00:34:06.880 --> 00:34:12.640
+ You can do the thing you like to do which is like upgrade individual pieces of hardware and all that
+
+00:34:12.640 --> 00:34:18.160
+ It's not really that as much as it is like I just uh, I like working in linux
+
+00:34:18.160 --> 00:34:21.760
+ I don't think I can see myself maybe accepting working in mac
+
+00:34:22.400 --> 00:34:24.400
+ There's like a lot that would get worse for me though
+
+00:34:24.400 --> 00:34:30.400
+ Um, but then it's also the like I do game a decent amount. So I'm still need like
+
+00:34:30.400 --> 00:34:34.640
+ Oh, yeah game. Yeah, what's that like to game?
+
+00:34:34.640 --> 00:34:40.000
+ These days, I mean less and less as time goes on, but it is like a nice nice thing
+
+00:34:40.000 --> 00:34:43.280
+ It's a very social thing for me, right? It's always yeah me with my friends
+
+00:34:43.280 --> 00:34:47.280
+ Um, so it's like the way that I keep keeping touch if I wasn't such an addictive
+
+00:34:48.080 --> 00:34:53.440
+ Person I would still do game. I think you need to learn to you need to learn how to trust yourself again
+
+00:34:53.440 --> 00:34:57.280
+ I don't it's not it's not me. It's my case. He's got to learn to trust me
+
+00:34:57.280 --> 00:35:04.720
+ But do you trust you that's where i'm obsessed? Uh, no, I don't see there. You know, that's just so obsessive
+
+00:35:04.720 --> 00:35:06.880
+ It's really interesting like
+
+00:35:06.880 --> 00:35:13.440
+ Had I think in the early 2000s had like e sports and gaming as a profession
+
+00:35:14.080 --> 00:35:19.920
+ Been more of a thing. I probably would have ended up going down that route because it was just the thing I was addicted to
+
+00:35:19.920 --> 00:35:24.400
+ I think I just I got addicted to a more socially acceptable thing, which is my work
+
+00:35:24.400 --> 00:35:29.280
+ Shortly thereafter because no one around me wanted me to play games because I was addicted
+
+00:35:29.280 --> 00:35:33.840
+ But like it's no different. I'm just addicted to my work now. It's like everyone's like that's okay
+
+00:35:33.840 --> 00:35:37.520
+ You can do that one. It's not not the game thing. It's interesting
+
+00:35:37.520 --> 00:35:43.840
+ Could have been addicted to a lot of things this kind of thing exists everywhere where like reading a book
+
+00:35:44.160 --> 00:35:49.520
+ Isn't matter if it's like a pure fantasy fiction book seems more acceptable than like spending an equivalent amount of time watching
+
+00:35:49.520 --> 00:35:54.240
+ Movies. Yeah, just the exact same thing. Yeah, it's the same thing
+
+00:35:54.240 --> 00:35:59.440
+ The same thing your brain, right? You know, yeah, so how the act of reading is more accessible
+
+00:35:59.440 --> 00:36:02.000
+ But yeah, no, I mean the video game thing
+
+00:36:02.000 --> 00:36:04.240
+ I just I
+
+00:36:04.240 --> 00:36:09.280
+ I obviously your wife knows you better, but I just have a hard time imagining how you would fit a new addiction into your life
+
+00:36:09.280 --> 00:36:10.800
+ like it just
+
+00:36:10.800 --> 00:36:14.240
+ It's just hard for me to see that happening, you know, especially bidet
+
+00:36:14.240 --> 00:36:20.240
+ Jiu Jitsu, no, I know but the thing with you jitsu is there's like natural things that make it difficult like you
+
+00:36:20.240 --> 00:36:26.240
+ That's true. Do it my body. Yeah, exactly and you have to go to a place and meet with other people to do it
+
+00:36:26.240 --> 00:36:31.520
+ Also true. Yeah, that's the big thing with video games of like the reason I'm not playing them all day is there's a very rare
+
+00:36:31.520 --> 00:36:38.240
+ alignment of all my friends having like a one or two hour slot open. Yeah, I hear you but like
+
+00:36:38.960 --> 00:36:40.240
+ also
+
+00:36:40.240 --> 00:36:44.800
+ the problem like when I was addicted to video games in college was
+
+00:36:44.800 --> 00:36:48.560
+ It's not that I made time for it. It's that it took over
+
+00:36:48.560 --> 00:36:51.360
+ all of my time and I
+
+00:36:51.360 --> 00:36:53.920
+ Everything sacrificed because of it relationships
+
+00:36:53.920 --> 00:36:56.000
+ School
+
+00:36:56.000 --> 00:37:01.120
+ Just everything so it just kind of like fills the container, you know, like no no. Yeah, so liquid. I get it
+
+00:37:01.120 --> 00:37:06.400
+ Yeah, but I do think like it was specific games. I don't think like if I were playing call of duty with you
+
+00:37:06.400 --> 00:37:10.000
+ I don't think I would get addicted to although I did have some call of duty for addiction
+
+00:37:10.000 --> 00:37:17.280
+ Okay, nevermind. This is all is it. Oh, it was also it was also like the MMOs. I guess you were saying those were the ones that I really
+
+00:37:17.280 --> 00:37:22.880
+ Yeah, I mean those are like fine tuned for that type of thing. Yeah, right. Yeah. Also, we're just like me
+
+00:37:22.880 --> 00:37:26.240
+ My friends just aren't very good. So like there's no reason to be addicted. So it's like
+
+00:37:26.240 --> 00:37:28.640
+ Then we just spend more time losing. It just doesn't
+
+00:37:28.640 --> 00:37:31.520
+ Doesn't really make sense
+
+00:37:32.960 --> 00:37:38.240
+ Yeah, I will say among us but Casey was good with me trying among us and that was a good time
+
+00:37:38.240 --> 00:37:40.640
+ I was ready to be addicted, but I couldn't get it made to play with me
+
+00:37:40.640 --> 00:37:41.440
+ so
+
+00:37:41.440 --> 00:37:43.440
+ but that's what I'm talking about right like
+
+00:37:43.440 --> 00:37:50.160
+ Even if you're even if you just were trying to get into that addiction zone like the practicality of it just made it's true
+
+00:37:50.160 --> 00:37:53.840
+ Not happened. So yeah, yeah, there are like guardrails in a way
+
+00:37:53.840 --> 00:37:57.920
+ So what about your kids like are they ever gonna try video games? Are they interested? I don't know
+
+00:37:57.920 --> 00:38:02.560
+ Yeah, I think about this case and I remember us talking about it like I used to have an Xbox one
+
+00:38:03.440 --> 00:38:08.080
+ I think that's the one it was and then we had a said it was like are we gonna have a game console in the house?
+
+00:38:08.080 --> 00:38:12.320
+ Is this a thing that the kids are gonna be aware of that they're gonna know dad goes in the
+
+00:38:12.320 --> 00:38:14.880
+ theater and plays Xbox and
+
+00:38:14.880 --> 00:38:20.640
+ We sold it. We got I mean we gave it away. I don't know what we did but it was kind of that conversation of like
+
+00:38:20.640 --> 00:38:26.560
+ I I know how it what it did for me or just how much time I spent doing it
+
+00:38:26.560 --> 00:38:28.480
+ and
+
+00:38:28.480 --> 00:38:32.480
+ It's back to the whole it's the whole thing with the socially acceptable. What's acceptable use of your time?
+
+00:38:33.040 --> 00:38:36.320
+ And for some reason there's still like taboo in my mind around that but
+
+00:38:36.320 --> 00:38:40.960
+ I think a normal amount of doing it or anything is fine. It's just
+
+00:38:40.960 --> 00:38:43.680
+ Uh, I do not do normal amounts of things
+
+00:38:43.680 --> 00:38:48.640
+ Only throw myself into things, but it's kind of unfair to think that they would be like that
+
+00:38:48.640 --> 00:38:50.640
+ I I guess they should have a shot at like
+
+00:38:50.640 --> 00:38:53.760
+ Anything mistakes. There's already. Yeah, there's already things that
+
+00:38:53.760 --> 00:38:56.960
+ They have a hard time stopping once they start
+
+00:38:57.760 --> 00:39:04.000
+ And it just brings out behaviors that aren't ideal. So yeah, I guess should be treated like any of those things interesting
+
+00:39:04.000 --> 00:39:06.320
+ Yeah, I think I think for me
+
+00:39:06.320 --> 00:39:11.280
+ It's always like a very social thing like how to people will be coming over my house and we play together or like
+
+00:39:11.280 --> 00:39:14.960
+ Like I said for me and my friends like we all live in different cities and it's
+
+00:39:14.960 --> 00:39:17.520
+ We like catch up over
+
+00:39:17.520 --> 00:39:22.080
+ Playing like we're playing but the playing is like kind of in the background to our conversations a lot of times
+
+00:39:22.080 --> 00:39:26.400
+ Yeah, it's a social. Yeah, I hope it does never just fully goes away. I see like it's
+
+00:39:27.280 --> 00:39:30.800
+ It's dropped a lot like we used to play a lot more and it's kind of sad because like
+
+00:39:30.800 --> 00:39:35.840
+ We're like less connected because of that. Is it is it like one person is like the ball neck
+
+00:39:35.840 --> 00:39:38.160
+ Yeah, that just like can't get on and so
+
+00:39:38.160 --> 00:39:42.960
+ Okay. Well, the way it happened is so there was like consistently four or five of us
+
+00:39:42.960 --> 00:39:46.960
+ Uh, and then one of them had kids and that like made it more difficult
+
+00:39:46.960 --> 00:39:49.520
+ and then now
+
+00:39:49.520 --> 00:39:53.760
+ The rest of us I don't even know what's going on everyone like just kind of just moved
+
+00:39:53.760 --> 00:39:56.240
+ So they're like lives are in flux
+
+00:39:56.640 --> 00:39:58.640
+ uh, I actually think what it is is uh
+
+00:39:58.640 --> 00:40:02.240
+ It's the summer and i'm like the moment it gets cold
+
+00:40:02.240 --> 00:40:06.240
+ All these people are going to be stuck inside and they're going to be like, please can we play?
+
+00:40:06.240 --> 00:40:07.680
+ Please can we play on so board?
+
+00:40:07.680 --> 00:40:13.440
+ Which right now they're like, oh, i'm doing this thing or i'm doing this other thing and i'm the one that's trying to like rally everyone together but
+
+00:40:13.440 --> 00:40:15.200
+ Uh
+
+00:40:15.200 --> 00:40:19.680
+ Yeah, it just hasn't happened as much. Mm. But yeah, I mean as people get older and like they get more
+
+00:40:19.680 --> 00:40:24.320
+ More stuff in their life like i'm sure this will diminish but it's kind of happening now. So
+
+00:40:24.880 --> 00:40:26.880
+ You're growing up your friends
+
+00:40:26.880 --> 00:40:32.160
+ Growing apart. I know not that you're growing not that you have to grow up to not play games. I'm sorry
+
+00:40:32.160 --> 00:40:35.680
+ I'm stuck in the like early 2000s tablet or boomer
+
+00:40:35.680 --> 00:40:38.320
+ I am. That's what it is
+
+00:40:38.320 --> 00:40:41.280
+ Yeah, so i gotta make new friends replace them and also
+
+00:40:41.280 --> 00:40:46.240
+ That they ever existed. Can you just play can you just like go on and play with anybody random people?
+
+00:40:46.240 --> 00:40:49.840
+ Is that not good but like that that doesn't have much appeal to me really?
+
+00:40:50.720 --> 00:40:55.120
+ Because it's not social. Yeah, sometimes i play by myself. I guess I never played the games for social reasons
+
+00:40:55.120 --> 00:40:58.800
+ I played games for my own mastery of the game
+
+00:40:58.800 --> 00:41:07.120
+ I have a problem feed your demon. Uh-huh. Have you noticed that i'm like looking at my other screen this whole episode?
+
+00:41:07.120 --> 00:41:16.480
+ I'm trying to try to design a logo. I'm trying to design a slack icon. Oh, is this is this for your yeah for the slack thing
+
+00:41:16.480 --> 00:41:18.560
+ For the thing that you didn't want to do
+
+00:41:20.000 --> 00:41:25.360
+ The reason I don't want to do things and the reason I regret saying yes to things is I always throw myself into something
+
+00:41:25.360 --> 00:41:29.040
+ Like I can't just like do an okay job. I have to like
+
+00:41:29.040 --> 00:41:36.640
+ Like obsess over every little detail and it's just stupid. Is it gonna hurt when someone else's slack app is better than yours?
+
+00:41:36.640 --> 00:41:43.840
+ I'm sure I mean i'm sure there's our good. I've seen it. Is it good? It hurts? I'm saying. Yeah, it already hurts. I'm just thinking about it
+
+00:41:45.360 --> 00:41:51.200
+ It's not a competition. It's just showing people is it different ways i'm thinking. I mean, I want to be the best
+
+00:41:51.200 --> 00:41:55.360
+ But yeah, there you go. It's competition. It's not it's not that everyone has agreed to competition
+
+00:41:55.360 --> 00:41:59.520
+ Is it a competition in your head and the answer is always yes, everything is always a competition in my head
+
+00:41:59.520 --> 00:42:05.840
+ But not in like the competitive. I want you to lose way just in the like I want to do the best possible job
+
+00:42:05.840 --> 00:42:08.160
+ You don't want them to lose you just want to win
+
+00:42:08.160 --> 00:42:10.800
+ Well, no, that sounds no
+
+00:42:12.080 --> 00:42:15.600
+ I just want to do a really good job. Excellent. It's very important to me
+
+00:42:15.600 --> 00:42:22.480
+ That's what this yeah, it's funny. I this I went back and forth with uh lee rob from vercell
+
+00:42:22.480 --> 00:42:26.640
+ on this on twitter and it kind of frustrated me because I was like
+
+00:42:26.640 --> 00:42:29.760
+ the point I was making was
+
+00:42:29.760 --> 00:42:32.080
+ that
+
+00:42:32.080 --> 00:42:38.800
+ The I call it like pr talk where like a lot of these companies speak in a way where like everything's positive and they're doing is like
+
+00:42:39.600 --> 00:42:42.480
+ Can only be good and like you know, it's all spun as positive way
+
+00:42:42.480 --> 00:42:48.000
+ But we all work at companies that are competing and it is like there's a whole other dimension to it where
+
+00:42:48.000 --> 00:42:50.960
+ Yes, overall, it's not a zero sum situation
+
+00:42:50.960 --> 00:42:56.400
+ But in the short term there are winners and losers and people that have the default and people that don't have the fault they're struggling
+
+00:42:56.400 --> 00:42:57.840
+ um
+
+00:42:57.840 --> 00:43:01.680
+ And that I was like it's totally okay to recognize that and not pretend that doesn't exist
+
+00:43:01.680 --> 00:43:05.840
+ And I kept going back and forth lee rob and him just finding different ways to like
+
+00:43:06.560 --> 00:43:11.760
+ Say that no, it's not that or like know that I don't view it that way or I don't see it that way and to me
+
+00:43:11.760 --> 00:43:13.520
+ it just like a denial of
+
+00:43:13.520 --> 00:43:15.920
+ Reality which makes it sound kind of fake to me
+
+00:43:15.920 --> 00:43:17.520
+ um
+
+00:43:17.520 --> 00:43:19.840
+ like we all work at companies like we're all in our
+
+00:43:19.840 --> 00:43:26.480
+ Private chats like talking shit about be like like why are we pretending like this isn't a thing like we all do it
+
+00:43:26.480 --> 00:43:32.160
+ But then it public it's like we only want what's best for everyone and it's a matter who wins as long as the end user
+
+00:43:32.160 --> 00:43:36.480
+ Wends like furthering the whole space. Yeah, it's like well. No, you were trying to be
+
+00:43:36.480 --> 00:43:43.360
+ We're all trying to further the space but with our vision being that yeah, it wouldn't be happy if someone else is
+
+00:43:43.360 --> 00:43:48.480
+ Someone else furthered it with their thing and we're not the default. Yeah, I think it's okay to acknowledge
+
+00:43:48.480 --> 00:43:51.760
+ It's okay to say that yeah, say it out loud. It's an ancient thing
+
+00:43:51.760 --> 00:43:56.000
+ I I like that about you and it's refreshing that you do just sort of like
+
+00:43:56.560 --> 00:44:04.240
+ Acknowledge the bad things to the parts of us. I think what I'm saying is it's arbitrary that we view it as as bad
+
+00:44:04.240 --> 00:44:10.560
+ It's just kind of is a thing like it's the idea of competition existed since we were like single-cell
+
+00:44:10.560 --> 00:44:14.480
+ Organisms like it's just a thing and it's like a fun exciting thing with that
+
+00:44:14.480 --> 00:44:17.120
+ I think a lot of us like and it's okay to say that we want to win
+
+00:44:17.120 --> 00:44:20.880
+ You know yep, I want to win. There you go kind of
+
+00:44:20.880 --> 00:44:25.680
+ I don't know. I don't know. I see the face you're making looking at that logo. I'm like, I don't know if you want to win
+
+00:44:26.560 --> 00:44:34.560
+ Okay, I need to see the logo and also are you just talking to mid-journey? Like what are you doing?
+
+00:44:34.560 --> 00:44:37.440
+ Oh, I'm I'm in figma. I'm just playing with concepts
+
+00:44:37.440 --> 00:44:39.360
+ Then why aren't you talking to mid-journey?
+
+00:44:39.360 --> 00:44:42.480
+ Because it's 23. I could just make this a mid-journey
+
+00:44:42.480 --> 00:44:46.480
+ Wait, what would you how would you prompt mid-journey to make in a while?
+
+00:44:46.480 --> 00:44:48.960
+ But like you can actually google this you can like people put up like
+
+00:44:48.960 --> 00:44:52.960
+ Ways to get certain things and like obviously icons
+
+00:44:54.160 --> 00:44:57.280
+ Are like a classic thing. Yeah, I'm working on it here
+
+00:44:57.280 --> 00:45:02.320
+ Man, I'm so bad at this. I have not really a billion app that uses AI. How'd you not think about this?
+
+00:45:02.320 --> 00:45:07.600
+ Mid-journey prompt for making a slack icon. Well, I don't have a slack icon
+
+00:45:07.600 --> 00:45:11.680
+ But what do you guys like? I just like an app icon, right? Yeah. Okay. Yeah app icon. If you're cool
+
+00:45:11.680 --> 00:45:14.160
+ uh, wow
+
+00:45:14.160 --> 00:45:18.320
+ 20 plus mid-journey prompts to create eye-catching ui icons. Oh, man humanity's done
+
+00:45:18.320 --> 00:45:20.960
+ We don't have any chance
+
+00:45:21.520 --> 00:45:26.880
+ These look so good because you didn't think about this. That's true. Yeah, I'm just not keeping up at all
+
+00:45:26.880 --> 00:45:30.320
+ How do you use mid-journey again? Do I have to like get on discord?
+
+00:45:30.320 --> 00:45:35.040
+ Yeah, I have a paid mid-journey thing. I just don't think I gotta unsubscribe because I've been used it for a while
+
+00:45:35.040 --> 00:45:40.400
+ Yeah, I never use it. I need to unsubscribe too. I have to pay to read this article. Are you kidding me?
+
+00:45:40.400 --> 00:45:44.800
+ Is it medium? It's medium. Why do people keep posting on medium? I don't understand like
+
+00:45:44.800 --> 00:45:47.200
+ Stuff just doesn't get seen because it gets paid well
+
+00:45:47.200 --> 00:45:51.200
+ I don't even understand that whole model like you publish for medium and then medium makes money
+
+00:45:51.360 --> 00:45:54.480
+ I guess. I don't know. Do they share it with you? I mean get an essay month
+
+00:45:54.480 --> 00:45:59.120
+ Higher people still use a medium. It just is so frustrating. So much stuff gets paid well
+
+00:45:59.120 --> 00:46:00.240
+ So
+
+00:46:00.240 --> 00:46:03.440
+ Okay, well if you could find me a free a free article
+
+00:46:03.440 --> 00:46:06.560
+ That'd be cool. I mean, I'm sure you can just tell it
+
+00:46:06.560 --> 00:46:12.240
+ Icon black background. Oh, man. Uh, here we go. Here we go
+
+00:46:12.240 --> 00:46:16.000
+ Uh, okay. Now I just gotta get on discord. I tell you I can't open my discord app
+
+00:46:16.000 --> 00:46:18.960
+ I've had so much friction lately just like do basic things
+
+00:46:19.760 --> 00:46:22.640
+ The discord app on my Mac just doesn't open. I've got to read download it
+
+00:46:22.640 --> 00:46:26.480
+ I got everything on matt matt just works stop it. I see what you're doing
+
+00:46:26.480 --> 00:46:30.640
+ I see what you're doing. I'm just ask this is a genuine question that I just asked
+
+00:46:30.640 --> 00:46:36.080
+ Uh-huh. It's not a Linux uh propaganda piece. No, I didn't mention anything about Linux
+
+00:46:36.080 --> 00:46:40.880
+ I'm not saying everything just works on the next if you could see the number of
+
+00:46:40.880 --> 00:46:43.920
+ Unread messages in my discord
+
+00:46:43.920 --> 00:46:46.880
+ It's intense you try to tell me that you're popular
+
+00:46:47.520 --> 00:46:51.600
+ No, I'm trying to tell you that I don't want to read messages people sent me for some reason
+
+00:46:51.600 --> 00:46:54.080
+ And that like a lot of people are sending you messages because you're popular
+
+00:46:54.080 --> 00:46:57.040
+ No, it's over the course of months and months and months
+
+00:46:57.040 --> 00:47:00.640
+ Okay, general one. Is that the channel I should do this in?
+
+00:47:00.640 --> 00:47:05.280
+ That's in general. You're so busy. You don't have time to respond and people for months and months and months
+
+00:47:05.280 --> 00:47:09.360
+ No, I'm not so busy. I just get excited or in person over messages
+
+00:47:09.360 --> 00:47:13.920
+ And if I read it then I have to respond. Yeah, okay. You know what I am. I'm flexing
+
+00:47:13.920 --> 00:47:17.120
+ I'm just so popular. I have so many messages
+
+00:47:18.320 --> 00:47:20.640
+ Don't forget that you're so busy. They don't have time to answer them
+
+00:47:20.640 --> 00:47:27.200
+ I've so I'm so busy no time to answer them slackbot app icon minimal pastel colors bright
+
+00:47:27.200 --> 00:47:30.960
+ Hmm. How would you name this? Uh, let's just try that
+
+00:47:30.960 --> 00:47:38.640
+ I don't like the discord bot thing like I just don't like this as a model. I don't why didn't a journey do this
+
+00:47:38.640 --> 00:47:42.000
+ I guess it's good because everybody can see
+
+00:47:42.240 --> 00:47:47.600
+ What why do you know? I think it was like I think it's smart in terms of an mvp thing. They have to build like a whole
+
+00:47:47.600 --> 00:47:52.160
+ Thing and discord is like such a good social growth thing
+
+00:47:52.160 --> 00:47:56.560
+ So I get why it made sense, but I do wish at this point now they're huge. They have like
+
+00:47:56.560 --> 00:48:00.160
+ Another way to do it. It's just a it's a tough experience
+
+00:48:00.160 --> 00:48:05.920
+ Like I just hit enter and now I can't find my message because there's tons of messages. You can DM the bot
+
+00:48:05.920 --> 00:48:09.680
+ Oh, you can DM the bot. Yeah, are you kidding me?
+
+00:48:10.240 --> 00:48:13.680
+ You this whole time. That's that's the only way I've ever used it. I've only ever
+
+00:48:13.680 --> 00:48:18.640
+ I'm posting and it only settings you can change. It's all it's all public
+
+00:48:18.640 --> 00:48:23.040
+ It's so gets posted publicly. So don't generate any any weird. Yeah, I wasn't going to
+
+00:48:23.040 --> 00:48:25.760
+ I don't know. I'm just wanting you
+
+00:48:25.760 --> 00:48:30.480
+ But their site is actually very good. How do you delete? How do you delete? Is there a way to delete?
+
+00:48:30.480 --> 00:48:37.920
+ You can't DM the bot. I just tried I I've I've only ever used it by DMing the bot
+
+00:48:38.400 --> 00:48:43.920
+ What bot mid journey bot mid journey bot? Yes. No, you can't do that. So you do that
+
+00:48:43.920 --> 00:48:48.800
+ He tells you you do slash imagine and you do the blah blah blah
+
+00:48:48.800 --> 00:48:54.720
+ Uh, oh you sure can do their site is very good where it's like a pretty nicely designed site
+
+00:48:54.720 --> 00:48:59.680
+ That just shows you like the most popular images. It's kind of like an image sharing like reddit type of situation
+
+00:48:59.680 --> 00:49:02.960
+ And you can see like a website too. Yeah. Yeah, if you log in
+
+00:49:02.960 --> 00:49:05.120
+ Uh on their website
+
+00:49:05.120 --> 00:49:08.880
+ You can see kind of what prompts anything that you see that looks cool. You can like see the prompt that
+
+00:49:08.880 --> 00:49:12.400
+ was gen that generated it. That's a good way to learn
+
+00:49:12.400 --> 00:49:15.760
+ Mm
+
+00:49:15.760 --> 00:49:16.960
+ Yeah
+
+00:49:16.960 --> 00:49:19.200
+ Okay, can can mid journey do text
+
+00:49:19.200 --> 00:49:22.240
+ No
+
+00:49:22.240 --> 00:49:24.400
+ But the new dolly can
+
+00:49:24.400 --> 00:49:27.360
+ Oh really?
+
+00:49:27.360 --> 00:49:29.440
+ Can I can I use that or is it
+
+00:49:29.440 --> 00:49:32.880
+ You don't have access. I don't have access either
+
+00:49:35.920 --> 00:49:38.320
+ Well, oh man, I forgot to tell you so
+
+00:49:38.320 --> 00:49:45.920
+ Yesterday I did that thing where I uploaded my picture myself to chat gbt and I was like this is a fictional character
+
+00:49:45.920 --> 00:49:48.640
+ right their personality traits based off of the image
+
+00:49:48.640 --> 00:49:51.200
+ And
+
+00:49:51.200 --> 00:49:53.040
+ It generated 10 personality traits
+
+00:49:53.040 --> 00:49:59.600
+ And I showed it to liz and liz like with like i'm having a panic attack because I think we're in a video game because it's like way too accurate
+
+00:49:59.600 --> 00:50:01.360
+ Oh no
+
+00:50:01.360 --> 00:50:06.080
+ I'm so accurate. Can you sit it doing? Yeah, I will. I want to see the picture too. I will send it all
+
+00:50:06.080 --> 00:50:12.560
+ Uh, so yeah, it can really infer who you are just from looking at you. This is uh, this is pretty incredible the mid journey saying
+
+00:50:12.560 --> 00:50:18.800
+ Like these are really cool looking. Are they better than whatever you were messing with? Oh by uh
+
+00:50:18.800 --> 00:50:21.680
+ zillion
+
+00:50:21.680 --> 00:50:25.360
+ Is that a number by infinity as my little one says
+
+00:50:26.800 --> 00:50:31.920
+ He really he really last time's the word infinity real quick. I love infinity. I didn't they love it. I can't even
+
+00:50:31.920 --> 00:50:35.520
+ Wrap my head around it and they're just like throwing it around and you're like well
+
+00:50:35.520 --> 00:50:36.800
+ I
+
+00:50:36.800 --> 00:50:41.840
+ Yeah, they're like you suck in there like you suck infinity and you're like you suck infinity plus one
+
+00:50:41.840 --> 00:50:45.760
+ And you're like you're a fool you suck infinity plus two got him got him
+
+00:50:45.760 --> 00:50:48.880
+ plus two
+
+00:50:48.880 --> 00:50:50.720
+ Try and try that exact same thing if you haven't
+
+00:50:50.720 --> 00:50:55.520
+ They're they'll go crazy. Okay. Yeah, the plus one. I think they already do that, but i'll try it again
+
+00:50:56.320 --> 00:51:04.080
+ Uh, slap act a slack app icon minimal pastel colors bright with speech bubble. Are you gonna fill in the text?
+
+00:51:04.080 --> 00:51:10.240
+ I would like to that's the goal. What are you gonna put in the text tldr? It's the name of the bot
+
+00:51:10.240 --> 00:51:15.040
+ Yeah, it's called tldr. I don't know. Is that copyright? Does anyone have copyright on tldr?
+
+00:51:15.040 --> 00:51:17.600
+ I'm thinking copyright that okay. That's good
+
+00:51:17.600 --> 00:51:20.800
+ So you're saying I could make an app called tvh
+
+00:51:20.800 --> 00:51:25.360
+ And they couldn't hear me about yeah, that was actually an app right. Yeah, but yeah, but he does
+
+00:51:25.760 --> 00:51:30.880
+ Yes, so if I do that, nobody can stop me. I don't know because you can't copyright tvh
+
+00:51:30.880 --> 00:51:33.440
+ It's what dax just I didn't say you can't copyright tvh
+
+00:51:33.440 --> 00:51:39.520
+ Well, you basically said that you can copyright it in its kind in a context in a context you can say for like
+
+00:51:39.520 --> 00:51:44.320
+ A social media app that does as well as we have the copyright on it. Okay
+
+00:51:44.320 --> 00:51:48.800
+ It's making it's making little robots and all the icons and I don't love that
+
+00:51:48.800 --> 00:51:53.840
+ Tilton say say no robots and all caps, you know, you know, sometimes that I do which had gbt
+
+00:51:54.080 --> 00:51:56.400
+ Uh, this might come back to bite me, but
+
+00:51:56.400 --> 00:52:02.240
+ Sometimes it doesn't do what I wanted to do that just keeps refusing and then I threaten it and then it works
+
+00:52:02.240 --> 00:52:04.800
+ What oftentimes it works?
+
+00:52:04.800 --> 00:52:07.280
+ Sometimes I'm like I will freaking kill you if you
+
+00:52:07.280 --> 00:52:10.880
+ If you don't do this
+
+00:52:10.880 --> 00:52:15.120
+ It works other times that I like trick it like this thing I did with the
+
+00:52:15.120 --> 00:52:20.480
+ They like detected that people were doing this thing where I upload in their images and generating and like they don't like it
+
+00:52:20.480 --> 00:52:22.480
+ They don't want people doing that so they yeah
+
+00:52:23.040 --> 00:52:26.240
+ Uh, they added blocks and I tried to do it yesterday at first. It didn't work
+
+00:52:26.240 --> 00:52:28.160
+ I tried threatening it. It didn't work
+
+00:52:28.160 --> 00:52:32.000
+ But then you know what got around it. I uploaded the picture and I was like
+
+00:52:32.000 --> 00:52:38.800
+ Give me five things that you're able to do based off this picture and then number three was I can generate a bunch of personality traits
+
+00:52:38.800 --> 00:52:42.000
+ And I was like, oh, that's a great idea. Why don't you why don't you run with that idea?
+
+00:52:42.000 --> 00:52:45.920
+ Number three and then it did it. It did it. It was completely fine. It got around
+
+00:52:45.920 --> 00:52:51.680
+ Humans have no hope of like I love training this thing. You know, that's what I'm saying. I love how
+
+00:52:52.560 --> 00:52:57.520
+ It's this non-deterministic black box things you can't like put these deterministic rules on it
+
+00:52:57.520 --> 00:52:59.360
+ So they much just had like these
+
+00:52:59.360 --> 00:53:03.440
+ Really fancy system prompts somewhere that's like trying to block all these situations, but
+
+00:53:03.440 --> 00:53:07.840
+ Yeah, you can't deterministically block it and I just love it. It's so funny
+
+00:53:07.840 --> 00:53:14.720
+ It's so hilarious. I think blocking it is stupid on the first place. Yeah, it's fine. That's also ineffective
+
+00:53:14.720 --> 00:53:21.440
+ This stuff's really it's wild. What a time to be alive, but we're yeah, we're here
+
+00:53:21.440 --> 00:53:23.440
+ I mean we got to see the internet
+
+00:53:23.440 --> 00:53:26.480
+ Come of age now. We're getting to see this stuff
+
+00:53:26.480 --> 00:53:30.720
+ Really feels like we got to see you stream. We got to see my
+
+00:53:30.720 --> 00:53:33.680
+ appearance on twitch
+
+00:53:33.680 --> 00:53:35.680
+ I mean it really does kind of feel like
+
+00:53:35.680 --> 00:53:42.720
+ You struck like the humanity gold mine. Just imagine I've said this before but imagine if you're born like 200 years ago
+
+00:53:42.720 --> 00:53:44.720
+ What would you be doing tax?
+
+00:53:44.720 --> 00:53:49.200
+ Maybe everyone feels that way trying to stay alive 200 years ago if I mean if I was born
+
+00:53:49.600 --> 00:53:54.000
+ Literally like if I was my ancestor, I would be farming. I told you this. I would just be farming
+
+00:53:54.000 --> 00:53:57.280
+ Yeah, so like what was that like compared to this life?
+
+00:53:57.280 --> 00:54:04.160
+ Maybe not as good. Not as good. Okay. I would have way less decisions to make which can be nice in some ways. Yeah
+
+00:54:04.160 --> 00:54:06.960
+ Yeah, we just fill the time so easily now
+
+00:54:06.960 --> 00:54:11.280
+ I've always got something going on some project around the house something we're doing
+
+00:54:11.280 --> 00:54:16.640
+ We should probably get off here. Uh, it's this point. I'm just reading out my my mid journey problems
+
+00:54:18.960 --> 00:54:22.560
+ Use one of them as like the cover for this this episode. Oh, that's a good idea
+
+00:54:22.560 --> 00:54:29.120
+ One of these little robot pastel robots for this thing that I agreed to and didn't
+
+00:54:29.120 --> 00:54:32.480
+ And ended up regretting but and I hope Jason doesn't hear that
+
+00:54:32.480 --> 00:54:37.600
+ I'm so glad i'm doing it because it just pushed me out of my comfort zone like in the end i'll be happy
+
+00:54:37.600 --> 00:54:41.360
+ I did it. It says you say i'm so glad i'm doing it. What the that was just a complete lie
+
+00:54:41.360 --> 00:54:45.840
+ No, it's i'm almost done. I've been dreading it for like two weeks
+
+00:54:45.840 --> 00:54:51.680
+ Oh, you're glad that now. Okay. Now. Yeah, it's like this morning when I got in the 39 degree cold plunge
+
+00:54:51.680 --> 00:54:54.240
+ Do you understand how cold?
+
+00:54:54.240 --> 00:54:56.240
+ Circulating 39 degree water is
+
+00:54:56.240 --> 00:54:59.520
+ Well, you like start making noises. I started making lots of noises
+
+00:54:59.520 --> 00:55:05.440
+ And I got to pull up the camera feed because now I got to watch it from a third perspective third person view
+
+00:55:05.440 --> 00:55:08.400
+ Then I heard you even say and he might have been joking
+
+00:55:08.400 --> 00:55:10.800
+ But i heard him say something about like
+
+00:55:10.800 --> 00:55:14.080
+ Jumping in 30 degree water, which would be below freezing, which would be really cold
+
+00:55:14.400 --> 00:55:16.400
+ I can stop your heart
+
+00:55:16.400 --> 00:55:20.320
+ And now i'm terrified i'm like 30 not well that's not very many more degrees
+
+00:55:20.320 --> 00:55:23.520
+ Uh, like at what point does your heart have like a memory?
+
+00:55:23.520 --> 00:55:26.800
+ Do you need to be pushing it like I don't know maybe I need to slow
+
+00:55:26.800 --> 00:55:31.920
+ I need to like go in a little like slower like transition like why do you need to get that cold?
+
+00:55:31.920 --> 00:55:35.120
+ It's it's like there's all kinds of benefits to the cold therapy
+
+00:55:35.120 --> 00:55:40.080
+ Have you have you seen the studies? I know you don't believe in studies. You don't believe in science. You don't look too healthy right now
+
+00:55:40.080 --> 00:55:42.480
+ Well, the sun it's the sun washing me out right
+
+00:55:43.120 --> 00:55:45.760
+ Plus like the black guys. Oh, yeah, that didn't
+
+00:55:45.760 --> 00:55:52.320
+ Uh, no cold therapy is good for it. It's like anything that makes your body you have to work harder
+
+00:55:52.320 --> 00:55:56.160
+ I don't know. That's good. My goal is to outlive you and then laugh and then laugh
+
+00:55:56.160 --> 00:56:02.160
+ Yeah, it's your one goal that you're funeral you get that one laugh in general and we're like he was wrong about everything
+
+00:56:02.160 --> 00:56:11.600
+ Oh my heart will stop. Oh, yeah, right. Yeah. Well, the thing the reason I asked you were making a bunch of noises is uh
+
+00:56:12.640 --> 00:56:15.120
+ Like when I would play sports, I remember there was one time where
+
+00:56:15.120 --> 00:56:20.960
+ Like I got hit almost elbow went full force like into that perfect spot. Oh
+
+00:56:20.960 --> 00:56:23.600
+ Like this whole reflexes or whatever
+
+00:56:23.600 --> 00:56:30.400
+ And it winded me so hard like doubled over and my there's stuff. The noises were coming out of my mouth
+
+00:56:30.400 --> 00:56:34.400
+ And again, it's like after a couple minutes like or even it's like one minute. I was fine
+
+00:56:34.400 --> 00:56:38.720
+ But in that moment you're just in this like weird involuntary state where you're just like
+
+00:56:39.040 --> 00:56:44.560
+ Yeah, it's probably similar. Yeah, I because I tonight or this morning
+
+00:56:44.560 --> 00:56:50.560
+ I actually dip my whole head under because there's some kind of like mammalian diving reflex that it's good for your face
+
+00:56:50.560 --> 00:56:53.200
+ if you stick your face in the cold water first it like
+
+00:56:53.200 --> 00:56:57.280
+ activate your parasympathetic system and makes you calm down or whatever anyway
+
+00:56:57.280 --> 00:57:02.000
+ Uh the first time I did not put my head under this time I went completely under and came up
+
+00:57:02.000 --> 00:57:05.600
+ And the just like the gasping it was a little scary
+
+00:57:05.600 --> 00:57:08.640
+ Like I started thinking about the heart rate thing or the heart stopping thing
+
+00:57:09.040 --> 00:57:12.640
+ It's it's a it's an incredible. It's not like the pins and needles pain. It's like
+
+00:57:12.640 --> 00:57:17.520
+ It's some kind of you're outside your brain. It's not your normal conscious mind like
+
+00:57:17.520 --> 00:57:21.520
+ I just felt like a dying animal and I had to get out of that tank
+
+00:57:21.520 --> 00:57:23.040
+ Is that bad?
+
+00:57:23.040 --> 00:57:25.600
+ So I gotta zoom me out and like imagining
+
+00:57:25.600 --> 00:57:30.960
+ You doing this in just like the middle of the Ozarks randomly just out there like
+
+00:57:30.960 --> 00:57:34.400
+ That's like really hilarious to me. Yeah
+
+00:57:36.240 --> 00:57:41.040
+ You're like it's inflicting this on yourself and just like I know nowhere. Yeah, it's true
+
+00:57:41.040 --> 00:57:45.280
+ Did like people 200 years ago if they could see us
+
+00:57:45.280 --> 00:57:49.440
+ Like one of these people they're so bored. They're just jumping in ice water
+
+00:57:49.440 --> 00:57:52.240
+ What's going on?
+
+00:57:52.240 --> 00:57:57.520
+ Yeah, I'm not doing that for the record. It's it's just you. I don't think I'm shaming my ancestors the way you are
+
+00:57:57.520 --> 00:58:00.240
+ No, yeah. Yeah, definitely not shaming them in the way that I am
+
+00:58:00.240 --> 00:58:03.280
+ I'm shameful
+
+00:58:03.280 --> 00:58:08.800
+ Okay, if you want to if you want to send me a good icon, I could move on and get something else done today
+
+00:58:08.800 --> 00:58:11.600
+ I agree. Why this idea? I thought you were talking to mid-journey
+
+00:58:11.600 --> 00:58:14.240
+ Well, yeah, I'm doing a bad job. And I feel like you have a lot of experience
+
+00:58:14.240 --> 00:58:16.160
+ You seem very confident with the mid-journey thing
+
+00:58:16.160 --> 00:58:19.120
+ So if you want to just like whip something up, I don't know if I have experience
+
+00:58:19.120 --> 00:58:24.000
+ I have only ever used mid-journey for humor where I would generate stuff like that was funny and it sounds funny
+
+00:58:24.000 --> 00:58:26.080
+ Did it actually do a good job?
+
+00:58:26.080 --> 00:58:29.120
+ Let me just I have my history here right here. Oh, okay
+
+00:58:29.840 --> 00:58:34.480
+ Oh, actually the last image I generated was like this pixel art
+
+00:58:34.480 --> 00:58:36.960
+ I was trying to do like a bunch of pixel art stuff
+
+00:58:36.960 --> 00:58:42.560
+ Like those like a you always referenced earth bound. Yep. Yeah, it's like that kind of style
+
+00:58:42.560 --> 00:58:47.440
+ It does that really really well. Yeah, I have a dream of making a game
+
+00:58:47.440 --> 00:58:50.320
+ With AI being the the main artist
+
+00:58:50.320 --> 00:58:54.720
+ I really want a video game where it's like a very sophisticated social world
+
+00:58:54.800 --> 00:59:00.640
+ That's like a lot of characters with a bunch of different lms. We talked about this. It's we're gonna do it someday
+
+00:59:00.640 --> 00:59:03.760
+ That's when we retire. We're gonna be making some game
+
+00:59:03.760 --> 00:59:09.360
+ If people still play games. I don't know. Okay. I have some really weird stuff in my mid-journey history
+
+00:59:09.360 --> 00:59:17.520
+ I was trying to mess with Liz's dad who likes trump, but hates castro
+
+00:59:17.520 --> 00:59:21.760
+ Obviously because he's Cuban. Mm-hmm. And I try I was like generating pictures of them like hugging
+
+00:59:25.360 --> 00:59:27.360
+ Funny
+
+00:59:27.360 --> 00:59:31.920
+ And you know what they're pretty good pretty convincing image
+
+00:59:31.920 --> 00:59:36.400
+ I did this one where trump is embracing him and kissing him on the cheek. Wow, which
+
+00:59:36.400 --> 00:59:39.520
+ It's it's so tender. It's so like
+
+00:59:39.520 --> 00:59:41.920
+ Carrying and tender
+
+00:59:41.920 --> 00:59:43.920
+ All love and sensitivity there
+
+00:59:43.920 --> 00:59:50.240
+ Uh, it's funny. I have a picture I generate some pictures of zuko
+
+00:59:51.200 --> 00:59:56.400
+ Wielding two guns. I don't know why I was doing that. I feel like I've seen a picture of zuko with guns
+
+00:59:56.400 --> 00:59:59.520
+ I think you've published on Twitter. That was a different one. Yeah, okay
+
+00:59:59.520 --> 01:00:02.160
+ This one is
+
+01:00:02.160 --> 01:00:06.000
+ I've done this a lot. I did a humanoid Doberman shooting guns in the air
+
+01:00:06.000 --> 01:00:09.600
+ I don't know why I don't know why I did that but it is there you go
+
+01:00:09.600 --> 01:00:14.960
+ That's a lot it's a lot to take in hyper realistic photograph of a comically fat sheep
+
+01:00:14.960 --> 01:00:17.360
+ I don't know why
+
+01:00:17.360 --> 01:00:19.040
+ Did it work
+
+01:00:19.040 --> 01:00:22.160
+ Is it good? Yeah, wow. Yeah, it looks pretty good
+
+01:00:22.160 --> 01:00:27.280
+ Morgan Freeman as a Sith Lord being defeated by hobby or bardam as a jedi
+
+01:00:27.280 --> 01:00:31.840
+ I don't know. I don't know who that second person is. I think it's a new movie. Yeah, no kidding
+
+01:00:31.840 --> 01:00:34.640
+ You're a pretty famous Latin actor
+
+01:00:34.640 --> 01:00:38.240
+ All right. I got some like pastel backgrounds. I can work with these
+
+01:00:38.240 --> 01:00:40.880
+ I'm gonna like I want to put these
+
+01:00:40.880 --> 01:00:45.040
+ On my figma and I'm gonna drop the word tldr on it and see how it goes
+
+01:00:45.040 --> 01:00:46.800
+ Thank you for the tip
+
+01:00:46.800 --> 01:00:50.640
+ Hopefully it works out because I just I saw your face trying to make whatever you were doing
+
+01:00:50.640 --> 01:00:53.360
+ It's in my
+
+01:00:53.360 --> 01:00:55.760
+ This is multitasking right here
+
+01:00:55.760 --> 01:00:58.160
+ I'm just like scrolling these I did so at some point
+
+01:00:58.160 --> 01:01:04.880
+ I'm trying to generate images of people that look like me and it randomly threw in like a crazy neck to like head tattoo
+
+01:01:04.880 --> 01:01:08.160
+ Which looks so good that anytime I see it. I'm just like
+
+01:01:08.160 --> 01:01:11.600
+ Oh man, should I like do that?
+
+01:01:11.600 --> 01:01:16.080
+ It looks like really badass like it. Oh, it looks good
+
+01:01:16.400 --> 01:01:19.840
+ I don't know. I don't even know how I would describe this or like replicate it, but
+
+01:01:19.840 --> 01:01:24.160
+ I gave if you asked me like oh, would you get like a neck tattoo? I'd be like hell no
+
+01:01:24.160 --> 01:01:27.600
+ But then this picture but now seeing this doing it for you
+
+01:01:27.600 --> 01:01:33.200
+ Have you run it by uh liz before you actually she saw it and she's like she's like oh man
+
+01:01:33.200 --> 01:01:35.920
+ That does look really cool. Okay
+
+01:01:35.920 --> 01:01:42.880
+ I think you're you're in the clear. Let's let's see it. I think it happened. Oh man. I don't think I'm brave enough, but
+
+01:01:44.400 --> 01:01:51.600
+ Man's shoving lasagna into a toaster made for bread HD 4k. What are you doing? What what are you doing with mid-journey?
+
+01:01:51.600 --> 01:01:54.160
+ I feel like someone needs to explain this to me
+
+01:01:54.160 --> 01:01:57.440
+ I think I think
+
+01:01:57.440 --> 01:02:02.480
+ I think it goes having conversations with someone where some of these topics came up and I would like try to make a funny image out of it
+
+01:02:02.480 --> 01:02:08.720
+ I have no idea. I think you need uh to play more games or something. You need to find something else as a hobby
+
+01:02:08.720 --> 01:02:10.720
+ I was doing a Balenciaga thing for a while
+
+01:02:10.720 --> 01:02:11.440
+ Oh, yeah
+
+01:02:11.440 --> 01:02:16.000
+ The Balenciaga versions of oh, I did one of you. Yeah, you're in here. Oh, is it good?
+
+01:02:16.000 --> 01:02:18.240
+ I did one of Frank
+
+01:02:18.240 --> 01:02:22.800
+ Uh, it's okay. Hmm. Are you seeing it? I've sent it to you. Oh, okay. It does sound familiar
+
+01:02:22.800 --> 01:02:28.240
+ Is this a still podcast? Are we doing a podcast? What is this? What is happening? I don't know. I have no idea
+
+01:02:28.240 --> 01:02:32.240
+ This is a weird episode. It really is. I'm sorry for our listeners. I don't know
+
+01:02:32.240 --> 01:02:37.600
+ What happens if I record a podcast ever talking for four hours? It's true. Yeah, it's yeah
+
+01:02:38.320 --> 01:02:42.160
+ Okay, let's actually go let's let's end this misery. See you next
+
+01:02:42.160 --> 01:03:04.400
+ Hello. Hello. Hi there. How are you? Hello, Dex
+
+01:03:05.360 --> 01:03:12.000
+ Hello, Dex. Hi there. Hello. Hello. Can you hear me?
+
+01:03:12.000 --> 01:03:17.360
+ The Daxer. Hello to the Dax. Dax, Dax, Dax
+
+01:03:17.360 --> 01:03:22.560
+ Can you hear me? Can you hear me?
+
+01:03:22.560 --> 01:03:27.360
+ Hello. Hello. Hello. Hello. Hello. Hello. Hello
+
+01:03:27.360 --> 01:03:33.920
+ How about now? Can you hear me now? Okay. Okay. There we go. Ah
+

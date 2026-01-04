@@ -1,0 +1,1190 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.000
+ That's what our signals signals.
+
+00:00:02.000 --> 00:00:28.800
+ Okay, let me see if I can explain this because
+
+00:00:30.000 --> 00:00:31.680
+ I don't think there's an official definition.
+
+00:00:31.680 --> 00:00:34.640
+ I think there's a lot of interpretations of what signals can be.
+
+00:00:34.640 --> 00:00:38.480
+ But it's actually pretty simple in some ways.
+
+00:00:38.480 --> 00:00:47.120
+ A signal is just a thing that you can observe and get notified when it changes.
+
+00:00:47.120 --> 00:00:52.160
+ So it's not any different from, you know, like looking at a traffic signal.
+
+00:00:52.160 --> 00:00:56.560
+ Like you can look at it, it's going to flip and then you know that something has changed.
+
+00:00:57.440 --> 00:01:00.960
+ And that sounds kind of simple and like, why would that be useful?
+
+00:01:00.960 --> 00:01:07.040
+ But it has become the foundation for a lot of the innovation happening in the front end world.
+
+00:01:07.040 --> 00:01:09.440
+ And that's why I think it's been coming up a lot more.
+
+00:01:09.440 --> 00:01:14.400
+ Okay, so SolidJS is sort of the, they're probably not even the pioneer of signals.
+
+00:01:14.400 --> 00:01:18.800
+ I guess Ryan would probably say it was something before that, which was the thing before that.
+
+00:01:18.800 --> 00:01:23.360
+ What is the, like, today signals matter and people are talking about them a lot
+
+00:01:23.360 --> 00:01:28.000
+ because SolidJS sort of is gaining in popularity, I guess, and React doesn't use signals.
+
+00:01:28.000 --> 00:01:29.040
+ Is that a good framing?
+
+00:01:29.040 --> 00:01:29.680
+ Yeah, exactly.
+
+00:01:29.680 --> 00:01:34.000
+ And I think there's a lot of frameworks adding signals or having signal like concepts in them.
+
+00:01:34.000 --> 00:01:37.760
+ I think for this discussion, it's probably easiest to scope it just to solid.
+
+00:01:37.760 --> 00:01:45.520
+ Mostly because I think for this wave of signals and like thinking about reactivity,
+
+00:01:45.520 --> 00:01:47.440
+ that is solid wasn't one to kick it off.
+
+00:01:47.440 --> 00:01:52.960
+ And I also personally think that they have the best, maybe implementations are wrong word,
+
+00:01:52.960 --> 00:01:55.680
+ but signals are just one piece of what you need.
+
+00:01:55.680 --> 00:01:59.920
+ And I think the way everything comes together in Solid and exposes signals to you.
+
+00:01:59.920 --> 00:02:03.280
+ I think for me, I think it's the best implementation so far.
+
+00:02:03.280 --> 00:02:06.400
+ So yeah, if you're looking to get into it and understand what's going on,
+
+00:02:06.400 --> 00:02:08.880
+ I think it's good to look at the way it's used in Solid.
+
+00:02:08.880 --> 00:02:13.280
+ So could you sort of juxtapose just talk about the trade-offs?
+
+00:02:13.280 --> 00:02:15.040
+ So React does something different.
+
+00:02:15.040 --> 00:02:21.360
+ It has a virtual DOM and it's like the UIs, a function of state.
+
+00:02:21.360 --> 00:02:24.640
+ And that's different from the way Solid works and the way signals work.
+
+00:02:24.640 --> 00:02:28.640
+ Could you kind of just like lay that out for me so that my dumb brain will understand the difference?
+
+00:02:28.640 --> 00:02:29.840
+ Yeah, so I'll give you the shot.
+
+00:02:29.840 --> 00:02:33.600
+ So I think first, we need to think about how React works.
+
+00:02:33.600 --> 00:02:36.160
+ And I think a lot of us are obviously super familiar with this,
+
+00:02:36.160 --> 00:02:39.120
+ because most of us have been doing React for years and years and years.
+
+00:02:39.120 --> 00:02:41.760
+ And we kind of take a lot of how it works for granted.
+
+00:02:41.760 --> 00:02:46.080
+ But it's good to lay it out to understand how it compares to Solid.
+
+00:02:46.080 --> 00:02:48.480
+ So in React, you have the concept of components.
+
+00:02:48.480 --> 00:02:51.200
+ And I think that's why a lot of us use React.
+
+00:02:51.200 --> 00:02:53.680
+ We like breaking our application up into components.
+
+00:02:53.680 --> 00:02:57.920
+ And the way you define a component React is you define a function.
+
+00:02:57.920 --> 00:03:00.960
+ And the job of this function is to say,
+
+00:03:00.960 --> 00:03:04.480
+ given some input properties, what should the UI look like?
+
+00:03:04.480 --> 00:03:09.760
+ So the function is a, it's not right to think of this as like,
+
+00:03:09.760 --> 00:03:12.320
+ oh, this is the way to do components with functions.
+
+00:03:12.320 --> 00:03:15.440
+ It's really the way React does components with functions.
+
+00:03:15.440 --> 00:03:19.600
+ They make you define it as like any time we need to know what this should look like,
+
+00:03:19.600 --> 00:03:22.880
+ we're going to call this function and your jobs spit out the,
+
+00:03:22.880 --> 00:03:28.320
+ like the JSX tree that it should display.
+
+00:03:28.320 --> 00:03:31.760
+ Then React is a hard work of saying, okay,
+
+00:03:31.760 --> 00:03:34.240
+ given you're saying the UI should look like this,
+
+00:03:34.240 --> 00:03:36.640
+ let's look at what the UI already looks like on the screen
+
+00:03:36.640 --> 00:03:40.480
+ and figure out what's actually changed and will diff it and will patch the UI.
+
+00:03:40.480 --> 00:03:42.400
+ So it matches.
+
+00:03:42.400 --> 00:03:45.920
+ And anytime there's any kind of change in your application in your system,
+
+00:03:45.920 --> 00:03:50.240
+ it retriggers all the render functions across your whole app,
+
+00:03:50.240 --> 00:03:53.120
+ figures out what the UI should look like and then repeats this,
+
+00:03:53.120 --> 00:03:54.720
+ this patching process.
+
+00:03:54.720 --> 00:03:56.880
+ And this works incredibly well.
+
+00:03:56.880 --> 00:03:58.240
+ It seems like it would be slow.
+
+00:03:58.240 --> 00:04:00.960
+ It seems like a waste of computation,
+
+00:04:00.960 --> 00:04:03.040
+ but it does work really well.
+
+00:04:03.040 --> 00:04:06.320
+ And it was kind of a huge like burden.
+
+00:04:06.320 --> 00:04:07.760
+ The ease of burden when React first came out,
+
+00:04:07.760 --> 00:04:11.440
+ it was way easier to reason about then the way we're doing things before,
+
+00:04:11.440 --> 00:04:14.960
+ where we had to think explicitly about, okay, this thing happened,
+
+00:04:14.960 --> 00:04:18.160
+ like let me go find the element in the UI and go change it manually.
+
+00:04:18.160 --> 00:04:20.800
+ So that was a big innovation and it made a lot of sense.
+
+00:04:20.800 --> 00:04:24.640
+ I think as React changed over time,
+
+00:04:24.640 --> 00:04:26.880
+ and honestly, as UIs changed over time,
+
+00:04:26.880 --> 00:04:30.320
+ there's a, we're doing a lot more complex crazy stuff on the web now.
+
+00:04:30.320 --> 00:04:34.960
+ There's been some challenges with this model.
+
+00:04:34.960 --> 00:04:38.240
+ It still is pretty performant, but there are cases,
+
+00:04:38.240 --> 00:04:42.240
+ especially considering rendering a large table or doing anything with a lot of elements on screen.
+
+00:04:42.240 --> 00:04:45.600
+ These render functions start to get kind of expensive.
+
+00:04:45.600 --> 00:04:48.160
+ And there's a question of, one, can this be more performant?
+
+00:04:48.160 --> 00:04:52.960
+ And two, there are a lot of cases in React that are tricky and hard to reason about,
+
+00:04:52.960 --> 00:04:54.640
+ especially when the hook stuff came out.
+
+00:04:54.640 --> 00:04:58.000
+ Like use memo and passing dependency arrays,
+
+00:04:58.000 --> 00:04:59.200
+ like forgetting to pass that in.
+
+00:04:59.200 --> 00:05:03.120
+ Use effect was a thing that came out that we were all using,
+
+00:05:03.120 --> 00:05:05.920
+ and then eventually we realized, oh, we should actually never be using this.
+
+00:05:06.800 --> 00:05:08.480
+ So there's been a lot of history with React.
+
+00:05:08.480 --> 00:05:10.960
+ And as great and successful as it's been,
+
+00:05:10.960 --> 00:05:13.360
+ I think a lot of us, when we're using React,
+
+00:05:13.360 --> 00:05:15.680
+ despite us having years and years of experience with it,
+
+00:05:15.680 --> 00:05:19.760
+ it's been kind of like, why do I still not feel good at React?
+
+00:05:19.760 --> 00:05:21.360
+ I still feel like I'm struggling.
+
+00:05:21.360 --> 00:05:24.800
+ That's what got me excited of looking at something at an alternative.
+
+00:05:24.800 --> 00:05:28.640
+ And I found SolidJS about maybe two years ago now,
+
+00:05:28.640 --> 00:05:32.080
+ and it looked a lot like React, but the model is completely different.
+
+00:05:32.080 --> 00:05:35.680
+ So I just talked a lot, but does that make sense in terms of React works?
+
+00:05:35.680 --> 00:05:39.200
+ It does, but that last thing you said, the model is completely different.
+
+00:05:39.200 --> 00:05:42.480
+ When I look at Solid stuff, and I'm just very new to it,
+
+00:05:42.480 --> 00:05:43.920
+ but it doesn't look that different.
+
+00:05:43.920 --> 00:05:47.280
+ I mean, I know it's JSX, but even like the difference is like,
+
+00:05:47.280 --> 00:05:53.440
+ you have to call the function of your thing instead of just like placing it in the brackets.
+
+00:05:53.440 --> 00:05:55.120
+ That it all seems very similar.
+
+00:05:55.120 --> 00:05:58.240
+ Is it mostly just the underlying way it works is so different,
+
+00:05:58.240 --> 00:06:01.040
+ but it feels very much like writing React or not?
+
+00:06:01.040 --> 00:06:03.840
+ Yeah, I think that what you're describing is accurate,
+
+00:06:03.840 --> 00:06:05.760
+ and it's a pro and a con of Solid.
+
+00:06:05.760 --> 00:06:08.640
+ So a pro is when you're moving to Solid, you immediately are like,
+
+00:06:08.640 --> 00:06:09.840
+ "Oh, I know how all this works.
+
+00:06:09.840 --> 00:06:11.120
+ I can build you eyes."
+
+00:06:11.120 --> 00:06:13.440
+ And you will, like you start to use Solid in your first day.
+
+00:06:13.440 --> 00:06:16.080
+ You'll be shipping a lot, because it looks a lot like React.
+
+00:06:16.080 --> 00:06:19.280
+ But it's kind of deceptively the same.
+
+00:06:19.280 --> 00:06:21.840
+ It's same in JSX and it's all familiar.
+
+00:06:21.840 --> 00:06:24.960
+ I personally went through a phase where I was like,
+
+00:06:24.960 --> 00:06:28.160
+ I basically built a pretty complex app over the course of a month.
+
+00:06:28.160 --> 00:06:31.200
+ And then I was looking at stuff, and I was like, wait a minute.
+
+00:06:32.000 --> 00:06:34.080
+ I actually don't understand anything that's going on.
+
+00:06:34.080 --> 00:06:36.880
+ And I just kind of recreated all this complexity for no reason,
+
+00:06:36.880 --> 00:06:39.280
+ because I was just bringing React patterns over.
+
+00:06:39.280 --> 00:06:43.120
+ That sounds like every time I build anything with any technology.
+
+00:06:43.120 --> 00:06:44.080
+ Yeah, exactly.
+
+00:06:44.080 --> 00:06:48.560
+ So I think it took me like a month or two to kind of untrain
+
+00:06:48.560 --> 00:06:51.360
+ my React brain to really think in terms of Solid.
+
+00:06:51.360 --> 00:06:53.680
+ And there is a little bit of that learning curve.
+
+00:06:53.680 --> 00:06:56.240
+ And it's deceptive because you don't expect it.
+
+00:06:56.240 --> 00:06:58.080
+ Usually when you find something that has a learning curve,
+
+00:06:58.080 --> 00:06:59.840
+ you just are completely unproductive.
+
+00:06:59.840 --> 00:07:01.920
+ So you know, you don't know anything.
+
+00:07:01.920 --> 00:07:04.720
+ But with Solid, you kind of think you know something.
+
+00:07:04.720 --> 00:07:07.520
+ And then later you realize, oh, no, this is how it actually should be.
+
+00:07:07.520 --> 00:07:11.120
+ So let me get into the, you're right, it looks similar.
+
+00:07:11.120 --> 00:07:12.960
+ So let's talk about what actually is different.
+
+00:07:12.960 --> 00:07:19.600
+ So I said earlier that in React, component function is a render function.
+
+00:07:19.600 --> 00:07:25.840
+ Like the job of this function is to compute the HTML that comes out of it.
+
+00:07:26.560 --> 00:07:29.440
+ And Solid, it looks very similar because a component function,
+
+00:07:29.440 --> 00:07:34.240
+ again, it receives props, it returns some JSX, but it's not a render function.
+
+00:07:34.240 --> 00:07:35.360
+ It's a setup function.
+
+00:07:35.360 --> 00:07:39.200
+ So the way to think about it is when a component first shows up on screen,
+
+00:07:39.200 --> 00:07:43.520
+ your Solid JS component function is called once.
+
+00:07:43.520 --> 00:07:45.120
+ And it's a job.
+
+00:07:45.120 --> 00:07:46.880
+ It's a return a template.
+
+00:07:46.880 --> 00:07:49.920
+ And it's never run again.
+
+00:07:49.920 --> 00:07:55.520
+ So everything in the body of your Solid JS function only ever runs once.
+
+00:07:55.520 --> 00:07:58.480
+ So there's certain things that you do in React that make a lot of sense.
+
+00:07:58.480 --> 00:08:01.040
+ Like you can do a conditional and return no.
+
+00:08:01.040 --> 00:08:04.000
+ And if that condition changes, it's fine, right?
+
+00:08:04.000 --> 00:08:05.360
+ Because it's the function to run again.
+
+00:08:05.360 --> 00:08:07.360
+ And then the next time it's going to have an actual thing.
+
+00:08:07.360 --> 00:08:11.360
+ That actually makes no sense in Solid because your component only
+
+00:08:11.360 --> 00:08:12.080
+ ever runs once.
+
+00:08:12.080 --> 00:08:14.480
+ A return, it's going to set up the component.
+
+00:08:14.480 --> 00:08:16.400
+ And from then on, it disappears.
+
+00:08:16.400 --> 00:08:20.640
+ And even at runtime, the constant of a component doesn't really exist in Solid.
+
+00:08:21.440 --> 00:08:26.640
+ When it's running, Solid doesn't see your HTML with a bunch of different components.
+
+00:08:26.640 --> 00:08:29.280
+ It just sees it as one giant HTML document.
+
+00:08:29.280 --> 00:08:34.960
+ And so this is fundamentally very different, right?
+
+00:08:34.960 --> 00:08:41.520
+ And the way this works is when you return the template, Solid looks at the template and sees,
+
+00:08:41.520 --> 00:08:44.000
+ it kind of creates holes in the template.
+
+00:08:44.000 --> 00:08:49.040
+ It says, OK, like this part of the template, let's say your template is like you return a div.
+
+00:08:49.040 --> 00:08:55.040
+ It says, hello, my name is-- and then the name is referencing some signal, right?
+
+00:08:55.040 --> 00:09:00.640
+ It punches a hole in the template saying, OK, here's the static parts of the template.
+
+00:09:00.640 --> 00:09:01.920
+ Here's a part that changes.
+
+00:09:01.920 --> 00:09:06.560
+ Let me observe the part that is changing.
+
+00:09:06.560 --> 00:09:09.200
+ So it's basically a description of my name.
+
+00:09:09.200 --> 00:09:14.240
+ And then whenever that changes, it'll then surgically go into your DOM
+
+00:09:14.240 --> 00:09:17.200
+ and then replace that hole with the new value.
+
+00:09:17.200 --> 00:09:19.360
+ While the rest of it remains static.
+
+00:09:19.360 --> 00:09:21.600
+ And the benefits of this is one performance, right?
+
+00:09:21.600 --> 00:09:22.800
+ There's no diffing process.
+
+00:09:22.800 --> 00:09:25.840
+ It basically-- like your app renders once.
+
+00:09:25.840 --> 00:09:30.000
+ And it basically keeps track of the parts of your app that are static, the parts that are dynamic.
+
+00:09:30.000 --> 00:09:33.680
+ And whenever something of the dynamic parts change,
+
+00:09:33.680 --> 00:09:36.640
+ it can just go and knows exactly where the DOM could go, make that update.
+
+00:09:36.640 --> 00:09:38.560
+ Does that make sense?
+
+00:09:38.560 --> 00:09:40.320
+ So you have to use-- yeah, it does.
+
+00:09:40.320 --> 00:09:46.720
+ So you have to use signals for any part of your UI, the actual template that changes over time.
+
+00:09:46.720 --> 00:09:49.280
+ If it's going to change, you can't just do--
+
+00:09:49.280 --> 00:09:52.240
+ what you described was very much stuff I do in React, where you just like--
+
+00:09:52.240 --> 00:09:56.560
+ you just count on the fact this is going to run every time anything changes.
+
+00:09:56.560 --> 00:10:01.200
+ And you can compute like kind of like derived properties from other pieces of state.
+
+00:10:01.200 --> 00:10:01.680
+ Yep.
+
+00:10:01.680 --> 00:10:02.880
+ Can't do that in solid.
+
+00:10:02.880 --> 00:10:05.520
+ You do everything you need to change in the UI.
+
+00:10:05.520 --> 00:10:08.560
+ It needs to be sort of driven by a signal.
+
+00:10:08.560 --> 00:10:08.800
+ Yeah.
+
+00:10:08.800 --> 00:10:09.280
+ Is that--
+
+00:10:09.280 --> 00:10:09.600
+ Yeah.
+
+00:10:09.600 --> 00:10:12.800
+ And ultimately, the primitives are actually very similar.
+
+00:10:12.800 --> 00:10:15.040
+ So a signal is effectively a piece of state.
+
+00:10:15.040 --> 00:10:17.840
+ And you can change that state over time.
+
+00:10:17.840 --> 00:10:18.560
+ It can be a number.
+
+00:10:18.560 --> 00:10:20.000
+ Similar to use state.
+
+00:10:20.000 --> 00:10:21.040
+ Exactly, similar to use state.
+
+00:10:21.040 --> 00:10:21.680
+ Just like that.
+
+00:10:21.680 --> 00:10:21.920
+ Okay.
+
+00:10:21.920 --> 00:10:24.880
+ Then the next level is derived state.
+
+00:10:24.880 --> 00:10:27.200
+ So let's say you have a signal that's count.
+
+00:10:27.200 --> 00:10:29.760
+ And then you have something that's like double count.
+
+00:10:29.760 --> 00:10:30.960
+ So this is count times two.
+
+00:10:30.960 --> 00:10:36.720
+ So that second piece of-- it is kind of-- it is state, but it's derived from another piece of state.
+
+00:10:36.720 --> 00:10:40.320
+ And then you have effects, which are, okay, when something changes,
+
+00:10:40.320 --> 00:10:42.240
+ I want to run this logic.
+
+00:10:42.240 --> 00:10:44.560
+ And effect is kind of like observing a signal.
+
+00:10:45.280 --> 00:10:46.400
+ Those are the three primitives.
+
+00:10:46.400 --> 00:10:49.280
+ It's honestly very similar to a React where you have use state.
+
+00:10:49.280 --> 00:10:50.640
+ You have use memo.
+
+00:10:50.640 --> 00:10:56.000
+ The thing that's different in solid is you don't have this dependency array concept.
+
+00:10:56.000 --> 00:11:00.720
+ So in React, when you say use memo, you have to pass in.
+
+00:11:00.720 --> 00:11:00.960
+ Okay.
+
+00:11:00.960 --> 00:11:03.680
+ Here are the things that we're going to watch.
+
+00:11:03.680 --> 00:11:06.000
+ If any of these things change, then rerun the memo.
+
+00:11:06.000 --> 00:11:08.480
+ In solid, there's something called auto tracking.
+
+00:11:08.480 --> 00:11:10.880
+ So you don't ever pass in a dependency array.
+
+00:11:10.880 --> 00:11:13.600
+ It knows what signals you're referencing in your little callback.
+
+00:11:13.600 --> 00:11:15.680
+ And it knows that whenever any of those signals change,
+
+00:11:15.680 --> 00:11:17.200
+ it needs to rerun the callback.
+
+00:11:17.200 --> 00:11:20.160
+ So it's kind of-- that's really nice because you're not like debugging.
+
+00:11:20.160 --> 00:11:22.800
+ Oh, why is this-- why isn't this memo rerunning?
+
+00:11:22.800 --> 00:11:24.800
+ Oh, I forgot to pass in something with dependency array.
+
+00:11:24.800 --> 00:11:27.120
+ And it's one of the nice things about solid.
+
+00:11:27.120 --> 00:11:34.800
+ The downsides of it are you might-- it's maybe a little un-- it's a little less explicit, right?
+
+00:11:34.800 --> 00:11:36.960
+ Whenever you have auto tracking, it's a little less explicit,
+
+00:11:36.960 --> 00:11:43.200
+ which means you might run to situations where you accidentally like track something.
+
+00:11:43.200 --> 00:11:44.720
+ You might create a dependency you didn't mean to.
+
+00:11:44.720 --> 00:11:48.560
+ But these are my-- this is kind of like blowing up on Twitter as like,
+
+00:11:48.560 --> 00:11:49.520
+ this is a huge deal.
+
+00:11:49.520 --> 00:11:53.600
+ I think in practice, it's one of those things where you like mess up.
+
+00:11:53.600 --> 00:11:57.120
+ And like three seconds later, you realize you messed up and you just fix it.
+
+00:11:57.120 --> 00:12:00.240
+ And over time, you get better at this and it feels entirely normal.
+
+00:12:00.240 --> 00:12:03.280
+ Yeah, I wanted to talk about that too, just kind of the discourse right now.
+
+00:12:03.280 --> 00:12:07.200
+ Like Dan from the React team has been calling out like,
+
+00:12:07.200 --> 00:12:12.400
+ here are the real trade-offs and sort of framing React as making the right choices.
+
+00:12:12.400 --> 00:12:15.840
+ Could you maybe better explain like from a practical standpoint,
+
+00:12:15.840 --> 00:12:18.080
+ could you build real stuff with these things?
+
+00:12:18.080 --> 00:12:21.840
+ Could you explain like, what are the real trade-offs you're making
+
+00:12:21.840 --> 00:12:24.400
+ if you choose solid over React?
+
+00:12:24.400 --> 00:12:28.320
+ Yeah, so I'm going to give my unfiltered opinion right now, so get ready.
+
+00:12:28.320 --> 00:12:28.800
+ Yeah, please do.
+
+00:12:28.800 --> 00:12:30.720
+ The juicy stuff.
+
+00:12:30.720 --> 00:12:34.000
+ The thing that's a little bit frustrating for me with what's happening on Twitter
+
+00:12:34.000 --> 00:12:39.840
+ is I think the conversation has kind of evolved into like not really a great place.
+
+00:12:39.840 --> 00:12:42.640
+ I actually think all this is good for solid and I'll explain why.
+
+00:12:42.640 --> 00:12:47.120
+ What you're starting to see is people are posting examples from solid
+
+00:12:47.120 --> 00:12:49.440
+ that make it look silly or confusing.
+
+00:12:49.440 --> 00:12:55.120
+ And we know given any framework, there's always examples like this, right?
+
+00:12:55.120 --> 00:12:57.680
+ Like, I can go make funny examples in React of being like,
+
+00:12:57.680 --> 00:13:00.720
+ look, this creates an infinite loop or like, look, like this, you know,
+
+00:13:00.720 --> 00:13:02.880
+ isn't this like you can't call a hook in an if statement.
+
+00:13:02.880 --> 00:13:06.880
+ You can make anything look kind of dumb just in without context.
+
+00:13:07.920 --> 00:13:12.640
+ And not a lot of people have like experienced building real applications with solid.
+
+00:13:12.640 --> 00:13:17.520
+ So it's hard for people to tell when they look at this snippet of like,
+
+00:13:17.520 --> 00:13:21.120
+ a snippet that looks obviously dumb, by the way, a snippet that was being shared on Twitter,
+
+00:13:21.120 --> 00:13:25.280
+ the linter, there are some linting rules you can turn on and solve.
+
+00:13:25.280 --> 00:13:26.720
+ It would have actually caught that.
+
+00:13:26.720 --> 00:13:30.160
+ Similar to in React, there's something rules like catch like the rule of hooks thing.
+
+00:13:30.160 --> 00:13:32.880
+ But you know, people don't have that context.
+
+00:13:32.880 --> 00:13:36.000
+ So when they look at it, they're like, oh, this looks really bad or like,
+
+00:13:36.000 --> 00:13:38.080
+ this looked really intuitive, it was just confusing.
+
+00:13:38.080 --> 00:13:41.680
+ But in practice, you know, having built, like I have a,
+
+00:13:41.680 --> 00:13:45.920
+ I mentioned this on Twitter, like I have a production and solid application.
+
+00:13:45.920 --> 00:13:49.440
+ That's probably the most complex application I've ever built that I've been building for
+
+00:13:49.440 --> 00:13:50.640
+ over a year now.
+
+00:13:50.640 --> 00:13:55.760
+ So me looking at that snippet, I'm like, yeah, that's kind of,
+
+00:13:55.760 --> 00:13:58.560
+ you kind of posted broken code that doesn't really make sense.
+
+00:13:58.560 --> 00:13:59.920
+ And yeah, technically it doesn't work.
+
+00:13:59.920 --> 00:14:04.880
+ But in practice, this never really bothers you that much.
+
+00:14:04.880 --> 00:14:07.760
+ Just like with any framework language or some things you kind of have to learn
+
+00:14:07.760 --> 00:14:10.560
+ initially and you learn it and you never think about it again.
+
+00:14:10.560 --> 00:14:12.720
+ So I definitely fell in that category.
+
+00:14:12.720 --> 00:14:16.400
+ But it started to blow up more where, you know, people from the React team were quoting it,
+
+00:14:16.400 --> 00:14:19.600
+ being like, this is the exact problem with signals.
+
+00:14:19.600 --> 00:14:23.040
+ This is why the React team never went down this route.
+
+00:14:23.040 --> 00:14:25.120
+ And they were a little defensive.
+
+00:14:25.120 --> 00:14:29.920
+ I think, I think what Dan said was, I think they're getting a lot of people saying to them,
+
+00:14:29.920 --> 00:14:31.680
+ like, oh, you guys are dumb.
+
+00:14:31.680 --> 00:14:34.160
+ You never even thought of signals, which definitely isn't true.
+
+00:14:34.160 --> 00:14:36.080
+ Like they, like they spent a lot of time thinking about this.
+
+00:14:36.080 --> 00:14:37.840
+ I'm sure they thought about this model.
+
+00:14:37.840 --> 00:14:40.160
+ And for whatever reason, they chose not to go to it.
+
+00:14:40.160 --> 00:14:42.800
+ So they're defensive saying like, yeah, we did think about it.
+
+00:14:42.800 --> 00:14:43.760
+ This is why it sucks.
+
+00:14:43.760 --> 00:14:44.880
+ This is why we didn't use it.
+
+00:14:44.880 --> 00:14:49.680
+ And here's a trade off we made and why React is better.
+
+00:14:49.680 --> 00:14:53.680
+ So one, that's great for solid because now it's,
+
+00:14:53.680 --> 00:14:57.120
+ they have never put solid at the same level as React before.
+
+00:14:57.120 --> 00:15:00.560
+ It's always been like, oh, solid, like cute little project that, you know, Ryan works on.
+
+00:15:01.840 --> 00:15:06.240
+ But now they're saying like, oh, they are like the diametric opposite of what we,
+
+00:15:06.240 --> 00:15:10.960
+ what we, you know, what, what they're claiming they did, which puts them at the same level.
+
+00:15:10.960 --> 00:15:16.320
+ Simultaneously, it's kind of a bad move on their part because I don't really think,
+
+00:15:16.320 --> 00:15:17.280
+ I know they're saying this.
+
+00:15:17.280 --> 00:15:21.840
+ I don't know if I fully buy the React team story that this was a very explicit decision
+
+00:15:21.840 --> 00:15:25.440
+ because these are two trade offs they saw because it's not entirely accurate.
+
+00:15:25.440 --> 00:15:30.480
+ Because it's based on this idea of like there's some fundamental trade off and saw that's not really there.
+
+00:15:31.120 --> 00:15:35.200
+ So if people do buy into the story of these are two equal trade offs and they start to
+
+00:15:35.200 --> 00:15:39.600
+ explore the trade offs, they're going to find that, oh, it's going to look like the solid trade off
+
+00:15:39.600 --> 00:15:44.560
+ was always the right choice because there's not really that gotcha is not like a real gotcha.
+
+00:15:44.560 --> 00:15:46.640
+ Yeah. So it's interesting.
+
+00:15:46.640 --> 00:15:48.000
+ I don't know why they've ramped up.
+
+00:15:48.000 --> 00:15:51.120
+ They ramped up in this way and might not be super intentional.
+
+00:15:51.120 --> 00:15:53.840
+ Might just be because a lot more people are annoying them about this.
+
+00:15:53.840 --> 00:15:57.440
+ But to me, it's like, this is, this is really great for the solid community.
+
+00:15:58.000 --> 00:16:02.640
+ It is the bundle size. I know you don't really care about this because it's like,
+
+00:16:02.640 --> 00:16:04.880
+ oh, users are, well, maybe you do care about it.
+
+00:16:04.880 --> 00:16:10.160
+ But like users are using apps like this, these single page applications for long sessions.
+
+00:16:10.160 --> 00:16:13.280
+ It doesn't matter if, but like, it doesn't matter because to me,
+
+00:16:13.280 --> 00:16:17.600
+ the 200 kilobytes or whatever of Uncle Brush JavaScript that React is just sort of like speaks
+
+00:16:17.600 --> 00:16:21.040
+ to how old and large it is in my mind.
+
+00:16:21.040 --> 00:16:27.360
+ And it just feels like if, if, if solid can give me even 90% of what I enjoy from productivity
+
+00:16:27.360 --> 00:16:31.120
+ with React and it does it with five kilobytes of JavaScript or whatever it is,
+
+00:16:31.120 --> 00:16:33.920
+ like, it just feels like that feels better.
+
+00:16:33.920 --> 00:16:37.840
+ Yeah, exactly. So there's that and there's kind of what the bundle size represents.
+
+00:16:37.840 --> 00:16:41.520
+ My feeling when using, like I said, I remember when I was first using solid
+
+00:16:41.520 --> 00:16:45.360
+ and what I created was really over complicated.
+
+00:16:45.360 --> 00:16:50.880
+ And then when I fixed all that, I'm like, wow, what was all this stuff I've been doing?
+
+00:16:50.880 --> 00:16:52.720
+ Like web development is so easy.
+
+00:16:53.280 --> 00:16:59.440
+ So that like the extra bundle size also kind of maps to more complexity that's in our brains.
+
+00:16:59.440 --> 00:17:05.440
+ With solid, I kind of feel like I'm using, I kind of feel like I'm back to using jQuery plus like,
+
+00:17:05.440 --> 00:17:08.080
+ like a nicer component framework on top.
+
+00:17:08.080 --> 00:17:11.120
+ I'm back to using stuff like, you know, query selector.
+
+00:17:11.120 --> 00:17:13.280
+ I'm back to like grabbing elements and like mutating them.
+
+00:17:13.280 --> 00:17:17.440
+ I'm not in this like, ref nightmare that you have with React.
+
+00:17:17.440 --> 00:17:22.480
+ Like anytime you need to touch a DOM element, it's like the worst thing ever is you avoid doing it.
+
+00:17:23.840 --> 00:17:27.920
+ So there's just so much for you want to use a library that needs to interact with the DOM.
+
+00:17:27.920 --> 00:17:32.800
+ Like you got to find react versions of everything, which granted it to huge ecosystem.
+
+00:17:32.800 --> 00:17:34.560
+ There are react versions of most everything.
+
+00:17:34.560 --> 00:17:39.280
+ But there's just like a mismatch with the way the browser operates and the way react operates.
+
+00:17:39.280 --> 00:17:43.360
+ So you're always like in the caught in the middle of that where what's all that all really feels
+
+00:17:43.360 --> 00:17:47.360
+ like it disappears. It barely feels like a web framework. It more just feels like here,
+
+00:17:47.360 --> 00:17:50.880
+ a bunch of useful reactive primitives, then kind of you can kind of just go use
+
+00:17:51.840 --> 00:17:56.800
+ like the normal web stuff that that has gotten a lot better since like when React first came out.
+
+00:17:56.800 --> 00:18:03.200
+ So can we talk like big picture zoom out? Like everyone on Twitter is sort of like
+
+00:18:03.200 --> 00:18:08.400
+ at a fever pitch these days around new things coming out. And that's always been the case.
+
+00:18:08.400 --> 00:18:11.680
+ And a lot of people will say, well, the people didn't say and like react was,
+
+00:18:11.680 --> 00:18:15.360
+ we're going to see the end of react for years. It never happens.
+
+00:18:15.360 --> 00:18:20.720
+ Do you think things are fundamentally changing in favor of the field versus react?
+
+00:18:20.720 --> 00:18:24.400
+ I know it's not a competition, but it kind of is. I mean, like people are choosing new things
+
+00:18:24.400 --> 00:18:31.440
+ for Greenfield projects. And the mind share has been largely in favor of react for a long time.
+
+00:18:31.440 --> 00:18:36.400
+ Do you think that's changing at all? I think what people need to remember is there's like
+
+00:18:36.400 --> 00:18:40.640
+ the absolute truth and there's a truth within a bubble. And they both actually matter.
+
+00:18:40.640 --> 00:18:46.720
+ The absolute truth is most websites are on WordPress, right? Like that's a fundamental stat.
+
+00:18:48.080 --> 00:18:51.520
+ Yeah, like you said this morning, a bunch of them are squeezing jQuery.
+
+00:18:51.520 --> 00:18:57.040
+ And forever till the end of our lifetimes, there's going to be a ton of react websites.
+
+00:18:57.040 --> 00:19:02.320
+ And this is all fundamentally true. So of course, you can always, people can always say like,
+
+00:19:02.320 --> 00:19:09.200
+ oh, it's dumb to say it's an react because like, you know, the clistats. But then there's stuff,
+
+00:19:09.200 --> 00:19:13.840
+ if you scope that down to a bubble, stuff starts to look a little bit different, right?
+
+00:19:13.840 --> 00:19:18.000
+ The best engineers that are out there, the ones that are the most into what they're doing,
+
+00:19:18.000 --> 00:19:21.760
+ what are they getting excited about when they look for their next job? Like, what are they
+
+00:19:21.760 --> 00:19:25.440
+ going to be excited about? When a company is starting a new application and they have the
+
+00:19:25.440 --> 00:19:29.520
+ opportunity to, like you said, greenfield opportunity to like start fresh, what are they
+
+00:19:29.520 --> 00:19:33.040
+ going to be excited about? Where are all the opportunities for actively maintain apps versus
+
+00:19:33.040 --> 00:19:38.240
+ apps that are like kind of on life support being phased out? I think that's why,
+
+00:19:38.240 --> 00:19:43.280
+ yeah, there's always new stuff coming out as well as all the energy around it. And I think
+
+00:19:43.280 --> 00:19:48.400
+ people are frustrated because they're like, Oh, this stuff is so small, but it kind of represents
+
+00:19:48.400 --> 00:19:54.640
+ like a majority of the future. So for me, I am never going to be starting a new react app again,
+
+00:19:54.640 --> 00:19:57.040
+ except for that react native app, we just started
+
+00:19:57.040 --> 00:20:05.680
+ because, you know, react native is still still dominant, at least for now. Yeah, but I'm never
+
+00:20:05.680 --> 00:20:09.280
+ going to be starting one again. I don't think I'm really going to be willing to work anywhere that
+
+00:20:09.280 --> 00:20:15.280
+ is using it. So yeah, for me, it's like, it's dead for me. And I think for a lot of people that are,
+
+00:20:15.280 --> 00:20:18.320
+ yeah, sorry, new stuff for like, kind of really excited about this stuff. Like,
+
+00:20:18.320 --> 00:20:23.520
+ they're going to see it as a benefit to be able to work somewhere that, you know, is using some of
+
+00:20:23.520 --> 00:20:29.600
+ these new patterns. Yeah, and I mean, these people, it does matter to the react maintainers, I'm sure,
+
+00:20:29.600 --> 00:20:36.720
+ that like, the topic on Twitter might not always be react. Like, even if it's still a small bubble
+
+00:20:36.720 --> 00:20:44.160
+ of like, power users, the discourse does seem to be shifting away. And it, it from the outside,
+
+00:20:44.160 --> 00:20:48.880
+ I don't know these people, but it does seem like it's bothering them. So a little bit.
+
+00:20:48.880 --> 00:20:56.640
+ Yeah, I wish I could just remind them that they were insanely successful way beyond anything
+
+00:20:56.640 --> 00:21:00.560
+ else by comparison. Like one, there's, I was saying the other day, there's a whole documentary
+
+00:21:01.280 --> 00:21:06.560
+ on reaction framework has ever gotten a documentary. That's, that's incredible. They've been around
+
+00:21:06.560 --> 00:21:11.760
+ for so long. They've gone through and they've, I think they've kind of can't. So for me, if, if,
+
+00:21:11.760 --> 00:21:17.040
+ if a product can cannibalize itself, like that's really impressive. React used to look a lot
+
+00:21:17.040 --> 00:21:21.360
+ different, class components, like, and now it looks completely different. They basically launched
+
+00:21:21.360 --> 00:21:27.760
+ two successful frameworks, been around for, you know, 10 or so years. So that's, that's really
+
+00:21:27.760 --> 00:21:33.440
+ impressive. Anything in tech lasting 10 years, you know, I work on SST. I would be shocked if we
+
+00:21:33.440 --> 00:21:40.240
+ last 10 years. So yeah, it's, it's impressive. But you know, nothing can really last forever.
+
+00:21:40.240 --> 00:21:44.560
+ Yeah. So it's, it's not the end of react. React will be here forever. But it is,
+
+00:21:44.560 --> 00:21:49.040
+ it's kind of the beginning of the end for react, at least in a bubble.
+
+00:21:49.040 --> 00:21:54.720
+ Yeah, I think so. But it's funny because that stupid cliche quote, the one that's like,
+
+00:21:56.000 --> 00:22:00.880
+ the reason I hate it is because there's that really cringy video of Elizabeth Holmes saying it.
+
+00:22:00.880 --> 00:22:05.280
+ So I think she like killed the quote, but it's the, the whole like first they ignore you,
+
+00:22:05.280 --> 00:22:10.400
+ then they laugh at you, then they fight you, then they, then you win thing. I feel like,
+
+00:22:10.400 --> 00:22:15.680
+ yeah, the solid just entered the, they fight you phase. Because, because like they were kind of,
+
+00:22:15.680 --> 00:22:19.040
+ like, I mean, Ryan's been working on Solve for five years. Most of Solve history, he's been
+
+00:22:19.040 --> 00:22:22.640
+ ignored. Yeah. Then it was kind of like, oh, like, you know, that's like a, you know, a cute little
+
+00:22:22.640 --> 00:22:27.600
+ thing. And then now it's not the same level. So you can see where this is heading. Cool.
+
+00:22:27.600 --> 00:22:32.880
+ Well, I'm, I'm definitely excited about I'm, I thought I was going to use it. I guess one other
+
+00:22:32.880 --> 00:22:36.720
+ question kind of getting in the weeds, this is not a thing to wrap up the podcast with. But, uh,
+
+00:22:36.720 --> 00:22:40.560
+ from like a progressive enhancement standpoint, if you're building like mostly a site, I know sites
+
+00:22:40.560 --> 00:22:44.560
+ versus apps is like a dumb generalization. There's a lot of nuance. But if you're building something
+
+00:22:44.560 --> 00:22:50.160
+ that's mostly a site, but you have little bits of interactivity, just solid and other sort of
+
+00:22:50.720 --> 00:22:57.600
+ spa first, like frameworks make sense to like progressively enhance your site. Or they more like,
+
+00:22:57.600 --> 00:23:03.520
+ it needs to be a spa. I feel like Astro had just made this question really simple. I'm using it
+
+00:23:03.520 --> 00:23:07.600
+ exactly. It's just like, just use Astro when you don't feel like you're going to build in a single
+
+00:23:07.600 --> 00:23:13.680
+ page application. And then then the interactive bits are just like whatever framework you like.
+
+00:23:13.680 --> 00:23:18.640
+ So yeah, I've done it. So it's just the island. Yeah, exactly. So I've done a few things in Astro
+
+00:23:18.640 --> 00:23:22.320
+ and I've always used it with it because that's one that I like. But it kind of doesn't matter at
+
+00:23:22.320 --> 00:23:26.880
+ that point. It like kind of solves all those problems for you. Okay, that was a terrible question.
+
+00:23:26.880 --> 00:23:32.480
+ We'd wrap this up. You had like gotten into philosophy with like an Elizabeth Holmes quote
+
+00:23:32.480 --> 00:23:36.880
+ and all this. And then, and then I asked that question. Okay, I'll bring it back down to Earth
+
+00:23:36.880 --> 00:23:41.840
+ always. Got to bring a breakdown. Yeah, this has been fun. It's fun doing this podcast again.
+
+00:23:41.840 --> 00:23:49.840
+ I enjoy it quite a lot. All right. All right. See you, Dax. See ya.
+

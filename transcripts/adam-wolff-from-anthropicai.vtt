@@ -1,0 +1,1877 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.920
+ you know like for me transferring my what I know and believe about software engineering and also
+
+00:00:05.920 --> 00:00:10.320
+ transferring just some of the love I feel I feel like you know with your product with
+
+00:00:10.320 --> 00:00:16.160
+ with clawed code with any good product what makes it good is like it tastes good you know it's
+
+00:00:16.160 --> 00:00:20.240
+ it's like a dish that you cook like you can just taste the love in it you know and that's something
+
+00:00:20.240 --> 00:00:26.000
+ that was just made by the guys clocking in nine to five is not that good and and those products
+
+00:00:26.000 --> 00:00:36.960
+ are the ones that win absolutely
+
+00:00:51.600 --> 00:00:55.840
+ so what are you joining us from by the way i live on the west side of san francisco out by the
+
+00:00:55.840 --> 00:01:02.720
+ beach okay nice how is that oh it's great well actually this time of year is the worst you know
+
+00:01:02.720 --> 00:01:08.880
+ it's like can't see your hand in front of your face soupy fog oh really it's a nice day yeah that
+
+00:01:08.880 --> 00:01:14.800
+ never happens at july for so it's like summer is not the best time no september october that's
+
+00:01:14.800 --> 00:01:20.320
+ the best time oh really okay like at the beach are there are there beachgoers in san francisco
+
+00:01:20.320 --> 00:01:25.840
+ what's that what's that like sure yeah you wouldn't really go in the water unless you have a wet suit
+
+00:01:25.840 --> 00:01:32.160
+ but people come out here actually there was this proposition that passed um in the last election
+
+00:01:32.160 --> 00:01:38.720
+ to close the great highway and turn it into a park and it was very controversial you know the
+
+00:01:38.720 --> 00:01:43.920
+ people who live out here wanted it to be a road because of traffic and you know they just are
+
+00:01:43.920 --> 00:01:48.160
+ worried about getting their groceries and stuff but everyone else in san francisco is like yeah we
+
+00:01:48.160 --> 00:01:53.200
+ just want to come and walk around there so they shut the road down and it's been pretty good actually
+
+00:01:53.200 --> 00:01:57.600
+ even i feel like even the people who were super against it are like yeah okay this is kind of nice
+
+00:01:57.600 --> 00:02:02.080
+ there's often people out there you know it's it's a good place to be was that related to covid at all
+
+00:02:02.080 --> 00:02:06.960
+ yeah that was when they first shut it down and then then there was this compromise where it's
+
+00:02:06.960 --> 00:02:12.240
+ open during the week and close on the weekends which that was fine too i don't know i was you know i
+
+00:02:12.240 --> 00:02:16.960
+ was with all the residents i was like kind of opposed to it and then it passed and i was like you know
+
+00:02:16.960 --> 00:02:22.400
+ i'm retroactively for this i think it's gonna be good and so i jumped on the bad rat get it worked
+
+00:02:22.400 --> 00:02:27.120
+ out it's funny because uh there's so many stories exactly like that all over the place uh because i
+
+00:02:27.120 --> 00:02:31.200
+ live in new york during covid and they shut down a bunch of streets and a lot of them are like now
+
+00:02:31.200 --> 00:02:35.920
+ perma shut down which is nice they've turned to really nice things now i live in miami and there's
+
+00:02:35.920 --> 00:02:42.640
+ a street that we love that's just all restaurants like it's just and they fully sell it in i didn't
+
+00:02:42.640 --> 00:02:47.520
+ know until recently that was used to be a normal road and covid happened and they and they transformed
+
+00:02:47.520 --> 00:02:54.320
+ it so uh yeah it's been nice it's been nice having more like walkable areas to hang out in
+
+00:02:54.320 --> 00:02:59.680
+ i don't know if any of that happened in the Ozarks Adam hmm there are no walkable areas in the Ozarks
+
+00:02:59.680 --> 00:03:06.000
+ i mean you can walk you just don't get to anything useful you just kind of walk arbitrarily walking
+
+00:03:06.000 --> 00:03:12.880
+ for walking sake yeah yeah i do that a lot actually Adam how long how long have you been at anthropic i
+
+00:03:12.880 --> 00:03:18.960
+ know you've got the react history how long since you joined inropic yeah it's been a little over a
+
+00:03:18.960 --> 00:03:27.280
+ year um really exciting times it feels like 10 years but oh yeah that's plenty did you join to
+
+00:03:27.280 --> 00:03:33.040
+ like directly work on cloud code or like what was the uh situation well i joined you know i when i
+
+00:03:33.040 --> 00:03:40.240
+ saw gpt three and three five especially i was like the this thing is going to be awesome for coding
+
+00:03:40.240 --> 00:03:44.800
+ you know i just i've got to work on that i got to get closer to it like i do not just want to be
+
+00:03:44.800 --> 00:03:53.280
+ user i want to be i want to know how it gets made um so i eventually i joined this team at at uh
+
+00:03:53.280 --> 00:03:59.840
+ anthropic called the quantification team and the intention there was to accelerate the internal
+
+00:04:01.440 --> 00:04:08.560
+ technical staff with ai it was like part of the developer productivity team um so that's how i
+
+00:04:08.560 --> 00:04:13.840
+ joined it that's what i was originally working on it's just the thing about like kind of putting an
+
+00:04:13.840 --> 00:04:19.920
+ effort um like that inside developer productivity is like it's always like hey you can have all these
+
+00:04:19.920 --> 00:04:26.400
+ neat wizzy things or we could just fix ci you know because like you end up just going to the bottom
+
+00:04:26.400 --> 00:04:32.320
+ of these infrastructure things like i i worked on like how to log the usage of zad at anthropic
+
+00:04:32.320 --> 00:04:38.720
+ for like a month you know um which you know like you you actually really want to know that if
+
+00:04:38.720 --> 00:04:44.560
+ you're really trying to empower your staff but it was also it also really cured my rust fanboy
+
+00:04:44.560 --> 00:04:52.880
+ my presentation with rust yeah it's funny because uh i never thought about any of those things because
+
+00:04:52.880 --> 00:04:59.440
+ i've mostly worked at like on my own stuff for like really small small teams but especially with a
+
+00:04:59.440 --> 00:05:06.640
+ lot of lm stuff coming into uh like developer workflows we've been talking about bigger companies and
+
+00:05:06.640 --> 00:05:11.600
+ they're all really obsessed with trying to understand how their team is using this stuff better and
+
+00:05:11.600 --> 00:05:16.640
+ having like analytics and and metrics and better insight into those things it makes a little sense
+
+00:05:16.640 --> 00:05:20.800
+ but it's just something that i'd never been exposed to before yeah if you're going to spend as much
+
+00:05:20.800 --> 00:05:27.600
+ as it costs to empower every dev with ai you kind of need to prove that it's worth it yeah yeah okay
+
+00:05:27.600 --> 00:05:33.680
+ so i want to ask you cuz dax and i talk about this cycle we have where it's like some days or
+
+00:05:33.680 --> 00:05:39.520
+ some weeks or like this is the future of everything and it's going to change my job forever and then
+
+00:05:39.520 --> 00:05:44.240
+ there's like days where you just have a bad day with yellow limb and you're like f this i'm never
+
+00:05:44.240 --> 00:05:49.440
+ using it again do you from your perspective being inside of anthropic do you have a different
+
+00:05:49.440 --> 00:05:54.960
+ perspective on that as a developer because you kind of like you know something about the internal
+
+00:05:54.960 --> 00:05:59.520
+ things going on in anthropic whether that's future road map or whatever do you have a different
+
+00:05:59.520 --> 00:06:03.280
+ perspective or do you feel like just every other dev where you're like good days and bad days
+
+00:06:03.280 --> 00:06:08.720
+ i want this to be better i know it's the future some days it's just not there i'm just curious if
+
+00:06:08.720 --> 00:06:13.440
+ you have any thoughts yeah i listen to you guys religiously so of course i know you guys you talk
+
+00:06:13.440 --> 00:06:17.440
+ about that a lot and i just sit there shaking my head because like we're not in my head i shouldn't
+
+00:06:17.440 --> 00:06:22.640
+ say i feel the exact same way and you know i think there are two there are a few different
+
+00:06:22.640 --> 00:06:27.360
+ aspects to it you know like one thing is like i've gone through all these little mini eras with
+
+00:06:27.360 --> 00:06:35.360
+ technique so like like at one point my editor broke and i didn't really fix it you know what i mean
+
+00:06:35.360 --> 00:06:40.560
+ like all the highlighting was broken all that stuff let me guess what editor you were using
+
+00:06:40.560 --> 00:06:46.960
+ okay i don't want to throw anybody under the bus i went back to femme and it's like okay i know this
+
+00:06:46.960 --> 00:06:53.840
+ works yeah but but it broke and i so i was like oh i'll just use quad code to do everything you know
+
+00:06:53.840 --> 00:06:58.960
+ i mean i'm like oh let's call this variable x instead of y you know and like when you try to use
+
+00:06:58.960 --> 00:07:05.280
+ the lm for that you're doomed like that is actually a terrible use of the lm like and i think hand
+
+00:07:05.280 --> 00:07:11.520
+ finishing things is is that's what i do now at least and like you know and then you also just
+
+00:07:11.520 --> 00:07:18.000
+ sort of realize like well how big a chunk do you need you know like i think i so part of it i think
+
+00:07:18.000 --> 00:07:24.560
+ is like we are changing it's skill issues yeah there are but it is skill issues is really true
+
+00:07:24.560 --> 00:07:30.400
+ and the skill is not like oh i know how to write a prompt it's just like i'm able to come to this
+
+00:07:30.400 --> 00:07:36.480
+ with a fresh mind when a new model comes out when a new feature comes out you know even like plan
+
+00:07:36.480 --> 00:07:42.560
+ mode has kind of changed how i use quad code um so you really have to adapt quickly and i think
+
+00:07:42.560 --> 00:07:49.360
+ i you know as someone who's always spent like hours and hours tweaking my vin can fig it's
+
+00:07:49.360 --> 00:07:54.880
+ sort of a dream you know like i just i prefer to only do the meta and not actually have to push
+
+00:07:54.880 --> 00:08:01.520
+ any bigger production but yeah it is fun on one hand it's been a lot because things change so
+
+00:08:01.520 --> 00:08:07.200
+ quickly and yeah you have good days and bad days but uh it is fun just because we're all
+
+00:08:07.200 --> 00:08:12.240
+ disaffectively just messing with our editors which we all love to do and that's effectively what
+
+00:08:12.240 --> 00:08:18.080
+ all of this is uh just seeing how our flows can change um i've been i've been into it and i think
+
+00:08:18.080 --> 00:08:23.280
+ the part that i've enjoyed is uh whenever there's something new that's different than how i normally
+
+00:08:23.280 --> 00:08:29.280
+ do things i like everyone resist it to some degree because any kind of change is painful
+
+00:08:29.280 --> 00:08:34.400
+ um but then something flips in my brain where i try to overuse it on purpose to see like
+
+00:08:34.400 --> 00:08:40.480
+ what the extreme version of this is like and in that process you usually gain a good amount of
+
+00:08:40.480 --> 00:08:47.760
+ insight so i also did try to use uh lms to even do like simple edits things that i could do in a
+
+00:08:47.760 --> 00:08:53.200
+ few keystrokes with uh with my keyboard uh and surprise i think i was surprised i think it was a
+
+00:08:53.200 --> 00:08:57.200
+ it definitely wasn't great like obviously using an actual editor makes this is the right choice
+
+00:08:57.200 --> 00:09:05.600
+ there but i found a different kind of workflow where i was just queuing stuff up like i was like
+
+00:09:05.600 --> 00:09:09.200
+ going through a file and like every little thing i would just queue up and then i would
+
+00:09:09.200 --> 00:09:14.960
+ go to the next thing instead of like getting it done um and i think in net that probably wasn't
+
+00:09:14.960 --> 00:09:19.520
+ my favorite but it was like a new workflow that i wouldn't have thought of before yeah i wouldn't
+
+00:09:19.520 --> 00:09:27.920
+ big thing that's like kind of the fad at anthropic right now is like not to correct the lm um so
+
+00:09:27.920 --> 00:09:34.320
+ you know because the lm doesn't see interruption from the user in training really uh and actually
+
+00:09:34.320 --> 00:09:39.760
+ you'll notice that like sometimes if you interrupt Claude enough it'll actually hallucinate interruptions
+
+00:09:39.760 --> 00:09:44.320
+ which is super annoying you're like no keep going interrupting yourself buddy
+
+00:09:45.840 --> 00:09:50.400
+ but like you know like that's a good example of one where like then i sort of feel like i over
+
+00:09:50.400 --> 00:09:56.080
+ rotated on that i'm like afraid to update it you know so like i don't know it it's funny just how
+
+00:09:56.080 --> 00:10:02.720
+ much presence of mind it takes to like really really make sure that like what you what you're
+
+00:10:02.720 --> 00:10:08.160
+ trying is helping you or you know to as you say to like learn something from it and not just like
+
+00:10:08.160 --> 00:10:12.800
+ fall into it so when you say when you the fad is to not interrupt it do you mean you start it over
+
+00:10:12.800 --> 00:10:17.920
+ or like what what exactly do you mean by that i mean like you give it an you give it a detailed
+
+00:10:17.920 --> 00:10:23.600
+ prompt you give it as much tooling as you can you give it you shouted it like you must pass all
+
+00:10:23.600 --> 00:10:30.480
+ the tests before you keep going yeah do not add comments so that one doesn't work that would
+
+00:10:30.480 --> 00:10:37.680
+ not work that was not effective but you know you give it all your instructions up front and then
+
+00:10:37.680 --> 00:10:43.440
+ you just like kind of let it cook for like kind of you know you're trying to get it to go on its
+
+00:10:43.440 --> 00:10:49.760
+ own for as long as you can and then you come back to it and you like review the whole diff it's
+
+00:10:49.760 --> 00:10:55.040
+ created and you sort of give your feedback on it and then you kind of you know move on to the next
+
+00:10:55.040 --> 00:11:01.200
+ terminal window that one thing i think about a lot is like there's the difference between it being
+
+00:11:01.200 --> 00:11:06.160
+ awesome and it's sucking is the difference between you sitting there watching the lm do stuff while
+
+00:11:06.160 --> 00:11:13.120
+ you do nothing and the lm doing stuff while you're doing something else and then there's also this
+
+00:11:13.120 --> 00:11:18.160
+ question of like if the other thing you're doing is scrolling twitter is that good or bad yeah i
+
+00:11:18.160 --> 00:11:25.680
+ think we talked about this yeah it's uh i think for me i my journey with this stuff was uh never
+
+00:11:25.680 --> 00:11:31.280
+ gonna leave me of him like i just refused no matter what tooling came out i was just like no i can't i
+
+00:11:31.280 --> 00:11:39.200
+ can't leave my baby uh and it eventually felt like how long can i resist this because some of these
+
+00:11:39.200 --> 00:11:44.000
+ tools look pretty powerful and i got some of it inside of him like the tap complete through super
+
+00:11:44.000 --> 00:11:49.760
+ maven things like that but i was seeing cursor and i was like man am i just going to be forced to use
+
+00:11:49.760 --> 00:11:56.640
+ it at some point because the productivity is so huge uh and then cloud code came out and i think
+
+00:11:56.640 --> 00:12:02.320
+ it was a good trojan horse and that i was able to use it without like shifting anything about my
+
+00:12:02.320 --> 00:12:07.200
+ editor like it was a separate thing that lived outside of it but it also introduced a totally
+
+00:12:07.200 --> 00:12:15.120
+ new workflow to me where whenever i saw people using cursor it was like very active and it was
+
+00:12:15.120 --> 00:12:19.120
+ trying to augment you as the person writing code which you know some of this stuff is great
+
+00:12:19.120 --> 00:12:24.480
+ that the tap complete uh i think it's great for that but that never clicked for me properly uh
+
+00:12:24.480 --> 00:12:28.960
+ when the cloud code came out it showed me that there they're just complete different thing where
+
+00:12:28.960 --> 00:12:32.880
+ you can kind of fork your work in certain moments and hand something off to
+
+00:12:32.880 --> 00:12:38.800
+ cloud code while you continue to do other parts of it and then check back in a knot later uh that
+
+00:12:38.800 --> 00:12:42.960
+ was a new workflow that i'd never considered at all and that was kind of like the breakthrough
+
+00:12:42.960 --> 00:12:48.960
+ for me being like okay now i see how i can incorporate this stuff in a in a much bigger way same i you
+
+00:12:48.960 --> 00:12:56.560
+ know the very first thing i did this was gpt-3-5 i built an integration in neo-vim it would open a
+
+00:12:56.560 --> 00:13:04.000
+ buffer on the right by the way that is where the that is where the window belongs um you learn a
+
+00:13:04.000 --> 00:13:08.880
+ buffer and you know just because vim it's so easy to move text back and forth and this is you know
+
+00:13:08.880 --> 00:13:14.240
+ three-five did not really have tool calling people started doing that thing of like respond only with
+
+00:13:14.240 --> 00:13:19.120
+ the new program or whatever but it didn't work that well so i would just use it for code understanding
+
+00:13:19.120 --> 00:13:23.120
+ you know i would just like paste in a big function and be like hey how could we refactor this and
+
+00:13:23.120 --> 00:13:27.840
+ honestly there's something i kind of miss about that like that was like a gold it like i learned
+
+00:13:27.840 --> 00:13:35.600
+ how to do kubernetes from right um and i feel like that was like my golden era of like actually
+
+00:13:35.600 --> 00:13:40.000
+ learning things from the llm i've noticed you know we talk about like these different fads
+
+00:13:40.000 --> 00:13:47.280
+ lately i've noticed i've gotten really lazy i really trust especially opus like i over trust
+
+00:13:47.280 --> 00:13:52.000
+ it you know i mean like i'll go back into the code i'll be like who wrote this what he's doing
+
+00:13:52.000 --> 00:13:58.160
+ you know it's like oh i just i committed that pr yesterday yeah yeah yeah i i think i also had a
+
+00:13:58.160 --> 00:14:02.960
+ phase where i tried like i tried some of the neo-vim tools that uh kind of brought some the
+
+00:14:02.960 --> 00:14:08.160
+ functionality and editor and they like i kind of used them like it was nice to be able to select
+
+00:14:08.160 --> 00:14:15.120
+ some code and be like oh you know refactor this or add this functionality uh to it but
+
+00:14:15.120 --> 00:14:20.720
+ ultimately it just felt a little too clunky to really stick as something that i that i did
+
+00:14:20.720 --> 00:14:26.160
+ consistently kind of like a nice to have here and there but yeah like i really i'm really into this
+
+00:14:26.160 --> 00:14:31.200
+ whole thing i think that we talked about it before but it does mental model where you have kind of
+
+00:14:31.200 --> 00:14:36.000
+ like a dumb idiot sitting next to you with your own laptop you can just give them stuff and they're
+
+00:14:36.000 --> 00:14:41.040
+ not messing with what you're doing you can still be doing other stuff uh and that separation is nice
+
+00:14:41.040 --> 00:14:44.720
+ because you know they are kind of dumb and you want to be able to do this other stuff while they're
+
+00:14:44.720 --> 00:14:49.920
+ doing their thing yeah but like oh you know like i'll just be like hey can you just write a doc
+
+00:14:49.920 --> 00:14:56.480
+ on how the installer works yes like that's just incredible i love it for that i love that yeah like
+
+00:14:56.480 --> 00:15:02.480
+ we use we use a lot of monorepos and just having like a web project with like mdx files for the docs
+
+00:15:02.480 --> 00:15:07.200
+ in the same monorepo and being like hey document this package is whatever feature
+
+00:15:07.200 --> 00:15:11.360
+ in the web project and it just writes the mdx file it's amazing i love it for that kind of stuff
+
+00:15:11.360 --> 00:15:16.400
+ yeah i guess it is like a continuum that like we back talking about this workflow and it's the
+
+00:15:16.400 --> 00:15:21.920
+ cloud code kind of workflow that you guys pioneered where the human is very in the loop but they're
+
+00:15:21.920 --> 00:15:26.960
+ like so many bets being made too on the completely asynchronous the jewels the whatever i don't
+
+00:15:26.960 --> 00:15:32.240
+ remember the names of them Devin yeah they're kind of like give it a problem and then it comes back
+
+00:15:32.240 --> 00:15:38.720
+ with the pr i guess anthropics not really doing that today right is that do you view like some point
+
+00:15:38.720 --> 00:15:43.520
+ in time where the models just get so good that we don't need to be in the loop that's one of my
+
+00:15:43.520 --> 00:15:48.080
+ fears is like it's not just like i'm gonna lose my job thing just like i really enjoy this whole
+
+00:15:48.080 --> 00:15:53.840
+ uh cloud codey kind of workflow and i hope that it's here to stay but i wonder does anthropic do you
+
+00:15:53.840 --> 00:15:59.200
+ have a different perspective being inside anthropic like is this temporary it feels transitional i
+
+00:15:59.200 --> 00:16:04.560
+ mean just the fact that just that i feel like every week i come to i work and it feels a little
+
+00:16:04.560 --> 00:16:11.760
+ different you know so obviously things are changing really fast i would say you know like one measure
+
+00:16:11.760 --> 00:16:18.160
+ that we talk about it anthropic is how long does the agent work autonomously and i think everyone's
+
+00:16:18.160 --> 00:16:24.960
+ goal is to increase that number so that is where we're headed it conflicts with something i've learned
+
+00:16:24.960 --> 00:16:29.520
+ though as like having been a software developer for a pretty long time which is that like the
+
+00:16:29.520 --> 00:16:37.120
+ hard part is always figuring out what you're trying to do and why yeah you know like it's always been
+
+00:16:37.120 --> 00:16:43.680
+ pretty easy to like poop out of pr this question is like you know is this actually a feature that
+
+00:16:43.680 --> 00:16:49.040
+ is gonna help and you know it's amazing in retrospect when you look back at like a year of what a team
+
+00:16:49.040 --> 00:16:56.880
+ did how how little of it has actually helped at all you know so i like i don't there's part of me
+
+00:16:56.880 --> 00:17:04.800
+ that really is that dubious that like a three sentence prompt will be enough to make anything
+
+00:17:04.800 --> 00:17:09.600
+ better i'm i'm i'm really curious to see how that plays out honestly that's how i feel when i see
+
+00:17:09.600 --> 00:17:13.680
+ these people and if you've seen the twitter post where somebody's got like 16 cloud code instances
+
+00:17:13.680 --> 00:17:17.840
+ running and parallel and like like how do you have that much stuff that needs done that you actually
+
+00:17:17.840 --> 00:17:23.120
+ can keep it going i just like to me they're just spitting out garbage and it's like look how fast
+
+00:17:23.120 --> 00:17:28.160
+ it can run i don't know that whole thing just kind of oh my god that whole world is i i you guys
+
+00:17:28.160 --> 00:17:32.480
+ ran about that a lot but you know i find it kind of amusing because it's pretty clear like well
+
+00:17:32.480 --> 00:17:37.120
+ obviously you're not doing anything you said posting on twitter like yeah the main one i can
+
+00:17:37.120 --> 00:17:42.720
+ think of he's like ignore my mom in the background and that's just so perfect perfect
+
+00:17:42.720 --> 00:17:49.280
+ perfect explanation yeah i don't know if you saw my post there today but i was like 95 percent
+
+00:17:49.280 --> 00:17:53.760
+ energy goes to figuring out what the hell we should be doing and then 5 percent goes to coding
+
+00:17:53.760 --> 00:17:58.640
+ and now with ai it's like 96 percent and then 4 percent so yeah it's definitely it's definitely
+
+00:17:58.640 --> 00:18:05.200
+ better but like the agony of work is always uh what should we be doing why should we be doing it
+
+00:18:05.200 --> 00:18:09.360
+ should we be doing this thing or the other thing and it's cool that i can spend more time on that
+
+00:18:09.360 --> 00:18:16.560
+ stuff uh and i think the part that's a little bit unclear for me is a lot of the process of figuring
+
+00:18:16.560 --> 00:18:23.440
+ that out is trying stuff and is doing stuff and i i wouldn't say that the lms take away from that
+
+00:18:23.440 --> 00:18:30.000
+ because i can think of discrete examples where it's exactly the opposite i had a situation the
+
+00:18:30.000 --> 00:18:36.400
+ other day where i had two totally different ideas for um halicos are in like ux flow could work
+
+00:18:36.400 --> 00:18:41.120
+ and the past i would sit and think really hard about which one makes more sense and i'll commit
+
+00:18:41.120 --> 00:18:48.160
+ to that and we'll build that but then now i just had both built and then i tried both and one was
+
+00:18:48.160 --> 00:18:53.360
+ obviously worse than the other uh once it was implemented and in the past i would have never
+
+00:18:53.360 --> 00:18:58.000
+ been able to do that so that that process of exploring still exists but i will say some of that
+
+00:18:58.000 --> 00:19:01.600
+ is literally doing the coding as well when you're trying to figure out like architecturally how
+
+00:19:01.600 --> 00:19:06.880
+ just something be structured what patterns are good what patterns are annoying um yeah i have a
+
+00:19:06.880 --> 00:19:13.200
+ hard time imagining how i could be effective solely from like opening github issues and watching them
+
+00:19:13.200 --> 00:19:19.040
+ get get completed yeah i totally agree i have this theory actually that like if we use these things
+
+00:19:19.040 --> 00:19:25.200
+ right we can make the code a lot better you know everyone talks about how like AI makes code worse
+
+00:19:25.200 --> 00:19:31.680
+ but one big difference i've noticed is like i'm much less attached to any given approach because i
+
+00:19:31.680 --> 00:19:37.680
+ didn't do that much work to to get it going you know so i i totally agree and also if you try to
+
+00:19:37.680 --> 00:19:42.720
+ approaches you know you just sort of look at the PR and you just look at like how many files were
+
+00:19:42.720 --> 00:19:47.040
+ changed or you know i mean like like macro things and you can kind of tell one of these is going
+
+00:19:47.040 --> 00:19:52.080
+ to go in more easily than the other one will and then often what i'll do is i'll like try a few
+
+00:19:52.080 --> 00:19:56.720
+ different ways and then i'll be like oh this is a way to do it and then i'll go back i'll reset
+
+00:19:56.720 --> 00:20:01.120
+ everything and i'll have quad be like hey write an md file about how we're going to do this one and
+
+00:20:01.120 --> 00:20:05.040
+ then they won't kind of do it step by step together yeah the step by step together is also
+
+00:20:05.040 --> 00:20:09.840
+ interesting i've also found that uh i haven't used this for programming as much but for generating
+
+00:20:09.840 --> 00:20:14.800
+ other things i've had it instead of giving it a prompt and being like generate the thing i need
+
+00:20:14.800 --> 00:20:21.120
+ i will give it the prompt and i'll say ask me question step by step to figure out what to generate
+
+00:20:21.120 --> 00:20:24.000
+ and it does such a good job of going back and forth with me and then
+
+00:20:24.000 --> 00:20:28.480
+ pulling out the information it needs uh yeah so some of those workflows are super interesting and
+
+00:20:28.480 --> 00:20:33.440
+ then the thing you're saying about improving code this from not totally related but uh
+
+00:20:33.440 --> 00:20:37.040
+ adam did you see that issue that somebody opened today about how the they were like the
+
+00:20:37.040 --> 00:20:43.520
+ the issue title was improve code did you see that one yeah and they pasted like an elm gave them a
+
+00:20:43.520 --> 00:20:49.120
+ review of our code they just pasted as an issue there was a there's a fire in our code base that's
+
+00:20:49.120 --> 00:20:54.240
+ really bad but it's bad because it's the most complex part where i've or understand the least
+
+00:20:54.240 --> 00:20:59.040
+ so i'm like letting it become a mess as i understand what we need to do before we refactor it
+
+00:20:59.040 --> 00:21:04.480
+ someone clearly prompted the elm with something like provide an argument as to why this code is
+
+00:21:04.480 --> 00:21:09.760
+ horrible because it uses that phrasing a lot it's like it would be justified to say this code is
+
+00:21:09.760 --> 00:21:15.280
+ horrible because and then it like breaks it down and then it like as person has opened this issue
+
+00:21:15.280 --> 00:21:20.000
+ with this like several paragraphs of why this code sucks and it was just like you should improve it
+
+00:21:20.000 --> 00:21:24.800
+ i'm like are you even a user of this app like when you went and did this like why
+
+00:21:24.800 --> 00:21:31.120
+ uh so i wasn't annoyed then i replied being like i've replied calmly explaining why it's in that
+
+00:21:31.120 --> 00:21:36.080
+ state and then i threw in uh once you get more experience like this will make more sense to you
+
+00:21:38.400 --> 00:21:44.720
+ i close the issue like but yeah we get in the bad we get the good in the bad with elo limbs
+
+00:21:44.720 --> 00:21:51.280
+ and open source and open source yeah great combination i'm seeing a lot more of the ai
+
+00:21:51.280 --> 00:21:57.360
+ content stuff or just like search results and like twitter interactions just all kinds of random
+
+00:21:57.360 --> 00:22:02.480
+ places that i i so clearly this is not a real person that's getting more and more annoying i hope
+
+00:22:02.480 --> 00:22:06.000
+ that we figure out a way to solve that i don't know that's not your problem adam i don't know
+
+00:22:08.400 --> 00:22:13.200
+ you know i worked at facebook so like i am incredibly paranoid and suspicious of
+
+00:22:13.200 --> 00:22:17.440
+ basically everyone i just assume everyone else is in lm
+
+00:22:17.440 --> 00:22:24.960
+ that's a good starting point i love it one of the most frequent comments we get in any video we
+
+00:22:24.960 --> 00:22:32.640
+ do is everyone asks if adam is a i generate they say i'm a skinwalker i've literally i never heard
+
+00:22:32.640 --> 00:22:40.480
+ of this stuff until uh i got on the internet yeah yeah it's funny i can't i have this all
+
+00:22:40.480 --> 00:22:47.440
+ the time where i'm like you know a year ago if you told me how much time i'd be spending thinking
+
+00:22:47.440 --> 00:22:55.440
+ about whether a reply was ai gender not i wouldn't believe you but it's crazy how much of it exists
+
+00:22:55.440 --> 00:23:02.560
+ and it's in a format that isn't immediately detectable sometimes or like there's something
+
+00:23:02.560 --> 00:23:07.920
+ in it that triggers something else in your brain so you don't think to think that's an lm like
+
+00:23:07.920 --> 00:23:12.960
+ it'll compliment you or it'll ask you a question and immediately your brain is like in the mode to
+
+00:23:12.960 --> 00:23:17.840
+ want to engage uh and there's people that have been repeat gonna quote unquote people that i've
+
+00:23:17.840 --> 00:23:24.400
+ been consistently replying to my post for a while now where i only put together that was an lm
+
+00:23:24.400 --> 00:23:28.400
+ because they were replying so consistently they were applying every single post and very quickly
+
+00:23:28.400 --> 00:23:33.680
+ after i posted it but other than that i maybe would have thought that they were real so yeah it's
+
+00:23:33.680 --> 00:23:37.760
+ crazy how much of my energy is going into figuring that out well yeah i mean again starting with
+
+00:23:37.760 --> 00:23:44.880
+ facebook i sort of noticed how the technological limitations and implementations really influence
+
+00:23:44.880 --> 00:23:50.880
+ the culture you know like like obvious examples like eight bit right like that that's a whole style
+
+00:23:50.880 --> 00:23:56.080
+ even when you have plenty more than eight bit you know you're rendering 4k HD but it looks like
+
+00:23:56.080 --> 00:24:02.400
+ eight bit right um and i feel like ai now has really suffused the culture like that kind of
+
+00:24:02.400 --> 00:24:10.240
+ hallucinating dreamy you know there is like that little like retro futuristic time we had that
+
+00:24:10.240 --> 00:24:14.640
+ you know when mid journey was really good at that yeah it's interesting i guess i'm what i've
+
+00:24:14.640 --> 00:24:20.080
+ said is like the people start to imitate the ai i think too like another aspect of that yeah
+
+00:24:20.080 --> 00:24:25.520
+ yeah i i had this crazy experience once where i somehow ended up on some weird twitter space
+
+00:24:25.520 --> 00:24:34.320
+ and i was pretty sure it was a person acting like an llm where they would respond with weird delays
+
+00:24:34.320 --> 00:24:39.520
+ but the responses were like very good and the person was claiming that they were like an
+
+00:24:39.520 --> 00:24:44.880
+ unreleased model or something but ultimately wasn't actor at the end of the day i'm like this is so
+
+00:24:44.880 --> 00:24:52.000
+ circular crazy i can't believe this type of stuff is happening um then you go try to explain that to
+
+00:24:52.000 --> 00:24:57.440
+ like your normal friend that's like what are you talking like that person pretending to be an AI
+
+00:24:57.440 --> 00:25:05.120
+ what are you yeah well so that's another thing so as much as every zone conversation we have
+
+00:25:05.120 --> 00:25:09.680
+ everything we see everything we read is all about like coding and coding with llms and obviously
+
+00:25:09.680 --> 00:25:16.080
+ people that are programmers by trade are like more plugged into this stuff than the average person
+
+00:25:16.080 --> 00:25:22.720
+ despite that there's still so many people that have not tried using llms for programming at all
+
+00:25:22.720 --> 00:25:26.960
+ still it's still like such a small percentage of people that have tried it or incorporated into
+
+00:25:26.960 --> 00:25:31.440
+ their workflow um do you guys feel the same way i mean you're like more in the heart of
+
+00:25:31.440 --> 00:25:36.640
+ you know everyone around you thinking about it but uh you get glimpses of how big the world
+
+00:25:36.640 --> 00:25:42.960
+ actually is oh yeah well you know set aside like all the regular people who aren't programmers who
+
+00:25:42.960 --> 00:25:47.920
+ haven't touched the stuff although i feel like that's actually flipping like to my best friends are
+
+00:25:47.920 --> 00:25:52.960
+ like a doctor and lawyer and they a year ago they were like these things are not useful and now
+
+00:25:52.960 --> 00:25:57.440
+ they're like they send me their like deep research on you know or backpacking weekend
+
+00:25:57.440 --> 00:26:04.400
+ but uh but for programmers yeah i mean you know we with quadkill we end up talking to a lot of
+
+00:26:04.400 --> 00:26:10.560
+ enterprises and like there there are you know there are people who are like well our staff is
+
+00:26:10.560 --> 00:26:17.120
+ really skeptical of ai and i honestly i just have to suppress my feeling of like are you kidding me
+
+00:26:17.120 --> 00:26:24.640
+ like why could you be skeptical like you gotta try this thing or you know i mean it's got problems
+
+00:26:24.640 --> 00:26:30.000
+ but like how could you not be curious about this it's always amazing i mean the divide between like
+
+00:26:30.000 --> 00:26:36.080
+ our little circles on the hyper internet twitter crowd and like normal devs because i work with
+
+00:26:36.080 --> 00:26:42.160
+ a lot of normal devs like my normal job and that it's just not on the radar like or it's just like
+
+00:26:42.160 --> 00:26:46.800
+ not good enough or they don't they have some perception of it but it's not good enough and
+
+00:26:46.800 --> 00:26:51.440
+ yeah it's there's a disconnect the thing that's always weird for me and i've observed this with
+
+00:26:51.440 --> 00:26:59.440
+ every tech and also building stuff for developers uh i oh we often get this question of oh like why
+
+00:26:59.440 --> 00:27:07.760
+ should i try it or like it to me it feels like people want a mountain of explanation and research
+
+00:27:07.760 --> 00:27:13.040
+ and argument before they even try it and in my head i'm just like you can just try it you know
+
+00:27:13.040 --> 00:27:18.160
+ like why do you have to be skeptical of lms you can try it and you're probably land somewhere
+
+00:27:18.160 --> 00:27:24.080
+ in between like most people do uh but that that always confuse me maybe they're really busy with
+
+00:27:24.080 --> 00:27:28.720
+ other stuff and they want to like disrupt any of their workflows but i can never make an argument
+
+00:27:28.720 --> 00:27:33.840
+ for any new tech because you know you should just try it and see how it applies applies to you
+
+00:27:33.840 --> 00:27:39.840
+ yeah i you know having worked again like with a lot of different engineers over time i just
+
+00:27:39.840 --> 00:27:47.120
+ try to only work with people who write code because they love to and those people love these tools
+
+00:27:47.120 --> 00:27:52.640
+ you know because like again it's just like it's fascinating like i've programmed computers for
+
+00:27:52.640 --> 00:27:58.640
+ 20 years but now i can talk to them are you kidding me like that that's insane you've got to use that
+
+00:27:58.640 --> 00:28:02.480
+ i think there are plenty of people who just they go to their work they get their tickets done they
+
+00:28:02.480 --> 00:28:07.040
+ go home they just don't even think about it you know but it's funny even for for those people like
+
+00:28:07.040 --> 00:28:15.600
+ it's even better you know but i i i get what you're getting at there's like there's a level of
+
+00:28:15.600 --> 00:28:22.320
+ reflecting on like the meta that not everyone has the habit of doing which i guess is alien to me
+
+00:28:22.320 --> 00:28:29.920
+ but i've seen it enough where people do need to be given like again i just always imagine like a
+
+00:28:29.920 --> 00:28:34.000
+ large book report like i feel they're asking for like a big book report explaining all the reasons
+
+00:28:34.000 --> 00:28:39.840
+ and all the pros and cons before they'll even dip a toe uh again just weird for me because i
+
+00:28:39.840 --> 00:28:45.760
+ like just seems to cost nothing okay do you think these devs that don't that aren't really interested
+
+00:28:45.760 --> 00:28:50.240
+ in the meta that aren't on twitter and that aren't all these things the ones that just like check
+
+00:28:50.240 --> 00:28:54.640
+ into their job do their work and then go home do you think they're happier not in like the
+
+00:28:54.640 --> 00:29:00.080
+ i know that's a dumb question do you think like they're more present with their families do you
+
+00:29:00.080 --> 00:29:09.360
+ think they're more uh like i i have this issue uh where i'm very like uh entrepreneurial whatever
+
+00:29:09.360 --> 00:29:13.760
+ ambitious in life and like i go very hard at programming and everything i do and i'm very
+
+00:29:13.760 --> 00:29:19.040
+ online and all these things and i worry that it's maybe like i don't know taking me away from the
+
+00:29:19.040 --> 00:29:25.760
+ people i love i'm not as present as i could be i'm sorry adam
+
+00:29:25.760 --> 00:29:28.960
+ i think this is a question i love that question that's great
+
+00:29:28.960 --> 00:29:34.240
+ my first answer is like no way how can they be happier because i my guess would be they
+
+00:29:34.240 --> 00:29:39.840
+ approached their family and their hobby and everything else the same way they approached their job
+
+00:29:39.840 --> 00:29:47.040
+ which is like they grew it like i i think yeah to to to be engaged you know is like it's also
+
+00:29:47.040 --> 00:29:53.360
+ pain right like it it's it's quite painful to sort of realize like man i spent a whole day arguing
+
+00:29:53.360 --> 00:29:58.400
+ with the lm i should not have done that i spent the whole day like you know kind of being mad at my
+
+00:29:58.400 --> 00:30:03.200
+ little kid even though they couldn't help it um those are like the same thing i think
+
+00:30:03.200 --> 00:30:06.720
+ wow okay you didn't know you were coming to give me therapy but that was amazing
+
+00:30:06.720 --> 00:30:10.960
+ actually do you actually helped me in my real life so thank you i'm going to take this one home
+
+00:30:10.960 --> 00:30:18.320
+ okay yeah the other point i'll make is i think it's easy to forget the bad parts about a life
+
+00:30:18.320 --> 00:30:23.600
+ lived that way so i think the upside is you can check out there's a good ability to check out
+
+00:30:23.600 --> 00:30:28.400
+ but the problem is you can't check at 100% of time there's times of your life that you have to be
+
+00:30:28.400 --> 00:30:33.200
+ checked in you know for eight hours a day whatever it is and most people when you talk to them about
+
+00:30:33.200 --> 00:30:39.200
+ their job every minute is just misery it's just my boss is being annoying i have to do this thing i
+
+00:30:39.200 --> 00:30:42.080
+ don't think it's useful but i have to do it anyway you know it's like they they feel like they're
+
+00:30:42.080 --> 00:30:48.480
+ working on stuff that has no point so it's like enduring misery for eight hours so you can escape
+
+00:30:48.480 --> 00:30:54.880
+ for the others uh and i think most people unfortunately are in situations like that and i think the
+
+00:30:54.880 --> 00:31:00.160
+ thing i easily take for granted is every minute of my day now i feel like i'm working on i'm like
+
+00:31:00.160 --> 00:31:04.240
+ spending it the best i could possibly be spending it and parts of it are hard and painful of course
+
+00:31:04.240 --> 00:31:09.440
+ but there's no chance i would ever get burned out because i'm not doing stuff i don't believe in
+
+00:31:09.440 --> 00:31:14.240
+ but you know there was a lot like there was a point in my life where that wasn't the case and
+
+00:31:14.240 --> 00:31:18.400
+ i remember what that was like and i remember like always being annoyed and so many cycles in my
+
+00:31:18.400 --> 00:31:23.440
+ brain just thinking about how stupid my like company was for a certain reason or like my team
+
+00:31:23.440 --> 00:31:29.200
+ was for a certain reason um and that all faded and i haven't been in that situation for years now
+
+00:31:30.400 --> 00:31:36.320
+ and that like shows up in other parts of your life right it doesn't stay at work yeah what Adam
+
+00:31:36.320 --> 00:31:41.760
+ helped me realize is man this conversation it's going all over the place uh just helped me realize
+
+00:31:41.760 --> 00:31:45.120
+ that like i've always had the work part checked where i'm happy with my work and i'm excited about
+
+00:31:45.120 --> 00:31:49.440
+ my work i can't hardly sleep because i'm excited to wake up and work i've always said that part it's
+
+00:31:49.440 --> 00:31:55.680
+ the interpersonal connectedness relationships that i've not been so good at like i'm a present dad
+
+00:31:55.680 --> 00:32:02.160
+ but i'm not so emotionally available anyway uh you've made me realize that i can go hard at that
+
+00:32:02.160 --> 00:32:05.680
+ too i just haven't learned how to do it yet like i go hard at everything in life and i just don't
+
+00:32:05.680 --> 00:32:09.040
+ know how to do that part yet so i'm gonna figure that part out too and like if i were somebody who
+
+00:32:09.040 --> 00:32:13.920
+ just checked in maybe i'm a just kind of a slothful person and i wouldn't do those things to better
+
+00:32:13.920 --> 00:32:20.320
+ myself on that area so anyway i'm better yeah thank you you fixed me wow that's so real for me i you
+
+00:32:20.320 --> 00:32:26.320
+ know i'm i'm my kids are older but uh i struggled with that when my kids were younger for sure stuff
+
+00:32:26.320 --> 00:32:31.440
+ i've gotten better though as you say you can't apply yourself and even figuring out how to apply
+
+00:32:31.440 --> 00:32:38.080
+ yourself to that is one of the greatest challenges yeah i'm about to have my first kid so i'm gonna
+
+00:32:38.080 --> 00:32:43.200
+ i'm thinking about some best stuff i'm excited for you dax i'm expecting it to humble you a little
+
+00:32:43.200 --> 00:32:50.000
+ bit yes you know everyone literally there's like hundreds of people hoping for that and i i've already
+
+00:32:50.000 --> 00:32:55.120
+ for that deck yeah i've already told everyone no matter what happens i'm just gonna be more annoying
+
+00:32:55.120 --> 00:33:02.720
+ so yes you guys need to yeah give up hope uh i gotta say this is just like for anyone who notices
+
+00:33:02.720 --> 00:33:07.680
+ i'm noticing i've talked to dax a hundred fifty times on this podcast dax's voice is even different
+
+00:33:07.680 --> 00:33:11.840
+ and he's like lounging because his neck is hurt you may not have wanted to say like you're this
+
+00:33:11.840 --> 00:33:16.080
+ crippled person right now but he i can tell you're like your voice is different yeah my voice is
+
+00:33:16.080 --> 00:33:21.520
+ quivering it's weird so this morning after my run i literally bent down to pick something up
+
+00:33:21.520 --> 00:33:27.600
+ and i turned my neck at the same time and something just like popped in the back and it's been really
+
+00:33:27.600 --> 00:33:33.440
+ painful and like it's affecting the way i speak it's yeah pretty crazy and you're like you're laying
+
+00:33:33.440 --> 00:33:39.840
+ back like this i'm trying to find positions that are they're not painful uh yeah so i've just
+
+00:33:39.840 --> 00:33:45.520
+ been rooting for that at all well i was thinking i'm like i'm glad i don't have a kid yet because
+
+00:33:45.520 --> 00:33:50.320
+ like i feel like hold the baby and do all that stuff right now it'd be pretty hard oh jeez yeah
+
+00:33:50.320 --> 00:33:55.680
+ so cloud codes like kind of taking off i don't know we haven't really talked about like the rise
+
+00:33:55.680 --> 00:34:01.920
+ of cloud code i feel like yeah i i don't know what chart it was i saw but like it's definitely
+
+00:34:01.920 --> 00:34:06.960
+ exploding especially on twitter like i feel like a lot of people is it just just come down to like
+
+00:34:07.760 --> 00:34:15.040
+ i don't want to use vs code is that it is it just like people that don't want to use
+
+00:34:15.040 --> 00:34:21.680
+ an editor baked into their ai thing i'm you know i'm not sure i think um like the the
+
+00:34:21.680 --> 00:34:29.840
+ growth has been absolutely insane like it's like 300% usage increase in the last four weeks
+
+00:34:29.840 --> 00:34:36.480
+ uh wow kind of stuff that you just don't really see uh 90% of the code like within anthropic it's
+
+00:34:36.480 --> 00:34:43.200
+ even really taking off like um you know our team like almost all of the code is written with the
+
+00:34:43.200 --> 00:34:50.640
+ help of the lm like a couple things first of all the new models the four models are much better
+
+00:34:50.640 --> 00:34:55.200
+ you know and it's funny because like you use them at first and you're like this doesn't this
+
+00:34:55.200 --> 00:34:59.760
+ isn't that much better it's not like it's so much smarter but just being a little more steerable
+
+00:34:59.760 --> 00:35:05.040
+ and a little more you know i had this amazing experience with opus where i kind of gave it an
+
+00:35:05.040 --> 00:35:11.600
+ ambiguous prompt and it came back and it was like wait a sec do you mean a or b hmm and i was like
+
+00:35:11.600 --> 00:35:18.080
+ oh i've never seen that from the model before that's like a new behavior um so i i think the new
+
+00:35:18.080 --> 00:35:24.800
+ model is really unlocked something new and in some ways i think quad code is just the easiest way
+
+00:35:24.800 --> 00:35:31.040
+ to get at those things you know you can you like bring your own subscription and you especially if
+
+00:35:31.040 --> 00:35:36.080
+ you sign up for the max plan it sort of feels like all one thing whereas with these other things you
+
+00:35:36.080 --> 00:35:41.360
+ have to like plug your keys in and it's just like one extra step yeah i you know i i can't quite
+
+00:35:41.360 --> 00:35:47.760
+ explain the why why quad code has been so popular especially there are other good options out there
+
+00:35:47.760 --> 00:35:54.160
+ for sure um but i think like a lot of it is the model the new model yeah do you just default to opus
+
+00:35:54.160 --> 00:35:59.680
+ this is a question i have for an anthropic engineer do you default to opus ever use sonnet like is
+
+00:35:59.680 --> 00:36:05.040
+ there a reason no actually i'll tell you i joined anthropic in part so i can have unfettered access
+
+00:36:05.040 --> 00:36:09.520
+ to the top model i was like i do not out pay anything but i'm not getting rate limited
+
+00:36:09.520 --> 00:36:16.560
+ yeah so now i can play an inference tier it's awesome it's awesome but there's not like i haven't
+
+00:36:16.560 --> 00:36:21.600
+ quite figured out with programming dax uses sonnet i mostly use opus and i don't know if there's
+
+00:36:21.600 --> 00:36:25.520
+ material difference like i don't know if either one of us has got a sense for if we should use one
+
+00:36:25.520 --> 00:36:32.560
+ or the other i'm very happy like i'm a very happy user with just sonnet uh i think i will switch to
+
+00:36:32.560 --> 00:36:40.480
+ opus occasionally but yeah i think i'm sure opus is better but i'm surprised at how satisfied i am
+
+00:36:40.480 --> 00:36:47.760
+ just using sonnet you know sonnet is just as good as at opus for coding tasks i would say and also
+
+00:36:47.760 --> 00:36:55.200
+ you know when we do we actually have a horrible problem trying to tell internally if a model if one
+
+00:36:55.200 --> 00:37:01.520
+ model is better than another like that's actually much harder than it sounds the users will generally
+
+00:37:01.520 --> 00:37:08.640
+ pick the shorter answer that was delivered faster right um and especially because we can't really do
+
+00:37:08.640 --> 00:37:14.960
+ like long trajectories with one model versus the other it's like kind of one tool prompt usually
+
+00:37:14.960 --> 00:37:19.120
+ and it's really hard to tell often what the difference you know they're very similar responses
+
+00:37:19.120 --> 00:37:27.120
+ um so i just stick to opus i you know one flavor of twitter maxing that i really hate is like
+
+00:37:27.120 --> 00:37:34.560
+ i use this model for planning that model to write job on this model where it's like dude you just
+
+00:37:34.560 --> 00:37:42.080
+ get a life dude yeah so i can just keep a pin on opus that's fine with me but you know sonnet's
+
+00:37:42.080 --> 00:37:47.040
+ really good too they're both better than sonnet three seven nine you know yeah sure that guy was a
+
+00:37:47.040 --> 00:37:55.360
+ jerk it was just like wait for tests and write stupid comments yeah so let's talk a bit about
+
+00:37:55.360 --> 00:37:59.680
+ the form factor of cloud code which is all in the terminal yeah like what like what are your
+
+00:37:59.680 --> 00:38:07.200
+ thoughts on that is this you see this as like just like a like nice angle you guys found or is this
+
+00:38:07.200 --> 00:38:12.720
+ like a form factor you kind of are betting on i think it's fundamental and actually i think the
+
+00:38:12.720 --> 00:38:21.680
+ fact that like it's it's in the terminal interactively is almost like a stepping stone to it being
+
+00:38:21.680 --> 00:38:28.480
+ a much more composable linux utility you know like the thing i've always wanted is um
+
+00:38:29.040 --> 00:38:37.280
+ cube cuddle list pipe quad what's what's wrong here or cube cuddle describe or whatever um and
+
+00:38:37.280 --> 00:38:42.960
+ actually it's surprising how we we've all what leaned hard into coding but like it's been harder to
+
+00:38:42.960 --> 00:38:48.080
+ crack like some of these sRE things there's some great new products coming but it hasn't quite
+
+00:38:48.080 --> 00:38:54.800
+ happened yet ultimately i think the fact that you end up typing into the terminal and viewing
+
+00:38:54.800 --> 00:39:00.880
+ diffs in the terminal is it's kind of neither here nor there you know it's it's fine but the real
+
+00:39:00.880 --> 00:39:07.840
+ the real power is that if this can run anywhere you've a prompt and for me you know the fact that i
+
+00:39:07.840 --> 00:39:14.560
+ can run this inside a docker container or i can easily like i run it on a pi zero you know that i
+
+00:39:14.560 --> 00:39:21.920
+ connect to using mosh um that's where the like i think that that's what i'm really excited about
+
+00:39:21.920 --> 00:39:26.720
+ with these uh going back to the terminal that that's how we saw it too we're like this is just so
+
+00:39:26.720 --> 00:39:32.640
+ flexible there's no excuse someone would have to not use this no matter what their workflow
+
+00:39:32.640 --> 00:39:39.200
+ what their environment uh on your computer on a server in a github ci thing i think that's that's
+
+00:39:39.200 --> 00:39:45.040
+ the brilliant part about packaging it in this way the other funny thing i've seen is there's
+
+00:39:45.040 --> 00:39:50.560
+ especially with cloud club blowing up as it has there's been a few like big posts where people
+
+00:39:50.560 --> 00:39:57.120
+ were like i don't get it like why do people like doing stuff in their terminal like it's uh like
+
+00:39:57.120 --> 00:40:04.000
+ how how would you ever prefer that over a ui and i think if cloud code wasn't growing as much as it
+
+00:40:04.000 --> 00:40:08.800
+ was i would like look at those posts and be like that's a good point because maybe this isn't as
+
+00:40:08.800 --> 00:40:16.000
+ mass market as it is but in the face of people saying that and it growing so much there's like
+
+00:40:16.000 --> 00:40:19.920
+ a more interesting thing that happens which is clearly something counterintuitive is happening
+
+00:40:19.920 --> 00:40:24.880
+ that people aren't getting but it's still clicking with a bunch of people so i i love seeing that
+
+00:40:24.880 --> 00:40:30.400
+ it's like a good sign that uh something is really working when people are confused as to why it is
+
+00:40:30.400 --> 00:40:36.320
+ working i you know a part of me thinks too like when i open vs code you know almost always by accident
+
+00:40:36.320 --> 00:40:45.600
+ like i just i just sort of feel like i feel like this thing has gone over some kind of critical
+
+00:40:45.600 --> 00:40:50.640
+ threshold like i like the fact that we find ourselves in this place where there are no viable
+
+00:40:50.640 --> 00:40:58.080
+ ids i wonder if that fuels this a little bit too like it just everything inside vs code to me
+
+00:40:58.080 --> 00:41:04.960
+ it just it turns me into this like consumer you know which is like the opposite of how i want to
+
+00:41:04.960 --> 00:41:10.800
+ feel when i'm programming my computer right yeah it's in one of these posts i won't took a screenshot
+
+00:41:10.800 --> 00:41:15.760
+ of i think it was cursed so they're like like a terminal could never recreate all this and i was
+
+00:41:15.760 --> 00:41:19.760
+ looking at the screenshot i'm like that looks crazy and overwhelming and there's so much stuff going
+
+00:41:19.760 --> 00:41:26.160
+ on um well one of the terminal could recreate it but like i don't think i want to yeah absolutely
+
+00:41:26.160 --> 00:41:31.600
+ so i mean going going more on this format on this form factor uh so you you probably obviously
+
+00:41:31.600 --> 00:41:35.680
+ seeing this stuff we're doing the open code we're taking it in like a more extreme direction of like
+
+00:41:35.680 --> 00:41:40.480
+ how far can we push all the tricks you can do in the terminal given like the years we've spent
+
+00:41:40.480 --> 00:41:45.760
+ doing tricks in the terminal with uh what's the terminal too many years why did you do that thing
+
+00:41:45.760 --> 00:41:52.400
+ we figure out the theme i was so impressed i haven't yet looked at how you did that uh how how like
+
+00:41:52.400 --> 00:41:57.920
+ matches your system theme yeah oh so like a system theme is just your terminal just remapping the
+
+00:41:57.920 --> 00:42:02.800
+ standard set of colors to other colors yeah and so as long as we render using the standard colors
+
+00:42:02.800 --> 00:42:09.440
+ it'll it'll show up right oh the ends easier to 15 basically most i guess now to up to 255 you can
+
+00:42:09.440 --> 00:42:15.840
+ customize in most terminals so if you just use those colors yeah it tends to work okay yeah yeah
+
+00:42:15.840 --> 00:42:20.880
+ so that this has been fun for us because uh you know we're trying to like see how much we can do
+
+00:42:20.880 --> 00:42:27.600
+ we already know what the the ceiling is it's like me of him exists and he can do quite a lot
+
+00:42:27.600 --> 00:42:33.360
+ a lot this is just like kind of inching towards that direction um i get the sense with cloud code
+
+00:42:33.360 --> 00:42:39.120
+ that's not like your interest at all but yeah that kind of looked at your thoughts on that yeah sure
+
+00:42:39.120 --> 00:42:43.360
+ there are a couple things that i think are really interesting about the terminal form factor that
+
+00:42:43.360 --> 00:42:50.960
+ i do lean into and then what you guys do is amazing but it's like not really what we're after um so i
+
+00:42:50.960 --> 00:42:58.400
+ think the first thing that's interesting about the terminal is the concurrency model because on the
+
+00:42:58.400 --> 00:43:04.960
+ web you can have these like sort of threads of processes that run completely unsynchronized you
+
+00:43:04.960 --> 00:43:10.160
+ know what i mean like a model over or or like a window over here has an has an async process
+
+00:43:10.160 --> 00:43:16.720
+ and then the another like divided window has its own async process and those things never have to
+
+00:43:16.720 --> 00:43:22.960
+ come together you know and and they often don't and it's confusing as hell you know because like
+
+00:43:22.960 --> 00:43:28.960
+ they're event based and you know they they actually um they they actually don't really make sense that
+
+00:43:28.960 --> 00:43:34.000
+ they're running completely uh not concurrently so one thing that's really nice about the terminal
+
+00:43:34.000 --> 00:43:39.840
+ is like you do all this concurrent stuff but then you ultimately have to come back to one prompt
+
+00:43:39.840 --> 00:43:47.040
+ so you get this like really thick braiding of like concurrent tool calls and you know all this stuff
+
+00:43:47.040 --> 00:43:52.240
+ where you're trying to pack it all in and then it all has to stop when you take input from the user
+
+00:43:52.240 --> 00:43:58.400
+ so i think you can build you actually end up building a lot more sophisticated concurrency
+
+00:43:58.400 --> 00:44:05.360
+ that way because you have these like stop points that are easy to reason about um and then there's
+
+00:44:05.360 --> 00:44:10.640
+ a related thing that we've noticed which is like just simplifying the UI enough so that we can
+
+00:44:10.640 --> 00:44:17.200
+ show it and a few lines of the terminal has forced us to do so many other good things you know like
+
+00:44:17.200 --> 00:44:23.280
+ like design uh constraints breed good design and the terminal is such a constraint that way it
+
+00:44:23.280 --> 00:44:30.000
+ that actually really makes me happy um yeah i lose sleep over vertical space in a terminal like
+
+00:44:30.000 --> 00:44:36.000
+ there's just so it feels like there's never enough vertical space that's so constrained yeah that's
+
+00:44:36.000 --> 00:44:40.480
+ right and also with ink if you try to re-render too much of it you get all this flickering and
+
+00:44:40.480 --> 00:44:47.120
+ stuff it's it's you have like like five lines effectively you can update yeah take a footer that's
+
+00:44:47.120 --> 00:44:51.920
+ that's live and everything else is static uh yeah i mean i i also enjoy the constraints i think
+
+00:44:51.920 --> 00:44:58.080
+ there's such basic things like you can have different font sizes so if you want to show emphasis or
+
+00:44:58.080 --> 00:45:02.480
+ highlight things you can only do that through colors or bolding and at first it feels like
+
+00:45:02.480 --> 00:45:07.840
+ that this is too limited but then you realize you can actually do everything you want to do
+
+00:45:07.840 --> 00:45:12.720
+ you're forced to do it in a better way and now that makes me feel like man i think web apps should
+
+00:45:12.720 --> 00:45:18.480
+ all just be one font size so honestly now yes oh so when we did the terminal website david our
+
+00:45:18.480 --> 00:45:22.800
+ amazing designer at terminal just said like let's make like the terminal all the fonts the same size
+
+00:45:22.800 --> 00:45:26.640
+ so the entire terminal website all the pages on the terminal website it's all one font size and
+
+00:45:26.640 --> 00:45:31.840
+ it just feels so good to build as a developer where you don't have to think about like what size is
+
+00:45:31.840 --> 00:45:36.000
+ this one like i know it's a muted color but like how much smaller and like you don't think about it
+
+00:45:36.000 --> 00:45:40.080
+ at all you just literally use the same it's it's the best i wish every website could be designed
+
+00:45:40.080 --> 00:45:45.520
+ like that it looks great too like it's actually like the perfect aesthetic for right now so yeah
+
+00:45:45.520 --> 00:45:50.320
+ so we do go a little bit crazier but uh even despite that there's still so many constraints
+
+00:45:50.320 --> 00:45:56.640
+ the way to think about i mean we just had a situation uh this week where uh i don't work
+
+00:45:56.640 --> 00:46:05.360
+ down a feature and it wasn't it didn't feel exactly right and you have this moment of feeling like
+
+00:46:05.360 --> 00:46:10.400
+ there's no way we can make this work you know like it's we're just screwed but then inevitably
+
+00:46:10.400 --> 00:46:14.240
+ something does emerge and you're like okay there is a better way to go about this and something
+
+00:46:14.240 --> 00:46:18.320
+ clicks oh we were missing this this thing is important and we can restructure it in this way
+
+00:46:18.320 --> 00:46:23.360
+ it always shows up there's so fewer patterns to draw from so it's like discovering all the time
+
+00:46:23.360 --> 00:46:27.440
+ like there's so many web patterns that you just there's an answer to every problem and like you do
+
+00:46:27.440 --> 00:46:31.920
+ that thing and it's just boring with the terminal it feels so much more uncharted i know people have
+
+00:46:31.920 --> 00:46:36.240
+ done some crazy stuff in terminals but you run into a situation where there's this you actually
+
+00:46:36.240 --> 00:46:41.760
+ need to provide and there's no cookie cutter answer you have to like make it up it's just so fun i
+
+00:46:41.760 --> 00:46:48.400
+ i think also uh balancing because we are still trying to make this these tools something that a
+
+00:46:48.400 --> 00:46:53.520
+ lot of people can use obviously a neo-vam user like is all excited about all the different hot
+
+00:46:53.520 --> 00:46:58.560
+ keys and they're gonna like bind a hockey for every little action but it's very easy to make
+
+00:46:58.560 --> 00:47:02.800
+ features hidden by accident because they're under these complex things that most people aren't going
+
+00:47:02.800 --> 00:47:09.120
+ to discover uh so yeah balancing both that being like we care about power users but we also care
+
+00:47:09.120 --> 00:47:16.400
+ about easy adoption uh it's definitely like a very challenging like product tasks to take on but uh
+
+00:47:16.400 --> 00:47:21.840
+ yeah it's really fun it's like the right level of challenge for us yeah yeah i think it's fun
+
+00:47:21.840 --> 00:47:26.880
+ too i mean the one thing i would say like i we found a way to deal with everything except
+
+00:47:26.880 --> 00:47:31.440
+ discoverability that is the thing that just kills us you know what i mean like i see all these
+
+00:47:31.440 --> 00:47:37.040
+ products where it's like oh i made neo i made quad code do this and it's like no we we already
+
+00:47:37.040 --> 00:47:43.040
+ have that feature you guys you know yeah sorry i built something to hit the enter key and all this
+
+00:47:43.040 --> 00:47:49.680
+ it's like actually we have a dash p flag it does exactly yeah it's it's funny because someone asked
+
+00:47:49.680 --> 00:47:54.480
+ us the other day for a tutorial and we're like hey what do you mean you want a tutorial like what
+
+00:47:54.480 --> 00:47:58.000
+ like what does that mean but then i thought about it more i'm like yeah you know we have a lot of
+
+00:47:58.000 --> 00:48:02.640
+ features and i can see how if you don't read through all the help menus and the docs like you're not
+
+00:48:02.640 --> 00:48:07.520
+ gonna you're not gonna see that um which i guess like the neo-them world that's how it all works right
+
+00:48:07.520 --> 00:48:12.240
+ there's all these people that make great content explaining things that aren't obvious uh but yeah
+
+00:48:12.240 --> 00:48:16.000
+ as like someone working on a product you hate when stuff is hidden is it any different than when
+
+00:48:16.000 --> 00:48:21.040
+ you worked on react like did people build worse versions of built-in hooks and stuff that like
+
+00:48:21.840 --> 00:48:26.960
+ you guys have these features already but people build their big machine on top not even knowing
+
+00:48:26.960 --> 00:48:29.360
+ because they don't read the docs just a lot of people just don't read the docs it's the same
+
+00:48:29.360 --> 00:48:32.160
+ devs that just clock in and they don't love their families those ones
+
+00:48:32.160 --> 00:48:42.800
+ yeah yeah that's funny uh no you know no reactors like completely different like actually the whole
+
+00:48:42.800 --> 00:48:48.800
+ the whole game with react was getting people to build stuff on top of react um so and it was open
+
+00:48:48.800 --> 00:48:54.480
+ source you know and like we really wanted 90 different combo boxes because that's how you end
+
+00:48:54.480 --> 00:48:59.520
+ up with the best combo box yeah um it's the library versus app thing like clock code is in the app
+
+00:48:59.520 --> 00:49:03.840
+ yeah yeah uh i was just gonna say it is like i wanted to bring up open code because i've been
+
+00:49:03.840 --> 00:49:12.080
+ obsessed with this whole idea this whole concept of terminal based coding assistance uh it was very
+
+00:49:12.080 --> 00:49:15.760
+ awkward to bring it up i don't know i i'd be curious i don't like you've seen we're working on this
+
+00:49:15.760 --> 00:49:21.120
+ how do you feel about us working on this does it i don't know i don't want to masking guys i love
+
+00:49:21.120 --> 00:49:27.840
+ it i think it's awesome let's go we talked about like when we were shipping clock code for the first
+
+00:49:27.840 --> 00:49:34.080
+ time we talked about making an open source and you know i love open source i did it for a long time
+
+00:49:34.080 --> 00:49:38.720
+ but i really felt like it was not the right thing for yeah for clock code because i feel like the
+
+00:49:38.720 --> 00:49:45.200
+ first and top voted PR or issue for the open source version of clock code would be like give us access
+
+00:49:45.200 --> 00:49:53.680
+ to other models yeah we're never gonna do that so um so the fact like having an open version of this
+
+00:49:53.680 --> 00:50:01.760
+ with an open router you know kind of model selector makes perfect sense to me and it's just so obvious
+
+00:50:01.760 --> 00:50:08.400
+ like this is huge like what yeah what we're all doing is so big that we all need to work on it
+
+00:50:08.400 --> 00:50:13.760
+ there's like plenty of value to capture and there's plenty of like totally slightly different takes
+
+00:50:13.760 --> 00:50:18.560
+ that actually totally change the inflection of how you go after this even the fact that like
+
+00:50:18.560 --> 00:50:25.520
+ vibes wise we're like a lot more in line you know like you can jump in and out of clock code
+
+00:50:25.520 --> 00:50:30.080
+ you guys use alternate screen buffer and that actually like that is a completely different
+
+00:50:30.080 --> 00:50:36.960
+ feel even though they're both AI terminalless agents yeah yeah yeah i feel like there's not
+
+00:50:36.960 --> 00:50:40.560
+ i don't are there other people doing what we're doing with the alt screen thing because i feel like
+
+00:50:40.560 --> 00:50:46.800
+ there's like eight exact clog cloud code copies like even the big companies that are rolling out
+
+00:50:46.800 --> 00:50:52.160
+ there are awkwardly similar like they look so much like cloud code what is the point where i'm like
+
+00:50:52.160 --> 00:50:58.000
+ this like i feel it even has the same like same like behaviors where i'm like is it literally just
+
+00:50:58.000 --> 00:51:03.280
+ like ripped from cloud code i'm with you on that it's sort of like did you just like have like write
+
+00:51:03.280 --> 00:51:10.160
+ a prompt after you have clog write a prompt after using the internet like like why create a cloud code
+
+00:51:10.160 --> 00:51:16.560
+ same technology decision it's crazy it's the exact same libraries like everything it's like it wasn't
+
+00:51:16.560 --> 00:51:21.840
+ thought from scratch so i feel i mean that just that signals to me like they did it because they
+
+00:51:21.840 --> 00:51:25.280
+ felt like they had to have a product in this shape but it's not something they're like passionately
+
+00:51:25.280 --> 00:51:31.600
+ pursuing and i've always found the anthropic products in general to be very good i feel you guys
+
+00:51:31.600 --> 00:51:37.360
+ are like a very good product company where i think you guys ship a little slower than some
+
+00:51:37.360 --> 00:51:43.360
+ i mean clog cloud was before i went else but i've noticed this with like using cloud on web
+
+00:51:43.360 --> 00:51:49.600
+ it tends stuff tends to come out like a little more baked and i appreciate that i feel like uh
+
+00:51:49.600 --> 00:51:55.440
+ like i stopped using chat gpt because their interface just became a crazy mess of like
+
+00:51:55.440 --> 00:52:00.960
+ toggles and selectors and i don't even know what's going on anymore um so i've always liked like i
+
+00:52:00.960 --> 00:52:06.160
+ can i can tell there's like a good product sense at the company uh yeah but some of these other
+
+00:52:06.160 --> 00:52:12.560
+ these other tools like i don't it just feels like someone was forced to to do it you know that's
+
+00:52:12.560 --> 00:52:18.640
+ like the immediate vibe i get from them well thanks thanks for that boy i gotta say it's pretty hard
+
+00:52:18.640 --> 00:52:25.920
+ to know how to drive a product org attached to an ai research lab because it always feels like man
+
+00:52:25.920 --> 00:52:33.360
+ we're not doing enough you know to like to like elicit the frontier capabilities with new products
+
+00:52:33.360 --> 00:52:38.480
+ you know like like they're just they're things right at the frontier that is like how do you unlock
+
+00:52:38.480 --> 00:52:43.040
+ that for product you know and like like memory is a good example that's an area where i feel like
+
+00:52:43.040 --> 00:52:49.200
+ open ai is maybe ahead of anthropic a little bit well in in their product um what i turn that
+
+00:52:49.200 --> 00:53:02.800
+ feature off very quickly but uh but yeah like um it's just a huge challenge you know and it all
+
+00:53:02.800 --> 00:53:07.680
+ moves so quickly that like some of the things you think even just like the the sort of product
+
+00:53:07.680 --> 00:53:13.600
+ development cycles that we're used to have to change because the the underlying technology moves
+
+00:53:13.600 --> 00:53:19.840
+ so fast yeah the the thing you were saying earlier about um cloud code not being open source i think
+
+00:53:19.840 --> 00:53:25.120
+ a lot of people try like formically they they kind of say some kind of criticism around that
+
+00:53:25.120 --> 00:53:32.720
+ i think people though like our stuff is open source but we don't really run it like a pure
+
+00:53:32.720 --> 00:53:37.760
+ open source thing we have a very strong opinionated way of how we want to build this product and
+
+00:53:37.760 --> 00:53:42.240
+ there's a lot of features that are going to be popular like popular and requested that we're
+
+00:53:42.240 --> 00:53:47.920
+ just not going to implement uh and the only reason we're open source is because we have this like
+
+00:53:47.920 --> 00:53:52.000
+ long tail of supporting all these different providers and plugins and stuff like that like
+
+00:53:52.000 --> 00:53:58.640
+ we do need the community support for that i think people underestimate it's very difficult to
+
+00:53:58.640 --> 00:54:02.960
+ if when it's like once like a product like an app like this running it like a pure open source
+
+00:54:02.960 --> 00:54:09.520
+ project it's like a lot to commit to and still expect the results to be good like i think people
+
+00:54:09.520 --> 00:54:14.160
+ really underestimate that so i i think cloud code not being open source or not run like an open
+
+00:54:14.160 --> 00:54:20.000
+ source thing is that makes total sense to me yeah i you know we could talk about this a lot i'm sure
+
+00:54:20.000 --> 00:54:26.800
+ but like working on react for as long as i did you know i think i think there's a lot of open source
+
+00:54:26.800 --> 00:54:32.160
+ projects where it's like yeah you can look at the source but like committing to react at this point
+
+00:54:32.160 --> 00:54:38.640
+ like it's very hard to do like even if you wanted to it's like extremely abstract and you know you
+
+00:54:38.640 --> 00:54:46.240
+ you basically need to know someone on the team to get your PR through um yeah i you know uh i
+
+00:54:46.240 --> 00:54:50.640
+ think i i think there's something to be said for like hey you can look at our source you know that
+
+00:54:50.640 --> 00:54:56.080
+ that's like certain kind of open source that i i would say you guys are mostly interested in um
+
+00:54:56.080 --> 00:55:00.240
+ you're right though that the great thing about open source is like oh someone wants to run it on
+
+00:55:00.240 --> 00:55:06.880
+ arch on a you know like arm processor or whatever we just got the next PR someone kind of looking
+
+00:55:06.880 --> 00:55:12.240
+ at the next package yeah yeah those next people yeah they they have lots of complaints about how
+
+00:55:12.240 --> 00:55:19.680
+ it could be yeah but i mean yeah to your guys credit you look at open AI who they i mean they
+
+00:55:19.680 --> 00:55:24.800
+ open source i guess jim and i's open source too but they open source the the codex thing codex CLI
+
+00:55:24.800 --> 00:55:30.320
+ like immediate PR to rewrite it and rest had they even emerged from that like they're still in the
+
+00:55:30.320 --> 00:55:34.720
+ weeds rewriting it and rest i think i don't think it even i don't know if anyone uses it yeah i
+
+00:55:34.720 --> 00:55:38.240
+ looked at their user numbers too they're like they're below hours and we launched like three
+
+00:55:38.240 --> 00:55:43.920
+ weeks ago so it's uh yeah i don't think it's at least sticking with anyone exciting times and i do
+
+00:55:43.920 --> 00:55:48.240
+ i love this space it's just like i we're all programmers like as a programmer there's there's
+
+00:55:48.240 --> 00:55:53.280
+ something so invigorating about working on something that feels like you're helping shape the future
+
+00:55:53.280 --> 00:55:59.360
+ of your field that you've worked for 15 20 years in like it's just such a i don't know it's not like
+
+00:56:00.160 --> 00:56:05.360
+ like i'm solving climate change but it's like it's a tier below that in terms of purpose you know
+
+00:56:05.360 --> 00:56:09.520
+ i mean like there's like things that would be purpose that like the whole world benefits from
+
+00:56:09.520 --> 00:56:14.000
+ there's like selfishly my career could change completely over the next five years and i want to
+
+00:56:14.000 --> 00:56:17.920
+ be part of that i don't want to just sit back and watch what happened to me so it's very invigorating
+
+00:56:17.920 --> 00:56:21.200
+ i don't know if you guys feel that way i feel the same way adam and you know one thing i think
+
+00:56:21.200 --> 00:56:26.640
+ about is like we talk about distillation from one model to another but there's this other thing
+
+00:56:26.640 --> 00:56:32.160
+ happening which is like the distillation of all of this human knowledge and wisdom into
+
+00:56:32.160 --> 00:56:41.040
+ the models and the tools that use them and you know like for me transferring my what i know and
+
+00:56:41.040 --> 00:56:45.200
+ believe about software engineering and also transferring just some of the love i feel
+
+00:56:45.200 --> 00:56:50.720
+ i feel like you know with your product with with claw code with any good product what makes it good
+
+00:56:50.720 --> 00:56:56.480
+ is like it tastes good you know it's like a cook additionally you cook i know you guys both cook
+
+00:56:56.480 --> 00:57:01.760
+ like you can just taste the love in it you know yeah something that was just made by the guys
+
+00:57:01.760 --> 00:57:07.760
+ clocking in nine to five is just not not that good and and those products are the ones that win
+
+00:57:07.760 --> 00:57:13.680
+ absolutely yeah i feel like the timing is also so great part my personal timing i feel like i
+
+00:57:15.360 --> 00:57:20.800
+ finally know enough about my field how the world works how things work and then like something
+
+00:57:20.800 --> 00:57:25.840
+ exciting is happening where i've been alive for things like that before but i was just like too
+
+00:57:25.840 --> 00:57:30.800
+ stupid to to really work on the right thing so now i'm really excited because i feel like okay
+
+00:57:30.800 --> 00:57:35.040
+ everything is finally lining up you know i can actually you know take part in this in the way that
+
+00:57:35.040 --> 00:57:40.480
+ uh you know i've seen other people be able to take part in in previous shifts in the past so yeah
+
+00:57:41.120 --> 00:57:45.760
+ really fun times i feel like this is kind i feel like this is my second go round you know like uh
+
+00:57:45.760 --> 00:57:52.560
+ i really thought bringing functional programming to ui was gonna work and it really did and now i get
+
+00:57:52.560 --> 00:57:58.160
+ to do this ai thing all over again it's i feel very blessed oh wow yeah you the reacting like you've
+
+00:57:58.160 --> 00:58:04.240
+ basically been part of the last shift it's like there's the broad tech shifts like the internet and
+
+00:58:04.240 --> 00:58:10.000
+ mobile but like within programming you would say ai changing everything right now the last thing
+
+00:58:10.000 --> 00:58:14.000
+ that really changed everything was probably react so you've kind of like rode both those
+
+00:58:14.000 --> 00:58:19.200
+ trains right i mean like it feels that way i mean you know that's a very good way for it was ai's way
+
+00:58:19.200 --> 00:58:26.400
+ bigger yeah like this thing is a tidal wave and we just are just starting to feel the water go out
+
+00:58:26.400 --> 00:58:33.040
+ yeah it's i mean it's it's uh i mean just having done this type of stuff for years you can immediately
+
+00:58:33.040 --> 00:58:39.760
+ feel that because when we put stuff out in this part of the world the response is insane
+
+00:58:39.760 --> 00:58:45.680
+ like we've had success before but this is like so different it's like hitting so many nooks and
+
+00:58:45.680 --> 00:58:51.920
+ crannies that uh we never were able to touch before and it just is reminding me how massive
+
+00:58:51.920 --> 00:58:55.920
+ the world is and when you build something that potentially every single person could use it just
+
+00:58:55.920 --> 00:59:02.960
+ feels totally totally different um and very fun we're all very overstimulated right now i think uh
+
+00:59:02.960 --> 00:59:08.320
+ it's it's having this funny effect where i personally have been working less on the weekends
+
+00:59:09.280 --> 00:59:13.840
+ because i'm like so overstimulated during the week that i need to actually intentionally like
+
+00:59:13.840 --> 00:59:20.960
+ like i need to not do anything on saturday uh but yeah it's it's fun and exciting we're all just
+
+00:59:20.960 --> 00:59:25.520
+ really amped up yeah it's awesome it comes through of your product it really does appreciate that
+
+00:59:25.520 --> 00:59:30.160
+ again thank you again for for joining glad you uh glad you reached out and uh this was fun it was
+
+00:59:30.160 --> 00:59:34.640
+ cool to hear the other perspective that you know we've only been experienced to the product so far
+
+00:59:34.640 --> 00:59:39.920
+ but it's great talking to you guys i really enjoyed it uh we'll have to get together sometime yeah thanks
+
+00:59:39.920 --> 00:59:50.720
+ for coming on yeah well i will definitely have you on again yeah this is this is cool
+

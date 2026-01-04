@@ -1,0 +1,2966 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.360
+ We're probably going to do a million dollars of ARR for the Postgres product by the end of next week and we haven't even opened it to anybody.
+
+00:00:30.200 --> 00:00:34.680
+ -How's it going? -Oh, I've never been so busy in my entire life.
+
+00:00:34.680 --> 00:00:59.760
+ -You were just traveling, right? You took a little break? -That was just stupidity just going and doing, like, you know, my wife's from India, her parents are doing their 40th anniversary, so, like, we don't love going to Delhi every time, just, like, smart and, you know, just stuck inside or whatever, and so we met in Italy, but her dad, like, booked like three different locations in Italy and we haven't ate. We haven't ate, do you have a baby now?
+
+00:00:59.760 --> 00:01:18.760
+ -Now, one more month. -Oh, congratulations. It's going to ruin your life, but eventually, eventually, it's like, whatever that weird illness cats give you, like, you eventually kind of like them in the end, but if you need any, like, help or advice with that stuff, ping me, by the way, I've, like, been fully through this journey.
+
+00:01:18.760 --> 00:01:43.760
+ -Anyway, so, like, with a 10-month-old, a heatwave in Italy, and then British, we had eight flights for the whole trip, British show is cancelled three, three, delayed three, baby ended up hospitalized, we pulled the launch of Postgres forward in a week, everything just went fucking crazy and basically, like, got back super late on Monday, and I just have slept, like, five hours since Monday, and it's all been good.
+
+00:01:43.760 --> 00:01:55.760
+ I mean, it's just all mean, like, everything's, I'm happier than I've ever been. It's been, like, unreal. We're probably going to do a million dollars of air for the Postgres product by the end of next week, and we haven't even opened it to anybody.
+
+00:01:55.760 --> 00:02:12.760
+ -Wow, that's really crazy. Yeah, I mean, eight flights is crazy. I mean, with that, without flying, is these days, we had a bunch of travel we did, and then we hit, like, six months into the pregnancy, and I'm like, this is awesome, because now, we can just say no to everything, and no one expects it to happen.
+
+00:02:12.760 --> 00:02:18.760
+ And no one expects it to travel, probably for like, at least a couple years. Yeah, it's like, terrifying.
+
+00:02:18.760 --> 00:02:24.760
+ -She mastered the poking the belly out to get through lines and just get perfect, because that's, like, a really good one.
+
+00:02:24.760 --> 00:02:29.760
+ -Yeah, I mean, she's, like, doing one month, so it's pretty obvious at this point, baby.
+
+00:02:29.760 --> 00:02:33.760
+ People will treat her real nice, which is kind of me by proxy, too.
+
+00:02:33.760 --> 00:02:41.760
+ So you launched the Postgres, I think the Postgres launch was, I remember you were literally talking about traveling.
+
+00:02:41.760 --> 00:02:43.760
+ I think we were flying that day or something, right?
+
+00:02:43.760 --> 00:02:53.760
+ -Yeah, yeah, I was like, I landed, Heathrow got into the lounge, like, three minutes before the call internally to launch happened.
+
+00:02:53.760 --> 00:03:01.760
+ And so then, like, we launched it. I was just dying from it. Like, I just, I was out of it completely.
+
+00:03:01.760 --> 00:03:08.760
+ And then, like, I just got drunk in the lounge, because, like, the immediate reaction was just incredible.
+
+00:03:08.760 --> 00:03:15.760
+ My phone was just, like, lighting up. Twitter was going crazy, and just knew immediately that people were really stoked.
+
+00:03:15.760 --> 00:03:18.760
+ And so I was just necking pims cups.
+
+00:03:18.760 --> 00:03:23.760
+ -Yeah. Yeah, launch days are crazy, because you just get so overstimulated.
+
+00:03:23.760 --> 00:03:29.760
+ You're getting hit from, like, Irish at an angle, from Twitter, Deann, and she's texting you, so it's always a lot of fun.
+
+00:03:29.760 --> 00:03:37.760
+ But, like, by the end of the day, I'm, like, so overstimulated that I just need to, like, cool it and, like, enforce myself to go to sleep.
+
+00:03:37.760 --> 00:03:42.760
+ -Yes. You're doping me. You're doping me, and the receptors get, like, all jacked up. It's kind of crazy.
+
+00:03:42.760 --> 00:03:49.760
+ -Yeah. So, I guess, yeah, tell me a little bit about the history for this, because I think a lot of people were pretty surprised,
+
+00:03:49.760 --> 00:03:56.760
+ because they know PlanScale as the MySQL company, and just dropped out of nowhere, and surprised everyone.
+
+00:03:56.760 --> 00:04:02.760
+ -Yeah. I mean, never say never, I guess, right? I mean, it's the thing.
+
+00:04:02.760 --> 00:04:09.760
+ Ever since I met a launch, we've had, like, just some crazy, really crazy things happen.
+
+00:04:09.760 --> 00:04:19.760
+ It's a mix of just tons of demands. So, like, on the day of the launch, we just, you know, loads of people came in.
+
+00:04:19.760 --> 00:04:27.760
+ I mean, it's accelerated the kind of protest business even more doing metal, which is great, and we've moved some, like, giant,
+
+00:04:27.760 --> 00:04:34.760
+ the largest Aurora limitless workload in the world now runs on for tests, on PlanScale, and they migrated to us.
+
+00:04:34.760 --> 00:04:44.760
+ That was really cool. But alongside some of that demand, in fact, like, by about 10x, we got loads of Postgres people coming in.
+
+00:04:44.760 --> 00:04:50.760
+ Like, the CEO of a very well-known company with, like, way over 100 million ARR, like, came to the office the next day
+
+00:04:50.760 --> 00:04:54.760
+ and just sat down and was like, you know, you have to do that. Like, here's how much we spend on Postgres.
+
+00:04:54.760 --> 00:04:59.760
+ You're the only people. We would migrate self-hosted Postgres, too.
+
+00:04:59.760 --> 00:05:04.760
+ And I was just like, okay, this is nuts. But basically, on the day, we had the metal party.
+
+00:05:04.760 --> 00:05:07.760
+ The office was, like, full of hundreds of people. People were really excited.
+
+00:05:07.760 --> 00:05:12.760
+ And after all that demand, and just seeing the whole day of, like, smaller AI companies just, like,
+
+00:05:12.760 --> 00:05:20.760
+ aping onto the platform as fast as possible. I kind of remembered what it was like to be in, like, an early start-up where things are just,
+
+00:05:20.760 --> 00:05:25.760
+ everything's going. Like, we did this at GitHub. Like, we moved to Fastly. Like, in no time, just moved to migrate.
+
+00:05:25.760 --> 00:05:29.760
+ We would just do, like, insane shit, because it just didn't matter.
+
+00:05:29.760 --> 00:05:35.760
+ And I just watched that happen. And so at the party, I went over to Nick, our CTO, and I just said, you know,
+
+00:05:35.760 --> 00:05:41.760
+ we have to do Postgres. He went, and he'd seen it all day, too. And he just was like, yeah, I mean, it can't be harder than anything else we've done.
+
+00:05:41.760 --> 00:05:47.760
+ And so we knew that night that it was happening. And then pretty much the day after we told the whole company, like,
+
+00:05:47.760 --> 00:05:53.760
+ you have two weeks to wrap up any of the, like, overhanging stuff we needed for the metal launch to do a couple of, like,
+
+00:05:53.760 --> 00:06:00.760
+ just some extra import stuff that we had been finishing off anyway. And then, like, we're going to have a hack week
+
+00:06:00.760 --> 00:06:06.760
+ where we're just going to kind of try and see how far we get. And, because, like, when you just, like, look at these problems,
+
+00:06:06.760 --> 00:06:12.760
+ they look really insurmountable and difficult to do thing. You're just like, oh, this could, it's just completely unknown
+
+00:06:12.760 --> 00:06:17.760
+ how long it would take to actually go and get this done. And so we had this very short or hands at the beginning of the week,
+
+00:06:17.760 --> 00:06:25.760
+ which was just suspend belief. We may never do this, like, who knows. But let's see if we can get Postgres into production
+
+00:06:25.760 --> 00:06:31.760
+ in our production and be able to connect to it. That was done by Tuesday afternoon. And we were like, oh, okay, well,
+
+00:06:31.760 --> 00:06:40.760
+ that was good. And by Friday, we had high availability and failover was done. And the demos lasted three hours.
+
+00:06:40.760 --> 00:06:45.760
+ Like, we asked everyone, like, to demo what they'd been up to. The marketing team made fun videos. And, like, all of these things,
+
+00:06:45.760 --> 00:06:50.760
+ like, even, like, Holly just showed people how many inbound we've had over the years asking for Postgres.
+
+00:06:50.760 --> 00:06:54.760
+ It's just, like, little things that everything like Postgres related, basically. And everyone just did, like,
+
+00:06:54.760 --> 00:06:59.760
+ we got insights working really nicely by the end of the week. And the main feedback was everyone was like,
+
+00:06:59.760 --> 00:07:04.760
+ I can't believe how fast we got all of this done. We can do this. And we just said, right, we're shipping.
+
+00:07:04.760 --> 00:07:11.760
+ We're going to be in production with real customers live on this by July 1st. And we were ahead of schedule leave from then
+
+00:07:11.760 --> 00:07:18.760
+ and got it done. And so now there's real, actual revenue generating companies with high workloads running on the platform
+
+00:07:18.760 --> 00:07:20.760
+ and are just really happy. So it was very fun.
+
+00:07:20.760 --> 00:07:25.760
+ Yeah. So, okay, I don't realize it was that quick. So because Metal launched, was that, like, within the past six months?
+
+00:07:25.760 --> 00:07:26.760
+ Like, when was, when was that launched?
+
+00:07:26.760 --> 00:07:32.760
+ I think it was May, wasn't it? Okay. Wow. I'm so, like, dyslexic for days. It's in the past, like,
+
+00:07:32.760 --> 00:07:36.760
+ it could have been any time. Yeah. Yeah. I mean, especially when you're working at startups, like,
+
+00:07:36.760 --> 00:07:41.760
+ time is just like a weird concept. You both can't believe how long it's been and how recent certain things were.
+
+00:07:41.760 --> 00:07:46.760
+ Mm-hmm. We actually have a good amount of Postgres experience in house. Actually, we have, like,
+
+00:07:46.760 --> 00:07:51.760
+ ex-century people, ex-go-cardless people who all have run really big Postgres workloads.
+
+00:07:51.760 --> 00:07:57.760
+ So it's felt, like, pretty natural to go and do this. And it's been really fun, you know, to work with Postgres more.
+
+00:07:57.760 --> 00:08:01.760
+ It's just been great. Yeah. So I guess talk to me a little bit about,
+
+00:08:01.760 --> 00:08:06.760
+ so there's obviously stuff that was probably unique about Postgres, but I'm curious about what was shared.
+
+00:08:06.760 --> 00:08:11.760
+ Because I'm assuming you guys have some kind of operator that's just good at managing database nodes,
+
+00:08:11.760 --> 00:08:17.760
+ generally. So how much of that was able to be reused? Like, what could be reused? What was, what couldn't?
+
+00:08:17.760 --> 00:08:25.760
+ A lot. And then all of the infrastructure that surrounds that operator, right? So the Post we released about extreme resilience,
+
+00:08:25.760 --> 00:08:28.760
+ did you see that? Yeah, I didn't read it yet, but a little bit.
+
+00:08:28.760 --> 00:08:36.760
+ Of course, it's basically just a list of rules that we follow for how we do that. All of that stuff underpins the Postgres product, too.
+
+00:08:36.760 --> 00:08:44.760
+ So the operator is incredibly mature. The way we run many, many different Kubernetes clusters that don't share any backplane.
+
+00:08:44.760 --> 00:08:52.760
+ Like all of these kind of layers of very resilient infrastructure are kind of done and work really well.
+
+00:08:52.760 --> 00:08:58.760
+ You remember those, there's those benchmarks out there that essentially just like a latency test for getting to the database
+
+00:08:58.760 --> 00:09:04.760
+ that compares us to like neon, to base and everyone. And we were just like so much faster than everyone else.
+
+00:09:04.760 --> 00:09:10.760
+ Because our edge infrastructure is exceptionally good because we have people that have managed the edge networks of top 100 websites, right?
+
+00:09:10.760 --> 00:09:17.760
+ So like it's all of these like things that affect the database that we've done really, really well.
+
+00:09:17.760 --> 00:09:23.760
+ All of those things get pulled in. Our backup system that can backup databases at line rate, restore backups at line rate.
+
+00:09:23.760 --> 00:09:28.760
+ Like all of these things that we've done for the hosted Vatess product were there.
+
+00:09:28.760 --> 00:09:34.760
+ And then of course, like the operator being incredibly mature, having done hundreds and hundreds of millions of failovers.
+
+00:09:34.760 --> 00:09:45.760
+ And you know, it's all that. And so we, the other big design decision we made was to not do what we did previously,
+
+00:09:45.760 --> 00:09:53.760
+ which was do like my SQL hosting using Vatess. And then you could like scale up massively on Vatess like our very large customers have done.
+
+00:09:53.760 --> 00:10:00.760
+ We've done two products this time. We've done what we internally called Horizon. It was called Horizon so that we could ship JavaScript in the UI without people knowing.
+
+00:10:00.760 --> 00:10:06.760
+ It was Postgres, so we could walk around San Francisco without talking about things without people knowing.
+
+00:10:06.760 --> 00:10:08.760
+ Postgres.
+
+00:10:08.760 --> 00:10:09.760
+ That's funny.
+
+00:10:09.760 --> 00:10:18.760
+ Yeah, right. Like it was a very secretive product. We, we NDA'd. So there's about 50 people, including you under NDA before this announced,
+
+00:10:18.760 --> 00:10:26.760
+ just so that we could talk to people about it. And we did genuinely talk to so many customers of other platforms to kind of figure out their pain points and their problems.
+
+00:10:26.760 --> 00:10:37.760
+ And yeah, so there's that. There's the uncharted, extremely fast, vanilla Postgres that runs on metal. And that means that pretty much if you use Postgres anywhere else,
+
+00:10:37.760 --> 00:10:44.760
+ you can just drop it in and it works. We're still finishing up kind of getting some extensions installed in a way that won't get people hacked,
+
+00:10:44.760 --> 00:10:53.760
+ you know, like the kind of approved list that Amazon has and whatever. And yeah, and then we've got rapid development on the sharded solution,
+
+00:10:53.760 --> 00:11:00.760
+ which you will be able to pull in when you need to shard and you will have the trade offs that sharding brings.
+
+00:11:00.760 --> 00:11:06.760
+ We made people live with the test is trade offs when they didn't need sharding. And that was a mistake. And we're undoing that mistake for this product.
+
+00:11:06.760 --> 00:11:08.760
+ So it's actually two products that we've been building.
+
+00:11:08.760 --> 00:11:15.760
+ Oh, I see. Interesting. And then if you do need to go from one to the other, it's like, it's the same as coming in from like an external database,
+
+00:11:15.760 --> 00:11:16.760
+ I'm assuming.
+
+00:11:16.760 --> 00:11:26.760
+ We'll make it a very seamless online process. The same way, like in our UI right now, with a test, you can re-shard, you can migrate to different separate key spaces,
+
+00:11:26.760 --> 00:11:36.760
+ you can do all sorts of those things. We will make it extremely easy. So like right now, there's a bunch of folks migrating over that have self sharded Postgres inside their app layer.
+
+00:11:36.760 --> 00:11:48.760
+ Interesting. And they're swapping us in as those shards, right, to replace Aurora. And then we will then work with them to make sure that nova meets their requirements.
+
+00:11:48.760 --> 00:11:55.760
+ And we'll work with them to ramp that up in production. So really, like if anyone's interested in sharded Postgres,
+
+00:11:55.760 --> 00:12:02.760
+ the fastest way to get to that is to migrate to the current platform. That means our insights product can see your queries, do all that stuff.
+
+00:12:02.760 --> 00:12:06.760
+ And then we can manage migrating you to a sharded solution very, very quickly after that.
+
+00:12:06.760 --> 00:12:12.760
+ Yeah, that makes sense. So in terms of the sharding stuff, this is like a from scratch new project.
+
+00:12:12.760 --> 00:12:25.760
+ Yeah, yeah, it had to be. It's like all of we are the beta for test maintainers. We run the tests at significantly higher scale than anybody else among with the most amount of customers.
+
+00:12:25.760 --> 00:12:34.760
+ And so the test's improvements and learnings are what will feed the Postgres version, but it doesn't need to be the test.
+
+00:12:34.760 --> 00:12:41.760
+ That would be like a bad architectural decision to go into. And it would violate like our fundamental kind of architectural principles that we have.
+
+00:12:41.760 --> 00:12:48.760
+ Yeah, but I guess conceptually is the approach that the test takes, like architecturally, it's effectively going to be the same.
+
+00:12:48.760 --> 00:12:55.760
+ Instead of the Postgres or the Postgres quirks that make it different. No, there's some ways that will be better.
+
+00:12:55.760 --> 00:13:07.760
+ Some ways it will be less optimal. Postgres has some really nice elements to it that make using its parser, using various features, really nice.
+
+00:13:07.760 --> 00:13:14.760
+ It's replication stories nowhere near us because MySQL is those. So we'll have to do some work there to kind of paper over that.
+
+00:13:14.760 --> 00:13:21.760
+ It's just going to be different, but architecturally, yes, pretty much the same and to achieve all those same goals.
+
+00:13:21.760 --> 00:13:24.760
+ And then it's really going to be that paired with the operator that gives you the overall result.
+
+00:13:24.760 --> 00:13:31.760
+ And all we really care about behind scale is the result, which is extreme scalability at true high availability.
+
+00:13:31.760 --> 00:13:39.760
+ Yeah, it makes sense. So I guess the other piece of this is the Postgres connection pooling, which has always been a massive pain in the US.
+
+00:13:39.760 --> 00:13:46.760
+ I'm assuming you guys already have a connection pooling layer and you just adapted that to Postgres.
+
+00:13:46.760 --> 00:13:56.760
+ Yeah, we actually have now, we have a new proxy called PS Bouncer, which does the, we call it that because everyone's familiar with PG Bouncer.
+
+00:13:56.760 --> 00:14:02.760
+ We just want people to know that's what it's like there to do. It is faster than PG Bouncer.
+
+00:14:02.760 --> 00:14:14.760
+ It's easier to make more highly available and it will do like buffering so that you can do actually like online migrations,
+
+00:14:14.760 --> 00:14:18.760
+ like switchovers and failovers in the way that we do with Patec.
+
+00:14:18.760 --> 00:14:25.760
+ So like I don't know if people know that we kill nodes underneath our customers traffic constantly.
+
+00:14:25.760 --> 00:14:29.760
+ Like it's just happening while we chat. Like we have to roll through millions of them throughout a month.
+
+00:14:29.760 --> 00:14:36.760
+ Every single node, a plant scale dies after 29 days. No node ever gets to 29 days of life, either gets hit by a maintenance window.
+
+00:14:36.760 --> 00:14:42.760
+ It either gets replaced due to an underlying failure or we need to do an aversion upgrade or something.
+
+00:14:42.760 --> 00:14:49.760
+ The answer to every single one of those things is a PRS or an ERS, which is just killing the nodes in that cluster and having them reconverge.
+
+00:14:49.760 --> 00:14:55.760
+ Thanks to the operator. To do that, we need to be able to stall queries in flight and redirect them to the right place.
+
+00:14:55.760 --> 00:15:00.760
+ We have achieved all of that for Postgres already. And so that proxy is very good. It's very low latency.
+
+00:15:00.760 --> 00:15:13.760
+ It's lower latency than any one we saw at any Amazon, Google, any other provider we can get you from your front end to the database server with the least latency of anybody.
+
+00:15:13.760 --> 00:15:21.760
+ And then it can also do all those special things for you. It can route you to the right replicas in the right AC and do all those magic things.
+
+00:15:21.760 --> 00:15:32.760
+ That itself is now undergoing a partial rewrite to make it even faster and have an iterative path towards sharding.
+
+00:15:32.760 --> 00:15:45.760
+ Yeah, cool. That makes sense. I think the connection pooling stuff, even in AWS, one of the most used Postgres services, you can't just spin up Postgres and be done with it.
+
+00:15:45.760 --> 00:15:52.760
+ You've got to also spin up their data proxy thing. And I'm just like, it's been so many years of this.
+
+00:15:52.760 --> 00:16:00.760
+ How is this not just integrated and solved on their end? It's not optional, but you need it for sure.
+
+00:16:00.760 --> 00:16:08.760
+ Postgres is going to have a long journey. The neon team actually started this and doing the good work to go and grind this out, which is moving to a thread model for Postgres.
+
+00:16:08.760 --> 00:16:22.760
+ I haven't seen those threads. Shout out to them for doing that. It seems like the third rail. I think a lot of people are very unhappy with that idea, but it does seem to be something that needs to change.
+
+00:16:22.760 --> 00:16:30.760
+ We've had to tune memory management for Postgres as well. It hands a lot off to the operating system in a way that MySQL doesn't.
+
+00:16:30.760 --> 00:16:39.760
+ The operating system isn't aware of it. It's always managing a database server. It's just different in terms of things we have to do.
+
+00:16:39.760 --> 00:16:43.760
+ Luckily, we have people that have worked on the kernel, so you can figure those things out too.
+
+00:16:43.760 --> 00:16:53.760
+ Yeah, that Postgres thing is such a long-standing issue. I remember there was a thread finally talking about it, but obviously, when you have a code base, that's as old as it is.
+
+00:16:53.760 --> 00:17:00.760
+ That was effectively single-threaded. You just have globals and stuff everywhere, so that just seems like a complete nightmare to work through.
+
+00:17:00.760 --> 00:17:04.760
+ It has to happen, and it will get done, but yeah, painful task.
+
+00:17:04.760 --> 00:17:15.760
+ Yeah, it's manageable. The replication story is worse and harder to deal with, but again, I'm sure that will get better over time.
+
+00:17:15.760 --> 00:17:19.760
+ We'll try and help there, and we'll compensate in other ways.
+
+00:17:19.760 --> 00:17:24.760
+ Yeah. I guess let's talk a little bit about the business of Postgres.
+
+00:17:24.760 --> 00:17:29.760
+ For me, whenever I've used Postgres, it's always been Aurora and nothing else.
+
+00:17:29.760 --> 00:17:34.760
+ You guys seem positioned. You've been positioned for a while. It's the better alternative to Aurora.
+
+00:17:34.760 --> 00:17:36.760
+ Is that how you're thinking about the Postgres side as well?
+
+00:17:36.760 --> 00:17:48.760
+ I looked at everyone other than Aurora. It's very easy. It's like hitting a child, but Aurora is a real product.
+
+00:17:48.760 --> 00:17:52.760
+ Yeah. Do you have any numbers on how big they are like business-wise?
+
+00:17:52.760 --> 00:17:54.760
+ Yeah, I don't know how much you can share, but...
+
+00:17:54.760 --> 00:18:07.760
+ Yeah, it's a major part of Amazon's business, and Amazon as a whole company, Aurora stands out as a major contribution to their entire business.
+
+00:18:07.760 --> 00:18:14.760
+ It's a very good product. It truly is very good. We are provably better, and that's been proven through our customers' stories.
+
+00:18:14.760 --> 00:18:23.760
+ If you go and read the case studies, very large Aurora customers have migrated to us, seen cost-saving, seen significant performance improvements,
+
+00:18:23.760 --> 00:18:28.760
+ and most importantly, reliability improvements, which is always stunning to me.
+
+00:18:28.760 --> 00:18:34.760
+ I spoke to someone very formally from AWS last night, actually.
+
+00:18:34.760 --> 00:18:41.760
+ He was like, "Yeah, they know that." It's very stunning, actually, that that's the case that achieved that.
+
+00:18:41.760 --> 00:18:47.760
+ To me, I kind of pinch myself, and then I, you're a reminder that this is the technology arc through and through.
+
+00:18:47.760 --> 00:18:56.760
+ This is small companies with advantages can eventually win against very large ones, so it's been really interesting.
+
+00:18:56.760 --> 00:19:05.760
+ Actually, the amount of email, we've been doing this ramp up from moving people from the smaller providers over to us,
+
+00:19:05.760 --> 00:19:10.760
+ and that's been really easy, and they see an immediate benefit, and we're just going through building our confidence,
+
+00:19:10.760 --> 00:19:14.760
+ building everyone else's confidence. I've been surprised at how many Aurora people have reached out,
+
+00:19:14.760 --> 00:19:19.760
+ like really wanting to dig in and try it, so it's very cool, really cool.
+
+00:19:19.760 --> 00:19:27.760
+ Yeah, it's weird, given how much attention Postgres has gotten, Aurora has still been the default for so long.
+
+00:19:27.760 --> 00:19:30.760
+ It's interesting to see that kind of finally start to change.
+
+00:19:30.760 --> 00:19:36.760
+ The other thing I was going to ask was, obviously, in this initial phase, I'm assuming it's smaller companies.
+
+00:19:36.760 --> 00:19:40.760
+ I'm sure you have bigger companies looking to move to or maybe have already moved.
+
+00:19:40.760 --> 00:19:48.760
+ What do you think about this whole, there's all this talk about how there's some link between Postgres and AI companies?
+
+00:19:48.760 --> 00:19:53.760
+ There's a lot of framing in that way. Do you have any thoughts on that?
+
+00:19:53.760 --> 00:19:57.760
+ The majority of AI companies are getting founded using Postgres.
+
+00:19:57.760 --> 00:20:01.760
+ But is that unique to AI companies or is that just startups in general?
+
+00:20:01.760 --> 00:20:09.760
+ I think it's just startups in general. Part of the thing that was very revealing to me was talking to Aurora users
+
+00:20:09.760 --> 00:20:14.760
+ or whoever and saying, "Why did you choose Postgres?" It's just like default.
+
+00:20:14.760 --> 00:20:16.760
+ Yeah, exactly.
+
+00:20:16.760 --> 00:20:19.760
+ Everyone else uses it. It's like, "Yeah, I mean, that's it, really."
+
+00:20:19.760 --> 00:20:25.760
+ No one, most people's initial choice for a database is just ask a friend,
+
+00:20:25.760 --> 00:20:29.760
+ use whatever the tutorial framework or thing you're using is, right?
+
+00:20:29.760 --> 00:20:34.760
+ When I realized that was the criteria, I was like, "Okay, then, if we have something unique to offer this market,
+
+00:20:34.760 --> 00:20:38.760
+ we should, because there's just so many people building there."
+
+00:20:38.760 --> 00:20:44.760
+ We had to obviously convince ourselves we had something unique, but yeah, I think it's just the default for startups.
+
+00:20:44.760 --> 00:20:52.760
+ The thing is, we've seen from AI companies, and I think we'll probably talk more publicly alongside them soon,
+
+00:20:52.760 --> 00:20:56.760
+ that one of the largest AI companies has migrated to the test now on planet scale,
+
+00:20:56.760 --> 00:21:06.760
+ with a massive workload, because the AI companies that are taking off doesn't matter to them.
+
+00:21:06.760 --> 00:21:09.760
+ There's a religion that goes out the window. They're in a...
+
+00:21:09.760 --> 00:21:13.760
+ They're death wrestling with Ogres to use this succession.
+
+00:21:13.760 --> 00:21:19.760
+ But they're all fighting each other on models and GPUs and trying to get GPU capacity and trying to do all of these things.
+
+00:21:19.760 --> 00:21:25.760
+ Why solve database problems alongside that when it's an undifferentiated problem that another company has fixed?
+
+00:21:25.760 --> 00:21:32.760
+ So at the bottom end, yes, lots of AI companies are migrating and wanting to move to our Postgres product,
+
+00:21:32.760 --> 00:21:34.760
+ because they just use it anyway.
+
+00:21:34.760 --> 00:21:42.760
+ And then at the upper end, because we're this database that's been powering very large consumer products for a long time,
+
+00:21:42.760 --> 00:21:46.760
+ they now are consumer products, right? They have to just be online, up.
+
+00:21:46.760 --> 00:21:54.760
+ And one of the AI companies that's migrated to us is powering just a ton of real consumer usage
+
+00:21:54.760 --> 00:22:00.760
+ that's nothing really to do with the model or whatever, but it's just like we have a ton of users now
+
+00:22:00.760 --> 00:22:02.760
+ and we create a lot of rights.
+
+00:22:02.760 --> 00:22:06.760
+ The thing that's very different about the AI companies is their right volume is significantly higher
+
+00:22:06.760 --> 00:22:11.760
+ and of different proportions than traditional OLTP workloads, because they're doing chats.
+
+00:22:11.760 --> 00:22:17.760
+ Yeah, they're storing what the user asks for, what the model talks about, what comes back.
+
+00:22:17.760 --> 00:22:21.760
+ You just want to keep everything and in a relational database where it can take a lot of rights,
+
+00:22:21.760 --> 00:22:24.760
+ which is a really good place to store to do that.
+
+00:22:24.760 --> 00:22:25.760
+ So yeah.
+
+00:22:25.760 --> 00:22:28.760
+ Yeah, that's right. I never thought about it. I guess it's inverted.
+
+00:22:28.760 --> 00:22:34.760
+ I'm assuming people don't read. It's like each user's generating a ton of data and they're probably not reading it all the time.
+
+00:22:34.760 --> 00:22:36.760
+ Invert of the normal workload.
+
+00:22:36.760 --> 00:22:42.760
+ Yeah, which if you compare that to big consumer OLTP workloads like Twitter, for example, one tweet,
+
+00:22:42.760 --> 00:22:47.760
+ it's like a single insert that fans out to millions of reads potentially.
+
+00:22:47.760 --> 00:22:55.760
+ GitHub's the same. You read or generate a read on GitHub way more than you do actually write something.
+
+00:22:55.760 --> 00:23:00.760
+ And so most OLTP workloads are a hundred to one, maybe even a thousand to one.
+
+00:23:00.760 --> 00:23:03.760
+ That's complete opposite for certain AI companies.
+
+00:23:03.760 --> 00:23:06.760
+ Yeah. I mean, this reminds you another thing I think about a lot,
+
+00:23:06.760 --> 00:23:12.760
+ which is if I kind of just step back and look at how easy this stuff has gotten as a good end developer,
+
+00:23:12.760 --> 00:23:18.760
+ I remember back in the day, you know, we had to like, we like ran up our own Cassandra clusters and maintain that ourselves.
+
+00:23:18.760 --> 00:23:24.760
+ And it's hilarious how like that's not something I would even ever probably in the rest of my life,
+
+00:23:24.760 --> 00:23:30.760
+ even come close to thinking like forget, even there's a side of maintaining my own self hosting this stuff.
+
+00:23:30.760 --> 00:23:34.760
+ There's also like even going to those technologies.
+
+00:23:34.760 --> 00:23:43.760
+ Like even that has has gone away where, you know, stuff like plans to kind of handle a pretty wide range of workloads without needing like specialized tools.
+
+00:23:43.760 --> 00:23:50.760
+ So yeah, it's crazy how the database part of applications has just gotten really, really boring and visible.
+
+00:23:50.760 --> 00:23:52.760
+ Which is good. Yeah.
+
+00:23:52.760 --> 00:23:56.760
+ Like you said, you're right. Like database problems can just interrupt anything your company's doing.
+
+00:23:56.760 --> 00:24:01.760
+ Like you have outages, but even then if you wake up in the morning and last night's backup didn't complete,
+
+00:24:01.760 --> 00:24:04.760
+ you can't do anything else that day.
+
+00:24:04.760 --> 00:24:09.760
+ Like no matter what you had planned, if you have an issue now, you could ruin your business.
+
+00:24:09.760 --> 00:24:15.760
+ And so like those things not happening is, you know, I wish more people that had to actually do it.
+
+00:24:15.760 --> 00:24:20.760
+ And they would understand that was actually a lot of the debates I would have for people on Postgres.
+
+00:24:20.760 --> 00:24:31.760
+ Arguing with me, I realized they've never hosted a Postgres cluster. And I used to ask people like talk to me through an online version upgrade for Postgres and they could never thought about how to do it.
+
+00:24:31.760 --> 00:24:36.760
+ And you kind of realize that these are just problems like one of our issues now.
+
+00:24:36.760 --> 00:24:39.760
+ And it's a nice issue to have so many people asking to migrate.
+
+00:24:39.760 --> 00:24:43.760
+ And then I'm not quite sure how they would do it online. They have to like plan a multi step process.
+
+00:24:43.760 --> 00:24:47.760
+ So we're doing a lot of kind of education to help people understand how to do that.
+
+00:24:47.760 --> 00:24:53.760
+ That's going well, but it's still not easy. It's not just any of this database stuff. It's not easy and people find it very scary.
+
+00:24:53.760 --> 00:24:56.760
+ And so they should, you know, you can do some real damage.
+
+00:24:56.760 --> 00:24:57.760
+ Yeah.
+
+00:24:57.760 --> 00:25:04.760
+ So what's your guys goal? Like you kind of become like an IPL. That's the path that you're headed down.
+
+00:25:04.760 --> 00:25:08.760
+ No, I really don't. You know, I don't think that far ahead.
+
+00:25:08.760 --> 00:25:12.760
+ I always feel like you just have to earn thinking about these things, right?
+
+00:25:12.760 --> 00:25:19.760
+ So I just don't success and what my definition of success is far off.
+
+00:25:19.760 --> 00:25:24.760
+ And it's a daily grind of working really hard to get there.
+
+00:25:24.760 --> 00:25:29.760
+ There's a lot of people that fantasize about that, that end and that exit.
+
+00:25:29.760 --> 00:25:32.760
+ And I can tell you that it's more of a side effect of everything else.
+
+00:25:32.760 --> 00:25:33.760
+ Yeah.
+
+00:25:33.760 --> 00:25:38.760
+ Yeah, it truly is. Like it's the people that don't focus on that, that just focus with what they love.
+
+00:25:38.760 --> 00:25:42.760
+ End up accidentally building the best companies.
+
+00:25:42.760 --> 00:25:46.760
+ Yeah, I just don't think about the end. The end is going to be always bittersweet.
+
+00:25:46.760 --> 00:25:47.760
+ Yeah.
+
+00:25:47.760 --> 00:25:52.760
+ No matter what happens, whether you get bought with the IPO and we're far off the goals I have for the company.
+
+00:25:52.760 --> 00:26:01.760
+ So I don't think about it, but I just, you know, being a profitable company that is now exceeding all of our financial targets
+
+00:26:01.760 --> 00:26:03.760
+ is a very powerful position.
+
+00:26:03.760 --> 00:26:08.760
+ I mean, we have competition all around now in the Postgres world.
+
+00:26:08.760 --> 00:26:10.760
+ We just have to wait.
+
+00:26:10.760 --> 00:26:13.760
+ I mean, every customer they get shortens their runway.
+
+00:26:13.760 --> 00:26:18.760
+ If we never sold another dollar of software, we would still not run out of money.
+
+00:26:18.760 --> 00:26:21.760
+ And so that's extremely strategic.
+
+00:26:21.760 --> 00:26:30.760
+ Like it's just very, people have to now just, you see companies like throwing away tons of brand equity to just chase vibe coding.
+
+00:26:30.760 --> 00:26:36.760
+ Now there's nothing wrong with Minecraft. There's truly nothing wrong, but there's catching these tailwinds and it feels extremely exciting.
+
+00:26:36.760 --> 00:26:45.760
+ But at the end of the day, you've got to truly capitalize on that and inverting a heavily negative gross margin business in that world is an almost impossible feat.
+
+00:26:45.760 --> 00:26:53.760
+ If we are positive gross, some positive gross margin business that builds for really large customers that stay stick around and are happy,
+
+00:26:53.760 --> 00:26:56.760
+ strategically, that's something that's really powerful and will build a great company.
+
+00:26:56.760 --> 00:27:00.760
+ So we just keep doing that over and over again and see what options come up basically.
+
+00:27:00.760 --> 00:27:02.760
+ Yeah, I guess to phrase my question another way.
+
+00:27:02.760 --> 00:27:10.760
+ Like is when you think about your goals or your dreams or the company, is it that like every single database workload is running on plan scale?
+
+00:27:10.760 --> 00:27:12.760
+ Like that's the hope you have.
+
+00:27:12.760 --> 00:27:25.760
+ I find all of the things that make me the happiest when it comes to things that happen at the company is when products I like or that lots of people like run on the platform.
+
+00:27:25.760 --> 00:27:27.760
+ Yeah, that's really fun.
+
+00:27:27.760 --> 00:27:28.760
+ It's extremely fun.
+
+00:27:28.760 --> 00:27:32.760
+ I mean, every day I pay for coffee, I know that it's hitting a plan scale database.
+
+00:27:32.760 --> 00:27:37.760
+ You know, every message I send, you know, it's just, it's really fun.
+
+00:27:37.760 --> 00:27:38.760
+ I mean, it's just really cool.
+
+00:27:38.760 --> 00:27:40.760
+ And there's like companies like WAP, right?
+
+00:27:40.760 --> 00:27:41.760
+ Have you seen WAP?
+
+00:27:41.760 --> 00:27:43.760
+ This is New York company.
+
+00:27:43.760 --> 00:27:53.760
+ They're doing a kind of, I guess it's like a Shopify for the world of creators and they're just absolutely crushing it and they've paid out billions of dollars.
+
+00:27:53.760 --> 00:27:54.760
+ Oh, yeah.
+
+00:27:54.760 --> 00:27:55.760
+ Yeah.
+
+00:27:55.760 --> 00:27:56.760
+ Yeah, they're just a phenomenal company.
+
+00:27:56.760 --> 00:28:01.760
+ And I feel so inspired when I like work with them and go and see them and work at their office.
+
+00:28:01.760 --> 00:28:05.760
+ And it's just like so cool to be seeing their journey and seeing them grow.
+
+00:28:05.760 --> 00:28:10.760
+ And like little moments, like, you know, kick.com runs on plan scale.
+
+00:28:10.760 --> 00:28:19.760
+ And I remember them signing up at the beginning of them developing their app and had a small, like, small, tiny database and now are like a good size.
+
+00:28:19.760 --> 00:28:21.760
+ And then they have a Formula One car and you're looking at it.
+
+00:28:21.760 --> 00:28:24.760
+ And you're like, yeah, you just, you just like, these are really satisfied.
+
+00:28:24.760 --> 00:28:25.760
+ It's a really good feeling.
+
+00:28:25.760 --> 00:28:27.760
+ You know, I want to keep going and going and going.
+
+00:28:27.760 --> 00:28:29.760
+ And to me, it's also the trust, right?
+
+00:28:29.760 --> 00:28:36.760
+ Someone looks at you and says, yeah, this is a real, we have a real company, we're a public company that's running on your platform and they trust you to do it.
+
+00:28:36.760 --> 00:28:38.760
+ To me, that's like the best.
+
+00:28:38.760 --> 00:28:42.760
+ And it fast exceeds any kind of money, monetary goals.
+
+00:28:42.760 --> 00:28:48.760
+ Sometimes when I look through our, like, customer list and I kind of like visit their website and see what, what they're about.
+
+00:28:48.760 --> 00:28:52.760
+ The other feeling I get is you get a sense of how big the world is.
+
+00:28:52.760 --> 00:28:59.760
+ Like you just see all these companies doing all these things that you'd never even heard of or would think of.
+
+00:28:59.760 --> 00:29:03.760
+ And there's like, you imagine how there's like a team of like the people in office and they think about this stuff every day.
+
+00:29:03.760 --> 00:29:07.760
+ And yeah, you just feel really connected with how large the world really is.
+
+00:29:07.760 --> 00:29:08.760
+ Really good feeling.
+
+00:29:08.760 --> 00:29:17.760
+ Yes, we have a few companies that, yeah, like, I just can't believe how much generate like how much database workloads they generate for the things they do.
+
+00:29:17.760 --> 00:29:23.760
+ And they might be in other countries and markets and products that I've never thought about for myself.
+
+00:29:23.760 --> 00:29:27.760
+ And it's just really fun to kind of see that.
+
+00:29:27.760 --> 00:29:28.760
+ Yeah, yeah.
+
+00:29:28.760 --> 00:29:30.760
+ Because otherwise you're kind of like in a bubble.
+
+00:29:30.760 --> 00:29:32.760
+ But like when you see that, you realize how big the world actually is.
+
+00:29:32.760 --> 00:29:37.760
+ I know the service at Blizzard that uses Vitez.
+
+00:29:37.760 --> 00:29:41.760
+ So when you load Call of Duty, I see that service load and I know it's loading.
+
+00:29:41.760 --> 00:29:42.760
+ Yeah, that's fun.
+
+00:29:42.760 --> 00:29:47.760
+ It's just very, like, that's just very cool. I'll never not be cool to me.
+
+00:29:47.760 --> 00:29:52.760
+ And like going and visiting their headquarters and seeing, yeah, I was a wow player for forever.
+
+00:29:52.760 --> 00:29:58.760
+ And you're just like, okay, well, now I'm visiting Blizzard, a actual customer of the company that I'm running.
+
+00:29:58.760 --> 00:30:00.760
+ It's just you get these pinch me moments.
+
+00:30:00.760 --> 00:30:01.760
+ So amazing.
+
+00:30:01.760 --> 00:30:02.760
+ So I wasn't going to go back a little bit.
+
+00:30:02.760 --> 00:30:04.760
+ You were talking about the vibe coding thing.
+
+00:30:04.760 --> 00:30:11.760
+ So obviously there is a trend, I'll call it right now, where there is a bunch of companies.
+
+00:30:11.760 --> 00:30:17.760
+ A bunch of companies building platforms help people build apps from zero to one and you know, deploy them.
+
+00:30:17.760 --> 00:30:19.760
+ And that obviously includes a database.
+
+00:30:19.760 --> 00:30:23.760
+ And it's kind of a rush to like, try to be the company that powers these things.
+
+00:30:23.760 --> 00:30:26.760
+ Yeah, I'd love to hear a little bit more about how you think about that.
+
+00:30:26.760 --> 00:30:31.760
+ So I'll say, I'll tell you my perspective first, which is, I don't know whether this trend is valuable or not.
+
+00:30:31.760 --> 00:30:33.760
+ So I'm not going to ignore that part of it.
+
+00:30:33.760 --> 00:30:37.760
+ It's a take for granted that, you know, this problem needs to be solved and it's worth solving.
+
+00:30:37.760 --> 00:30:52.760
+ The approach right now has been, at least that it seems like, has been a spin up like real instances of infrastructure for each one of these services.
+
+00:30:52.760 --> 00:31:00.760
+ To me, that feels like fundamentally the wrong approach because this is more like a millions of apps that get like very little traffic each.
+
+00:31:00.760 --> 00:31:02.760
+ And that model just doesn't seem to make sense.
+
+00:31:02.760 --> 00:31:04.760
+ But yeah, I am because of your thoughts.
+
+00:31:04.760 --> 00:31:08.760
+ Before I answer, I also do the same caveat, which is I love AI.
+
+00:31:08.760 --> 00:31:14.760
+ We're very large users of AI and very serious users of AI tools and we have very serious AI customers.
+
+00:31:14.760 --> 00:31:17.760
+ And I code using AI.
+
+00:31:17.760 --> 00:31:18.760
+ Yeah, it's fine.
+
+00:31:18.760 --> 00:31:19.760
+ Constantly.
+
+00:31:19.760 --> 00:31:20.760
+ It's amazing.
+
+00:31:20.760 --> 00:31:24.760
+ I mean, I love, I love being in the eras.
+
+00:31:24.760 --> 00:31:26.760
+ I saw someone use the term of like plastic software.
+
+00:31:26.760 --> 00:31:28.760
+ I think it's really cool.
+
+00:31:28.760 --> 00:31:31.760
+ Like an app that you only need for a month, right?
+
+00:31:31.760 --> 00:31:33.760
+ So you just like make it really quickly.
+
+00:31:33.760 --> 00:31:39.760
+ And like, you know, I've got a few of them on the go right now, like a dashboard that I wanted to build, right?
+
+00:31:39.760 --> 00:31:41.760
+ That just connects into our metrics cluster, pulls a load of things.
+
+00:31:41.760 --> 00:31:43.760
+ You get like something interactive and fun, right?
+
+00:31:43.760 --> 00:31:45.760
+ You're just like vibe coding that stuff up.
+
+00:31:45.760 --> 00:31:46.760
+ And it's really good.
+
+00:31:46.760 --> 00:31:49.760
+ The stuff with cursor is incredible in Slack where you can just go fix this, please.
+
+00:31:49.760 --> 00:31:50.760
+ And it does it.
+
+00:31:50.760 --> 00:31:51.760
+ It's just like mind blowing to me.
+
+00:31:51.760 --> 00:32:00.760
+ It's like real actual like magical bicycle of the mind level kind of like these computer moments that you remember the rest of your life.
+
+00:32:00.760 --> 00:32:07.760
+ So I think it that sort of cool convex has a vibe cutting product with chef and that is doing incredible things.
+
+00:32:07.760 --> 00:32:17.760
+ And the primitive they built into our product make that stuff really easy and making those situated plastic apps really easy to use.
+
+00:32:17.760 --> 00:32:23.760
+ I do that, but I do have an answering your question about like whether these, the infrastructure is right.
+
+00:32:23.760 --> 00:32:27.760
+ I do think there's like a lot of usage that's just going to go away eventually, right?
+
+00:32:27.760 --> 00:32:37.760
+ Like there's a max, like we've had things like square space, retool, all of these kind of tools that have allowed you to simplify automation or just simplify website building and all those things.
+
+00:32:37.760 --> 00:32:41.760
+ And then you just realize that people don't have that many problems or ideas.
+
+00:32:41.760 --> 00:32:45.760
+ Like automation has in no way been deployed at the level it could have been.
+
+00:32:45.760 --> 00:32:48.760
+ Most people don't want to, most of the people aren't creative.
+
+00:32:48.760 --> 00:32:51.760
+ Like you put people in front of chat GBT and they don't know what to ask.
+
+00:32:51.760 --> 00:32:52.760
+ It's the same with Google.
+
+00:32:52.760 --> 00:32:58.760
+ You ask someone to Google, like who's been an internet user for years, they're just very naive kind of, we've had our fingertips on this stuff.
+
+00:32:58.760 --> 00:33:04.760
+ So I just, you know, these companies that are growing very quickly, they're also churning through customers very quickly, right?
+
+00:33:04.760 --> 00:33:11.760
+ They go through people trying it out for a month and the next cohort comes in and, you know, people just like fuck around and whatever.
+
+00:33:11.760 --> 00:33:16.760
+ They are using databases to do this, which obviously you would do.
+
+00:33:16.760 --> 00:33:23.760
+ The thing I don't understand and I was in this position when I saw a lot of like dedicated vector databases or, you know, other technologies.
+
+00:33:23.760 --> 00:33:27.760
+ It doesn't quite gel for me why it wouldn't just be SQLite that you would use, right?
+
+00:33:27.760 --> 00:33:33.760
+ And people don't understand the difference between a database server and a database engine and what they do.
+
+00:33:33.760 --> 00:33:43.760
+ Database services servers contain an engine, but they do a significant more things with the assumption of like a multi-tenancy case, so more than one client, right?
+
+00:33:43.760 --> 00:33:57.760
+ And the work for those that don't understand how these things work, I will tell you that it's probably often two to three times more code problems bugs are associated with the server part than the engine part, right?
+
+00:33:57.760 --> 00:34:00.760
+ In fact, the engine part can be much, much simpler.
+
+00:34:00.760 --> 00:34:14.760
+ And it's because of things like MVCC, multi-version concurrency control, like making sure that when you're writing to the database, it doesn't clash with me writing to the database, making sure that both connections are terminated to that database that authentication happens and all of those things.
+
+00:34:14.760 --> 00:34:18.760
+ It's all just to assume more than one user.
+
+00:34:18.760 --> 00:34:20.760
+ These AI apps don't need that.
+
+00:34:20.760 --> 00:34:27.760
+ So all of the things that come with a server, even if that server can scale to zero, it is still a useless overhead.
+
+00:34:27.760 --> 00:34:32.760
+ And I don't understand why you couldn't just embed SQLite databases everywhere for doing this.
+
+00:34:32.760 --> 00:34:33.760
+ Like, we already have.
+
+00:34:33.760 --> 00:34:36.760
+ And I think a lot of people are probably coming to that conclusion too.
+
+00:34:36.760 --> 00:34:38.760
+ It seems to be the common take.
+
+00:34:38.760 --> 00:34:41.760
+ But who knows, I've been wrong about loads of things.
+
+00:34:41.760 --> 00:34:43.760
+ You know, I also have biases.
+
+00:34:43.760 --> 00:34:45.760
+ So, I mean, I can't just be completely wrong.
+
+00:34:45.760 --> 00:34:49.760
+ It's also funny because people have been bringing up SQLite forever.
+
+00:34:49.760 --> 00:34:56.760
+ And this is like the one time where, hey, like, it actually is a good thing to bring up, but nobody seems to be.
+
+00:34:56.760 --> 00:34:58.760
+ Seems to be really exploring that path.
+
+00:34:58.760 --> 00:35:07.760
+ Yeah, there's two things that are obfuscate anything in tech, which is, if you're giving things away for free, that's just impossible to even judge then.
+
+00:35:07.760 --> 00:35:12.760
+ You know, I still get picked up even more on Postgres, but I still get 10 plus emails a day.
+
+00:35:12.760 --> 00:35:15.760
+ Why don't you have a free tail or these sorts of things?
+
+00:35:15.760 --> 00:35:16.760
+ It really shows you.
+
+00:35:16.760 --> 00:35:23.760
+ If you could imagine every single one of them would be on your product and would still would never pay you money, it would change a lot of the metrics that you could share.
+
+00:35:23.760 --> 00:35:24.760
+ Right?
+
+00:35:24.760 --> 00:35:35.760
+ When you're offering free computers or basically giving $3 away for $1 on the internet, you're going to just attract a ton of usage, which is fine.
+
+00:35:35.760 --> 00:35:41.760
+ So that's one thing I think maybe that because there's people giving away those hosted databases for free.
+
+00:35:41.760 --> 00:35:43.760
+ Essentially, they're using that instead of SQLite or whatever.
+
+00:35:43.760 --> 00:35:45.760
+ And because it's already built into the product.
+
+00:35:45.760 --> 00:35:46.760
+ Yeah.
+
+00:35:46.760 --> 00:35:49.760
+ And then just the hype cycle of their marketing budgets is paired with that.
+
+00:35:49.760 --> 00:35:51.760
+ You just can't really tell.
+
+00:35:51.760 --> 00:35:52.760
+ Yeah.
+
+00:35:52.760 --> 00:35:55.760
+ Yeah, I mean, SQLite on the server, I think, is a bad idea.
+
+00:35:55.760 --> 00:35:58.760
+ But embedded, it's a phenomenal database.
+
+00:35:58.760 --> 00:35:59.760
+ I've used it.
+
+00:35:59.760 --> 00:36:02.760
+ I've got so many SQLite databases because of that usage at all.
+
+00:36:02.760 --> 00:36:04.760
+ I'm not trying to build a server for it.
+
+00:36:04.760 --> 00:36:06.760
+ And then everything else is really simple.
+
+00:36:06.760 --> 00:36:07.760
+ I think it will win out in that way.
+
+00:36:07.760 --> 00:36:14.760
+ But it will not change that SQLite winning in that world will not change the balance sheet of any particular company.
+
+00:36:14.760 --> 00:36:21.760
+ SQLite is an incredible open source project that is good as it is and is perfect for these use case now.
+
+00:36:21.760 --> 00:36:22.760
+ Yeah.
+
+00:36:22.760 --> 00:36:30.760
+ The giving away money is a funny thing because the way I see it is there are cases where it works really well, right?
+
+00:36:30.760 --> 00:36:31.760
+ Like subsidizing something.
+
+00:36:31.760 --> 00:36:34.760
+ In all of those cases, there's some kind of network effect involved.
+
+00:36:34.760 --> 00:36:38.760
+ So if you take the classic example of Uber, yeah, they subsidize the hell out of that stuff.
+
+00:36:38.760 --> 00:36:44.760
+ But the end result that they get to walk away with is a gigantic network of drivers and all of that stuff.
+
+00:36:44.760 --> 00:36:45.760
+ Yeah.
+
+00:36:45.760 --> 00:36:51.760
+ So once that's bootstrapped, it's impossible to really compete with them.
+
+00:36:51.760 --> 00:36:59.760
+ I think people take see that and they kind of apply it to everything where subsidizing a large user base for a dev tool product.
+
+00:36:59.760 --> 00:37:04.760
+ Once you stop doing that, they can just leave because there's no like there's nothing tangible.
+
+00:37:04.760 --> 00:37:07.760
+ There's no network thing that you've built up.
+
+00:37:07.760 --> 00:37:13.760
+ And to me, there's like so really obvious and basic, but it just keeps happening.
+
+00:37:13.760 --> 00:37:27.760
+ And it's happening now with the AI stuff as well because you're starting to see is a very old lesson, which is if you're a business and you have a cost, and you pay a certain way, and you're charging your customers in a way that doesn't match that.
+
+00:37:27.760 --> 00:37:28.760
+ That's just not going to work.
+
+00:37:28.760 --> 00:37:32.760
+ Like eventually it's going to be something that's not sustainable.
+
+00:37:32.760 --> 00:37:41.760
+ And you're seeing that with the companies now where they give some kind of like fixed price monthly thing, but then their costs are user based.
+
+00:37:41.760 --> 00:37:44.760
+ And they're going to have to have to deal with that.
+
+00:37:44.760 --> 00:37:52.760
+ And again, these are like productivity products or not like network social networks or like marketplace type businesses.
+
+00:37:52.760 --> 00:37:56.760
+ But yeah, like we've seen so many iterate or I've seen so many iterations of this now.
+
+00:37:56.760 --> 00:37:57.760
+ Keeps happening.
+
+00:37:57.760 --> 00:38:06.760
+ That was the thing that was very surprising when we were looking at other database companies that I was learning from their customers that their bill wasn't based on usage.
+
+00:38:06.760 --> 00:38:11.760
+ It was built based on how many projects they'd set up or whatever.
+
+00:38:11.760 --> 00:38:21.760
+ And I was like, that's a very, that's the very unusual profile for database companies to have in terms of revenue, ours is purely, purely usage based.
+
+00:38:21.760 --> 00:38:28.760
+ Like there's, there's people paying us north of a million dollars a year and they have three, three accounts.
+
+00:38:28.760 --> 00:38:32.760
+ Like they just have three administrators for that database that just access it.
+
+00:38:32.760 --> 00:38:40.760
+ So it's completely inverse to other database companies that are kind of caught up in this AI hype, which is like extreme user growth.
+
+00:38:40.760 --> 00:38:44.760
+ And then no monetization of any particular growth.
+
+00:38:44.760 --> 00:38:50.760
+ And that, that, I mean, the whole world could shift, but there's a really good, it's got a sub stack post.
+
+00:38:50.760 --> 00:38:52.760
+ I think it's like enterprise businesses are fat tailed.
+
+00:38:52.760 --> 00:38:58.760
+ People don't understand that like this is in extreme power law to everything in tech, especially revenue.
+
+00:38:58.760 --> 00:39:06.760
+ And if you're trying to get to $500 million of revenue, you need some huge building blocks to do that.
+
+00:39:06.760 --> 00:39:11.760
+ You can't just sell $29 projects that have a database as part of it.
+
+00:39:11.760 --> 00:39:12.760
+ That doesn't work.
+
+00:39:12.760 --> 00:39:19.760
+ You need, you need certain people paying you a lot of money for a lot of consumption that they cannot move from.
+
+00:39:19.760 --> 00:39:25.760
+ Like they, like it would have, you know, the reason people migrate when people change free tiers and stuff is because they don't have problems.
+
+00:39:25.760 --> 00:39:31.760
+ They don't, if they're not like, if it's not going to interrupt or paying customer of theirs, it doesn't matter.
+
+00:39:31.760 --> 00:39:33.760
+ You know, this is really interesting.
+
+00:39:33.760 --> 00:39:36.760
+ That's not kind of another interesting thing we've seen from this post gets launched.
+
+00:39:36.760 --> 00:39:43.760
+ So I've got so many people and I've been giving them access to their on other providers and haven't launched their product yet.
+
+00:39:43.760 --> 00:39:46.760
+ So they're like, please let us in before we launch next week so we can move.
+
+00:39:46.760 --> 00:39:50.760
+ I'm doing that because it's, it's the second someone, like someone depends on your service.
+
+00:39:50.760 --> 00:39:56.760
+ That move is that orders of magnitude harder. It's like just letting those people have access so they can not have that problem in the future.
+
+00:39:56.760 --> 00:40:01.760
+ This has been very interesting to understand a bit more closely how certain companies are being built.
+
+00:40:01.760 --> 00:40:03.760
+ It's very interesting.
+
+00:40:03.760 --> 00:40:05.760
+ Yeah. I mean, the rules are actually really simple.
+
+00:40:05.760 --> 00:40:08.760
+ It's just build a product where no one has to eject from.
+
+00:40:08.760 --> 00:40:10.760
+ Your customers shouldn't have to eject from it.
+
+00:40:10.760 --> 00:40:13.760
+ And then charge them in a way that matches your costs.
+
+00:40:13.760 --> 00:40:17.760
+ And if you do both of those things, you're fine, but weirdly it's rare.
+
+00:40:17.760 --> 00:40:22.760
+ Yeah. I mean, the retention numbers of databases that don't let you down are very high.
+
+00:40:22.760 --> 00:40:24.760
+ It turns out, you know, like very, very high.
+
+00:40:24.760 --> 00:40:26.760
+ You people just don't take the risk after that.
+
+00:40:26.760 --> 00:40:28.760
+ That's happening, which is really nice.
+
+00:40:28.760 --> 00:40:32.760
+ I mean, that was another thing that I was reflecting on when you guys launched a Postgres stuff.
+
+00:40:32.760 --> 00:40:38.760
+ Just the response is so funny. It's just like, oh, yeah, like, of course I'm going to use this.
+
+00:40:38.760 --> 00:40:43.760
+ Or like finally, or like everyone's really excited and you don't really have to.
+
+00:40:43.760 --> 00:40:46.760
+ It's not like you have to go out there and be like, use us.
+
+00:40:46.760 --> 00:40:48.760
+ It's very reliable.
+
+00:40:48.760 --> 00:40:50.760
+ You don't have to really say any of that.
+
+00:40:50.760 --> 00:40:54.760
+ It's already understood that, you know, if you guys do something,
+
+00:40:54.760 --> 00:40:57.760
+ there's going to be certain characteristics that are going to come with that.
+
+00:40:57.760 --> 00:41:01.760
+ And that's kind of assumed and everyone trusts that's going to happen.
+
+00:41:01.760 --> 00:41:05.760
+ And it's such a good position to be in brand wise.
+
+00:41:05.760 --> 00:41:07.760
+ You guys have an actual brand.
+
+00:41:07.760 --> 00:41:12.760
+ So having a brand means like people see your name on it and they know certain things about your product.
+
+00:41:12.760 --> 00:41:14.760
+ That was the craziest thing to me.
+
+00:41:14.760 --> 00:41:17.760
+ I said a huge thank you to our marketing team for achieving this,
+
+00:41:17.760 --> 00:41:19.760
+ which is people really got it.
+
+00:41:19.760 --> 00:41:23.760
+ Like they heard the two words next to each other and they knew what it meant.
+
+00:41:23.760 --> 00:41:25.760
+ And I was really surprised.
+
+00:41:25.760 --> 00:41:29.760
+ I truly was like, wow, people like really we are synonymous with these qualities
+
+00:41:29.760 --> 00:41:32.760
+ and are the only qualities I care about for a database.
+
+00:41:32.760 --> 00:41:35.760
+ And I was like really proud of that.
+
+00:41:35.760 --> 00:41:37.760
+ Like, it was just awesome actually.
+
+00:41:37.760 --> 00:41:41.760
+ Yeah, that was real weird actually to see that.
+
+00:41:41.760 --> 00:41:45.760
+ And I also thought, I would have spent the week with people going,
+
+00:41:45.760 --> 00:41:50.760
+ you said you don't like Postgres like you're a hater.
+
+00:41:50.760 --> 00:41:52.760
+ One, that's just not true.
+
+00:41:52.760 --> 00:41:54.760
+ And two, no one's really saying it.
+
+00:41:54.760 --> 00:41:58.760
+ They're like, oh cool, like you're going to come and do this thing in the Postgres world.
+
+00:41:58.760 --> 00:41:59.760
+ There's a space for that.
+
+00:41:59.760 --> 00:42:00.760
+ So we're really happy to see it.
+
+00:42:00.760 --> 00:42:01.760
+ So that was nice.
+
+00:42:01.760 --> 00:42:04.760
+ And yeah, we've done a lot of hiring since that launch.
+
+00:42:04.760 --> 00:42:08.760
+ There's people from Postgres companies that are like notable people in the Postgres world
+
+00:42:08.760 --> 00:42:11.760
+ are joining the company, which is nice to see too.
+
+00:42:11.760 --> 00:42:12.760
+ It's really cool.
+
+00:42:12.760 --> 00:42:13.760
+ Yeah.
+
+00:42:13.760 --> 00:42:15.760
+ Yeah, I think that's a good lesson that people just take away.
+
+00:42:15.760 --> 00:42:18.760
+ Because it's not like you guys built that brand overnight.
+
+00:42:18.760 --> 00:42:23.760
+ It's not like you did a few things or spent money in a few places that achieved that.
+
+00:42:23.760 --> 00:42:25.760
+ Like, that's a goal of every company.
+
+00:42:25.760 --> 00:42:27.760
+ Like, not every company has a brand.
+
+00:42:27.760 --> 00:42:30.760
+ But if you do have a brand, it's like a ridiculous advantage.
+
+00:42:30.760 --> 00:42:34.760
+ And it's built slowly every single day over years.
+
+00:42:34.760 --> 00:42:37.760
+ And it doesn't really look like anything until all of a sudden,
+
+00:42:37.760 --> 00:42:39.760
+ it does in moments like these.
+
+00:42:39.760 --> 00:42:45.760
+ And I think companies feel like it seemed to think it's like if I spend the right amount
+
+00:42:45.760 --> 00:42:49.760
+ of money with the right design agency and I have the right name.
+
+00:42:49.760 --> 00:42:54.760
+ And there's short-term things that you can do that look like you're building a brand.
+
+00:42:54.760 --> 00:42:55.760
+ But it's all just sugar.
+
+00:42:55.760 --> 00:42:58.760
+ It's just this slow, long-term thing.
+
+00:42:58.760 --> 00:42:59.760
+ Like everything else with startups.
+
+00:42:59.760 --> 00:43:01.760
+ But this one, especially so.
+
+00:43:01.760 --> 00:43:02.760
+ Yeah.
+
+00:43:02.760 --> 00:43:03.760
+ And it takes a very long time in databases.
+
+00:43:03.760 --> 00:43:07.760
+ We just have to grind through winning trust with people over and over again.
+
+00:43:07.760 --> 00:43:10.760
+ Like, they're already on Amazon even if they're unhappy.
+
+00:43:10.760 --> 00:43:13.760
+ Like, we don't get fired for trust in Amazon.
+
+00:43:13.760 --> 00:43:16.760
+ I mean, you know, that's done.
+
+00:43:16.760 --> 00:43:19.760
+ And yeah, so yeah, it just takes forever.
+
+00:43:19.760 --> 00:43:23.760
+ And I think people really try and get quick hits and ruin really good brands.
+
+00:43:23.760 --> 00:43:27.760
+ Like a lot of the companies are getting trolled right now for their lack of reliability.
+
+00:43:27.760 --> 00:43:32.760
+ Like, they could have avoided that by just not saying they were highly scalable
+
+00:43:32.760 --> 00:43:34.760
+ or infinite or bottom.
+
+00:43:34.760 --> 00:43:40.760
+ You know, all these words that like don't really, like if you say them and someone finds out
+
+00:43:40.760 --> 00:43:42.760
+ very quickly, they're not true.
+
+00:43:42.760 --> 00:43:45.760
+ And then shares that that's not true.
+
+00:43:45.760 --> 00:43:48.760
+ It's really negative for your brand, like really negative.
+
+00:43:48.760 --> 00:43:50.760
+ And so you have to not do that.
+
+00:43:50.760 --> 00:43:55.760
+ And the reason we share so much about our customers is because it's like,
+
+00:43:55.760 --> 00:43:59.760
+ it gives you that shine of, you know, their brand trusts your brand.
+
+00:43:59.760 --> 00:44:02.760
+ So that is additive to everyone, which is really nice.
+
+00:44:02.760 --> 00:44:06.760
+ Yeah, a lot of this stuff always ends up feeling to me like,
+
+00:44:06.760 --> 00:44:10.760
+ it's this slow process of continuously not doing the wrong thing.
+
+00:44:10.760 --> 00:44:13.760
+ Every single day versus like explicitly doing stuff, right?
+
+00:44:13.760 --> 00:44:17.760
+ It's more just like, there's all these wrong things that are easy to do.
+
+00:44:17.760 --> 00:44:20.760
+ And if you don't do them long enough, then it works out.
+
+00:44:20.760 --> 00:44:21.760
+ Yeah.
+
+00:44:21.760 --> 00:44:23.760
+ Yeah, I just feel like there's like traps everywhere.
+
+00:44:23.760 --> 00:44:26.760
+ And you kind of over time understand how to avoid them.
+
+00:44:26.760 --> 00:44:29.760
+ Yeah, yeah, you're right.
+
+00:44:29.760 --> 00:44:32.760
+ And I was thinking actually, could we have done Postgres sooner?
+
+00:44:32.760 --> 00:44:34.760
+ And I'm certain the answer still no.
+
+00:44:34.760 --> 00:44:38.760
+ Like I'm truly certain the answer still no, because it would have been a distraction.
+
+00:44:38.760 --> 00:44:41.760
+ We hadn't earned the right to go and do that yet.
+
+00:44:41.760 --> 00:44:45.760
+ All of those things, like it just infrastructure tech companies take way longer
+
+00:44:45.760 --> 00:44:48.760
+ than people realize, like way, way, way longer than people realize.
+
+00:44:48.760 --> 00:44:53.760
+ In fact, the ones that grow rapidly at the beginning are really like often
+
+00:44:53.760 --> 00:44:56.760
+ selling infrastructure, you know?
+
+00:44:56.760 --> 00:44:59.760
+ And so, yeah, you built like a snowflake.
+
+00:44:59.760 --> 00:45:02.760
+ I mean, if you look at, it took forever to build that.
+
+00:45:02.760 --> 00:45:04.760
+ And then it goes off like a rocket, right?
+
+00:45:04.760 --> 00:45:09.760
+ But until that day, it's really, I mean, even look at Figma, right?
+
+00:45:09.760 --> 00:45:12.760
+ They had lots of small flat rounds at the beginning of their company
+
+00:45:12.760 --> 00:45:16.760
+ because they were just figuring out how to do like efficient CRDTs in the browser, right?
+
+00:45:16.760 --> 00:45:20.760
+ Like that's just until that was, that technical hurdle was cleared.
+
+00:45:20.760 --> 00:45:23.760
+ The downstream product was not going to be anywhere.
+
+00:45:23.760 --> 00:45:26.760
+ And then it goes off until you've done that really hard, deliberate work,
+
+00:45:26.760 --> 00:45:29.760
+ then it's just not going to, it's a technical operation.
+
+00:45:29.760 --> 00:45:34.760
+ That's why why venture capital can be extremely positive for deeply technical businesses.
+
+00:45:34.760 --> 00:45:37.760
+ Like I was like, you know, it couldn't be profitable at the gate when you're trying
+
+00:45:37.760 --> 00:45:39.760
+ to build something that's deeply technical.
+
+00:45:39.760 --> 00:45:42.760
+ But then when you get to that point, it's very, very beneficial.
+
+00:45:42.760 --> 00:45:46.760
+ I think I try to tell people is like when I see people starting new companies and stuff,
+
+00:45:46.760 --> 00:45:51.760
+ I always ask them like, are you really, does something you want to do for like at least 10 years?
+
+00:45:51.760 --> 00:45:52.760
+ Because it's not going to be fast.
+
+00:45:52.760 --> 00:45:54.760
+ There's stories of things happening fast.
+
+00:45:54.760 --> 00:45:57.760
+ But for you, it's probably going to be 10 years minimum.
+
+00:45:57.760 --> 00:46:03.760
+ And is this really, are you excited to give up that amount of your life focus on this thing?
+
+00:46:03.760 --> 00:46:05.760
+ Because that is what it takes.
+
+00:46:05.760 --> 00:46:12.760
+ I have reoccurring nightmare, but like I do investing, you know, now and then just like
+
+00:46:12.760 --> 00:46:16.760
+ cut people a check now and then, and you know, some of them have paid off.
+
+00:46:16.760 --> 00:46:20.760
+ I have this nightmare that one pays off extremely well.
+
+00:46:20.760 --> 00:46:23.760
+ And then I like don't want to do stuff in the future.
+
+00:46:23.760 --> 00:46:25.760
+ Like it makes me somehow lazy.
+
+00:46:25.760 --> 00:46:29.760
+ I'll tell you this, which is I worked at GitHub.
+
+00:46:29.760 --> 00:46:31.760
+ We sold to Microsoft.
+
+00:46:31.760 --> 00:46:34.760
+ That was financially lucrative for a lot of people.
+
+00:46:34.760 --> 00:46:36.760
+ And it came with like extreme sadness for me.
+
+00:46:36.760 --> 00:46:39.760
+ I think it was one of the greatest companies of all time.
+
+00:46:39.760 --> 00:46:45.760
+ And, you know, a lot of my friends I made there and like, you know, some of the people
+
+00:46:45.760 --> 00:46:49.760
+ I'm closest to in the world that I see every single week and go for drinks and be hanging
+
+00:46:49.760 --> 00:46:50.760
+ out, you know.
+
+00:46:50.760 --> 00:46:55.760
+ And you look back and it's like, every thing we winged about, every problem we complained
+
+00:46:55.760 --> 00:46:56.760
+ about was just ridiculous.
+
+00:46:56.760 --> 00:47:00.760
+ We were 27 years old at one of the greatest companies of all time, the world of software
+
+00:47:00.760 --> 00:47:01.760
+ development.
+
+00:47:01.760 --> 00:47:02.760
+ And I regret every second.
+
+00:47:02.760 --> 00:47:06.760
+ I didn't just breathe all of that in and just enjoy it.
+
+00:47:06.760 --> 00:47:07.760
+ Because that's your life.
+
+00:47:07.760 --> 00:47:11.760
+ It's what you get to do.
+
+00:47:11.760 --> 00:47:12.760
+ I fear it ending.
+
+00:47:12.760 --> 00:47:16.760
+ When people like joke about an exit or whatever, I get really snappy about it.
+
+00:47:16.760 --> 00:47:19.760
+ I get really snappy because I'm like, yeah, okay, you'll be like rich or whatever.
+
+00:47:19.760 --> 00:47:21.760
+ And for us everyone is already rich.
+
+00:47:21.760 --> 00:47:24.760
+ And so you're just like, but then it's over.
+
+00:47:24.760 --> 00:47:26.760
+ And then it's like, what do you do next?
+
+00:47:26.760 --> 00:47:29.760
+ You just, you know, buy watches or whatever.
+
+00:47:29.760 --> 00:47:30.760
+ You know, seriously.
+
+00:47:30.760 --> 00:47:31.760
+ You guys start over.
+
+00:47:31.760 --> 00:47:32.760
+ Yeah.
+
+00:47:32.760 --> 00:47:36.760
+ Everyone who knows me truly knows I will be at work when I die.
+
+00:47:36.760 --> 00:47:39.760
+ Like that is just, do you know what I mean?
+
+00:47:39.760 --> 00:47:41.760
+ Like, I want, I love working.
+
+00:47:41.760 --> 00:47:43.760
+ I work every day of my life.
+
+00:47:43.760 --> 00:47:45.760
+ And I just, it's the best.
+
+00:47:45.760 --> 00:47:48.760
+ I like, I like doing that stuff.
+
+00:47:48.760 --> 00:47:51.760
+ It happens to be symbiotic with making money.
+
+00:47:51.760 --> 00:47:57.760
+ But, you know, I know so many rich people that have done nothing in their lives.
+
+00:47:57.760 --> 00:47:58.760
+ I don't respect them.
+
+00:47:58.760 --> 00:47:59.760
+ I don't want their opinions.
+
+00:47:59.760 --> 00:48:00.760
+ I don't care about them.
+
+00:48:00.760 --> 00:48:02.760
+ And they'll, they have tons of money.
+
+00:48:02.760 --> 00:48:06.760
+ And they'll realize long ago that there's no correlation between wealth, skill or intelligence.
+
+00:48:06.760 --> 00:48:10.760
+ And so now I get to work with people whose skill and intelligence I respect.
+
+00:48:10.760 --> 00:48:13.760
+ I want to do that for as long as possible, basically.
+
+00:48:13.760 --> 00:48:14.760
+ Yeah.
+
+00:48:14.760 --> 00:48:17.760
+ I really resonate with how you describe it as like bittersweet or sad.
+
+00:48:17.760 --> 00:48:21.760
+ Because I remember early in my career, obviously like, you know, an acquisition.
+
+00:48:21.760 --> 00:48:22.760
+ That's like the dream.
+
+00:48:22.760 --> 00:48:24.760
+ Like, oh my God, I hope one day I get acquired.
+
+00:48:24.760 --> 00:48:29.760
+ And then as you start to get more successful and those options start to show up, you realize
+
+00:48:29.760 --> 00:48:35.080
+ that the day you say yes to that is a day where every dream you had of the future of what
+
+00:48:35.080 --> 00:48:36.760
+ this thing could be is over.
+
+00:48:36.760 --> 00:48:37.760
+ Yep.
+
+00:48:37.760 --> 00:48:38.760
+ And that's such a sad feeling.
+
+00:48:38.760 --> 00:48:44.760
+ It's like so negative that it overwhelms whatever, you know, financial portion of it is.
+
+00:48:44.760 --> 00:48:48.760
+ And I never, like this, this seems crazy to me.
+
+00:48:48.760 --> 00:48:50.760
+ It's supposed to be crazy to me.
+
+00:48:50.760 --> 00:48:55.200
+ But like when I was first starting, I remember I would see like companies that blew up and
+
+00:48:55.200 --> 00:48:57.760
+ got crazy acquisition offers and they said no to like several billion dollars.
+
+00:48:57.760 --> 00:49:00.760
+ But they thought guys so stupid, like, what is he thinking?
+
+00:49:00.760 --> 00:49:02.040
+ But now I get it.
+
+00:49:02.040 --> 00:49:06.120
+ It's like, yeah, and then what like everything you wanted that you were hoping for, things
+
+00:49:06.120 --> 00:49:08.840
+ that you wanted to do, you don't get to anymore.
+
+00:49:08.840 --> 00:49:09.840
+ Yeah.
+
+00:49:09.840 --> 00:49:11.360
+ That's kind of what overrides everything.
+
+00:49:11.360 --> 00:49:12.360
+ Absolutely.
+
+00:49:12.360 --> 00:49:13.360
+ Yeah.
+
+00:49:13.360 --> 00:49:16.000
+ And I mean, and like if you're going to take it to the logical extreme, like why aren't
+
+00:49:16.000 --> 00:49:18.040
+ you working on things that make even more money?
+
+00:49:18.040 --> 00:49:19.040
+ Like go for it.
+
+00:49:19.040 --> 00:49:20.040
+ You know what I mean?
+
+00:49:20.040 --> 00:49:21.040
+ Just like work on it.
+
+00:49:21.040 --> 00:49:22.040
+ Yeah.
+
+00:49:22.040 --> 00:49:23.040
+ But seriously, like why are you?
+
+00:49:23.040 --> 00:49:24.040
+ What?
+
+00:49:24.040 --> 00:49:25.040
+ What dumb midpoint?
+
+00:49:25.040 --> 00:49:26.040
+ Like you're okay.
+
+00:49:26.040 --> 00:49:31.080
+ You don't know me, like the middle of the, like if you're not making, if you just care
+
+00:49:31.080 --> 00:49:35.680
+ about money, go and make extreme amounts of money doing something insanely boring.
+
+00:49:35.680 --> 00:49:39.600
+ If you want to do something that's purely creative, then why even kind of intertwine
+
+00:49:39.600 --> 00:49:40.600
+ money with those two things?
+
+00:49:40.600 --> 00:49:41.600
+ I like both.
+
+00:49:41.600 --> 00:49:45.400
+ I like the sport of building a business in a market that's highly technical.
+
+00:49:45.400 --> 00:49:50.600
+ I mean, I've, before I came to Planet scale, before I've been doing this, I would get offers
+
+00:49:50.600 --> 00:49:55.120
+ all the time to like be the VP engineering or CTO a sure thing come, but like a, like a,
+
+00:49:55.120 --> 00:49:59.440
+ just a sure thing with like, with an equity offer, it's like, yeah, I'll make a hundred
+
+00:49:59.440 --> 00:50:03.480
+ million dollars or something from that company if they IPO at like the last valuation or
+
+00:50:03.480 --> 00:50:04.480
+ whatever.
+
+00:50:04.480 --> 00:50:05.480
+ Yeah.
+
+00:50:05.480 --> 00:50:07.320
+ And you're just, basically the product just does nothing for me.
+
+00:50:07.320 --> 00:50:08.640
+ It was just so boring.
+
+00:50:08.640 --> 00:50:12.040
+ I just wouldn't go to sleep excited for the next day.
+
+00:50:12.040 --> 00:50:17.120
+ You just be grinding through it, you know, and that's not what being alive is about.
+
+00:50:17.120 --> 00:50:20.880
+ I'm sure people are seeing this or like probably think we sound crazy, but it's just one of
+
+00:50:20.880 --> 00:50:26.080
+ these things where when you get a taste of everything probably aligning in this way,
+
+00:50:26.080 --> 00:50:29.360
+ it just, there's no going back and you kind of get addicted to it.
+
+00:50:29.360 --> 00:50:30.360
+ Yes.
+
+00:50:30.360 --> 00:50:31.360
+ Yeah.
+
+00:50:31.360 --> 00:50:33.360
+ I mean, and of course, like you realize that when you do have money, right?
+
+00:50:33.360 --> 00:50:38.280
+ So it's like, okay, well, you know, it does, there's a, there's a level of like earning
+
+00:50:38.280 --> 00:50:43.160
+ that you do that kind of makes you feel very safe and that's a completely different feeling.
+
+00:50:43.160 --> 00:50:47.640
+ And then you get those, you get the option to go and want to work on things that you love.
+
+00:50:47.640 --> 00:50:49.760
+ And that's, that's really nice.
+
+00:50:49.760 --> 00:50:54.720
+ But there's this kind of person that gets a lot of money and was never that passionate.
+
+00:50:54.720 --> 00:51:00.160
+ And now they just have time and money and they just do all of the standard boring, rich
+
+00:51:00.160 --> 00:51:01.160
+ people things.
+
+00:51:01.160 --> 00:51:02.160
+ Right.
+
+00:51:02.160 --> 00:51:05.560
+ And it just looks so boring to me, you know, it just doesn't look fun.
+
+00:51:05.560 --> 00:51:06.560
+ Yeah.
+
+00:51:06.560 --> 00:51:08.280
+ I like do the things I did when I was young.
+
+00:51:08.280 --> 00:51:12.200
+ That was it, you know, like a good friend of mine is very successful.
+
+00:51:12.200 --> 00:51:16.080
+ You still just code and does video games because I was like, well, he always like, you know,
+
+00:51:16.080 --> 00:51:20.680
+ why, why do people suddenly like make a ton of money and start getting into just very
+
+00:51:20.680 --> 00:51:23.240
+ generic rich people that I just don't understand that.
+
+00:51:23.240 --> 00:51:24.400
+ Yeah, it is funny.
+
+00:51:24.400 --> 00:51:28.640
+ I always, I mean, on the same way as you, like, I know I'm going to like diet work as well.
+
+00:51:28.640 --> 00:51:32.640
+ But, you know, I actually think, I think that was all the time because I've seen so many
+
+00:51:32.640 --> 00:51:38.480
+ personal situations where people retire and their health just like the tear rates and their
+
+00:51:38.480 --> 00:51:39.480
+ brain deteriorates.
+
+00:51:39.480 --> 00:51:43.900
+ And then, yeah, I've seen it in such crazy ways where I feel like they've, I think they
+
+00:51:43.900 --> 00:51:46.440
+ literally died because they were tired, you know?
+
+00:51:46.440 --> 00:51:47.440
+ Yeah.
+
+00:51:47.440 --> 00:51:49.800
+ So yeah, it's kind of like a, it's kind of like a sickness in a way.
+
+00:51:49.800 --> 00:51:50.800
+ Yeah.
+
+00:51:50.800 --> 00:51:51.800
+ People's like brains go to mush.
+
+00:51:51.800 --> 00:51:52.800
+ They've seen this.
+
+00:51:52.800 --> 00:51:56.800
+ One of the blue zones, I think the, there's a blue zone in like, is it Okinawa, somewhere
+
+00:51:56.800 --> 00:51:57.800
+ in Japan?
+
+00:51:57.800 --> 00:51:58.800
+ Mm hmm.
+
+00:51:58.800 --> 00:52:03.560
+ And I believe like one of the accepted reasons that people live so long is that it's traditional
+
+00:52:03.560 --> 00:52:06.560
+ for the grandparents that they take care of their grandchildren.
+
+00:52:06.560 --> 00:52:07.560
+ Mm hmm.
+
+00:52:07.560 --> 00:52:08.560
+ I see.
+
+00:52:08.560 --> 00:52:14.120
+ I see a connection and purpose and a reason to live that they're just like happy and have
+
+00:52:14.120 --> 00:52:18.040
+ purpose and then it helps them stick around.
+
+00:52:18.040 --> 00:52:19.040
+ It's kind of wild.
+
+00:52:19.040 --> 00:52:20.040
+ Yeah.
+
+00:52:20.040 --> 00:52:23.640
+ And I just like, I was, the thing that I find really nice now is helping younger people
+
+00:52:23.640 --> 00:52:25.080
+ that are building companies.
+
+00:52:25.080 --> 00:52:28.440
+ I always tell them not to listen to me and don't really try and get anything that I've
+
+00:52:28.440 --> 00:52:31.720
+ done because I don't feel like I've ever been successful yet, right?
+
+00:52:31.720 --> 00:52:37.120
+ Like until you build something really incredible that meets what I want to build and I don't
+
+00:52:37.120 --> 00:52:41.520
+ feel that successful, but helping people kind of short-circuit some of the standard
+
+00:52:41.520 --> 00:52:44.400
+ issues that you run into and the mistakes that you make.
+
+00:52:44.400 --> 00:52:45.600
+ And I've made tons of mistakes.
+
+00:52:45.600 --> 00:52:49.240
+ Like if you could just, you ask everyone five years, if you, if you listen to this, you know,
+
+00:52:49.240 --> 00:52:52.680
+ anyone that's running a company five years in what they would do differently, it would
+
+00:52:52.680 --> 00:52:53.680
+ be nearly everything.
+
+00:52:53.680 --> 00:52:54.680
+ Right.
+
+00:52:54.680 --> 00:52:55.680
+ Yeah.
+
+00:52:55.680 --> 00:52:56.680
+ Right.
+
+00:52:56.680 --> 00:52:57.680
+ You just make mistakes.
+
+00:52:57.680 --> 00:52:58.680
+ Like there's no playbook for what you do.
+
+00:52:58.680 --> 00:53:01.560
+ People like to think they're, they really think there's templates, but when you study the
+
+00:53:01.560 --> 00:53:05.800
+ great companies, they're all off of, they don't run on a standard template.
+
+00:53:05.800 --> 00:53:09.800
+ That's a weird, widening path to get to where they are, but like, yeah, just like helping
+
+00:53:09.800 --> 00:53:14.440
+ people through the undifferentiated things is like very, very satisfying.
+
+00:53:14.440 --> 00:53:19.120
+ And it's also why people should always back second time founders because it's truly, truly.
+
+00:53:19.120 --> 00:53:21.160
+ You just learn so much the first time.
+
+00:53:21.160 --> 00:53:22.160
+ Yeah.
+
+00:53:22.160 --> 00:53:25.320
+ I mean, I feel like I've had to make every mistake like three times before I really,
+
+00:53:25.320 --> 00:53:30.200
+ I really understood one of the hardest of all is just constant temptation.
+
+00:53:30.200 --> 00:53:31.200
+ Yeah, it's crazy.
+
+00:53:31.200 --> 00:53:34.400
+ So many different opportunities have come in in the last week.
+
+00:53:34.400 --> 00:53:38.640
+ And it's just like, okay, we have to stick to the fundamentals of the things we do very
+
+00:53:38.640 --> 00:53:44.200
+ well, not get, you know, and just, it's like that truly, like a marathon run of just like
+
+00:53:44.200 --> 00:53:46.160
+ a constant pace.
+
+00:53:46.160 --> 00:53:49.840
+ And I actually think that's the most unfair things we can do to our competitors is that
+
+00:53:49.840 --> 00:53:52.280
+ you haven't really seen a lull in shipping from Planet Skate.
+
+00:53:52.280 --> 00:53:57.080
+ Like we have just, just like a, like a marching drumbeat of pace.
+
+00:53:57.080 --> 00:54:02.280
+ Like everyone can pull off a sprint to rush some shit out in a quarter and then like everyone's
+
+00:54:02.280 --> 00:54:04.400
+ like exhausted and dying.
+
+00:54:04.400 --> 00:54:09.080
+ If you can just constantly march at a pace that just no one else can keep up with, it's
+
+00:54:09.080 --> 00:54:10.680
+ really unfair to folks.
+
+00:54:10.680 --> 00:54:12.280
+ And so it's like long game playing.
+
+00:54:12.280 --> 00:54:13.280
+ Yeah.
+
+00:54:13.280 --> 00:54:14.280
+ Yeah.
+
+00:54:14.280 --> 00:54:16.280
+ The, the temptation thing is funny because it kind of goes back to what I was saying about
+
+00:54:16.280 --> 00:54:19.160
+ there's just traps everywhere and it's just about like avoiding them.
+
+00:54:19.160 --> 00:54:24.720
+ I, you know, when I was younger, I imagined building a business was like, uh, like your
+
+00:54:24.720 --> 00:54:29.000
+ desk we're looking for some opportunity and like you just can't find it and you're hoping
+
+00:54:29.000 --> 00:54:31.200
+ the opportunity shows up one day.
+
+00:54:31.200 --> 00:54:34.120
+ As you get a little bit more successful, it's actually the inverse problem.
+
+00:54:34.120 --> 00:54:39.220
+ There's just a million awesome looking opportunities all the time, but they're hiding the better
+
+00:54:39.220 --> 00:54:40.220
+ opportunity.
+
+00:54:40.220 --> 00:54:42.600
+ That's like a little, a little harder to see.
+
+00:54:42.600 --> 00:54:47.920
+ So yeah, it just feels like every day it's just about saying no to pretty great options
+
+00:54:47.920 --> 00:54:50.680
+ really, um, having to focus on that.
+
+00:54:50.680 --> 00:54:53.640
+ And yeah, it just takes so much experience to even recognize what, what those things
+
+00:54:53.640 --> 00:54:54.640
+ look like.
+
+00:54:54.640 --> 00:54:55.640
+ Yep.
+
+00:54:55.640 --> 00:54:56.640
+ Absolutely.
+
+00:54:56.640 --> 00:54:59.160
+ I can remember in the early days of GitHub, a very, very large company, open, had an
+
+00:54:59.160 --> 00:55:02.760
+ open tech book to do, like do a certain type of GitHub deployment.
+
+00:55:02.760 --> 00:55:05.000
+ There would have been a one on one for them and it would have been a nightmare.
+
+00:55:05.000 --> 00:55:06.640
+ And it was just so much money.
+
+00:55:06.640 --> 00:55:07.640
+ Yeah.
+
+00:55:07.640 --> 00:55:08.640
+ Yeah.
+
+00:55:08.640 --> 00:55:09.640
+ Exactly.
+
+00:55:09.640 --> 00:55:11.680
+ And, and at the time it's just like, wow, that seems a bit, but if you'd have done that,
+
+00:55:11.680 --> 00:55:12.680
+ it throws you off course.
+
+00:55:12.680 --> 00:55:13.680
+ Same with us right there.
+
+00:55:13.680 --> 00:55:17.680
+ We get asked continually to just do a purely on-prem version of Planet scale.
+
+00:55:17.680 --> 00:55:22.480
+ We've been asked so many times with people that would pay extreme, like at certain time,
+
+00:55:22.480 --> 00:55:25.480
+ like it would never have happened now, but like at that time would have like potentially
+
+00:55:25.480 --> 00:55:28.960
+ doubled our revenue at the time that we were being asked to do it and it gets really tempting.
+
+00:55:28.960 --> 00:55:33.920
+ And I remember all of the experience I had from other companies that showed me not to
+
+00:55:33.920 --> 00:55:38.000
+ do that, but it's that quick temptation, especially if you're not profitable.
+
+00:55:38.000 --> 00:55:43.640
+ This is the, this is where those kind of like, that kind of knowing your cash out date, right?
+
+00:55:43.640 --> 00:55:49.040
+ And, you know, for those that don't know what that means, like if you, any of your vendors,
+
+00:55:49.040 --> 00:55:54.640
+ anyone is not profitable, that means the CEO and executive team and the board know the
+
+00:55:54.640 --> 00:55:57.380
+ exact date where the business is finished.
+
+00:55:57.380 --> 00:56:02.120
+ Like there is a date in the future that's calculicable where it, there's no more money
+
+00:56:02.120 --> 00:56:03.120
+ in the bank.
+
+00:56:03.120 --> 00:56:05.600
+ Just the costs will overlap what's left.
+
+00:56:05.600 --> 00:56:11.160
+ That is a feeling that is very difficult and very hard and it makes you act weird.
+
+00:56:11.160 --> 00:56:16.080
+ And so when we, when we released the first version of metal, the must, the test version,
+
+00:56:16.080 --> 00:56:22.320
+ we were going to try and get it out in beta before reinvent because reinvent is a big conference,
+
+00:56:22.320 --> 00:56:24.880
+ a massive conference actually.
+
+00:56:24.880 --> 00:56:29.840
+ If you've not been to reinvent, you should just to sort of confront how large the commercial
+
+00:56:29.840 --> 00:56:30.840
+ side of it.
+
+00:56:30.840 --> 00:56:31.840
+ It's crazy.
+
+00:56:31.840 --> 00:56:32.840
+ Yeah.
+
+00:56:32.840 --> 00:56:33.840
+ Yeah.
+
+00:56:33.840 --> 00:56:34.840
+ Yeah.
+
+00:56:34.840 --> 00:56:35.840
+ Yeah.
+
+00:56:35.840 --> 00:56:36.840
+ Yeah.
+
+00:56:36.840 --> 00:56:37.840
+ Software engineers don't understand.
+
+00:56:37.840 --> 00:56:38.840
+ I don't think how large the commercial part of the industry is.
+
+00:56:38.840 --> 00:56:41.240
+ It's a conference that could only happen in Vegas and it's across five hotels and.
+
+00:56:41.240 --> 00:56:42.240
+ Yeah.
+
+00:56:42.240 --> 00:56:43.240
+ It's insane.
+
+00:56:43.240 --> 00:56:46.240
+ Probably a billion dollars a marketing spend across the whole thing and that's been just
+
+00:56:46.240 --> 00:56:47.240
+ ridiculous.
+
+00:56:47.240 --> 00:56:49.040
+ Also, so anyway, so we were trying to rush it out for that.
+
+00:56:49.040 --> 00:56:52.880
+ Instead, I've told that story, our customers were having problems with EBS, so we said
+
+00:56:52.880 --> 00:56:55.760
+ to them, "Well, my great, you first actually."
+
+00:56:55.760 --> 00:56:57.480
+ And that took an extra quarter to do that.
+
+00:56:57.480 --> 00:57:02.680
+ But that meant the announcement was so much better because it was like, "Real people use
+
+00:57:02.680 --> 00:57:03.680
+ this.
+
+00:57:03.680 --> 00:57:04.680
+ It's real.
+
+00:57:04.680 --> 00:57:05.680
+ It's GA today.
+
+00:57:05.680 --> 00:57:06.680
+ It works."
+
+00:57:06.680 --> 00:57:11.600
+ You know, if you were unprofitable and had 18 months of runway, you wouldn't do that.
+
+00:57:11.600 --> 00:57:12.600
+ You couldn't.
+
+00:57:12.600 --> 00:57:17.080
+ You'd have to get whatever crap out there to try and spend a load of marketing money to
+
+00:57:17.080 --> 00:57:22.440
+ build pipeline to desperately try and get leads and have something to show the next
+
+00:57:22.440 --> 00:57:26.960
+ investors to try and get your next hit to keep alive and keep going.
+
+00:57:26.960 --> 00:57:27.960
+ That's rough.
+
+00:57:27.960 --> 00:57:33.460
+ A lot of these AI valuations and raises that you're seeing are based on the fact that the
+
+00:57:33.460 --> 00:57:36.440
+ growth they've seen is costing them so much money.
+
+00:57:36.440 --> 00:57:38.600
+ They have to raise to stay alive.
+
+00:57:38.600 --> 00:57:40.080
+ It eats their runway.
+
+00:57:40.080 --> 00:57:41.080
+ That's not great.
+
+00:57:41.080 --> 00:57:42.080
+ Yeah.
+
+00:57:42.080 --> 00:57:45.680
+ It's another aspect of this that I didn't understand early on.
+
+00:57:45.680 --> 00:57:49.040
+ There's being smart and making good decisions.
+
+00:57:49.040 --> 00:57:52.720
+ But so much of it is about protecting your own ability to even think clearly.
+
+00:57:52.720 --> 00:57:58.200
+ So many things can just take a smart person and just have and start making horrible decisions.
+
+00:57:58.200 --> 00:58:00.960
+ Just give it a situation they're in.
+
+00:58:00.960 --> 00:58:06.400
+ We talked constantly about, "Are we thinking clearly what's biasing us?"
+
+00:58:06.400 --> 00:58:13.960
+ We avoid situations that have upsides but would impact our ability to assess the situation
+
+00:58:13.960 --> 00:58:14.960
+ properly.
+
+00:58:14.960 --> 00:58:15.960
+ Yeah.
+
+00:58:15.960 --> 00:58:17.640
+ So I'm really paranoid about that.
+
+00:58:17.640 --> 00:58:22.240
+ Am I getting involved with something that clouds my judgment?
+
+00:58:22.240 --> 00:58:24.560
+ Because it doesn't matter how smart you are.
+
+00:58:24.560 --> 00:58:25.560
+ Nope.
+
+00:58:25.560 --> 00:58:26.560
+ Anyone can.
+
+00:58:26.560 --> 00:58:32.960
+ There's times when you're very vulnerable to three bad things happening in a row.
+
+00:58:32.960 --> 00:58:36.280
+ Just the temptation, you're sat there alone at two in the morning.
+
+00:58:36.280 --> 00:58:41.160
+ You're thinking about the seriousness of what you've done and what you do.
+
+00:58:41.160 --> 00:58:49.080
+ That's why you need people around you that will speak the truth, keep the Empress clothes
+
+00:58:49.080 --> 00:58:50.080
+ on.
+
+00:58:50.080 --> 00:58:54.280
+ This last thing before we hop off, I just remembered that you tweeted reminiscing about
+
+00:58:54.280 --> 00:58:56.560
+ React the other day.
+
+00:58:56.560 --> 00:58:57.560
+ Yeah.
+
+00:58:57.560 --> 00:59:01.960
+ So I spent a bunch of time with Erlang and Elixir and React was obviously like the God
+
+00:59:01.960 --> 00:59:02.960
+ in that world.
+
+00:59:02.960 --> 00:59:07.480
+ But yeah, we had a deployment where we were able to embed React inside all of our application
+
+00:59:07.480 --> 00:59:11.360
+ nodes and pay clustered and all of data querying was effectively local.
+
+00:59:11.360 --> 00:59:13.400
+ I was like, this is really awesome.
+
+00:59:13.400 --> 00:59:14.400
+ But they died out, right?
+
+00:59:14.400 --> 00:59:15.880
+ They kind of disappeared.
+
+00:59:15.880 --> 00:59:16.880
+ Yeah.
+
+00:59:16.880 --> 00:59:19.480
+ I mean, that's the way of most database companies, right?
+
+00:59:19.480 --> 00:59:21.760
+ There's a lot of really niche things.
+
+00:59:21.760 --> 00:59:29.080
+ But I have like, again, I have like a lot of nostalgia for some of the...
+
+00:59:29.080 --> 00:59:33.080
+ There was an era where there was so much database experimentation, that was fun.
+
+00:59:33.080 --> 00:59:34.920
+ Every new startup I would pick something different.
+
+00:59:34.920 --> 00:59:35.920
+ Yeah, I agree.
+
+00:59:35.920 --> 00:59:39.960
+ And there's like really cool stuff built by really, really talented people.
+
+00:59:39.960 --> 00:59:45.120
+ It's like, if you like cars, right, you can appreciate the ones that are just incredible
+
+00:59:45.120 --> 00:59:49.560
+ powerhouses that everyone loves and they work and then whatever.
+
+00:59:49.560 --> 00:59:52.320
+ And then there's the weird niche ones that have tried something completely crazy.
+
+00:59:52.320 --> 00:59:54.240
+ And you're like, that's fun and cool too.
+
+00:59:54.240 --> 00:59:55.240
+ Like, you can...
+
+00:59:55.240 --> 00:59:56.240
+ I love that about tech.
+
+00:59:56.240 --> 01:00:02.240
+ This is why I love convex because it's actually the most kind of modern and dynamic database
+
+01:00:02.240 --> 01:00:10.520
+ I've seen that is actually extremely real and practical, has really serious users.
+
+01:00:10.520 --> 01:00:14.640
+ And they've kept everything else normal and it's being built by a team of people that...
+
+01:00:14.640 --> 01:00:17.480
+ So it's the X Dropbox MySQL team.
+
+01:00:17.480 --> 01:00:20.960
+ They ran for like 15,000 MySQL nodes.
+
+01:00:20.960 --> 01:00:24.040
+ So they know that like these are people that I truly like respect.
+
+01:00:24.040 --> 01:00:26.880
+ Some of the folks that work with them actually work at plant scale, like we kind of everyone
+
+01:00:26.880 --> 01:00:27.880
+ knows each other.
+
+01:00:27.880 --> 01:00:33.220
+ They've taken that underlying infrastructure knowledge and then built something incredibly
+
+01:00:33.220 --> 01:00:36.480
+ dynamic and forward facing on top.
+
+01:00:36.480 --> 01:00:38.240
+ That to me is just, I love it.
+
+01:00:38.240 --> 01:00:45.080
+ Like I absolutely love that as a way of approaching the problem versus people who show up and
+
+01:00:45.080 --> 01:00:50.760
+ go like we're the end of SQL or whatever and then like don't really do anything revolutionary
+
+01:00:50.760 --> 01:00:51.760
+ in exchange.
+
+01:00:51.760 --> 01:00:56.000
+ convex is actually doing really revolutionary things while kind of sticking to the rules
+
+01:00:56.000 --> 01:00:59.060
+ that physics is leaving us with for databases.
+
+01:00:59.060 --> 01:01:00.060
+ So like stuff like that's really cool.
+
+01:01:00.060 --> 01:01:01.060
+ But yeah, like React.
+
+01:01:01.060 --> 01:01:05.160
+ It came from we were, we all went for like a dinner at one of my favorite restaurants
+
+01:01:05.160 --> 01:01:08.600
+ the other night to kind of celebrate a bit and we were all sat around around table and
+
+01:01:08.600 --> 01:01:10.400
+ then, you know, it was an extra chair.
+
+01:01:10.400 --> 01:01:14.680
+ So we moved the chair and we had to shuffle around the clock and so I was like, ah, and
+
+01:01:14.680 --> 01:01:16.480
+ yeah, I just, I remembered it.
+
+01:01:16.480 --> 01:01:18.760
+ But yeah, there's like so many, so many fun.
+
+01:01:18.760 --> 01:01:23.520
+ There's still some that are going, you know, like that, like they were like the hot database
+
+01:01:23.520 --> 01:01:28.440
+ of the day, but still like gained a user base and a ticking along really nicely.
+
+01:01:28.440 --> 01:01:29.440
+ Yeah.
+
+01:01:29.440 --> 01:01:31.400
+ Yeah, I just remember, I think me and Adam were talking about this where there was just
+
+01:01:31.400 --> 01:01:35.560
+ a time where everything just felt a little bit more wild and things are still down now
+
+01:01:35.560 --> 01:01:38.880
+ and there's like tried and true ways that make sense for most people.
+
+01:01:38.880 --> 01:01:43.120
+ But yeah, I do remember when like I was using like a different graph database every month
+
+01:01:43.120 --> 01:01:45.840
+ and graph databases like blew up for a while.
+
+01:01:45.840 --> 01:01:49.760
+ But yeah, it was a good time and I'm glad I was able to kind of live through that.
+
+01:01:49.760 --> 01:01:53.840
+ Yeah, now all that kind of frenetic wildness seems to just be marketing budgets, which is
+
+01:01:53.840 --> 01:01:54.840
+ kind of not.
+
+01:01:54.840 --> 01:01:55.840
+ Right.
+
+01:01:55.840 --> 01:01:56.840
+ That's fine.
+
+01:01:56.840 --> 01:01:57.840
+ I tweeted this.
+
+01:01:57.840 --> 01:02:01.200
+ I felt bad doing it, but I kind of, I've more gained more conviction, which is there was
+
+01:02:01.200 --> 01:02:04.920
+ this era of tech where basically if you were an engineer, people engineers were very hostile
+
+01:02:04.920 --> 01:02:08.560
+ to anyone that like wasn't an engineer who couldn't code and it was too extreme back
+
+01:02:08.560 --> 01:02:09.560
+ then.
+
+01:02:09.560 --> 01:02:11.000
+ I actually think we've gone too far the other way now.
+
+01:02:11.000 --> 01:02:12.480
+ Yeah, I thought I'd say agree.
+
+01:02:12.480 --> 01:02:13.480
+ Yeah.
+
+01:02:13.480 --> 01:02:16.560
+ There's just people that are yapping 24/7 on Twitter that just don't know how computers
+
+01:02:16.560 --> 01:02:18.200
+ work and have massive audiences.
+
+01:02:18.200 --> 01:02:21.920
+ And it's just like, you know what I mean?
+
+01:02:21.920 --> 01:02:22.920
+ Yeah.
+
+01:02:22.920 --> 01:02:24.920
+ I mean, I'm fat.
+
+01:02:24.920 --> 01:02:28.320
+ Like I wouldn't just sit there as someone who can't run, go in.
+
+01:02:28.320 --> 01:02:29.320
+ Here's running tips.
+
+01:02:29.320 --> 01:02:33.680
+ Here's how you think about running and then get offended when someone is like, do you
+
+01:02:33.680 --> 01:02:34.680
+ actually run?
+
+01:02:34.680 --> 01:02:35.680
+ Yeah.
+
+01:02:35.680 --> 01:02:36.680
+ Right.
+
+01:02:36.680 --> 01:02:37.680
+ Exactly.
+
+01:02:37.680 --> 01:02:38.680
+ You can't say that.
+
+01:02:38.680 --> 01:02:39.680
+ I mean, that's really not.
+
+01:02:39.680 --> 01:02:43.680
+ It's not really nice to say, you know, it's like, well, we're here to do software engineering.
+
+01:02:43.680 --> 01:02:44.680
+ You know what I mean?
+
+01:02:44.680 --> 01:02:48.120
+ It's like, yeah, if you applied this to other industries, it would be.
+
+01:02:48.120 --> 01:02:49.120
+ Absolutely nuts.
+
+01:02:49.120 --> 01:02:50.120
+ You know?
+
+01:02:50.120 --> 01:02:53.280
+ I mean, I do wonder though, like I wonder, cause I'm like, I'm so in our industry, but
+
+01:02:53.280 --> 01:02:55.320
+ my people should be the same everywhere.
+
+01:02:55.320 --> 01:02:59.000
+ Like are there, are these same dynamics that exist in all industries?
+
+01:02:59.000 --> 01:03:01.100
+ And we just don't, don't see it.
+
+01:03:01.100 --> 01:03:03.600
+ Like are there medical people that are just like talking shit?
+
+01:03:03.600 --> 01:03:04.600
+ Yeah.
+
+01:03:04.600 --> 01:03:05.600
+ Like I have really hoped not.
+
+01:03:05.600 --> 01:03:06.600
+ No, I don't think they are.
+
+01:03:06.600 --> 01:03:10.760
+ I really don't think there's like doctors that are just like there for the vibes, you
+
+01:03:10.760 --> 01:03:13.120
+ know, and just like, I hope so.
+
+01:03:13.120 --> 01:03:17.560
+ I truly hope we, I don't know, we will, we will, we will see, but yeah, like, I mean,
+
+01:03:17.560 --> 01:03:18.560
+ maybe that will change.
+
+01:03:18.560 --> 01:03:19.560
+ I don't know.
+
+01:03:19.560 --> 01:03:22.600
+ It's definitely been a weird one to watch the industries in a very strange place right
+
+01:03:22.600 --> 01:03:23.600
+ now.
+
+01:03:23.600 --> 01:03:25.160
+ Well, thanks for joining me today.
+
+01:03:25.160 --> 01:03:26.680
+ This was a good conversation.
+
+01:03:26.680 --> 01:03:28.840
+ Thank you for having me.
+
+01:03:28.840 --> 01:03:32.080
+ Excited for you and your team and landscape Postgres.
+
+01:03:32.080 --> 01:03:33.600
+ I always see pictures of your office.
+
+01:03:33.600 --> 01:03:34.600
+ It looks really nice.
+
+01:03:34.600 --> 01:03:36.360
+ I'll swing by at some point when some traveling.
+
+01:03:36.360 --> 01:03:37.360
+ Yeah.
+
+01:03:37.360 --> 01:03:40.000
+ Come through, come and work from the office while you're here.
+
+01:03:40.000 --> 01:03:41.000
+ Like people do that.
+
+01:03:41.000 --> 01:03:43.840
+ It's really, you know, it's nice to have people stop in.
+
+01:03:43.840 --> 01:03:46.200
+ It's nice to have a physical location that people come to.
+
+01:03:46.200 --> 01:03:49.760
+ We had this like really fun party the other night that we would just invite people to
+
+01:03:49.760 --> 01:03:54.080
+ come and migrate and just like being here at midnight watching people just migrating
+
+01:03:54.080 --> 01:03:57.680
+ their databases to plan scale while we were like hanging out drinking and listening to
+
+01:03:57.680 --> 01:03:58.680
+ music.
+
+01:03:58.680 --> 01:03:59.680
+ It was just really fun.
+
+01:03:59.680 --> 01:04:00.680
+ Like really enjoyable.
+
+01:04:00.680 --> 01:04:02.240
+ That's good for that, you know.
+
+01:04:02.240 --> 01:04:04.040
+ Yeah, that's the stuff I miss.
+
+01:04:04.040 --> 01:04:05.040
+ I miss.
+
+01:04:05.040 --> 01:04:07.160
+ I wish that I, that's what I'm jealous of.
+
+01:04:07.160 --> 01:04:11.800
+ Like, it's fun to have those things just happening randomly on a weekly basis.
+
+01:04:11.800 --> 01:04:12.800
+ Yes.
+
+01:04:12.800 --> 01:04:17.240
+ People can actually, you know, like pretty much every day of the week in this town there's
+
+01:04:17.240 --> 01:04:22.640
+ three events you could, you could go to and there's interesting people everywhere.
+
+01:04:22.640 --> 01:04:26.280
+ There's then, then there's the other balance of this, like certain people or certain companies
+
+01:04:26.280 --> 01:04:30.800
+ that go to every single one and you just think you can't be doing any work.
+
+01:04:30.800 --> 01:04:31.800
+ You know what I mean?
+
+01:04:31.800 --> 01:04:33.720
+ Like I try and limit myself to going and doing something like that.
+
+01:04:33.720 --> 01:04:38.600
+ Maybe once a week or whatever, but there's people just like, how have you, why does your
+
+01:04:38.600 --> 01:04:43.200
+ party full say 600 events attend this?
+
+01:04:43.200 --> 01:04:49.440
+ Yeah, I think this is a case everywhere where there's like an industry and like some large
+
+01:04:49.440 --> 01:04:50.440
+ percentage of it.
+
+01:04:50.440 --> 01:04:53.800
+ It's just people acting out like they're doing stuff and like a small percentage of it is
+
+01:04:53.800 --> 01:04:55.280
+ actually doing stuff.
+
+01:04:55.280 --> 01:04:59.120
+ And that stuff is like, no, like doesn't escape that either and maybe it's even more concentrated
+
+01:04:59.120 --> 01:05:00.120
+ in some ways.
+
+01:05:00.120 --> 01:05:01.120
+ Oh, for sure.
+
+01:05:01.120 --> 01:05:02.120
+ For sure.
+
+01:05:02.120 --> 01:05:03.760
+ And there's like an inverse correlation with like people's pop.
+
+01:05:03.760 --> 01:05:08.040
+ You meet people that are popular on Twitter and then you like talk to them about tech and
+
+01:05:08.040 --> 01:05:10.880
+ this is like, wow, you don't actually know how computers work.
+
+01:05:10.880 --> 01:05:11.880
+ It's really interesting.
+
+01:05:11.880 --> 01:05:12.880
+ Yeah.
+
+01:05:12.880 --> 01:05:13.880
+ That makes sense.
+
+01:05:13.880 --> 01:05:16.880
+ Why would one lead to another, you know, I don't know.
+
+01:05:16.880 --> 01:05:17.880
+ Yeah.
+
+01:05:17.880 --> 01:05:18.880
+ All right.
+
+01:05:18.880 --> 01:05:19.880
+ Well, I'll let you go.
+
+01:05:19.880 --> 01:05:20.880
+ Thanks for joining again.
+
+01:05:20.880 --> 01:05:21.440
+ Thank you for having me as always.
+

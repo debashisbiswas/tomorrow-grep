@@ -1,0 +1,1988 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.440
+ Adam couldn't make it today. He did this really fun thing where he was like, "Oh,
+
+00:00:05.440 --> 00:00:09.200
+ I can't make on Thursday anymore. Can we reschedule to Wednesday?" And then I reschedule to Wednesday,
+
+00:00:09.200 --> 00:00:14.800
+ and he goes, "Okay, cool. Can't make it then either." He doesn't like me. That's okay.
+
+00:00:14.800 --> 00:00:21.280
+ That's what it seems like, and we're just going to go. We talk about this all the time. He hates
+
+00:00:21.280 --> 00:00:27.760
+ conflict, and he hates people like this type of situation. So it would bug him a lot if
+
+00:00:28.640 --> 00:00:31.200
+ that's the conclusion you came to. So that would actually be great.
+
+00:00:31.200 --> 00:00:33.360
+ It's great. I'm going to assume that then.
+
+00:00:57.840 --> 00:01:04.000
+ But today we have Rita joining us. Rita works at CloudFlare, and CloudFlare just had their
+
+00:01:04.000 --> 00:01:07.760
+ birthday week last week where they announced a bunch of really cool stuff.
+
+00:01:07.760 --> 00:01:15.120
+ And we've been friendly for like a while now, and this kind of overdue to hop on here and
+
+00:01:15.120 --> 00:01:19.120
+ have a little chat. So how's it going? How are you doing? Are you tired from all the
+
+00:01:19.120 --> 00:01:26.160
+ birthday week stuff? Launching is exhausting, but it is also really fun. So
+
+00:01:27.440 --> 00:01:32.240
+ a little bit of both. I had the weekend to recover, and so now I'm mostly pumped.
+
+00:01:32.240 --> 00:01:38.400
+ Nice. Yeah. So when you all plan something like this, how long of an effort is it? Is it like
+
+00:01:38.400 --> 00:01:43.280
+ a six-month effort? How long are you in like, "Okay, we're prepping for birthday week mode?"
+
+00:01:43.280 --> 00:01:51.520
+ It really depends. I mean, everything that we announced, and especially this past birthday week,
+
+00:01:52.480 --> 00:01:58.560
+ came from user feedback and things that were already on our roadmap because users have been
+
+00:01:58.560 --> 00:02:05.600
+ asking for logs, users have been asking about workers and pages convergence, users are always
+
+00:02:05.600 --> 00:02:11.360
+ asking for a better performance. So there are things that in some ways, we start planning for
+
+00:02:11.360 --> 00:02:20.320
+ it quarters ahead of time because that's a part of our roadmap. But then we start kind of planning
+
+00:02:20.320 --> 00:02:28.720
+ the week generally about a couple months out, about a quarter out, and we start to look at,
+
+00:02:28.720 --> 00:02:33.120
+ "Okay, well, these are all of the things that are happening. These are the things that are launching.
+
+00:02:33.120 --> 00:02:38.160
+ What's kind of interesting out of that and start to piece together out of that? Okay,
+
+00:02:38.160 --> 00:02:42.800
+ these are the stories that we want to tell during the week. This is what we want people to come away
+
+00:02:42.800 --> 00:02:49.760
+ with, and refining that, and sometimes that leads to new announcements that emerge that
+
+00:02:49.760 --> 00:02:53.200
+ we're like, "We weren't planning on doing that, but maybe that makes sense for this week."
+
+00:02:53.200 --> 00:03:02.560
+ Yeah, it's always funny for me to see all of that because I am so bad at keeping anything quiet.
+
+00:03:02.560 --> 00:03:06.080
+ Like, when I'm excited about something, you guys see what I'm like on Twitter. I just start posting
+
+00:03:06.080 --> 00:03:10.880
+ about it right away. So I'll make like 3% progress on something, and I'll just want to announce it
+
+00:03:10.880 --> 00:03:15.520
+ already. So yeah, it's hard just keeping things under wraps because I'm virtually exciting.
+
+00:03:15.520 --> 00:03:23.200
+ I mean, to be honest, we're the same way. First of all, we build in public so much.
+
+00:03:23.200 --> 00:03:29.360
+ Our docs are open source. We have our Discord. So if you're paying close attention, nothing that
+
+00:03:29.360 --> 00:03:35.360
+ we announced last week would have come as like a huge surprise, right? And yeah, you'll see in
+
+00:03:35.360 --> 00:03:41.520
+ the weeks leading up to it myself, and Matt, and Dane, and a bunch of engineers on the team kind of,
+
+00:03:41.520 --> 00:03:46.720
+ you know, leaking sounds so dramatic, but really we're excited about what's coming,
+
+00:03:46.720 --> 00:03:52.400
+ and we can't shut up about it. So some companies are stealthier. We're really bad at stealth. We're
+
+00:03:52.400 --> 00:03:57.760
+ like, everything's out in the open, but if you're not paying that much attention, then you know,
+
+00:03:57.760 --> 00:04:02.720
+ this is your time to kind of tune in, and we really try to then spell out, "Okay, here's the
+
+00:04:02.720 --> 00:04:06.960
+ stuff that launched." Yeah, it's funny because I think, I guess now that you say it like that,
+
+00:04:06.960 --> 00:04:12.960
+ this maybe is more common than I imagined because AWS has their reinvent thing once a year,
+
+00:04:12.960 --> 00:04:18.960
+ but it's become such a common thing for everything to get announced before. And there's a good term
+
+00:04:18.960 --> 00:04:22.320
+ for it. It's called pre-invent. Everyone's like, "Oh, pre-invent season is here." And that's when
+
+00:04:22.320 --> 00:04:27.040
+ you like hear about everything before the actual launch. So I guess, yeah, I guess everyone is just
+
+00:04:27.040 --> 00:04:32.080
+ the same. Yeah. The closer it gets, the harder it is to keep shut. You know, I really admire
+
+00:04:32.080 --> 00:04:39.280
+ companies like Apple, where everything is super on lockdown. And part of me wonders,
+
+00:04:39.280 --> 00:04:44.160
+ is that something that you mature into? But realistically, I think it's either something that
+
+00:04:44.160 --> 00:04:50.160
+ is or isn't in your DNA, and that's just really not who we are. Yeah, it's funny to bring up Apple,
+
+00:04:50.160 --> 00:04:54.320
+ because I was thinking about them too. I have this weird thought there day where I'm like,
+
+00:04:54.320 --> 00:05:00.480
+ "Man, I don't know anyone that works for Apple." And that's not exactly true. I have here and
+
+00:05:00.480 --> 00:05:06.000
+ there running into people that work there. But I feel like people join there, and they just disappear
+
+00:05:06.000 --> 00:05:10.000
+ into a void. And then you just don't know anyone that works there. And you never hear about a single
+
+00:05:10.000 --> 00:05:14.640
+ thing. So yeah, how do they pull that off when they're also one of the biggest companies in the
+
+00:05:14.640 --> 00:05:20.880
+ world? On roll a fight club. Yeah, I definitely couldn't work there because I'd be like, "Guys,
+
+00:05:20.880 --> 00:05:25.600
+ look, look at this thing." Yeah, I think both strategies work because obviously you get the
+
+00:05:26.720 --> 00:05:32.240
+ big single day impact when you're quiet. But then a lot of these things, especially developer tools,
+
+00:05:32.240 --> 00:05:37.280
+ like people might get, I think it's different than like you see an iPhone and you're like,
+
+00:05:37.280 --> 00:05:41.200
+ "I'm going to buy it." Like you see it, you're going to buy it, you know? Whereas developer
+
+00:05:41.200 --> 00:05:46.880
+ tools like you see it, and you might think it's cool, but you're already working on something
+
+00:05:46.880 --> 00:05:53.040
+ that you're not going to drop everything and switch to it. So I think the transaction times
+
+00:05:53.040 --> 00:05:58.480
+ are longer. So just having stuff trickle out and staying on top of people's mind, I think
+
+00:05:58.480 --> 00:06:05.200
+ does make a lot more sense for dev stuff. I think it's okay. Yeah, I mean, the other thing too is
+
+00:06:05.200 --> 00:06:10.320
+ we want feedback on stuff that we're building. So to your point, right, an iPhone, you ship it out,
+
+00:06:10.320 --> 00:06:17.840
+ and it's out there and that's it. And you can ship software updates, which also, if you're like me,
+
+00:06:17.840 --> 00:06:25.120
+ you're maybe always a little bit behind because who has time for that? But yeah, you ship the
+
+00:06:25.120 --> 00:06:31.200
+ iPhones and they're in people's hands and that's it versus for us, a big part of the reason that we
+
+00:06:31.200 --> 00:06:39.280
+ let people play with stuff early or we pre-announce it, we do a lot of betas is because we want feedback
+
+00:06:39.280 --> 00:06:43.760
+ and by the time that we're launching something, and this is something that also is actually us
+
+00:06:43.760 --> 00:06:49.040
+ developing a bit of a new muscle and something that's changed a bit over the years is yeah, we
+
+00:06:49.040 --> 00:06:55.040
+ take a bit more time to bake things in to receive feedback. So the thing that launches on the day
+
+00:06:55.040 --> 00:07:02.320
+ of the innovation week is is much red here has gone through a few iterations. Previously,
+
+00:07:02.320 --> 00:07:09.920
+ we would first announce something and then and then put it into people's hands and then iterate
+
+00:07:09.920 --> 00:07:14.480
+ from there and there's pros and cons to both approaches and still depending on the announcement,
+
+00:07:14.480 --> 00:07:21.920
+ we like to have both in our arsenal, but a lot of the feedback and I think especially for developer
+
+00:07:21.920 --> 00:07:29.120
+ tools, it's just so much more fun if something is announced and instantly you can NPM install or
+
+00:07:29.120 --> 00:07:35.840
+ whatever. The first thing you want to do is let me play with us. So I think that's much more interesting
+
+00:07:35.840 --> 00:07:41.680
+ and a lot more fun for us too because then on those announcement days, we get to kick back and
+
+00:07:41.680 --> 00:07:47.920
+ look at the discord and people are asking questions or they're like, "Look Ma, I built this thing."
+
+00:07:47.920 --> 00:07:52.160
+ You're like, "I just announced it. How did you already do that?" Yeah, it's funny. I think no
+
+00:07:52.160 --> 00:07:59.280
+ matter how much progress we make whenever we launch something and someone actually uses it, I'm always
+
+00:07:59.280 --> 00:08:04.720
+ like really like you actually used it. Like it's always surprising that you get like people building
+
+00:08:04.720 --> 00:08:10.320
+ real stuff and it's always surprising how far people go with it in such a short time, especially
+
+00:08:10.320 --> 00:08:17.200
+ with stuff that, like I said, we're like very public with everything we build. So even when
+
+00:08:17.200 --> 00:08:21.600
+ stuff isn't ready, we'll see people grab it and like take it kind of like way too far, like maybe
+
+00:08:21.600 --> 00:08:26.560
+ more far than I would say, like you should even be doing right now. But yeah, there's always people
+
+00:08:26.560 --> 00:08:32.480
+ that'll do that, just super motivating and see. But I think that that's kind of the fun part too
+
+00:08:32.480 --> 00:08:38.320
+ of working on developer tools. Yeah, sometimes you don't even announce something at all. It's just
+
+00:08:38.320 --> 00:08:44.880
+ an API and someone will find it and someone will build on top of it. And I forget what the
+
+00:08:44.880 --> 00:08:50.080
+ there's a name for this law. Yeah, it's like if you put something into API, someone will use it and
+
+00:08:50.080 --> 00:08:53.440
+ become a permanent thing, like no matter what, even if you don't attend to it. Yeah, I don't,
+
+00:08:53.440 --> 00:08:58.640
+ there's a name for it. I don't, so I'm blanking on it too. Yeah. Matt, the second he listens to
+
+00:08:58.640 --> 00:09:06.480
+ this will be like Rita, it's obviously best. Yeah, I know the laws. I just never remember the names.
+
+00:09:06.480 --> 00:09:10.960
+ They're all familiar, but yeah, you don't get out and sound extra smart.
+
+00:09:10.960 --> 00:09:17.200
+ Yeah. Okay, so you've been so how long have you been in Cloudflare again? I've been in Cloudflare
+
+00:09:17.200 --> 00:09:24.000
+ for over eight years now. That is so crazy. Okay, so I guess eight years ago, there's obviously been
+
+00:09:24.000 --> 00:09:30.080
+ this effort from Cloudflare to build, you know, like a Cloudflare platform for people to build
+
+00:09:30.080 --> 00:09:35.280
+ applications on. That probably started around eight years ago. Like when did that really start?
+
+00:09:35.280 --> 00:09:44.080
+ It started seven years ago, or I guess a little bit more than that. But the first product that we
+
+00:09:44.080 --> 00:09:52.320
+ announced in the space was workers. And you know, the original original intent of workers was okay,
+
+00:09:52.320 --> 00:10:00.720
+ we have this network, we have some people use it for CDN, other people use it for WAF and security.
+
+00:10:00.720 --> 00:10:05.120
+ We're trying to expose all these services through it. And there were kind of two parts to it. One,
+
+00:10:05.120 --> 00:10:12.080
+ which is, you know, we looked internally at our own pace of innovation. We're like, wow, we need
+
+00:10:12.080 --> 00:10:18.320
+ to be able to go faster. And in parallel, our customers were getting more sophisticated. So
+
+00:10:18.320 --> 00:10:23.760
+ they wanted to do you know, crazier and crazier stuff that Pedro's just wouldn't cut it for.
+
+00:10:23.760 --> 00:10:30.080
+ Pedro's were like, oh, you give me the URL and you can, you know, cash everything on that URL.
+
+00:10:30.080 --> 00:10:34.880
+ But people started to want to do things by headers, by country, by cookie, and take all of these
+
+00:10:34.880 --> 00:10:41.120
+ complicated actions. So we're like, okay, we need something that will allow people to just write
+
+00:10:41.120 --> 00:10:48.080
+ code and deploy it. And we need a platform for ourselves. And so we released workers. And if
+
+00:10:48.080 --> 00:10:51.920
+ you go back to the announcement blog post for workers, you'll see a bunch of examples that are
+
+00:10:51.920 --> 00:11:00.560
+ kind of around your adding headers, caching things. And the but you quickly realize, oh,
+
+00:11:00.560 --> 00:11:06.480
+ wait, I have an origin actually that's running like if I can write code
+
+00:11:06.480 --> 00:11:14.960
+ in this very serverless way, like what else can I do? If it's crazy, innovation is crazy in that
+
+00:11:14.960 --> 00:11:20.000
+ way, you come up with something for one thing, and then you realize how many other things are
+
+00:11:20.000 --> 00:11:23.440
+ possible. And that was the beginning of the developer platform. And then really, okay, well,
+
+00:11:23.440 --> 00:11:28.800
+ now if I want to be able to build something a bit more meaningful, I need storage so that if we
+
+00:11:28.800 --> 00:11:34.960
+ introduced KV, and that was, you know, pretty limited in what it could do, but it exposed a ton
+
+00:11:34.960 --> 00:11:39.680
+ of use cases. And then we're like, okay, what's the next thing that people need to be able to do?
+
+00:11:39.680 --> 00:11:44.880
+ Oh, they need all these deployment tools. So, you know, really strangler and worker sites,
+
+00:11:44.880 --> 00:11:50.000
+ which was the first iteration of pages and then became pages. And then we've continued to add
+
+00:11:50.000 --> 00:11:56.160
+ different primitives. Yeah, to the point where today, you know, people are building full stack
+
+00:11:56.160 --> 00:12:00.960
+ applications that I think were well beyond our imagination. We first started working on this.
+
+00:12:00.960 --> 00:12:06.880
+ Yeah, the being able to like program your CDN thing, it's, it's interesting the way you describe
+
+00:12:06.880 --> 00:12:10.880
+ it, because we basically saw the exact same thing on the AWS side, we had, you know, we're helping
+
+00:12:10.880 --> 00:12:17.360
+ people deploy all these things behind the CDN. And they kept being like, well, I want to do this
+
+00:12:17.360 --> 00:12:22.240
+ if the user speaks this language, or I want to do this if they're from this country. And I want to
+
+00:12:22.240 --> 00:12:28.480
+ like redirect them in this place. And it just becomes, it's funny how like a whole computing
+
+00:12:28.480 --> 00:12:32.960
+ platform came out of that need until it makes a little sense, because there's just infinite custom
+
+00:12:32.960 --> 00:12:38.880
+ logic people want to apply. And yeah, AWS is the same thing. Like, you know, initially it was just,
+
+00:12:38.880 --> 00:12:42.480
+ you had patterns and you can like send them different places and like maybe like rewrite the
+
+00:12:42.480 --> 00:12:48.160
+ header somewhat. I think it eventually did add like a computing thing, but it's, it's so hilariously
+
+00:12:48.160 --> 00:12:55.200
+ limited it. You can run logic when a request comes in, but you can only run for one millisecond
+
+00:12:55.200 --> 00:13:03.840
+ run time limit. And it's like a, and you might already know this, but I forgetting the engine.
+
+00:13:03.840 --> 00:13:08.560
+ It's not like, it's like a very slim down, it's not like no JIS or like worker D or anything.
+
+00:13:08.560 --> 00:13:15.040
+ It's like a like pure JavaScript, like no other API is nothing. And even that like unlocked a lot,
+
+00:13:15.040 --> 00:13:20.000
+ but yeah, it's just not enough. You need like a full, a full thing eventually.
+
+00:13:20.000 --> 00:13:24.800
+ Yeah, it's interesting. There are, as you were saying this, I was like, wow, actually,
+
+00:13:24.800 --> 00:13:28.400
+ there are so many different approaches to this, right? So before we actually
+
+00:13:28.400 --> 00:13:33.760
+ embarked on workers, one of the things that we're looking at, because that's what so many
+
+00:13:33.760 --> 00:13:40.320
+ fastly users had was VCL. And so that's a really, really complex. At the end of the day, like,
+
+00:13:40.320 --> 00:13:46.480
+ it stands for varnish configuration language. So it's a config. It's not Turing complete, right?
+
+00:13:46.480 --> 00:13:53.840
+ But it is very, very expressive. And we saw a few challenges there. One, which was, if you
+
+00:13:53.840 --> 00:13:58.640
+ compare the number of people in the world that understand JavaScript versus people that understand
+
+00:13:58.640 --> 00:14:05.040
+ VCL, like every time I would talk to a customer that was, you know, looking at moving to us,
+
+00:14:05.040 --> 00:14:11.920
+ they would just be a little terrified because it's like, oh, well, Josh knows our VCL configuration.
+
+00:14:11.920 --> 00:14:18.080
+ And God forbid if Josh leaves, or maybe Josh did leave, and then you're talking to this team that's
+
+00:14:18.080 --> 00:14:26.640
+ like, yeah, I don't know what this does. And I'm terrified because everything's going to go haywire.
+
+00:14:26.640 --> 00:14:33.680
+ So that was one approach. And, you know, we knew from the beginning that we wanted something
+
+00:14:33.680 --> 00:14:38.960
+ more programmatic than that, because you can't, you know, do like particularly complicated
+
+00:14:38.960 --> 00:14:45.920
+ if statements are for loops or like really express logic through that. And at the time,
+
+00:14:46.480 --> 00:14:54.640
+ AWS had lambdas and they had lambda at edge. And both of these are slightly different approaches
+
+00:14:54.640 --> 00:14:59.600
+ too, but lambda at edge, it's interesting too, because they have a couple different definitions
+
+00:14:59.600 --> 00:15:06.720
+ of edge too. So it wasn't running in all of their cloud front locations and was still container-based.
+
+00:15:06.720 --> 00:15:13.440
+ So again, but more limited. But again, for us, we're like, okay, well, we're not going to deploy
+
+00:15:13.440 --> 00:15:19.280
+ containers because that's going to introduce a cold start. And for our use case that undoes
+
+00:15:19.280 --> 00:15:23.920
+ everything that we're trying to do. And so yeah, you have that approach. And then yeah, they kind
+
+00:15:23.920 --> 00:15:29.760
+ of have this new approach now that's a bit more in the middle. But to your point, yeah, I think
+
+00:15:29.760 --> 00:15:34.560
+ when I played around with it, last time I was trying to do something, even like return a custom
+
+00:15:34.560 --> 00:15:41.200
+ response. And you really are limited to there's an assumption of you're making a request to origin,
+
+00:15:41.200 --> 00:15:45.760
+ you're going to get a response from the origin. And you can modify kind of the metadata on either
+
+00:15:45.760 --> 00:15:50.400
+ side of that, but you can't go too far beyond that. Yeah, and you can't change this a huge issue,
+
+00:15:50.400 --> 00:15:54.000
+ we can't change the origin. So if we want complex, you can change the path, they can't change the
+
+00:15:54.000 --> 00:15:58.000
+ origin. So if you want like to build like a complex routing logic, you just can't do that.
+
+00:15:58.000 --> 00:16:04.080
+ Yeah, for the longest time, they kept directing people to lambda at edge, but that runs like after
+
+00:16:04.080 --> 00:16:10.320
+ this EDN, it like you can't change a lot of things. So a lot of stuff feels like they stumbled into
+
+00:16:10.320 --> 00:16:15.520
+ a problem and they like do a quick reactionary thing. The thing you brought up with a VCL is
+
+00:16:15.520 --> 00:16:20.000
+ funny because I think this pattern shows up in a lot of places. There's something called VTL,
+
+00:16:20.000 --> 00:16:26.720
+ which is a same concept in AWS, I mean, I think it's a velocity template language or something,
+
+00:16:26.720 --> 00:16:31.360
+ but AWS supports in a bunch of places where instead of like writing code, you can write these
+
+00:16:31.360 --> 00:16:36.000
+ config things. And like you said, it's very, it thinks very expressive, but not like really that
+
+00:16:36.000 --> 00:16:40.560
+ expressive and almost nobody knows how to use it. And the upside is it's like it's quote unquote
+
+00:16:40.560 --> 00:16:44.960
+ just config. The downside is like nobody knows how to use it, it like looks different than the rest
+
+00:16:44.960 --> 00:16:49.520
+ of your code, it takes you entirely out of like the mindset you have when you're working on other
+
+00:16:49.520 --> 00:16:54.640
+ stuff. And our son, that seaside, there's like great infrastructure as code tools out there like
+
+00:16:54.640 --> 00:17:02.640
+ Terraform. But again, the same trade off it's more configgy. So if you have like conditionals or loops,
+
+00:17:02.640 --> 00:17:07.760
+ it looks a little weird. And it looks nothing like the rest of your code. So bringing a lot of
+
+00:17:07.760 --> 00:17:14.400
+ stuff into JavaScript is really nice, because you immediately get all the return complete stuff.
+
+00:17:14.400 --> 00:17:18.480
+ Like everyone needs to do conditionals and loops no matter what type of thing you're building,
+
+00:17:18.480 --> 00:17:24.160
+ like you're about to need that. And to everybody knows it. I think the part that we've seen is
+
+00:17:24.160 --> 00:17:30.560
+ tricky is even though we've given you the ability to do like an all programming language,
+
+00:17:31.600 --> 00:17:35.040
+ you should still like kind of chill out with it. Like you should still country it like
+
+00:17:35.040 --> 00:17:39.840
+ it's config. You shouldn't like, like we see people in their infrastructure stuff with SST,
+
+00:17:39.840 --> 00:17:44.400
+ they build like these crazy abstractions and like they build all these packages that are
+
+00:17:44.400 --> 00:17:49.840
+ reusable and all this stuff. And it gets really far away from something that really should kind
+
+00:17:49.840 --> 00:17:55.280
+ of be like config. So yeah, it's that just that like you get people more power and it's good. But
+
+00:17:55.280 --> 00:18:00.720
+ you know, you got to make sure that they don't create the same mess that often happens everywhere else.
+
+00:18:00.720 --> 00:18:06.240
+ Yeah, I think that's a really interesting question of what layers the right layer for
+
+00:18:06.240 --> 00:18:14.160
+ configuration and what layer is just your application logic. And an interesting thing for us too,
+
+00:18:14.160 --> 00:18:20.800
+ was if you actually look at that original use case of I want to modify my CDN, actually a lot of
+
+00:18:20.800 --> 00:18:27.360
+ teams that manage cloth layer that are an infrastructure team that's used to CDN management,
+
+00:18:27.360 --> 00:18:33.520
+ they're a bit like, don't give me the Turing complete stuff. I'm not, I don't manage a code base
+
+00:18:33.520 --> 00:18:38.400
+ in that same way, give me a way to just manage rules. And so over time, we've actually still
+
+00:18:38.400 --> 00:18:43.760
+ continued to build out this like really complex rules engine that is much more of a configuration
+
+00:18:43.760 --> 00:18:48.560
+ language, because that's what those people want. And yeah, it turned out that this layer, what was
+
+00:18:48.560 --> 00:18:55.280
+ much more suitable for, okay, well, actually, I just want to write my application in this way.
+
+00:18:55.280 --> 00:19:00.720
+ And yeah, if you're a team that's, you know, an engineering team that's building features,
+
+00:19:00.720 --> 00:19:05.600
+ then that's exactly how you want to write it. And you want to, you know, you have all of the
+
+00:19:05.600 --> 00:19:10.960
+ development practices that you need in order to maintain this thing from, you know, source control
+
+00:19:10.960 --> 00:19:15.360
+ to testing to, you know, the rest of it. Oh, yeah, that's a huge thing. Like it's, that's kind of
+
+00:19:15.360 --> 00:19:19.840
+ what I mean by it takes you out of it. Like with normal code, there's just such a history with it,
+
+00:19:19.840 --> 00:19:25.440
+ like we've all know how to write it. There's all this stuff we collectively learned over time on how
+
+00:19:25.440 --> 00:19:31.280
+ to like collaborate on it, how to test it, how to like make it reproducible. There's so much
+
+00:19:31.280 --> 00:19:38.880
+ knowledge there. And I think a lot of tools try to like remove code and replace it with something
+
+00:19:38.880 --> 00:19:43.040
+ else. And there's some benefits to that. But like you're throwing away like such a deep
+
+00:19:43.040 --> 00:19:49.440
+ understanding and also tooling like editors are so tuned to like some of these popular languages.
+
+00:19:50.480 --> 00:19:55.040
+ And just having all that stuff work out of the box for everyone is, is quite nice.
+
+00:19:55.040 --> 00:19:59.840
+ The other thing I wanted to talk about was, um, he said it's been seven years as working on this.
+
+00:19:59.840 --> 00:20:06.320
+ Yeah, I just want to highlight like how long something like this takes. I think people conflate
+
+00:20:06.320 --> 00:20:10.960
+ this idea of you need to build something, get it out there and get feedback. That's like good.
+
+00:20:10.960 --> 00:20:16.800
+ But they kind of conflate that with, and then it all works out really fast also. But like this
+
+00:20:16.800 --> 00:20:22.240
+ stuff takes a long time and it takes like commitment to doing some of this stuff. So yeah, how, how has
+
+00:20:22.240 --> 00:20:26.720
+ it been just, you know, it's been quite a while you've been being this and working on it. You know,
+
+00:20:26.720 --> 00:20:32.720
+ if you told me seven years ago that I'd be working on this for seven years, I think I would be
+
+00:20:32.720 --> 00:20:42.080
+ a little surprised. But, you know, it's in some senses really rewarding in that, you know,
+
+00:20:42.960 --> 00:20:48.640
+ not to get into career advice and things like that. But I think an interesting thing about working
+
+00:20:48.640 --> 00:20:54.240
+ on something like this for such a long time is you get to see your decisions play out and you're
+
+00:20:54.240 --> 00:21:00.480
+ like, oh, you know, in retrospect, that was a mistake. Or I'm so glad we did that versus, you know,
+
+00:21:00.480 --> 00:21:07.200
+ because it really does take a long time for these things to play out. Like in one or two years,
+
+00:21:07.200 --> 00:21:13.840
+ you only see the beginnings, if any, of, you know, the ramifications of the different choices.
+
+00:21:13.840 --> 00:21:22.000
+ And yeah, I think, you know, it's always that there's a quote for this or something like that. But
+
+00:21:22.000 --> 00:21:29.920
+ anyway, yeah, you know, you get less done, I think, in a year than you set out to, but at the same time
+
+00:21:29.920 --> 00:21:36.400
+ you get more done, I think, in five years than you would have thought you would. So when I look at
+
+00:21:36.400 --> 00:21:40.880
+ how much is available on the platform now in terms of, you know, like primitives,
+
+00:21:40.880 --> 00:21:45.760
+ that blows my mind. I don't think I would have predicted that we would at this point have
+
+00:21:45.760 --> 00:21:57.360
+ object storage, queues, workflows, logs, KV, like there are so many AI, there are so many products.
+
+00:21:57.360 --> 00:22:02.320
+ But then there are other things that, you know, one of the first
+
+00:22:02.880 --> 00:22:08.560
+ PRDs that I worked on at some point was gradual rollouts. I think that was one of the first
+
+00:22:08.560 --> 00:22:12.480
+ things that Kent and I talked about, I would talk to a customer and they'd be like, you know,
+
+00:22:12.480 --> 00:22:17.120
+ it's super cool that I can push out a change and it's live to your network of 200 data centers
+
+00:22:17.120 --> 00:22:28.800
+ in less than 30 seconds. But that also terrifies me. Can I please have a lover by which, you know,
+
+00:22:28.800 --> 00:22:33.680
+ you know, happens over time. And there's this weird thing that happens where you're like,
+
+00:22:33.680 --> 00:22:38.320
+ yes, that makes a ton of sense. Let's start building it. And then a ton of stuff gets in the way where
+
+00:22:38.320 --> 00:22:43.520
+ you're like, okay, but we really need to do this first. This is higher priority. And this is another
+
+00:22:43.520 --> 00:22:48.320
+ priority. And all of these things kind of come up and there's unexpected complexity because
+
+00:22:48.320 --> 00:22:53.200
+ this another thing about, you know, building something for a long time is, you know, as you grow,
+
+00:22:53.200 --> 00:22:58.160
+ you get more teams. There's more interdependencies. So all of a sudden you realize like, oh, okay,
+
+00:22:58.160 --> 00:23:02.960
+ we built, you know, the like that part, but we need this other part and we need to connect these
+
+00:23:02.960 --> 00:23:08.480
+ dots. And so yeah, so certain things definitely take longer than you expect them to. And then other
+
+00:23:08.480 --> 00:23:16.400
+ things a year ago, you were asking about how these innovation weeks come together. And
+
+00:23:16.400 --> 00:23:25.920
+ you know, probably like a month and a half, two months before last year's birthday week,
+
+00:23:25.920 --> 00:23:32.160
+ we're like, we have to, we have to get AI running on Cloudflare. And we denounced constellation
+
+00:23:32.160 --> 00:23:36.160
+ previously, which was the original iteration of it. And that was where we got a lot of feedback.
+
+00:23:36.160 --> 00:23:44.880
+ That was like, this is cool, but I need GPUs. And we went from idea to AI running on GPUs all over
+
+00:23:44.880 --> 00:23:51.600
+ our edge in less than two months. So that's kind of thing where you would expect it to take longer.
+
+00:23:51.600 --> 00:23:56.560
+ And you know, that's the magic sometimes of having a deadline or forcing function is
+
+00:23:56.560 --> 00:24:00.320
+ we just like, we just don't have the time for it to take a long time. So it's just going to happen
+
+00:24:00.320 --> 00:24:05.520
+ real fast. Yeah, I mean, I think that's one of the best parts about working on something that
+
+00:24:05.520 --> 00:24:09.680
+ takes a long time. Like you said, you get less than a year than you thought, but then in five
+
+00:24:09.680 --> 00:24:15.120
+ years, you're just like, what the hell? And I think it's because the stuff compounds. And it's like
+
+00:24:15.120 --> 00:24:20.480
+ so hard to really imagine the power of that. It's, I'm sure you think about, you know,
+
+00:24:20.480 --> 00:24:25.840
+ where you guys were like seven years ago and like how difficult it was to do anything. And then now,
+
+00:24:25.840 --> 00:24:29.600
+ you're just like, what were we doing back then? Like, why are we going so slowly? You can't even
+
+00:24:29.600 --> 00:24:34.960
+ like understand how much things have come out and how much easier it's gone. Like for us, we went from
+
+00:24:34.960 --> 00:24:41.360
+ the V2 to V3. That was after several years of like kind of like rotating around the space and
+
+00:24:41.360 --> 00:24:45.760
+ like understanding it, like not really getting the primitives exactly right. Then I think we got the
+
+00:24:45.760 --> 00:24:50.880
+ primitives right. And just in the past six months, like we've done so much more than we've basically
+
+00:24:50.880 --> 00:24:56.560
+ done the entire history of the company, because everything now is set up for us to go do. And this
+
+00:24:56.560 --> 00:25:01.360
+ stuff just takes a long time. But yeah, I was surprised at the GPU stuff too. I'm like,
+
+00:25:01.360 --> 00:25:06.000
+ like, I was kind of surprised how fast all the AI stuff came together.
+
+00:25:06.000 --> 00:25:13.920
+ Given that like crazy, I mean, all the AI stuff has been really crazy. So, but yeah, I mean,
+
+00:25:13.920 --> 00:25:17.760
+ that must be the result of like all the work before then.
+
+00:25:17.760 --> 00:25:26.560
+ Yeah, I think to your point about having primitives right, that's where I mean, what allows us to
+
+00:25:26.560 --> 00:25:33.760
+ sometimes get the stuff running so quickly is we build on workers. A lot of our new announcements
+
+00:25:33.760 --> 00:25:39.440
+ are built on workers. So at the very least getting to a POC can happen really quickly.
+
+00:25:40.560 --> 00:25:47.680
+ Workers AI is actually largely runs on something that we talked about during birthday week,
+
+00:25:47.680 --> 00:25:53.760
+ runs on containers. And, you know, this is a big conversation that we've been having internally
+
+00:25:53.760 --> 00:25:58.960
+ about, you know, is that something that we expose to customers or not? But the fact that we've
+
+00:25:58.960 --> 00:26:05.440
+ had this platform for some time and we originally built it for Cloudflare Run's browser isolation
+
+00:26:05.440 --> 00:26:10.880
+ product as a part of our Zero Trust Suite. And you need a container for that. So we've had that
+
+00:26:10.880 --> 00:26:16.160
+ platform for a while. And the fact that, you know, that was something that we had, and we had a team
+
+00:26:16.160 --> 00:26:21.760
+ that was ready to go and build on it, made it that much, you know, the cold start was much faster on
+
+00:26:21.760 --> 00:26:25.920
+ that. Yeah, I mean, okay. I mean, yeah, that's something we should talk about. I think that was
+
+00:26:25.920 --> 00:26:30.640
+ maybe one of the more, I mean, you guys say it for Friday. So, you know, it was what the
+
+00:26:30.640 --> 00:26:39.040
+ containers platform stuff was one of the bigger surprises, I guess, because it now puts Cloudflare
+
+00:26:39.040 --> 00:26:47.680
+ in a completely different zone. I think for a while, everyone was kind of able to understand it as,
+
+00:26:47.680 --> 00:26:51.440
+ this is like a new way of building things. And if you like agree with this new way,
+
+00:26:51.440 --> 00:26:54.960
+ or that you want to commit to this new way, then you can go build the Cloudflare stuff.
+
+00:26:54.960 --> 00:27:01.040
+ But then introduction of containers means almost any kind of way of building can work. So we did a
+
+00:27:01.040 --> 00:27:07.920
+ similar shift to where we started very serverless focused. And there is like a large growing number
+
+00:27:07.920 --> 00:27:14.320
+ of very big serious companies that build that way. But it is an uphill battle and that you're
+
+00:27:14.320 --> 00:27:19.760
+ trying to like change the habits or like, here's a new way of doing things. You go learn all this
+
+00:27:19.760 --> 00:27:24.480
+ stuff and you agree with it and you go do it. And we shifted to now, we've done that for a while.
+
+00:27:24.480 --> 00:27:28.160
+ So like there wasn't much to do there anymore. And now we started support container stuff more.
+
+00:27:28.160 --> 00:27:31.200
+ And it's a totally different experience. It's like,
+
+00:27:31.200 --> 00:27:37.280
+ there's no one to like explain anything. There's nothing to explain. There's nothing to teach.
+
+00:27:37.280 --> 00:27:42.160
+ It's just, this is the way most the world operates. And they just like use it and they get it. And
+
+00:27:42.160 --> 00:27:48.320
+ it's much, much less of a battle. So I think it's going to be interesting to see when Cloudflare
+
+00:27:48.320 --> 00:27:52.560
+ containers comes out. I think something similar will happen obviously on a much larger scale.
+
+00:27:52.560 --> 00:27:57.200
+ I'm curious to actually hear more from you about what your experience has been.
+
+00:27:57.200 --> 00:28:04.800
+ And you know, to your point of on one hand, it unlocks so many things. And I think really
+
+00:28:04.800 --> 00:28:11.760
+ changes people's perception of what's possible on the other hand. Yeah, it was really interesting.
+
+00:28:11.760 --> 00:28:16.240
+ You know, I think we were all wondering how that announcement was going to go and what people's
+
+00:28:16.240 --> 00:28:22.400
+ takeaways were. And the takeaways surprised me a little bit or maybe the surprise of the wrong
+
+00:28:22.400 --> 00:28:29.760
+ word. But yeah, I'm very curious to see what happens when we actually put this in people's hands.
+
+00:28:29.760 --> 00:28:35.360
+ And so we'd love to hear about your experience of making that shift from
+
+00:28:35.360 --> 00:28:40.000
+ serverless containers. And did you see things that surprise you? Are people using it in the way
+
+00:28:40.000 --> 00:28:45.760
+ that you expected? Are people doing things that you're like, you know, this is not how I would
+
+00:28:45.760 --> 00:28:52.560
+ advise you to do it. Like knock yourself out. I think the main it's more like if it just feels
+
+00:28:52.560 --> 00:28:57.040
+ different. So what feels different about it is I suddenly feel like I'm talking to a thousand
+
+00:28:57.040 --> 00:29:02.560
+ ex more people. And I think that's just what happens when you break into a bigger market.
+
+00:29:02.560 --> 00:29:05.760
+ I realize before I felt like I was talking to a lot of people, there's like a lot of people that
+
+00:29:05.760 --> 00:29:10.160
+ built stuff in a serverless way. And I didn't really feel like, you know, it was necessarily small.
+
+00:29:10.160 --> 00:29:14.240
+ But the reality is the people that wanted to play containers, it's just so much bigger and
+
+00:29:14.240 --> 00:29:21.040
+ hard to even even fathom. And we're seeing people from like other communities that like have
+
+00:29:21.040 --> 00:29:24.640
+ nothing to do with JavaScript or like putting stuff together. Like someone's working on like a
+
+00:29:24.640 --> 00:29:32.160
+ Laravel, like a Laravel set up with SST and our container stuff. And that's so outside the range
+
+00:29:32.160 --> 00:29:37.520
+ of anything that we generally think about. So yeah, the surprise has just been like,
+
+00:29:37.520 --> 00:29:42.480
+ wow, there's like a lot of people out there. I feel like now we're finally seeing like everyone.
+
+00:29:43.040 --> 00:29:49.840
+ And our whole thing has always been progressive disclosure, which is we don't want you to have to
+
+00:29:49.840 --> 00:29:56.640
+ like learn so much upfront or like change it. We want to give you like incremental path to using
+
+00:29:56.640 --> 00:30:02.480
+ our stuff. And over time, we need to design a like progressive disclosure thing where like you
+
+00:30:02.480 --> 00:30:07.120
+ start to learn the things that are useful to know and you start to get more advanced and you start
+
+00:30:07.120 --> 00:30:11.360
+ to use other things that you know, so I didn't know coming in. And I kind of see containers in
+
+00:30:11.360 --> 00:30:16.160
+ the same way. And I think based on some of your team and based on that blog post, I think probably
+
+00:30:16.160 --> 00:30:23.440
+ similar where doing the container option means it's a no brainer for a lot of people like existing
+
+00:30:23.440 --> 00:30:27.520
+ workload, existing way of doing things, they can just go use it. But now they also have the ability
+
+00:30:27.520 --> 00:30:34.560
+ to like pull in these other serverless things here and there. Which even for me, I'm working on
+
+00:30:34.560 --> 00:30:40.720
+ something right now that is going to be container based. But I need to be able to spin up a lot
+
+00:30:40.720 --> 00:30:46.960
+ of headless browsers. And that makes way more sense to do in a serverless way. So like being
+
+00:30:46.960 --> 00:30:51.920
+ able to mix the two and giving people the ability to do that, I think, you know, over time, we've
+
+00:30:51.920 --> 00:30:57.200
+ just realized like the more options we give people like it just people will start to do
+
+00:30:57.200 --> 00:31:01.520
+ funny things with it that you don't that you don't imagine. I think you'll see that too. I think
+
+00:31:01.520 --> 00:31:05.680
+ you'll see people mixing containers and durable objects and all that stuff together in really
+
+00:31:05.680 --> 00:31:09.840
+ unexpected ways. I mean, people mixing all that stuff together I think is the really
+
+00:31:09.840 --> 00:31:17.600
+ interesting part. And that's the that's what we hope people will take away from this is that
+
+00:31:17.600 --> 00:31:26.800
+ yeah, you now have another tool in your arsenal that allows you to complete the picture or you
+
+00:31:26.800 --> 00:31:34.560
+ know, yeah, you don't have to force everything into the same model. But at the same time,
+
+00:31:35.600 --> 00:31:42.000
+ you know, the thing that I thought was kind of interesting is I really think people see the
+
+00:31:42.000 --> 00:31:51.280
+ word containers and stop reading, which is not too surprising. I suppose in some ways there are
+
+00:31:51.280 --> 00:31:56.800
+ literally some things like I saw questions when we announced this that are like, does this round
+
+00:31:56.800 --> 00:32:03.520
+ on firecracker? And it it there's literally a subset one that's like, yeah, it's a very long
+
+00:32:03.520 --> 00:32:09.920
+ detailed article. Yeah. Having been doing this for seven years, one thing that you realize is
+
+00:32:09.920 --> 00:32:15.840
+ distributed computing is really hard. I mean, computing actually period is really hard, right?
+
+00:32:15.840 --> 00:32:19.680
+ That's the challenge that most people have with applications. And if containers were perfect,
+
+00:32:19.680 --> 00:32:25.840
+ then what would we even be doing in the first place? Because, you know, people have Kubernetes,
+
+00:32:25.840 --> 00:32:31.120
+ like, why wouldn't they just happily be running that? And I think the reality is there are a lot
+
+00:32:31.120 --> 00:32:37.200
+ of challenges that come with that, both from, yeah, if you have a distributed audience standpoint,
+
+00:32:37.200 --> 00:32:43.440
+ which most people do, from a scaling standpoint and how many resources it takes. And, you know,
+
+00:32:43.440 --> 00:32:49.760
+ I think that that's kind of been the longtime argument about serverless versus not is yes,
+
+00:32:49.760 --> 00:32:57.040
+ you can run your $5 VPS, but most things scale beyond that. And then do you want to spend your
+
+00:32:57.040 --> 00:33:03.360
+ teams time on that? Or do you want to offload that to someone else? And a lot of what I think
+
+00:33:03.360 --> 00:33:07.920
+ historically has been done with serverless and where we saw the opportunity with workers was that
+
+00:33:07.920 --> 00:33:13.600
+ if you try to build serverless on top of containers, you end up with something that's not really all
+
+00:33:13.600 --> 00:33:21.040
+ that serverless, because it's an abstraction and it gets really quickly. You're still dealing with
+
+00:33:21.680 --> 00:33:29.120
+ regions, you're still dealing with concurrency, you're still paying for idle time and workers
+
+00:33:29.120 --> 00:33:33.520
+ flipped all of that on its head. And so if you're looking for something really serverless,
+
+00:33:33.520 --> 00:33:41.680
+ workers is just, it's going to be better. And yeah, yeah, we've had so many conversations
+
+00:33:41.680 --> 00:33:46.640
+ with people over the years where they would be like, why doesn't Cloudflare just let me
+
+00:33:46.640 --> 00:33:52.480
+ run a container and you would start asking them questions of, you know, okay, well, what would you
+
+00:33:52.480 --> 00:33:58.320
+ do? If we let you do that and they'd be like, okay, well, I have a goal application and I just
+
+00:33:58.320 --> 00:34:05.360
+ want to run it on Cloudflare's edge. It's like, okay, do you want to run it in all 200 data centers?
+
+00:34:05.360 --> 00:34:11.280
+ And sometimes they'll be like, yeah, and you're like, okay, do you want to pay for it to be running
+
+00:34:11.280 --> 00:34:18.640
+ 200 times? And they're like, no, you know, or like the other trade off that people
+
+00:34:18.640 --> 00:34:25.760
+ didn't realize is like, okay, well, now our request can hit any one of these 250 data centers. And
+
+00:34:25.760 --> 00:34:35.680
+ it's gonna, it's gonna cold start. So you got closer to the user, but your net performance is
+
+00:34:35.680 --> 00:34:41.040
+ negative, not positive, right? Is that what you want? And people are like, Oh, haven't thought about
+
+00:34:41.040 --> 00:34:46.720
+ that that no, that that's not what I want. And so that's where I really think the devil is going to
+
+00:34:46.720 --> 00:34:52.400
+ be in the details and in the use cases. And yeah, I think a lot of the interesting possibilities are
+
+00:34:52.400 --> 00:34:59.520
+ going to be where we can abstract away a lot of that by combining it with things like durable
+
+00:34:59.520 --> 00:35:05.440
+ objects where in most cases, I guarantee you actually don't need a container running in 250 data centers.
+
+00:35:05.440 --> 00:35:11.280
+ But we have the ability to be really smart about where we place your container so that it is always
+
+00:35:11.280 --> 00:35:18.000
+ warm so that it is closer to users. You can do a lot of things that, you know, where serverless was
+
+00:35:18.000 --> 00:35:24.560
+ traditionally kind of associated with stateless, all of a sudden you can maintain state and do things
+
+00:35:24.560 --> 00:35:32.960
+ like, you know, build games and all that kind of stuff. So and, you know, again, if I think about
+
+00:35:32.960 --> 00:35:38.640
+ some of our use cases for it, something like CI/CD, I think is a great example where it's something
+
+00:35:38.640 --> 00:35:44.880
+ that's slightly longer running. It's not on the critical path of it's not something that you
+
+00:35:44.880 --> 00:35:49.920
+ expect to be instantaneous, right? So we can kind of schedule it wherever we can actually in this
+
+00:35:49.920 --> 00:35:55.440
+ instance, make it really cheap because, you know, during certain times of day, we have data centers
+
+00:35:55.440 --> 00:35:59.680
+ that don't receive as much traffic. We can schedule it over there and pass the cost savings onto you.
+
+00:35:59.680 --> 00:36:06.560
+ So I think in some ways it's a lot more actually interesting and it opens up more stuff than people
+
+00:36:06.560 --> 00:36:10.800
+ think. Yeah, it's funny when I told Frank about the Cloudflare container stuff, the first thing
+
+00:36:10.800 --> 00:36:17.120
+ you ask was, "Oh, can we run CI/CD there?" Because we have a CI/CD product and it's like, it's weird.
+
+00:36:17.120 --> 00:36:24.320
+ CI is such a commodity, but it's annoyingly difficult in a lot of ways because there's just
+
+00:36:24.320 --> 00:36:29.600
+ like this funny traffic pattern with it too, like sometimes because of the Pentabot or whatever,
+
+00:36:29.600 --> 00:36:35.680
+ like the GitHub thing. It has a schedule and it'll like end up triggering a bunch of our
+
+00:36:35.680 --> 00:36:40.960
+ customers CI stuff. So we'll just get like a burst of a bunch of jobs randomly and being able to like
+
+00:36:40.960 --> 00:36:45.760
+ one, CI needs to run anything because people can do literally anything in their CI, like you have
+
+00:36:45.760 --> 00:36:49.680
+ no idea what they're going to put in there. So you can only use compute that's like very flexible.
+
+00:36:50.960 --> 00:36:56.480
+ But like making sure you have capacity to handle like peak versus, you know, what your average
+
+00:36:56.480 --> 00:37:02.160
+ load is, especially when it's not predictable. Yeah, it sucks. We actually ended up deciding
+
+00:37:02.160 --> 00:37:08.400
+ for like the next version, the more newer version of our product, we run CI inside the end users
+
+00:37:08.400 --> 00:37:14.720
+ accounts at least for AWS because just trying to manage like a centralized CI service,
+
+00:37:14.720 --> 00:37:20.240
+ it just so much, so much work. But yeah, something like this would be super helpful because there's
+
+00:37:20.240 --> 00:37:26.640
+ not a lot of options for on demand containers that you can just that can kind of like run anything.
+
+00:37:26.640 --> 00:37:31.280
+ Yeah, there's, yeah, so I think there's gonna be a lot of use cases that it opens up. And again,
+
+00:37:31.280 --> 00:37:38.000
+ I agree with you that doing all these cool like next gen stuff does require rethinking how you
+
+00:37:38.000 --> 00:37:41.920
+ build things and adopting a new architecture and a lot of that is sort of related. I think a lot
+
+00:37:41.920 --> 00:37:47.680
+ of discussion never even gets that far. It gets stuck on like really basic things like pricing or
+
+00:37:47.680 --> 00:37:52.000
+ like, do you need scale? It's kind of like the tired things we see all the time. But that's not
+
+00:37:52.000 --> 00:37:55.520
+ really the reason I even shifted there. It's funny. I think the thing you said about Kubernetes
+
+00:37:55.520 --> 00:38:02.080
+ reminded me of this. So for a long time, every time I build something, I would just get generic
+
+00:38:02.080 --> 00:38:05.680
+ compute and with our Kubernetes on it and then schedule everything through there. That's how I
+
+00:38:05.680 --> 00:38:10.880
+ built everything. And what was nice about it was I never have to learn anything new, like I knew
+
+00:38:10.880 --> 00:38:17.840
+ that, throw anywhere, whether it's AWS, GCP, whatever. Then I joined this team. And for the first time
+
+00:38:17.840 --> 00:38:22.720
+ in my career, because I always worked either on my own companies or early stage, we had a dedicated
+
+00:38:22.720 --> 00:38:28.880
+ DevOps person. So it wasn't my job to figure that out. Cool. Totally fine with that. And I was looking
+
+00:38:28.880 --> 00:38:35.440
+ at what he was doing. And he was using AWS ECS for gate, which is like a managed container offering.
+
+00:38:35.440 --> 00:38:40.400
+ So you're not doing any of the work, just met the container and you pay for it. And I asked him like,
+
+00:38:40.400 --> 00:38:45.600
+ this is like three times as expensive. Why are we doing this versus the thing that I've always done?
+
+00:38:45.600 --> 00:38:50.080
+ And he said something to me that like totally changed the way that I looked at everything. And
+
+00:38:50.080 --> 00:38:55.600
+ I felt so stupid for not thinking about it this way. He was like, so at the time, we were actually
+
+00:38:55.600 --> 00:39:00.000
+ building out a payment processing system. So we had to go through all of the compliance stuff for
+
+00:39:00.000 --> 00:39:05.440
+ it. He was like, yeah, you're talking it. He was like, you're basically describing like a $15 a
+
+00:39:05.440 --> 00:39:12.400
+ month per container versus like a $45 a month container situation. In the $45 a month container
+
+00:39:12.400 --> 00:39:17.600
+ situation, we get to go tell all the compliance people that we don't have access to the servers.
+
+00:39:17.600 --> 00:39:23.520
+ And that is a little worth like tens of thousands of dollars to like not have to be like, here's
+
+00:39:23.520 --> 00:39:28.800
+ how we're hardening like that whole thing, right? So that like you said, like comparing
+
+00:39:28.800 --> 00:39:32.720
+ the five of our VPS thing, it's not really about the little cost of the compute. It's about
+
+00:39:33.600 --> 00:39:38.400
+ the security questionnaires you get when you go with talk to like a big enterprise company.
+
+00:39:38.400 --> 00:39:42.880
+ It's about like the compliance stuff. Being able to say like, I don't have access to any of that
+
+00:39:42.880 --> 00:39:47.920
+ stuff, like eliminates so many of the questions, so much of the burden. And that it felt silly for
+
+00:39:47.920 --> 00:39:53.520
+ me to like bring up like a $30 difference, you know, in the face of that. Yeah, ever since then,
+
+00:39:53.520 --> 00:39:57.760
+ that's when I was stuck to open my mind to, okay, like, if I do more serverless stuff,
+
+00:39:57.760 --> 00:40:01.280
+ all of these problems I've been dealing with my whole career or something. So I'm like,
+
+00:40:01.280 --> 00:40:04.720
+ got and there's a lot of things like that to go away that I don't think you talked about a lot.
+
+00:40:04.720 --> 00:40:12.080
+ Yeah, you touched on two things that I think are really interesting, maybe three. But the first is,
+
+00:40:12.080 --> 00:40:17.920
+ you know, the setting up Kubernetes and scheduling, everything was kind of how you'd always done
+
+00:40:17.920 --> 00:40:25.840
+ stuff. And I think that in that way, you know, people there's people always ask like, what's the
+
+00:40:25.840 --> 00:40:31.200
+ best dx? And I think the best dx is the thing that you're used to. That's the thing that's always
+
+00:40:31.200 --> 00:40:36.480
+ gonna, it's not an objective thing, right? It's actually, it's gonna be the thing that feels the
+
+00:40:36.480 --> 00:40:42.640
+ fastest to you. And that's something that we think about a lot is like, how do we, we have this
+
+00:40:42.640 --> 00:40:47.040
+ actually pretty different programming paradigm. And so how do we expose it in a way that does
+
+00:40:47.040 --> 00:40:52.640
+ feel familiar so that you don't feel like you're relearning everything? Because when you do have
+
+00:40:52.640 --> 00:40:58.320
+ to do that, it does feel like this really big hurdle of like, okay, I know that my way of doing
+
+00:40:58.320 --> 00:41:02.400
+ this is inefficient and requires like five, four loops, and that doesn't make sense. But at least
+
+00:41:02.400 --> 00:41:08.800
+ I'll get it done and I couldn't call it a day. So yeah, you know, that's why we've been working on
+
+00:41:08.800 --> 00:41:13.680
+ the node compat stuff. And I think that containers is gonna go really long away there of just giving
+
+00:41:13.680 --> 00:41:19.360
+ people something to hold on to that feels familiar and kind of get started from that. But yeah, I
+
+00:41:19.360 --> 00:41:26.080
+ think that the second thing that's really interesting here is to your point, it did. All of that compliance
+
+00:41:26.080 --> 00:41:31.680
+ stuff didn't matter to you when you were building as an individual. And at the same time, you know,
+
+00:41:31.680 --> 00:41:38.000
+ that difference between like $15 and $45 felt really significant to you. And I feel like that's
+
+00:41:38.000 --> 00:41:43.600
+ where things sometimes get lost in the Twitter conversation too of, you know, I think it's great
+
+00:41:43.600 --> 00:41:48.800
+ that they're such a big community of people. You know, I think we're both that way. We just like
+
+00:41:48.800 --> 00:41:55.200
+ to build stuff in our spare time. And it's a great way to learn new technologies. But what you need
+
+00:41:55.200 --> 00:42:01.680
+ for, you know, your blog or your side project or whatever is so different from the requirements
+
+00:42:01.680 --> 00:42:08.880
+ of a company. And that's where, yeah, like, you know, knock yourself out, setting up Docker on a
+
+00:42:08.880 --> 00:42:17.120
+ $5 VPS, like it just doesn't matter. But when you're running in production, and you're doing this as a
+
+00:42:17.120 --> 00:42:24.000
+ part of a multi million, multi billion dollar business, where literally every second of latency
+
+00:42:24.000 --> 00:42:31.200
+ correlates with revenue, where, yeah, you have compliance requirements to meet where, you know,
+
+00:42:31.200 --> 00:42:36.480
+ people's time really adds up. If you think about, you know, the cost of an engineer,
+
+00:42:36.480 --> 00:42:47.200
+ $100,000 even starts to look pretty small compared to, you know, all of the alternatives.
+
+00:42:47.200 --> 00:42:51.200
+ Yeah. And the other thing is like you're, and you talked about it a little bit earlier,
+
+00:42:52.160 --> 00:42:56.240
+ when your team size grows, it's just always a negative thing. Like it's,
+
+00:42:56.240 --> 00:43:00.480
+ it benefits to it. There's like always a permanent negative thing when there's just more people
+
+00:43:00.480 --> 00:43:04.720
+ involved. So even if it's sometimes for me, I'm like, even if it's cheaper to hire people to do
+
+00:43:04.720 --> 00:43:11.040
+ it ourselves, like the fact that we can keep our team smaller, like that's worth like some kind of
+
+00:43:11.040 --> 00:43:16.880
+ crazy and tangible amount. Like, yeah, I saw I was at my last company where we did something where
+
+00:43:16.880 --> 00:43:20.800
+ it made us a lot more money. We like, in house, something that made this, again,
+
+00:43:20.800 --> 00:43:25.360
+ this payment thing, it made us like a crazy amount of money. And like on paper, it like made total
+
+00:43:25.360 --> 00:43:30.720
+ sense. And nobody would really think like, of course, like everyone just, of course, we should
+
+00:43:30.720 --> 00:43:35.280
+ do that. Like we're making all this money. But it like grew the organization, like we needed to
+
+00:43:35.280 --> 00:43:39.200
+ bring in people on the engineering side, which meant we needed more people on the recruiting side,
+
+00:43:39.200 --> 00:43:43.280
+ which meant we need people more people on the HR side. And then then we needed like more data
+
+00:43:43.280 --> 00:43:48.400
+ engineers to handle this stuff. And again, it was all extremely profitable to do, but it kind of
+
+00:43:48.400 --> 00:43:52.480
+ permanently changed the culture of the company. And I always wonder, it's not like we would have
+
+00:43:52.480 --> 00:43:55.440
+ been sitting there doing nothing. We would have been working on something else instead. And I
+
+00:43:55.440 --> 00:43:58.480
+ kind of wonder if we could have worked on something that was a lot more differentiated.
+
+00:43:58.480 --> 00:44:04.480
+ But yeah, it's hard to see past the direct. This is technically more expensive than if we
+
+00:44:04.480 --> 00:44:09.040
+ in house it. There's a lot of these like intangible things that come up.
+
+00:44:09.040 --> 00:44:15.040
+ Yeah, I think that's going to become even more interesting in some ways in the AI age where
+
+00:44:17.120 --> 00:44:22.960
+ the productivity of a single person can go so much further in some ways, right? And so,
+
+00:44:22.960 --> 00:44:30.000
+ yeah, I do wonder if especially, yeah, like as a small startup as a team of three, you can go
+
+00:44:30.000 --> 00:44:35.200
+ so far so fast, just bootstrapping things and building in a serverless way.
+
+00:44:35.200 --> 00:44:42.480
+ But yeah, I wonder if there's going to be like even more and more scrutiny over, you know,
+
+00:44:42.480 --> 00:44:47.520
+ build verse by and what's the, you know, liability of growing a team? Yeah. And this stuff is so
+
+00:44:47.520 --> 00:44:54.080
+ complicated because there are ways to like if you have like a very traditional application and
+
+00:44:54.080 --> 00:44:57.680
+ you move it to the cloud, you're going to look at what you're getting, you're going to be like,
+
+00:44:57.680 --> 00:45:02.000
+ this sucks. This is a scam. It kind of is like you're just paying for regular servers, but like
+
+00:45:02.000 --> 00:45:06.400
+ 10 next more and your applications are very traditional applications that can literally run
+
+00:45:06.400 --> 00:45:10.080
+ anywhere. So why would you pick the run in the cloud? So I totally get that perspective.
+
+00:45:11.120 --> 00:45:15.920
+ I also get the perspective that not all serverless is the same, you know, like there's a lot of
+
+00:45:15.920 --> 00:45:21.040
+ stuff that has been serverless and is like really out in the world is like, this is a
+
+00:45:21.040 --> 00:45:25.280
+ serverless way to do it. That doesn't have a lot of benefits of being serverless in terms of like
+
+00:45:25.280 --> 00:45:30.560
+ the cost being basically super cheap or the capabilities being really powerful. And so people
+
+00:45:30.560 --> 00:45:36.000
+ have an impression of what serverless is that isn't necessarily like the accurate representation
+
+00:45:36.000 --> 00:45:42.400
+ of it. So yeah, I still really, even though with our shift to like working on stuff outside of
+
+00:45:42.400 --> 00:45:48.960
+ serverless and I think same for you for all of you, I still like believe in that model. And there's
+
+00:45:48.960 --> 00:45:52.240
+ just so many problems that now that I'm doing it, I'm putting something that's in the container
+
+00:45:52.240 --> 00:45:58.080
+ way again, I'm like, I just saw this problem now or like, okay, this thing can get like a burst of
+
+00:45:58.080 --> 00:46:02.880
+ requests. And then that's just going to overwhelm the whole system and nothing's going to work.
+
+00:46:02.880 --> 00:46:08.960
+ And like, I'm remembering that was like 80% of my work. People always talk about scale where they're
+
+00:46:08.960 --> 00:46:13.920
+ like, oh, yeah, yeah, like keep scaling things up and up and up. A lot of times my work was like,
+
+00:46:13.920 --> 00:46:19.600
+ how do I slow shit down? So it doesn't overwhelm the system and shifting the serverless like made
+
+00:46:19.600 --> 00:46:24.320
+ that like kind of go away and I'm like back dealing with it again. So yeah, it's what you said,
+
+00:46:24.320 --> 00:46:29.280
+ like people are used to the reality is you can get good at anything like whatever technology you're
+
+00:46:29.280 --> 00:46:33.200
+ using. There's stuff that is perfectly good at there's stuff that's bad at you spend enough time
+
+00:46:33.200 --> 00:46:38.000
+ with it. You're going to get good at mitigating bad parts and taking advantage of the good parts.
+
+00:46:38.000 --> 00:46:42.480
+ So that's that's true of everything. So I get why like if you're used to something,
+
+00:46:42.480 --> 00:46:46.400
+ it doesn't feel that bad because you're going good at using it. But you can get good at using
+
+00:46:46.400 --> 00:46:51.040
+ a new thing too. I think also to your point about, you know, if you're managing a bunch of servers
+
+00:46:51.040 --> 00:46:54.400
+ and then you look at something like the cloud and you're like, oh, that's so much more expensive and
+
+00:46:54.400 --> 00:47:00.560
+ still managing servers. If you've been doing that and you have a team that has that in-house
+
+00:47:00.560 --> 00:47:07.600
+ expertise, then it makes sense to keep doing that in some way. But if I think back to your comment
+
+00:47:07.600 --> 00:47:15.200
+ about the product is growing, we need to hire more people in order to keep up with customer demand
+
+00:47:15.200 --> 00:47:20.560
+ and all of that. The availability of talent, I think, is something that everyone in this industry
+
+00:47:20.560 --> 00:47:26.800
+ struggles with. And so then I think the question also becomes, you know, I think you're odds of
+
+00:47:26.800 --> 00:47:35.360
+ being able to hire someone that's really capable. And like, I think that there's this aspect of,
+
+00:47:35.360 --> 00:47:40.160
+ sorry, I'm struggling to think of the word, but Bay Area to entry effectively, right? You can
+
+00:47:40.160 --> 00:47:45.840
+ get a really smart engineer that if you give them the tools that they need vis-a-vis serverless,
+
+00:47:45.840 --> 00:47:52.800
+ can get running just slinging code versus, I think, finding people that if we take the example of
+
+00:47:52.800 --> 00:47:58.880
+ literally managing physical servers, there are just far, far fewer people in the world that are
+
+00:47:58.880 --> 00:48:07.440
+ capable to do that. So again, calibrating that, who is your next hire going to be? And do you want
+
+00:48:07.440 --> 00:48:15.440
+ to spend a much money trying to get talent that's very uniquely specialized and knows how to do all
+
+00:48:15.440 --> 00:48:21.360
+ the stuff or, you know, like, today you can get a really great college grad, especially, you know,
+
+00:48:21.360 --> 00:48:28.480
+ with the help of AI that is going to be able to, you know, get running so much faster if, you know,
+
+00:48:28.480 --> 00:48:32.080
+ that, like, all they have to do is figure out how to run JavaScript.
+
+00:48:32.080 --> 00:48:35.440
+ Yeah. And I think the other interesting thing, I mean, you have this perspective, I have this
+
+00:48:35.440 --> 00:48:40.400
+ perspective too. We just see a lot of companies building in all sorts of ways. So in a lot of
+
+00:48:40.400 --> 00:48:45.520
+ discussions, people describe like these horrible scenarios of like, it just makes it seem like this
+
+00:48:45.520 --> 00:48:49.920
+ stuff can never work out. But like, every day, we see, you know, thousands of companies that
+
+00:48:49.920 --> 00:48:55.440
+ are on their own, making their own, like, rational decisions for whatever makes sense for them,
+
+00:48:55.440 --> 00:49:00.480
+ choosing to build in a certain way. And it just works. And it works particularly well. I get building
+
+00:49:00.480 --> 00:49:06.720
+ it in all sorts of forms. So you just kind of get less nice for me, just like, the way people,
+
+00:49:06.720 --> 00:49:12.240
+ the stuff is described, you feel so exaggerated, because like, they're just people doing this
+
+00:49:12.240 --> 00:49:16.720
+ every single day, and they like never, they're never like, introspecting, like, is this right?
+
+00:49:16.720 --> 00:49:20.560
+ There's not thinking about this stuff. They're like, it just never comes up.
+
+00:49:20.560 --> 00:49:26.400
+ Yeah, it's hard to like get a sense for that. We just are seeing the discussions around these things.
+
+00:49:31.840 --> 00:49:36.480
+ How's New York? I know it's good in all time, which was my wife's favorite time of the year, but I
+
+00:49:36.480 --> 00:49:40.560
+ think it's a lot of people's fair time of the year. It's definitely my favorite. Every day,
+
+00:49:40.560 --> 00:49:46.560
+ I'm just savoring. There are, I think, like 16 weeks in the year, maybe a little less than that,
+
+00:49:46.560 --> 00:49:51.440
+ where New York is just perfect, and they're spread across fall and spring. And every day of those,
+
+00:49:51.440 --> 00:49:56.960
+ I don't want to leave. Yeah. It's funny, because I'm such a little like,
+
+00:49:58.160 --> 00:50:01.920
+ I'm like a little baby with this stuff, where I'm like, the moment it gets a little cold,
+
+00:50:01.920 --> 00:50:06.880
+ all I can think about is that means winter is coming. So I could just never enjoy fog,
+
+00:50:06.880 --> 00:50:11.360
+ because to me, it was like an impending joke. It was like a sign impending exactly.
+
+00:50:11.360 --> 00:50:14.560
+ It's all I can think about. I'm like, it's coming. It's coming again. It's going to be horrible.
+
+00:50:14.560 --> 00:50:20.000
+ But most people, I think, know how to enjoy it. People love fall in New York.
+
+00:50:20.000 --> 00:50:25.920
+ I think the way that you feel about winter is how I feel about summer, where winter, I'm like,
+
+00:50:25.920 --> 00:50:32.480
+ I can handle. I can be cozy versus I don't deal with the heat very well. So that's how I feel in
+
+00:50:32.480 --> 00:50:39.680
+ the spring, where I'm like, Oh God, the temperatures are rising. It's coming. Yeah. My favorite part of
+
+00:50:39.680 --> 00:50:45.120
+ New York was I had this like crystal clear image in my head because I feel like it literally happens
+
+00:50:45.120 --> 00:50:51.840
+ this way every single year. You'll be the winter. And also only one day you leave. It's like nice.
+
+00:50:51.840 --> 00:50:58.960
+ You leave work and it feels like some AI generated scenes. It's like everyone's walking around happy
+
+00:50:58.960 --> 00:51:02.880
+ eating ice cream. There's like people skateboarding and everyone's like, it's like 4pm and everyone's
+
+00:51:02.880 --> 00:51:08.240
+ kind of already out of work. And so the most idyllic scene you can possibly imagine. It just happens
+
+00:51:08.240 --> 00:51:13.600
+ every single year. And I'd like clearly can remember that. I know exactly what you're talking about.
+
+00:51:13.600 --> 00:51:22.320
+ And yeah, it's like, it's only somehow a Friday. That's the first magical way. And yeah, everyone
+
+00:51:22.320 --> 00:51:27.280
+ is just having the best time of their lives. It's so cute. Yeah, I know. It's a yeah, I think it's a
+
+00:51:27.280 --> 00:51:33.840
+ nice thing about having seasons. There's like these rhythms to it. Now that it might be for two years,
+
+00:51:33.840 --> 00:51:39.520
+ I guess maybe two and a half years or so. It's funny because it's like, it feels very different.
+
+00:51:39.520 --> 00:51:45.360
+ It just feels like one continuous sense of existence. Like there are seasons, but like I don't really
+
+00:51:45.360 --> 00:51:49.440
+ perceive them that much. And it feels totally different. It almost feels like time is frozen.
+
+00:51:49.440 --> 00:51:55.200
+ And there's things I like about it, but I can see how it might drive people kind of crazy.
+
+00:51:55.200 --> 00:52:01.200
+ No, I know exactly what you mean. I used to live in San Francisco and it's funny. I was just there
+
+00:52:01.200 --> 00:52:09.520
+ last week for birthday week. And every time I visit now, it is actually, it's New York Falls
+
+00:52:09.520 --> 00:52:14.960
+ weather, but year round, which for me is actually, I'm like, that's my perfect climate. I know some
+
+00:52:14.960 --> 00:52:19.760
+ people love Miami or San Diego, where it's sunny. For me, I'm like, this is ideal. And sometimes I'm
+
+00:52:19.760 --> 00:52:26.080
+ like, I can't believe I love this weather behind. But there is a nice thing about the rhythm where
+
+00:52:26.080 --> 00:52:32.480
+ you're always looking forward to something. And yeah, there's these changes and you get different
+
+00:52:32.480 --> 00:52:37.760
+ produce and. Yeah, oh, yeah, the produce stuff is. I mean, yeah, I think we still have like seasonal
+
+00:52:37.760 --> 00:52:45.680
+ eating here too. But as a weird to eat, I don't know, pumpkin soup, when it's like 85, 90 degrees
+
+00:52:45.680 --> 00:52:49.360
+ out. Okay, this is what I was going to bring up. This is the, this is the weirdest thing for me,
+
+00:52:50.080 --> 00:52:56.320
+ because I grew up in the Northeast, from the ages of five to 30, basically, within the Northeast.
+
+00:52:56.320 --> 00:53:04.640
+ And there's this permanent thing in my head of it's Christmas time, it's snowy, people put up
+
+00:53:04.640 --> 00:53:10.800
+ Christmas trees, you put up breeds, and it feels a certain way. In Miami, guess what? They do all
+
+00:53:10.800 --> 00:53:16.160
+ the same stuff. They put up breeds, but it's like 90 degrees. And it just looks like, I think
+
+00:53:16.160 --> 00:53:21.680
+ aesthetically, it just looks, it just feels wrong. I think innately, you look at like all those green
+
+00:53:21.680 --> 00:53:29.680
+ like, Christmas-y plants and stuff. And it just does not make sense. And I wish people here would stop
+
+00:53:29.680 --> 00:53:36.800
+ like, my wife says, the Northeast has like a monopoly on like, holidays, basically, like the
+
+00:53:36.800 --> 00:53:42.400
+ whole country, like, oriented towards like the Northeast version of the holiday, where I'm like,
+
+00:53:42.400 --> 00:53:47.040
+ this makes no sense. Like, this, this looks off. Like, you even see this at Christmas, like,
+
+00:53:47.040 --> 00:53:54.480
+ like the, like the red, you know, banners and all that. It just feels totally wrong. And I feel like
+
+00:53:54.480 --> 00:54:01.840
+ we should just come up with our own thing that's totally different. It just, it just feels off.
+
+00:54:01.840 --> 00:54:06.560
+ I mean, you think of, you think of October and Halloween, and you think of Christmas,
+
+00:54:06.560 --> 00:54:12.640
+ you imagine Meg Ryan, you know, in New York and appropriate weather. If you transplant Meg Ryan
+
+00:54:12.640 --> 00:54:19.040
+ into Miami, it makes no sense. I know, it's horrible. And then like, in fall, people were like,
+
+00:54:19.040 --> 00:54:23.440
+ we're flannel. And I'm like, you are melting in that. Like, that's just not the right thing.
+
+00:54:23.440 --> 00:54:30.080
+ But yeah, it just somehow the Northeast has that influence over. I think over more than just the
+
+00:54:30.080 --> 00:54:36.080
+ rest of the US. So my partner is from Australia. And so I never really thought about it. But
+
+00:54:36.080 --> 00:54:41.600
+ their business is in the summer. And so, yeah, you know, like Christmas barbecue.
+
+00:54:41.600 --> 00:54:46.240
+ Exactly. I was going to be on the same thing. I met someone from, someone from South Africa
+
+00:54:46.240 --> 00:54:50.080
+ worked with me. And he was like, Oh, yeah, Christmas, like watermelon and barbecue. And I'm like,
+
+00:54:50.080 --> 00:54:54.800
+ what are you talking about? That just sounds insane. But yeah, it's all flipping.
+
+00:54:54.800 --> 00:54:58.400
+ Santa and watermelon and barbecue get out of here.
+
+00:54:58.400 --> 00:55:04.880
+ Just like, I, to be honest, I still like refuse, like my brain, like, understands.
+
+00:55:04.880 --> 00:55:09.200
+ It's real. Like the same way I understand a dinosaur is a real, but like, I'm just like,
+
+00:55:09.200 --> 00:55:13.520
+ no, it can't have really like, it just, I don't, it doesn't really make sense in my head.
+
+00:55:13.520 --> 00:55:18.720
+ I feel like I need to go there and be there to understand it. And that means like our summer
+
+00:55:18.720 --> 00:55:24.240
+ hall. I guess our summer holidays are, I guess, like, specific to the US, like for the July,
+
+00:55:24.240 --> 00:55:31.120
+ but then their summer holidays are like cold, really weird. I feel like this is not talked about
+
+00:55:31.120 --> 00:55:37.760
+ that much. Like half of the world is on the opposite schedule. And we never talked about it.
+
+00:55:37.760 --> 00:55:45.040
+ Yeah, we're very more than hemisphere centric. Yeah. We're like, it's getting so cold. And then
+
+00:55:45.040 --> 00:55:48.400
+ meanwhile, the other side of the world's like, Oh, yeah, we're looking forward to summer.
+
+00:55:48.400 --> 00:55:52.160
+ Well, it's wild. You're going to be out here in a couple of weeks, right?
+
+00:55:52.160 --> 00:55:58.080
+ Next month. So November 18th. That's right. Yeah. I, I haven't been cold in a very long time.
+
+00:55:58.960 --> 00:56:04.480
+ Like physically, I haven't felt the feeling of cold even on a jacket.
+
+00:56:04.480 --> 00:56:10.640
+ So my, my experience in New York was a, so I lived there for 10 years. The first five or six years,
+
+00:56:10.640 --> 00:56:14.080
+ I was just like, I'm just going to layer up. I'm just going to layer. And that's how I'm going to
+
+00:56:14.080 --> 00:56:17.600
+ deal with the cold. I'm just going to keep layering. And it just never layered well. And I was basically
+
+00:56:17.600 --> 00:56:21.760
+ like freezing all the time. And then finally, I was like, you know what, I'm just going to give
+
+00:56:21.760 --> 00:56:29.120
+ in. I'm buying one of these crazy expensive, like meant for traversing, I don't know, like the
+
+00:56:29.120 --> 00:56:33.520
+ North Pole South Pole, whatever, jackets, like Antarctica or something. Yeah, exactly. So that,
+
+00:56:33.520 --> 00:56:38.160
+ I went to the company, Arturics. I don't know, you know, you pronounce it. And what's cool about
+
+00:56:38.160 --> 00:56:47.360
+ their stuff that's pretty lightweight. I bought it. And I was like, Oh, this is why I was so miserable
+
+00:56:47.360 --> 00:56:51.760
+ the whole time. I can really wear a t-shirt and put that thing on. And I'm, and I'm good. Like,
+
+00:56:51.760 --> 00:56:57.920
+ I'm good for the whole winter. It's such a good jacket. So I have that somewhere. I don't think
+
+00:56:57.920 --> 00:57:01.360
+ November is cold enough to justify that. But I'm going to, I'm probably going to wear it because I
+
+00:57:01.360 --> 00:57:05.760
+ don't want to feel cold at all. You might as well, I don't know, it does get pretty chilly,
+
+00:57:05.760 --> 00:57:11.200
+ especially in the mornings. The way you just made me think of with the layering is the funny thing
+
+00:57:11.200 --> 00:57:16.480
+ about San Francisco. And the thing that I do cherish about New York summers is that it's warm in the
+
+00:57:16.480 --> 00:57:21.840
+ evenings versus in San Francisco, you can have the most beautiful sunny day and then the second
+
+00:57:21.840 --> 00:57:28.800
+ the sun sets. If you didn't think ahead and bring layers, you just go to instant freezing.
+
+00:57:28.800 --> 00:57:32.880
+ Oh, yeah, I hate that. I'm so about that stuff. I'm happy to meet in New York too in certain times
+
+00:57:32.880 --> 00:57:39.120
+ of the year when it was like that. Yeah. It's, it's just like, I just didn't know it. Basically,
+
+00:57:39.120 --> 00:57:42.720
+ most of the time I lived there, maybe like, same percent of the time I lived there, I just didn't
+
+00:57:42.720 --> 00:57:48.400
+ know how to dress properly for the weather. But I got, I got that jacket and I also got one of those,
+
+00:57:48.400 --> 00:57:54.320
+ those crazy hats that made the raccoon fur look like that. And they're called heaters.
+
+00:57:54.320 --> 00:57:57.360
+ I love that. You have to bring that out here for sure.
+
+00:57:57.360 --> 00:58:00.320
+ I'm going to bring everything. That's like, that was like my setup. And once I had that,
+
+00:58:00.320 --> 00:58:05.840
+ I was like, I am never going to be cold again. It's a solved problem. Like, we have the technology
+
+00:58:05.840 --> 00:58:11.280
+ to be warm. You've got to commit to it. Also, it's like so worth it too that the jacket was like,
+
+00:58:12.320 --> 00:58:18.400
+ $1,000, which seems like a lot. But I use it for five years. It still looks brand new and it basically,
+
+00:58:18.400 --> 00:58:26.960
+ you know, like saves my ass for half the year. So yeah, I was thinking there must be some comparison
+
+00:58:26.960 --> 00:58:31.920
+ there to be made with like servers and serverless and like, advertising it over the cost.
+
+00:58:31.920 --> 00:58:40.960
+ Yeah. A lot of life is just buying the bullet and just doing it. My, you know, like, Liz refused to
+
+00:58:40.960 --> 00:58:45.680
+ make this shift because the reality is is like, the thing I hated about the winner is it's just so
+
+00:58:45.680 --> 00:58:49.520
+ bulky. Like everyone's just so bulky. Like everyone's like wearing all this stuff. And like,
+
+00:58:49.520 --> 00:58:53.440
+ you go inside and everyone's like taking off layers and like piling it on something.
+
+00:58:53.440 --> 00:58:57.520
+ Just isn't overstimulation. Yeah, exactly. And so for her, she's like,
+
+00:58:57.520 --> 00:59:03.360
+ none of those jackets are like cute. So for her, she was just like very much resisting
+
+00:59:03.360 --> 00:59:08.560
+ that. And she was just always cold. So that's a challenge.
+
+00:59:08.560 --> 00:59:15.440
+ I think that's why fall is the Supreme season. So today the weather is like you can wear a sweater
+
+00:59:15.440 --> 00:59:21.440
+ outside, but you don't need a jacket, which I feel like there is maybe actually like two weeks
+
+00:59:21.440 --> 00:59:26.960
+ in the year that are like that. Everyone gets to see your outfit. You look cute because it's not
+
+00:59:26.960 --> 00:59:33.840
+ hidden under, you know, your tundra jacket. So yeah. Yeah. And then the winner, I would just,
+
+00:59:33.840 --> 00:59:38.720
+ I would literally, I've gone like 10 days without leaving my apartment and stuff like I would just
+
+00:59:38.720 --> 00:59:44.640
+ hide inside. So it's not that I think just was not the environment for me. But you know, I do miss
+
+00:59:44.640 --> 00:59:51.520
+ it. I think I'm excited to be back there in November. I was back. Oh yeah. When I met you
+
+00:59:51.520 --> 00:59:57.440
+ for the first time. That was my first time back. And you might have experiences like this too.
+
+00:59:57.440 --> 01:00:01.680
+ I was walking around and I just like, like these flood of memories come back. Like I had
+
+01:00:01.680 --> 01:00:06.160
+ walked down streets and I like remember all these like random things from years ago as a really
+
+01:00:06.160 --> 01:00:11.680
+ crazy experience. That was my first time going somewhere where I used to live. And it sounds like
+
+01:00:11.680 --> 01:00:14.880
+ you've lived in a bunch of places. So you might have, I mean, when you were at San Francisco,
+
+01:00:14.880 --> 01:00:17.440
+ you probably had a similar experience. That was my first time. And I was like,
+
+01:00:17.440 --> 01:00:22.960
+ felt really crazy. Like I never had something like that. It's such a weird feeling. I do experience
+
+01:00:22.960 --> 01:00:27.200
+ it every time I'm back in a stuff, especially because the last couple years of me being in San
+
+01:00:27.200 --> 01:00:34.160
+ Francisco were during the pandemic. And so there are the years that I spent going to the office.
+
+01:00:34.160 --> 01:00:38.640
+ And so, and then there was all this time that I didn't. And now every time in San Francisco and
+
+01:00:38.640 --> 01:00:44.960
+ I go to the San Francisco office, especially in Soma in that area, it feels like I have so many
+
+01:00:44.960 --> 01:00:52.480
+ memories. But also I was such a different person then. And yeah, you just kind of become that person
+
+01:00:52.480 --> 01:00:58.480
+ again in a way. Yep, exactly. It's a very out of body feeling. Yeah, it was always kind of overwhelming.
+
+01:00:58.480 --> 01:01:03.680
+ I was like, after two days, I was just like, I kind of want to leave. This is too much. Because
+
+01:01:03.680 --> 01:01:09.040
+ that's the only place I've ever lived. So it was like a lot of very intense. But I am excited
+
+01:01:09.040 --> 01:01:14.080
+ to be back in November. I think you're coming to our event we're doing, right?
+
+01:01:14.080 --> 01:01:21.680
+ Yeah. Are you going to drop a sneak peek of what you guys have planned? Are you going to manage
+
+01:01:21.680 --> 01:01:26.640
+ to keep a secret? I think what we're going to do is we're not going to say anything.
+
+01:01:26.640 --> 01:01:32.240
+ But we're going to be building stuff for it live two days before. So whoever joined is what
+
+01:01:32.240 --> 01:01:34.960
+ you were saying before, like if you're paying attention, you're going to know what we're doing.
+
+01:01:34.960 --> 01:01:43.600
+ But I don't want to officially announce it because during the event, I want to start off with a
+
+01:01:43.600 --> 01:01:47.760
+ series of misdirections where it seems like I'm just going to tell you what I'm sure a bunch of
+
+01:01:47.760 --> 01:01:52.160
+ there aren't listening to this. I want to start off the event, and I want to thank everyone for
+
+01:01:52.160 --> 01:01:57.680
+ coming. And I want to be like, okay, today we're here to discuss the caching differences between
+
+01:01:57.680 --> 01:02:03.600
+ next JS 14 and next JS 15. I'm going to pull up a slide deck that has like 200 slides and
+
+01:02:03.600 --> 01:02:09.040
+ I'm going to start like going into it. So we want to like, you know, just throw people off. But, uh,
+
+01:02:09.040 --> 01:02:14.640
+ yeah, I'm looking forward to it. Me too. It's going to be awesome. Yeah. All right. Well,
+
+01:02:14.640 --> 01:02:18.000
+ thank you for joining today. It was fun. Yeah. We're all super excited about our thing.
+
+01:02:18.000 --> 01:02:22.160
+ You're working out. I haven't dug into any of it yet, but I'm going to do that tomorrow, today or
+
+01:02:22.160 --> 01:02:27.040
+ tomorrow, most likely. Have a whole list of things to go through and I'll probably do it on stream
+
+01:02:27.040 --> 01:02:31.680
+ again. Nice. Yeah. So much of our team tuned into your last stream and we're all like,
+
+01:02:31.680 --> 01:02:39.600
+ oh boy, rough edges. Let's go fix them. So yeah, if you want to cover more for us,
+
+01:02:40.560 --> 01:02:46.240
+ actually, we're doing an internal thing called fixed over for us. So this month, we are very
+
+01:02:46.240 --> 01:02:53.280
+ focused on our own observability and standing down all of those rough edges and finding paper
+
+01:02:53.280 --> 01:02:58.480
+ cuts and fixing them. So this perfect time to raise all those things. Cool. All right. Well,
+
+01:02:58.480 --> 01:03:13.760
+ cool. Thanks for joining. Thanks for having me. Yep.
+

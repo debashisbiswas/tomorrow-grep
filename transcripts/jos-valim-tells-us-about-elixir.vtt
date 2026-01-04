@@ -1,0 +1,2381 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.700
+ I saw you on Twitch like a, maybe like a week ago, a week or two ago, and I was like, "Hey, I recognize that person."
+
+00:00:29.120 --> 00:00:33.200
+ Yeah. Excited to see you starting to stream. Is that something you're getting into?
+
+00:00:33.200 --> 00:00:41.200
+ Yeah. So I actually did. I think my first venture into Twitch was in 2018 for Advent of Code.
+
+00:00:41.200 --> 00:00:49.200
+ And I did that for a while and it was nice. But I never really, I think this is probably like my
+
+00:00:49.200 --> 00:00:58.320
+ biggest history. And I think part of the reason why is because I spent today a lot of time reviewing
+
+00:00:58.320 --> 00:01:04.000
+ people's codes. And like, there's the companies, the small company, we're not even 10 people.
+
+00:01:04.000 --> 00:01:11.920
+ But I, I'm spending last time coding. And actually, like the most time I spent coding
+
+00:01:11.920 --> 00:01:16.320
+ nowadays is when I'm twitching, because I can just like sit out, like I'll do here,
+
+00:01:16.320 --> 00:01:21.040
+ I'll sit here and I'll code with everybody, but it's just for coding.
+
+00:01:21.040 --> 00:01:24.240
+ Yeah, it's funny because people have very different experiences. Like some
+
+00:01:24.240 --> 00:01:28.480
+ people that I know that stream, the one I get the least amount of work done, because they're so
+
+00:01:28.480 --> 00:01:33.200
+ distracted by the chat and like by people watching. But it's pretty productive for me as well. I,
+
+00:01:33.200 --> 00:01:36.720
+ it's similar. Like I have so much that I do, like I'm juggling a bunch of different things, so.
+
+00:01:36.720 --> 00:01:41.840
+ It's funny because the projects that I was working on so far, I, I probably already
+
+00:01:41.840 --> 00:01:49.760
+ streamed like 10 days. And in the, I will, I will only do the lecture for real, like in the 80th or
+
+00:01:50.480 --> 00:01:55.440
+ 90th day, so all the time before, first I was trying to do stuff with chat GPT. So it was
+
+00:01:55.440 --> 00:02:01.600
+ basically prompt engineering. And then it was rest and, and a little bit of C. So it was fun.
+
+00:02:01.600 --> 00:02:06.080
+ Like, because those are not things that I have experienced. So it was actually helpful doing
+
+00:02:06.080 --> 00:02:10.880
+ that with everybody, because people who actually know rest and actually know C, they were, they
+
+00:02:10.880 --> 00:02:16.720
+ were helping out. I at some point, I was even joking that it was like the equivalent of
+
+00:02:16.720 --> 00:02:20.960
+ to each place Pokemon, but for programming, because I was just hearing what people say and
+
+00:02:20.960 --> 00:02:24.720
+ they're like, okay, I'll try this. I'll try that. It is awesome when you have a decent size audience,
+
+00:02:24.720 --> 00:02:28.000
+ and there's people in there that know stuff better than you. It's like that combined with
+
+00:02:28.000 --> 00:02:32.000
+ chat GPT. It's like, it's like a super power. It's just, you don't, you're just like a body. That's
+
+00:02:32.000 --> 00:02:37.280
+ the other people are controlling. Yeah, just for a little bit of context, I, for the past, I guess,
+
+00:02:37.280 --> 00:02:40.960
+ two to three years, I've been in, in the servo space and specifically that's brought me to
+
+00:02:40.960 --> 00:02:45.280
+ backend JavaScript and everything I've been doing has been in backend JavaScript.
+
+00:02:45.280 --> 00:02:51.200
+ And most people know me from that, but I'm so relatively new to it, because I was spending
+
+00:02:51.200 --> 00:02:58.480
+ the previous four to five years in the elixir world. And as someone coming from another ecosystem
+
+00:02:58.480 --> 00:03:02.320
+ into the JavaScript world, I think I have a different perspective on like, just a type of
+
+00:03:02.320 --> 00:03:06.800
+ tools I'm used to, the things that I had available before that I no longer do. So I've been trying
+
+00:03:06.800 --> 00:03:11.040
+ to talk to more people that are from ecosystems. Like I had someone out from the Laravel ecosystem
+
+00:03:11.600 --> 00:03:17.360
+ a few months ago, because I think that JavaScript backend world, I feel like the bar is very low
+
+00:03:17.360 --> 00:03:22.160
+ in terms of what is considered like, okay, these are good tools. But I think that's mostly because
+
+00:03:22.160 --> 00:03:26.800
+ most of the people in that ecosystem just haven't seen kind of what's available in others. So
+
+00:03:26.800 --> 00:03:32.880
+ just getting more exposure to the other stuff that's out there, I think will help make the
+
+00:03:32.880 --> 00:03:36.320
+ JavaScript ecosystem better. I just feel like we just, it's not that there's any technical
+
+00:03:36.320 --> 00:03:40.480
+ limitation. It's almost like a cultural thing. Like we don't know that we can make stuff
+
+00:03:40.480 --> 00:03:44.880
+ better. And I feel like we don't look outside of our our bubble as much. So yeah, I was excited to
+
+00:03:44.880 --> 00:03:48.160
+ talk to you. And I have a bunch of questions and we'll just kind of run through them and it'll be
+
+00:03:48.160 --> 00:03:54.720
+ a casual conversation. I talked to you because you know, you bootstrapped a new ecosystem from zero,
+
+00:03:54.720 --> 00:03:58.960
+ like roughly zero. So I think there's a lot of interesting insight and hearing about that journey
+
+00:03:58.960 --> 00:04:03.840
+ and the kinds of specific details there. Does that make sense? Perfect. Cool.
+
+00:04:03.840 --> 00:04:07.840
+ So they created a language called elixir. When was that like 13 years ago,
+
+00:04:07.840 --> 00:04:18.560
+ 12, 13, yeah, the initial prototype. It was like 12, 13 years ago, but the version that
+
+00:04:18.560 --> 00:04:23.840
+ became elixir today was 11 to 12 was a year later, kinder.
+
+00:04:23.840 --> 00:04:28.080
+ Nice. Yeah. So I want to hear like, how did that even happen, right? Because
+
+00:04:28.080 --> 00:04:32.720
+ creating a new, I mean, people create new frameworks. And that's like a little bit more
+
+00:04:32.720 --> 00:04:36.800
+ common. And you've heard of that. But that's usually sitting on top of an existing language
+
+00:04:36.800 --> 00:04:43.520
+ in ecosystem. But so creating a brand new language. How did that happen? What gave you the confidence
+
+00:04:43.520 --> 00:04:46.800
+ that I was viable? Because like, you know, creating the language seems like a lot of work. Like a
+
+00:04:46.800 --> 00:04:50.320
+ lot of things need to happen before it's even adopt your extraction. So yeah, I would love to hear
+
+00:04:50.320 --> 00:04:58.080
+ about that journey. So always started. So before I worked on elixir, I was a member of the Rails
+
+00:04:58.080 --> 00:05:05.120
+ framework, the Rails framework core team. And even back then, we were starting to hear a lot
+
+00:05:05.120 --> 00:05:11.600
+ about concurrency. Like we're starting to get like the first machines with multiple cores,
+
+00:05:11.600 --> 00:05:17.120
+ and then people wanted to deploy those things using all the cores in the machine. But it was
+
+00:05:17.120 --> 00:05:23.360
+ not really feasible. And we were working and improving those things over time. And today,
+
+00:05:23.360 --> 00:05:29.600
+ I like to say that like, everything that you do in your machine, it should be using your cores,
+
+00:05:29.600 --> 00:05:34.320
+ right? Like, because even your wristwatch today, it has like two or four cores.
+
+00:05:34.320 --> 00:05:39.920
+ Right. So we say a lot, Oh, like something is as low. This two is as low, like, you know,
+
+00:05:39.920 --> 00:05:43.280
+ and then we look at it, my tasks are running as low. And then when you look at it, it's just
+
+00:05:43.280 --> 00:05:48.240
+ using one core in your machine, which so there is a chance that things can get like four times
+
+00:05:48.240 --> 00:05:53.360
+ faster than resources are there. But for some reason, we are not using it. So but that's so
+
+00:05:53.360 --> 00:06:00.880
+ back then that's when it was starting. And I remember there was one bug report that
+
+00:06:02.800 --> 00:06:08.640
+ I still remember, because it was like, I think it was very significant for me, because somebody
+
+00:06:08.640 --> 00:06:14.080
+ said, look, we are running Rails in production. And when we have a spike in traffic, so, you know,
+
+00:06:14.080 --> 00:06:20.000
+ a lot of people are using the same time, they have autoscaling. So autoscaling would start a new
+
+00:06:20.000 --> 00:06:27.200
+ instance of Rails. And when that new instance was booting, it would get errors that were booting.
+
+00:06:27.200 --> 00:06:32.320
+ Somewhere in Rails boot process, things were failing when there were many requests at the same time.
+
+00:06:32.320 --> 00:06:36.160
+ And then when you get a bug report like this, like your first thing is like,
+
+00:06:36.160 --> 00:06:40.800
+ how I'm even going to reproduce this, right? Because it's like such a specific scenario.
+
+00:06:40.800 --> 00:06:46.800
+ And it's related to concurrency. It means that when when Rails is initializing requests are coming in,
+
+00:06:46.800 --> 00:06:50.720
+ there's something happening somewhere about to request come at the same time that makes things
+
+00:06:50.720 --> 00:06:56.160
+ fail. So like, how I'm going to reproduce it, I'm going to tackle this, I'm going to fix this.
+
+00:06:56.160 --> 00:07:01.680
+ And even if I do all those things, like, how can I be sure that I tested and fix it properly,
+
+00:07:02.320 --> 00:07:07.200
+ so that was kind of like one of the things that made me think if concurrency,
+
+00:07:07.200 --> 00:07:11.520
+ so running software on all the cores in your machine as efficiently as possible,
+
+00:07:11.520 --> 00:07:16.640
+ is going to become an important thing, I need to have better tools.
+
+00:07:16.640 --> 00:07:24.000
+ So it always started for me as like trying to find better tools for the problems that I was facing,
+
+00:07:24.000 --> 00:07:29.120
+ which I think really resonates like we were saying at the beginning of always like trying to look
+
+00:07:29.120 --> 00:07:34.320
+ outside. And that's how I started doing. And then so I put myself in this journey,
+
+00:07:34.320 --> 00:07:39.840
+ and I like to say that there were two points in this journey for that like,
+
+00:07:39.840 --> 00:07:44.880
+ change it, how I approach software. And the first one is functional programming,
+
+00:07:44.880 --> 00:07:49.120
+ and it means a lot of things to different people. But to me, what it means is that
+
+00:07:49.120 --> 00:07:55.520
+ if you get a lot of the concurrency issues that you have in OO or imperative languages,
+
+00:07:55.520 --> 00:08:01.760
+ is that, for example, in that case, I would have like two requests or two threads trying to change
+
+00:08:01.760 --> 00:08:07.360
+ the same place in memory, so try to mutate an object or something like that. And then because
+
+00:08:07.360 --> 00:08:11.760
+ we're trying to do at the same time, something would get corrupted. If you're lucky, you get
+
+00:08:11.760 --> 00:08:16.400
+ exception. If you're unlucky, you get a segmentation fault and the whole thing crashes. And the thing
+
+00:08:16.400 --> 00:08:21.200
+ about functional programming, again, it means different things to people. But to me, it's really
+
+00:08:21.200 --> 00:08:28.000
+ about instead of changing things in memory, we always transform things. So if I have a list with
+
+00:08:28.000 --> 00:08:33.600
+ 10 elements, I want to delete one, now I get a list with nine elements. And we have ways of making
+
+00:08:33.600 --> 00:08:41.040
+ that efficient. But for me, this was like a big change, because there are ways that we can solve
+
+00:08:41.040 --> 00:08:46.880
+ problems. And sometimes you solve a problem by putting a tape on top. But if you can solve the
+
+00:08:46.880 --> 00:08:52.240
+ problem by removing the problem all together, then it sounds like very exciting. So I was like,
+
+00:08:52.240 --> 00:08:58.240
+ okay, this is great. And I want to learn more about this thing. I was convinced that it would
+
+00:08:58.240 --> 00:09:04.400
+ also help with a lot of sometimes when you're writing code, in the usual languages, like JavaScript,
+
+00:09:04.400 --> 00:09:11.360
+ Java, Python, C, right, like, when you call a method, for example, you pass something to that.
+
+00:09:11.360 --> 00:09:16.560
+ And that thing can change the arguments in ways that you don't expect, because you can always
+
+00:09:16.560 --> 00:09:21.520
+ change anything. So and I was like, well, that problem is just removed. Everything's going to be
+
+00:09:21.520 --> 00:09:27.360
+ more explicit about how data goes in, how data comes back. So for me, it was, it was a music cell.
+
+00:09:27.360 --> 00:09:32.640
+ And I was like, okay, I want to learn more. And then I started learning more about functional
+
+00:09:32.640 --> 00:09:37.840
+ programming languages, functional runtimes. And eventually I found the Arlington virtual machine.
+
+00:09:37.840 --> 00:09:43.120
+ So Elixir runs on the Arlington virtual machine. And the Arlington virtual machine was, it was
+
+00:09:43.120 --> 00:09:48.720
+ designed by Ericsson, which is a telecommunication company. And what is really interesting is that
+
+00:09:48.720 --> 00:09:55.360
+ we go back like 11 and 12 years ago, like everybody was talking about concurrency. It was in everybody's
+
+00:09:55.360 --> 00:10:02.160
+ radar. So if you see like the programming languages that were coming out at the time, like go closure,
+
+00:10:02.160 --> 00:10:09.440
+ they all had a concurrency storage of them, right? But Erlang does not, did not only have a concurrency
+
+00:10:09.440 --> 00:10:14.800
+ start because concoracies about, well, I want to use all the resources, all the cores in my machine
+
+00:10:14.800 --> 00:10:20.880
+ as efficiently as possible. But if you're working on a problem, eventually, like, if that problem
+
+00:10:20.880 --> 00:10:26.320
+ starts to grow, you cannot solve the problem only using a single machine. You have to use multiple
+
+00:10:26.320 --> 00:10:34.000
+ machines, right? And Erlang not only did concurrency, but it also did the next step. It did a distribution
+
+00:10:34.000 --> 00:10:40.080
+ of things and how you coordinate work across multiple machines. And it did that like three
+
+00:10:40.080 --> 00:10:48.640
+ decades ago. So for me, I was amazed. I was like, not only it has solved the next problem, it was
+
+00:10:48.640 --> 00:10:56.560
+ one step ahead, but it is one step ahead for like three decades. So I really fell in love with the
+
+00:10:56.560 --> 00:11:02.240
+ Arlington virtual machine. And at the beginning, I was like, okay, I want to learn more about the
+
+00:11:02.240 --> 00:11:08.240
+ synchronous machine. So I need a project. I am an impatient learner. Like, if you give me a book,
+
+00:11:08.240 --> 00:11:12.720
+ I return pages and I want to do something and then I drop the book, you know. So I was like,
+
+00:11:12.720 --> 00:11:16.560
+ I need something to do. And I was like, I'll try to create a program language. I don't have a CS
+
+00:11:16.560 --> 00:11:21.920
+ background. So I was like, I'm going to learn two things at once, or maybe learn nothing at once.
+
+00:11:21.920 --> 00:11:28.720
+ But I was like, okay, I'll create program language, I'll learn Erlang. And after I did that with time,
+
+00:11:28.720 --> 00:11:33.520
+ I felt like, hey, I think there is really an opportunity for something here for a programming
+
+00:11:33.520 --> 00:11:40.000
+ language that exposes the Arlington virtual machine in different ways. And that solves those problems
+
+00:11:40.000 --> 00:11:45.360
+ that the Arlington virtual machine, again, has been solving for a really long time. And just
+
+00:11:45.360 --> 00:11:52.720
+ one more thing related to this is that the web with time has become really, really closer to like
+
+00:11:52.720 --> 00:11:58.400
+ telecommunication systems, because telecommunication system, everything is connected. And information
+
+00:11:58.400 --> 00:12:03.600
+ is going and going back all the time, right? And that's why this is the web today. We are connected
+
+00:12:03.600 --> 00:12:10.400
+ to our phones, information comes, goals, we have IoT devices. So there's a lot of data going through.
+
+00:12:10.400 --> 00:12:16.880
+ And I thought like this, this technology is going to be fantastic for that. And that's pretty much,
+
+00:12:16.880 --> 00:12:21.440
+ yeah, that's pretty much the summarize version. No, that makes sense. It's funny because I haven't
+
+00:12:21.440 --> 00:12:25.280
+ thought about this stuff in a little while, and it's reminding me a few things on my own. So my,
+
+00:12:25.280 --> 00:12:30.080
+ my dad's actually a software engineer. Years ago, he mentioned Erlang to me, and he was like,
+
+00:12:30.080 --> 00:12:34.400
+ you should go look at Erlang. At the time, I didn't, I didn't understand why, like,
+
+00:12:34.400 --> 00:12:39.440
+ I didn't get it. But I remember him saying specifically that the functional programming model,
+
+00:12:39.440 --> 00:12:45.040
+ and specifically the actor model that's in Erlang, the model that you apply to make sure that it
+
+00:12:45.040 --> 00:12:50.960
+ works across multiple cores in a single machine is that same exact model works, whether the two
+
+00:12:50.960 --> 00:12:54.960
+ cores are on the same machine or on different machines. And at that time, like, again, like,
+
+00:12:54.960 --> 00:12:59.920
+ distributed systems weren't as common. And he was like, we've moved from one core to multiple cores,
+
+00:12:59.920 --> 00:13:04.720
+ the inevitable next step is distributing work across multiple servers. And stuff like Erlang
+
+00:13:04.720 --> 00:13:08.880
+ and functional programming are going to be very useful in that era. At the time, I was like,
+
+00:13:08.880 --> 00:13:13.280
+ okay, sounds good. And I didn't, I didn't understand any of it really. It didn't click for me. But I
+
+00:13:13.280 --> 00:13:17.760
+ came back years later, especially when I found Elixir, and I was like, okay, I remember Erlang,
+
+00:13:17.760 --> 00:13:21.600
+ but I remember my dad talking about it in a very positive way. And Elixir seems like a nice modern
+
+00:13:21.600 --> 00:13:25.600
+ way to address it. And for me, the concurrency thing you talked about is what drew me as well.
+
+00:13:25.600 --> 00:13:30.480
+ I originally had been doing stuff in C#. I needed like a better concurrency model. At the time,
+
+00:13:30.480 --> 00:13:34.320
+ Go was kind of sitting right there. Like you said, Go came out with like very intentional concurrency
+
+00:13:34.320 --> 00:13:39.120
+ baked in. And we built this, we're working on a, I'm not going to distribute data system at that time.
+
+00:13:39.120 --> 00:13:45.520
+ And there was an update to Go that made it throw, it would panic when you did concurrent map access,
+
+00:13:45.520 --> 00:13:51.040
+ which it wasn't doing before. And we updated and we realized, wow, we have a ton of bugs
+
+00:13:51.040 --> 00:13:56.880
+ in our system that we didn't know. So at that point, we were like, we can keep fighting with this,
+
+00:13:56.880 --> 00:14:01.840
+ or we can rethink like, like you said, we can remove the problem. That's when I found Elixir,
+
+00:14:01.840 --> 00:14:07.040
+ Erlang, I'll click together. It's okay, this whole class of problems of two things accessing the
+
+00:14:07.040 --> 00:14:12.320
+ same piece of data, entirely gone in this model. And you can still do everything. And actually,
+
+00:14:12.320 --> 00:14:16.960
+ that's just one of the many things that simplifies. So yeah, I think it's, you made a good point that
+
+00:14:16.960 --> 00:14:21.600
+ functional programming means a lot of things to a lot of people. And there's like a spectrum of,
+
+00:14:21.600 --> 00:14:27.200
+ of what that means. But for me, it's that it's, you think in this way where everything's actually
+
+00:14:27.200 --> 00:14:31.040
+ just simpler, it maybe takes a little while to like unlearn the way you used to think. But once
+
+00:14:31.040 --> 00:14:35.600
+ your brain switches over, it's actually a very simple model. I think it's very predictable, but
+
+00:14:35.600 --> 00:14:40.160
+ behaves in a way that you expect. And what I loved about Elixir was unlike other functional
+
+00:14:40.160 --> 00:14:45.760
+ programming languages. I think back then, people typically thought of like Haskell or like, you know,
+
+00:14:45.760 --> 00:14:51.680
+ do these more esoteric things. It was such a nice introduction to thinking this way, because you
+
+00:14:51.680 --> 00:14:56.720
+ need to go to the initial phase of rewiring your brain. But the step from going from whether you
+
+00:14:56.720 --> 00:15:00.960
+ were a Go programmer, as it looks a programmer, very easy transition. And you use it for a couple
+
+00:15:00.960 --> 00:15:05.120
+ months and your brain is rewired at that point, you start to think functionally by default. And that
+
+00:15:05.120 --> 00:15:08.560
+ means like a lot of things. And like, you know, like you said, you think about immutability, but
+
+00:15:08.560 --> 00:15:12.640
+ also things like like recursion becomes like a lot more natural thing in your head.
+
+00:15:12.640 --> 00:15:17.280
+ It like came out at such a good important time, at least for myself. So the other thing I was
+
+00:15:17.280 --> 00:15:26.560
+ going to ask is. Remember when it was? So I think 2015 for me 2014, 15, that is early. It was just
+
+00:15:26.560 --> 00:15:33.760
+ about one. Oh, so yeah, you were you were early. Yeah. Yeah. I think I got into it right when
+
+00:15:33.760 --> 00:15:39.200
+ Elixir in action got published. Or like, yeah, super early. Yeah. Okay. So I guess that is
+
+00:15:39.200 --> 00:15:44.000
+ relatively early. Yeah. So and again, I remember when I brought it to my team, they were like,
+
+00:15:44.000 --> 00:15:48.960
+ Oh, again, you're bringing us like another new thing that we got to learn. And then no one was
+
+00:15:48.960 --> 00:15:55.200
+ that excited at first. But I remember a specific person who wasn't very excited. And you know,
+
+00:15:55.200 --> 00:15:58.800
+ he gave it a shot and he ended up falling in love with it. And to this day, he's now started a new
+
+00:15:58.800 --> 00:16:04.640
+ company. His engineer has worked there 100% on Elixir and it's been almost 10 years now.
+
+00:16:04.640 --> 00:16:10.160
+ And it's really stuck with it. You know, what is cool from what is said, like, like your father
+
+00:16:10.160 --> 00:16:15.120
+ said, like, you know, if we went from concurrency, went to distribution, what is really interesting
+
+00:16:15.120 --> 00:16:21.680
+ is that Erlang went the opposite way, because Erlang was created. Multi-core wasn't really a thing.
+
+00:16:21.680 --> 00:16:26.960
+ So they did a distribution, right? And then when they had to think about multi-core, they're like,
+
+00:16:26.960 --> 00:16:35.520
+ Oh, we got it. Yeah, it's fine. Right. Like it just, it just works. And, and I think it's like one of the,
+
+00:16:35.520 --> 00:16:42.160
+ when you read and you learn more about how Erlang was created, in that, like, everything they were
+
+00:16:42.160 --> 00:16:48.000
+ doing was really pragmatic in the sense that they were trying to solve a problem, which is to build,
+
+00:16:48.000 --> 00:16:52.080
+ like, telephone switches and these kinds of applications. They did not say like, we want
+
+00:16:52.080 --> 00:16:57.680
+ functional programming, we want distribution, we want, like, like, actors, they were not thinking
+
+00:16:57.680 --> 00:17:03.600
+ about this, they were thinking like, what is, what are going to be the best abstractions for us to
+
+00:17:03.600 --> 00:17:10.240
+ solve those problems that we have at hand. And, and all the decisions derived from that. And
+
+00:17:10.240 --> 00:17:16.080
+ for me, like, this is, it's so interesting and so exciting, right? Like, to take such
+
+00:17:16.080 --> 00:17:22.800
+ and a problem-driven approach, like, this is a high-level language. Yeah, it's a whole bottom-up
+
+00:17:22.800 --> 00:17:27.200
+ verse top-down thing. Like, when, when you start at the bottom and like solutions emerge, you end
+
+00:17:27.200 --> 00:17:31.920
+ up with something a lot more resilient. And yeah, that point you made it is great. It's like, you know,
+
+00:17:31.920 --> 00:17:36.480
+ you really know when it's, it's a fantastic abstraction, when an entirely new problem comes up
+
+00:17:36.480 --> 00:17:41.840
+ and your model just works. You know, you've, you've discovered something that, that makes a lot of
+
+00:17:41.840 --> 00:17:47.920
+ sense. So when you actually ended up, you said it was like a project to learn. At some point,
+
+00:17:47.920 --> 00:17:51.760
+ you must have realized, like, you said you, this could be a lot bigger, it's gonna be very useful.
+
+00:17:51.760 --> 00:17:56.560
+ At what point do you feel like, okay, like, I can actually make a language that can be somewhat,
+
+00:17:56.560 --> 00:18:01.360
+ like, adopted, that feel impossible? Like, because that seems like such like an impossibility today.
+
+00:18:01.360 --> 00:18:05.760
+ So imagine starting there, it must have felt like, this even makes sense that I'm doing this.
+
+00:18:05.760 --> 00:18:12.240
+ So what, what happened is that I built this prototype and it was, and it was really bad in,
+
+00:18:12.240 --> 00:18:16.800
+ in many ways, but it was a really learning opportunity. It's like, the first extroversion,
+
+00:18:16.800 --> 00:18:21.680
+ and if you go back in the git history, it was actually object oriented, because that was the
+
+00:18:21.680 --> 00:18:26.320
+ background I had. And one of the things that I learned with this prototype was pretty much like
+
+00:18:26.320 --> 00:18:32.640
+ Erlang did many of the decisions correct. So I should just do what Erlang is doing and
+
+00:18:32.640 --> 00:18:38.960
+ try to extend on the parts where I feel it's lacking. That was like the big lesson from this
+
+00:18:38.960 --> 00:18:44.720
+ prototype. And then I worked on this prototype for like three or four months, and then it,
+
+00:18:44.720 --> 00:18:51.280
+ it, I was not happy with the result. And I stayed like the rest of the year. It started in January,
+
+00:18:51.280 --> 00:18:56.720
+ then the rest of the year, I was like, I did not touch it. But the idea was there in my head,
+
+00:18:56.720 --> 00:19:01.120
+ I was thinking like about the problems, how I would solve those problems, looking at other
+
+00:19:01.120 --> 00:19:05.520
+ ecosystems. And then at some point, I thought, hey, no, I think we can create some, I think,
+
+00:19:05.520 --> 00:19:11.840
+ and the value was always the Erlang virtual machine to me. It was always clear, like the value is
+
+00:19:11.840 --> 00:19:17.040
+ the Erlang virtual machine. And I thought, wait, I think we have an opportunity to create a language
+
+00:19:17.040 --> 00:19:25.760
+ that is going to provide certain characteristics. And, and it's a gap that is not filled in today.
+
+00:19:25.760 --> 00:19:31.280
+ So what I remember, I told like I had a consultancy with some partners at the time. I remember what I
+
+00:19:31.280 --> 00:19:38.160
+ told them is that if the future is really concurrent, and we're using mostly Ruby at the time, and then
+
+00:19:38.160 --> 00:19:44.400
+ we, we say that, and I think the future today is concurrent. And if we, if we for some reason we,
+
+00:19:44.400 --> 00:19:49.920
+ we think that Ruby is not enough, I told them what is the, what is, which language would we
+
+00:19:49.920 --> 00:19:55.600
+ migrate to? And I told them it would be closure. I think it was a language that at the time
+
+00:19:55.600 --> 00:20:02.320
+ most resonated with our practices of like being productive, being expressive, and closure brought
+
+00:20:02.320 --> 00:20:08.960
+ the concurrency story. But I said like, you know, like for better or for worse, it's like, I don't
+
+00:20:08.960 --> 00:20:16.960
+ want to rely only on a single option. So for example, me as a Ruby developer way back in 2006,
+
+00:20:16.960 --> 00:20:23.920
+ 2007, I always thought like, like, I have, I have a symbol, it's Python. Like if, you know,
+
+00:20:23.920 --> 00:20:28.560
+ if I want to try something else, like something goes wrong with this, I have a bolt to jump into
+
+00:20:28.560 --> 00:20:33.760
+ and felt like, and then, and then I felt like it feels like if we have only a single option,
+
+00:20:33.760 --> 00:20:37.760
+ I don't think that's good. I would like to have more options just in the general sense.
+
+00:20:37.760 --> 00:20:44.320
+ And I would like to have an option that is not the JVM for whatever reason. And, and, and I think
+
+00:20:44.320 --> 00:20:49.120
+ we can try creating this option. And, and that's when they said, okay, you can work on Elixir part
+
+00:20:49.120 --> 00:20:55.440
+ time. So at that point, I was working on Elixir part time, but I knew, and I told them, like, look,
+
+00:20:55.440 --> 00:21:01.680
+ I can work on this for like two years, and nothing may come out of it. It will, it would be like,
+
+00:21:01.680 --> 00:21:08.400
+ we'll have to close down the project. There is no like adoption. And it's basically two years of
+
+00:21:08.400 --> 00:21:15.120
+ my time and opportunity cost that is going to go, to go down the drain. And, and this led to a
+
+00:21:15.120 --> 00:21:19.440
+ couple of things. So one of them is again, like, if you look at the languages at the time,
+
+00:21:19.440 --> 00:21:26.800
+ Microsoft, we got sharp, Apple came with Swift later, and then Google go like, if you look at the
+
+00:21:26.800 --> 00:21:35.760
+ competition, it's like, well, you know, you were a 30 person company in Brazil, right? And those
+
+00:21:35.760 --> 00:21:41.600
+ are literally like the richest companies in the planet. So one of the things that we thought is like,
+
+00:21:41.600 --> 00:21:47.280
+ whatever we do, it needs to be decentralized. Like, we are not going to try to say, we organize
+
+00:21:47.280 --> 00:21:54.080
+ the events, we are the Elixir company. We always said, like, we want to, for us, the value was always
+
+00:21:54.080 --> 00:22:00.240
+ in growing the cake, instead of having like, we would rather have a small slice of a big cake than
+
+00:22:00.240 --> 00:22:06.080
+ the like, have a whole small cake. So everything is going to be decentralized. You're always going
+
+00:22:06.080 --> 00:22:11.440
+ to laugh. And that reflected in the language is an extensible language that people can get and extend
+
+00:22:11.440 --> 00:22:17.680
+ it to the new domains. This is what we can talk about later. But we had this decentralized approach.
+
+00:22:17.680 --> 00:22:24.640
+ And I was always prepared psychologically, like, these may fail. And this was good because it kind
+
+00:22:24.640 --> 00:22:32.160
+ of like isolated me. I didn't want to say like, I didn't want to do design decisions based on adoption
+
+00:22:32.160 --> 00:22:37.760
+ or popularity. I wanted, if I thought that something is right or wrong, you know, that decision needs
+
+00:22:37.760 --> 00:22:44.160
+ to be isolated from, from necessarily like the feedback that this sort of feedback feedback is
+
+00:22:44.160 --> 00:22:49.680
+ important. But you want to decouple from, if you are failing or succeeding, people say like,
+
+00:22:49.680 --> 00:22:58.400
+ have you ever expected this? And then my answer is, I haven't, but I also by design, I didn't put
+
+00:22:58.400 --> 00:23:04.480
+ too much thought into this. I never thought about where we would go into like, I'm extremely happy
+
+00:23:04.480 --> 00:23:10.880
+ that I was able to, my work was to work on an open source project and create a program of language.
+
+00:23:10.880 --> 00:23:16.800
+ And that for me was a not, you know, and I would do my best to, to foster the community, to,
+
+00:23:16.800 --> 00:23:23.840
+ to foster the ecosystem. But I would not set goals or expectations. But there were moments where I,
+
+00:23:23.840 --> 00:23:28.800
+ where it was like, you know, you get like the thing was like, Oh, like, you know, like, things
+
+00:23:28.800 --> 00:23:35.840
+ are happening. So I think when Dave Thomas, who, you know, was really known programmer when he said
+
+00:23:35.840 --> 00:23:41.120
+ that he's going to write a book on a mixture, within a week, Saint Laurent from O'Reilly,
+
+00:23:41.120 --> 00:23:45.440
+ who was an editor at O'Reilly, he said he was going to write a book as well. So there were like two
+
+00:23:45.440 --> 00:23:50.800
+ books on us within a week. So that was like, that's nice. And then we have like the first
+
+00:23:50.800 --> 00:23:58.000
+ Elixir conf. So those were like really nice, like, um, I think achievements that said, like,
+
+00:23:58.000 --> 00:24:03.200
+ hey, you know, like, I guess other people are is going to use it. And maybe we'll still die,
+
+00:24:03.200 --> 00:24:07.120
+ but we're not going to die like next year, maybe in three years.
+
+00:24:07.120 --> 00:24:11.520
+ Right. Willing this to say this can turn to nothing is pretty important because
+
+00:24:11.520 --> 00:24:16.960
+ especially early on a project, even if you get adoption, it might be like,
+
+00:24:16.960 --> 00:24:20.640
+ localized adoption, where if you just end up stuck focusing on that group,
+
+00:24:20.640 --> 00:24:24.720
+ it might prevent you from actually becoming, like you said, making the cake bigger.
+
+00:24:24.720 --> 00:24:29.520
+ So willing to like kind of kill your own ideas, like make sure that it gets to where where it
+
+00:24:29.520 --> 00:24:34.240
+ needs to get to. It's something that we think about a lot. And it is tough because oftentimes,
+
+00:24:34.240 --> 00:24:38.160
+ your early adopters are your most loyal. The version of what they want you to build is not
+
+00:24:38.160 --> 00:24:43.040
+ necessarily the thing that makes it much bigger. Right. So it's always a tricky thing to juggle.
+
+00:24:43.040 --> 00:24:50.080
+ Yeah. And it's, and even thinking about that, just to give some ideas of the numbers, like,
+
+00:24:50.080 --> 00:24:55.440
+ I started working part time on it in 2012, at some point, especially when the first books were
+
+00:24:55.440 --> 00:25:01.040
+ announced, I think I became full time. And we would have our first client, the first time the
+
+00:25:01.040 --> 00:25:09.920
+ company made money from Elixir was like 2016, like four years later. And for us to kind of say,
+
+00:25:09.920 --> 00:25:15.280
+ the project can support itself. So, you know, it's not like we're paying back, we're just like,
+
+00:25:15.280 --> 00:25:21.760
+ not, we are not like a cost center. It was six years later. Okay. So, you know, it's,
+
+00:25:21.760 --> 00:25:26.720
+ it's really like a long period of time and like a long term investment.
+
+00:25:26.720 --> 00:25:32.080
+ Yeah, almost every project I've seen, because I think when most people discover a framework
+
+00:25:32.080 --> 00:25:36.480
+ or language, it looks pretty like complete by the time they discover it. But it feels like,
+
+00:25:36.480 --> 00:25:40.960
+ oh, this is a new thing I found, it must not be that old. But almost every time you like,
+
+00:25:40.960 --> 00:25:46.000
+ look into how long people have been working on it, it's always much, much longer than you expect,
+
+00:25:46.000 --> 00:25:49.440
+ because getting this stuff right takes a lot of time. And I'm sure there was like different
+
+00:25:49.440 --> 00:25:54.240
+ flavors of what you built that you abandoned and kind of like went a different direction.
+
+00:25:54.240 --> 00:25:58.000
+ The other thing that I was curious about is, so you said at one point is the object oriented,
+
+00:25:58.000 --> 00:26:03.200
+ nuts, you came from the Ruby background. Elixir today just has modules and functions.
+
+00:26:03.200 --> 00:26:08.720
+ And this is something I talk a lot about in the JavaScript world and that you feel like you might
+
+00:26:08.720 --> 00:26:15.120
+ need a lot more than that, but functions organized into groups of modules. That's really all you
+
+00:26:15.120 --> 00:26:19.840
+ need. You can do everything you possibly need to with that. Was it like a moment where that
+
+00:26:19.840 --> 00:26:25.280
+ clicked for you or do you have any thoughts on that pattern? Yeah. So, so going back to history,
+
+00:26:25.280 --> 00:26:31.200
+ right? So when I thought that Elixir needed objects, and the reason why it wasn't rejected
+
+00:26:31.200 --> 00:26:37.920
+ oriented, what I really wanted, and I did not know at the time, is that I wanted dynamic dispatching.
+
+00:26:37.920 --> 00:26:42.720
+ So I wanted to say, so for example, hey, I want to have some sort of contract like,
+
+00:26:42.720 --> 00:26:47.680
+ oh, I want to convert this data structure to product buffs, for example, you need to be
+
+00:26:47.680 --> 00:26:53.920
+ able to specify contracts and you want things to to obey those contracts. In object oriented
+
+00:26:53.920 --> 00:26:58.480
+ languages, especially the dynamic ones, that's a matter of calling a method. You say, look,
+
+00:26:58.480 --> 00:27:04.960
+ if this thing has a true product of method or something like that, or I think maybe like a
+
+00:27:04.960 --> 00:27:09.840
+ generator thing in JavaScript, you know that that thing abides that contract.
+
+00:27:09.840 --> 00:27:13.920
+ And we did not have this in our land. And because we did not have that, I thought,
+
+00:27:13.920 --> 00:27:20.880
+ hey, the solution for these are objects, right? So I added objects. And then a lot of things,
+
+00:27:20.880 --> 00:27:25.920
+ they became clunky as a result of that. And then later I figured out, do I just want the
+
+00:27:25.920 --> 00:27:31.200
+ polymorphic part of projects? And I don't need objects to have that. And that's when I learned
+
+00:27:31.200 --> 00:27:36.160
+ how closure does things, how goal does things, how Haskell does things are like, okay, I'm going
+
+00:27:36.160 --> 00:27:43.040
+ to bring that idea in. I mentioned closure. And I think Rich Hickey, he was, he helped me a lot
+
+00:27:43.040 --> 00:27:49.200
+ to understand those ideas, because one of the way, I think, what is the talk? I'm not sure I'm
+
+00:27:49.200 --> 00:27:52.640
+ going to remember the title of the talk, maybe people in the chat will know and they can comment.
+
+00:27:53.200 --> 00:27:59.600
+ But it was really about how, how you can see things as coupling and how the coupling breaking
+
+00:27:59.600 --> 00:28:06.640
+ those things apart brings you benefits. So for example, if you take an object is by definition,
+
+00:28:06.640 --> 00:28:12.640
+ coupling behavior and state, right? And there are a lot of, a lot of things that come as
+
+00:28:12.640 --> 00:28:17.600
+ consequence of that design. Like, so for example, oh, why you need inheritance is because sometimes
+
+00:28:17.600 --> 00:28:22.080
+ you want to extend because you have to couple the behavior of state. And it comes with its
+
+00:28:22.080 --> 00:28:28.640
+ downsides and then say, well, if you break those things apart, not only you solve problems that
+
+00:28:28.640 --> 00:28:33.760
+ were created by a consequence of you putting things together, but you can now express things
+
+00:28:33.760 --> 00:28:39.360
+ more naturally, right? There are a bunch of like design patterns that happen in object
+
+00:28:39.360 --> 00:28:43.280
+ orientation exactly because of this coupling, like, oh, what if you just want the behavior,
+
+00:28:43.280 --> 00:28:47.280
+ what is just, you just want the state, right? And then start to go in like, you have like
+
+00:28:47.280 --> 00:28:52.960
+ now those data classes and those kinds of things because you have to undo the coupling that you did.
+
+00:28:52.960 --> 00:28:59.680
+ So his talks, it was, have always been like very informative in trying to understand things and,
+
+00:28:59.680 --> 00:29:06.560
+ and, you know, why certain things are advantages, where are the disadvantages? And yeah, and objects
+
+00:29:06.560 --> 00:29:13.680
+ for me, yeah, I see them. Not only it's actually three things is not only the coupling of behavior
+
+00:29:13.680 --> 00:29:20.400
+ and state, but objects, they are also beautiful, which means that they change over time. So you
+
+00:29:20.400 --> 00:29:28.160
+ have like three dimensions now in this one thing. And that's why sometimes like trying to understand
+
+00:29:28.160 --> 00:29:34.160
+ how an object has evolved over time, it gets so complex because all those things, they are all
+
+00:29:34.160 --> 00:29:39.680
+ related to each other. So I remember, for example, like sometime when you, when you would be writing,
+
+00:29:39.680 --> 00:29:44.160
+ like if you're working like on applications, sometimes I have to write a test. And in order for you to
+
+00:29:44.160 --> 00:29:50.800
+ test the scenario that you need, you have to call these and these in the object. Yeah, you have to
+
+00:29:50.800 --> 00:29:55.200
+ build the whole history, right, because all those things, they are coupled. And then you can do the
+
+00:29:55.200 --> 00:30:02.160
+ assertion. So yeah, so, you know, for me, it's like breaking those things apart and being able to see
+
+00:30:02.160 --> 00:30:09.280
+ each of them individually brings a huge amount of clarity to the code, to the point today that
+
+00:30:09.280 --> 00:30:14.320
+ you were saying like earlier that you work with Elixir or functional programming language,
+
+00:30:14.320 --> 00:30:21.040
+ you rewire your brain. And in some ways, it's kind of annoying because when you go back to use a
+
+00:30:21.040 --> 00:30:26.400
+ language that, for example, has mutability everywhere, it kind of makes you paranoid. You're like, wait,
+
+00:30:26.400 --> 00:30:31.200
+ you call a method. They're like, wait, we would mutate my things or not. What can this thing do
+
+00:30:31.200 --> 00:30:36.800
+ that I actually don't know about? Right. So you're kind of like living on the edge. You're like,
+
+00:30:36.800 --> 00:30:41.520
+ what, what can this thing be doing? And then if you break those things apart, you can reason about
+
+00:30:41.520 --> 00:30:47.120
+ them. And I think for the understanding of the software at the end of the day, it is much clearer.
+
+00:30:47.120 --> 00:30:51.520
+ It's interesting because I think people ascribe, I see this all the time where people ascribe
+
+00:30:51.520 --> 00:30:58.160
+ certain properties or capabilities to some feature. They're like, oh, if you don't have classes,
+
+00:30:58.160 --> 00:31:02.160
+ if you don't have object orientation, you can't do x, y, and z. And I actually did a whole stream
+
+00:31:02.160 --> 00:31:07.040
+ where I kept asking the chat saying, okay, name something I can't do without classes. And they kept
+
+00:31:07.040 --> 00:31:12.000
+ saying stuff, but you can do them because they're not properties of like that exact solution. Like
+
+00:31:12.000 --> 00:31:16.880
+ you said, they're actually three separate properties that you can exist on their own. And then I was
+
+00:31:16.880 --> 00:31:21.760
+ able to show there's all sorts of other stuff you can do that are kind of awkward with like the
+
+00:31:21.760 --> 00:31:24.880
+ traditional opposite oriented setup. At least in JavaScript, you know, you can't do like multi
+
+00:31:24.880 --> 00:31:29.040
+ inheritance and how like flipping all of this, you can like compose different things together so
+
+00:31:29.040 --> 00:31:33.760
+ that this behavior actually inherits like three other things that you find useful. When you use
+
+00:31:33.760 --> 00:31:39.280
+ certain abstractions, sometimes you don't really understand what they're providing you or how you
+
+00:31:39.280 --> 00:31:44.880
+ just kind of understand the end, the end feature sets. But yeah, that's a that's another key thing
+
+00:31:44.880 --> 00:31:50.240
+ that when I moved to Elixir, it made me writing code in other because I always had to write JavaScript
+
+00:31:50.240 --> 00:31:54.880
+ for the front end, but it made all of my JavaScript code much better because Elixir kind of taught
+
+00:31:54.880 --> 00:32:00.480
+ me that you can do everything with just these simple things. Just one thing on that, because
+
+00:32:00.480 --> 00:32:08.560
+ there is a quote that I like a lot from a book is it's a it's a more like academic technical book.
+
+00:32:08.560 --> 00:32:13.120
+ They they they start with a programming language. It's principles, concepts, and techniques of
+
+00:32:13.120 --> 00:32:18.320
+ programming languages or something like that. And it's talking about programming language that like
+
+00:32:18.320 --> 00:32:25.440
+ can't do much and it's slowly add features to it like objects concurrency. And one of the quotes
+
+00:32:25.440 --> 00:32:33.040
+ in that book that I like a lot is that you should always use the simplest abstraction available
+
+00:32:33.040 --> 00:32:38.400
+ to solve your problem. And I think it's very powerful because if you think about object,
+
+00:32:38.400 --> 00:32:43.920
+ it's a very powerful abstraction exactly because it has those three things. But a lot of the times
+
+00:32:43.920 --> 00:32:49.200
+ you could be using just simpler things right as you're saying just modules and functions to solve
+
+00:32:49.200 --> 00:32:57.680
+ the problem and have the object to be not the the full solution that you reach into, right?
+
+00:32:57.680 --> 00:33:02.880
+ It's like you should reach into that when you need it. Again, a lot of stuff is arbitrary. You
+
+00:33:02.880 --> 00:33:06.640
+ start working in a language or you start working in a code base to certain patterns that you think
+
+00:33:06.640 --> 00:33:11.360
+ are the way to do things, but it turns out you can kind of reduce it a lot. Yeah, so anyway,
+
+00:33:11.360 --> 00:33:14.720
+ the other thing I was not so we saw a very low level just talking about the language. But another
+
+00:33:14.720 --> 00:33:20.160
+ great thing that I love about Elixir, which I miss so much is the amazing standard library.
+
+00:33:20.160 --> 00:33:24.720
+ So in the JavaScript world, the center library is like, it's not very good. I think especially
+
+00:33:24.720 --> 00:33:29.200
+ compared to other languages, it's one kind of inconsistent internally, just because of the years
+
+00:33:29.200 --> 00:33:34.000
+ of decisions that have changed to just very incomplete, you have to like reach out for external
+
+00:33:34.000 --> 00:33:39.440
+ libraries for basic things. And I think I always point people to is go look at the enum module
+
+00:33:39.440 --> 00:33:45.440
+ in Elixir or go look at the stream module in Elixir. It is such a complete thing. Like almost any
+
+00:33:45.440 --> 00:33:48.720
+ like operation you need to do, there's probably something that's helpful there. My friend made
+
+00:33:48.720 --> 00:33:52.640
+ a joke that there's probably like a enum dot sort by birthdays in there. Like it just like has
+
+00:33:52.640 --> 00:33:56.960
+ everything you possibly could ever need. So when designing the center library, how did you approach
+
+00:33:56.960 --> 00:34:00.960
+ that? Like you take influence from other places? Like how did you decide what belongs in center
+
+00:34:00.960 --> 00:34:06.720
+ library? What what to outsource into external external things? That's a great question. That's
+
+00:34:06.720 --> 00:34:13.760
+ a great question. Because we don't have objects, right? So in Elixir, we have a predefined amount
+
+00:34:13.760 --> 00:34:21.440
+ of data types. So we have lists, we have tuples, we have maps, which are like dictionaries or like
+
+00:34:21.440 --> 00:34:28.240
+ JavaScript objects. But without the behavior part, just the key band association, we have integers,
+
+00:34:28.240 --> 00:34:36.080
+ we have floats, but it's predefined. It's probably about 10 or below 10. So in a way, if you just look
+
+00:34:36.080 --> 00:34:42.400
+ at that, the standard library doesn't have to be large, because you need to cover that surface.
+
+00:34:42.400 --> 00:34:47.200
+ Let's say that's the minimal acceptable, the minimum that I have to do. But we also of course,
+
+00:34:47.200 --> 00:34:52.720
+ we can create our custom structs that, for example, if you want to represent a URL, you can create a
+
+00:34:52.720 --> 00:35:00.800
+ custom struct that belongs to the language. So in order to, I think like growing the standard library
+
+00:35:00.800 --> 00:35:07.600
+ was somewhat focused on solving certain problems and expressing certain capabilities. So for example,
+
+00:35:07.600 --> 00:35:14.480
+ I mentioned lists and I mentioned maps. Both of those things, they are, they are collections.
+
+00:35:14.480 --> 00:35:20.080
+ They can hold different things in them. And then again, Rich Hickey, he had this whole talk about,
+
+00:35:20.080 --> 00:35:25.280
+ if you have collections in your program language, instead of having like three or four different
+
+00:35:25.280 --> 00:35:31.200
+ APIs, right? And then strings, they are collections, but they are lazy. And we also have ranges,
+
+00:35:31.200 --> 00:35:37.200
+ which is like an interval, say it's from one to 10. So I could define like four different APIs
+
+00:35:37.200 --> 00:35:41.520
+ for working with each of those things, like in separate modules, namespaces,
+
+00:35:41.520 --> 00:35:45.760
+ but Rich Hickey, you know, you want to have one namespace where you put everything,
+
+00:35:45.760 --> 00:35:52.000
+ right? And that namespace can work with all different kinds of collections. They can be lazy,
+
+00:35:52.000 --> 00:35:56.960
+ they can be eager. So I was like, okay, that's an important concept. And I want to solve that
+
+00:35:56.960 --> 00:36:04.320
+ problem in the language. So we have in terms, we have streams, and we have some data types that
+
+00:36:04.320 --> 00:36:09.920
+ are very useful to think about that problem. So it was very like specific to the problem.
+
+00:36:09.920 --> 00:36:16.960
+ And then the other one is related to concurrency. So concurrency in the early, I know you know this,
+
+00:36:16.960 --> 00:36:22.880
+ but the audience, yeah. Yeah, concurrency in the, in the early virtual machine, and in the licksire,
+
+00:36:22.880 --> 00:36:27.760
+ it's done by starting processes. And those are not the operating system process. Those are
+
+00:36:27.760 --> 00:36:34.480
+ cheap lightweight threads of execution that exists within the early virtual machine. You can like
+
+00:36:34.480 --> 00:36:38.400
+ literally create million of those. So they are already at the same time, they are all running
+
+00:36:38.400 --> 00:36:43.520
+ concurrently. And those process, they define like some very basic primitives. So for example,
+
+00:36:43.520 --> 00:36:47.440
+ they can send messages between each other. And it doesn't matter if those processes are in the
+
+00:36:47.440 --> 00:36:52.400
+ same node or in different machines in the cluster. That's how we get distribution. But they can only
+
+00:36:52.400 --> 00:36:56.720
+ send a synchronous messages to each other. But one of the things that is very common is that you
+
+00:36:56.720 --> 00:37:02.640
+ want to send a message to a process and get a reply back. So you need some sort of synchronicity
+
+00:37:02.640 --> 00:37:08.080
+ abstraction. So an airline has, they call them behaviors. It has behaviors for something that
+
+00:37:08.080 --> 00:37:13.360
+ works like a server that is client response. So one of the things I was used to say at the time,
+
+00:37:14.400 --> 00:37:18.720
+ when I was starting with Elixir, I was thinking about this, is that we have this great environment
+
+00:37:18.720 --> 00:37:26.880
+ for working with concurrency or even distribution. But if I want to get a simple problem,
+
+00:37:26.880 --> 00:37:34.000
+ so for example, even JavaScript, imagine that you want to access four URLs at the same time,
+
+00:37:34.000 --> 00:37:38.480
+ and you don't want one to block on the other. You can compose that using async away,
+
+00:37:38.480 --> 00:37:46.080
+ something, and then you wait. It's very easy. But in their link, to do that at the time,
+
+00:37:46.080 --> 00:37:53.120
+ it would require a good amount of boilerplate to do that. You would eventually encapsulate
+
+00:37:53.120 --> 00:37:59.040
+ that boilerplate and put in your application, and reuse it. But then everybody is reinventing
+
+00:37:59.040 --> 00:38:07.360
+ their own boilerplate. So Elixir was like, OK, I want to have more specific tools for concurrency
+
+00:38:07.360 --> 00:38:12.720
+ as well. So we have the task module in Elixir, which people usually really enjoy using,
+
+00:38:12.720 --> 00:38:19.360
+ which is about encapsulating those patterns. So it was really focused, I think, on solving
+
+00:38:19.360 --> 00:38:26.720
+ certain problems and closing the gaps in some areas that the online virtual machine was not
+
+00:38:26.720 --> 00:38:31.600
+ solving at the time. So for example, coming from, another example, coming from Ericsson,
+
+00:38:32.160 --> 00:38:39.040
+ Erlang, is, let's say, Swedish technology. And at the beginning, it would handle like
+
+00:38:39.040 --> 00:38:44.400
+ latting one characters, they encode it, would not handle UTF-8. So it was very important.
+
+00:38:44.400 --> 00:38:50.640
+ I like to joke, as a Brazilian person living in Poland and communicating in English,
+
+00:38:50.640 --> 00:38:56.640
+ it was really important for me to handle UTF-8 encoding really, really well.
+
+00:38:56.640 --> 00:39:02.320
+ And so the center library has this string module that also handles all those corner keys for your
+
+00:39:02.320 --> 00:39:08.320
+ upcasing, a string, lower casing, and handle those things that they may be broken in other
+
+00:39:08.320 --> 00:39:15.680
+ ecosystems, right? Like when you upcase a string with my name with the accent, do not do it correctly,
+
+00:39:15.680 --> 00:39:23.440
+ for example. So it was that, and then it was like a good core. But Elixir is going to ask you to
+
+00:39:24.240 --> 00:39:29.520
+ learn things, right? Elixir is a functional programming language. It's a concurrent
+
+00:39:29.520 --> 00:39:34.880
+ distributed language. It's a distributed, concurrent programming language, distributed
+
+00:39:34.880 --> 00:39:39.520
+ programming language. You can create things that are all tolerant. So, and those things,
+
+00:39:39.520 --> 00:39:44.400
+ those for me, they are like non-negotiable properties. Like that's why the language
+
+00:39:44.400 --> 00:39:49.600
+ exists, because those things, they come from Erlang. And because this is a learning process,
+
+00:39:50.960 --> 00:39:56.880
+ even though we love it, we may still lose people who cannot go through this learning curve, right?
+
+00:39:56.880 --> 00:40:03.920
+ They cannot, apart from reason, they cannot go through the process. So I wanted to make sure
+
+00:40:03.920 --> 00:40:09.680
+ that the tooling was great, like the initial experience, like when you create your project,
+
+00:40:09.680 --> 00:40:14.960
+ everything compiles, you can run the test, everything is built in, goal was a huge influence on that.
+
+00:40:14.960 --> 00:40:20.080
+ I think goal was one of the programming languages that said, like, you know, how important tooling
+
+00:40:20.080 --> 00:40:24.480
+ is. Tooling was not part of the programming language. It was something that you would install
+
+00:40:24.480 --> 00:40:30.720
+ separately. And I think goal was really important in changing that. So we're like,
+
+00:40:30.720 --> 00:40:36.080
+ the tooling needs to be great, because in our learning experience, we cannot afford to introduce
+
+00:40:36.080 --> 00:40:42.640
+ any like accidental friction, right? Like the frictions that we can solve, we need to solve.
+
+00:40:42.640 --> 00:40:47.840
+ So that was to focus on, like, I was thinking about all those things, and because they sound
+
+00:40:47.840 --> 00:40:54.800
+ library, today, what I like to say is that, so if you say, I want to add this abstraction to Elixir,
+
+00:40:54.800 --> 00:41:02.320
+ I say there are two reasons for adding an abstraction to Elixir, is because one is that
+
+00:41:02.320 --> 00:41:09.520
+ abstraction can have, it will be enhanced, and it will be able to do things if it is part of the
+
+00:41:09.520 --> 00:41:14.160
+ language, that it would not be possible to do if it was not part of the language. So it has to be
+
+00:41:14.160 --> 00:41:18.800
+ justified to be part of the language. And it's really hard to do this, because Elixir was designed
+
+00:41:18.800 --> 00:41:23.600
+ to be extensible. Anybody can go, it can extend the language. Like the most recent example is that
+
+00:41:23.600 --> 00:41:30.880
+ you can today compile Elixir code to run on the GPU. And that's a project that does not, like,
+
+00:41:30.880 --> 00:41:34.880
+ it doesn't change the language in any way. It's built on top of the existing abstractions.
+
+00:41:34.880 --> 00:41:40.560
+ So that's one of the things, or it's something, or it's an abstraction that we need to build the
+
+00:41:40.560 --> 00:41:46.240
+ language itself. So today, that's kind of the guideline. So we have a very clear process for
+
+00:41:46.240 --> 00:41:51.920
+ somebody to say, "Hey, I want to have this abstraction in the language, cannot I?" If you have to
+
+00:41:51.920 --> 00:41:58.560
+ put at least one of those rows, and then the core is focused, should they? We're not trying to,
+
+00:41:58.560 --> 00:42:04.160
+ so for example, if you want to convert, encoder the code something to JSON, it's not part of this
+
+00:42:04.160 --> 00:42:09.600
+ under library. But we have really great tooling that makes it easy to add that your project in one
+
+00:42:09.600 --> 00:42:15.200
+ line of code, right? But it's a lot of concern that we want to have within the library, we want
+
+00:42:15.200 --> 00:42:20.000
+ to let the ecosystem solve those problems. That's a tricky line, right? So this is a frustration
+
+00:42:20.000 --> 00:42:24.640
+ that I have in the JavaScript world where, I mean, the thing you said about tooling shouldn't be
+
+00:42:24.640 --> 00:42:27.520
+ something you add on top because that's like unnecessary friction. I think it's a great way to
+
+00:42:27.520 --> 00:42:33.200
+ summarize that. Some of the justification I see for that though is people argue that letting the
+
+00:42:33.200 --> 00:42:40.320
+ ecosystem solve those things potentially results in better solutions. I think that's good in theory.
+
+00:42:40.320 --> 00:42:44.960
+ I think in practice, there are certain base things like package management, like things like that,
+
+00:42:44.960 --> 00:42:50.320
+ that when you don't have a really great solution that's built in, it ends up being a fragmented,
+
+00:42:50.320 --> 00:42:54.560
+ annoying experience. I think Go kind of went through that as well, right? Because they didn't
+
+00:42:54.560 --> 00:42:59.600
+ have an opinion in a way to do package management, but they eventually did add that in, and you know,
+
+00:42:59.600 --> 00:43:03.040
+ there was like five or six that kind of emerged, and they kind of took the best ideas and they added
+
+00:43:03.040 --> 00:43:07.840
+ it. And additionally, like when some things aren't in the standard library, and there's like multiple
+
+00:43:07.840 --> 00:43:11.280
+ options. So let's say the thing you talked about, like all the operations you do on collections,
+
+00:43:11.280 --> 00:43:15.920
+ right? The equivalent of that exists in JavaScript as well, but it's spread among like a bunch of
+
+00:43:15.920 --> 00:43:20.080
+ different libraries. Some libraries will be, you know, like more functional, some libraries will be
+
+00:43:20.080 --> 00:43:25.760
+ more class oriented so that the fragmentation is a little painful. But people do argue for
+
+00:43:25.760 --> 00:43:30.320
+ the diversity that happens or the ecosystem solve it. I feel like we're not at a good,
+
+00:43:30.320 --> 00:43:34.240
+ whatever balance there is, you need to find out. I don't think we're at a good balance.
+
+00:43:34.240 --> 00:43:38.080
+ Like, how do you think about this, like diversity argument when it comes to things like the package
+
+00:43:38.080 --> 00:43:44.720
+ management and stuff like that? Yeah, so I know, I think I think you nailed it. It's a it is a trade
+
+00:43:44.720 --> 00:43:51.600
+ off, but I think I think I think I'm not sure if I can come up with like a rule, a precise rule.
+
+00:43:51.600 --> 00:43:57.040
+ Yeah. But I think, but for me, it was like, when it comes to package management, I think like,
+
+00:43:57.040 --> 00:44:04.160
+ it is clear to me that it is part of the onboarding experience. JavaScript, for example, it does
+
+00:44:04.160 --> 00:44:09.360
+ have other luxuries, for example, like, yeah, like you, you know, if you want to do something for the
+
+00:44:09.360 --> 00:44:15.120
+ browser, you have to learn JavaScript, which means that it some of the frictions that we have,
+
+00:44:15.120 --> 00:44:20.240
+ because we have to attract people and then we have to convert to, to, to, to, to convince them,
+
+00:44:20.240 --> 00:44:24.480
+ right, right, they don't want to experience good. It's not necessarily a friction that JavaScript has,
+
+00:44:24.480 --> 00:44:28.400
+ because you can tell anybody, like, everybody has a browser, you can just tell them, like,
+
+00:44:28.400 --> 00:44:35.360
+ open the console and try it out. So I think in a way, it's understandable for them to say, look,
+
+00:44:35.360 --> 00:44:42.640
+ I, we, we, we won, like, we don't have some frictions here. So it's fine for us to have
+
+00:44:42.640 --> 00:44:48.800
+ friction in the package management space. And, and, and that's fine for us. Maybe it's a fine
+
+00:44:48.800 --> 00:44:55.680
+ trade off to do it, but I think, like, so for example, I do write wrap applications. And so we
+
+00:44:55.680 --> 00:45:02.400
+ have the Phoenix web framework. And we went for a lot of churn, like, through the JavaScript, too,
+
+00:45:02.400 --> 00:45:09.680
+ we went through brunch, I think, go for a while, and then went back. And, and now, like, the first
+
+00:45:09.680 --> 00:45:15.120
+ time that I'm, like, really, really happy is when we migrate to yes build, which it just seems to be,
+
+00:45:15.120 --> 00:45:21.200
+ like, stable, very specific. It's not really focused on, like, changing things all the time.
+
+00:45:21.200 --> 00:45:26.000
+ And I'm now really, really happy with it. But, you know, it, it does generate a fraction. And,
+
+00:45:26.000 --> 00:45:33.280
+ like, for me, I think, yes, package management is important enough to, to, to be worth unification.
+
+00:45:33.280 --> 00:45:39.920
+ Maybe you, you don't want to unify within the first x years to let people try out and explore
+
+00:45:39.920 --> 00:45:46.400
+ different approaches. But I think the unification is going to, it is important. And I think, like,
+
+00:45:46.400 --> 00:45:52.320
+ some of the new runtimes, I think they started incorporating more, like, dano and bun. They're,
+
+00:45:52.320 --> 00:45:56.960
+ like, we are all in this problem. And I think, and I think that's a very good sign that, you know,
+
+00:45:56.960 --> 00:46:04.400
+ like, well, this is probably, we, we explored enough. We are comfortable in the solution. And we are,
+
+00:46:04.400 --> 00:46:09.920
+ we are picking, we are picking an approach. And I, if it's really important at some point,
+
+00:46:09.920 --> 00:46:15.360
+ it's to happen. We went through this with, like, releases. So for a while,
+
+00:46:15.360 --> 00:46:21.920
+ Oh, right. Yeah. I do remember that. Yeah. So, like, in the way that you would deploy
+
+00:46:21.920 --> 00:46:28.160
+ elder applications would be how you would deploy, like, JavaScript applications. So you would,
+
+00:46:28.160 --> 00:46:32.880
+ like, say, look, I'm going to run on this thing, it needs to have a node or something.
+
+00:46:33.920 --> 00:46:38.000
+ And I'm saying, like, backend JavaScript is, you need to have node running on that machine,
+
+00:46:38.000 --> 00:46:42.400
+ on that environment, we start it separately, you install the dependencies and you run the thing.
+
+00:46:42.400 --> 00:46:47.760
+ But I think people coming from languages, like Go, which allow you to kind of, like,
+
+00:46:47.760 --> 00:46:54.320
+ I'll just pack everything into this one thing and ship it. They wanted more streamlined solution
+
+00:46:54.320 --> 00:47:00.720
+ for a big chunk of time, like, between, for like two years, if you ask an electric developer,
+
+00:47:00.720 --> 00:47:05.920
+ what is like the biggest pain for elixir applications, they would save to be deployment.
+
+00:47:05.920 --> 00:47:13.040
+ We also have, like, we have a configuration system that we also took time to figure out how
+
+00:47:13.040 --> 00:47:19.680
+ that should work. So for a long period of time, it was seen as like the biggest flaw in elixir.
+
+00:47:19.680 --> 00:47:26.880
+ And then we went to the ecosystem and how they solve those problems to, it was clear for us that
+
+00:47:26.880 --> 00:47:33.680
+ from feedback from the community that it wasn't a problem worth unifying and provide like a
+
+00:47:33.680 --> 00:47:39.040
+ unified experience out of the box that we decided to bring that into the language.
+
+00:47:39.040 --> 00:47:41.760
+ Yeah, there's phases of like, I mean, this is, this happens in business all the time.
+
+00:47:41.760 --> 00:47:45.520
+ There's like the unbundling phase where like, there's like a million little solutions for
+
+00:47:45.520 --> 00:47:50.320
+ everything. And there's like, at some point, it's followed by a bundling phase where that gets like,
+
+00:47:50.320 --> 00:47:54.240
+ consolidated into something unified. So the things you pointed out about the new run times,
+
+00:47:54.240 --> 00:48:00.720
+ I think, yeah, we might be entering a consolidation phase, hopefully. But yeah, it's like,
+
+00:48:00.720 --> 00:48:04.160
+ there's just been a lot, even on the package management side in JavaScript, right, you can use
+
+00:48:04.160 --> 00:48:10.960
+ NPM, you can use PNPM, you can use yarn. And on some hand, these, each projects did improve on
+
+00:48:10.960 --> 00:48:16.080
+ the previous ones, but the state-wearing isn't as weird fragmentation. And if someone is new,
+
+00:48:16.080 --> 00:48:21.840
+ they're just like, there's always a conversation about, okay, like, bring the project weight,
+
+00:48:21.840 --> 00:48:25.120
+ do you have NPM and so, oh, sorry, do you have PNPM install? And they're like, what is that?
+
+00:48:25.120 --> 00:48:28.800
+ And then you have to teach them about that. So those little friction, frictions are hard,
+
+00:48:28.800 --> 00:48:33.280
+ even though I think you made a good point about everyone's forced to do JavaScript. Like you,
+
+00:48:33.280 --> 00:48:38.480
+ you have to pretty much because you do web stuff. So the barge, I guess didn't have to be as high
+
+00:48:38.480 --> 00:48:42.640
+ to get adoption. And that might, that might reflect why some of the cultural things are there where
+
+00:48:42.640 --> 00:48:48.000
+ we expect very little from the ecosystem and the tooling. So the thing I wanted to ask about,
+
+00:48:48.000 --> 00:48:50.800
+ so now that we're talking about more of the ecosystem stuff, so we started with like the
+
+00:48:50.800 --> 00:48:54.800
+ language, kind of moving on to some of the other stuff. You know, Elixir is not just a language,
+
+00:48:54.800 --> 00:49:01.760
+ the fantastic set of ecosystem projects like Ecto and Phoenix. And so Ecto is for the audience,
+
+00:49:01.760 --> 00:49:05.840
+ it's like, how you talk to your database in the JavaScript world, you have things like Prisma
+
+00:49:05.840 --> 00:49:10.880
+ or Drizzle, things like that. And then Phoenix is a web framework. So when did those start to
+
+00:49:10.880 --> 00:49:15.120
+ emerge? And I don't know, I know like, that was more, I know Chris McCord was very involved in
+
+00:49:15.120 --> 00:49:20.720
+ some of those things, but yeah, when did that start to emerge as like things you wanted to
+
+00:49:21.360 --> 00:49:24.880
+ make sure the ecosystem had? You know, I was always thinking about the language
+
+00:49:24.880 --> 00:49:31.600
+ being extensible. And then, and I knew it would be used for web, because that was my background,
+
+00:49:31.600 --> 00:49:36.080
+ that's where I had rich. I knew people, you know, they were coming from Elixir, a lot of them were
+
+00:49:36.080 --> 00:49:41.760
+ coming from like Ruby or from, if I was invited to a conference, it was usually a web related
+
+00:49:41.760 --> 00:49:47.920
+ conference, even if it was not about Ruby. So I knew like, eventually something would appear.
+
+00:49:48.480 --> 00:49:52.480
+ But even early one, when I was trying to validate if the language was extensible,
+
+00:49:52.480 --> 00:49:59.760
+ I built like a mini web framework, like Express or Sinatra or Ruby, just to see like, hey,
+
+00:49:59.760 --> 00:50:05.200
+ is this thing actually extensible? And to try to, like, try to dog food, what I was building,
+
+00:50:05.200 --> 00:50:12.240
+ but people are like, are we going to maintain this? And I'm like, hell no, no way. I did, I did my
+
+00:50:12.240 --> 00:50:22.640
+ share of like a web framework, and I don't plan to start like doing this. I want to explore the
+
+00:50:22.640 --> 00:50:31.920
+ ideas. So, Acto came first, which was a database driver. And this was from Eric Middle Johnson.
+
+00:50:31.920 --> 00:50:37.200
+ He is the creator of Hacks B.M., which is the package manager. So he did like an amazing work,
+
+00:50:37.200 --> 00:50:41.280
+ because the community was at the very beginning. I'm almost sure he was still at university. And he
+
+00:50:41.280 --> 00:50:46.560
+ was like, oh, we need a package manager. So he built the whole package manager and the whole
+
+00:50:46.560 --> 00:50:51.280
+ package manager infrastructure. But because we didn't have something to talk to the database,
+
+00:50:51.280 --> 00:50:57.040
+ he built the libraries to talk to the database and the ORMs. So he was like, okay, I'm building
+
+00:50:57.040 --> 00:51:02.000
+ everything. And everything that I'm building is this open source thing, right? And I'm going to
+
+00:51:02.000 --> 00:51:06.160
+ build on top of that. And the thing about the web framework, it was really interesting because
+
+00:51:06.160 --> 00:51:12.240
+ because of the background, there are a lot of projects at the time that were trying to be like
+
+00:51:12.240 --> 00:51:19.360
+ rails for Elixir, or it was trying to be like the Sinatra for Elixir. And they were exploring
+
+00:51:19.360 --> 00:51:27.200
+ those different approaches. But it was really like, you know, rails for Elixir. And Phoenix was
+
+00:51:27.200 --> 00:51:35.680
+ actually, so when Chris McCord started with Phoenix, he did not start by having rails for Elixir.
+
+00:51:35.680 --> 00:51:41.680
+ What he actually wanted to do is that he wanted to create like rich interactive applications,
+
+00:51:41.680 --> 00:51:46.560
+ where you could exchange information with the server and receive it back at any time.
+
+00:51:46.560 --> 00:51:54.720
+ And he was trying to do that in rails. And then it was not working out. Things could not work,
+
+00:51:54.720 --> 00:52:00.480
+ plus you complex could not scale. And then he heard about Elixir, and he decided to solve that
+
+00:52:00.480 --> 00:52:07.760
+ problem. And for me, that's why it worked. He was trying to bring itself into the platform.
+
+00:52:07.760 --> 00:52:12.960
+ He was like, oh, I want to leverage this platform in the best way possible. The platform was the
+
+00:52:12.960 --> 00:52:17.840
+ solution to that problem. And he built Phoenix around that. And that's why today we have things
+
+00:52:17.840 --> 00:52:24.880
+ like live view, because everything was designed from like the rich interactive user experience
+
+00:52:24.880 --> 00:52:29.520
+ angle. And so I remember seeing a presentation. I don't remember if it was on the first or the
+
+00:52:29.520 --> 00:52:35.520
+ second Elixir call. And I was like, immediately sold. I was like, all right, like, this is it.
+
+00:52:35.520 --> 00:52:41.440
+ And then I got involved in the project. I also see like my job, like making sure so. And then,
+
+00:52:41.440 --> 00:52:45.680
+ so for example, web was expected. I knew I was going to happen. But for example,
+
+00:52:45.680 --> 00:52:51.600
+ other things came out later, for example, nerves, which is great work for building,
+
+00:52:51.600 --> 00:52:58.960
+ yeah, for building high-end embedded systems. I am not, it's not a domain that I'm familiar with.
+
+00:52:58.960 --> 00:53:05.680
+ But I see it my responsibility to make sure that they are not blocked, right? Like, if they have
+
+00:53:05.680 --> 00:53:10.400
+ an issue with the language, they have an issue with the tooling. It's my job to make sure that
+
+00:53:10.400 --> 00:53:17.120
+ they can address that and evolve further and not be blocked. So, you know, always trying to get
+
+00:53:17.120 --> 00:53:21.760
+ people excited about building new ideas, new domains on top of the language.
+
+00:53:21.760 --> 00:53:25.360
+ Yeah. I mean, it's amazing how far it's spread, right? So we thought of that web framework,
+
+00:53:25.360 --> 00:53:29.360
+ you mentioned nerves. Like, I remember, so when I was getting really into Elixir,
+
+00:53:29.360 --> 00:53:34.160
+ I was like trying to use it in places that was not appropriate. And I was working at a company
+
+00:53:34.160 --> 00:53:38.240
+ that did have an IoT device. And I was like, let's put Elixir on it. And we were like doing
+
+00:53:38.240 --> 00:53:42.640
+ something with Elixir. And it ended up not sticking. And like, you know, they have their
+
+00:53:42.640 --> 00:53:47.440
+ stuff in Go. So they moved to Go. They initially started in C. So going from C to Go, like much,
+
+00:53:47.440 --> 00:53:50.880
+ much big improvement just for productivity of the team. But then like six months later,
+
+00:53:50.880 --> 00:53:56.240
+ nerves came out and I was like, Oh, so I'm not, I wasn't a complete idiot. I did feel like this
+
+00:53:56.240 --> 00:53:59.280
+ makes a lot because like this, all the supervisor stuff, like there's a bunch of different tasks
+
+00:53:59.280 --> 00:54:04.000
+ that needs to run on these IoT devices and you see the schedule and coordinate them. So it felt
+
+00:54:04.000 --> 00:54:07.440
+ like the Elixir primitives made a lot of sense there. And I saw nerves come out and I was like,
+
+00:54:07.440 --> 00:54:12.720
+ okay, I wasn't dumb. This like actually doesn't make sense. And that part has grown so much as
+
+00:54:12.720 --> 00:54:16.560
+ well. It's really like, I don't know if you probably never imagined that that would be a thing, right?
+
+00:54:17.200 --> 00:54:21.120
+ Yeah, no, I would never, if you told me, like there are a lot of things that we do today.
+
+00:54:21.120 --> 00:54:25.840
+ Like if you get in a time machine and say, hey, Elixir would have those things out, but like, sure,
+
+00:54:25.840 --> 00:54:34.320
+ sure, right? And then starting from nerves, it's also so cool because they had experience from
+
+00:54:34.320 --> 00:54:39.600
+ building embedded systems, right? And they were like, well, we have this Wi-Fi driver thing.
+
+00:54:39.600 --> 00:54:44.720
+ And it crashes all the time because, you know, the Wi-Fi disconnects or because it's like,
+
+00:54:45.600 --> 00:54:51.200
+ driver, you know, C operating system code. And then when they heard about supervisors,
+
+00:54:51.200 --> 00:54:55.040
+ which is something that when there is a crash, it restarts itself. You're like,
+
+00:54:55.040 --> 00:55:00.160
+ that's what we need. And then, and that's what drove them. And then what, and I think at the
+
+00:55:00.160 --> 00:55:06.480
+ beginning, they were actually earling. And then what drove them to Elixir was the tooling. They
+
+00:55:06.480 --> 00:55:12.800
+ were like, we had the abstractions, but we also want the tooling. They were, they, the tooling and
+
+00:55:12.800 --> 00:55:16.560
+ making it faster, making it easier for you to get started and build something,
+
+00:55:16.560 --> 00:55:22.000
+ was something that really resonated with them. But like, today, like, yeah, you can,
+
+00:55:22.000 --> 00:55:28.720
+ you can get, you can write Elixir and it's going to compile to the GPU. And you can get like,
+
+00:55:28.720 --> 00:55:35.600
+ large machine learning models and run the GPU. And you can deploy in a cluster and route requests
+
+00:55:35.600 --> 00:55:41.680
+ to them. Those are things that like, you know, starting like the machine learning thing, even if
+
+00:55:41.680 --> 00:55:48.480
+ it went like three years ago, I would not believe that it would be something that would be happening.
+
+00:55:48.480 --> 00:55:53.760
+ Yeah. Yeah. It is really crazy. It's, it's in every space now. Like, no matter what you're doing,
+
+00:55:53.760 --> 00:55:57.280
+ there is probably what to do with the Elixir. And it actually makes sense. You're not forcing
+
+00:55:57.280 --> 00:56:01.440
+ it at all. But we talked about the language. We talked about the tooling. We talked about frameworks.
+
+00:56:01.440 --> 00:56:05.840
+ But there's also like patterns, right? Like, how do you build applications that are maintainable?
+
+00:56:05.840 --> 00:56:10.560
+ And in the Phoenix docs, they teach you about bounded context and like domain-driven design and all
+
+00:56:10.560 --> 00:56:14.640
+ of that. And that's another thing that's sorely missing from the JavaScript ecosystem. It's kind
+
+00:56:14.640 --> 00:56:19.760
+ of like, you're on your own to figure that out. There's no like guidance on like building this
+
+00:56:19.760 --> 00:56:23.840
+ reliable maintainable system. So like, wait, wait, where did that come from? How come that was an
+
+00:56:23.840 --> 00:56:31.040
+ important story? No. Yeah. It's, it's so, it's so curious to hear that because this was, and maybe
+
+00:56:31.040 --> 00:56:34.880
+ it still is, in some way, it's a little bit of a, I don't know what is, I don't want to use the word
+
+00:56:34.880 --> 00:56:40.400
+ polemic because it's not really polemic, but it's something that it leads to questioning if that was
+
+00:56:40.400 --> 00:56:48.560
+ the good call. But, but for example, like what I've always, what I've always tried to do, so going
+
+00:56:48.560 --> 00:56:54.640
+ back to the failed prototype, what I learned is that it's not because some other language does it,
+
+00:56:54.640 --> 00:57:00.880
+ is that it's going to be a good thing, right? We have to think about like what, what, what the
+
+00:57:00.880 --> 00:57:06.400
+ thing is doing and why and what are the benefits and if that thing needs to make sense. But if you
+
+00:57:06.400 --> 00:57:14.160
+ think, and so you always have to reason about the process. And, but even then like, it's, it's hard
+
+00:57:14.160 --> 00:57:20.880
+ to be on guard all the time and not have something is leap through because that's how you always did
+
+00:57:20.880 --> 00:57:27.280
+ thing. So you just continue doing that way because that's how you always did it. So like in the first
+
+00:57:27.280 --> 00:57:34.480
+ version of vector, our database thing, we had like, we solved some problems that I think really
+
+00:57:34.480 --> 00:57:41.120
+ elegantly compared to, to other frameworks. So I love vector change sets, for example, which is
+
+00:57:41.120 --> 00:57:46.480
+ something that builds how you want to make a change to the database. While all other languages are
+
+00:57:46.480 --> 00:57:51.680
+ kind of like doing it implicitly, you imitate the object and that other things reflected,
+
+00:57:51.680 --> 00:57:56.720
+ active allows you to build and build like this whole lineage of like the things that you want to do,
+
+00:57:56.720 --> 00:58:01.680
+ and absolutely love it. But sometimes we'll just add callbacks, for example, and add things that
+
+00:58:01.680 --> 00:58:09.040
+ are really just coupled to, to your data. And, and it took a while for us like, to learn those
+
+00:58:09.040 --> 00:58:16.480
+ things. And again, especially because all we have is modules and functions, right? So how can you get
+
+00:58:16.480 --> 00:58:24.240
+ a structure out of that, right? And then Phoenix context was a way of saying, okay, we are going
+
+00:58:24.240 --> 00:58:30.480
+ to provide like some guidance to you. But so you, when you organize our code, you don't want to just
+
+00:58:30.480 --> 00:58:36.400
+ like put everything into a flat name space and just throw everything out there. That's clear to us.
+
+00:58:36.400 --> 00:58:41.840
+ You also don't want like, you don't want to have like the, the God objects, because usually what
+
+00:58:41.840 --> 00:58:47.440
+ happens in those systems that you have tables with 200 columns, because you're just putting things. So
+
+00:58:47.440 --> 00:58:52.480
+ what is the guidance that we can give people to say, Hey, you know, you may want to think
+
+00:58:52.480 --> 00:58:59.200
+ how those things relate to each other and start organizing them into like distinct context. So
+
+00:58:59.200 --> 00:59:05.760
+ there was a lot of discussion. And at the beginning, we had, we had a concern that this would lead like
+
+00:59:05.760 --> 00:59:11.520
+ to a paralysis fear or something like that, you know, like people, because now you're asking people to
+
+00:59:11.520 --> 00:59:16.880
+ to like think, right? And like, Hey, you have to think how you want to organize your code. But maybe
+
+00:59:16.880 --> 00:59:23.040
+ you are at a point out of your project where like, look, I don't care, honestly, I just want to ship
+
+00:59:23.040 --> 00:59:29.360
+ this and have this proof of concept ready to show to somebody, right? So there was some friction on
+
+00:59:29.360 --> 00:59:35.440
+ that because like asking people to think is great. But if they don't want to think for whatever reason,
+
+00:59:35.920 --> 00:59:42.000
+ that's friction. And it's, it's fine to acknowledge that. Yeah, it's fine if you don't want to think
+
+00:59:42.000 --> 00:59:48.080
+ about it now, but you know, at some point, you may want to. So later we were like, well, if you want
+
+00:59:48.080 --> 00:59:53.520
+ to define one context for database table, that's not how you should do. But if you want to do that,
+
+00:59:53.520 --> 00:59:58.560
+ it's fine. But we have to think about the consequences and tell me about design. And that was something
+
+00:59:58.560 --> 01:00:05.040
+ that I don't think there was like a unique moment for that to happen. It was really like learning
+
+01:00:05.040 --> 01:00:10.880
+ from the mistakes that we've copied, learning from the new things, looking at the programs that we
+
+01:00:10.880 --> 01:00:16.960
+ wrote, and trying to learn from that and how we can reach a better code. It was a long process.
+
+01:00:16.960 --> 01:00:22.320
+ Yeah, no, and I think you guys landed a very good spot because even to this day, and we
+
+01:00:22.320 --> 01:00:26.720
+ struggle with that too, right? It's the same thing. Like you can make something we want if we really
+
+01:00:26.720 --> 01:00:30.400
+ want to focus on maintainability, like code basis is last for years, like how do we help people achieve
+
+01:00:30.400 --> 01:00:38.240
+ that? But that doesn't look great as a first look at what we're trying to learn something. If
+
+01:00:38.240 --> 01:00:42.480
+ I have feels overwhelming, like too much of that balance is tricky. But to this day, and I'm a
+
+01:00:42.480 --> 01:00:48.240
+ big proponent of like on the domain driven design stuff, but if you go and look like Google that
+
+01:00:48.240 --> 01:00:52.240
+ phrase, you end up with like a thick book like this that has all of these concepts and it's like
+
+01:00:52.240 --> 01:00:57.520
+ very complicated. So I to this day, I still tell people, here's a link to the Phoenix Docs. I know
+
+01:00:57.520 --> 01:01:02.640
+ we're not doing elixir, just go read the ideas of how they think about these things. It's not too
+
+01:01:02.640 --> 01:01:08.560
+ extreme. It's going to be helpful. And you should organize your code in that way. But it still provides
+
+01:01:08.560 --> 01:01:12.240
+ that long term maintainability thing. And I was like, yeah, don't focus on elixir part. And the
+
+01:01:12.240 --> 01:01:16.320
+ docs aren't even too focused on elixir at least the parts where they're explaining the ideas about
+
+01:01:16.320 --> 01:01:21.520
+ a context. But that's how I tell people to kind of like, first, like understand these ideas and why
+
+01:01:21.520 --> 01:01:27.360
+ they make sense. Yeah. And and we didn't want you said exactly like we didn't want to say it was a
+
+01:01:27.360 --> 01:01:33.520
+ bounded context. And we didn't want to mention the DDT exactly because then somebody's going to
+
+01:01:33.520 --> 01:01:39.760
+ search for the DDT. And it's like a really thick book. Yeah. Right. And and and that would add to
+
+01:01:39.760 --> 01:01:44.720
+ like to they were like, well, if somebody knows the DD, then we immediately recognize it. Right.
+
+01:01:44.720 --> 01:01:52.560
+ So we don't have to tell them, right? But we also don't think that grasping all the like big parts
+
+01:01:52.560 --> 01:02:00.800
+ of the DDT should be a day one requirement for you to jump into Phoenix. So we we we try to distill
+
+01:02:00.800 --> 01:02:06.400
+ that. I'm in the TypeScript world now. So big thing is the type safety stuff. And I saw that I think
+
+01:02:06.400 --> 01:02:10.560
+ you just put out like a recent paper on some of the type safety research on elixir. So elixir has
+
+01:02:10.560 --> 01:02:15.440
+ gotten massive without having like an incredible type safety solution. You know, that's still an
+
+01:02:15.440 --> 01:02:19.600
+ area that I think is interesting. And I think you guys have been exploring. So I think just just
+
+01:02:19.600 --> 01:02:24.240
+ for the audience, like what's like a summary of like the current state of things and where do you
+
+01:02:24.240 --> 01:02:32.640
+ see potential? Yeah. So yeah, it's funny because they stack overflow survey results came out like
+
+01:02:32.640 --> 01:02:40.000
+ two days ago. And what is the term that they use admire like the true most admired languages is
+
+01:02:40.000 --> 01:02:46.240
+ Rust, which is like really statically typed like to the point that error location is
+
+01:02:46.240 --> 01:02:51.600
+ guided by the type system. And then the second one is elixir, which is not a very dynamic language.
+
+01:02:51.600 --> 01:02:57.040
+ Like, so that's something else that in the elixir, because we have better matching and we have
+
+01:02:57.040 --> 01:03:01.680
+ parts, we actually usually know what what are the types and the things that we are working with.
+
+01:03:03.600 --> 01:03:10.080
+ So it but it is a dynamic language. So I thought it was very interesting. And but for us, like why
+
+01:03:10.080 --> 01:03:15.760
+ we are doing this, I think we've like the elixir team did a good job of listening to the community,
+
+01:03:15.760 --> 01:03:24.240
+ like historically. So like back, this is probably now, I mean, seven, eight years ago,
+
+01:03:24.240 --> 01:03:30.400
+ like a lot of people they were wanting for them for a matter, because the language,
+
+01:03:30.400 --> 01:03:35.360
+ the language was started to grow and getting adopted. So now people are working in larger teams.
+
+01:03:35.360 --> 01:03:39.520
+ And then you started having like discussions about, hey, you know, what is,
+
+01:03:39.520 --> 01:03:44.640
+ how you're going to format this. And somebody's like, oh, you should do in this style. And then
+
+01:03:44.640 --> 01:03:49.920
+ we had some form matters in the community. And then, and then that was one of the things that were like,
+
+01:03:49.920 --> 01:03:54.800
+ okay, it needs to be unified, because if it's not unified, like you're always going to have the
+
+01:03:54.800 --> 01:03:59.440
+ discussion, like somebody in the project going to want to use this tool, or this other tool,
+
+01:03:59.440 --> 01:04:04.880
+ you're like, it's going to be unified, very few configuration options for, for better or worse,
+
+01:04:04.880 --> 01:04:09.360
+ and it is what it is. And it's something that, for example, I struggle at the beginning,
+
+01:04:09.360 --> 01:04:16.320
+ like with the formatter, right, like there's like the joke, like the best formatted code is the
+
+01:04:16.320 --> 01:04:23.760
+ code that I write, right is, and then, and then I was pretty much in that camp. And, and as we're
+
+01:04:23.760 --> 01:04:27.600
+ writing the formatter, we were discussing with the team. And then I was looking at my own code,
+
+01:04:27.600 --> 01:04:32.320
+ and then was, what is the logic for formatting this? And there was actually no logic. It was just like,
+
+01:04:32.320 --> 01:04:37.680
+ it was just like, you know, whatever, it's like, I think this is better. So it was a hard process,
+
+01:04:37.680 --> 01:04:41.680
+ but we were like, you're going to be better because of it, and then deploying. So if you ask
+
+01:04:41.680 --> 01:04:47.120
+ that lecture committee today, what is the biggest thing that is missing in the language,
+
+01:04:47.120 --> 01:04:53.760
+ they are going to say static typing. It's like, it's like the huge majority is not like, you know,
+
+01:04:53.760 --> 01:05:00.240
+ it's like more like two more than two thirds. So I think it's, I say like, we are not, I'm not
+
+01:05:00.240 --> 01:05:07.760
+ sure if I was going to be static with five at the end. But I think I, we have to give a honest try.
+
+01:05:07.760 --> 01:05:14.480
+ Like, we have to try to do it. I tried to do it like five years ago, absolutely set, but I'm used
+
+01:05:14.480 --> 01:05:21.200
+ with my prototype second. And, and now we are like partnering with a senior researcher, all types
+
+01:05:21.200 --> 01:05:26.800
+ systems, we have a PhD student, because the thing is, usually when I started a program in language,
+
+01:05:26.800 --> 01:05:32.000
+ right, and say, I want to have types, you design the program in language with the type system.
+
+01:05:32.000 --> 01:05:36.080
+ And when you are in that scenario, doesn't apply to type script, but when you are in that scenario,
+
+01:05:36.080 --> 01:05:44.560
+ usually the type script, the type system is restricting the language. There are things that, you know,
+
+01:05:44.560 --> 01:05:47.920
+ you think it would be like, if you look at the program, it's like, hey, maybe this should be
+
+01:05:47.920 --> 01:05:52.000
+ possible. But the types of things are going to be like, no, you can't do that, because I can't
+
+01:05:52.000 --> 01:05:57.520
+ understand that. Right. And languages, I go, they, they use the type system as a mechanism to restrict
+
+01:05:57.520 --> 01:06:03.920
+ the language and make sure that the language is simple. Right. But if you have an dynamic language,
+
+01:06:03.920 --> 01:06:10.080
+ like there was nothing restricted. So it has a large expressive power. There's a lot of things
+
+01:06:10.080 --> 01:06:16.560
+ that you can do. Right. So the challenge is that, well, we need to find out a type system that is
+
+01:06:16.560 --> 01:06:24.560
+ going to obey the rules of this existing language. Right. And most likely, you're not going to have
+
+01:06:24.560 --> 01:06:29.760
+ to get a hundred percent fit. Right. It's not possible. You're going to have to make trade-offs.
+
+01:06:29.760 --> 01:06:35.360
+ And when you don't have this a hundred percent fit, two things are going to happen. One,
+
+01:06:35.360 --> 01:06:42.480
+ because the type system does not understand that code, it's going to say, hey, this code is not
+
+01:06:42.480 --> 01:06:47.680
+ valid. But if you remove the types, the code runs. But if you add the types, the type like,
+
+01:06:47.680 --> 01:06:52.880
+ this code is not valid. I cannot understand it. Right. So that's one of the things that can happen.
+
+01:06:52.880 --> 01:06:58.000
+ But the other thing that can happen is that it can say, oh, I don't understand this code. So I'm
+
+01:06:58.000 --> 01:07:04.000
+ going to do is I'm going to introduce a dynamic or a types create any. But every time we introduce
+
+01:07:04.000 --> 01:07:10.080
+ the any, it means that you're getting fewer guarantees from the type system. Right. So that's
+
+01:07:10.080 --> 01:07:16.320
+ the trade-off. So what what we are doing is that, so we were in the research stage. And we were like,
+
+01:07:16.320 --> 01:07:23.760
+ okay, how do we have a type system that can map and understand as much of the next
+
+01:07:23.760 --> 01:07:29.760
+ language as possible? So we are working, you know, with the research of the PhD student as
+
+01:07:29.760 --> 01:07:34.960
+ actually to do that. And it was really valuable work with them because we were able to get a type
+
+01:07:34.960 --> 01:07:39.200
+ system that is based on set theoretic types and then we talk about it very briefly. That is based
+
+01:07:39.200 --> 01:07:44.560
+ on set theoretic types and apply it to the language. And in the parts that it did not apply, they
+
+01:07:44.560 --> 01:07:49.520
+ actually went and developed new theory. You're like, we can't do that. We are going to like to
+
+01:07:49.520 --> 01:07:55.600
+ develop theory that like the mathematical proof that I actually don't understand. And we are going
+
+01:07:55.600 --> 01:08:02.160
+ to prove that this is good. So we can incorporate that into the language. So right now we have the
+
+01:08:02.160 --> 01:08:09.280
+ formalization of a type system that connects press like a really large amount of adductor
+
+01:08:09.280 --> 01:08:15.280
+ idioms and adductor features. So that's important. And that's based on set theoretic types. And what
+
+01:08:15.280 --> 01:08:21.840
+ that means, it's something is that the type operations you think about everything as set
+
+01:08:21.840 --> 01:08:26.960
+ operations, which for me, it's really important because set operations, you know, we learned them
+
+01:08:26.960 --> 01:08:32.960
+ like early on, right, high school or even before we think about unions in intersections. It's easy
+
+01:08:32.960 --> 01:08:38.800
+ for us to reason when things belong to a set or not. So a lot of the things that if you work with
+
+01:08:38.800 --> 01:08:46.960
+ type language, like, oh, bounded polymorphism, subtyping, like all those fancy things for us,
+
+01:08:46.960 --> 01:08:52.240
+ it's always going to be, oh, that's asking if something belongs to a set. That's the union of
+
+01:08:52.240 --> 01:08:57.440
+ just sets. So that's really elegant. So when I've learned about the approach, I really enjoyed it.
+
+01:08:57.440 --> 01:09:03.600
+ And that's what we did. So we have something that in theory maps really well to literary idioms.
+
+01:09:03.600 --> 01:09:08.800
+ And we are getting out of the research approach, we're sorry, we're getting out of the research
+
+01:09:08.800 --> 01:09:15.840
+ stage. And now we are heading to, so that's a very big validation. But we're with working practice,
+
+01:09:15.840 --> 01:09:19.360
+ we have to be efficient. So for example, imagine that we have the type of system,
+
+01:09:19.360 --> 01:09:26.560
+ and analytical piles, like two times is lower, five times is lower. Is that a trade off that we
+
+01:09:26.560 --> 01:09:31.360
+ are comfortable with making? So what we'll do is that we'll start implementing the type of system.
+
+01:09:31.360 --> 01:09:36.720
+ And because in Elixir, again, you usually know the types that you have because of pattern matching
+
+01:09:36.720 --> 01:09:42.320
+ cards, our goal is to actually leverage this information and feed that into the type of system.
+
+01:09:42.320 --> 01:09:48.480
+ So we can start giving you type errors without you declaring any type whatsoever. And this is
+
+01:09:48.480 --> 01:09:53.520
+ going to be great because it's going to be you won't have to change your code. You get feedback.
+
+01:09:53.520 --> 01:09:57.600
+ We are going to use this as an opportunity to improve their messages, make sure the experience
+
+01:09:57.600 --> 01:10:03.200
+ is great. We are going to use it as a way to validate the performance. And then if for some reason,
+
+01:10:03.200 --> 01:10:07.920
+ we are not happy with this initial stage, we'll be like, all right, you never have to change the
+
+01:10:07.920 --> 01:10:11.520
+ language anyway. They're just going to get a type of system. We are going to throw it out.
+
+01:10:11.520 --> 01:10:17.680
+ We gave our honesty for it. But if it really works, then we can go to the next stage and tell users
+
+01:10:17.680 --> 01:10:23.840
+ now you can start writing types. And so that's what we are doing. It's really like, it's really,
+
+01:10:23.840 --> 01:10:29.360
+ I think it's like, it's really a honest of thought in trying to make this work in a way that it feels
+
+01:10:29.360 --> 01:10:35.360
+ part of the language that it doesn't feel fragmented. It doesn't feel like the language becomes like
+
+01:10:35.360 --> 01:10:42.400
+ those two different things where one is dynamic and one is static. That's what we want to do.
+
+01:10:42.400 --> 01:10:47.440
+ But it's still unclear. I always try to temper people's expectations. Like, the answer may be no,
+
+01:10:47.440 --> 01:10:52.080
+ the answer may be like, it's still not doable. And we'll try again in 10 years.
+
+01:10:52.080 --> 01:10:55.760
+ Yeah, yeah. No, that makes a lot of sense. I mean, thanks for that summary. That's pretty exciting
+
+01:10:55.760 --> 01:11:01.360
+ because, yeah, it's the thing you said about all the pattern matching code you write. There's just
+
+01:11:01.360 --> 01:11:06.080
+ such useful information there. I think a lot of people think about, especially when they compare
+
+01:11:06.080 --> 01:11:12.480
+ to Rust, right, they think about a type system isn't useful unless it's like complete or like
+
+01:11:12.480 --> 01:11:18.640
+ entirely sound. But what most people are asking for is like better hints when they're writing the
+
+01:11:18.640 --> 01:11:22.480
+ code and just being able to infer more of that from the code they've already written. Like,
+
+01:11:22.480 --> 01:11:27.360
+ that's already like a huge milestone. Like, it's like a first step. You know, it can only get better
+
+01:11:27.360 --> 01:11:33.440
+ from there. So yeah, I think for me, when I desired type safety in Elixir, I just meant like,
+
+01:11:34.720 --> 01:11:39.600
+ like a little bit more than what we have today. And that kind of brings me to a practically like
+
+01:11:39.600 --> 01:11:45.120
+ a good place. So I think for me, like inferring from the code you writes, that's kind of what I
+
+01:11:45.120 --> 01:11:49.280
+ think of when I think about, you know, when I want type safety, I don't necessarily think about like,
+
+01:11:49.280 --> 01:11:53.760
+ you know, writing my types first and like doing all the time writing my implementation from the
+
+01:11:53.760 --> 01:12:00.400
+ code, which I do do sometimes, but it's not like the default way to work on things. So yeah, I mean,
+
+01:12:00.400 --> 01:12:05.920
+ I'm really excited that you guys do not research and excited to see what that ends up.
+
+01:12:05.920 --> 01:12:11.200
+ Yeah, and I think, and I think what exactly to describe, I think it's a common sentiment.
+
+01:12:11.200 --> 01:12:18.240
+ A lot of people, they're not like, we want the type system because I wanted to catch 100%
+
+01:12:18.240 --> 01:12:21.600
+ of my bugs or something like that. But it's because they're like,
+
+01:12:21.600 --> 01:12:29.920
+ we recognize and we appreciate that a type system is going to lead to a better experience.
+
+01:12:29.920 --> 01:12:41.280
+ And even though it's not perfect, the better experience is worth it. But we'll try to
+
+01:12:41.280 --> 01:12:46.880
+ the vote, we'll try to do the correct and good experience. And we'll see where it's going to fall
+
+01:12:46.880 --> 01:12:52.240
+ flat. Yeah, yeah, I think TypeScript has proven like, that's like the common sentiment as well,
+
+01:12:52.240 --> 01:12:57.440
+ because again, TypeScript is not like 100% correct or sound type system. But the amount of adoption
+
+01:12:57.440 --> 01:13:02.880
+ has gotten. People like it despite that, right? So yeah, that does make a lot of sense.
+
+01:13:02.880 --> 01:13:06.480
+ Cool. So that's, that's everything I had. Just as like a summary to the audience,
+
+01:13:06.480 --> 01:13:10.640
+ the stuff we talked about, there's like a one or so hour conversation.
+
+01:13:10.640 --> 01:13:15.760
+ We covered a good amount of stuff that exists in the Elixir space. This is still just a tiny,
+
+01:13:15.760 --> 01:13:20.480
+ there's so much so much more that we hadn't really covered. I just strongly recommend
+
+01:13:20.480 --> 01:13:23.680
+ that everyone doesn't matter if you're going to use it in production. It doesn't matter if it
+
+01:13:23.680 --> 01:13:28.640
+ makes sense at your company. Go explore it. There's just so many good ideas there that you can learn
+
+01:13:28.640 --> 01:13:33.440
+ from that will make the rest of your code better. Just be inspired from like, just like, like Jose
+
+01:13:33.440 --> 01:13:37.120
+ has been talking about the overall ecosystem, the way it all comes together and the consistency.
+
+01:13:37.120 --> 01:13:41.360
+ And just like, there's so many places where you can use Elixir. I think that just
+
+01:13:41.360 --> 01:13:46.960
+ will change our expectations out of whatever language you're using today. There's a lot of
+
+01:13:46.960 --> 01:13:52.880
+ opportunity for inspiration. Yeah, I, yeah, I've, thanks for having me. I really enjoyed it. And
+
+01:13:52.880 --> 01:14:05.840
+ everybody have a great weekend. Yeah. And see you around. All right. Yeah. Good day.
+

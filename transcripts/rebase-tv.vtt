@@ -1,0 +1,1892 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.200
+ - So Adam, tell me about Rebase.
+
+00:00:02.200 --> 00:00:04.760
+ - Rebase, DAX, if you hadn't heard,
+
+00:00:04.760 --> 00:00:07.440
+ is a live game show for developers
+
+00:00:07.440 --> 00:00:08.840
+ where you can win real cash prizes.
+
+00:00:08.840 --> 00:00:10.720
+ You've obviously heard about it
+
+00:00:10.720 --> 00:00:11.880
+ because you made it with me.
+
+00:00:11.880 --> 00:00:12.880
+ (laughing)
+
+00:00:12.880 --> 00:00:15.460
+ (upbeat music)
+
+00:00:30.000 --> 00:00:32.580
+ (upbeat music)
+
+00:00:32.580 --> 00:00:37.920
+ - This is fun 'cause we've been doing this podcast
+
+00:00:37.920 --> 00:00:40.480
+ and now we're making something together
+
+00:00:40.480 --> 00:00:45.240
+ and it's kind of like, it's fun to play with new tech
+
+00:00:45.240 --> 00:00:46.720
+ and to build stuff always,
+
+00:00:46.720 --> 00:00:48.280
+ but then doing it with a friend
+
+00:00:48.280 --> 00:00:50.720
+ and doing it about something that you enjoy,
+
+00:00:50.720 --> 00:00:54.200
+ like, I don't know, high quality production
+
+00:00:54.200 --> 00:00:55.800
+ and software development.
+
+00:00:55.800 --> 00:00:58.840
+ It's kind of like a mismatch of like a lot of interests.
+
+00:00:58.840 --> 00:01:00.480
+ So it's gonna be like HQ trivia,
+
+00:01:00.480 --> 00:01:02.440
+ but for developers, that's the idea.
+
+00:01:02.440 --> 00:01:04.480
+ - Yeah, I think I've also been reflecting on how
+
+00:01:04.480 --> 00:01:07.280
+ it's like a great intersection of things.
+
+00:01:07.280 --> 00:01:10.160
+ We get to, we both build with a similar stack,
+
+00:01:10.160 --> 00:01:11.840
+ so that lines up really well.
+
+00:01:11.840 --> 00:01:13.600
+ There are front end components to this
+
+00:01:13.600 --> 00:01:15.440
+ so we get to build front end stuff.
+
+00:01:15.440 --> 00:01:18.360
+ All the media stuff, you know, to produce a game show
+
+00:01:18.360 --> 00:01:19.600
+ is not just a bunch of questions,
+
+00:01:19.600 --> 00:01:22.120
+ it's like the intro titles and the transitions
+
+00:01:22.120 --> 00:01:24.720
+ and animations, you know, there's a lot of really cool stuff
+
+00:01:24.720 --> 00:01:26.600
+ we can do to make it feel really legit,
+
+00:01:26.600 --> 00:01:29.000
+ which I think we definitely wanna do.
+
+00:01:29.000 --> 00:01:31.240
+ And it's just fun.
+
+00:01:31.240 --> 00:01:35.000
+ It's like the goal of it is to make something
+
+00:01:35.000 --> 00:01:37.920
+ that people have fun playing and just fun and enjoyable.
+
+00:01:37.920 --> 00:01:39.280
+ It's something that we can all kind of share together
+
+00:01:39.280 --> 00:01:42.360
+ and do at the same time once a week, whatever it is.
+
+00:01:42.360 --> 00:01:45.240
+ Yeah, it never really worked on something like that.
+
+00:01:45.240 --> 00:01:48.440
+ - It feels like it could exist in the current dev community,
+
+00:01:48.440 --> 00:01:51.920
+ at least like in the small circles we exist in Twitter.
+
+00:01:51.920 --> 00:01:53.560
+ I think kind of a live event
+
+00:01:53.560 --> 00:01:55.520
+ that happens on some predictable schedule.
+
+00:01:56.880 --> 00:01:57.800
+ - Yeah, it's exciting to me.
+
+00:01:57.800 --> 00:01:59.920
+ We've got some good feedback.
+
+00:01:59.920 --> 00:02:01.320
+ We just launched the website.
+
+00:02:01.320 --> 00:02:04.080
+ So we're kind of like getting people to sign up,
+
+00:02:04.080 --> 00:02:05.160
+ stay informed.
+
+00:02:05.160 --> 00:02:07.240
+ That took like a week.
+
+00:02:07.240 --> 00:02:08.360
+ That was harder than we thought.
+
+00:02:08.360 --> 00:02:10.160
+ Would you say that was harder than you thought it would be?
+
+00:02:10.160 --> 00:02:11.840
+ So just make a landing page.
+
+00:02:11.840 --> 00:02:13.320
+ - Yeah, you know, I've been made a landing page
+
+00:02:13.320 --> 00:02:15.520
+ in a long time and then the back of my head, it's always like,
+
+00:02:15.520 --> 00:02:18.680
+ oh yeah, do you know, just just like a landing page.
+
+00:02:18.680 --> 00:02:21.720
+ But the thing with everything we're doing is we wanted,
+
+00:02:21.720 --> 00:02:23.920
+ we wanted to feel really high quality
+
+00:02:24.840 --> 00:02:26.560
+ and that starts with the landing page.
+
+00:02:26.560 --> 00:02:31.480
+ So I think that just made it a lot more challenging
+
+00:02:31.480 --> 00:02:32.520
+ than it initially seemed.
+
+00:02:32.520 --> 00:02:35.280
+ - Yeah, but I think like we're getting to take advantage
+
+00:02:35.280 --> 00:02:37.520
+ of all kinds of this AWS stuff that we enjoy.
+
+00:02:37.520 --> 00:02:40.360
+ There's services that make this a lot easier.
+
+00:02:40.360 --> 00:02:41.880
+ It was more than a landing page.
+
+00:02:41.880 --> 00:02:45.960
+ So we did like the whole social card thing
+
+00:02:45.960 --> 00:02:49.240
+ where you can share your card and it's generated per user.
+
+00:02:49.240 --> 00:02:51.320
+ - Maybe you just described like everything
+
+00:02:51.320 --> 00:02:52.400
+ that we set up and how it works.
+
+00:02:52.400 --> 00:02:55.640
+ - So we're using SST, shout out to SST.
+
+00:02:55.640 --> 00:02:57.760
+ It's very good, capital G.
+
+00:02:57.760 --> 00:03:02.920
+ We're using SST, we're using Astro for the landing page
+
+00:03:02.920 --> 00:03:06.880
+ and basically, I mean, you land on the landing page,
+
+00:03:06.880 --> 00:03:09.480
+ you can sign up with one of a couple of,
+
+00:03:09.480 --> 00:03:14.040
+ it's like Google or GitHub and we use SST off for that.
+
+00:03:14.040 --> 00:03:16.760
+ You click on it and you're taken to a page
+
+00:03:16.760 --> 00:03:21.200
+ that has your personalized ticket to the rebase premiere.
+
+00:03:21.200 --> 00:03:25.040
+ And we generate that just with like a lambda function
+
+00:03:25.040 --> 00:03:28.700
+ that uses puppeteer and takes a screenshot of a page.
+
+00:03:28.700 --> 00:03:32.600
+ I think that's a pretty like well-worn path.
+
+00:03:32.600 --> 00:03:36.640
+ At this point, we've like, there's plenty of prior art
+
+00:03:36.640 --> 00:03:40.160
+ to pull from when you're building something like that,
+
+00:03:40.160 --> 00:03:43.720
+ but like putting it behind an Astro site construct
+
+00:03:43.720 --> 00:03:47.120
+ and SSC to use that CDN and all that.
+
+00:03:47.120 --> 00:03:48.320
+ We had some stuff to figure out
+
+00:03:48.320 --> 00:03:49.520
+ just how we wanted to do it.
+
+00:03:49.520 --> 00:03:50.640
+ And that's it, I guess.
+
+00:03:50.640 --> 00:03:51.480
+ Is that it?
+
+00:03:51.480 --> 00:03:53.560
+ And then you share the URL, there's some referral stuff.
+
+00:03:53.560 --> 00:03:57.880
+ - Yeah, you can share your custom link.
+
+00:03:57.880 --> 00:04:00.240
+ That needs to render like a proper like OG image.
+
+00:04:00.240 --> 00:04:01.920
+ So it looks nice on Twitter.
+
+00:04:01.920 --> 00:04:04.760
+ Again, but that's the same puppeteer thing you talked about.
+
+00:04:04.760 --> 00:04:06.440
+ And then yeah, we track referral.
+
+00:04:06.440 --> 00:04:09.760
+ So that part was kind of funny because,
+
+00:04:09.760 --> 00:04:12.960
+ so we're using Dynamo for user storage.
+
+00:04:12.960 --> 00:04:15.640
+ And this normally isn't that big of a deal,
+
+00:04:15.640 --> 00:04:17.440
+ like you just create a user or whatever.
+
+00:04:17.440 --> 00:04:19.880
+ But the ticket had incrementing the place.
+
+00:04:19.880 --> 00:04:21.760
+ So the first one that signed up is number one,
+
+00:04:21.760 --> 00:04:23.760
+ next one's number two, et cetera.
+
+00:04:23.760 --> 00:04:26.640
+ And incrementing numbers are one of those things
+
+00:04:26.640 --> 00:04:28.880
+ that just you'd never use normally
+
+00:04:28.880 --> 00:04:30.640
+ 'cause they just don't scale well.
+
+00:04:30.640 --> 00:04:33.640
+ So then they usually don't have any advantages.
+
+00:04:33.640 --> 00:04:36.720
+ So I haven't had to do that in years and years and years.
+
+00:04:36.720 --> 00:04:40.280
+ And last time I did that was probably in a SQL database.
+
+00:04:40.280 --> 00:04:42.600
+ So if I do that in Dynamo, it's kind of funny.
+
+00:04:42.600 --> 00:04:45.800
+ It sounds so simple, but it's surprisingly,
+
+00:04:45.800 --> 00:04:48.240
+ you need to know, you need to really understand
+
+00:04:48.240 --> 00:04:49.920
+ how Dynamo works to do it right.
+
+00:04:49.920 --> 00:04:51.960
+ - Well, 'cause like in a SQL database,
+
+00:04:51.960 --> 00:04:54.200
+ it's literally just like an auto ID thing, right?
+
+00:04:54.200 --> 00:04:56.240
+ Like there's just like a type of column
+
+00:04:56.240 --> 00:04:59.880
+ that just auto increments and you never think about it again.
+
+00:04:59.880 --> 00:05:01.880
+ - I think people might not be aware of this,
+
+00:05:01.880 --> 00:05:03.720
+ but to make that work, you didn't make it
+
+00:05:03.720 --> 00:05:06.480
+ so whenever there's an insert, something is locking
+
+00:05:06.480 --> 00:05:09.040
+ to make sure you're not incrementing twice by accident.
+
+00:05:09.040 --> 00:05:11.480
+ You're not issuing the same number twice by accident.
+
+00:05:11.480 --> 00:05:14.760
+ So even in a SQL database, you generally should not use those
+
+00:05:14.760 --> 00:05:18.480
+ because like why take that overhead if you don't need it.
+
+00:05:18.480 --> 00:05:22.480
+ And then Dynamo usually doesn't let you do stuff like that
+
+00:05:22.480 --> 00:05:24.320
+ because they don't let you do anything
+
+00:05:24.320 --> 00:05:25.640
+ that's not performant.
+
+00:05:25.640 --> 00:05:28.200
+ So yeah, we have to do like a funny like,
+
+00:05:28.200 --> 00:05:31.560
+ it's called an optimistic block thing where
+
+00:05:31.560 --> 00:05:33.400
+ it's like a funny, it's like weirdly complicated
+
+00:05:33.400 --> 00:05:34.240
+ to implement it correctly.
+
+00:05:34.240 --> 00:05:36.240
+ And I realized a couple of days ago, Adam,
+
+00:05:36.240 --> 00:05:38.560
+ that I didn't actually implement it correctly.
+
+00:05:38.560 --> 00:05:41.680
+ I forgot to do the initial read with how they have
+
+00:05:41.680 --> 00:05:44.000
+ that you concurrence you think you can set it.
+
+00:05:44.000 --> 00:05:46.480
+ - Yes, or consistency rather.
+
+00:05:46.480 --> 00:05:48.680
+ So I gotta go fix that.
+
+00:05:48.680 --> 00:05:50.320
+ But there haven't been any actual issues yet
+
+00:05:50.320 --> 00:05:52.720
+ because it's not like we have 1,000 people signing.
+
+00:05:52.720 --> 00:05:53.560
+ - Yeah, right.
+
+00:05:53.560 --> 00:05:54.400
+ - At least not yet.
+
+00:05:54.400 --> 00:05:55.800
+ - No, we couldn't have because turns out
+
+00:05:55.800 --> 00:05:59.120
+ land invocation limits start out at 10 in new accounts.
+
+00:05:59.120 --> 00:06:01.480
+ We've had so many issues with our new AWS account.
+
+00:06:01.480 --> 00:06:04.040
+ There's some feedback for AWS.
+
+00:06:04.040 --> 00:06:04.880
+ It's been painful.
+
+00:06:04.880 --> 00:06:06.640
+ - Yeah, I know that this is all new, right?
+
+00:06:06.640 --> 00:06:09.560
+ So just to kind of describe what was happening,
+
+00:06:09.560 --> 00:06:12.840
+ we signed up for a new AWS account to set this all up.
+
+00:06:12.840 --> 00:06:15.120
+ The limits on new AWS accounts are crazy.
+
+00:06:15.120 --> 00:06:16.080
+ Like we couldn't do anything.
+
+00:06:16.080 --> 00:06:18.760
+ We couldn't launch a cloud front distribution.
+
+00:06:18.760 --> 00:06:20.800
+ And then when we deploy, we're in a production
+
+00:06:20.800 --> 00:06:23.040
+ and it turns out we could only have 10 lambdas
+
+00:06:23.040 --> 00:06:25.960
+ running concurrently at once and we're hitting limits there.
+
+00:06:25.960 --> 00:06:28.400
+ This might be feedback from all the bad PR they get
+
+00:06:28.400 --> 00:06:30.960
+ whenever people have like surprise bills,
+
+00:06:30.960 --> 00:06:34.480
+ but it's just funny that two of us are running into this
+
+00:06:34.480 --> 00:06:37.320
+ and we're like the most AWS people out there.
+
+00:06:37.320 --> 00:06:40.920
+ - No, I think somebody said in like the hero Slack
+
+00:06:40.920 --> 00:06:43.000
+ that it's actually a fraud detection thing
+
+00:06:43.000 --> 00:06:45.320
+ and it might not be every account.
+
+00:06:45.320 --> 00:06:47.480
+ But I think the Lambda concurrency,
+
+00:06:47.480 --> 00:06:49.720
+ the function invocation concurrency thing,
+
+00:06:49.720 --> 00:06:52.200
+ I think that's actually every new account now.
+
+00:06:52.200 --> 00:06:54.360
+ I don't think you just default to the thousand.
+
+00:06:54.360 --> 00:06:55.360
+ - Oh, interesting.
+
+00:06:55.360 --> 00:06:56.200
+ - Like it used to be.
+
+00:06:56.200 --> 00:06:57.200
+ I could be wrong.
+
+00:06:57.200 --> 00:06:59.480
+ But yeah, there's still resources we can't create
+
+00:06:59.480 --> 00:07:03.240
+ because we have this sort of like fraud thing tripped
+
+00:07:03.240 --> 00:07:04.320
+ and they're trying to work through it.
+
+00:07:04.320 --> 00:07:05.640
+ - Yeah.
+
+00:07:05.640 --> 00:07:09.480
+ Well, there was also the, we had some like weird stuff
+
+00:07:09.480 --> 00:07:11.960
+ trying to figure out how to make the Share Card.
+
+00:07:11.960 --> 00:07:14.640
+ So the Share Card needs to render like in Twitter
+
+00:07:14.640 --> 00:07:17.680
+ with the OG image of this dynamic,
+
+00:07:17.680 --> 00:07:20.560
+ like image generation API we stood up.
+
+00:07:20.560 --> 00:07:24.360
+ But also we wanted like everyone to land on the landing page
+
+00:07:24.360 --> 00:07:26.480
+ and we wanted to just like serve a cached page
+
+00:07:26.480 --> 00:07:27.880
+ from the CDN.
+
+00:07:27.880 --> 00:07:29.560
+ I remember there was some like weird stuff there
+
+00:07:29.560 --> 00:07:31.080
+ where we couldn't figure out the best way.
+
+00:07:31.080 --> 00:07:34.800
+ So we ended up just like, there's like a dummy page per user
+
+00:07:34.800 --> 00:07:39.440
+ that's like an SSR page and it just has like head elements
+
+00:07:39.440 --> 00:07:40.760
+ and it just got all the tags.
+
+00:07:40.760 --> 00:07:43.440
+ So it's got the OG, all the metadata stuff.
+
+00:07:43.440 --> 00:07:47.720
+ But then it also uses the like HTTP redirect thing
+
+00:07:47.720 --> 00:07:50.640
+ as a header tag to just send you back to the landing page.
+
+00:07:50.640 --> 00:07:51.480
+ I don't know.
+
+00:07:51.480 --> 00:07:52.320
+ Is any of that stuff interesting?
+
+00:07:52.320 --> 00:07:53.160
+ Does any make care about this?
+
+00:07:53.160 --> 00:07:53.980
+ I don't know.
+
+00:07:53.980 --> 00:07:55.800
+ (laughing)
+
+00:07:55.800 --> 00:07:57.840
+ - Yeah, I mean, I think that just of is as well,
+
+00:07:57.840 --> 00:07:59.560
+ this was all surprisingly complicated.
+
+00:07:59.560 --> 00:08:02.400
+ And in that case, we needed to find a way to trick
+
+00:08:02.400 --> 00:08:05.680
+ the web crawler and to just start looking at that page
+
+00:08:05.680 --> 00:08:08.480
+ but have the user browser go to a different page
+
+00:08:08.480 --> 00:08:10.800
+ when they went there and we figured out
+
+00:08:10.800 --> 00:08:14.360
+ that HTTP refresh header, like a bot wouldn't follow that
+
+00:08:14.360 --> 00:08:15.640
+ but your browser would.
+
+00:08:15.640 --> 00:08:18.480
+ And is this something I feel like a lot of people
+
+00:08:18.480 --> 00:08:20.440
+ building lots of products, kind of neat?
+
+00:08:20.440 --> 00:08:24.440
+ So yeah, we should like write it up or something
+
+00:08:24.440 --> 00:08:25.280
+ at some point.
+
+00:08:25.280 --> 00:08:26.120
+ - Do you have a blog?
+
+00:08:26.120 --> 00:08:28.440
+ - I mean, we all have blogs and never writes it right.
+
+00:08:28.440 --> 00:08:30.600
+ - Just when you said that, like we should write that up.
+
+00:08:30.600 --> 00:08:32.200
+ Like, I don't even know where I would put it.
+
+00:08:32.200 --> 00:08:33.120
+ If I wrote something up.
+
+00:08:33.120 --> 00:08:35.720
+ - I just put it on Twitter and it turns out that I didn't know.
+
+00:08:35.720 --> 00:08:37.000
+ - Try the Twitter thread.
+
+00:08:37.000 --> 00:08:38.400
+ - Yeah, Twitter's killed my blog.
+
+00:08:38.400 --> 00:08:40.560
+ So landing pages are hard in 2023.
+
+00:08:40.560 --> 00:08:41.800
+ Who knew?
+
+00:08:41.800 --> 00:08:43.200
+ I didn't expect that, I guess.
+
+00:08:43.200 --> 00:08:45.680
+ It shouldn't AI be just writing our landing pages by now?
+
+00:08:45.680 --> 00:08:46.760
+ Like, what's going on?
+
+00:08:46.760 --> 00:08:50.840
+ - Well, we said we wanted a good landing page.
+
+00:08:50.840 --> 00:08:52.120
+ - We wanted it to be good.
+
+00:08:52.120 --> 00:08:54.280
+ So by making things good, it takes time.
+
+00:08:54.280 --> 00:08:56.000
+ You know what, I actually have a take here
+
+00:08:56.000 --> 00:08:57.760
+ and this isn't meant to be offensive
+
+00:08:57.760 --> 00:08:59.280
+ to anybody in this community
+
+00:08:59.280 --> 00:09:01.480
+ but the whole indie hacking movement
+
+00:09:01.480 --> 00:09:03.920
+ and I think that communities maybe dwindled a little bit
+
+00:09:03.920 --> 00:09:05.480
+ in the last six months.
+
+00:09:05.480 --> 00:09:09.720
+ So maybe I'm not saying anything super revelatory
+
+00:09:09.720 --> 00:09:11.960
+ but I feel like the whole ending hacking movement,
+
+00:09:11.960 --> 00:09:14.680
+ like this idea of like throwing something together fast.
+
+00:09:14.680 --> 00:09:17.320
+ MVP, like just get something up there.
+
+00:09:17.320 --> 00:09:19.160
+ It doesn't matter what it is.
+
+00:09:19.160 --> 00:09:20.480
+ That's always rubbed me wrong
+
+00:09:20.480 --> 00:09:22.880
+ because I care so much about quality.
+
+00:09:22.880 --> 00:09:25.160
+ And I know like if you spend a lot of time
+
+00:09:25.160 --> 00:09:27.480
+ like polishing a thing and nobody uses it, who cares?
+
+00:09:27.480 --> 00:09:29.320
+ I get the trade off here
+
+00:09:29.320 --> 00:09:31.480
+ but I also just like would rather put good stuff out there.
+
+00:09:31.480 --> 00:09:34.560
+ And I feel like at this point in 2023,
+
+00:09:34.560 --> 00:09:36.040
+ there's really no excuse for building something
+
+00:09:36.040 --> 00:09:37.160
+ that's not high quality.
+
+00:09:37.160 --> 00:09:39.320
+ Like with all the tools that are out there,
+
+00:09:39.320 --> 00:09:42.320
+ just like learning the right things to put together,
+
+00:09:42.320 --> 00:09:44.440
+ like it doesn't take that much effort.
+
+00:09:44.440 --> 00:09:46.120
+ It just takes a week to build a language
+
+00:09:46.120 --> 00:09:49.200
+ instead of six hours or whatever people want to crank them out.
+
+00:09:49.200 --> 00:09:50.040
+ - Yeah, exactly.
+
+00:09:50.040 --> 00:09:52.320
+ It's kind of like, and I've felt it's my whole career.
+
+00:09:52.320 --> 00:09:54.880
+ I think there's always added effort
+
+00:09:54.880 --> 00:09:56.080
+ to make something better
+
+00:09:56.080 --> 00:09:57.920
+ or do something a little bit more right.
+
+00:09:57.920 --> 00:10:00.640
+ I never feel that effort was ever that much.
+
+00:10:00.640 --> 00:10:03.640
+ It's never like you get this out in a day
+
+00:10:03.640 --> 00:10:05.040
+ or you get out in six months.
+
+00:10:05.040 --> 00:10:07.120
+ It's like a day versus a week,
+
+00:10:07.120 --> 00:10:10.000
+ which isn't like a terrible difference.
+
+00:10:10.000 --> 00:10:11.280
+ - Yeah, and if you care about quality,
+
+00:10:11.280 --> 00:10:12.400
+ I don't know, what is that?
+
+00:10:12.400 --> 00:10:15.520
+ What is, is that like, do users not care about quality?
+
+00:10:15.520 --> 00:10:18.200
+ Is that why indie hacking, is indie hacking successful?
+
+00:10:18.200 --> 00:10:20.960
+ Has there been like three of them, like Peter levels,
+
+00:10:20.960 --> 00:10:22.280
+ Danny Postman, who else?
+
+00:10:22.280 --> 00:10:24.360
+ There's been like three successful indie hackers.
+
+00:10:24.360 --> 00:10:27.440
+ - I think the trick with that is those,
+
+00:10:27.440 --> 00:10:29.920
+ the people that have been successful in that category
+
+00:10:29.920 --> 00:10:34.240
+ are insanely, insanely gifted and talented
+
+00:10:34.240 --> 00:10:36.080
+ in the marketing department.
+
+00:10:36.080 --> 00:10:40.360
+ So for them, they just need to launch a bunch of ideas
+
+00:10:40.360 --> 00:10:41.280
+ as fast as possible
+
+00:10:41.280 --> 00:10:42.880
+ 'cause they just shove that into their marketing machine
+
+00:10:42.880 --> 00:10:45.200
+ and it spits out success.
+
+00:10:45.200 --> 00:10:48.160
+ So if you're gonna not spend a lot of time
+
+00:10:48.160 --> 00:10:49.840
+ on what you're building,
+
+00:10:49.840 --> 00:10:52.200
+ that means you should be spending a bunch of time
+
+00:10:52.200 --> 00:10:54.320
+ like becoming like an expert marketer,
+
+00:10:54.320 --> 00:10:57.000
+ like creating crazy reach, all that stuff.
+
+00:10:57.000 --> 00:11:00.280
+ I think then you can be successful, like then that all makes sense.
+
+00:11:00.280 --> 00:11:04.080
+ But for us, I think the quality is our marketing, right?
+
+00:11:04.080 --> 00:11:05.840
+ We're hoping people use this
+
+00:11:05.840 --> 00:11:07.520
+ 'cause they're gonna try it and they're gonna be like,
+
+00:11:07.520 --> 00:11:11.680
+ "This is way too much effort for something like this."
+
+00:11:11.680 --> 00:11:13.520
+ Like we're just like a shitty little quiz app,
+
+00:11:13.520 --> 00:11:16.200
+ but this is like, you know, much more legit.
+
+00:11:16.200 --> 00:11:17.560
+ - It's an experience.
+
+00:11:17.560 --> 00:11:18.920
+ - Yeah, and that is our marketing.
+
+00:11:18.920 --> 00:11:21.040
+ So that's why we're putting the effort there.
+
+00:11:21.040 --> 00:11:22.280
+ At least that's how it makes sense to me.
+
+00:11:22.280 --> 00:11:23.960
+ - No, it makes sense to me.
+
+00:11:23.960 --> 00:11:26.280
+ It's just striking me like in the middle of this conversation
+
+00:11:26.280 --> 00:11:28.280
+ that rebase is a side project.
+
+00:11:28.280 --> 00:11:30.080
+ And I'm literally like just going through
+
+00:11:30.080 --> 00:11:31.560
+ this mid-life crisis where I'm like,
+
+00:11:31.560 --> 00:11:32.520
+ I hate side projects.
+
+00:11:32.520 --> 00:11:35.000
+ I never want another side project.
+
+00:11:35.000 --> 00:11:36.360
+ But it's not because of rebases
+
+00:11:36.360 --> 00:11:39.400
+ because like I've just built so many things over the years.
+
+00:11:39.400 --> 00:11:41.400
+ And then they just like set there and nag at me.
+
+00:11:41.400 --> 00:11:43.560
+ You said something to me in Discord the other day
+
+00:11:43.560 --> 00:11:44.680
+ that helped me.
+
+00:11:44.680 --> 00:11:46.680
+ It was like just like to drop things
+
+00:11:46.680 --> 00:11:48.520
+ and to not let them nag at you.
+
+00:11:48.520 --> 00:11:51.040
+ But I've got like domains expiring and like projects
+
+00:11:51.040 --> 00:11:54.880
+ that had big ideas and big, I don't know,
+
+00:11:54.880 --> 00:11:56.880
+ like hopeful ambitions for.
+
+00:11:56.880 --> 00:11:59.880
+ And then they just kind of like set there for a year
+
+00:11:59.880 --> 00:12:01.200
+ and you just feel real bad.
+
+00:12:01.200 --> 00:12:02.040
+ I don't know.
+
+00:12:02.040 --> 00:12:03.120
+ Do you have any thoughts on all that?
+
+00:12:03.120 --> 00:12:05.960
+ - I mean, I have the exact same thing with a few things.
+
+00:12:05.960 --> 00:12:07.880
+ They just become these monuments too,
+
+00:12:07.880 --> 00:12:09.800
+ to your failures in your past,
+
+00:12:09.800 --> 00:12:11.840
+ excitement that you no longer have anymore.
+
+00:12:11.840 --> 00:12:14.240
+ And that's innately sad.
+
+00:12:14.240 --> 00:12:16.200
+ So, I know, yeah, it feels bad.
+
+00:12:16.200 --> 00:12:17.880
+ It feels like you're not going anywhere.
+
+00:12:17.880 --> 00:12:18.760
+ - So is there a coping?
+
+00:12:18.760 --> 00:12:21.560
+ So like you laid out the bad part.
+
+00:12:21.560 --> 00:12:22.760
+ Is there a good part?
+
+00:12:22.760 --> 00:12:24.440
+ - We actually talk about this at SST a lot.
+
+00:12:24.440 --> 00:12:28.400
+ We talk about it as like motivation driven development.
+
+00:12:28.400 --> 00:12:30.560
+ I think there's two ways to perceive this.
+
+00:12:30.560 --> 00:12:33.040
+ Sometimes people perceive motivation as,
+
+00:12:33.040 --> 00:12:34.240
+ oh, you're just distracted
+
+00:12:34.240 --> 00:12:35.920
+ and you're like getting excited about the next thing
+
+00:12:35.920 --> 00:12:37.160
+ and never finishing something,
+
+00:12:37.160 --> 00:12:38.480
+ which can definitely be a thing.
+
+00:12:38.480 --> 00:12:40.400
+ And I think that gets about a lot.
+
+00:12:40.400 --> 00:12:43.640
+ But I also think there's a bunch of intuition
+
+00:12:43.640 --> 00:12:44.960
+ and what you're excited about.
+
+00:12:44.960 --> 00:12:48.000
+ So I try to focus now more on,
+
+00:12:48.000 --> 00:12:49.560
+ okay, what's the next thing I want to do?
+
+00:12:49.560 --> 00:12:51.480
+ Not from like a rational point of view,
+
+00:12:51.480 --> 00:12:54.960
+ but what am I excited like, what do I feel like doing next?
+
+00:12:54.960 --> 00:12:58.480
+ I feel like my brain is computing a bunch of things
+
+00:12:58.480 --> 00:12:59.320
+ and spitting that up.
+
+00:12:59.320 --> 00:13:00.560
+ And the reason I'm excited about it
+
+00:13:00.560 --> 00:13:04.280
+ is because it also is a thing that makes the most sense.
+
+00:13:04.280 --> 00:13:07.080
+ So yeah, like I said, there is like a pathology
+
+00:13:07.080 --> 00:13:10.840
+ to like just starting stuff and never finishing.
+
+00:13:10.840 --> 00:13:15.240
+ But the other side of it is also also good.
+
+00:13:15.240 --> 00:13:16.840
+ And you should listen to that as well, so.
+
+00:13:16.840 --> 00:13:17.680
+ - Yeah.
+
+00:13:17.680 --> 00:13:18.520
+ - Just working on what you're excited about.
+
+00:13:18.520 --> 00:13:20.000
+ - Okay, so I feel good about that.
+
+00:13:20.000 --> 00:13:21.400
+ 'Cause there are always those mornings
+
+00:13:21.400 --> 00:13:23.360
+ where it's like, I could work on three different things.
+
+00:13:23.360 --> 00:13:24.600
+ I really want to work on this one.
+
+00:13:24.600 --> 00:13:26.240
+ I probably should work on this,
+
+00:13:26.240 --> 00:13:29.120
+ but you're saying maybe there's a reason,
+
+00:13:29.120 --> 00:13:31.440
+ like our instincts serve us here.
+
+00:13:31.440 --> 00:13:34.480
+ - Yeah, like some days you just got to eat your vegetables,
+
+00:13:34.480 --> 00:13:36.400
+ but I love vegetables.
+
+00:13:36.400 --> 00:13:38.200
+ I eat my vegetables every day next.
+
+00:13:38.200 --> 00:13:39.600
+ - That's true.
+
+00:13:39.600 --> 00:13:40.680
+ - My wife says I should.
+
+00:13:40.680 --> 00:13:42.560
+ - Eat the vegetables you don't like, there you go.
+
+00:13:42.560 --> 00:13:44.080
+ I'm sure there's some vegetables you don't like.
+
+00:13:44.080 --> 00:13:46.560
+ - I don't know, I've been thinking about this a lot
+
+00:13:46.560 --> 00:13:50.440
+ just the last like week, just the idea of like,
+
+00:13:50.440 --> 00:13:52.840
+ like I don't know what other professions are like.
+
+00:13:52.840 --> 00:13:53.880
+ This is all I've ever done.
+
+00:13:53.880 --> 00:13:55.840
+ Like I dropped out of college
+
+00:13:55.840 --> 00:13:57.440
+ and this is what I've done ever since.
+
+00:13:57.440 --> 00:14:00.280
+ But I have to imagine like it's a pretty unique career we have
+
+00:14:00.280 --> 00:14:04.160
+ where you can have this amazing, fulfilling job that you love
+
+00:14:04.160 --> 00:14:06.200
+ and you still just constantly have side projects.
+
+00:14:06.200 --> 00:14:07.160
+ Maybe it's not every developer.
+
+00:14:07.160 --> 00:14:11.560
+ Maybe it's like only the most ambitious have this problem
+
+00:14:11.560 --> 00:14:12.600
+ and we all just live on Twitter.
+
+00:14:12.600 --> 00:14:15.360
+ But it feels like everybody has a side project at all times.
+
+00:14:15.360 --> 00:14:17.960
+ And like we get paid like doctors
+
+00:14:17.960 --> 00:14:19.240
+ and we don't even have to go to school.
+
+00:14:19.240 --> 00:14:21.600
+ I should just be happy doing the one thing all the time.
+
+00:14:21.600 --> 00:14:24.200
+ Just like write down, sit down, write my code,
+
+00:14:24.200 --> 00:14:26.680
+ be a happy, employed developer.
+
+00:14:26.680 --> 00:14:29.200
+ But I've literally my entire career for 15 years.
+
+00:14:29.200 --> 00:14:32.400
+ I've always had something else I'm doing on the side
+
+00:14:32.400 --> 00:14:33.960
+ and I can't just do one thing.
+
+00:14:33.960 --> 00:14:34.960
+ - Yeah, I mean, but what else,
+
+00:14:34.960 --> 00:14:36.480
+ what would you be doing otherwise?
+
+00:14:36.480 --> 00:14:39.560
+ Like there's like, like you spend time with your family
+
+00:14:39.560 --> 00:14:41.600
+ like you have like a pre-balanced life and-
+
+00:14:41.600 --> 00:14:44.800
+ - Well, let's kind of be honest, like really honest.
+
+00:14:44.800 --> 00:14:47.320
+ I would just focus more on my day jobs.
+
+00:14:47.320 --> 00:14:49.240
+ I would like to spend the first time
+
+00:14:49.240 --> 00:14:53.040
+ on my cheating my day jobs by having side projects.
+
+00:14:53.040 --> 00:14:54.360
+ - Is that literally true though?
+
+00:14:54.360 --> 00:14:57.120
+ Cause I feel like it's not really a time thing.
+
+00:14:57.120 --> 00:14:57.960
+ It's an energy thing.
+
+00:14:57.960 --> 00:15:00.680
+ So given a project,
+
+00:15:00.680 --> 00:15:04.480
+ even if I have, you know, 18 hours a day to work on it,
+
+00:15:04.480 --> 00:15:07.600
+ I probably only have like four hours of energy
+
+00:15:07.600 --> 00:15:09.600
+ to work on that one thing.
+
+00:15:09.600 --> 00:15:12.160
+ That's just how I am, I don't know.
+
+00:15:12.160 --> 00:15:13.160
+ Like would you actually-
+
+00:15:13.160 --> 00:15:14.080
+ - No, that's a great point.
+
+00:15:14.080 --> 00:15:17.400
+ I'd probably just be on like, I don't know, on Twitter
+
+00:15:17.400 --> 00:15:19.880
+ in the time that I wasn't working on a side project.
+
+00:15:19.880 --> 00:15:20.960
+ - So it's tricky.
+
+00:15:20.960 --> 00:15:21.800
+ I think it's never, for me,
+
+00:15:21.800 --> 00:15:22.760
+ it's never been a time thing.
+
+00:15:22.760 --> 00:15:25.080
+ There's like more than enough hours in a day.
+
+00:15:25.080 --> 00:15:26.400
+ If you're on a consistent schedule,
+
+00:15:26.400 --> 00:15:28.960
+ it's just like sometimes I don't want to work
+
+00:15:28.960 --> 00:15:29.800
+ on something for too long.
+
+00:15:29.800 --> 00:15:31.000
+ - Okay, so I feel better then.
+
+00:15:31.000 --> 00:15:32.640
+ I feel better about my life.
+
+00:15:32.640 --> 00:15:35.160
+ I hope everyone else feels better.
+
+00:15:35.160 --> 00:15:36.000
+ Listen to this.
+
+00:15:36.000 --> 00:15:37.200
+ - Yeah, you're normal.
+
+00:15:37.200 --> 00:15:38.040
+ That's what you want to hear.
+
+00:15:38.040 --> 00:15:39.560
+ You just want to hear that you're normal.
+
+00:15:39.560 --> 00:15:41.880
+ I know that like this is a problem out there
+
+00:15:41.880 --> 00:15:44.320
+ because everybody has the same, like everybody buys
+
+00:15:44.320 --> 00:15:47.680
+ all the domains and they all like complain about the thing
+
+00:15:47.680 --> 00:15:49.360
+ that they haven't been working on that they should
+
+00:15:49.360 --> 00:15:51.840
+ or like the side projects that are withering.
+
+00:15:51.840 --> 00:15:53.680
+ So I know it's out there.
+
+00:15:53.680 --> 00:15:56.120
+ I feel better after this conversation.
+
+00:15:56.120 --> 00:15:58.120
+ I don't know that I'm fully healed,
+
+00:15:58.120 --> 00:16:01.400
+ but I can see a path towards just like accepting
+
+00:16:01.400 --> 00:16:02.240
+ the inevitability.
+
+00:16:02.240 --> 00:16:05.960
+ Like I am going to be interested in things at times
+
+00:16:05.960 --> 00:16:08.240
+ and just run with that, let it play out.
+
+00:16:08.240 --> 00:16:11.160
+ I guess the problem is when you invest a lot of time
+
+00:16:11.160 --> 00:16:13.280
+ or money or both into a side project,
+
+00:16:13.280 --> 00:16:15.840
+ it makes it more guilt laden.
+
+00:16:15.840 --> 00:16:17.040
+ The more you neglect it.
+
+00:16:17.040 --> 00:16:19.480
+ - Yeah, I know, but like it's, the alternative is
+
+00:16:19.480 --> 00:16:22.280
+ you never really get excited about anything work-wise
+
+00:16:22.280 --> 00:16:25.040
+ and you just kind of have this flat, stable experience,
+
+00:16:25.040 --> 00:16:27.880
+ which is okay, but, and there's nothing better
+
+00:16:27.880 --> 00:16:30.080
+ than feeling really excited about something
+
+00:16:30.080 --> 00:16:33.120
+ and like waking up and jumping, jumping onto it right away.
+
+00:16:33.120 --> 00:16:35.880
+ So I wouldn't give that up even if it,
+
+00:16:35.880 --> 00:16:37.760
+ even like never those things ever pan out.
+
+00:16:37.760 --> 00:16:39.040
+ - Yeah, so that's another thing.
+
+00:16:39.040 --> 00:16:40.360
+ That's been most of my career.
+
+00:16:40.360 --> 00:16:43.560
+ And I wanna say this with an asterisk and then circle back.
+
+00:16:43.560 --> 00:16:45.920
+ But like most of my career, it's like Christmas morning.
+
+00:16:45.920 --> 00:16:47.120
+ I can't wait to wake up.
+
+00:16:47.120 --> 00:16:48.280
+ Sometimes I have a hard time sleeping
+
+00:16:48.280 --> 00:16:50.640
+ just because I'm so excited about the thing I'm working on,
+
+00:16:50.640 --> 00:16:52.880
+ can't wait to wake up and work on that thing.
+
+00:16:52.880 --> 00:16:55.640
+ And I just saw somebody tweet and I don't even remember who it was
+
+00:16:55.640 --> 00:16:57.400
+ and I probably wouldn't say if I did.
+
+00:16:57.400 --> 00:17:00.000
+ But like just that they weren't that excited about programming,
+
+00:17:00.000 --> 00:17:03.240
+ there's just a job and like they don't know how they should feel
+
+00:17:03.240 --> 00:17:04.960
+ about that because they see all these developers
+
+00:17:04.960 --> 00:17:06.920
+ that are really into what they do.
+
+00:17:06.920 --> 00:17:09.080
+ Is that unique to software development?
+
+00:17:09.080 --> 00:17:10.920
+ Or is that just every career has people
+
+00:17:10.920 --> 00:17:12.520
+ who really are passionate about that thing?
+
+00:17:12.520 --> 00:17:14.600
+ And that's why they do it versus people who like,
+
+00:17:14.600 --> 00:17:15.440
+ "It's a good job."
+
+00:17:15.440 --> 00:17:17.040
+ I get paid well.
+
+00:17:17.040 --> 00:17:19.200
+ I do it, you know?
+
+00:17:19.200 --> 00:17:20.520
+ - Yeah.
+
+00:17:20.520 --> 00:17:21.920
+ Yeah, I mean, I don't really know.
+
+00:17:21.920 --> 00:17:25.840
+ I think what's unique is we aren't a creative feel
+
+00:17:25.840 --> 00:17:27.560
+ that you can like create stuff.
+
+00:17:27.560 --> 00:17:31.800
+ And usually creative feels like that aren't lucrative
+
+00:17:31.800 --> 00:17:33.840
+ unless you're incredibly successful.
+
+00:17:33.840 --> 00:17:36.960
+ So I think we have this awkward combination of,
+
+00:17:36.960 --> 00:17:39.200
+ yeah, there's people that are effectively kind of like artists
+
+00:17:39.200 --> 00:17:41.000
+ that are pursuing their passion.
+
+00:17:41.000 --> 00:17:43.000
+ But there's also people doing the exact same thing
+
+00:17:43.000 --> 00:17:45.720
+ because it sets them up well to like do all the other stuff
+
+00:17:45.720 --> 00:17:46.720
+ in their life.
+
+00:17:46.720 --> 00:17:50.640
+ So yeah, you don't really have like a painter side by side
+
+00:17:50.640 --> 00:17:53.920
+ with another painter that's just doing it for like, you know?
+
+00:17:53.920 --> 00:17:54.760
+ - Yeah, yeah, yeah, yeah.
+
+00:17:54.760 --> 00:17:55.600
+ No, that makes sense.
+
+00:17:55.600 --> 00:17:56.440
+ - For the money.
+
+00:17:56.440 --> 00:17:58.720
+ So I think, yeah, I think I saw that tweet as well.
+
+00:17:58.720 --> 00:17:59.640
+ And it's tough.
+
+00:17:59.640 --> 00:18:02.840
+ I think I'm really, I feel grateful that this is my hobby
+
+00:18:02.840 --> 00:18:06.120
+ and I would be doing this even if it was not very lucrative.
+
+00:18:06.120 --> 00:18:07.880
+ I find a way to put time into it.
+
+00:18:07.880 --> 00:18:12.040
+ I'm just grateful that, you know, it is, it is a way to,
+
+00:18:12.040 --> 00:18:13.680
+ pretty easy way to make a living.
+
+00:18:13.680 --> 00:18:16.280
+ - And I never want people, like I never wanna say that
+
+00:18:16.280 --> 00:18:19.920
+ and people feel like shameful that they don't feel that way.
+
+00:18:19.920 --> 00:18:21.720
+ But at the same time, I wanna say it all the time
+
+00:18:21.720 --> 00:18:23.480
+ because I'm just so excited about this stuff.
+
+00:18:23.480 --> 00:18:26.640
+ And I know other people are too and it's nice to see that.
+
+00:18:26.640 --> 00:18:30.240
+ It's infectious to like share in the excitement of a thing
+
+00:18:30.240 --> 00:18:32.720
+ that's your hobby and that's your work and your whatever.
+
+00:18:32.720 --> 00:18:34.080
+ So it's this weird balance of like,
+
+00:18:34.080 --> 00:18:36.240
+ I never wanna say stuff like that,
+
+00:18:36.240 --> 00:18:38.920
+ like how much I love coding and make people feel bad
+
+00:18:38.920 --> 00:18:42.320
+ because they're a programmer but they don't really love it.
+
+00:18:42.320 --> 00:18:44.400
+ But at the same time, I wanna put that out in the world.
+
+00:18:44.400 --> 00:18:45.240
+ I don't know.
+
+00:18:45.240 --> 00:18:46.560
+ I'm sorry, just in advance.
+
+00:18:46.560 --> 00:18:48.760
+ I mean, there's a lot to put that on record.
+
+00:18:48.760 --> 00:18:51.240
+ - I think what's helpful for me in terms of perspective
+
+00:18:51.240 --> 00:18:56.240
+ is like my wife's friends, like she had some people over
+
+00:18:56.240 --> 00:19:02.000
+ this weekend and they were like asking me about what I do.
+
+00:19:02.000 --> 00:19:06.480
+ And I was just imagining that I'm going to my YouTube
+
+00:19:06.480 --> 00:19:07.880
+ or like my Twitch and watching it
+
+00:19:07.880 --> 00:19:10.760
+ and being like, this is the most boring thing in the world.
+
+00:19:10.760 --> 00:19:14.600
+ So, yeah, so. - Yeah, you're excited
+
+00:19:14.600 --> 00:19:15.440
+ to wake up from this. - I can't get
+
+00:19:15.440 --> 00:19:18.120
+ this in perspective around, yeah, exactly.
+
+00:19:18.120 --> 00:19:20.520
+ It is really weird that I'm really into the stuff
+
+00:19:20.520 --> 00:19:24.680
+ that is really boring to most people.
+
+00:19:24.680 --> 00:19:26.160
+ So yeah, if you find it boring
+
+00:19:26.160 --> 00:19:27.480
+ or it's not super excited about it,
+
+00:19:27.480 --> 00:19:29.720
+ like it just kind of is boring.
+
+00:19:29.720 --> 00:19:32.920
+ - Okay, so this podcast episode has gone from like,
+
+00:19:32.920 --> 00:19:35.600
+ hey, we're making a side project to like side projects
+
+00:19:35.600 --> 00:19:38.640
+ to like software development as a job.
+
+00:19:38.640 --> 00:19:40.680
+ I had another thought that I just wanna ask you,
+
+00:19:40.680 --> 00:19:41.920
+ it's kind of in that theme.
+
+00:19:41.920 --> 00:19:43.880
+ And that is like outsiders.
+
+00:19:43.880 --> 00:19:48.480
+ Where does software developer land now
+
+00:19:48.480 --> 00:19:52.440
+ in the broader society landscape?
+
+00:19:52.440 --> 00:19:54.080
+ Like how do outsiders, I don't know any more
+
+00:19:54.080 --> 00:19:55.400
+ 'cause I don't interact with people.
+
+00:19:55.400 --> 00:19:58.120
+ How do people outside of tech view software development?
+
+00:19:58.120 --> 00:20:01.640
+ Because it was like, you go back like 2005.
+
+00:20:01.640 --> 00:20:03.720
+ That's when I graduated high school.
+
+00:20:03.720 --> 00:20:05.800
+ And like Zuckerberg makes Facebook
+
+00:20:05.800 --> 00:20:08.440
+ and it's like nerd, like software developers are like,
+
+00:20:08.440 --> 00:20:10.160
+ they're super nerds.
+
+00:20:10.160 --> 00:20:11.560
+ Then in fact, there was probably a period
+
+00:20:11.560 --> 00:20:13.480
+ over the last 15 years during my career
+
+00:20:13.480 --> 00:20:16.040
+ where it's like software developers are cool.
+
+00:20:16.040 --> 00:20:17.680
+ Like this is a cool job.
+
+00:20:17.680 --> 00:20:19.360
+ And I wonder like, has that changed?
+
+00:20:19.360 --> 00:20:20.280
+ Am I out of touch?
+
+00:20:20.280 --> 00:20:21.320
+ Do people think we're nerds again?
+
+00:20:21.320 --> 00:20:23.840
+ - Yeah, I struggle with this as well
+
+00:20:23.840 --> 00:20:28.280
+ because in my head, it's like this weird, not very professional
+
+00:20:28.280 --> 00:20:29.120
+ thing to do.
+
+00:20:29.120 --> 00:20:32.000
+ We're just kind of like doing random stuff
+
+00:20:32.000 --> 00:20:34.440
+ and it doesn't really look like a real job.
+
+00:20:34.440 --> 00:20:35.840
+ And that's like my bubble ones out.
+
+00:20:35.840 --> 00:20:38.040
+ Everyone I know is kind of like that.
+
+00:20:38.040 --> 00:20:41.960
+ But then I meet people that are also software engineers
+
+00:20:41.960 --> 00:20:45.080
+ but look like lawyers or like doctors.
+
+00:20:45.080 --> 00:20:48.480
+ Or I'm like, oh, this is just a normal profession
+
+00:20:48.480 --> 00:20:50.720
+ that's become very professionalized.
+
+00:20:50.720 --> 00:20:54.640
+ And like, you know, there's like I'll meet like very like
+
+00:20:54.640 --> 00:20:57.960
+ clean cut, well-educated, like couples that both,
+
+00:20:57.960 --> 00:21:01.240
+ you know, work at Apple and Google
+
+00:21:01.240 --> 00:21:04.640
+ and they have like a very successful life
+
+00:21:04.640 --> 00:21:06.160
+ where I think 10 years ago, you look at them
+
+00:21:06.160 --> 00:21:08.720
+ and be like, oh yeah, they're like two doctors, you know?
+
+00:21:08.720 --> 00:21:11.880
+ So I guess people might perceive it in that way.
+
+00:21:11.880 --> 00:21:14.240
+ It's just funny 'cause like in our circle,
+
+00:21:14.240 --> 00:21:18.520
+ we have like people like Theo and Prime and Trash
+
+00:21:18.520 --> 00:21:23.320
+ are like these are not like, like these are not like you know,
+
+00:21:23.320 --> 00:21:25.720
+ like they're kind of doctors.
+
+00:21:25.720 --> 00:21:27.040
+ - I mean, Prime is kind of a doctor.
+
+00:21:27.040 --> 00:21:29.160
+ - Ourself is good at it, yeah.
+
+00:21:29.160 --> 00:21:31.400
+ - It's funny when you said that I just think about every time
+
+00:21:31.400 --> 00:21:34.040
+ I say something to my wife, like, oh, Trash just said this thing
+
+00:21:34.040 --> 00:21:36.200
+ and she's like, Trash, you call him Trash.
+
+00:21:36.200 --> 00:21:37.600
+ I'm like, no, his name is Trash.
+
+00:21:37.600 --> 00:21:39.880
+ - I love this world.
+
+00:21:39.880 --> 00:21:41.320
+ - Yeah, exactly.
+
+00:21:41.320 --> 00:21:43.280
+ - But you speak to like another point
+
+00:21:43.280 --> 00:21:44.840
+ which is just that like software developer
+
+00:21:44.840 --> 00:21:46.840
+ is such a broad term.
+
+00:21:46.840 --> 00:21:49.960
+ And it kind of goes to the problem of like telling people
+
+00:21:49.960 --> 00:21:51.880
+ on the outside what it is you do.
+
+00:21:51.880 --> 00:21:55.120
+ But like, it's a huge spectrum of things
+
+00:21:55.120 --> 00:21:57.080
+ from the indie hacking crowd
+
+00:21:57.080 --> 00:21:59.080
+ to the people who look like doctors
+
+00:21:59.080 --> 00:22:01.040
+ and then all of us on Twitter and whatever we are.
+
+00:22:01.040 --> 00:22:02.080
+ Like, it's a good point.
+
+00:22:02.080 --> 00:22:03.360
+ It's not all one thing.
+
+00:22:03.360 --> 00:22:05.520
+ - Yeah, it's a, I mean, there's really millions.
+
+00:22:05.520 --> 00:22:06.500
+ There's millions of us.
+
+00:22:06.500 --> 00:22:07.340
+ There's so many.
+
+00:22:07.340 --> 00:22:08.180
+ - It's like 30 million, isn't it?
+
+00:22:08.180 --> 00:22:09.200
+ I think in the world--
+
+00:22:09.200 --> 00:22:11.120
+ - I wanna say it was like 30 million
+
+00:22:11.120 --> 00:22:13.980
+ in the world software developer, I could be wrong.
+
+00:22:13.980 --> 00:22:15.960
+ Maybe those web developer, I don't know.
+
+00:22:15.960 --> 00:22:18.320
+ - I remember 30 million, stands out to me.
+
+00:22:18.320 --> 00:22:19.160
+ We'll go.
+
+00:22:19.160 --> 00:22:20.600
+ - So we gotta get 30 million sign-ups when we base.
+
+00:22:20.600 --> 00:22:22.280
+ - We gotta start a total addressable market.
+
+00:22:22.280 --> 00:22:23.760
+ (laughing)
+
+00:22:23.760 --> 00:22:25.240
+ That's funny.
+
+00:22:25.240 --> 00:22:26.080
+ - Damn.
+
+00:22:26.080 --> 00:22:26.920
+ - So you should check out Rebase.
+
+00:22:26.920 --> 00:22:27.840
+ I guess we didn't say that.
+
+00:22:27.840 --> 00:22:30.560
+ We really gotta get better about like promoting things
+
+00:22:30.560 --> 00:22:31.920
+ that we're doing.
+
+00:22:31.920 --> 00:22:33.640
+ You should use Rebase, or you can't use it.
+
+00:22:33.640 --> 00:22:36.320
+ You should sign up and come to the first show.
+
+00:22:36.320 --> 00:22:37.600
+ It's gonna be amazing.
+
+00:22:37.600 --> 00:22:38.840
+ - I mean, you should use get Rebase.
+
+00:22:38.840 --> 00:22:40.680
+ That was a whole thing.
+
+00:22:40.680 --> 00:22:42.320
+ - I'm glad we didn't name it merge.
+
+00:22:42.320 --> 00:22:43.840
+ That would have been lame.
+
+00:22:43.840 --> 00:22:44.760
+ Rebase is so much better.
+
+00:22:44.760 --> 00:22:45.760
+ - Rebase.tv.
+
+00:22:45.760 --> 00:22:48.800
+ - Yeah, Rebase.tv, it's gonna be, I don't know,
+
+00:22:48.800 --> 00:22:50.560
+ however long it takes us to build the mobile app
+
+00:22:50.560 --> 00:22:53.320
+ and all the backend stuff that we need for it.
+
+00:22:53.320 --> 00:22:54.600
+ Then we're gonna do the first show
+
+00:22:54.600 --> 00:22:58.720
+ and you'll have chance at real cash prizes.
+
+00:22:58.720 --> 00:22:59.720
+ Just like HQ trivia.
+
+00:22:59.720 --> 00:23:01.680
+ It's amazing how many people don't remember what HQ trivia is.
+
+00:23:01.680 --> 00:23:02.880
+ I've been trying to explain this to people.
+
+00:23:02.880 --> 00:23:06.320
+ I'm like, it's just like HQ trivia, but for devs.
+
+00:23:06.320 --> 00:23:07.840
+ What is HQ trivia?
+
+00:23:07.840 --> 00:23:10.560
+ I thought it was like this huge phenomenon, but.
+
+00:23:10.560 --> 00:23:11.960
+ - Yeah, everyone I knew was on it,
+
+00:23:11.960 --> 00:23:14.680
+ but I guess people forgot or it didn't hit everywhere.
+
+00:23:14.680 --> 00:23:16.440
+ They had such a blame out.
+
+00:23:16.440 --> 00:23:18.640
+ It was so big and it just vanished.
+
+00:23:18.640 --> 00:23:20.520
+ - Yeah, that hopefully not a bad omen.
+
+00:23:20.520 --> 00:23:23.240
+ (laughing)
+
+00:23:23.240 --> 00:23:24.480
+ - Hey, but like we were saying earlier,
+
+00:23:24.480 --> 00:23:26.640
+ like, you know, even if it dies,
+
+00:23:26.640 --> 00:23:27.640
+ like at least it was fun.
+
+00:23:27.640 --> 00:23:28.480
+ - It was fun.
+
+00:23:28.480 --> 00:23:29.320
+ - It's already been fun.
+
+00:23:29.320 --> 00:23:30.560
+ - It's already been worth it for me.
+
+00:23:30.560 --> 00:23:33.840
+ I guess we'll see you in blood, sweat, and tears.
+
+00:23:33.840 --> 00:23:34.840
+ I still feel the same.
+
+00:23:34.840 --> 00:23:36.280
+ Or if it goes on the Mount Rushmore
+
+00:23:36.280 --> 00:23:40.040
+ of side projects that I (laughing)
+
+00:23:40.040 --> 00:23:42.160
+ Okay, cool.
+
+00:23:42.160 --> 00:23:43.080
+ This has been fun.
+
+00:23:43.080 --> 00:23:43.920
+ - Yep.
+
+00:23:43.920 --> 00:23:46.500
+ (upbeat music)
+

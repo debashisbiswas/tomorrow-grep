@@ -1,0 +1,3197 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.520
+ Even around for a long time. Can I tell you why I don't use it? Why I just don't like the name
+
+00:00:03.520 --> 00:00:05.680
+ I really just don't like the name. That's it. That's funny
+
+00:00:30.960 --> 00:00:36.560
+ You make your own LUTs? Well, what did you do? I just used the the Sony
+
+00:00:36.560 --> 00:00:43.040
+ official LUT for my camera. But does that like just work with your lighting and your background
+
+00:00:43.040 --> 00:00:47.120
+ and like it it's all fine? Yeah, it's made so you you basically like
+
+00:00:47.120 --> 00:00:53.120
+ you take a gray card and you expose to 44% or whatever and it's based off that. It's SLOG 3.
+
+00:00:53.120 --> 00:00:57.360
+ I right that's basically roughly what I did when I made it myself. Yeah, but you just like
+
+00:00:57.360 --> 00:01:02.320
+ did you use like DaVinci or something? Yeah, exactly. And then you saved the LUT. Yeah,
+
+00:01:02.320 --> 00:01:09.840
+ interesting. I am still shaking from an hour ago getting in the cold plunge hour and a half ago.
+
+00:01:09.840 --> 00:01:15.200
+ I have never gotten warm today. It's like I've just been cold all day. Is it because it's cold
+
+00:01:15.200 --> 00:01:21.600
+ outside? It's below freezing. It's 31 degrees outside. That doesn't help. It was the worst
+
+00:01:21.600 --> 00:01:26.800
+ experience I've had in a cold plunge yet. But by that, I mean the best experience because I feel
+
+00:01:26.800 --> 00:01:33.360
+ better than ever. I'm just shaking. Yeah, I'm like, I hear it. It's so bad. It's like I started
+
+00:01:33.360 --> 00:01:38.560
+ cold like I've been up a long time. We're doing some stuff maintenance production stuff in an
+
+00:01:38.560 --> 00:01:42.560
+ open night. And when you're like, do you, if you work early and more, do you ever work? You work
+
+00:01:42.560 --> 00:01:48.080
+ pretty early, don't you? Yeah. Do your hands get cold? Like I get everything gets really cold
+
+00:01:48.080 --> 00:01:53.120
+ after a few hours. So I used to always have this problem of like my hands were always cold all the
+
+00:01:53.120 --> 00:02:01.120
+ time. Yeah. But then I just move somewhere where I don't get cold. I was like, what's the trick?
+
+00:02:01.120 --> 00:02:06.960
+ Oh, move to Miami. Yeah. Well, the other thing is I've never been colder anywhere than indoors in
+
+00:02:06.960 --> 00:02:12.480
+ Miami because people love to just crank up the AC to point where it's like indoors here. It gets
+
+00:02:12.480 --> 00:02:17.040
+ like crazy cold. So when we were like staying at Liz's parents house while we're figuring out where
+
+00:02:17.040 --> 00:02:23.600
+ to live, somehow, no matter where I was, there was an AC blowing like onto me. So yeah, my hands
+
+00:02:23.600 --> 00:02:28.240
+ was freeze like working in the office air because I used to be blowing right in my hands. And yeah,
+
+00:02:28.240 --> 00:02:34.000
+ I don't like it. I appreciate that about Miami and South Florida in general that you guys embrace
+
+00:02:34.000 --> 00:02:38.160
+ the air conditioning. There's there's tropical climates where people don't like Hawaii. I'm
+
+00:02:38.160 --> 00:02:43.600
+ more like that. I don't know. I feel like the AC is overdone. Oh, really? Oh, man. Yeah. I don't
+
+00:02:43.600 --> 00:02:48.080
+ I don't enjoy a hot climate without air conditioning. Yeah. I mean, that's that's most people I think,
+
+00:02:48.080 --> 00:02:52.320
+ but I think like a like a fan and like a breeze that's like enough for me for the most part, but
+
+00:02:52.320 --> 00:02:57.280
+ yeah. I mean, don't get me wrong. I appreciate the AC, especially when I'm like coming back
+
+00:02:57.280 --> 00:03:02.960
+ inside after being hot, but yeah, it's just like it's freezing here inside sometimes. I might need
+
+00:03:02.960 --> 00:03:07.680
+ to get a heavy. I'm so cold. Go. Go do it. Do it. I think I really have my arms crossed. I feel like
+
+00:03:07.680 --> 00:03:12.400
+ you might like go into shock or something. Something. I actually this morning after I got out my
+
+00:03:13.040 --> 00:03:18.880
+ my hand had like little bumps on it and they were my veins, but they were like in balls,
+
+00:03:18.880 --> 00:03:25.680
+ like little BBs. It was weird looking like my blood froze or something. I'm going to get a hoodie.
+
+00:03:25.680 --> 00:03:31.520
+ Yeah. Go do that. Hey, I have a question. Yeah. Why do people hate a roar serverless V2?
+
+00:03:31.520 --> 00:03:38.080
+ Are you sure this cold one is good for you? Because you do not sound good in any way.
+
+00:03:40.160 --> 00:03:45.520
+ That was just like food that got caught in my throat. I see. As I started to speak.
+
+00:03:45.520 --> 00:03:50.720
+ Okay, your question. Yeah. So I don't I don't remember why, but I felt like I was supposed to
+
+00:03:50.720 --> 00:03:57.680
+ not like a roar serverless. And I looked at it. And for our needs, it made sense. And we switched to
+
+00:03:57.680 --> 00:04:06.320
+ it. And it's good. I don't be one or V2. V2. Okay. Yeah. So there's like a whole cascading list of
+
+00:04:06.320 --> 00:04:12.800
+ reasons. I think one is that when you think of our serverless, like they threw this word
+
+00:04:12.800 --> 00:04:18.560
+ serverless in there. It's just like more aggressive auto scaling postgres. Like you can't really do
+
+00:04:18.560 --> 00:04:24.640
+ it in a serverless way. So it's not like the same as Dynamo. It's snappy. Like it is snappy with the
+
+00:04:24.640 --> 00:04:30.000
+ way it scales up and down with the ACUs. Like it's not like, Oh, you started getting a bunch of
+
+00:04:30.000 --> 00:04:36.000
+ traffic in a minute and a half. You'll have another instance deployed. It's like, it's pretty opaque
+
+00:04:36.000 --> 00:04:44.160
+ or abstract. Like you just set them in max and it just glides around. So V1 was a lot slower. It would
+
+00:04:44.160 --> 00:04:50.480
+ like it would scale up, but then it wouldn't scale down for like an hour. So if you got like a spike
+
+00:04:50.480 --> 00:04:55.120
+ for like 20 minutes, you're so paying for the whole hour. So it wasn't like the most responsive
+
+00:04:55.120 --> 00:05:00.560
+ thing, especially for people coming from Dynamo where it's like completely opaque. But then the
+
+00:05:00.560 --> 00:05:06.480
+ other issue is a stupid V1 V2 split. Like they launched the V1 version of Aurora. And now there's
+
+00:05:06.480 --> 00:05:11.920
+ a V2. And in your head, you're like, Oh, that means V2 is what we should all be moving to because
+
+00:05:11.920 --> 00:05:17.040
+ that's the next version. They're going to like kill V1. Yeah, that's not how V1 and V2 works
+
+00:05:17.040 --> 00:05:22.080
+ at AWS. No, it's it's like completely two different approaches to the same problem. And they just
+
+00:05:22.080 --> 00:05:27.040
+ named them V1 and V2. And I would love to use V2 API gateway. Yeah, API gave us another classic
+
+00:05:27.040 --> 00:05:32.240
+ example. I would love to use V2, except that it doesn't support data API, which is one of the best
+
+00:05:32.240 --> 00:05:39.440
+ things they did with serverless V1. But you don't need to have CB connections to all HTTP based.
+
+00:05:39.440 --> 00:05:43.840
+ This isn't like super obvious. Why is this good? So one obviously gets rid of the need for like
+
+00:05:43.840 --> 00:05:49.280
+ connection pullers, RDS proxy, all that like it's it's very simple. The other case that
+
+00:05:49.280 --> 00:05:54.240
+ you have to be under certain conditions running to so you might not have run into this. But
+
+00:05:55.120 --> 00:06:01.440
+ when your function is done executing, it gets frozen. It gets frozen. And from its point of
+
+00:06:01.440 --> 00:06:05.840
+ view, like no time is passing where your function, like when your lambda function is done executing,
+
+00:06:05.840 --> 00:06:10.320
+ it's going to get frozen for a while and kept around so it can handle the next invocation pretty
+
+00:06:10.320 --> 00:06:18.080
+ quickly. But if you have an open TCP connection, that's like frozen. The other thing at the end,
+
+00:06:18.080 --> 00:06:22.880
+ other end of that connection, the database might look at it and be like, this connection is not
+
+00:06:22.880 --> 00:06:28.640
+ being used when terminated. But then when your container gets unfrozen, it thinks it's so connected
+
+00:06:28.640 --> 00:06:34.240
+ and you might have like weird like connection reset error. Okay. So I have not run into that,
+
+00:06:34.240 --> 00:06:38.400
+ but it's been like a few hours. You're not going you probably aren't going to run into it because
+
+00:06:38.400 --> 00:06:43.520
+ your functions are probably always busy. So the next request comes in like immediately after it's done.
+
+00:06:43.520 --> 00:06:47.200
+ But if you're in this like middle zone, where like you get enough traffic to keep the function
+
+00:06:47.200 --> 00:06:53.440
+ warm, but not enough so that like there's so like these like long gaps of being frozen,
+
+00:06:53.440 --> 00:06:57.280
+ like several minutes, whatever, you're going to get these weird because you can't resume a TCP
+
+00:06:57.280 --> 00:07:01.680
+ connection as though nothing has changed because something on the other end can decide to stop
+
+00:07:01.680 --> 00:07:07.760
+ in getting. So it's not it's fine in a lot of cases, but like the data API is kind of necessary.
+
+00:07:07.760 --> 00:07:12.560
+ That's why you see all these other database providers like PlanetScale has their own HTTP
+
+00:07:12.560 --> 00:07:17.440
+ base API like neon came out with their own HTTP base one. Yeah, I think there's might be WebSocket
+
+00:07:17.440 --> 00:07:24.640
+ base, but yeah, they just support these more stateless ways of communicating. And I want a V2
+
+00:07:24.640 --> 00:07:29.360
+ had that API. We're all good. We're all going to move to V2. I'm using RDS proxy in front of it.
+
+00:07:29.360 --> 00:07:33.920
+ Yeah, but I mean, it's going to have that same problem. Oh, okay. Yeah. You but like I said,
+
+00:07:33.920 --> 00:07:38.320
+ you might not because your functions might be like super busy. Yeah. But you're going to
+
+00:07:38.320 --> 00:07:42.960
+ probably once in a while, see this like connection reset error. It's not the biggest deal, but
+
+00:07:42.960 --> 00:07:46.960
+ it just indicative of why the underlying system like doesn't line up well.
+
+00:07:46.960 --> 00:07:53.120
+ Okay. Well, I'm going to be checking invocation logs because I don't know if we're handling that,
+
+00:07:53.120 --> 00:07:57.680
+ like if that happens. Yeah, I mean, the recursors error, and then I don't know what it's serving.
+
+00:07:57.680 --> 00:08:03.520
+ So it might, okay, the user might just retry or whatever. Yeah. Well, we were going from classic
+
+00:08:04.080 --> 00:08:13.440
+ RDS Postgres. Yeah. And so it's our first jump into Aurora. Obviously, like Dynamo is great.
+
+00:08:13.440 --> 00:08:19.120
+ I love building stuff with Dynamo. This was built nine years ago, and we weren't going to
+
+00:08:19.120 --> 00:08:25.680
+ port it to Dynamo. But we did move to Aurora, and we decided to do serverless. And so far,
+
+00:08:25.680 --> 00:08:30.480
+ it just seems a lot better. I think we're going to save money because our traffic is so like
+
+00:08:31.280 --> 00:08:37.120
+ time of day dependent, like the evenings, we get these crazy amounts of traffic and stuff like that.
+
+00:08:37.120 --> 00:08:43.120
+ Yeah, exactly. So I do think like it's going to scale up quite a bit then. And we were having
+
+00:08:43.120 --> 00:08:47.440
+ issues. The reason we moved to Aurora is that we were pegging out our current instance size,
+
+00:08:47.440 --> 00:08:52.160
+ and we just had been previously scaling up. And I just thought like, maybe it's time to make the leap.
+
+00:08:52.160 --> 00:08:56.400
+ So far so good. Yeah, I mean, it makes sense to me, it almost feels like that should just be the
+
+00:08:56.400 --> 00:09:02.640
+ default, like is it just as the same as normal Aurora, but can scale up and down fast. Like,
+
+00:09:02.640 --> 00:09:07.760
+ why wouldn't you want that? Why choose a cluster size? Like, we were not using most of it all the
+
+00:09:07.760 --> 00:09:12.800
+ time. And then we were sized such that we could handle that peak at the end of the day, and last
+
+00:09:12.800 --> 00:09:18.080
+ for like an hour. And then we're just using, we just have this idle box. That's the case for
+
+00:09:18.080 --> 00:09:22.160
+ serverless, isn't it? Yeah, the over provisioning. Yeah, you don't want to be over provisioned.
+
+00:09:23.120 --> 00:09:28.480
+ Yeah, like, I think my issue really is overall, there isn't like a killer,
+
+00:09:28.480 --> 00:09:37.200
+ serverless Lambda function plus relational database set up on AWS. Yeah, I think like you
+
+00:09:37.200 --> 00:09:42.320
+ guys are already in a VPC. So it's not like you started to adopt a VPC for it. So that was a big
+
+00:09:42.320 --> 00:09:48.080
+ deal. But yeah, now for the average person, they now need to like put their lambdas in a VPC. And
+
+00:09:49.040 --> 00:09:54.000
+ there's a lot of stuff like that. So yeah, I would let if the data API came to V2,
+
+00:09:54.000 --> 00:09:59.440
+ then I would like no problem. No hesitation recommend. Here's like a good
+
+00:09:59.440 --> 00:10:04.400
+ Yeah, already I set up right now whenever people ask me like, what should I want to use a relational
+
+00:10:04.400 --> 00:10:09.680
+ database? Like, what should I do? I actually usually tell them like consider going outside of AWS.
+
+00:10:09.680 --> 00:10:11.920
+ Yeah, planet skills. Great. I mean, I love planet skill.
+
+00:10:11.920 --> 00:10:15.760
+ But if they had a data API, then I can like kind of comfortably say that you're still going to have
+
+00:10:15.760 --> 00:10:20.560
+ a pretty, pretty good experience. But yeah, there's no, like, I don't understand why they
+
+00:10:20.560 --> 00:10:25.200
+ lost it and why there's no signal on whether they're going to add it back. Like I've seen some
+
+00:10:25.200 --> 00:10:29.680
+ discussions and it's always some vague thing like, Oh, yeah, like we're looking into this. But
+
+00:10:29.680 --> 00:10:37.200
+ maybe maybe pre-invent, maybe reinvent. Who knows? What is up with pre-invent? I haven't heard
+
+00:10:37.200 --> 00:10:41.440
+ anything. Is there not been any mumbling? Are they just holding it all for re-invent this year?
+
+00:10:42.400 --> 00:10:46.800
+ Maybe there isn't as much. Well, I was gonna say maybe 15 years in or whatever it's been for AWS.
+
+00:10:46.800 --> 00:10:50.880
+ Maybe there's so little big announcements that they're just like, you know what,
+
+00:10:50.880 --> 00:10:54.880
+ let's save it all for the conference. That's going to happen eventually, right? They can't
+
+00:10:54.880 --> 00:11:00.880
+ continually just have like, overloads of information every year. Yeah, but at least last year, I got
+
+00:11:00.880 --> 00:11:06.080
+ a bunch of leaks. I got every one of the leaks this year. I guess I have some leaks. Look at me
+
+00:11:06.080 --> 00:11:12.800
+ not sharing them with you. I see. I see. Well, I don't need to tell me the details. Is there
+
+00:11:12.800 --> 00:11:20.000
+ anything that I would be excited by in your leaks? To be honest, no. I'm not excited about it.
+
+00:11:20.000 --> 00:11:26.320
+ There's some stuff. I mean, there's some stuff that once I see more than just,
+
+00:11:26.320 --> 00:11:30.080
+ I haven't joined any of the calls. Like the heroes have these NDA calls where we get
+
+00:11:30.080 --> 00:11:34.720
+ briefed by the product teams ahead of re-invent. I haven't joined any of them. I've just read the
+
+00:11:34.720 --> 00:11:38.880
+ like announcement for the call and in those little announcements, they'll be like bullet points.
+
+00:11:38.880 --> 00:11:42.320
+ So I've gotten very little information from that. There are a couple of them that,
+
+00:11:42.320 --> 00:11:48.400
+ depending on how it all really turns out, it could be interesting. But yeah, nothing like
+
+00:11:48.400 --> 00:11:56.160
+ major. There's no like land going to one millisecond billing or, you know, that kind of stuff.
+
+00:11:56.160 --> 00:11:59.840
+ Yeah. Kind of seeing anything like that. Well, okay. I do feel like I've heard
+
+00:12:01.200 --> 00:12:06.160
+ murmurings of big changes in lambda. So I'm still kind of hoping for that. Like,
+
+00:12:06.160 --> 00:12:12.240
+ I don't imagine that would be a pre-invent thing. I think that would be the conference thing.
+
+00:12:12.240 --> 00:12:17.440
+ Yeah. Yeah. We'll see. Yeah. But I haven't heard anything. That said, I don't even know
+
+00:12:17.440 --> 00:12:20.960
+ what I want. Like, I don't even know what I'm imagining. Like that there's just the classic
+
+00:12:20.960 --> 00:12:26.640
+ things of like search, serverless search. Like, where is that? But besides that, I don't know.
+
+00:12:26.640 --> 00:12:31.840
+ So is open search. So I'm going to be looking at this pretty soon. Open search serverless is bad.
+
+00:12:31.840 --> 00:12:37.760
+ I just remember all the services that came out as serverless, and they weren't very serverless.
+
+00:12:37.760 --> 00:12:43.760
+ It's a classic thing where if you have to put a label on it, it's not the thing. Yeah, social
+
+00:12:43.760 --> 00:12:48.400
+ science. And this is the same case. And anything that has a word serverless in it, it's, it's not
+
+00:12:48.400 --> 00:12:55.360
+ serverless. Like they don't call it lambda serverless. You know, right? That's true. Or like dynamo
+
+00:12:55.360 --> 00:13:03.360
+ serverless, rescue serverless. Yeah. Yeah. Open search is, it's the same thing. It's the same
+
+00:13:03.360 --> 00:13:07.680
+ thing as that's actually the exact same thing as already a situation. Except the floor is crazy
+
+00:13:07.680 --> 00:13:14.320
+ high. The floor is like 800 bucks a month or something. Okay. I get it with search. Like search is
+
+00:13:14.320 --> 00:13:21.040
+ anything that isn't like designed from day one to be serverless is hard to make serverless.
+
+00:13:21.040 --> 00:13:26.000
+ That's why it's hard to make a relational database serverless. You're in plant scale. Like you very
+
+00:13:26.000 --> 00:13:34.640
+ quickly switch back to having like instant sizes there. Yeah. So and search is like, especially that
+
+00:13:34.640 --> 00:13:41.840
+ way because it's so heavy and all that. So I get it. But at the same time, Algolia exists,
+
+00:13:41.840 --> 00:13:48.320
+ type sense exists. I think type sense is actually instance based, but Algolia is not. And Amazon's
+
+00:13:48.320 --> 00:13:52.240
+ scale. I feel like they can effectively make anything seem serverless, even if it's hard just
+
+00:13:52.240 --> 00:13:58.480
+ through like pricing tricks. Yep. So yeah, I don't know. That's the one big thing that's missing.
+
+00:13:58.480 --> 00:14:02.400
+ So you guys are looking for search stuff. We already use, we use the last search. I think we
+
+00:14:02.400 --> 00:14:07.520
+ use like a hosted elastic dot co, like the actual company, but we're going to move it in-house. I'm
+
+00:14:07.520 --> 00:14:15.360
+ pretty sure to AWS and to open probably is probably yeah, I think so. And we may not do the serverless
+
+00:14:15.360 --> 00:14:19.680
+ thing, but I don't know, just there's an option. It seems better than the traditional.
+
+00:14:19.680 --> 00:14:27.760
+ Yeah. I'm remembering the Chris Moon's tweet where he was like, serverless is dead. He was like,
+
+00:14:27.760 --> 00:14:33.440
+ that was like the catchy phrase. But what he said was that- You keep calling Chris Moon's.
+
+00:14:33.440 --> 00:14:37.520
+ That's like you're never doing that. Are you? Well, I forgot what it was. We haven't said his name
+
+00:14:37.520 --> 00:14:45.840
+ in so long. It's M-U-N-N-S, which- MUNS is MUNS. That's what I said, isn't it? I feel like I said
+
+00:14:45.840 --> 00:14:51.520
+ MUNS and you were like, you're going to keep calling him Chris Moon's. We can go to the playback.
+
+00:14:51.520 --> 00:14:57.200
+ Well, no, let's not do that. Let's not do that. I believe you. Let me get my little recording
+
+00:14:57.200 --> 00:15:04.400
+ device here. It says, oh, yeah. No. What he said was that like every company actually has a VPC,
+
+00:15:04.400 --> 00:15:09.040
+ anybody building a serverless, it's like this mishmash of some of it serverless, some of it,
+
+00:15:09.040 --> 00:15:15.600
+ but they all have VPCs. At the time, I remember scoffing. When I look at my situation, it's like,
+
+00:15:15.600 --> 00:15:22.800
+ oh, yeah, no, we have this mixmash of all kinds of stuff. Not all of it's purely serverless stuff.
+
+00:15:22.800 --> 00:15:27.200
+ But you have a VPC because AWS requires you to have a VPC. It's like a circular thing.
+
+00:15:27.200 --> 00:15:30.000
+ Well, yeah. Everybody has a VPC. Sure.
+
+00:15:30.000 --> 00:15:35.680
+ We have a default VPC. Did you delete it? Yeah. Oh, for real. That's awesome.
+
+00:15:35.680 --> 00:15:37.200
+ We have nothing deployed in VPCs.
+
+00:15:37.200 --> 00:15:40.560
+ Well, I figured you didn't have anything deployed in it, but everyone gets one in their account.
+
+00:15:40.560 --> 00:15:44.880
+ Yeah, I hate it. It's supposedly deleted and I hated it. You got rid of that thing.
+
+00:15:44.880 --> 00:15:54.240
+ But okay, so you have nothing deployed in VPC. I guess like we started with just like EC2
+
+00:15:54.240 --> 00:16:01.680
+ applications and a database nine years ago. And it made sense. Like we just, it's all in a VPC.
+
+00:16:01.680 --> 00:16:08.000
+ Yeah. Once you have a VPC, you're never getting rid of that VPC. Like, I can't imagine that we
+
+00:16:08.000 --> 00:16:11.360
+ ever just get rid of everything that's running in our VPC. I guess we could.
+
+00:16:11.360 --> 00:16:16.480
+ It just comes down to if people had the option to use one and to not use one, everyone's going
+
+00:16:16.480 --> 00:16:21.760
+ to pick to not use one. And that's, to me, it's that is simple. So yeah, of course, a lot of people
+
+00:16:21.760 --> 00:16:26.480
+ use VPCs and will continue to do so because they have stuff that was forced into a VPC and they're
+
+00:16:26.480 --> 00:16:31.920
+ not going to be able to move it or change it. But yeah, moving forward, the more stuff that's not
+
+00:16:31.920 --> 00:16:38.320
+ VPC required, the better. Yeah, I'm trying to think of like what, what we have to have a VPC for.
+
+00:16:38.320 --> 00:16:43.760
+ I guess like if we were using, well, if the data API existed and we didn't have to connect to
+
+00:16:43.760 --> 00:16:47.920
+ our database through a VPC. I don't want a day API doesn't need a VPC. That's a big
+
+00:16:47.920 --> 00:16:52.640
+ reason. Yeah. So that that'd be great. If we had that, then we could continue on with Aurora.
+
+00:16:52.640 --> 00:16:59.520
+ And then presumably, well, no, I mean, like our, some of our services are just like long living,
+
+00:16:59.520 --> 00:17:08.080
+ like, I mean, one's a.net app that runs an ECS. It's going to have to have a VPC, right? You can't
+
+00:17:08.080 --> 00:17:13.520
+ run like Fargate services without a VPC. Yeah, Fargate has to be in a VPC. Yeah. So like those
+
+00:17:13.520 --> 00:17:19.680
+ apps, I guess we don't all of our workloads can't just run as like land. Well, they could. I mean,
+
+00:17:19.680 --> 00:17:23.280
+ architecturally, there's no reason they couldn't just like we can't, we're not going to be right.
+
+00:17:23.280 --> 00:17:28.240
+ You know, switch it. Yeah, that makes sense. Yeah. I mean, it makes sense for existing applications
+
+00:17:28.240 --> 00:17:34.800
+ that are like hybrid of the two. Oh, yeah. The other thing is like the reality of why VPCs are
+
+00:17:34.800 --> 00:17:38.800
+ required. I don't know why they're not just straightforward about this, because if you look
+
+00:17:38.800 --> 00:17:44.080
+ at something like, what's their memory? Like a Redis equivalent? A last to cash?
+
+00:17:44.080 --> 00:17:48.800
+ A last to cash. Okay. So to deploy a last to cash, it needs to be in a VPC, which is why I never
+
+00:17:48.800 --> 00:17:55.200
+ use it. Like I like just make a do without like a Redis equivalent. I just put it in Dynamo. And
+
+00:17:55.200 --> 00:17:59.200
+ yeah, that's usually good enough. And if I need more, I go to upstairs. The question is, why is it
+
+00:17:59.200 --> 00:18:05.600
+ not? Like, why does it require a VPC? It's because with services like that, you need to build
+
+00:18:06.560 --> 00:18:12.480
+ centralized authentication somehow, right? Like, how do you do I am off over Redis protocol? You
+
+00:18:12.480 --> 00:18:16.960
+ have to like invent a way to do that or Redis protocol. They don't want to do that, or maybe
+
+00:18:16.960 --> 00:18:21.760
+ it's too hard, or maybe it's impossible. So they show it in a VPC and say, okay, your VPC itself
+
+00:18:21.760 --> 00:18:26.720
+ does a centralized auth. Yeah, then everything in there can just not have that. So there's only
+
+00:18:26.720 --> 00:18:30.480
+ some services they've been able to bring that to, right? They've been able to bring it to Dynamo.
+
+00:18:30.480 --> 00:18:36.160
+ They've been able to bring it to the API. I think they can do it for everything. S3, right?
+
+00:18:36.160 --> 00:18:38.640
+ S3, yeah. The ones that were built from scratch.
+
+00:18:38.640 --> 00:18:39.520
+ Yes. Secrets manager.
+
+00:18:39.520 --> 00:18:42.480
+ How do you build from scratch at AWS? We'll have it.
+
+00:18:42.480 --> 00:18:49.120
+ Yeah. But same with the open search. It's just like, it needs to work over whatever
+
+00:18:49.120 --> 00:18:53.840
+ logic search. I mean, that's just HTTP. So I feel like that one could be done. But
+
+00:18:53.840 --> 00:19:00.880
+ the other side is, other companies have done it. Like UpSash gives you like an HTTP-based API for
+
+00:19:00.880 --> 00:19:07.600
+ Redis. And they manage to move the auth somewhere else. But yeah, VPC was just a nice way to be like,
+
+00:19:07.600 --> 00:19:11.600
+ we don't have to worry about it, throw it in there, and centralized auth just works.
+
+00:19:11.600 --> 00:19:17.840
+ So if I were building a new app, let's say I could build something from scratch today,
+
+00:19:17.840 --> 00:19:22.960
+ and it would immediately have lots of users. And I use like API gateway, lambda functions,
+
+00:19:22.960 --> 00:19:30.400
+ and Dynamo. All of that stuff is just communicating over the internet. But it's over like Amazon's
+
+00:19:30.400 --> 00:19:34.880
+ smart enough to know it's all within Amazon data centers. But is there like a billing
+
+00:19:34.880 --> 00:19:36.960
+ implication? I should know the answers to this.
+
+00:19:36.960 --> 00:19:41.760
+ No. So if it's within the same availability zone, it is there is no billing implication.
+
+00:19:41.760 --> 00:19:49.280
+ What availability zone? But if I'm using all these public services, the general rule is if it's
+
+00:19:49.280 --> 00:19:54.800
+ within an availability zone, it's not going to cost you. So when you use these services
+
+00:19:54.800 --> 00:19:57.680
+ abstract away, the constant availability zone, that's handled for you.
+
+00:19:58.320 --> 00:20:02.720
+ Oh, they put it in the same bill. But he's on like, if I'm calling Dynamo from a lambda function,
+
+00:20:02.720 --> 00:20:07.280
+ yeah, they just they it does it from within the same ability zone. So there's no.
+
+00:20:07.280 --> 00:20:09.760
+ Yeah, exactly. Cross region.
+
+00:20:09.760 --> 00:20:15.440
+ Bandit just cross region. Yeah, yeah.
+
+00:20:15.440 --> 00:20:20.160
+ Yeah. So that's like a little, I think a lot of paying a lot when they
+
+00:20:20.160 --> 00:20:25.360
+ don't use a managed services, because like they don't think about those things and they have
+
+00:20:25.360 --> 00:20:31.040
+ traffic going across availability zones by accident. Yeah. So yeah, the public internet thing also
+
+00:20:31.040 --> 00:20:39.520
+ confused me for a bit. But yeah, it like gets routed correctly or like routed efficiently.
+
+00:20:39.520 --> 00:20:44.080
+ Yeah, it all stays. It's not like it literally goes out to some outside the data center
+
+00:20:44.080 --> 00:20:46.400
+ DNS resolver and like, Oh, oops, come back.
+
+00:20:46.400 --> 00:20:47.040
+ Yeah, come back.
+
+00:20:47.040 --> 00:20:52.400
+ Okay. So they do smart things. But I guess like, is there any security
+
+00:20:52.400 --> 00:20:57.600
+ implication? Like, is there any, is it less secure to build that than to build a bunch of
+
+00:20:57.600 --> 00:21:02.320
+ stuff living in a private subnet? I think that I think people get confused with this. So I think,
+
+00:21:02.320 --> 00:21:06.240
+ and it shows up a lot when you're like going through compliance when when they hear that you
+
+00:21:06.240 --> 00:21:10.480
+ don't have a VPC, they're like, Whoa, like, that's not safe. Whoa. Yeah. But then remember,
+
+00:21:10.480 --> 00:21:17.120
+ the point of a VPC is to like do central centralized auth, which a VPC does with like
+
+00:21:18.160 --> 00:21:24.640
+ in like a really crude way. Whereas these more purpose built services, they do centralized
+
+00:21:24.640 --> 00:21:29.600
+ auth through IM. And that's no more or no less secure than doing it through a VPC.
+
+00:21:29.600 --> 00:21:35.040
+ Hang on. I want to dig at that a little bit. So when you say the purpose of the VPC is to
+
+00:21:35.040 --> 00:21:39.760
+ handle centralized auth, you just mean like, I mean, because the purpose is to create like a
+
+00:21:39.760 --> 00:21:46.080
+ virtual network that can be private and isolated at the network level, right? Like,
+
+00:21:46.080 --> 00:21:52.480
+ it's all done in software. It's not any. It's software, but it's like software, uh, network
+
+00:21:52.480 --> 00:21:58.160
+ components. Like they've literally created like software routers, right? That are,
+
+00:21:58.160 --> 00:22:04.800
+ they were revolutionary, but like it's not, I don't know. Now I'm just selling it. Uh,
+
+00:22:04.800 --> 00:22:11.120
+ like it's, it's ultimately like you have a private physical network. You have network isolation,
+
+00:22:11.120 --> 00:22:17.680
+ whereas, uh, with IM, it's still, it's not like you don't have network isolation, right?
+
+00:22:17.680 --> 00:22:21.840
+ Yeah, no, it's implemented a different layer of the protocol. But if you think about what the
+
+00:22:21.840 --> 00:22:26.400
+ software router is doing, there's just some rule somewhere saying if you receive a packet
+
+00:22:26.400 --> 00:22:31.840
+ meant for this destination from the source, make sure it's allowed to go through.
+
+00:22:31.840 --> 00:22:36.240
+ If it's not, I guess that's what you're saying. So it's just a rule implemented somewhere. So
+
+00:22:36.240 --> 00:22:42.000
+ yes, it's like a, a lower level of the TCP IP, whatever that stack is. Whatever the OSI
+
+00:22:42.000 --> 00:22:46.160
+ whole thing. Yeah, whatever, whatever. We just mentioned all of that stuff.
+
+00:22:46.160 --> 00:22:55.920
+ Uh, it's funny. Yeah. So it's, it's, it is the same thing. The same rules are implemented just
+
+00:22:55.920 --> 00:23:02.080
+ at a different part of the stack. And I would argue in some ways, it's more precise because
+
+00:23:02.080 --> 00:23:08.800
+ a network rule can't be super precise. It can't say like, uh, this is allowed, but only like,
+
+00:23:08.800 --> 00:23:17.040
+ read, read commands from Dynamo, but you can't implement that at that low, right? Right. So to me,
+
+00:23:17.040 --> 00:23:22.320
+ at worst, it's equivalent at worst. It's equivalent. Um, and I think it's better because in practice,
+
+00:23:22.320 --> 00:23:27.040
+ you're more likely to get, I am right than to get like VPC routing rules, right? Yeah,
+
+00:23:27.040 --> 00:23:33.360
+ no, that makes sense. Uh, just managing a VPC is so hard. Like it's because there's not like one
+
+00:23:33.360 --> 00:23:38.800
+ unified view of it and AWS. It's like, I'm going to click on the subnets page. Now I'm going to go
+
+00:23:38.800 --> 00:23:43.680
+ to the route tables page and like everything in isolation means nothing. Like I don't know the
+
+00:23:43.680 --> 00:23:47.360
+ idea of my route table. That doesn't help me when I'm trying to find it in a list. Like,
+
+00:23:47.360 --> 00:23:53.200
+ it's just the whole navigation that's in the VPC console is, is weird. I have a tough time holding
+
+00:23:53.200 --> 00:23:58.560
+ the concepts in my head because there's like so many places where you secure things. There's like
+
+00:23:58.560 --> 00:24:02.880
+ the routing, but there's also security group. And I'm always like, wait, what does security
+
+00:24:02.880 --> 00:24:07.200
+ do for group? Because it's like one is for the destination ones for the source. Like it's, yeah,
+
+00:24:07.200 --> 00:24:12.080
+ it is very hard. And I'm glad that I have not to like really think about this in a long time.
+
+00:24:12.080 --> 00:24:15.760
+ Because back in the day, there's like the first thing you did whenever you started a new project,
+
+00:24:15.760 --> 00:24:21.280
+ you went and like, oh, yeah, set up all figured your VPC correctly. Yeah. I mean,
+
+00:24:21.280 --> 00:24:28.800
+ now it's like a one minor CDK thing, but right. Yeah. It used to be like thinking about IP address
+
+00:24:28.800 --> 00:24:35.520
+ allocation. Yeah, I know. That's funny. Like, what's your cider mask going to be? Yeah. I never
+
+00:24:35.520 --> 00:24:40.640
+ learned that by the way. Yeah. Did you ever learn how they worked? I did because I took all the certs.
+
+00:24:40.640 --> 00:24:48.000
+ So, you know, there's like tools, cider.xyz actually helps conceptualize it. You don't need to learn
+
+00:24:48.000 --> 00:24:53.040
+ it at this point. Like you made it. I don't. Yeah. I survived. I somehow configured all my
+
+00:24:53.040 --> 00:24:57.920
+ networks all these years without knowing how to do a cider mask. I just know that slash eight means
+
+00:24:57.920 --> 00:25:10.720
+ a lot. I don't understand why it's not. Well, I'm sure it's a good reason, like an efficiency reason,
+
+00:25:10.720 --> 00:25:18.800
+ but just give me like a, like a red jacks or like a pattern, like a white card. Yeah. Yeah. That
+
+00:25:18.800 --> 00:25:24.080
+ start. Yeah. That makes sense. That start, that start, that start. There you go. Yeah. That much
+
+00:25:24.080 --> 00:25:30.080
+ easier. So I realized I was like making the case for the like old way of thinking and you've convinced
+
+00:25:30.080 --> 00:25:35.200
+ me, which is not hard to do, that it really is just all better. Like we didn't need to know all
+
+00:25:35.200 --> 00:25:40.560
+ that stuff and people who think it's more secure to set up their VPCs and to run these old things
+
+00:25:40.560 --> 00:25:49.120
+ on Docker containers or EC2 images. Like imagine right now there are people. Lots of them that are
+
+00:25:49.120 --> 00:25:56.800
+ managing their Docker installations on raw EC2 and running containers in their little EC2 instances
+
+00:25:56.800 --> 00:26:01.840
+ inside of some VPC and manually like configuring their load balancers and doing all this stuff.
+
+00:26:01.840 --> 00:26:06.240
+ And like, that's just a lot of stuff you don't have to do anymore. And people are going to keep
+
+00:26:06.240 --> 00:26:11.280
+ building that way for another decade. It saddens me. You know who is doing that up until very
+
+00:26:11.280 --> 00:26:16.720
+ recently, Frank at our company. Oh, really? Okay. Well, there you go. Actually, I don't remember
+
+00:26:16.720 --> 00:26:22.960
+ exactly to set up, but like for any other tool, I know, if you even were, we're still doing that
+
+00:26:22.960 --> 00:26:29.760
+ stuff, our like our CI process was running on containers and EC2, I think you just moved it all
+
+00:26:29.760 --> 00:26:33.600
+ the way. You weren't even using like one of the managed container services. You were using like,
+
+00:26:34.240 --> 00:26:40.160
+ like you were installing Docker on EC2, like a custom AMI and you're like building up your EC2
+
+00:26:40.160 --> 00:26:48.560
+ instances. Yeah. Wow. But here's the thing though. It's at the limits that problems show up,
+
+00:26:48.560 --> 00:26:53.120
+ which is why we were doing this. So for a CI tool, it actually really matters a lot how fast your
+
+00:26:53.120 --> 00:26:57.600
+ container starts up because it's a CI service. Like you're going to start up containers whenever
+
+00:26:57.600 --> 00:27:02.880
+ people need to build. Yeah. So ECS for a while was not a good option because ECS took forever to boot
+
+00:27:02.880 --> 00:27:09.520
+ up, but they have this new thing called some kind of rum index. No, not rum into some kind of index
+
+00:27:09.520 --> 00:27:16.000
+ thing. You can like do this thing to your Docker image that makes it boot up way faster. So we
+
+00:27:16.000 --> 00:27:21.760
+ ended up moving to ECS and it actually shaved like two or $3,000 off of our monthly bill.
+
+00:27:21.760 --> 00:27:28.160
+ Wow. Yeah. And we get almost the same performance and like a lot more flexibility. So yeah, it was
+
+00:27:28.160 --> 00:27:33.120
+ a good move. But again, like you talked about the other day, like this, there are some exceptions
+
+00:27:33.120 --> 00:27:37.200
+ to this stuff. Like a CI service is a great example of an exception. Again, I don't think anyone
+
+00:27:37.200 --> 00:27:42.240
+ should build a CI service anymore. Like GitHub actions exists. Like everyone just wants to use
+
+00:27:42.240 --> 00:27:48.080
+ that. Wait, are you building one right now? What would ask for this? We don't really
+
+00:27:48.080 --> 00:27:55.040
+ warning an existing business into a new UI like a new approach. So historically, there's been a
+
+00:27:55.040 --> 00:27:59.680
+ lot of CI services. And at some point, GitHub actions came out and it's like, duh, you want
+
+00:27:59.680 --> 00:28:04.560
+ your CI servers right next to your code. Like, obviously, that's a much better setup. And there's
+
+00:28:04.560 --> 00:28:10.560
+ just a million undifferentiated parts of CI like environment variables, like custom scripts,
+
+00:28:10.560 --> 00:28:15.200
+ like setting up steps, like installing a version of Pnpm you want. There's like a just like an
+
+00:28:15.200 --> 00:28:19.120
+ infinite list of just stuff that is just not fun about running a CI service. Yep.
+
+00:28:20.560 --> 00:28:25.280
+ So our thinking now is we probably still will have like an extremely minimal if you just want to
+
+00:28:25.280 --> 00:28:33.120
+ stand alone, get, connect, deploy, very minimal, not very customizable. But we're also going to make
+
+00:28:33.120 --> 00:28:40.480
+ it so our CI servers can just be a step inside your actual CI service. So for using GitHub actions,
+
+00:28:40.480 --> 00:28:47.520
+ you can do like SSC cloud deploy or whatever. And that'll deploy using like a really optimized
+
+00:28:47.520 --> 00:28:52.320
+ builder on our end. So that way, we don't have to like rebuild all of CI and all the boring
+
+00:28:52.320 --> 00:28:56.720
+ parts for like the one little differentiator that it's just like an adapter for GitHub actions.
+
+00:28:56.720 --> 00:28:58.960
+ Yeah, it's like a step. It's like a step in GitHub actions.
+
+00:28:58.960 --> 00:29:04.080
+ Yeah, I really, I want the CI stuff built into console. I just want everything you guys do in
+
+00:29:04.080 --> 00:29:11.360
+ seed in the new modern hot tool, because I mean, I don't mind having both of them open, it's fine.
+
+00:29:11.360 --> 00:29:12.800
+ But the new one looks nice.
+
+00:29:12.800 --> 00:29:18.880
+ Nice to have it on one place. Yeah, we definitely need CI. It's a funny thing where like, you know,
+
+00:29:18.880 --> 00:29:22.960
+ we had seed for a while and we were like, this is like not really a great business.
+
+00:29:22.960 --> 00:29:26.880
+ And we were like, okay, we probably won't need to be in it anymore.
+
+00:29:26.880 --> 00:29:32.320
+ Then I posted that question where I was like, everyone says Vercel has great, sorry, everyone
+
+00:29:32.320 --> 00:29:38.160
+ says triangle company has great, great, great DX. And I was like, what are you guys referring
+
+00:29:38.160 --> 00:29:43.760
+ to when you say that? Every single response, the only response that I got really was
+
+00:29:43.760 --> 00:29:48.240
+ the CI, how easy it was to connect with GitHub and get into production.
+
+00:29:48.240 --> 00:29:52.640
+ So like, oh, every single tool today, like I don't understand how that's like the level
+
+00:29:52.640 --> 00:29:57.120
+ bar for developer experience. Like I can connect my GitHub and it just deploys.
+
+00:29:57.120 --> 00:30:01.680
+ Yeah, you can do that to like 15 different services. That's like pretty table stakes at this point,
+
+00:30:01.680 --> 00:30:05.200
+ isn't it? But that's what we learned. We're like, you would say, that's only been knows.
+
+00:30:05.200 --> 00:30:08.480
+ And that's what I want to know. Like when people are like, oh, I can't give up the
+
+00:30:08.480 --> 00:30:14.080
+ Vercel developer experience to like run my own stuff, like what is the thing you can't give up?
+
+00:30:14.080 --> 00:30:18.640
+ I don't understand. I haven't thought about CI and I don't remember five years.
+
+00:30:18.640 --> 00:30:23.200
+ Yeah. I mean, they might just be comparing it to like the worst version of it.
+
+00:30:23.200 --> 00:30:27.040
+ Because like imagine, yeah, people use code pipeline.
+
+00:30:27.040 --> 00:30:31.360
+ Yeah. All right. Imagine just like getting an SSL certificate working.
+
+00:30:31.360 --> 00:30:35.520
+ So that's another thing. I saw Theo tweeted this the other day about how things he hasn't had to
+
+00:30:35.520 --> 00:30:39.920
+ think about since he started using Vercel. I might think about SSL certificate in like 10 years.
+
+00:30:39.920 --> 00:30:43.200
+ I don't even remember the last time. And I used to configure them manually, but we haven't had
+
+00:30:43.200 --> 00:30:47.840
+ to do that for so long. And I don't use Vercel. I do, but yeah, the point is it's easy.
+
+00:30:47.840 --> 00:30:52.720
+ Like a lot of different people have made all of those things pretty invisible at this point.
+
+00:30:52.720 --> 00:30:56.080
+ But like in your head, if you're not aware of that, you're probably comparing it to like
+
+00:30:56.960 --> 00:31:02.880
+ going to some like SSL website and like buying. Yeah, like did you search? I mean, I did the same
+
+00:31:02.880 --> 00:31:06.640
+ back in the day. And then like, oh, it's going to expire. Does anybody have the credentials to
+
+00:31:06.640 --> 00:31:11.840
+ did you search? Oh, shoot, we're screwed. Yeah. I remember those days. Yeah. That's been a long
+
+00:31:11.840 --> 00:31:16.480
+ time ago. And then even then like setting up the, was it open SSL? What was it called? What's the
+
+00:31:16.480 --> 00:31:20.560
+ thing we all use now? I think we use now. I've been so detached from this. I don't even know.
+
+00:31:20.560 --> 00:31:26.080
+ I mean, I just use ACM. I just use I'm an AWS. There was a step in between that made SL
+
+00:31:26.080 --> 00:31:30.960
+ certificates free and widely available. And I'm totally blanking. Yeah, I'm blanking on it too.
+
+00:31:30.960 --> 00:31:38.400
+ I forgot what I want to sell. No, it's a the name of it. It's going to drive you crazy. It's like
+
+00:31:38.400 --> 00:31:44.720
+ free. No, open. Hang on. Let's just go to a website and it's going to be like what they used.
+
+00:31:44.720 --> 00:31:49.600
+ Let's encrypt. Let's encrypt. There it is. There we go. All right. We used to run like
+
+00:31:49.600 --> 00:31:55.280
+ Let's Encrypt services in our Kubernetes cluster and that handled it. And that was like much better
+
+00:31:55.280 --> 00:32:01.360
+ than the previous step, but also it's still kind of sucked. So I can see how if you don't know,
+
+00:32:01.360 --> 00:32:07.120
+ one, if you don't even know how this stuff works, or if you're like perception of the
+
+00:32:07.120 --> 00:32:11.360
+ alternative is like one of the options we just talked about. Yeah, when the old ways. Yeah,
+
+00:32:11.360 --> 00:32:18.080
+ I can see that. But yeah, the get push deploy. That is whether or not it's like truly useful
+
+00:32:18.080 --> 00:32:22.240
+ or like truly like a killer feature. It is something that's six in people's heads. And I
+
+00:32:22.240 --> 00:32:26.800
+ guess it's because it's like their first that your first interaction with the service is usually
+
+00:32:26.800 --> 00:32:29.600
+ getting a deploy for the first time. So I guess that's why it's six in people's heads.
+
+00:32:29.600 --> 00:32:35.440
+ Yeah. So yeah, we realize, okay, we can't skip CI that we need to need to have that. It is an
+
+00:32:35.440 --> 00:32:41.920
+ important part. It's table six. I want you to figure out how to use the cloud front blue green
+
+00:32:41.920 --> 00:32:48.320
+ deployments, because it feels bad to make big changes to our distro when at the levels of traffic
+
+00:32:48.320 --> 00:32:55.040
+ we have constantly flowing in. I would love to be able to put them in a blue green deployment
+
+00:32:55.040 --> 00:32:57.600
+ and cloud front, which is like a feature in cloud front now. And if you've seen this,
+
+00:32:57.600 --> 00:33:03.840
+ you basically create like a, yeah, it's a feature in cloud front. And like, it's basically it creates
+
+00:33:03.840 --> 00:33:08.880
+ like a second, like a shadow distribution that you can configure however you want. And you can,
+
+00:33:08.880 --> 00:33:14.080
+ you can transition traffic to it, like 10%, 15, you can have it all the time. Yeah, yeah,
+
+00:33:14.080 --> 00:33:18.160
+ it's, it's pretty great. That's really great. Yeah. I don't know how exactly we'll want to like
+
+00:33:18.160 --> 00:33:22.640
+ figure it out. Yeah, figure it out, because I would love to build like AB tests or not AB tests,
+
+00:33:22.640 --> 00:33:28.240
+ but just like send slivers of traffic to a little, for instance, this, the latest SSC stuff,
+
+00:33:28.240 --> 00:33:33.680
+ what's now been weeks ago that you guys, it was merged in. It's pretty big sweeping changes to
+
+00:33:33.680 --> 00:33:39.680
+ the distro, like to the behaviors and everything. And it's scary to just like flip the switch and
+
+00:33:39.680 --> 00:33:44.080
+ send that to everybody. Yeah. It'd be nice to be like, here's 10% of the traffic. And it's like a
+
+00:33:44.080 --> 00:33:48.560
+ feature that's built in. I don't know how it would work from like a infrastructure's code standpoint,
+
+00:33:48.560 --> 00:33:53.920
+ like a custom resource that just like, I don't know, you could configure it to like slowly fade it
+
+00:33:53.920 --> 00:33:57.680
+ or something. I don't know. That's for you smart people to figure out. Yeah, we are looking at that.
+
+00:33:57.680 --> 00:34:02.640
+ Yeah, it's funny because we've been, yeah, we were talking with a team yesterday and
+
+00:34:02.640 --> 00:34:08.640
+ I feel like we've had so much clarity now that we just haven't had, because one of you do, when
+
+00:34:08.640 --> 00:34:13.360
+ you're like starting a company, it's just all lack of clarity. You're like, yeah, here's a thousand
+
+00:34:13.360 --> 00:34:17.040
+ things we can do, a thousand directions we can go and a thousand unsolved things. Like, what the
+
+00:34:17.040 --> 00:34:23.440
+ hell do we focus on? And for a while, we were stuck on this problem of like, what is a default
+
+00:34:23.440 --> 00:34:27.360
+ project? Like, what is a default SSC product? What does it look like? Like, what are good practices?
+
+00:34:27.360 --> 00:34:31.920
+ What's like the framework part of it? Like, how does it work? And it was so hard for us to like
+
+00:34:31.920 --> 00:34:37.840
+ draw an opinion on this because so many, so many different setups, so many like, everyone had
+
+00:34:37.840 --> 00:34:42.400
+ different ways they wanted to do things. And it was so hard to like, do one setup that worked for
+
+00:34:42.400 --> 00:34:48.240
+ everyone. But now that we have this deployment story around these frameworks, like, Ashrow,
+
+00:34:48.240 --> 00:34:53.360
+ remakes, actually, as whatever, we like realized that it's, that's no longer our problem.
+
+00:34:53.360 --> 00:34:58.400
+ Like, we just support the framework itself really well. Everything you need to do in production
+
+00:34:58.400 --> 00:35:01.920
+ with the framework. Yeah, we don't have to worry about like the design of the framework.
+
+00:35:01.920 --> 00:35:05.280
+ Someone's already decided that they like this framework and then I use it. We just got to make
+
+00:35:05.280 --> 00:35:10.800
+ sure it deploys really well. Yeah. And initially, I was like really thinking narrowly of like,
+
+00:35:10.800 --> 00:35:15.840
+ Oh, that's just these quote unquote front end frameworks. But now they deploy so well that like,
+
+00:35:15.840 --> 00:35:20.960
+ I can actually see myself using all the backend features of it as well. Yeah. And there's all
+
+00:35:20.960 --> 00:35:26.080
+ these other frameworks that exist outside of this like front end framework zone, like even just
+
+00:35:26.080 --> 00:35:31.440
+ express or like, fascify or like, Oh no. Yeah, what's like, nest? People always talk about nest.
+
+00:35:31.440 --> 00:35:35.360
+ I don't like that. Okay. That's another example. I just I've seen people say it.
+
+00:35:35.360 --> 00:35:41.440
+ Yeah, exactly. Like you mean, it's like we can just focus on figuring out going step by step
+
+00:35:41.440 --> 00:35:45.600
+ with to each of those frameworks and figuring out here's the right way to deploy it. And that
+
+00:35:45.600 --> 00:35:50.720
+ makes our job so much more narrow and clear. And it also expands our we don't have to convince
+
+00:35:50.720 --> 00:35:54.720
+ anyone of anything, like whatever you choose to already use, we can just help you deploy.
+
+00:35:54.720 --> 00:35:57.280
+ Can I throw more names out there and just see if you've necessarily,
+
+00:35:57.280 --> 00:36:02.640
+ viscerally react to them as well. Yeah, Redwood JS. Yeah, we talked about Redwood as well.
+
+00:36:02.640 --> 00:36:07.120
+ Okay, it's good support. So that's a good one. I've been like really used it. So I don't know.
+
+00:36:07.120 --> 00:36:12.800
+ Okay. A donus? A donus? Yeah, I think the problem that donus is it's very geared towards, I don't
+
+00:36:12.800 --> 00:36:17.200
+ know how well it can be deployed as a serverless thing. You can use our container option. That's
+
+00:36:17.200 --> 00:36:22.640
+ the thing. That's the big thing, right? People want to keep using their 15 year old frameworks,
+
+00:36:22.640 --> 00:36:29.280
+ which I get it's mature, but they just accept that their infrastructure is also going to be 15
+
+00:36:29.280 --> 00:36:35.120
+ years old forever. Yeah, it's never going to be taking advantage. It's all worth it, right? I
+
+00:36:35.120 --> 00:36:40.240
+ always ask this question to you. But like, I just start questioning my own conviction when
+
+00:36:40.240 --> 00:36:45.760
+ everybody's like, what do I care if it's serverless? Well, like, they're it's all worth it, right?
+
+00:36:45.760 --> 00:36:50.240
+ All this stuff. I think so. I mean, we're using it at scale and it's great.
+
+00:36:50.240 --> 00:36:54.320
+ Yeah, I don't know. I don't at this point. I don't. I know it's worth it.
+
+00:36:54.320 --> 00:36:58.000
+ I just need to stop trying to convince people. I don't need to. Like, that's not my job.
+
+00:36:58.000 --> 00:37:03.040
+ Yeah. I mean, we literally see every single day, thousands of companies, like real companies
+
+00:37:03.040 --> 00:37:09.360
+ making money. Yeah. We lit like the SRT team literally sees that every single day. Even then,
+
+00:37:09.360 --> 00:37:12.880
+ it's like not enough to not have like a doubt in my head, you know?
+
+00:37:12.880 --> 00:37:17.760
+ Yeah. It's just funny. Like, if you get on Twitter, you'd think like AWS is this very obscure
+
+00:37:17.760 --> 00:37:23.840
+ arcane technology that nobody uses. But I remember at TwitchCon, of all places, TwitchCon,
+
+00:37:23.840 --> 00:37:30.000
+ sitting around with all these people that you see on Twitter, and they're all talking about AWS.
+
+00:37:30.000 --> 00:37:35.600
+ Like, they're literally all like, oh, yeah, our SQS Q got backed up and then we had it.
+
+00:37:35.600 --> 00:37:40.400
+ It's like, I forget that all these people with their jobs at these fan companies,
+
+00:37:40.400 --> 00:37:43.840
+ they use AWS. Like everybody uses AWS. It's so dumb.
+
+00:37:43.840 --> 00:37:46.560
+ Yeah. They have a million customers. That's a lot of customers.
+
+00:37:46.560 --> 00:37:51.920
+ It's a lot of customers. Yeah. Okay. I want to stop trying to convince people of it.
+
+00:37:51.920 --> 00:37:56.000
+ What about like, no, that's the same problem. Never mind. I'm going to go into it. I was going
+
+00:37:56.000 --> 00:38:00.320
+ to say Laravel. Laravel deploys in a serverless way. Yeah. Do you guys think about Laravel?
+
+00:38:00.320 --> 00:38:03.760
+ Do you guys think about like, or do they just have their own products?
+
+00:38:03.760 --> 00:38:10.960
+ Okay. So our dream is that there is an SST config in every single project, no matter what it is.
+
+00:38:10.960 --> 00:38:17.040
+ So today, it's reasonable to see an SST config inside an Azure project, inside a next JS project,
+
+00:38:17.040 --> 00:38:20.800
+ dreaming project. We want to, the next step is to then like,
+
+00:38:20.800 --> 00:38:25.760
+ support like the more back-end frameworks of JavaScript, like HONO Express, Fastify,
+
+00:38:25.760 --> 00:38:31.200
+ like get it. That's like, obviously very adjacent. And the next step is to say,
+
+00:38:31.200 --> 00:38:36.240
+ oh, that Go framework that you're all using, we deploy that too.
+
+00:38:36.240 --> 00:38:41.520
+ Or like this Python framework you're using, we deploy too. Rust framework is exactly.
+
+00:38:41.520 --> 00:38:48.320
+ And then eventually that gets to things like Laravel and all of that. So I think the root idea is
+
+00:38:48.320 --> 00:38:52.800
+ managed services are just going to continue to grow and use, even if your framework is very
+
+00:38:52.800 --> 00:38:58.640
+ capable. And you always need to glue that together somewhere. And I think that SST config file
+
+00:38:58.640 --> 00:39:03.440
+ could be that place. That just made me realize I haven't ever asked you.
+
+00:39:04.160 --> 00:39:08.800
+ And maybe I don't know if you don't want to share it, don't share it. But are most of your customers,
+
+00:39:08.800 --> 00:39:13.360
+ or most of the SST users, like doing the drop-in thing within an existing project,
+
+00:39:13.360 --> 00:39:17.680
+ or are they building their project from start with SST, like the SST monorepo style?
+
+00:39:17.680 --> 00:39:21.120
+ I have no idea. Yeah, I guess how would you know?
+
+00:39:21.120 --> 00:39:26.080
+ Well, yeah. This is like a weird blind spot for us because we don't track our create SST.
+
+00:39:26.080 --> 00:39:32.480
+ Yeah. So it'd only be off like just anecdotally seeing the support stuff and looking at people's
+
+00:39:32.480 --> 00:39:37.600
+ projects. I think support-wise, we're seeing a lot of drop-in stuff. And I think, realistically,
+
+00:39:37.600 --> 00:39:42.960
+ that is the future. We need to be as light as possible. Actual companies have actual projects
+
+00:39:42.960 --> 00:39:48.480
+ already. Yeah, exactly. They need to be able to drop it in. It's not all green field projects.
+
+00:39:48.480 --> 00:39:56.080
+ Yeah. And especially the next version of SST will not be built on CDK. So that just opens up.
+
+00:39:56.080 --> 00:39:58.720
+ Oh, for real, that's actually happening. Oh, yeah, for sure.
+
+00:39:58.720 --> 00:40:02.080
+ Like, what does that look like? It's going to be Terraform? No.
+
+00:40:02.080 --> 00:40:04.480
+ Or something? Like it? No? What?
+
+00:40:04.480 --> 00:40:07.840
+ It's going to be Terraform. Are you doing your own thing? No, not doing your own thing.
+
+00:40:07.840 --> 00:40:10.640
+ No. What are you? What is it going to be? Do you not want to say right now?
+
+00:40:10.640 --> 00:40:13.200
+ Well, I mean, I think there's only one. I've eliminated all the-
+
+00:40:13.200 --> 00:40:15.760
+ Wait, you have Pulumi? Yeah.
+
+00:40:15.760 --> 00:40:20.000
+ For real. I don't know anything about the inner- I can. I mean,
+
+00:40:20.000 --> 00:40:25.040
+ that's the next thing I would have guessed. Okay, so we haven't made any firm decisions yet,
+
+00:40:25.040 --> 00:40:29.760
+ but if I have to say where I'm leaning, it's definitely that way.
+
+00:40:29.760 --> 00:40:34.240
+ Yeah. Reason being, we've all heard of Pulumi, but no one's actually tried it.
+
+00:40:34.240 --> 00:40:37.200
+ I've never used it, right? If you've tried it, we've barely tried it.
+
+00:40:37.200 --> 00:40:39.680
+ And do you know why this is the case? Here's my theory.
+
+00:40:39.680 --> 00:40:40.960
+ Not enough dev rails.
+
+00:40:40.960 --> 00:40:44.400
+ No. Weirdly, that's just a problem. No, sorry, that's never the problem.
+
+00:40:44.400 --> 00:40:46.400
+ That's the opposite of what I mean.
+
+00:40:46.400 --> 00:40:49.920
+ Why is nobody tried it? Yeah, go ahead.
+
+00:40:49.920 --> 00:40:53.120
+ Because from the moment you try to use it,
+
+00:40:53.680 --> 00:40:56.240
+ it feels like a paid product. Oh, interesting.
+
+00:40:56.240 --> 00:40:59.520
+ Every step of the way, you go to their set, you go to their docs,
+
+00:40:59.520 --> 00:41:03.760
+ you run your first command, the CLI, they ask you to put it in your email and sign up and make a password.
+
+00:41:03.760 --> 00:41:10.800
+ Ah. So I think they have, I mean, they've been around from before CDK.
+
+00:41:10.800 --> 00:41:12.000
+ Yeah. They've been around for a long time.
+
+00:41:12.000 --> 00:41:15.120
+ Can I tell you why I don't use it? Why? I just don't like the name.
+
+00:41:15.120 --> 00:41:17.840
+ I really just don't like the name. That's it. That's funny.
+
+00:41:19.760 --> 00:41:23.680
+ So it does, can you just tell me enough about the inner workings?
+
+00:41:23.680 --> 00:41:26.640
+ It's like Terraform and that they just make direct SDK calls, right?
+
+00:41:26.640 --> 00:41:30.400
+ It's like, yes, it's like Terraform and that it can coordinate anything.
+
+00:41:30.400 --> 00:41:34.320
+ But it's like CDK and that it's like a programming language base.
+
+00:41:34.320 --> 00:41:36.160
+ You define this stuff using a programming language.
+
+00:41:36.160 --> 00:41:41.760
+ Yeah. Does it compile the types or to not compile, but does it turn into cloud formation?
+
+00:41:41.760 --> 00:41:44.880
+ No, it doesn't. It doesn't. No. Interesting.
+
+00:41:44.880 --> 00:41:48.240
+ So we bypass the cloud formation, change that hell.
+
+00:41:48.240 --> 00:41:52.320
+ Yeah, exactly. So with my experience of using CDK,
+
+00:41:52.320 --> 00:41:55.440
+ there were a whole set of issues that I bring up all the time.
+
+00:41:55.440 --> 00:42:01.600
+ There was a subset of those issues where I'm like, okay, this sucks.
+
+00:42:01.600 --> 00:42:05.040
+ But I also see why CDK did it this way.
+
+00:42:05.040 --> 00:42:07.440
+ Yeah. I was like, okay, I can be reasonable there.
+
+00:42:07.440 --> 00:42:10.800
+ Then I went and tried Pulumi and I was like, oh, never mind.
+
+00:42:10.800 --> 00:42:12.880
+ There was a good solution to literally all of these things.
+
+00:42:13.920 --> 00:42:20.400
+ It is such a good product. It is really insane. I mean, I think the level that I appreciate it
+
+00:42:20.400 --> 00:42:24.000
+ is because I know some of these inner work that we're like, oh, yeah.
+
+00:42:24.000 --> 00:42:29.120
+ There were things that I perceived as really hard to solve that they solved elegantly.
+
+00:42:29.120 --> 00:42:31.920
+ There were things that I wish that someone would do it a certain way.
+
+00:42:31.920 --> 00:42:36.160
+ It turns out they did it that way. It allows for some really crazy things.
+
+00:42:36.160 --> 00:42:41.600
+ And this is a really stupid example, but this example demonstrates why it's like the
+
+00:42:41.600 --> 00:42:44.560
+ best infrastructure is code tool. But before you give that example,
+
+00:42:44.560 --> 00:42:46.640
+ yeah, we're going to take a break because I have to pee.
+
+00:42:46.640 --> 00:42:48.080
+ Oh, okay. Come right back.
+
+00:42:48.080 --> 00:42:51.120
+ Nice. And I just seem like a good cliffhanger.
+
+00:42:51.120 --> 00:42:53.120
+ That's a very good cliffhanger. Good job.
+
+00:43:12.320 --> 00:43:21.920
+ Okay. I'm very curious. Continue.
+
+00:43:21.920 --> 00:43:24.240
+ So here's a really stupid example.
+
+00:43:24.240 --> 00:43:33.440
+ Let's say you want to create an S3 bucket and then based off of the generated ARN,
+
+00:43:33.440 --> 00:43:39.360
+ you want to create a Lambda function for each letter in the ARN function for each letter in the ARN.
+
+00:43:39.360 --> 00:43:45.600
+ Okay. So really obviously contrived, stupid example, but yeah, you could never do this
+
+00:43:45.600 --> 00:43:52.720
+ in any of the traditional IAC solutions because all of them are built on this idea of you need
+
+00:43:52.720 --> 00:43:57.040
+ to be able to synthesize a plan ahead of time and the plan is executed.
+
+00:43:57.040 --> 00:44:02.080
+ So in the CK cases, confirmation, but you can't know the plan ahead of time because
+
+00:44:02.080 --> 00:44:07.920
+ that ARN might be generated by like during the process of, yep, of synthesis of actually deploying.
+
+00:44:07.920 --> 00:44:10.320
+ So then you've got custom resources and all this hell.
+
+00:44:10.320 --> 00:44:11.440
+ All this hell, exactly.
+
+00:44:11.440 --> 00:44:11.440
+ Yeah.
+
+00:44:11.440 --> 00:44:15.280
+ To like make up for the fact that you need to do something based off of what might happen.
+
+00:44:15.280 --> 00:44:20.240
+ But Pulumi's approach is like, we're going to give up the idea of a plan.
+
+00:44:20.240 --> 00:44:23.200
+ So the downside is so they still have the concept of a plan.
+
+00:44:23.200 --> 00:44:24.000
+ Can you roll back?
+
+00:44:24.000 --> 00:44:29.360
+ Yeah, you can always fix things, but yeah, they sell the concept of a plan.
+
+00:44:29.360 --> 00:44:32.800
+ But if you're doing something like this, it's not going to be able to tell you exactly what's
+
+00:44:32.800 --> 00:44:36.240
+ going to happen. It's going to only be able to tell you like as much as it knows.
+
+00:44:36.240 --> 00:44:38.560
+ But it effectively creates like this.
+
+00:44:38.560 --> 00:44:40.080
+ I mean, the technical term is a dag.
+
+00:44:40.080 --> 00:44:44.160
+ Like there's a graph of actions that need to happen and based off of an action,
+
+00:44:44.160 --> 00:44:45.440
+ completing other actions happen.
+
+00:44:45.440 --> 00:44:48.560
+ And it can execute that whole thing.
+
+00:44:48.560 --> 00:44:52.240
+ And at the end, you'll get the right results, but you don't know determinants.
+
+00:44:52.240 --> 00:44:54.320
+ I don't want to say deterministically, like you don't know.
+
+00:44:54.320 --> 00:44:56.720
+ Yeah, exact details of what's going to happen.
+
+00:44:56.720 --> 00:44:58.240
+ So there's all kinds of scenarios.
+
+00:44:58.240 --> 00:45:01.120
+ This unlocks, like deploy this.
+
+00:45:01.120 --> 00:45:05.040
+ If that ends up creating this other thing, then build your front end.
+
+00:45:05.040 --> 00:45:08.880
+ And then once you've built your front end, analyze and metadata to figure out what routes
+
+00:45:08.880 --> 00:45:11.440
+ you need to deploy and update your cloud front behavior.
+
+00:45:11.440 --> 00:45:14.640
+ You can do these really complex series of actions.
+
+00:45:14.640 --> 00:45:16.960
+ And it's really beautiful and elegant.
+
+00:45:16.960 --> 00:45:21.680
+ And it solves so like every single hack that we have, that fundamental problem,
+
+00:45:21.680 --> 00:45:24.240
+ if you solve it, it gets rid of.
+
+00:45:24.240 --> 00:45:26.320
+ So I was really excited when I saw that.
+
+00:45:26.320 --> 00:45:28.800
+ This is, yeah, it's high praise.
+
+00:45:28.800 --> 00:45:33.840
+ I mean, like if anybody knows what would make IAC frameworks good, it would be you.
+
+00:45:33.840 --> 00:45:37.360
+ And I feel like that's like you being impressed by something.
+
+00:45:37.360 --> 00:45:39.360
+ That's, that's a good.
+
+00:45:39.360 --> 00:45:41.360
+ What's the word I'm looking for?
+
+00:45:41.360 --> 00:45:41.920
+ No, hang on.
+
+00:45:41.920 --> 00:45:44.080
+ That's a good testimonial.
+
+00:45:44.080 --> 00:45:45.520
+ No signal signal.
+
+00:45:45.520 --> 00:45:45.920
+ Thank you.
+
+00:45:45.920 --> 00:45:46.960
+ That's the word.
+
+00:45:46.960 --> 00:45:51.200
+ It's a good signal, but it's funny because they don't need my signal.
+
+00:45:51.200 --> 00:45:54.480
+ Because who's a CTO of Pulumi?
+
+00:45:54.480 --> 00:45:54.960
+ Do you know?
+
+00:45:54.960 --> 00:45:55.760
+ I have no idea.
+
+00:45:55.760 --> 00:45:58.400
+ Co-founder of TypeScript.
+
+00:45:58.400 --> 00:45:59.760
+ So it's not.
+
+00:45:59.760 --> 00:46:00.240
+ What?
+
+00:46:00.240 --> 00:46:03.360
+ It's not so, yeah, it's like, how do I not know this?
+
+00:46:03.360 --> 00:46:04.160
+ I didn't know this.
+
+00:46:04.160 --> 00:46:06.880
+ So it's not surprising at all, right?
+
+00:46:06.880 --> 00:46:07.200
+ Yeah.
+
+00:46:07.200 --> 00:46:09.120
+ So are they, are they doing well as a business?
+
+00:46:09.120 --> 00:46:10.320
+ Because like you're not surprised.
+
+00:46:10.320 --> 00:46:14.320
+ Okay, so as a business, I think what they're doing makes sense for them,
+
+00:46:14.320 --> 00:46:18.400
+ which is they are head-to-head focused on Terraform.
+
+00:46:18.400 --> 00:46:23.280
+ Any place in the world that's deciding on Terraform, they want to get in there
+
+00:46:23.280 --> 00:46:25.040
+ and they want to be an alternative to Terraform.
+
+00:46:25.040 --> 00:46:29.360
+ So they are just in that world of DevOps people that like are really into
+
+00:46:29.360 --> 00:46:32.560
+ infrastructure as code, people like big companies that like, you know,
+
+00:46:32.560 --> 00:46:33.840
+ are making decisions around this thing.
+
+00:46:33.840 --> 00:46:38.240
+ But they're not in the business of bringing infrastructure to code to people
+
+00:46:38.240 --> 00:46:40.480
+ that don't already know about it, right?
+
+00:46:40.480 --> 00:46:42.880
+ They're like just trying to, Terraform established a market.
+
+00:46:42.880 --> 00:46:45.360
+ They're trying to now like fight with them for it.
+
+00:46:45.360 --> 00:46:46.000
+ That market share.
+
+00:46:46.000 --> 00:46:46.320
+ Yeah.
+
+00:46:46.320 --> 00:46:46.800
+ Yeah, yeah.
+
+00:46:46.800 --> 00:46:50.320
+ But the average person that's not already using infrastructure as code,
+
+00:46:50.320 --> 00:46:52.560
+ they're never, they're not being marketed to by Pulumi.
+
+00:46:52.560 --> 00:46:54.560
+ They're, they're like, no, on a ramp for Pulumi.
+
+00:46:54.560 --> 00:46:56.480
+ You have to like already be an infrastructure as code person.
+
+00:46:56.480 --> 00:46:58.720
+ So that's where I'm like a little bit interested.
+
+00:46:58.720 --> 00:47:01.360
+ Cause I'm like, we definitely focus more on that kind of person,
+
+00:47:01.360 --> 00:47:03.280
+ where we trick them into using infrastructure as code,
+
+00:47:03.280 --> 00:47:04.880
+ because it promises other things.
+
+00:47:04.880 --> 00:47:08.880
+ But we think we can like take their stuff and hide it a little bit and like,
+
+00:47:08.880 --> 00:47:13.520
+ kind of build on top of it and use it as a primitive and get to like a really
+
+00:47:13.520 --> 00:47:15.360
+ high quality product.
+
+00:47:15.360 --> 00:47:17.840
+ So that's like, like right around in my head as a thing.
+
+00:47:17.840 --> 00:47:23.760
+ And I think realistically we'll support that as like part of what SSC is today.
+
+00:47:23.760 --> 00:47:26.800
+ So you can like have Pulumi stuff side by side, you're using stuff.
+
+00:47:26.800 --> 00:47:27.280
+ Okay.
+
+00:47:27.280 --> 00:47:29.280
+ Yeah, and that'll enable us to do so many things.
+
+00:47:29.280 --> 00:47:30.960
+ Like we love working with other projects.
+
+00:47:30.960 --> 00:47:34.880
+ I love working with the Astro team and the remix team and all of that.
+
+00:47:34.880 --> 00:47:39.520
+ And this lets us now work with the planet skit with like a planet scale or with
+
+00:47:39.520 --> 00:47:42.320
+ clerk or with whatever all these other managers services.
+
+00:47:42.320 --> 00:47:43.920
+ We can coordinate that stuff as well.
+
+00:47:43.920 --> 00:47:46.080
+ So I was going to ask like the migration paths,
+
+00:47:46.080 --> 00:47:48.320
+ because it sounded like this would be a huge lift.
+
+00:47:48.320 --> 00:47:52.080
+ If it's like a big rewrite to use Pulumi, but it's going to be like an incremental thing.
+
+00:47:52.080 --> 00:47:53.200
+ Like yeah, it could be.
+
+00:47:53.200 --> 00:47:55.200
+ Like I said, we haven't even decided whether we're going to use Pulumi.
+
+00:47:55.200 --> 00:47:57.760
+ It's just my initial research has me pretty excited.
+
+00:47:57.760 --> 00:48:00.640
+ And yeah, so I think we don't know what that'll look like.
+
+00:48:00.640 --> 00:48:05.120
+ Realistically, I think the simplest thing we can do is start to let you spin up
+
+00:48:05.120 --> 00:48:08.320
+ non-AWS stuff and have all that be powered by Pulumi.
+
+00:48:08.320 --> 00:48:10.720
+ And then we can kind of take it from there.
+
+00:48:10.720 --> 00:48:15.440
+ There's lots of that simplified like the import stuff like importing existing resources.
+
+00:48:15.440 --> 00:48:16.560
+ Like that is so much easier.
+
+00:48:16.560 --> 00:48:21.760
+ So a migration path for our existing resources could could be done.
+
+00:48:21.760 --> 00:48:23.200
+ Yeah.
+
+00:48:23.200 --> 00:48:26.560
+ So it's a fantastic tool, just it has less downloads in CDK.
+
+00:48:26.560 --> 00:48:28.160
+ Yeah, it's a shame.
+
+00:48:28.160 --> 00:48:31.280
+ It's like it definitely deserves more attention than it gets.
+
+00:48:31.280 --> 00:48:34.960
+ CDK definitely markets to people who aren't infrastructure as code people, right?
+
+00:48:34.960 --> 00:48:38.160
+ Like they want to be like, this is your first experience with
+
+00:48:38.160 --> 00:48:39.920
+ infrastructure as code.
+
+00:48:39.920 --> 00:48:41.120
+ Don't think stuff on AWS.
+
+00:48:41.120 --> 00:48:42.240
+ Yeah, exactly.
+
+00:48:42.240 --> 00:48:44.080
+ Yeah.
+
+00:48:44.080 --> 00:48:48.000
+ So it just, even myself, I had to bias against them for a while,
+
+00:48:48.000 --> 00:48:48.960
+ just like for no reason.
+
+00:48:48.960 --> 00:48:52.880
+ Because it just seems, it just seems, I don't like the name.
+
+00:48:52.880 --> 00:48:53.920
+ I don't know.
+
+00:48:53.920 --> 00:48:56.000
+ But I like the more now that I know it's a good product.
+
+00:48:56.000 --> 00:48:56.960
+ That's cool.
+
+00:48:56.960 --> 00:49:01.360
+ Yeah, I like, I looked at it and something about it felt so like not open source.
+
+00:49:01.360 --> 00:49:06.160
+ Like Terraform feels so much and ironically, it ended up being not true.
+
+00:49:06.160 --> 00:49:08.320
+ Terraform feels like such an open source primitive thing.
+
+00:49:08.320 --> 00:49:09.280
+ Yeah.
+
+00:49:09.280 --> 00:49:11.120
+ Until they like changed that, but.
+
+00:49:11.120 --> 00:49:11.920
+ Until they weren't.
+
+00:49:11.920 --> 00:49:12.160
+ Yeah.
+
+00:49:12.160 --> 00:49:14.560
+ Whereas Pulumi from the beginning, they're like,
+
+00:49:14.560 --> 00:49:20.160
+ try to get you into there, like use our cloud service to store your state and like
+
+00:49:20.160 --> 00:49:20.960
+ kind of all that stuff.
+
+00:49:20.960 --> 00:49:23.680
+ So yeah, it doesn't feel like you're using an open source thing.
+
+00:49:23.680 --> 00:49:26.400
+ And then later, you're optionally upgrading to their service.
+
+00:49:26.400 --> 00:49:32.240
+ So I think that that's a good positioning thing that I think prevents them from getting
+
+00:49:32.240 --> 00:49:33.280
+ much, much bigger.
+
+00:49:33.280 --> 00:49:33.920
+ Interesting.
+
+00:49:33.920 --> 00:49:36.720
+ Well, I'm very excited to see all that shake out.
+
+00:49:36.720 --> 00:49:38.080
+ I just, I love SSC.
+
+00:49:38.080 --> 00:49:42.560
+ So if it gets better and faster and that can incorporate with outside services.
+
+00:49:42.560 --> 00:49:43.840
+ And it's so fast.
+
+00:49:43.840 --> 00:49:45.520
+ I can.
+
+00:49:45.520 --> 00:49:46.320
+ Pulumi is so fast.
+
+00:49:46.320 --> 00:49:46.320
+ Yeah.
+
+00:49:46.320 --> 00:49:50.000
+ I mean, you're getting rid of cloud formation like there you go.
+
+00:49:50.000 --> 00:49:53.200
+ Like that, I think that example, the bucket example I gave, I think I did.
+
+00:49:53.200 --> 00:49:54.000
+ I think I was doing.
+
+00:49:54.000 --> 00:49:59.360
+ Create one bucket and create another bucket for each letter in the ARN.
+
+00:49:59.360 --> 00:49:59.600
+ Yeah.
+
+00:49:59.600 --> 00:50:01.680
+ I think it deployed in like under 10 seconds or something.
+
+00:50:01.680 --> 00:50:02.000
+ It was something.
+
+00:50:02.000 --> 00:50:06.400
+ Cause SDK AWS SDK calls are fast for a lot of things.
+
+00:50:06.400 --> 00:50:06.960
+ Oh, yeah.
+
+00:50:06.960 --> 00:50:07.520
+ They are.
+
+00:50:07.520 --> 00:50:07.600
+ Yeah.
+
+00:50:07.600 --> 00:50:10.400
+ It's always amazing when you use like the CLI and you do something and you're like,
+
+00:50:10.400 --> 00:50:12.400
+ wait a minute, did you do it?
+
+00:50:12.400 --> 00:50:15.040
+ Or is that just like it started the process?
+
+00:50:15.040 --> 00:50:16.480
+ And now it's going to take a lot.
+
+00:50:16.480 --> 00:50:16.800
+ Yeah.
+
+00:50:16.800 --> 00:50:19.840
+ It's funny because some things in AWS are like,
+
+00:50:20.080 --> 00:50:21.040
+ stupid, fast.
+
+00:50:21.040 --> 00:50:24.320
+ I can't think of an example right now, but like cloud front.
+
+00:50:24.320 --> 00:50:24.800
+ Yeah.
+
+00:50:24.800 --> 00:50:25.680
+ Disturbation.
+
+00:50:25.680 --> 00:50:26.400
+ Disturbation.
+
+00:50:26.400 --> 00:50:26.640
+ Yeah.
+
+00:50:26.640 --> 00:50:29.200
+ No, that was a joke.
+
+00:50:29.200 --> 00:50:30.800
+ The opposite of that.
+
+00:50:30.800 --> 00:50:35.200
+ But like spending a new SQS Q or tearing one down.
+
+00:50:35.200 --> 00:50:35.440
+ Yeah.
+
+00:50:35.440 --> 00:50:36.880
+ It's like less than a second or something.
+
+00:50:36.880 --> 00:50:41.200
+ But then other trivial things like updating an API route, an API gateway takes.
+
+00:50:41.200 --> 00:50:42.560
+ To forever.
+
+00:50:42.560 --> 00:50:43.920
+ Yeah.
+
+00:50:43.920 --> 00:50:44.560
+ I did that thing.
+
+00:50:44.560 --> 00:50:45.120
+ That was fun.
+
+00:50:45.120 --> 00:50:48.720
+ Cause I did the thing where I said something with confidence and it kind of fooled you for a second.
+
+00:50:48.720 --> 00:50:49.520
+ That was fun.
+
+00:50:49.520 --> 00:50:50.160
+ I want to do that.
+
+00:50:50.160 --> 00:50:50.320
+ Yeah.
+
+00:50:50.320 --> 00:50:54.160
+ Well, at first, I wasn't sure if you misunderstood me and your math.
+
+00:50:54.160 --> 00:50:55.200
+ Cloud front is fast.
+
+00:50:55.200 --> 00:50:55.440
+ Yeah.
+
+00:50:55.440 --> 00:50:57.360
+ I thought you were talking about the service being fast.
+
+00:50:57.360 --> 00:50:57.760
+ Yeah.
+
+00:50:57.760 --> 00:51:00.560
+ But like updating a cloud front is 30 minute validations.
+
+00:51:00.560 --> 00:51:00.880
+ Yeah.
+
+00:51:00.880 --> 00:51:03.520
+ So I don't want to get to in the weeds here because people don't care.
+
+00:51:03.520 --> 00:51:04.560
+ But I care.
+
+00:51:04.560 --> 00:51:08.400
+ Cloud formation claims they're slow because they give you all this safety,
+
+00:51:08.400 --> 00:51:11.360
+ this level of like, what's the word?
+
+00:51:11.360 --> 00:51:13.280
+ A Tomonicity or something?
+
+00:51:13.280 --> 00:51:13.840
+ I don't know.
+
+00:51:13.840 --> 00:51:15.440
+ Yeah.
+
+00:51:15.440 --> 00:51:17.840
+ They give you this like ability to roll back safely.
+
+00:51:17.840 --> 00:51:22.160
+ You're saying in Pulumi, you don't lose the ability to roll back safely.
+
+00:51:22.160 --> 00:51:30.000
+ So that claim has already been like, you can already be proved that it's not as intense as it
+
+00:51:30.000 --> 00:51:34.240
+ seems because Terraform has been around forever and Terraform is bigger than CDT.
+
+00:51:34.240 --> 00:51:35.040
+ Yeah, that's true.
+
+00:51:35.040 --> 00:51:37.040
+ It might even be bigger than CloudFormation.
+
+00:51:37.040 --> 00:51:39.360
+ And they don't do all that.
+
+00:51:39.360 --> 00:51:39.680
+ It's fine.
+
+00:51:39.680 --> 00:51:39.840
+ Yeah.
+
+00:51:39.840 --> 00:51:40.560
+ Everyone's fine.
+
+00:51:40.560 --> 00:51:40.960
+ Okay.
+
+00:51:40.960 --> 00:51:45.040
+ I think this stuff is more like, let's say you update an IM policy.
+
+00:51:45.040 --> 00:51:46.000
+ IM is global.
+
+00:51:46.640 --> 00:51:51.040
+ So CloudFormation under the hood, they might ping every single region
+
+00:51:51.040 --> 00:51:54.560
+ and wait for it to have replicated to every single region before they consider it done.
+
+00:51:54.560 --> 00:51:55.200
+ Oh, I see.
+
+00:51:55.200 --> 00:51:58.320
+ So imagine they're pinging every single region.
+
+00:51:58.320 --> 00:52:01.440
+ They're only pinging once every 30 seconds and they're getting rid of it.
+
+00:52:01.440 --> 00:52:02.080
+ Yeah.
+
+00:52:02.080 --> 00:52:06.240
+ So this can might end up cascading into something really slow.
+
+00:52:06.240 --> 00:52:06.240
+ Yeah.
+
+00:52:06.240 --> 00:52:10.400
+ So yeah, I feel like it just doesn't matter for most people.
+
+00:52:10.400 --> 00:52:14.800
+ I don't know why they optimize for that level of consistency.
+
+00:52:14.800 --> 00:52:16.400
+ But and they can never change, right?
+
+00:52:16.400 --> 00:52:17.680
+ CloudFormation is what it knows.
+
+00:52:17.680 --> 00:52:19.040
+ It's never going to change.
+
+00:52:19.040 --> 00:52:19.200
+ Yeah.
+
+00:52:19.200 --> 00:52:20.560
+ Suddenly twice as fast.
+
+00:52:20.560 --> 00:52:21.440
+ Yeah, it's not going to happen.
+
+00:52:21.440 --> 00:52:26.400
+ Unless they give you a toggle to be like you can deploy in fast mode or safe mode.
+
+00:52:26.400 --> 00:52:26.720
+ Mm.
+
+00:52:26.720 --> 00:52:27.200
+ Yeah.
+
+00:52:27.200 --> 00:52:29.040
+ And like do something wildly different.
+
+00:52:29.040 --> 00:52:29.600
+ Speed.
+
+00:52:29.600 --> 00:52:30.320
+ Yeah.
+
+00:52:30.320 --> 00:52:31.760
+ How did we just spend the whole time?
+
+00:52:31.760 --> 00:52:35.600
+ We've been like talking for an hour about all this AWS stuff.
+
+00:52:35.600 --> 00:52:36.960
+ That's not normal for us.
+
+00:52:36.960 --> 00:52:37.760
+ It's not normal.
+
+00:52:37.760 --> 00:52:39.120
+ But I mean, I guess it used to be.
+
+00:52:39.120 --> 00:52:39.200
+ It used to be.
+
+00:52:39.200 --> 00:52:39.760
+ Yeah.
+
+00:52:39.760 --> 00:52:40.880
+ I see.
+
+00:52:40.880 --> 00:52:42.240
+ Well, talk.
+
+00:52:42.240 --> 00:52:42.480
+ Okay.
+
+00:52:42.480 --> 00:52:43.440
+ It's shifting topics.
+
+00:52:43.440 --> 00:52:44.960
+ You're tweeting about there.
+
+00:52:44.960 --> 00:52:46.960
+ You're going to try not being a jerk anymore on Twitter.
+
+00:52:46.960 --> 00:52:47.440
+ Oh, yeah, yeah.
+
+00:52:47.440 --> 00:52:49.760
+ Someone replied being like, hey,
+
+00:52:49.760 --> 00:52:51.520
+ that's FM Adam hit different.
+
+00:52:51.520 --> 00:52:52.720
+ And I'm like, that is really funny.
+
+00:52:52.720 --> 00:52:56.640
+ Oh, yeah, it was very different.
+
+00:52:56.640 --> 00:52:57.600
+ I feel like my Twitter.
+
+00:52:57.600 --> 00:53:02.800
+ I've always sounded like a jerk in writing versus like,
+
+00:53:02.800 --> 00:53:05.520
+ if you meet me in person, like I'm a Midwesterner.
+
+00:53:05.520 --> 00:53:09.040
+ I'm pretty like low conflict.
+
+00:53:09.040 --> 00:53:09.440
+ IQ.
+
+00:53:13.440 --> 00:53:14.480
+ I wasn't going to say IQ.
+
+00:53:14.480 --> 00:53:17.760
+ But I'm not like an intimidating person.
+
+00:53:17.760 --> 00:53:19.280
+ I'm not like, I'm not a jerk.
+
+00:53:19.280 --> 00:53:20.000
+ I'm really not.
+
+00:53:20.000 --> 00:53:22.560
+ But in writing, for some reason,
+
+00:53:22.560 --> 00:53:23.760
+ I always kind of sound like a jerk.
+
+00:53:23.760 --> 00:53:25.040
+ But I feel like over the last year,
+
+00:53:25.040 --> 00:53:28.640
+ I've definitely turned into more of a jerk on the internet.
+
+00:53:28.640 --> 00:53:29.360
+ And I blame you.
+
+00:53:29.360 --> 00:53:29.840
+ I really do.
+
+00:53:29.840 --> 00:53:34.960
+ I started, I started lower casing my tweets just like you.
+
+00:53:34.960 --> 00:53:37.280
+ I stopped using punctuation.
+
+00:53:37.280 --> 00:53:38.400
+ I just looked like a jerk down.
+
+00:53:38.400 --> 00:53:38.880
+ Yeah.
+
+00:53:38.880 --> 00:53:40.720
+ So I'm on reply being like, I don't know.
+
+00:53:40.720 --> 00:53:43.280
+ I thought Adam was nice, but I only have Dax to compare.
+
+00:53:43.440 --> 00:53:45.520
+ So you're nice by comparison.
+
+00:53:45.520 --> 00:53:47.920
+ OK, here's the thing.
+
+00:53:47.920 --> 00:53:54.800
+ I'm not absorbing us at all, but I got to be honest.
+
+00:53:54.800 --> 00:54:00.640
+ Like it is kind of hard to be public and like just constantly
+
+00:54:00.640 --> 00:54:04.560
+ get the kind of replies that we get like every single day.
+
+00:54:04.560 --> 00:54:04.800
+ Yeah.
+
+00:54:04.800 --> 00:54:08.400
+ It definitely has a long term impact to some degree.
+
+00:54:08.400 --> 00:54:08.960
+ It probably does.
+
+00:54:08.960 --> 00:54:11.920
+ And I feel like I care less about what people think
+
+00:54:11.920 --> 00:54:12.880
+ than the average person.
+
+00:54:12.880 --> 00:54:14.320
+ Yeah, even then it's just annoying.
+
+00:54:14.320 --> 00:54:15.360
+ But it's just annoying.
+
+00:54:15.360 --> 00:54:18.880
+ It just like annoys me how many people can have the same bad take.
+
+00:54:18.880 --> 00:54:20.480
+ Not that they're, I don't know.
+
+00:54:20.480 --> 00:54:22.160
+ They could say I have the bad take.
+
+00:54:22.160 --> 00:54:23.920
+ But like so one and four.
+
+00:54:23.920 --> 00:54:25.520
+ It's not even the bad take.
+
+00:54:25.520 --> 00:54:30.400
+ It's like a lot of times they, the thing that is annoying for me
+
+00:54:30.400 --> 00:54:33.360
+ is they read the worst possible interpretation
+
+00:54:33.360 --> 00:54:35.360
+ or the stupidest possible interpretation of what I said.
+
+00:54:35.360 --> 00:54:38.560
+ And reply to that.
+
+00:54:38.560 --> 00:54:42.080
+ And I'm just like, that's just as annoying.
+
+00:54:42.080 --> 00:54:43.920
+ That's what makes me think that everyone's stupid.
+
+00:54:43.920 --> 00:54:45.600
+ Like anytime I see that, I'm like, you're an idiot.
+
+00:54:45.600 --> 00:54:47.680
+ But that's your way of perceiving the world.
+
+00:54:47.680 --> 00:54:50.000
+ Like try to find a dumbest angle of what everyone's saying.
+
+00:54:50.000 --> 00:54:53.840
+ Like that's yeah, you know, over time that just impacts you to some degree.
+
+00:54:53.840 --> 00:54:57.360
+ And I feel like I've dealt with it better at different times in my life.
+
+00:54:57.360 --> 00:55:01.520
+ You know, you know who doesn't get these kind of responses though?
+
+00:55:01.520 --> 00:55:04.080
+ There's people who just post like JavaScript tips and stuff.
+
+00:55:04.080 --> 00:55:04.640
+ That's not true.
+
+00:55:04.640 --> 00:55:05.440
+ Should we just do that?
+
+00:55:05.440 --> 00:55:05.920
+ That's not true.
+
+00:55:05.920 --> 00:55:07.760
+ Is it because we're making claims?
+
+00:55:07.760 --> 00:55:09.360
+ I'm going to stop making claims, I think.
+
+00:55:09.360 --> 00:55:12.880
+ I think it just gets in people's, they get like really irritated
+
+00:55:12.880 --> 00:55:16.880
+ when you make a claim of any kind, like that you know something.
+
+00:55:16.880 --> 00:55:19.600
+ If you're like, I know a thing and you should know it too.
+
+00:55:19.600 --> 00:55:22.160
+ People just get real pissed real fast.
+
+00:55:22.160 --> 00:55:24.000
+ So should we stop doing that?
+
+00:55:24.000 --> 00:55:24.880
+ You're not going to stop doing that.
+
+00:55:24.880 --> 00:55:25.520
+ You're good at it.
+
+00:55:25.520 --> 00:55:27.760
+ And you actually have good things to say.
+
+00:55:27.760 --> 00:55:28.560
+ I'm probably going to stop.
+
+00:55:28.560 --> 00:55:33.280
+ I mean, it's unfortunately, it's just the small minority ruining it for everyone else.
+
+00:55:33.280 --> 00:55:35.440
+ Because let's say I post a tweet.
+
+00:55:35.440 --> 00:55:37.600
+ Let's say he gets like 300 likes.
+
+00:55:37.600 --> 00:55:40.320
+ It probably will have like one or two annoying comments.
+
+00:55:40.320 --> 00:55:42.720
+ That's one or two annoying people of 300 people that
+
+00:55:42.720 --> 00:55:44.720
+ saw the purpose of it.
+
+00:55:44.720 --> 00:55:45.680
+ Oh, that's a good point.
+
+00:55:45.680 --> 00:55:48.240
+ I didn't think about the actual likes, meaning anything.
+
+00:55:48.240 --> 00:55:49.280
+ Yeah, that's a good point.
+
+00:55:49.280 --> 00:55:52.560
+ So it's just a small group of annoying people.
+
+00:55:52.560 --> 00:55:54.640
+ But how can everyone try to be less annoying?
+
+00:55:54.640 --> 00:55:55.360
+ I mean, me too.
+
+00:55:55.360 --> 00:55:56.640
+ I need to be less annoying.
+
+00:55:56.640 --> 00:55:58.480
+ I didn't, but I brought a tweet just the other day.
+
+00:55:58.480 --> 00:55:59.920
+ That I wasn't trying to be abrasive or anything.
+
+00:55:59.920 --> 00:56:02.800
+ I was literally, I was just stating what I feel is a fact.
+
+00:56:02.800 --> 00:56:06.400
+ And the amount of people that think I was doing it for bait.
+
+00:56:06.400 --> 00:56:09.520
+ I've never written a tweet to like bait people.
+
+00:56:09.520 --> 00:56:10.640
+ I don't even know what that means.
+
+00:56:10.640 --> 00:56:14.560
+ Why would I write a tweet to like make people angry?
+
+00:56:14.560 --> 00:56:15.520
+ I don't do that.
+
+00:56:15.520 --> 00:56:18.640
+ I write tweets that express what I think or feel.
+
+00:56:18.640 --> 00:56:22.640
+ And I generally think I'm right as one does.
+
+00:56:22.640 --> 00:56:26.720
+ That doesn't mean I want you to get angry and reply to it.
+
+00:56:26.720 --> 00:56:27.280
+ Like what is that?
+
+00:56:27.280 --> 00:56:28.160
+ Why would I do that?
+
+00:56:28.160 --> 00:56:29.520
+ I don't understand.
+
+00:56:29.520 --> 00:56:33.440
+ I think people confuse the idea of something being provocative and making you think with
+
+00:56:33.440 --> 00:56:37.360
+ something they kind of classify as bait, especially if they don't like it.
+
+00:56:37.360 --> 00:56:40.560
+ But you cannot agree, but it's still provocative.
+
+00:56:40.560 --> 00:56:41.200
+ They cannot agree.
+
+00:56:41.200 --> 00:56:41.440
+ Yeah.
+
+00:56:41.440 --> 00:56:46.080
+ And I don't mind the debates when they're intelligent and not just like,
+
+00:56:46.080 --> 00:56:51.120
+ well, you're just a shit fluency or whatever they want to call you.
+
+00:56:51.120 --> 00:56:53.120
+ Like you're just trying to farm that X money.
+
+00:56:53.120 --> 00:56:55.040
+ Yeah, because we make a lot of money on X.
+
+00:56:55.040 --> 00:56:56.880
+ Do we stop that narrative too?
+
+00:56:56.880 --> 00:56:57.760
+ That's so funny.
+
+00:56:57.760 --> 00:56:59.840
+ Nobody's making a lot of money on X.
+
+00:56:59.840 --> 00:57:00.720
+ It's just so dumb.
+
+00:57:00.720 --> 00:57:05.040
+ And less and less every time, every time my payments have gone down.
+
+00:57:05.040 --> 00:57:10.080
+ Nobody is writing like engagement bait so they can get a check from Twitter.
+
+00:57:10.080 --> 00:57:11.040
+ I promise you.
+
+00:57:11.040 --> 00:57:14.960
+ Well, maybe like the people who have like 20 million followers, maybe they do.
+
+00:57:14.960 --> 00:57:18.880
+ But I promise you, nobody here is able to buy their coffee with their X.
+
+00:57:18.880 --> 00:57:20.080
+ Whatever.
+
+00:57:20.080 --> 00:57:20.560
+ I know.
+
+00:57:20.560 --> 00:57:21.520
+ Yeah, it just doesn't.
+
+00:57:21.520 --> 00:57:22.960
+ It's nice.
+
+00:57:22.960 --> 00:57:27.600
+ It's a nice little thing that shows up, but it really hasn't had zero impact on anything that I do.
+
+00:57:27.600 --> 00:57:28.080
+ Exactly.
+
+00:57:28.080 --> 00:57:30.640
+ If anything, if it had an impact, it's like gone.
+
+00:57:30.640 --> 00:57:32.000
+ I think it had an impact for like two weeks.
+
+00:57:32.000 --> 00:57:33.920
+ And then people were like, yeah, okay.
+
+00:57:33.920 --> 00:57:40.720
+ My favorite thing is I definitely love in terms of there are some annoying replies that it loves.
+
+00:57:40.720 --> 00:57:41.280
+ I will say.
+
+00:57:41.280 --> 00:57:41.600
+ Oh, yeah.
+
+00:57:41.600 --> 00:57:42.560
+ Yeah.
+
+00:57:42.560 --> 00:57:51.040
+ I love when someone explains something to me that is like my main area of expertise.
+
+00:57:51.040 --> 00:57:54.720
+ Like if someone explains to me how like infrastructure is code worked,
+
+00:57:54.720 --> 00:57:59.520
+ like that happens all the time, which I love because I'm just like, this is so good.
+
+00:57:59.520 --> 00:58:00.000
+ Yeah.
+
+00:58:00.000 --> 00:58:05.040
+ Because like it's such an example of someone being so in the wrong and so indisputable.
+
+00:58:05.040 --> 00:58:05.440
+ Yeah.
+
+00:58:05.440 --> 00:58:07.120
+ And whenever I see this, I love that.
+
+00:58:07.120 --> 00:58:07.520
+ Okay.
+
+00:58:07.520 --> 00:58:07.760
+ Yeah.
+
+00:58:07.760 --> 00:58:09.120
+ You see what I have with other people too.
+
+00:58:09.120 --> 00:58:09.760
+ Yeah.
+
+00:58:09.760 --> 00:58:13.440
+ When it's when I know how wrong they are, it is kind of fun.
+
+00:58:13.440 --> 00:58:14.080
+ Yeah.
+
+00:58:14.080 --> 00:58:18.960
+ Like the other day, I forgot who someone from the React team posted on Hacker News,
+
+00:58:18.960 --> 00:58:19.920
+ like in a comment.
+
+00:58:19.920 --> 00:58:23.520
+ And someone was like trying to explain how React worked to them.
+
+00:58:24.720 --> 00:58:24.880
+ Yeah.
+
+00:58:24.880 --> 00:58:26.480
+ And I was like, I love, I love when this happened.
+
+00:58:26.480 --> 00:58:28.000
+ It's like the best thing ever.
+
+00:58:28.000 --> 00:58:30.560
+ Because like that person, it doesn't matter what the details are.
+
+00:58:30.560 --> 00:58:32.800
+ Like when they realize they just know they fucked up.
+
+00:58:32.800 --> 00:58:35.680
+ So yeah, I love those.
+
+00:58:35.680 --> 00:58:39.440
+ There's lots of those like people will screenshot when somebody like tries to
+
+00:58:39.440 --> 00:58:41.440
+ explain something to like the creator of a thing.
+
+00:58:41.440 --> 00:58:48.400
+ I may have read my DMs.
+
+00:58:48.400 --> 00:58:48.960
+ I'm sorry.
+
+00:58:48.960 --> 00:58:51.840
+ I just, I started responding to a DM over podcast.
+
+00:58:51.840 --> 00:58:52.640
+ What does this become?
+
+00:58:53.280 --> 00:58:55.920
+ I need to become a, I need to get professional around here.
+
+00:58:55.920 --> 00:58:58.560
+ This is a, I'm just getting sloppy.
+
+00:58:58.560 --> 00:58:59.920
+ I don't think it's about professionalism.
+
+00:58:59.920 --> 00:59:01.760
+ I think we're all of our brains are just.
+
+00:59:01.760 --> 00:59:03.760
+ They're writing distracted.
+
+00:59:03.760 --> 00:59:05.600
+ In our ability to say focus.
+
+00:59:05.600 --> 00:59:06.480
+ It's really true.
+
+00:59:06.480 --> 00:59:08.000
+ But it's going to get better.
+
+00:59:08.000 --> 00:59:11.040
+ This podcast is about tomorrow and about how things are.
+
+00:59:11.040 --> 00:59:16.240
+ We got, we got 30 more episodes until we hit 100.
+
+00:59:16.240 --> 00:59:17.920
+ Then we give up.
+
+00:59:17.920 --> 00:59:19.920
+ Will it be like my dual lingo streak?
+
+00:59:19.920 --> 00:59:21.440
+ Did I tell you at 100 day streak?
+
+00:59:21.440 --> 00:59:21.920
+ I stopped.
+
+00:59:22.960 --> 00:59:27.680
+ So it's so you, you like just get to a place that is impressive.
+
+00:59:27.680 --> 00:59:30.080
+ And then it just turns off over.
+
+00:59:30.080 --> 00:59:31.840
+ Yeah, but not even impressive.
+
+00:59:31.840 --> 00:59:34.080
+ Like people have like 1500 day streets on dual lingo.
+
+00:59:34.080 --> 00:59:37.760
+ I get to a place that's like the first milestone you could possibly hit.
+
+00:59:37.760 --> 00:59:39.120
+ And then I'm like, well, I did that thing.
+
+00:59:39.120 --> 00:59:39.520
+ Okay.
+
+00:59:39.520 --> 00:59:42.480
+ But here's the thing for most people, I think it's like,
+
+00:59:42.480 --> 00:59:44.880
+ because it's not like you stopped three days in.
+
+00:59:44.880 --> 00:59:46.080
+ You stopped 100 days.
+
+00:59:46.080 --> 00:59:46.640
+ Oh sure.
+
+00:59:46.640 --> 00:59:49.360
+ And it's kind of like for most people, it's like,
+
+00:59:49.360 --> 00:59:52.160
+ well, if I put in all this work, I'm just going to keep continuing it.
+
+00:59:52.160 --> 00:59:53.360
+ But then you just, you just abandon.
+
+00:59:53.360 --> 00:59:54.080
+ You just don't care.
+
+00:59:54.080 --> 00:59:54.640
+ I do.
+
+00:59:54.640 --> 00:59:55.440
+ I just abandon.
+
+00:59:55.440 --> 00:59:56.560
+ But you put in three months.
+
+00:59:56.560 --> 00:59:59.040
+ You put in the average abandoner, but then you still abandon, you know.
+
+00:59:59.040 --> 00:59:59.200
+ Yeah.
+
+00:59:59.200 --> 01:00:01.520
+ No, I do, I do things in three months stints.
+
+01:00:01.520 --> 01:00:04.160
+ It gets three months of my attention.
+
+01:00:04.160 --> 01:00:06.880
+ And then, but look, the podcast, we've been going for a year.
+
+01:00:06.880 --> 01:00:09.760
+ So this is not, this is not dying at 100 episodes.
+
+01:00:09.760 --> 01:00:10.560
+ That's true.
+
+01:00:10.560 --> 01:00:13.360
+ But what I was trying to say is we've got 30 more episodes to get,
+
+01:00:13.360 --> 01:00:14.800
+ you know, good at this stuff.
+
+01:00:14.800 --> 01:00:16.400
+ Like professional.
+
+01:00:16.400 --> 01:00:17.680
+ So we have to be good by 100.
+
+01:00:17.680 --> 01:00:19.680
+ Yeah, we really need to do like some segments or something.
+
+01:00:19.680 --> 01:00:23.600
+ I had some ideas, we could just use chat GPT to get those ideas, right?
+
+01:00:23.600 --> 01:00:24.000
+ I don't know.
+
+01:00:24.000 --> 01:00:27.440
+ I had some like, I thought of a segment.
+
+01:00:27.440 --> 01:00:33.680
+ What's more likely, like two different, like we have to come with some of these
+
+01:00:33.680 --> 01:00:37.200
+ and we do them to each other, like which of these two events,
+
+01:00:37.200 --> 01:00:41.040
+ and they can be totally off the wall and crazy and neither is going to ever happen
+
+01:00:41.040 --> 01:00:43.920
+ or they can be realistic scenarios, but which is more likely to happen.
+
+01:00:43.920 --> 01:00:44.720
+ That'd be fun.
+
+01:00:44.720 --> 01:00:45.280
+ That's cool.
+
+01:00:45.280 --> 01:00:46.240
+ Where'd you get that idea from?
+
+01:00:46.240 --> 01:00:47.680
+ Another podcast.
+
+01:00:47.680 --> 01:00:48.400
+ That's okay.
+
+01:00:48.400 --> 01:00:51.840
+ That was what I was asking was, is this a validated idea?
+
+01:00:51.840 --> 01:00:52.720
+ And it sounds like it is.
+
+01:00:52.720 --> 01:00:53.280
+ Oh, yeah.
+
+01:00:53.280 --> 01:00:53.760
+ No, it is.
+
+01:00:53.760 --> 01:00:55.760
+ They've been doing it for years on this podcast.
+
+01:00:55.760 --> 01:00:57.200
+ It's not related to tech at all.
+
+01:00:57.200 --> 01:00:58.720
+ But that's a good one.
+
+01:00:58.720 --> 01:00:59.920
+ Yeah.
+
+01:00:59.920 --> 01:01:05.680
+ Have you tried the speech mode in chat GPT, the app on your phone?
+
+01:01:05.680 --> 01:01:06.320
+ Yes.
+
+01:01:06.320 --> 01:01:07.600
+ It's so good.
+
+01:01:07.600 --> 01:01:09.200
+ I feel like I'm in the future.
+
+01:01:09.200 --> 01:01:10.560
+ Like the voice is so good.
+
+01:01:10.560 --> 01:01:13.840
+ And because like, chat GPT is so good at speaking, it's.
+
+01:01:13.840 --> 01:01:14.480
+ Yeah.
+
+01:01:14.480 --> 01:01:17.280
+ I really feel like like it felt magical.
+
+01:01:17.280 --> 01:01:18.960
+ I know we're getting there.
+
+01:01:18.960 --> 01:01:21.280
+ The AI stuff is more impressive all the time.
+
+01:01:21.280 --> 01:01:27.600
+ As far as like hype cycles go, this is the first thing that I feel like is actually transformative.
+
+01:01:27.600 --> 01:01:31.040
+ I mean, like people didn't call the mobile revolution a hype cycle, right?
+
+01:01:31.040 --> 01:01:34.160
+ Like everybody switched to phones.
+
+01:01:34.160 --> 01:01:35.600
+ That wasn't a hype cycle, right?
+
+01:01:35.600 --> 01:01:37.520
+ It didn't get puffed up too early.
+
+01:01:37.520 --> 01:01:39.760
+ Is it possible AI is just the next big thing?
+
+01:01:39.760 --> 01:01:43.120
+ Well, I don't remember the phone thing.
+
+01:01:43.120 --> 01:01:48.240
+ I think the phone thing was funny because like nobody thought it was going to be big.
+
+01:01:48.240 --> 01:01:51.040
+ Like nobody thought it was going to be big and it's going to be bigger and bigger.
+
+01:01:51.040 --> 01:01:55.680
+ And I guess it was it before all these networks where no one was able to talk about it.
+
+01:01:55.680 --> 01:01:56.960
+ Yeah, maybe.
+
+01:01:56.960 --> 01:02:00.160
+ Maybe like it was hard to get a hype cycle going.
+
+01:02:00.160 --> 01:02:00.640
+ Yeah.
+
+01:02:00.640 --> 01:02:02.160
+ We had to put it in the newspaper.
+
+01:02:02.160 --> 01:02:03.520
+ Compact Prosarios.
+
+01:02:03.520 --> 01:02:03.760
+ Yeah.
+
+01:02:03.760 --> 01:02:08.080
+ Like Twitter didn't exist.
+
+01:02:08.080 --> 01:02:08.800
+ Yeah, no.
+
+01:02:09.600 --> 01:02:14.480
+ Well, there's something else that GPT, OpenAI did the combined GPT format.
+
+01:02:14.480 --> 01:02:15.360
+ Did you see that?
+
+01:02:15.360 --> 01:02:16.320
+ Yeah, I mean using that.
+
+01:02:16.320 --> 01:02:18.560
+ Yeah, like it's got all of it built in.
+
+01:02:18.560 --> 01:02:21.280
+ You just like, you can just use the one thing.
+
+01:02:21.280 --> 01:02:22.480
+ Pretty cool.
+
+01:02:22.480 --> 01:02:27.600
+ One of my favorite things I like doing is like jailbreaking chat.
+
+01:02:27.600 --> 01:02:28.240
+ It's easy.
+
+01:02:28.240 --> 01:02:32.480
+ Like it's so fun when I like coerce it into doing something it doesn't it doesn't want to.
+
+01:02:32.480 --> 01:02:35.360
+ Like it's like find different angles to like trick it.
+
+01:02:35.360 --> 01:02:38.240
+ I've seen lots of these two examples on the internet.
+
+01:02:39.040 --> 01:02:40.400
+ That's so something you would do.
+
+01:02:40.400 --> 01:02:42.240
+ I keep trying to like give it pictures of me and Liz
+
+01:02:42.240 --> 01:02:45.360
+ and asking it to do like funny things with them and it just refuses.
+
+01:02:45.360 --> 01:02:46.720
+ But you can always get around it.
+
+01:02:46.720 --> 01:02:47.760
+ You spend like five minutes.
+
+01:02:47.760 --> 01:02:48.560
+ You can do it.
+
+01:02:48.560 --> 01:02:49.440
+ You can always trick it.
+
+01:02:49.440 --> 01:02:50.640
+ Okay, fine.
+
+01:02:50.640 --> 01:02:52.560
+ Well, it's never like that.
+
+01:02:52.560 --> 01:02:56.080
+ It's always like it like realizes that it should be doing it.
+
+01:02:56.080 --> 01:02:59.440
+ It's always like it's always like, sorry, you can't do this.
+
+01:02:59.440 --> 01:03:00.320
+ Sorry, can't do this.
+
+01:03:00.320 --> 01:03:01.600
+ And it's like, oh, okay.
+
+01:03:01.600 --> 01:03:03.600
+ What once you break through?
+
+01:03:03.600 --> 01:03:04.240
+ Yeah, of course.
+
+01:03:04.240 --> 01:03:04.720
+ Of course.
+
+01:03:04.720 --> 01:03:06.480
+ In that case.
+
+01:03:06.480 --> 01:03:06.800
+ Yeah.
+
+01:03:07.280 --> 01:03:09.200
+ Very excited to use the voice thing more.
+
+01:03:09.200 --> 01:03:10.480
+ I'm going to play with that more.
+
+01:03:10.480 --> 01:03:16.320
+ I usually try that prompt where you ask it to help you flesh out a story.
+
+01:03:16.320 --> 01:03:17.600
+ Don't give you any suggestions.
+
+01:03:17.600 --> 01:03:21.360
+ Just just help you like work through creating a plot and.
+
+01:03:21.360 --> 01:03:22.240
+ Oh, I've not heard of this.
+
+01:03:22.240 --> 01:03:23.120
+ I'll send you the problem.
+
+01:03:23.120 --> 01:03:25.040
+ So I mean, you go for walks.
+
+01:03:25.040 --> 01:03:26.160
+ So that's actually what they recommended.
+
+01:03:26.160 --> 01:03:27.840
+ They said turn on voice mode.
+
+01:03:27.840 --> 01:03:31.760
+ Put it in your AirPods and then ask it to help you flesh out a story.
+
+01:03:31.760 --> 01:03:33.360
+ And you can just talk back and forth with it.
+
+01:03:33.360 --> 01:03:36.720
+ And then it'll like, you know, you'll do like this whole narrative with it.
+
+01:03:36.720 --> 01:03:37.600
+ And it's pretty fun.
+
+01:03:37.600 --> 01:03:39.920
+ That sounds entertaining.
+
+01:03:39.920 --> 01:03:40.640
+ Yeah.
+
+01:03:40.640 --> 01:03:42.080
+ Your video is off again.
+
+01:03:42.080 --> 01:03:45.920
+ So like, I can't see your facial expressions with your words.
+
+01:03:45.920 --> 01:03:47.360
+ Sounds like a problem.
+
+01:03:47.360 --> 01:03:48.960
+ It probably is a new problem.
+
+01:03:48.960 --> 01:03:53.600
+ What is a me problem is it's over an hour and I do need to get off here.
+
+01:03:53.600 --> 01:03:53.920
+ Yeah.
+
+01:03:53.920 --> 01:03:56.400
+ That made me sound like I'm the busy pretentious one.
+
+01:03:56.400 --> 01:03:58.240
+ I'm not any more busy than you.
+
+01:03:58.240 --> 01:04:02.320
+ So I think I think you're the approach of saying you need to pee whether or not.
+
+01:04:02.320 --> 01:04:03.040
+ It's true.
+
+01:04:03.040 --> 01:04:04.000
+ I think that's a good approach.
+
+01:04:04.000 --> 01:04:04.320
+ Oh, no, I don't.
+
+01:04:04.320 --> 01:04:05.200
+ That's incredible.
+
+01:04:05.200 --> 01:04:07.440
+ You're saying I should, yeah, oh, I got to pee again.
+
+01:04:07.440 --> 01:04:07.840
+ Yeah.
+
+01:04:07.840 --> 01:04:11.360
+ And people will know it's only 15 minutes and they'll like call my doctor.
+
+01:04:11.360 --> 01:04:12.240
+ I feel like I've seen you pee.
+
+01:04:12.240 --> 01:04:14.720
+ You need to pee twice within an hour at least.
+
+01:04:14.720 --> 01:04:15.440
+ Definitely happened.
+
+01:04:15.440 --> 01:04:17.360
+ If there's caffeine involved, like you reinvent.
+
+01:04:17.360 --> 01:04:18.320
+ Yeah, you would have seen that.
+
+01:04:18.320 --> 01:04:21.760
+ Okay.
+
+01:04:21.760 --> 01:04:22.960
+ All right.
+
+01:04:22.960 --> 01:04:23.360
+ All right.
+
+01:04:23.360 --> 01:04:24.480
+ It's been good.
+
+01:04:24.480 --> 01:04:24.800
+ Thanks.
+
+01:04:24.800 --> 01:04:25.360
+ Thanks.
+
+01:04:25.360 --> 01:04:25.680
+ See you.
+
+01:04:25.680 --> 01:04:26.800
+ See you.
+
+01:04:35.200 --> 01:04:42.480
+ [Music]
+

@@ -1,0 +1,2312 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.060
+ Well, I finally figured out that link doesn't change so it's just the same link every time okay the past 45 episodes the process has been
+
+00:00:07.060 --> 00:00:12.720
+ I get on and I wait for you to DM me the link and I haven't noticed in 45 times
+
+00:00:12.720 --> 00:00:21.200
+ And today I figured it out cool so you can just bookmark that thing
+
+00:00:21.200 --> 00:00:25.560
+ Just show up. That's one less step. I don't have to copy the link and send it to you now
+
+00:00:25.560 --> 00:00:28.980
+ I love that actually we're gonna be so much more efficient now. Oh look at us
+
+00:00:29.240 --> 00:00:32.680
+ I'll have more time to talk about such interesting topics such as
+
+00:00:56.680 --> 00:00:58.680
+ Astro
+
+00:00:58.680 --> 00:01:04.480
+ That's a great one actually yeah, I was just wondering if you had thought about what we talked about cuz I have not well
+
+00:01:04.480 --> 00:01:10.000
+ Share share what yours tell me more about what you're thinking and exploring
+
+00:01:10.000 --> 00:01:15.060
+ yeah, so I mean been using Astro a lot and SST and
+
+00:01:15.060 --> 00:01:23.880
+ There's just there's some features that Astro they're moving fast over there - yeah, and you guys you guys are also moving fast
+
+00:01:23.880 --> 00:01:30.840
+ But you have a lot of different things you worry about that are not just Astro. Yeah, so I think it hit me this week that like
+
+00:01:30.840 --> 00:01:34.160
+ I'm in a good position to push some stuff
+
+00:01:34.160 --> 00:01:37.160
+ Because I care about this stuff. It's in my critical path
+
+00:01:37.160 --> 00:01:43.360
+ Yes, so Astro you pointed out just this morning has already launched the code splitting stuff. So instead of
+
+00:01:43.360 --> 00:01:48.200
+ Astro shipping your astro side is one big function
+
+00:01:48.600 --> 00:01:57.840
+ Now you can split it up by page by route or whatever and that means there are cool opportunities now in it and at an SST
+
+00:01:57.840 --> 00:02:05.440
+ To take advantage of that and bust it out into separate functions. So that's cool. Also lambda has streaming now
+
+00:02:05.440 --> 00:02:08.640
+ That's been a while I guess but
+
+00:02:08.640 --> 00:02:13.680
+ That's some low-hanging fruit that I'd love to add cuz Astro supports streaming. So
+
+00:02:14.360 --> 00:02:21.200
+ SST post Astro streaming on lambda. It's like all these little things that I feel like just chipping away at these people who are like
+
+00:02:21.200 --> 00:02:24.120
+ Look how awesome our thing is I'm gonna name names
+
+00:02:24.120 --> 00:02:26.880
+ We do streaming and stuff
+
+00:02:26.880 --> 00:02:32.240
+ Yeah, well, so do we over here in Astro land and SST land
+
+00:02:32.240 --> 00:02:38.400
+ Well, it's the other thing. There's one other thing you said streaming code splitting and
+
+00:02:41.000 --> 00:02:49.400
+ It's a good day. Oh redirects. Yes redirects. Yeah, so to Astro two dot nine has this redirect config where you can
+
+00:02:49.400 --> 00:02:51.400
+ It's looks all like next to us where you can configure
+
+00:02:51.400 --> 00:02:53.000
+ redirects
+
+00:02:53.000 --> 00:02:58.840
+ Which is a lot better than just creating files that have like the fences and a redirect
+
+00:02:58.840 --> 00:03:02.600
+ Yeah, what we have right now a bunch of files for every single redirect we want
+
+00:03:02.600 --> 00:03:06.840
+ We can move that into this config. So yeah, there's another opportunity
+
+00:03:06.840 --> 00:03:08.800
+ There's just like these three little low-hanging fruit
+
+00:03:08.800 --> 00:03:14.160
+ I feel like I could come in and just like boom one PR. Maybe three PR's. I don't know whatever you think
+
+00:03:14.160 --> 00:03:19.960
+ Hit all this stuff at once. Yeah, I mean, this is exactly the model that we're aiming for
+
+00:03:19.960 --> 00:03:26.720
+ We can get the initial thing working, but because we're not heavy users of any of these frameworks
+
+00:03:26.720 --> 00:03:29.200
+ we can only
+
+00:03:29.200 --> 00:03:35.800
+ Like it's just not aligned like we can't yeah do it as well as someone actually using it is so this is exactly what we hope for that
+
+00:03:36.240 --> 00:03:39.800
+ There eventually is someone that is really motivated to get this stuff working
+
+00:03:39.800 --> 00:03:43.760
+ And then they get working for themselves and in that process for everyone else
+
+00:03:43.760 --> 00:03:47.280
+ And I think that's why like this is a great example of a place where
+
+00:03:47.280 --> 00:03:53.360
+ It's just a crazy advantage for this kind of thing to be open source if you look at
+
+00:03:53.360 --> 00:04:00.440
+ Like equivalent plates to host this like for sale or netlify or whatever whenever whenever Astro releases a new feature
+
+00:04:00.440 --> 00:04:04.960
+ Suddenly some p.m. On their team is like, oh, no, like we got to support this
+
+00:04:04.960 --> 00:04:06.960
+ Like where do we fit this in the road map?
+
+00:04:06.960 --> 00:04:09.200
+ other people
+
+00:04:09.200 --> 00:04:13.960
+ Building iterating on their framework just creates work for them that they directly have to solve and they might
+
+00:04:13.960 --> 00:04:17.080
+ They're the same problem as us. They might internally not be heavy users of these things
+
+00:04:17.080 --> 00:04:22.560
+ So they might not even know about these features and they probably don't even hear about it till someone expects to work, etc
+
+00:04:22.560 --> 00:04:28.800
+ So yeah, this is exactly exactly what we want. So definitely excited for you to try that the one thing I'll point out though is
+
+00:04:28.800 --> 00:04:32.400
+ I'm not smart enough. Sorry jumping jumping ahead
+
+00:04:34.120 --> 00:04:39.140
+ Oh, something else you're not supposed to do the insults for me. That's that's taking away
+
+00:04:39.140 --> 00:04:48.080
+ But rely on the insult you you don't need it. Oh, I'll wait for it. Yeah, the route-splitting thing
+
+00:04:48.080 --> 00:04:51.520
+ So just a for the audience just to explain what it is again
+
+00:04:51.520 --> 00:04:57.040
+ Right now. I totally know go ahead. I do think you know
+
+00:05:04.120 --> 00:05:06.120
+ Okay
+
+00:05:06.120 --> 00:05:15.480
+ So right now Asha shifts is a single function which is fine for most situations
+
+00:05:15.480 --> 00:05:18.200
+ But as your application gets larger with lots of dependencies
+
+00:05:18.200 --> 00:05:23.680
+ It's just a lot to put into a single function so they announced they launched code splitting which actually didn't even notice
+
+00:05:23.680 --> 00:05:25.160
+ I've been like
+
+00:05:25.160 --> 00:05:27.160
+ eager for that feature
+
+00:05:27.160 --> 00:05:32.600
+ But yeah, it seems like they launched it and I missed it. So now it can split one
+
+00:05:33.520 --> 00:05:35.520
+ Bundle per route
+
+00:05:35.520 --> 00:05:39.600
+ So you can deploy a separate functions the issue that though is
+
+00:05:39.600 --> 00:05:42.840
+ Cloudfront by default only allows
+
+00:05:42.840 --> 00:05:45.560
+ 10 behaviors per distribution
+
+00:05:45.560 --> 00:05:51.840
+ 25 was it 25? Okay. Yeah, I just had it raised to 50. That's how I know guys an ask
+
+00:05:51.840 --> 00:05:55.680
+ So one you can get it raised and two was the amount they raised it enough for you
+
+00:05:55.680 --> 00:06:01.320
+ It what well not when we had the redirects and somehow the redirects did create more behaviors
+
+00:06:01.320 --> 00:06:06.840
+ I didn't look at them closely, but it was still we were still hit in the limit and then we had to cut the redirects out
+
+00:06:06.840 --> 00:06:12.760
+ Okay, but so ignoring the redirect just a normal route splitting for the number of pages you have is 50 enough
+
+00:06:12.760 --> 00:06:19.080
+ So it's it's not even just a page is it's like every file in your public every file in the root of your public directory
+
+00:06:19.080 --> 00:06:22.280
+ So all the static assets you want to ship if you got images or fonts or whatever
+
+00:06:22.280 --> 00:06:29.480
+ All of those the top level so like if you have individual files in that public directory each of those gets its own cash behavior
+
+00:06:29.480 --> 00:06:34.720
+ So it blows up really fast and then folders also like you could put everything in a subfolder within public
+
+00:06:34.720 --> 00:06:38.880
+ And it's just one cash behavior. Just the nature of the way. It's it's a Cloudfront thing
+
+00:06:38.880 --> 00:06:42.280
+ It's stupid. I never really thought about this that hard until I ran into this
+
+00:06:42.280 --> 00:06:46.000
+ But like you can't define a path. That's like some complicated glob
+
+00:06:46.000 --> 00:06:49.160
+ Where it can handle like Regex style like
+
+00:06:49.160 --> 00:06:56.480
+ If it ends in these it's like every if you want to have like an extension like every PNG and JPEG and and GIF or whatever
+
+00:06:57.080 --> 00:06:59.800
+ You've got to do like separate behaviors for each of those
+
+00:06:59.800 --> 00:07:05.360
+ So it does it blows out really fast way, but why why do static assets need to be split in that way?
+
+00:07:05.360 --> 00:07:10.680
+ Are they all served under the same policy? I have not actually looked at the behaviors that
+
+00:07:10.680 --> 00:07:16.640
+ SST is deploying into my my Cloudfront distro. I haven't looked down that closely, but I thought I assumed
+
+00:07:16.640 --> 00:07:21.440
+ That's what it was. I read something I thought in the SST docs even that said
+
+00:07:21.440 --> 00:07:25.840
+ The number it was like a little warning that like the number of files in your public directory
+
+00:07:26.680 --> 00:07:29.900
+ Well, you'll you'll hit this cache behavior. Oh in the public
+
+00:07:29.900 --> 00:07:34.200
+ Okay, okay in the public so static assets that you you serve
+
+00:07:34.200 --> 00:07:37.320
+ I guess those just get put in the bucket and exposed directly
+
+00:07:37.320 --> 00:07:42.960
+ And not going to like the Astro node server the clean way to limit the number of behaviors
+
+00:07:42.960 --> 00:07:46.880
+ You need is you make a subfolder for all like assets, right?
+
+00:07:46.880 --> 00:07:49.880
+ So if you do like assets slash all of your stuff
+
+00:07:49.880 --> 00:07:55.020
+ That's one behavior that applies to all your static assets because a pattern can just be
+
+00:07:55.520 --> 00:08:03.360
+ Yeah, that's yeah, but if you have a bunch of random files in the roots of the public folder then there's no like
+
+00:08:03.360 --> 00:08:07.800
+ Clean way to specify a pattern. So
+
+00:08:07.800 --> 00:08:12.320
+ Yeah, that might be why and that's that that is kind of annoying
+
+00:08:12.320 --> 00:08:16.400
+ We we moved them around like we had them all in the root and then we realized yeah
+
+00:08:16.400 --> 00:08:17.760
+ We just put them all in sub folders
+
+00:08:17.760 --> 00:08:22.240
+ We already had a bunch of sub folders too and each of those get the cache behavior. So initially, yeah
+
+00:08:22.240 --> 00:08:26.000
+ We blew past the 20 or 25 whatever it was saying. Yeah, I wonder yeah
+
+00:08:26.000 --> 00:08:31.200
+ You might be able to come up with just like a better way to think about some of this stuff as you like as you go through it
+
+00:08:31.200 --> 00:08:38.640
+ But yeah, so I was actually just referring to the stuff that actually needs SSR. So each SSR route
+
+00:08:38.640 --> 00:08:46.040
+ Like even then like are you under 50? Are you sure the each so each route actually gets a new cache behavior?
+
+00:08:46.040 --> 00:08:51.160
+ Are you sure no those all just like hit the default behavior and they flow through to the Astro node server, right?
+
+00:08:51.240 --> 00:08:57.240
+ Well, then that then they would all go to the same function. Oh, you're saying in this new world was splitting. Yeah
+
+00:08:57.240 --> 00:09:02.680
+ Yeah, oh, I hadn't thought about it. That's what that's what that's what's up. Yeah. Oh interesting
+
+00:09:02.680 --> 00:09:07.640
+ Yeah, it's so cloud front routing is the function. Here's an annoying thing. So I
+
+00:09:07.640 --> 00:09:15.320
+ Think for the first bit cloud front routing my house. So again, just to clarify. We're getting it's a lot of details here
+
+00:09:15.320 --> 00:09:17.320
+ But yeah, someone finds it interesting
+
+00:09:17.320 --> 00:09:20.720
+ So on the cloud front team is like this is good. Yeah
+
+00:09:22.240 --> 00:09:27.680
+ Cloud front is something called cloud front functions. These functions can run for one millisecond. That's their limits their runtime limit
+
+00:09:27.680 --> 00:09:34.200
+ They're just meant for like quick logic and they can kind of when a request comes in they can change certain properties
+
+00:09:34.200 --> 00:09:39.680
+ What was the limit? How many milliseconds one millisecond? Oh, yeah, no, and it's not even a dollar script
+
+00:09:39.680 --> 00:09:44.360
+ It's like or like a extremely limited subset. It's like an embedded scripting language
+
+00:09:44.360 --> 00:09:47.400
+ I can put into your CDN to change what happens when a request comes in
+
+00:09:48.720 --> 00:09:53.760
+ They can't change the origin that it goes to so if they could change the origin
+
+00:09:53.760 --> 00:10:00.520
+ I could basically build a router there that just says okay this request goes to this function URL this request goes another function URL, etc
+
+00:10:00.520 --> 00:10:03.600
+ But it doesn't do that
+
+00:10:03.600 --> 00:10:07.040
+ Unfortunately, you can't even do the redirects in my mind
+
+00:10:07.040 --> 00:10:12.240
+ I think you can't change the origin but with the redirect you're not changing the origin you're changing the path
+
+00:10:12.240 --> 00:10:14.760
+ That's a good URL path in the origin. Oh, yeah, okay
+
+00:10:14.760 --> 00:10:20.240
+ Yeah, it's somewhere right away with a 302 or whatever it is or whatever it is. So yeah, okay do that
+
+00:10:20.240 --> 00:10:26.920
+ So it's just a weird limitation there. So so what's the answer Dax just graze your limit of cache behaviors
+
+00:10:26.920 --> 00:10:32.440
+ I mean it comes with the it comes with the performance implication right like those cache behaviors the more of them
+
+00:10:32.440 --> 00:10:38.680
+ Presumably that's like hurting performance by itself, right? That's what the cloud front like
+
+00:10:38.680 --> 00:10:42.080
+ Docs seem to suggest really it's like yeah
+
+00:10:42.080 --> 00:10:45.720
+ It's like don't raise this limit too high like you can increase it
+
+00:10:45.720 --> 00:10:51.120
+ But like there's a real world cost to that and I guess that makes sense well cuz like the
+
+00:10:51.120 --> 00:10:54.360
+ routing pattern matching is like a whole deep
+
+00:10:54.360 --> 00:11:00.760
+ Like world of making that really efficient. So I imagine and people always complain like people like I know
+
+00:11:00.760 --> 00:11:04.920
+ Jared from bun always complains about like cuz he got into like implementing that for bun
+
+00:11:04.920 --> 00:11:09.960
+ He's always like oh these certain features like certain vlog card feature like blows up
+
+00:11:10.800 --> 00:11:13.160
+ The performance of certain things. Yeah, I
+
+00:11:13.160 --> 00:11:18.240
+ Don't know if there's like that much of a I think from like the micro optimization standpoint
+
+00:11:18.240 --> 00:11:20.920
+ Like they're probably for those people if it's like but not a huge
+
+00:11:20.920 --> 00:11:26.240
+ Worse what certain features, but I would be surprised if like you felt it as a one
+
+00:11:26.240 --> 00:11:28.160
+ So maybe this needs to be a higher default limit
+
+00:11:28.160 --> 00:11:33.600
+ I actually have the ear of someone at on the cloud front team who's in my DMS right now and was asking for some feedback
+
+00:11:33.600 --> 00:11:39.720
+ So I might suggest hey, maybe that limit could be a hundred by default. What are the real world applications?
+
+00:11:39.720 --> 00:11:44.680
+ Yeah, so we were asking for that as success in the same thing because because of that, but yeah
+
+00:11:44.680 --> 00:11:50.200
+ I'm wondering if there's like some clever way to structure your astro project that limits the need for this
+
+00:11:50.200 --> 00:11:54.320
+ I also wonder like with route splitting
+
+00:11:54.320 --> 00:11:58.800
+ Your performance might be worse because there's just more cold starts overall
+
+00:11:58.800 --> 00:12:03.560
+ So you have to really understand whether we're splitting if it lowers each of your functions by like 10%
+
+00:12:03.560 --> 00:12:07.960
+ In size it's probably not worth it if it lowers the right like a lot then it's may worth it
+
+00:12:07.960 --> 00:12:12.160
+ So it's got to be like you've got a really heavy dependency on one certain route
+
+00:12:12.160 --> 00:12:18.000
+ Yeah, and it might make sense just to split that that one route out and that we do that what we were thinking that in the
+
+00:12:18.000 --> 00:12:24.040
+ SST adapter for astro you could potentially specify what you actually want split
+
+00:12:24.040 --> 00:12:31.440
+ Deeply into that again just because this is all theoretical for me. I'm not actually building yeah anything with us
+
+00:12:31.440 --> 00:12:33.520
+ Yeah, cuz you could still well
+
+00:12:33.520 --> 00:12:40.220
+ I guess assuming astro in the build process when you build with splitting turned on assuming they still give you the original like
+
+00:12:40.220 --> 00:12:48.560
+ Fat function then you could SST could opt in to some of the new functions. You know I'm saying yeah, I don't exactly I don't it's
+
+00:12:48.560 --> 00:12:54.520
+ There's a question of can you do this from the adapter like is actually give you everything you need to do it from the adapter?
+
+00:12:54.520 --> 00:12:56.520
+ It might it might not so
+
+00:12:56.520 --> 00:13:02.060
+ Yeah, I mean you can also rebuild oh you can like build your own like router
+
+00:13:04.080 --> 00:13:09.480
+ Bundle up the multiple functions. Wow. Yeah. Yeah, we're getting really in the weeds here
+
+00:13:09.480 --> 00:13:13.740
+ This our audience for this is like Fred and someone from the cloud front
+
+00:13:13.740 --> 00:13:23.680
+ I heard you're talking to the astro team tomorrow. I heard you're coming too. Yeah, I'm gonna be there listening not that guy
+
+00:13:23.680 --> 00:13:31.680
+ I have two meetings with them tomorrow, isn't that crazy. Oh wow look at you
+
+00:13:31.680 --> 00:13:36.480
+ Yeah, it's becoming part of the astro core team. Let's just make you an honorary member of the team
+
+00:13:36.480 --> 00:13:43.100
+ Yeah, it's like I again just I never have I never have meetings and I had
+
+00:13:43.100 --> 00:13:50.200
+ Like three meetings in one day the other day. Oh geez. It's Friday. You got your Sunday meetings. I'm toxic
+
+00:13:50.200 --> 00:13:54.520
+ It's like it's like a
+
+00:13:54.520 --> 00:14:01.160
+ To me, I think of it as I'm kind of like blood sacrifice like I do a blood sacrifice where I do one meeting on Sunday for
+
+00:14:01.160 --> 00:14:05.020
+ No meetings the rest of the week. Oh, that's a good idea. Yeah, it's worth that
+
+00:14:05.020 --> 00:14:11.320
+ But then you actually have a lot of meetings. Sorry. Yeah occasionally very rarely my it was just like all external people
+
+00:14:11.320 --> 00:14:14.480
+ My previous role I
+
+00:14:14.480 --> 00:14:21.360
+ Had minimum three hours of meetings every single day daily. Yeah
+
+00:14:21.360 --> 00:14:28.680
+ I mean, I've been I've been at places where it's the meeting culture. There's a lot of that. Yeah, I had nothing else to do
+
+00:14:29.080 --> 00:14:31.920
+ How does that not died yet? Like how is that not like?
+
+00:14:31.920 --> 00:14:37.320
+ These companies that like half your days and meetings and you're like an icy like you're contributing code
+
+00:14:37.320 --> 00:14:44.400
+ How how does anyone think that's a good idea? I don't understand how that's not at that company. Like I was okay
+
+00:14:44.400 --> 00:14:48.000
+ I wrote zero code. I wrote like basically zero code. Yeah
+
+00:14:48.000 --> 00:14:51.560
+ so half my day was meetings which I think for a
+
+00:14:51.560 --> 00:14:56.240
+ Manager of entirely and purely management role. Yeah, that makes more sense
+
+00:14:56.240 --> 00:15:01.160
+ I guess not terrible you're in one-on-ones and you're in well. I don't know what your role was. Yeah
+
+00:15:01.160 --> 00:15:03.620
+ Yeah, so I'm director basically one-on-one roles
+
+00:15:03.620 --> 00:15:12.640
+ Well, I'm on one meetings with everyone on my team every week. Yeah, I was spread them around those are fun leadership meetings
+
+00:15:12.640 --> 00:15:19.460
+ The one one's are fun because it just like getting a fuck around with people. Yeah, so those are not bad
+
+00:15:19.460 --> 00:15:24.440
+ Lower pressure. Yeah, and then they were the other kinds of meetings also much more active though
+
+00:15:24.520 --> 00:15:30.140
+ Sorry, like you can't just like chill and do your work while you're on those calls. Yes, actually having you talk
+
+00:15:30.140 --> 00:15:34.140
+ Yeah, to be honest. I think almost all my meetings were fairly active
+
+00:15:34.140 --> 00:15:38.960
+ Because again, it's only worth that I did so I was not a director so
+
+00:15:38.960 --> 00:15:45.120
+ My meetings were mostly coding and half listening kind of listening
+
+00:15:45.120 --> 00:15:51.360
+ Yeah, and then they're like, what do you think Adam or did you want to a story point this one? Like I do not actually
+
+00:15:52.440 --> 00:15:57.080
+ Let's go five probably like five. I don't know roughly five story points, please
+
+00:15:57.080 --> 00:16:01.720
+ Yeah, then the other category meeting was
+
+00:16:01.720 --> 00:16:08.080
+ And this was what I was fantastic and this is why I think it was good at this role it was
+
+00:16:08.080 --> 00:16:11.600
+ meeting with other
+
+00:16:11.600 --> 00:16:15.040
+ people that led other departments and making them feel like
+
+00:16:15.040 --> 00:16:18.920
+ Okay, engineering knows what they're doing even though everything is going wrong
+
+00:16:19.560 --> 00:16:24.520
+ Just just like making one feel positive and confident and like yeah. Oh, yeah, like totally like
+
+00:16:24.520 --> 00:16:27.280
+ Too by the way, yeah
+
+00:16:27.280 --> 00:16:29.680
+ Yeah, that's that's mostly your job
+
+00:16:29.680 --> 00:16:39.760
+ Going fine. Yeah, no matter where competent. We know what we're doing. Yeah, I mean like manifesting to reality because like oh
+
+00:16:39.760 --> 00:16:43.120
+ Yeah, when people stop feeling that way they start
+
+00:16:43.120 --> 00:16:48.320
+ To need to stick their fingers into stuff and that makes stuff go even worse
+
+00:16:48.760 --> 00:16:55.240
+ But yeah, there's there's a reason for it. Can I ask you a question on the record like you deal with all these?
+
+00:16:55.240 --> 00:16:57.960
+ Web frameworks Astro
+
+00:16:57.960 --> 00:16:59.760
+ next JS
+
+00:16:59.760 --> 00:17:02.680
+ Solid start smelt kit, whatever you guys support them all
+
+00:17:02.680 --> 00:17:07.680
+ And you deal with all those people a lot of external meetings. I hear do you have a favorite?
+
+00:17:07.680 --> 00:17:11.400
+ Who's your favorite like who do you like working with the most like building with?
+
+00:17:11.400 --> 00:17:15.480
+ Yeah, like just like as a team like you really like interacting with that team. They're great
+
+00:17:15.800 --> 00:17:23.680
+ It's probably gonna be Astro mostly because they are the ones that actually have a company behind it. So there's there's like
+
+00:17:23.680 --> 00:17:31.120
+ Like that's everyone's day-to-day job. That's the thing that they're focused on so it's very easy just on a base level
+
+00:17:31.120 --> 00:17:37.640
+ It's very easy to work with them because we're also working on it as like a real job. Yeah, that's your job. Yeah. Yeah, so it's like a very
+
+00:17:37.640 --> 00:17:44.680
+ Clean collaboration and beyond that. They're just personally all great like always really excited to help. Yeah. Yeah, it doesn't really
+
+00:17:44.680 --> 00:17:49.640
+ Why yeah, why do you hate next year's? Why do you hate those people so much? We don't even wish them
+
+00:17:49.640 --> 00:17:57.400
+ You don't open next you just kind of do your own thing. I mean we'd like to but it's just oh, well, let's put the word out
+
+00:17:57.400 --> 00:18:03.800
+ I'm sure somebody one of them someone who works at Vercel has heard this podcast. We've had like episodes titled Vercel
+
+00:18:03.800 --> 00:18:10.920
+ I'm sure someone in our listenership works there and if you know, this is a solid branch Dax is reaching out
+
+00:18:10.920 --> 00:18:14.760
+ They'd like to work with you. It's not our branch. It's actually something. Oh, it's not our branch
+
+00:18:14.760 --> 00:18:19.320
+ It is please take this project off of our hands and just do it instead of us
+
+00:18:19.320 --> 00:18:25.320
+ Please just do it. Please like just take it like we don't want this project you take it you take it
+
+00:18:25.320 --> 00:18:31.640
+ I mean that would they take would they take open next or would they are you saying like they should open source the equivalent of open next
+
+00:18:31.640 --> 00:18:34.760
+ Is that what you're saying?
+
+00:18:34.760 --> 00:18:42.680
+ Or no take over open next and just make it for me just conceptually make it so that open next doesn't need to exist or needs to exist less
+
+00:18:42.680 --> 00:18:46.600
+ Yes, I got you our relationship with every other framework is pretty different
+
+00:18:46.600 --> 00:18:48.600
+ And we do very little in the adapter
+
+00:18:48.600 --> 00:18:52.520
+ We do like a little bit of work in the adapter and we just get at working at WS what next JS
+
+00:18:52.520 --> 00:18:58.360
+ It's like and the thing I always say is if you combine our efforts on every other framework and combine altogether
+
+00:18:58.360 --> 00:19:01.880
+ It's still a fraction of the amount of time we spend on next year's so yeah
+
+00:19:02.680 --> 00:19:07.080
+ It just it's just pretty different. I mean it's telling that like you look at the sst organization and github
+
+00:19:07.080 --> 00:19:09.720
+ And you guys have the sst repo which has like
+
+00:19:09.720 --> 00:19:14.360
+ Astro sst and all the adapters for all the other ones and then open next is a separate repo
+
+00:19:14.360 --> 00:19:17.640
+ Yeah, it's like a whole big thing the separate repo. I never look at
+
+00:19:17.640 --> 00:19:23.000
+ I never never get this is a frank does frank live in there. Yeah, frank guys
+
+00:19:23.000 --> 00:19:28.920
+ He dies and then we have to facilitate him and he comes back and we send him back in there
+
+00:19:28.920 --> 00:19:32.360
+ Yeah, it's very aware of all that
+
+00:19:32.680 --> 00:19:34.760
+ Astro's the one that we've worked the most with I think
+
+00:19:34.760 --> 00:19:38.760
+ the other frameworks also everyone has been really just everyone's like really
+
+00:19:38.760 --> 00:19:43.160
+ Good to work with I think this is my one of my favorite parts about open source
+
+00:19:43.160 --> 00:19:45.800
+ It's when and I talk about this all the time where
+
+00:19:45.800 --> 00:19:51.640
+ It's not meant to be like random people submitting pr's that you don't know like that's that happens
+
+00:19:51.640 --> 00:19:56.040
+ And that's fine. Yeah, but the best part of it is when you like establish a relationship
+
+00:19:56.040 --> 00:20:00.200
+ And then you can kind of work really efficiently together because you both know each other and everyone
+
+00:20:00.200 --> 00:20:03.160
+ Like each other it works well together and it's a lot more streamlined than just
+
+00:20:03.160 --> 00:20:09.080
+ Submitting a pr out into the void. Yeah, so we've gone to that place with like with the solid team
+
+00:20:09.080 --> 00:20:11.960
+ Of course, uh, and and I mean even with a
+
+00:20:11.960 --> 00:20:16.680
+ Svelte kit, uh, like rich Harris is like been taught like reply to our pr's and everything
+
+00:20:16.680 --> 00:20:21.800
+ So it's nice to salvage your relationships because whenever we need something we're not going through like
+
+00:20:21.800 --> 00:20:26.280
+ Random person door. We're going through that. We have a relationship with you door
+
+00:20:26.280 --> 00:20:28.520
+ That's like kind of through us out in a faster way
+
+00:20:29.080 --> 00:20:35.640
+ So yeah pretty much every every other framework we have that with uh, how hard is it for like a just like a product company
+
+00:20:35.640 --> 00:20:40.920
+ Just like company that makes some product and has a bunch of customers or users or whatever
+
+00:20:40.920 --> 00:20:44.120
+ Is it hard to sort of adopt an open source?
+
+00:20:44.120 --> 00:20:46.920
+ mantra where you're gonna like
+
+00:20:46.920 --> 00:20:49.320
+ make your stuff open and and
+
+00:20:49.320 --> 00:20:52.920
+ Available for people who are passionate about the product
+
+00:20:52.920 --> 00:20:57.480
+ To contribute because you just said like not about like random people submitting pr's
+
+00:20:57.560 --> 00:21:01.560
+ What if it would only be random people because there's no one really aligned that cares about your product
+
+00:21:01.560 --> 00:21:05.000
+ You're kind of like you're like an edge of the graph. You're not like
+
+00:21:05.000 --> 00:21:11.320
+ You know sst. Yeah, show you guys are like in the middle of that graph. Yeah, if you're like building products for specific things
+
+00:21:11.320 --> 00:21:15.160
+ You know what i'm saying? You know i'm getting at theoretically. Yeah, I think uh, yeah
+
+00:21:15.160 --> 00:21:17.240
+ I don't think that really works and even within sst
+
+00:21:17.240 --> 00:21:20.040
+ We have portions of it that are like that like the core of sst
+
+00:21:20.040 --> 00:21:24.440
+ We don't accept any contributions to because it's very unlikely that some person is gonna
+
+00:21:25.160 --> 00:21:27.800
+ Get on the same page with us and like know exactly where we're trying to go
+
+00:21:27.800 --> 00:21:33.000
+ Yeah, uh, if you look at the console, which is a very typical sass product
+
+00:21:33.000 --> 00:21:35.800
+ It is open source
+
+00:21:35.800 --> 00:21:39.240
+ Extremely unlikely that we're ever gonna get a meaningful contribution on that
+
+00:21:39.240 --> 00:21:43.960
+ Yeah, because there's just so much like you have to be aligned with like the way we think about product the way we design things
+
+00:21:43.960 --> 00:21:45.480
+ The way we do whatever
+
+00:21:45.480 --> 00:21:50.840
+ Uh, we still like to keep it open source because it is a great code example of a real life learning
+
+00:21:50.840 --> 00:21:52.840
+ Yeah, exactly. It's a good teaching example. Yeah
+
+00:21:52.840 --> 00:21:56.600
+ And I think that's the main reason why people should make their stuff open source
+
+00:21:56.600 --> 00:21:57.640
+ Uh, and they're okay
+
+00:21:57.640 --> 00:22:02.680
+ So there is a offhand chance that someone does contribute something useful like they like take care of something tedious or like
+
+00:22:02.680 --> 00:22:05.960
+ Yeah, something that is uh a small cut
+
+00:22:05.960 --> 00:22:10.920
+ But not high enough priority for anyone on the core team to work on like there's always gonna be random stuff like that that
+
+00:22:10.920 --> 00:22:12.920
+ The people can take care of
+
+00:22:12.920 --> 00:22:16.280
+ But yeah as a learning is that it's been actually been insane. I joke the other day
+
+00:22:16.280 --> 00:22:19.000
+ I think we have more users of our code base from our product
+
+00:22:19.000 --> 00:22:21.960
+ Because a ton of people have just been
+
+00:22:21.960 --> 00:22:25.000
+ Uh, like taking that set up and like trying to build their own stuff
+
+00:22:25.000 --> 00:22:26.600
+ I've referenced it a lot
+
+00:22:26.600 --> 00:22:28.600
+ I mean, I've already looked at the console code
+
+00:22:28.600 --> 00:22:31.320
+ Just like for just best practices with sst
+
+00:22:31.320 --> 00:22:33.880
+ Like just as i'm working through stuff and I realized i'm not thinking
+
+00:22:33.880 --> 00:22:36.120
+ I still have like cdk brain
+
+00:22:36.120 --> 00:22:41.320
+ And I realized that like there's things that haven't transferred over for me in terms of how to do it best in sst
+
+00:22:41.320 --> 00:22:45.800
+ So I just look at the console repo and that's like my gold standard. I know it's the last thing you guys worked on
+
+00:22:45.800 --> 00:22:51.320
+ Yeah, I love it. Yeah, and that's the thing I was looking for when I was first getting into serverless stuff
+
+00:22:51.320 --> 00:22:56.600
+ So I'm glad it in like a real app that does because for me the questions would serve those what I had in the beginning
+
+00:22:56.600 --> 00:22:58.920
+ We're never like what's the grand theory behind this?
+
+00:22:58.920 --> 00:23:03.080
+ It was more like how do you like check for the current user? Is there like what the worst way?
+
+00:23:03.080 --> 00:23:04.840
+ They just like really specific things like that
+
+00:23:04.840 --> 00:23:08.760
+ And then there's the whole local first thing like that's a great repo for learning all that stuff
+
+00:23:08.760 --> 00:23:11.960
+ I haven't even touched any of that but yeah, exactly. I think that's the part
+
+00:23:11.960 --> 00:23:13.160
+ I've been
+
+00:23:13.160 --> 00:23:17.880
+ Surprise that a lot of people because I because we talked about as a bunch that I think more people should to do that
+
+00:23:17.880 --> 00:23:19.960
+ But I acknowledge that's a big
+
+00:23:20.920 --> 00:23:24.920
+ Step and learning curve and a lot of the front from cost and building stuff that way
+
+00:23:24.920 --> 00:23:29.000
+ But I've seen a bunch of people posts on twitter if you would be like, oh, look at this thing
+
+00:23:29.000 --> 00:23:31.400
+ I'm messing around with like kind of base off of our setup
+
+00:23:31.400 --> 00:23:34.440
+ Some of it looks better than our console
+
+00:23:34.440 --> 00:23:40.200
+ I think I've seen some of these conversations like stock talking about he did it with next day s and like yeah
+
+00:23:40.200 --> 00:23:45.640
+ Just people it's so cool how people will take that learn from your example and then apply it in other ways and
+
+00:23:45.640 --> 00:23:50.680
+ Yeah, I love open source. Yeah. Yeah, and and in some way that's going to come back to us
+
+00:23:51.880 --> 00:23:56.440
+ So whether that's they build a product that's really good because they're using a similar setup
+
+00:23:56.440 --> 00:24:00.840
+ That leads to good products and we get to use it or they come back and they're like this pattern actually works better
+
+00:24:00.840 --> 00:24:06.840
+ I'm just kind of seeing other places testing it. So yeah, I think more companies should just consider open source saying their
+
+00:24:06.840 --> 00:24:09.160
+ code
+
+00:24:09.160 --> 00:24:15.800
+ It's usually not your competitive advantage as much as everyone likes to tie up all this stuff with IP and and all of all of that
+
+00:24:15.800 --> 00:24:18.280
+ like where I see someone's product I like
+
+00:24:19.000 --> 00:24:23.560
+ Can guess how it works for like 99 percent of cases like I don't need to see their code. Yeah, sure
+
+00:24:23.560 --> 00:24:26.680
+ But yeah, I think more companies should should definitely consider that
+
+00:24:26.680 --> 00:24:30.680
+ I am seeing that a little bit more too as a product company
+
+00:24:30.680 --> 00:24:37.720
+ You've never dealt with like you don't have the internal muscles for like dealing with a community if if it does
+
+00:24:37.720 --> 00:24:41.000
+ Build up like if there's a group of people that do want to help
+
+00:24:41.000 --> 00:24:48.920
+ Is that like a challenge too just to like build up the the mentality of an open source organization where you have to handle that community?
+
+00:24:49.640 --> 00:24:53.240
+ Triage and I don't know. I just imagine a lot of stuff involved with that
+
+00:24:53.240 --> 00:25:00.040
+ Yeah, so we like we are an open source company and we like very intentionally want a community and we like try to grow that as much as possible
+
+00:25:00.040 --> 00:25:06.760
+ Even then like I don't think we do like that creative a job at doing all that stuff. I mean there's literally three of you
+
+00:25:06.760 --> 00:25:12.280
+ Yeah, that's the thing that suffers the most when we get busy with other stuff. Yeah, so I can definitely see that if you're
+
+00:25:12.280 --> 00:25:15.320
+ Like you're not really an open source company that
+
+00:25:16.360 --> 00:25:18.920
+ You probably aren't going to spend any time there again. I think it's okay
+
+00:25:18.920 --> 00:25:20.840
+ I just don't think it matters that much because even for us
+
+00:25:20.840 --> 00:25:23.800
+ We like don't do an amazing job and it's still like fine
+
+00:25:23.800 --> 00:25:26.200
+ So it's still serving a lot of other purposes
+
+00:25:26.200 --> 00:25:32.520
+ Like you said like the learning aspects of it is like a baseline that that'll always be there regardless of if you're taking contributions or not
+
+00:25:32.520 --> 00:25:37.720
+ Is a lot? I guess how do you communicate it though? Like do people ever get upset like hi?
+
+00:25:37.720 --> 00:25:42.600
+ I put a PR out a week ago. Why I haven't gotten any eyes on it. What's going on? Does that ever happen?
+
+00:25:42.600 --> 00:25:44.760
+ Yeah, I know all the time because we are
+
+00:25:45.400 --> 00:25:49.960
+ I'm gonna push one that today and be like dax. It's been two hours. Come on
+
+00:25:49.960 --> 00:25:54.280
+ Okay, this brings me to another topic. I wanted to talk about okay, so
+
+00:25:54.280 --> 00:25:59.160
+ Uh, as I said earlier me and you have a relationship so when you push a PR
+
+00:25:59.160 --> 00:26:03.240
+ I am gonna look at it more than I would look at a random PR
+
+00:26:03.240 --> 00:26:06.040
+ And a lot of people might hear that and they're like that's unfair
+
+00:26:06.040 --> 00:26:12.200
+ That's not a good system because you have like people are getting unfair advantages, which is 100% true
+
+00:26:12.200 --> 00:26:14.280
+ I'm not gonna say that is not true
+
+00:26:14.680 --> 00:26:20.040
+ Um, but for a lot of people their ideal world and I talk me and let's talk about this a lot with apartment hunting like
+
+00:26:20.040 --> 00:26:21.240
+ uh
+
+00:26:21.240 --> 00:26:22.760
+ in new york
+
+00:26:22.760 --> 00:26:24.520
+ When you're looking for an apartment
+
+00:26:24.520 --> 00:26:26.520
+ They're every building
+
+00:26:26.520 --> 00:26:31.560
+ Insanely standardized process of like you fill out this form. You tell me your credit score
+
+00:26:31.560 --> 00:26:32.600
+ You tell me your income
+
+00:26:32.600 --> 00:26:37.640
+ We have this exact way of computing whether you get it or not and then that's the process. No one skirts that process
+
+00:26:37.640 --> 00:26:38.920
+ There's no
+
+00:26:38.920 --> 00:26:42.920
+ There's no like clicking with the length of none of that. It's just a standardized process
+
+00:26:43.400 --> 00:26:48.840
+ And that is technically fair it like prevents something extremely unfair from happening
+
+00:26:48.840 --> 00:26:53.080
+ But it also kills any opportunity for like two people to really just connect and be like, okay
+
+00:26:53.080 --> 00:26:55.720
+ This is a good situation like we want it. We want to grow. Um,
+
+00:26:55.720 --> 00:26:58.440
+ Whereas when we moved here in miami, uh
+
+00:26:58.440 --> 00:27:00.840
+ We saw this house
+
+00:27:00.840 --> 00:27:05.640
+ And we talked to the landlord and like very clearly a type of people and because they lived two doors down
+
+00:27:05.640 --> 00:27:07.560
+ Like exactly the type of people we wanted to live near
+
+00:27:07.560 --> 00:27:12.840
+ Uh, they really clicked with us as well. Uh, it was a really great like personal connection
+
+00:27:12.840 --> 00:27:18.680
+ And then when we left they called us and being like, hey, well a lot will knock down the rent by about $100 if you if you guys
+
+00:27:18.680 --> 00:27:21.160
+ agree, that's awesome. So
+
+00:27:21.160 --> 00:27:23.480
+ it's like it eliminates
+
+00:27:23.480 --> 00:27:28.040
+ opportunities for like for that to happen and I get that like that's technically unfair
+
+00:27:28.040 --> 00:27:30.760
+ in in a way of looking at it, but
+
+00:27:30.760 --> 00:27:33.480
+ I just don't think any extreme is
+
+00:27:33.480 --> 00:27:37.640
+ Is the best in that case like you do want to allow for these really personal local
+
+00:27:37.640 --> 00:27:42.760
+ Localized things to happen like that where something like better than like the average outcome can happen
+
+00:27:43.480 --> 00:27:48.760
+ Um, whereas they would have just gotten an average neighbor. Now they got like a more ideal neighbor and more ideal tenant
+
+00:27:48.760 --> 00:27:54.360
+ Um, so same with the pr's. It's kind of it works the exact same way. Yeah, but is that different?
+
+00:27:54.360 --> 00:28:00.600
+ Is that a wholly different thing than like nepotism like where you know who you know kind of gets you
+
+00:28:00.600 --> 00:28:04.840
+ I don't know a career or something else. Is that a wholly different thing than what you're talking about?
+
+00:28:04.840 --> 00:28:11.000
+ No, that that I think it's the same it's the same problem like another extreme is someone is like racist and like doesn't
+
+00:28:11.480 --> 00:28:15.480
+ They have full control over who they make decisions around and they like ignore like
+
+00:28:15.480 --> 00:28:20.600
+ They have some like crazy bias or like, you know, they just give it to someone that's that got there an unfair thing
+
+00:28:20.600 --> 00:28:25.080
+ So I like get the other so those are the extremes. Yeah, uh, where I feel like in New York
+
+00:28:25.080 --> 00:28:32.200
+ It's on the opposite extreme and I think a lot of cities. It's it's honestly extreme where it's like so overly standardized any concept of individuality
+
+00:28:32.200 --> 00:28:35.640
+ Just like disappears entirely. It's hard to strike that balance
+
+00:28:35.640 --> 00:28:39.720
+ But I think people react to those negative situations by taking it too far in the other way
+
+00:28:39.800 --> 00:28:44.280
+ Yeah, I I'm thinking of an example of because I've always thought about the like
+
+00:28:44.280 --> 00:28:50.200
+ I know the who you know thing. Is that even bad? Is it kind of the way the world works and that's okay?
+
+00:28:50.200 --> 00:28:58.360
+ There was a jack uh, no joe buck. He's a like a baseball announcer. Not there was he's still an answer. I guess
+
+00:28:58.360 --> 00:29:03.480
+ I don't know he does football too. I don't know he's an announcer and his dad was jack buck
+
+00:29:03.560 --> 00:29:10.360
+ Who's like this legendary announcer for the cardinals here in mrs. And he he makes a lot of self-deprecating jokes about nepotism
+
+00:29:10.360 --> 00:29:14.520
+ because he very much got his career from his dad being this legendary announcer, but also like
+
+00:29:14.520 --> 00:29:17.080
+ I don't know. He's got a great voice like genetically
+
+00:29:17.080 --> 00:29:21.160
+ There's like a reason that they had this great announcer voice
+
+00:29:21.160 --> 00:29:24.600
+ And he's good at what he does like the fact that his dad was really good at it
+
+00:29:24.600 --> 00:29:28.520
+ And that's why he got his job and I know like there was well documented the way he got into his career was
+
+00:29:29.080 --> 00:29:35.000
+ Very like I mean it was nepotism like to its core, but like is the world worse for it? No, he's a good announcer
+
+00:29:35.000 --> 00:29:39.880
+ So i'm sure that there are extremes like you're saying like cases where it plays out very badly
+
+00:29:39.880 --> 00:29:45.240
+ Uh, but it's not all bad like nepotism doesn't have to be a bad word. Yeah. Yeah, exactly. It's uh
+
+00:29:45.240 --> 00:29:50.600
+ Yeah, it is tricky like with everything the world's really complex and any kind of some like
+
+00:29:50.600 --> 00:29:54.440
+ Rigid rule like that usually is not it's not the right way to go
+
+00:29:54.840 --> 00:29:59.480
+ Speaking of that because this has been very top mind for me when you said the world is very complex
+
+00:29:59.480 --> 00:30:05.000
+ Uh, I realized I have this worldview and I don't know if I've communicated to you or if I've ever put
+
+00:30:05.000 --> 00:30:07.640
+ Uh enough thought to it to communicate to anybody
+
+00:30:07.640 --> 00:30:11.960
+ Uh, but I have this worldview where like I don't blame anybody
+
+00:30:11.960 --> 00:30:16.280
+ For literally anything. Yeah, like I view everything
+
+00:30:16.280 --> 00:30:21.240
+ That happens every you know action that someone takes or reaction
+
+00:30:21.480 --> 00:30:25.640
+ It's just like this product of like their entire life and every circumstance and every whatever
+
+00:30:25.640 --> 00:30:30.200
+ and like not that they don't have like free will to like do whatever they want, but just that like
+
+00:30:30.200 --> 00:30:33.240
+ Everyone's sort of a product of their environment. They're
+
+00:30:33.240 --> 00:30:36.680
+ Their genetics. They're upbringing all those things
+
+00:30:36.680 --> 00:30:39.480
+ And it's just sort of like yeah, they were going to take that action
+
+00:30:39.480 --> 00:30:42.920
+ So it's very hard for me to like place blame in any situation
+
+00:30:42.920 --> 00:30:47.640
+ On a person or a group of people because I do just view it through this lens of like
+
+00:30:48.360 --> 00:30:53.960
+ I don't know. I haven't lived their life and I don't know. I don't know what led them to that point to do that thing
+
+00:30:53.960 --> 00:31:00.040
+ But it probably all makes sense like the math of it in the universe probably all works out. Does that make sense?
+
+00:31:00.040 --> 00:31:02.440
+ Is that way too far removed from our conversation?
+
+00:31:02.440 --> 00:31:09.640
+ No, I I feel the exact same way about everything and I think that the way it is manifests a lot is when
+
+00:31:09.640 --> 00:31:12.520
+ Uh, I think a good example
+
+00:31:12.520 --> 00:31:18.200
+ And maybe a very extreme example is uh, who's a with their nose woman Elizabeth Holmes. Oh, yeah
+
+00:31:18.440 --> 00:31:21.720
+ Obviously you see something like that that did a bunch of stuff bad wrong
+
+00:31:21.720 --> 00:31:25.080
+ But a part of me
+
+00:31:25.080 --> 00:31:29.080
+ Like very much sees how I could have ended up in that situation like
+
+00:31:29.080 --> 00:31:33.960
+ Just being myself and just being in a certain environment and like set up in a certain way
+
+00:31:33.960 --> 00:31:37.000
+ uh, so I also have a tough time being like
+
+00:31:37.000 --> 00:31:41.480
+ Getting angry or like upset because I'm like I like very
+
+00:31:41.480 --> 00:31:45.800
+ Like I'm like the way you're saying it like you can just see how they became that way
+
+00:31:45.800 --> 00:31:49.000
+ And you can see how like any like human put in that situation would have become that way
+
+00:31:49.000 --> 00:31:53.880
+ Uh, and then said the other side is I like can see myself in that situation
+
+00:31:53.880 --> 00:31:57.960
+ I'm like wow that would suck like I I would suck to be in that situation and like I
+
+00:31:57.960 --> 00:32:03.160
+ I don't most things even things that are bad. I can like see how I would have just done
+
+00:32:03.160 --> 00:32:07.720
+ The same thing. Uh, yeah, and let's talk about this a lot too. Like whenever there's
+
+00:32:07.720 --> 00:32:11.560
+ Situations like that she feels the exact same way like she has a hard time like
+
+00:32:11.560 --> 00:32:14.280
+ getting angry or upset
+
+00:32:14.440 --> 00:32:18.200
+ For those reasons why I feel the same way it's like I don't I I would have done the same thing or like
+
+00:32:18.200 --> 00:32:22.200
+ I thought I didn't know how much of it was like I was a middle child
+
+00:32:22.200 --> 00:32:27.960
+ Like I've got this theory this personality that wants to like defuse any conflict and like work it out between parties
+
+00:32:27.960 --> 00:32:30.840
+ I didn't know if it was that or if it was just some kind of other worldview, but
+
+00:32:30.840 --> 00:32:36.600
+ Uh, I feel like there's a name for it. I feel like you probably know it and you're just hiding it like you don't want to sound too smart
+
+00:32:36.600 --> 00:32:40.920
+ But like oh, well, that's the crow's eye principle everyone knows that
+
+00:32:42.440 --> 00:32:49.160
+ Okay, I think it's it comes from feeling like there are the things are deterministic and there isn't really like free will
+
+00:32:49.160 --> 00:32:53.400
+ Is that what it is? Yeah, I mean, I think that's where it's for me. It stems from it
+
+00:32:53.400 --> 00:32:55.400
+ I can see where you can play it out to that degree
+
+00:32:55.400 --> 00:32:59.480
+ And I don't know how I hold on to my beliefs that people get to choose what they do
+
+00:32:59.480 --> 00:33:04.920
+ I still believe that I guess yeah, you like I agree that it's definitely hundred percent feels that way
+
+00:33:04.920 --> 00:33:10.440
+ But the other side of me knows that some asteroid hit some other asteroid at a certain angle like
+
+00:33:10.920 --> 00:33:14.760
+ 8 billion years ago, and that's why I don't have hair in my head, right? It's like there's like
+
+00:33:14.760 --> 00:33:22.360
+ There's just I just I just fully see it as if you knew all the rules of the universe
+
+00:33:22.360 --> 00:33:25.400
+ You could just predict it forward in a perfect way
+
+00:33:25.400 --> 00:33:28.280
+ So I don't really believe in free will at my core
+
+00:33:28.280 --> 00:33:32.520
+ So I think that kind of bleeds out to these places where it feels like maybe I don't either
+
+00:33:32.520 --> 00:33:36.680
+ Maybe I'm just it's like trying to pretend I do is because I feel like I want that control or something
+
+00:33:37.000 --> 00:33:42.840
+ Maybe I don't actually believe it because if I really think about what I'm saying is in contradiction to free will
+
+00:33:42.840 --> 00:33:47.000
+ Yeah, I'm just I'm just sort of like hanging on to something that I don't really believe
+
+00:33:47.000 --> 00:33:50.600
+ I think it definitely feels like we have free will and I think it's
+
+00:33:50.600 --> 00:33:56.120
+ Probably and also not right to like make everyone blameless, but no, right
+
+00:33:56.120 --> 00:34:02.680
+ It doesn't like get you out of your consequences. It doesn't change the circumstances like like actions lead to
+
+00:34:03.400 --> 00:34:07.400
+ Uh, it's still like all of those things apply. It's just there's a lot of empathy
+
+00:34:07.400 --> 00:34:11.880
+ Of empathy that it brings of like this could have literally been me or this could have been anyone or like yeah
+
+00:34:11.880 --> 00:34:17.080
+ A lot of things led to this besides like uh-huh. There is like a rotten spirit at the core of this person
+
+00:34:17.080 --> 00:34:22.600
+ Yeah, no, I've been I've been up close on some like situations in the recent
+
+00:34:22.600 --> 00:34:26.840
+ Weeks that have led to those thoughts. This is it didn't come out of nowhere
+
+00:34:26.840 --> 00:34:32.760
+ Uh, but I I feel like I'm in contrast the way I view it is in contrast to everyone else around me
+
+00:34:33.160 --> 00:34:37.720
+ Which is like no, this person's at fault. No, this person. It's like their fault and I don't know
+
+00:34:37.720 --> 00:34:39.080
+ I just view it like
+
+00:34:39.080 --> 00:34:43.240
+ They are who they are and that's how they would have that would have played out a hundred times out of a hundred times
+
+00:34:43.240 --> 00:34:47.640
+ Yeah, yeah, I feel the same way cool. We were supposed to disagree with me. That would have been way more fun
+
+00:34:47.640 --> 00:34:51.320
+ To help me why we have free will
+
+00:34:51.320 --> 00:34:56.280
+ Uh, so the other thing obviously we gotta talk about the superconductor stuff. What?
+
+00:34:56.280 --> 00:35:00.120
+ What happened with superconductor stuff. I don't even know what you're talking about. Are you serious?
+
+00:35:00.680 --> 00:35:06.920
+ I've been way unplugged and I'm not saying that you're this I'm like all I think about right now is astro and sst
+
+00:35:06.920 --> 00:35:10.920
+ Like that's for weeks. So what is superconductor? Tell me more
+
+00:35:10.920 --> 00:35:16.040
+ You're you're you're you're gonna feel so bad when I describe what's happening. Oh no
+
+00:35:16.040 --> 00:35:20.920
+ Because it's did you learn this on happiness? It is literally everywhere like there's not a place that I can escape it
+
+00:35:20.920 --> 00:35:25.160
+ It's literally just everywhere. Is it on twitter? It's on twitter. I made a joke about it yesterday
+
+00:35:25.160 --> 00:35:29.640
+ I was like I don't are you serious? I was like I'm not ready to become an expert on superconductors. Okay. Tell me
+
+00:35:29.640 --> 00:35:32.760
+ What is what is what is a super dagger? What are we? Okay? So I
+
+00:35:32.760 --> 00:35:37.000
+ Again, is this the alien thing? I'm not it's not it's different. It's different
+
+00:35:37.000 --> 00:35:41.400
+ How do I explain this? Okay, so there is there's a paper that came out
+
+00:35:41.400 --> 00:35:47.720
+ Um, I guess why are you gonna feel bad because if you if you spend this time obsessed with the web framework, you're gonna feel like
+
+00:35:47.720 --> 00:35:54.120
+ You're everything you do is completely meaningless when I and I tell you what this is just changed. You're hyping this up
+
+00:35:54.120 --> 00:35:56.680
+ I'm so excited. Okay, there's a paper that came out
+
+00:35:57.080 --> 00:36:03.240
+ And it's people are trying to replicate it in the next couple days because it's seemingly like simple to replicate
+
+00:36:03.240 --> 00:36:06.200
+ Uh where people uh these three
+
+00:36:06.200 --> 00:36:09.720
+ It's kind of confusing. They're they're kind of like arguing over who gets credit
+
+00:36:09.720 --> 00:36:13.000
+ But uh these people from korea these reaches researchers from korea
+
+00:36:13.000 --> 00:36:18.280
+ That that they've made a superconductor that is room temperature that's stable at room temperature
+
+00:36:18.280 --> 00:36:23.800
+ Could you tell me what a superconductor is or are you getting there? Uh, again, I'm not looking at super expert on this
+
+00:36:23.800 --> 00:36:27.400
+ So i'm not super expert on superconductor. You're not super expert on superconductor
+
+00:36:27.400 --> 00:36:33.720
+ Um, but I've like seen videos of superconductors in the past where uh, you've probably seen them too. They're like these
+
+00:36:33.720 --> 00:36:38.120
+ There's there's there's material that's used in certain places
+
+00:36:38.120 --> 00:36:45.320
+ So the word itself that gives you a hint a superconductor means you can put energy in it and it transfers through with very very little
+
+00:36:45.320 --> 00:36:47.480
+ Lost
+
+00:36:47.480 --> 00:36:49.480
+ Okay, that makes sense
+
+00:36:49.640 --> 00:36:55.400
+ A conductive. It's like 99.99 percent energy transmission, right? So if you think about a power line
+
+00:36:55.400 --> 00:36:58.920
+ You just now got me out of the branch. That's not like a train conductor
+
+00:36:58.920 --> 00:37:03.640
+ No, no, no, no, it's like well, why have you have occasions for trains? So we're gonna be back there. Okay
+
+00:37:03.640 --> 00:37:08.520
+ Uh, there's so if we think about a power line like uh
+
+00:37:08.520 --> 00:37:17.560
+ A power plant can only supply power to a certain distance because the heat loss from the power lines eventually like becomes too much
+
+00:37:17.800 --> 00:37:22.040
+ And we lose a ton of energy even with the current distance like some percentage of energy is just lost in transmission
+
+00:37:22.040 --> 00:37:26.040
+ So a superconductor can theoretically transmit energy at
+
+00:37:26.040 --> 00:37:32.760
+ Near infinite distances because the loss is is so so minimal. Okay, but the issue is every superconductor
+
+00:37:32.760 --> 00:37:36.760
+ We found so far needed to be at some like crazy low temperature to operate
+
+00:37:36.760 --> 00:37:42.280
+ So like you need like liquid. I've always seen videos of like liquid nitrogen and then putting the superconductor in like showing
+
+00:37:42.280 --> 00:37:46.520
+ There's other weird effect. Uh, there's a name for it where it lets you like
+
+00:37:47.400 --> 00:37:50.040
+ It's kind of a magnetic effect where it hovers over uh
+
+00:37:50.040 --> 00:37:57.480
+ Over other um, or like some other materials. So a superconductor hovers over other materials. Yeah, again, I don't know this stuff that well
+
+00:37:57.480 --> 00:38:00.920
+ I don't know what the actual uh mechanism is but
+
+00:38:00.920 --> 00:38:04.040
+ It has to do with something like
+
+00:38:04.040 --> 00:38:07.880
+ The word superconductor implies like electrons flowing through it and something about that
+
+00:38:07.880 --> 00:38:11.000
+ There's like some effect that it creates where it can like hover over stuff
+
+00:38:11.000 --> 00:38:13.320
+ And you I feel like you must have seen this video like imagine like
+
+00:38:13.800 --> 00:38:17.880
+ A bunch of like gassy liquid nitrogen and something like kind of hovering over a surface. Have you ever seen that?
+
+00:38:17.880 --> 00:38:20.520
+ No, you should look at my youtube history. It is not that
+
+00:38:20.520 --> 00:38:24.280
+ There's a great video where someone built a hoverboard
+
+00:38:24.280 --> 00:38:28.920
+ Uh that like is made from the stuff they're constantly filling with liquid nitrogen to keep it cold enough
+
+00:38:28.920 --> 00:38:30.440
+ It's like a real hoverboard
+
+00:38:30.440 --> 00:38:36.440
+ Yeah, and they have tony hawk try to use it and it's so difficult because an actual hoverboard would be like is so so so hard to ride
+
+00:38:36.440 --> 00:38:38.520
+ Uh, so anyway
+
+00:38:38.520 --> 00:38:42.040
+ Uh really low level material and obviously the constraint has been uh,
+
+00:38:42.600 --> 00:38:44.600
+ It needs to be super cold kind of expensive to produce
+
+00:38:44.600 --> 00:38:48.760
+ Someone has built that's the people are saying that we've now have a superconductor
+
+00:38:48.760 --> 00:38:53.640
+ That's works at room temperature and ambient pressure. So you can just have it in any environment
+
+00:38:53.640 --> 00:38:56.280
+ And it's very cheap to make
+
+00:38:56.280 --> 00:38:58.200
+ theoretically
+
+00:38:58.200 --> 00:39:02.600
+ So this has implications on literally everything so I was gonna say this sounds like a big break
+
+00:39:02.600 --> 00:39:03.880
+ It's like a
+
+00:39:03.880 --> 00:39:07.800
+ It's a first small tiny step and like a lot needs to be done to get it
+
+00:39:08.280 --> 00:39:13.320
+ Like progressive to a place where there's a lot of other variables that are uh in play
+
+00:39:13.320 --> 00:39:15.960
+ But if you just let if you ignore that and just kind of fantasize
+
+00:39:15.960 --> 00:39:23.640
+ Theoretically you could build a crazy solar power plant across the desert in the middle east and run power lines for the rest of the world
+
+00:39:23.640 --> 00:39:25.800
+ Oh, wow
+
+00:39:25.800 --> 00:39:27.800
+ It has implications. There's like some
+
+00:39:27.800 --> 00:39:29.720
+ Yeah, so
+
+00:39:29.720 --> 00:39:34.680
+ I feel like this in fusion research this solves like one again, not isn't solve the whole problem
+
+00:39:34.680 --> 00:39:36.680
+ That solves like one problem in fusion
+
+00:39:36.680 --> 00:39:42.040
+ Uh again with the magnetic effect the hovering effect. Now you can build uh like trains that are not
+
+00:39:42.040 --> 00:39:45.080
+ I kind of had a maglev trains work, but again, yeah
+
+00:39:45.080 --> 00:39:51.240
+ It has implications in like so people keep coming up with other areas where it could it could impact so
+
+00:39:51.240 --> 00:39:53.880
+ We might be on the cusp of
+
+00:39:53.880 --> 00:39:56.840
+ AI super intelligence
+
+00:39:56.840 --> 00:40:00.520
+ No, it has implications in in uh in semiconductors as well
+
+00:40:01.080 --> 00:40:07.160
+ Yeah, exactly. So again really far-fetched, right? So that we're like all fantasizing here
+
+00:40:07.160 --> 00:40:13.000
+ Um, because one the paper might not be real to there might be limitations that where it never leaves the lab
+
+00:40:13.000 --> 00:40:18.200
+ Kind of like how graphite is we might but I know if you let yourself fantasize we might be on like a new era
+
+00:40:18.200 --> 00:40:20.440
+ of
+
+00:40:20.440 --> 00:40:22.520
+ Like humanity. What do you think?
+
+00:40:22.520 --> 00:40:26.360
+ Yeah, what do you think the percentage likelihood that like this pans out is?
+
+00:40:26.840 --> 00:40:32.280
+ I have no idea. I just I just you're not an expert. No, but you're you're not a super expert, but you're expert
+
+00:40:32.280 --> 00:40:34.520
+ You think
+
+00:40:34.520 --> 00:40:38.840
+ Because you just explain conductors if you can't explain super conductors, maybe just conductors. Let's start
+
+00:40:38.840 --> 00:40:42.040
+ You're not a super expert
+
+00:40:42.040 --> 00:40:46.680
+ Give me it. Give me like is it a coin flip. Is it like a 1% chance with like a moon shot?
+
+00:40:46.680 --> 00:40:49.480
+ I don't know. I don't know. I feel like I
+
+00:40:49.480 --> 00:40:53.640
+ I have no idea your intuition is good. I want to know what your gut is. Is this gonna happen?
+
+00:40:53.880 --> 00:40:59.240
+ Something about it makes me feel like it's a yes. Yeah, I do feel like it checks this box for me
+
+00:40:59.240 --> 00:41:04.440
+ That's like I do feel like there's gonna be these weird little dominoes that happen that just like completely alter everything
+
+00:41:04.440 --> 00:41:05.560
+ Yeah
+
+00:41:05.560 --> 00:41:10.760
+ So it checks out for that because that might immediately jumped all these other fields that are like making breakthroughs
+
+00:41:10.760 --> 00:41:13.160
+ You think of AI you think of fusion energy
+
+00:41:13.160 --> 00:41:19.560
+ I mean both those things are way ahead of where people thought they'd be at this point in time and you think about like something like this just
+
+00:41:20.280 --> 00:41:25.800
+ Being a catalyst. It's it's really exciting. What's really crazy about this is no new technology
+
+00:41:25.800 --> 00:41:29.320
+ Need to first exist for this thing to be produced
+
+00:41:29.320 --> 00:41:33.800
+ Uh, I saw someone saying that you could have made this in the lab in like 1890
+
+00:41:33.800 --> 00:41:41.080
+ Do you know anything about like the material or whatever is going on here? It's like some kind of led thing led. Yeah, it was led all
+
+00:41:41.080 --> 00:41:44.600
+ Yeah, we were interesting. We ran away from lead and now we're running back
+
+00:41:45.800 --> 00:41:50.760
+ Presumably it's not just led. There's like they're doing something. They're adding something to lead. Yeah, yeah
+
+00:41:50.760 --> 00:41:57.080
+ There's some so basically that they actually discovered this material initially in 1999 these these scientists
+
+00:41:57.080 --> 00:42:02.440
+ Uh-huh, and they were kind of and what's weird is they're not like they're not like these like really renowned
+
+00:42:02.440 --> 00:42:07.320
+ Scientists they were kind of like mid-tier scientists that were kind of played at this on the size of a side project
+
+00:42:07.320 --> 00:42:10.120
+ And they finally got funding a couple years ago
+
+00:42:10.840 --> 00:42:16.840
+ Two of them to like explore it deeper and they sent in like a big shot scientist and babysit them. So there's three of them now
+
+00:42:16.840 --> 00:42:20.280
+ Uh, and they they've they've they've been working on like
+
+00:42:20.280 --> 00:42:24.680
+ Refined the process to actually produce it and then now they finally figured it out
+
+00:42:24.680 --> 00:42:30.360
+ Uh, and they've been super paranoid that it was gonna leak and someone was gonna steal it because they were like so convinced that this
+
+00:42:30.360 --> 00:42:33.480
+ Is gonna work and it is like gonna change the nobel prize-winning
+
+00:42:33.480 --> 00:42:38.120
+ Statues in every city type of situation like Einstein level fame. Wow
+
+00:42:38.360 --> 00:42:41.480
+ So the everything they've done indicates that
+
+00:42:41.480 --> 00:42:51.160
+ They genuinely believe that's what's at stake here. Yeah, so I think the question of is it like fake is maybe I don't believe that it's fake
+
+00:42:51.160 --> 00:42:56.840
+ Um, does it actually work is the question, but it's so easy to produce at a bunch of labs. I'm not I was actually wearing
+
+00:42:56.840 --> 00:43:03.880
+ Uh a shirt from this company. That's like a space company. Um, they have all the equipment. Yeah, so they
+
+00:43:04.600 --> 00:43:08.680
+ They're engineers in the past but they've been tweeting about this for the past couple days. I've been trying to replicate it
+
+00:43:08.680 --> 00:43:11.240
+ And they should have everything in place by tomorrow or saturday
+
+00:43:11.240 --> 00:43:16.200
+ Oh, wow. So we're gonna know soon if this is like something it could be replicated and if there's real stuff here
+
+00:43:16.200 --> 00:43:20.360
+ Yeah, I get taking it to industrial. You see there's obviously a lot there, but this yeah
+
+00:43:20.360 --> 00:43:24.600
+ This doesn't break any physics laws. It's not like someone made infinite energy and that breaks
+
+00:43:24.600 --> 00:43:31.000
+ It's like it follows everything. Yeah, or like faster than speed a lot or something like we've seen that like oh the new tree knows or whatever
+
+00:43:31.080 --> 00:43:36.120
+ Yeah, that people brought that paper as well where people were like we know this is wrong, but we don't know why but they did
+
+00:43:36.120 --> 00:43:40.280
+ They publish it anyway. So yeah, like this this could be a major thing
+
+00:43:40.280 --> 00:43:43.560
+ The other thing that brings up for me is there's like this
+
+00:43:43.560 --> 00:43:46.520
+ thing about us that I hate
+
+00:43:46.520 --> 00:43:48.600
+ Which is
+
+00:43:48.600 --> 00:43:54.360
+ Actually, it was funny humans hate themselves a lot, right? Like I think if you like just look it
+
+00:43:54.360 --> 00:43:57.960
+ I hate myself. No, I'm not gonna end up at a dual level like
+
+00:43:59.000 --> 00:44:03.800
+ We like hate human like the concept of humanity. Like we hate them. We're like humans like scum
+
+00:44:03.800 --> 00:44:07.320
+ and if you look at like
+
+00:44:07.320 --> 00:44:11.640
+ Any fantasy story, it's always like there's a magical kingdom and then the humans arrived and they like
+
+00:44:11.640 --> 00:44:16.840
+ They like destroyed it and it's it's always like we have this low level of heat of ourselves
+
+00:44:16.840 --> 00:44:18.520
+ and
+
+00:44:18.520 --> 00:44:22.920
+ I think that shows up in places where it shouldn't so if we think about like we're all worried about climate change
+
+00:44:22.920 --> 00:44:28.840
+ Everyone is convinced that the only way to solve it is to punish ourselves because that's kind of been like
+
+00:44:29.000 --> 00:44:31.640
+ It just shows up everywhere like in certain religions
+
+00:44:31.640 --> 00:44:36.680
+ Like the idea is you're bad and you need to like repent for who you are and then you get saved if you sacrifice stuff
+
+00:44:36.680 --> 00:44:41.560
+ Yeah, if you limit yourself you limit the bad parts then like then there's like a solution for you
+
+00:44:41.560 --> 00:44:45.720
+ Um, and I think people have this feeling with climate change where they're like
+
+00:44:45.720 --> 00:44:48.520
+ We need to stop having children and we need to stop like
+
+00:44:48.520 --> 00:44:51.400
+ Doing xyz. We need to stop stop stop stop stop
+
+00:44:51.400 --> 00:44:54.760
+ And if we repent for the badness that we are and agree that we have yep
+
+00:44:55.000 --> 00:45:02.440
+ We will stop climate change. Uh, it's completely impractical because that's nice to say that from like a very developed country
+
+00:45:02.440 --> 00:45:09.000
+ Uh saying all those countries. Yeah, they're developing. It's yeah billions of people you're like denying them
+
+00:45:09.000 --> 00:45:15.480
+ But it's like it's like kind of a mess up position, but oh, yeah people believe there's like de-growth thing like the only way out of this
+
+00:45:15.480 --> 00:45:18.920
+ Is to like shrink ourselves because like we were greedy and we grew too much
+
+00:45:18.920 --> 00:45:24.520
+ But my position has been this happens all the time like in history so many so many times
+
+00:45:25.080 --> 00:45:28.840
+ There's a famous one in india where everyone was all the scientists were predicting
+
+00:45:28.840 --> 00:45:31.720
+ How there's a huge famine
+
+00:45:31.720 --> 00:45:38.360
+ Millions of people are gonna die is gonna be disaster. We've hit the ceiling on like what the ecosystem can support for this population
+
+00:45:38.360 --> 00:45:44.520
+ Yeah, there's there's like a name for people that believe that think like this. It's it's like a very like natural place to think you're like
+
+00:45:44.520 --> 00:45:47.000
+ Okay, you can only support so many people
+
+00:45:47.000 --> 00:45:50.120
+ then a scientist from somewhere in the midwest actually
+
+00:45:50.120 --> 00:45:54.360
+ Figured out a strain of I think it was rice
+
+00:45:54.920 --> 00:45:57.880
+ That had like crazy yield. It was like a multiple yields
+
+00:45:57.880 --> 00:46:02.920
+ And he literally saved like millions billions of people because the yield was something that no one could predict
+
+00:46:02.920 --> 00:46:10.520
+ Uh, and we've just gone through this so many times where like one or two people will innovate something that was so outside the realm of any calculation
+
+00:46:10.520 --> 00:46:12.840
+ We just enter a new era of what's possible
+
+00:46:12.840 --> 00:46:16.280
+ So that's what I've been hoping for and and leaning on and this kind of
+
+00:46:16.280 --> 00:46:20.120
+ I think I have a lot of bias because I want this to exist to like support
+
+00:46:20.520 --> 00:46:24.280
+ Yeah, my way of thinking so that's why I feel like it it can be the thing
+
+00:46:24.280 --> 00:46:28.120
+ But it's an example of the type of thing that can happen. Yeah, I'm definitely guilty of the other side
+
+00:46:28.120 --> 00:46:33.160
+ Like I'm guilty of the like we need to stop doing things like just that mentality of like
+
+00:46:33.160 --> 00:46:38.200
+ Uh retreating a bit. I'm definitely guilty of that. So it's nice to hear your perspective
+
+00:46:38.200 --> 00:46:42.600
+ It does give me this optimism that like humans will figure it out. We will solve problems
+
+00:46:42.600 --> 00:46:48.280
+ We can keep pushing we will figure it out. It's a very natural place to go. I remember the it's called a mouth fusion trap
+
+00:46:48.280 --> 00:46:50.360
+ I think it's called
+
+00:46:50.840 --> 00:46:53.480
+ Malthusian or it's like mouthusianist or something like they are
+
+00:46:53.480 --> 00:46:57.560
+ Pareto principle. Yeah, yeah, keep going. I can't I swear
+
+00:46:57.560 --> 00:47:02.120
+ I don't think I actually know that many of these but somehow the ones that I know always pop up
+
+00:47:02.120 --> 00:47:06.360
+ Well, I guess I guess I'm in control of the conversation to some degree. So yeah
+
+00:47:06.360 --> 00:47:12.120
+ So we're all gonna have hoverboards now. Well, I think this video shows that hoverboards are kind of useless
+
+00:47:14.840 --> 00:47:20.360
+ Like even tony hawking does barely ride it and if you can't but you can't ride it. I'm not gonna be able to ride it
+
+00:47:20.360 --> 00:47:22.440
+ Look back to the future. I mean they they look so cool
+
+00:47:22.440 --> 00:47:31.000
+ And useful. Yeah, I think I think friction is important. Like that's all right. It. Yeah. Maybe you can't really maybe we'll get
+
+00:47:31.000 --> 00:47:35.480
+ Trains. Yeah, we'll finally get high speed rail and I love this story. Yeah, no kidding
+
+00:47:35.480 --> 00:47:41.000
+ I love this story so much because it's like you realize all the ways we can make advancements
+
+00:47:41.400 --> 00:47:46.840
+ I don't even think about materials. Like I don't think about material sciences and how much like they could just invent new combinations of things
+
+00:47:46.840 --> 00:47:48.360
+ There's probably like infinite
+
+00:47:48.360 --> 00:47:53.480
+ Combinations of things they could figure out have important impact on society. It's like
+
+00:47:53.480 --> 00:47:59.080
+ I don't know. I get I'm in this little bubble with technology where I think about like all the advances we're making in technology
+
+00:47:59.080 --> 00:48:03.720
+ But there's like so many ways that humans can push the boundaries and learn new things
+
+00:48:03.720 --> 00:48:10.840
+ And you just start to imagine like alien zipping around the universe with these materials that we are just now discovering like we're little babies
+
+00:48:11.400 --> 00:48:14.920
+ And we're figuring stuff out. I don't know. I love it. It's all interconnected too, right? Like
+
+00:48:14.920 --> 00:48:17.880
+ This discovery might push
+
+00:48:17.880 --> 00:48:23.320
+ the cost of compute a lot further down which then enables all sorts of things that
+
+00:48:23.320 --> 00:48:26.840
+ All sorts of stuff that we just ignore because it is not
+
+00:48:26.840 --> 00:48:34.760
+ Possible. Yeah, which then you know, we were able to do better research exactly and lock stuff in fusion
+
+00:48:34.760 --> 00:48:38.840
+ Which leads to like more abundant energy and then it's just like this crazy feedback
+
+00:48:39.720 --> 00:48:41.960
+ Yeah, yeah, Pareto principle or something
+
+00:48:41.960 --> 00:48:46.040
+ Yeah, I mean if this leads to fusion then a fusion is super that makes energy super cheap
+
+00:48:46.040 --> 00:48:47.960
+ Then we can suck carbon out of the air for really cheap
+
+00:48:47.960 --> 00:48:53.480
+ Yeah, like the sound really there's just like so many so many things so it feels so much like a video game
+
+00:48:53.480 --> 00:48:57.880
+ It's like insane how much like a video game it feels. Yeah, like the the the arc of it
+
+00:48:57.880 --> 00:49:03.560
+ The yeah, like you like research one technology and I'll lock another one and then like eventually you're like working on high level things
+
+00:49:03.560 --> 00:49:06.120
+ Yeah, it does that is some games. Yeah
+
+00:49:06.760 --> 00:49:13.160
+ Sorry, I know these things. I said Pareto principle is a joke needed in laugh and I want everyone to know I didn't think that was actually a Pareto principle
+
+00:49:13.160 --> 00:49:15.480
+ I don't know what the Pareto principle is. I don't remember
+
+00:49:15.480 --> 00:49:19.080
+ But when I said it it was just a joke. Okay, I just have to say a joke
+
+00:49:19.080 --> 00:49:23.480
+ It's a joke. I don't know if you principles Adam's Adam remembers. I just remember that word for some reason
+
+00:49:23.480 --> 00:49:28.120
+ Yeah, it reminds me of Japetto. I I think a Pinocchio. Well, Pareto wasn't Italian
+
+00:49:28.120 --> 00:49:32.840
+ Economics. Oh, it's so this Japetto. Okay, maybe I don't know. I don't know I hear
+
+00:49:35.080 --> 00:49:37.080
+ Same family basically
+
+00:49:37.080 --> 00:49:45.160
+ Yeah, so anyway, this has a huge impact on react server components too. No, it doesn't wait
+
+00:49:45.160 --> 00:49:49.640
+ You got me a little distracted. Oh, yeah
+
+00:49:49.640 --> 00:49:57.480
+ So bringing his back to the beginning where you're like oh, I've been doing his web framework stuff
+
+00:49:57.480 --> 00:49:59.640
+ Are you even motivated to work on code splitting now?
+
+00:49:59.640 --> 00:50:04.200
+ Oh, no, I super am but like it does put everything in a new perspective. Now
+
+00:50:04.200 --> 00:50:07.080
+ I've got to read the stories and I got to know I want to see the paper
+
+00:50:07.080 --> 00:50:11.880
+ I don't understand it. I love when like a new big paper comes out and it's like monumental until like skim it
+
+00:50:11.880 --> 00:50:16.440
+ Like you know what you're doing like oh, okay, well those those math symbols cool
+
+00:50:16.440 --> 00:50:22.200
+ Well, what's interesting is I think this is actually one of those things that is
+
+00:50:22.200 --> 00:50:27.960
+ I would say most technical things like this are so outside the realm of
+
+00:50:27.960 --> 00:50:32.760
+ Understanding like it's just not even worth it. I think this what's amazing about this. It's so simple
+
+00:50:32.920 --> 00:50:35.080
+ It's like it actually is. Yeah, it's understandable
+
+00:50:35.080 --> 00:50:39.800
+ Like how how quickly do you think there's a team a two-pizza team at amazon doing something
+
+00:50:39.800 --> 00:50:44.920
+ To try and use these materials and like the semi-conductor lab or something. I feel like that's a thing
+
+00:50:44.920 --> 00:50:49.640
+ They're probably jumping on it. So they're order of operations is first
+
+00:50:49.640 --> 00:50:56.360
+ Uh put out a memo that says we are now a blank company. So now they're a superconductor company
+
+00:50:56.360 --> 00:50:59.240
+ Oh, okay, and their CEO does an interview where they're like
+
+00:50:59.240 --> 00:51:01.800
+ Uh, we were actually ahead of everyone in this
+
+00:51:03.240 --> 00:51:05.480
+ And it's it's I didn't know this was their thing
+
+00:51:05.480 --> 00:51:08.520
+ And then and then like then they like kind of try to build something and catch up
+
+00:51:08.520 --> 00:51:13.880
+ I'm I'm just referring. I don't know if you saw the AI comments that uh the CEO of a AWS making
+
+00:51:13.880 --> 00:51:18.200
+ Oh, no, I didn't see it. Yeah, he basically gave an interview where he was just like
+
+00:51:18.200 --> 00:51:20.280
+ uh
+
+00:51:20.280 --> 00:51:24.920
+ Were ahead in all this all this stuff and we're gonna do this all better and like yeah
+
+00:51:24.920 --> 00:51:30.440
+ Like just kind of like say stating it as though like they've always been ahead and they're like not even worried
+
+00:51:30.920 --> 00:51:35.080
+ Um, I want it to be true so bad. I want it to be true so bad because
+
+00:51:35.080 --> 00:51:39.320
+ Uh, I do want access to all the lm stuff. I want it to be a lot cheaper
+
+00:51:39.320 --> 00:51:44.680
+ And from like a technical point of view, it's actually important that exists in AWS because I can't just be shipping
+
+00:51:44.680 --> 00:51:50.200
+ Like a lot of companies like the whole thing with all this AI stuff is you can hyper personalize stuff
+
+00:51:50.200 --> 00:51:55.560
+ Like yeah, but you can't just start sending hyper personal stuff to like the open AI
+
+00:51:55.640 --> 00:52:01.560
+ Api if you're doing like anything medical. You can just start shipping and who knows what they so having stuff all in your own infrastructure is important
+
+00:52:01.560 --> 00:52:04.840
+ I'm getting a cheaper is important. So I wanted to be true
+
+00:52:04.840 --> 00:52:11.160
+ But I'm like really skeptical that they have made they're like the the image they're projecting externally anywhere lines up
+
+00:52:11.160 --> 00:52:16.520
+ To what they have been really quiet on like the llm space like they do a lot of AI stuff
+
+00:52:16.520 --> 00:52:21.480
+ Obviously, they're like a lot of machine learning stuff. I guess with like sage maker and all that family of stuff
+
+00:52:21.480 --> 00:52:22.520
+ but like
+
+00:52:22.520 --> 00:52:28.520
+ The the llm stuff. They're saying now that they're sort of like they're up there with all these people that are pushing the boundaries
+
+00:52:28.520 --> 00:52:34.440
+ They just have been quiet. He basically was saying that you can't count microsoft. They outsourced the work to open AI
+
+00:52:34.440 --> 00:52:41.160
+ So azure is not relevant. They didn't like do they don't have any expertise internally. We have the expertise internally. The thing is
+
+00:52:41.160 --> 00:52:47.640
+ They can make one claim always for no matter what happens, which is they are operating at a bigger scale than anyone
+
+00:52:48.280 --> 00:52:51.720
+ And anyone they have more customers than anyone. So yeah, yes
+
+00:52:51.720 --> 00:52:56.280
+ They will obviously enter into any space at like a crazy advantageous position
+
+00:52:56.280 --> 00:53:01.960
+ But he kind of went further than that being like he made it sound like no like this is like we've always been doing this
+
+00:53:01.960 --> 00:53:04.680
+ We've been doing this. Yeah, and like we were turning our own LMS
+
+00:53:04.680 --> 00:53:11.160
+ I would not be surprised if they didn't start doing that so after like the general public was aware of this stuff
+
+00:53:11.560 --> 00:53:18.920
+ I would be kind of as if they didn't be very customer obsessed. So like that makes sense that the customers come to them and they're like I want to do LLM stuff
+
+00:53:18.920 --> 00:53:23.800
+ On my AWS account. Yeah, like we've always been doing LLM stuff. Yeah, it's coming
+
+00:53:23.800 --> 00:53:30.200
+ Well, have you seen there? I think we've talked about him before there's an AWS hero who works at hugging face and he publishes
+
+00:53:30.200 --> 00:53:32.520
+ Roughly an article every day
+
+00:53:32.520 --> 00:53:37.160
+ And he's got an article on how to train like how to fine tune llama 2
+
+00:53:37.880 --> 00:53:42.920
+ On SageMaker, which is really interesting to me. Like I'd love to play with that and have like an open II alternative
+
+00:53:42.920 --> 00:53:48.200
+ Maybe it's like 90 percent of opening. I don't know what gpt4 versus llama 2 looks like
+
+00:53:48.200 --> 00:53:52.760
+ But yeah to have that on your own AWS account running on a serverless SageMaker
+
+00:53:52.760 --> 00:53:55.320
+ You know inference endpoint. That's pretty cool
+
+00:53:55.320 --> 00:53:58.920
+ It's like a whole article walking through it. Yeah, it's a very important
+
+00:53:58.920 --> 00:54:04.680
+ Workflow to figure out for this to actually make it into products because that's kind of the limiter right now. That's why all the
+
+00:54:05.960 --> 00:54:08.840
+ AI products that are getting funded are just like
+
+00:54:08.840 --> 00:54:11.720
+ a UI wrapper
+
+00:54:11.720 --> 00:54:14.520
+ Because you just like the other stuff is it's too hard
+
+00:54:14.520 --> 00:54:18.360
+ But the scale of it the economics of it do not make sense like yeah
+
+00:54:18.360 --> 00:54:24.200
+ I can say as a company that has a lot of users like working for a company that has a lot of users
+
+00:54:24.200 --> 00:54:27.880
+ Uh, we can't just like outsource everything to open AI like
+
+00:54:27.880 --> 00:54:30.920
+ Most of our users don't pay us
+
+00:54:31.080 --> 00:54:36.920
+ Uh, there's like ad revenue and stuff, but like that it would have to be like training your own LLMs on
+
+00:54:36.920 --> 00:54:41.480
+ Much more economic infrastructure. So that yeah, that's exciting to me
+
+00:54:41.480 --> 00:54:45.720
+ I think able to be able to get there. I think like I do look at them as the only cloud that matters
+
+00:54:45.720 --> 00:54:50.840
+ I mean, I guess like I know you think about cloud flare and all these but like in terms of the big three like azure google
+
+00:54:50.840 --> 00:54:53.160
+ Yeah, I don't know. I just don't care about those things
+
+00:54:53.160 --> 00:54:55.320
+ They will get there and I want it to happen
+
+00:54:55.720 --> 00:55:01.160
+ Sooner than later because that also gives us as a like SST as a company an opportunity to like oh
+
+00:55:01.160 --> 00:55:04.280
+ Bring AI to people in a way they can actually
+
+00:55:04.280 --> 00:55:10.440
+ Uh use it at scale not just for like little toys. So that like I got i'm excited from that angle as a user
+
+00:55:10.440 --> 00:55:13.320
+ I'm also excited like boomy. We have it's really great
+
+00:55:13.320 --> 00:55:17.240
+ Uh feature that when a doctor goes to go see a patient
+
+00:55:17.240 --> 00:55:20.600
+ They get a nice summary of everything about the patient
+
+00:55:20.600 --> 00:55:24.520
+ So they don't have to like read through the charts. They know there's important things I need to know
+
+00:55:25.000 --> 00:55:31.080
+ Uh, and even we like like let us come with a prompt for open AI that generates a pretty good good
+
+00:55:31.080 --> 00:55:35.000
+ And that's a perfect use case because it doesn't have to be perfect because if it's
+
+00:55:35.000 --> 00:55:37.320
+ Misses a detail. It's like not the end of the world
+
+00:55:37.320 --> 00:55:39.640
+ It's just not like a crazy viability situation there
+
+00:55:39.640 --> 00:55:44.520
+ Like we can kind of send data to open AI as long as we don't say like
+
+00:55:44.520 --> 00:55:48.760
+ The person's name or who it is and open information but
+
+00:55:48.760 --> 00:55:54.040
+ Again, like there's there's a cost question. We like need to make sure that economically that all makes sense
+
+00:55:54.040 --> 00:55:58.600
+ I think it will for us because we're b2b. It's like everyone cares us and we can differ forward the cost
+
+00:55:58.600 --> 00:56:05.640
+ Uh, but like yeah, just like that complexity there like I need it in AWS and yeah, I like to see that it's coming
+
+00:56:05.640 --> 00:56:07.320
+ I'm excited
+
+00:56:07.320 --> 00:56:09.320
+ and now i'm excited that
+
+00:56:09.320 --> 00:56:14.840
+ A new material entered the world and it's gonna change everything and I don't care if it's still early. I'm buying it
+
+00:56:14.840 --> 00:56:17.000
+ buying it on the hype
+
+00:56:17.000 --> 00:56:21.480
+ Well, there's all those prediction market. Have you seen these prediction mark this concert prediction market?
+
+00:56:21.480 --> 00:56:25.720
+ You know what that is is this like futures like is this like a banking thing?
+
+00:56:25.720 --> 00:56:30.680
+ Yeah, basically. It's basically like I think it came out of the crypto world. I don't know if it existed outside of that
+
+00:56:30.680 --> 00:56:37.000
+ Basically, someone can create a bet. It's business betting. It's a bet for anything and people can place
+
+00:56:37.000 --> 00:56:41.800
+ Their bet on either side and that creates lines on like what people think
+
+00:56:41.800 --> 00:56:46.360
+ Oh, so there's like a line on whether this is gonna plan out. Yeah, pan out exactly. So
+
+00:56:47.640 --> 00:56:52.120
+ I think it's pretty low. I think it's like under 20% of people believe
+
+00:56:52.120 --> 00:56:59.240
+ That it will yeah, there's like only 20 percent. Oh, really? On the will side. Yeah, so most people are betting on the lower and lower
+
+00:56:59.240 --> 00:57:00.760
+ as like time
+
+00:57:00.760 --> 00:57:02.760
+ Huh? So
+
+00:57:02.760 --> 00:57:07.320
+ Everyone's mostly a pessimist. We're some of the few optimists out here. Is that what you're saying?
+
+00:57:07.320 --> 00:57:09.640
+ Yeah, I mean, I just wanted to be true so bad
+
+00:57:09.640 --> 00:57:15.080
+ I feel like those betters are very efficient though. I feel like lines are very efficient and they're good
+
+00:57:15.480 --> 00:57:19.480
+ Those prediction marks are interesting. They're like wisdom of the cards or whatever. Yeah, yeah
+
+00:57:19.480 --> 00:57:24.280
+ It's like if you have a jar of jelly beans. Have you ever heard that? No, what is that? No, I'm sure you've heard that
+
+00:57:24.280 --> 00:57:25.640
+ You've read 10 books
+
+00:57:25.640 --> 00:57:27.640
+ Uh, if you have like a jar of jelly beans
+
+00:57:27.640 --> 00:57:31.880
+ And you asked like one person to guess how many jelly beans are in there like they're never gonna be anywhere close
+
+00:57:31.880 --> 00:57:36.760
+ But if you ask like a hundred people and you average all of their responses pretty close. Oh, wow
+
+00:57:36.760 --> 00:57:42.520
+ It's interesting. Yeah, this is like there's science behind it. I always say that. I'm always like there's a paper or something
+
+00:57:43.560 --> 00:57:47.560
+ I don't just say these things lightly. Okay. I'm not so my best friends or scientists
+
+00:57:47.560 --> 00:57:55.800
+ Oh, really? I'm just kidding. I was like, I was like, that's what you're like. You're like, no, it's true. Yeah, I've got friends
+
+00:57:55.800 --> 00:57:57.800
+ That's what I should say. Yeah
+
+00:57:57.800 --> 00:58:05.400
+ Okay, all right. Well, I got a lot of work to do on astro astro site and astro SEC
+
+00:58:05.400 --> 00:58:10.280
+ So I'm gonna hop off here. Well, the world is changing underneath. Nice. That's work for that's work for me
+
+00:58:10.280 --> 00:58:13.320
+ You're doing work for me. Oh, yes. Sorry. Nice. I'm gonna give you some work
+
+00:58:13.560 --> 00:58:15.880
+ That's a good work. I don't know the work for me today
+
+00:58:15.880 --> 00:58:23.880
+ That's cool. This was fun. This was a good one. I don't know. I don't always feel at the end of it like that was a good one
+
+00:58:23.880 --> 00:58:30.440
+ This was a good one. Yeah, exciting day in general. Yeah, exciting day. The world is changing. Okay. Cool. Good acts
+
+00:58:43.560 --> 00:58:46.140
+ (gentle music)
+

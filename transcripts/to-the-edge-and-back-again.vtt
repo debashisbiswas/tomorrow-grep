@@ -1,0 +1,2882 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.840
+ - All right, that's what is the edge.
+
+00:00:02.840 --> 00:00:03.680
+ Can you tell me please?
+
+00:00:03.680 --> 00:00:06.640
+ - Oh my, no, no prepper, like no build up.
+
+00:00:06.640 --> 00:00:08.000
+ - No, just straight go.
+
+00:00:08.000 --> 00:00:08.840
+ - What is the edge?
+
+00:00:08.840 --> 00:00:12.960
+ - The edge is something everyone's talking about.
+
+00:00:12.960 --> 00:00:14.920
+ People can't get enough of the edge.
+
+00:00:14.920 --> 00:00:16.560
+ Everything has to be edge.
+
+00:00:16.560 --> 00:00:18.400
+ But what is it?
+
+00:00:18.400 --> 00:00:19.760
+ Does anyone do it actually?
+
+00:00:19.760 --> 00:00:21.880
+ - I don't know if anyone's really doing it.
+
+00:00:21.880 --> 00:00:24.460
+ (upbeat music)
+
+00:00:30.000 --> 00:00:32.580
+ (upbeat music)
+
+00:00:32.580 --> 00:00:49.760
+ - So I'm more seriously, so I did a video on this topic
+
+00:00:49.760 --> 00:00:51.400
+ just 'cause it was like coming up so much
+
+00:00:51.400 --> 00:00:52.880
+ and people asked about it so much.
+
+00:00:52.880 --> 00:00:54.240
+ - I feel bad that I haven't seen it.
+
+00:00:54.240 --> 00:00:55.680
+ Is this been up for a while?
+
+00:00:55.680 --> 00:00:57.600
+ Or have you not published it?
+
+00:00:57.600 --> 00:01:00.200
+ - No, I have, I mean, it wasn't anything crazy.
+
+00:01:00.200 --> 00:01:05.840
+ But yeah, I think it comes up a lot
+
+00:01:05.840 --> 00:01:08.240
+ because there's always like, you know,
+
+00:01:08.240 --> 00:01:10.400
+ the hype cycle always happens with everything.
+
+00:01:10.400 --> 00:01:12.400
+ There's a new concept.
+
+00:01:12.400 --> 00:01:13.760
+ It's genuinely exciting.
+
+00:01:13.760 --> 00:01:17.200
+ There's like genuinely really interesting things about it.
+
+00:01:17.200 --> 00:01:20.080
+ But because it's exciting, it gets talked about a lot.
+
+00:01:20.080 --> 00:01:21.960
+ And then it blows up.
+
+00:01:21.960 --> 00:01:25.920
+ People feel like everything is gonna be on this new thing.
+
+00:01:25.920 --> 00:01:27.320
+ Everything has to switch to it.
+
+00:01:27.320 --> 00:01:29.120
+ It's a future if you don't have it,
+
+00:01:29.120 --> 00:01:31.360
+ if you're not doing it, you're over.
+
+00:01:31.360 --> 00:01:32.640
+ - I feel that way.
+
+00:01:32.640 --> 00:01:33.840
+ - Yeah. (laughs)
+
+00:01:33.840 --> 00:01:35.400
+ I've gone through this process so many times
+
+00:01:35.400 --> 00:01:36.960
+ and one of the new thing comes, I still,
+
+00:01:36.960 --> 00:01:38.640
+ it just still sucks you in, it's really hard.
+
+00:01:38.640 --> 00:01:40.000
+ - Yeah.
+
+00:01:40.000 --> 00:01:41.800
+ - To like look at something objectively.
+
+00:01:41.800 --> 00:01:46.160
+ And then eventually at some point,
+
+00:01:46.160 --> 00:01:47.680
+ it goes the other way where people are like,
+
+00:01:47.680 --> 00:01:49.200
+ "This sucks, this is terrible."
+
+00:01:49.200 --> 00:01:50.580
+ Like we've all been lied to.
+
+00:01:50.580 --> 00:01:52.760
+ - I've seen that curve.
+
+00:01:52.760 --> 00:01:55.120
+ - And that's just the hype cycle curve.
+
+00:01:55.120 --> 00:01:56.760
+ I've definitely seen that where it's like,
+
+00:01:56.760 --> 00:01:59.920
+ it peaks and then crashes way low and then slowly.
+
+00:01:59.920 --> 00:02:01.600
+ So it will eventually be relevant
+
+00:02:01.600 --> 00:02:03.280
+ and we're just not there yet.
+
+00:02:03.280 --> 00:02:05.400
+ I feel like I've just seen this happen so many times
+
+00:02:05.400 --> 00:02:07.880
+ with literally every single thing that I'm like,
+
+00:02:07.880 --> 00:02:09.040
+ it just has to happen again.
+
+00:02:09.040 --> 00:02:11.640
+ Like this is what we do as an industry.
+
+00:02:11.640 --> 00:02:14.280
+ So it's the tech not there yet.
+
+00:02:14.280 --> 00:02:16.160
+ 'Cause like I know next JSConf,
+
+00:02:16.160 --> 00:02:18.080
+ they're getting ready to talk about the edge
+
+00:02:18.080 --> 00:02:20.640
+ like nonstop for a whole day from what I've gathered,
+
+00:02:20.640 --> 00:02:21.480
+ from tweets.
+
+00:02:21.480 --> 00:02:23.280
+ Is it just not there yet?
+
+00:02:23.280 --> 00:02:25.880
+ - I think it's, I don't think it's,
+
+00:02:25.880 --> 00:02:27.400
+ I think it's more like,
+
+00:02:27.400 --> 00:02:30.880
+ with like with every single thing in engineering,
+
+00:02:30.880 --> 00:02:32.120
+ there's always trade offs.
+
+00:02:32.120 --> 00:02:33.680
+ And if you make one thing better,
+
+00:02:33.680 --> 00:02:36.280
+ you're making another thing worse.
+
+00:02:36.280 --> 00:02:37.520
+ The edge isn't magic.
+
+00:02:37.520 --> 00:02:42.600
+ It's so is subject to distributed systems rules.
+
+00:02:42.600 --> 00:02:43.720
+ If you move stuff,
+
+00:02:43.720 --> 00:02:46.520
+ if you move some things closer to your users,
+
+00:02:46.520 --> 00:02:48.000
+ now those things are further away
+
+00:02:48.000 --> 00:02:49.000
+ from some of your other stuff.
+
+00:02:49.000 --> 00:02:50.720
+ So you're paying the price somewhere else.
+
+00:02:50.720 --> 00:02:52.760
+ - Is this the kind of point out with the cap theorem?
+
+00:02:52.760 --> 00:02:53.600
+ Sorry, I just keep it.
+
+00:02:53.600 --> 00:02:54.440
+ - Yeah, exactly, exactly.
+
+00:02:54.440 --> 00:02:56.000
+ The cap theorem still applies.
+
+00:02:56.000 --> 00:02:58.400
+ You still have to do with all those issues.
+
+00:02:58.400 --> 00:02:59.400
+ And I think a lot of these services
+
+00:02:59.400 --> 00:03:02.040
+ have done a good job moving your front end to the edge,
+
+00:03:02.040 --> 00:03:03.040
+ which makes a lot of sense.
+
+00:03:03.040 --> 00:03:06.960
+ Like that's like the least computationally heavy,
+
+00:03:06.960 --> 00:03:09.200
+ state heavy thing in your whole architecture.
+
+00:03:09.200 --> 00:03:12.520
+ - So just like the files sitting on a CDN,
+
+00:03:12.520 --> 00:03:14.360
+ like that's, they're at the edge.
+
+00:03:14.360 --> 00:03:15.800
+ You get them quickly,
+
+00:03:15.800 --> 00:03:18.600
+ but then all your API calls and things like that
+
+00:03:18.600 --> 00:03:20.280
+ are slow because they're not the edge.
+
+00:03:20.280 --> 00:03:22.640
+ - Yeah, they still go to a region, like a centralized region.
+
+00:03:22.640 --> 00:03:24.800
+ Or maybe you have multiple regions, whatever it is.
+
+00:03:24.800 --> 00:03:27.400
+ You know, that, you know, it's pretty good
+
+00:03:27.400 --> 00:03:29.320
+ for certain architectures.
+
+00:03:29.320 --> 00:03:30.840
+ But now we have like computing at the edge
+
+00:03:30.840 --> 00:03:33.560
+ where you're moving your business logic to the edge.
+
+00:03:33.560 --> 00:03:34.960
+ And that feels great 'cause like,
+
+00:03:34.960 --> 00:03:36.040
+ oh, the user is right there.
+
+00:03:36.040 --> 00:03:37.160
+ The business logic is right there.
+
+00:03:37.160 --> 00:03:38.600
+ It's gonna be instant.
+
+00:03:38.600 --> 00:03:40.560
+ But then it's kind of like, okay,
+
+00:03:40.560 --> 00:03:42.520
+ but your business logic still needs to write things
+
+00:03:42.520 --> 00:03:45.800
+ to a database, which is probably still in a regional zone.
+
+00:03:45.800 --> 00:03:48.480
+ So now every round trip is more expensive.
+
+00:03:48.480 --> 00:03:49.640
+ Is this all actually worth it?
+
+00:03:49.640 --> 00:03:50.960
+ Things might actually be slower.
+
+00:03:50.960 --> 00:03:53.320
+ Your compute and your database are now separated
+
+00:03:53.320 --> 00:03:56.280
+ geographically and that's slow.
+
+00:03:56.280 --> 00:03:58.200
+ Can you just put everything on the edge?
+
+00:03:58.200 --> 00:03:59.920
+ I know people talk about like SQLite.
+
+00:03:59.920 --> 00:04:01.880
+ Can you just put SQLite databases everywhere on the edge?
+
+00:04:01.880 --> 00:04:02.720
+ How does that work?
+
+00:04:02.720 --> 00:04:04.520
+ How do they all stay in sync?
+
+00:04:04.520 --> 00:04:05.920
+ - Well, so that's the next problem.
+
+00:04:05.920 --> 00:04:08.320
+ Okay, so now let's move the database to the edge.
+
+00:04:08.320 --> 00:04:09.720
+ Now it feels like we solved it,
+
+00:04:09.720 --> 00:04:12.080
+ but now your database is further away
+
+00:04:12.080 --> 00:04:14.480
+ from other database nodes than it used to be.
+
+00:04:14.480 --> 00:04:16.960
+ It has a whole new suite of problems there.
+
+00:04:16.960 --> 00:04:18.920
+ And you know, all that SQLite stuff is really interesting.
+
+00:04:18.920 --> 00:04:21.320
+ Like they're good options.
+
+00:04:21.320 --> 00:04:22.440
+ I think we're just kind of like,
+
+00:04:22.440 --> 00:04:24.760
+ I feel like all of the cloud has just been,
+
+00:04:24.760 --> 00:04:26.520
+ we optimize for one use case,
+
+00:04:26.520 --> 00:04:27.960
+ then we flip like the decisions
+
+00:04:27.960 --> 00:04:29.600
+ and now you have a different set of things
+
+00:04:29.600 --> 00:04:31.000
+ you optimize for that you flip it
+
+00:04:31.000 --> 00:04:33.520
+ and you have a different set of things you optimize for.
+
+00:04:33.520 --> 00:04:35.240
+ So the SQLite stuff, pretty interesting,
+
+00:04:35.240 --> 00:04:37.520
+ like reads at the edge that are eventually consistent,
+
+00:04:37.520 --> 00:04:40.440
+ all your rights will go to a single place.
+
+00:04:40.440 --> 00:04:42.480
+ I think for some stuff that could be cool.
+
+00:04:42.480 --> 00:04:44.320
+ Do I think every single thing is gonna move to that?
+
+00:04:44.320 --> 00:04:46.640
+ No, I think my proof is,
+
+00:04:46.640 --> 00:04:48.720
+ I mean, I have a question for you,
+
+00:04:48.720 --> 00:04:51.120
+ like how often do you even see companies
+
+00:04:51.120 --> 00:04:52.880
+ operating in multiple regions?
+
+00:04:52.880 --> 00:04:54.920
+ Like if I'm rarely ever something like that?
+
+00:04:54.920 --> 00:04:55.760
+ Yeah.
+
+00:04:55.760 --> 00:04:56.600
+ Yeah.
+
+00:04:56.600 --> 00:04:57.680
+ So if people haven't,
+
+00:04:57.680 --> 00:04:59.640
+ the option to operate in multiple regions
+
+00:04:59.640 --> 00:05:02.400
+ has been possible forever.
+
+00:05:02.400 --> 00:05:05.400
+ Very few companies opt to do that
+
+00:05:05.400 --> 00:05:08.280
+ 'cause it comes with trade-offs, difficulty, et cetera.
+
+00:05:08.280 --> 00:05:10.800
+ So if you haven't even done multiple regions,
+
+00:05:10.800 --> 00:05:14.240
+ like doing edge is like doing a thousand regions, right?
+
+00:05:14.240 --> 00:05:17.360
+ So, yeah, it's challenging.
+
+00:05:17.360 --> 00:05:21.640
+ So like if you think about Vercel and Next.js Conf,
+
+00:05:21.640 --> 00:05:23.520
+ they're gonna be talking a lot about,
+
+00:05:23.520 --> 00:05:25.160
+ 'cause you can basically do,
+
+00:05:25.160 --> 00:05:27.400
+ you're not an Next.js user, I forget.
+
+00:05:27.400 --> 00:05:30.480
+ But you can run like your API routes in Next.js
+
+00:05:30.480 --> 00:05:33.200
+ or your SSR at the edge now.
+
+00:05:33.200 --> 00:05:35.560
+ I know that was like a recent thing.
+
+00:05:35.560 --> 00:05:38.440
+ But like, is it just, are they just glossing over?
+
+00:05:38.440 --> 00:05:41.760
+ Does anyone talk about what you do with your data store?
+
+00:05:41.760 --> 00:05:43.520
+ I've never heard Vercel talk about that,
+
+00:05:43.520 --> 00:05:44.600
+ but if I just missed it?
+
+00:05:44.600 --> 00:05:47.320
+ No, I honestly don't know either.
+
+00:05:47.320 --> 00:05:48.520
+ And we see a lot of people.
+
+00:05:48.520 --> 00:05:50.880
+ So I think the edge stuff is great.
+
+00:05:50.880 --> 00:05:53.480
+ You can move more, like you're back into your edge,
+
+00:05:53.480 --> 00:05:55.600
+ but people end up moving their whole back into the edge.
+
+00:05:55.600 --> 00:05:58.080
+ So they don't have like an API anymore.
+
+00:05:58.080 --> 00:05:59.160
+ That's regional.
+
+00:05:59.160 --> 00:06:00.000
+ Yeah.
+
+00:06:00.000 --> 00:06:01.160
+ And then stuff starts to be slow.
+
+00:06:01.160 --> 00:06:03.600
+ Like the round trips, like it's at a database or slow.
+
+00:06:03.600 --> 00:06:04.920
+ I had an ideal setup,
+
+00:06:04.920 --> 00:06:07.360
+ which is probably too extreme for most companies,
+
+00:06:07.360 --> 00:06:10.800
+ but the ideal setup is your Next.js.
+
+00:06:10.800 --> 00:06:15.800
+ Next.js, next.js app deployed to the edge,
+
+00:06:15.800 --> 00:06:20.080
+ but the back, but it's not talking to your database.
+
+00:06:20.080 --> 00:06:21.920
+ It's talking to a regional API,
+
+00:06:21.920 --> 00:06:23.080
+ like a GraphQL API, whatever,
+
+00:06:23.080 --> 00:06:24.320
+ AppSync API, whatever it is.
+
+00:06:24.320 --> 00:06:26.200
+ And then that talks to your database.
+
+00:06:26.200 --> 00:06:29.360
+ That way your edge to regional can still be a single round trip
+
+00:06:29.360 --> 00:06:31.080
+ 'cause GraphQL, you can kind of like batch
+
+00:06:31.080 --> 00:06:33.720
+ everything you need into a single request.
+
+00:06:33.720 --> 00:06:35.920
+ Then you can do as many round trips with the databases you want
+
+00:06:35.920 --> 00:06:38.200
+ 'cause your regional API is close to it
+
+00:06:38.200 --> 00:06:39.040
+ like the response back.
+
+00:06:39.040 --> 00:06:41.560
+ I think that's like the ideal setup,
+
+00:06:41.560 --> 00:06:43.240
+ but I think people are not pursuing it as,
+
+00:06:43.240 --> 00:06:44.960
+ oh, I don't need that regional API.
+
+00:06:44.960 --> 00:06:48.320
+ So the regional API just lives like in U.S. East one
+
+00:06:48.320 --> 00:06:49.640
+ or something, if you're dumb.
+
+00:06:49.640 --> 00:06:52.200
+ And everyone else, yeah.
+
+00:06:52.200 --> 00:06:55.880
+ So if in that scenario, your Next.js API route
+
+00:06:55.880 --> 00:06:58.920
+ is maybe hitting from like central Europe,
+
+00:06:58.920 --> 00:07:03.120
+ it's going across and hitting the U.S. data center.
+
+00:07:03.120 --> 00:07:04.840
+ So that's the slow part.
+
+00:07:04.840 --> 00:07:06.040
+ But how does that manifest?
+
+00:07:06.040 --> 00:07:07.200
+ I'm just trying to think through,
+
+00:07:07.200 --> 00:07:10.200
+ that's the other thing I started thinking about is like
+
+00:07:10.200 --> 00:07:13.640
+ on the right side, like on mutations in a GraphQL sense,
+
+00:07:13.640 --> 00:07:15.440
+ how much does it even matter?
+
+00:07:15.440 --> 00:07:16.320
+ How much does performance,
+
+00:07:16.320 --> 00:07:18.160
+ like I started getting really into nerding out on this stuff
+
+00:07:18.160 --> 00:07:19.920
+ and then it's like, if you just optimistically
+
+00:07:19.920 --> 00:07:22.560
+ like update your UI, does any of it matter?
+
+00:07:22.560 --> 00:07:24.960
+ - I don't think it does.
+
+00:07:24.960 --> 00:07:29.680
+ My whole thing with this is we have tools
+
+00:07:29.680 --> 00:07:33.000
+ to capture certain metrics, like all the White House scores.
+
+00:07:33.000 --> 00:07:34.400
+ That captures, like I said, a metrics
+
+00:07:34.400 --> 00:07:38.720
+ and everyone knows them, so we can optimize for those.
+
+00:07:38.720 --> 00:07:41.000
+ But we don't have tools to measure other stuff.
+
+00:07:41.000 --> 00:07:44.040
+ Like when someone uses an app, does it feel fast?
+
+00:07:44.040 --> 00:07:47.440
+ Like you can't pull every user and say like, how does this feel?
+
+00:07:47.440 --> 00:07:52.280
+ I found that most of the answer to this is that feel fast
+
+00:07:52.280 --> 00:07:54.400
+ doesn't come from these like architectural things.
+
+00:07:54.400 --> 00:07:55.400
+ It comes from what you're talking about,
+
+00:07:55.400 --> 00:07:56.720
+ like little tricks that you do.
+
+00:07:56.720 --> 00:07:58.200
+ And you have to like lie to the user
+
+00:07:58.200 --> 00:07:59.840
+ and make it seem like something happened instantly
+
+00:07:59.840 --> 00:08:00.960
+ when it didn't.
+
+00:08:00.960 --> 00:08:02.720
+ That's where you get the snappy feeling apps from.
+
+00:08:02.720 --> 00:08:05.560
+ Like things like linear, superhuman, like things like that.
+
+00:08:05.560 --> 00:08:07.840
+ It doesn't really come from this stuff.
+
+00:08:07.840 --> 00:08:09.840
+ Like all of those systems,
+
+00:08:09.840 --> 00:08:11.840
+ they're not like these crazy edge rendered things.
+
+00:08:11.840 --> 00:08:14.600
+ They're like old school SPA's.
+
+00:08:14.600 --> 00:08:16.840
+ I'm saying old school now because apparently SPA is.
+
+00:08:16.840 --> 00:08:18.040
+ - We've bent away from that.
+
+00:08:18.040 --> 00:08:19.720
+ And that's another thing I just want to talk to you about.
+
+00:08:19.720 --> 00:08:22.040
+ And I don't know, we'll get into something AWS
+
+00:08:22.040 --> 00:08:23.040
+ at some point, I'm sure.
+
+00:08:23.040 --> 00:08:25.480
+ But the whole like MPA, SPA,
+
+00:08:25.480 --> 00:08:27.200
+ the whole dialogue around web right now,
+
+00:08:27.200 --> 00:08:29.160
+ honestly, it confuses me.
+
+00:08:29.160 --> 00:08:31.040
+ I don't even, I feel like I don't know enough
+
+00:08:31.040 --> 00:08:32.920
+ to even engage in that conversation.
+
+00:08:32.920 --> 00:08:34.480
+ I see really smart people talking about it
+
+00:08:34.480 --> 00:08:36.520
+ and like I'll literally read their tweets,
+
+00:08:36.520 --> 00:08:37.800
+ like really smart people.
+
+00:08:37.800 --> 00:08:39.560
+ I'll read them and I just can't even comprehend
+
+00:08:39.560 --> 00:08:40.400
+ what they're saying.
+
+00:08:40.400 --> 00:08:41.760
+ Do you understand that whole debate
+
+00:08:41.760 --> 00:08:43.040
+ and like where things are going?
+
+00:08:43.040 --> 00:08:44.680
+ Cause I just don't get it.
+
+00:08:44.680 --> 00:08:45.520
+ - Very little.
+
+00:08:45.520 --> 00:08:49.200
+ I definitely understand what these options are.
+
+00:08:49.200 --> 00:08:52.120
+ But like within the options that like the user understands,
+
+00:08:52.120 --> 00:08:53.440
+ there's like all these sub options.
+
+00:08:53.440 --> 00:08:55.280
+ And I think it's mostly framework authors talking
+
+00:08:55.280 --> 00:08:56.880
+ with each other on that, which makes sense.
+
+00:08:56.880 --> 00:09:00.080
+ Like we're never really gonna be able to keep up with that.
+
+00:09:01.160 --> 00:09:05.760
+ But I'm also confused because I work on like actual products
+
+00:09:05.760 --> 00:09:08.320
+ and I like try to make them fast, make them feel snappy.
+
+00:09:08.320 --> 00:09:09.600
+ And there's things that I'm doing
+
+00:09:09.600 --> 00:09:11.400
+ and there's things that I care about.
+
+00:09:11.400 --> 00:09:13.760
+ Then I look at the conversation about performance
+
+00:09:13.760 --> 00:09:17.120
+ and I'm like, I'm not doing any of those things.
+
+00:09:17.120 --> 00:09:18.000
+ Is that bad?
+
+00:09:18.000 --> 00:09:20.760
+ Am I like optimizing for this thing that's gonna be dead?
+
+00:09:20.760 --> 00:09:22.840
+ Like I'm also like, you know, working,
+
+00:09:22.840 --> 00:09:25.120
+ like we work, like we're building stuff for developers.
+
+00:09:25.120 --> 00:09:25.960
+ We wanna make sure we're aligned
+
+00:09:25.960 --> 00:09:27.440
+ with where things are going.
+
+00:09:27.440 --> 00:09:28.920
+ But again, it's the same hype cycle, right?
+
+00:09:28.920 --> 00:09:31.520
+ I don't think it fully makes sense,
+
+00:09:31.520 --> 00:09:34.600
+ but you know, the energy around it's impossible to get sucked in.
+
+00:09:34.600 --> 00:09:38.160
+ And what is the hype cycle on the whole MPA side?
+
+00:09:38.160 --> 00:09:41.840
+ Like is the hype cycle that things like streaming
+
+00:09:41.840 --> 00:09:43.120
+ at the edge matter?
+
+00:09:43.120 --> 00:09:43.960
+ I don't even know.
+
+00:09:43.960 --> 00:09:46.520
+ I literally just can't even follow the conversation.
+
+00:09:46.520 --> 00:09:48.320
+ Like is there, is part of that on the hype cycle
+
+00:09:48.320 --> 00:09:50.160
+ outside of the edge stuff?
+
+00:09:50.160 --> 00:09:52.920
+ Yeah, I definitely would say there's definitely
+
+00:09:52.920 --> 00:09:56.720
+ I see conversations with, oh, you're using an SPA,
+
+00:09:56.720 --> 00:09:59.560
+ that's bad, you need to be doing SSR.
+
+00:09:59.560 --> 00:10:00.960
+ Everything needs to be SSR.
+
+00:10:00.960 --> 00:10:02.880
+ If it's not SSR, it has bad performance.
+
+00:10:02.880 --> 00:10:05.480
+ Yeah, computers should be as like a C way of doing things.
+
+00:10:05.480 --> 00:10:08.960
+ If you see that, it's probably someone being tricked
+
+00:10:08.960 --> 00:10:09.960
+ to use an SPA one day.
+
+00:10:09.960 --> 00:10:12.400
+ Like it's just like, you know, the usual things
+
+00:10:12.400 --> 00:10:13.240
+ that you hear.
+
+00:10:13.240 --> 00:10:16.360
+ But I think there's a lot of things
+
+00:10:16.360 --> 00:10:19.000
+ that make sense as SSR.
+
+00:10:19.000 --> 00:10:22.280
+ I literally never, my whole career, I never worked.
+
+00:10:22.280 --> 00:10:24.760
+ I generally don't work on stuff that's like public.
+
+00:10:24.760 --> 00:10:28.120
+ I work on stuff that's like a BDB SaaS application.
+
+00:10:28.120 --> 00:10:30.240
+ So it's for a specific number of users
+
+00:10:30.240 --> 00:10:31.760
+ and that's not the whole internet.
+
+00:10:31.760 --> 00:10:34.640
+ And you don't need to worry about like the initial payloads
+
+00:10:34.640 --> 00:10:38.080
+ and all that stuff, like how big the bundles are or whatever.
+
+00:10:38.080 --> 00:10:40.240
+ Yeah, it's like something like use it for like hours
+
+00:10:40.240 --> 00:10:42.160
+ at a time because it's like a productivity tool.
+
+00:10:42.160 --> 00:10:43.600
+ So who cares about the initial load
+
+00:10:43.600 --> 00:10:46.560
+ when it's like 0.001% of the whole session?
+
+00:10:46.560 --> 00:10:47.800
+ Yeah.
+
+00:10:47.800 --> 00:10:52.040
+ The joke I made about the obsession with SSR was
+
+00:10:52.040 --> 00:10:55.480
+ everyone is optimizing for sites where people land,
+
+00:10:55.480 --> 00:10:57.760
+ leave as fast as possible and never come back.
+
+00:10:57.760 --> 00:10:58.600
+ Yeah.
+
+00:10:58.600 --> 00:11:00.280
+ So I think that's part of the problem.
+
+00:11:00.280 --> 00:11:03.200
+ The thing is so hard in like all this debate
+
+00:11:03.200 --> 00:11:05.240
+ and just thinking about new greenfield projects,
+
+00:11:05.240 --> 00:11:06.560
+ I'm just always trying to build new stuff.
+
+00:11:06.560 --> 00:11:07.680
+ I think part of it's just playing
+
+00:11:07.680 --> 00:11:10.760
+ with different new stuff, stacks and whatever.
+
+00:11:10.760 --> 00:11:13.840
+ But it's like, I can't even understand
+
+00:11:13.840 --> 00:11:16.920
+ the different types of things that get deployed to the web.
+
+00:11:16.920 --> 00:11:18.920
+ And I know people talk about like apps versus sites,
+
+00:11:18.920 --> 00:11:20.640
+ but it's way more complicated than that, right?
+
+00:11:20.640 --> 00:11:22.240
+ Like do you have a good handle on that stuff?
+
+00:11:22.240 --> 00:11:23.960
+ I'm just asking you random questions at this point.
+
+00:11:23.960 --> 00:11:25.600
+ It's just like it's none of this stuff
+
+00:11:25.600 --> 00:11:27.640
+ is like bray sound in a clean category.
+
+00:11:27.640 --> 00:11:30.200
+ It's like even the app versus site thing, there's,
+
+00:11:30.200 --> 00:11:33.960
+ so we have, so as I see we have our docs page.
+
+00:11:33.960 --> 00:11:34.800
+ Yeah.
+
+00:11:34.800 --> 00:11:35.640
+ So sorry, docs site.
+
+00:11:35.640 --> 00:11:36.480
+ So that's definitely like a site.
+
+00:11:36.480 --> 00:11:40.560
+ It's not an app you use, but even there,
+
+00:11:40.560 --> 00:11:45.560
+ there's like client side routing versus server side routing.
+
+00:11:45.560 --> 00:11:48.480
+ It could be a site that people, for documentation,
+
+00:11:48.480 --> 00:11:50.000
+ you might sit there and go to literally
+
+00:11:50.000 --> 00:11:53.160
+ every single page and read everything.
+
+00:11:53.160 --> 00:11:55.880
+ So it makes sense to use client side routing.
+
+00:11:55.880 --> 00:11:58.600
+ So things like feel fast and you navigate.
+
+00:11:58.600 --> 00:12:00.160
+ But if people are landing there through Google
+
+00:12:00.160 --> 00:12:02.640
+ and like reading one thing and leaving,
+
+00:12:02.640 --> 00:12:06.760
+ you know, then maybe you want to use server side or MPA,
+
+00:12:06.760 --> 00:12:09.360
+ I guess it's called like all these acronyms are jumbled.
+
+00:12:09.360 --> 00:12:12.520
+ So yeah, it's just hard.
+
+00:12:12.520 --> 00:12:15.720
+ Like I think ultimately things matter.
+
+00:12:15.720 --> 00:12:17.000
+ Yeah, it doesn't matter.
+
+00:12:17.000 --> 00:12:19.840
+ Yeah, I mean, I go back to like the levels
+
+00:12:19.840 --> 00:12:24.120
+ I owe like the Peter levels, like single PHP page,
+
+00:12:24.120 --> 00:12:26.040
+ remote okay or whatever.
+
+00:12:26.040 --> 00:12:26.880
+ Yeah.
+
+00:12:26.880 --> 00:12:30.200
+ So we don't care and we want to put that caring,
+
+00:12:30.200 --> 00:12:32.880
+ like we want to project that caring onto something
+
+00:12:32.880 --> 00:12:34.680
+ and there's things that are out there that are like,
+
+00:12:34.680 --> 00:12:36.680
+ okay, if you care like do X, Y, Z.
+
+00:12:36.680 --> 00:12:39.040
+ So I mean, there's a lot out there that are saying,
+
+00:12:39.040 --> 00:12:40.640
+ if you care, use this.
+
+00:12:40.640 --> 00:12:44.200
+ So all you have to do is care, you'll find something.
+
+00:12:44.200 --> 00:12:46.880
+ If you care, like you'll make it, you'll make it work well.
+
+00:12:46.880 --> 00:12:49.840
+ So what is your, if it's not, if edge is just part
+
+00:12:49.840 --> 00:12:52.120
+ of the hype cycle right now and doesn't matter
+
+00:12:52.120 --> 00:12:54.920
+ that much maybe and we're just all really excited,
+
+00:12:54.920 --> 00:12:57.600
+ what is the thing that does matter a lot you think right now?
+
+00:12:57.600 --> 00:13:00.440
+ What's something like in terms of performance
+
+00:13:00.440 --> 00:13:03.680
+ and in terms of building apps for devs like today?
+
+00:13:03.680 --> 00:13:04.520
+ Just general purpose.
+
+00:13:04.520 --> 00:13:06.080
+ I know there's so many different types of use cases,
+
+00:13:06.080 --> 00:13:08.120
+ but is there something that's further along the hype cycle
+
+00:13:08.120 --> 00:13:10.680
+ that's actually maturing that you're excited about?
+
+00:13:10.680 --> 00:13:15.880
+ Yeah, I do think like event driven architecture is something,
+
+00:13:15.880 --> 00:13:19.320
+ I think past the hype cycle and lots of people
+
+00:13:19.320 --> 00:13:21.200
+ using in production, real companies,
+
+00:13:21.200 --> 00:13:23.960
+ like lots of new interesting things with that.
+
+00:13:23.960 --> 00:13:29.560
+ And yeah, I think, I mean, that's like all my work is
+
+00:13:29.560 --> 00:13:31.920
+ in that category as well.
+
+00:13:31.920 --> 00:13:35.920
+ Is that just the more, is that like the better way
+
+00:13:35.920 --> 00:13:37.560
+ to put serverless these days?
+
+00:13:37.560 --> 00:13:41.560
+ Like, is that kind of like serverless was too,
+
+00:13:41.560 --> 00:13:42.720
+ like lumped in with too many things?
+
+00:13:42.720 --> 00:13:44.200
+ So now we say event driven applications
+
+00:13:44.200 --> 00:13:45.680
+ or is it like you can build a serverless app
+
+00:13:45.680 --> 00:13:47.440
+ and not be event driven?
+
+00:13:47.440 --> 00:13:49.840
+ Yeah, I know, I just know people hate the term serverless.
+
+00:13:49.840 --> 00:13:53.480
+ I've, I like, yeah, I don't have a problem with it,
+
+00:13:53.480 --> 00:13:56.160
+ but it means the thing and I know it kind of means.
+
+00:13:56.160 --> 00:13:58.720
+ Yeah, I get what people are talking about.
+
+00:13:58.720 --> 00:14:00.200
+ But I think it just has baggage.
+
+00:14:00.200 --> 00:14:03.600
+ So now I say, 'cause when I say, you know,
+
+00:14:03.600 --> 00:14:05.720
+ we're trying to make people use serverless
+
+00:14:05.720 --> 00:14:08.200
+ so like you should use serverless people, I don't know,
+
+00:14:08.200 --> 00:14:10.960
+ there's just some like projection that happens with it.
+
+00:14:10.960 --> 00:14:13.720
+ So when I say event driven architecture,
+
+00:14:13.720 --> 00:14:15.160
+ I feel like that's what I care about.
+
+00:14:15.160 --> 00:14:18.240
+ I think event driven architecture allows
+
+00:14:18.240 --> 00:14:19.680
+ for a lot of things to be serverless.
+
+00:14:19.680 --> 00:14:22.200
+ So it's unlikely you'll be doing that
+
+00:14:22.200 --> 00:14:23.840
+ and also not being serverless.
+
+00:14:23.840 --> 00:14:28.080
+ But it does like whenever I start talking about like,
+
+00:14:28.080 --> 00:14:31.880
+ so I asked on Twitter, like why people avoid AWS
+
+00:14:31.880 --> 00:14:35.320
+ and a lot of people respond in the way I expect,
+
+00:14:35.320 --> 00:14:38.720
+ which is they're used to like deploying their thing
+
+00:14:38.720 --> 00:14:43.040
+ and putting it on a VPS or a VM or something,
+
+00:14:43.040 --> 00:14:46.160
+ digital ocean droplet and like AWS is more expensive
+
+00:14:46.160 --> 00:14:48.200
+ or more confusing or whatever when I just need to do that.
+
+00:14:48.200 --> 00:14:50.400
+ But I think like that's the 15 years old way
+
+00:14:50.400 --> 00:14:52.920
+ of doing app development.
+
+00:14:52.920 --> 00:14:54.960
+ And, but I hate using the term like monolith.
+
+00:14:54.960 --> 00:14:56.320
+ I don't want to be like,
+
+00:14:56.320 --> 00:14:58.520
+ oh, you shouldn't build a monolith and deploy it on a VM.
+
+00:14:58.520 --> 00:15:00.840
+ It's more just like, you shouldn't have to deploy on a VM
+
+00:15:00.840 --> 00:15:04.040
+ and think about VMs or OSs or any of that stuff.
+
+00:15:04.040 --> 00:15:04.960
+ That's the thing that's important to me.
+
+00:15:04.960 --> 00:15:09.000
+ But I hate using words like distributed and monolith.
+
+00:15:09.000 --> 00:15:11.440
+ And I feel like that's not getting it to thing I care about.
+
+00:15:11.440 --> 00:15:12.760
+ Does that make sense to you?
+
+00:15:12.760 --> 00:15:14.840
+ - Yeah, I totally relate to that.
+
+00:15:14.840 --> 00:15:16.960
+ I like monoliths because I like understanding
+
+00:15:16.960 --> 00:15:17.800
+ everything that's going on.
+
+00:15:17.800 --> 00:15:20.720
+ I don't want like a million separate things that, you know,
+
+00:15:20.720 --> 00:15:23.520
+ I just never worked at a company at this scale where,
+
+00:15:23.520 --> 00:15:25.760
+ but under this scale, I mean like number of employees
+
+00:15:25.760 --> 00:15:27.120
+ where that made sense.
+
+00:15:27.120 --> 00:15:27.960
+ - Yeah, same.
+
+00:15:27.960 --> 00:15:28.800
+ - I like monoliths.
+
+00:15:28.800 --> 00:15:30.560
+ I just don't want to have something running all the time.
+
+00:15:30.560 --> 00:15:32.240
+ The thing I like about the reason I've been using
+
+00:15:32.240 --> 00:15:35.080
+ the Ray's event driven architecture more is,
+
+00:15:35.080 --> 00:15:38.320
+ the idea I like is that your system doesn't exist
+
+00:15:38.320 --> 00:15:40.040
+ unless it's processing some work.
+
+00:15:41.680 --> 00:15:44.080
+ - Okay, yeah, I like that.
+
+00:15:44.080 --> 00:15:46.560
+ I mean, that's the skills to zero kind of thing.
+
+00:15:46.560 --> 00:15:47.400
+ - Yeah, exactly.
+
+00:15:47.400 --> 00:15:49.880
+ Unless there's a request that someone asked for,
+
+00:15:49.880 --> 00:15:51.640
+ it's like your system does not, there's nothing running,
+
+00:15:51.640 --> 00:15:54.200
+ there's no VM running, you're not getting charged for that.
+
+00:15:54.200 --> 00:15:56.920
+ It's not something that can like turn into a memory leak,
+
+00:15:56.920 --> 00:15:57.760
+ whatever.
+
+00:15:57.760 --> 00:15:59.160
+ It's a whole class of problems that go away.
+
+00:15:59.160 --> 00:16:01.240
+ And yeah, it's tough because it's one of those things
+
+00:16:01.240 --> 00:16:02.800
+ where it seems like minor.
+
+00:16:02.800 --> 00:16:06.240
+ Like what's the difference between a VM always running
+
+00:16:06.240 --> 00:16:07.880
+ and what I'm describing?
+
+00:16:07.880 --> 00:16:10.160
+ There's just like a million downstream effects that,
+
+00:16:10.160 --> 00:16:11.680
+ once you start using it, you're like,
+
+00:16:11.680 --> 00:16:13.480
+ oh, I don't have to deal with this anymore.
+
+00:16:13.480 --> 00:16:15.400
+ - Yeah, well, like I've been in the world
+
+00:16:15.400 --> 00:16:17.240
+ where you deploy apps to VMs
+
+00:16:17.240 --> 00:16:18.440
+ and you have to think about those VMs
+
+00:16:18.440 --> 00:16:20.400
+ and a disk fills up or something.
+
+00:16:20.400 --> 00:16:21.240
+ Something annoying like that.
+
+00:16:21.240 --> 00:16:23.840
+ And that's the kind of stuff I never want to think about again.
+
+00:16:23.840 --> 00:16:25.520
+ And that's, I guess, the promise
+
+00:16:25.520 --> 00:16:27.480
+ and what I love about building serverless apps.
+
+00:16:27.480 --> 00:16:30.440
+ But I guess I want to go back to the monolith thing.
+
+00:16:30.440 --> 00:16:33.360
+ So event driven architectures, does that not imply,
+
+00:16:33.360 --> 00:16:35.400
+ like it's not a monolith somehow?
+
+00:16:35.400 --> 00:16:37.200
+ Like I feel like those two terms are sort of like,
+
+00:16:37.200 --> 00:16:39.320
+ at conflict and I can't figure out why.
+
+00:16:39.320 --> 00:16:42.160
+ - Yeah, I think again, that's why I feel like
+
+00:16:42.160 --> 00:16:43.600
+ we have to make up new terms for everything
+
+00:16:43.600 --> 00:16:44.720
+ because everything just has baggage.
+
+00:16:44.720 --> 00:16:47.520
+ So when people, I think historically it was like,
+
+00:16:47.520 --> 00:16:49.640
+ your application is a monolith,
+
+00:16:49.640 --> 00:16:51.160
+ meaning it runs in one process.
+
+00:16:51.160 --> 00:16:52.960
+ You should break it up into microservices.
+
+00:16:52.960 --> 00:16:54.440
+ So it's not a monolith.
+
+00:16:54.440 --> 00:16:58.160
+ And therefore monolith meant not distributed
+
+00:16:58.160 --> 00:17:00.360
+ and not monolith meant distributed.
+
+00:17:00.360 --> 00:17:04.400
+ But for me, I think when I say I'm here monolith,
+
+00:17:04.400 --> 00:17:06.520
+ I just mean when you're writing code,
+
+00:17:06.520 --> 00:17:09.040
+ when you're authoring code, it feels like one system
+
+00:17:09.040 --> 00:17:10.160
+ that you're working on.
+
+00:17:10.160 --> 00:17:11.000
+ - Yeah.
+
+00:17:11.000 --> 00:17:12.400
+ - You can easily touch all parts of this.
+
+00:17:12.400 --> 00:17:15.000
+ It's not this like broken up thing.
+
+00:17:15.000 --> 00:17:16.760
+ - So it's like author time monolith,
+
+00:17:16.760 --> 00:17:19.400
+ not necessarily like infrastructure monolith.
+
+00:17:19.400 --> 00:17:22.800
+ Like the way it's deployed is maybe very distributed
+
+00:17:22.800 --> 00:17:25.440
+ or something, but that's like less the concern.
+
+00:17:25.440 --> 00:17:27.320
+ It's more like author time concern.
+
+00:17:27.320 --> 00:17:28.160
+ - Yeah, exactly.
+
+00:17:28.160 --> 00:17:31.600
+ And an author time, like especially for the first several,
+
+00:17:31.600 --> 00:17:35.560
+ several years of your company, you probably want a monolith.
+
+00:17:35.560 --> 00:17:39.120
+ - Yeah, the only, and I would say even
+
+00:17:39.120 --> 00:17:40.320
+ what the microservices are out,
+
+00:17:40.320 --> 00:17:42.320
+ I think I've only ever seen one company
+
+00:17:42.320 --> 00:17:45.440
+ get microservices right, which is CloudFlare.
+
+00:17:45.440 --> 00:17:48.680
+ So they have a whole microservice system,
+
+00:17:48.680 --> 00:17:51.840
+ even their functions as their functions platform
+
+00:17:51.840 --> 00:17:54.560
+ is built on a concept of services.
+
+00:17:54.560 --> 00:17:56.840
+ But they remove the distributed part from it entirely.
+
+00:17:56.840 --> 00:18:00.160
+ They run every single service on every single machine.
+
+00:18:00.160 --> 00:18:01.980
+ So all the services talk to each other
+
+00:18:01.980 --> 00:18:02.900
+ within the same machine.
+
+00:18:02.900 --> 00:18:04.880
+ So all the complexities of having
+
+00:18:04.880 --> 00:18:06.520
+ a distributed system go away.
+
+00:18:06.520 --> 00:18:09.480
+ So I think they're capturing like the benefits
+
+00:18:09.480 --> 00:18:14.360
+ of the isolation and like the compartmentalization
+
+00:18:14.360 --> 00:18:15.880
+ without the overhead of just like,
+
+00:18:15.880 --> 00:18:18.120
+ it literally being a distributed system.
+
+00:18:18.120 --> 00:18:21.400
+ But yeah, everywhere else, it's kind of like,
+
+00:18:21.400 --> 00:18:23.600
+ you now have all these distributed systems problems.
+
+00:18:23.600 --> 00:18:25.520
+ And I used to be like, I said, you like, you know,
+
+00:18:25.520 --> 00:18:27.040
+ I used to be a heavy Kubernetes user.
+
+00:18:27.040 --> 00:18:30.520
+ So I'm not just hating on this stuff from like,
+
+00:18:30.520 --> 00:18:31.360
+ I'm on this team.
+
+00:18:31.360 --> 00:18:32.960
+ I'm like, I used to be on that team.
+
+00:18:32.960 --> 00:18:35.960
+ And I remember all the skills that I was proud of having
+
+00:18:35.960 --> 00:18:38.040
+ that looking back, I'm just like,
+
+00:18:38.040 --> 00:18:40.000
+ I should just not have developed those.
+
+00:18:40.000 --> 00:18:41.520
+ (laughing)
+
+00:18:41.520 --> 00:18:42.400
+ I'm on the other side.
+
+00:18:42.400 --> 00:18:45.080
+ I mean, I've never messed with Kubernetes,
+
+00:18:45.080 --> 00:18:47.080
+ but I'm still on the hating side, I guess.
+
+00:18:47.080 --> 00:18:48.840
+ That's a whole nother conversation that,
+
+00:18:48.840 --> 00:18:51.000
+ I definitely want to get into like the small team
+
+00:18:51.000 --> 00:18:52.080
+ versus big team conversation.
+
+00:18:52.080 --> 00:18:55.240
+ I think that's a separate maybe conversation.
+
+00:18:55.240 --> 00:18:56.480
+ But I definitely have thoughts about all that.
+
+00:18:56.480 --> 00:18:59.760
+ And this is all very like, it's very topical for me.
+
+00:18:59.760 --> 00:19:02.120
+ I'm just trying to like communicate some of this stuff.
+
+00:19:02.120 --> 00:19:05.160
+ And I feel like I run into the same walls in my brain
+
+00:19:05.160 --> 00:19:06.760
+ when I try to explain like,
+
+00:19:06.760 --> 00:19:08.640
+ no, I think there's better ways today
+
+00:19:08.640 --> 00:19:11.080
+ than we've done all these years.
+
+00:19:11.080 --> 00:19:13.200
+ And it's just very hard to like communicate
+
+00:19:13.200 --> 00:19:15.680
+ what that better way is and why I think it's a better way.
+
+00:19:15.680 --> 00:19:18.120
+ But it is very much coming from a context of small team
+
+00:19:18.120 --> 00:19:19.760
+ or solo development.
+
+00:19:19.760 --> 00:19:23.120
+ I just don't live outside of that.
+
+00:19:23.120 --> 00:19:25.320
+ I gotta be honest though, I feel like you don't,
+
+00:19:25.320 --> 00:19:28.040
+ I feel the pressure to add that qualifier to like
+
+00:19:28.040 --> 00:19:31.380
+ four small teams or for qualified for whatever.
+
+00:19:32.960 --> 00:19:37.640
+ But to be honest, I don't really think that's necessarily true.
+
+00:19:37.640 --> 00:19:39.520
+ Like everything we do in the way we do things,
+
+00:19:39.520 --> 00:19:42.040
+ we can find examples of big companies doing it
+
+00:19:42.040 --> 00:19:43.960
+ the exact same way.
+
+00:19:43.960 --> 00:19:45.960
+ I kind of feel like that just turns into a thing
+
+00:19:45.960 --> 00:19:48.320
+ where people say like,
+
+00:19:48.320 --> 00:19:50.480
+ oh, what you're saying doesn't work at CO.
+
+00:19:50.480 --> 00:19:52.000
+ You can't really argue with them.
+
+00:19:52.000 --> 00:19:54.920
+ - So you're saying like my intuition
+
+00:19:54.920 --> 00:19:57.480
+ about how things should be built today.
+
+00:19:57.480 --> 00:19:59.600
+ I've assumed that was just for little teams
+
+00:19:59.600 --> 00:20:00.960
+ and I just don't understand big teams.
+
+00:20:00.960 --> 00:20:04.120
+ You're saying that might apply to big teams as well?
+
+00:20:04.120 --> 00:20:05.880
+ - Yeah, I kind of like,
+
+00:20:05.880 --> 00:20:08.160
+ it's kind of taken for granted that the big team
+
+00:20:08.160 --> 00:20:10.200
+ should, is inevitable or has to exist
+
+00:20:10.200 --> 00:20:12.880
+ or they have to operate a certain way.
+
+00:20:12.880 --> 00:20:16.560
+ But I know teams that are operating at massive scale
+
+00:20:16.560 --> 00:20:19.320
+ and their system doesn't look too different
+
+00:20:19.320 --> 00:20:20.880
+ from anything URI do.
+
+00:20:20.880 --> 00:20:22.960
+ It's a little more advanced 'cause it has more years
+
+00:20:22.960 --> 00:20:25.160
+ and more maturity, but yeah,
+
+00:20:25.160 --> 00:20:27.720
+ they're doing everything the same way that we're doing.
+
+00:20:27.720 --> 00:20:30.920
+ So, I mean, that's the thing about this way of building
+
+00:20:30.920 --> 00:20:34.800
+ is just like how much leverage every individual has.
+
+00:20:34.800 --> 00:20:36.720
+ And just as a team,
+
+00:20:36.720 --> 00:20:39.120
+ how much smaller you can be and accomplish so much more.
+
+00:20:39.120 --> 00:20:40.800
+ I don't know how it all plays out,
+
+00:20:40.800 --> 00:20:43.560
+ but I can't help but think that like,
+
+00:20:43.560 --> 00:20:45.280
+ there's this whole wave of disruption
+
+00:20:45.280 --> 00:20:49.760
+ where teams that are 5% the size of big companies,
+
+00:20:49.760 --> 00:20:52.160
+ teams are just completely cleaning up
+
+00:20:52.160 --> 00:20:54.560
+ because they just have so much less to deal with
+
+00:20:54.560 --> 00:20:56.080
+ and such a smaller footprint.
+
+00:20:56.080 --> 00:20:57.720
+ And just like the fidelity of communication
+
+00:20:57.720 --> 00:20:59.800
+ is so much higher when you have a small team.
+
+00:20:59.800 --> 00:21:01.760
+ I mean, ideally it's one person's brain,
+
+00:21:01.760 --> 00:21:02.800
+ like everything can flow through there.
+
+00:21:02.800 --> 00:21:04.640
+ If one person could accomplish all of it.
+
+00:21:04.640 --> 00:21:06.320
+ - That's the ideal company, it's one person.
+
+00:21:06.320 --> 00:21:07.480
+ - Yeah, right.
+
+00:21:07.480 --> 00:21:09.000
+ So as things trend that way,
+
+00:21:09.000 --> 00:21:11.360
+ it just does seem like how are all these big companies
+
+00:21:11.360 --> 00:21:14.680
+ gonna justify their giant teams
+
+00:21:14.680 --> 00:21:16.480
+ when it gets easier and easier to build.
+
+00:21:16.480 --> 00:21:19.560
+ I mean, it all kind of depends on these managed services
+
+00:21:19.560 --> 00:21:22.880
+ that ultimately a big team, like the AWS team.
+
+00:21:22.880 --> 00:21:25.520
+ I don't know, it's a bunch of little teams really.
+
+00:21:25.520 --> 00:21:29.120
+ They're putting together this stuff that allows for that.
+
+00:21:29.120 --> 00:21:30.320
+ So I don't know how that all plays in.
+
+00:21:30.320 --> 00:21:32.040
+ It does seem like there's some like
+
+00:21:32.040 --> 00:21:35.960
+ at the utility level need for big companies
+
+00:21:35.960 --> 00:21:37.560
+ to push this stuff forward,
+
+00:21:37.560 --> 00:21:39.240
+ but it just opens up these doors
+
+00:21:39.240 --> 00:21:41.880
+ where I feel like little startups that are tiny
+
+00:21:41.880 --> 00:21:42.720
+ can accomplish more and more.
+
+00:21:42.720 --> 00:21:44.200
+ We've got data points of that.
+
+00:21:44.200 --> 00:21:48.080
+ It's just like their little dots on the timeline
+
+00:21:48.080 --> 00:21:51.480
+ that don't get enough attention, I don't think.
+
+00:21:51.480 --> 00:21:52.320
+ - Yeah.
+
+00:21:52.320 --> 00:21:56.420
+ And I think, again, just having been in a different mindset,
+
+00:21:57.520 --> 00:22:01.200
+ the work that we consider overhead
+
+00:22:01.200 --> 00:22:03.760
+ or like you should outsource at AWS,
+
+00:22:03.760 --> 00:22:06.640
+ it feels really valuable when you're doing it
+
+00:22:06.640 --> 00:22:08.680
+ at the company you're doing it at 'cause it,
+
+00:22:08.680 --> 00:22:11.000
+ you're really solving problems, you're really unblocking stuff,
+
+00:22:11.000 --> 00:22:12.780
+ you're really making stuff better.
+
+00:22:12.780 --> 00:22:16.920
+ And when people say, when people like us are saying,
+
+00:22:16.920 --> 00:22:19.160
+ oh, you shouldn't be doing any of that.
+
+00:22:19.160 --> 00:22:21.800
+ It understandably feels like what are you talking about?
+
+00:22:21.800 --> 00:22:23.920
+ It's like obviously necessary
+
+00:22:23.920 --> 00:22:26.720
+ and a lot of the quality comes from that.
+
+00:22:26.720 --> 00:22:28.360
+ But I think the thing you realize when you flip over
+
+00:22:28.360 --> 00:22:30.760
+ is there are just a million things
+
+00:22:30.760 --> 00:22:33.120
+ you could be working on at any company.
+
+00:22:33.120 --> 00:22:34.480
+ Oh yeah, if you're working on this,
+
+00:22:34.480 --> 00:22:36.800
+ if that goes away, they're just a million things
+
+00:22:36.800 --> 00:22:39.280
+ that you could be doing to make your product or company better.
+
+00:22:39.280 --> 00:22:41.280
+ You're never gonna run out of work.
+
+00:22:41.280 --> 00:22:43.720
+ There's always something better you could be doing.
+
+00:22:43.720 --> 00:22:45.560
+ - So the more you can like select
+
+00:22:45.560 --> 00:22:49.840
+ into the most valuable thing, the better.
+
+00:22:49.840 --> 00:22:52.880
+ 'Cause there's always that optimization problem.
+
+00:22:52.880 --> 00:22:54.160
+ It's not going away.
+
+00:22:54.160 --> 00:22:55.000
+ - Interesting.
+
+00:22:56.120 --> 00:22:58.640
+ I still don't know if I feel like I can explain
+
+00:22:58.640 --> 00:23:01.960
+ how I think serverless or event-driven applications
+
+00:23:01.960 --> 00:23:02.840
+ are the future.
+
+00:23:02.840 --> 00:23:04.760
+ I always just go back to Simon Woodley on Twitter.
+
+00:23:04.760 --> 00:23:07.800
+ He's like my anchor.
+
+00:23:07.800 --> 00:23:09.120
+ Whenever I start doubting all this,
+
+00:23:09.120 --> 00:23:10.240
+ I just go back to his tweets.
+
+00:23:10.240 --> 00:23:11.480
+ And I'm like, yeah, he's too smart.
+
+00:23:11.480 --> 00:23:12.480
+ He gets it.
+
+00:23:12.480 --> 00:23:13.320
+ - Yeah.
+
+00:23:13.320 --> 00:23:15.400
+ - There's a lot of people on all of that option too.
+
+00:23:15.400 --> 00:23:16.240
+ - Oh yeah, yeah.
+
+00:23:16.240 --> 00:23:19.160
+ I mean, he's covered like the whole cloud adoption side.
+
+00:23:19.160 --> 00:23:21.200
+ I don't know.
+
+00:23:21.200 --> 00:23:24.960
+ I guess like what is the future for things like Kubernetes?
+
+00:23:24.960 --> 00:23:27.520
+ I don't know what the theme of this episode is anymore.
+
+00:23:27.520 --> 00:23:30.240
+ I'm just like coming up with more thoughts,
+
+00:23:30.240 --> 00:23:31.960
+ just bubbling the service.
+
+00:23:31.960 --> 00:23:34.240
+ But I guess like, are people deceived?
+
+00:23:34.240 --> 00:23:35.520
+ Is there, is it not the future?
+
+00:23:35.520 --> 00:23:37.600
+ 'Cause I know Simon Woodley has said things like,
+
+00:23:37.600 --> 00:23:38.480
+ I think it's a distraction.
+
+00:23:38.480 --> 00:23:40.720
+ I think the whole containerization obsession
+
+00:23:40.720 --> 00:23:42.480
+ and Kubernetes obsession is a distraction
+
+00:23:42.480 --> 00:23:44.480
+ that's set back serverless quite a bit
+
+00:23:44.480 --> 00:23:47.640
+ using serverless as a term for kind of what we're talking about here.
+
+00:23:47.640 --> 00:23:49.320
+ Is that like, is that how you view it?
+
+00:23:49.320 --> 00:23:53.440
+ That like, or is there a place for it alongside serverless?
+
+00:23:53.440 --> 00:23:55.320
+ It just feels like there's a lot of smart people on both sides.
+
+00:23:55.320 --> 00:23:56.520
+ It can't all be wrong.
+
+00:23:56.520 --> 00:23:59.240
+ - Yeah, I think the way, at least the way I felt,
+
+00:23:59.240 --> 00:24:01.120
+ is my whole career,
+
+00:24:01.120 --> 00:24:05.160
+ I've been figuring out how to manage nodes with less work.
+
+00:24:05.160 --> 00:24:07.440
+ So back when we had physical servers,
+
+00:24:07.440 --> 00:24:08.720
+ like how can I best manage them?
+
+00:24:08.720 --> 00:24:11.440
+ Then we got like VMs, how can I best manage those nodes?
+
+00:24:11.440 --> 00:24:14.640
+ We got containers, how can I best manage those nodes?
+
+00:24:14.640 --> 00:24:17.320
+ And Kubernetes came out and it is the best way
+
+00:24:17.320 --> 00:24:19.400
+ to manage nodes, or one of the best ways.
+
+00:24:19.400 --> 00:24:20.520
+ Like there are some like,
+
+00:24:20.520 --> 00:24:24.200
+ Hashi Korps thing is also very good, Nomad.
+
+00:24:24.200 --> 00:24:27.040
+ But in the whole history of managing nodes,
+
+00:24:27.040 --> 00:24:28.320
+ this is like, it's so good.
+
+00:24:28.320 --> 00:24:31.000
+ It's so much better than any other stuff I've ever had to deal with,
+
+00:24:31.000 --> 00:24:32.440
+ especially with like, you know,
+
+00:24:32.440 --> 00:24:33.960
+ doing it through Terraform and all that.
+
+00:24:33.960 --> 00:24:35.680
+ It is amazing.
+
+00:24:35.680 --> 00:24:38.640
+ But the thing that happened was,
+
+00:24:38.640 --> 00:24:40.240
+ what if I, what if someone told you,
+
+00:24:40.240 --> 00:24:41.760
+ you actually don't have to manage nodes?
+
+00:24:41.760 --> 00:24:43.880
+ - I was gonna say, what is a node?
+
+00:24:43.880 --> 00:24:47.200
+ Just like something that runs that you're responsible for.
+
+00:24:47.200 --> 00:24:51.320
+ - Okay, I already don't like it, okay, keep going.
+
+00:24:51.320 --> 00:24:54.000
+ - Yeah, so I think that's why people love Kubernetes
+
+00:24:54.000 --> 00:24:55.800
+ 'cause they've been doing some flavor
+
+00:24:55.800 --> 00:24:58.240
+ of managing nodes their whole career.
+
+00:24:58.240 --> 00:25:00.120
+ And it's always been a pain
+
+00:25:00.120 --> 00:25:02.880
+ and Kubernetes makes it a lot easier.
+
+00:25:02.880 --> 00:25:03.720
+ But the question is like,
+
+00:25:03.720 --> 00:25:05.240
+ do we even need to manage those anymore?
+
+00:25:05.240 --> 00:25:06.720
+ 'Cause now there's a whole other option
+
+00:25:06.720 --> 00:25:08.720
+ that's kind of coming out of left field
+
+00:25:08.720 --> 00:25:10.840
+ that is very, very different.
+
+00:25:10.840 --> 00:25:11.680
+ - Yeah.
+
+00:25:11.680 --> 00:25:12.520
+ - I mean, don't need to do that.
+
+00:25:12.520 --> 00:25:14.920
+ And then these things look kind of like overly complicated
+
+00:25:14.920 --> 00:25:17.280
+ where like, why does this even exist?
+
+00:25:17.280 --> 00:25:20.440
+ - Yeah, it's funny, like my Twitter timeline is so,
+
+00:25:20.440 --> 00:25:23.600
+ it's split between what I feel like is this crazy,
+
+00:25:23.600 --> 00:25:26.640
+ complicated thing that people dove into with Kubernetes
+
+00:25:26.640 --> 00:25:29.320
+ and then like deploy your whole app on Vercel
+
+00:25:29.320 --> 00:25:30.360
+ and you don't need anything else.
+
+00:25:30.360 --> 00:25:33.600
+ It's like the two polar, I feel like opposites of like,
+
+00:25:33.600 --> 00:25:35.120
+ well, I look at Vercel and I'm like,
+
+00:25:35.120 --> 00:25:37.760
+ there's more, you need more to build apps.
+
+00:25:37.760 --> 00:25:39.000
+ And then I look at Kubernetes and I'm like,
+
+00:25:39.000 --> 00:25:41.000
+ I don't know what that is, but I don't really,
+
+00:25:41.000 --> 00:25:44.160
+ I feel like that's too much to have to think about.
+
+00:25:44.160 --> 00:25:47.600
+ - Then I see very little of that middle ground
+
+00:25:47.600 --> 00:25:50.360
+ of what I think is this amazing way to build apps.
+
+00:25:50.360 --> 00:25:52.480
+ I don't know, I don't know, lots of thoughts.
+
+00:25:52.480 --> 00:25:53.320
+ - I don't know.
+
+00:25:53.320 --> 00:25:55.120
+ And I think it's also hard to gauge.
+
+00:25:55.120 --> 00:25:58.800
+ I think we're on Twitter, social media, et cetera.
+
+00:25:58.800 --> 00:26:01.520
+ And that's like, I think at least for myself,
+
+00:26:01.520 --> 00:26:04.280
+ that's where I get a feel for what's going on.
+
+00:26:04.280 --> 00:26:07.360
+ But if you look at actual data for what's going on,
+
+00:26:07.360 --> 00:26:08.200
+ it's like very different.
+
+00:26:08.200 --> 00:26:10.280
+ Like almost the opposite of anything we see.
+
+00:26:10.280 --> 00:26:12.600
+ So that's always tough.
+
+00:26:12.600 --> 00:26:14.920
+ So Twitter is, it's just a small,
+
+00:26:14.920 --> 00:26:16.040
+ I mean, it's a pretty small network,
+
+00:26:16.040 --> 00:26:18.120
+ I guess, of people that actually get on Twitter
+
+00:26:18.120 --> 00:26:19.840
+ and say anything.
+
+00:26:19.840 --> 00:26:22.680
+ I mean, if it's like not even all the devs are on Twitter,
+
+00:26:22.680 --> 00:26:26.000
+ like what percentage of people on Twitter actually tweet.
+
+00:26:26.000 --> 00:26:27.400
+ So yeah, it makes sense.
+
+00:26:27.400 --> 00:26:28.480
+ - Yeah.
+
+00:26:28.480 --> 00:26:30.400
+ And Twitter tends to be like really front-end heavy
+
+00:26:30.400 --> 00:26:31.920
+ and like there's very--
+
+00:26:31.920 --> 00:26:33.760
+ - Yeah, worries that we've talked about this before.
+
+00:26:33.760 --> 00:26:35.320
+ What's that about?
+
+00:26:35.320 --> 00:26:38.080
+ Like your theory is that back-end developers
+
+00:26:38.080 --> 00:26:40.400
+ just have an amazing life and they don't need the internet
+
+00:26:40.400 --> 00:26:41.800
+ or social media.
+
+00:26:43.600 --> 00:26:44.600
+ - I have no idea.
+
+00:26:44.600 --> 00:26:47.200
+ I mean, I think I'm mostly a back-end.
+
+00:26:47.200 --> 00:26:48.760
+ - I think I am too.
+
+00:26:48.760 --> 00:26:50.480
+ - I mean, I just am so slow at front-end,
+
+00:26:50.480 --> 00:26:51.920
+ I must be a back-end developer.
+
+00:26:51.920 --> 00:26:53.000
+ (laughing)
+
+00:26:53.000 --> 00:26:54.600
+ I don't know why else I'd be so bad at front-end.
+
+00:26:54.600 --> 00:26:55.440
+ - Yeah.
+
+00:26:55.440 --> 00:26:56.720
+ Sometimes I think I'm a good front-end developer
+
+00:26:56.720 --> 00:26:57.880
+ then I see some stuff and I'm like,
+
+00:26:57.880 --> 00:26:59.360
+ I actually have no idea how they did that.
+
+00:26:59.360 --> 00:27:01.080
+ So I can't be a front-end developer.
+
+00:27:01.080 --> 00:27:05.680
+ - Do you have any working theories for the discrepancy?
+
+00:27:05.680 --> 00:27:08.280
+ Why the public discourse, even like Hacker News and stuff,
+
+00:27:08.280 --> 00:27:09.440
+ well, maybe not as much.
+
+00:27:09.440 --> 00:27:10.280
+ I don't get on there.
+
+00:27:10.280 --> 00:27:11.120
+ I don't know.
+
+00:27:11.120 --> 00:27:11.960
+ It's been a long time.
+
+00:27:11.960 --> 00:27:14.000
+ But it does seem like front-end dev
+
+00:27:14.000 --> 00:27:16.640
+ just sort of dominates the conversation.
+
+00:27:16.640 --> 00:27:18.520
+ - Yeah, I think it might be,
+
+00:27:18.520 --> 00:27:20.320
+ I'm not showing up as an age thing.
+
+00:27:20.320 --> 00:27:22.320
+ Like if you're earlier in your career,
+
+00:27:22.320 --> 00:27:24.200
+ I think you're more likely to be a front-end engineer
+
+00:27:24.200 --> 00:27:26.520
+ 'cause I was exactly the same way.
+
+00:27:26.520 --> 00:27:29.600
+ You wanna learn how to build stuff,
+
+00:27:29.600 --> 00:27:30.880
+ you want that immediate feedback
+
+00:27:30.880 --> 00:27:32.280
+ that you're making progress.
+
+00:27:32.280 --> 00:27:34.880
+ Front-end is like the best place to do that.
+
+00:27:34.880 --> 00:27:36.560
+ And I think people that are maybe earlier
+
+00:27:36.560 --> 00:27:39.920
+ in their career are also more likely to be on Twitter.
+
+00:27:41.400 --> 00:27:42.840
+ - I'm having this stuff that they're building
+
+00:27:42.840 --> 00:27:44.760
+ can fit into this like mostly front-end
+
+00:27:44.760 --> 00:27:46.480
+ with a little back-end model that, you know,
+
+00:27:46.480 --> 00:27:47.680
+ Verzell is great for.
+
+00:27:47.680 --> 00:27:49.400
+ - Yeah, I'm having this flashback.
+
+00:27:49.400 --> 00:27:51.040
+ Like I've heard someone say that and I think it was you.
+
+00:27:51.040 --> 00:27:52.520
+ I think we've had this conversation.
+
+00:27:52.520 --> 00:27:53.600
+ I'm just remembering.
+
+00:27:53.600 --> 00:27:54.520
+ You say, it makes sense.
+
+00:27:54.520 --> 00:27:55.680
+ Like the feedback loop.
+
+00:27:55.680 --> 00:27:57.200
+ If you're, or maybe it was someone else actually,
+
+00:27:57.200 --> 00:27:59.400
+ it could have been someone else that talked about like,
+
+00:27:59.400 --> 00:28:01.720
+ when you're building back-end stuff,
+
+00:28:01.720 --> 00:28:04.840
+ there's very little that you can like iterate and see.
+
+00:28:04.840 --> 00:28:06.640
+ It's so much easier to just build a front-end app
+
+00:28:06.640 --> 00:28:09.960
+ and like you change the CSS and you see the button change.
+
+00:28:09.960 --> 00:28:12.080
+ And like there's that immediate loop.
+
+00:28:12.080 --> 00:28:14.720
+ Whereas back-end stuff is a little more like,
+
+00:28:14.720 --> 00:28:16.320
+ hard to get that, I guess.
+
+00:28:16.320 --> 00:28:17.160
+ - I get feedback.
+
+00:28:17.160 --> 00:28:18.160
+ - You've got the right JSON response.
+
+00:28:18.160 --> 00:28:19.840
+ - You're right, yeah.
+
+00:28:19.840 --> 00:28:21.000
+ - Exactly.
+
+00:28:21.000 --> 00:28:22.240
+ I love back-end work.
+
+00:28:22.240 --> 00:28:24.560
+ I mean, I love obviously cloud stuff.
+
+00:28:24.560 --> 00:28:27.440
+ I just think every time I do front-end development,
+
+00:28:27.440 --> 00:28:29.140
+ I get sucked into it for like weeks
+
+00:28:29.140 --> 00:28:31.080
+ to try and do the simplest of things.
+
+00:28:31.080 --> 00:28:34.920
+ All right, I don't know how long we've been talking.
+
+00:28:34.920 --> 00:28:36.040
+ Is this an episode, Dax?
+
+00:28:36.040 --> 00:28:37.040
+ - This is gonna be a little rough.
+
+00:28:37.040 --> 00:28:38.760
+ I'm just gonna be honest.
+
+00:28:38.760 --> 00:28:42.080
+ These first episodes, figuring out a new format.
+
+00:28:42.080 --> 00:28:43.520
+ - I think it'll be good.
+
+00:28:43.520 --> 00:28:44.520
+ - I think it's gonna be great.
+
+00:28:44.520 --> 00:28:45.640
+ I'm excited about it.
+
+00:28:45.640 --> 00:28:47.080
+ - No rough, but I think it'll be good, yeah.
+
+00:28:47.080 --> 00:28:48.360
+ - Yeah, a little rough, gonna be good.
+
+00:28:48.360 --> 00:28:49.360
+ We're gonna just keep doing it.
+
+00:28:49.360 --> 00:28:51.120
+ And I think that's the trick is like,
+
+00:28:51.120 --> 00:28:53.440
+ you just keep doing stuff and it ends up really good,
+
+00:28:53.440 --> 00:28:54.960
+ eventually, I don't know.
+
+00:28:54.960 --> 00:28:55.800
+ - Yeah.
+
+00:28:55.800 --> 00:28:58.120
+ - We have any other thoughts on the edge.
+
+00:28:58.120 --> 00:28:59.440
+ That's what we started talking about.
+
+00:28:59.440 --> 00:29:01.560
+ (laughing)
+
+00:29:01.560 --> 00:29:03.840
+ - Yeah, I'm trying to figure out how we should title these like.
+
+00:29:03.840 --> 00:29:04.680
+ - Yeah, this one's gonna be-
+
+00:29:04.680 --> 00:29:06.840
+ - Maybe just be like comma separated list of all the topics.
+
+00:29:06.840 --> 00:29:08.860
+ - Yeah, that works for me.
+
+00:29:08.860 --> 00:29:11.280
+ There was stuff I wanted to kind of dig at,
+
+00:29:11.280 --> 00:29:15.100
+ like in terms of the edge and how it relates like AWS services.
+
+00:29:15.100 --> 00:29:18.840
+ I think of like a lot of the problem I have with the edge is like,
+
+00:29:18.840 --> 00:29:23.080
+ so Lambda at Edge, you can do all the Lambda E things,
+
+00:29:23.080 --> 00:29:26.280
+ node runtime, like, I think it's constrained a little bit.
+
+00:29:26.280 --> 00:29:28.720
+ Maybe you can only do node and Python or something.
+
+00:29:28.720 --> 00:29:30.120
+ I don't know, not all the run times.
+
+00:29:30.120 --> 00:29:31.600
+ - There's like really weird restrictions.
+
+00:29:31.600 --> 00:29:32.440
+ I don't know if you know this,
+
+00:29:32.440 --> 00:29:35.880
+ but Lambda Edge cannot have environment variables.
+
+00:29:35.880 --> 00:29:36.960
+ - Oh, really?
+
+00:29:36.960 --> 00:29:39.000
+ - It's like- - It's such a pain.
+
+00:29:39.000 --> 00:29:41.200
+ - Huh, yeah, I feel like I've done some Lambda Edge stuff.
+
+00:29:41.200 --> 00:29:42.120
+ And I guess I never noticed,
+
+00:29:42.120 --> 00:29:46.080
+ but that seems like a pretty big thing you would notice.
+
+00:29:46.080 --> 00:29:48.760
+ - But there's some really weird stuff in SST where we like,
+
+00:29:48.760 --> 00:29:50.440
+ let you think there's environment variables,
+
+00:29:50.440 --> 00:29:52.520
+ then we do like a string replace in your code.
+
+00:29:52.520 --> 00:29:53.360
+ Wow.
+
+00:29:53.360 --> 00:29:54.440
+ - Half our deploys.
+
+00:29:54.440 --> 00:29:55.280
+ - Okay.
+
+00:29:55.280 --> 00:29:56.120
+ - Yeah.
+
+00:29:56.120 --> 00:29:58.280
+ - So Lambda at Edge and then,
+
+00:29:58.280 --> 00:30:00.400
+ but that's only in like 14, okay.
+
+00:30:00.400 --> 00:30:01.960
+ It's like more than the regions,
+
+00:30:01.960 --> 00:30:05.840
+ but less than the actual edge, like CloudFront.
+
+00:30:05.840 --> 00:30:08.160
+ Edges, nodes, whatever, right?
+
+00:30:08.160 --> 00:30:09.960
+ Lambda Edge doesn't actually run.
+
+00:30:09.960 --> 00:30:11.480
+ It sits like between the regions
+
+00:30:11.480 --> 00:30:14.720
+ and then all the actual edge locations.
+
+00:30:14.720 --> 00:30:15.560
+ - Yeah.
+
+00:30:15.560 --> 00:30:16.400
+ - And then there's five different--
+
+00:30:16.400 --> 00:30:17.800
+ - The average latency on it is different.
+
+00:30:17.800 --> 00:30:18.920
+ - Yeah.
+
+00:30:18.920 --> 00:30:19.760
+ - Yeah.
+
+00:30:19.760 --> 00:30:21.640
+ But then like if you want to use the CloudFront functions
+
+00:30:21.640 --> 00:30:24.200
+ where you run and compute actually at the edge,
+
+00:30:24.200 --> 00:30:27.520
+ it's like you can't interact with the page body.
+
+00:30:27.520 --> 00:30:29.520
+ Like you can only kind of like change the headers and stuff.
+
+00:30:29.520 --> 00:30:30.680
+ And I just don't know,
+
+00:30:30.680 --> 00:30:32.800
+ I guess there's things that that's good for.
+
+00:30:32.800 --> 00:30:35.400
+ - It's also limited to like a five millisecond runtime
+
+00:30:35.400 --> 00:30:36.240
+ or something.
+
+00:30:36.240 --> 00:30:37.060
+ - Oh yeah.
+
+00:30:37.060 --> 00:30:37.900
+ - It's super short, yeah.
+
+00:30:37.900 --> 00:30:38.740
+ - Yeah.
+
+00:30:38.740 --> 00:30:39.560
+ - So is that work cloud?
+
+00:30:39.560 --> 00:30:40.560
+ I've never played with CloudFlare workers.
+
+00:30:40.560 --> 00:30:42.640
+ Are they more like actually at the edge
+
+00:30:42.640 --> 00:30:44.760
+ and actually you can do stuff?
+
+00:30:44.760 --> 00:30:47.200
+ Is there, there's like advantages there?
+
+00:30:47.200 --> 00:30:48.400
+ - Yeah, I have a whole thing on this.
+
+00:30:48.400 --> 00:30:52.400
+ So up front disclosure, CloudFlare is the biggest
+
+00:30:52.400 --> 00:30:53.920
+ position in my portfolio.
+
+00:30:53.920 --> 00:30:54.760
+ - Oh.
+
+00:30:54.760 --> 00:30:55.600
+ - Like I own a ton of CloudFlare.
+
+00:30:55.600 --> 00:30:56.520
+ - I was waiting for like CloudFlare
+
+00:30:56.520 --> 00:30:59.080
+ sponsored this episode and I was excited.
+
+00:30:59.080 --> 00:31:00.640
+ Like, oh, that's cool.
+
+00:31:00.640 --> 00:31:02.920
+ Okay, so big, so you're a big CloudFlare fan.
+
+00:31:02.920 --> 00:31:05.880
+ - You're an investor and that we got it.
+
+00:31:05.880 --> 00:31:07.800
+ Disclaimed, I've never had to disclaim something.
+
+00:31:07.800 --> 00:31:08.920
+ I'm being really awkward now
+
+00:31:08.920 --> 00:31:11.240
+ because I've never had to do this on a podcast.
+
+00:31:11.240 --> 00:31:12.880
+ Okay, we've done it.
+
+00:31:12.880 --> 00:31:14.440
+ We've done the disclaimer CloudFlare, legal.
+
+00:31:14.440 --> 00:31:15.280
+ You can step away.
+
+00:31:15.280 --> 00:31:17.040
+ Okay, go ahead, Dak.
+
+00:31:17.040 --> 00:31:20.200
+ - Yeah, so like, but that's all backed by I think my,
+
+00:31:20.200 --> 00:31:22.720
+ just my excitement around what they're doing.
+
+00:31:22.720 --> 00:31:25.480
+ So I think like we all love the serverless world.
+
+00:31:25.480 --> 00:31:27.840
+ I think realistically today AWS is the only one
+
+00:31:27.840 --> 00:31:29.880
+ that has a complete serverless platform.
+
+00:31:29.880 --> 00:31:31.280
+ Like it's more than just functions, right?
+
+00:31:31.280 --> 00:31:33.640
+ It's functions, queues, all the stuff you need
+
+00:31:33.640 --> 00:31:35.840
+ to do a full application.
+
+00:31:35.840 --> 00:31:39.360
+ And I feel like CloudFlare is the only other company
+
+00:31:39.360 --> 00:31:43.180
+ really getting to that level of completeness.
+
+00:31:43.180 --> 00:31:45.240
+ A lot of that stuff is like still in preview
+
+00:31:45.240 --> 00:31:46.920
+ and you know, not widely accessible.
+
+00:31:46.920 --> 00:31:49.440
+ I think they still have like five plus years to go
+
+00:31:49.440 --> 00:31:52.920
+ before like this competition really shows up.
+
+00:31:52.920 --> 00:31:55.920
+ But yeah, I love their functions platform.
+
+00:31:55.920 --> 00:31:57.080
+ I think it makes a lot of sense.
+
+00:31:57.080 --> 00:31:58.320
+ They have really good options.
+
+00:31:58.320 --> 00:32:00.960
+ It all works well, nicely well together.
+
+00:32:00.960 --> 00:32:04.720
+ I think with AWS, it feels like it grew more organically
+
+00:32:04.720 --> 00:32:08.920
+ and accidentally and with CloudFlare, it was more like,
+
+00:32:08.920 --> 00:32:10.560
+ okay, we already know serverless exists
+
+00:32:10.560 --> 00:32:12.000
+ and we're like bought into this concept.
+
+00:32:12.000 --> 00:32:14.320
+ What is like the ideal vision?
+
+00:32:14.320 --> 00:32:16.280
+ - They got to kind of design it and build it
+
+00:32:16.280 --> 00:32:17.840
+ when it was a thing already.
+
+00:32:17.840 --> 00:32:19.440
+ Like they had more of a target,
+
+00:32:19.440 --> 00:32:23.040
+ whereas AWS kind of invented it sort of in ways.
+
+00:32:23.040 --> 00:32:25.080
+ - Yeah, exactly.
+
+00:32:25.080 --> 00:32:26.520
+ So it's like it's a lot cleaner
+
+00:32:26.520 --> 00:32:30.360
+ and there's like less weirdness with everything.
+
+00:32:30.360 --> 00:32:32.800
+ - But I feel like the only ones that can be,
+
+00:32:32.800 --> 00:32:34.760
+ so I think you and I believe that this is
+
+00:32:34.760 --> 00:32:37.560
+ like the future of way most applications will be built.
+
+00:32:37.560 --> 00:32:38.880
+ - Yeah.
+
+00:32:38.880 --> 00:32:41.100
+ - AWS is like so well positioned.
+
+00:32:41.100 --> 00:32:45.080
+ But yeah, they're like run time.
+
+00:32:45.080 --> 00:32:46.120
+ So they have their own run time.
+
+00:32:46.120 --> 00:32:50.240
+ So the downside is you can't use most node modules,
+
+00:32:50.240 --> 00:32:51.880
+ like the most MPM packages.
+
+00:32:51.880 --> 00:32:52.720
+ - Right.
+
+00:32:52.720 --> 00:32:53.560
+ - Is that a downside?
+
+00:32:53.560 --> 00:32:54.720
+ I think it's kind of like a good filter.
+
+00:32:54.720 --> 00:32:57.240
+ (laughing)
+
+00:32:57.240 --> 00:32:59.960
+ Kind of prevents you from using stuff that isn't great.
+
+00:33:01.360 --> 00:33:04.240
+ But you can more or less build whatever you want
+
+00:33:04.240 --> 00:33:05.480
+ within their run time.
+
+00:33:05.480 --> 00:33:06.880
+ I think we're all going to be a little annoyed
+
+00:33:06.880 --> 00:33:07.920
+ with all these different run times.
+
+00:33:07.920 --> 00:33:10.040
+ Like you got node, which we're all familiar with.
+
+00:33:10.040 --> 00:33:11.120
+ Now, Cloudflare has their own.
+
+00:33:11.120 --> 00:33:12.800
+ There's like Denno and then it was a button
+
+00:33:12.800 --> 00:33:14.600
+ and button is going to be fully compatible.
+
+00:33:14.600 --> 00:33:16.360
+ So that might not be an issue.
+
+00:33:16.360 --> 00:33:17.960
+ There's like an explosion of run times right now,
+
+00:33:17.960 --> 00:33:19.440
+ which is kind of annoying.
+
+00:33:19.440 --> 00:33:22.840
+ But yeah, I think there's their setup is really good.
+
+00:33:22.840 --> 00:33:23.960
+ It makes a lot of sense.
+
+00:33:23.960 --> 00:33:26.000
+ It's really focused on this event driven thing.
+
+00:33:26.000 --> 00:33:29.080
+ So I don't know how many people are actually using it,
+
+00:33:29.080 --> 00:33:32.280
+ but that's my one, I guess my one big question.
+
+00:33:32.280 --> 00:33:36.280
+ When I hear that like there is no infrastructure as code,
+
+00:33:36.280 --> 00:33:38.640
+ how do you actually, are you console clicking?
+
+00:33:38.640 --> 00:33:42.720
+ Like what do you, how are you defining apps for Cloudflare?
+
+00:33:42.720 --> 00:33:46.360
+ So they have, I wouldn't call it infrastructure as code.
+
+00:33:46.360 --> 00:33:50.320
+ It's more like a framework for building Cloudflare apps.
+
+00:33:50.320 --> 00:33:51.320
+ And it was like a CLI tool.
+
+00:33:51.320 --> 00:33:54.440
+ So it's like all fit and the CLI tool do deployments.
+
+00:33:54.440 --> 00:33:55.280
+ Yeah.
+
+00:33:55.280 --> 00:33:59.360
+ So, and you're like, you're building out, like you're just writing
+
+00:33:59.360 --> 00:34:01.720
+ TypeScript files or something and using this library.
+
+00:34:01.720 --> 00:34:02.320
+ Exactly.
+
+00:34:02.320 --> 00:34:05.160
+ It's like, it's like a, it's more opinionated
+
+00:34:05.160 --> 00:34:07.600
+ than you get with AWS because you have to figure out
+
+00:34:07.600 --> 00:34:12.360
+ how to structure things, but have like 30% more of a framework
+
+00:34:12.360 --> 00:34:15.440
+ and there's a clear way of how you structure applications,
+
+00:34:15.440 --> 00:34:18.400
+ how you breaks apart, all gets deployed as these like
+
+00:34:18.400 --> 00:34:20.080
+ individual functions that run.
+
+00:34:20.080 --> 00:34:23.360
+ And there's options for like queues and like,
+
+00:34:23.360 --> 00:34:27.800
+ like an S3 equivalent and like some database options as well.
+
+00:34:27.800 --> 00:34:28.800
+ Okay.
+
+00:34:28.800 --> 00:34:33.440
+ I just, I think you've picked my curiosity, peaked, I don't know.
+
+00:34:33.440 --> 00:34:36.920
+ You've got me curious if there is actually some kind of,
+
+00:34:36.920 --> 00:34:40.520
+ I just imagine like zipping up things and like
+
+00:34:40.520 --> 00:34:41.960
+ uploading them through a web UI.
+
+00:34:41.960 --> 00:34:43.560
+ And that's how you define a Cloudflare application.
+
+00:34:43.560 --> 00:34:45.400
+ That was just sort of a non-starter in my mind.
+
+00:34:45.400 --> 00:34:49.120
+ That's where my mind goes when I hear no infrastructure as code.
+
+00:34:49.120 --> 00:34:52.200
+ But this sounds like not terrible.
+
+00:34:52.200 --> 00:34:55.520
+ And it makes sense, I guess if people like enjoy building on it,
+
+00:34:55.520 --> 00:34:56.720
+ it wouldn't be terrible.
+
+00:34:56.720 --> 00:35:00.080
+ So I shouldn't just jump to the most terrible possibility.
+
+00:35:00.080 --> 00:35:01.040
+ Yeah.
+
+00:35:01.040 --> 00:35:02.400
+ It doesn't cover everything and I do,
+
+00:35:02.400 --> 00:35:06.080
+ I think they do need to add some native IAC thing in there.
+
+00:35:06.080 --> 00:35:09.280
+ That's a huge task.
+
+00:35:09.280 --> 00:35:10.120
+ Oh yeah.
+
+00:35:10.120 --> 00:35:13.000
+ They might already be working on it, but yeah.
+
+00:35:13.000 --> 00:35:16.120
+ Okay, that's enough of our edge talk
+
+00:35:16.120 --> 00:35:17.760
+ and whatever else we talked about.
+
+00:35:17.760 --> 00:35:21.560
+ And we're just gonna, we're gonna end it.
+
+00:35:21.560 --> 00:35:22.400
+ I don't know.
+
+00:35:22.400 --> 00:35:23.240
+ Goodbye Dax.
+
+00:35:23.240 --> 00:35:25.440
+ I don't know what do I say at the end of that alone.
+
+00:35:25.440 --> 00:35:26.280
+ (laughing)
+
+00:35:26.280 --> 00:35:27.120
+ So hard.
+
+00:35:27.120 --> 00:35:30.780
+ (upbeat music)
+

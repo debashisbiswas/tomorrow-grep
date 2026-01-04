@@ -1,0 +1,2798 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.120
+ Look at us talking about things. I guess Chris can always cut stuff out. That's what
+
+00:00:03.120 --> 00:00:07.360
+ having an editor is all about. Leave it up to you, Chris. Save these people from us.
+
+00:00:07.360 --> 00:00:11.680
+ Whenever we talk about, Chris will probably cut this out. I feel like he leaves it in.
+
+00:00:11.680 --> 00:00:15.920
+ And I can't tell it's a prank.
+
+00:00:30.000 --> 00:00:44.480
+ There's something deeper going on. No, no, no, no. I don't care what I look like. No,
+
+00:00:44.480 --> 00:00:50.880
+ the my current mental, emotional, psychological, physical, all of them, all the states, we had
+
+00:00:50.880 --> 00:00:57.600
+ some like production issues. And do you know like when everything in your week is like planned out
+
+00:00:57.600 --> 00:01:03.840
+ and then like suddenly you're doing none of it. Yeah, you know, those type. Yeah, it's like that.
+
+00:01:03.840 --> 00:01:11.280
+ I'm also I'm very hungry. I've done like 36 hour fast. I've done I've done 48 hour fasts.
+
+00:01:11.280 --> 00:01:16.320
+ Like I've done a lot of fasting in my life. Well, not in my life in the last year,
+
+00:01:16.320 --> 00:01:23.280
+ because of Jiu Jitsu for like cutting weight and stuff. For some reason, I am like shaking.
+
+00:01:24.320 --> 00:01:31.440
+ And I've only just not had breakfast, I skipped breakfast and I'm like jittery. It's actually kind
+
+00:01:31.440 --> 00:01:36.880
+ of wild. My hand is shaking. Man, there's always something. What's that mean? I feel like every
+
+00:01:36.880 --> 00:01:43.360
+ time you get on, there's just like something. Oh, sorry. Can you just be normal? Why can't you
+
+00:01:43.360 --> 00:01:49.920
+ just be normal? I just kidding. The production issue thing is funny because I feel like there's
+
+00:01:49.920 --> 00:01:55.840
+ been a few moments in my life where like something goes wrong. And it always tends to like stack
+
+00:01:55.840 --> 00:02:01.840
+ up on other stuff that's like kind of already going wrong. And I always have this like 60 second
+
+00:02:01.840 --> 00:02:09.040
+ period where I just feel all the stress. Mm hmm. And I'm like, it almost feels like
+
+00:02:09.040 --> 00:02:15.040
+ my vision is tunneling. I can just like, I just like let it all in and I feel it. And then it fades
+
+00:02:15.040 --> 00:02:20.720
+ and then just kind of go and get the work done. Every time this has happened, it's like something
+
+00:02:20.720 --> 00:02:26.320
+ like that has happened. It's funny how like dramatic it ends up turning out like it's, in a way, it
+
+00:02:26.320 --> 00:02:32.080
+ feels not serious because we're like, you know, pushing some buttons on a computer. But it's like
+
+00:02:32.080 --> 00:02:36.320
+ we haven't experienced like we're in combat or something. It's just so like over the top. Yeah,
+
+00:02:36.320 --> 00:02:41.440
+ it really is. Yeah, the amount of like fight or flight they go into over people not being able
+
+00:02:41.440 --> 00:02:47.840
+ to see your website or not being able to do certain things on your website in our case.
+
+00:02:47.840 --> 00:02:53.680
+ Is it all fixed? Yeah, no, it was all fixed yesterday, two days ago. It's been two days ago.
+
+00:02:53.680 --> 00:02:59.200
+ It's just there's been a lot of fallout of like making changes to prevent it from happening again,
+
+00:02:59.200 --> 00:03:06.320
+ that kind of thing. So just all the stuff I was working on that I was thinking I was working on,
+
+00:03:07.120 --> 00:03:11.440
+ not working on, and then you just feel like everything feels so scattered, like when you have a
+
+00:03:11.440 --> 00:03:17.040
+ disruption like that, like my, I don't know, just the things open on my computer, I'm like closing
+
+00:03:17.040 --> 00:03:25.360
+ stuff. I'm like, well, there's just a lot. Yeah, it's a do you ever think about how that stuff only
+
+00:03:25.360 --> 00:03:30.800
+ happens when you're making changes? And if you've never made any changes, it would never happen.
+
+00:03:30.800 --> 00:03:34.880
+ And then you imagine there are some companies out there where their product just never changes
+
+00:03:34.880 --> 00:03:38.080
+ and they never do anything with it because they're like past the point of doing that.
+
+00:03:38.080 --> 00:03:44.480
+ And it must be so nice. It is software rot a thing though. If you just like wrote some code
+
+00:03:44.480 --> 00:03:49.520
+ and then leave it running for a long time, not in rest, let's say in JavaScript.
+
+00:03:49.520 --> 00:03:57.600
+ At some point, will it just stop working? Yeah, I think so because it's memory leaks are extremely
+
+00:03:57.600 --> 00:04:04.640
+ common. And prior to moving to serverless stuff, like a lot of my time was spent like a lot,
+
+00:04:04.640 --> 00:04:09.760
+ but you know, figuring out a memory leak was not uncommon. And I think we've all had the
+
+00:04:09.760 --> 00:04:15.040
+ people that have, you know, pre-serverless days, if you ship stuff, you've all had that
+
+00:04:15.040 --> 00:04:19.360
+ experience of like that chart where like the memory just like goes up over the course of eight
+
+00:04:19.360 --> 00:04:23.600
+ hours and then it reboots and it like drops and you finally fix it and it's flat and it feels amazing.
+
+00:04:23.600 --> 00:04:29.520
+ But like with serverless, it's just like, it's rebooting your system like every every couple
+
+00:04:29.520 --> 00:04:36.000
+ minutes. So yeah, you can kind of ignore all those problems. I will say, I built a serverless app.
+
+00:04:36.000 --> 00:04:41.760
+ One of the first apps that I built just kind of like using all these different new,
+
+00:04:41.760 --> 00:04:49.360
+ what are very common paradigms for us now, it was three, four years ago for like a local company.
+
+00:04:49.360 --> 00:04:54.320
+ And they use it every day. It's like, I'll just say it's like a health care thing. And they use it
+
+00:04:54.320 --> 00:05:00.800
+ in their office to manage like their patient experience. They use it every day. There have been
+
+00:05:00.800 --> 00:05:05.600
+ no issues. I mean, like, this is not a thing that I experienced early in my career. If I built
+
+00:05:05.600 --> 00:05:12.080
+ something for somebody, I had to constantly fix that. Yeah, babysit it. And maybe part of it,
+
+00:05:12.080 --> 00:05:17.280
+ I was still young. I was a newer engineer. But I don't think I've gotten that much better and
+
+00:05:17.280 --> 00:05:22.720
+ this app has just been rock solid. Like, I don't have to think about it. There's just like once
+
+00:05:22.720 --> 00:05:29.760
+ a year, it's the daylight saving time. There apparently some the library I was using has like a,
+
+00:05:29.760 --> 00:05:35.760
+ like a one hour gap where there's like a bug during daylight. And that's it. That's the only
+
+00:05:35.760 --> 00:05:39.200
+ issue. And I still haven't fixed it. I should probably fix that. I'm so sorry if you're listening.
+
+00:05:39.200 --> 00:05:45.440
+ Yeah, I've had a similar experience. The first thing I ever built in this extreme way,
+
+00:05:45.440 --> 00:05:50.240
+ it's so crazy. I can just like go to it at any time and it still all works. And that's such a
+
+00:05:50.240 --> 00:05:56.080
+ novel experience if you're coming from the way things were done before. I think the other kind
+
+00:05:56.080 --> 00:06:02.800
+ of rot that exists though is this is annoying and I'll just ignore it is eventually every single
+
+00:06:02.800 --> 00:06:08.160
+ one of your dependencies has like some critical security thing in it. And so you do have to like
+
+00:06:08.160 --> 00:06:12.080
+ upgrade those. And I think with that comes some risk of something breaking.
+
+00:06:12.080 --> 00:06:17.760
+ But yeah, like the fewer dependencies you use, like, you know, the better. Yeah, I guess like
+
+00:06:17.760 --> 00:06:24.000
+ software rot is a term that was coined long ago, I'm sure. And even back when like,
+
+00:06:24.000 --> 00:06:28.640
+ well, was it I don't know, was it when there was box software when you were like buying
+
+00:06:28.640 --> 00:06:35.760
+ DVDs with software on them? Or is it in the way like physical rot where like the medium would
+
+00:06:35.760 --> 00:06:41.280
+ agree? No, not not physical. No, I just I think like the term, I wasn't even talking about like
+
+00:06:41.280 --> 00:06:46.960
+ necessarily applications that you deploy serverlessly. You've been the literal code.
+
+00:06:46.960 --> 00:06:51.040
+ Just like, yeah, code like over time stuff doesn't work as well.
+
+00:06:51.040 --> 00:06:56.000
+ That's just a general software. Yeah, what is software? Maybe I should just know what I'm talking
+
+00:06:56.000 --> 00:07:01.440
+ about first slow iteration of software quality over time. That's a little bit different.
+
+00:07:01.440 --> 00:07:07.440
+ Not a physical phenomenon. So I'm going to actually decay suffer some a lack of being
+
+00:07:07.440 --> 00:07:11.040
+ responsive and updated with respect to the changing environment in which it resides. Yeah.
+
+00:07:11.040 --> 00:07:15.760
+ Okay, that makes sense. Like if the environment changes and the software is not updated,
+
+00:07:16.960 --> 00:07:22.480
+ then it feels like it's rotting. So is this like, oh, the environment being like the operating
+
+00:07:22.480 --> 00:07:28.000
+ system? Like if it's native software, like the operating systems evolving, so your software has
+
+00:07:28.000 --> 00:07:33.440
+ to continue evolving with it. It's why you have to keep paying Apple $99 a year. So if you want to
+
+00:07:33.440 --> 00:07:38.240
+ pay it open, just like things like, like touch screens came out. And now some people are trying
+
+00:07:38.240 --> 00:07:43.680
+ to use your software on touch screens and it like just doesn't work. Okay, expectations change or
+
+00:07:43.680 --> 00:07:48.480
+ all that. So yeah, I think we all dream both as someone making software, you can just like
+
+00:07:48.480 --> 00:07:52.880
+ finish it and put it out there. And as someone like consuming software that you can just like
+
+00:07:52.880 --> 00:07:58.480
+ implement it once and ever changes. But yeah, just the world is way too dynamic.
+
+00:07:58.480 --> 00:08:03.760
+ So is that why everybody does subscriptions? Is that why it's not one time payments anymore?
+
+00:08:03.760 --> 00:08:08.800
+ Because it is an ongoing effort and there's no such thing as just being done with the software
+
+00:08:08.800 --> 00:08:14.000
+ product. There's a few things to this, right? So everyone's like, oh, things used to not be
+
+00:08:14.000 --> 00:08:19.440
+ subscriptions. No, it didn't. There's no one remember how we all paid for Photoshop. I mean,
+
+00:08:19.440 --> 00:08:25.040
+ we all we all stole it. We all pirated it. But if you if you did pay for it,
+
+00:08:25.040 --> 00:08:30.800
+ Photoshop seven would come out, you pay 700 bucks for it. And he would use it for a year and
+
+00:08:30.800 --> 00:08:34.640
+ a half. And then they're like, Oh, Photoshop is out. Give me another 700 bucks. That's just a
+
+00:08:34.640 --> 00:08:39.200
+ subscription with like a yearly contract. It's it's the exact same thing. The reality is is like,
+
+00:08:39.200 --> 00:08:44.640
+ how are you the only way to really do this is you look at the fundamental model.
+
+00:08:44.640 --> 00:08:52.000
+ You're saying every single customer you acquire will only ever have one transaction event with
+
+00:08:52.000 --> 00:08:59.520
+ you. So your only way of growing is continually finding brand new customers, which companies are
+
+00:08:59.520 --> 00:09:04.880
+ already trying to do. And on top of like subscribe, like existing customers, we subscribing. So that
+
+00:09:04.880 --> 00:09:10.720
+ model just doesn't make any sense. You're just like, companies already struggle to do both,
+
+00:09:10.720 --> 00:09:16.720
+ even by doing both, they still struggle. You're gonna like cut off half the strategy and expect
+
+00:09:16.720 --> 00:09:22.480
+ to tour. I don't know. I do I do know that tailwind people talk. I was gonna bring a tailwind. Yeah,
+
+00:09:22.480 --> 00:09:28.160
+ because they do go down with that model. But again, it's a three or four person team. I think
+
+00:09:28.160 --> 00:09:32.720
+ that makes a lot of sense for them. And there is to be fair, there is the reality of
+
+00:09:32.720 --> 00:09:40.160
+ there's the world is less static than we imagine. Like it feels like there's like a pool of 2
+
+00:09:40.160 --> 00:09:44.240
+ million people and you need to like try to get to all of them. But really what it actually looks
+
+00:09:44.240 --> 00:09:49.520
+ like is there's a pool of 2 million people. Some of them are aging out and a bunch of people
+
+00:09:49.520 --> 00:09:54.080
+ are aging in. So it's like, yeah, you do have a shot at continuously finding customers. But
+
+00:09:55.600 --> 00:10:01.920
+ yeah, I think for products that require ongoing maintenance, but also like stuff that's hosted,
+
+00:10:01.920 --> 00:10:05.040
+ this is another thing that I always think about. I don't know if you ever thought about this, but
+
+00:10:05.040 --> 00:10:12.400
+ you know how like you have to most SaaS software like stores your data forever? That's it. Well,
+
+00:10:12.400 --> 00:10:17.680
+ like sort of like if you build like say you build a B2B SaaS product, most of them aren't like,
+
+00:10:17.680 --> 00:10:21.760
+ oh yeah, after like two years, we're going to expire your data out and we archive it.
+
+00:10:22.400 --> 00:10:29.040
+ It's like pretty much there. And like if I paid them, you see how like over time that data could
+
+00:10:29.040 --> 00:10:34.720
+ get so large that it like exceeds what I'm paying them per month. Oh yeah. Yeah, and I do wonder if
+
+00:10:34.720 --> 00:10:40.320
+ there are some like more mature bigger B2B companies that have like had to institute a policy of like,
+
+00:10:40.320 --> 00:10:44.800
+ we're going to purge your stuff. Yeah, like any inactive records we're going to like archive.
+
+00:10:44.800 --> 00:10:50.400
+ If you think about something like Slack, just pure, it's a small company that's using it,
+
+00:10:50.400 --> 00:10:57.440
+ it's a 10 people and they're messaging in there every single day. Slack's bill to store those
+
+00:10:57.440 --> 00:11:03.520
+ messages increases every single month. Yeah, but my bill for how much I'm paying a Slack is fixed.
+
+00:11:03.520 --> 00:11:10.160
+ So their margins like get worse over time. The ratios are insane. Like I'm sure like the cost
+
+00:11:10.160 --> 00:11:16.160
+ for them is like a quarter of a percent or something, but it's still like a weird something that like
+
+00:11:16.160 --> 00:11:22.080
+ doesn't line up there. Yeah, is it like, are they baking on storage costs just get cheaper over time
+
+00:11:22.080 --> 00:11:27.280
+ too? Like that's true. Source shows have gotten a lot cheaper over time as well. Google workspace
+
+00:11:27.280 --> 00:11:34.560
+ has just increased the pricing. I got like 15 emails. Yeah. So like my I have a Google workspace
+
+00:11:34.560 --> 00:11:40.080
+ just for mine. I don't know why even but for one of my email addresses. Yeah, and they just they
+
+00:11:40.080 --> 00:11:44.240
+ just bumped the price. I don't remember how much I didn't even like email or any of the emails.
+
+00:11:44.800 --> 00:11:50.640
+ But it wasn't probably a lot. Just that's notable. So I think that model of like the pay one thing,
+
+00:11:50.640 --> 00:11:56.720
+ it works if you're just shipping a delivered product. I think that makes sense for tailwind
+
+00:11:56.720 --> 00:12:01.280
+ because they're like, yeah, tailwind UI is it makes sense. It's not like there's not like this
+
+00:12:01.280 --> 00:12:06.400
+ ongoing infrastructure requirement. I guess like there's a website and you download the stuff,
+
+00:12:06.400 --> 00:12:10.560
+ but you know, basically free. It seems less complicated. Yeah, basically free in terms of
+
+00:12:10.560 --> 00:12:16.320
+ infrastructure. Yeah. And then for the one like the DHH stuff where he's trying to sell it once,
+
+00:12:16.320 --> 00:12:23.120
+ really, that's just a marketing scheme. But to take it seriously, if his company was actually
+
+00:12:23.120 --> 00:12:27.280
+ growing, like you they would have to release like a new version that you have to pay for again.
+
+00:12:27.280 --> 00:12:34.080
+ The lifetime subscription thing by this for life, it just doesn't work. I did this with Plex like
+
+00:12:34.080 --> 00:12:37.280
+ years ago, like 10 years ago, Plex offered like a bite for life thing. And I did.
+
+00:12:37.920 --> 00:12:43.360
+ Yeah, I bought it for life this year. Oh, they still do it. Yeah, they still do it.
+
+00:12:43.360 --> 00:12:49.120
+ Okay, cool. Yeah. So I guess it does kind of work, but it's just extra challenging.
+
+00:12:49.120 --> 00:12:56.320
+ Yeah. Yeah. I mean, I think we've covered all my thoughts on it. I don't know. The once thing,
+
+00:12:56.320 --> 00:13:02.320
+ I didn't really read the big page that DHH published. Like, what was the idea that they're
+
+00:13:02.320 --> 00:13:06.080
+ going to make a bunch of things that are you buy at once or once it's a product?
+
+00:13:06.080 --> 00:13:09.840
+ And you self-host it. So I think self-hosting is kind of a requirement for this because then
+
+00:13:09.840 --> 00:13:15.920
+ then there's no ongoing infrastructure costs for the creator. The thing though is like they don't,
+
+00:13:15.920 --> 00:13:20.800
+ I'm super into the self-hosting thing. Like SST is all about self-hosting stuff that other people
+
+00:13:20.800 --> 00:13:26.800
+ are paying a service for. Make it like really easy to self-host, you know, like I don't want
+
+00:13:26.800 --> 00:13:30.800
+ to self-host like a Rails app that again is going to have a memory elite that needed to have
+
+00:13:30.800 --> 00:13:36.720
+ monitoring on like, I don't, that's not easy to help hosting for me. Yeah. Yeah. Cause you guys
+
+00:13:36.720 --> 00:13:40.160
+ have gone down that route, right? With the SST console making, you're trying to make that
+
+00:13:40.160 --> 00:13:45.840
+ self-hostable. Yeah. I mean, we're going to have to, like every P2B company like this,
+
+00:13:45.840 --> 00:13:49.040
+ especially the lower level you are, like the closer you are to infrastructure,
+
+00:13:49.040 --> 00:13:54.240
+ big enterprise companies will not use a hosted version. It just doesn't. Yeah. It doesn't work.
+
+00:13:54.800 --> 00:14:00.880
+ But I think what's nice is your incentive should be, if I'm running a hosted version,
+
+00:14:00.880 --> 00:14:05.920
+ I want it to be really easy for me to host it. I don't want a lot of operational overhead.
+
+00:14:05.920 --> 00:14:10.320
+ I want to be able to like create copies of my environment easily. If you do all those for yourself,
+
+00:14:10.320 --> 00:14:15.200
+ it like also aligns with making it easy for other people to self-host.
+
+00:14:15.200 --> 00:14:18.080
+ Cause then they'll also have low operations and you'll be able to like spend a copy in their
+
+00:14:18.080 --> 00:14:25.680
+ environment. So yeah. Yeah. I'm seeing a few more projects in this space. I don't know if we
+
+00:14:25.680 --> 00:14:29.840
+ talked about, it's already the Cloudflare Analytics one. I don't think so. I think you've mentioned
+
+00:14:29.840 --> 00:14:34.240
+ it to me, but I don't think we really talked about it much. Yeah. I forgot the name. I keep
+
+00:14:34.240 --> 00:14:39.840
+ forgetting the name of it, but it's from someone that we're just centering. I think the name is Ben.
+
+00:14:39.840 --> 00:14:46.240
+ And he just built a very bare bones analytics product like bare bones today. Like it's, it's new.
+
+00:14:46.800 --> 00:14:50.160
+ But it does like what Google Analytics, the basics for Google Analytics, page view tracking,
+
+00:14:50.160 --> 00:14:56.160
+ et cetera, but it just built on top of Cloudflare's analytics engine. So you just deploy it into your
+
+00:14:56.160 --> 00:15:01.840
+ Cloudflare account. It's basically free because the Cloudflare free tier and it's no operational
+
+00:15:01.840 --> 00:15:05.520
+ overhead because analytics engine serverless. Yeah, that's pretty awesome. That's great. Like,
+
+00:15:05.520 --> 00:15:11.040
+ I think we're actually considering using that for our own tracking. I'm seeing a few more things
+
+00:15:11.040 --> 00:15:18.480
+ like that. How much is, yeah, how much is I on going to make SSD like a Cloudflare? I mean,
+
+00:15:18.480 --> 00:15:21.600
+ like, how much are you guys going to kind of start defaulting to Cloudflare in some of your
+
+00:15:21.600 --> 00:15:25.920
+ constructs? Or is that going to be a thing? Is it still going to be largely AWS focused or now?
+
+00:15:25.920 --> 00:15:29.600
+ Yeah. So we, we like went back and forth on like the right model for this. So there's
+
+00:15:29.600 --> 00:15:33.200
+ a few different ways we could do this, right? So if you take one of our contracts, like
+
+00:15:33.760 --> 00:15:41.360
+ AstroSight construct, right, to smooth and AstroSight, we could update that thing to
+
+00:15:41.360 --> 00:15:48.480
+ give you like options inside the component to be like, oh, I want the CDN in Cloudflare and I want
+
+00:15:48.480 --> 00:15:54.880
+ like the server functions to run in Lambda. You can like give you some complex configuration
+
+00:15:54.880 --> 00:15:58.240
+ there. We realized that that was like a bad route that was just going to like create like a really
+
+00:15:58.240 --> 00:16:03.440
+ leaky abstraction. And like, it was going to be hard to really customize that correctly. So we
+
+00:16:03.440 --> 00:16:09.280
+ just have completely separate namespaces now. There's like an AWS namespace with all of our AWS
+
+00:16:09.280 --> 00:16:15.120
+ constructs. There's a Cloudflare namespace, which today we just have like a worker construct, but
+
+00:16:15.120 --> 00:16:19.280
+ we'll bring like the AWS, the AstroSight over to it. We'll bring actually has over it, we'll bring
+
+00:16:19.280 --> 00:16:25.360
+ everything to it. And that lets us just say like, okay, we looked at Cloudflare and here's like our
+
+00:16:25.360 --> 00:16:29.440
+ best possible take on deploying Astro there. And they're like completely separate. And the
+
+00:16:29.440 --> 00:16:35.040
+ communities that know AWS and using Astro can like own theirs and communities that, you know,
+
+00:16:35.040 --> 00:16:39.040
+ know Cloudflare and using Astro, they can they can own theirs too. So we're keeping it completely
+
+00:16:39.040 --> 00:16:46.320
+ separate. The first release is like really still AWS focused, but yeah, we want to grow our library
+
+00:16:46.320 --> 00:16:54.400
+ of Cloudflare components as well. Cool. I have a completely new topic to jump into.
+
+00:16:55.360 --> 00:17:01.920
+ I want to know what you think about like framework devs versus app devs.
+
+00:17:01.920 --> 00:17:08.880
+ So this is like a topic that comes up every once in a while, like, oh, well, you're just a
+
+00:17:08.880 --> 00:17:14.000
+ library author, you don't actually build things. So what do you know about what's best for me? We
+
+00:17:14.000 --> 00:17:19.040
+ ever heard that like, I mean, that that comes up. I'm not saying you like you do both. I mean,
+
+00:17:19.040 --> 00:17:25.840
+ you guys like building the console is a great way to like dog food your own technology. But do you
+
+00:17:25.840 --> 00:17:32.720
+ think like the creators of react the creators of whatever UI library, like do you think that they
+
+00:17:32.720 --> 00:17:40.560
+ lack context? Like are all the people debating the internals of the latest react? Are they all just
+
+00:17:40.560 --> 00:17:45.600
+ like too detached from the real world? I guess is my question. Yeah, I would say I think this is a
+
+00:17:45.600 --> 00:17:51.440
+ real dynamic that I think I've been seeing my whole career. There's like this concept of a
+
+00:17:51.440 --> 00:17:57.120
+ hands off architect that a lot of companies, I don't know if that's as common anymore, but at
+
+00:17:57.120 --> 00:18:00.960
+ least when I was first starting, that was very common to have like this architectural role.
+
+00:18:00.960 --> 00:18:06.880
+ It often didn't work out well for the exact same dynamics. Like they theorize these things and then
+
+00:18:06.880 --> 00:18:12.640
+ on the ground, it just doesn't really feel right. Yeah, you see this in the AWS space a lot like
+
+00:18:13.520 --> 00:18:18.880
+ the like de facto way to do AWS, the correct way to quote unquote correct way to do AWS things
+
+00:18:18.880 --> 00:18:23.760
+ doesn't really like feel good for the day they develop or doing it. They're like,
+
+00:18:23.760 --> 00:18:26.880
+ they make sense in theory. So I think I've seen this dynamic a lot.
+
+00:18:26.880 --> 00:18:34.960
+ On the flip side though, I've also seen individuals that are very like when you talk to them and
+
+00:18:34.960 --> 00:18:40.720
+ like there are people that are framework authors, you can talk to them about anything and they know
+
+00:18:41.760 --> 00:18:46.160
+ exactly like what the experience of it is like. So I think it just comes down to the individual.
+
+00:18:46.160 --> 00:18:51.280
+ So a few people that I personally have had this experience with Ryan Carniotto.
+
+00:18:51.280 --> 00:18:56.560
+ It's funny because you would think he's like the godfather of like front end framework stuff.
+
+00:18:56.560 --> 00:19:00.560
+ Yeah, you would think that he's the most attached to me of a library author.
+
+00:19:00.560 --> 00:19:03.440
+ Yeah, exactly. In the sense that he knows all of the libraries.
+
+00:19:03.440 --> 00:19:09.440
+ Yeah, he knows like all of these doesn't all work. Yeah, yeah, but he is an excellent back
+
+00:19:09.440 --> 00:19:15.360
+ and engineer. We all know him for like the front end world stuff. I've talked to him about so
+
+00:19:15.360 --> 00:19:19.520
+ many specific practical real world things and he's very good at understanding like
+
+00:19:19.520 --> 00:19:25.680
+ here's like the thing we're pitching with this framework, but here's how it'll actually get
+
+00:19:25.680 --> 00:19:31.280
+ used. He knows that it's not going to be as slick as what the way people talk about it.
+
+00:19:31.280 --> 00:19:34.480
+ He talks a lot about he actually coined the term for me. He calls it
+
+00:19:35.760 --> 00:19:40.960
+ DOA projects down arrival projects because there's a whole class of projects in the real world
+
+00:19:40.960 --> 00:19:45.600
+ where you just build it once and then you ever touch it again. And he's one of the few people
+
+00:19:45.600 --> 00:19:53.120
+ in the framework space that I've heard like directly say that sometimes frameworks target those
+
+00:19:53.120 --> 00:19:58.880
+ and it doesn't make sense for non DOA projects. Whereas I've seen other framework authors like
+
+00:19:58.880 --> 00:20:04.560
+ show these really simple slick things and be like it works for everything. Another person is Ryan
+
+00:20:04.560 --> 00:20:10.080
+ Florence. I think he also is very, very good about understanding practically what happens
+
+00:20:10.080 --> 00:20:16.160
+ on the ground. And I mean, now that he's at Shopify, a big part of his role is to literally talk to
+
+00:20:16.160 --> 00:20:21.200
+ actual companies that are using this stuff and like figuring out what they commonly do wrong
+
+00:20:21.200 --> 00:20:25.120
+ with the problems, et cetera. So I think he tends to also be very, very good at
+
+00:20:25.120 --> 00:20:30.720
+ balancing both. So yeah, I think with like everything, it just comes down to like
+
+00:20:30.720 --> 00:20:35.440
+ the individual and how talented they are at all the stuff.
+
+00:20:35.440 --> 00:20:41.440
+ Do you think like just talking with people who build with your stuff is good enough? Like,
+
+00:20:41.440 --> 00:20:46.560
+ does that give enough context? No, I think that's like the bare minimum that you can do.
+
+00:20:46.560 --> 00:20:52.640
+ I think that best people are people that like are actively trying to build something and they
+
+00:20:52.640 --> 00:20:58.160
+ realize there's an opportunity for tooling that helps them build it. But the opportunity for tooling
+
+00:20:58.160 --> 00:21:06.800
+ is like a detour for like the actual thing they want to do. That's obviously I think people that
+
+00:21:06.800 --> 00:21:12.880
+ did in that they build the best stuff. I think that another issue is like, this is a scale issue.
+
+00:21:12.880 --> 00:21:20.400
+ If you're directly working on React, like React is so big that the reality is, is you could have
+
+00:21:20.400 --> 00:21:27.600
+ a very nice, very great career just being someone that focuses on like the meta react stuff,
+
+00:21:27.600 --> 00:21:32.960
+ as opposed to like down the ground using React stuff. So I think when something gets so big,
+
+00:21:32.960 --> 00:21:38.400
+ like you inevitably have people that are incentivized to kind of stay in a certain zone.
+
+00:21:38.400 --> 00:21:43.200
+ Yeah, could you explain? I don't know if I really understood. You mean like there's enough react
+
+00:21:43.200 --> 00:21:50.160
+ such a huge ecosystem that there's room for there to be people whose whole career is just
+
+00:21:50.160 --> 00:21:57.040
+ like in the minutiae? Is that what you're saying? Yeah, so I guess the counter I can provide is
+
+00:21:57.920 --> 00:22:02.880
+ if I just wanted to spend all day working on solid JS and solid JS internals and like
+
+00:22:02.880 --> 00:22:08.640
+ thinking about high level abstracted stuff, no one on the planet is going to pay me to do that.
+
+00:22:08.640 --> 00:22:13.280
+ There's no way I can do that full time. Yeah, but that's not the case of React.
+
+00:22:13.280 --> 00:22:19.600
+ There's you know, like Vercel hires people to do exactly that. There's opportunity for people to do
+
+00:22:19.600 --> 00:22:28.480
+ exactly that. And I think what I think the big shift in React was previously every feature that
+
+00:22:28.480 --> 00:22:35.680
+ was released to the public was already in production in Facebook. It was being used by teams to build
+
+00:22:35.680 --> 00:22:42.160
+ stuff and hardened and then it got, you know, shown to the world. I'm sure there's maybe
+
+00:22:42.160 --> 00:22:45.440
+ exceptions to that. I don't know. I might not know the details, but generally that was the case.
+
+00:22:46.400 --> 00:22:53.680
+ And with RSCs, Facebook's not using that. Nobody's using it. Nobody. It's like it's an inverse.
+
+00:22:53.680 --> 00:22:58.800
+ Like we're being pitched it to try it out as opposed to being told, hey, we're already using this.
+
+00:22:58.800 --> 00:23:02.800
+ If it's helpful for you, you can use it too. So that's like the shift, I think. And I think
+
+00:23:02.800 --> 00:23:06.560
+ we can kind of feel that. Yep. Do you ever just get a random taste in your mouth?
+
+00:23:06.560 --> 00:23:11.200
+ Like I just I just taste pumpkin pie right now. I haven't pumped a pie in like a year,
+
+00:23:11.200 --> 00:23:15.360
+ but I taste it. Is that like I'm having a stroke? What does that mean? I don't really know. I feel
+
+00:23:15.360 --> 00:23:22.960
+ like your hands are shaking. You're having weird taste in your mouth. Your emotions are impacted.
+
+00:23:22.960 --> 00:23:27.040
+ Yeah. I don't know. Like I said earlier, just try to be normal. Okay.
+
+00:23:27.040 --> 00:23:32.480
+ I'll try. You know what I'll try. I've been a little extra. I feel like I'm the high maintenance
+
+00:23:32.480 --> 00:23:38.080
+ one of us between the two of us by a lot. 100%. That's not debatable. Oh, yeah, 100%. Speaking of
+
+00:23:38.080 --> 00:23:46.080
+ herself. So there was this runaway bill in the news and by in the news, I mean on Twitter. And
+
+00:23:46.080 --> 00:23:52.480
+ this is the thing that it drives me crazy about like cloud providers. Like why can't I I've said
+
+00:23:52.480 --> 00:23:58.640
+ this a lot on AWS? Why can't I just say here is a dollar amount? And if you hit that dollar amount,
+
+00:23:58.640 --> 00:24:02.800
+ or I just want a free account, like you give me the free tier. Well, if I use anything, it costs
+
+00:24:02.800 --> 00:24:08.000
+ anything, shut it down. Yeah. I know it's a hard problem, but it seems like that should just be
+
+00:24:08.000 --> 00:24:13.760
+ baked in to all of these platforms. And I know Vercel being a middleman and just reselling AWS,
+
+00:24:13.760 --> 00:24:19.920
+ they kind of have the same problem AWS has. And it's like this case by case, bureaucratic decision
+
+00:24:19.920 --> 00:24:24.480
+ about whether we refund customers, if it was their fault, if it was an exploit, if it was a
+
+00:24:24.480 --> 00:24:29.920
+ vulnerability on our side, like all those things. Sorry. Go ahead. Yeah. So just like broadly,
+
+00:24:29.920 --> 00:24:35.600
+ I find it annoying because I'm sure people expected me when this came up to go dunk on Vercel,
+
+00:24:35.600 --> 00:24:41.120
+ but I actually find this these situations really annoying. I think that one they all they're always
+
+00:24:41.120 --> 00:24:46.720
+ resolved. They never actually end up being a problem, but just provide so much opportunity for
+
+00:24:46.720 --> 00:24:51.520
+ like a ton of misinformation about all this stuff to get out. And it's just like bad for the whole
+
+00:24:51.520 --> 00:24:56.960
+ ecosystem that people see these like shock situations, and they see the $23,000 or whatever,
+
+00:24:56.960 --> 00:25:01.760
+ and they like never see the resolution. And it just continues to spread like all this confusion
+
+00:25:01.760 --> 00:25:07.280
+ around this stuff. So I just hate it when this happens. Yeah. I mean, to your point, like AWS,
+
+00:25:07.280 --> 00:25:11.280
+ there's so many people who won't use AWS because they're afraid of a runaway bill that they've
+
+00:25:11.280 --> 00:25:15.520
+ read on Reddit. And if you if you look at the last couple, I mean, all the last ones that I can
+
+00:25:15.520 --> 00:25:18.640
+ remember one because this happens every couple of months, right? Someone posted me like this.
+
+00:25:18.640 --> 00:25:24.000
+ I don't remember an AWS one in a while. It's like, yeah, pretty much have been Vercel ones.
+
+00:25:24.000 --> 00:25:30.800
+ So my thoughts on this are, I think it's a hard problem, not technically, but it's like a product
+
+00:25:31.440 --> 00:25:36.960
+ issue. So the question is like, what headline are you trying to avoid? If you're trying to avoid,
+
+00:25:36.960 --> 00:25:42.800
+ Oh, no, I just got a $23,000 bill. You're you make it so when you sign up, there's like a limit
+
+00:25:42.800 --> 00:25:46.240
+ that you have to turn off, right? Yeah. And most people won't even know about that. Like,
+
+00:25:46.240 --> 00:25:49.680
+ they won't look into the right setting page. They don't even know the limits there. But when this
+
+00:25:49.680 --> 00:25:55.680
+ happens, they, you know, they don't get this runaway bill issue. Yeah. But then you have this other
+
+00:25:55.680 --> 00:26:00.240
+ headline, which is I spent two years working on my product. It finally went viral and Vercel shut
+
+00:26:00.240 --> 00:26:05.520
+ it down. Yeah. That's worse. And you see these with like payment providers and stuff all the time,
+
+00:26:05.520 --> 00:26:10.000
+ like because some like spike in payment activity looks like fraud and they shut it down. They like
+
+00:26:10.000 --> 00:26:15.520
+ lose a bunch of sales. So you have both these headlines that are possible. And whatever default
+
+00:26:15.520 --> 00:26:23.200
+ you pick default cap on default, cap off determines which one you want to deal with. Yeah. So I understand
+
+00:26:23.200 --> 00:26:29.840
+ why they opt for the third option, which is we'll just refund people when this stuff happens.
+
+00:26:29.840 --> 00:26:35.920
+ But I guess like that's default. In this case, there is no ability to say it. I want hard spin
+
+00:26:35.920 --> 00:26:40.320
+ limit. And that's what bothers me. It's like, why on AWS, why on Vercel, why on all these platforms?
+
+00:26:40.320 --> 00:26:45.600
+ I know why on Vercel, because they can't, I mean, AWS, you can't do it. So well, it's like,
+
+00:26:45.600 --> 00:26:49.760
+ they're upstream. I guess they still could. Yes. They can, because they have the ability to like
+
+00:26:49.760 --> 00:26:53.200
+ freeze a project. So because remember, they have their own routing layer before it hits the lambda
+
+00:26:53.200 --> 00:26:59.680
+ function so they can always. Right. They can not capture it. But but remember what AWS is
+
+00:26:59.680 --> 00:27:05.840
+ doing now. They, when you create a new account, your function concurrency is like capped at 10.
+
+00:27:05.840 --> 00:27:10.160
+ Is that every new account? Is that a thing? It's been happening way more frequently. Like it happened
+
+00:27:10.160 --> 00:27:16.000
+ to us. And then I've been seeing it a lot more. So like, that's now they're switching to
+
+00:27:16.000 --> 00:27:19.040
+ opting for the default where like you go to production, you're like, what is happening?
+
+00:27:19.040 --> 00:27:26.640
+ Everything's. But the limit is so low that you'll probably see it very quickly. Yeah, as opposed to
+
+00:27:26.640 --> 00:27:31.760
+ like, you know, seeing it like six months later. Yeah, I guess that just spun off a whole new set
+
+00:27:31.760 --> 00:27:38.720
+ of thoughts. Like you guys use SES in the console, don't you? For email? Yeah. What's the process
+
+00:27:38.720 --> 00:27:43.360
+ of getting actual production usage of SES? Because I've never, it's been too much of a hurdle. I've
+
+00:27:43.360 --> 00:27:48.320
+ never tried. Do you know what I do? I've done this so many times. Do you DM a buddy? And just like,
+
+00:27:48.320 --> 00:27:54.080
+ they know, okay, no, I do something even funnier. Okay. So people that aren't aware, when you are
+
+00:27:54.080 --> 00:27:59.760
+ using AWS SES, which is a service to send emails, by default, you can only send the emails that
+
+00:27:59.760 --> 00:28:04.000
+ you've like registered just for like dev views. Yeah. If you want to send emails generally,
+
+00:28:04.000 --> 00:28:08.960
+ there's a process you have to open up a support ticket. I've done this a few times where I've
+
+00:28:08.960 --> 00:28:15.280
+ realized I'm very certain the other end is a bot. So I will always provide what they ask.
+
+00:28:15.280 --> 00:28:21.040
+ And they always respond with the same information to respond the same message being like,
+
+00:28:21.040 --> 00:28:25.440
+ thank you. And they ask for more information, but it's like already information I put in the first
+
+00:28:25.440 --> 00:28:30.720
+ message. Yeah. So I can just copy paste the first message back and then they unlock it. And I've
+
+00:28:30.720 --> 00:28:36.880
+ seen this message now. And I just repaste it every time. And okay, I need it. I need the message,
+
+00:28:36.880 --> 00:28:43.200
+ or is it have like, no, no, no, yeah, I probably just give it to you. The part of me wanted to be
+
+00:28:43.200 --> 00:28:52.720
+ like, we should just have a component in SST. It just does this. It just turns on. It's also
+
+00:28:52.720 --> 00:28:56.960
+ funny because the initial limits are so hardcore. They're like, you can only send out emails per
+
+00:28:56.960 --> 00:29:00.720
+ day just to like whatever. And then you go through this and they're like, okay, you can send like
+
+00:29:00.720 --> 00:29:07.840
+ 4 billion emails every hour. Okay, I didn't need that much of a jump. That's funny.
+
+00:29:07.840 --> 00:29:12.640
+ Wow. I want this message yet or just build the construct. That's so funny. That's the power of
+
+00:29:12.640 --> 00:29:17.360
+ what you guys could do with SST. Like you really can cover a lot of rough edges on these cloud
+
+00:29:17.360 --> 00:29:23.600
+ providers by just doing weird stuff like that. Yeah. So yeah, I mean, I think yes, Versella should
+
+00:29:23.600 --> 00:29:28.320
+ add. I mean, they already have something that triggers a webhook and is on you to like handle it
+
+00:29:28.320 --> 00:29:32.720
+ and and freeze the project. They could make that one click. I don't know why they haven't.
+
+00:29:32.720 --> 00:29:39.680
+ But like, it's tricky. It's not going to be. I think everyone thinks it's so straight. I think
+
+00:29:39.680 --> 00:29:43.360
+ to a lot of people externally, it seems so straightforward. The fact they're not doing it seems
+
+00:29:43.360 --> 00:29:49.280
+ suspicious or intentional. Nobody enjoyed the last couple of days, you know, when their team
+
+00:29:49.280 --> 00:29:54.400
+ enjoyed having to deal with this. And they almost always have to refund. I think their bigger problem
+
+00:29:54.400 --> 00:30:00.240
+ is, you know, who's not refunding AWS is not refunding that. So yeah, so Versella is just out
+
+00:30:00.240 --> 00:30:06.560
+ that money. Like they just refunded their customer, but they paid the bill to AWS. Well,
+
+00:30:07.120 --> 00:30:11.680
+ yeah, I mean, a fifth of it or whatever whatever it is. But still whatever their market was probably
+
+00:30:11.680 --> 00:30:16.800
+ like, I think I did the math. I think it was like $2,000 or something. Okay. So plus the time of all
+
+00:30:16.800 --> 00:30:20.720
+ the people investigating and all that. Yeah, I guess Versella can't then go data best and say,
+
+00:30:20.720 --> 00:30:25.440
+ this was an accident from our downstream users. Yeah, they can't. Could you please refund?
+
+00:30:25.440 --> 00:30:31.520
+ Yeah. The more I think about this, they can or they can't. No, they cannot. I cannot.
+
+00:30:31.520 --> 00:30:35.680
+ Yeah, I don't think that would work because they look bad or just because they don't have a case.
+
+00:30:35.680 --> 00:30:40.080
+ They're like a big customer. They pay their bill every month. It's different than like a hobby person
+
+00:30:40.080 --> 00:30:45.120
+ coming in and being like, I did not mean it's been $30,000. Yeah, that that AWS works with you.
+
+00:30:45.120 --> 00:30:49.840
+ But this is a case where probably not like again, everyone has a shared responsibility model.
+
+00:30:49.840 --> 00:30:53.920
+ AWS is a shared responsibility with Versella, not with Versellas customers. So I can see why
+
+00:30:53.920 --> 00:30:57.680
+ that makes sense. Yeah, I couldn't do that. The thing I keep thinking about is
+
+00:30:57.680 --> 00:31:05.040
+ what is AWS and what are these cloud providers? What they did was they built like a crazy multi-tenant
+
+00:31:05.040 --> 00:31:11.280
+ system. You can get resources. Your resources are scoped to you. The configuration is scoped to you.
+
+00:31:11.280 --> 00:31:15.840
+ The billing is scoped to you. Everything is just your stuff. And they put it in order to create
+
+00:31:15.840 --> 00:31:20.800
+ all this separation so that even though it's one data center, you feel like it's your own private
+
+00:31:20.800 --> 00:31:26.560
+ data center that nobody else is in. Then you have companies like the middleman companies that go
+
+00:31:26.560 --> 00:31:33.520
+ and act like they're one tenant, but they're actually representing thousands of companies
+
+00:31:33.520 --> 00:31:38.800
+ that are using them. So they're stuck rebuilding all the same stuff that AWS did. They're stuck
+
+00:31:38.800 --> 00:31:44.560
+ like rebuilding a multi-tenant system on top of this. And there's such a weird problems, right?
+
+00:31:44.560 --> 00:31:49.280
+ If you look at, so I was thinking like, oh, why does because AWS has WAF, right? The web
+
+00:31:49.280 --> 00:31:53.760
+ allocation firewall to prevent. I don't know how effective it is like, but I'm sure it's very
+
+00:31:53.760 --> 00:32:00.560
+ pretty effective for preventing like DDOS and like malicious traffic. I was like, oh, why can't
+
+00:32:00.560 --> 00:32:08.080
+ they just turn that on? But then I was like, oh, but if Burssel turned it on, that would turn it on
+
+00:32:08.080 --> 00:32:12.560
+ for all of their customers, the savory was for all of their customers. And if like, what customers
+
+00:32:12.560 --> 00:32:17.360
+ targeted with like, you just don't have to lose that granularity. So they're stuck rebuilding that
+
+00:32:17.360 --> 00:32:23.360
+ in their layer. Yep. And a lot of their development time goes into these types of problems. And like
+
+00:32:23.360 --> 00:32:28.400
+ you as an end user, you don't care about those. Those are like the internal issues that they have,
+
+00:32:29.600 --> 00:32:32.800
+ internal architecture that they need to solve. You wouldn't need to solve those if you were
+
+00:32:32.800 --> 00:32:38.880
+ just using AWS directly. So yeah, I can't just, I just keep discovering new ways to understand
+
+00:32:38.880 --> 00:32:45.120
+ like what a tough business it is. Yeah, what like, how do quotas work for Burssel? If they're just
+
+00:32:45.120 --> 00:32:50.880
+ like, if all their customers are really just in like, Burssel accounts, AWS accounts, I'm sure they
+
+00:32:50.880 --> 00:32:56.560
+ have more than one account. But like, they have to deal with these quotas that potentially as
+
+00:32:56.560 --> 00:33:00.080
+ their business grows, that they have more customers using more of their cloud services.
+
+00:33:00.080 --> 00:33:05.200
+ They're going to butt up against more and more AWS quotas, where you can only have so many
+
+00:33:05.200 --> 00:33:10.640
+ resources deployed. And they've got to just continually, I guess, keep that provisioned higher
+
+00:33:10.640 --> 00:33:15.120
+ than what they need. Well, AJ was telling me that when he were just serverless framework,
+
+00:33:15.120 --> 00:33:20.000
+ they had a similar problem because they had like a hosted thing similar. They actually would just
+
+00:33:20.000 --> 00:33:24.960
+ load balance across multiple AWS accounts, not like literally a balance, but they would like
+
+00:33:25.600 --> 00:33:29.760
+ shard their customers across many AWS accounts. So I wonder if they do something similar.
+
+00:33:29.760 --> 00:33:35.600
+ Yeah, that makes sense. Again, just like weird problems that like you imagine that when you
+
+00:33:35.600 --> 00:33:40.080
+ pay a company like this, it's because they're doing the work that you would have to do.
+
+00:33:40.080 --> 00:33:44.160
+ Yeah, but they spend a lot of time doing work that you would never have to do because you're not
+
+00:33:44.160 --> 00:33:49.600
+ trying to manage a million deployments. Yep. Yeah, the WAF thing is interesting. And just
+
+00:33:49.600 --> 00:33:56.480
+ being like DDoSed on Vercel, as someone who is very involved with a consumer facing website that
+
+00:33:56.480 --> 00:34:02.800
+ gets a lot of eyeballs on it, like we deal with DDoS attempts or just constantly. I mean,
+
+00:34:02.800 --> 00:34:07.440
+ we're constantly getting hit with these like bots that are trying to either scrape all our data or
+
+00:34:07.440 --> 00:34:12.880
+ whatever, like just big bursts of activity that's not really stuff that's desirable. We don't want
+
+00:34:12.880 --> 00:34:17.360
+ that activity. Like we have to deal with that stuff, but we have the full suite of AWS tools
+
+00:34:17.360 --> 00:34:23.760
+ at our disposal. If you're a Vercel customer, I've seen the example where a very notable
+
+00:34:23.760 --> 00:34:31.520
+ tech influencer got DDoSed and he just like DMs Leerob and they take care of it. But what do you
+
+00:34:31.520 --> 00:34:37.520
+ do if your Joe doesn't have a relationship with Leerob on Vercel, you're a customer,
+
+00:34:37.520 --> 00:34:41.040
+ and you get DDoS, you're just what? Like what happens?
+
+00:34:41.040 --> 00:34:46.000
+ It's funny because you just drop down into a system that has proper multi-tenant support.
+
+00:34:46.000 --> 00:34:51.280
+ So everyone goes and signs up for CloudFlare, which again is a fully complete multi-tenant
+
+00:34:51.280 --> 00:34:55.680
+ system. They give you a firewall that's scoped to you and they put it in front of their site,
+
+00:34:55.680 --> 00:34:58.080
+ and now they can control the rules that they need.
+
+00:34:58.080 --> 00:35:02.080
+ So if I'm a customer of Vercel and I'm actually concerned about these things,
+
+00:35:02.080 --> 00:35:04.080
+ I just put CloudFlare in front of my Vercel site.
+
+00:35:04.080 --> 00:35:07.920
+ That's what everyone is told to do, and that's what everyone does, and it effectively fixes the
+
+00:35:07.920 --> 00:35:13.040
+ problem. But it's so awkward.
+
+00:35:13.040 --> 00:35:17.600
+ Like now you're routing through CloudFlare to get into the AWS,
+
+00:35:17.600 --> 00:35:23.760
+ to Vercel's AWS network, to go into their Kubernetes layer, to then go back out to CloudFlare worker.
+
+00:35:23.760 --> 00:35:29.520
+ Yeah, I hate the idea of extra hops, stuff like that just drives me crazy.
+
+00:35:29.520 --> 00:35:34.640
+ And I don't know, maybe it's just DNS and it's not like a big deal, or it's not just DNS, is it?
+
+00:35:34.640 --> 00:35:36.000
+ No, it's not just DNS. It's 100%.
+
+00:35:36.000 --> 00:35:41.760
+ It's your CDN in front of another CDN. I don't love it.
+
+00:35:41.760 --> 00:35:48.080
+ Yeah, I wonder if they will end up moving off of Lambda, because...
+
+00:35:48.080 --> 00:35:54.240
+ Okay, so if you look at some of the things they've done, they have their own bubble environment
+
+00:35:54.240 --> 00:36:00.080
+ thing. When you deploy a Vercel serverless function, it kind of lives in this bubble.
+
+00:36:00.080 --> 00:36:05.520
+ There's certain stuff that's injected into the Globals, or certain APIs for even receiving the
+
+00:36:05.520 --> 00:36:12.000
+ request. They had a post yesterday, and now you just standard web request response stuff.
+
+00:36:12.000 --> 00:36:14.960
+ Do you not expose to any of the Lambda specifics at all?
+
+00:36:14.960 --> 00:36:19.040
+ Yeah, you're saying like there's a Lambda function wrapper, sort of.
+
+00:36:19.040 --> 00:36:19.680
+ Yeah, exactly.
+
+00:36:19.680 --> 00:36:24.480
+ There's a bunch of Vercel code that lives in Lambda, and it shields you and kind of like
+
+00:36:24.480 --> 00:36:27.680
+ abstracts away Lambda from your function.
+
+00:36:27.680 --> 00:36:32.320
+ Yeah, so what's nice about that is they could just take your stuff and move it somewhere else,
+
+00:36:32.320 --> 00:36:39.040
+ to their own compute, wherever, and now it's not running on Lambda anymore, and you probably
+
+00:36:39.040 --> 00:36:43.520
+ wouldn't even notice. And they could probably improve a bunch of these issues, like some
+
+00:36:43.520 --> 00:36:48.320
+ performance issues they have more control. But it's a weird place to be, because I don't really
+
+00:36:48.320 --> 00:36:55.520
+ believe that you can offer a serverless offering unless you're at AWS scale.
+
+00:36:56.560 --> 00:37:03.040
+ I think you literally make negative money until you tip over to being like AWS scale,
+
+00:37:03.040 --> 00:37:06.400
+ because it's hard to keep your machines busy otherwise.
+
+00:37:06.400 --> 00:37:09.840
+ Yeah, what are you saying? You're saying it wouldn't work for Vercel?
+
+00:37:09.840 --> 00:37:14.160
+ I want to see why it makes sense to move the different forms of compute that they directly
+
+00:37:14.160 --> 00:37:19.040
+ manage more, if they have their own servers, physical servers and physical data centers.
+
+00:37:19.040 --> 00:37:22.400
+ Oh, I thought you were saying like Cloudflare workers or something instead of Lambda.
+
+00:37:22.400 --> 00:37:24.880
+ No, I meant like just going lower.
+
+00:37:24.880 --> 00:37:30.640
+ Going lower, yeah, which is not something they generally do, but I can see why that kind of
+
+00:37:30.640 --> 00:37:38.480
+ has to happen, because their margins don't like, they're just so expensive, and it has to be,
+
+00:37:38.480 --> 00:37:45.760
+ because they're building on top of another product. If you look at JPoint is out to me,
+
+00:37:45.760 --> 00:37:52.640
+ if you look at the companies that invest in, that's why the VCs that invest in like Vercel,
+
+00:37:52.640 --> 00:37:58.080
+ and some other companies that are similar to them, you'll see a bunch of common VC names,
+
+00:37:58.080 --> 00:38:03.280
+ but you'll never see Sequoia, and that's because Sequoia specifically believes that
+
+00:38:03.280 --> 00:38:08.720
+ you cannot build a profitable business on top of someone else's cloud.
+
+00:38:08.720 --> 00:38:13.120
+ That's why they're never in any of these deals. So that is like a real question mark and a real
+
+00:38:13.120 --> 00:38:20.480
+ problem. So you kind of have to move to your own stuff to make it sustainable, but I don't know,
+
+00:38:20.480 --> 00:38:23.760
+ you have to be at a crazy scale before you can do that. So yeah, I don't really know. I can see
+
+00:38:23.760 --> 00:38:27.600
+ them doing it, but I also see the challenges. Are they not already at that crazy scale decks?
+
+00:38:27.600 --> 00:38:32.160
+ You don't think they're already there? I'm just kidding. I mean, I don't think Cloudflare is there.
+
+00:38:32.160 --> 00:38:38.480
+ I think Cloudflare has a crazy profitable other business that lets them bet on this direction.
+
+00:38:38.480 --> 00:38:44.880
+ Yeah, but that's something sometimes I'd love for you to give me like the history of Cloudflare,
+
+00:38:44.880 --> 00:38:50.160
+ because I don't know if I understand like it started just as a CDN, and then they've moved
+
+00:38:50.160 --> 00:38:55.120
+ into all this other stuff. But you don't have to right now really start as a CDN. They actually,
+
+00:38:55.120 --> 00:39:02.320
+ I need to look up more on this myself. I'm not that educated on it, but they started as the
+
+00:39:02.320 --> 00:39:09.200
+ problem we want to solve is security, like a DDoS issue. How do we solve it? And the way to solve it
+
+00:39:09.200 --> 00:39:14.640
+ for them was to like integrate into all these crazy places in the world, like all these crazy
+
+00:39:14.640 --> 00:39:19.280
+ places where internet traffic flows through, and they did that work. And nobody else in the world,
+
+00:39:19.280 --> 00:39:24.800
+ not even AWS, is as tightly integrated as they are. Like at the ISP level, they have like deals
+
+00:39:24.800 --> 00:39:29.360
+ with every single ISP that's like crazy, crazy embedded. And they realize now that we're here,
+
+00:39:29.360 --> 00:39:34.720
+ we can do all kinds of other stuff. But I think it's just all float from that. I'm not super aware
+
+00:39:34.720 --> 00:39:40.480
+ of the details, but yeah, it's a cool. I figured that that's one of those like 100 year businesses,
+
+00:39:40.480 --> 00:39:47.440
+ like you'll never really see their what they're going to become for like 100 years or so. It's a
+
+00:39:47.440 --> 00:39:53.280
+ long term play. I have another dumb question. I just saw you tweet something about Superbase.
+
+00:39:53.280 --> 00:39:56.960
+ And I realized I see people tweet stuff about Superbase. And I don't know what Superbase is.
+
+00:39:56.960 --> 00:40:01.840
+ What is Superbase? It's like not Firebase. It's like open source Firebase. But what's Firebase?
+
+00:40:01.840 --> 00:40:07.840
+ Okay. So is that even right? Did I even get that? Yeah, I think yes. Superbase and Firebase
+
+00:40:07.840 --> 00:40:16.880
+ are very similar. I think what Superbase initially set out to and still is a tackle that back ends
+
+00:40:16.880 --> 00:40:21.840
+ the service market where you really just want to build a front end. You want to write data to
+
+00:40:21.840 --> 00:40:25.760
+ a generic back end. It has stuff like auth permissions, like all that stuff built in.
+
+00:40:25.760 --> 00:40:31.200
+ And they were like, we were going to do like the best possible version of that. And I think they
+
+00:40:31.200 --> 00:40:35.840
+ did achieve that they built the best possible version of that concept. Did it really well,
+
+00:40:35.840 --> 00:40:41.440
+ built a lot of really cool technology as a side effect of that. And when I saw them, you know,
+
+00:40:41.440 --> 00:40:45.840
+ first come out and sort of get popular, I was like, oh, they're going to win this like market.
+
+00:40:45.840 --> 00:40:51.440
+ It's not the biggest market in the world. Again, like those DOA projects or like agencies that do
+
+00:40:51.440 --> 00:40:56.080
+ like eight projects a year. Perfect for them. I was like, okay, they're just going to dominate
+
+00:40:56.080 --> 00:41:01.680
+ that or like, you know, win the large percentage of it. And my tweet was I found it fascinating that
+
+00:41:01.680 --> 00:41:07.360
+ they brought they like went so specific and so deep with this very specific market.
+
+00:41:07.360 --> 00:41:13.360
+ But people just use them for generic Postgres hosting now. Like they don't even care about the
+
+00:41:13.360 --> 00:41:17.760
+ full background of service thing. Like as a side effect of them building that they also built a
+
+00:41:17.760 --> 00:41:23.760
+ great Postgres experience. Because it's a full background of service offering, it has like great
+
+00:41:23.760 --> 00:41:27.920
+ tools to like go look into your database and see what's going on. And it's all nice. Even if you're
+
+00:41:27.920 --> 00:41:33.760
+ just using it just for the Postgres functionality. Yeah. And yeah, I think that was like a very
+
+00:41:33.760 --> 00:41:38.160
+ unique trajectory. I didn't really see that. I didn't predict that happening at all.
+
+00:41:38.160 --> 00:41:44.080
+ Yeah. That's just making me think of all the things I use. No, I can't think of a single
+
+00:41:44.080 --> 00:41:48.640
+ example right now because I haven't eaten. But there's so many things where it's like you use
+
+00:41:48.640 --> 00:41:53.040
+ one sliver of it and you kind of feel bad. You just have this nagging feeling that like,
+
+00:41:53.040 --> 00:41:57.840
+ you should be taking advantage of more of this stuff that it offers. But you just need this one
+
+00:41:57.840 --> 00:42:01.520
+ part and you just use that part and there's nothing stopping you from just using that part.
+
+00:42:01.520 --> 00:42:04.720
+ That's great when it doesn't feel the rest of product is getting in your way.
+
+00:42:04.720 --> 00:42:11.280
+ Yeah. Sometimes it's very much in the way. Yeah. They're trying to get you to use all of it.
+
+00:42:11.280 --> 00:42:16.000
+ Yeah. And I want to. And then that's very annoying. I think Superbase is a good job not doing that.
+
+00:42:16.000 --> 00:42:21.120
+ Plex is a good example that like I use Plex to direct play media that I have stored on a server.
+
+00:42:21.120 --> 00:42:25.840
+ But they want to shove all this other Plex stuff on me. I'm like, no, thank you. I signed up for
+
+00:42:25.840 --> 00:42:29.600
+ Plex Pass. Can I get rid of all that something? It's so hard to get rid of it. And they're always
+
+00:42:29.600 --> 00:42:33.200
+ adding these stuff that you then you have to let go and turn off in the settings too. Yeah.
+
+00:42:33.200 --> 00:42:38.000
+ Do you see my tweet about that? That's one of my dream projects. Oh, yeah. You want to build Plex?
+
+00:42:38.000 --> 00:42:43.680
+ Yeah. Plex is written in Python. Oh, really? I think so. I think a large amount of it.
+
+00:42:43.680 --> 00:42:48.960
+ Which part? Like the server? Yeah. I think it is. Maybe I might be wrong on this,
+
+00:42:48.960 --> 00:42:52.880
+ but I think I remember seeing Python files in the folders digging through.
+
+00:42:52.880 --> 00:42:58.240
+ It's so slow. Is it a source? Wait. Oh, no, you dug through the.
+
+00:42:58.240 --> 00:43:03.120
+ Just like the config folder files. And so there's like some Python files end up there. Yeah. It's so
+
+00:43:03.120 --> 00:43:08.800
+ slow. Like what? I don't know if you've you experienced this, but like, why is there any
+
+00:43:08.800 --> 00:43:16.240
+ lag going between any screens in Plex? Like it's storing, you know, even big libraries,
+
+00:43:16.240 --> 00:43:20.320
+ 2000 records, 2000 records, 2000 movies that you have, whatever it is.
+
+00:43:20.320 --> 00:43:24.960
+ That's like you can just fit all that in memory, literally, like the whole database.
+
+00:43:24.960 --> 00:43:30.000
+ Yeah. And every time I open, like every time I start up my theater, it's slow again. Like,
+
+00:43:30.000 --> 00:43:35.600
+ why didn't it at least get fast after the first load? Yeah. Why didn't it store all that stuff
+
+00:43:35.600 --> 00:43:41.920
+ for the next time? Yeah. So there's that, which, yeah, if someone just built like a local first
+
+00:43:41.920 --> 00:43:45.520
+ architecture on this, it would just blow it out of the water. It would feel really great to use.
+
+00:43:45.520 --> 00:43:50.080
+ It would feel like a native app, which it should, because it's running on like dedicated devices.
+
+00:43:50.080 --> 00:43:57.920
+ Installed like a native app. Yeah. Yeah. So that's one, two. This is like maybe over the top, but
+
+00:43:57.920 --> 00:44:03.920
+ I always thought the transcoder of Plex should be decoupled so it can run on several servers
+
+00:44:03.920 --> 00:44:09.840
+ if you want it to. So you can have like a cluster. Yeah. Let's just have like a dedicated transcoding
+
+00:44:09.840 --> 00:44:13.920
+ machine. Yeah, exactly. That's like separate or something. So just kind of decoupling those.
+
+00:44:13.920 --> 00:44:18.320
+ I think the whole thing should be written and go single binary. You install like, just keep it
+
+00:44:18.320 --> 00:44:24.400
+ really stupid, simple, instead of like this complex application. But yeah, like ultimately,
+
+00:44:24.400 --> 00:44:30.000
+ all it is is like, it's in a way, it's just just like OBS. OBS is a big complicated thing, but all
+
+00:44:30.000 --> 00:44:37.040
+ it's doing is running FFmpeg commands at the end of the day. It's a UI for FFmpeg. And Plex is kind of
+
+00:44:37.040 --> 00:44:43.360
+ also that I love to just like build a true open source version of it that doesn't have all this
+
+00:44:43.360 --> 00:44:48.000
+ bloat is not trying to become a Netflix. It's not trying to like shovel this stuff in your face. It'd be
+
+00:44:48.000 --> 00:44:54.080
+ fantastic. That would be great. I'll use it. I'll be your first customer. That reminds me too. I saw
+
+00:44:54.080 --> 00:45:00.400
+ somebody tweet about Fabrice Belard. Did I say his name right? I have no idea what you just
+
+00:45:00.400 --> 00:45:08.640
+ create or FFmpeg. Okay. Well, it's someone from France. Yes. It's a French name. I knew that.
+
+00:45:09.600 --> 00:45:18.080
+ I'm cultured from the Ozarks. Fabrice Belard created FFmpeg. Have you read his Wikipedia? Because
+
+00:45:18.080 --> 00:45:25.600
+ I don't know how I never heard the name. His body of work is kind of insane.
+
+00:45:25.600 --> 00:45:29.760
+ I think I've heard and still going. I think I've seen this pop up before. I don't remember the
+
+00:45:29.760 --> 00:45:38.080
+ details, but like, what is it? So, well, I'm on his Wikipedia now. Obviously, FFmpeg is nuts. And
+
+00:45:38.080 --> 00:45:43.200
+ I didn't know there was like, I mean, I'm sure there's a lot of contributors to FFmpeg.
+
+00:45:43.200 --> 00:45:52.880
+ But that's impressive. In 2014, he proposed BPG images as replacement for JPEG. I guess I don't
+
+00:45:52.880 --> 00:45:58.480
+ know if that actually took off. July 19, 2019 released QuickJS, which is a small,
+
+00:45:58.480 --> 00:46:03.840
+ embeddable JavaScript. Wait, he works on QuickJS? What the hell? He created it. And QuickJS,
+
+00:46:03.840 --> 00:46:09.840
+ that's how this came up because what is it? The new LLRT run time is based on LRT.
+
+00:46:09.840 --> 00:46:18.560
+ And it's funny. I met a guy last week here in Miami, and he built this really cool serverless type
+
+00:46:18.560 --> 00:46:22.400
+ thing as a very cool product. And he's trying to start a company around it. And he also uses
+
+00:46:22.400 --> 00:46:27.280
+ QuickJS. And like randomly came up twice in one way. Oh, really? Yeah. Yeah. So we're kind of
+
+00:46:27.280 --> 00:46:34.480
+ spanning all these weird different things, right? Like the he built a JavaScript engine, but also
+
+00:46:34.480 --> 00:46:41.600
+ FFmpeg and also an image format. But then in 2021, this artificial neural network based data
+
+00:46:41.600 --> 00:46:46.240
+ compressor in NCP, I'm just reading this straight up to Wikipedia, but took place first place out
+
+00:46:46.240 --> 00:46:51.920
+ of hundreds in the large text compression benchmark. It uses his own artificial neural network library
+
+00:46:51.920 --> 00:46:58.400
+ Lib and C, which is publicly available. So a large text compression benchmark competition,
+
+00:46:58.400 --> 00:47:06.400
+ he won it with this neural network based text compressor, which blows my mind. And then in 23,
+
+00:47:06.400 --> 00:47:11.280
+ last year, he released TS zip, which sounds like a derivative of that work.
+
+00:47:11.280 --> 00:47:20.480
+ That's a lossless text compressor using LLMs. Yeah. Just like AI, media, and then a JavaScript
+
+00:47:20.480 --> 00:47:24.320
+ runtime. It's just such a spread of things. He's done. Like this guy's got to be brilliant.
+
+00:47:24.320 --> 00:47:28.800
+ You see the commonality with all of these? No, he's very good at making things small.
+
+00:47:28.800 --> 00:47:30.320
+ Oh, interesting.
+
+00:47:30.320 --> 00:47:34.320
+ All compression stuff. It's all like, yeah, we make this small, which is very difficult,
+
+00:47:34.320 --> 00:47:38.640
+ obviously. But like, I think that's like the common thread, like, and it's spinning all these
+
+00:47:38.640 --> 00:47:43.600
+ different places, which is impressive. I mean, cute. Did he invent Q and Q EMU also? Because that's
+
+00:47:44.160 --> 00:47:50.800
+ used a ton. Oh, yeah. Yeah. Well, I didn't read the little opening. I could have summed this up a
+
+00:47:50.800 --> 00:47:55.920
+ lot better. And that's like a really fast, uh, emulator. Yeah. Don't know how I never heard his
+
+00:47:55.920 --> 00:48:01.360
+ name. I never thought like who made FFM pig? FFM pig is one of the most impressive pieces of software
+
+00:48:01.360 --> 00:48:06.400
+ that's ever been written. Like you can do literally anything with media with FFM pig.
+
+00:48:06.400 --> 00:48:11.040
+ I know. It's amazing. You could like build a whole career on just using and being good at FFM
+
+00:48:11.040 --> 00:48:17.200
+ pig. You know what I mean? You know what? One of the first unlocks for me with chat GPT was like
+
+00:48:17.200 --> 00:48:23.040
+ chat GPT plus FFM pig. And I was like, yeah, I can do everything. Like it can create FFM pig commands.
+
+00:48:23.040 --> 00:48:27.920
+ Yeah. Yeah. It's like it's own programming language. Yeah, exactly. Super impressive. Yeah.
+
+00:48:27.920 --> 00:48:33.760
+ There are just some people like that that are just everywhere and prolific. Yeah. So you just
+
+00:48:33.760 --> 00:48:37.520
+ said there's people like that. Now I got to pull up this. Somebody sent me this yesterday.
+
+00:48:38.640 --> 00:48:43.280
+ Well, not just somebody, a friend, Roger, who listens to the podcast. I know that because
+
+00:48:43.280 --> 00:48:49.760
+ he said something yesterday from our podcast. Uh, he sent me this, uh, individual Johnny Kim,
+
+00:48:49.760 --> 00:48:57.520
+ his Wikipedia article. Uh, this is just crazy. Uh, so he was an American or he is an American
+
+00:48:57.520 --> 00:49:03.440
+ US Navy lieutenant commander. He was a seal. Oh, he said this is an astronaut doctor. Yeah. Also
+
+00:49:03.440 --> 00:49:09.760
+ an astronaut and a doctor while in, was it basic training? What was it while he's like going through
+
+00:49:09.760 --> 00:49:16.720
+ his Navy seal training or something, he gets his doctorate, his medical, what is it? I got to read
+
+00:49:16.720 --> 00:49:22.000
+ this. Yeah. Gets his medical doctorate and gets accepted into the astronaut program. And then
+
+00:49:22.000 --> 00:49:27.200
+ becomes an astronaut. Like what in the world was wrong with us? He's, he's Korean, right? Everyone,
+
+00:49:27.200 --> 00:49:31.600
+ I remember when, when I first heard about this, the juggernaut was making was like, oh, great.
+
+00:49:31.600 --> 00:49:38.240
+ Like every Asian parent has like someone to compare the one impossible to compare you to.
+
+00:49:38.240 --> 00:49:42.560
+ Yeah. Oh, I'm comparing myself. It's like, what have I done in life? I can't hardly have a podcast
+
+00:49:42.560 --> 00:49:47.680
+ and get programming done at the same time. It's got an astronaut and a Navy seal. What?
+
+00:49:47.680 --> 00:49:53.200
+ That's, has he killed people in space? I mean, and resuscitated them because he's a doctor.
+
+00:49:53.200 --> 00:49:59.920
+ He served in the Iraq war. It looks like you got a silver star. Wow. There's just like,
+
+00:49:59.920 --> 00:50:02.480
+ there's people like that. That's what Roger said. There's people like that.
+
+00:50:02.480 --> 00:50:08.160
+ I was saying I bet he doesn't know rust. Someone also asked about jelly fin. So jelly fin is the
+
+00:50:08.160 --> 00:50:12.800
+ open source version of Plex, but it sucks. I think it sucks. I don't think it'll look really good.
+
+00:50:12.800 --> 00:50:17.120
+ There's also in be, in be sucks too, right? He's been around for a long time. Yeah.
+
+00:50:17.120 --> 00:50:21.680
+ I love that like, there's all the hundreds of thousands of hours of work that probably
+
+00:50:21.680 --> 00:50:24.720
+ hundreds of people have put into jelly fin and in be and we're like, yeah, it sucks.
+
+00:50:27.280 --> 00:50:32.400
+ I barely used it. I installed it on my Synology NAS and I'm like, yeah, in be sucks.
+
+00:50:32.400 --> 00:50:37.520
+ Yeah, but I mean, you know, you got to get people to that aha moment quicker. You suck.
+
+00:50:37.520 --> 00:50:42.000
+ Yeah, that's right. It's a marketing thing as much as anything. I mean, it's a packaging,
+
+00:50:42.000 --> 00:50:46.320
+ a packaging thing. Yep. The other thing I forgot to bring up, we never talked about,
+
+00:50:46.320 --> 00:50:51.360
+ is I tried the Apple Vision Pro. Oh, Apple Vision Pro. I would ask you this first thing.
+
+00:50:51.360 --> 00:50:55.760
+ Yeah. This was the first thing I wanted to talk to you about. Tell me, do I need to buy it?
+
+00:50:55.760 --> 00:51:02.560
+ Is it amazing? So backstory, I have a friend here in Miami and I went over to his apartment
+
+00:51:02.560 --> 00:51:06.800
+ for the first time. Is this your rich friend? You know, I said, everybody has to have a rich
+
+00:51:06.800 --> 00:51:10.720
+ friend to go to all the rich parties. No, it's not. It's not that category of rich.
+
+00:51:10.720 --> 00:51:14.400
+ But I did, after hanging out with him, I was talking to Liz and I was like, oh,
+
+00:51:14.400 --> 00:51:22.240
+ this is the urban version of Adam. Okay. And I was playing Y. So he like sold a company a couple
+
+00:51:22.240 --> 00:51:26.560
+ years ago and he's like working on a new one now. He's doing pretty well.
+
+00:51:26.560 --> 00:51:32.480
+ Apartment is amazing. Super nice, really well done. We go into his room and he just has
+
+00:51:32.480 --> 00:51:41.200
+ every single gadget, like every single thing. And he has a, he has a gaming PC. Okay.
+
+00:51:41.200 --> 00:51:47.120
+ You've seen the size of like a typical desktop. This is the biggest PC I've seen in my life.
+
+00:51:47.120 --> 00:51:51.200
+ It was literally like this tall. It was like, it was on the ground. It was getting mounted
+
+00:51:51.200 --> 00:51:55.600
+ yet. It was like, I got my ribs. It was super tall. I was like, oh, I was like, oh,
+
+00:51:55.600 --> 00:51:59.760
+ just have like four GPUs. And then he was like, it was just a normal PC has one GPU in it,
+
+00:51:59.760 --> 00:52:04.800
+ one CPU in it. But for some reason, it is giant and like wild and stuff. And he's going to like
+
+00:52:04.800 --> 00:52:10.800
+ mount it in the wall with like this crazy like wall stuff. I like this guy. He's got his massive
+
+00:52:10.800 --> 00:52:15.680
+ painting button. Oh, another thing that I loved. He had a bunch of art in his house. And for me,
+
+00:52:15.680 --> 00:52:20.720
+ my whole life, I realized if the bigger the painting is the more I like it and every single
+
+00:52:20.720 --> 00:52:25.600
+ thing he has, giant, giant paintings. And it sometimes looks better when it's big, you know?
+
+00:52:25.600 --> 00:52:30.960
+ Yeah. No, I am big on the train of the bigger the thing, the better it is. Kasey's always like,
+
+00:52:30.960 --> 00:52:36.400
+ just because the Apple is bigger, does it make it better? Like, it's better in a fruit, any,
+
+00:52:36.400 --> 00:52:41.280
+ yeah, if it's bigger, it's probably better. Yeah, exactly. So again, so he,
+
+00:52:41.280 --> 00:52:44.400
+ he reminds me a lot of you, because he's like has all this stuff, but
+
+00:52:44.400 --> 00:52:49.040
+ yeah, can I just interrupt and say an apartment? Because he's not from the Ozarks. Yeah.
+
+00:52:50.720 --> 00:52:54.400
+ So if I moved to the city, could I be the urban version of Adam? When you said he's the urban
+
+00:52:54.400 --> 00:52:59.440
+ version of Adam, I was imagining, you know, tall, rugged, handsome, well spoken, those kind of
+
+00:52:59.440 --> 00:53:04.560
+ things. But no, it's the consumerism. That also kind of looks like you too, like similar,
+
+00:53:04.560 --> 00:53:11.200
+ definitely similar category of person physically. But most of the thing that reminds you of me is
+
+00:53:11.200 --> 00:53:16.320
+ that he has a lot of stuff. Yeah, he's has a lot of stuff. He seems like very particular in like,
+
+00:53:16.320 --> 00:53:22.080
+ you know, there's lots of similarities. So he has like every single headset ever,
+
+00:53:22.080 --> 00:53:27.840
+ like the Quest 2, the Quest 3, he's got like those be real glasses. He got, he has, he's the ones
+
+00:53:27.840 --> 00:53:32.960
+ that like a 3D print them to your face so that the light doesn't leak in. Oh, yeah. And he obviously
+
+00:53:32.960 --> 00:53:40.480
+ got the Vision Pro. And I tried it. And I will say I was, it was as someone that has like, I have
+
+00:53:40.480 --> 00:53:44.960
+ the valve index or I'm not new to VR or anything. Yeah, it was like a pretty crazy experience.
+
+00:53:47.040 --> 00:53:52.400
+ In hindsight, though, I think it was crazy because I had never, the thing I was new to was the mixed
+
+00:53:52.400 --> 00:53:58.560
+ reality, like AR stuff. I'd only ever had like full VR experiences. Yeah. So the immediate,
+
+00:53:58.560 --> 00:54:02.400
+ what's funny was the thing that blew my mind the most is when I put it on and I looked at my hands.
+
+00:54:02.400 --> 00:54:07.040
+ And I was like moving my hands around. I was like touching my hands. There was like,
+
+00:54:07.040 --> 00:54:11.440
+ it just looked like real life. And it was so hard for me to remember that I'm looking through a
+
+00:54:11.440 --> 00:54:16.640
+ screen. But the past, who is it? That's that good. Yeah. Yeah, I mean, but like technically,
+
+00:54:16.640 --> 00:54:21.760
+ it's not perfect. Like it's a little grainy and like the light, the color is like a little bit dull
+
+00:54:21.760 --> 00:54:26.480
+ and it like changes depending if it's highlight or low light. Yeah. So of course, it's not like
+
+00:54:26.480 --> 00:54:31.120
+ the equal to reality. But as someone that never experienced that, I was like, this is very good.
+
+00:54:31.120 --> 00:54:36.320
+ Like I really don't feel like I'm inside something. I feel like I'm just out, like looking at people
+
+00:54:36.320 --> 00:54:41.680
+ and I can see them. And then obviously, if you have a believable base version of reality,
+
+00:54:41.680 --> 00:54:46.640
+ when you start to like put fake stuff in there, it's like a really crazy experience. Like,
+
+00:54:46.640 --> 00:54:51.840
+ he showed me this thing from Dinosaur demo where like this portal opens up in front of you
+
+00:54:51.840 --> 00:54:56.640
+ and a dinosaur comes out and you can interact with it. And it's like in the room with you.
+
+00:54:56.640 --> 00:55:01.840
+ It's really, really convincing. It's really impressive. It was really definitely a magical
+
+00:55:01.840 --> 00:55:07.920
+ experience. It felt like. Was it a meat eating dinosaur? Yes, it was. Well, it was funny because
+
+00:55:07.920 --> 00:55:11.120
+ I was like touching. I was like trying to touch it and it snapped in my hand. And I like it seemed
+
+00:55:11.120 --> 00:55:16.000
+ to be like pull my hand back and then everyone laughed at me. But that was so on the pure entertainment
+
+00:55:16.000 --> 00:55:21.360
+ side, that was really impressive. When I dialed the thing to make it, you know, how you can make it
+
+00:55:21.360 --> 00:55:25.120
+ fully immersed. You can't see the real world. Yeah, like be on the moon or whatever. So none
+
+00:55:25.120 --> 00:55:29.200
+ of that was impressive to me because I've seen that a lot of times in VR. I don't think that
+
+00:55:29.200 --> 00:55:35.920
+ experience is particularly different. The other thing is the controls are insane.
+
+00:55:35.920 --> 00:55:40.240
+ I thought it would take me a little bit of time to get used to that. Like the pinching the fingers
+
+00:55:40.240 --> 00:55:44.880
+ and stuff. And like looking where you want to click. It is so fast. Like I got the hang of it in 30
+
+00:55:44.880 --> 00:55:49.920
+ seconds and there is no interface fast than looking where you want to do and click. There's
+
+00:55:49.920 --> 00:55:53.760
+ so that there's a little bit of precision issues, but I think I would just get used to it. Yeah.
+
+00:55:53.760 --> 00:55:58.800
+ But compared to like all the stuff I set up on my keyboard for like navigating my computer
+
+00:55:58.800 --> 00:56:04.720
+ quickly, it's just not going to be like looking somewhere. And no, the computer like knowing that
+
+00:56:04.720 --> 00:56:10.160
+ that's what you're focused on. Yeah, super fast. So I was like, this tech would be great in my
+
+00:56:10.160 --> 00:56:15.120
+ normal desktop where if I just look somewhere and they actually do make stuff that that does that
+
+00:56:15.120 --> 00:56:21.680
+ for like accessibility issues. But controls are amazing. And the last thing that I wanted to try
+
+00:56:21.680 --> 00:56:26.320
+ was, okay, can this replace my monitor? Like is this something that I can work on? Yeah,
+
+00:56:26.320 --> 00:56:32.080
+ there's some like novel things with it where so you can mirror your Mac. So you have one
+
+00:56:32.080 --> 00:56:37.200
+ floating window that is your Mac. And it's really cool because you can like pull it up really close
+
+00:56:37.200 --> 00:56:41.840
+ to your face. And you can like it just is different experience in using a monitor. So I think it's
+
+00:56:41.840 --> 00:56:46.240
+ hard to compare it one to one where you just have something that's replacing the rectangle that is
+
+00:56:46.240 --> 00:56:50.400
+ your monitor. Because you can do all kinds of stuff with it that you can like angle it really
+
+00:56:50.400 --> 00:56:53.680
+ easily. You can like put it below you and kind of look like this while you're typing.
+
+00:56:55.200 --> 00:57:01.200
+ So that's very interesting. The other interesting part of it is any like like auxiliary apps that
+
+00:57:01.200 --> 00:57:07.760
+ you have like Slack or Discord or like you're watching TV in the background, you can pull those
+
+00:57:07.760 --> 00:57:12.080
+ out in separate windows because you can just have those iPad apps. You have your main app that's
+
+00:57:12.080 --> 00:57:18.320
+ your Mac mirror thing and you can just have like your email up here and your slack over here and
+
+00:57:18.320 --> 00:57:21.840
+ whatever else you need. You can just look at it. So you kind of that infinite space thing and
+
+00:57:21.840 --> 00:57:27.600
+ think that does work out. I don't think you can work in it all day. Like too heavy or
+
+00:57:27.600 --> 00:57:33.440
+ eye strain or both. I think it's the eye strain. At the end of the day, every single headset has
+
+00:57:33.440 --> 00:57:39.440
+ this problem where you are looking at an image that's right in front of your eyes and your eyes
+
+00:57:39.440 --> 00:57:44.400
+ aren't changing focus as much as they would. Even looking at a flat screen, like looking at
+
+00:57:44.400 --> 00:57:48.960
+ different parts of it, like your muscles or your eye muscles that are moving. How does it work?
+
+00:57:49.520 --> 00:57:55.200
+ Like I know the thing is just like an inch from your your eyeball, but you're seeing the camera
+
+00:57:55.200 --> 00:58:00.960
+ pass through at objects that are far away. Does your eyes still not have to change focus to see
+
+00:58:00.960 --> 00:58:05.120
+ those things? It does. And I feel my eyes doing that, but there's something that's not the same.
+
+00:58:05.120 --> 00:58:09.280
+ You could feel your iris dilating. Are you kidding me? No, not that. It's like
+
+00:58:09.280 --> 00:58:13.840
+ like when I was trying to like get some superpower. When I was trying to like look at the right
+
+00:58:13.840 --> 00:58:19.680
+ things where I can click on it, I could feel my eyes like focusing differently on the thing. Yeah,
+
+00:58:19.680 --> 00:58:25.920
+ but something just different when you're looking at like a static object. Everyone says the
+
+00:58:25.920 --> 00:58:30.880
+ eye strain is an issue. It doesn't matter who you are. It just kind of affects you.
+
+00:58:30.880 --> 00:58:38.240
+ And the comfort on the head, like it's still like kind of front heavy. So I think hypothetically,
+
+00:58:38.240 --> 00:58:42.960
+ if it wasn't heavy, I think it would actually be better for your posture.
+
+00:58:42.960 --> 00:58:48.720
+ If you can like lean back and like look up here, and this is like pretty good posture, you know,
+
+00:58:48.720 --> 00:58:52.400
+ I was supposed to like hunting down like as opposed to kind of like slumping down on your laptop.
+
+00:58:52.400 --> 00:58:59.120
+ Yeah, that makes sense. Yeah, this is so hard for me because like I've bought every Apple product
+
+00:58:59.120 --> 00:59:04.880
+ ever. I've never had a headset like I've never done VR. So I am new to that. And this is the first
+
+00:59:04.880 --> 00:59:10.560
+ time I feel like I'm just kind of like being cautious. Because I just know I've bought so
+
+00:59:10.560 --> 00:59:15.680
+ many stupid devices that I've used for a week and then they set. And I just know this is going to
+
+00:59:15.680 --> 00:59:19.840
+ be one of them for some reason, not that it's a stupid device. I think it's actually this cool
+
+00:59:19.840 --> 00:59:25.280
+ moment where I think we're we're maybe heading toward better and better versions of this. And I
+
+00:59:25.280 --> 00:59:30.400
+ think this is the beginning of it. But I just I do I know I'm not going to use it. Like I know I'm
+
+00:59:30.400 --> 00:59:34.640
+ going to use it a little and then I'm not going to use it again. And that yeah, that's caused me
+
+00:59:34.640 --> 00:59:41.440
+ to pause. Am I am I shaking my consumerism? Just a little bit. Yeah, it seems like it.
+
+00:59:41.440 --> 00:59:45.520
+ So have you ever tried anything like this? I've the only VR experience I've ever had
+
+00:59:45.520 --> 00:59:52.400
+ was it the the jump mania place or whatever it's called. It's like a trampoline place. We take
+
+00:59:52.400 --> 00:59:56.480
+ our kids and they have a VR thing. We throw a snowball to each other. That's it. I've done it
+
+00:59:56.480 --> 01:00:01.040
+ with my son. This is like a very cool experience. If you've never tried any of this stuff, really.
+
+01:00:01.840 --> 01:00:08.560
+ Yeah, the downside is it's not like a gaming device. So you can't really have like the craziest VR
+
+01:00:08.560 --> 01:00:15.040
+ experiences are games. Yeah. And the Mac world just doesn't do that. So for gaming is not going to be
+
+01:00:15.040 --> 01:00:20.240
+ this device. But it is like, like I said, it is like really magical. It's impractical because
+
+01:00:20.240 --> 01:00:25.440
+ you're not going to buy for them for your whole family. Right. If you're not considering buying one.
+
+01:00:26.800 --> 01:00:31.760
+ So like, when are you going to use it? Really? Like, it's just going to be kind of a solo device,
+
+01:00:31.760 --> 01:00:35.520
+ but you can kind of like pull up cool stuff and like you can like share it and that each person
+
+01:00:35.520 --> 01:00:39.440
+ tries it and whatever. But it's like a pure entertainment device. I don't think you're really
+
+01:00:39.440 --> 01:00:43.120
+ going to, it's going to be part of your daily workflow. Not going to be like a replaced by
+
+01:00:43.120 --> 01:00:48.000
+ monitor and just work on this thing. Yeah. Yeah. I'd love to like, like you said dinosaurs. My son,
+
+01:00:48.000 --> 01:00:53.520
+ my eight year old loves dinosaurs. Yeah, he would love it. Well, we watched Jurassic Park.
+
+01:00:53.520 --> 01:00:59.120
+ It was probably too soon. So I just forever I've wanted him to get to watch Jurassic Park,
+
+01:00:59.120 --> 01:01:04.720
+ just like experience real dinosaurs. Forgot it's like a horror movie. And it's very dark and rainy.
+
+01:01:04.720 --> 01:01:09.920
+ And there's a giant T-Rex about to eat some kids. And it was, it was too much. We didn't make it
+
+01:01:09.920 --> 01:01:15.840
+ all the way through it. And he has a hardly slept sense. I mean, he has, but like every night before
+
+01:01:15.840 --> 01:01:19.840
+ bed, it's like there's, there's this new instilled fear in him. And when I thought about it, it's the
+
+01:01:19.840 --> 01:01:25.040
+ first movie he's really seen. Like his, his poor little soul was completely untarnished from the
+
+01:01:25.040 --> 01:01:29.520
+ outside world. He doesn't go to public school. Like he has not experienced any negative or like
+
+01:01:29.520 --> 01:01:36.640
+ evil things in this world. And then I set him down and we watched Jurassic Park on my giant screen
+
+01:01:36.640 --> 01:01:43.840
+ with the crazy audio and the rumbling like subs and all that. It was, it was too much. So if, if the
+
+01:01:43.840 --> 01:01:48.960
+ VR experience were like a, you know, triceratops or like a plant eating. No. Okay, the VR experience
+
+01:01:48.960 --> 01:01:54.160
+ is not scary. Not at all. Okay. Well, if it's a T-Rex in the room, it might be a bit much for him.
+
+01:01:54.160 --> 01:02:00.080
+ Yeah. I mean, okay. Yeah. I'm sure they have a an herbivore. Is that what they're called? Yeah.
+
+01:02:00.080 --> 01:02:04.160
+ The herbivore. Yeah. Yeah. That's what we're looking for. The ones that the meat eaters eat.
+
+01:02:04.160 --> 01:02:08.480
+ Yeah. Exactly. The big meat suit dinosaurs that just walk around and get eaten.
+
+01:02:08.480 --> 01:02:16.000
+ Yeah. So I think, I think your kids would find it like really fascinating. And I think there's like,
+
+01:02:16.960 --> 01:02:22.000
+ again, the library is stuff. That's another weird thing. You can tell all the people that
+
+01:02:22.000 --> 01:02:29.200
+ have apps for already didn't have a Vision Pro when they made the app. You can tell Apple didn't
+
+01:02:29.200 --> 01:02:33.760
+ give them one. It was all in the simulator because it's compared to the native Apple ones. Like,
+
+01:02:33.760 --> 01:02:37.600
+ they are really like janky and not worth it. Yeah. Oh, another cool thing that I didn't
+
+01:02:37.600 --> 01:02:42.640
+ realize was, okay. So you know how the controls are, you look at stuff and you click and you can like,
+
+01:02:42.640 --> 01:02:49.200
+ you've seen in all the demos. Yeah. But you can also pull any window close to you and run in front
+
+01:02:49.200 --> 01:02:54.080
+ of you and you can touch it and like use it like an iPad. Okay. So you can like scroll through
+
+01:02:54.080 --> 01:02:58.400
+ stuff like it's a normal iPad app. Yeah. So you allow those little details like really polished
+
+01:02:58.400 --> 01:03:03.920
+ and like the Apple apps are very well done. But again, like it's a pure entertainment device
+
+01:03:03.920 --> 01:03:11.040
+ that you kind of have to share with the people around you. So I have a couple more takes on this
+
+01:03:11.040 --> 01:03:18.720
+ whole situation or just thoughts that one, I saw Alex response video and that was the first time
+
+01:03:18.720 --> 01:03:26.800
+ I had seen what is it the quest? Yeah. Let's be real here. I don't care how much it costs.
+
+01:03:26.800 --> 01:03:34.960
+ Okay. It's $500. It looks ridiculous. Like, if everybody is like trying to compete with Apple on
+
+01:03:34.960 --> 01:03:40.720
+ hardware, just like, don't be so bad at it. Like, what are those three little ovals on the front?
+
+01:03:40.720 --> 01:03:47.200
+ It just looks hideous. Like, I can actually imagine a smaller version of this division pro,
+
+01:03:47.200 --> 01:03:52.640
+ people wearing it around unironically and people getting used to people wearing them around
+
+01:03:52.640 --> 01:04:00.640
+ unironically. I can imagine a future like where we wear these things and it's not super weird.
+
+01:04:00.640 --> 01:04:04.880
+ Maybe that's the dystopian future people don't want. I don't know. Time will tell. But I can
+
+01:04:04.880 --> 01:04:09.200
+ remember it being weird when people had AirPods in and it was kind of like, and then it's just normal
+
+01:04:09.200 --> 01:04:14.480
+ and like, yeah, I think I could imagine it with what Apple has built, like the aesthetics of it.
+
+01:04:14.480 --> 01:04:20.000
+ It looks like a thing that it's not a huge leap to imagine. But like that quest, like,
+
+01:04:20.000 --> 01:04:23.440
+ I guess it's a different thing. It's a gaming device. Like you're saying, you never, you would
+
+01:04:23.440 --> 01:04:28.880
+ always do that at home. Yeah, at home alone and good thing. And they also have the meta
+
+01:04:28.880 --> 01:04:31.600
+ Rayman stuff, right? Oh, right. Yeah, I have those.
+
+01:04:31.600 --> 01:04:38.320
+ Again, devices I buy that I don't use. I wore them on the podcast once. I think it's last time I
+
+01:04:38.320 --> 01:04:43.280
+ wore them. Yeah, to me, it is exciting to think this is the first generation and it could be the
+
+01:04:43.280 --> 01:04:49.200
+ iPhone moment where this totally changes computing for the next 10 years. I know it's a long ways
+
+01:04:49.200 --> 01:04:54.720
+ from that right now. Like it's not there, but that part of it makes me want to get it, even if I
+
+01:04:54.720 --> 01:05:01.040
+ don't use it just to like experience it in these early days. I had the first iPhone kind of like
+
+01:05:01.040 --> 01:05:07.040
+ same, same reasons that I would want to have it. But yeah, I just, I don't think I'll use it and
+
+01:05:07.040 --> 01:05:12.720
+ that is a problem. Yeah, I think the thing that was interesting about Zuckerberg's thing was
+
+01:05:12.720 --> 01:05:21.440
+ the price gap is so massive, right? It's like the $500 device and the $3,600 device. Yeah. And I
+
+01:05:21.440 --> 01:05:28.720
+ honestly can see someone getting something in the middle that's kind of compromises on everything
+
+01:05:28.720 --> 01:05:35.040
+ a little bit better. Because the the $500 device is missing some of the stuff that Apple that the
+
+01:05:35.040 --> 01:05:39.680
+ vision pro, some stuff that makes a vision pro feel magical, like the eye tracking and the hand
+
+01:05:39.680 --> 01:05:44.400
+ tracking and all of that. If you double the price of the quest, I'm sure you could get those stuff
+
+01:05:44.400 --> 01:05:50.240
+ in and the quality of that it just is software. So if you put in the effort, yeah, you can probably
+
+01:05:50.240 --> 01:05:55.600
+ get close to that. And that really like all that tracking stuff is a big part of what makes this
+
+01:05:55.600 --> 01:06:00.960
+ feel seamless. So if you can get that at like $1,000 price point, definitely more reasonable. But again,
+
+01:06:00.960 --> 01:06:06.000
+ still the solo entertainment device is just a hard sell. Like we don't really have anything
+
+01:06:06.000 --> 01:06:12.000
+ else in that category. Like what entertainment device do you have that's like a one person
+
+01:06:12.000 --> 01:06:18.160
+ experience today? Yeah, I don't have one person entertainment experiences, Dax. Yeah, I have kids.
+
+01:06:18.160 --> 01:06:22.080
+ But like, even if you don't have kids, like you, it's like, I don't think it's the widest market.
+
+01:06:22.080 --> 01:06:27.360
+ Oh, you're saying like, it's not a great category. Oh, I got you. Yeah, it's okay. You have anything
+
+01:06:27.360 --> 01:06:31.680
+ that's in that shape of like it's an entertainment device that can only be used one time. Trust for
+
+01:06:31.680 --> 01:06:39.280
+ me. No, yeah, I guess not. That's very expensive. The idea that like anybody's going to compete with
+
+01:06:39.280 --> 01:06:44.560
+ Apple on this, it's like there's just people like me who will always I'll just always buy the Apple
+
+01:06:44.560 --> 01:06:49.280
+ thing because I know it makes me feel a certain way, not because like I have it and it's a status
+
+01:06:49.280 --> 01:06:53.520
+ thing. It makes me feel a certain way when I hold it and when I look at it and when I touch it,
+
+01:06:53.520 --> 01:06:59.040
+ and like looking at the Quest is just the epitome of like they don't care about the details
+
+01:06:59.040 --> 01:07:02.800
+ and I care about the details. I'm not buying the experience. I don't care what the software
+
+01:07:02.800 --> 01:07:08.720
+ experience is like. I don't care if I don't use it. It's how it makes me feel the actual product.
+
+01:07:08.720 --> 01:07:13.120
+ And that's why I'll always buy Apple products. And I don't care. I'm not a fan boy. I don't like
+
+01:07:13.120 --> 01:07:18.800
+ have some allegiance to Apple. Like, I just I like the way they care about every single detail
+
+01:07:18.800 --> 01:07:22.880
+ because I care about every single detail. And I know some people don't care, but I care. Yeah,
+
+01:07:22.880 --> 01:07:26.800
+ I think that but the thing to remember though is there's some categories that Apple just is not
+
+01:07:26.800 --> 01:07:33.520
+ hidden. And one of those is gaming and a big use case for this is gaming. Do people people
+
+01:07:33.520 --> 01:07:38.240
+ game on iPhone, right? I guess that's all third party. I think a big use case for these headsets
+
+01:07:38.240 --> 01:07:46.000
+ is like really high and gaming experiences. And that's just not a space that Apple is in. So yeah,
+
+01:07:46.000 --> 01:07:51.360
+ I'm also not interested in that space. I'm interested in us like having this. Maybe it's
+
+01:07:51.360 --> 01:07:54.400
+ contacts. Maybe that's what it's going to have to eventually be. I don't know how they're ever
+
+01:07:54.400 --> 01:07:59.920
+ going to get tech into contacts, but just like an augmented experience in everyday life.
+
+01:07:59.920 --> 01:08:04.960
+ Like having digital stuff available. I don't know. Maybe that's just maybe we don't need it.
+
+01:08:04.960 --> 01:08:10.160
+ I don't know. I'm talking myself out of it. Like maybe that's too much looking for I think
+
+01:08:10.160 --> 01:08:14.400
+ for me, the incremental step is something that replaces my monitor. I think that's like the first
+
+01:08:14.400 --> 01:08:18.320
+ thing something that is like a no brainer. This is better than having a monitor on your desk.
+
+01:08:18.320 --> 01:08:21.520
+ Like we're going to look around the world and there's not going to be monitors on people's desk
+
+01:08:21.520 --> 01:08:24.880
+ anymore. They're just going to be a little device that's sitting there for them to pick up to work
+
+01:08:24.880 --> 01:08:30.480
+ on. Yeah, but that's the the eye strain question. Like is that is that human biology that we just
+
+01:08:30.480 --> 01:08:34.400
+ can't change? And there's no way there's ever going to be a device right in front of our face
+
+01:08:34.400 --> 01:08:40.800
+ that doesn't cause eye problems. That's the question, I guess. Yeah, I mean, the other angle is that
+
+01:08:40.800 --> 01:08:46.320
+ there's no work to do anymore because AI does it. Oh, that's true. Yeah, we're heading toward an AI.
+
+01:08:47.440 --> 01:08:52.400
+ What's the word? Not dystopia? An AI? What's the good version of dystopia?
+
+01:08:52.400 --> 01:08:59.520
+ Utopia. Utopia. That's the one. We're just headed toward this like world where nobody does anything
+
+01:08:59.520 --> 01:09:04.720
+ because the AI just makes all our food and does all our work. I laugh really hard the other day
+
+01:09:04.720 --> 01:09:09.040
+ because you see Ken Wheeler replying to the Sam Altman being like, you're going to turn
+
+01:09:09.040 --> 01:09:15.040
+ into fucking batteries, aren't you? That's awesome. What was the I didn't see that tweet?
+
+01:09:15.040 --> 01:09:18.960
+ What was the Sam Altman seven trillion thing? I don't see the news. I just see the reaction to
+
+01:09:18.960 --> 01:09:23.120
+ the news on Twitter. And sometimes I miss the context. I found this thing so annoying. I like,
+
+01:09:23.120 --> 01:09:27.040
+ I even tweeted about and like deleted it right away because I'm like, I'm just not going to
+
+01:09:27.040 --> 01:09:31.600
+ engage in this topic. So there is this figure going around that Sam Altman is trying to raise
+
+01:09:31.600 --> 01:09:36.240
+ seven trillion dollars. And everyone just ran with it. Every like media outlet, every like whatever
+
+01:09:36.240 --> 01:09:41.760
+ just talking about. Oh, he didn't say it. It's like a rumor. It's floating around from some talks,
+
+01:09:41.760 --> 01:09:45.920
+ some presentation he gave like some private presentation that was related to fundraising.
+
+01:09:45.920 --> 01:09:50.560
+ Yeah. He's obviously not raising seven trillion dollars. Like, what is seven trillion dollars?
+
+01:09:50.560 --> 01:09:55.120
+ Can you even comprehend seven? If you if he was raising seven trillion dollars today,
+
+01:09:55.120 --> 01:10:02.400
+ that's valuing his company today at like, let's say like 50 trillion dollars or so modestly.
+
+01:10:02.400 --> 01:10:08.160
+ I guess we do have trillion dollar in the public company scale now. Like Apple is a trillion
+
+01:10:08.160 --> 01:10:13.440
+ dollar company. Yeah. So if you're investing in that today, that means you're hoping that they
+
+01:10:13.440 --> 01:10:19.360
+ become a quadrillion dollar company one day. Yeah. Right. Obviously, this makes no sense.
+
+01:10:19.360 --> 01:10:24.000
+ There's like, this is not what was going on. I think what's going on was he was talking about
+
+01:10:24.000 --> 01:10:30.800
+ the impact that AI stuff will have and the whole industry that will spawn and like all the stuff
+
+01:10:30.800 --> 01:10:36.160
+ that needs to be in place as a society for that. And all those collectively over like 10 years
+
+01:10:36.160 --> 01:10:40.480
+ will require like trillions of dollars in investment. That's my guess to like put that
+
+01:10:40.480 --> 01:10:45.760
+ seven trillion dollar thing in context. But I was kept imagining like imagine you're Sam Alman.
+
+01:10:45.760 --> 01:10:51.440
+ And you're giving these for this presentation to whatever. And some information leaks. And the
+
+01:10:51.440 --> 01:10:55.040
+ next day you just see everyone being like, he is raising seven trillion dollars. Like we can use
+
+01:10:55.040 --> 01:11:00.000
+ that to solve world hunger. Like this is so fucked up. You must think that the whole world is stupid.
+
+01:11:00.000 --> 01:11:04.480
+ Like you are already building this. You're building this thing. That's like, the whole world is stupid
+
+01:11:04.480 --> 01:11:10.240
+ decks. That's the thing. But like it's not great that someone that's building something that's
+
+01:11:10.240 --> 01:11:15.280
+ better than humans potentially is having this experience where the whole world is so clearly
+
+01:11:15.280 --> 01:11:20.400
+ stupid and people are so so dumb. Yeah. Is it a journalism problem? I just like,
+
+01:11:20.400 --> 01:11:24.800
+ I know some people were just joking about it, but did the public run with it? Like,
+
+01:11:24.800 --> 01:11:29.040
+ did you just spread on Twitter or did some journalist report that you know what I'm saying? Like,
+
+01:11:29.040 --> 01:11:34.000
+ no, there was plenty of very serious sub stack articles being like, we could do better things
+
+01:11:34.000 --> 01:11:41.360
+ with this money. Just have like any common sense. I don't understand how anyone jumps there. I
+
+01:11:41.360 --> 01:11:45.520
+ thought he said he wanted to raise seven trillion dollars. Like, why would he say that? That's dumb.
+
+01:11:45.520 --> 01:11:49.760
+ Clearly, he doesn't want to raise seven trillion dollars. But no, it's just this thing where people
+
+01:11:49.760 --> 01:11:55.520
+ are dumb. People are dumb. It's just it's a sad reality. Yeah. But like, the problem is I'm okay
+
+01:11:55.520 --> 01:12:02.000
+ with a dumb person being dumb. What's annoying is someone being dumb, but then taking the role of
+
+01:12:02.000 --> 01:12:06.640
+ like an intellectual that's going to like write an article about. Yeah, that's what I'm saying.
+
+01:12:06.640 --> 01:12:12.560
+ Like, they're they're like dumb, but they're in positions of like, they should know better.
+
+01:12:12.560 --> 01:12:19.280
+ Like, if you're going to have a sub stack and write your newsletter, you should know better.
+
+01:12:19.280 --> 01:12:22.960
+ Like, just know anything. It's like when I watch a movie, we just watch something there tonight
+
+01:12:22.960 --> 01:12:30.160
+ where like, do they have anybody consulting on like facts about technology? I know it's hard
+
+01:12:30.160 --> 01:12:33.840
+ for like being a developer and watching a movie that has a software developer in it or whatever.
+
+01:12:33.840 --> 01:12:38.080
+ And like, I'm sure doctors feel same when they watch doctor stuff. But like, why can't they just
+
+01:12:38.080 --> 01:12:43.120
+ have one person in the room that's like, actually, if you put that in the movie, you look like an
+
+01:12:43.120 --> 01:12:47.920
+ idiot. Yeah. Just like, just so you know. Yeah. And maybe they do and maybe they just do it anyway,
+
+01:12:47.920 --> 01:12:51.680
+ because they're like, whatever, nobody knows the difference. Well, there's the reverse examples
+
+01:12:51.680 --> 01:12:56.880
+ of this have been really great. So Mr. Robot is a TV show, and it's all about like a hacker.
+
+01:12:56.880 --> 01:13:04.080
+ And it's really surrealist, very good show. And all this stuff in there is almost like overly
+
+01:13:04.080 --> 01:13:10.320
+ accurate. Like, they really had people like, you know, that knew what they were talking about.
+
+01:13:10.320 --> 01:13:13.680
+ And it's of course, it's dramatized and like, he's able to do this stuff and practice you
+
+01:13:13.680 --> 01:13:19.200
+ wouldn't be able to. But technically, it's not totally out of the question. Like, it's stuff that
+
+01:13:19.200 --> 01:13:25.200
+ like, you know, makes sense, like, it could make sense. Silicon Valley also, I think captures a lot
+
+01:13:25.200 --> 01:13:30.320
+ of the specific details. And I always wonder, like, who are these people that were able to describe
+
+01:13:30.320 --> 01:13:36.160
+ still like deep Silicon Valley type things that can also like turn that into like a great joke?
+
+01:13:36.160 --> 01:13:40.320
+ I always wonder what that process is like. Like, I don't think it's the same person that like,
+
+01:13:40.320 --> 01:13:43.680
+ deeply understands what these companies are like. That's also like turning it into a joke.
+
+01:13:43.680 --> 01:13:48.720
+ It's more of a relationship between the creative mind and the person who has the information.
+
+01:13:48.720 --> 01:13:52.320
+ Yeah. Yeah. So Mike, Joe, you still working so far. Yeah. So I do know the creator will
+
+01:13:52.320 --> 01:13:58.640
+ have some background in it. But yeah, it's a it's impressive when when media does that.
+
+01:13:58.640 --> 01:14:04.560
+ Get it right. Go back for a second to people being dumb and AI, try out Google Gemini,
+
+01:14:04.560 --> 01:14:10.560
+ the advanced one. No. So it's a it's like a it's chat GPT. It's a competitor to chat GPT.
+
+01:14:10.560 --> 01:14:13.520
+ Didn't they do bard? They renamed bard to Gemini. And that's like,
+
+01:14:13.520 --> 01:14:19.520
+ I hate Google so much. They're just so dumb. I know Google. They just got rid of Google podcasts,
+
+01:14:19.520 --> 01:14:23.440
+ by the way. So if you used to listen, just on Google podcast, sorry, Google sucks.
+
+01:14:23.440 --> 01:14:29.440
+ You have to listen somewhere else. Sorry, continue. Gemini. So it's good.
+
+01:14:29.440 --> 01:14:32.960
+ So they they've had a few different versions of it and they've released their advanced version.
+
+01:14:32.960 --> 01:14:37.840
+ Okay. And it's just like chat GPT. I tried it casually. Frank has been using it a little bit
+
+01:14:37.840 --> 01:14:44.240
+ more directly. And it's good. It's as good as chat GPT in a lot of ways. They did some things
+
+01:14:44.240 --> 01:14:48.320
+ better. Like some of the UI is a little bit more rich. It's not just like raw text. Like there's
+
+01:14:48.320 --> 01:14:52.720
+ more interesting stuff that's in there. I don't know if in net, that's like objectively good or bad.
+
+01:14:52.720 --> 01:15:01.040
+ But worst case, I think it's a reasonable equivalent. Like you could reasonably use
+
+01:15:01.040 --> 01:15:05.440
+ either and have like GPT for it's like, yeah, right. The best experience on chat GPT
+
+01:15:05.440 --> 01:15:11.840
+ is very similar to this. Okay. You go and try to use it and they charge you 20 bucks a month
+
+01:15:11.840 --> 01:15:14.400
+ to sign up. Okay. And this seems like it makes sense.
+
+01:15:14.400 --> 01:15:18.320
+ Gemini.com. I'm going right now. Is that I don't know where I know that's turn your money
+
+01:15:18.320 --> 01:15:25.360
+ into crypto assets. Yeah. It's funny. You want to turn your money into a Google.com.
+
+01:15:25.360 --> 01:15:32.000
+ So it costs $20 a month, which they clearly just copied GPT's pricing model. Yeah.
+
+01:15:32.000 --> 01:15:37.680
+ Right. Yeah. Actually, we just made that number up as well. Yeah. You are a company the size
+
+01:15:37.680 --> 01:15:43.600
+ of Google that has billions and billions and billions of dollars in profit. You have this
+
+01:15:43.600 --> 01:15:48.720
+ competing company that's an existential threat to you. You built a product that's as good.
+
+01:15:48.720 --> 01:15:54.000
+ Why are you charging for it? Literally, if you've made it free. Oh, by the way,
+
+01:15:54.000 --> 01:15:58.400
+ it can also it also has access to your emails and all Google workspace stuff. So like, that's
+
+01:15:58.400 --> 01:16:03.680
+ a good nice integration. That's awesome. Yeah. If they made it free, literally overnight,
+
+01:16:03.680 --> 01:16:10.160
+ why would anyone use chat GPT? They could just put a huge like obstacle in front of OpenAI.
+
+01:16:10.160 --> 01:16:13.680
+ Yeah. That's a great point. And for some reason, they're like, they charge $20. So we should charge
+
+01:16:13.680 --> 01:16:19.600
+ $20. It just makes no sense to me. That doesn't make sense. Or at least like, why not do it cheaper?
+
+01:16:19.600 --> 01:16:25.040
+ Like, yeah. Why? Why not compete on? Oh, it's two months free. I didn't know that. Okay.
+
+01:16:25.040 --> 01:16:29.760
+ That's two months free, but still it is. I mean, it's a huge threat, right? Like, yeah.
+
+01:16:29.760 --> 01:16:38.240
+ I do feel like it has to affect internet search over time, right? LLMs and their ability to surface
+
+01:16:38.240 --> 01:16:44.400
+ information. Yep. And like, that's like an exit threat to your company. Why are you charging this
+
+01:16:44.400 --> 01:16:48.560
+ made up number for it? Which I, here's another funny thing. I was talking about this other day.
+
+01:16:48.560 --> 01:16:53.280
+ Someone making fun of themselves was like, I thought I was super smart and I wasn't going to pay
+
+01:16:53.280 --> 01:16:57.920
+ chat GPT 20 bucks a month. I was just going to like use their API and just pay for exactly what I
+
+01:16:57.920 --> 01:17:03.120
+ use. But they like canceled their chat GPT subscription and switched to using it to record the API.
+
+01:17:03.120 --> 01:17:09.120
+ And they were like, oh, my bill ended up being hired. What that means, the point of number is
+
+01:17:09.120 --> 01:17:13.360
+ entirely made up and doesn't make sense. And like, for a lot of people, open AI is probably losing
+
+01:17:13.360 --> 01:17:17.680
+ money on anyway. So like copying that number, it makes no sense. You might as well make it zero.
+
+01:17:17.680 --> 01:17:22.320
+ Well, now I want to play with it. I think I remember the announcement, the Gemini announcement,
+
+01:17:22.320 --> 01:17:28.880
+ when it's like the multimodal thing. It's like the first LLM that's been, it's like,
+
+01:17:28.880 --> 01:17:32.960
+ trained on all these different types of, not just text, but images. Well, that video was
+
+01:17:32.960 --> 01:17:38.320
+ fake. It was completely fake. I don't know if you saw it. Oh, was it? Yeah, it was totally fake.
+
+01:17:38.320 --> 01:17:41.920
+ And it was, I'm like so embarrassed for them. They did that. Why? Yeah, why would they make a
+
+01:17:41.920 --> 01:17:47.120
+ fake video if it's a real product? Or maybe it wasn't really it. It's not as good as it is in the
+
+01:17:47.120 --> 01:17:53.200
+ video. It's actually just like tag GPT. Oh, okay. So the video was like, vaporware, what it's going
+
+01:17:53.200 --> 01:18:03.600
+ to be like someday maybe. Yeah, exactly. The much like ion. The thing that I'm annoying though is,
+
+01:18:03.600 --> 01:18:09.600
+ you know how back in the day there was just Netflix and you wanted to watch something,
+
+01:18:09.600 --> 01:18:13.600
+ you would just open up Netflix. That was a one streaming service. If you wanted to have an
+
+01:18:13.600 --> 01:18:18.480
+ internet video experience, that's what you opened up. Now there's like 500 and you're like, where
+
+01:18:18.480 --> 01:18:24.160
+ is this thing on? And it's like a mess. Yeah, I really don't want that to happen with
+
+01:18:24.160 --> 01:18:28.800
+ these LMS. Like, I don't want to be like, okay, I'm going to go talk to chat GPT.
+
+01:18:28.800 --> 01:18:32.080
+ Oh, chat GPT didn't give me a good answer. So after a minute of trying, I'm going to go
+
+01:18:32.080 --> 01:18:36.560
+ to Google Gemini. And I just don't want that. It's like, yeah, I don't want the fragmentation
+
+01:18:36.560 --> 01:18:40.000
+ again. Like Gemini is better for this, but then chat GPT is better for this. And I use this and I
+
+01:18:40.000 --> 01:18:44.560
+ just, yeah, I don't want to watch this football game. I got to sign up for Paramount Plus. What?
+
+01:18:46.160 --> 01:18:52.000
+ I guess that didn't the chat GPT didn't Sam Allen. Didn't he say there was like this future of
+
+01:18:52.000 --> 01:18:58.000
+ multiple like specific GPTs? I mean, they you can create custom GPTs now. Isn't the idea that
+
+01:18:58.000 --> 01:19:03.040
+ there will be didn't he even say there won't be one to rule them off? Yeah, but like, you don't
+
+01:19:03.040 --> 01:19:09.520
+ want to have to tag them. So currently, in chat GPT, there are there are like specialized GPTs,
+
+01:19:09.520 --> 01:19:14.000
+ but you have to tag them. So you have to like know that I'm doing this thing. And I know that
+
+01:19:14.000 --> 01:19:19.600
+ there's this GPT that is like the SST GPT exists and it can write SST code. I'm going to tag that.
+
+01:19:19.600 --> 01:19:23.120
+ That's not a good experience. You need to automatically select it. And you don't want it
+
+01:19:23.120 --> 01:19:28.560
+ to be for me. Can we just have a GPT that selects our GPTs for us? Just GPTs all the way down.
+
+01:19:28.560 --> 01:19:31.920
+ What is a GPT? It's like an AWS account. What is this layer of abstraction?
+
+01:19:31.920 --> 01:19:32.720
+ Nobody knows.
+
+01:19:32.720 --> 01:19:40.080
+ Try to ask me how much you weigh complete change of topic. I saw that. Yeah.
+
+01:19:40.080 --> 01:19:45.120
+ Do we just say that on the podcast? My weight is a fluctuating it's it's not a static number.
+
+01:19:45.120 --> 01:19:53.440
+ A couple months ago, I was 188 pounds. And then around Christmas, I think I was 208.
+
+01:19:53.440 --> 01:20:00.640
+ And that's 20 pounds increase. Now I'm right now at 198. So I'm 10 pounds down from then.
+
+01:20:00.640 --> 01:20:05.280
+ I'm I'm all over the place. And it depends on what I'm competing at, which Saturday I'm competing
+
+01:20:05.280 --> 01:20:11.040
+ in the 195 division. So I will be exactly 195 pounds in two days. I got to lose three pounds in
+
+01:20:11.040 --> 01:20:15.680
+ two days. No big deal. Is that hard? I have no context for it. You would think so, but it's
+
+01:20:15.680 --> 01:20:20.160
+ actually not. It's really not. You just don't wonder. I just don't know. Well, there's just so much
+
+01:20:20.160 --> 01:20:25.920
+ food in your body in a given day. So if like you can basically lose two, three pounds, I mean,
+
+01:20:25.920 --> 01:20:30.800
+ depending on how big you are, I'm a 200 pound man. Like for my wife who's a hundred and not in their
+
+01:20:30.800 --> 01:20:36.000
+ mind. My wife is smaller. I don't know why I think a thing you don't do is like say other
+
+01:20:36.000 --> 01:20:41.600
+ people's weight. But for somebody who's half my size, you know, maybe it's different. But for me,
+
+01:20:41.600 --> 01:20:46.640
+ I can lose two, three pounds pretty fast. Water weight. And yeah, just eating less. That's more
+
+01:20:46.640 --> 01:20:52.400
+ than you asked for trash. I'm sorry. Is anyone is this funny thought for my party at React Miami?
+
+01:20:52.400 --> 01:20:58.560
+ It'd be funny if anyone else also did you did too? And then you can do a little like fight in my
+
+01:20:58.560 --> 01:21:05.120
+ backyard roll. Well, Melky does. Oh, it's true. He's trash coming. No, a trash refuses to go to Miami
+
+01:21:05.120 --> 01:21:10.960
+ trash. Oh, that sucks. Every time I ask him about it, he's just like, it would be bad for me. And I
+
+01:21:10.960 --> 01:21:16.080
+ did like don't really know what he's talking about. This is a wholesome place, sir. Okay, so me and
+
+01:21:16.080 --> 01:21:21.840
+ Melky, let's do like a pay-per-view. Let's like, let's have a featured jiu-jitsu fight night thing.
+
+01:21:21.840 --> 01:21:26.560
+ I don't know. In Miami, that'd be fun. I've put on two pounds of lean mass, by the way,
+
+01:21:26.960 --> 01:21:33.040
+ in a month, in a month of training with my personal trainer, Sam, they scanned me at the beginning,
+
+01:21:33.040 --> 01:21:38.000
+ and they just scanned me a couple days ago, two pounds lean mass. So this is probably the last
+
+01:21:38.000 --> 01:21:42.400
+ time I get to compete in the 1.5 division, because I'm just going to be huge. That's where I'm headed.
+
+01:21:42.400 --> 01:21:48.880
+ I'm headed towards, you know, months from now. Who knows? 210 pounds? What's the weight class
+
+01:21:48.880 --> 01:21:52.640
+ called again? Like the highest one? Is it like super heavyweight or something?
+
+01:21:52.640 --> 01:21:56.800
+ Super heavyweight, yeah, something. It's like 225 plus. So my friend who also does a jiu-jitsu,
+
+01:21:56.800 --> 01:22:01.680
+ he's like, he doesn't weigh a lot. And what's in that super light one? It's called like
+
+01:22:01.680 --> 01:22:07.680
+ featherweight or something featherweight or something. It's just so like demeaning or masculine.
+
+01:22:07.680 --> 01:22:13.120
+ It really is. Yeah, I debated, like, do I just want to be thin and wiry and compete in the
+
+01:22:13.120 --> 01:22:18.400
+ 195 forever? But it's like, there's the absolute division. So you can compete with people in all
+
+01:22:18.400 --> 01:22:22.640
+ weights. And it's like in the real world scenario, I want to be able to compete with anybody, no matter
+
+01:22:22.640 --> 01:22:27.440
+ how big they are, and the smaller you are, the less chance you could really compete with the big,
+
+01:22:27.440 --> 01:22:32.480
+ big people. So I don't want to be 225, but I do want to kind of be like, we've spent way too
+
+01:22:32.480 --> 01:22:35.760
+ long talking about my weight. What are we doing? I need to go eat. It's like we're an hour and a
+
+01:22:35.760 --> 01:22:38.960
+ half into this podcast. Yeah, you need to not eat because you're trying to lose two pounds.
+
+01:22:38.960 --> 01:22:43.920
+ Yeah, no, I still have to eat because I'm shaking. I'm going to have a couple nuts. It's probably
+
+01:22:43.920 --> 01:22:48.320
+ yeah, probably what I'll eat. Yeah, if you guys have low blood sugar right now, it's why you're shaking.
+
+01:22:48.320 --> 01:22:51.120
+ Yeah, I think so. I have blood sugar issues. I'm pretty sure.
+
+01:22:51.120 --> 01:22:57.120
+ To the adrenaline. Not like diabetic. But anyway, let's stop talking about whatever we're talking
+
+01:22:57.120 --> 01:23:02.400
+ about. Because this is a long one. Do I say a lot? I feel like that's an hour and 42. This is the
+
+01:23:02.400 --> 01:23:10.080
+ longest one. Maybe we've ever done maybe. Wait, 22? Not 42 42. An hour and 42? No, that's what
+
+01:23:10.080 --> 01:23:17.360
+ I mentioned. My Twitch stream is on for. Yeah, I was late. Yeah, it's less hour and 25. Anyway,
+
+01:23:17.360 --> 01:23:22.000
+ now we're talking about that too much. Goodbye, I guess. What do we, we're 80 episodes in. I still
+
+01:23:22.000 --> 01:23:27.920
+ don't know what to say to you when we're done. Just like, see you. See you. See you next time. Bye
+
+01:23:40.240 --> 01:23:44.240
+ Bye.
+

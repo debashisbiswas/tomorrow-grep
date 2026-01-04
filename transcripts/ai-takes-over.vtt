@@ -1,0 +1,1055 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.160
+ -You say it with me. -Okay, one, two, three, clap.
+
+00:00:06.160 --> 00:00:11.200
+ Is that going to happen? Maybe it'll help, hopefully that helped them.
+
+00:00:11.200 --> 00:00:12.160
+ -Hopefully.
+
+00:00:30.000 --> 00:00:38.800
+ -There's been a lot of AI hype, and I don't know anyone that's
+
+00:00:38.800 --> 00:00:42.000
+ partaking more than Adam. -Oh, jeez.
+
+00:00:42.000 --> 00:00:44.880
+ -So tell me about it. I know you hate this, but it is true.
+
+00:00:44.880 --> 00:00:50.160
+ -I feel like one of the NFT guys are the crypto bros.
+
+00:00:50.160 --> 00:00:54.240
+ You've been hard into the blockchain space, Adam. Tell me about blockchain.
+
+00:00:56.000 --> 00:01:00.560
+ I feel like AI is getting that reputation of the thing after crypto.
+
+00:01:00.560 --> 00:01:05.440
+ Have you heard that? It's not totally wrong, but it's also kind of weird because AI has been
+
+00:01:05.440 --> 00:01:10.080
+ serious scientific research for decades or whatever.
+
+00:01:10.080 --> 00:01:13.360
+ -Yeah, I think when stuff gets hype, there's always going to be that group.
+
+00:01:13.360 --> 00:01:19.520
+ And I agree that AI isn't as BS as the previous waves of NFT and all that stuff.
+
+00:01:19.520 --> 00:01:24.640
+ But I will say, there are a whole crowd of people that moves here to Miami
+
+00:01:24.640 --> 00:01:28.640
+ because of the crypto wave. A lot of them are recently leaving to go to SF
+
+00:01:28.640 --> 00:01:30.720
+ to jump onto the AI wave. -Really?
+
+00:01:30.720 --> 00:01:34.560
+ -So that type of person is definitely going through the cycle.
+
+00:01:34.560 --> 00:01:39.120
+ -Yeah, okay. So that's why I kind of cringed or just kind of died inside a little bit when
+
+00:01:39.120 --> 00:01:41.440
+ you're like, "So Adam, you've been going hard in this space. Tell me about it."
+
+00:01:41.440 --> 00:01:44.720
+ Because I don't feel like I'm one of those people. -No, definitely not.
+
+00:01:44.720 --> 00:01:49.200
+ -And I haven't gone hard down the AI space recently. I feel like
+
+00:01:49.200 --> 00:01:54.400
+ I just like cool things to come up when there's cool products that I can hit a website and play
+
+00:01:54.400 --> 00:01:58.080
+ with. I like to do that. And there's been a lot of cool products that fall into that umbrella.
+
+00:01:58.080 --> 00:02:01.920
+ And I've played with them. -Well, what kind of stuff have you tried so far?
+
+00:02:01.920 --> 00:02:08.880
+ -There's so many different, it's like generative stuff. So we've got all the like image generation
+
+00:02:08.880 --> 00:02:15.440
+ and now video generation, that whole space. So the like dolly kind of mid-journey kicked it off.
+
+00:02:15.440 --> 00:02:19.120
+ And now you've got stable diffusion, which is like an open source version of it. Like taking
+
+00:02:19.120 --> 00:02:25.440
+ text prompts and generating images that are insane. I mean, most people have seen this stuff at this
+
+00:02:25.440 --> 00:02:34.160
+ point. There's that whole section of AI. There's like, you know, we built statues back in 2014
+
+00:02:34.160 --> 00:02:40.160
+ and we're trying to do like question answering. So now there's a way better question answering
+
+00:02:41.120 --> 00:02:49.760
+ using these LLM models or whatever, large language models. So chat GBT, where you can ask it
+
+00:02:49.760 --> 00:02:56.880
+ text and it understands it and responds with a bunch of text that that angle. And then you've
+
+00:02:56.880 --> 00:03:02.560
+ got like all the other generative things, generative audio, basically anything that humans create,
+
+00:03:02.560 --> 00:03:08.640
+ people are now teaching computers how to create it as well. I feel so dumb, like I'm some expert
+
+00:03:08.640 --> 00:03:13.440
+ on this stuff. I don't know anything. I just know I've played with most of it because it's very
+
+00:03:13.440 --> 00:03:20.160
+ interesting to me. But there's so many like debates about every single piece of this technology around
+
+00:03:20.160 --> 00:03:26.880
+ should computers just be able to generate art that's copying real artists? What does that mean?
+
+00:03:26.880 --> 00:03:31.120
+ Don't real artists copy real artists? Like, what's the difference? There's all these kind of
+
+00:03:31.120 --> 00:03:36.960
+ questions. Okay, I'm now just into the realm of saying words that you didn't ask for. So I'm
+
+00:03:36.960 --> 00:03:42.560
+ gonna stop. No, I mean, that's I think that's a good thing to get into. I mean, none of us are
+
+00:03:42.560 --> 00:03:47.840
+ experts in this space. But the thing that's happening right now is these tools are become
+
+00:03:47.840 --> 00:03:53.520
+ available to non experts like us to integrate into the last mile of whatever we're building.
+
+00:03:53.520 --> 00:03:57.920
+ So that's what's exciting about it. And I think there's a lot to think about where where it is
+
+00:03:57.920 --> 00:04:03.440
+ useful. There's so many companies being started that are, they quote unquote AI companies now,
+
+00:04:03.440 --> 00:04:08.960
+ does that make sense? Or is it more like, okay, these tools now show up in like little features
+
+00:04:08.960 --> 00:04:15.840
+ of existing products? I mean, the thing you talk about also the debate around like the whole
+
+00:04:15.840 --> 00:04:19.600
+ art angle of it. Like, what do you have thoughts on that? Like, how do you feel about that whole
+
+00:04:19.600 --> 00:04:25.600
+ conversation? I mean, I'm not an artist. So you should take my opinion with a grain of salt.
+
+00:04:25.600 --> 00:04:33.360
+ No, we'll co-pilot or code whisper or one of these like models that are helping us write code
+
+00:04:33.360 --> 00:04:39.760
+ faster. They're just copying works from people like me who write code and contributed to GitHub.
+
+00:04:39.760 --> 00:04:44.240
+ So I guess in that sense, I can kind of put myself in the artist's shoes and say like,
+
+00:04:44.240 --> 00:04:50.240
+ do I care that people can use co-pilot and write code, even if it were copying straight from a repo
+
+00:04:50.240 --> 00:04:57.520
+ I contributed? No, I don't care. But that's me. And I don't feel like I can say an artist shouldn't
+
+00:04:57.520 --> 00:05:03.200
+ care because like, they care. Like their emotions, their feelings about the situation are valid,
+
+00:05:03.200 --> 00:05:07.680
+ whether I think they are or not. There's the legal side of it. It's not just people's feelings
+
+00:05:07.680 --> 00:05:15.040
+ being hurt. Like, what does copyright mean in this world where like law doesn't, it trails, right?
+
+00:05:15.040 --> 00:05:22.640
+ And like legislation didn't account for computers ripping off people's work, I don't think. So I
+
+00:05:22.640 --> 00:05:28.480
+ think like that all has to play out from like an actual copyright law standpoint. And then there's
+
+00:05:28.480 --> 00:05:33.120
+ like the ethical side like, no, it's stealing people say. And maybe, I don't know, it doesn't
+
+00:05:33.120 --> 00:05:38.160
+ feel like stealing to me. It feels like putting a bunch of information in a big blender and
+
+00:05:38.160 --> 00:05:42.240
+ blending it up and spitting out stuff that's interesting. But I don't know, maybe that's just
+
+00:05:42.240 --> 00:05:45.360
+ what the, maybe that's what the AI bros say. Maybe I'm just running now.
+
+00:05:45.360 --> 00:05:50.160
+ Yeah, I mean, on the code side, that one's been interesting to me. Because like you said,
+
+00:05:50.160 --> 00:05:53.760
+ like we can relate to that because we're, you know, that's a content we produce.
+
+00:05:53.760 --> 00:05:59.920
+ I also have no problem with it. Because to me, I don't really look at it as anything different
+
+00:05:59.920 --> 00:06:04.560
+ than a much better search engine. But the UX, the search engine was a much better UX.
+
+00:06:04.560 --> 00:06:09.360
+ Yeah, like there have been times before where I could think of them at various specific examples.
+
+00:06:09.360 --> 00:06:14.000
+ Back when I used to configure webpack, I would get stuck on some option and I would search
+
+00:06:14.000 --> 00:06:18.400
+ code that looks kind of like the code I'm writing into GitHub. And I would find some example,
+
+00:06:18.400 --> 00:06:21.440
+ and I would try it copy paste like what they had and I would try it and it would work.
+
+00:06:21.440 --> 00:06:26.640
+ And I don't think anyone really has a problem with me doing that, right. But co-pilot just like
+
+00:06:26.640 --> 00:06:31.440
+ simplifies that process of doing that for you with much better search results where it's kind of like,
+
+00:06:31.440 --> 00:06:35.760
+ yep. Oh yeah, this is probably what you were looking for. So to me, it's just, it's like an
+
+00:06:35.760 --> 00:06:39.680
+ iteration on the same product on this like search product that GitHub has had forever,
+
+00:06:39.680 --> 00:06:45.200
+ but it's like a hundred times better. I've always felt weird about the code copyright thing.
+
+00:06:45.200 --> 00:06:51.200
+ I like can't think of any code I've ever written that's like, you like, no, this is an intellectual
+
+00:06:51.200 --> 00:06:57.440
+ all of it feels so trivial and obvious to me that someone copying it, like they could have
+
+00:06:57.440 --> 00:07:00.560
+ probably come with that on their own. They're just saving time. So it's like hard for me to
+
+00:07:00.560 --> 00:07:04.480
+ really feel like this is my property. I've never felt like I really invented anything.
+
+00:07:04.480 --> 00:07:10.560
+ Yeah, no, I agree. I think to put myself in the art issues, there are these models that can like
+
+00:07:10.560 --> 00:07:19.360
+ do style transfers. So you can say, I want a picture of like a panda on the moon in the style of Monet.
+
+00:07:19.360 --> 00:07:25.360
+ In that scenario, you're literally like having the AI mimic this person's style. Does that dilute
+
+00:07:25.360 --> 00:07:31.680
+ their style like on the internet where everything just gets uploaded and it's all just data coming
+
+00:07:31.680 --> 00:07:36.480
+ down to your browser? Do we start to have so many works that look like they were from Monet that
+
+00:07:36.480 --> 00:07:41.040
+ you dilute what are actual Monet paintings? Like do people know the difference anymore?
+
+00:07:41.040 --> 00:07:46.800
+ I could see that argument like for people's artistic legacy. I don't know. I'm not an artist.
+
+00:07:46.800 --> 00:07:52.240
+ So I do think it is a little different. Yeah, this also feels like there's also doesn't feel
+
+00:07:52.240 --> 00:07:59.280
+ super new to me. I dated someone for a while. That was a like very traditional painter.
+
+00:07:59.280 --> 00:08:04.960
+ Like she could you know like paint photorealistic stuff with like a paintbrush. She could do something
+
+00:08:04.960 --> 00:08:12.880
+ with pencil like all kinds of just very traditional art, you know, such styles. And then she switched
+
+00:08:12.880 --> 00:08:20.320
+ to digital art where she would now use an iPad. And a lot of people would say, hey, like that's not
+
+00:08:20.320 --> 00:08:26.800
+ real. Like you're not like you're just it's like too easy for you to like mimic something that you
+
+00:08:26.800 --> 00:08:30.880
+ know you would do in a traditional way. She had those skill sets. So like they were just wrong.
+
+00:08:30.880 --> 00:08:37.680
+ Yeah. But the same wave happened with digital art where people were like, that's okay, but it's not
+
+00:08:37.680 --> 00:08:42.480
+ real. Like this is the real stuff or like this makes it too easy or too accessible. But then
+
+00:08:42.480 --> 00:08:46.480
+ the day I just kind of see this as like a same progression on that spectrum. You're making stuff
+
+00:08:46.480 --> 00:08:54.960
+ more accessible without the same kind of input. Yeah, from like a creative explosion on the internet
+
+00:08:54.960 --> 00:09:00.800
+ standpoint, I think it's all net positive. I mean, it's like Steve Jobs always said like the computer,
+
+00:09:00.800 --> 00:09:04.960
+ the bicycle, the mind thing. Yeah, I think it's just like this is a motorcycle for the mind or
+
+00:09:04.960 --> 00:09:11.840
+ something. This is like AI tools, allowing people who don't have visual design skills to create.
+
+00:09:11.840 --> 00:09:16.800
+ I mean, for me, it's like I create all the podcast covers now with one of these tools,
+
+00:09:16.800 --> 00:09:20.960
+ because it's like I can just say my idea for what I think would be cool if it were that.
+
+00:09:20.960 --> 00:09:24.480
+ And then it can just generate something that looks pretty good. That's the thing that's now
+
+00:09:24.480 --> 00:09:30.320
+ accessible to me that I couldn't, I would have to hire someone before. And so in that sense,
+
+00:09:30.320 --> 00:09:36.800
+ I think it does open up anybody can create anything in some future, whether that's video
+
+00:09:36.800 --> 00:09:43.360
+ content, whether that's original written works that are augmented with AI stuff. I don't know,
+
+00:09:43.360 --> 00:09:49.120
+ like at what point does the lines between a creator and the tools get blurrier and blurrier?
+
+00:09:49.120 --> 00:09:52.480
+ I know people have feelings about this. I don't really have strong feelings either way.
+
+00:09:52.480 --> 00:09:57.600
+ I just think it's very interesting to me to see where it's all headed and just the types of things
+
+00:09:57.600 --> 00:10:02.640
+ that I just didn't think were possible that seem to be happening now on the weekly. It's like
+
+00:10:02.640 --> 00:10:06.400
+ there's new stuff every week that just blows my mind, video editing tools that you can just cut
+
+00:10:06.400 --> 00:10:11.040
+ stuff out of the video. And it just looks perfect. I mean, that kind of stuff, I just would have
+
+00:10:11.040 --> 00:10:15.520
+ thought it was years away. And it just keeps, keeps coming. Yeah, it definitely feels like we're
+
+00:10:15.520 --> 00:10:21.680
+ going through a compounding growth now where the stuff for each week is like better than
+
+00:10:21.680 --> 00:10:26.560
+ everything from the past six months. Have you tried some of the chat GPT stuff? Have you incorporated
+
+00:10:26.560 --> 00:10:30.800
+ that into any of your workflows? Like what's been your experience with that? Yeah, I mean,
+
+00:10:30.800 --> 00:10:36.480
+ I played with it, obviously, when it was when it was first out, I haven't used it in probably a few
+
+00:10:36.480 --> 00:10:41.520
+ weeks. I don't know what that says, but when it first came out, it was super interesting to me
+
+00:10:42.160 --> 00:10:48.560
+ from like a stack overflow replacement standpoint, like just asking it questions, I think I did it
+
+00:10:48.560 --> 00:10:54.080
+ on stream once. Like as I was learning something new, just like asking it questions about how do
+
+00:10:54.080 --> 00:10:59.760
+ you do this? Or I was revisiting Python, I think I was doing like that, some like AOC challenges or
+
+00:10:59.760 --> 00:11:04.480
+ something. And it was like, Oh, how do you do I forget list comprehension and Python, what's the
+
+00:11:04.480 --> 00:11:08.560
+ whatever? And it was really great for that kind of stuff, because it kind of hold your hand more
+
+00:11:08.560 --> 00:11:14.880
+ than than like Google will. But yeah, I don't know, it's I've seen a lot of the criticisms for the
+
+00:11:14.880 --> 00:11:22.400
+ language model stuff that it's it's not the ethical thing. It's more like it's garbage, like it's
+
+00:11:22.400 --> 00:11:27.840
+ spitting out random nonsense. And most of the time it's wrong. And like you can't trust it. So it's
+
+00:11:27.840 --> 00:11:33.280
+ probably only for like certain like cases where you don't need it to be factually accurate, you just
+
+00:11:33.280 --> 00:11:37.760
+ need inspiration. So like coming up with ideas, I think it's good for like brainstorming and things
+
+00:11:37.760 --> 00:11:43.280
+ like that. But yeah, if it's wrong on facts, I could see that getting people into trouble, I guess.
+
+00:11:43.280 --> 00:11:48.240
+ Yeah, I think I've had two experiences with this that have been interesting. So we had a bit of
+
+00:11:48.240 --> 00:11:54.560
+ Python code in the SST code base that we copied from somewhere and we just needed it and it worked
+
+00:11:54.560 --> 00:11:59.760
+ in a solve the problem. But it was annoying that was just randomly in a different language. And we
+
+00:11:59.760 --> 00:12:03.600
+ but we're never going to go sit down and like read through it and rewrite it because none of us are
+
+00:12:03.600 --> 00:12:09.840
+ Python experts. So as a pain. I think Frank used chat GPT to rewrite it all in the JavaScript and
+
+00:12:09.840 --> 00:12:13.760
+ he cleaned it up. And that was great because that would have just been sitting there forever otherwise.
+
+00:12:13.760 --> 00:12:19.440
+ So yeah, that's a genuinely situation that would have never been solved without something like this.
+
+00:12:19.440 --> 00:12:23.760
+ Then the other experience I had is kind of what you're saying where as a brainstorming partner,
+
+00:12:23.760 --> 00:12:30.000
+ I had to come up with a name from my react Miami talk. And I didn't need it to be
+
+00:12:31.040 --> 00:12:37.200
+ like the most brilliant work of all times of the title of this talk. I just needed to convey
+
+00:12:37.200 --> 00:12:40.960
+ certain things. So I just need to see a bunch of options and iterate and tweak. And that again was
+
+00:12:40.960 --> 00:12:46.400
+ a brand new experience where that usually is a solo endeavor. Maybe you're Googling stuff. But
+
+00:12:46.400 --> 00:12:51.680
+ doing it with chat GPT, I got to a really great place really quickly. And I'm pretty excited to
+
+00:12:51.680 --> 00:12:56.320
+ use it more as a brainstorming tool when I'm writing like scripts for stuff like things that
+
+00:12:56.320 --> 00:13:02.800
+ don't need to be really artful, right? Just stuff that gets to hit the minimum for certain things.
+
+00:13:02.800 --> 00:13:06.400
+ Oh, we use it for documentation all the time, actually. Oh, yeah.
+
+00:13:06.400 --> 00:13:10.960
+ We're documenting stuff for SST. Like you don't need it to be like fantastic pros. You just
+
+00:13:10.960 --> 00:13:14.880
+ needed to like communicate X ideas in a way that makes sense for most people.
+
+00:13:14.880 --> 00:13:18.640
+ Yep. And it makes sense that it would be good at that because there's just so much
+
+00:13:18.640 --> 00:13:22.560
+ software documentation out there on the internet that it's presumably been trained on.
+
+00:13:23.200 --> 00:13:28.320
+ Like it knows how to write docs for software. Yeah, exactly. And this it's like it's important
+
+00:13:28.320 --> 00:13:33.680
+ work, but it's not high skilled work. Yeah. And none of us really enjoy doing that. So
+
+00:13:33.680 --> 00:13:38.800
+ it's just not going to our workflows very quickly. Yeah, it's like I've seen people say it's like
+
+00:13:38.800 --> 00:13:43.840
+ having just like infinite interns that are free at your disposal at all times. It's
+
+00:13:43.840 --> 00:13:47.920
+ yeah, it's interesting that that's a whole other conversation, I guess. It's like,
+
+00:13:48.560 --> 00:13:54.160
+ what does this mean for the labor force moving forward? I mean, we've all like, I mean,
+
+00:13:54.160 --> 00:13:58.160
+ those jokes are not jokes, but just thought about like, wait a minute, when you go to the grocery
+
+00:13:58.160 --> 00:14:03.040
+ store and like most of the cashiers are replaced with the auto checkout thing. It's like, what
+
+00:14:03.040 --> 00:14:07.680
+ does this mean for society? That's the conversation. I don't even know how to begin to have because
+
+00:14:07.680 --> 00:14:12.480
+ I feel like it's too complicated. There's too much involved too. It's too complex.
+
+00:14:12.480 --> 00:14:21.280
+ So you mentioned docs. Astro did like the Langchain stuff where they created a little like custom
+
+00:14:21.280 --> 00:14:30.720
+ AI assistant. I guess that's based on GPT, not chat GPT, but it uses GPT to like scour and ingest
+
+00:14:30.720 --> 00:14:37.280
+ their docs. It's using embeddings, I think like you embed, in this case, a bunch of docs for Astro
+
+00:14:37.280 --> 00:14:42.400
+ into this custom language model. And now you have this assistant that's like perfect for answering
+
+00:14:42.400 --> 00:14:46.560
+ all your questions about Astro and it cites places in the documentation that you can go back to.
+
+00:14:46.560 --> 00:14:50.640
+ It's incredible stuff. Like, that's the kind of thing that I think we're going to see that all
+
+00:14:50.640 --> 00:14:55.760
+ over the place. Like, every open source project is going to have this thing. And somebody's going
+
+00:14:55.760 --> 00:14:59.200
+ to shrink wrap it into a product where you just click a button. I think I saw that already.
+
+00:14:59.200 --> 00:15:02.000
+ I think someone launched. Yeah, probably. Someone launched like that.
+
+00:15:02.000 --> 00:15:07.200
+ Yeah. It's just everything. It's like, feels like every single angle of our digital life is kind of
+
+00:15:07.200 --> 00:15:15.200
+ being assaulted or enhanced depending on your viewpoint with AI and augmentation in these ways.
+
+00:15:15.200 --> 00:15:21.760
+ Yeah. What I'm waiting for is right now, these experiences are kind of isolated or like they're
+
+00:15:21.760 --> 00:15:25.760
+ outside your normal habits or they're like that. I mean, the Astro Doc example is a great thing
+
+00:15:25.760 --> 00:15:30.240
+ where they have a separate experience you have to remember to go to to like have that type of
+
+00:15:30.240 --> 00:15:35.840
+ interface. I want this stuff more integrated into what I'm already used to doing, like when I'm
+
+00:15:35.840 --> 00:15:40.000
+ searching on Google, I don't think a hundred percent of my Google. And this is why like people
+
+00:15:40.000 --> 00:15:46.320
+ were saying, Oh, Google's dead because of chat GPT. But it's really just a feature. Like, I just want
+
+00:15:46.320 --> 00:15:50.480
+ maybe 10% of the searches I do. It makes sense to like push me down this type of experience.
+
+00:15:50.480 --> 00:15:56.720
+ And I just want to integrate it alongside everything else. I don't want to like switch my habits to go.
+
+00:15:56.720 --> 00:16:02.240
+ Oh, like, this is probably a good chat GPT question and like go into that website and do things.
+
+00:16:03.120 --> 00:16:06.960
+ It needs to be ubiquitous and needs to be invisible. And I think that's probably what we'll get to.
+
+00:16:06.960 --> 00:16:11.920
+ That's why I'm a little skeptical about a lot of these new startups that are like, Oh, we're building
+
+00:16:11.920 --> 00:16:18.400
+ up this AI enables us to build now this AI product. I think what's actually going to happen is
+
+00:16:18.400 --> 00:16:24.720
+ there's existing products where some features of it will be enhanced using some of these methods,
+
+00:16:24.720 --> 00:16:29.040
+ but you still need like a good core product. You just have access to like these new features that
+
+00:16:29.840 --> 00:16:35.680
+ enhance it. Yeah. And if you think about like so many products have been enhanced with AI or
+
+00:16:35.680 --> 00:16:41.920
+ it's central to them like social media and algorithm or algorithmic feeds like we've been fed content
+
+00:16:41.920 --> 00:16:50.720
+ from some brand of AI for years. It's just like now there's these I think it's the multimedia thing
+
+00:16:50.720 --> 00:16:56.000
+ that seems to be exploding. And then I guess the language stuff is just opens up all these other
+
+00:16:56.720 --> 00:17:00.320
+ applications, existing applications that can now leverage AI to make their thing better.
+
+00:17:00.320 --> 00:17:06.320
+ But can we talk actually, as I'm saying that, can we just talk about what what is the term AI?
+
+00:17:06.320 --> 00:17:12.160
+ I mean, artificial intelligence like what is the checkbox that something has to check to be
+
+00:17:12.160 --> 00:17:16.160
+ artificial intelligence? Because it's all just like statistical models, right? There's nothing
+
+00:17:16.160 --> 00:17:22.880
+ actually in the like the way we think about AI, this futuristic like the matrix stuff that like
+
+00:17:23.440 --> 00:17:29.760
+ I don't know, it's like smarter than us. This stuff isn't that, right? Yeah, it's probably the same
+
+00:17:29.760 --> 00:17:34.480
+ frustration we feel about the word serverless and it being so vague and hijacked by a million things.
+
+00:17:34.480 --> 00:17:40.160
+ Like we all kind of know what we're talking about. I don't know if there's like a clear way
+
+00:17:40.160 --> 00:17:46.400
+ to define it. When I think AI, I just mean it's like this UX experience that's a little different
+
+00:17:46.400 --> 00:17:50.000
+ than our your standard. I'm going to click this button to do this thing interface. It's more like
+
+00:17:50.720 --> 00:17:54.720
+ it's going to suggest what you do versus I know what I'm going to do when I execute it.
+
+00:17:54.720 --> 00:18:00.240
+ So I think that like falls into that category. I feel like, okay, it's like AI in the sense that
+
+00:18:00.240 --> 00:18:05.040
+ it kind of feels like you're interacting with something that's smart, even if it's not
+
+00:18:05.040 --> 00:18:10.960
+ you know, literally an intelligent being. And then the next question I guess for me is
+
+00:18:10.960 --> 00:18:16.640
+ so if it is just like more intelligent software than we're used to working with, in a lot of cases,
+
+00:18:16.640 --> 00:18:23.920
+ just manifest in the better user experience. Do we think these things and neither one of us
+
+00:18:23.920 --> 00:18:27.360
+ probably has to answer this. I don't know. I'm not smart enough to answer this question,
+
+00:18:27.360 --> 00:18:33.360
+ but I'm going to ask it anyway. Like does this stuff do these large giant statistical models
+
+00:18:33.360 --> 00:18:38.880
+ eventually lead to some artificial general intelligence where the stuff starts thinking on
+
+00:18:38.880 --> 00:18:45.840
+ its own and learning new things on its own and taking over the world? Like, yeah. Are these even
+
+00:18:45.840 --> 00:18:52.160
+ like steps towards that thing? Or is it just like a dead end? Yeah, as someone that is optimistic
+
+00:18:52.160 --> 00:18:59.840
+ and excited by this stuff, like I really hope so, but intuitively, it feels different, right?
+
+00:18:59.840 --> 00:19:05.120
+ These models are really capable and can do a lot of crazy things, but they do stuff that humans
+
+00:19:05.120 --> 00:19:10.400
+ cannot do. So I don't think we're recreating a human intelligence here because they can do stuff
+
+00:19:10.400 --> 00:19:15.440
+ that no human on the planet can do, but they can't do stuff that every human on the planet can do.
+
+00:19:15.440 --> 00:19:20.720
+ So these feel like I'm sure there's so much we can do as we continue to go down this direction,
+
+00:19:20.720 --> 00:19:26.960
+ and I'm sure we can make incredible, amazing things, but I'm not sure what's at the end of that is.
+
+00:19:26.960 --> 00:19:32.880
+ Okay, we've created a new life that is effectively conscious. I always think about how you can show
+
+00:19:32.880 --> 00:19:40.320
+ a little kid like a monkey one time, and for the rest of their life, they'll know what a monkey
+
+00:19:40.320 --> 00:19:45.680
+ is somebody to identify them. Yeah, it's different than we don't have to feed a kid like a billion
+
+00:19:45.680 --> 00:19:50.640
+ examples of it for it to then like build a model around it. So I don't know like maybe
+
+00:19:50.640 --> 00:19:55.360
+ possibly like as these things get more efficient than you listen, but these things just feel so
+
+00:19:55.360 --> 00:20:00.960
+ different to me that I'm not sure. Yeah, and maybe they don't need to be this. Maybe the whole
+
+00:20:00.960 --> 00:20:06.720
+ idea of like working towards artificial general intelligence is just dumb. Maybe what does it
+
+00:20:06.720 --> 00:20:13.360
+ matter if this stuff is able to help us accomplish so much more than we ever could have. And I guess
+
+00:20:13.360 --> 00:20:20.000
+ the the negative side of like the fear of AGI, the fear of like the singularity and this stuff
+
+00:20:20.000 --> 00:20:25.680
+ taking over the world, I guess that could happen even if it wasn't human-like. Like if we hooked up
+
+00:20:25.680 --> 00:20:31.040
+ enough of these tools that exist today to the internet or to the right buttons that they could
+
+00:20:31.040 --> 00:20:35.200
+ press, then they'd probably do horrible things in their current state and they're not that smart.
+
+00:20:35.200 --> 00:20:41.280
+ Like I guess like we can be afraid and excited about this stuff even if it's nothing like human
+
+00:20:41.280 --> 00:20:46.720
+ intelligence and never will be. Yeah, the thing for me is though there's like there's certain things
+
+00:20:46.720 --> 00:20:53.120
+ where I'm okay dying in a certain way. Like I'm not afraid of an alien invasion because like at least
+
+00:20:53.120 --> 00:20:58.720
+ don't know aliens were real like the second before I died. Similarly, if I die because AI took over,
+
+00:20:58.720 --> 00:21:03.520
+ like that's a pretty cool way to go to like I'm more afraid of just dying because I like tripped
+
+00:21:03.520 --> 00:21:07.280
+ on something and fell on my face, right? Yeah, no, that would suck. Like just yeah tripping the
+
+00:21:07.280 --> 00:21:14.800
+ shower, car accident, like the the mundane ways. But I guess for me, I assume there are aliens.
+
+00:21:14.800 --> 00:21:19.600
+ I mean, I assume there is intelligent lives somewhere out there. So they did find us. I wouldn't be like,
+
+00:21:19.600 --> 00:21:24.880
+ I mean, it would be a cool moment to witness in the history. Yeah, I guess to know for sure.
+
+00:21:24.880 --> 00:21:28.400
+ I guess I do. I feel like I do know for sure. I don't know. But you don't know. Maybe that's like
+
+00:21:28.400 --> 00:21:32.720
+ kind of philosophical. I don't know what they look like. I mean, it would be a cool moment. But I would
+
+00:21:32.720 --> 00:21:38.240
+ still be like, they found us. We're all screwed. Like that would be a bummer of a moment for me.
+
+00:21:38.240 --> 00:21:43.120
+ Yeah. Well, I feel like there's probably like 15 areas of AI that we still haven't talked about.
+
+00:21:43.120 --> 00:21:47.920
+ Am I missing anything super obvious? It is interesting. They're all happening at same time.
+
+00:21:47.920 --> 00:21:54.960
+ Like every week there's a new paper from some Google academic arm that like now they're doing
+
+00:21:54.960 --> 00:21:59.600
+ crazy music generation that's better than human music or whatever. Yeah, I did see that. Like,
+
+00:21:59.600 --> 00:22:03.600
+ did you, did you go through the examples that they had? I listened to, yeah, a bunch of the waves.
+
+00:22:03.600 --> 00:22:10.000
+ Yeah. What I like about all this stuff is that it's providing combinations that no one would bother
+
+00:22:10.000 --> 00:22:14.480
+ doing in real life. I forgot some of the examples that they had, but it was always
+
+00:22:14.480 --> 00:22:19.760
+ a mix of like two, two genres that you would never put together. And it just gives you like this.
+
+00:22:19.760 --> 00:22:24.080
+ Oh, like, yeah, that is really funny. Or like, like that just would not exist. Otherwise,
+
+00:22:24.080 --> 00:22:28.000
+ there's no one is going to like go spend a time like learning these two things and combine them.
+
+00:22:28.000 --> 00:22:33.520
+ And same thing with like the style transfer stuff on the, on the image, the image stuff,
+
+00:22:33.520 --> 00:22:39.840
+ you just get these really hilarious combinations of things. With the Monet example, if you really
+
+00:22:39.840 --> 00:22:45.360
+ are a fan of his style and the works that Monet put out there in the world, why not have more of
+
+00:22:45.360 --> 00:22:51.600
+ them? And why not have modern concepts painted in that style? I mean, I, again, I'm not Monet.
+
+00:22:51.600 --> 00:22:56.480
+ I'm not like, he's not one of my ancestors. So I'm not like the family of Monet, who's pissed
+
+00:22:56.480 --> 00:23:02.560
+ that AI is like, yeah, but it does seem like this, this ability to give anybody like,
+
+00:23:02.560 --> 00:23:10.880
+ we all have creativity in us. If everyone had more tools to express that in higher fidelity
+
+00:23:10.880 --> 00:23:16.480
+ ways, I just feel like that is a positive for humanity. But I don't know. Yeah, I feel the same
+
+00:23:16.480 --> 00:23:21.760
+ way. I feel like the ideal situation we get to is everyone spending most of their time getting
+
+00:23:21.760 --> 00:23:26.960
+ to be creative and as a little time as possible doing stuff that's tedious. And I think right now,
+
+00:23:26.960 --> 00:23:32.560
+ you know, a lot of our day to day work is a lot of tedious stuff that if it went away, we would
+
+00:23:32.560 --> 00:23:36.480
+ just replace with more creative work. And we've been able to do it in the past 100 years, like
+
+00:23:36.480 --> 00:23:42.640
+ that's already been like huge massive change. And I just want to see that keep going, just have more
+
+00:23:42.640 --> 00:23:48.560
+ people to be in a situation and to a higher and higher degree. Okay, so I can't, I can't not
+
+00:23:48.560 --> 00:23:54.880
+ ask this now. I'm going to break into the societal and like, just philosophical, whatever it is.
+
+00:23:54.880 --> 00:24:02.080
+ What about so this is very near to me, very practical recycling in Nixon, Missouri, where I live,
+
+00:24:02.080 --> 00:24:07.600
+ goes weeks at a time now without being picked up because there's not enough people working
+
+00:24:08.240 --> 00:24:13.280
+ at that specific facility or for that company. It's like a third party. It's not the city. But
+
+00:24:13.280 --> 00:24:20.240
+ they just can't get the labor to pick up recycling or trash reliably week to week. There are really
+
+00:24:20.240 --> 00:24:25.280
+ just bad jobs, like jobs nobody wants. A lot of them that we have not figured out how to
+
+00:24:25.280 --> 00:24:35.840
+ have robots do. Like, how does this all shake out if I think the knowledge worker class
+
+00:24:36.720 --> 00:24:41.360
+ our lives just keep getting better, really, for these reasons, like these tools are going to make
+
+00:24:41.360 --> 00:24:47.200
+ it easier, less tedious to do our jobs, and hopefully make it where more people could enter into these
+
+00:24:47.200 --> 00:24:55.440
+ knowledge working fields because there's lower barriers. But I guess like, until we automate
+
+00:24:55.440 --> 00:25:02.800
+ all the really bad jobs, does this not create this even more drastic and accelerating divide
+
+00:25:02.800 --> 00:25:10.080
+ between people who get to set at a desk all day and people who have to pick up garbage?
+
+00:25:10.080 --> 00:25:15.520
+ I don't know. Is that a terrible thing to say? As I said that last sentence, I felt very politically
+
+00:25:15.520 --> 00:25:21.600
+ incorrect or something when I said it. The thing you're getting at is a thing people feel. And I
+
+00:25:21.600 --> 00:25:28.160
+ think it just comes down to how you view the world. Whenever I see these advances, I don't think of
+
+00:25:28.160 --> 00:25:34.640
+ it as a zero-sum thing where now that some people's lives are better, they took it away from other
+
+00:25:34.640 --> 00:25:40.640
+ people. I think with a lot of this stuff, it just makes it whole pie bigger and creates more
+
+00:25:40.640 --> 00:25:45.920
+ opportunity for everyone. If there's less work I'm spending on tedious stuff. I'm doing more
+
+00:25:45.920 --> 00:25:49.120
+ important work that's having a bigger impact on the world. It's creating more opportunities for
+
+00:25:49.120 --> 00:25:55.520
+ other people. I think pretty much everything that most people do, there are some companies and
+
+00:25:55.520 --> 00:26:01.280
+ organizations that are zero-sum. They're just extracting value from certain things. But most
+
+00:26:01.280 --> 00:26:05.680
+ of us, the jobs we're doing, we're usually enabling other people to do stuff with less effort. And
+
+00:26:05.680 --> 00:26:12.080
+ that all is good. I think these are two separate problems. There are people that don't have a lot
+
+00:26:12.080 --> 00:26:18.000
+ of options. They don't have a lot of opportunities. Their lives are not going to get better until
+
+00:26:18.000 --> 00:26:24.400
+ they have 10 times as many things to choose from. This stuff doesn't help or hurt it. I don't think
+
+00:26:24.400 --> 00:26:30.080
+ I really don't think it hurts it. I think it can in a lot of ways help it. It unlocks people to
+
+00:26:30.080 --> 00:26:33.680
+ focus on some of these problems if there are less resources going to other places that are
+
+00:26:33.680 --> 00:26:37.920
+ more obvious. Again, I'm pretty optimistic when it comes to all this. I think I've seen myself,
+
+00:26:37.920 --> 00:26:45.440
+ the people I know, people in my family go from being in situations I didn't have a lot of opportunity
+
+00:26:45.440 --> 00:26:50.080
+ and I've seen them get to much better places. And it's because a lot of this stuff has unlocked
+
+00:26:50.720 --> 00:26:54.880
+ barriers for them and things that 100 years ago, they would have never been able to climb out of
+
+00:26:54.880 --> 00:26:59.520
+ the situation. Definitely nowhere near as good as we need things to be. I'm not saying things are
+
+00:26:59.520 --> 00:27:03.840
+ great. But I really do feel like we're going in the right direction. Yeah, I think I'm generally
+
+00:27:03.840 --> 00:27:11.040
+ an optimist too. And I don't know if I really expressed what my question there was or if I know
+
+00:27:11.040 --> 00:27:14.800
+ what my question was. I don't think I'm a very controversial person. But I know I've had these
+
+00:27:14.800 --> 00:27:19.120
+ conversations with my wife where it's like, I don't think anybody should have to do those awful jobs.
+
+00:27:19.120 --> 00:27:26.560
+ I hate that anyone has to. But also, we haven't figured out how to just have our modern society
+
+00:27:26.560 --> 00:27:33.360
+ without those types of jobs in the workforce. And it does seem like our generation or something
+
+00:27:33.360 --> 00:27:39.520
+ about the generational ebb and flow, like we have a smaller pool of people than the baby boomers
+
+00:27:39.520 --> 00:27:47.520
+ or whatever. And modern day society maybe can't handle some of that dynamic, the shifting generational
+
+00:27:47.520 --> 00:27:52.480
+ tides, like we're in a low tide, not as many people to do a lot of jobs. And there's still a lot of
+
+00:27:52.480 --> 00:27:56.640
+ jobs to be done. Maybe that maybe that's not a common thing. But I know we feel it here in the Ozarks
+
+00:27:56.640 --> 00:28:03.840
+ where like construction, it took forever, literally forever to get our landscaping.
+
+00:28:03.840 --> 00:28:09.280
+ I'm not literally forever so overdone. We waited like months, we were in a home without,
+
+00:28:09.280 --> 00:28:12.880
+ they're just dirt. And I know these are like first word problems, first world problems.
+
+00:28:13.600 --> 00:28:18.240
+ Like we built a home, we had to wait six months to get a lawn. That's not a big deal. But it is
+
+00:28:18.240 --> 00:28:23.520
+ sort of like pointing at this symptom, which I'm trying to highlight, which is a lot of physical
+
+00:28:23.520 --> 00:28:30.480
+ world jobs still have to be done. And there's not a lot of people to do them. And then I think of AI
+
+00:28:30.480 --> 00:28:34.480
+ making it where there's even fewer, I don't know, I don't know what I'm getting at. I don't know,
+
+00:28:34.480 --> 00:28:38.480
+ I'm going to stop talking. Yeah, I mean, I get what we were getting at. And in a lot of ways,
+
+00:28:38.480 --> 00:28:42.880
+ that's indicative of something good that's happening, because maybe those jobs weren't as
+
+00:28:42.880 --> 00:28:47.920
+ unappealing as appealing. And those people found other things to do, which is good,
+
+00:28:47.920 --> 00:28:51.760
+ which is great for them. And I want that to be the case. And then it's like, but as a society,
+
+00:28:51.760 --> 00:28:55.760
+ how do we solve like getting trash out of our neighborhood? I mean, to me, it's just,
+
+00:28:55.760 --> 00:29:00.160
+ the only way to solve this stuff is I think people take it two ways. You can either like,
+
+00:29:00.160 --> 00:29:08.400
+ I call it regressing, like, you know, demand less of your life. But I don't think that actually works.
+
+00:29:08.400 --> 00:29:12.640
+ I think the only way to really solve this stuff is we try to create so much abundance in other
+
+00:29:12.640 --> 00:29:17.600
+ places that even if there are people doing work that isn't super appealing, they're
+
+00:29:17.600 --> 00:29:21.200
+ compensated in a really good way or their quality of life is really high.
+
+00:29:21.200 --> 00:29:27.120
+ So I've thought about that. Why? Yeah. I know, again, I don't have the knowledge or this,
+
+00:29:27.120 --> 00:29:31.360
+ the world's complex. But I've definitely thought about like, why don't people doing the worst jobs
+
+00:29:31.360 --> 00:29:35.680
+ get paid more than the people doing the really easy jobs? Yeah, because they don't have a bunch
+
+00:29:35.680 --> 00:29:41.360
+ of opportunities. So if they can like pick between 10 things, someone, the system has to shift to
+
+00:29:41.360 --> 00:29:46.880
+ like compensating them really well for this thing that maybe isn't as appealing. So for me, it always
+
+00:29:46.880 --> 00:29:51.600
+ comes down again, lowering barriers, giving people more options, like letting them figure out what
+
+00:29:51.600 --> 00:29:57.920
+ they want to do. Anything that enables, I think, does put pressure on these other areas to correct
+
+00:29:57.920 --> 00:30:02.240
+ themselves or to to rebalance. Okay, so then is there a glimmer of hope here? I know this started
+
+00:30:02.240 --> 00:30:07.200
+ out on AI and I've turned it into like something entirely different. But is there this hope that
+
+00:30:07.200 --> 00:30:11.600
+ I can build a picture in my mind now that like as a person living in this neighborhood,
+
+00:30:11.600 --> 00:30:20.960
+ up to my ears and trash, I can hope that I would pay more to in taxes and whatever to make sure
+
+00:30:20.960 --> 00:30:26.720
+ the people who now have more options and can choose not to pick up trash can get paid better because
+
+00:30:26.720 --> 00:30:31.600
+ society has decided this is an important thing to us and we'll pay more for it because we've
+
+00:30:31.600 --> 00:30:35.200
+ created so much abundance. Is that the silver lining or the way I can look at this as a positive
+
+00:30:35.200 --> 00:30:40.880
+ optimistic outlook? Yeah, to me, that's the only way this stuff ever gets fixed in a sustainable
+
+00:30:40.880 --> 00:30:47.360
+ way. Anything else is like a temporary charity type situation where you maybe patch over a problem,
+
+00:30:47.360 --> 00:30:52.400
+ which is fine to do to like alleviate stuff short term, but long term like this is the only way
+
+00:30:52.400 --> 00:30:56.320
+ things have ever gotten better is only a quality of life is improved. It's because something came
+
+00:30:56.320 --> 00:31:01.760
+ out that created a massive abundance and we're able to redirect those resources to different
+
+00:31:01.760 --> 00:31:05.120
+ places and there's tons of like like you're saying it's all complex. There's tons of micro
+
+00:31:05.120 --> 00:31:10.800
+ problems with all this stuff, but as a general feeling, it's just good when people get more
+
+00:31:10.800 --> 00:31:16.240
+ opportunities to do things. It's always a good thing. No, it makes sense. Okay, sorry for that.
+
+00:31:16.240 --> 00:31:22.080
+ Whatever that was. I can't stay on a topic. We could start talking about anything and I
+
+00:31:22.080 --> 00:31:27.040
+ could end up on anything else. It's just completely fine with me. Okay, so AI, maybe AI is that thing
+
+00:31:27.040 --> 00:31:33.120
+ that's going to create all the abundance. Yeah, whatever AI is as a term, whatever encompasses.
+
+00:31:33.120 --> 00:31:36.960
+ I'm seeing a lot more people do stuff that they wouldn't be doing five years ago, so
+
+00:31:36.960 --> 00:31:42.560
+ that's just objectively good. I have no issue with that. Okay, we have anything else to cover on
+
+00:31:42.560 --> 00:31:54.400
+ this? No, I think that's that's everything. That was good. All right, that was fun. See you. See you next.
+
+00:31:57.040 --> 00:32:02.800
+ [Music]
+

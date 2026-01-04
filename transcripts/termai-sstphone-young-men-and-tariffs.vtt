@@ -1,0 +1,5774 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.640
+ I don't know, I think podcasts are dumb.
+
+00:00:01.640 --> 00:00:02.940
+ - What'd you say?
+
+00:00:02.940 --> 00:00:04.500
+ - I said I think podcasts are dumb.
+
+00:00:04.500 --> 00:00:05.840
+ (laughing)
+
+00:00:05.840 --> 00:00:08.420
+ (upbeat music)
+
+00:00:08.420 --> 00:00:29.320
+ - Hello.
+
+00:00:29.320 --> 00:00:29.980
+ - How you doing?
+
+00:00:29.980 --> 00:00:30.820
+ - I'm good.
+
+00:00:30.820 --> 00:00:32.980
+ Sorry, I was actually late because I was on the phone
+
+00:00:32.980 --> 00:00:37.340
+ with Kootie Tim, who actually is an early SST user.
+
+00:00:37.340 --> 00:00:39.260
+ I don't know if you remember interacting
+
+00:00:39.260 --> 00:00:40.900
+ with Kootie Tim in Discord.
+
+00:00:40.900 --> 00:00:43.120
+ - Yeah, yeah, he actually helped fix
+
+00:00:43.120 --> 00:00:47.740
+ some very serious performance issues in V2,
+
+00:00:47.740 --> 00:00:48.960
+ and we work together a lot.
+
+00:00:48.960 --> 00:00:51.420
+ And I saw that he was working on like a two E,
+
+00:00:51.420 --> 00:00:53.020
+ that's like a card code cutter.
+
+00:00:53.020 --> 00:00:55.020
+ - He is, that's what I was talking to him about.
+
+00:00:55.020 --> 00:00:55.940
+ - Nice.
+
+00:00:55.940 --> 00:00:56.780
+ - It's awesome.
+
+00:00:56.780 --> 00:00:58.180
+ It's written and go and bubble tea,
+
+00:00:58.180 --> 00:00:59.020
+ and I'm gonna work on it.
+
+00:00:59.020 --> 00:01:00.680
+ - Yeah, I had a feeling it was written and go and bubble tea.
+
+00:01:00.680 --> 00:01:02.220
+ I was, wait, okay, tell me more.
+
+00:01:02.220 --> 00:01:03.060
+ Tell me more about,
+
+00:01:03.060 --> 00:01:04.900
+ 'cause I didn't look into it besides a screenshot,
+
+00:01:04.900 --> 00:01:06.260
+ so tell me more about what it is.
+
+00:01:06.260 --> 00:01:09.220
+ - Well, it's a cloud code replacement.
+
+00:01:09.220 --> 00:01:11.220
+ It works with other models.
+
+00:01:11.220 --> 00:01:14.060
+ And well, what do you wanna know?
+
+00:01:14.060 --> 00:01:15.220
+ Like, it's early.
+
+00:01:15.220 --> 00:01:16.580
+ - Is he taking a different approach to it?
+
+00:01:16.580 --> 00:01:17.940
+ Like, is there anything that's a--
+
+00:01:17.940 --> 00:01:20.300
+ - Well, yeah, so he's a big cloud code user,
+
+00:01:20.300 --> 00:01:23.420
+ and it's clear talking through,
+
+00:01:23.420 --> 00:01:25.220
+ we just had 20-minute call where it's like,
+
+00:01:25.220 --> 00:01:27.700
+ we have the same frustrations.
+
+00:01:27.700 --> 00:01:30.580
+ I mean, one, just like knowing that you're stuck.
+
+00:01:30.580 --> 00:01:32.580
+ Honestly, cloud code just kinda feels like a dead end to me,
+
+00:01:32.580 --> 00:01:35.260
+ because I just can't imagine
+
+00:01:35.260 --> 00:01:37.180
+ I'm never gonna wanna play with other models
+
+00:01:37.180 --> 00:01:40.340
+ in this lifecycle of frontier models leapfrogging each other.
+
+00:01:40.340 --> 00:01:42.980
+ Like, I'm always gonna feel like I'm behind,
+
+00:01:42.980 --> 00:01:45.380
+ or I could be experiencing something better.
+
+00:01:45.380 --> 00:01:47.820
+ I don't know, maybe that's just FOMO, I know.
+
+00:01:47.820 --> 00:01:50.140
+ - I would say there's a good argument in favor of that,
+
+00:01:50.140 --> 00:01:54.340
+ because of the infrastructure behind these things.
+
+00:01:54.340 --> 00:01:57.540
+ In terms of deploying these models,
+
+00:01:57.540 --> 00:01:59.140
+ yeah, the big companies move slow,
+
+00:01:59.140 --> 00:02:03.580
+ but we're seeing how when they do finally move,
+
+00:02:03.580 --> 00:02:04.940
+ the stuff is really cheap.
+
+00:02:04.940 --> 00:02:05.780
+ - Yeah.
+
+00:02:05.780 --> 00:02:09.220
+ - Like, all the new Google stuff is just so much cheaper,
+
+00:02:09.220 --> 00:02:10.700
+ so purely from a cost perspective,
+
+00:02:10.700 --> 00:02:12.380
+ like, yeah, I doubt that cloud code
+
+00:02:12.380 --> 00:02:16.740
+ is ever gonna be the most economical.
+
+00:02:16.740 --> 00:02:19.460
+ - Right, yeah, so I guess that's my starting assumption,
+
+00:02:19.460 --> 00:02:21.860
+ is cloud code is not my long-term solution,
+
+00:02:21.860 --> 00:02:23.500
+ I'm gonna want something open source
+
+00:02:23.500 --> 00:02:26.500
+ that I can use with whatever model.
+
+00:02:26.500 --> 00:02:30.180
+ Some of the annoying things, like, he fixed,
+
+00:02:30.180 --> 00:02:31.300
+ I don't know if you've noticed in cloud code
+
+00:02:31.300 --> 00:02:32.160
+ how much you're using it,
+
+00:02:32.160 --> 00:02:35.980
+ but how often the tool fails to rewrite files,
+
+00:02:35.980 --> 00:02:37.900
+ because it says like, the text is the same or something?
+
+00:02:37.900 --> 00:02:40.140
+ - Yeah, yeah, it's like, we found multiple matches,
+
+00:02:40.140 --> 00:02:42.060
+ or like, the text is the same, yeah, exactly.
+
+00:02:42.060 --> 00:02:43.740
+ - The text is the same, yeah, he fixed that bug,
+
+00:02:43.740 --> 00:02:45.940
+ which is like, super annoying to me.
+
+00:02:45.940 --> 00:02:49.740
+ I'm doing such a terrible job 'cause I'm feeling on the spot.
+
+00:02:49.740 --> 00:02:51.620
+ I just talked to him and I'm so hyped,
+
+00:02:51.620 --> 00:02:54.500
+ because there's other things, there's other things.
+
+00:02:54.500 --> 00:02:57.620
+ - Okay, wait for it. (laughs)
+
+00:02:57.620 --> 00:03:00.820
+ He's implemented a very lightweight VIM experience,
+
+00:03:00.820 --> 00:03:03.540
+ but I wanna like embed Neil VIM in there.
+
+00:03:03.540 --> 00:03:07.980
+ - Okay, so that, when I saw that, he said VIM like,
+
+00:03:07.980 --> 00:03:09.940
+ and I was like, man, I wish it was just VIM,
+
+00:03:09.940 --> 00:03:12.860
+ and then I realized, oh, but then that would require
+
+00:03:12.860 --> 00:03:16.540
+ the multi-plexing stuff, which I guess is a pain in the ass.
+
+00:03:16.540 --> 00:03:18.180
+ - Yeah, it is, and I'm gonna, I don't know,
+
+00:03:18.180 --> 00:03:20.700
+ I'm gonna dig around and see what's possible.
+
+00:03:20.700 --> 00:03:22.980
+ - I know, I think something simple
+
+00:03:22.980 --> 00:03:25.220
+ would be to flip into full screen.
+
+00:03:25.220 --> 00:03:26.820
+ - Yeah, we're editing text.
+
+00:03:26.820 --> 00:03:30.060
+ - And like, just have that, yeah, like the multi-plexing stuff
+
+00:03:30.060 --> 00:03:33.420
+ shows up when you need to embed a process inside.
+
+00:03:33.420 --> 00:03:36.060
+ - Inside of a boundary, like that, yeah.
+
+00:03:36.060 --> 00:03:38.620
+ - But you know how it has like that alt-screen concept?
+
+00:03:38.620 --> 00:03:40.060
+ I don't know if you've come across that.
+
+00:03:40.060 --> 00:03:41.020
+ - Alt-screen. - Or again on a screen.
+
+00:03:41.020 --> 00:03:41.860
+ - What does?
+
+00:03:41.860 --> 00:03:45.060
+ - Yeah, so terminal is technically you have two screens.
+
+00:03:45.060 --> 00:03:47.780
+ They have like your main screen and an alt-screen.
+
+00:03:47.780 --> 00:03:48.620
+ - Really?
+
+00:03:48.620 --> 00:03:51.500
+ - Yeah, and you've seen like, kind of when,
+
+00:03:51.500 --> 00:03:52.860
+ I'm trying to think of an app that we all use
+
+00:03:52.860 --> 00:03:55.180
+ that uses this feature, I can't think of the thing
+
+00:03:55.180 --> 00:03:57.060
+ off the bat, but basically it's like,
+
+00:03:57.060 --> 00:03:58.740
+ it's like having two monitors effectively
+
+00:03:58.740 --> 00:03:59.940
+ and you can flip to the alt-screen
+
+00:03:59.940 --> 00:04:01.860
+ and it has something else running there.
+
+00:04:01.860 --> 00:04:03.940
+ So you could have the input running there
+
+00:04:03.940 --> 00:04:05.100
+ and then you just flip back and forth.
+
+00:04:05.100 --> 00:04:06.660
+ So I don't know if that, I don't know if the DX of that
+
+00:04:06.660 --> 00:04:08.220
+ or the UX of that will feel good,
+
+00:04:08.220 --> 00:04:10.420
+ but it would be simple to implement.
+
+00:04:10.420 --> 00:04:11.580
+ - Yeah, okay.
+
+00:04:11.580 --> 00:04:14.420
+ Well, something like that sounds nice.
+
+00:04:14.420 --> 00:04:17.340
+ I just, there's some possibilities of them like experience
+
+00:04:17.340 --> 00:04:21.060
+ 'cause I immediately try and do like any normal motion
+
+00:04:21.060 --> 00:04:22.340
+ that I'm used to and it's like,
+
+00:04:22.340 --> 00:04:23.700
+ no, that's not supported, so.
+
+00:04:23.700 --> 00:04:26.340
+ - Yeah, I've been using the other thing,
+
+00:04:26.340 --> 00:04:28.820
+ a non-code, a non-code.
+
+00:04:28.820 --> 00:04:29.660
+ - It works?
+
+00:04:29.660 --> 00:04:30.500
+ Does it work for you?
+
+00:04:30.500 --> 00:04:31.340
+ - Yeah, it does.
+
+00:04:31.340 --> 00:04:33.700
+ - I couldn't get it to like actually ever make a change.
+
+00:04:33.700 --> 00:04:34.700
+ - I was using it with Gemini.
+
+00:04:34.700 --> 00:04:36.140
+ - Really?
+
+00:04:36.140 --> 00:04:37.620
+ Well, I wanna hear about Gemini.
+
+00:04:37.620 --> 00:04:38.460
+ We gotta get ahead of that.
+
+00:04:38.460 --> 00:04:41.020
+ - I haven't used it enough to have an opinion.
+
+00:04:41.020 --> 00:04:43.220
+ I need to use it more, but I think I'll just try,
+
+00:04:43.220 --> 00:04:44.380
+ so this thing that he's working on it,
+
+00:04:44.380 --> 00:04:46.260
+ I'm assuming it's like model agnostic
+
+00:04:46.260 --> 00:04:47.580
+ and you can plug whatever in.
+
+00:04:47.580 --> 00:04:49.620
+ So I definitely wanna try it.
+
+00:04:49.620 --> 00:04:52.900
+ As fast as these companies can move,
+
+00:04:52.900 --> 00:04:55.860
+ he's like cloud, for example, anthropic, for example,
+
+00:04:55.860 --> 00:05:00.980
+ my gut just tells me a random approach
+
+00:05:00.980 --> 00:05:04.100
+ from some random person is gonna end up being better.
+
+00:05:04.100 --> 00:05:05.820
+ I don't know why I just feel like
+
+00:05:05.820 --> 00:05:10.620
+ there's just always headwinds at these larger organizations.
+
+00:05:10.620 --> 00:05:13.540
+ Plus the open source part I think will help a lot.
+
+00:05:13.540 --> 00:05:14.620
+ - Well, the open source part for me,
+
+00:05:14.620 --> 00:05:17.420
+ it's like I know Kootie Tim, I like Kootie Tim,
+
+00:05:17.420 --> 00:05:20.220
+ I can work on this too and it can be what I want it to be.
+
+00:05:20.220 --> 00:05:23.700
+ Maybe that's not best for like broad ambition
+
+00:05:23.700 --> 00:05:27.880
+ and Kootie Tim can say F off, no thank you.
+
+00:05:27.880 --> 00:05:32.420
+ But like it's the promise, like the idea of like,
+
+00:05:32.420 --> 00:05:34.900
+ oh, there's so many things I wish as a cloud code user
+
+00:05:34.900 --> 00:05:37.420
+ that cloud code could do or didn't do.
+
+00:05:37.420 --> 00:05:41.260
+ He said, so in terms of things he's doing
+
+00:05:41.260 --> 00:05:43.500
+ that cloud code doesn't do and maybe they'll add this,
+
+00:05:43.500 --> 00:05:45.180
+ but he added LSP support.
+
+00:05:45.180 --> 00:05:49.380
+ So it somehow, it drops the LSP information into context.
+
+00:05:49.380 --> 00:05:50.700
+ He said it makes a huge difference
+
+00:05:50.700 --> 00:05:52.000
+ and he's a big cloud code user.
+
+00:05:52.000 --> 00:05:54.180
+ - That's actually, you should open with that.
+
+00:05:54.180 --> 00:05:55.020
+ That's like a huge thing.
+
+00:05:55.020 --> 00:05:57.100
+ - I'm sorry, yeah, I'm sorry, Kootie Tim, I'm so dumb.
+
+00:05:57.100 --> 00:05:58.780
+ - That's the name of the project again?
+
+00:05:58.780 --> 00:06:00.140
+ - Term AI.
+
+00:06:00.140 --> 00:06:03.380
+ - I'll send you the, we'll put the GitHub in the show notes.
+
+00:06:03.380 --> 00:06:04.620
+ - By the way, the way you're pronouncing his name,
+
+00:06:04.620 --> 00:06:05.820
+ is that the right way to pronounce it?
+
+00:06:05.820 --> 00:06:06.900
+ Are you just giving me the right way?
+
+00:06:06.900 --> 00:06:08.180
+ - That is the right way, I worked with Kootie Tim.
+
+00:06:08.180 --> 00:06:10.700
+ I don't know if you, did I tell you I worked with Kootie Tim?
+
+00:06:10.700 --> 00:06:13.260
+ I was like under a Kootie Tim.
+
+00:06:13.260 --> 00:06:14.700
+ - I didn't know that.
+
+00:06:14.700 --> 00:06:17.420
+ - Yeah, so the company after I left start,
+
+00:06:17.420 --> 00:06:21.860
+ or stat news in like 2019, whatever.
+
+00:06:21.860 --> 00:06:24.620
+ Okay, after I was fired, whatever I was fired.
+
+00:06:24.620 --> 00:06:27.380
+ I don't know why, I should just always say it that way.
+
+00:06:27.380 --> 00:06:29.260
+ After I left, literally.
+
+00:06:29.260 --> 00:06:33.900
+ Anyway, after I was fired at stat news, my startup,
+
+00:06:33.900 --> 00:06:38.020
+ I joined a company called Brightcore,
+
+00:06:38.020 --> 00:06:41.000
+ which is where Kootie Tim worked at the time.
+
+00:06:42.100 --> 00:06:44.980
+ And it was like an insurance software company.
+
+00:06:44.980 --> 00:06:45.940
+ I was there for like a year.
+
+00:06:45.940 --> 00:06:48.980
+ I joined there randomly because one of my former
+
+00:06:48.980 --> 00:06:51.580
+ stat news employees, was like a director of engineering
+
+00:06:51.580 --> 00:06:52.860
+ at this startup.
+
+00:06:52.860 --> 00:06:55.060
+ Much bigger company than stat news is like,
+
+00:06:55.060 --> 00:06:56.540
+ I don't know, 200 people.
+
+00:06:56.540 --> 00:06:57.380
+ - Yeah.
+
+00:06:57.380 --> 00:06:58.900
+ - Like 100 Dean of Engineers, something like that.
+
+00:06:58.900 --> 00:07:01.420
+ It was a good experience for me just to like see
+
+00:07:01.420 --> 00:07:02.980
+ how actual software companies run,
+
+00:07:02.980 --> 00:07:06.700
+ 'cause I'd only ever worked for myself prior, and since.
+
+00:07:06.700 --> 00:07:08.620
+ So I have a little one year of experience,
+
+00:07:08.620 --> 00:07:11.580
+ like working in a, it was like a safe organization.
+
+00:07:11.580 --> 00:07:15.500
+ Like the ultimate and scrum memes.
+
+00:07:15.500 --> 00:07:16.340
+ - Yeah.
+
+00:07:16.340 --> 00:07:17.180
+ - Yeah, it was fun as Python too.
+
+00:07:17.180 --> 00:07:18.780
+ It was just like all the things I hate, but.
+
+00:07:18.780 --> 00:07:19.620
+ - That's funny.
+
+00:07:19.620 --> 00:07:21.380
+ - But I like the people a lot, including Kootie Tim.
+
+00:07:21.380 --> 00:07:25.100
+ Anyway, I feel like I had caffeine or something.
+
+00:07:25.100 --> 00:07:27.540
+ I didn't, I'm just am just like, what a small world.
+
+00:07:27.540 --> 00:07:28.820
+ - Yeah, right?
+
+00:07:28.820 --> 00:07:30.460
+ Like he's a Neil Vim user.
+
+00:07:30.460 --> 00:07:34.100
+ He uses bubble tea and writes go and uses SST
+
+00:07:34.100 --> 00:07:36.780
+ and knows you, like Kootie Tim is basically me.
+
+00:07:36.780 --> 00:07:39.900
+ I should just have him come on the show and fill in for me.
+
+00:07:39.900 --> 00:07:43.340
+ You're like stuck writing go and bubble tea, even more now.
+
+00:07:43.340 --> 00:07:44.180
+ - Oh yeah.
+
+00:07:44.180 --> 00:07:46.140
+ I guess I do kind of like sometimes shit on it,
+
+00:07:46.140 --> 00:07:47.900
+ but you just have to learn to like it.
+
+00:07:47.900 --> 00:07:49.380
+ - Well, it's not bubble tea.
+
+00:07:49.380 --> 00:07:51.780
+ Like the people at Charm are amazing.
+
+00:07:51.780 --> 00:07:55.460
+ It's the Elm thing I'm not super into.
+
+00:07:55.460 --> 00:07:56.300
+ - Yeah, I know, I know.
+
+00:07:56.300 --> 00:07:57.140
+ It just isn't click for me either.
+
+00:07:57.140 --> 00:07:58.900
+ - It's not even like Elm's fault.
+
+00:07:58.900 --> 00:08:00.460
+ It's just my brain works some other way,
+
+00:08:00.460 --> 00:08:01.300
+ and it's like not the way.
+
+00:08:01.300 --> 00:08:02.140
+ - No, it's Elm's fault.
+
+00:08:02.140 --> 00:08:04.580
+ - Okay, I would consider Elm being a failed experiment
+
+00:08:04.580 --> 00:08:07.700
+ because a lot of people love it,
+
+00:08:07.700 --> 00:08:11.060
+ but the component model is just better.
+
+00:08:11.060 --> 00:08:12.860
+ The component model is just better
+
+00:08:12.860 --> 00:08:16.580
+ and as the reason React got so big as big as it did
+
+00:08:16.580 --> 00:08:21.380
+ and you could preserve a lot of what's good about Elm
+
+00:08:21.380 --> 00:08:22.740
+ without giving up the component model.
+
+00:08:22.740 --> 00:08:25.340
+ It's like an arbitrary, it's like a random trade off
+
+00:08:25.340 --> 00:08:26.380
+ we have to make so.
+
+00:08:26.380 --> 00:08:27.660
+ - Yeah, I guess you're right.
+
+00:08:27.660 --> 00:08:30.460
+ It's Elm's fault because like who uses Elm today
+
+00:08:30.460 --> 00:08:32.700
+ and React is like everywhere.
+
+00:08:32.700 --> 00:08:33.700
+ - Yeah.
+
+00:08:33.700 --> 00:08:35.580
+ - Anyway, that's cool.
+
+00:08:35.580 --> 00:08:39.220
+ I'm gonna try it, I saw a quick video the other day
+
+00:08:39.220 --> 00:08:41.580
+ or whenever you posted it and I meant to check back
+
+00:08:41.580 --> 00:08:44.820
+ but I forgot, but it's exciting.
+
+00:08:44.820 --> 00:08:47.460
+ Yeah, these tools are pretty cool.
+
+00:08:47.460 --> 00:08:49.900
+ I feel stupid for not thinking about making them.
+
+00:08:49.900 --> 00:08:52.500
+ Like forever, I was like, man,
+
+00:08:52.500 --> 00:08:54.060
+ I wish I could have the cursor experience
+
+00:08:54.060 --> 00:08:55.340
+ but not give up any of them.
+
+00:08:55.340 --> 00:08:56.940
+ And then my brain just stopped there.
+
+00:08:56.940 --> 00:08:59.500
+ It was like, I guess that's impossible.
+
+00:08:59.500 --> 00:09:01.580
+ - Yeah, it was like a couple months ago on the podcast.
+
+00:09:01.580 --> 00:09:03.300
+ You said something about like the file system
+
+00:09:03.300 --> 00:09:05.140
+ as just the source of truth.
+
+00:09:05.140 --> 00:09:07.180
+ - Oh, that's something, so Kootie Tim's working on
+
+00:09:07.180 --> 00:09:09.020
+ this is very exciting to me.
+
+00:09:09.020 --> 00:09:10.980
+ 'Cause it actually has like a SQLite database
+
+00:09:10.980 --> 00:09:11.820
+ and it actually stores--
+
+00:09:11.820 --> 00:09:13.500
+ - I saw the SQL thing there.
+
+00:09:13.500 --> 00:09:16.020
+ - Yeah, so his idea is to like,
+
+00:09:16.020 --> 00:09:17.420
+ and it feels like a thing gets should do
+
+00:09:17.420 --> 00:09:20.460
+ but I get where maybe it's better just to do it in the app.
+
+00:09:20.460 --> 00:09:22.420
+ He's gonna like store file states
+
+00:09:22.420 --> 00:09:23.580
+ so that you could always go back
+
+00:09:23.580 --> 00:09:25.540
+ to any point in the message history
+
+00:09:25.540 --> 00:09:27.780
+ and then branch off or just revert back to that state.
+
+00:09:27.780 --> 00:09:29.620
+ So you don't have to constantly like get add stuff
+
+00:09:29.620 --> 00:09:31.500
+ just to stage it and keep it safe.
+
+00:09:31.500 --> 00:09:32.340
+ That's what I do.
+
+00:09:32.340 --> 00:09:34.340
+ Like in cloud code, I'm constantly staging files
+
+00:09:34.340 --> 00:09:36.580
+ just to make sure they don't get borked.
+
+00:09:36.580 --> 00:09:41.100
+ So he's kind of building all that into the term AI app
+
+00:09:41.100 --> 00:09:42.700
+ where it keeps track of file states
+
+00:09:42.700 --> 00:09:44.060
+ and you can just bounce back.
+
+00:09:44.060 --> 00:09:44.980
+ - Damn, this is gonna be,
+
+00:09:44.980 --> 00:09:46.340
+ I feel this is gonna be really successful.
+
+00:09:46.340 --> 00:09:47.780
+ - It's gonna be good, right?
+
+00:09:47.780 --> 00:09:48.620
+ - Yeah.
+
+00:09:48.620 --> 00:09:49.460
+ - And I'm gonna work on it.
+
+00:09:49.460 --> 00:09:50.300
+ So it's gonna be awesome.
+
+00:09:50.300 --> 00:09:51.140
+ I'm just kidding.
+
+00:09:51.140 --> 00:09:51.980
+ - Yeah, no, I mean that too.
+
+00:09:51.980 --> 00:09:53.740
+ - That's where it's gonna go down.
+
+00:09:53.740 --> 00:09:55.540
+ I'm not making a good sales district.
+
+00:09:55.540 --> 00:09:56.380
+ - I mean if you're gonna work on it
+
+00:09:56.380 --> 00:09:57.220
+ and it's something you use,
+
+00:09:57.220 --> 00:09:58.580
+ I feel like it's just gonna be a good outcome.
+
+00:09:58.580 --> 00:10:00.860
+ - I do feel like I've probably burned more cloud
+
+00:10:00.860 --> 00:10:04.500
+ and anthropic tokens than many single devs have.
+
+00:10:04.500 --> 00:10:05.860
+ Maybe more than some teams.
+
+00:10:05.860 --> 00:10:09.660
+ - We got this grant, this credit grant of 15K,
+
+00:10:09.660 --> 00:10:12.460
+ which we got intended--
+
+00:10:12.460 --> 00:10:13.300
+ - Who's we?
+
+00:10:13.300 --> 00:10:14.140
+ - SST.
+
+00:10:14.140 --> 00:10:16.420
+ - SST got a credit grant for who?
+
+00:10:16.420 --> 00:10:17.260
+ - Anthropic.
+
+00:10:17.260 --> 00:10:18.340
+ - 15K and anthropic credits.
+
+00:10:18.340 --> 00:10:19.460
+ - Oh nice.
+
+00:10:19.460 --> 00:10:22.740
+ - And we were like, okay, we're gonna use this
+
+00:10:22.740 --> 00:10:24.420
+ 'cause when we launch our hosted version of mobile control,
+
+00:10:24.420 --> 00:10:26.940
+ that's what users will consume this.
+
+00:10:26.940 --> 00:10:28.540
+ But we've just been consuming it.
+
+00:10:28.540 --> 00:10:31.100
+ I've just been consuming it to build this stuff.
+
+00:10:31.100 --> 00:10:33.420
+ And I'm like, how much of this is gonna be used
+
+00:10:33.420 --> 00:10:35.180
+ by the time we actually shipped this?
+
+00:10:35.180 --> 00:10:38.580
+ But whenever I look back at my bill,
+
+00:10:38.580 --> 00:10:40.460
+ it's always lower than I expect.
+
+00:10:40.460 --> 00:10:41.300
+ - Yeah.
+
+00:10:41.300 --> 00:10:44.020
+ - I'm always spending a thousand dollars on this,
+
+00:10:44.020 --> 00:10:45.860
+ but I'm not really.
+
+00:10:45.860 --> 00:10:48.460
+ - It's like in the context of what it unlocks.
+
+00:10:48.460 --> 00:10:50.740
+ And I think just developing these skills right now
+
+00:10:50.740 --> 00:10:51.580
+ is worth a lot.
+
+00:10:51.580 --> 00:10:53.740
+ I think flexing this muscle,
+
+00:10:53.740 --> 00:10:54.980
+ even if the models are,
+
+00:10:54.980 --> 00:10:56.980
+ I feel like we're like one generation,
+
+00:10:56.980 --> 00:10:59.460
+ one, is that the name of the models?
+
+00:10:59.460 --> 00:11:00.620
+ Is it a generation?
+
+00:11:00.620 --> 00:11:02.380
+ If we go from 3.7 to four.
+
+00:11:02.380 --> 00:11:03.540
+ - I guess so.
+
+00:11:03.540 --> 00:11:04.380
+ - Okay, yeah.
+
+00:11:04.380 --> 00:11:07.620
+ We're like one step away from this being incredible.
+
+00:11:07.620 --> 00:11:08.580
+ I mean, it's already good.
+
+00:11:08.580 --> 00:11:10.180
+ And I think in a good code base,
+
+00:11:10.180 --> 00:11:13.060
+ it really can like boost things quite a bit.
+
+00:11:13.060 --> 00:11:14.620
+ We've talked about that.
+
+00:11:14.620 --> 00:11:17.500
+ In not so good code bases, maybe not.
+
+00:11:17.500 --> 00:11:19.100
+ Maybe the next generation is just so smart.
+
+00:11:19.100 --> 00:11:21.180
+ It's still, it helps you kind of like get code bases
+
+00:11:21.180 --> 00:11:23.020
+ to the point that they're good.
+
+00:11:23.020 --> 00:11:24.020
+ That would be great.
+
+00:11:25.940 --> 00:11:28.300
+ - Yeah, it's expensive, but it's, I don't know.
+
+00:11:28.300 --> 00:11:29.700
+ There's the caching thing.
+
+00:11:29.700 --> 00:11:32.340
+ The bedrock prompt caching stuff.
+
+00:11:32.340 --> 00:11:34.360
+ You got to like get accepted into it, I guess.
+
+00:11:34.360 --> 00:11:35.200
+ But it unlocks.
+
+00:11:35.200 --> 00:11:37.180
+ - The caching stuff is so confusing to me
+
+00:11:37.180 --> 00:11:40.460
+ 'cause it's like, it's so convoluted.
+
+00:11:40.460 --> 00:11:41.900
+ Not 'cause it's bad design.
+
+00:11:41.900 --> 00:11:45.220
+ It's just like, the solution is a complicated thing.
+
+00:11:45.220 --> 00:11:49.580
+ 'Cause like, with prompt caching, you pay more,
+
+00:11:49.580 --> 00:11:54.320
+ but future prompts that share the same prefix,
+
+00:11:55.980 --> 00:11:56.820
+ will be cheaper.
+
+00:11:56.820 --> 00:11:58.300
+ So it's like very hard to into it.
+
+00:11:58.300 --> 00:11:59.740
+ Like, how much is this going to stay?
+
+00:11:59.740 --> 00:12:01.100
+ - You know way more than I do.
+
+00:12:01.100 --> 00:12:03.660
+ I just thought prompt caching make cheaper.
+
+00:12:03.660 --> 00:12:04.500
+ That's all I know.
+
+00:12:04.500 --> 00:12:06.380
+ Turn it on, get cheaper.
+
+00:12:06.380 --> 00:12:09.300
+ - It does, but it's one of those things where like,
+
+00:12:09.300 --> 00:12:11.300
+ well, for open AI, it's turned on by default.
+
+00:12:11.300 --> 00:12:13.620
+ 'Cause I don't really see a good reason not to turn it on.
+
+00:12:13.620 --> 00:12:18.620
+ Unless you're very sure that every single time you hit the API,
+
+00:12:18.620 --> 00:12:23.380
+ it's a brand new prompt.
+
+00:12:23.380 --> 00:12:25.220
+ It's like, you ask one question, you get the response,
+
+00:12:25.220 --> 00:12:26.820
+ and you never like follow up.
+
+00:12:26.820 --> 00:12:27.660
+ - Yeah.
+
+00:12:27.660 --> 00:12:29.060
+ - Then prompt caching doesn't make sense.
+
+00:12:29.060 --> 00:12:31.300
+ But yeah, like it makes sense to be turned on by default.
+
+00:12:31.300 --> 00:12:33.660
+ The thing that's funny to me is when I look at the API,
+
+00:12:33.660 --> 00:12:37.500
+ like in my head, when I saw these apps being built,
+
+00:12:37.500 --> 00:12:40.180
+ I'm like, oh, you probably like, there's an API call
+
+00:12:40.180 --> 00:12:41.900
+ to like start a session.
+
+00:12:41.900 --> 00:12:45.260
+ And then you like append messages to the session.
+
+00:12:45.260 --> 00:12:46.660
+ Like every time you send an API request,
+
+00:12:46.660 --> 00:12:47.700
+ it's just a new message.
+
+00:12:47.700 --> 00:12:50.740
+ No, like you send the whole context back and forth.
+
+00:12:50.740 --> 00:12:55.140
+ Yeah, this is really inefficient, but I guess it's fine.
+
+00:12:55.140 --> 00:12:56.340
+ But like, yeah, it feels weird.
+
+00:12:56.340 --> 00:12:57.700
+ Like you just send the whole thing back and forth.
+
+00:12:57.700 --> 00:13:00.380
+ - I have a theory on that and it ties into Jim and I
+
+00:13:00.380 --> 00:13:02.740
+ and all kinds of stuff, but just before I get to that,
+
+00:13:02.740 --> 00:13:06.460
+ it kind of I put a bow on Kootie Tim and term AI.
+
+00:13:06.460 --> 00:13:07.580
+ Kootie Tim, I know you're gonna listen to this
+
+00:13:07.580 --> 00:13:08.540
+ 'cause I'm gonna send it to you.
+
+00:13:08.540 --> 00:13:10.980
+ And I'm sure you're gonna wanna hear what I had to say.
+
+00:13:10.980 --> 00:13:13.100
+ I'm sorry for all of it.
+
+00:13:13.100 --> 00:13:14.100
+ (laughing)
+
+00:13:14.100 --> 00:13:15.820
+ That was pretty awful.
+
+00:13:15.820 --> 00:13:17.420
+ You probably don't want me involved at this point.
+
+00:13:17.420 --> 00:13:18.900
+ Like don't want me pushing PRs.
+
+00:13:18.900 --> 00:13:20.420
+ I'm still going to.
+
+00:13:20.420 --> 00:13:22.900
+ You can just shoot them down kindly as I know you will.
+
+00:13:22.900 --> 00:13:27.200
+ Anyway, okay, moving to the, so this idea that
+
+00:13:27.200 --> 00:13:29.260
+ Cloud 3.7 is kind of the only model right now
+
+00:13:29.260 --> 00:13:32.100
+ that can handle these giant contexts,
+
+00:13:32.100 --> 00:13:34.660
+ not that it's the only model that can handle giant contexts.
+
+00:13:34.660 --> 00:13:36.540
+ I know Jim and I has a bigger context window.
+
+00:13:36.540 --> 00:13:39.820
+ I mean, it seems to be the only one that keeps trying
+
+00:13:39.820 --> 00:13:41.900
+ with all the tool calling and all the turn based.
+
+00:13:41.900 --> 00:13:44.380
+ Yeah, the persistence, is that also the reason
+
+00:13:44.380 --> 00:13:46.220
+ people complain about 3.7?
+
+00:13:46.220 --> 00:13:49.660
+ Is that the same property that makes it do too much?
+
+00:13:49.660 --> 00:13:53.260
+ People talk about it like it goes crazy and does too much
+
+00:13:53.260 --> 00:13:55.740
+ in its actual like changes to your code base.
+
+00:13:55.740 --> 00:14:00.140
+ It's possible, but to be honest, my experience of it
+
+00:14:00.140 --> 00:14:01.780
+ has been very good.
+
+00:14:01.780 --> 00:14:04.300
+ So I don't, when people say they're like not happy with it,
+
+00:14:04.300 --> 00:14:05.820
+ I don't really know what they're talking about.
+
+00:14:05.820 --> 00:14:07.500
+ I honestly, I don't actually know either.
+
+00:14:07.500 --> 00:14:09.300
+ I'm not experienced it doing too much,
+
+00:14:09.300 --> 00:14:12.380
+ but you hear people say like it created whole new
+
+00:14:12.380 --> 00:14:14.780
+ somethings and implemented third party libraries
+
+00:14:14.780 --> 00:14:16.260
+ and did all this stuff like.
+
+00:14:16.260 --> 00:14:18.620
+ Yeah, but there was definitely a period of me refining it
+
+00:14:18.620 --> 00:14:21.100
+ with like some of the rules I wrote up and cleaning up
+
+00:14:21.100 --> 00:14:24.020
+ some stuff in my code base that it was getting confused by,
+
+00:14:24.020 --> 00:14:27.580
+ but yeah, I do stuff that's not mainstream.
+
+00:14:27.580 --> 00:14:30.420
+ Like I don't use tailwind and like the way we use CSS
+
+00:14:30.420 --> 00:14:31.260
+ is a little weird.
+
+00:14:31.260 --> 00:14:33.940
+ And despite that, it like picked it up and it's,
+
+00:14:33.940 --> 00:14:35.100
+ I should have something the other day,
+
+00:14:35.100 --> 00:14:39.940
+ which is pretty interesting where, you know,
+
+00:14:39.940 --> 00:14:42.380
+ I imagine to you like in the beginning of the year,
+
+00:14:42.380 --> 00:14:46.700
+ I switched to using normal CSS and like no tooling.
+
+00:14:46.700 --> 00:14:48.300
+ And it took me a few iterations of that
+
+00:14:48.300 --> 00:14:49.300
+ to get my patterns right.
+
+00:14:49.300 --> 00:14:51.740
+ So I had some older stuff that was in like
+
+00:14:51.740 --> 00:14:53.860
+ my initial experimentation.
+
+00:14:53.860 --> 00:14:55.420
+ So I was like, I need to clean this up
+
+00:14:55.420 --> 00:14:59.220
+ because Cloud Code is getting confused by this older stuff.
+
+00:14:59.220 --> 00:15:01.460
+ But then I just did that by telling Cloud Code,
+
+00:15:01.460 --> 00:15:02.620
+ hey, like look at this file.
+
+00:15:02.620 --> 00:15:04.380
+ This is the pattern that I like.
+
+00:15:04.380 --> 00:15:07.500
+ And then go like go back to this other file and fix it.
+
+00:15:07.500 --> 00:15:09.220
+ Yeah, it's so good at that stuff.
+
+00:15:09.220 --> 00:15:11.100
+ It's so good at that kind of thing.
+
+00:15:11.100 --> 00:15:12.260
+ Or like removing stuff.
+
+00:15:12.260 --> 00:15:14.380
+ If you're like, we're done with this feature,
+
+00:15:14.380 --> 00:15:17.140
+ we're done with this concept and just removing it
+
+00:15:17.140 --> 00:15:19.740
+ from the code base is so, it's so good at that.
+
+00:15:19.740 --> 00:15:23.340
+ Like it can do this whole grip searching
+
+00:15:23.340 --> 00:15:26.220
+ and then start just cutting stuff out like a pro.
+
+00:15:26.220 --> 00:15:27.940
+ It's stuff that's really annoying to do, you know?
+
+00:15:27.940 --> 00:15:29.420
+ Like that's like the kind of programming task
+
+00:15:29.420 --> 00:15:31.380
+ that's not a fun task.
+
+00:15:31.380 --> 00:15:32.900
+ It's been a funny adjustment
+
+00:15:32.900 --> 00:15:34.660
+ because sometimes when I'm working,
+
+00:15:34.660 --> 00:15:38.020
+ I will actually, and there's a get tedious task
+
+00:15:38.020 --> 00:15:40.860
+ that I need to go rename something in like 40 files
+
+00:15:40.860 --> 00:15:43.820
+ or like clean up type errors in 40 files.
+
+00:15:43.820 --> 00:15:46.380
+ I have this thing where I kind of like doing that
+
+00:15:46.380 --> 00:15:47.780
+ because like it would be like my break
+
+00:15:47.780 --> 00:15:50.500
+ where I would just kind of like drop my brain
+
+00:15:50.500 --> 00:15:52.300
+ and just focus on whatever I'm watching
+
+00:15:52.300 --> 00:15:54.780
+ and kind of like, you know, do this.
+
+00:15:54.780 --> 00:15:58.220
+ But now like yeah, just like I never really should
+
+00:15:58.220 --> 00:15:59.420
+ should be doing that.
+
+00:15:59.420 --> 00:16:00.740
+ And technically I don't mind.
+
+00:16:00.740 --> 00:16:02.860
+ Like now that I have the option of removing it
+
+00:16:02.860 --> 00:16:04.300
+ actually is much better.
+
+00:16:04.300 --> 00:16:06.180
+ But I wouldn't say like I 100% hated it.
+
+00:16:06.180 --> 00:16:08.540
+ I like kind of liked it to some degree.
+
+00:16:08.540 --> 00:16:10.540
+ Yeah, yeah, I can see that.
+
+00:16:10.540 --> 00:16:12.780
+ I mean, my brain's mostly off on a program all the time
+
+00:16:12.780 --> 00:16:14.340
+ as you can tell.
+
+00:16:14.340 --> 00:16:16.380
+ Well, now I just get up and I go do something else.
+
+00:16:16.380 --> 00:16:19.060
+ So yeah, well, it's doing it same work on something else.
+
+00:16:19.060 --> 00:16:19.900
+ Yeah.
+
+00:16:19.900 --> 00:16:20.740
+ Man, the future is bright.
+
+00:16:20.740 --> 00:16:25.060
+ I am very excited about programming as an occupation
+
+00:16:25.060 --> 00:16:27.020
+ in the twilight of my career.
+
+00:16:27.020 --> 00:16:28.620
+ Do you feel like you're into the twilight of your career
+
+00:16:28.620 --> 00:16:29.860
+ or do you feel like you're in the prime?
+
+00:16:29.860 --> 00:16:31.140
+ Are you in the, you're probably in the prime.
+
+00:16:31.140 --> 00:16:32.300
+ You're like way younger.
+
+00:16:32.300 --> 00:16:33.340
+ I'm not way younger.
+
+00:16:33.340 --> 00:16:34.180
+ I'm like, what?
+
+00:16:34.180 --> 00:16:35.100
+ I'm younger than me.
+
+00:16:35.100 --> 00:16:35.940
+ Is that only four years?
+
+00:16:35.940 --> 00:16:36.780
+ I'm 38.
+
+00:16:36.780 --> 00:16:38.220
+ I'm 33.
+
+00:16:38.220 --> 00:16:39.220
+ Five years.
+
+00:16:39.220 --> 00:16:40.060
+ Okay.
+
+00:16:40.060 --> 00:16:41.140
+ I don't know. I don't think I'm ever going to feel like
+
+00:16:41.140 --> 00:16:42.620
+ I'm in the twilight of my career.
+
+00:16:42.620 --> 00:16:43.460
+ I just feel like.
+
+00:16:43.460 --> 00:16:44.660
+ I mean, none of us are retiring.
+
+00:16:44.660 --> 00:16:46.180
+ Who knows where the economy said it.
+
+00:16:46.180 --> 00:16:47.420
+ The world's going to shit.
+
+00:16:47.420 --> 00:16:48.260
+ I'm sorry.
+
+00:16:48.260 --> 00:16:51.340
+ I did say something to, I think it was Jay the other day
+
+00:16:51.340 --> 00:16:54.860
+ where I was like, man, vibe coding feels like too fun.
+
+00:16:54.860 --> 00:16:57.620
+ Like I, this is like way too pleasant.
+
+00:16:57.620 --> 00:16:59.900
+ Like this just can't, there's no way this can continue
+
+00:16:59.900 --> 00:17:01.140
+ to have like economic value.
+
+00:17:01.140 --> 00:17:03.660
+ Cause it's like too enjoyable.
+
+00:17:03.660 --> 00:17:06.620
+ Cause I literally just, cause you know, I always watch TV.
+
+00:17:06.620 --> 00:17:09.060
+ I always have TV on the background while I work anyway.
+
+00:17:09.060 --> 00:17:10.740
+ So it's the thing I've been doing for years.
+
+00:17:10.740 --> 00:17:14.460
+ But now I'm just literally just like, hey, computer do this.
+
+00:17:14.460 --> 00:17:18.540
+ I understand I watch TV and then it just does it work.
+
+00:17:18.540 --> 00:17:20.180
+ And then I'm like, okay, computer do this.
+
+00:17:20.180 --> 00:17:23.980
+ I'm like, I'm making how much money to do to do this?
+
+00:17:23.980 --> 00:17:26.740
+ Like this doesn't make any sense at all.
+
+00:17:26.740 --> 00:17:28.620
+ This can't like the world can't work this way.
+
+00:17:28.620 --> 00:17:30.860
+ - When you use the term vibe coding,
+
+00:17:30.860 --> 00:17:35.660
+ do you mean that in like some specific definition
+
+00:17:35.660 --> 00:17:36.500
+ of vibe coding?
+
+00:17:36.500 --> 00:17:39.140
+ I feel like some people there's like a very specific definition.
+
+00:17:39.140 --> 00:17:40.660
+ - I think when I use that phrase,
+
+00:17:40.660 --> 00:17:43.620
+ it's when I'm like doing the most extreme version of this
+
+00:17:43.620 --> 00:17:47.540
+ where I am building something new or experimental
+
+00:17:47.540 --> 00:17:50.740
+ or like building out like a new screen
+
+00:17:50.740 --> 00:17:55.540
+ where I'm just like not at all trying to actively do any work.
+
+00:17:55.540 --> 00:17:57.180
+ I'm just trying to get it to do everything.
+
+00:17:57.180 --> 00:18:00.020
+ So that to me is like the epitome of vibe coding.
+
+00:18:00.020 --> 00:18:01.980
+ Most of the time that's not what I'm doing.
+
+00:18:01.980 --> 00:18:06.900
+ It's more like intense where I like have a task.
+
+00:18:06.900 --> 00:18:09.020
+ I find a way to split it up into two ways
+
+00:18:09.020 --> 00:18:10.860
+ and I give it half and I do the other half.
+
+00:18:10.860 --> 00:18:13.580
+ And then like the moment I'm done, I try to see if it's done.
+
+00:18:13.580 --> 00:18:16.820
+ And it's kind of like very intense thing.
+
+00:18:16.820 --> 00:18:17.980
+ That does not feel good.
+
+00:18:17.980 --> 00:18:20.900
+ It's very productive, but like it's not like a pleasant feeling.
+
+00:18:20.900 --> 00:18:23.380
+ - It's not, yeah, agreed.
+
+00:18:23.380 --> 00:18:25.060
+ Like I still haven't gotten,
+
+00:18:25.060 --> 00:18:28.020
+ I wonder if there's a point where the models are good enough
+
+00:18:28.020 --> 00:18:31.100
+ that I turn off my OCD and I don't read every line
+
+00:18:31.100 --> 00:18:32.260
+ of generating code like--
+
+00:18:32.260 --> 00:18:33.100
+ - I don't read it.
+
+00:18:33.100 --> 00:18:35.260
+ - You don't read it, oh really?
+
+00:18:35.260 --> 00:18:40.260
+ That's how we end up with a somehow an incorrect build amount
+
+00:18:40.260 --> 00:18:42.580
+ on a terminal shop bag.
+
+00:18:42.580 --> 00:18:45.260
+ It's like $10 extra for no reason.
+
+00:18:45.260 --> 00:18:46.620
+ - On Raycast?
+
+00:18:46.620 --> 00:18:47.460
+ - The Raycast extension.
+
+00:18:47.460 --> 00:18:48.700
+ - It was like the Raycast thing, right?
+
+00:18:48.700 --> 00:18:50.220
+ But they're like a $10 difference.
+
+00:18:50.220 --> 00:18:52.140
+ That was you.
+
+00:18:52.140 --> 00:18:52.980
+ - That was not me.
+
+00:18:52.980 --> 00:18:55.020
+ It was because our API was unclear
+
+00:18:55.020 --> 00:18:57.580
+ for a little bit 'cause we had some weird notice in there.
+
+00:18:57.580 --> 00:18:58.420
+ - Gotcha.
+
+00:18:58.420 --> 00:18:59.260
+ Well, that's probably my fault then.
+
+00:18:59.260 --> 00:19:01.820
+ I'm kind of on the API side, my bad.
+
+00:19:01.820 --> 00:19:04.020
+ - It reminded me of the terminal feud.
+
+00:19:04.020 --> 00:19:06.260
+ - Yeah, exactly, exactly.
+
+00:19:06.260 --> 00:19:09.220
+ I really don't want to fix that 'cause it was so perfect.
+
+00:19:09.220 --> 00:19:11.700
+ Like the error was so perfect.
+
+00:19:11.700 --> 00:19:12.540
+ - I know, yeah.
+
+00:19:12.540 --> 00:19:13.380
+ It wasn't up by one.
+
+00:19:13.380 --> 00:19:14.220
+ It was like off by two.
+
+00:19:14.220 --> 00:19:17.020
+ - I stumbled on the perfect algorithm for comedy.
+
+00:19:17.020 --> 00:19:19.820
+ The perfect way to add numbers where it was hilarious.
+
+00:19:19.820 --> 00:19:20.660
+ - That's funny.
+
+00:19:20.660 --> 00:19:21.860
+ - Well, I still read every line.
+
+00:19:21.860 --> 00:19:24.940
+ I generally go through and like make changes even.
+
+00:19:24.940 --> 00:19:26.500
+ And that's probably slowing me down a lot,
+
+00:19:26.500 --> 00:19:28.540
+ but I don't know, it makes me feel more comfortable
+
+00:19:28.540 --> 00:19:30.100
+ about what I'm putting out there.
+
+00:19:30.100 --> 00:19:30.940
+ I don't know.
+
+00:19:30.940 --> 00:19:32.260
+ It's just an OCD thing probably.
+
+00:19:32.260 --> 00:19:34.100
+ - Yeah, well, I'll say two things.
+
+00:19:34.100 --> 00:19:35.900
+ The first thing is when I say unpleasant,
+
+00:19:35.900 --> 00:19:40.380
+ I actually don't mean that I feel the tool is not good enough.
+
+00:19:40.380 --> 00:19:43.740
+ I just mean the process is not enjoyable.
+
+00:19:43.740 --> 00:19:45.300
+ And I don't know if we talked about this already,
+
+00:19:45.300 --> 00:19:50.300
+ but it really feels like this idea of sitting down
+
+00:19:50.300 --> 00:19:54.260
+ and doing focused work where you're in the flow
+
+00:19:54.260 --> 00:19:56.340
+ is just history.
+
+00:19:56.340 --> 00:19:59.900
+ So for me, for most of my career, that's kind of what I had.
+
+00:19:59.900 --> 00:20:01.820
+ Then I started doing cloud formation stuff
+
+00:20:01.820 --> 00:20:04.620
+ and I was like, okay, got to wait for confirmation.
+
+00:20:04.620 --> 00:20:05.900
+ Then let me go work on something else.
+
+00:20:05.900 --> 00:20:07.580
+ Oh, shit, I'm probably done.
+
+00:20:07.580 --> 00:20:08.420
+ Let me come back.
+
+00:20:08.420 --> 00:20:10.940
+ Okay, so that whole thing,
+
+00:20:10.940 --> 00:20:14.780
+ it just feels like that I'm working on five things at once
+
+00:20:14.780 --> 00:20:16.620
+ and juggling them all.
+
+00:20:16.620 --> 00:20:18.700
+ It's just getting work, it's just looking more
+
+00:20:18.700 --> 00:20:20.820
+ and more and more like that.
+
+00:20:20.820 --> 00:20:23.060
+ So that's why, to me, it feels a little unpleasant.
+
+00:20:23.060 --> 00:20:25.020
+ I think I can get used to it, but--
+
+00:20:25.020 --> 00:20:27.820
+ - I do prefer the single track, like I'm in the zone.
+
+00:20:27.820 --> 00:20:28.980
+ I got music going.
+
+00:20:28.980 --> 00:20:31.740
+ - It's been a very long time since my work felt.
+
+00:20:31.740 --> 00:20:35.300
+ Anything like that, like I'll get that like once a month, maybe.
+
+00:20:35.300 --> 00:20:37.100
+ - I guess I still get it on occasion.
+
+00:20:37.100 --> 00:20:38.420
+ I mean, I think there's,
+
+00:20:38.420 --> 00:20:39.900
+ there's still, I do a lot of front end stuff
+
+00:20:39.900 --> 00:20:41.420
+ and I guess you get kind of insulated
+
+00:20:41.420 --> 00:20:43.340
+ from a lot of the nonsense.
+
+00:20:43.340 --> 00:20:44.740
+ - So the second thing I was going to say
+
+00:20:44.740 --> 00:20:46.620
+ is the thing you're talking about.
+
+00:20:46.620 --> 00:20:49.180
+ So when I say vibe coding is really pleasant,
+
+00:20:49.180 --> 00:20:53.180
+ a surprising thing is Liz finds it very unpleasant.
+
+00:20:53.180 --> 00:20:54.100
+ Don't you think that--
+
+00:20:54.100 --> 00:20:54.980
+ - I saw her tweet.
+
+00:20:54.980 --> 00:20:56.740
+ I didn't know how much truth there was there.
+
+00:20:56.740 --> 00:20:59.420
+ - Yeah, so you would think, okay, she's new to this
+
+00:20:59.420 --> 00:21:00.980
+ so you would expect this thing gives her
+
+00:21:00.980 --> 00:21:03.380
+ way more capability, even just stuff straight up like,
+
+00:21:03.380 --> 00:21:06.020
+ she does not as good at using her editor as I am.
+
+00:21:06.020 --> 00:21:07.380
+ So you would think this thing is like,
+
+00:21:07.380 --> 00:21:08.740
+ so much more useful for her.
+
+00:21:08.740 --> 00:21:09.580
+ - Oh yeah.
+
+00:21:09.580 --> 00:21:14.580
+ - And it is, but it triggers her OCD a lot too
+
+00:21:14.580 --> 00:21:19.820
+ where it's almost magnified 'cause free,
+
+00:21:19.820 --> 00:21:21.740
+ so like it does something wrong and weird
+
+00:21:21.740 --> 00:21:23.540
+ and you want to go clean it up, right?
+
+00:21:23.540 --> 00:21:27.460
+ And she feels the same way, but it's magnified for her
+
+00:21:27.460 --> 00:21:29.220
+ because when it does something weird,
+
+00:21:29.220 --> 00:21:32.540
+ she has less experience to be able to understand
+
+00:21:32.540 --> 00:21:34.340
+ what it even did.
+
+00:21:34.340 --> 00:21:36.820
+ So to her, if it does something that she hasn't seen before,
+
+00:21:36.820 --> 00:21:39.260
+ it feels like 100 times worse than what you feel,
+
+00:21:39.260 --> 00:21:42.140
+ which you feel you're like, oh, I get what it did,
+
+00:21:42.140 --> 00:21:44.260
+ but it's kind of messy, so I'm going to clean it up.
+
+00:21:44.260 --> 00:21:46.100
+ For her, she's just like, what the fuck is this?
+
+00:21:46.100 --> 00:21:48.700
+ Like, now what do I do, right?
+
+00:21:48.700 --> 00:21:53.260
+ So yeah, for her, she like, it's been like
+
+00:21:53.260 --> 00:21:58.260
+ a bunch of back and forth for me to get her to use it more.
+
+00:21:58.820 --> 00:22:01.380
+ And I think she understands that it's practically useful
+
+00:22:01.380 --> 00:22:02.860
+ for all the practical reasons,
+
+00:22:02.860 --> 00:22:06.660
+ but she finds it a much more frustrating experience
+
+00:22:06.660 --> 00:22:07.500
+ than I do.
+
+00:22:07.500 --> 00:22:08.700
+ - Interesting.
+
+00:22:08.700 --> 00:22:11.300
+ - Yeah, 'cause that's what the whole vibe-coded thing
+
+00:22:11.300 --> 00:22:12.900
+ is like targeted at, I feel like.
+
+00:22:12.900 --> 00:22:15.620
+ - It's people who don't know, if you don't know, yeah.
+
+00:22:15.620 --> 00:22:17.500
+ But I mean, I think some people just don't even look
+
+00:22:17.500 --> 00:22:20.660
+ at the stuff and I'm kind of trying to encourage her
+
+00:22:20.660 --> 00:22:22.940
+ like, just don't look at it 'cause I'm gonna have to clean it.
+
+00:22:22.940 --> 00:22:24.180
+ I'm gonna clean it up.
+
+00:22:24.180 --> 00:22:26.180
+ Once you're in a good spot, I'm gonna clean it up anyway,
+
+00:22:26.180 --> 00:22:29.940
+ whether you hand-wrote that or whether you did this,
+
+00:22:29.940 --> 00:22:31.420
+ I'm still gonna go through that pass
+
+00:22:31.420 --> 00:22:34.260
+ and don't worry about it too much.
+
+00:22:34.260 --> 00:22:37.860
+ But yeah, it's just tough 'cause I think for a lot of people,
+
+00:22:37.860 --> 00:22:39.260
+ it goes against their instincts.
+
+00:22:39.260 --> 00:22:43.140
+ And there's also this dynamic when you're new,
+
+00:22:43.140 --> 00:22:46.060
+ you also don't know exactly what's good.
+
+00:22:46.060 --> 00:22:48.060
+ You might have a sense of what's good and what's bad,
+
+00:22:48.060 --> 00:22:49.580
+ but we've all been through that phase
+
+00:22:49.580 --> 00:22:52.660
+ where we'll overly try to clean up stuff
+
+00:22:52.660 --> 00:22:54.420
+ and it's actually just making it worse.
+
+00:22:54.420 --> 00:22:55.780
+ - Yeah, for sure.
+
+00:22:55.780 --> 00:23:00.220
+ Yeah, I don't know where it's headed
+
+00:23:00.220 --> 00:23:03.980
+ in terms of like my confidence in just the not looking thing.
+
+00:23:03.980 --> 00:23:08.300
+ It's hard for me to just like not look at the code.
+
+00:23:08.300 --> 00:23:10.460
+ I've just seen it do too many weird things
+
+00:23:10.460 --> 00:23:13.620
+ like in new code bases and make those silly mistakes
+
+00:23:13.620 --> 00:23:15.660
+ where you're like, actually, this.
+
+00:23:15.660 --> 00:23:16.900
+ And it's like, oh, I'm so sorry.
+
+00:23:16.900 --> 00:23:18.140
+ And it just goes through that loop
+
+00:23:18.140 --> 00:23:19.900
+ and you do like six iterations of that
+
+00:23:19.900 --> 00:23:21.460
+ and still won't fix it.
+
+00:23:21.460 --> 00:23:23.420
+ That kind of stuff just makes it where,
+
+00:23:23.420 --> 00:23:25.420
+ but the terminal code base is a great example
+
+00:23:25.420 --> 00:23:27.460
+ where it's like there's enough consistent patterns
+
+00:23:27.460 --> 00:23:28.860
+ that it just seems to knock stuff out
+
+00:23:28.860 --> 00:23:30.340
+ when you like give it something,
+
+00:23:30.340 --> 00:23:32.300
+ it can follow the pattern and do the thing.
+
+00:23:32.300 --> 00:23:34.420
+ - And that's kind of why I took us so long
+
+00:23:34.420 --> 00:23:38.820
+ to even like get to this point where we're really enjoying it
+
+00:23:38.820 --> 00:23:40.820
+ because most of our work is on SST,
+
+00:23:40.820 --> 00:23:45.180
+ which is like a weird Go CLI plus like really weird,
+
+00:23:45.180 --> 00:23:46.700
+ it doesn't look anything like a normal app.
+
+00:23:46.700 --> 00:23:48.260
+ - I've heard framework authors in general
+
+00:23:48.260 --> 00:23:49.700
+ have a hard time with this.
+
+00:23:49.700 --> 00:23:51.100
+ - Yeah, it just can't help you.
+
+00:23:51.100 --> 00:23:53.300
+ Like it's not, it's like so much of your work
+
+00:23:53.300 --> 00:23:56.660
+ is like decision making and not like execution.
+
+00:23:56.660 --> 00:23:58.820
+ So it feels very good to switch
+
+00:23:58.820 --> 00:24:00.500
+ to like very normal looking work
+
+00:24:00.500 --> 00:24:04.300
+ and that's where it really shines.
+
+00:24:04.300 --> 00:24:06.540
+ Oh, I was gonna tell you, so I use it
+
+00:24:06.540 --> 00:24:10.020
+ in a brand new way yesterday, which is really exciting for me.
+
+00:24:10.020 --> 00:24:13.380
+ I've had this PR 'cause we need to support those for SST,
+
+00:24:13.380 --> 00:24:15.180
+ finally getting around to doing that.
+
+00:24:15.180 --> 00:24:16.740
+ - You need to support what?
+
+00:24:16.740 --> 00:24:17.660
+ - Windows? - Those?
+
+00:24:17.660 --> 00:24:18.620
+ - Oh, Windows.
+
+00:24:18.620 --> 00:24:19.460
+ - Yeah. - What?
+
+00:24:19.460 --> 00:24:21.300
+ - Oh, like the operating system. - The operating system, yeah.
+
+00:24:21.300 --> 00:24:23.220
+ - Not like a t-max concept or something.
+
+00:24:23.220 --> 00:24:25.020
+ - No. (laughs)
+
+00:24:25.020 --> 00:24:27.940
+ - Microsoft Windows. - Yeah.
+
+00:24:27.940 --> 00:24:30.300
+ - And someone put in a lot of work to do a PR
+
+00:24:30.300 --> 00:24:31.460
+ that just they just went through
+
+00:24:31.460 --> 00:24:33.180
+ and just kept hitting every issue
+
+00:24:33.180 --> 00:24:35.300
+ and then like just figuring out how to fix for it.
+
+00:24:35.300 --> 00:24:37.140
+ - Wait, I'm sorry, I'm so dumb.
+
+00:24:37.140 --> 00:24:38.380
+ SST doesn't work on Windows today?
+
+00:24:38.380 --> 00:24:39.220
+ - No.
+
+00:24:39.220 --> 00:24:40.060
+ - Oh, I didn't know this.
+
+00:24:40.060 --> 00:24:42.100
+ I guess like what about WSL or that kind of stuff?
+
+00:24:42.100 --> 00:24:43.380
+ - It does work on WSL.
+
+00:24:43.380 --> 00:24:46.220
+ I think there's like it's, some people have issues with it.
+
+00:24:46.220 --> 00:24:48.660
+ I don't know, it just, it definitely works on WSL.
+
+00:24:48.660 --> 00:24:50.780
+ It doesn't does not work on Windows at all.
+
+00:24:50.780 --> 00:24:52.900
+ - And as you see, it's a Go app, right?
+
+00:24:52.900 --> 00:24:53.740
+ - Yeah.
+
+00:24:53.740 --> 00:24:56.060
+ - You don't just like compile it,
+
+00:24:56.060 --> 00:24:57.220
+ the Windows or something like that?
+
+00:24:57.220 --> 00:25:00.500
+ - Yes, but there's just little details that are different
+
+00:25:00.500 --> 00:25:02.140
+ that can't be abstracted away.
+
+00:25:02.140 --> 00:25:04.700
+ So someone like went through and just kept hitting those.
+
+00:25:04.700 --> 00:25:05.780
+ - Yeah, okay. - Okay.
+
+00:25:05.780 --> 00:25:07.420
+ - They kept patching things here and there.
+
+00:25:07.420 --> 00:25:09.380
+ I mean, it's really stupid things where like,
+
+00:25:09.380 --> 00:25:11.540
+ when I spawn Pulumi, if I'm Windows,
+
+00:25:11.540 --> 00:25:13.020
+ I need to add a .exe, you know?
+
+00:25:13.020 --> 00:25:15.380
+ It's just like things like that you need to be aware of.
+
+00:25:15.380 --> 00:25:17.660
+ - Interesting. - And this is a big PR.
+
+00:25:17.660 --> 00:25:21.140
+ So I had it, so I checked out the PR
+
+00:25:21.140 --> 00:25:22.540
+ and then I told Cloud Code,
+
+00:25:22.540 --> 00:25:27.540
+ hey, compare this branch to the main branch.
+
+00:25:27.540 --> 00:25:32.220
+ Go through each like hunk of changes one by one,
+
+00:25:32.220 --> 00:25:35.660
+ describe to me what the changes and why it's there.
+
+00:25:35.660 --> 00:25:37.340
+ And let's go through it one by one.
+
+00:25:37.340 --> 00:25:38.260
+ I literally did that.
+
+00:25:38.260 --> 00:25:41.980
+ It was like, in this file, you know, we changed this
+
+00:25:41.980 --> 00:25:44.620
+ because on Windows, when you've closed a file,
+
+00:25:44.620 --> 00:25:47.700
+ it's not guaranteed to like figure out why the change was made.
+
+00:25:47.700 --> 00:25:51.660
+ So I was able to review this PR in detail.
+
+00:25:51.660 --> 00:25:54.180
+ I feel confident that, okay, I understand what it's doing.
+
+00:25:54.180 --> 00:25:56.140
+ And I'm horrible at PR reviews otherwise,
+
+00:25:56.140 --> 00:25:57.260
+ they're going to be doing them.
+
+00:25:57.260 --> 00:25:58.740
+ - And it's like such a chore.
+
+00:25:58.740 --> 00:26:00.380
+ Hey, yeah. - Yeah.
+
+00:26:00.380 --> 00:26:02.340
+ - So this was like a really pleasant way
+
+00:26:02.340 --> 00:26:05.580
+ to do a PR review where it's just telling me one by one.
+
+00:26:05.580 --> 00:26:06.900
+ Look at this, this is good.
+
+00:26:06.900 --> 00:26:08.300
+ Look at this, this is good.
+
+00:26:08.300 --> 00:26:10.140
+ This is probably why they made a change.
+
+00:26:10.140 --> 00:26:12.100
+ This is exactly what was changed.
+
+00:26:12.100 --> 00:26:14.540
+ And having that side by side with the actual diff,
+
+00:26:14.540 --> 00:26:16.900
+ very, very good experience.
+
+00:26:16.900 --> 00:26:18.460
+ - So Cloud Code did a good job with that.
+
+00:26:18.460 --> 00:26:19.300
+ - Yeah.
+
+00:26:19.300 --> 00:26:21.900
+ - 'Cause I've, I, doesn't GitHub have like a feature
+
+00:26:21.900 --> 00:26:26.900
+ for like AI code review, maybe like a experimental thing,
+
+00:26:26.900 --> 00:26:28.700
+ but I think GitHub has that.
+
+00:26:28.700 --> 00:26:29.540
+ - I wonder if anyone's tried it.
+
+00:26:29.540 --> 00:26:31.660
+ - I saw something with Copilot.
+
+00:26:31.660 --> 00:26:32.540
+ - Well, what is Copilot?
+
+00:26:32.540 --> 00:26:33.980
+ Okay, I gotta, I gotta ask this.
+
+00:26:33.980 --> 00:26:35.820
+ 'Cause I'm, I'm so confused.
+
+00:26:35.820 --> 00:26:37.780
+ Copilot used to be like line by line.
+
+00:26:37.780 --> 00:26:39.460
+ - Just, just to tap complete, yeah.
+
+00:26:39.460 --> 00:26:40.300
+ - Yeah.
+
+00:26:40.300 --> 00:26:42.420
+ - And then it became like a broader thing in Microsoft.
+
+00:26:42.420 --> 00:26:45.060
+ Like maybe, maybe all of Microsoft is Copilot,
+
+00:26:45.060 --> 00:26:45.900
+ like Microsoft now?
+
+00:26:45.900 --> 00:26:48.220
+ 'Cause I feel like it became this giant thing
+
+00:26:48.220 --> 00:26:49.220
+ and I don't know what it is anymore.
+
+00:26:49.220 --> 00:26:50.740
+ - It's not just for code even anymore.
+
+00:26:50.740 --> 00:26:53.860
+ It's just, it's just, it's kind of like what IBM Watson did.
+
+00:26:53.860 --> 00:26:56.620
+ Do you remember when IBM Watson was like a physical computer
+
+00:26:56.620 --> 00:26:58.500
+ that's your pretty computer?
+
+00:26:58.500 --> 00:27:00.940
+ And then it was so popular that they just put,
+
+00:27:00.940 --> 00:27:04.180
+ they just made out the name of their like AI branch
+
+00:27:04.180 --> 00:27:06.780
+ and then everything where they're like AI initiative.
+
+00:27:06.780 --> 00:27:10.540
+ So Copilot is just like, it's GitHub or Microsoft's
+
+00:27:10.540 --> 00:27:12.620
+ entire AI initiative is just Copilot.
+
+00:27:12.620 --> 00:27:13.460
+ - Yeah, I think so.
+
+00:27:13.460 --> 00:27:14.300
+ I think that's how it works.
+
+00:27:14.300 --> 00:27:16.340
+ 'Cause I saw it, I think they even,
+
+00:27:16.340 --> 00:27:19.140
+ they even call it just like the non-coding one
+
+00:27:19.140 --> 00:27:20.740
+ just that's built into Windows
+
+00:27:20.740 --> 00:27:22.460
+ and they just call that Copilot.
+
+00:27:22.460 --> 00:27:23.300
+ - Yeah, okay.
+
+00:27:23.300 --> 00:27:25.860
+ A little tip for branding people.
+
+00:27:25.860 --> 00:27:27.740
+ Copilot just means nothing to me now.
+
+00:27:27.740 --> 00:27:29.900
+ Like I just hear the word and I check out.
+
+00:27:29.900 --> 00:27:32.020
+ Like I don't, it doesn't have any,
+
+00:27:32.020 --> 00:27:34.220
+ I can't tie it to a thing.
+
+00:27:34.220 --> 00:27:35.580
+ And that's a problem for me.
+
+00:27:35.580 --> 00:27:37.620
+ Like as someone who's not a version of products,
+
+00:27:37.620 --> 00:27:39.260
+ it makes me not wanna dive into that world
+
+00:27:39.260 --> 00:27:42.660
+ because it just seems like this big amorphous, unknown,
+
+00:27:42.660 --> 00:27:43.500
+ I don't know.
+
+00:27:43.500 --> 00:27:44.340
+ - Yeah.
+
+00:27:44.340 --> 00:27:45.820
+ I mean, I have like an aversion to it.
+
+00:27:45.820 --> 00:27:48.940
+ - This is a whole big question of,
+
+00:27:48.940 --> 00:27:53.020
+ Microsoft obviously has all the properties that are relevant
+
+00:27:53.020 --> 00:27:54.780
+ and all the reach that's relevant
+
+00:27:54.780 --> 00:27:58.140
+ and like the best sales team on the planet by far.
+
+00:27:58.140 --> 00:28:01.420
+ And this is like a massive, massive opportunity.
+
+00:28:01.420 --> 00:28:04.340
+ And it's also in a space where they have historic like,
+
+00:28:04.340 --> 00:28:06.260
+ Microsoft and developer tools.
+
+00:28:06.260 --> 00:28:07.100
+ - Oh, yeah.
+
+00:28:07.100 --> 00:28:08.540
+ - That's like developers, developers, developers.
+
+00:28:08.540 --> 00:28:09.940
+ - Yeah, exactly.
+
+00:28:09.940 --> 00:28:11.540
+ - They're on top ever.
+
+00:28:11.540 --> 00:28:14.740
+ And I guess with a lot of money that they've made here,
+
+00:28:14.740 --> 00:28:19.740
+ how is it plausible at all that they're gonna miss out on this?
+
+00:28:19.740 --> 00:28:21.660
+ - Are they completely out of it?
+
+00:28:21.660 --> 00:28:24.260
+ If they're not like, I don't know what the relationship
+
+00:28:24.260 --> 00:28:26.900
+ with OpenAI is anymore, they're kind of separated.
+
+00:28:26.900 --> 00:28:28.100
+ There was a spat.
+
+00:28:28.100 --> 00:28:30.300
+ - Yeah, I mean, they did say they're like working
+
+00:28:30.300 --> 00:28:31.140
+ on their own stuff.
+
+00:28:31.140 --> 00:28:32.980
+ - So they don't have a thing outside
+
+00:28:32.980 --> 00:28:34.340
+ of the OpenAI investment.
+
+00:28:34.340 --> 00:28:35.780
+ They don't have like their own models.
+
+00:28:35.780 --> 00:28:37.900
+ - They are working on their own models.
+
+00:28:37.900 --> 00:28:39.540
+ And I also think they technically,
+
+00:28:39.540 --> 00:28:41.900
+ don't they have some hold into Anthropic?
+
+00:28:41.900 --> 00:28:43.140
+ I forgot what it was.
+
+00:28:43.140 --> 00:28:43.980
+ - Microsoft?
+
+00:28:43.980 --> 00:28:45.260
+ - They're like a little diversified.
+
+00:28:45.260 --> 00:28:46.100
+ - I know AWS says.
+
+00:28:46.100 --> 00:28:47.420
+ - Even there.
+
+00:28:47.420 --> 00:28:49.480
+ Maybe it was Google that has something in Anthropic.
+
+00:28:49.480 --> 00:28:50.320
+ I don't know.
+
+00:28:50.320 --> 00:28:53.620
+ Anyway, point being, I don't think that it feels so easy
+
+00:28:53.620 --> 00:28:55.900
+ to look at the landscape now and be like,
+
+00:28:55.900 --> 00:28:57.500
+ yeah, Microsoft is like not anywhere
+
+00:28:57.500 --> 00:28:59.340
+ 'cause there's cursor.
+
+00:28:59.340 --> 00:29:01.740
+ Yeah, there's a bunch of stuff in GitHub,
+
+00:29:01.740 --> 00:29:04.140
+ but GitHub just increasingly becomes like a product
+
+00:29:04.140 --> 00:29:06.420
+ that feels like bad to use
+
+00:29:06.420 --> 00:29:09.340
+ and like why they're so slow with all this.
+
+00:29:09.340 --> 00:29:11.820
+ But I really think it's,
+
+00:29:11.820 --> 00:29:13.460
+ I still think they're just gonna win.
+
+00:29:13.460 --> 00:29:14.460
+ Like it's a-
+
+00:29:14.460 --> 00:29:17.580
+ - Well, that's how I feel about Google, I guess.
+
+00:29:17.580 --> 00:29:18.500
+ - Yeah, same.
+
+00:29:18.500 --> 00:29:19.940
+ - It's the same kind of situation
+
+00:29:19.940 --> 00:29:21.600
+ where it doesn't matter how behind they are.
+
+00:29:21.600 --> 00:29:24.020
+ It feels like they have the infrastructure,
+
+00:29:24.020 --> 00:29:26.580
+ the bones to win in the end.
+
+00:29:26.580 --> 00:29:28.420
+ But yeah, Microsoft, I guess,
+
+00:29:28.420 --> 00:29:33.420
+ I guess GitHub and Copilot, that is their current beachhead
+
+00:29:33.420 --> 00:29:34.700
+ in the AI game.
+
+00:29:34.700 --> 00:29:36.620
+ But like they don't have a big frontier model.
+
+00:29:36.620 --> 00:29:38.060
+ That's kind of crazy, actually.
+
+00:29:38.060 --> 00:29:39.060
+ - But I think they do.
+
+00:29:39.060 --> 00:29:39.900
+ Like I-
+
+00:29:39.900 --> 00:29:40.740
+ - Oh, they do?
+
+00:29:40.740 --> 00:29:41.580
+ I just don't know where it goes.
+
+00:29:41.580 --> 00:29:42.420
+ - I just think it's not like-
+
+00:29:42.420 --> 00:29:43.240
+ - It's called Azure or something.
+
+00:29:43.240 --> 00:29:45.620
+ - I've seen them talk about it internally
+
+00:29:45.620 --> 00:29:47.620
+ or like talk about having it internally and stuff.
+
+00:29:47.620 --> 00:29:51.380
+ And to me, this stuff isn't like difficult to acquire
+
+00:29:51.380 --> 00:29:52.200
+ at this point.
+
+00:29:52.200 --> 00:29:56.660
+ Like if random labs in China are like doing it,
+
+00:29:56.660 --> 00:30:00.260
+ Microsoft can do it given it's like almost purely
+
+00:30:00.260 --> 00:30:02.100
+ a capital problem from one direction.
+
+00:30:02.100 --> 00:30:04.300
+ - Apple can't do it, that's for sure.
+
+00:30:04.300 --> 00:30:05.140
+ Jeez.
+
+00:30:05.140 --> 00:30:06.060
+ - They can do it too.
+
+00:30:06.060 --> 00:30:07.060
+ They just, I don't know.
+
+00:30:07.060 --> 00:30:08.940
+ - Well, they're trying and they're not, right?
+
+00:30:08.940 --> 00:30:10.580
+ I mean, they're just bad at it.
+
+00:30:10.580 --> 00:30:12.220
+ - They're trying to integrate.
+
+00:30:12.220 --> 00:30:13.300
+ They're trying to build a good product,
+
+00:30:13.300 --> 00:30:15.260
+ which they are failing on, which yeah.
+
+00:30:15.260 --> 00:30:16.620
+ Nobody, there's no guarantee
+
+00:30:16.620 --> 00:30:19.380
+ if we can make a good product for sure that that's a problem.
+
+00:30:19.380 --> 00:30:21.620
+ - I want Apple to do it so bad.
+
+00:30:21.620 --> 00:30:23.860
+ 'Cause I just, I want the like,
+
+00:30:23.860 --> 00:30:24.780
+ I want it on my phone.
+
+00:30:24.780 --> 00:30:27.100
+ I want it just embedded into everything.
+
+00:30:27.100 --> 00:30:28.460
+ Is that bad to want that?
+
+00:30:28.460 --> 00:30:30.140
+ - Did you see my post about saying
+
+00:30:30.140 --> 00:30:31.780
+ S.C. is gonna make a phone?
+
+00:30:31.780 --> 00:30:32.620
+ - Oh, I did.
+
+00:30:32.620 --> 00:30:33.460
+ What was that about?
+
+00:30:33.460 --> 00:30:34.300
+ That's good.
+
+00:30:34.300 --> 00:30:35.140
+ That's good.
+
+00:30:35.140 --> 00:30:39.180
+ - Like I usually can understand your jokes.
+
+00:30:39.180 --> 00:30:40.180
+ I did not get that one.
+
+00:30:40.180 --> 00:30:41.060
+ - It wasn't a joke.
+
+00:30:41.060 --> 00:30:42.060
+ It's only serious.
+
+00:30:42.060 --> 00:30:42.980
+ - Okay.
+
+00:30:42.980 --> 00:30:43.820
+ Why not?
+
+00:30:43.820 --> 00:30:45.660
+ - Well, I followed up saying this probably so won't happen
+
+00:30:45.660 --> 00:30:47.780
+ but every day it's getting like two times as more likely.
+
+00:30:47.780 --> 00:30:48.620
+ - Okay, yeah.
+
+00:30:48.620 --> 00:30:49.460
+ You got to explain this one.
+
+00:30:49.460 --> 00:30:52.380
+ - Well, we're like looking at all this stuff
+
+00:30:52.380 --> 00:30:56.380
+ and it's not ridiculous to say there's maybe,
+
+00:30:56.380 --> 00:30:58.540
+ maybe we're gonna look back on this in 10 years
+
+00:30:58.540 --> 00:31:01.380
+ and be like, oh, there was like a new shift in computing
+
+00:31:01.380 --> 00:31:04.260
+ that happened during this time.
+
+00:31:04.260 --> 00:31:05.740
+ What could that, something we tried to imagine?
+
+00:31:05.740 --> 00:31:07.460
+ Like what, what could that be?
+
+00:31:07.460 --> 00:31:10.220
+ - Like from the ground up, rethinking the phone.
+
+00:31:10.220 --> 00:31:12.300
+ - The exact ground up rethink, rethink what.
+
+00:31:12.300 --> 00:31:16.100
+ I mean, phone even, even that word is like up for question.
+
+00:31:16.100 --> 00:31:17.460
+ - Just the word, yeah, throw that away.
+
+00:31:17.460 --> 00:31:19.660
+ Just small form factor thing you have in your pocket
+
+00:31:19.660 --> 00:31:20.500
+ all the time.
+
+00:31:20.500 --> 00:31:23.740
+ And so Jay's observation was,
+
+00:31:23.740 --> 00:31:24.820
+ so we had a few different observations.
+
+00:31:24.820 --> 00:31:28.420
+ Jay's observation was these things are so much more powerful
+
+00:31:28.420 --> 00:31:30.020
+ than we're actually using them for
+
+00:31:30.020 --> 00:31:31.460
+ 'cause we're bandwidth constrained.
+
+00:31:31.460 --> 00:31:34.940
+ Like all everything that you just talked about,
+
+00:31:34.940 --> 00:31:37.020
+ that you in like working out,
+
+00:31:37.020 --> 00:31:39.140
+ what's the thing called term UI, term AI?
+
+00:31:39.140 --> 00:31:39.980
+ - Term AI.
+
+00:31:39.980 --> 00:31:42.780
+ - That's just improving how much stuff you can shove
+
+00:31:42.780 --> 00:31:45.340
+ into the LM and like give it the right stuff, right?
+
+00:31:45.340 --> 00:31:47.980
+ It's not about the LM itself becoming better.
+
+00:31:47.980 --> 00:31:50.220
+ It's like, it's already really good.
+
+00:31:50.220 --> 00:31:52.740
+ It's just not being given the right context.
+
+00:31:52.740 --> 00:31:57.740
+ So many of the bottlenecks are just like,
+
+00:31:57.740 --> 00:32:01.020
+ yeah, the AI, if they could literally see everything
+
+00:32:01.020 --> 00:32:02.820
+ you're seeing, it can do a lot of crazy stuff.
+
+00:32:02.820 --> 00:32:04.220
+ It just can't do that.
+
+00:32:04.220 --> 00:32:05.900
+ So it's like bandwidth constrained.
+
+00:32:05.900 --> 00:32:07.240
+ - You're gonna make a pendant.
+
+00:32:07.240 --> 00:32:10.060
+ SSC pendant.
+
+00:32:10.060 --> 00:32:12.940
+ You're gonna take on friend.
+
+00:32:12.940 --> 00:32:13.780
+ Is it friend?
+
+00:32:13.780 --> 00:32:14.620
+ Is that the name of the one?
+
+00:32:14.620 --> 00:32:15.460
+ - Yeah.
+
+00:32:15.460 --> 00:32:16.700
+ Well, there's like five of them.
+
+00:32:16.700 --> 00:32:18.420
+ I think they're all stupid.
+
+00:32:18.420 --> 00:32:19.340
+ - They're all stupid.
+
+00:32:19.340 --> 00:32:20.900
+ But it could work for it now.
+
+00:32:20.900 --> 00:32:22.500
+ - I don't think we're literally gonna try to solve that.
+
+00:32:22.500 --> 00:32:23.860
+ Like it can see whatever you can see problem,
+
+00:32:23.860 --> 00:32:26.420
+ but it demonstrates it's like bandwidth constrained.
+
+00:32:26.420 --> 00:32:27.260
+ - Yeah.
+
+00:32:27.260 --> 00:32:28.580
+ - That's the issue.
+
+00:32:28.580 --> 00:32:30.460
+ So if you accept that,
+
+00:32:30.460 --> 00:32:34.860
+ then you have to assume that some new form factor
+
+00:32:34.860 --> 00:32:38.780
+ might make sense to enable all this.
+
+00:32:38.780 --> 00:32:39.620
+ - Mm-hmm.
+
+00:32:39.620 --> 00:32:40.460
+ - So yeah, the question is like,
+
+00:32:40.460 --> 00:32:41.620
+ you know, what could that be?
+
+00:32:41.620 --> 00:32:42.900
+ What could that look like?
+
+00:32:42.900 --> 00:32:44.380
+ That's one observation.
+
+00:32:44.380 --> 00:32:46.060
+ The second one is what you're talking about,
+
+00:32:46.060 --> 00:32:50.540
+ which is forever, not forever, but for a while,
+
+00:32:50.540 --> 00:32:54.660
+ both iOS and Android have encouraged app users
+
+00:32:54.660 --> 00:32:57.100
+ to like model their app as a set of actions
+
+00:32:57.100 --> 00:32:59.980
+ so that things can compose nicer together.
+
+00:32:59.980 --> 00:33:04.260
+ Like one app can trigger an action in another app.
+
+00:33:04.260 --> 00:33:08.140
+ And it's so clear that that model is perfect for AI
+
+00:33:08.140 --> 00:33:10.500
+ 'cause AI can just compose these actions together
+
+00:33:10.500 --> 00:33:11.420
+ like perfectly.
+
+00:33:11.420 --> 00:33:15.380
+ And I think Apple kind of demoed something like that
+
+00:33:15.380 --> 00:33:16.820
+ where you can ask it to do something,
+
+00:33:16.820 --> 00:33:17.980
+ some like complex set of things
+
+00:33:17.980 --> 00:33:20.860
+ and it can just like trigger the actions in different apps.
+
+00:33:20.860 --> 00:33:23.300
+ And this got, and so obviously that's what you're saying.
+
+00:33:23.300 --> 00:33:25.220
+ Like you want that, you want that in your phone,
+
+00:33:25.220 --> 00:33:27.900
+ you want that everywhere, you want to be like,
+
+00:33:27.900 --> 00:33:31.100
+ hey, like, you know, I have a meeting later
+
+00:33:31.100 --> 00:33:32.980
+ like give me directions to it.
+
+00:33:32.980 --> 00:33:36.260
+ Like yeah, Google counter can directly integrate that feature
+
+00:33:36.260 --> 00:33:38.140
+ or it can just look up your meeting
+
+00:33:38.140 --> 00:33:40.740
+ and then call Google Maps and then like do a bunch of stuff.
+
+00:33:40.740 --> 00:33:41.940
+ That example, but like, you know,
+
+00:33:41.940 --> 00:33:44.460
+ you can imagine some interesting things.
+
+00:33:44.460 --> 00:33:46.740
+ So that got me thinking around something else,
+
+00:33:46.740 --> 00:33:49.940
+ which is there's no angle to do this.
+
+00:33:49.940 --> 00:33:51.900
+ No one's gonna switch off their iPhone.
+
+00:33:51.900 --> 00:33:53.820
+ Yeah, Apple has to do this.
+
+00:33:53.820 --> 00:33:55.180
+ Google has to do this.
+
+00:33:55.180 --> 00:33:59.060
+ This feature on its own is not enough.
+
+00:33:59.060 --> 00:34:01.660
+ As compelling and amazing as it'll be,
+
+00:34:01.660 --> 00:34:04.340
+ they just have so many hooks in everywhere
+
+00:34:04.340 --> 00:34:05.540
+ that this is not gonna be the thing
+
+00:34:05.540 --> 00:34:06.780
+ that makes people switch.
+
+00:34:06.780 --> 00:34:11.780
+ So how do you even like try to disrupt the space?
+
+00:34:11.780 --> 00:34:13.660
+ We don't have a lot of good ideas or any good ideas,
+
+00:34:13.660 --> 00:34:16.260
+ but the one idea that I had was
+
+00:34:16.260 --> 00:34:18.940
+ there's also this growing desire for people
+
+00:34:18.940 --> 00:34:20.500
+ and it's small and it's niche
+
+00:34:20.500 --> 00:34:22.700
+ and it's might not be big enough for people to say.
+
+00:34:22.700 --> 00:34:23.620
+ Ooh, I think I know where you're going.
+
+00:34:23.620 --> 00:34:25.180
+ I don't want this phone.
+
+00:34:25.180 --> 00:34:27.660
+ Like this thing is just fucking like killing my brain.
+
+00:34:27.660 --> 00:34:28.660
+ I want a dumb phone.
+
+00:34:28.660 --> 00:34:29.660
+ I want a dumb phone.
+
+00:34:29.660 --> 00:34:31.340
+ Yeah, that's a movement.
+
+00:34:31.340 --> 00:34:32.900
+ And it's increasingly growing.
+
+00:34:32.900 --> 00:34:34.300
+ There's been a few products out of shit,
+
+00:34:34.300 --> 00:34:35.740
+ but the products always look like this.
+
+00:34:35.740 --> 00:34:38.140
+ They're like, they look at the phone
+
+00:34:38.140 --> 00:34:40.540
+ and they're like, okay, these five features
+
+00:34:40.540 --> 00:34:41.780
+ are good and not distracting.
+
+00:34:41.780 --> 00:34:42.900
+ And we're gonna put that on the phone
+
+00:34:42.900 --> 00:34:45.420
+ or we're gonna like not include everything else, right?
+
+00:34:45.420 --> 00:34:46.900
+ So they're gonna be like, okay, you can get texts,
+
+00:34:46.900 --> 00:34:48.780
+ you can call, but that's it.
+
+00:34:48.780 --> 00:34:49.620
+ But then you're like, well,
+
+00:34:49.620 --> 00:34:51.100
+ I kind of want to listen to music,
+
+00:34:51.100 --> 00:34:52.860
+ but they don't, they decided that music
+
+00:34:52.860 --> 00:34:55.460
+ is not something you should listen to.
+
+00:34:55.460 --> 00:34:58.100
+ And so it ultimately kind of ends up falling short
+
+00:34:58.100 --> 00:35:02.340
+ because I don't think a general approach like that
+
+00:35:02.340 --> 00:35:04.900
+ saying these are the only five apps everyone needs,
+
+00:35:04.900 --> 00:35:07.140
+ is that compelling at the end of the day?
+
+00:35:07.140 --> 00:35:09.540
+ But I think AI offers something kind of interesting
+
+00:35:09.540 --> 00:35:12.940
+ which is there's two ways to use your phone.
+
+00:35:12.940 --> 00:35:14.500
+ You're like, I need to do something
+
+00:35:14.500 --> 00:35:16.020
+ and I'm gonna use my phone to execute it.
+
+00:35:16.020 --> 00:35:18.340
+ Or I'm sitting on my toilet and I'm bored
+
+00:35:18.340 --> 00:35:20.380
+ and I'm gonna like just, my phone's gonna help me
+
+00:35:20.380 --> 00:35:21.660
+ like discover stuff, right?
+
+00:35:21.660 --> 00:35:22.500
+ - Yeah.
+
+00:35:22.500 --> 00:35:24.620
+ - That latter thing is a thing that we're trying to give up.
+
+00:35:24.620 --> 00:35:25.460
+ - Yeah.
+
+00:35:25.460 --> 00:35:28.300
+ - And every single app is optimized for that.
+
+00:35:28.300 --> 00:35:31.180
+ So we say like, oh, we want to get social media
+
+00:35:31.180 --> 00:35:33.620
+ off our phone, but there's definitely nothing wrong
+
+00:35:33.620 --> 00:35:35.100
+ for me at least, for me being like,
+
+00:35:35.100 --> 00:35:37.740
+ I have a thought, I want to post a tweet.
+
+00:35:37.740 --> 00:35:38.580
+ - Yeah.
+
+00:35:38.580 --> 00:35:41.140
+ - And for me to do that, I need to open this app
+
+00:35:41.140 --> 00:35:45.060
+ that is hyper optimized to show me a ton of stuff,
+
+00:35:45.060 --> 00:35:47.260
+ prevent me from leaving just so I can send it.
+
+00:35:47.260 --> 00:35:49.220
+ It's gonna show me my little notification thing,
+
+00:35:49.220 --> 00:35:51.220
+ it's gonna show me my feed, it's gonna do all this stuff
+
+00:35:51.220 --> 00:35:53.900
+ and all that is gonna grab my attention, distract it.
+
+00:35:53.900 --> 00:35:56.180
+ So that first category, I just want to do something,
+
+00:35:56.180 --> 00:35:57.780
+ I'm trying to execute on it.
+
+00:35:57.780 --> 00:35:58.940
+ AI can do this, right?
+
+00:35:58.940 --> 00:36:00.580
+ I can tell it what I want to do,
+
+00:36:00.580 --> 00:36:03.260
+ I can just trigger that specific action
+
+00:36:03.260 --> 00:36:07.020
+ and not show me anything like super compelling.
+
+00:36:07.020 --> 00:36:11.100
+ I can control, the OS can control that like end experience.
+
+00:36:11.100 --> 00:36:14.660
+ So I feel like that's maybe a good hook if you're like,
+
+00:36:14.660 --> 00:36:16.420
+ is there a pool of people that are like,
+
+00:36:16.420 --> 00:36:20.420
+ I am just sick of my iPhone, like I just don't want it anymore?
+
+00:36:20.420 --> 00:36:22.420
+ They're kind of already willing to move to something.
+
+00:36:22.420 --> 00:36:24.860
+ Like can AI help you reimagine the device
+
+00:36:24.860 --> 00:36:27.140
+ that what that looks like?
+
+00:36:27.140 --> 00:36:31.060
+ And it's just this boring thing not meant to simulate,
+
+00:36:31.060 --> 00:36:32.700
+ it's not gonna be useful on a toilet.
+
+00:36:32.700 --> 00:36:34.700
+ Yep, but when you're on the go and you need to do stuff,
+
+00:36:34.700 --> 00:36:36.140
+ it is a perfect thing.
+
+00:36:36.140 --> 00:36:39.500
+ So when you first, when I saw the tweet,
+
+00:36:39.500 --> 00:36:42.300
+ when you brought this back up, I'm thinking you're trying
+
+00:36:42.300 --> 00:36:44.740
+ to like make a phone, like a phone phone
+
+00:36:44.740 --> 00:36:46.380
+ and it's like this ridiculous,
+
+00:36:46.380 --> 00:36:47.340
+ you're not gonna compete with Apple.
+
+00:36:47.340 --> 00:36:50.500
+ But I could imagine you guys actually making one of these
+
+00:36:50.500 --> 00:36:54.100
+ in the class of these kind of like dumb down phones
+
+00:36:54.100 --> 00:36:57.820
+ 'cause they're not like crazy hardware engineering, right?
+
+00:36:57.820 --> 00:37:01.580
+ It's not the Apple, like it's a very different device.
+
+00:37:01.580 --> 00:37:03.660
+ We probably wanted to do something interesting there too,
+
+00:37:03.660 --> 00:37:07.620
+ but you do it well, but like I'm just saying.
+
+00:37:07.620 --> 00:37:10.460
+ You can white label a phone today, like very easily.
+
+00:37:10.460 --> 00:37:11.820
+ There's a bunch of Chinese manufacturers,
+
+00:37:11.820 --> 00:37:14.420
+ I just like you totally white label a phone
+
+00:37:14.420 --> 00:37:16.260
+ and make it feel like it's yours.
+
+00:37:16.260 --> 00:37:18.140
+ If it's coming from China, good luck.
+
+00:37:18.140 --> 00:37:19.700
+ Yeah, 50% more expensive, but.
+
+00:37:19.700 --> 00:37:20.980
+ We gotta have a tear if it's some point.
+
+00:37:20.980 --> 00:37:23.180
+ I just don't understand them and I'm afraid
+
+00:37:23.180 --> 00:37:25.680
+ that our government doesn't either and that's scary.
+
+00:37:25.680 --> 00:37:29.260
+ Before we talk about that though, one last thing.
+
+00:37:29.260 --> 00:37:31.180
+ So one of the piece of inspiration for this
+
+00:37:31.180 --> 00:37:33.260
+ was the daylight computer.
+
+00:37:33.260 --> 00:37:34.700
+ I don't know if you saw that.
+
+00:37:34.700 --> 00:37:35.540
+ No.
+
+00:37:35.540 --> 00:37:37.900
+ So it's a tablet that's an E-ink tablet.
+
+00:37:37.900 --> 00:37:41.340
+ You must have come across 'cause it's going viral for a bit.
+
+00:37:41.340 --> 00:37:42.180
+ Oh, I do remember.
+
+00:37:42.180 --> 00:37:43.980
+ Was it like very exclusive and hard to get?
+
+00:37:43.980 --> 00:37:44.820
+ 'Cause I always want things like that.
+
+00:37:44.820 --> 00:37:46.180
+ So I think it's all kind of limited.
+
+00:37:46.180 --> 00:37:47.540
+ So it's an E-ink tablet.
+
+00:37:47.540 --> 00:37:50.220
+ It's a kind of bulky, a little bulky,
+
+00:37:50.220 --> 00:37:53.380
+ but crazy battery life obviously, but really responsive.
+
+00:37:53.380 --> 00:37:55.380
+ So unlike a Kindle, it's like you can do
+
+00:37:55.380 --> 00:37:57.180
+ all kinds of interesting stuff in it.
+
+00:37:57.180 --> 00:38:00.060
+ And I think that's a great example of how you need to approach.
+
+00:38:00.060 --> 00:38:04.720
+ If you do want to disrupt this crazy space,
+
+00:38:04.720 --> 00:38:07.260
+ you need to come up with a completely different angle
+
+00:38:07.260 --> 00:38:08.580
+ that people would get interested in.
+
+00:38:08.580 --> 00:38:09.420
+ So a bunch of people are like,
+
+00:38:09.420 --> 00:38:10.940
+ oh, this is a new form factor I haven't seen.
+
+00:38:10.940 --> 00:38:12.220
+ I like it.
+
+00:38:12.220 --> 00:38:13.820
+ If they get enough people to do that,
+
+00:38:13.820 --> 00:38:15.380
+ they could do what I'm talking about, right?
+
+00:38:15.380 --> 00:38:17.180
+ They can now explore like these like,
+
+00:38:17.180 --> 00:38:20.140
+ what does an OS in an AI world look like?
+
+00:38:20.140 --> 00:38:21.540
+ But like, that is not enough.
+
+00:38:21.540 --> 00:38:23.060
+ You can't just say, I'm gonna build OS with AI.
+
+00:38:23.060 --> 00:38:25.140
+ You need to actually invent something else
+
+00:38:25.140 --> 00:38:29.300
+ that is compelling to be able to do the thing
+
+00:38:29.300 --> 00:38:30.500
+ you kind of want to do.
+
+00:38:30.500 --> 00:38:31.400
+ So very hard.
+
+00:38:31.400 --> 00:38:32.260
+ - I'm on board now.
+
+00:38:32.260 --> 00:38:33.860
+ I want you guys to do it.
+
+00:38:33.860 --> 00:38:35.340
+ I think you'll do it well.
+
+00:38:35.340 --> 00:38:37.540
+ I don't know how you're gonna do it.
+
+00:38:37.540 --> 00:38:38.700
+ Under the SST branding.
+
+00:38:38.700 --> 00:38:40.620
+ I mean, I just don't know like, is it a different brand?
+
+00:38:40.620 --> 00:38:41.660
+ - No, we probably saw a new company
+
+00:38:41.660 --> 00:38:43.060
+ and raised like it's just on money or something.
+
+00:38:43.060 --> 00:38:44.100
+ - Yeah, yeah, okay.
+
+00:38:44.100 --> 00:38:44.940
+ Cool.
+
+00:38:44.940 --> 00:38:45.780
+ Well, you guys should do it.
+
+00:38:45.780 --> 00:38:47.500
+ You're good at executing and this doesn't need to exist.
+
+00:38:47.500 --> 00:38:48.340
+ You've convinced me.
+
+00:38:48.340 --> 00:38:49.180
+ I'm sold.
+
+00:38:49.180 --> 00:38:50.020
+ - Yeah, it's funny.
+
+00:38:50.020 --> 00:38:50.840
+ - I warned you.
+
+00:38:50.840 --> 00:38:51.680
+ I'm easily sold.
+
+00:38:51.680 --> 00:38:53.340
+ If we take a budget steps back,
+
+00:38:53.340 --> 00:38:56.500
+ where we're starting is we're gonna just try to make
+
+00:38:56.500 --> 00:38:58.700
+ the UX of open control really weird.
+
+00:38:58.700 --> 00:38:59.540
+ - Oh, okay.
+
+00:38:59.540 --> 00:39:00.380
+ - So when we do this hosted thing,
+
+00:39:00.380 --> 00:39:02.300
+ we're gonna try to like experiment with all kinds of ideas
+
+00:39:02.300 --> 00:39:07.300
+ to see if we can build something in like a very limited
+
+00:39:07.300 --> 00:39:10.300
+ sandbox that kind of steps in this direction.
+
+00:39:10.300 --> 00:39:11.140
+ - Yeah.
+
+00:39:11.140 --> 00:39:11.980
+ - It would be a massive kind of conviction.
+
+00:39:11.980 --> 00:39:13.580
+ And it's like maybe everything should work this way.
+
+00:39:13.580 --> 00:39:15.820
+ - I saw your tweet about trying things
+
+00:39:15.820 --> 00:39:16.900
+ in the open control UI.
+
+00:39:16.900 --> 00:39:18.580
+ I didn't understand what you tried.
+
+00:39:18.580 --> 00:39:21.300
+ It wasn't clear to me what was different about that UI.
+
+00:39:21.300 --> 00:39:22.140
+ Like what was the-
+
+00:39:22.140 --> 00:39:23.420
+ - That was just gonna study thing.
+
+00:39:23.420 --> 00:39:26.740
+ Like just like the terminal UI kind of look.
+
+00:39:26.740 --> 00:39:30.180
+ - Yeah, like that video probably wasn't a good example,
+
+00:39:30.180 --> 00:39:33.300
+ but I'll post another one with like our dialogues
+
+00:39:33.300 --> 00:39:36.100
+ like look really crazy and weird.
+
+00:39:36.100 --> 00:39:39.500
+ It's just one of those things where you typically wouldn't try
+
+00:39:39.500 --> 00:39:43.460
+ a crazy or UI because you have to hand make it
+
+00:39:43.460 --> 00:39:44.620
+ and that's a lot of work.
+
+00:39:44.620 --> 00:39:45.460
+ - Yeah.
+
+00:39:45.460 --> 00:39:46.300
+ - So if it ends up not working,
+
+00:39:46.300 --> 00:39:48.580
+ you can't get to like start over, which is a lot of work.
+
+00:39:48.580 --> 00:39:51.740
+ But now we can take all that just kind of like vibe coded.
+
+00:39:51.740 --> 00:39:52.580
+ - Yeah.
+
+00:39:52.580 --> 00:39:54.380
+ - So yeah, Jay built like this experiment.
+
+00:39:54.380 --> 00:39:59.380
+ - We've retro like MS DOS feeling like dialogue thing.
+
+00:39:59.380 --> 00:40:01.020
+ - Okay.
+
+00:40:01.020 --> 00:40:02.500
+ - I don't know if I like it or hate it.
+
+00:40:02.500 --> 00:40:05.500
+ It's confusing because like, like I've talked about a lot
+
+00:40:05.500 --> 00:40:08.420
+ and very sick of this black and white UI stuff.
+
+00:40:08.420 --> 00:40:09.260
+ But that dialogue-
+
+00:40:09.260 --> 00:40:10.100
+ - I look at it more closely.
+
+00:40:10.100 --> 00:40:11.540
+ - It's very cool.
+
+00:40:11.540 --> 00:40:13.620
+ I can't, but it like kind of hurts my eyes at the same time.
+
+00:40:13.620 --> 00:40:14.620
+ So yeah, I don't know.
+
+00:40:14.620 --> 00:40:15.780
+ I'm very confused about it.
+
+00:40:15.780 --> 00:40:18.020
+ - I just, I opened Twitter, which is a mistake.
+
+00:40:18.020 --> 00:40:19.900
+ Do we just, we literally just talked about this.
+
+00:40:19.900 --> 00:40:21.460
+ - So what if you could have been like,
+
+00:40:21.460 --> 00:40:23.700
+ you could have said precisely what you wanted.
+
+00:40:23.700 --> 00:40:24.740
+ - Yeah.
+
+00:40:24.740 --> 00:40:26.100
+ - That would have been nice.
+
+00:40:26.100 --> 00:40:26.940
+ Get on it.
+
+00:40:26.940 --> 00:40:28.420
+ Give me a new phone.
+
+00:40:28.420 --> 00:40:30.020
+ But I happen to hit one of your tweets,
+
+00:40:30.020 --> 00:40:32.180
+ which is often cause you tweet constantly.
+
+00:40:32.180 --> 00:40:34.100
+ Like you tweeted two tweets an hour ago.
+
+00:40:34.100 --> 00:40:35.380
+ So at the same time, what are you?
+
+00:40:35.380 --> 00:40:36.740
+ What are you, an animal?
+
+00:40:36.740 --> 00:40:39.460
+ 3.46 AM and 8.29.
+
+00:40:39.460 --> 00:40:40.900
+ You tweeted twice in an hour?
+
+00:40:40.900 --> 00:40:42.340
+ Okay, whatever.
+
+00:40:42.340 --> 00:40:44.180
+ Your top tweet is about eight or could you tell me
+
+00:40:44.180 --> 00:40:45.020
+ is eight or good?
+
+00:40:45.020 --> 00:40:45.860
+ It's Python, right?
+
+00:40:45.860 --> 00:40:46.700
+ - No, I wasn't able to install it.
+
+00:40:46.700 --> 00:40:48.340
+ Cause my top tweet is about how people
+
+00:40:48.340 --> 00:40:49.500
+ just stop making some of Python.
+
+00:40:49.500 --> 00:40:50.340
+ Cause I tried to install it.
+
+00:40:50.340 --> 00:40:51.180
+ - Yes, I'm so tired of Python.
+
+00:40:51.180 --> 00:40:54.100
+ - 829 dependencies. - I'm so tired of this.
+
+00:40:54.100 --> 00:40:57.180
+ I feel like Python is growing in a weird,
+
+00:40:57.180 --> 00:40:59.780
+ like ass backwards way where why is it,
+
+00:40:59.780 --> 00:41:01.940
+ it's growing because ML researchers,
+
+00:41:01.940 --> 00:41:03.180
+ that's all they know.
+
+00:41:03.180 --> 00:41:04.180
+ Like they don't know anything.
+
+00:41:04.180 --> 00:41:05.820
+ - Wait, I thought you were post about
+
+00:41:05.820 --> 00:41:07.860
+ the software engineering bench is only Python.
+
+00:41:07.860 --> 00:41:08.700
+ Is that true?
+
+00:41:08.700 --> 00:41:09.540
+ - It's true.
+
+00:41:09.540 --> 00:41:10.380
+ Sweet bench.
+
+00:41:10.380 --> 00:41:12.020
+ The one bench that everybody talks about
+
+00:41:12.020 --> 00:41:14.220
+ for like software programming capabilities.
+
+00:41:14.220 --> 00:41:15.780
+ No, I know these frontier companies
+
+00:41:15.780 --> 00:41:18.860
+ are like training it on data from all the languages.
+
+00:41:18.860 --> 00:41:20.540
+ Clearly it can write other languages.
+
+00:41:20.540 --> 00:41:22.100
+ But the one metric they always point to
+
+00:41:22.100 --> 00:41:23.660
+ that's like this is the best coding model.
+
+00:41:23.660 --> 00:41:25.900
+ It's sweet bench and it's all Python.
+
+00:41:25.900 --> 00:41:26.980
+ Sweet bench is all Python.
+
+00:41:26.980 --> 00:41:28.140
+ That's crazy to me.
+
+00:41:28.140 --> 00:41:29.900
+ - Yeah, that is really stupid.
+
+00:41:29.900 --> 00:41:31.260
+ I did not realize that.
+
+00:41:31.260 --> 00:41:32.700
+ - And then you just keep seeing people
+
+00:41:32.700 --> 00:41:34.460
+ come out with new tools written in Python.
+
+00:41:34.460 --> 00:41:35.460
+ Where did this come from?
+
+00:41:35.460 --> 00:41:36.700
+ We need to kill Python.
+
+00:41:36.700 --> 00:41:38.380
+ I'm so tired of installing Python
+
+00:41:38.380 --> 00:41:42.340
+ or different Python versions or pyint or virtual pyint
+
+00:41:42.340 --> 00:41:43.260
+ or what it's like.
+
+00:41:43.260 --> 00:41:45.860
+ There's so many stupid little layers to that.
+
+00:41:45.860 --> 00:41:46.700
+ I just hate it.
+
+00:41:46.700 --> 00:41:49.900
+ - It's funny cause UV actually works really well
+
+00:41:49.900 --> 00:41:51.660
+ and it fixed everything.
+
+00:41:51.660 --> 00:41:55.780
+ But I can never tell if I can use it with a project.
+
+00:41:55.780 --> 00:41:58.420
+ So then I have to like then figure out like can UV work with it?
+
+00:41:58.420 --> 00:41:59.620
+ Like if I don't see it,
+
+00:41:59.620 --> 00:42:02.780
+ if the default instruction isn't like use UV,
+
+00:42:02.780 --> 00:42:04.460
+ I just assume it's a clusterfuck.
+
+00:42:04.460 --> 00:42:07.180
+ So even the fact that UV exists didn't really help.
+
+00:42:07.180 --> 00:42:09.140
+ - Yeah, that's like new of in plugins now for me.
+
+00:42:09.140 --> 00:42:10.780
+ If it doesn't say lazy them at the top,
+
+00:42:10.780 --> 00:42:13.020
+ then I'm like, hmm, probably not a good plugin.
+
+00:42:13.020 --> 00:42:15.780
+ - Exactly, it's funny how that works.
+
+00:42:15.780 --> 00:42:18.540
+ - And what kills me is on Arch,
+
+00:42:18.540 --> 00:42:22.820
+ it tries to install all dependencies system wide
+
+00:42:22.820 --> 00:42:23.660
+ for these things.
+
+00:42:23.660 --> 00:42:25.100
+ I don't know why this is a pattern.
+
+00:42:25.100 --> 00:42:27.380
+ Like when I install cloud code
+
+00:42:27.380 --> 00:42:29.700
+ through the Arch package manager,
+
+00:42:29.700 --> 00:42:32.060
+ it's just like NPM installing anything.
+
+00:42:32.060 --> 00:42:34.460
+ It like has a scoped node modules for it.
+
+00:42:34.460 --> 00:42:36.260
+ Yes, that results in duplication,
+
+00:42:36.260 --> 00:42:40.660
+ but at least random other shit is like OBS stops opening up
+
+00:42:40.660 --> 00:42:42.420
+ cause I installed a data chat or something, right?
+
+00:42:42.420 --> 00:42:43.740
+ That this my experience with Python
+
+00:42:43.740 --> 00:42:45.260
+ where random shit my system will break
+
+00:42:45.260 --> 00:42:46.780
+ cause they're like, oh, totally.
+
+00:42:46.780 --> 00:42:48.180
+ We can just have one version of dependency
+
+00:42:48.180 --> 00:42:49.020
+ for the whole system.
+
+00:42:49.020 --> 00:42:49.980
+ That's not gonna be a problem.
+
+00:42:49.980 --> 00:42:50.820
+ - Yeah.
+
+00:42:50.820 --> 00:42:52.380
+ - Don't get why that's like a pattern in this world.
+
+00:42:52.380 --> 00:42:53.500
+ So it just makes me so angry.
+
+00:42:53.500 --> 00:42:55.420
+ - It's so funny that you ran the same thing
+
+00:42:55.420 --> 00:42:57.300
+ cause everyone keeps saying aider
+
+00:42:57.300 --> 00:42:58.980
+ and I went to this and I was like, nope, Python,
+
+00:42:58.980 --> 00:42:59.820
+ I didn't even try.
+
+00:42:59.820 --> 00:43:00.660
+ I was just like, it's Python.
+
+00:43:00.660 --> 00:43:01.940
+ I'm sorry, I'm not gonna do it.
+
+00:43:01.940 --> 00:43:03.020
+ It's just not gonna go through the thing.
+
+00:43:03.020 --> 00:43:03.980
+ - I always give it a shot.
+
+00:43:03.980 --> 00:43:06.060
+ I'm always like, maybe someone in that,
+
+00:43:06.060 --> 00:43:08.860
+ someone packaged it as like a standalone nice thing.
+
+00:43:08.860 --> 00:43:11.340
+ And it's always, so if you watch that video,
+
+00:43:11.340 --> 00:43:13.020
+ it's actually extra funny
+
+00:43:13.020 --> 00:43:15.220
+ because it's like 300 something dependencies.
+
+00:43:16.220 --> 00:43:19.420
+ A third of them are Haskell dependencies
+
+00:43:19.420 --> 00:43:22.380
+ and like a fourth of them are like Ruby dependencies.
+
+00:43:22.380 --> 00:43:24.580
+ So I'm just like, this is just not right.
+
+00:43:24.580 --> 00:43:25.500
+ This is not right.
+
+00:43:25.500 --> 00:43:26.940
+ Whatever's going on here is not right.
+
+00:43:26.940 --> 00:43:27.780
+ - Well, it's not right.
+
+00:43:27.780 --> 00:43:30.340
+ I don't understand how Python and Haskell interrupt,
+
+00:43:30.340 --> 00:43:31.740
+ but it's not right.
+
+00:43:31.740 --> 00:43:32.580
+ - Yeah.
+
+00:43:32.580 --> 00:43:34.620
+ - Oh, two things I wanna still talk about.
+
+00:43:34.620 --> 00:43:35.620
+ We gotta talk about the terrorists
+
+00:43:35.620 --> 00:43:37.300
+ just cause we can do that at the end.
+
+00:43:37.300 --> 00:43:38.140
+ There's like a,
+
+00:43:38.140 --> 00:43:42.420
+ I listened to the Bill Simmons podcast
+
+00:43:42.420 --> 00:43:43.580
+ during the NFL season.
+
+00:43:43.580 --> 00:43:47.860
+ He has a cousin Sal on and they talk about NFL stuff.
+
+00:43:47.860 --> 00:43:49.180
+ And they always do this segment at the end of the show
+
+00:43:49.180 --> 00:43:51.500
+ called, oh, I'm blanking on it.
+
+00:43:51.500 --> 00:43:52.340
+ I always skip it.
+
+00:43:52.340 --> 00:43:54.940
+ That's the whole point of this little segue.
+
+00:43:54.940 --> 00:43:55.780
+ Parent corner.
+
+00:43:55.780 --> 00:43:56.620
+ They do this parent corner thing.
+
+00:43:56.620 --> 00:43:58.860
+ Like they talk about football for like 45 minutes
+
+00:43:58.860 --> 00:44:00.700
+ and they spend 15 minutes talking about
+
+00:44:00.700 --> 00:44:01.940
+ like things that happen in their family.
+
+00:44:01.940 --> 00:44:03.420
+ And I just always skip it.
+
+00:44:03.420 --> 00:44:05.060
+ That's how I think of like putting world events
+
+00:44:05.060 --> 00:44:05.900
+ at the end of our podcast.
+
+00:44:05.900 --> 00:44:07.980
+ It's like if people just wanna skip that part,
+
+00:44:07.980 --> 00:44:08.820
+ just skip it.
+
+00:44:08.820 --> 00:44:09.660
+ Like it's fine.
+
+00:44:09.660 --> 00:44:10.500
+ - Yeah, I feel good about that.
+
+00:44:10.500 --> 00:44:11.340
+ - You don't care about tariffs?
+
+00:44:11.340 --> 00:44:12.180
+ - Yeah.
+
+00:44:12.180 --> 00:44:14.700
+ - I'm a portfolio and it is looking awesome.
+
+00:44:14.700 --> 00:44:16.660
+ - Yeah, we gotta go on the tariff thing.
+
+00:44:16.660 --> 00:44:18.420
+ Before we do on the tariff thing,
+
+00:44:18.420 --> 00:44:21.100
+ I listened to this podcast that Casey sent me
+
+00:44:21.100 --> 00:44:21.940
+ and I'm blanking.
+
+00:44:21.940 --> 00:44:23.940
+ It's diary of CEO.
+
+00:44:23.940 --> 00:44:25.580
+ You've seen him maybe?
+
+00:44:25.580 --> 00:44:26.420
+ - I don't know.
+
+00:44:26.420 --> 00:44:27.260
+ I think podcasts are dumb.
+
+00:44:27.260 --> 00:44:28.260
+ - What did you say?
+
+00:44:28.260 --> 00:44:29.940
+ - I said I think podcasts are dumb.
+
+00:44:29.940 --> 00:44:30.940
+ (laughing)
+
+00:44:30.940 --> 00:44:33.380
+ - Well, I don't know anything about diary of the CEO,
+
+00:44:33.380 --> 00:44:35.860
+ but it was this episode he had these people on
+
+00:44:35.860 --> 00:44:38.900
+ talking about have you heard some of the statistics
+
+00:44:38.900 --> 00:44:41.820
+ on men in the younger generation?
+
+00:44:41.820 --> 00:44:45.420
+ Like, there's a young man problem in the world.
+
+00:44:45.420 --> 00:44:46.260
+ - Yeah, for sure.
+
+00:44:46.260 --> 00:44:47.500
+ - I haven't heard the little statistics,
+
+00:44:47.500 --> 00:44:50.940
+ but to me it's like, the statistics must be crazy
+
+00:44:50.940 --> 00:44:53.460
+ 'cause it's like visible without even looking at the statistics.
+
+00:44:53.460 --> 00:44:55.220
+ Like I can see it in the real world.
+
+00:44:55.220 --> 00:44:58.420
+ - And I just had brushed off so much of the like,
+
+00:44:58.420 --> 00:44:59.980
+ people just on Twitter, it's so flippantly
+
+00:44:59.980 --> 00:45:01.540
+ call people in cells.
+
+00:45:01.540 --> 00:45:02.980
+ And I didn't even know what that word meant,
+
+00:45:02.980 --> 00:45:03.900
+ but it was just kind of like, yeah,
+
+00:45:03.900 --> 00:45:06.860
+ I guess like just annoying guys.
+
+00:45:06.860 --> 00:45:09.700
+ But it's like, it's a serious, serious problem.
+
+00:45:09.700 --> 00:45:11.980
+ And the reason I'm bringing it up is like,
+
+00:45:11.980 --> 00:45:14.140
+ I feel like as millennial men,
+
+00:45:14.140 --> 00:45:19.140
+ I think we do have like a modern take on men, manhood,
+
+00:45:19.140 --> 00:45:22.500
+ masculinity, I hate the word masculinity.
+
+00:45:22.500 --> 00:45:23.980
+ It just makes me think of podcasts that are like,
+
+00:45:23.980 --> 00:45:27.580
+ masculine man, like how to be a man.
+
+00:45:27.580 --> 00:45:28.500
+ And I just hate that stuff.
+
+00:45:28.500 --> 00:45:33.500
+ But I do think like our flavor of masculinity
+
+00:45:33.500 --> 00:45:37.340
+ of being a man seems better to me
+
+00:45:37.340 --> 00:45:40.620
+ than like our older generations were much more like
+
+00:45:40.620 --> 00:45:42.700
+ hardened and cruel.
+
+00:45:42.700 --> 00:45:44.620
+ I mean, see Trump.
+
+00:45:44.620 --> 00:45:49.620
+ Like I think we're different as a generation of men.
+
+00:45:49.620 --> 00:45:53.140
+ But like, are we not passing it down or something?
+
+00:45:53.140 --> 00:45:54.220
+ What's going on that?
+
+00:45:54.220 --> 00:45:57.020
+ I mean, I guess a lot of it is like single family homes,
+
+00:45:57.020 --> 00:45:58.780
+ no male role models, all this
+
+00:45:58.780 --> 00:46:01.540
+ that they talk about in the podcast episode.
+
+00:46:01.540 --> 00:46:05.660
+ How do we, like I feel like we as men, you and I,
+
+00:46:05.660 --> 00:46:08.660
+ we're the men, remember the elevated thing where I'm the man.
+
+00:46:08.660 --> 00:46:10.220
+ Yeah, yes.
+
+00:46:10.220 --> 00:46:11.500
+ We gotta be role models.
+
+00:46:11.500 --> 00:46:13.180
+ And I don't know how to be a role model.
+
+00:46:13.180 --> 00:46:15.580
+ I don't feel like I could ever be a man role model,
+
+00:46:15.580 --> 00:46:17.780
+ but I feel like we're men and adult men.
+
+00:46:17.780 --> 00:46:19.980
+ And okay, I'm a stuff saying the word man.
+
+00:46:19.980 --> 00:46:20.820
+ I don't know.
+
+00:46:20.820 --> 00:46:22.820
+ My take on this is going to make you laugh
+
+00:46:22.820 --> 00:46:24.460
+ because it's so, you're never going to expect
+
+00:46:24.460 --> 00:46:25.300
+ what I'm going to say.
+
+00:46:25.300 --> 00:46:26.220
+ Okay, perfect.
+
+00:46:26.220 --> 00:46:28.340
+ But me and Liz talk about us all the time.
+
+00:46:28.340 --> 00:46:31.020
+ I think the problem is people aren't horny anymore.
+
+00:46:31.020 --> 00:46:34.100
+ I think that's the root issue that we live in the podcast.
+
+00:46:34.100 --> 00:46:36.580
+ We live in a sexual society and I'll kind of explain
+
+00:46:36.580 --> 00:46:39.540
+ what the main observation I make that is so different
+
+00:46:39.540 --> 00:46:43.260
+ from how I was in my twenties as a teenager.
+
+00:46:43.260 --> 00:46:44.100
+ Yeah.
+
+00:46:44.100 --> 00:46:49.020
+ There's so much debate and like criticism of like
+
+00:46:49.020 --> 00:46:51.420
+ from men and women about each other these days
+
+00:46:51.420 --> 00:46:53.460
+ where men are like, oh, women are like,
+
+00:46:53.460 --> 00:46:54.940
+ they're like always doing stuff like this.
+
+00:46:54.940 --> 00:46:55.980
+ And it's like so annoying.
+
+00:46:55.980 --> 00:46:57.340
+ And like, and then women are like,
+
+00:46:57.340 --> 00:46:58.540
+ well, yeah, like men are like,
+
+00:46:58.540 --> 00:47:00.500
+ there's all just a bit you know each other.
+
+00:47:00.500 --> 00:47:02.820
+ There's a lot of content at the age.
+
+00:47:02.820 --> 00:47:06.100
+ I would just agree with anything any girl said
+
+00:47:06.100 --> 00:47:07.740
+ because like all I cared about,
+
+00:47:07.740 --> 00:47:09.420
+ like there was one thing I cared about.
+
+00:47:09.420 --> 00:47:14.420
+ And I just, I just can't imagine like being like,
+
+00:47:14.420 --> 00:47:17.140
+ I wish you would be different, you know?
+
+00:47:17.140 --> 00:47:19.300
+ To me, it's just like how?
+
+00:47:19.300 --> 00:47:22.580
+ 'Cause like that, and to me, that's so unnatural
+
+00:47:22.580 --> 00:47:25.660
+ to like let something overpower that.
+
+00:47:25.660 --> 00:47:27.100
+ So I think that's just like the real thing
+
+00:47:27.100 --> 00:47:31.300
+ at the bottom of all this where what worked is
+
+00:47:31.300 --> 00:47:36.300
+ what created I guess like peace was that dynamic
+
+00:47:36.300 --> 00:47:39.140
+ of being like, well, yeah, like we want to sleep
+
+00:47:39.140 --> 00:47:39.980
+ with each other.
+
+00:47:39.980 --> 00:47:43.220
+ So we're going to like not be so annoying
+
+00:47:43.220 --> 00:47:45.660
+ about technically superficial things.
+
+00:47:45.660 --> 00:47:47.580
+ But now I feel like that's gone.
+
+00:47:47.580 --> 00:47:50.340
+ So everyone is just like constantly criticizing each other
+
+00:47:50.340 --> 00:47:54.300
+ about like what women culture is and what man culture is.
+
+00:47:54.300 --> 00:47:56.820
+ And it just does not lead to anything sexy.
+
+00:47:56.820 --> 00:47:57.980
+ - Why do you think that, you know,
+
+00:47:57.980 --> 00:47:59.020
+ why do you think that's gone?
+
+00:47:59.020 --> 00:48:01.860
+ Like is it the internet that we're just in person less
+
+00:48:01.860 --> 00:48:04.300
+ where there's like interacting online,
+
+00:48:04.300 --> 00:48:07.580
+ it's easier to be a jerk to somebody online?
+
+00:48:07.580 --> 00:48:08.940
+ - I think it's just everything to get.
+
+00:48:08.940 --> 00:48:10.020
+ That's part of it.
+
+00:48:10.020 --> 00:48:12.540
+ I think I think people say like just the prevalence
+
+00:48:12.540 --> 00:48:14.500
+ of like pornography, they say that's like another,
+
+00:48:14.500 --> 00:48:15.540
+ another part of it.
+
+00:48:15.540 --> 00:48:18.500
+ 'Cause like all these people like the vibe they get
+
+00:48:18.500 --> 00:48:20.820
+ from these people, like they're so proud that they're like
+
+00:48:20.820 --> 00:48:24.220
+ not letting their sexual desire overpower
+
+00:48:24.220 --> 00:48:26.260
+ like whatever quote unquote standards they have
+
+00:48:26.260 --> 00:48:27.700
+ for the opposite sex.
+
+00:48:27.700 --> 00:48:31.060
+ But the underlying feeling is like I feel like you're getting
+
+00:48:31.060 --> 00:48:33.460
+ that elsewhere and it's probably a really fucked up way.
+
+00:48:33.460 --> 00:48:34.860
+ That's kind of the vibe I get.
+
+00:48:34.860 --> 00:48:35.700
+ - Yeah.
+
+00:48:35.700 --> 00:48:37.940
+ - I think for 10 like they're so like, you know, above it.
+
+00:48:37.940 --> 00:48:39.980
+ But I think that's a part of it.
+
+00:48:39.980 --> 00:48:43.620
+ I think the work from home thing is also like it's hard
+
+00:48:43.620 --> 00:48:44.900
+ for me to like not see any other way
+
+00:48:44.900 --> 00:48:47.220
+ because I met my wife at work.
+
+00:48:47.220 --> 00:48:50.100
+ Everyone I know from my life is from work.
+
+00:48:50.100 --> 00:48:53.380
+ So I just can't imagine that like helping like it's hard enough
+
+00:48:53.380 --> 00:48:56.420
+ to meet people adding that on top of it.
+
+00:48:56.420 --> 00:48:58.860
+ Also the way like the online dating thing I think at scale
+
+00:48:58.860 --> 00:49:03.420
+ just is not like, it just puts you in like a weird mindset,
+
+00:49:03.420 --> 00:49:05.220
+ like headspace when you're just like, you know,
+
+00:49:05.220 --> 00:49:06.420
+ flipping through those apps as well.
+
+00:49:06.420 --> 00:49:07.260
+ So I don't know.
+
+00:49:07.260 --> 00:49:08.500
+ Something is just not working.
+
+00:49:08.500 --> 00:49:09.460
+ Like all these things together.
+
+00:49:09.460 --> 00:49:10.300
+ - It's not working.
+
+00:49:10.300 --> 00:49:12.540
+ And I think you're just kind of like hitting all the points
+
+00:49:12.540 --> 00:49:13.620
+ in the podcast.
+
+00:49:13.620 --> 00:49:15.740
+ So we've established there is this problem.
+
+00:49:15.740 --> 00:49:17.340
+ You don't feel like we should be,
+
+00:49:17.340 --> 00:49:18.820
+ I just feel like increasingly compelled
+
+00:49:18.820 --> 00:49:20.380
+ that we should be role models somehow.
+
+00:49:20.380 --> 00:49:21.220
+ And I don't know how to do that.
+
+00:49:21.220 --> 00:49:22.740
+ I feel like Prime does a good job of this.
+
+00:49:22.740 --> 00:49:25.540
+ Like he's kind of like a role model to young men.
+
+00:49:25.540 --> 00:49:26.820
+ - It just feels like every millennial man
+
+00:49:26.820 --> 00:49:27.740
+ that has an online presence
+
+00:49:27.740 --> 00:49:29.540
+ should probably be doing something about this problem.
+
+00:49:29.540 --> 00:49:32.060
+ So we have a generation coming below this one
+
+00:49:32.060 --> 00:49:33.500
+ because birth rates, all that.
+
+00:49:33.500 --> 00:49:38.500
+ - I, for me personally, I am very reluctant to over,
+
+00:49:38.500 --> 00:49:43.100
+ I mean, I'm very like cautious of over correcting, right?
+
+00:49:43.100 --> 00:49:48.100
+ Because what we're witnessing is something was working
+
+00:49:48.100 --> 00:49:49.580
+ and it stopped working.
+
+00:49:49.580 --> 00:49:51.980
+ So the natural thing, what's going to happen
+
+00:49:51.980 --> 00:49:53.780
+ is going to be a crazy over correction
+
+00:49:53.780 --> 00:49:56.780
+ to being very traditional. - Hypermasculinity.
+
+00:49:56.780 --> 00:49:58.860
+ - Yeah. - Or that also, right?
+
+00:49:58.860 --> 00:50:00.900
+ That's also kind of happening.
+
+00:50:00.900 --> 00:50:04.780
+ So I don't even know what being a role model looks.
+
+00:50:04.780 --> 00:50:06.300
+ I mean, for me, I just make fun of people.
+
+00:50:06.300 --> 00:50:07.660
+ So I just want to make fun of like,
+
+00:50:07.660 --> 00:50:12.180
+ I'm like, you are so, like to me that like me growing up,
+
+00:50:12.180 --> 00:50:15.060
+ if there was like a bunch of guys in our group
+
+00:50:15.060 --> 00:50:16.980
+ and one of the guys was like,
+
+00:50:16.980 --> 00:50:19.860
+ oh, isn't it so annoying when girls like are like this?
+
+00:50:19.860 --> 00:50:22.540
+ Like that person would just get demolished,
+
+00:50:22.540 --> 00:50:24.260
+ completely demolished.
+
+00:50:24.260 --> 00:50:25.340
+ - Yeah. - And we all know
+
+00:50:25.340 --> 00:50:26.620
+ exactly how they'd be demolished.
+
+00:50:26.620 --> 00:50:27.460
+ I'm not going to say it,
+
+00:50:27.460 --> 00:50:29.420
+ but we all know what everyone would call that person.
+
+00:50:29.420 --> 00:50:31.860
+ - East Coasters, not here in the Midwest.
+
+00:50:31.860 --> 00:50:33.220
+ Okay, we had manners.
+
+00:50:33.220 --> 00:50:35.700
+ But we're like, are you not trying to get girls?
+
+00:50:35.700 --> 00:50:36.540
+ Like what?
+
+00:50:36.540 --> 00:50:39.940
+ I just can't, it's just so, it's just so different.
+
+00:50:39.940 --> 00:50:41.820
+ So I don't know.
+
+00:50:41.820 --> 00:50:45.660
+ Yeah, I think the problem is the role models that,
+
+00:50:45.660 --> 00:50:47.460
+ I'm saying I'm going to say role models in quotes
+
+00:50:47.460 --> 00:50:50.300
+ 'cause yeah, it's still just a minority of people
+
+00:50:50.300 --> 00:50:51.380
+ that like kind of fall for this.
+
+00:50:51.380 --> 00:50:54.100
+ But the people that are gaining popularity
+
+00:50:54.100 --> 00:50:56.300
+ are the people kind of espousing this kind of thing
+
+00:50:56.300 --> 00:50:59.900
+ of being like, oh, like, you know, you're cool.
+
+00:50:59.900 --> 00:51:02.540
+ If you like, don't need, like don't care
+
+00:51:02.540 --> 00:51:04.140
+ about women at all, right?
+
+00:51:04.140 --> 00:51:05.420
+ We gotta make fun of these people
+
+00:51:05.420 --> 00:51:06.260
+ because that's what we-
+
+00:51:06.260 --> 00:51:07.260
+ - Could you name names?
+
+00:51:07.260 --> 00:51:08.820
+ Like, is this the Andrew Tate's?
+
+00:51:08.820 --> 00:51:09.660
+ - Yeah, exactly.
+
+00:51:09.660 --> 00:51:10.500
+ The whole Andrew Tate thing.
+
+00:51:10.500 --> 00:51:14.420
+ Like he's just such like a freak in every single way.
+
+00:51:14.420 --> 00:51:18.060
+ And I don't want to get too specific,
+
+00:51:18.060 --> 00:51:23.060
+ but there's people that we know in our lives
+
+00:51:23.060 --> 00:51:27.180
+ that kind of follow the kind of like,
+
+00:51:27.180 --> 00:51:29.620
+ are kind of trapped in that whole thing.
+
+00:51:29.620 --> 00:51:34.620
+ And all they can think about is how like every woman
+
+00:51:34.620 --> 00:51:38.460
+ is like an only fans girl and like they're all like this
+
+00:51:38.460 --> 00:51:39.300
+ and they're all like this.
+
+00:51:39.300 --> 00:51:41.500
+ And like it's so hard to find like a good woman,
+
+00:51:41.500 --> 00:51:43.380
+ but what they don't realize,
+
+00:51:43.380 --> 00:51:46.980
+ and this is Elizabeth's observation is that,
+
+00:51:46.980 --> 00:51:49.220
+ their model and their head of what women are alike
+
+00:51:49.220 --> 00:51:52.740
+ are just the equivalent to Andrew Tate on the opposite side.
+
+00:51:52.740 --> 00:51:55.980
+ Like it's just another extreme that was like not really real.
+
+00:51:55.980 --> 00:51:58.620
+ So that there's like caught in this weird fake perception
+
+00:51:58.620 --> 00:52:01.140
+ of the world when like most people in their lives
+
+00:52:01.140 --> 00:52:03.140
+ are like pretty normal.
+
+00:52:03.140 --> 00:52:07.340
+ But yeah, it's got bitter, bad road to head down.
+
+00:52:07.340 --> 00:52:09.500
+ - Yeah, and I feel like that's the role models
+
+00:52:09.500 --> 00:52:11.060
+ that do exist online.
+
+00:52:11.060 --> 00:52:14.420
+ Like if young boys in the world today
+
+00:52:14.420 --> 00:52:16.260
+ don't have a father in the home,
+
+00:52:16.260 --> 00:52:19.060
+ so there's no male role model like in their home.
+
+00:52:19.060 --> 00:52:21.100
+ And then they don't, they talk on the podcast
+
+00:52:21.100 --> 00:52:22.780
+ about how most teachers are women.
+
+00:52:22.780 --> 00:52:24.900
+ Like if they go to school and it's mostly women,
+
+00:52:24.900 --> 00:52:27.460
+ if they don't have experiences around men
+
+00:52:27.460 --> 00:52:30.660
+ and then they only experiences they have are online
+
+00:52:30.660 --> 00:52:31.860
+ and it's the Andrew Tate's the world,
+
+00:52:31.860 --> 00:52:35.300
+ then shouldn't normal people like be role models too somehow?
+
+00:52:35.300 --> 00:52:36.140
+ I don't know.
+
+00:52:36.140 --> 00:52:37.300
+ I don't even know what I'm saying
+
+00:52:37.300 --> 00:52:39.140
+ 'cause like I don't wanna do something unnatural.
+
+00:52:39.140 --> 00:52:42.420
+ - I don't know what that could be like.
+
+00:52:42.420 --> 00:52:44.620
+ - Just like saying things to young, I don't know.
+
+00:52:44.620 --> 00:52:46.540
+ - Yeah, it could be like say things
+
+00:52:46.540 --> 00:52:48.060
+ that were specific that would help.
+
+00:52:48.060 --> 00:52:50.540
+ Like we have families and jobs and we're normal.
+
+00:52:50.540 --> 00:52:53.660
+ And I feel like that's worth aspiring to
+
+00:52:53.660 --> 00:52:54.660
+ or is that boring to these people?
+
+00:52:54.660 --> 00:52:57.620
+ - No, the problem is, I think these role models
+
+00:52:57.620 --> 00:53:00.300
+ are as much a symptom as they are a cause.
+
+00:53:00.300 --> 00:53:02.460
+ Like there is just this emergent thing
+
+00:53:02.460 --> 00:53:06.340
+ where this is a dynamic between men and women these days
+
+00:53:06.340 --> 00:53:09.540
+ and you see it among young people,
+
+00:53:09.540 --> 00:53:12.500
+ whenever I hear about what dating is like these days,
+
+00:53:12.500 --> 00:53:15.180
+ it just seems really difficult and possible and crazy.
+
+00:53:15.180 --> 00:53:17.260
+ And I'm like, yeah, if I was this age,
+
+00:53:17.260 --> 00:53:18.260
+ I don't even know what I would do.
+
+00:53:18.260 --> 00:53:20.740
+ So I don't even have any advice for them.
+
+00:53:20.740 --> 00:53:23.860
+ So yeah, I think it's like these role models
+
+00:53:23.860 --> 00:53:25.460
+ are just kind of like symptoms as well.
+
+00:53:25.460 --> 00:53:26.300
+ - Okay.
+
+00:53:26.300 --> 00:53:27.500
+ Okay, well you've made me feel better
+
+00:53:27.500 --> 00:53:29.700
+ 'cause I just had this weird like,
+
+00:53:29.700 --> 00:53:31.460
+ I don't know what we should do about it.
+
+00:53:31.460 --> 00:53:32.780
+ I hate when someone presents a problem
+
+00:53:32.780 --> 00:53:36.060
+ and it's like, could I be the part of the solution?
+
+00:53:36.060 --> 00:53:39.860
+ And I don't know and I just, I think about it too much.
+
+00:53:39.860 --> 00:53:43.300
+ - I have no clue, it's weird and I think it's really embarrassing.
+
+00:53:43.300 --> 00:53:45.300
+ And I hope that these people get older
+
+00:53:45.300 --> 00:53:46.380
+ and it's kind of one of those things
+
+00:53:46.380 --> 00:53:47.580
+ where we're all kind of embarrassed
+
+00:53:47.580 --> 00:53:49.460
+ what we were like at a younger age.
+
+00:53:49.460 --> 00:53:50.300
+ - Oh, okay.
+
+00:53:50.300 --> 00:53:52.020
+ - It's just ultimately one of those things.
+
+00:53:52.020 --> 00:53:54.540
+ - It's a good outcome 'cause like,
+
+00:53:54.540 --> 00:53:56.620
+ then we still have a civilization or not.
+
+00:53:56.620 --> 00:53:58.140
+ I kind of know if I'm actually scared of the birthdays.
+
+00:53:58.140 --> 00:53:59.580
+ People bring up birthdays and like,
+
+00:53:59.580 --> 00:54:01.300
+ this is a real problem.
+
+00:54:01.300 --> 00:54:02.500
+ I'm like, I don't know, how is it?
+
+00:54:02.500 --> 00:54:04.140
+ It's less people, is that bad?
+
+00:54:04.140 --> 00:54:04.980
+ I don't know.
+
+00:54:04.980 --> 00:54:06.500
+ - Yeah, I mean, yeah, the birthright thing.
+
+00:54:06.500 --> 00:54:08.660
+ I think that also is like a huge,
+
+00:54:08.660 --> 00:54:10.940
+ it's just like a multifaceted thing, right?
+
+00:54:10.940 --> 00:54:12.540
+ There's like so many economic challenges
+
+00:54:12.540 --> 00:54:16.620
+ with having children so that those need to get fixed too.
+
+00:54:16.620 --> 00:54:18.020
+ - Okay, that's a good segue.
+
+00:54:18.020 --> 00:54:23.020
+ Economic, economic, economic problems, troubles.
+
+00:54:23.020 --> 00:54:24.300
+ Okay, I'm gonna tell you everything
+
+00:54:24.300 --> 00:54:26.340
+ I've heard about the tariffs in 24 hours.
+
+00:54:26.340 --> 00:54:28.380
+ I've been tossed in the winds every direction
+
+00:54:28.380 --> 00:54:29.980
+ and I want you to tell me what's really going on
+
+00:54:29.980 --> 00:54:31.860
+ so no pressure, you better now.
+
+00:54:31.860 --> 00:54:32.700
+ - Okay, okay.
+
+00:54:32.700 --> 00:54:35.700
+ - So I first saw the tweets where if you were like,
+
+00:54:35.700 --> 00:54:39.260
+ what an idiot, he literally just did this in chat GPT
+
+00:54:39.260 --> 00:54:41.180
+ and reversed the trade deficit
+
+00:54:41.180 --> 00:54:43.980
+ and set the tariffs on every country based on that.
+
+00:54:43.980 --> 00:54:46.460
+ He dumb, we're going into the Great Depression.
+
+00:54:46.460 --> 00:54:47.780
+ That was the first set of tweets.
+
+00:54:47.780 --> 00:54:50.180
+ Then I saw tweets where people are like,
+
+00:54:50.180 --> 00:54:54.380
+ actually he's big brain and he's lowering the yields
+
+00:54:54.380 --> 00:54:57.140
+ on tenure treasury bonds so we can convert a bunch of debt.
+
+00:54:57.140 --> 00:54:59.860
+ It's like literally like this master plan
+
+00:54:59.860 --> 00:55:01.780
+ and I'm like, I don't know.
+
+00:55:01.780 --> 00:55:03.180
+ Is there some truth in the middle
+
+00:55:03.180 --> 00:55:04.860
+ that's neither of these crazy scenarios
+
+00:55:04.860 --> 00:55:08.660
+ or is the first one the right one we're just doomed?
+
+00:55:08.660 --> 00:55:10.820
+ - So I saw, I watched something yesterday
+
+00:55:10.820 --> 00:55:15.820
+ which helped me a lot because I think the biggest question here
+
+00:55:15.820 --> 00:55:20.660
+ is and it's been the question from the beginning, right?
+
+00:55:20.660 --> 00:55:25.220
+ It's ultimately is the, not just the president
+
+00:55:25.220 --> 00:55:27.300
+ but is this new right?
+
+00:55:27.300 --> 00:55:28.300
+ - Coalition.
+
+00:55:28.300 --> 00:55:30.340
+ - Like the new right, yeah.
+
+00:55:30.340 --> 00:55:33.660
+ - Are they pro free trade or not, right?
+
+00:55:33.660 --> 00:55:35.820
+ - You can say if they're pro free trade
+
+00:55:35.820 --> 00:55:38.060
+ then the tariffs are simply a negotiating tactic
+
+00:55:38.060 --> 00:55:40.580
+ with the ultimate goal to be--
+
+00:55:40.580 --> 00:55:41.940
+ - Of the tariffs anyway, right?
+
+00:55:41.940 --> 00:55:43.620
+ - Yeah, a lot of people argue for that.
+
+00:55:43.620 --> 00:55:45.340
+ They're like, oh you guys are being stupid.
+
+00:55:45.340 --> 00:55:47.940
+ It's just a really good negotiating tactic.
+
+00:55:47.940 --> 00:55:51.140
+ Like they're like, that's all he's doing
+
+00:55:51.140 --> 00:55:53.860
+ and they've been saying that from the beginning.
+
+00:55:53.860 --> 00:55:57.140
+ But if that's true, if that's your goal,
+
+00:55:57.140 --> 00:55:58.620
+ you can't also have these other things, right?
+
+00:55:58.620 --> 00:56:01.940
+ You can't also say, no, our goal is to bring manufacturing
+
+00:56:01.940 --> 00:56:04.820
+ back here, our goal is to make these jobs build up here
+
+00:56:04.820 --> 00:56:06.340
+ because that's not actually your goal.
+
+00:56:06.340 --> 00:56:08.780
+ Your goal is to get back to better trade.
+
+00:56:08.780 --> 00:56:09.700
+ - It's one of the other.
+
+00:56:09.700 --> 00:56:11.820
+ - It's one of the other, it can't be your goal, right?
+
+00:56:11.820 --> 00:56:16.940
+ So anyone arguing that the people that are kind of
+
+00:56:16.940 --> 00:56:19.300
+ infinitely argue that everything they're doing is right,
+
+00:56:19.300 --> 00:56:22.140
+ I think they come, they find themselves
+
+00:56:22.140 --> 00:56:24.300
+ in conflict of these things.
+
+00:56:24.300 --> 00:56:25.660
+ So and I'd be confused about that too.
+
+00:56:25.660 --> 00:56:27.460
+ I'm like, what's the actual goal?
+
+00:56:27.460 --> 00:56:31.860
+ Is it just negotiating or is it that these are,
+
+00:56:31.860 --> 00:56:33.060
+ this is the way they view things
+
+00:56:33.060 --> 00:56:34.820
+ and they think that it's like a ripoff
+
+00:56:34.820 --> 00:56:38.700
+ and America's in a bad situation globally, economically.
+
+00:56:38.700 --> 00:56:41.820
+ And this is the new world order that they want.
+
+00:56:41.820 --> 00:56:44.540
+ So they want it to be that we're not gonna absorb
+
+00:56:44.540 --> 00:56:46.780
+ the production of the whole world.
+
+00:56:46.780 --> 00:56:48.300
+ You guys are on your own.
+
+00:56:48.300 --> 00:56:50.820
+ We don't want armies across the whole world.
+
+00:56:50.820 --> 00:56:52.260
+ You guys can develop your own armies
+
+00:56:52.260 --> 00:56:54.340
+ or we're tired of finding all this
+
+00:56:54.340 --> 00:56:56.620
+ because things aren't good back home.
+
+00:56:56.620 --> 00:56:57.740
+ And we need to fix that.
+
+00:56:57.740 --> 00:57:00.620
+ And this is like our silver bullet for fixing that.
+
+00:57:00.620 --> 00:57:02.980
+ So it's confusing which it is.
+
+00:57:02.980 --> 00:57:07.220
+ It doesn't help that I don't think Trump himself,
+
+00:57:07.220 --> 00:57:09.460
+ himself has a particular clarity about this.
+
+00:57:09.460 --> 00:57:11.140
+ So I think almost all the actions
+
+00:57:11.140 --> 00:57:12.260
+ that are coming from him
+
+00:57:12.260 --> 00:57:15.700
+ are pretty much you from the team week to week,
+
+00:57:15.700 --> 00:57:17.820
+ new justification for this, roll it back.
+
+00:57:17.820 --> 00:57:20.460
+ Like it's like not a lot of clarity.
+
+00:57:20.460 --> 00:57:22.740
+ But the thing that I watched yesterday
+
+00:57:22.740 --> 00:57:25.860
+ was an interview with an economist
+
+00:57:25.860 --> 00:57:30.460
+ that is in charge of developing the policy for this new right.
+
+00:57:30.460 --> 00:57:31.820
+ So this is him like talking about
+
+00:57:31.820 --> 00:57:35.060
+ what he's been trying to push for many years.
+
+00:57:35.060 --> 00:57:38.940
+ And it is very much not pro free trade.
+
+00:57:38.940 --> 00:57:41.700
+ They view things as the last 40 years
+
+00:57:41.700 --> 00:57:43.660
+ have been effectively disaster.
+
+00:57:43.660 --> 00:57:47.380
+ They think that the middle class and the low,
+
+00:57:47.380 --> 00:57:50.580
+ like middle class and blow have suffered
+
+00:57:50.580 --> 00:57:53.020
+ and they paid the price for globalization.
+
+00:57:53.020 --> 00:57:55.580
+ They're very much eager to move to a system
+
+00:57:55.580 --> 00:57:57.820
+ that is not globalized.
+
+00:57:57.820 --> 00:58:00.780
+ Where America's insular focuses inside
+
+00:58:00.780 --> 00:58:04.980
+ and we're gonna have these high barriers to do trade.
+
+00:58:04.980 --> 00:58:06.940
+ So that is their actual goal.
+
+00:58:06.940 --> 00:58:09.860
+ And they see that as this is the way to do it.
+
+00:58:09.860 --> 00:58:12.060
+ What I give them credit for is I think they're genuine
+
+00:58:12.060 --> 00:58:14.660
+ and saying they are really looking at the middle class
+
+00:58:14.660 --> 00:58:15.860
+ and generally trying to help them.
+
+00:58:15.860 --> 00:58:20.020
+ It's not some like trick to like benefit someone rich.
+
+00:58:20.020 --> 00:58:21.860
+ I think this person, as a person that was watching
+
+00:58:21.860 --> 00:58:23.780
+ interviewed, that's generally his goal
+
+00:58:23.780 --> 00:58:25.260
+ and he's been looking after that lens.
+
+00:58:25.260 --> 00:58:26.980
+ I ultimately think he's wrong,
+
+00:58:26.980 --> 00:58:30.620
+ but if he's the one and his group of people
+
+00:58:30.620 --> 00:58:31.860
+ are the ones shaping policy,
+
+00:58:31.860 --> 00:58:34.500
+ then what that means is he's not a negotiation tactic.
+
+00:58:34.500 --> 00:58:35.340
+ - No, it's actually--
+
+00:58:35.340 --> 00:58:39.100
+ - It's an effort to reshape how America fits in
+
+00:58:39.100 --> 00:58:40.900
+ to the whole world going forward.
+
+00:58:40.900 --> 00:58:43.860
+ - Briefly, it is a very complex topic.
+
+00:58:43.860 --> 00:58:47.820
+ But could we briefly hit on like the theory
+
+00:58:47.820 --> 00:58:49.300
+ and your expected outcome?
+
+00:58:49.300 --> 00:58:53.580
+ Because I guess the theory is it improves
+
+00:58:53.580 --> 00:58:55.140
+ like manufacturing jobs and stuff.
+
+00:58:55.140 --> 00:58:57.420
+ Like we start doing things in America instead
+
+00:58:57.420 --> 00:58:59.740
+ and that gives the middle class better jobs.
+
+00:58:59.740 --> 00:59:01.780
+ But all the prices go up, I don't understand.
+
+00:59:01.780 --> 00:59:05.380
+ - Yeah, well, I guess the way they look at things
+
+00:59:05.380 --> 00:59:08.740
+ is the world produces a lot of stuff
+
+00:59:08.740 --> 00:59:10.660
+ and Americans buy it, right?
+
+00:59:10.660 --> 00:59:13.740
+ So they're like, we're absorbing the,
+
+00:59:13.740 --> 00:59:16.060
+ we're paying people in other parts of the world
+
+00:59:16.060 --> 00:59:18.540
+ with our wealth for the stuff that they produce.
+
+00:59:18.540 --> 00:59:21.180
+ And we're not betting, we're not benefiting,
+
+00:59:21.180 --> 00:59:24.140
+ we're just like a consumer economy.
+
+00:59:24.140 --> 00:59:26.220
+ - I think that's kind of a valid characterization.
+
+00:59:26.220 --> 00:59:29.740
+ Like most income from a lot of these big countries
+
+00:59:29.740 --> 00:59:31.820
+ that have grown a lot and have become a lot more developed
+
+00:59:31.820 --> 00:59:35.060
+ in the past 10 years has come from the US.
+
+00:59:35.060 --> 00:59:36.500
+ But I think the part they're missing
+
+00:59:36.500 --> 00:59:39.300
+ is that we pay them with money that we print.
+
+00:59:39.300 --> 00:59:42.020
+ Like we print money and we give it to them.
+
+00:59:42.020 --> 00:59:44.540
+ And we're like, you have to do all trade in dollars.
+
+00:59:44.540 --> 00:59:48.700
+ You have to buy all dollars because we use our military
+
+00:59:48.700 --> 00:59:52.060
+ to make sure that all trade globally happens with dollars.
+
+00:59:52.060 --> 00:59:56.300
+ It's a very sophisticated and crazy control scheme
+
+00:59:56.300 --> 00:59:58.580
+ that the America has built in the past,
+
+00:59:58.580 --> 01:00:00.820
+ you know, since post World War II.
+
+01:00:00.820 --> 01:00:03.220
+ Someone made a really good observation
+
+01:00:03.220 --> 01:00:05.540
+ that it actually might be too effective
+
+01:00:05.540 --> 01:00:07.700
+ in that it's totally, like the control mechanism
+
+01:00:07.700 --> 01:00:09.780
+ is totally invisible to the point
+
+01:00:09.780 --> 01:00:12.220
+ where the people running the system
+
+01:00:12.220 --> 01:00:14.860
+ don't understand the system itself.
+
+01:00:14.860 --> 01:00:17.060
+ And so they accidentally started dismantle it.
+
+01:00:17.060 --> 01:00:20.420
+ - And then we lose, so if you play it out,
+
+01:00:20.420 --> 01:00:22.420
+ we start manufacturing in the US.
+
+01:00:22.420 --> 01:00:24.660
+ We're not doing as much trade globally,
+
+01:00:24.660 --> 01:00:28.140
+ maybe trade globally, just generally declines.
+
+01:00:28.140 --> 01:00:31.980
+ And we lose those levers of control, like presumably.
+
+01:00:31.980 --> 01:00:33.260
+ - We lose levers of control.
+
+01:00:33.260 --> 01:00:35.540
+ Like more countries than our armies,
+
+01:00:35.540 --> 01:00:40.060
+ like that leads to like more variability.
+
+01:00:40.060 --> 01:00:41.460
+ - Conflict and yeah.
+
+01:00:41.460 --> 01:00:43.460
+ - When you have armies, you tend to use them.
+
+01:00:43.460 --> 01:00:46.220
+ The other thing is, the other thing that I try to focus on
+
+01:00:46.220 --> 01:00:49.460
+ is you have to really understand yourself
+
+01:00:49.460 --> 01:00:50.820
+ and play to your strengths.
+
+01:00:50.820 --> 01:00:55.220
+ Like the US, we are like a globalist country
+
+01:00:55.220 --> 01:00:59.220
+ and we can play that game better than anyone else.
+
+01:00:59.220 --> 01:01:00.220
+ So much better than anyone else.
+
+01:01:00.220 --> 01:01:02.500
+ Nobody else can even try to play that game.
+
+01:01:02.500 --> 01:01:05.260
+ So for me, and there's downsides to that game,
+
+01:01:05.260 --> 01:01:07.940
+ but I'd like to look at the solution as
+
+01:01:07.940 --> 01:01:09.740
+ let's play the game even harder
+
+01:01:09.740 --> 01:01:12.300
+ and find a way to address those downsides
+
+01:01:12.300 --> 01:01:14.260
+ without stopping playing the game.
+
+01:01:14.260 --> 01:01:16.980
+ I feel like now we're trying to play China's game
+
+01:01:16.980 --> 01:01:19.820
+ where we're gonna like suddenly manufacture stuff.
+
+01:01:19.820 --> 01:01:21.740
+ - But we're like decades drying stuff
+
+01:01:21.740 --> 01:01:23.420
+ that China literally cannot do.
+
+01:01:23.420 --> 01:01:25.820
+ China would love to do, literally cannot do
+
+01:01:25.820 --> 01:01:29.940
+ to now try to do stuff that anyone can do, right?
+
+01:01:29.940 --> 01:01:30.780
+ - Interesting.
+
+01:01:30.780 --> 01:01:32.180
+ - So that's why I ultimately disagree with this
+
+01:01:32.180 --> 01:01:35.180
+ because I feel like it's kind of the like golden age
+
+01:01:35.180 --> 01:01:37.460
+ thinking like, oh, things are so much better in the past.
+
+01:01:37.460 --> 01:01:41.060
+ And kind of let's go back to the good old days.
+
+01:01:41.060 --> 01:01:44.540
+ I think it's that mixed with,
+
+01:01:44.540 --> 01:01:46.220
+ I think Trump's just been, and we taught those before,
+
+01:01:46.220 --> 01:01:50.420
+ just been in a part of business that is very zero sum,
+
+01:01:50.420 --> 01:01:53.500
+ not in tech where things can really grow.
+
+01:01:53.500 --> 01:01:54.340
+ - Yeah.
+
+01:01:54.340 --> 01:01:57.260
+ - So I think that also colors a few of things.
+
+01:01:57.260 --> 01:01:58.100
+ But that's what's going on.
+
+01:01:58.100 --> 01:02:01.860
+ So I think these tariffs, whether they end up sticking
+
+01:02:01.860 --> 01:02:04.540
+ or not, 'cause like I said, Trump is a politician
+
+01:02:04.540 --> 01:02:05.860
+ and politicians are a fickle.
+
+01:02:05.860 --> 01:02:08.340
+ Like they need to like, they will go with
+
+01:02:08.340 --> 01:02:09.500
+ where the win pushes them.
+
+01:02:09.500 --> 01:02:11.580
+ And if like there's a bunch of pushback,
+
+01:02:11.580 --> 01:02:14.140
+ they'll say, they'll roll them back and be,
+
+01:02:14.140 --> 01:02:16.480
+ and they'll say the tariffs were, when I perfectly
+
+01:02:16.480 --> 01:02:19.220
+ according to plan, and it helped us achieve our goal
+
+01:02:19.220 --> 01:02:21.100
+ of rolling them back, and they'll declare it a victory
+
+01:02:21.100 --> 01:02:21.940
+ and they'll roll it back.
+
+01:02:21.940 --> 01:02:22.780
+ So I don't know if they're literally
+
+01:02:22.780 --> 01:02:26.700
+ gonna be in place forever, but behind the scenes,
+
+01:02:26.700 --> 01:02:30.780
+ I see like the underlying push towards this direction
+
+01:02:30.780 --> 01:02:35.380
+ of like dismantling the current system.
+
+01:02:35.380 --> 01:02:38.100
+ And so that's why your portfolio is down.
+
+01:02:38.100 --> 01:02:42.940
+ - Then you took the other bet, it was wise.
+
+01:02:42.940 --> 01:02:45.580
+ Yeah, I pulled out all my money from like the market
+
+01:02:45.580 --> 01:02:47.300
+ like a month ago or so.
+
+01:02:47.300 --> 01:02:48.620
+ - And good timing.
+
+01:02:48.620 --> 01:02:50.380
+ - It just funny what psychological impact
+
+01:02:50.380 --> 01:02:51.380
+ that makes in your head, like.
+
+01:02:51.380 --> 01:02:53.620
+ And this is the only thing that I was saying, like,
+
+01:02:53.620 --> 01:02:57.940
+ I don't care who you are, how like moral you are.
+
+01:02:57.940 --> 01:02:59.380
+ We're all short-term thinkers
+
+01:02:59.380 --> 01:03:01.100
+ who just care about our own self interest.
+
+01:03:01.100 --> 01:03:05.100
+ So the moment I did that, I love the tariff news.
+
+01:03:05.100 --> 01:03:06.700
+ Like I love that it's happening.
+
+01:03:06.700 --> 01:03:07.540
+ - All the term moral.
+
+01:03:07.540 --> 01:03:10.660
+ - Like everything I said, even though I disagree with it,
+
+01:03:10.660 --> 01:03:13.340
+ the emotion, it's hard to not feel happy to see the chart
+
+01:03:13.340 --> 01:03:15.740
+ go down, 'cause like my money's going up, right?
+
+01:03:15.740 --> 01:03:19.860
+ So all the people that are saying stuff like,
+
+01:03:19.860 --> 01:03:22.940
+ there's always people saying the stock market doesn't matter.
+
+01:03:22.940 --> 01:03:24.020
+ Like that's not what's important.
+
+01:03:24.020 --> 01:03:26.380
+ Like these other things are important.
+
+01:03:26.380 --> 01:03:31.300
+ I know for sure those people literally are either 14 years old,
+
+01:03:31.300 --> 01:03:33.380
+ 'cause they don't have a retirement account
+
+01:03:33.380 --> 01:03:35.420
+ or they just straight up have no money at all,
+
+01:03:35.420 --> 01:03:37.140
+ like they're unemployed.
+
+01:03:37.140 --> 01:03:40.500
+ 'Cause then a day, if money goes down, people get mad.
+
+01:03:40.500 --> 01:03:41.740
+ - Yeah, we'll see how this plays out,
+
+01:03:41.740 --> 01:03:44.460
+ but anyway, that's my summary of it.
+
+01:03:44.460 --> 01:03:46.420
+ - Okay, well I know more than I did
+
+01:03:46.420 --> 01:03:48.660
+ before we started talking about it.
+
+01:03:48.660 --> 01:03:49.500
+ So that's good.
+
+01:03:49.500 --> 01:03:52.180
+ - Yeah, interesting, fun, funny times.
+
+01:03:52.180 --> 01:03:53.020
+ - Funny times.
+
+01:03:53.020 --> 01:03:54.380
+ - The memes have been really good.
+
+01:03:54.380 --> 01:03:56.420
+ I've been loving the tariff memes.
+
+01:03:56.420 --> 01:03:57.900
+ - Side note on the memes,
+
+01:03:57.900 --> 01:04:00.780
+ we had this giant explosion of Vance memes.
+
+01:04:00.780 --> 01:04:03.140
+ And then we had this giant explosion of Ghibli images.
+
+01:04:03.140 --> 01:04:06.700
+ I never saw one Vance Ghibli, not one.
+
+01:04:06.700 --> 01:04:07.540
+ How's that possible?
+
+01:04:07.540 --> 01:04:09.140
+ - Oh, that's a good point.
+
+01:04:09.140 --> 01:04:09.980
+ - How's that possible?
+
+01:04:09.980 --> 01:04:10.820
+ - Can I tell you something?
+
+01:04:10.820 --> 01:04:12.300
+ - I feel like they should be all over the timeline.
+
+01:04:12.300 --> 01:04:13.140
+ - Yeah, what?
+
+01:04:13.140 --> 01:04:14.620
+ - I hated the Vance meme thing.
+
+01:04:14.620 --> 01:04:16.300
+ I don't know why, I just didn't like it.
+
+01:04:16.300 --> 01:04:17.180
+ - Yeah, I didn't think it was funny.
+
+01:04:17.180 --> 01:04:18.460
+ - I didn't really understand it.
+
+01:04:18.460 --> 01:04:19.300
+ - Yeah.
+
+01:04:19.300 --> 01:04:20.740
+ - I mean, I thought he sounded like a doofus
+
+01:04:20.740 --> 01:04:22.060
+ in that meeting in the Oval Office.
+
+01:04:22.060 --> 01:04:23.180
+ Like just some of the things he said
+
+01:04:23.180 --> 01:04:24.700
+ were just kind of like annoying to me,
+
+01:04:24.700 --> 01:04:27.300
+ but I don't understand where people just took off
+
+01:04:27.300 --> 01:04:29.060
+ with his face and like started doing stuff to it.
+
+01:04:29.060 --> 01:04:29.900
+ I don't understand it.
+
+01:04:29.900 --> 01:04:33.300
+ - And whoever made that like chubby curly hair version
+
+01:04:33.300 --> 01:04:36.220
+ of him, like, very impressive,
+
+01:04:36.220 --> 01:04:39.940
+ because it, you know, it like went crazy viral.
+
+01:04:39.940 --> 01:04:41.300
+ I hate the way it looks.
+
+01:04:41.300 --> 01:04:43.620
+ Like I hate it, but I also can't stop looking at it.
+
+01:04:43.620 --> 01:04:46.580
+ - This is like, it's like how you hate the way
+
+01:04:46.580 --> 01:04:48.660
+ that Boxer, that Box, Mike Tyson looks.
+
+01:04:48.660 --> 01:04:49.660
+ What's this?
+
+01:04:49.660 --> 01:04:51.500
+ - Wait, David?
+
+01:04:51.500 --> 01:04:52.340
+ - David?
+
+01:04:52.340 --> 01:04:53.180
+ - He's not even a boxer.
+
+01:04:53.180 --> 01:04:56.260
+ Jake Paul, Jake Paul's brother, the other Paul.
+
+01:04:56.260 --> 01:04:57.100
+ - Whatever.
+
+01:04:57.100 --> 01:04:58.100
+ - I mean, I definitely hate the way he looks.
+
+01:04:58.100 --> 01:04:59.180
+ Like it looks like a douche, but.
+
+01:04:59.180 --> 01:05:00.860
+ - Oh, I just remember you saying
+
+01:05:00.860 --> 01:05:02.660
+ how much you hated the way he looks at nine
+
+01:05:02.660 --> 01:05:05.180
+ in the boxing matches, I'm sorry.
+
+01:05:05.180 --> 01:05:06.100
+ I don't know.
+
+01:05:06.100 --> 01:05:07.580
+ - We were in person that night.
+
+01:05:07.580 --> 01:05:08.820
+ - Yeah, he just looks unlikable.
+
+01:05:08.820 --> 01:05:13.420
+ And I deeply, this is probably like somehow racist
+
+01:05:13.420 --> 01:05:17.140
+ or like very wrong, but in the past couple of years,
+
+01:05:17.140 --> 01:05:20.140
+ I just keep seeing more and more proof
+
+01:05:20.140 --> 01:05:22.300
+ that people are what they look like.
+
+01:05:22.300 --> 01:05:26.100
+ And I'm like, look Adam, you look like a nice guy
+
+01:05:26.100 --> 01:05:27.300
+ and you are a nice guy.
+
+01:05:27.300 --> 01:05:29.940
+ I cannot picture your face with my personality.
+
+01:05:29.940 --> 01:05:32.900
+ It just like does not, it seems impossible.
+
+01:05:32.900 --> 01:05:35.700
+ How could someone that looks like you
+
+01:05:35.700 --> 01:05:36.620
+ have my personality?
+
+01:05:36.620 --> 01:05:37.700
+ Does that seem impossible?
+
+01:05:37.700 --> 01:05:38.540
+ - Yeah.
+
+01:05:38.540 --> 01:05:39.380
+ - Yeah, man, someone looks like me
+
+01:05:39.380 --> 01:05:40.220
+ that has your personality.
+
+01:05:40.220 --> 01:05:41.060
+ - Impossible.
+
+01:05:41.060 --> 01:05:42.020
+ - I just, yeah, I guess I just know,
+
+01:05:42.020 --> 01:05:44.260
+ I do have questions we can get into it some other time
+
+01:05:44.260 --> 01:05:45.860
+ about what you mean by have a nice face.
+
+01:05:45.860 --> 01:05:48.260
+ I've heard that before, like that I look like a nice person.
+
+01:05:48.260 --> 01:05:49.100
+ I don't know what that means.
+
+01:05:49.100 --> 01:05:49.940
+ - But that's what I'm saying.
+
+01:05:49.940 --> 01:05:52.420
+ It's like this mysterious innate thing where,
+
+01:05:52.420 --> 01:05:54.860
+ okay, I'll just put it in another way.
+
+01:05:54.860 --> 01:05:57.580
+ There are some actors that are always in evil roles.
+
+01:05:57.580 --> 01:05:58.420
+ Why?
+
+01:05:58.420 --> 01:05:59.260
+ - Yeah, no, it's true.
+
+01:05:59.260 --> 01:06:00.340
+ - 'Cause somewhere in our head,
+
+01:06:00.340 --> 01:06:01.660
+ we're like, that's what an evil person looks like.
+
+01:06:01.660 --> 01:06:02.980
+ - Their face just looks evil.
+
+01:06:02.980 --> 01:06:04.420
+ - Yeah, there is something there, okay.
+
+01:06:04.420 --> 01:06:06.140
+ - I'm not saying they're definitely evil, but you know,
+
+01:06:06.140 --> 01:06:08.100
+ like I know they're not gonna have like
+
+01:06:08.100 --> 01:06:11.060
+ a bubbly personality in real life, you know?
+
+01:06:11.060 --> 01:06:11.900
+ - Yeah.
+
+01:06:11.900 --> 01:06:12.900
+ - Like I mean, like kind of brooding.
+
+01:06:12.900 --> 01:06:17.060
+ But I'm just convinced that this is a real thing.
+
+01:06:17.060 --> 01:06:18.620
+ - And that's why the Vans thing bothered you.
+
+01:06:18.620 --> 01:06:19.940
+ - Like what were you even talking about?
+
+01:06:19.940 --> 01:06:21.900
+ This was completely something,
+
+01:06:21.900 --> 01:06:24.500
+ this is completely something I just went totally off topic.
+
+01:06:24.500 --> 01:06:25.340
+ It's just--
+
+01:06:25.340 --> 01:06:26.460
+ - Oh, okay, got it.
+
+01:06:26.460 --> 01:06:28.260
+ - I just, yeah, I just think.
+
+01:06:28.260 --> 01:06:29.900
+ I mean, I think that's why I look with Logan Paul.
+
+01:06:29.900 --> 01:06:33.460
+ I'm just like, he just looks like a dick.
+
+01:06:33.460 --> 01:06:34.660
+ - Yeah, no, I agree.
+
+01:06:34.660 --> 01:06:36.180
+ - It just, it's just his look.
+
+01:06:36.180 --> 01:06:37.800
+ - He does look like a bad person.
+
+01:06:37.800 --> 01:06:39.940
+ - Maybe he looked that way and the world treated him
+
+01:06:39.940 --> 01:06:41.140
+ that way so he became that.
+
+01:06:41.140 --> 01:06:44.340
+ Maybe that's dynamic, but yeah.
+
+01:06:44.340 --> 01:06:46.900
+ Whenever you meet someone with a strong personality,
+
+01:06:46.900 --> 01:06:47.900
+ like you can like clearly have,
+
+01:06:47.900 --> 01:06:49.020
+ keep their like shape,
+
+01:06:49.020 --> 01:06:51.020
+ particularly what their personality is.
+
+01:06:51.020 --> 01:06:52.380
+ Imagine literally what they look like
+
+01:06:52.380 --> 01:06:53.620
+ with the opposite personality.
+
+01:06:53.620 --> 01:06:55.540
+ And like, you just will have no frame of reference
+
+01:06:55.540 --> 01:06:56.380
+ for anyone like that.
+
+01:06:56.380 --> 01:06:57.220
+ - Yeah.
+
+01:06:57.220 --> 01:06:58.060
+ - So there's something here.
+
+01:06:58.060 --> 01:06:58.900
+ - There's something there.
+
+01:06:58.900 --> 01:06:59.740
+ - Something here.
+
+01:06:59.740 --> 01:07:00.580
+ - Okay, we gotta get off here,
+
+01:07:00.580 --> 01:07:03.260
+ but before we do terminal, we're shipping cron.
+
+01:07:03.260 --> 01:07:04.300
+ - Oh, yes, we gotta do that.
+
+01:07:04.300 --> 01:07:06.380
+ - Days away from the first cron.
+
+01:07:06.380 --> 01:07:07.220
+ Yeah, let's do an ad.
+
+01:07:07.220 --> 01:07:10.460
+ So the ad is there are hundreds of cron subscribers
+
+01:07:10.460 --> 01:07:11.580
+ and you should be one of them.
+
+01:07:11.580 --> 01:07:16.580
+ - Yes, go to SSH terminal and SSH terminal dot shop
+
+01:07:16.580 --> 01:07:18.480
+ and subscribe to cron.
+
+01:07:18.480 --> 01:07:19.980
+ You will get a really beautiful package.
+
+01:07:19.980 --> 01:07:21.340
+ I'm really excited to get this package myself.
+
+01:07:21.340 --> 01:07:22.180
+ - Oh, it's so good.
+
+01:07:22.180 --> 01:07:23.340
+ - It's so good.
+
+01:07:23.340 --> 01:07:26.140
+ - I'm excited to see how that destroys and crushes it.
+
+01:07:26.140 --> 01:07:27.460
+ - I know, yeah, we'll see.
+
+01:07:27.460 --> 01:07:28.660
+ It's gonna be in a bag,
+
+01:07:28.660 --> 01:07:30.340
+ which will keep it nice and safe.
+
+01:07:30.340 --> 01:07:32.700
+ Well, we'll see.
+
+01:07:32.700 --> 01:07:33.820
+ - It's gonna look super cool.
+
+01:07:33.820 --> 01:07:35.180
+ There's all kinds of little details
+
+01:07:35.180 --> 01:07:37.020
+ that I'm very excited to see in person.
+
+01:07:37.020 --> 01:07:39.140
+ - Remember how funny you're first that a box is where
+
+01:07:39.140 --> 01:07:41.140
+ where it looked like they just like shredded it.
+
+01:07:41.140 --> 01:07:43.420
+ - Yeah, it looked like that being on Twitter.
+
+01:07:43.420 --> 01:07:46.060
+ - They like just like ripped it apart as hard as they were.
+
+01:07:46.060 --> 01:07:46.980
+ - They were so bad.
+
+01:07:46.980 --> 01:07:49.260
+ I've seen so many terrible shipping mishaps.
+
+01:07:49.260 --> 01:07:50.780
+ Like that's very common, I guess.
+
+01:07:50.780 --> 01:07:52.420
+ Mailmen are angry, angry people.
+
+01:07:52.420 --> 01:07:55.660
+ - It can't be that, but this must be like,
+
+01:07:55.660 --> 01:07:58.540
+ it blows my mind that just incidental contact
+
+01:07:58.540 --> 01:08:00.860
+ can cause a box to get shredded.
+
+01:08:00.860 --> 01:08:03.660
+ - Yeah, I don't really understand like tossing the box
+
+01:08:03.660 --> 01:08:05.780
+ around how some of the states that the boxes were in.
+
+01:08:05.780 --> 01:08:07.220
+ Like they had to be stepped on.
+
+01:08:07.220 --> 01:08:08.860
+ Some of them, it was bad.
+
+01:08:08.860 --> 01:08:09.940
+ - And not just stepped on.
+
+01:08:09.940 --> 01:08:11.860
+ I feel like they like grabbed it and ripped it.
+
+01:08:11.860 --> 01:08:13.100
+ Like they were shredded.
+
+01:08:13.100 --> 01:08:15.460
+ When I say shredded, I think that's the one, yeah.
+
+01:08:15.460 --> 01:08:20.100
+ - I feel like a paper shredder or something ridiculous.
+
+01:08:20.100 --> 01:08:22.780
+ - E-commerce, they said, it'll be fun, they said.
+
+01:08:22.780 --> 01:08:24.460
+ Anyway, terminal that shop.
+
+01:08:24.460 --> 01:08:26.540
+ - You should sign up for this experience.
+
+01:08:26.540 --> 01:08:27.380
+ The one that we just described.
+
+01:08:27.380 --> 01:08:28.740
+ - It's gonna be so good.
+
+01:08:28.740 --> 01:08:31.060
+ First batch going out very soon.
+
+01:08:31.060 --> 01:08:32.260
+ Okay, I gotta get up here.
+
+01:08:32.260 --> 01:08:33.100
+ - All right.
+
+01:08:33.100 --> 01:08:34.100
+ - See ya. - Thanks, Max.
+
+01:08:34.100 --> 01:08:35.420
+ - See ya.
+
+01:08:35.420 --> 01:08:38.000
+ (upbeat music)
+
+01:08:38.000 --> 01:08:52.460
+ - What do you want?
+
+01:08:52.460 --> 01:08:56.420
+ - HDS sir, and how are you this afternoon all righty then?
+
+01:08:56.420 --> 01:08:57.620
+ I have a package for you.
+
+01:08:57.620 --> 01:09:00.780
+ (metal clanging)
+
+01:09:00.780 --> 01:09:02.180
+ Sounds broken.
+
+01:09:02.180 --> 01:09:03.340
+ - Most likely, sir.
+
+01:09:03.340 --> 01:09:04.980
+ I bet it was something nice though.
+

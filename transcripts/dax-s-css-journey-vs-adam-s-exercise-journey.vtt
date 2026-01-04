@@ -1,0 +1,2762 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.000
+ Look at you with your big headphones
+
+00:00:26.080 --> 00:00:29.520
+ Do we want to talk about CSS? Yeah, I was gonna bring it up
+
+00:00:29.520 --> 00:00:38.660
+ That's like see his raw CSS, and I think he's dumb. Let's start there
+
+00:00:38.660 --> 00:00:45.240
+ Can I tell you my my little journey very classy journey that I went on mm-hmm. Mm-hmm. Okay, so back in
+
+00:00:45.240 --> 00:00:48.200
+ 2002
+
+00:00:48.200 --> 00:00:50.700
+ 15 or 16 I
+
+00:00:51.600 --> 00:00:57.920
+ Wrote this library called Legos dot CSS. It wasn't really what it was just a big file
+
+00:00:57.920 --> 00:01:04.340
+ And I was something I made public it was just oh just something I used across all my projects. Okay, mm-hmm
+
+00:01:04.340 --> 00:01:10.100
+ And it was just an ever yeah, just an ever-growing list of every single utility class that I I use
+
+00:01:10.100 --> 00:01:12.760
+ wasn't very like
+
+00:01:12.760 --> 00:01:14.760
+ customizable or reusable it was just like
+
+00:01:14.760 --> 00:01:17.280
+ my own flavor of stuff and
+
+00:01:17.840 --> 00:01:23.740
+ From 2016 to around 2019 maybe to right the beginning of 2020 I
+
+00:01:23.740 --> 00:01:29.980
+ Built everything that way so that kind of spanned I think across two different major projects with
+
+00:01:29.980 --> 00:01:32.240
+ No, much of like sub projects inside of them
+
+00:01:32.240 --> 00:01:37.920
+ And I really liked it and it was great and all the reasons why people used to I went today like definitely
+
+00:01:37.920 --> 00:01:40.920
+ Experienced that like having everything in line super easy to tweak
+
+00:01:40.920 --> 00:01:43.520
+ you feel pretty productive
+
+00:01:43.520 --> 00:01:45.800
+ then in 2020 I
+
+00:01:47.760 --> 00:01:54.200
+ Was like part of my team that I managed was in charge of building a
+
+00:01:54.200 --> 00:01:57.040
+ design system not just for
+
+00:01:57.040 --> 00:02:02.840
+ the company to consume internally but also to publish externally because they had this whole system where
+
+00:02:02.840 --> 00:02:08.480
+ Their parties could build UI extensions inside their ui so they were giving them
+
+00:02:08.480 --> 00:02:16.200
+ Giving them, you know UI components to to build with that so in that process
+
+00:02:16.200 --> 00:02:20.720
+ I was just exposed to like the whole wide range of ways you can do
+
+00:02:20.720 --> 00:02:24.800
+ styling just because we evaluated like everything and
+
+00:02:24.800 --> 00:02:31.460
+ Like you know, there were enough people on the team that particularly liked one thing versus another's like I heard all arguments and kind of understood it
+
+00:02:31.460 --> 00:02:34.240
+ and ended up settling I
+
+00:02:34.240 --> 00:02:37.400
+ Don't know we ended up sitting on there, but I personally ended up settling on
+
+00:02:37.400 --> 00:02:40.480
+ Like the styled component approach
+
+00:02:40.480 --> 00:02:42.680
+ the like coupling
+
+00:02:43.640 --> 00:02:48.400
+ styling to like your frameworks we have describing components and I found this to be a
+
+00:02:48.400 --> 00:02:51.440
+ Really good balance of it still felt pretty productive
+
+00:02:51.440 --> 00:02:54.920
+ But then your markup looked really clean and easy to read etc
+
+00:02:54.920 --> 00:02:58.920
+ And that's pretty much I've been doing things for the past since then since 2020
+
+00:02:58.920 --> 00:03:07.160
+ It uh, I never found the exact right library to do this the little library called stock components. I thought I
+
+00:03:07.160 --> 00:03:10.320
+ Just didn't like how it was just like random strings
+
+00:03:10.720 --> 00:03:15.480
+ Then this library called stitches came out which was I think had some really good ideas and I used that for a while
+
+00:03:15.480 --> 00:03:20.040
+ But that was like heavily runtime based I didn't do any kind of CSS extraction
+
+00:03:20.040 --> 00:03:26.340
+ So it was just really not performant and eventually got abandoned because it just didn't fit with the future of where react was going
+
+00:03:26.340 --> 00:03:31.360
+ And I jumped to another very cool micron and then then I went to something called panda
+
+00:03:31.360 --> 00:03:37.360
+ And I just got to the very classic point of being like, okay, it's been like
+
+00:03:38.520 --> 00:03:40.520
+ effectively like eight years since I
+
+00:03:40.520 --> 00:03:43.160
+ Looked at raw CSS
+
+00:03:43.160 --> 00:03:50.720
+ I am getting really tired of the levels of abstraction above it for all the same reasons people always talk about like, you know
+
+00:03:50.720 --> 00:03:55.040
+ There's no build tooling stuff being broken more to set up like stuff changing
+
+00:03:55.040 --> 00:03:58.120
+ And I just wanted to see okay, what does
+
+00:03:58.120 --> 00:04:01.960
+ Raw CSS look like in 2024 and I just found
+
+00:04:01.960 --> 00:04:05.800
+ It can do a lot of stuff that made it suck before
+
+00:04:06.440 --> 00:04:10.440
+ or like it was missing a lot of stuff that made it suck before that now it's just there natively and
+
+00:04:10.440 --> 00:04:13.040
+ There's a whole new way of expressing
+
+00:04:13.040 --> 00:04:20.520
+ Stuff that like I think totally changes how at least my perception of CSS was and the second thing is I found like a really cool pattern
+
+00:04:20.520 --> 00:04:28.040
+ From this library called Winnie UI it's good again. Like a design system, but I've mounted purely as CSS
+
+00:04:28.040 --> 00:04:36.040
+ That I found to be pretty compelling so the combination of these two things has made me really really like writing raw CSS
+
+00:04:36.760 --> 00:04:39.360
+ And especially with Liz working on radiant
+
+00:04:39.360 --> 00:04:43.080
+ Having that extra abstraction layer when she like
+
+00:04:43.080 --> 00:04:48.720
+ Understands HTML and CSS pretty well. They're just kind of slowing things down a little bit more than that needed
+
+00:04:48.720 --> 00:04:51.880
+ So yeah, I've been having a
+
+00:04:51.880 --> 00:04:55.640
+ really good time with it and I'm like really pleasantly surprised how
+
+00:04:55.640 --> 00:05:01.440
+ How far things have come and you you're like putting your CSS in separate files
+
+00:05:02.040 --> 00:05:09.400
+ That are like dot CSS files. Yeah, and you're naming. I guess all of your DOM elements or all your
+
+00:05:09.400 --> 00:05:16.460
+ HTML tags you're naming them with classes. Yeah, so this is something I already dealt with because the style component approach
+
+00:05:16.460 --> 00:05:22.920
+ Forced you to name everything which is an upfront pain, but long-term benefit because you can come back things are very very readable
+
+00:05:22.920 --> 00:05:30.840
+ But hang on there. There's a few layers here, right? There is so there's like the design system for like the really common components, right?
+
+00:05:30.840 --> 00:05:32.840
+ Like button checkbox
+
+00:05:32.840 --> 00:05:36.560
+ Stack row and those are built with like
+
+00:05:36.560 --> 00:05:40.360
+ Global CSS like there's these data attributes
+
+00:05:40.360 --> 00:05:44.600
+ Have you on any element if you do data dash component equals button? It'll look like a button
+
+00:05:44.600 --> 00:05:49.120
+ Whether that's an href or an actual button or like some other element
+
+00:05:49.120 --> 00:05:56.480
+ That's because you've written a bunch of raw CSS that targets that so like build your design system that way, okay
+
+00:05:56.480 --> 00:05:59.600
+ Yeah, why not just sorry the first question that comes to mind
+
+00:05:59.840 --> 00:06:04.000
+ But why not just like button it's a class name or not? No, not as a class name
+
+00:06:04.000 --> 00:06:09.280
+ Why not like write your design system in your CSS is just like targeting certain types of elements?
+
+00:06:09.280 --> 00:06:11.400
+ Why I have to do the data?
+
+00:06:11.400 --> 00:06:16.360
+ Yeah, because it solves a problem of you pretty much always want a button to look at button
+
+00:06:16.360 --> 00:06:19.880
+ But sometimes a button is a link. Yeah, sometimes you have an anchor tag
+
+00:06:19.880 --> 00:06:24.120
+ Yeah, look like a button or I got you imagine like all the react components
+
+00:06:24.120 --> 00:06:30.120
+ They have all this like really fancy kind of complex ways to solve this problem to use a different kind of underlying
+
+00:06:30.120 --> 00:06:37.440
+ Yeah, so I don't even need to wrap these in a react solid whatever component I can just use
+
+00:06:37.440 --> 00:06:39.480
+ div
+
+00:06:39.480 --> 00:06:42.440
+ But yeah, so like I do end up wrapping them
+
+00:06:42.440 --> 00:06:48.760
+ I probably will end up wrapping them, but it's just not necessary. It's like a bonus. You can use it at the lowest level
+
+00:06:48.760 --> 00:06:52.840
+ Yeah, and then the other pattern here is what I found to be really cool
+
+00:06:54.120 --> 00:07:00.200
+ Yeah, is I learned a lot more about this has selector. Have you used a bunch? No?
+
+00:07:00.200 --> 00:07:06.480
+ Okay, so wait, maybe another class like has checked and stuff like that. Yeah, but you can also check if
+
+00:07:06.480 --> 00:07:11.120
+ The current element contains another one. So for example, yeah, right?
+
+00:07:11.120 --> 00:07:17.720
+ I'll have an element button data component. Whatever. Hello. It's a bunzel. Hello, and I want an icon to it
+
+00:07:17.720 --> 00:07:25.300
+ So inside I add another component. Maybe an SVG with data - slot equals icon because it's filling the slot
+
+00:07:25.300 --> 00:07:33.600
+ Of the icon in the button. Mm-hmm then in the CSS. I can say if button has component has an icon component inside of it
+
+00:07:33.600 --> 00:07:42.640
+ Yeah, yeah, a lot of that stuff used to do through JavaScript before where you would be like in your component
+
+00:07:42.640 --> 00:07:49.220
+ You'd be like, okay, if there is an icon prop specified to add this additional class or Mm-hmm like has an icon or like add additional
+
+00:07:49.220 --> 00:07:57.000
+ Tailwind classes, whatever it is. So now you can express like pretty complex logics just in in pure CSS
+
+00:07:57.000 --> 00:08:06.800
+ And that's like really saved a lot of it like I basically don't I can basically add all those conditional logic inside just
+
+00:08:06.800 --> 00:08:11.000
+ CSS, which means if I take the style sheet and I drop it an email
+
+00:08:11.760 --> 00:08:14.760
+ Like it all all still work. I can now build my emails the same thing
+
+00:08:14.760 --> 00:08:17.360
+ Which is true of tailwind - you can call it paste the markup
+
+00:08:17.360 --> 00:08:21.880
+ But just implementing my design system at the CSS level and not at the component level
+
+00:08:21.880 --> 00:08:24.560
+ Has been pretty nice. So
+
+00:08:24.560 --> 00:08:28.760
+ It's so hard to imagine like I'm trying to think what would it take for me to actually
+
+00:08:28.760 --> 00:08:36.560
+ switch from tailwind to this and it's the two things that everybody brings up that I get so hung up on I
+
+00:08:36.560 --> 00:08:41.600
+ Guess the one is not that big a deal like talk back and forth between two different files
+
+00:08:41.600 --> 00:08:43.800
+ Or buffers, whatever. That's not a big deal
+
+00:08:43.800 --> 00:08:48.720
+ But the naming thing you don't struggle to like we have like three nested divs
+
+00:08:48.720 --> 00:08:52.560
+ And it's all just because you have to do stupid like flexbox stuff and you're trying to figure out how to lay it out
+
+00:08:52.560 --> 00:08:56.560
+ How do you name like the middle one like what is that thing? Yeah?
+
+00:08:56.560 --> 00:09:01.960
+ But I think I think the problem here is not having a good set of utilities at the lowest level by the way
+
+00:09:01.960 --> 00:09:03.960
+ I still have some utility classes in there
+
+00:09:03.960 --> 00:09:06.160
+ Just kind of like how it did back in 2016
+
+00:09:06.160 --> 00:09:13.240
+ I had just like some random utility classes that I I find like flex grow like I often you know, I'm just to fill that way
+
+00:09:13.240 --> 00:09:21.920
+ But I have row and stack components and that solves like a lot of
+
+00:09:21.920 --> 00:09:26.440
+ The one-off classes that I'd have to make in like a specific screen
+
+00:09:26.440 --> 00:09:29.800
+ But you know it doesn't solve all of it like I'm thinking about screen right now
+
+00:09:29.800 --> 00:09:30.960
+ I have like
+
+00:09:30.960 --> 00:09:33.520
+ Like a root class and I have like a header class
+
+00:09:33.520 --> 00:09:40.240
+ But then everything inside the header class is just a mix of stack row and buttons and there's a bread comb type layout
+
+00:09:40.240 --> 00:09:45.760
+ I don't mind the the naming like I think stack and row like reduce let's say 50 percent of what you'd have to name
+
+00:09:45.760 --> 00:09:48.000
+ And yeah, there is a trade-off. There is so just
+
+00:09:48.000 --> 00:09:52.160
+ Just thinks the name, but I think you pay the price
+
+00:09:52.160 --> 00:09:54.640
+ for not naming things either
+
+00:09:54.640 --> 00:09:59.960
+ You have to pay the price up front by having to name them or you pay it later when you go look at a
+
+00:10:00.360 --> 00:10:03.760
+ Bunch of nestidation L and you don't you can't really tell which
+
+00:10:03.760 --> 00:10:09.960
+ Level something is happening yet. Yeah, I get it. But most people work on zero to one stuff. They don't think about
+
+00:10:09.960 --> 00:10:13.760
+ Well, how am I gonna feel when I come back to this in a year, you know, right?
+
+00:10:13.760 --> 00:10:22.680
+ What's the the runtime implication? It's the same. I guess like tailwind versus raw CSS. Yeah, I mean ultimately tailwind just compiles to raw CSS
+
+00:10:22.680 --> 00:10:29.960
+ Right. I think my approach is worse and that there's this like I think tailwind is a nice property where there's this
+
+00:10:30.680 --> 00:10:32.680
+ What's the word?
+
+00:10:32.680 --> 00:10:36.600
+ Logarithmic curve to the amount of CSS produced because eventually
+
+00:10:36.600 --> 00:10:42.600
+ You know, it'll have generated all the different utility classes you'll ever use for any of your whole app
+
+00:10:42.600 --> 00:10:46.040
+ Whereas for me, like I might have two different classes
+
+00:10:46.040 --> 00:10:52.440
+ Representing two different elements that effectively have the same style so that end result of the amount of CSS that produces higher
+
+00:10:52.440 --> 00:10:57.640
+ I do wonder like it's funny because we all talk about this but like
+
+00:10:58.200 --> 00:11:03.800
+ If you really think about what I'm saying, I'm saying that I am going to send more duplicate markup
+
+00:11:03.800 --> 00:11:06.120
+ But you know what compresses really really well?
+
+00:11:06.120 --> 00:11:09.720
+ Duplicate markup. So I do wonder in practice like
+
+00:11:09.720 --> 00:11:17.160
+ With gzip effectively, it's funny. Gzip is like a generic way to solve the detooping problem
+
+00:11:17.160 --> 00:11:22.360
+ Right, like tailwinds a very specific way to solve it for CSS. Yeah, but gzip has a general algorithm to solve
+
+00:11:23.240 --> 00:11:28.040
+ It's true that so it's not gonna be as good, but you know, I've never I mean I would have never
+
+00:11:28.040 --> 00:11:34.120
+ Complained about the amount of data going over the wire with raw CSS versus tailwind. That's not a thing
+
+00:11:34.120 --> 00:11:37.640
+ I would think about it's really just the you know, here's the thing
+
+00:11:37.640 --> 00:11:43.880
+ I think tailwind is the best experience for going from zero to one. Yeah, it's true like just staining something up and
+
+00:11:43.880 --> 00:11:46.600
+ I just like going from zero to one
+
+00:11:46.600 --> 00:11:49.160
+ So it makes sense that I like tailwind
+
+00:11:49.240 --> 00:11:54.840
+ If I can avoid it, I'll just never go back to a project. Like if I can just go really hard on something
+
+00:11:54.840 --> 00:12:00.520
+ And then never touch it again. That's kind of my ideal. So I just I guess I'm optimizing for my ideal my ideal case
+
+00:12:00.520 --> 00:12:07.480
+ Obviously, it doesn't work for like a startup. I've had for 10 years where I constantly have to go back to it. But for other projects
+
+00:12:07.480 --> 00:12:14.680
+ It's great. Yeah, what I found interesting that tailwind does there's one section that I I think it's like really interesting because it's it's very different
+
+00:12:14.680 --> 00:12:16.520
+ than how
+
+00:12:16.520 --> 00:12:18.520
+ any other docs ever
+
+00:12:19.080 --> 00:12:22.520
+ Talk speak to you. But there's a question of like what about
+
+00:12:22.520 --> 00:12:29.960
+ Reusing stuff like if I have a button with nine utility classes on it and I want to use it more than one place
+
+00:12:29.960 --> 00:12:34.840
+ Like how come tailwind isn't solving this for me? And before they show you how
+
+00:12:34.840 --> 00:12:40.440
+ They can solve it for you through like features in tailwind. They're like
+
+00:12:40.440 --> 00:12:45.160
+ Okay, first make sure that you can't just copy paste it and it's like gonna be too much of a pain
+
+00:12:45.640 --> 00:12:49.800
+ Second check out your editor features like you might have a multi cursor feature
+
+00:12:49.800 --> 00:12:55.160
+ So if you have a bunch of buttons like or like near each other you can do multi cursors edit them all at once
+
+00:12:55.160 --> 00:12:56.760
+ um
+
+00:12:56.760 --> 00:13:01.240
+ Or you know, maybe your framework has an idea of loops like if you're making a list of items
+
+00:13:01.240 --> 00:13:04.200
+ Like you're probably only to find the mark of once and it's like running inside of a loop
+
+00:13:04.200 --> 00:13:08.520
+ So it's not actually an issue. So they like really factor in
+
+00:13:08.520 --> 00:13:13.800
+ The surrounding environment outside of tailwind whether it's your editor or your framework
+
+00:13:14.440 --> 00:13:17.560
+ When saying like you should rely on on those things
+
+00:13:17.560 --> 00:13:22.760
+ Um, I think that's true of my approach as well, right? There's a downside
+
+00:13:22.760 --> 00:13:26.360
+ Uh, my situation where the markup
+
+00:13:26.360 --> 00:13:29.720
+ is separate from the css
+
+00:13:29.720 --> 00:13:34.760
+ So if I need to change the markup, I need to go update it everywhere
+
+00:13:34.760 --> 00:13:37.720
+ Like if I this icon data slot thing if I decide to rename
+
+00:13:37.720 --> 00:13:42.840
+ Data slot icon to data slot something else have to go find every place that it's there and update it
+
+00:13:43.320 --> 00:13:47.480
+ But I can make the same argument, right? Like if you're using an editor where bulk operations are easy
+
+00:13:47.480 --> 00:13:51.400
+ This is not really a thing you want to like solve for encode
+
+00:13:51.400 --> 00:13:53.560
+ Um
+
+00:13:53.560 --> 00:13:59.400
+ Yeah, I did I do find that line of thinking pretty interesting because I was like I was going over all this with with liz
+
+00:13:59.400 --> 00:14:02.200
+ And we're reworking the radiant stuff to be more raw css
+
+00:14:02.200 --> 00:14:03.880
+ Um
+
+00:14:03.880 --> 00:14:07.400
+ And after I explain all the css part, I then explained
+
+00:14:07.400 --> 00:14:10.280
+ Here are a bunch of editor
+
+00:14:10.280 --> 00:14:14.440
+ Things you can do to make this less of a pain in the ass. That's all one thing
+
+00:14:14.440 --> 00:14:19.800
+ It's not like the code lives on its own and I expect any editor to be a great experience with it
+
+00:14:19.800 --> 00:14:22.760
+ We're both using the same editor. So I can say hey like just
+
+00:14:22.760 --> 00:14:27.640
+ If you're working on a file like mark the javascript file mark the css file to these
+
+00:14:27.640 --> 00:14:31.480
+ Keys and then just you can flip back and forth between them as basically like it's in the same file
+
+00:14:31.480 --> 00:14:36.520
+ But you know, you can't do that easily with any editor. So I can see why someone's like this experience really sucks
+
+00:14:36.520 --> 00:14:38.840
+ Uh, that made me think of two questions one
+
+00:14:38.840 --> 00:14:44.120
+ When do it when do we all get radiant? I need to do some personal finance cleanup
+
+00:14:44.120 --> 00:14:52.120
+ Maybe the beginning of the year. Oh, look at you. That's it's not a state where like we're able to use it. It's just
+
+00:14:52.120 --> 00:14:57.960
+ Yeah, it's one of those things where there's some products where you want to get it out as fast as possible because like
+
+00:14:57.960 --> 00:15:03.160
+ It's very undefined and you know what you're doing. Mm-hmm as other products that are
+
+00:15:03.160 --> 00:15:06.440
+ just like
+
+00:15:06.440 --> 00:15:09.320
+ So iterative on top of like stuff that's been tried
+
+00:15:09.320 --> 00:15:13.640
+ You know, like for years and years and years and with these I think you can spend a lot more time
+
+00:15:13.640 --> 00:15:18.520
+ Up front like getting certain things right because there's less. Yeah, that's variability
+
+00:15:18.520 --> 00:15:21.720
+ Um, but I'm pretty happy with how it's coming out so far
+
+00:15:21.720 --> 00:15:24.600
+ Uh
+
+00:15:24.600 --> 00:15:31.160
+ Yeah, we're just focusing way more on like making giving you tools to keep your data clean and not at all on
+
+00:15:31.160 --> 00:15:36.200
+ Here's how you budget, uh, which we might do one day, but for me the issue is always
+
+00:15:37.400 --> 00:15:39.080
+ Like can I get it cleans out of data?
+
+00:15:39.080 --> 00:15:44.200
+ Like can I automate everything so that stuff is remapped and like everything is clean and I do that once
+
+00:15:44.200 --> 00:15:46.120
+ Um
+
+00:15:46.120 --> 00:15:52.680
+ And there's just not good tools for that and it's funny because we could just eventually be an API only thing where you like manage all that stuff
+
+00:15:52.680 --> 00:15:53.880
+ and then
+
+00:15:53.880 --> 00:15:58.040
+ Other budgeting tools like implement specific budgeting ways using that data
+
+00:15:58.040 --> 00:16:01.080
+ Or use export into an excel sheet and you do whatever you want
+
+00:16:01.080 --> 00:16:03.320
+ Okay, I'm spending a lot more time on the
+
+00:16:03.320 --> 00:16:06.120
+ Make sure we get all your data. Make sure it's as accurate as possible
+
+00:16:06.440 --> 00:16:11.880
+ Spend like way more time on that than anyone else has yeah, that I would like that. I think I have that problem
+
+00:16:11.880 --> 00:16:16.360
+ Uh, second thing I was gonna ask is what what's it like teaching your wife to code?
+
+00:16:16.360 --> 00:16:20.600
+ This is a dream. I've had case. He's always resisted, but is it fun?
+
+00:16:20.600 --> 00:16:26.520
+ Yeah, I mean, I think I can't speak to it generally because there's like I think everything I have to say is very specific to
+
+00:16:26.520 --> 00:16:31.800
+ My personality interacting with Liz's personality and how our relationship works, but uh
+
+00:16:31.800 --> 00:16:34.440
+ Uh
+
+00:16:34.440 --> 00:16:39.080
+ I think Liz will admit this herself. She is not the easiest student
+
+00:16:39.080 --> 00:16:41.720
+ Um
+
+00:16:41.720 --> 00:16:46.360
+ But I'm also this way like I don't like I don't like I've never like learned something from someone
+
+00:16:46.360 --> 00:16:52.200
+ So I can kind of relate to that never learn wait. I want to get that quote down. You've never learned something from someone
+
+00:16:52.200 --> 00:16:56.040
+ That's what we would say. I'm saying I'm not someone that's gonna like
+
+00:16:56.040 --> 00:16:59.160
+ Do a course or like
+
+00:16:59.160 --> 00:17:03.080
+ You know have a teacher like I just it just doesn't that type of learning doesn't uh
+
+00:17:03.960 --> 00:17:05.960
+ Are you tweeting this out right now? Yes
+
+00:17:05.960 --> 00:17:13.400
+ Sorry, I just had to get that out there
+
+00:17:13.400 --> 00:17:18.680
+ Okay, now continue defending your statement and what you actually I don't
+
+00:17:18.680 --> 00:17:24.120
+ This the whole like mentor mentee relationship has just never been something that's clicked for me
+
+00:17:24.120 --> 00:17:26.520
+ Um, so I can relate to that
+
+00:17:26.520 --> 00:17:29.000
+ um, but her flavor of it is pretty funny because
+
+00:17:29.000 --> 00:17:33.480
+ She like anytime I tell her something and it sounds a little weird or not
+
+00:17:33.480 --> 00:17:35.240
+ Like what she expected
+
+00:17:35.240 --> 00:17:40.600
+ She just convinced that what I'm saying can't be right and she like she like resists and fights a lot
+
+00:17:40.600 --> 00:17:44.680
+ Um, yeah, and to be fair. I'm like pretty extreme about certain things. I'm just like
+
+00:17:44.680 --> 00:17:51.000
+ Because my way of teaching is to like really go extreme in a way that might not even make sense. Do you understand?
+
+00:17:51.000 --> 00:17:57.800
+ Like something about that approach. Yeah, so she's she's like that doesn't trust me and half the time like
+
+00:17:57.800 --> 00:18:01.400
+ It's like, you know, I'm like good at this, right? Like, you know, I've like
+
+00:18:02.360 --> 00:18:06.120
+ I've done this for so many years and like a lot of people think I'm good at this stuff
+
+00:18:06.120 --> 00:18:11.320
+ But you don't for some reason how many how many times
+
+00:18:11.320 --> 00:18:17.960
+ I think you're good. How many times a day do you say to her? Uh, isn't it funny how i'm always right?
+
+00:18:17.960 --> 00:18:23.880
+ It's not every day. It's usually like I build it up over
+
+00:18:23.880 --> 00:18:28.920
+ A series of weeks and then I use it every once in a while. Yeah
+
+00:18:29.480 --> 00:18:33.080
+ Wait, you don't think I think you're good at what was it? You don't think I think I'm sorry. I I met
+
+00:18:33.080 --> 00:18:37.960
+ I was saying that to her. You met for her. I got you. I can find you 100 people that think i'm good at this, but
+
+00:18:37.960 --> 00:18:43.080
+ For some reason you don't you're like instinctive to not think i'm good at it. That's funny
+
+00:18:43.080 --> 00:18:46.520
+ Yeah, and to be fair a lot of the way that I teach is kind of like
+
+00:18:46.520 --> 00:18:49.240
+ karate kid stuff where
+
+00:18:49.240 --> 00:18:51.240
+ You just do not understand why the hell
+
+00:18:51.240 --> 00:18:56.040
+ You're doing the thing and when you ask i'm just like shut up, you know
+
+00:18:58.280 --> 00:19:00.280
+ So i've been doing
+
+00:19:00.280 --> 00:19:06.040
+ That's funny. Yeah, but it's been good. I'm glad she's into it and I think she's
+
+00:19:06.040 --> 00:19:10.120
+ There's like areas of it that clicked with her more and she's a lot more motivated to do it
+
+00:19:10.120 --> 00:19:14.760
+ Like the shift back to css has her really motivated because um
+
+00:19:14.760 --> 00:19:17.560
+ She understands that stuff well
+
+00:19:17.560 --> 00:19:21.240
+ And just removing levels of abstraction is a it's always helpful when someone is
+
+00:19:21.240 --> 00:19:23.800
+ Uh
+
+00:19:23.800 --> 00:19:29.880
+ Can I make an observation that's unrelated all this? Yeah, that's just an overwhelming feeling and I can't go any longer without saying it
+
+00:19:29.880 --> 00:19:35.960
+ I think exercise is really important. I feel very depressed and it's probably because for like a week. I haven't moved
+
+00:19:35.960 --> 00:19:38.200
+ It's crazy how true that is
+
+00:19:38.200 --> 00:19:45.240
+ It's really true. Yeah, I hate that it's true, but it's very true. Yeah. Yeah, like when I when I went when I go through periods like that
+
+00:19:45.240 --> 00:19:48.520
+ I didn't like the day I start to snap out of it
+
+00:19:49.160 --> 00:19:56.600
+ I just can't believe how good I feel and how long I went without that that said i'm currently in that kind of
+
+00:19:56.600 --> 00:19:58.840
+ slump
+
+00:19:58.840 --> 00:20:04.200
+ But I but this is the first time I don't feel that way. Oh, well, you're not far enough into the slump. Maybe it's no
+
+00:20:04.200 --> 00:20:09.000
+ This is actually okay. So here's two things of it. I
+
+00:20:09.000 --> 00:20:14.840
+ Don't really feel as bad as I normally do both mentally and physically and when I say physically
+
+00:20:14.840 --> 00:20:20.920
+ I mean like when I like look at myself, I'm like, I usually do great in certain ways and I've gone through this
+
+00:20:20.920 --> 00:20:27.080
+ enough times where I've like seen that but I feel like I just haven't and I don't want to like
+
+00:20:27.080 --> 00:20:32.520
+ Completely correlate this because like who knows but if this whole like diet I'm doing
+
+00:20:32.520 --> 00:20:37.000
+ I feel like it's like somehow related to that because the only thing that's changed takes some beef talent
+
+00:20:37.000 --> 00:20:39.000
+ Yeah, like my I like
+
+00:20:39.000 --> 00:20:44.840
+ There's like I said, I've gone through phase where I worked out a lot and I stop for a month and I see exactly like okay
+
+00:20:44.840 --> 00:20:48.600
+ My traps like decreased by this much like I can just like easily easily see that
+
+00:20:48.600 --> 00:20:52.680
+ And did you say your traps? Yeah, for some reason whenever I work out like my traps
+
+00:20:52.680 --> 00:20:56.280
+ Like really big really quick and then when I stop they like
+
+00:20:56.280 --> 00:21:01.640
+ It's awesome. Hey, I mean, I don't know if it's awesome like it's it's like I actually don't like
+
+00:21:01.640 --> 00:21:04.200
+ that part being so muscular but
+
+00:21:05.560 --> 00:21:09.800
+ For whatever reason maybe the workout I do just a very like shoulder focus. Yeah. Yeah, that's so it's a nice stop
+
+00:21:09.800 --> 00:21:13.000
+ I can just see that shrinking and it's like way the way I measure like how out of shape I am
+
+00:21:13.000 --> 00:21:16.360
+ Yeah, it's been a very long time and they haven't degraded that much
+
+00:21:16.360 --> 00:21:22.520
+ Um, I think I'm just consuming like way more protein than I that'll do it. Yeah, I normally do
+
+00:21:22.520 --> 00:21:27.880
+ Yeah, I've just uh, I think it's been like three months that it's such a slow fade for me
+
+00:21:27.880 --> 00:21:32.200
+ Like I stopped going to open mat. That was my main jiu-jitsu
+
+00:21:32.680 --> 00:21:37.960
+ Practice and then it's like travel and stuff has just made it where
+
+00:21:37.960 --> 00:21:42.760
+ It's yeah between travel and then just random life events
+
+00:21:42.760 --> 00:21:46.920
+ It's like I was I was going from two or three personal trainer sessions a week
+
+00:21:46.920 --> 00:21:50.760
+ To like two or one and then it was just one and then we like missed a couple weeks
+
+00:21:50.760 --> 00:21:52.840
+ And then I got one in and then I missed another week
+
+00:21:52.840 --> 00:21:55.240
+ So it was like once in a whole month I had gone
+
+00:21:55.240 --> 00:21:57.800
+ And then kasey's been gone this week
+
+00:21:57.800 --> 00:21:59.720
+ which has been the
+
+00:21:59.720 --> 00:22:03.720
+ Just like the exclamation point on the whole thing because I literally haven't been able to go for walks
+
+00:22:03.720 --> 00:22:05.800
+ like I've got the boys so I'm just like
+
+00:22:05.800 --> 00:22:09.880
+ I I get no physical activity and
+
+00:22:09.880 --> 00:22:14.440
+ It's just resulted in this culmination of like
+
+00:22:14.440 --> 00:22:18.600
+ What happened? It's it's like it all snuck up on me and then
+
+00:22:18.600 --> 00:22:22.760
+ I just realized how inactive I've been for like two or three months
+
+00:22:22.760 --> 00:22:23.640
+ Yeah
+
+00:22:23.640 --> 00:22:27.560
+ Like I was hanging on by a thread and then I just cut the thread this week and
+
+00:22:28.280 --> 00:22:30.280
+ And it's all caught up in this like mental
+
+00:22:30.280 --> 00:22:32.600
+ feeling of
+
+00:22:32.600 --> 00:22:37.640
+ Like the coffees just not doing it for me. I'm not getting up every morning and like ready to tackle the world
+
+00:22:37.640 --> 00:22:43.560
+ And I think it was mostly just the exercise. Okay. I hate it. I hate that that's true. My question is though
+
+00:22:43.560 --> 00:22:48.200
+ I've gone through the same exact thing where like i'm on it
+
+00:22:48.200 --> 00:22:52.760
+ And then like a few different things happen back to back and just totally knocks me off of
+
+00:22:52.760 --> 00:22:58.040
+ The thing I was on all your habits. Yeah, but then what I just started doing was reducing
+
+00:22:59.080 --> 00:23:00.520
+ the
+
+00:23:00.520 --> 00:23:02.920
+ amount of friction it takes from
+
+00:23:02.920 --> 00:23:09.720
+ To like just go do something because I it's like, okay. I used to go to yeah the equinox near me, which was a
+
+00:23:09.720 --> 00:23:13.560
+ Five minute drive. So it's getting the car. No drive. Go do it
+
+00:23:13.560 --> 00:23:16.120
+ Um and I come back
+
+00:23:16.120 --> 00:23:21.080
+ Uh, then I was like, okay, that's even that burden like the moment my life isn't like
+
+00:23:21.080 --> 00:23:25.640
+ Chill like I start to like fall off of that. So let me just go to the gym at the end of my street
+
+00:23:25.960 --> 00:23:29.240
+ So then now the burn just get walking out of my house and walking down to it
+
+00:23:29.240 --> 00:23:32.520
+ Then even that became like, you know
+
+00:23:32.520 --> 00:23:35.560
+ A little too brittle then I was like, let me just work out my backyard
+
+00:23:35.560 --> 00:23:41.080
+ And that like kind of helped none of this I actually solves a real problem, but it just feels like
+
+00:23:41.080 --> 00:23:45.400
+ Like the margin for error is higher because I can always do something
+
+00:23:45.400 --> 00:23:51.000
+ Yeah. Yeah. Yeah. Is that work for you or no? Uh, so here's what I would say
+
+00:23:51.000 --> 00:23:54.040
+ I've definitely had this thought
+
+00:23:54.040 --> 00:23:55.160
+ that
+
+00:23:55.160 --> 00:23:58.200
+ You know, it's getting too hard to like sync up with my personal trainer
+
+00:23:58.200 --> 00:24:01.000
+ It's 15-minute drive there, which isn't that much
+
+00:24:01.000 --> 00:24:05.800
+ But it's like, I mean in the Ozarks, that's not very much. I know in a city. That's like forever
+
+00:24:05.800 --> 00:24:09.960
+ But it's not that big of a deal to drive 15 minutes there 15 minutes back
+
+00:24:09.960 --> 00:24:15.080
+ It's more that his schedule is very restrictive. So I have to go at like this time of the day
+
+00:24:15.080 --> 00:24:18.120
+ That's so hard. Yes. Okay. So that that was the issue
+
+00:24:18.120 --> 00:24:21.560
+ That was the exact issue of the gym on my streets because they're across for gym
+
+00:24:21.560 --> 00:24:23.800
+ And I just wanted to use them for open gym and they only had like
+
+00:24:23.800 --> 00:24:27.240
+ Like three slots in a day for like an hour and a half
+
+00:24:27.240 --> 00:24:33.720
+ And then if I missed it, it was just it's very hard to have those kind of like restrictions on a day. Yeah
+
+00:24:33.720 --> 00:24:36.040
+ Uh, so I think
+
+00:24:36.040 --> 00:24:41.720
+ Okay, I'll just start working out at home because we have we have pretty good setup here at the house. Casey works out at home
+
+00:24:41.720 --> 00:24:43.880
+ that's like
+
+00:24:43.880 --> 00:24:45.320
+ super low friction
+
+00:24:45.320 --> 00:24:46.920
+ The problem is
+
+00:24:46.920 --> 00:24:51.960
+ If I start trying to do like especially string training stuff on my own without a personal trainer, I'm so
+
+00:24:51.960 --> 00:24:54.600
+ I'm so unmotivated. I like
+
+00:24:54.600 --> 00:24:59.480
+ It's easier. I think Casey has a good time because she does like hit workouts and stuff
+
+00:24:59.480 --> 00:25:02.520
+ And I think youtube is rich with right those types of workouts
+
+00:25:02.520 --> 00:25:06.280
+ There's plenty of them and you can just get on some plan and do a hit workout every day or whatever
+
+00:25:06.280 --> 00:25:12.520
+ Strength training. Maybe it does exist on youtube. I've never gone down that if I just don't have a plan and I go into the gym
+
+00:25:12.520 --> 00:25:14.600
+ It's two problems one
+
+00:25:14.600 --> 00:25:18.920
+ I don't have a plan. So I just kind of aimlessly do a bunch of stuff
+
+00:25:18.920 --> 00:25:21.400
+ And it just I don't push myself that hard
+
+00:25:21.400 --> 00:25:23.880
+ And then two is the not pushing myself. It's the not having
+
+00:25:23.880 --> 00:25:29.640
+ just like if I did have a workout not having the uh, discipline
+
+00:25:29.640 --> 00:25:31.480
+ or
+
+00:25:31.480 --> 00:25:36.840
+ Motivation to like really wear myself out. Yeah, like one session with my personal trainer
+
+00:25:36.840 --> 00:25:41.240
+ He just kills me and there's stuff I would just never do to myself and like I hate every second of it
+
+00:25:42.600 --> 00:25:46.120
+ But I know if I show up at the gym for that hour, he's gonna push me really hard
+
+00:25:46.120 --> 00:25:50.440
+ I just can't do that to myself for some reason. Yeah, I really have to have that like accountability
+
+00:25:50.440 --> 00:25:55.880
+ I don't know. Yeah, I mean that that's like the fundamental truth like so Liz has been working a personal trainer for the past couple months
+
+00:25:55.880 --> 00:25:59.640
+ And yeah, it's like
+
+00:25:59.640 --> 00:26:04.360
+ Like she's she's she's been on a pretty good run for the past two years in terms of like working out
+
+00:26:04.360 --> 00:26:06.840
+ but in the past couple months just like
+
+00:26:06.840 --> 00:26:11.720
+ It just works like when you work with a personal trainer like it just works and you just it just works
+
+00:26:11.880 --> 00:26:15.880
+ As long as you show up. Yeah, but when I first got into working out
+
+00:26:15.880 --> 00:26:19.000
+ Um, because I used to play a lot of sports, but I hated working out
+
+00:26:19.000 --> 00:26:22.760
+ Then once I became like an adult and I wasn't playing as much sports. I was like, oh, I have to like
+
+00:26:22.760 --> 00:26:29.320
+ Try to go. Yeah arbitrarily move my body in certain ways. Yeah, I got into it
+
+00:26:29.320 --> 00:26:31.320
+ and we talked about before through um
+
+00:26:31.320 --> 00:26:36.840
+ That mcguff workout thing I talked about where like it's like as much pain as possible
+
+00:26:36.840 --> 00:26:40.600
+ Um, and I watched a bunch of videos with some like bodybuilders that like
+
+00:26:41.720 --> 00:26:45.560
+ Just because they because they that's what you're describing is if you were trying to be a
+
+00:26:45.560 --> 00:26:49.400
+ Like a bodybuilder mine is a star. Yeah, like the actual working out part
+
+00:26:49.400 --> 00:26:51.560
+ uh
+
+00:26:51.560 --> 00:26:53.560
+ It's just about like pushing
+
+00:26:53.560 --> 00:26:57.240
+ To like your max when pain on your own every single day, right?
+
+00:26:57.240 --> 00:26:59.960
+ So almost like entirely like a mental exercise and I really understood it
+
+00:26:59.960 --> 00:27:07.160
+ Like okay. This is actually not my body physically failing. It's like i'm working out my mind to be like
+
+00:27:07.160 --> 00:27:09.880
+ Yeah, I could quit at this rep
+
+00:27:11.160 --> 00:27:15.320
+ Like my body can technically do one more. It's more that my mind is quick versus my body
+
+00:27:15.320 --> 00:27:17.160
+ um
+
+00:27:17.160 --> 00:27:19.560
+ So I didn't entering it that way like I and like the first
+
+00:27:19.560 --> 00:27:24.600
+ Like six months of me working out was kind of in that mindset so that that kind of helped
+
+00:27:24.600 --> 00:27:28.680
+ But the reality is is like even with that if I had a personal trainer, I would just do better
+
+00:27:28.680 --> 00:27:31.320
+ That's just a fact
+
+00:27:31.320 --> 00:27:37.720
+ So I don't know. I'm I'm on the fence. I really enjoy my personal trainer. We have a good report now
+
+00:27:38.360 --> 00:27:43.000
+ But his times just don't work very well for my schedule and that's always going to be a problem
+
+00:27:43.000 --> 00:27:45.640
+ And I feel like
+
+00:27:45.640 --> 00:27:50.120
+ If I could find somebody that I could do it like early in the morning or something that would be less friction
+
+00:27:50.120 --> 00:27:54.120
+ I don't know. I just got to start getting into it again. I got to get back into jiu jitsu
+
+00:27:54.120 --> 00:27:58.120
+ That was a nice hobby. Yeah, give me like a reason to want to work out
+
+00:27:58.120 --> 00:28:02.600
+ To get more fit to be better. The other pattern i've noticed in myself is
+
+00:28:02.600 --> 00:28:07.640
+ Um, so I really like trying training. I love just doing everything at the squat rack
+
+00:28:07.720 --> 00:28:09.880
+ Like just doing every possible exercise with the barbell
+
+00:28:09.880 --> 00:28:13.080
+ And I'll usually when I get back on it
+
+00:28:13.080 --> 00:28:17.640
+ I usually start by doing that because I enjoy it and I like really like doing that every day
+
+00:28:17.640 --> 00:28:19.640
+ There's not like any resistance to me
+
+00:28:19.640 --> 00:28:20.840
+ Going to do that
+
+00:28:20.840 --> 00:28:24.120
+ Now do that for a while and I'll get to like a pretty good place and I'll be like
+
+00:28:24.120 --> 00:28:29.800
+ Man like strung training is good. But like obviously for my health. I need to do at least some amount of cardio, right?
+
+00:28:29.800 --> 00:28:32.760
+ But then I'll be like, okay before I do my strung training
+
+00:28:32.760 --> 00:28:36.040
+ Let me just do just 10 minutes on a stairmaster or something and just like
+
+00:28:36.680 --> 00:28:40.360
+ I'm like win myself and I'll do that for a bit, but I don't like doing that
+
+00:28:40.360 --> 00:28:43.080
+ So eventually
+
+00:28:43.080 --> 00:28:45.560
+ I stopped doing everything because
+
+00:28:45.560 --> 00:28:50.600
+ I'm just like, uh, if I work out then I have to do the stairmaster and I don't want to do that today
+
+00:28:50.600 --> 00:28:54.680
+ You know, so it's kind of like the one thing that kind of ruins the workout
+
+00:28:54.680 --> 00:28:58.280
+ Yeah, so I've noticed that I've gone through this path a bunch of times where
+
+00:28:58.280 --> 00:29:01.160
+ I'm like, maybe I should just
+
+00:29:01.160 --> 00:29:04.040
+ Like obviously something is better than nothing
+
+00:29:04.040 --> 00:29:10.120
+ But I'm like resulting on landing on nothing. Yeah, I have a hard time with this. Yeah, same problem. And I'm like, maybe I should just
+
+00:29:10.120 --> 00:29:15.160
+ Find join some kind of sport and I can just count that as as my cardio
+
+00:29:15.160 --> 00:29:20.200
+ Which is probably what bj was for you. Yeah, the best part about sports is like
+
+00:29:20.200 --> 00:29:23.480
+ You wear yourself out and it's fun and you don't think about it
+
+00:29:23.480 --> 00:29:29.640
+ Yeah, like so much of working out or just like running or walking even it's just like the whole time
+
+00:29:29.640 --> 00:29:33.640
+ I'm just thinking about how I I hate this like this is pointless and I hate it
+
+00:29:33.720 --> 00:29:36.360
+ Yeah, whereas like a sport you're into it. You don't think about it
+
+00:29:36.360 --> 00:29:42.120
+ Uh, yeah jiu-jitsu is that for me. I think it still lacks something like the team sport aspect. Yeah, yeah
+
+00:29:42.120 --> 00:29:49.480
+ It's different early like yeah early in adulthood. I was doing like the basketball leagues like rec leagues city league
+
+00:29:49.480 --> 00:29:54.520
+ That was really fun. Do that too because it felt like yeah felt like high school sports again
+
+00:29:54.520 --> 00:29:57.000
+ And it felt like you have that
+
+00:29:57.000 --> 00:30:02.840
+ Like when the game starts, it's like intense. It's a different kind of feeling than just like a pickup game
+
+00:30:03.400 --> 00:30:08.600
+ Uh, yeah, I don't know. I I need something. I need something like that too. Yeah, the user mind
+
+00:30:08.600 --> 00:30:10.600
+ I think I told you about it before but
+
+00:30:10.600 --> 00:30:15.960
+ Uh, I did the same thing. I did like a rec basketball league with my friends in in New York for a bunch of years
+
+00:30:15.960 --> 00:30:20.760
+ The first year for some reason the league put us
+
+00:30:20.760 --> 00:30:24.680
+ And with a bunch of other teams that uh
+
+00:30:24.680 --> 00:30:28.840
+ Just were not at the same skill level is how I can put it
+
+00:30:29.400 --> 00:30:35.400
+ We went to our first game and I don't think we scored a single point. I think we might have scored like it was that bad
+
+00:30:35.400 --> 00:30:43.320
+ They and they just wouldn't stop like they they were up on like 50 points and they were just uh full core press and then like dunking
+
+00:30:43.320 --> 00:30:45.320
+ Yeah
+
+00:30:45.320 --> 00:30:50.060
+ And i'm like aren't you tired of this? Like we clean full core. Yeah full core press and rec league
+
+00:30:50.060 --> 00:30:54.200
+ New York city. Oh man. Yeah, it was ridiculous. Uh, I love it. I'm like
+
+00:30:55.000 --> 00:30:59.400
+ That was bad. Then then then they adjusted us and put us in some of them. I get in there. I put you in the
+
+00:30:59.400 --> 00:31:01.960
+ appropriate league
+
+00:31:01.960 --> 00:31:06.200
+ Oh, it's funny
+
+00:31:06.200 --> 00:31:13.160
+ Uh, love to have some video of that. Oh, we do have a famous dax photo from your basketball days your rec basketball days
+
+00:31:13.160 --> 00:31:19.640
+ Screaming that's not a rec basketball. Yeah. That's just us. That's just us. That's just us. Yeah, okay, pick up in New York
+
+00:31:19.640 --> 00:31:22.280
+ But I think I just so I I did
+
+00:31:23.160 --> 00:31:27.560
+ Go to one ultimate pickup ultimate game like a year ago when I first sort of like
+
+00:31:27.560 --> 00:31:30.120
+ I forgot I first went to Miami. Mm-hmm. And
+
+00:31:30.120 --> 00:31:35.320
+ I remember the next day my whole body was like, okay, this is insane
+
+00:31:35.320 --> 00:31:38.200
+ Like I can't believe all these places that hurt, but
+
+00:31:38.200 --> 00:31:41.880
+ That's not a bad thing. That's a good thing. That's like, okay. This means this type of thing
+
+00:31:41.880 --> 00:31:44.200
+ I totally enjoyed doing it played for two hours
+
+00:31:44.200 --> 00:31:47.960
+ And pervert workout. I just need to like get back into that
+
+00:31:48.680 --> 00:31:53.960
+ And then I never have to be like am I doing enough cardio because I have right I can just do this run training
+
+00:31:53.960 --> 00:31:56.680
+ Which I which I enjoy the other thing is I guess
+
+00:31:56.680 --> 00:31:59.640
+ I don't know how much I want to count this, but
+
+00:31:59.640 --> 00:32:03.080
+ I do technically like
+
+00:32:03.080 --> 00:32:08.360
+ Wind myself like get out of breath every single day because and as you know in the morning
+
+00:32:08.360 --> 00:32:12.120
+ I blow bubbles but in the evening to go get the second type of playtime
+
+00:32:12.120 --> 00:32:13.800
+ and
+
+00:32:13.800 --> 00:32:17.800
+ All I do is take this ball this like big green soccer ball type thing
+
+00:32:18.360 --> 00:32:22.120
+ And just try to keep it away from him like either like we played basketball on like dribbling
+
+00:32:22.120 --> 00:32:23.960
+ I try to keep it away from him or like
+
+00:32:23.960 --> 00:32:25.960
+ Yeah, soccer mode where I do it all with my feet
+
+00:32:25.960 --> 00:32:29.400
+ And I've never played soccer before and I've just gotten so good at not so good
+
+00:32:29.400 --> 00:32:33.480
+ But just like I picked up on all these like dribbling tricks just from trying to keep it away from him
+
+00:32:33.480 --> 00:32:41.080
+ And it is yeah hiring. It is so a lot of time because he's so fast and he can like change directions in like a second so
+
+00:32:41.080 --> 00:32:43.720
+ It is just like
+
+00:32:43.720 --> 00:32:48.120
+ Really tiring and I can usually only do it for like 10 minutes or so before I'm like completely
+
+00:32:49.160 --> 00:32:53.640
+ Wiped out so my activity I guess doesn't go to zero, but I don't know how much I can count that
+
+00:32:53.640 --> 00:32:59.320
+ Soccer is amazing like I'm even just dribbling just moving around with the ball is tiring
+
+00:32:59.320 --> 00:33:03.560
+ But like the field is so big in college. We we played like a pickup
+
+00:33:03.560 --> 00:33:10.280
+ Soccer game in college once and like none of us played soccer, but it was like we went to the college soccer field and just like
+
+00:33:10.280 --> 00:33:17.400
+ Played a random game. It is so huge and like the amount of running you do playing soccer
+
+00:33:17.960 --> 00:33:21.640
+ Like I remember playing as a kid, but I never realized and as a kid it's not
+
+00:33:21.640 --> 00:33:25.160
+ I'm not going to play as a kid. I just based it somehow. I just miss soccer
+
+00:33:25.160 --> 00:33:27.960
+ It just didn't yeah, it was another thing I ever did
+
+00:33:27.960 --> 00:33:35.560
+ I guess here at least in the midwest every kid plays soccer and then like nobody played like the high schools don't really have soccer
+
+00:33:35.560 --> 00:33:39.800
+ There's not enough. I don't know interest. Maybe that's changing, but
+
+00:33:39.800 --> 00:33:47.560
+ Uh, yeah, just like didn't really have any idea how large how large a soccer field was until college and then
+
+00:33:48.360 --> 00:33:50.760
+ We all just died one night trying to play soccer
+
+00:33:50.760 --> 00:33:53.160
+ I mean if you look at we're in pretty good shape. You look at a lot of like
+
+00:33:53.160 --> 00:33:59.480
+ The best soccer players. It does feel like a big part of their skill set is conserving energy for the right moments
+
+00:33:59.480 --> 00:34:05.880
+ Um, that makes sense like they're not sprinting all the time. Like if you watch what's a messy just walking all the time
+
+00:34:05.880 --> 00:34:10.520
+ Yeah, that's true. Okay, and all of a sudden he's just like they use they choose their moments. Yeah, yeah
+
+00:34:10.520 --> 00:34:15.080
+ Uh, and the whole like faking injuries thing. I think that's like a big part of just getting a break really
+
+00:34:15.560 --> 00:34:21.560
+ That's a like part of the soccer culture. Yeah fake injuries. Yeah interesting. No, we should say football
+
+00:34:21.560 --> 00:34:27.640
+ I guess for our international audience. Well, I was gonna say I was gonna talk about actual football. Um, oh, yeah
+
+00:34:27.640 --> 00:34:30.200
+ american football jay is a
+
+00:34:30.200 --> 00:34:32.680
+ Really into the nfl?
+
+00:34:32.680 --> 00:34:39.560
+ Just as a oh, yeah, he is. Yes. Same as a i was gonna say user. But he's as a fan as a fan
+
+00:34:39.560 --> 00:34:45.560
+ Also, he's called fans interested in the business of it and he was telling me a lot about of the nfl
+
+00:34:45.560 --> 00:34:50.360
+ Yeah, I think like he takes a lot of inspiration from the way they think and he was like they
+
+00:34:50.360 --> 00:34:52.120
+ view
+
+00:34:52.120 --> 00:34:57.640
+ Their sport more than everyone else as a product that they're trying to like scale as big as possible
+
+00:34:57.640 --> 00:35:03.800
+ Which means they're like constantly tweaking the rules and trying to figure how to deliver the most entertaining product
+
+00:35:04.120 --> 00:35:10.440
+ Possible, which is different from how other sports like not every sport is a naly like this like I think he was mentioning that
+
+00:35:10.440 --> 00:35:17.240
+ Baseball people feel more like there's a tradition to this and like we need to like stick to the tradition and honor it
+
+00:35:17.240 --> 00:35:23.160
+ Yeah, whereas nfl has like blown up like crazy in the past. I guess I know five 10 years because
+
+00:35:23.160 --> 00:35:27.880
+ They just view it is totally different thing. Yeah, it's so interesting
+
+00:35:27.880 --> 00:35:32.520
+ I'm also an NFL fan and obviously like I keep good tabs on all the leagues
+
+00:35:32.920 --> 00:35:35.640
+ Uh, just with my line of work
+
+00:35:35.640 --> 00:35:39.880
+ Bay baseball has like made some attempt at least in the last couple years
+
+00:35:39.880 --> 00:35:46.760
+ They've got like the pitch camp thing or the timer. Yeah, they're just so far behind like nobody wants to watch baseball
+
+00:35:46.760 --> 00:35:51.480
+ And that's their the inherent problem with baseball. It's like everyone's standing around. It's not very fun to watch
+
+00:35:51.480 --> 00:35:53.400
+ Yeah, it's still boring
+
+00:35:53.400 --> 00:35:57.960
+ But the NFL has like all kinds of problems to solve because
+
+00:35:58.760 --> 00:36:03.960
+ One they're yeah, they're always trying to make it a better product and they're trying to like spread it and take over the tv
+
+00:36:03.960 --> 00:36:07.480
+ Calendar because they've just got this huge lead in the us on all the other leagues
+
+00:36:07.480 --> 00:36:13.960
+ Uh, so they're like I think the chiefs play on every game every day of the week but Tuesday this year
+
+00:36:13.960 --> 00:36:18.200
+ Like they've now got christmas day games. They had a black friday game this year
+
+00:36:18.200 --> 00:36:21.720
+ They're just like very aggressively trying to take over
+
+00:36:21.720 --> 00:36:26.120
+ The tv calendar for the months that the NFL season's active
+
+00:36:26.200 --> 00:36:28.920
+ but they also have to deal with like the fact that
+
+00:36:28.920 --> 00:36:35.240
+ NFL athletes are insane and every year they just keep pushing the boundaries of like size and speed and strength
+
+00:36:35.240 --> 00:36:38.440
+ And they it's like they will kill each other
+
+00:36:38.440 --> 00:36:44.840
+ If they don't put certain rules in place to just make the game more safe. So that's the other thing they have to deal with is like
+
+00:36:44.840 --> 00:36:51.000
+ You've got this sport where there's collisions. It's very violent and you've got athletes who are just getting more and more
+
+00:36:51.480 --> 00:36:57.800
+ menacing uh and then a public that's more and more aware of like the brain injury side of the NFL
+
+00:36:57.800 --> 00:37:00.680
+ So that they've had to do all these things to make the game safer
+
+00:37:00.680 --> 00:37:04.840
+ Which could work against some of their goals with making it more entertaining
+
+00:37:04.840 --> 00:37:11.400
+ It's it's an interesting league to follow over the last decade like they've made all these changes that that you've got the old timers
+
+00:37:11.400 --> 00:37:16.120
+ Who feel like it's not even football anymore? You can't even hit the quarterback
+
+00:37:16.120 --> 00:37:21.080
+ But then at the same time like it's a better product than ever and it's more entertaining. There's more points or whatever
+
+00:37:21.800 --> 00:37:28.920
+ Yeah, I could talk about the NFL a lot. It's it's interesting. Well, he was saying who sent me that like it's be it's been such like this iterative
+
+00:37:28.920 --> 00:37:33.560
+ Optimize for you know the things you talked about process that no one even knows the rules anymore
+
+00:37:33.560 --> 00:37:36.280
+ But like it doesn't it doesn't really matter at all
+
+00:37:36.280 --> 00:37:41.560
+ Yeah, yeah, no, they they have like weird defensive things like you can't
+
+00:37:41.560 --> 00:37:46.840
+ Specific kinds of tackling and people don't even know what like what is a hip drop tackle
+
+00:37:46.840 --> 00:37:50.760
+ But like you can't do it and randomly it'll come up in some game because somebody got hurt
+
+00:37:51.320 --> 00:37:53.640
+ Yeah, it is interesting that what's
+
+00:37:53.640 --> 00:37:56.920
+ Interesting to me is that this year
+
+00:37:56.920 --> 00:38:03.880
+ So like they've done all these things to try and make it more exciting and more points and like generally favored the offensive side of the ball
+
+00:38:03.880 --> 00:38:08.760
+ It's like the defensive-minded people in the league caught up in this year
+
+00:38:08.760 --> 00:38:13.080
+ There was like this the first half of the season was just like terrible offense and like defenses
+
+00:38:13.080 --> 00:38:16.920
+ We're just limiting scoring it kind of unprecedented levels
+
+00:38:16.920 --> 00:38:20.120
+ And I think that's gotten a little better the second half of the season
+
+00:38:20.120 --> 00:38:23.400
+ But it is interesting like they can do all these things with the rules to try and make it
+
+00:38:23.400 --> 00:38:28.360
+ More exciting and then like defensive coordinators can just figure out how to make it not exciting again
+
+00:38:28.360 --> 00:38:31.080
+ Yeah, I mean I think everything in life works that way
+
+00:38:31.080 --> 00:38:37.000
+ There's like rules that work then eventually they get optimized out and yeah, I come up with a different really happens
+
+00:38:37.000 --> 00:38:42.600
+ Or it's happens in politics. It happens like happens everywhere, but I mean that's what's cool. It's like constantly
+
+00:38:42.600 --> 00:38:45.320
+ Evolving and not at all static
+
+00:38:46.280 --> 00:38:52.600
+ Like an f1 like there was just an era where mercedes just one every single race every single race
+
+00:38:52.600 --> 00:38:56.360
+ I've got to get into f1. I've heard people talk about this. Yeah, and it was like so boring
+
+00:38:56.360 --> 00:39:00.760
+ and yeah for like one driver, right was really
+
+00:39:00.760 --> 00:39:03.400
+ Louis Hamilton, okay, so
+
+00:39:03.400 --> 00:39:05.240
+ It's always like oh, he's so great
+
+00:39:05.240 --> 00:39:08.680
+ Like he like he literally wins every single like when I got into it
+
+00:39:08.680 --> 00:39:13.160
+ Was a round when he started to win a lot and so like this huge period of time
+
+00:39:13.480 --> 00:39:17.880
+ It was just like I ignored first place and it was more looking to see what was gonna happen in second or third
+
+00:39:17.880 --> 00:39:20.600
+ Yeah, I was like oh, Louis Hamilton so great mercedes so great
+
+00:39:20.600 --> 00:39:23.880
+ And it is like a team sport at the end of the day like with a lot of coordination going on
+
+00:39:23.880 --> 00:39:26.360
+ then um
+
+00:39:26.360 --> 00:39:28.360
+ there was one race where
+
+00:39:28.360 --> 00:39:34.520
+ There was a team that typically came like in the bottom like maybe a lot they were always friends like last one or two
+
+00:39:34.520 --> 00:39:42.600
+ I forgot what the reason was I think it's because this driver of that car is like super young and he was technically like sponsored by mercedes in some other way
+
+00:39:43.480 --> 00:39:47.160
+ They let him go in an f1 car. Sorry and a mercedes car
+
+00:39:47.160 --> 00:39:49.800
+ He like he like drove for that team. Yeah
+
+00:39:49.800 --> 00:39:56.520
+ instantly was just in first place the whole like I'd never seen him do anything at all and then he was just
+
+00:39:56.520 --> 00:40:03.720
+ like immediately like the best driver on the track and some crazy freak thing happened where like he got a tire puncture
+
+00:40:03.720 --> 00:40:06.280
+ And he ended up like losing
+
+00:40:06.280 --> 00:40:11.880
+ But he was literally about to win this random ass person just put in this car that he hasn't even practiced in that much
+
+00:40:12.440 --> 00:40:18.680
+ Is now like phenomenal. Yeah, so is more. It's more the car. Yeah, just in the engineering side
+
+00:40:18.680 --> 00:40:24.120
+ They're just like totally killing and an f1 added a rule about they added just like caps on the
+
+00:40:24.120 --> 00:40:29.480
+ Like what's called the there's a name for this in sport show when they cap how much a team can spend
+
+00:40:29.480 --> 00:40:35.160
+ Yeah, what it's called. Oh like a salary cap kind of thing. Yeah, like a luxury tax or whatever luxury tax
+
+00:40:35.160 --> 00:40:36.200
+ Yeah, yeah
+
+00:40:36.200 --> 00:40:40.360
+ So I forgot what exactly they did and you know it made stuff a lot more competitive
+
+00:40:40.440 --> 00:40:46.200
+ But uh, yeah, it was funny to see like for years or everyone's like and obviously those Hamilton is still a great driver
+
+00:40:46.200 --> 00:40:51.560
+ But it just felt like he was the one winning and then just someone else uses his car and they're like
+
+00:40:51.560 --> 00:40:54.360
+ Almost as good
+
+00:40:54.360 --> 00:40:55.400
+ Yeah
+
+00:40:55.400 --> 00:40:58.040
+ The interesting I know I've heard some of the f1 stuff
+
+00:40:58.040 --> 00:41:02.760
+ Like that the winning it's like as you win as a team wins
+
+00:41:02.760 --> 00:41:06.440
+ They get an advantage in terms of their budget or something
+
+00:41:07.160 --> 00:41:12.120
+ So they kind of get ahead on the r and d side because they're allowed to spend more or something
+
+00:41:12.120 --> 00:41:15.160
+ I don't know. I've heard that it's it's complicated because
+
+00:41:15.160 --> 00:41:18.040
+ the mercedes team
+
+00:41:18.040 --> 00:41:20.040
+ is attached to mercedes like
+
+00:41:20.040 --> 00:41:25.080
+ Multi-billion dollar corporation and like that's where they draw funding from
+
+00:41:25.080 --> 00:41:28.360
+ But there are teams on the track that are just like
+
+00:41:28.360 --> 00:41:31.800
+ Some random billionaires team and i'm sure they get asked to a lot of capital too
+
+00:41:31.800 --> 00:41:36.680
+ But obviously not the same level as like this is the marketing arm of mercedes like doing these f1 races
+
+00:41:37.000 --> 00:41:39.480
+ Right, um, so I think that created a lot of imbalance
+
+00:41:39.480 --> 00:41:42.040
+ Yeah, it's uh, the thing with f1 is
+
+00:41:42.040 --> 00:41:47.160
+ They also have a similar problem where it can be quite boring and it's really hard to
+
+00:41:47.160 --> 00:41:52.200
+ Make it better just because there's like you just can't control it. It's just a race at the end of the day
+
+00:41:52.200 --> 00:41:54.040
+ Like how much can you change about it?
+
+00:41:54.040 --> 00:41:55.080
+ Yeah
+
+00:41:55.080 --> 00:41:58.280
+ The moments where it's not boring are some of like the best
+
+00:41:58.280 --> 00:42:01.160
+ Things in sports
+
+00:42:01.160 --> 00:42:02.600
+ Yeah
+
+00:42:02.600 --> 00:42:07.640
+ But they're far and free between in most races you like go into it excited to see that but then it turns out
+
+00:42:07.640 --> 00:42:12.840
+ The three fastest people will just stay in positions one two three for the whole two hours
+
+00:42:12.840 --> 00:42:15.000
+ Nothing really really happens
+
+00:42:15.000 --> 00:42:19.160
+ So a lot of the reason f1 blew up was not because of
+
+00:42:19.160 --> 00:42:23.800
+ People watching the races it was because of the netflix series
+
+00:42:23.800 --> 00:42:26.840
+ Uh, drab to survive. Yeah, because i'm part of this
+
+00:42:26.840 --> 00:42:31.720
+ The reality show aspect of it is super super interesting
+
+00:42:31.720 --> 00:42:34.040
+ There's like so much drama behind the scenes
+
+00:42:34.040 --> 00:42:37.160
+ Um, just a lot of like complexity with like
+
+00:42:37.160 --> 00:42:42.040
+ The teams being pissed at the drivers their drivers being pissed at the teams and like a lot of this stuff
+
+00:42:42.040 --> 00:42:46.840
+ The complexity going on like you would just never see if you just watch stuff on the track and it also involves like
+
+00:42:46.840 --> 00:42:49.880
+ Traveling the world it's like a very like rich sport, right?
+
+00:42:49.880 --> 00:42:51.480
+ It's like there's like
+
+00:42:51.480 --> 00:42:56.840
+ One of the racers is like a billionaire son and just weird to think that there's like a billionaire like zooming around this track
+
+00:42:56.840 --> 00:42:58.120
+ um
+
+00:42:58.120 --> 00:43:01.160
+ And like he's like dad bought the team and then like it's just
+
+00:43:01.720 --> 00:43:03.720
+ yeah, there's like all is like
+
+00:43:03.720 --> 00:43:06.360
+ appealing stuff that's very entertaining but
+
+00:43:06.360 --> 00:43:12.280
+ Way wider appeal with that stuff than just literally watching the race. Yeah
+
+00:43:12.280 --> 00:43:18.280
+ Yeah, documentaries are so good because you do you get this peek into worlds that you don't even know exists
+
+00:43:18.280 --> 00:43:23.800
+ Yeah, I enjoy sports documentaries a lot too. I find it fascinating like the behind the scenes of
+
+00:43:23.800 --> 00:43:27.640
+ What just a giant industry that is sports
+
+00:43:28.520 --> 00:43:32.520
+ Yeah, I watched some of the like there's some NFL stuff that's interesting
+
+00:43:32.520 --> 00:43:39.560
+ Receiver and quarterback series. Oh speaking of media. I started well. I did listen to the first
+
+00:43:39.560 --> 00:43:45.000
+ Three-body problem book here. I finished it last night. How'd you like it? I didn't even know I was about to finish it
+
+00:43:45.000 --> 00:43:49.160
+ I didn't even know it was almost over. That's the interesting thing. Sometimes you listen to an audible book
+
+00:43:49.160 --> 00:43:53.720
+ You get really into it and then just suddenly it's like they're doing the credits. What that's the end?
+
+00:43:53.720 --> 00:43:55.800
+ Uh
+
+00:43:55.800 --> 00:44:01.160
+ It's so good actually. Yeah, really good. I'm I'm on the second book now. I don't know how many books there are but
+
+00:44:01.160 --> 00:44:07.800
+ I'm gonna try the the series. What are you making laughing because you're you're tweet about the names
+
+00:44:07.800 --> 00:44:12.200
+ About like not being able to tell us. Oh my god. Okay. I still don't know
+
+00:44:12.200 --> 00:44:17.720
+ Who half the people are because the names are chinese. You don't recognize them. It's uh, yes
+
+00:44:17.720 --> 00:44:24.680
+ And it's not very similar. So it's funny you say that because you who are like you commented on how it's difficult because you're like listening through it
+
+00:44:25.160 --> 00:44:30.040
+ Through audiobook. I read it. Mm-hmm. And I had a situation where I thought there was
+
+00:44:30.040 --> 00:44:34.200
+ I didn't realize two characters with the same character just from different time periods
+
+00:44:34.200 --> 00:44:38.040
+ I thought they were totally different people. I didn't realize till the end of the book like oh, yeah
+
+00:44:38.040 --> 00:44:42.600
+ That was the same name as the beginning, you know, I really need to look at like a diagram
+
+00:44:42.600 --> 00:44:47.000
+ that's like a tree like a family tree of characters from this book because
+
+00:44:47.000 --> 00:44:50.280
+ like I know a couple of them
+
+00:44:50.920 --> 00:44:56.680
+ Distinctly from the others, but the number of characters could be twice as many as I realize
+
+00:44:56.680 --> 00:45:02.040
+ It's you know, dashi. That's one of the matters. It's only I remember dashi. Is that the tough cop? Yeah
+
+00:45:02.040 --> 00:45:07.880
+ I said that he was the only character that said like the tough cop is like literally the one guy
+
+00:45:07.880 --> 00:45:13.400
+ Because like he has a different voice in the audible book. Oh, yeah, and it's like this very like grungy
+
+00:45:13.400 --> 00:45:17.320
+ Like I mean, you're reading my tough cop voice. There's not really a main character in that book
+
+00:45:17.320 --> 00:45:20.520
+ But that's like the most main character of the characters
+
+00:45:20.760 --> 00:45:26.920
+ Oh, really? Well, I guess in my memory. I would think yow. I would guess he I would guess yow me or whatever
+
+00:45:26.920 --> 00:45:30.040
+ Not yow me. That's a bad one player. I'm so sorry
+
+00:45:30.040 --> 00:45:34.360
+ It's close to that her name is like yow
+
+00:45:34.360 --> 00:45:39.800
+ I would have thought she was the main character like the one from the beginning of the death is the spoilers
+
+00:45:39.800 --> 00:45:45.560
+ But like the one who sends the thing at the beginning. Yeah. Yeah. Yeah, no not at the beginning
+
+00:45:45.560 --> 00:45:49.880
+ The one who sends the thing. This is in the middle of the book bounces it off the sun
+
+00:45:50.440 --> 00:45:54.840
+ I don't want to say what she sent. Yeah. Yeah, I know I would call her the main character
+
+00:45:54.840 --> 00:45:57.400
+ I can't that was the beginning of a book. Oh, really?
+
+00:45:57.400 --> 00:46:03.320
+ Interesting. Okay, I felt like that was squarely in the middle the beginnings all blurred to me to be honest
+
+00:46:03.320 --> 00:46:06.360
+ It was like story about her dad yow's dad
+
+00:46:06.360 --> 00:46:11.720
+ I don't remember his name and what she witnessed again. I don't want to give spoilers. Yeah, it's a great book
+
+00:46:11.720 --> 00:46:17.480
+ You should read the book. So watch the series whatever the reason I said there's not really a main character is because the book
+
+00:46:17.800 --> 00:46:22.840
+ And you can probably see you can probably already tell the story is set up to span like hundreds of years
+
+00:46:22.840 --> 00:46:25.880
+ So it's just gonna transition through different people
+
+00:46:25.880 --> 00:46:33.160
+ Um, the second book is by far the best one. It is oh really good. I've never heard it. They talk about
+
+00:46:33.160 --> 00:46:35.560
+ I remember like literally to the last page
+
+00:46:35.560 --> 00:46:38.440
+ But the best moment is understanding
+
+00:46:38.440 --> 00:46:44.680
+ Like basically the the excellent the thing you're trying to understand the whole book is literally explaining the last page of the book
+
+00:46:44.680 --> 00:46:48.120
+ So like up to the point of you guys and you're just like really into it and the
+
+00:46:48.120 --> 00:46:51.720
+ Accimation is so satisfying now. I'm super pumped and in the third book
+
+00:46:51.720 --> 00:46:56.280
+ What's funny about the third book is so he said he sets up the story right the thing you've read so far
+
+00:46:56.280 --> 00:47:01.160
+ Halfway into the third book that story concludes effectively
+
+00:47:01.160 --> 00:47:05.400
+ That but it's still half a book left and he just goes nuts
+
+00:47:05.400 --> 00:47:11.160
+ It's just like the craziest impossible to understand physics shit like you've ever seen
+
+00:47:11.160 --> 00:47:13.960
+ after it just becomes so like
+
+00:47:14.520 --> 00:47:18.360
+ Beyond the realm of anything understandable. Uh, it's still really good and interesting, but
+
+00:47:18.360 --> 00:47:22.760
+ Yeah, it's just like really wild. Is there just three books? Is that there's three books? Okay?
+
+00:47:22.760 --> 00:47:24.520
+ So
+
+00:47:24.520 --> 00:47:28.520
+ I'm realizing like it's this is the dumbest observation ever
+
+00:47:28.520 --> 00:47:33.400
+ And I feel like it's hard to even say this out loud without sounding super dumb
+
+00:47:33.400 --> 00:47:37.080
+ But like it's finally clicking to me that like science fiction
+
+00:47:37.080 --> 00:47:43.720
+ Is like science and it's super interesting like they make up science, but then there's probably also
+
+00:47:44.360 --> 00:47:51.080
+ Science no, so you so this book three body problem is in a specific sub genre of science fiction
+
+00:47:51.080 --> 00:47:54.840
+ And there's like a whole spectrum of this so there's a sub genre of science fiction called hard sci-fi
+
+00:47:54.840 --> 00:47:58.600
+ and hard sci-fi is a lot more what you're describing where it's like
+
+00:47:58.600 --> 00:48:04.920
+ Actual science that is all really probably most of it's very like correct and they're extrapolating
+
+00:48:04.920 --> 00:48:11.080
+ Stories and ideas out of that and this I would say is on like if you're trying to get into hard sci-fi
+
+00:48:11.080 --> 00:48:18.040
+ This is like the easiest entry point into that. I personally think anything past this level of hard sci-fi is like pretty niche
+
+00:48:18.040 --> 00:48:19.000
+ but
+
+00:48:19.000 --> 00:48:21.000
+ I into this book is unique in that
+
+00:48:21.000 --> 00:48:23.240
+ um
+
+00:48:23.240 --> 00:48:30.440
+ He did something in that category, but it was so like widely accessible and enjoyable. So he's very good at this and then um, yeah
+
+00:48:30.440 --> 00:48:36.680
+ Okay, the other sci-fi author that's like probably the best of our generation is uh, the guy that wrote michael crayton. What?
+
+00:48:36.680 --> 00:48:39.720
+ I don't know
+
+00:48:39.720 --> 00:48:41.560
+ I made Jurassic park
+
+00:48:41.560 --> 00:48:43.080
+ Yeah
+
+00:48:43.080 --> 00:48:48.120
+ He made other stuff come on don't don't don't like belittle his career
+
+00:48:48.120 --> 00:48:52.120
+ I mean, I love Jurassic park. I love dinosaurs. So I'm not belittling. There's there's a bunch of them. No, I know
+
+00:48:52.120 --> 00:48:54.520
+ Keep going
+
+00:48:54.520 --> 00:49:00.040
+ Man, what's a bank as in the guy that wrote the short story that became the movie arrival. I'm familiar with the movie
+
+00:49:00.040 --> 00:49:05.160
+ I didn't know there was a short story. Okay. Uh, it was also asian. Um, but he's american
+
+00:49:05.160 --> 00:49:08.200
+ gathered that uh
+
+00:49:08.680 --> 00:49:10.680
+ his writing is like
+
+00:49:10.680 --> 00:49:14.680
+ Insane like he like as a writer
+
+00:49:14.680 --> 00:49:19.560
+ There's this one short story me and liz listened to when we were driving from near to Miami
+
+00:49:19.560 --> 00:49:25.720
+ It's called uh things called exhalation. Mm-hmm and the and she describes it in this way. I think it's totally accurate
+
+00:49:25.720 --> 00:49:28.520
+ She's like there wasn't a single
+
+00:49:28.520 --> 00:49:30.840
+ Extra word
+
+00:49:30.840 --> 00:49:34.120
+ In the whole story. It's like so so so so beautifully written
+
+00:49:34.680 --> 00:49:41.320
+ like just as like uh forget the science part just as like a story as an expression of ideas that makes you feel something
+
+00:49:41.320 --> 00:49:45.240
+ And on top of that it is one of the most fantastic
+
+00:49:45.240 --> 00:49:47.960
+ explanations of the idea of entropy
+
+00:49:47.960 --> 00:49:54.360
+ That has ever been like thought of. Oh, so this person can like deeply understand science scientific concepts
+
+00:49:54.360 --> 00:49:57.560
+ and also turn it into like
+
+00:49:57.560 --> 00:50:03.720
+ Some of the best works of arts ever made and just like yeah, so mind-blowingly like so mind-blowing talented
+
+00:50:03.880 --> 00:50:06.840
+ You have to be so talented to be able to do those two things and uh
+
+00:50:06.840 --> 00:50:10.680
+ And the same thing with three body problem, right like one moment
+
+00:50:10.680 --> 00:50:15.240
+ He's like creating like plot devices out of like physics that involve like planets
+
+00:50:15.240 --> 00:50:21.400
+ The next moment he's like doing computer engineering. He's like, you know the whole thing where they like do that calculation
+
+00:50:21.400 --> 00:50:26.120
+ Uh-huh like he understands how computers work understands like that
+
+00:50:26.120 --> 00:50:30.120
+ You know a computer can be made from anything and understands that idea and turns out into like a plot device. So
+
+00:50:30.120 --> 00:50:33.480
+ uh, it's really wild these people are just like
+
+00:50:34.120 --> 00:50:37.080
+ Not human to me. Yeah. Yeah, so okay
+
+00:50:37.080 --> 00:50:42.280
+ So I like hard sci-fi because I think the project held mary book which I've talked about before on the podcast
+
+00:50:42.280 --> 00:50:44.360
+ It's kind of more in that direction too. It fits in that direction
+
+00:50:44.360 --> 00:50:47.080
+ Yeah, because it feels like you're learning stuff even
+
+00:50:47.080 --> 00:50:54.680
+ The hard thing for me is listening to these authors like Andy Weir. He also did the martian martian. Yeah, i'm also listening
+
+00:50:54.680 --> 00:50:58.920
+ Yeah, also listening to that one. I guess i'm getting into hard sci-fi hard sci-fi
+
+00:50:58.920 --> 00:51:00.280
+ uh
+
+00:51:00.280 --> 00:51:03.800
+ The the hard thing for me is not knowing what's true
+
+00:51:03.800 --> 00:51:09.320
+ And what is made up because I assume some of the stuff they're talking about they can't really know
+
+00:51:09.320 --> 00:51:13.880
+ Like it's beyond the levels of science that we as humans have uncovered
+
+00:51:13.880 --> 00:51:19.800
+ I think everything in the book is plausible. Like it's it's that like plausible. There's nothing about it
+
+00:51:19.800 --> 00:51:21.400
+ That's just like oh that's wrong
+
+00:51:21.400 --> 00:51:27.800
+ Um, it might be like really hard to pull off or really unlikely but our current understanding of the math and physics like allow for that
+
+00:51:27.800 --> 00:51:30.680
+ So let me give you yeah, let me give you an example and i'm sorry
+
+00:51:30.680 --> 00:51:33.320
+ If this is spoilers just go ahead and stop listening if you don't want
+
+00:51:33.320 --> 00:51:38.360
+ I don't think it's spoilers, but i'm gonna give you an actual example where my brain is like
+
+00:51:38.360 --> 00:51:44.120
+ I don't know what to think about this the proton stuff, but like so fun different dimensions
+
+00:51:44.120 --> 00:51:49.480
+ Yeah, the sofon uh the different dimensions holding like into the tiny
+
+00:51:49.480 --> 00:51:50.440
+ Yeah
+
+00:51:50.440 --> 00:51:55.640
+ That stuff is all that like based in real science because that blew my my what
+
+00:51:57.000 --> 00:52:00.920
+ Like there are 11 dimensions. No, sorry. It's not that we know for sure. There are
+
+00:52:00.920 --> 00:52:05.240
+ 11 dimensions, but we have okay sort of models of physics that require
+
+00:52:05.240 --> 00:52:11.160
+ There to be you know x or dimensions. I think the 11 dimensions think okay shrink theory, but I don't remember exactly
+
+00:52:11.160 --> 00:52:15.960
+ So like do you know how many you're gonna say something confidently either way?
+
+00:52:15.960 --> 00:52:19.640
+ So I love this conversation because I can just I can just ask you questions and you'll give me something
+
+00:52:19.640 --> 00:52:25.320
+ Uh, like art. Do you know what level we're on like how many dimensions do we actually know about okay?
+
+00:52:25.320 --> 00:52:27.400
+ So I mean that something we are
+
+00:52:27.400 --> 00:52:34.840
+ We are living in okay. It's a little hard to explain and we are three-dimensional creatures living in a four-dimensional space
+
+00:52:34.840 --> 00:52:38.600
+ That makes sense because of time yeah, because we can traverse the fourth dimension
+
+00:52:38.600 --> 00:52:45.960
+ We can traverse physical three dimensions and you can't traverse the fourth dimension if you are a oh interesting fourth dimensional being
+
+00:52:45.960 --> 00:52:49.240
+ In a fifth dimensional space you can you could traverse time exactly
+
+00:52:50.440 --> 00:52:55.400
+ By the way, this is kind of a spoiler for the book like he did. He is really far. It's not really a spoiler
+
+00:52:55.400 --> 00:52:57.400
+ But I'm saying he goes really far into this
+
+00:52:57.400 --> 00:53:03.640
+ Dimensionality idea. It's actually really brilliant. Okay. Yeah. Yeah, so maybe that gets more into it in the second book
+
+00:53:03.640 --> 00:53:07.080
+ Because I don't think we we just kind of like briefly touched on it in the first book
+
+00:53:07.080 --> 00:53:11.720
+ Okay, I'm very excited for the second book now. I'll be honest the start a little slow for me
+
+00:53:11.720 --> 00:53:14.360
+ There's so many moments in these books
+
+00:53:14.360 --> 00:53:20.040
+ Well, I guess not so much like I listened to project home area. I don't feel like there were moments in that book
+
+00:53:20.520 --> 00:53:23.720
+ Maybe he's just smarter this author and I'm dumber
+
+00:53:23.720 --> 00:53:28.120
+ With the stuff he's saying there's just like stretches where I just get so lost
+
+00:53:28.120 --> 00:53:32.760
+ And I just feel like I kind of like tune out because I I'm just not able to follow
+
+00:53:32.760 --> 00:53:36.360
+ There's the beginning of this second book. There's this whole like ant thing
+
+00:53:36.360 --> 00:53:41.400
+ And to be honest, I didn't understand a single bit of it. I think it's so be so good though
+
+00:53:41.400 --> 00:53:45.160
+ I have to go back and listen again and actually figure it out
+
+00:53:45.160 --> 00:53:48.040
+ Uh, and maybe Liz is also on that point is out
+
+00:53:48.840 --> 00:53:53.480
+ That whole ant thing has nothing to do with anything. It's just him showing off
+
+00:53:53.480 --> 00:53:54.600
+ It just felt like this
+
+00:53:54.600 --> 00:53:56.920
+ Yeah, it just felt like this whole thing this whole puzzle
+
+00:53:56.920 --> 00:53:58.760
+ It was like a little side quest
+
+00:53:58.760 --> 00:54:02.760
+ And I have to go back and listen to it again to like know what the numbers are and like figure it all out
+
+00:54:02.760 --> 00:54:05.160
+ No, it's not it's it has nothing to do with the plot
+
+00:54:05.160 --> 00:54:09.080
+ It's just he just had this thought this interesting observation
+
+00:54:09.080 --> 00:54:12.600
+ And he found a good way to express it but has nothing to do with the rest of the book
+
+00:54:12.600 --> 00:54:18.440
+ I mean yet. I got the sense that it's like this is optional. This is the thing I don't need to actually understand
+
+00:54:19.560 --> 00:54:24.840
+ Like it's interesting that like the ant is like near this conversation and like that's what a cool perspective
+
+00:54:24.840 --> 00:54:30.680
+ But like I know I didn't get it and like the numbers of things the ant was following on the ground
+
+00:54:30.680 --> 00:54:32.520
+ Like I just know I missed it
+
+00:54:32.520 --> 00:54:35.400
+ And I can't decide if I want to go back and listen to the whole thing over again
+
+00:54:35.400 --> 00:54:38.840
+ No, you don't have to there's moments like that in these books where I just feel like
+
+00:54:38.840 --> 00:54:45.000
+ I didn't need to understand that to know the plot of the book. Yeah, it was just like a cool side quest, but like
+
+00:54:45.960 --> 00:54:50.520
+ Not knowing when I should try to understand versus just like ignore it. I think with all
+
+00:54:50.520 --> 00:54:54.760
+ Creative works. There's some stuff that's for the audience and there's some stuff. That's what the author
+
+00:54:54.760 --> 00:54:59.800
+ And oh interesting, you know, sometimes the author will indulge and as they should
+
+00:54:59.800 --> 00:55:01.720
+ Um, yeah
+
+00:55:01.720 --> 00:55:05.160
+ Yeah, but anyway the second I don't know if you got did you get to hold like wall facer
+
+00:55:05.160 --> 00:55:09.560
+ Program, no, okay. No, I'm very
+
+00:55:10.760 --> 00:55:16.520
+ Basically a second book. There's this program they start and it's like so interesting the way they like
+
+00:55:16.520 --> 00:55:18.760
+ approach it
+
+00:55:18.760 --> 00:55:22.680
+ With a lot of these honesty. Oh, go ahead. As I said, with a lot of these books
+
+00:55:22.680 --> 00:55:25.720
+ Uh, I always find that
+
+00:55:25.720 --> 00:55:29.320
+ Some books like the plot is so good that you just want to know what happened
+
+00:55:29.320 --> 00:55:31.720
+ So you're just like trying to blow through it as fast as possible
+
+00:55:31.720 --> 00:55:36.040
+ And I did feel that way a lot with the with this series. So I probably ended up skimming over
+
+00:55:37.160 --> 00:55:41.080
+ stuff. So what's interesting to me is
+
+00:55:41.080 --> 00:55:47.640
+ So I listened to these books at like one and something 1.7 or whatever 1.8 speed
+
+00:55:47.640 --> 00:55:49.960
+ there's like
+
+00:55:49.960 --> 00:55:53.800
+ Different seasons because I started this book probably like two months ago
+
+00:55:53.800 --> 00:55:59.640
+ And I only listened to a little bit and then I like missed a couple weeks and then I listened to a little bit. It's like
+
+00:55:59.640 --> 00:56:02.840
+ It's hard for me to tell you
+
+00:56:02.840 --> 00:56:07.400
+ How far into the book certain parts of it are because of the different
+
+00:56:07.400 --> 00:56:10.280
+ Listening patterns like over the last week. I've listened to tonne
+
+00:56:10.280 --> 00:56:12.360
+ I listened to most of it in the last week
+
+00:56:12.360 --> 00:56:17.000
+ But like if you go back to the beginning of the book, it was two months ago and it was in little spurts
+
+00:56:17.000 --> 00:56:23.640
+ So what my observation here may be completely off like I I just have a hard time with knowing
+
+00:56:23.640 --> 00:56:28.600
+ You know the chronology of the book, but it felt like I listened to half the book
+
+00:56:29.080 --> 00:56:34.600
+ And was like this is stupid. I maybe it was the not understanding which characters were wet
+
+00:56:34.600 --> 00:56:36.840
+ It just felt so slow
+
+00:56:36.840 --> 00:56:39.720
+ And then there was some point like three-fourths of the way into the book where it was like
+
+00:56:39.720 --> 00:56:41.560
+ This is the greatest thing I've ever listened to in my life
+
+00:56:41.560 --> 00:56:46.120
+ And I'm so hooked like I have to hear every next word and I'm like super into it
+
+00:56:46.120 --> 00:56:50.280
+ But it felt honestly like that was like one chapter of the entire book
+
+00:56:50.280 --> 00:56:52.760
+ That was like the payoff and it made it so worth it
+
+00:56:52.760 --> 00:56:55.960
+ But like the rest of it was super boring to me. Does that make sense?
+
+00:56:55.960 --> 00:57:00.040
+ Yeah, I have the same issue with so I was getting so I've read a lot of
+
+00:57:00.040 --> 00:57:05.400
+ And so of all the books I've read most of them have been fiction of the fiction books
+
+00:57:05.400 --> 00:57:08.280
+ I've read most of them have been sci-fi but I've read like all the great
+
+00:57:08.280 --> 00:57:10.680
+ I've had books that always come up
+
+00:57:10.680 --> 00:57:11.880
+ Um, but I was like, okay
+
+00:57:11.880 --> 00:57:15.560
+ Let me like try to get into some fantasy stuff and I did read one fantasy book that was really good
+
+00:57:15.560 --> 00:57:19.560
+ Like I like couldn't put it down the whole thing was fantasy being like Lord of the Rings
+
+00:57:19.560 --> 00:57:24.600
+ Yeah, but like you know like more I mean like Harry Potter certainly fantasy. It's like yeah. Yeah
+
+00:57:25.880 --> 00:57:27.880
+ You know, there's like modern equivalents to that
+
+00:57:27.880 --> 00:57:32.760
+ Um, and I was really into it. So when I asked on twitter like hey, can you guys recommend me some other stuff?
+
+00:57:32.760 --> 00:57:36.760
+ And a lot of people in our circle love this author Brandon Sanderson. He comes up a lot
+
+00:57:36.760 --> 00:57:38.760
+ um like a lot of people read him
+
+00:57:38.760 --> 00:57:40.760
+ and
+
+00:57:40.760 --> 00:57:43.000
+ So I tried uh one of his books
+
+00:57:43.000 --> 00:57:44.680
+ and
+
+00:57:44.680 --> 00:57:47.080
+ it was really difficult because
+
+00:57:47.080 --> 00:57:51.160
+ Similarly like the middle of the book it gets crazy slow
+
+00:57:51.160 --> 00:57:55.080
+ But the payoff at the ending is so incredible
+
+00:57:55.720 --> 00:57:57.960
+ That just made all of it totally worth it
+
+00:57:57.960 --> 00:58:01.880
+ Yes, this guy's great. I love it. Let me get into the second book
+
+00:58:01.880 --> 00:58:05.560
+ Even harder like I didn't make it past the middle like
+
+00:58:05.560 --> 00:58:07.480
+ just like
+
+00:58:07.480 --> 00:58:12.360
+ So much of like just nothing happening and I know that's gonna get really good at the end
+
+00:58:12.360 --> 00:58:14.040
+ And so his name is Brendan Sanderson
+
+00:58:14.040 --> 00:58:17.000
+ and I think people have identified this about his books and they call it like a
+
+00:58:17.000 --> 00:58:19.960
+ Sander lunch or something you get like an avalanche of uh
+
+00:58:19.960 --> 00:58:22.600
+ Stuff in like 10 pages at the end
+
+00:58:22.600 --> 00:58:24.600
+ Um
+
+00:58:24.600 --> 00:58:30.440
+ But yeah, I don't know I think it takes like I would never have stuck it out through this first three body problem book
+
+00:58:30.440 --> 00:58:32.280
+ If I hadn't heard glowing reviews
+
+00:58:32.280 --> 00:58:36.760
+ It's like you just need that social proof where somebody is like this series is amazing
+
+00:58:36.760 --> 00:58:42.760
+ And that was like the the thing that kept me going it's like i'm gonna get through this book because I heard people say they like it
+
+00:58:42.760 --> 00:58:44.360
+ but it felt like
+
+00:58:44.360 --> 00:58:46.680
+ literally hours of foreplay just like
+
+00:58:46.680 --> 00:58:49.800
+ Listening to this giant book
+
+00:58:50.360 --> 00:58:56.760
+ And feeling like there's so many characters and it's so much just like vagueness and not really wanting to reveal the thing
+
+00:58:56.760 --> 00:58:59.400
+ That they're eventually gonna reveal and when they reveal it
+
+00:58:59.400 --> 00:59:04.280
+ It's all gonna be worth it, but it just felt like so much effort to get through that first half
+
+00:59:04.280 --> 00:59:12.520
+ But then yeah, you just feel like oh, I'm so glad I I stuck it out. This is getting so good. Maybe like, you know, you need that
+
+00:59:12.520 --> 00:59:18.520
+ The way to like be happy. Yeah, be good and obviously all of our attention spans are pretty bad these days. So
+
+00:59:19.000 --> 00:59:22.040
+ I didn't feel that way with three body problem. I like really didn't feel like
+
+00:59:22.040 --> 00:59:25.160
+ like I definitely felt like I really wanted to
+
+00:59:25.160 --> 00:59:30.440
+ Know the thing like in the second book there's like a thing he does in the whole book
+
+00:59:30.440 --> 00:59:34.360
+ You're just like waiting for the outcome of the thing or having him explain why he did it
+
+00:59:34.360 --> 00:59:36.760
+ And the payoff is great
+
+00:59:36.760 --> 00:59:41.160
+ But I found like the the process of that to be to be okay
+
+00:59:41.160 --> 00:59:44.600
+ But I said I can relate to that with uh with other books man, not me
+
+00:59:45.320 --> 00:59:51.720
+ I may just be a simpler simpler human from the Ozarks. Have you read other sci-fi?
+
+00:59:51.720 --> 00:59:57.480
+ I think I mean, I think I I have given you my whole history with sci-fi. So Andy Weir
+
+00:59:57.480 --> 01:00:01.240
+ Uh, so the Martian and I still have to be project hell married
+
+01:00:01.240 --> 01:00:07.080
+ That's like the one major thing that I haven't read. Yeah, everyone says it's amazing because the the movie. Yeah, you know
+
+01:00:07.080 --> 01:00:09.720
+ movie with
+
+01:00:09.720 --> 01:00:11.720
+ Ryan Gosling
+
+01:00:12.360 --> 01:00:15.880
+ I just watched Blade Runner by the way, which one both of them
+
+01:00:15.880 --> 01:00:18.680
+ I what did you think so I read
+
+01:00:18.680 --> 01:00:23.960
+ I Googled it extensively like do I need to watch the first one because I have such limited movie watching time
+
+01:00:23.960 --> 01:00:30.040
+ And I needed to know like do I need to spend two hours watching this 1982 movie? Oh my god. It's so old
+
+01:00:30.040 --> 01:00:34.200
+ I don't think I personally don't think you need to so I I hard disagree
+
+01:00:34.200 --> 01:00:37.640
+ Because I went through the pain. Maybe it's just like I'm trying to justify the time
+
+01:00:37.640 --> 01:00:42.680
+ I spent I've spent two mornings watching that first stupid Harrison Ford. Maybe it was so dumb
+
+01:00:42.680 --> 01:00:48.360
+ Uh, not so dumb. It was just like it's made in the 80s and it was like so yeah, I know it's hard to
+
+01:00:48.360 --> 01:00:56.840
+ I understand it properly. Yeah when it's watching it now. So 40 years ago. It's insane. It's insane. It's really insane. So I watched that
+
+01:00:56.840 --> 01:01:04.200
+ Because I read that it did supplement the second movie. I feel like without that knowledge that would have taken a lot out of
+
+01:01:04.840 --> 01:01:08.200
+ The plot, but maybe no what are you talking about in the second movie?
+
+01:01:08.200 --> 01:01:12.680
+ Maybe it's hard for me to watch the second movie with fresh eyes and imagine like if I don't know all the things I know
+
+01:01:12.680 --> 01:01:16.520
+ Did it explain it all enough without having watched the first one?
+
+01:01:16.520 --> 01:01:21.080
+ No, in a way, it's even better if you haven't watched the first one because you get to experience like
+
+01:01:21.080 --> 01:01:25.720
+ Well, okay one that the actual twist in the second one is so good
+
+01:01:25.720 --> 01:01:31.080
+ Uh, yeah, no that was that was really good. Yeah, I love the part where I enjoyed the second movie a lot
+
+01:01:31.080 --> 01:01:36.840
+ Did you did you like the part where the main character thought he was so special? Yeah, and then it turned out he wasn't special
+
+01:01:36.840 --> 01:01:43.320
+ Yeah, you kind of just I mean that's spoiler's a little bit, but it's okay. You've never seen it by now. Yeah, I guess that's a more recent like
+
+01:01:43.320 --> 01:01:48.680
+ People would have watched that. I think you could learn a lot from oh, you're saying I think I'm special
+
+01:01:48.680 --> 01:01:52.440
+ That was so good
+
+01:01:52.440 --> 01:01:55.240
+ You're not wrong
+
+01:01:55.240 --> 01:01:58.520
+ But then also like you don't need to know anything about Harrison Ford for that movie
+
+01:01:59.480 --> 01:02:04.760
+ I mean who he who he fell in love with. I'm sorry. That's like a huge part of the second movie's plot
+
+01:02:04.760 --> 01:02:07.640
+ But that's just that that's just another twist
+
+01:02:07.640 --> 01:02:10.840
+ For you
+
+01:02:10.840 --> 01:02:16.520
+ I watched the second one. I didn't watch it first
+
+01:02:16.520 --> 01:02:20.200
+ I'd seen the first one but like not properly and I really remembered anything from it
+
+01:02:20.200 --> 01:02:24.600
+ So I basically watched the second one that watched the first one and I thought it was really good movie
+
+01:02:24.600 --> 01:02:27.480
+ And I enjoyed it. I feel like
+
+01:02:27.880 --> 01:02:33.560
+ It's probably hard for me to like separate what I knew already and what they explained in the second movie
+
+01:02:33.560 --> 01:02:35.880
+ But I felt like my time was well spent
+
+01:02:35.880 --> 01:02:38.120
+ I'm glad I watched the first one first because I knew
+
+01:02:38.120 --> 01:02:44.280
+ Like I know Harrison Ford's character and where he came from and who he fell in love with and all that story
+
+01:02:44.280 --> 01:02:46.280
+ I felt like that was a nice context
+
+01:02:46.280 --> 01:02:52.280
+ But I guess they probably did a good job of making sure you don't have to see it because they can't assume people saw a movie 40 years ago
+
+01:02:52.280 --> 01:02:53.640
+ You know what I you know
+
+01:02:53.640 --> 01:02:59.240
+ I always pause into my head from that movie. Just that whole like baseline thing when he's like interlinked interlinked. Oh my god
+
+01:02:59.240 --> 01:03:01.320
+ That's so bizarre. Yeah
+
+01:03:01.320 --> 01:03:04.840
+ Yeah, what is something about that just like stuck to my brain and I always think about it
+
+01:03:04.840 --> 01:03:07.240
+ What does it feel like to hold your child interlinked?
+
+01:03:07.240 --> 01:03:10.440
+ That's some robot shit right there for sure
+
+01:03:10.440 --> 01:03:17.480
+ That's a good movie. It was I enjoyed it. Yeah, I'm getting into sci-fi turns out
+
+01:03:17.480 --> 01:03:22.600
+ I just like never considered what genres or what and like what I actually like
+
+01:03:22.920 --> 01:03:26.760
+ I always thought I just like dramas. That was like the broad. It's like I don't like comedy
+
+01:03:26.760 --> 01:03:29.800
+ I like drama and that was like the two categories and movies for me
+
+01:03:29.800 --> 01:03:36.040
+ There's a lot more depth to it. Yeah, so I would actually argue that sci-fi is the greatest genre
+
+01:03:36.040 --> 01:03:38.840
+ I don't think it's objective because I think it
+
+01:03:38.840 --> 01:03:42.680
+ the best works in it and maybe it's true of every genre but
+
+01:03:42.680 --> 01:03:47.160
+ Like I said earlier like being able to just
+
+01:03:47.880 --> 01:03:54.280
+ Contain all the other parts of great work. Yeah, and also do this heart the scientific
+
+01:03:54.280 --> 01:04:00.280
+ Yeah, where you extrapolate and like derive a story from like weird things that could happen like that is
+
+01:04:00.280 --> 01:04:05.080
+ Just so so so impressive. So I would ever recommend reading touching you want to get more into it
+
+01:04:05.080 --> 01:04:09.560
+ It feels like it would take and I would recommend reading Michael Crichton because that's the name I knew
+
+01:04:09.560 --> 01:04:16.040
+ I feel like he's made a lot of stuff. I actually read one of his books that I don't know if it ever became a movie
+
+01:04:16.040 --> 01:04:18.120
+ It was like swarm or it was the idea of
+
+01:04:18.120 --> 01:04:22.680
+ Swarms. What was that Michael? What's the one where they travel through time?
+
+01:04:22.680 --> 01:04:29.880
+ I feel like that you just named like a million movies. Oh, no, there's one. There's no one timeline
+
+01:04:29.880 --> 01:04:31.480
+ Uh
+
+01:04:31.480 --> 01:04:37.480
+ Swarm was it the book called swarm. Oh pray. So I read pray. I don't think it became a movie
+
+01:04:37.480 --> 01:04:38.920
+ Did it come a movie?
+
+01:04:38.920 --> 01:04:43.800
+ Interesting book. Yeah, he's he's very much a sci-fi right like he comes up with stuff that sounds
+
+01:04:43.880 --> 01:04:49.000
+ But his stuff is maybe less hard sci-fi like the Jurassic Park thing. It's like it sounds like it could happen
+
+01:04:49.000 --> 01:04:53.240
+ It's like this the thing with his stuff is I don't it's not in this category of describing
+
+01:04:53.240 --> 01:04:55.240
+ It doesn't contain
+
+01:04:55.240 --> 01:04:57.080
+ Like a crazy level of deep
+
+01:04:57.080 --> 01:05:01.720
+ Deepness to it, right? There's like sorry talking high side
+
+01:05:01.720 --> 01:05:06.840
+ Keep going. That's okay. It's like a good enjoy. It's books are good and enjoyable, but they're very straightforward
+
+01:05:06.840 --> 01:05:09.080
+ Yeah, it's not like a big mind vendor
+
+01:05:09.080 --> 01:05:15.000
+ Yeah, it's not like incorporating like philosophy doesn't like make you think about right right into like what matters in life and and all
+
+01:05:15.000 --> 01:05:19.640
+ That's a market appeal, but not for us intellectuals. We like the deeper stuff
+
+01:05:19.640 --> 01:05:25.800
+ I totally got all the stuff and three body problems. I totally understand at all. It's so good
+
+01:05:25.800 --> 01:05:30.680
+ All right, I gotta get off here. My uh my five year old he's ready to play
+
+01:05:30.680 --> 01:05:34.600
+ If you want to run an audiobook listen to Ted Chang's
+
+01:05:35.160 --> 01:05:39.080
+ Okay, I'll send you a few because you can listen to him in like a couple hours each one of the characters
+
+01:05:39.080 --> 01:05:44.040
+ All named yao and yang and yin and yu and now you're American. Okay, American
+
+01:05:44.040 --> 01:05:50.440
+ That sounds so racist, but it's just like I'm from the Ozarks and those names do not distinguish themselves enough
+
+01:05:50.440 --> 01:05:55.160
+ It's just like how they would say we all look the same and they probably think all our names sounds like is this racist?
+
+01:05:55.160 --> 01:05:59.240
+ Just cut it out of the traces. It's just a reality. Okay. It's just a reality, right?
+
+01:05:59.240 --> 01:06:01.560
+ I feel like yeah, that's just reality
+
+01:06:01.560 --> 01:06:07.080
+ It's hard for me to tell those names apart because I don't live in that culture and I don't hear those sounds all the time
+
+01:06:07.080 --> 01:06:12.600
+ So I also wonder how much the translation because like because Frank read the book in Chinese
+
+01:06:12.600 --> 01:06:15.080
+ Oh nice. You know it's Chinese
+
+01:06:15.080 --> 01:06:22.360
+ And I bet it was like a quite a different experience very different. There's stuff you can't express the same. Oh sure when you translate it
+
+01:06:22.360 --> 01:06:24.200
+ So
+
+01:06:24.200 --> 01:06:27.320
+ All right. Yeah. Thank you. All right. Goodbye. Yeah
+
+01:06:31.560 --> 01:06:33.560
+ You
+

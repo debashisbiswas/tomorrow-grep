@@ -1,0 +1,926 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.840
+ So DAX SST2 is officially out. It's officially out, right? Yeah, it's officially out finally. I've been in a hole for I
+
+00:00:07.840 --> 00:00:13.240
+ Think six months. I'm not releasing anything and it's rewriting every single line
+
+00:00:13.240 --> 00:00:16.400
+ And it's finally out as of last week
+
+00:00:16.400 --> 00:00:23.320
+ We haven't made too much noise about it because we haven't updated our docs, but yeah people have been using it and it's going well so far. I think
+
+00:00:30.000 --> 00:00:32.000
+ I
+
+00:00:32.000 --> 00:00:50.360
+ Yeah, that's why I asked if it was official X. I couldn't remember seeing like a big tweet
+
+00:00:50.360 --> 00:00:57.760
+ But I've been using like the snapshot and then the whatever the other version was the release candidate before we get into like
+
+00:00:57.880 --> 00:01:04.960
+ What all is in SST2 and just talking about SST more generally first question I have when you said that made me think
+
+00:01:04.960 --> 00:01:08.580
+ You've been in a hole for six months. Did you ever feel like?
+
+00:01:08.580 --> 00:01:11.900
+ That your your SST
+
+00:01:11.900 --> 00:01:19.660
+ Counterparts your co-founders. Is that the word? I guess did you ever feel like they were doubting you or wondering is this ever gonna actually happen?
+
+00:01:19.660 --> 00:01:21.880
+ Like when you go six months
+
+00:01:21.880 --> 00:01:26.480
+ Did you ever worry about the perception of what they might say or they've been seeing it all along the way?
+
+00:01:26.560 --> 00:01:31.320
+ Yeah, well, here's the thing right. I wanted to do this the moment. I joined the team
+
+00:01:31.320 --> 00:01:33.960
+ Which was two years ago?
+
+00:01:33.960 --> 00:01:39.280
+ But I had to build up credibility over the last two years before I was like hey
+
+00:01:39.280 --> 00:01:44.240
+ I'm gonna do this and I think it's gonna work. So I think the team was pretty bought in
+
+00:01:44.240 --> 00:01:46.800
+ That it would work out
+
+00:01:46.800 --> 00:01:52.400
+ None of us like it and if you look at our so we review our numbers every week every every Sunday and
+
+00:01:53.160 --> 00:01:57.880
+ If you look at our numbers the past six months, they have not been really good like the growth has been
+
+00:01:57.880 --> 00:02:03.760
+ Pretty like there's like always like a decent amount of growth. There's been no like jumps or nothing exciting
+
+00:02:03.760 --> 00:02:08.280
+ Right when you say none of us like it like what none of you like SST 2
+
+00:02:08.280 --> 00:02:11.920
+ We don't like having to like just do a big rewrite
+
+00:02:11.920 --> 00:02:16.880
+ We're not releasing you stuff because we effectively released nothing new over the past six months
+
+00:02:16.880 --> 00:02:22.800
+ And we're used to releasing new stuff like every two weeks or every month whatever it is and that really drives our growth
+
+00:02:22.800 --> 00:02:28.140
+ And gets people excited and so the past six months. We've been operating without that motivation without that feedback
+
+00:02:28.140 --> 00:02:34.240
+ So we didn't like having to do this. We knew we had to exit enables a bunch of really interesting things and
+
+00:02:34.240 --> 00:02:37.920
+ Now that it's out we're looking at our numbers and like yeah
+
+00:02:37.920 --> 00:02:42.760
+ We're back to seeing like these huge jumps from everyone trying it out and people getting excited about it
+
+00:02:42.760 --> 00:02:47.720
+ So I don't think they doubted me. I probably doubted myself a little bit because
+
+00:02:48.600 --> 00:02:52.560
+ It was there's just a lot to figure out
+
+00:02:52.560 --> 00:02:57.540
+ But we got to a place where there's like a working demo a bit and a working demo was pretty exciting
+
+00:02:57.540 --> 00:03:04.120
+ We got to that pretty early on so it wasn't terrible. So but I just realized we haven't said what SST is and
+
+00:03:04.120 --> 00:03:08.460
+ It's like not everyone knows. So maybe could you give like the
+
+00:03:08.460 --> 00:03:11.320
+ Could you give the elevator pitch?
+
+00:03:11.320 --> 00:03:15.240
+ You really need to have a pitch. Oh man for SST. Could you give the pitch?
+
+00:03:15.240 --> 00:03:18.200
+ What is it just get in a high level? I'll try it
+
+00:03:18.640 --> 00:03:24.960
+ So SST is a framework that helps you ship applications to AWS AWS is a big complicated beast
+
+00:03:24.960 --> 00:03:29.720
+ We all know this there's maybe 3% of it that you need to use to build
+
+00:03:29.720 --> 00:03:36.700
+ 95% applications and we try to focus on that 3% and make the best experience we possibly can and
+
+00:03:36.700 --> 00:03:39.440
+ Let you bring other complimentary
+
+00:03:39.440 --> 00:03:43.200
+ Modern tools like all these cool front end frameworks that come out
+
+00:03:43.200 --> 00:03:50.000
+ Yeah, and you would say do you guys label yourselves as an infrastructure is code framework? You're kind of like going beyond that now
+
+00:03:50.000 --> 00:03:55.600
+ I feel like but is that is that how you would classify the likes of the CDK or serverless framework?
+
+00:03:55.600 --> 00:03:58.920
+ Yeah, that's definitely where we started and for a long time. I saw ourselves as a
+
+00:03:58.920 --> 00:04:02.160
+ infrastructure is code, but more lately
+
+00:04:02.160 --> 00:04:06.440
+ I'm seeing that more is just something that we have to do to let you do everything else
+
+00:04:06.440 --> 00:04:11.960
+ We want to help you build an application and deploy to AWS. Of course part of that is gonna be spinning up infrastructure
+
+00:04:12.560 --> 00:04:18.120
+ But if you're if you're like someone that's trying to do a bunch of infrastructure work and you want a tool for that
+
+00:04:18.120 --> 00:04:22.660
+ It's probably not going to be SST because we're more focused on application developers that
+
+00:04:22.660 --> 00:04:28.400
+ Don't really want to spend a bunch of time doing infrastructure work because their infrastructure is not very bespoke
+
+00:04:28.400 --> 00:04:30.000
+ It's kind of the standard
+
+00:04:30.000 --> 00:04:32.000
+ API's front ends databases
+
+00:04:32.000 --> 00:04:38.200
+ Cues things like that and that's what I love about SST as somebody who's come from like the other
+
+00:04:38.440 --> 00:04:42.600
+ traditional infrastructure is code frameworks like the CDK or just CloudFormation even
+
+00:04:42.600 --> 00:04:47.020
+ It's like SST actually focuses on the application
+
+00:04:47.020 --> 00:04:54.680
+ Authoring like what you go past the infrastructure and you actually help with the writing actual code for your project
+
+00:04:54.680 --> 00:05:01.920
+ Like it feels like a modern web framework, but it's doing all your infrastructure as well and none of the others really feel like that
+
+00:05:01.920 --> 00:05:08.240
+ It's like it's cool. It's like Mac versus PC or whatever you do
+
+00:05:08.440 --> 00:05:12.400
+ Linux, I don't know and it's so tight script friendly. It's just very modern. Yeah
+
+00:05:12.400 --> 00:05:15.480
+ And I think it's because you know people that work on SST
+
+00:05:15.480 --> 00:05:19.880
+ We have a weird mix that I don't like our backgrounds kind of a weird mix
+
+00:05:19.880 --> 00:05:22.600
+ So you don't often see we all have done a lot of front-end
+
+00:05:22.600 --> 00:05:25.680
+ But we've also done a lot of infrastructure. So
+
+00:05:25.680 --> 00:05:27.480
+ These other frameworks
+
+00:05:27.480 --> 00:05:32.760
+ I don't think are and they're written by people that are very very good infrastructure that are a lot better than us infrastructure
+
+00:05:32.760 --> 00:05:38.320
+ But you don't often see the combination of front-end plus infrastructure and I think our framework reflects that because we're trying to help you build
+
+00:05:38.920 --> 00:05:43.200
+ You know, like a full application and I think that's why our position is a little unique
+
+00:05:43.200 --> 00:05:50.240
+ Most people either are peer front-end engineers and never want to look for structure or you kind of don't really often run to infrastructure engineers that
+
+00:05:50.240 --> 00:05:57.680
+ Like to do front-end. So I think because we have that combination as a C reflects that. Yeah, so I want I want to like
+
+00:05:57.680 --> 00:06:06.400
+ dive into what is new in SST 2 versus like for people who actually know what SST is I feel like that's worthwhile doing
+
+00:06:06.400 --> 00:06:11.680
+ But I also just kind of want to like share my experiences with SST and some of the things that get me really excited
+
+00:06:11.680 --> 00:06:17.280
+ Which makes sense to go first. Yeah, I'll do like a quick explanation of what it is. So people have have context and why I did all of this
+
+00:06:17.280 --> 00:06:23.240
+ So SST up until 2.0. So all of 0.0 and and 1.0
+
+00:06:23.240 --> 00:06:28.480
+ It was it was the same code base from the beginning and you know when you're a startup
+
+00:06:28.480 --> 00:06:32.200
+ You don't really know what you're gonna become. No one knew it as he was gonna become at the beginning
+
+00:06:32.200 --> 00:06:36.920
+ And it was also started at a time where TypeScript wasn't as obvious as a choice. It is now
+
+00:06:36.920 --> 00:06:43.440
+ So large portions of the SST code base were written in just JavaScript not even TypeScript and as you guys all know
+
+00:06:43.440 --> 00:06:47.920
+ I love TypeScript. So it was a pain for me to just go into that code base all the time
+
+00:06:47.920 --> 00:06:54.040
+ So that was a real limiter. We had some really old code optimized for certain things that
+
+00:06:54.040 --> 00:06:56.520
+ We don't really focus on anymore
+
+00:06:56.520 --> 00:06:59.760
+ Just because our startup has has shifted and our framework has shifted
+
+00:07:00.720 --> 00:07:06.040
+ And then the second side of it is we never really cared about performance when we were building stuff
+
+00:07:06.040 --> 00:07:10.560
+ We just wanted to get stuff out. We weren't thinking about okay. This adds 100 milliseconds
+
+00:07:10.560 --> 00:07:13.320
+ Or this adds 200 milliseconds, and we did that
+
+00:07:13.320 --> 00:07:18.080
+ You know over the course of several years and you eventually end up with stuff that just is very slow
+
+00:07:18.080 --> 00:07:21.560
+ so one I wanted to rewrite everything in TypeScript and
+
+00:07:21.560 --> 00:07:25.440
+ two during this rewrite I wanted to make sure that
+
+00:07:25.960 --> 00:07:31.400
+ Any little thing we add we understand performance cost and we really optimize the heck out of whatever we can find
+
+00:07:31.400 --> 00:07:36.400
+ So the experience with 2.0 is as a user it definitely feels faster
+
+00:07:36.400 --> 00:07:41.360
+ And I think everyone's like noted. It's like it's not just we did well in benchmarks people can feel it and
+
+00:07:41.360 --> 00:07:49.600
+ Then for us as people maintain the project we're able to ship way more way fewer bugs. We fixed like we fixed like a thousand little
+
+00:07:49.600 --> 00:07:53.800
+ Bugs are like weird ergonomic issues with ST two
+
+00:07:54.800 --> 00:07:56.960
+ With 1.0 people could use it
+
+00:07:56.960 --> 00:08:02.840
+ But I wasn't really excited for people to try it and I was really excited for the experience for it with 2.0
+
+00:08:02.840 --> 00:08:06.120
+ I'm definitely more excited with okay people are gonna use is an avid decent experience
+
+00:08:06.120 --> 00:08:11.840
+ Of course, I said I don't feel like it's where I wanted to be but definitely no order magnitude better than where it was
+
+00:08:11.840 --> 00:08:13.840
+ Just go ahead down for another six months. I'm sure
+
+00:08:13.840 --> 00:08:20.640
+ I can't can't do that again. I want to speak to my experience with SSD
+
+00:08:21.520 --> 00:08:25.120
+ But it's not really like I think all my experiences with SSD 2
+
+00:08:25.120 --> 00:08:30.120
+ I don't think I played with it much before you had like a snapshot release that I could play with
+
+00:08:30.120 --> 00:08:35.560
+ I think like there was a recent example on Twitter and and I'm more speaking to web developers
+
+00:08:35.560 --> 00:08:40.940
+ I think I'm not like people who've used the CDK or people who've used CloudFormation and they want something new
+
+00:08:40.940 --> 00:08:45.280
+ If you're just a web developer so rocks who streams on Twitch
+
+00:08:45.280 --> 00:08:50.400
+ He is building this thing and you need to do uploads
+
+00:08:51.880 --> 00:08:58.000
+ ideally multi-part uploads it's like huge video files he's trying to make this app where people can upload their video files and
+
+00:08:58.000 --> 00:09:02.120
+ He wanted to use s3 he heard that'd be better than what he was doing which was like
+
+00:09:02.120 --> 00:09:05.680
+ People posting straight to his railway server or something
+
+00:09:05.680 --> 00:09:11.820
+ He's sent him in on Twitter and I've talked with rocks about this a lot. I'm not like talking behind his back
+
+00:09:11.820 --> 00:09:16.880
+ His sentiment on Twitter was like why can't there just be an easy thing just give me like a
+
+00:09:16.880 --> 00:09:21.280
+ Library that'll just do this for me and there's really not a way to do that
+
+00:09:21.840 --> 00:09:27.440
+ Traditionally like to have a library that goes to that extent because it's like back-end stuff
+
+00:09:27.440 --> 00:09:30.480
+ It's infrastructure stuff and then you've got the front-end piece
+
+00:09:30.480 --> 00:09:35.400
+ It's going to be multiple things you're stringing together to make uploads to s3 work
+
+00:09:35.400 --> 00:09:41.840
+ But sst actually makes it this I see this future where you could have like an sst
+
+00:09:41.840 --> 00:09:50.280
+ Construct or like a third-party library somehow the builds with sst and it encapsulates all of that from like your front-end
+
+00:09:50.320 --> 00:09:57.440
+ Which sst helps with deploying your front-end whether it's astro or solid start these like exotic new things or it's next JS
+
+00:09:57.440 --> 00:10:02.280
+ You've got these constructs where it's like you're acknowledging the whole stack
+
+00:10:02.280 --> 00:10:06.840
+ Within your application and you've got this opinionated folder structure
+
+00:10:06.840 --> 00:10:13.240
+ So you create an sst app and you have this place to put infrastructure stuff like functions that need to run
+
+00:10:13.560 --> 00:10:20.840
+ APIs databases storage whatever like s3 buckets, but then you've got like the ability to drop your front-end there and
+
+00:10:20.840 --> 00:10:23.640
+ An interact with those back-end components
+
+00:10:23.640 --> 00:10:28.680
+ natively like very easily without managing all the environment variables and all the plumbing and all that stuff
+
+00:10:28.680 --> 00:10:33.600
+ So I can imagine a world where you could have these kind of higher-level application components
+
+00:10:33.600 --> 00:10:37.000
+ That makes something like multi-part uploads to s3
+
+00:10:37.000 --> 00:10:43.400
+ Way more feasible and then rocks could have his wish of like somebody just point me into a thing that I can just install
+
+00:10:43.560 --> 00:10:44.920
+ And then it'll just work
+
+00:10:44.920 --> 00:10:49.080
+ Right now like multi-part uploads are a huge pain even just normal uploads s3
+
+00:10:49.080 --> 00:10:53.280
+ there's like a several steps involved there and you don't just have like a node library that you can install and
+
+00:10:53.280 --> 00:11:00.480
+ Suddenly have all that work. So that's my take like and I built out a multi-part upload thing using sst
+
+00:11:00.480 --> 00:11:05.440
+ It just feels really good and just it feels like a modern web framework like I said
+
+00:11:05.440 --> 00:11:11.440
+ But it actually takes you into your AWS account and deploys infrastructure and does all these more like
+
+00:11:11.960 --> 00:11:16.840
+ Bespoke things you need to do when you're building things that aren't trivial. Is that accurate?
+
+00:11:16.840 --> 00:11:22.360
+ Yeah, and I think that fits with the way I've been thinking about things lately. I have this idea where
+
+00:11:22.360 --> 00:11:27.960
+ Whenever we're building features, I try to think of it as I don't want to make the user leave
+
+00:11:27.960 --> 00:11:32.600
+ Their editor. I don't want them to make them leave their language. So
+
+00:11:32.600 --> 00:11:37.400
+ If you build like the best let's say we all know AWS console sucks
+
+00:11:37.720 --> 00:11:46.240
+ Let's say you built like you're the best designer in the world the best front engineers in the world and you built the absolute best AWS console. There is
+
+00:11:46.240 --> 00:11:53.880
+ It's still not the correct experience because if you are in your editor, you're writing application code and you need to
+
+00:11:53.880 --> 00:11:56.400
+ Create a bucket to upload stuff
+
+00:11:56.400 --> 00:12:02.400
+ The context switch if I'm gonna switch to some UI tool to do that. Yep is doesn't matter how good
+
+00:12:02.400 --> 00:12:06.880
+ You've made that UI tool you've already lost the developer experience because they had to do a context switch
+
+00:12:07.160 --> 00:12:08.800
+ So for us
+
+00:12:08.800 --> 00:12:12.320
+ We know most people are using TypeScript. They have to be using it if they're on the front end
+
+00:12:12.320 --> 00:12:16.880
+ So they're likely gonna use it on the back end and we want to make sure you can do everything through TypeScript
+
+00:12:16.880 --> 00:12:22.720
+ And if that's a case you're never doing a context switch like doing quote-unquote infrastructure work just feels like
+
+00:12:22.720 --> 00:12:25.520
+ the rest of your code and
+
+00:12:25.520 --> 00:12:32.920
+ The type safety we've provided across infrastructure front-end and back end makes it all feel like one one thing
+
+00:12:32.920 --> 00:12:38.060
+ So we're kind of hoping we get to a place where it feels like I'm just writing an application. I'm not doing these
+
+00:12:38.060 --> 00:12:43.800
+ Discretely different tasks. Yeah, it's somebody who does all the parts of the stack
+
+00:12:43.800 --> 00:12:50.520
+ It's very refreshing to me, but I'm like a kind of a weird maybe use case like I work alone a lot and all that
+
+00:12:50.520 --> 00:12:53.400
+ You've got a lot of startups using SSC. I've been in your discord
+
+00:12:53.400 --> 00:12:59.920
+ That it doesn't seem like there's any has there been a drop in activity and in the discord for those six months
+
+00:12:59.920 --> 00:13:05.260
+ It feels very active. They don't seem to have slowed down a bit your customer. Like who's building on SST
+
+00:13:05.260 --> 00:13:11.160
+ We're so growing really well and you know with 2.0. We've seen a huge jump our focus is definitely still startups
+
+00:13:11.160 --> 00:13:14.280
+ we believe in helping people
+
+00:13:14.280 --> 00:13:20.600
+ Builds like you know, they're trying to build sustainable companies a single product to you know to work on and
+
+00:13:20.600 --> 00:13:23.000
+ Obviously that needs to be easy at the beginning
+
+00:13:23.000 --> 00:13:27.600
+ But it can't be this thing where they hit a point where they just hate our tooling
+
+00:13:27.600 --> 00:13:30.040
+ You need to eject out of it really hardcore. So
+
+00:13:30.040 --> 00:13:36.680
+ We intentionally accept that our stuff is never going to be the easiest to start with because you need to trade something off
+
+00:13:36.680 --> 00:13:41.240
+ To get there you need to trade off longevity. So most of our users are
+
+00:13:41.240 --> 00:13:44.960
+ startups or companies or teams that are working together
+
+00:13:44.960 --> 00:13:47.600
+ We do have like really large enterprise
+
+00:13:47.600 --> 00:13:53.680
+ Companies as well and we like to support them as much of the best we can but our focus really is
+
+00:13:54.160 --> 00:13:58.300
+ I'm sorry. I'm trying to start a company. It's just me and my co-founder and within a year
+
+00:13:58.300 --> 00:14:03.120
+ And then there might be a team around this and there's like a very narrow set of things
+
+00:14:03.120 --> 00:14:08.020
+ Those people need so it's very easy to optimize for that experience. Yeah, and you're very like
+
+00:14:08.020 --> 00:14:15.100
+ Practical I would say is the word you thought you've thought through the whole authoring experience in the light of like
+
+00:14:15.100 --> 00:14:22.720
+ Future maintenance like not a lot of frameworks seem to care as much about how easy is it to keep building on your thing?
+
+00:14:23.280 --> 00:14:30.280
+ You say like in year two in year three that stands out as well as I work with it like the domain-driven design stuff
+
+00:14:30.280 --> 00:14:33.880
+ I mean, it's just stuff that like in the serverless community, especially it's sort of been abandoned
+
+00:14:33.880 --> 00:14:37.280
+ It feels like and SST is kind of bringing it back to
+
+00:14:37.280 --> 00:14:43.440
+ Those principles. Yeah, and these are all just really old ideas, which is what's funny about it
+
+00:14:43.440 --> 00:14:47.480
+ Just stuff that's been around forever and has worked forever
+
+00:14:47.480 --> 00:14:52.640
+ And it's always fun to like deviate away to see if things are different now, but
+
+00:14:53.560 --> 00:14:55.560
+ the stuff we have in there is
+
+00:14:55.560 --> 00:14:59.500
+ old time tested stuff that the most maintainable apps
+
+00:14:59.500 --> 00:15:02.240
+ apps have
+
+00:15:02.240 --> 00:15:07.760
+ But we try to keep it light like we don't want you to like we never want someone to feel like I'm studying the theory of something
+
+00:15:07.760 --> 00:15:11.320
+ And I think that was a lot of what even serverless was like for a while, right?
+
+00:15:11.320 --> 00:15:14.760
+ Like I'm gonna become a serverless developer and have these like
+
+00:15:14.760 --> 00:15:20.960
+ Grand theories about serverless architecture and infrastructure. This is how we think and this is how with what we believe in and
+
+00:15:21.240 --> 00:15:27.640
+ It becomes like a whole philosophy, and that's kind of why I was saying the other day like the front-end world has a much better relationship with serverless
+
+00:15:27.640 --> 00:15:30.440
+ most front-end engineers are
+
+00:15:30.440 --> 00:15:35.240
+ Really serverless native like everything they do is so they don't even expect anything different
+
+00:15:35.240 --> 00:15:41.640
+ They just expect it to be serverless, but they don't think twice about it. It's just a natural instinct to away from them to do things
+
+00:15:41.640 --> 00:15:46.980
+ Whereas I think the back-end world has been it's always been like this very intentional large step
+
+00:15:47.080 --> 00:15:52.280
+ Yeah, to doing serverless as opposed to feeling like oh, this is just normal. This is what building applications is like
+
+00:15:52.280 --> 00:15:56.280
+ Yeah, you mentioned earlier ejecting - I thought I should point out I think in my
+
+00:15:56.280 --> 00:16:01.240
+ Examples things I've built with SST. I've had to use something
+
+00:16:01.240 --> 00:16:04.520
+ There's something I needed deploy outside of that 3% on AWS
+
+00:16:04.520 --> 00:16:09.020
+ Like I needed some kind of infrastructure and you could just drop CDK components directly
+
+00:16:09.020 --> 00:16:15.720
+ Into an SST stack like these are just cloud formation stacks or just CDK stacks at the other day, right?
+
+00:16:15.960 --> 00:16:18.440
+ So accurate. Yeah, exactly and that's uh
+
+00:16:18.440 --> 00:16:23.400
+ As much as I struggle with the constraints of CDK because it's not my project
+
+00:16:23.400 --> 00:16:29.560
+ It's AWS's project and you know, sometimes I want them to do things differently. The reason we're still on it is for that
+
+00:16:29.560 --> 00:16:32.600
+ long-term maintainability sustainability thing
+
+00:16:32.600 --> 00:16:39.160
+ We are never going to be able to cover a hundred percent of people's use cases. They're always going to need to do some weird thing
+
+00:16:39.160 --> 00:16:41.160
+ that's different and
+
+00:16:41.160 --> 00:16:45.800
+ It might it's not even that it's misguided or anything. It's just people have different requirements
+
+00:16:46.440 --> 00:16:50.920
+ And being able to drop down into something lower level that still feels pretty similar
+
+00:16:50.920 --> 00:16:57.000
+ Um, like when using a CDK contract, it's a little bit different and some of this stuff doesn't work as nicely as it does with SST
+
+00:16:57.000 --> 00:17:03.960
+ But it's not like you're dropping down to writing yaml all of a sudden right something that you like never seen we're doing something in the console
+
+00:17:03.960 --> 00:17:09.480
+ Yeah, exactly. So I think that's a lot of the reason we've seen we're able to see especially for I mean, we're not
+
+00:17:09.480 --> 00:17:12.200
+ we're still like a new project and
+
+00:17:12.920 --> 00:17:18.280
+ For something as important as your infrastructure. It's a big decision for people and I think a lot of the reasons
+
+00:17:18.280 --> 00:17:24.200
+ We've been able to see a good amount of growth is everyone knows that there's an escape hatch of fail safe if
+
+00:17:24.200 --> 00:17:29.080
+ If they don't like something they can they have the underlying layer they can drop too. So we don't take that lightly
+
+00:17:29.080 --> 00:17:30.920
+ We know it's a big reason why
+
+00:17:30.920 --> 00:17:38.760
+ People are going to try it out and you've got the open next so you deploy next to sites into an AWS account with similar feature
+
+00:17:39.800 --> 00:17:43.800
+ Sets as versatile, right? I mean, there's are there still things you guys haven't built out maybe?
+
+00:17:43.800 --> 00:17:50.920
+ Yeah, so that's an it really interesting project and I think we're getting some signals over the last week that it's working out the way we were hoping
+
+00:17:50.920 --> 00:17:53.080
+ the idea behind it was
+
+00:17:53.080 --> 00:17:55.960
+ You know, versatile has this really awesome serverless
+
+00:17:55.960 --> 00:18:00.120
+ Infrastructure to deploy next year sites. We don't know the full details of it
+
+00:18:00.120 --> 00:18:03.080
+ But they can do whatever they want right because it's a black box
+
+00:18:03.080 --> 00:18:09.240
+ They can use some of AWS. They can mix in cloud flare. They can kind of do whatever set up works well for them
+
+00:18:10.120 --> 00:18:15.960
+ And if you want to self-host and you want to have a similar serverless setup in your own account or whatever it is
+
+00:18:15.960 --> 00:18:20.120
+ It takes the effort of an entire versatile engineering team to
+
+00:18:20.120 --> 00:18:23.640
+ To like come up with that architecture and do things correctly
+
+00:18:23.640 --> 00:18:29.880
+ And there were several like disparate attempts of doing this you can think about like, you know individual open source attempts of
+
+00:18:29.880 --> 00:18:33.480
+ Okay. Hey, like here's here's like a way you could do it in your AWS account
+
+00:18:34.120 --> 00:18:41.160
+ There are other proprietary attempts right like netlify let you deploy next year as to their infrastructure similar to verso
+
+00:18:41.160 --> 00:18:43.400
+ Amplify has their own
+
+00:18:43.400 --> 00:18:47.560
+ So if it felt to us like everyone was repeating this work
+
+00:18:47.560 --> 00:18:49.640
+ Over and over
+
+00:18:49.640 --> 00:18:53.160
+ So we try to create okay, let's create like an open attempt at doing this
+
+00:18:53.160 --> 00:18:54.840
+ And we're not
+
+00:18:54.840 --> 00:18:57.000
+ Is no one on the team is a next year's user
+
+00:18:57.000 --> 00:19:01.960
+ So we're in a lot of ways ill-suited to do this like we understand the infrastructure stuff really well
+
+00:19:02.440 --> 00:19:05.720
+ We understand front end in general and how to deploy friends in general well
+
+00:19:05.720 --> 00:19:09.720
+ But if it comes down to like how should this specific next shas middleware
+
+00:19:09.720 --> 00:19:14.920
+ Operate like we're not the people that do that. So that's why we really want an open effort
+
+00:19:14.920 --> 00:19:20.120
+ We saw enough interest in our community where a lot of people were deploying next shas like next shas experts
+
+00:19:20.120 --> 00:19:22.120
+ I'd like to do every little detail of it
+
+00:19:22.120 --> 00:19:27.160
+ And we really wanted them to contribute and like find bugs and be opinionated on how it should work
+
+00:19:27.160 --> 00:19:29.560
+ and over the past week we've been seeing
+
+00:19:29.800 --> 00:19:33.080
+ pull requests fixing like really obscure things that
+
+00:19:33.080 --> 00:19:36.040
+ We would have probably never figured out
+
+00:19:36.040 --> 00:19:39.480
+ Uh, so it's something like this. It's always going to be a little behind
+
+00:19:39.480 --> 00:19:45.240
+ Vercelle because like you know, they're building actually us their infrastructure is going to match it and they're gonna be a nice lock step there
+
+00:19:45.240 --> 00:19:50.440
+ We're always going to be a little behind but if we have a decent amount of eyeballs helping us and looking at it and
+
+00:19:50.440 --> 00:19:52.840
+ And helping us stay up to speed
+
+00:19:52.840 --> 00:19:56.920
+ We have a really good shot at maintaining parity with a similar
+
+00:19:57.320 --> 00:20:01.080
+ Next shas experience on vercelle. It's never going to be the same because they mix in other stuff
+
+00:20:01.080 --> 00:20:05.800
+ Like they use cloud player for some things or ourselves a hundred percent AWS and we have the constraints there
+
+00:20:05.800 --> 00:20:06.600
+ but
+
+00:20:06.600 --> 00:20:12.360
+ It's at this point is comparable and I think for most use cases it works effectively the same
+
+00:20:12.360 --> 00:20:18.680
+ I wish the whole next shas thing being so complicated deployed didn't taint my like I it's hard for me to want to use next now
+
+00:20:18.680 --> 00:20:20.200
+ just because
+
+00:20:20.200 --> 00:20:24.920
+ It's so complicated to deploy and I know I'm like probably unique there everyone's still
+
+00:20:25.640 --> 00:20:28.200
+ Probably using next JS in mass
+
+00:20:28.200 --> 00:20:33.560
+ And deploying to vercelle and I'm sure it's not hurting them any but for me as somebody who's really into
+
+00:20:33.560 --> 00:20:39.320
+ Like running stuff in my own a business account and building out my own apis and those things
+
+00:20:39.320 --> 00:20:44.680
+ Uh, yeah, the whole like complicated nature of next JS because you guys have other constructs for like
+
+00:20:44.680 --> 00:20:48.600
+ These other frameworks and they're super simple right like deploying an astro site
+
+00:20:48.600 --> 00:20:50.760
+ Super simple
+
+00:20:50.760 --> 00:20:54.280
+ The next JS not super simple. You have to have a whole open source
+
+00:20:55.080 --> 00:20:59.400
+ Like movement to try and keep up with what all the they're doing there. I guess it's good
+
+00:20:59.400 --> 00:21:01.320
+ I mean, I guess the features that they provide are cool
+
+00:21:01.320 --> 00:21:06.440
+ I just wish it wasn't so complicated. Yeah, exactly like if you look at the code for other contracts
+
+00:21:06.440 --> 00:21:11.320
+ So right now we have an astro contract. We have a remix contract. We have solid start
+
+00:21:11.320 --> 00:21:13.960
+ Contract and we have more coming
+
+00:21:13.960 --> 00:21:18.120
+ The other three are almost exactly identical and there's almost they're like share
+
+00:21:18.120 --> 00:21:23.480
+ Like 90 percent of the infrastructure and there's like very little nuances between them
+
+00:21:24.280 --> 00:21:28.680
+ Um, but these other frameworks were built to be very neutral from day one
+
+00:21:28.680 --> 00:21:32.120
+ Right, they like in their repos. They have adapters for
+
+00:21:32.120 --> 00:21:39.800
+ For cloud player for netlify for running in a container. Um, I'm interested to see how these evolve because
+
+00:21:39.800 --> 00:21:45.960
+ That is a constraint that they're adopting. They're saying we're going to build in a neutral vendor neutral way
+
+00:21:45.960 --> 00:21:48.680
+ And maybe for front end that doesn't matter too much
+
+00:21:48.680 --> 00:21:53.640
+ But at the end of the day next JS will always provide features that are very difficult for
+
+00:21:54.360 --> 00:21:57.240
+ Some of these other providers to other frameworks to do
+
+00:21:57.240 --> 00:22:03.560
+ And I'm starting to see them kind of break that little like astro has their image component, which you know only works
+
+00:22:03.560 --> 00:22:08.040
+ Like it doesn't work in cloud player. It only works in like AWS type environments
+
+00:22:08.040 --> 00:22:11.240
+ Um, so as an example of these frameworks having to
+
+00:22:11.240 --> 00:22:14.040
+ Draw some lines and be a little bit opinionated
+
+00:22:14.040 --> 00:22:16.680
+ They're all really good and complete filling frameworks
+
+00:22:16.680 --> 00:22:22.120
+ Is it is it just about the runtime like they want to use something that's node specific or something and then it has to be deployed
+
+00:22:22.680 --> 00:22:27.080
+ To node servers that that's what they yeah, that's one one constraint
+
+00:22:27.080 --> 00:22:31.480
+ Uh, but things like next JS is a bunch of like interesting stuff right like they're middleware
+
+00:22:31.480 --> 00:22:34.280
+ It's like oh your middleware can run an edge
+
+00:22:34.280 --> 00:22:38.280
+ So it can like decide things before it hits your regional function
+
+00:22:38.280 --> 00:22:43.960
+ Those are like architectural features that you know coming from like whoever's working on astro
+
+00:22:43.960 --> 00:22:48.120
+ Their only ability is to say you have a single function and this bunker is going to execute
+
+00:22:48.120 --> 00:22:50.600
+ They can't like do complex routing stuff at the
+
+00:22:51.320 --> 00:22:53.320
+ like the infrastructure level
+
+00:22:53.320 --> 00:22:55.480
+ Um, I don't know how important all that is
+
+00:22:55.480 --> 00:23:00.440
+ Again, I don't use next JS so I don't know how like oh, this is a really awesome feature
+
+00:23:00.440 --> 00:23:02.840
+ Or this is just like a cool thing that you use once in a while
+
+00:23:02.840 --> 00:23:05.240
+ So yeah, I think these frameworks won't be able to do that type of stuff
+
+00:23:05.240 --> 00:23:09.080
+ But as a user of these frameworks, it doesn't feel like it's mattered too much
+
+00:23:09.080 --> 00:23:12.600
+ I can do everything I need in astro and solid start and all these frameworks
+
+00:23:12.600 --> 00:23:19.560
+ I haven't felt limited yet by them and whatever framework you're using you can use sst to deploy it into your own AWS account
+
+00:23:20.040 --> 00:23:24.520
+ Super cool stuff. I'm a big fan. I've become a big fan. I think those six months
+
+00:23:24.520 --> 00:23:30.840
+ I needed to see you put in the effort backs and once you did that, I felt solid moving forward with us
+
+00:23:30.840 --> 00:23:33.880
+ I mean, that's kind of what I was hoping so
+
+00:23:33.880 --> 00:23:38.520
+ Like it would bring on the the people that are slow adopters like me
+
+00:23:38.520 --> 00:23:43.320
+ Well, uh, it's been I don't know two and a half months since we've done this. Is that right?
+
+00:23:43.320 --> 00:23:44.200
+ Yeah
+
+00:23:44.200 --> 00:23:45.320
+ It's flown by
+
+00:23:45.320 --> 00:23:51.240
+ It has like one to hibernation for the one. Yeah, it was just a holiday break. I like to take long long holiday breaks from everything
+
+00:23:51.240 --> 00:23:54.280
+ And that's what this was all the way up to president's day. Yeah
+
+00:23:54.280 --> 00:23:58.440
+ When is that when when's labor day? Is that like June or something?
+
+00:23:58.440 --> 00:24:03.080
+ Never keep track like we could if we both are kind of independent like we don't have the the company
+
+00:24:03.080 --> 00:24:08.840
+ Calendar to remind us of these things. Exactly. Just don't know. Okay. I don't remember how we ended
+
+00:24:08.840 --> 00:24:12.920
+ Do we ever have a way we ended a podcast episode or was it always just kind of like awkward goodbyes?
+
+00:24:13.160 --> 00:24:16.440
+ I think we were always just like all right. See you Adam. All right. See you next
+

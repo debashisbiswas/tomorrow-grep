@@ -1,0 +1,1934 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.280
+ Dax, have you seen me get all upset on the internet in the last few days?
+
+00:00:06.280 --> 00:00:07.280
+ Which time?
+
+00:00:07.280 --> 00:00:09.280
+ Which one of the times?
+
+00:00:09.280 --> 00:00:13.960
+ Just overall, just as a package, has my persona on the internet seemed a little bothered?
+
+00:00:13.960 --> 00:00:14.960
+ Yes.
+
+00:00:14.960 --> 00:00:15.960
+ I think you've been obsessed.
+
+00:00:15.960 --> 00:00:20.920
+ I think there's a lot of stuff pent up inside of you about Purcell, about Next.
+
+00:00:20.920 --> 00:00:21.920
+ JS.
+
+00:00:21.920 --> 00:00:26.080
+ I think it's coming out in all sorts of ways, so let's just get it all out in this episode
+
+00:00:26.080 --> 00:00:28.080
+ and then it will feel better.
+
+00:00:28.080 --> 00:00:52.880
+ I will feel so much better.
+
+00:00:52.880 --> 00:00:55.520
+ This is honestly going to be therapy for me.
+
+00:00:55.520 --> 00:00:58.300
+ This is going to be Dax saying things that make me feel better.
+
+00:00:58.300 --> 00:01:03.420
+ I think it started with April 1st, I did an April Fool's joke, and it was good fun making
+
+00:01:03.420 --> 00:01:04.920
+ fun of Purcell.
+
+00:01:04.920 --> 00:01:11.000
+ Just overall making fun of lots of things that are not really bothersome to me, but just
+
+00:01:11.000 --> 00:01:16.920
+ like little annoyances, like their vibe, their pretentiousness, the making, front-end
+
+00:01:16.920 --> 00:01:21.920
+ hosting sound like, I don't know, it's really, really important.
+
+00:01:21.920 --> 00:01:25.980
+ I was sort of like just I'm annoyed, I'm a little annoyed, but then I think it's drifted
+
+00:01:25.980 --> 00:01:34.040
+ into some darker places where I think I'm bothered by individuals and what I feel like
+
+00:01:34.040 --> 00:01:41.240
+ is the deployment of $300 million in capital to like brainwash the entire web dev community.
+
+00:01:41.240 --> 00:01:44.800
+ Did I say this is going to be therapy, I don't know, this is turning into me just getting
+
+00:01:44.800 --> 00:01:45.800
+ more upset.
+
+00:01:45.800 --> 00:01:47.440
+ We'll start there and we'll see where we end.
+
+00:01:47.440 --> 00:01:48.440
+ Okay.
+
+00:01:48.440 --> 00:01:51.520
+ And I'm really, and this is the second pocket episode we've done where it's like about how
+
+00:01:51.520 --> 00:01:55.240
+ we've had fights on the internet or something, or we're upset with people.
+
+00:01:55.240 --> 00:01:58.120
+ We just, we're just hostile, we just need to calm down.
+
+00:01:58.120 --> 00:02:01.080
+ Yeah, no, I do feel like I need to walk it back a bit.
+
+00:02:01.080 --> 00:02:06.480
+ I don't want to be somebody who comes off as blindly hating something because I know like
+
+00:02:06.480 --> 00:02:11.680
+ anytime something's really popular, like Apple, you just got a whole group of people that
+
+00:02:11.680 --> 00:02:14.600
+ hate Apple because other people love it.
+
+00:02:14.600 --> 00:02:18.800
+ So when people love something, there's always people who hate it and I don't want, I don't
+
+00:02:18.800 --> 00:02:22.560
+ want to just look like another Vercel Hater because I'm not.
+
+00:02:22.560 --> 00:02:25.520
+ I love Vercel, I use it all the time.
+
+00:02:25.520 --> 00:02:29.720
+ I use it for, mostly for projects where I know it's never going to grow.
+
+00:02:29.720 --> 00:02:35.000
+ It's like I need a personal website, so I want to put it on Vercel or I need, I'm doing
+
+00:02:35.000 --> 00:02:39.720
+ some dumb project just to show off some technology or something and I don't expect it to like
+
+00:02:39.720 --> 00:02:42.400
+ actually have traffic.
+
+00:02:42.400 --> 00:02:47.320
+ In those cases, Vercel is great and I see the advantages, the trade-offs where I can
+
+00:02:47.320 --> 00:02:48.880
+ think about less, I can just put it up there.
+
+00:02:48.880 --> 00:02:53.000
+ It's very serverless in that way, like not serverless from like a runtime perspective,
+
+00:02:53.000 --> 00:02:57.480
+ but serverless from like a, I don't want to deal with these things.
+
+00:02:57.480 --> 00:03:00.120
+ Someone deal with it for me.
+
+00:03:00.120 --> 00:03:06.080
+ But I just feel like the, the reason I'm so bothered I think is that I feel like the whole
+
+00:03:06.080 --> 00:03:12.280
+ vibe right now, the whole narrative in the web dev space, especially on Twitter is like,
+
+00:03:12.280 --> 00:03:14.720
+ AWS is too complicated for you.
+
+00:03:14.720 --> 00:03:17.360
+ You need Vercel to save you.
+
+00:03:17.360 --> 00:03:23.760
+ I'm so thankful for Vercel to like saved us all from the horrors of AWS.
+
+00:03:23.760 --> 00:03:26.840
+ That's what I feel like the vibe is turned into and it just seems so ridiculous to me.
+
+00:03:26.840 --> 00:03:33.080
+ And also it bothers me that Vercel is like lauded for being so cheap and AWS is universally
+
+00:03:33.080 --> 00:03:34.560
+ hated for being so expensive.
+
+00:03:34.560 --> 00:03:37.360
+ And this is the dumbest thing in the world because it's completely opposite.
+
+00:03:37.360 --> 00:03:38.360
+ Okay.
+
+00:03:38.360 --> 00:03:39.360
+ I said a lot of words.
+
+00:03:39.360 --> 00:03:40.360
+ Yeah.
+
+00:03:40.360 --> 00:03:41.360
+ Yeah.
+
+00:03:41.360 --> 00:03:42.360
+ So let's kind of break some of that down.
+
+00:03:42.360 --> 00:03:43.360
+ Yeah.
+
+00:03:43.360 --> 00:03:48.160
+ I think to start with any technology with anything, there's like the perpetual haters group that
+
+00:03:48.160 --> 00:03:52.320
+ like whenever it comes up or whenever something kind of bad about it happens, the perpetual
+
+00:03:52.320 --> 00:03:55.120
+ haters come out and just repeat all the same stuff.
+
+00:03:55.120 --> 00:03:59.200
+ And it's just, it's just like, you know, a thing you generally should just ignore.
+
+00:03:59.200 --> 00:04:02.960
+ I think you're concerned that you're coming off that way, but that's not the category
+
+00:04:02.960 --> 00:04:07.880
+ you're in because you actually use it and you genuinely like it and you're a fan.
+
+00:04:07.880 --> 00:04:10.680
+ But just because you're a fan doesn't mean you can be also really critical about it.
+
+00:04:10.680 --> 00:04:13.080
+ And I think my relationship with AWS is exactly that, right?
+
+00:04:13.080 --> 00:04:15.200
+ I deploy everything in AWS.
+
+00:04:15.200 --> 00:04:17.840
+ I spend a lot of time helping others deploy AWS.
+
+00:04:17.840 --> 00:04:20.680
+ I spend a lot of time teaching people how to do it and explaining people why they should
+
+00:04:20.680 --> 00:04:22.520
+ even try it.
+
+00:04:22.520 --> 00:04:26.280
+ But no one is no one is a bigger critic of AWS than me, right?
+
+00:04:26.280 --> 00:04:31.600
+ So just to like say that out there, you can like something and you can also come across
+
+00:04:31.600 --> 00:04:35.360
+ as like hating it at times because, you know, things are complex, things are nuanced.
+
+00:04:35.360 --> 00:04:37.960
+ So that's kind of what we're trying to get to here.
+
+00:04:37.960 --> 00:04:38.960
+ That makes sense.
+
+00:04:38.960 --> 00:04:39.960
+ Yeah.
+
+00:04:39.960 --> 00:04:40.960
+ No, perfect sense.
+
+00:04:40.960 --> 00:04:42.480
+ Two things can be true and live in your head at the same time.
+
+00:04:42.480 --> 00:04:48.320
+ Like I don't come out publicly and talk about hating AWS because like, that's the popular
+
+00:04:48.320 --> 00:04:49.320
+ thing to do.
+
+00:04:49.320 --> 00:04:51.640
+ Like, there's a lot of things I hate about AWS.
+
+00:04:51.640 --> 00:04:55.800
+ I'm an AWS hero and there's things that just drive me crazy.
+
+00:04:55.800 --> 00:04:59.040
+ But I don't really feel like I need to voice that because I feel like it's well covered.
+
+00:04:59.040 --> 00:05:03.640
+ And maybe the Vercel hatred is well covered, but I do think like I don't hate Vercel and
+
+00:05:03.640 --> 00:05:07.880
+ I don't think I'm coming from that place of just blindly criticizing something for the
+
+00:05:07.880 --> 00:05:08.880
+ sake of it.
+
+00:05:08.880 --> 00:05:14.360
+ Like, I genuinely feel like there are people building startups today and they think they're
+
+00:05:14.360 --> 00:05:19.960
+ making good choices because of the general narrative right now.
+
+00:05:19.960 --> 00:05:24.240
+ And they're going to end up in painful places down the road, I think.
+
+00:05:24.240 --> 00:05:28.920
+ And I think that's the other thing, this week I discovered that nine years ago I built a
+
+00:05:28.920 --> 00:05:33.520
+ startup that is still alive today and is actually kind of it's successful.
+
+00:05:33.520 --> 00:05:37.720
+ And I don't think I attributed that to like, I am a successful startup founder.
+
+00:05:37.720 --> 00:05:40.280
+ So I've never felt like I had anything to offer the conversation.
+
+00:05:40.280 --> 00:05:44.800
+ And then I just woke up this week and I realized like, I can say things, okay, because people
+
+00:05:44.800 --> 00:05:45.800
+ use my thing.
+
+00:05:45.800 --> 00:05:49.400
+ Yeah, it's funny because I had the same realization about you this week.
+
+00:05:49.400 --> 00:05:53.960
+ It's like so obvious, like it's kind of dumb to even say is out loud, but yeah, you don't
+
+00:05:53.960 --> 00:05:57.520
+ lean on your credibility too much, but you actually do have a lot to sit on.
+
+00:05:57.520 --> 00:06:03.600
+ And what's interesting about this conversation is just to summarize what is a little frustrating.
+
+00:06:03.600 --> 00:06:08.640
+ It's that this is a good product, results product is good, but there is, it's gotten
+
+00:06:08.640 --> 00:06:14.800
+ to a place where there's this narrative of you need to use it for literally everything.
+
+00:06:14.800 --> 00:06:16.600
+ And it is the best choice.
+
+00:06:16.600 --> 00:06:19.960
+ And if you don't use it for literally everything, you're like, you're making a bad choice or
+
+00:06:19.960 --> 00:06:22.240
+ like, there's nothing that it can't do well, right?
+
+00:06:22.240 --> 00:06:23.240
+ It's like unfalable.
+
+00:06:23.240 --> 00:06:24.240
+ Yeah.
+
+00:06:24.240 --> 00:06:27.000
+ Nobody else in software engineering is pushing the bar at all.
+
+00:06:27.000 --> 00:06:29.160
+ This is a pinnacle of software engineering is all there.
+
+00:06:29.160 --> 00:06:30.960
+ Everything Vercel does is all there is a software engineering.
+
+00:06:30.960 --> 00:06:32.840
+ It's kind of this kind of vibe.
+
+00:06:32.840 --> 00:06:36.720
+ And it's all coming from, most of this is coming from people that just have not had a
+
+00:06:36.720 --> 00:06:38.800
+ lot of experience, right?
+
+00:06:38.800 --> 00:06:42.280
+ Lily, anyone with experience does not feel that way.
+
+00:06:42.280 --> 00:06:44.280
+ And I think that's what's missing from the conversation.
+
+00:06:44.280 --> 00:06:47.960
+ It's the joke I made today was, Hey, like everyone just talking about this stuff.
+
+00:06:47.960 --> 00:06:51.120
+ It doesn't seem like any of you have products that people actually use.
+
+00:06:51.120 --> 00:06:54.000
+ Let's try to hear from people that have products that people actually use.
+
+00:06:54.000 --> 00:06:58.080
+ And yeah, I think you should sit on that a little bit more because that's just what it
+
+00:06:58.080 --> 00:07:00.400
+ is completely missing from from the conversation.
+
+00:07:00.400 --> 00:07:01.400
+ Yeah.
+
+00:07:01.400 --> 00:07:07.320
+ No, I think I just don't know enough of the cases where startups have scaled with Vercel
+
+00:07:07.320 --> 00:07:09.720
+ and stuck with Vercel and it worked out.
+
+00:07:09.720 --> 00:07:14.520
+ And I think when I started hearing those, at least there could be a dialogue.
+
+00:07:14.520 --> 00:07:19.360
+ Like I just don't know who I'm even like having a dialogue with because I feel like everyone
+
+00:07:19.360 --> 00:07:24.120
+ who uses Vercel and so blindly recommends it doesn't have that experience.
+
+00:07:24.120 --> 00:07:25.440
+ Like you're saying, I don't know.
+
+00:07:25.440 --> 00:07:26.680
+ And I guess that bothers me.
+
+00:07:26.680 --> 00:07:28.320
+ I guess I start getting angry.
+
+00:07:28.320 --> 00:07:29.760
+ I don't need to be angry about it.
+
+00:07:29.760 --> 00:07:30.760
+ I do.
+
+00:07:30.760 --> 00:07:34.320
+ I don't want to like just have an emotional reaction and just like, I think that's the
+
+00:07:34.320 --> 00:07:36.200
+ wrong kind of criticism that I'm not looking for.
+
+00:07:36.200 --> 00:07:39.880
+ But I do want to look at it more objectively and yeah, not feel like I'm living in the
+
+00:07:39.880 --> 00:07:42.360
+ past because I don't use herself for everything.
+
+00:07:42.360 --> 00:07:45.600
+ Like that's kind of what you said, the narrative kind of dig into some of that.
+
+00:07:45.600 --> 00:07:52.040
+ So when you say it doesn't, if you're building a startup, it doesn't make sense for you to
+
+00:07:52.040 --> 00:07:53.880
+ just build everything on Vercel.
+
+00:07:53.880 --> 00:07:57.240
+ What are some of the reasons that that stick out to you and what are some of the problems
+
+00:07:57.240 --> 00:07:58.720
+ that you think people will run into?
+
+00:07:58.720 --> 00:07:59.720
+ Yeah.
+
+00:07:59.720 --> 00:08:05.680
+ So I think the main thing is if you're building with Next.js on Vercel, the amount of like,
+
+00:08:05.680 --> 00:08:09.640
+ and I hate the term locked in, but the amount of things you're going to run into if you
+
+00:08:09.640 --> 00:08:15.160
+ ever try to move off of Vercel for a variety of reasons, you might be like pricing or whatever,
+
+00:08:15.160 --> 00:08:16.960
+ you might need to move off for sell.
+
+00:08:16.960 --> 00:08:20.560
+ That integration between Next.js and Vercel is very tight and it should be.
+
+00:08:20.560 --> 00:08:21.560
+ It's a great business model.
+
+00:08:21.560 --> 00:08:22.560
+ It makes sense.
+
+00:08:22.560 --> 00:08:26.400
+ I think that's one of the problems though, is that startups might lean on a lot of Next.js
+
+00:08:26.400 --> 00:08:32.640
+ features and also just feeling like that whole world of Vercel and Next.js is so front-end
+
+00:08:32.640 --> 00:08:38.360
+ dominant and it feels like front-end engineers, what they think the whole app looks like.
+
+00:08:38.360 --> 00:08:41.320
+ And it's all synchronous HTTP requests from the browser.
+
+00:08:41.320 --> 00:08:45.920
+ And if your whole backend can be represented that way, great, but I've not built anything
+
+00:08:45.920 --> 00:08:48.760
+ where the whole backend can be represented in that way.
+
+00:08:48.760 --> 00:08:53.080
+ So I guess it seems pretty clear to me you're going to immediately start needing to jump
+
+00:08:53.080 --> 00:08:57.440
+ out of Vercel because you need a queue or you need whatever.
+
+00:08:57.440 --> 00:09:01.200
+ I guess they have cron jobs now, something like cron jobs maybe.
+
+00:09:01.200 --> 00:09:04.320
+ But even things like that weren't supported even weeks ago.
+
+00:09:04.320 --> 00:09:09.120
+ So it's like, I don't know, there's a lot more to building applications than just building
+
+00:09:09.120 --> 00:09:12.280
+ a front-end and having some API routes.
+
+00:09:12.280 --> 00:09:16.840
+ And I do think that whole like picture of full stack web development is being painted
+
+00:09:16.840 --> 00:09:22.000
+ by front-end engineers right now, I just don't think it's doing a good service to developers
+
+00:09:22.000 --> 00:09:27.440
+ who are new and maybe do want to learn full stack and they don't go any further than that.
+
+00:09:27.440 --> 00:09:30.920
+ So that's one, I mean, one thing is just like architecturally not encouraging people to
+
+00:09:30.920 --> 00:09:34.880
+ dive a little deeper, to go a little deeper and say, what are the things that make up
+
+00:09:34.880 --> 00:09:35.880
+ an application?
+
+00:09:35.880 --> 00:09:40.680
+ I see this honestly all the time on Twitter with friends who are in the kind of the indie
+
+00:09:40.680 --> 00:09:45.800
+ hacking crowd and they immediately hit a use case where like, I need something, I don't
+
+00:09:45.800 --> 00:09:49.920
+ even know how to articulate it and I don't want to use AWS because it sucks.
+
+00:09:49.920 --> 00:09:52.000
+ Now everybody's in there if I'm talking about it.
+
+00:09:52.000 --> 00:09:54.320
+ I love rocks, like rocks is great.
+
+00:09:54.320 --> 00:09:58.080
+ But like he builds a new app like every other day that's like, he's building stuff that's
+
+00:09:58.080 --> 00:09:59.080
+ complicated.
+
+00:09:59.080 --> 00:10:03.000
+ Like he needs to queue up big background jobs working on media and doing this stuff, he's
+
+00:10:03.000 --> 00:10:07.360
+ trying to create tools for creators and I think you immediately run into cases where
+
+00:10:07.360 --> 00:10:11.560
+ it's not a good fit for Vercel or if it is, if you are going to use Vercel, just use it
+
+00:10:11.560 --> 00:10:16.720
+ for your front end, but then you're having to deal with the like gluing together Vercel
+
+00:10:16.720 --> 00:10:21.400
+ and your actual back end and that gets painful, just the shuffling around of environment variables
+
+00:10:21.400 --> 00:10:22.400
+ and whatever.
+
+00:10:22.400 --> 00:10:28.280
+ So there's all those things in terms of like it just not being very deep to pretty shallow
+
+00:10:28.280 --> 00:10:31.320
+ view of the world in terms of full stack dev.
+
+00:10:31.320 --> 00:10:35.880
+ And there's like pricing, I mean, like it's funny to me that people think Vercel is so
+
+00:10:35.880 --> 00:10:36.880
+ cheap.
+
+00:10:36.880 --> 00:10:41.000
+ It is, it's free when nobody uses your app, like it is free.
+
+00:10:41.000 --> 00:10:44.080
+ And that's the case for a lot of things, like the free tiers are generous.
+
+00:10:44.080 --> 00:10:45.080
+ That's great.
+
+00:10:45.080 --> 00:10:46.480
+ And again, I love Vercel.
+
+00:10:46.480 --> 00:10:47.480
+ I use it all the time.
+
+00:10:47.480 --> 00:10:48.480
+ It's a great product.
+
+00:10:48.480 --> 00:10:54.160
+ But if you start to scale, that free turns into pretty expensive, pretty fast and a lot
+
+00:10:54.160 --> 00:10:57.240
+ of it's pretty, it's pretty opaque.
+
+00:10:57.240 --> 00:11:00.760
+ So the enterprise pricing is just a completely black box.
+
+00:11:00.760 --> 00:11:05.240
+ You can kind of like start to figure out if you didn't go to enterprise, you know, what
+
+00:11:05.240 --> 00:11:09.320
+ would it cost to build your thing at levels of scale.
+
+00:11:09.320 --> 00:11:10.320
+ And it gets pretty expensive.
+
+00:11:10.320 --> 00:11:11.680
+ I mean, it's not, it's not cheap.
+
+00:11:11.680 --> 00:11:14.200
+ It's a big mark up on top of something like AWS.
+
+00:11:14.200 --> 00:11:19.600
+ And I feel like you could just spend some time as an engineer, even just a month and
+
+00:11:19.600 --> 00:11:23.400
+ learn some things, especially with some of the developer experience stuff with SST and
+
+00:11:23.400 --> 00:11:28.120
+ other sort of infrastructure code frameworks, you could invest in yourself a little bit and
+
+00:11:28.120 --> 00:11:33.520
+ have this ability to build out anything you can dream up and really like not be terrified
+
+00:11:33.520 --> 00:11:40.840
+ of hitting the bandwidth, you know, free tier limits or getting DDoSed as we've seen on Twitter
+
+00:11:40.840 --> 00:11:41.840
+ last couple of days.
+
+00:11:41.840 --> 00:11:42.840
+ Okay.
+
+00:11:42.840 --> 00:11:45.480
+ Now I'm saying a lot that I don't know there's even context for.
+
+00:11:45.480 --> 00:11:47.400
+ So I'd need you to stop me, Dax.
+
+00:11:47.400 --> 00:11:49.800
+ No, that's, that's like kind of dig into that last one.
+
+00:11:49.800 --> 00:11:52.280
+ So because it's a topic I've been thinking about a lot too, right?
+
+00:11:52.280 --> 00:11:56.440
+ So what you said was you can just spend a month and invest in yourself and then learn some
+
+00:11:56.440 --> 00:11:57.880
+ of these skills.
+
+00:11:57.880 --> 00:12:01.200
+ That's the thing that to me is the root frustration.
+
+00:12:01.200 --> 00:12:04.280
+ It's, I'm all in on managed services.
+
+00:12:04.280 --> 00:12:07.560
+ When I teach people about serverless and try to get people to serverless, that's my pitch.
+
+00:12:07.560 --> 00:12:10.480
+ My pitch is don't worry about lock in offload work.
+
+00:12:10.480 --> 00:12:12.400
+ That's not differentiated other people, right?
+
+00:12:12.400 --> 00:12:15.000
+ So that is a key part of my pitch.
+
+00:12:15.000 --> 00:12:18.040
+ But I think people conflate that with I never have to learn anything.
+
+00:12:18.040 --> 00:12:21.480
+ Like, if I'm not, if I had to learn something, that means I'm doing something wrong.
+
+00:12:21.480 --> 00:12:25.480
+ But there's a difference between offloading and ongoing costs that you have to pay every
+
+00:12:25.480 --> 00:12:28.280
+ single day and a one time cost.
+
+00:12:28.280 --> 00:12:33.520
+ Learning a skill, learning a framework, learning parts of AWS is a one time cost.
+
+00:12:33.520 --> 00:12:35.040
+ I'm not, I'm not saying it's easy.
+
+00:12:35.040 --> 00:12:36.040
+ It is challenging.
+
+00:12:36.040 --> 00:12:39.920
+ AWS sucks and there's like a thousand ways to do things and it's hard to know what the
+
+00:12:39.920 --> 00:12:40.920
+ right way is.
+
+00:12:40.920 --> 00:12:41.920
+ Yep.
+
+00:12:41.920 --> 00:12:44.600
+ There are pads to doing that now, like, you know, with the work that we're doing with
+
+00:12:44.600 --> 00:12:46.920
+ SST and all these other things.
+
+00:12:46.920 --> 00:12:50.920
+ There is a way to get through that in, let's say, a week in a month, whatever.
+
+00:12:50.920 --> 00:12:54.400
+ You pay that cost once, but you do that once.
+
+00:12:54.400 --> 00:12:58.160
+ You never have to deal with some certain things ever again.
+
+00:12:58.160 --> 00:13:03.160
+ You're never like, oh man, someone just used my product, you know, a hundred times more
+
+00:13:03.160 --> 00:13:05.120
+ than I expected them to use it.
+
+00:13:05.120 --> 00:13:08.280
+ Like, how do I queue up by work or how do I, you know, run this, I'm going to say you
+
+00:13:08.280 --> 00:13:10.400
+ just have tools for all of that.
+
+00:13:10.400 --> 00:13:12.840
+ You never have to pay this price again, right?
+
+00:13:12.840 --> 00:13:17.680
+ I think people are starting to avoid these one time costs, whether it's learning AWS or
+
+00:13:17.680 --> 00:13:21.280
+ like even like learning SQL, I'm starting to see people argue against like, oh, you shouldn't
+
+00:13:21.280 --> 00:13:25.080
+ learn SQL, that's a waste of time, like just build on top of these abstractions.
+
+00:13:25.080 --> 00:13:29.400
+ This is a one time cost, just learn SQL and I use chat TPT to learn it.
+
+00:13:29.400 --> 00:13:34.360
+ It's like super easy and chat TPT, you can even write a lot of it for you, but it helps
+
+00:13:34.360 --> 00:13:38.360
+ you understand how some of these things work at a lower level and a key part.
+
+00:13:38.360 --> 00:13:40.120
+ And I think people miss this.
+
+00:13:40.120 --> 00:13:44.480
+ People forget that this whole managed services thing, this whole like offload your work thing,
+
+00:13:44.480 --> 00:13:49.640
+ that philosophy as much like criticized AWS that did come out of AWS and a key part of that
+
+00:13:49.640 --> 00:13:55.440
+ philosophy is yes, offload stuff to your vendor, but deeply understand how your vendor works
+
+00:13:55.440 --> 00:14:00.640
+ so that when you build things, you can kind of build in sync with them, right?
+
+00:14:00.640 --> 00:14:01.640
+ Yeah.
+
+00:14:01.640 --> 00:14:06.320
+ And this comes from like that, the whole like title manufacturing thing like this gets cited
+
+00:14:06.320 --> 00:14:07.320
+ a lot.
+
+00:14:07.320 --> 00:14:10.480
+ So I don't want to repeat it over and over, but their key insight was I'm not afraid of
+
+00:14:10.480 --> 00:14:11.480
+ my vendor.
+
+00:14:11.480 --> 00:14:15.640
+ I'm going to offload their undifferentiated work to my vendor, but I'm going to go visit
+
+00:14:15.640 --> 00:14:17.160
+ my vendor's warehouse.
+
+00:14:17.160 --> 00:14:18.840
+ I'm not understanding how they build all this stuff.
+
+00:14:18.840 --> 00:14:23.480
+ I'm not understanding how this all works so that that influences my own process.
+
+00:14:23.480 --> 00:14:26.720
+ I think with a lot of this stuff, it's kind of just throw over the wall to whoever and
+
+00:14:26.720 --> 00:14:27.880
+ it's just magically work.
+
+00:14:27.880 --> 00:14:31.600
+ And you're kind of seeing the issues with that where this Cal.com issue is a great one.
+
+00:14:31.600 --> 00:14:32.600
+ So Cal.com.
+
+00:14:32.600 --> 00:14:37.240
+ One of the few companies that's using this like next year's for everything deployed over
+
+00:14:37.240 --> 00:14:40.920
+ sell stack that's doing incredibly well, they're doing really well as a business.
+
+00:14:40.920 --> 00:14:43.040
+ They're growing great.
+
+00:14:43.040 --> 00:14:47.800
+ They hit a pretty fatal issue because they just kind of build their application without
+
+00:14:47.800 --> 00:14:52.080
+ really thinking about how serverless works, how Bursal works, and they're hitting severe
+
+00:14:52.080 --> 00:14:56.000
+ cold start issues and their application is like very slow, they're losing users because
+
+00:14:56.000 --> 00:14:57.000
+ of it.
+
+00:14:57.000 --> 00:15:00.120
+ And because of this mindset of I shouldn't have to know anything, we're just throw it
+
+00:15:00.120 --> 00:15:03.200
+ over the wall and I'm expecting Bursal to figure everything out.
+
+00:15:03.200 --> 00:15:04.680
+ Bursal can only do so much.
+
+00:15:04.680 --> 00:15:06.880
+ They have like grand engineers, they can only do so much.
+
+00:15:06.880 --> 00:15:10.320
+ They still need you to understand how their stuff works so you can build in coordination
+
+00:15:10.320 --> 00:15:11.320
+ with them.
+
+00:15:11.320 --> 00:15:14.680
+ So yeah, it's kind of one of the mindsets around all this stuff that I think is it's
+
+00:15:14.680 --> 00:15:19.160
+ like close to right, like yes, trust your vendors and help let them help you build stuff.
+
+00:15:19.160 --> 00:15:24.200
+ But no, like learning stuff isn't like a thing that goes away.
+
+00:15:24.200 --> 00:15:26.440
+ You still need to need to understand all of these things.
+
+00:15:26.440 --> 00:15:32.320
+ Yeah, as you're saying all that, I'm realizing like there is sort of a conflict for me and
+
+00:15:32.320 --> 00:15:37.640
+ I haven't really thought through it and I could use your help where I feel like my arguments
+
+00:15:37.640 --> 00:15:41.960
+ against Bursal or against like, and maybe we're saying the same thing.
+
+00:15:41.960 --> 00:15:43.840
+ Maybe it's not such a conflict.
+
+00:15:43.840 --> 00:15:49.120
+ But it's like, I am such a fan of managed services and specifically using a lot of different
+
+00:15:49.120 --> 00:15:53.200
+ AWS higher level primitives that abstract away stuff and I don't have to think about.
+
+00:15:53.200 --> 00:15:55.280
+ I don't like SSHing into servers.
+
+00:15:55.280 --> 00:15:59.480
+ Like I like serverless compute functions as service, whatever.
+
+00:15:59.480 --> 00:16:04.160
+ I like managed APIs that just give me all these cool features.
+
+00:16:04.160 --> 00:16:05.160
+ What is the difference?
+
+00:16:05.160 --> 00:16:12.600
+ I guess, am I a hypocrite that I'm saying, Bursal, like it's less, I don't know, I guess I'm
+
+00:16:12.600 --> 00:16:13.960
+ saying I like using Bursal.
+
+00:16:13.960 --> 00:16:18.440
+ I like offloading front end deployments to Bursal at times, but I wouldn't consider
+
+00:16:18.440 --> 00:16:22.720
+ using it like for Satmuse where we have a ton of traffic and I just don't feel like
+
+00:16:22.720 --> 00:16:28.640
+ it's justified to spin that premium for their CDN when I can use a cheaper CDN.
+
+00:16:28.640 --> 00:16:33.120
+ Is that me kind of going against my philosophy of like, take advantage of managed stuff?
+
+00:16:33.120 --> 00:16:38.240
+ No, I don't think so and the way I think about this is I tell people you're probably
+
+00:16:38.240 --> 00:16:43.040
+ irrationally afraid of vendor lock in, but that doesn't mean blindly accept all vendors.
+
+00:16:43.040 --> 00:16:46.380
+ It means try to understand if you and your vendor are aligned.
+
+00:16:46.380 --> 00:16:50.920
+ Like are the problems that you're going to have, like do they want to solve them?
+
+00:16:50.920 --> 00:16:53.920
+ Is it direction they're going in to stuff they're interested in, like is that aligned
+
+00:16:53.920 --> 00:16:55.880
+ with the stuff that you're interested in?
+
+00:16:55.880 --> 00:16:58.760
+ So I think that's kind of what you have to understand a little bit.
+
+00:16:58.760 --> 00:17:02.720
+ I think with something like Bursal, it's, you do have to understand a little bit about
+
+00:17:02.720 --> 00:17:05.440
+ the company and the technicals and even the business, right?
+
+00:17:05.440 --> 00:17:08.840
+ You need to understand that Hey, Bursal is built on top of AWS.
+
+00:17:08.840 --> 00:17:11.920
+ They're going to be constrained by all kinds of AWS stuff as well.
+
+00:17:11.920 --> 00:17:14.360
+ They need to make a margin on top of AWS.
+
+00:17:14.360 --> 00:17:17.080
+ They do mix in Cloudflare a bit here and there that's helpful to know.
+
+00:17:17.080 --> 00:17:20.600
+ It's also helpful to know they raise a lot of money at a crazy valuation during a time
+
+00:17:20.600 --> 00:17:23.040
+ where evaluations were really out of control.
+
+00:17:23.040 --> 00:17:25.520
+ You need to know that, okay, they haven't yet justified that.
+
+00:17:25.520 --> 00:17:27.960
+ You need to know they're not profitable.
+
+00:17:27.960 --> 00:17:31.720
+ These things factor into whether you really like tie yourself to a vendor or not.
+
+00:17:31.720 --> 00:17:34.640
+ I know with AWS, it doesn't matter what's happening with the economy.
+
+00:17:34.640 --> 00:17:36.480
+ It does not matter anything.
+
+00:17:36.480 --> 00:17:40.160
+ Anything on the planet pretty much could be happening and I know they'll still be around
+
+00:17:40.160 --> 00:17:42.200
+ to handle my traffic, right?
+
+00:17:42.200 --> 00:17:44.960
+ There's like no, the fundamental business model works.
+
+00:17:44.960 --> 00:17:46.800
+ So I'm not really worried about them too much.
+
+00:17:46.800 --> 00:17:50.080
+ Like whatever scale I have, whether it's smaller big, it's going to be fine.
+
+00:17:50.080 --> 00:17:53.840
+ I know they can refund me because it's not, you know, if I make a mistake and I spend a
+
+00:17:53.840 --> 00:17:56.040
+ lot of money, you know, it's a blip for them.
+
+00:17:56.040 --> 00:17:59.240
+ They understand what my spend is and they know what mistake is and they're very forgiving
+
+00:17:59.240 --> 00:18:00.240
+ with that.
+
+00:18:00.240 --> 00:18:03.840
+ It's a lot more challenging for a company that, you know, needs to meet certain sales targets.
+
+00:18:03.840 --> 00:18:06.440
+ Like just evaluate their valuation so you can continue to raise money.
+
+00:18:06.440 --> 00:18:12.240
+ You know, it's, you need to think deeper about your vendor than just they have good branding
+
+00:18:12.240 --> 00:18:14.040
+ and I like their vibe, right?
+
+00:18:14.040 --> 00:18:15.040
+ Yeah.
+
+00:18:15.040 --> 00:18:16.040
+ But you're not a hypocrite.
+
+00:18:16.040 --> 00:18:17.040
+ It's more involved.
+
+00:18:17.040 --> 00:18:21.440
+ So I'm realizing, I guess this episode is just like the Vercel episode.
+
+00:18:21.440 --> 00:18:27.040
+ And I feel like there are other things to talk about with Vercel that it like very recently
+
+00:18:27.040 --> 00:18:28.040
+ have happened.
+
+00:18:28.040 --> 00:18:29.040
+ Well, I don't know.
+
+00:18:29.040 --> 00:18:30.440
+ We're not reporters.
+
+00:18:30.440 --> 00:18:33.640
+ And like the thing with the support, well, I guess yeah.
+
+00:18:33.640 --> 00:18:34.640
+ I guess.
+
+00:18:34.640 --> 00:18:35.640
+ I don't know.
+
+00:18:35.640 --> 00:18:39.880
+ The thing with the support issue, I don't know how much Steven it's not like that damning.
+
+00:18:39.880 --> 00:18:40.880
+ Like it happens.
+
+00:18:40.880 --> 00:18:45.960
+ They had an issue, somebody was, they ran up a big bill, some kind of billing issue maybe
+
+00:18:45.960 --> 00:18:46.960
+ on Vercel side.
+
+00:18:46.960 --> 00:18:47.960
+ I'm not sure.
+
+00:18:47.960 --> 00:18:52.480
+ They said they wouldn't refund it then the person took it to Twitter kind of blew up
+
+00:18:52.480 --> 00:18:54.480
+ and they did refund it after that.
+
+00:18:54.480 --> 00:18:55.480
+ I don't know.
+
+00:18:55.480 --> 00:18:57.080
+ That kind of stuff happens probably.
+
+00:18:57.080 --> 00:18:58.520
+ You learn from it as an organization.
+
+00:18:58.520 --> 00:19:00.280
+ And this is kind of the same thing I was saying earlier.
+
+00:19:00.280 --> 00:19:03.520
+ It's, you know, you have to understand where they are in the life cycle or their business.
+
+00:19:03.520 --> 00:19:07.680
+ When you start a startup, you have fantastic support because that's all you can offer.
+
+00:19:07.680 --> 00:19:10.480
+ When you start to scale, that just goes away.
+
+00:19:10.480 --> 00:19:13.200
+ Like it's just, it's just hard for you to retain that, especially when you're trying
+
+00:19:13.200 --> 00:19:16.480
+ to figure out your unit economics, especially when you're trying to figure out your business
+
+00:19:16.480 --> 00:19:17.480
+ model.
+
+00:19:17.480 --> 00:19:22.240
+ You just support is just the last thing that you're going to spend money on, right?
+
+00:19:22.240 --> 00:19:24.880
+ You have so many seemingly bigger problems.
+
+00:19:24.880 --> 00:19:27.720
+ So if you're going to use a company that's in this like growth phase, you're going to
+
+00:19:27.720 --> 00:19:30.460
+ have to accept that, hey, the support is going to be bad.
+
+00:19:30.460 --> 00:19:33.520
+ Sometimes they're going to like make a decision that doesn't make any sense.
+
+00:19:33.520 --> 00:19:35.920
+ I'm going to have to go blow it up on some social media.
+
+00:19:35.920 --> 00:19:36.920
+ It's just a reality.
+
+00:19:36.920 --> 00:19:41.040
+ It's not, I don't even fault yourself for this, like every business just kind of goes
+
+00:19:41.040 --> 00:19:42.040
+ through this.
+
+00:19:42.040 --> 00:19:45.160
+ If you really care about support, you need to go to a company that's much more established
+
+00:19:45.160 --> 00:19:47.440
+ that has all that figured out.
+
+00:19:47.440 --> 00:19:49.880
+ So I think those were some of the issues that happened this week.
+
+00:19:49.880 --> 00:19:53.040
+ I think it's something that like the perpetual serverless haters came out being like, this
+
+00:19:53.040 --> 00:19:54.520
+ is why you shouldn't use serverless.
+
+00:19:54.520 --> 00:19:56.360
+ You can run up a blah, blah, blah.
+
+00:19:56.360 --> 00:19:59.960
+ It is like a thing that happens and it almost always gets resolved.
+
+00:19:59.960 --> 00:20:03.120
+ That said, it did attract a lot more people to come out of the woodwork.
+
+00:20:03.120 --> 00:20:05.160
+ I think that's what was interesting a little bit in the past week.
+
+00:20:05.160 --> 00:20:09.440
+ I think we hear a lot from people that are using Burssel in the free tier.
+
+00:20:09.440 --> 00:20:14.680
+ We don't often hear people from people that are like paying those big enterprise bills.
+
+00:20:14.680 --> 00:20:17.960
+ And I think we heard a lot more from them being like, hey, I got, there's another threat
+
+00:20:17.960 --> 00:20:21.440
+ I got that they got charged $22,000 and that's still unresolved.
+
+00:20:21.440 --> 00:20:25.360
+ I think people were realizing the only way to get attention is to blow it up on Twitter.
+
+00:20:25.360 --> 00:20:26.360
+ Yeah.
+
+00:20:26.360 --> 00:20:30.680
+ So tough week for Burssel, like all that stuff coming out, there's a lot more attention
+
+00:20:30.680 --> 00:20:31.800
+ and scrutiny on them.
+
+00:20:31.800 --> 00:20:35.160
+ And one of the other things that I've been thinking about, and we've talked about this
+
+00:20:35.160 --> 00:20:39.000
+ a bunch because we kind of saw it happening, you know, with them acquiring more and more
+
+00:20:39.000 --> 00:20:44.240
+ of the React team that just draws attention in ways where like, you know, now people are
+
+00:20:44.240 --> 00:20:47.760
+ looking at it like, this is, this is good, like, this is good for us.
+
+00:20:47.760 --> 00:20:48.760
+ This is a bad thing.
+
+00:20:48.760 --> 00:20:50.400
+ Are they taking it over?
+
+00:20:50.400 --> 00:20:51.400
+ Are there incentives aligned?
+
+00:20:51.400 --> 00:20:59.280
+ So I think whatever benefit they got from having those people on the team, is that going,
+
+00:20:59.280 --> 00:21:01.080
+ is like the scrutiny worth it?
+
+00:21:01.080 --> 00:21:04.160
+ You know, I think a lot more people pay attention to a lot more people are eager to say like,
+
+00:21:04.160 --> 00:21:05.160
+ this is bad, right?
+
+00:21:05.160 --> 00:21:08.620
+ So I think we've, in the last week, we've kind of hit a tipping point with a bunch of
+
+00:21:08.620 --> 00:21:12.920
+ things coming together and there's been a lot and a lot of talk around, hey, like this
+
+00:21:12.920 --> 00:21:13.920
+ is a problem.
+
+00:21:13.920 --> 00:21:16.680
+ They're like, don't use this platform, et cetera.
+
+00:21:16.680 --> 00:21:21.760
+ And the React thing, I should note, like, I think a lot of my problems with Purcell are
+
+00:21:21.760 --> 00:21:26.680
+ amplified by how I feel about React right now, which I do feel like it's really interesting
+
+00:21:26.680 --> 00:21:31.760
+ that the two seem to be merging, that they're hiring all these React core members.
+
+00:21:31.760 --> 00:21:36.320
+ And that it's just more and more React is like pointing to next JS, next JS is pointing
+
+00:21:36.320 --> 00:21:40.480
+ to React, like that, that's the best way to build React apps is not next JS, it takes
+
+00:21:40.480 --> 00:21:42.560
+ advantage of all the features.
+
+00:21:42.560 --> 00:21:47.160
+ So then I sort of like lump in all of my feelings about the people in the React community and
+
+00:21:47.160 --> 00:21:52.080
+ the figureheads and just like, I don't know, the ivory tower stuff.
+
+00:21:52.080 --> 00:21:57.240
+ It's been, I'm not the first person to point this out, I don't know, it's just the whole
+
+00:21:57.240 --> 00:21:59.280
+ vibrant React bothers me right now.
+
+00:21:59.280 --> 00:22:02.120
+ And it's hard for me not to take that on in Purcell as well.
+
+00:22:02.120 --> 00:22:05.120
+ Yeah, I mean, I think that that is like another thing to this.
+
+00:22:05.120 --> 00:22:11.440
+ Like while all this is happening, React feels like it's losing touch with the real problems
+
+00:22:11.440 --> 00:22:12.440
+ people face.
+
+00:22:12.440 --> 00:22:18.000
+ You know, you shouldn't need a 10 message thread constantly to be like, no, this is
+
+00:22:18.000 --> 00:22:19.000
+ actually good.
+
+00:22:19.000 --> 00:22:21.800
+ Like if you are smart enough, you'd understand this is actually good.
+
+00:22:21.800 --> 00:22:23.040
+ And it's kind of vibe they give off.
+
+00:22:23.040 --> 00:22:27.880
+ I know it's not the intention, but a lot of stuff is coming off this way of like, like
+
+00:22:27.880 --> 00:22:32.960
+ we are, again, is like, you started off with saying like Purcell's branding is kind of
+
+00:22:32.960 --> 00:22:37.520
+ this pretentious Apple branding, which can work really well if you can like really back
+
+00:22:37.520 --> 00:22:40.960
+ it up with like, hell yeah, we're like a thousand times better than literally everyone else.
+
+00:22:40.960 --> 00:22:43.560
+ Like Apple can back it up that way.
+
+00:22:43.560 --> 00:22:47.040
+ It's a little bit harder when you're a platform optimized for e-commerce websites, right?
+
+00:22:47.040 --> 00:22:49.120
+ Like it's, it's like, it's off.
+
+00:22:49.120 --> 00:22:53.960
+ Similarly with the React stuff, it also feels a little pretentious like we really understand
+
+00:22:53.960 --> 00:22:57.680
+ all this really complex stuff and we're gifting you the gift of reaction.
+
+00:22:57.680 --> 00:22:59.000
+ You are smart enough.
+
+00:22:59.000 --> 00:23:00.000
+ You will appreciate it.
+
+00:23:00.000 --> 00:23:05.920
+ That is exactly your putting words exactly into the feeling I have, which I'd never been
+
+00:23:05.920 --> 00:23:06.920
+ able to articulate.
+
+00:23:06.920 --> 00:23:07.920
+ Yeah.
+
+00:23:07.920 --> 00:23:08.920
+ And I don't feel like I'm that dumb.
+
+00:23:08.920 --> 00:23:13.400
+ I'm not, I don't think I'm the smartest guy, but I feel like if I still struggle with stuff
+
+00:23:13.400 --> 00:23:17.160
+ after like eight years of writing React, maybe it's React's fault.
+
+00:23:17.160 --> 00:23:19.720
+ Maybe it's not my fault and I'm tired of feeling like it's my fault.
+
+00:23:19.720 --> 00:23:23.000
+ I feel like I spend most of my time writing React code and when something goes wrong, it's
+
+00:23:23.000 --> 00:23:25.000
+ like, ah, that's me.
+
+00:23:25.000 --> 00:23:26.000
+ I did that.
+
+00:23:26.000 --> 00:23:27.000
+ Oops.
+
+00:23:27.000 --> 00:23:28.000
+ But like, maybe it's not.
+
+00:23:28.000 --> 00:23:29.000
+ Maybe it's React.
+
+00:23:29.000 --> 00:23:30.000
+ Yeah.
+
+00:23:30.000 --> 00:23:35.880
+ We have, I think there are really great React code bases from people that are very, very
+
+00:23:35.880 --> 00:23:39.800
+ good, but I think the average React code base is actually really bad.
+
+00:23:39.800 --> 00:23:45.040
+ Uh, I think you saw that thing I posted on Twitter with a screenshot of this code base.
+
+00:23:45.040 --> 00:23:46.040
+ Okay.
+
+00:23:46.040 --> 00:23:47.040
+ This was not an average code.
+
+00:23:47.040 --> 00:23:48.760
+ It's definitely like way, way, way, way below average.
+
+00:23:48.760 --> 00:23:52.400
+ Uh, and I was just posting because I thought it was funny, like, look at how bad this is
+
+00:23:52.400 --> 00:23:56.320
+ and a bunch of people are in the replies were like, this isn't React's fault.
+
+00:23:56.320 --> 00:23:57.600
+ Like don't say it's a React's fault.
+
+00:23:57.600 --> 00:24:01.160
+ Like that Coke and I'm like, yeah, I wasn't saying it was React's fault.
+
+00:24:01.160 --> 00:24:03.640
+ I was just saying that this isn't this crazy.
+
+00:24:03.640 --> 00:24:04.640
+ Like, look at it.
+
+00:24:04.640 --> 00:24:05.640
+ It's funny.
+
+00:24:05.640 --> 00:24:10.560
+ It's this like weird thing where it just starts to feel like a cult and everyone's rushing
+
+00:24:10.560 --> 00:24:11.560
+ to defend it.
+
+00:24:11.560 --> 00:24:14.760
+ And like, how dare you say anything even like, you know, it's just one thing to get to that
+
+00:24:14.760 --> 00:24:15.760
+ stage.
+
+00:24:15.760 --> 00:24:16.760
+ It's, it's kind of done.
+
+00:24:16.760 --> 00:24:20.360
+ Like, yeah, you're just going to start losing people and, uh, the thing I think about a
+
+00:24:20.360 --> 00:24:24.560
+ lot is, uh, I've been thinking a lot about Astro and how they're like the anti-versal
+
+00:24:24.560 --> 00:24:25.760
+ in so many ways.
+
+00:24:25.760 --> 00:24:27.360
+ The vibe is completely opposite.
+
+00:24:27.360 --> 00:24:28.360
+ Yeah.
+
+00:24:28.360 --> 00:24:29.360
+ Exactly.
+
+00:24:29.360 --> 00:24:30.360
+ Right.
+
+00:24:30.360 --> 00:24:31.360
+ Their stuff.
+
+00:24:31.360 --> 00:24:32.360
+ Great framework.
+
+00:24:32.360 --> 00:24:33.360
+ Just so fun to use.
+
+00:24:33.360 --> 00:24:34.360
+ So simple.
+
+00:24:34.360 --> 00:24:35.360
+ Everyone just loves it.
+
+00:24:35.360 --> 00:24:40.560
+ So it deploys anywhere, literally deploys anywhere and works pretty much the same everywhere.
+
+00:24:40.560 --> 00:24:41.960
+ It works super well everywhere.
+
+00:24:41.960 --> 00:24:46.960
+ And as someone that built an adapter for it to deploy AWS, very, very easy to build
+
+00:24:46.960 --> 00:24:47.960
+ an adapter for it.
+
+00:24:47.960 --> 00:24:50.560
+ And I'm sure as I get more features, it's going to get a little more complicated, but
+
+00:24:50.560 --> 00:24:52.800
+ for now it's, it's excellent.
+
+00:24:52.800 --> 00:24:57.280
+ Their branding is like just fun and silly and like super approachable and like, Hey, we're
+
+00:24:57.280 --> 00:25:00.920
+ here to teach you to like, you know, build better websites and like it's so, it's just
+
+00:25:00.920 --> 00:25:06.360
+ clicking with me so much more than this like elitist thing where yeah, front end is goofy
+
+00:25:06.360 --> 00:25:07.360
+ and fun.
+
+00:25:07.360 --> 00:25:10.440
+ Like it's just like a kind of a mess, but we can kind of make it good and like we make
+
+00:25:10.440 --> 00:25:11.560
+ these funny websites like that.
+
+00:25:11.560 --> 00:25:14.240
+ That is how I feel about the front end side of things.
+
+00:25:14.240 --> 00:25:18.920
+ Um, and I feel like they're like nailing that really, really well.
+
+00:25:18.920 --> 00:25:21.560
+ And their business model is not built around hosting.
+
+00:25:21.560 --> 00:25:25.920
+ I think we, I think we've been through two generations of hosting on top of other providers.
+
+00:25:25.920 --> 00:25:27.280
+ Like we had the Heroku generation.
+
+00:25:27.280 --> 00:25:29.000
+ Now we had the Versal generation.
+
+00:25:29.000 --> 00:25:31.320
+ I think it's clear the hosting business sucks.
+
+00:25:31.320 --> 00:25:35.920
+ If you're not literally AWS, uh, you squeeze on all different sides and it's hard to make
+
+00:25:35.920 --> 00:25:36.920
+ a business work.
+
+00:25:36.920 --> 00:25:42.860
+ So I'm excited to see them do all this stuff, but monetize it without being a hosting business.
+
+00:25:42.860 --> 00:25:45.880
+ So I think they end up being quite a different company than, than for so.
+
+00:25:45.880 --> 00:25:49.080
+ I love this is my first experience with Astro.
+
+00:25:49.080 --> 00:25:53.560
+ That's what I'm drawn to is just how it fits so well into the modern landscape.
+
+00:25:53.560 --> 00:25:57.560
+ Like they've got first party adapters for everything, both on the hosting side and the
+
+00:25:57.560 --> 00:26:02.020
+ front end side, like you can plug anything into Astro and it all just feels really good.
+
+00:26:02.020 --> 00:26:05.440
+ And to your point, light hearted, it doesn't feel so heavy.
+
+00:26:05.440 --> 00:26:09.400
+ And like I'm being judged the moment I start using it.
+
+00:26:09.400 --> 00:26:12.680
+ But I now I have a question, like what, what is Astro's business model?
+
+00:26:12.680 --> 00:26:15.480
+ Yeah, I mean, so I think they have so many opportunities.
+
+00:26:15.480 --> 00:26:19.480
+ So I think for me, especially because you know, I build SST, I think about business models
+
+00:26:19.480 --> 00:26:20.920
+ around open source a lot.
+
+00:26:20.920 --> 00:26:24.840
+ Uh, I don't think a hosting business model is a good one.
+
+00:26:24.840 --> 00:26:27.120
+ I think that's probably the least creative thing you can do.
+
+00:26:27.120 --> 00:26:30.280
+ I think complimentary services are the best thing to do.
+
+00:26:30.280 --> 00:26:34.600
+ Like when people use your open source framework and deploy to production, there is just stuff
+
+00:26:34.600 --> 00:26:36.440
+ that they need that's complimentary, right?
+
+00:26:36.440 --> 00:26:40.040
+ It could be anything from, so I think right now they have, they're doing like a, like a
+
+00:26:40.040 --> 00:26:41.040
+ template marketplace.
+
+00:26:41.040 --> 00:26:44.160
+ So if you think about how big were presses and the whole like template marketplaces there,
+
+00:26:44.160 --> 00:26:48.240
+ if they get that big, that's going to be enough on its own could be anything from like, uh,
+
+00:26:48.240 --> 00:26:51.000
+ like a headless CRM so that you can manage your content, right?
+
+00:26:51.000 --> 00:26:55.520
+ So I think, yeah, the core is great, like it's helps you build websites, but you're always
+
+00:26:55.520 --> 00:26:58.680
+ going to need complimentary service, it might be analytics, it might be so you can just
+
+00:26:58.680 --> 00:27:02.360
+ see how like, yeah, okay, there's enough people using Astro websites and deploying it wherever
+
+00:27:02.360 --> 00:27:03.360
+ they want.
+
+00:27:03.360 --> 00:27:06.160
+ There's just so many complimentary services that Astro could eventually build.
+
+00:27:06.160 --> 00:27:07.160
+ I don't know.
+
+00:27:07.160 --> 00:27:08.160
+ I'm making some of those up.
+
+00:27:08.160 --> 00:27:09.560
+ I don't know what they're actually going to do.
+
+00:27:09.560 --> 00:27:14.520
+ Um, but I think that's a, you can get a lot more creative and like not, and your users aren't
+
+00:27:14.520 --> 00:27:17.320
+ going to feel like you're, you're trapping them, right?
+
+00:27:17.320 --> 00:27:18.320
+ Yeah.
+
+00:27:18.320 --> 00:27:20.760
+ You're like, you're tricking them into using this open source thing and then trapping them
+
+00:27:20.760 --> 00:27:21.760
+ in some way.
+
+00:27:21.760 --> 00:27:23.200
+ You're just like, use it however you want.
+
+00:27:23.200 --> 00:27:26.280
+ We built this really cool service that if you like it, you can use it.
+
+00:27:26.280 --> 00:27:27.280
+ If not, it's fine.
+
+00:27:27.280 --> 00:27:28.280
+ Go have a good day.
+
+00:27:28.280 --> 00:27:29.280
+ Right?
+
+00:27:29.280 --> 00:27:30.280
+ That makes sense.
+
+00:27:30.280 --> 00:27:31.280
+ Yeah.
+
+00:27:31.280 --> 00:27:33.120
+ We're, we're rebuilding stat music Astro and I'm, I'm a big fan as you know.
+
+00:27:33.120 --> 00:27:34.120
+ Yeah.
+
+00:27:34.120 --> 00:27:35.120
+ Exactly.
+
+00:27:35.120 --> 00:27:36.560
+ It's just, uh, yeah, it's a weird time.
+
+00:27:36.560 --> 00:27:39.840
+ Um, I'm really excited to see how all this stuff plays out.
+
+00:27:39.840 --> 00:27:44.560
+ Uh, like I said, you just need to, when you pick a vendor, you just need to really understand
+
+00:27:44.560 --> 00:27:46.000
+ everything about them.
+
+00:27:46.000 --> 00:27:50.080
+ Um, it's going to be interesting to see if Vercel struggles so, cause like if you look
+
+00:27:50.080 --> 00:27:53.520
+ at their business, it's actually fine, like they have a massive, successful open source
+
+00:27:53.520 --> 00:27:54.520
+ project.
+
+00:27:54.520 --> 00:27:57.160
+ They have a pipeline to people deploying on their platform.
+
+00:27:57.160 --> 00:27:58.160
+ It's good.
+
+00:27:58.160 --> 00:28:03.400
+ The only issue here is their size and their valuation, cause the amount of money they raised
+
+00:28:03.400 --> 00:28:04.920
+ is now creating problems for them.
+
+00:28:04.920 --> 00:28:08.960
+ So it would be interesting to see if they fail only because they were able to raise a
+
+00:28:08.960 --> 00:28:09.960
+ ton of money.
+
+00:28:09.960 --> 00:28:10.960
+ Yeah.
+
+00:28:10.960 --> 00:28:14.120
+ And of course the other thing with like this money is leaking into places that just feel
+
+00:28:14.120 --> 00:28:19.040
+ off like I, it doesn't, they don't really feel like an open source company anymore to
+
+00:28:19.040 --> 00:28:20.040
+ me.
+
+00:28:20.040 --> 00:28:21.040
+ They feel like something else.
+
+00:28:21.040 --> 00:28:25.080
+ And I think people are picking up on that and that's just only going to grow in my opinion.
+
+00:28:25.080 --> 00:28:26.080
+ Yeah.
+
+00:28:26.080 --> 00:28:29.200
+ I know if you read the GitHub trail, like if you just get into GitHub issues, like there's
+
+00:28:29.200 --> 00:28:33.720
+ a lot of people that feel that way that they're like masquerading as the very open company.
+
+00:28:33.720 --> 00:28:34.720
+ Yeah.
+
+00:28:34.720 --> 00:28:37.480
+ I don't have a lot of strong personal conviction about that stuff.
+
+00:28:37.480 --> 00:28:41.360
+ Uh, but I mean, people want to feel like you're authentic.
+
+00:28:41.360 --> 00:28:45.560
+ And that, that's the thing I would say about Vercel, the vibe is not authentic to me, both
+
+00:28:45.560 --> 00:28:51.460
+ in how they like present at the top, but also the people who represent at, you know, dev
+
+00:28:51.460 --> 00:28:52.460
+ rail position.
+
+00:28:52.460 --> 00:28:57.560
+ It just feels very like robotic, not very like personable, I guess.
+
+00:28:57.560 --> 00:29:00.360
+ Now I feel like I'm just personally attacking and I don't want to do that.
+
+00:29:00.360 --> 00:29:02.000
+ No, it's not, it's not a personal attack.
+
+00:29:02.000 --> 00:29:05.960
+ It is like companies have cultures and you kind of set your culture and it shows up in
+
+00:29:05.960 --> 00:29:06.960
+ a lot of ways.
+
+00:29:06.960 --> 00:29:12.000
+ Uh, you know, you can definitely go for the elite culture, like we are elites and this
+
+00:29:12.000 --> 00:29:13.000
+ is our vibe.
+
+00:29:13.000 --> 00:29:14.000
+ Yeah.
+
+00:29:14.000 --> 00:29:19.880
+ And I'm not going to get into any details, but I talked to someone whose company was doing
+
+00:29:19.880 --> 00:29:25.840
+ integration with Vercel and they were working just with the product manager that works there.
+
+00:29:25.840 --> 00:29:31.600
+ They were like really verbally abused by this product manager, just like just going into
+
+00:29:31.600 --> 00:29:35.440
+ them, acting like they don't even deserve like a minute of their time.
+
+00:29:35.440 --> 00:29:39.040
+ Like just their ego was in a crazy place relative.
+
+00:29:39.040 --> 00:29:42.640
+ Like this, this private manager is talking to a founder of a company that's doing a partnership
+
+00:29:42.640 --> 00:29:43.640
+ with Vercel, right?
+
+00:29:43.640 --> 00:29:44.640
+ Yeah.
+
+00:29:44.640 --> 00:29:48.880
+ You can't be treating your partners that way, but this culture just leak into places, right?
+
+00:29:48.880 --> 00:29:52.060
+ If the, if your culture is a elite, a trade off is sometimes you're going to have people
+
+00:29:52.060 --> 00:29:57.200
+ come in and like get power hungry and have an overinflated self sense of worth.
+
+00:29:57.200 --> 00:30:01.240
+ And that's going to like, you know, bleed into your relationships with other companies.
+
+00:30:01.240 --> 00:30:07.600
+ So the type of culture you pick, uh, comes on the top and it just gets amplified every
+
+00:30:07.600 --> 00:30:08.600
+ level of that.
+
+00:30:08.600 --> 00:30:10.240
+ Like I'm sure like Guillermo is elite.
+
+00:30:10.240 --> 00:30:13.680
+ He is like an amazing engineer, everything, right?
+
+00:30:13.680 --> 00:30:14.680
+ He is.
+
+00:30:14.680 --> 00:30:18.320
+ And he like has by the humility and everything to like balance, feeling elite and also kind
+
+00:30:18.320 --> 00:30:21.720
+ of being, you know, a person that people don't hate.
+
+00:30:21.720 --> 00:30:26.040
+ But when that trickles down, that might, all those nuances and that balance might not actually
+
+00:30:26.040 --> 00:30:27.040
+ make it right.
+
+00:30:27.040 --> 00:30:30.480
+ So I think that's kind of what you're seeing with, with the company.
+
+00:30:30.480 --> 00:30:35.280
+ So I don't know if I feel better, uh, I'm going to be honest, uh, I feel like I need
+
+00:30:35.280 --> 00:30:40.140
+ to wrap this up somehow, uh, with a little bow on my personal stance, just, just for
+
+00:30:40.140 --> 00:30:41.760
+ sales, not for everything.
+
+00:30:41.760 --> 00:30:46.800
+ And I just don't like monocultures and I don't like feeling like everyone around me is saying
+
+00:30:46.800 --> 00:30:48.000
+ the same things.
+
+00:30:48.000 --> 00:30:52.040
+ And I just, I, I feel like my feelings are invalid.
+
+00:30:52.040 --> 00:30:53.040
+ I don't like that.
+
+00:30:53.040 --> 00:30:56.280
+ It makes me emotionally react, but at the same time I shouldn't emotionally react.
+
+00:30:56.280 --> 00:30:59.120
+ I shouldn't have taken it out in the ways that I've taken it out of ourselves.
+
+00:30:59.120 --> 00:31:03.000
+ So I'm sorry at the same time, everything I said, I still believe.
+
+00:31:03.000 --> 00:31:05.360
+ So I wasn't like lying when I said those things.
+
+00:31:05.360 --> 00:31:06.360
+ Yeah.
+
+00:31:06.360 --> 00:31:10.720
+ I mean, it's just, it's, you're not going to feel good about yourself because the environment
+
+00:31:10.720 --> 00:31:15.600
+ that is created, no one can really operate in a way that they're proud of, I think, on
+
+00:31:15.600 --> 00:31:16.600
+ any side.
+
+00:31:16.600 --> 00:31:22.520
+ So, uh, yeah, for me, the summary is just there is this vortex happening.
+
+00:31:22.520 --> 00:31:23.920
+ Be aware of it.
+
+00:31:23.920 --> 00:31:26.360
+ You're probably getting affected and pulled into it myself.
+
+00:31:26.360 --> 00:31:29.920
+ I am affected and being pulled into it, like with all the experience I have and the fact
+
+00:31:29.920 --> 00:31:34.520
+ that I don't even use this company or this product, I'm like questioning like everything
+
+00:31:34.520 --> 00:31:36.660
+ I do because of this massive vortex.
+
+00:31:36.660 --> 00:31:38.400
+ So just be aware of that.
+
+00:31:38.400 --> 00:31:40.240
+ Um, don't get trapped in it.
+
+00:31:40.240 --> 00:31:41.440
+ Like just good.
+
+00:31:41.440 --> 00:31:45.920
+ The thing is with all this stuff happening, the economy, the way it is, uh, like the technology
+
+00:31:45.920 --> 00:31:52.880
+ moving the pace that it, that it is, um, just build useful skills that you can just learn
+
+00:31:52.880 --> 00:31:54.360
+ once and have forever.
+
+00:31:54.360 --> 00:31:57.560
+ Um, it's more important now than ever to do that.
+
+00:31:57.560 --> 00:32:01.960
+ I think a lot of the monoculture you're talking about is a, is kind of the result is people
+
+00:32:01.960 --> 00:32:07.680
+ aren't going as deep as, as they should be, uh, me and you have experience doing all kinds
+
+00:32:07.680 --> 00:32:08.680
+ of things.
+
+00:32:08.680 --> 00:32:12.480
+ At this point, I think both of us are pretty secure in our ability to earn money.
+
+00:32:12.480 --> 00:32:16.360
+ The things that we're sitting on top of that allow us to do that are because we've went
+
+00:32:16.360 --> 00:32:20.560
+ deep in a bunch of different places where you're not going to, if you kind of get trapped
+
+00:32:20.560 --> 00:32:22.280
+ in this vortex, you're not going to make it there.
+
+00:32:22.280 --> 00:32:24.960
+ So that's where my frustration is, I think for you as well.
+
+00:32:24.960 --> 00:32:27.400
+ And yeah, that's kind of, if anyone takes away anything, it's probably going to be
+
+00:32:27.400 --> 00:32:28.400
+ fun.
+
+00:32:28.400 --> 00:32:29.400
+ I love it.
+
+00:32:29.400 --> 00:32:30.400
+ Thank you for, for that, Dax.
+
+00:32:30.400 --> 00:32:33.400
+ You're always good at actually putting coherent thoughts together after I just say a lot of
+
+00:32:33.400 --> 00:32:34.400
+ words.
+
+00:32:34.400 --> 00:32:38.920
+ You're, uh, oh yeah, it's a, it's a process.
+
+00:32:38.920 --> 00:32:39.920
+ Yeah.
+
+00:32:39.920 --> 00:32:43.720
+ Here that you say and that's like the schedule for what I do.
+
+00:32:43.720 --> 00:32:46.120
+ Uh, all right.
+
+00:32:46.120 --> 00:32:47.480
+ I think we're good here.
+
+00:32:47.480 --> 00:32:48.480
+ All right.
+
+00:32:48.480 --> 00:32:49.480
+ Cool.
+
+00:32:49.480 --> 00:32:50.480
+ See you.
+
+00:32:50.480 --> 00:32:51.480
+ See you, Dax.
+
+00:32:51.480 --> 00:33:02.600
+ Bye.
+

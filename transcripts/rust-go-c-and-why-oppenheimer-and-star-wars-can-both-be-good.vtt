@@ -1,0 +1,2759 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.720
+ So pivoting completely differently, different direction.
+
+00:00:02.720 --> 00:00:04.600
+ Well, actually before you pivot, I'm going to pee.
+
+00:00:04.600 --> 00:00:05.600
+ You can pee and pivot.
+
+00:00:05.600 --> 00:00:06.600
+ Yeah, pee and pivot.
+
+00:00:30.240 --> 00:00:35.040
+ Oh, the other thing that happened this week was, um, bram, bram died.
+
+00:00:35.040 --> 00:00:38.160
+ Oh, yeah, creator of them.
+
+00:00:38.160 --> 00:00:39.520
+ Yeah.
+
+00:00:39.520 --> 00:00:43.440
+ So I didn't do any Wikipedia deep dives and I didn't.
+
+00:00:43.440 --> 00:00:44.520
+ I wasn't aware of bram.
+
+00:00:44.520 --> 00:00:49.640
+ Uh, could you tell me like, was it so V already existed?
+
+00:00:49.640 --> 00:00:50.840
+ And then he created them.
+
+00:00:50.840 --> 00:00:51.760
+ What's the story?
+
+00:00:51.760 --> 00:00:53.320
+ Who, who was bram?
+
+00:00:53.320 --> 00:00:55.720
+ I don't, I don't know much about it.
+
+00:00:55.720 --> 00:00:58.480
+ I just remember his name forever and that he created them.
+
+00:00:58.480 --> 00:01:00.560
+ And he was like the BDFL for it.
+
+00:01:00.560 --> 00:01:01.840
+ I'm sorry, what's that?
+
+00:01:01.840 --> 00:01:04.440
+ Benevolent dictator for life.
+
+00:01:04.440 --> 00:01:05.760
+ Oh, okay.
+
+00:01:05.760 --> 00:01:10.200
+ It's, I didn't know there was an actual that you can, you can acquire.
+
+00:01:10.200 --> 00:01:13.040
+ Oh, it's like an official thing that people say.
+
+00:01:13.040 --> 00:01:14.720
+ No, it's not an official thing.
+
+00:01:14.720 --> 00:01:17.360
+ I think there's a bunch of projects that run this way.
+
+00:01:17.360 --> 00:01:19.680
+ Like Linux has Linus, who's a BDFL.
+
+00:01:19.680 --> 00:01:22.480
+ Uh, it's a few projects that run this way.
+
+00:01:22.480 --> 00:01:28.440
+ And it's like a great example of technically the best short term form
+
+00:01:28.480 --> 00:01:30.920
+ of leadership is a dictator that's very competent.
+
+00:01:30.920 --> 00:01:34.440
+ It doesn't work long term because a person that succeeds them is usually their
+
+00:01:34.440 --> 00:01:39.840
+ idiot kid, but I love it.
+
+00:01:39.840 --> 00:01:42.880
+ In this case, I don't think that's how it's going to, it's going to pass.
+
+00:01:42.880 --> 00:01:44.320
+ But it's going to get very effective.
+
+00:01:44.320 --> 00:01:49.240
+ A bunch of projects that have lasted like decades have have operated this way.
+
+00:01:49.240 --> 00:01:52.440
+ I mean, like Linux is such a crazy impactful thing and it runs this way.
+
+00:01:52.440 --> 00:01:53.520
+ So interesting.
+
+00:01:53.520 --> 00:01:55.680
+ I mean, I like thought about flow, but I was like, you know what?
+
+00:01:55.680 --> 00:01:59.080
+ This was like maybe one of this is like kind of a unique moment for me
+
+00:01:59.080 --> 00:02:03.880
+ because I'm probably for a lot of people our age because this is someone that.
+
+00:02:03.880 --> 00:02:09.280
+ You know, has it had like a crazy impact on my literal everyday life for a very
+
+00:02:09.280 --> 00:02:09.880
+ long time?
+
+00:02:09.880 --> 00:02:15.040
+ It's like he made the thing that helps me make money that helps me get all
+
+00:02:15.040 --> 00:02:17.400
+ the things that I want in my life.
+
+00:02:17.400 --> 00:02:21.120
+ Uh, and so yeah, it's like, oh, this person died.
+
+00:02:21.120 --> 00:02:25.360
+ I don't really know anything about them, but like deeply impactful to me, even
+
+00:02:25.360 --> 00:02:29.120
+ though I've like really never thought about them or like no much about them
+
+00:02:29.120 --> 00:02:30.800
+ or converse with them or anything.
+
+00:02:30.800 --> 00:02:35.840
+ So I feel a little guilty sharing similar sentiments given that I've been using
+
+00:02:35.840 --> 00:02:41.200
+ them for like seven months, but it's been in a very impactful seven months for me.
+
+00:02:41.200 --> 00:02:43.080
+ Can I say that?
+
+00:02:43.080 --> 00:02:46.880
+ I mean, I did spend 15 years as a software developer, not using them.
+
+00:02:46.880 --> 00:02:49.760
+ You tapped into like a whole community and like, you know, you met people.
+
+00:02:49.760 --> 00:02:50.120
+ I did.
+
+00:02:50.120 --> 00:02:51.040
+ I've met people.
+
+00:02:51.040 --> 00:02:51.840
+ Yeah.
+
+00:02:51.840 --> 00:02:54.760
+ So many close relationships, it's such an interesting community.
+
+00:02:54.760 --> 00:02:59.440
+ Like when you think about just like editing text files more efficiently, such
+
+00:02:59.440 --> 00:03:02.600
+ an interesting thing to have such a like passion around, but it is one of the
+
+00:03:02.600 --> 00:03:06.040
+ things I'm more into now in terms of my craft than anything.
+
+00:03:06.040 --> 00:03:09.240
+ Like I'm more excited about learning new VIM things.
+
+00:03:09.240 --> 00:03:13.000
+ It just gave me something at this stage of my career that I was just kind of bored.
+
+00:03:13.000 --> 00:03:16.120
+ I mean, with like the normal everyday software development stuff.
+
+00:03:16.120 --> 00:03:21.600
+ So yeah, no, it has been really a really great year or whatever it's been of, of
+
+00:03:21.600 --> 00:03:25.200
+ learning them, getting to know all these people that are super into it, diving
+
+00:03:25.200 --> 00:03:26.280
+ into the neo VIM world.
+
+00:03:26.280 --> 00:03:28.280
+ Uh, yeah, no, it really has.
+
+00:03:28.280 --> 00:03:30.880
+ I, I kind of like, I just feel bad.
+
+00:03:30.880 --> 00:03:35.880
+ Like you've been using it for 10 years and I'm like, you can say these very nice
+
+00:03:35.880 --> 00:03:37.120
+ kind words about brand.
+
+00:03:37.120 --> 00:03:43.320
+ And I'm like, uh, similar, but shorter.
+
+00:03:43.320 --> 00:03:43.760
+ Well, okay.
+
+00:03:43.760 --> 00:03:48.040
+ You, you, you can rephrase it as despite only having used it for seven months.
+
+00:03:48.040 --> 00:03:50.160
+ He's managed to make an impact in my life.
+
+00:03:50.480 --> 00:03:51.440
+ That's a great way.
+
+00:03:51.440 --> 00:03:52.080
+ Thank you.
+
+00:03:52.080 --> 00:03:54.720
+ That's just, yes, that's what I meant to say.
+
+00:03:54.720 --> 00:03:58.400
+ Flipped it, flipped it, turned it upside down and now it's good.
+
+00:03:58.400 --> 00:03:59.480
+ And now it's good.
+
+00:03:59.480 --> 00:04:00.320
+ Yeah.
+
+00:04:00.320 --> 00:04:01.840
+ So I think it was a unique experience.
+
+00:04:01.840 --> 00:04:05.360
+ And I think this is the first time I'm experiencing something like this, where
+
+00:04:05.360 --> 00:04:08.680
+ someone didn't know died, but it like weirdly feels personal.
+
+00:04:08.680 --> 00:04:12.360
+ And imagine as you get older, like this obviously starts to happen more.
+
+00:04:12.360 --> 00:04:17.080
+ And there's like artists or musicians or whatever that died.
+
+00:04:17.080 --> 00:04:20.680
+ I think about like Christopher Nolan, who like whose movies I absolutely love.
+
+00:04:20.680 --> 00:04:24.840
+ And one day there's going to be like the last Christopher Nolan film and he's
+
+00:04:24.840 --> 00:04:25.920
+ going to die at some point.
+
+00:04:25.920 --> 00:04:27.280
+ It's going to like deeply affect me.
+
+00:04:27.280 --> 00:04:29.440
+ And I'm like, damn, that is really crazy.
+
+00:04:29.440 --> 00:04:30.120
+ That is crazy.
+
+00:04:30.120 --> 00:04:31.240
+ I was just thinking the other day.
+
+00:04:31.240 --> 00:04:35.400
+ I don't know why I was thinking this, but I thought like, I need to look up what
+
+00:04:35.400 --> 00:04:36.760
+ celebrities have died in the last year.
+
+00:04:36.760 --> 00:04:39.200
+ Cause I bet there's a bunch of people that I'd be like, huh.
+
+00:04:39.200 --> 00:04:39.760
+ Yeah.
+
+00:04:39.760 --> 00:04:43.760
+ I just don't like consume any media to know like when that stuff happens.
+
+00:04:43.760 --> 00:04:46.960
+ And I know there's been times where it's like you learn two, three years later that
+
+00:04:46.960 --> 00:04:49.360
+ somebody died and like, they're never going to be in another movie.
+
+00:04:49.360 --> 00:04:50.280
+ Wow.
+
+00:04:50.280 --> 00:04:50.800
+ Yeah.
+
+00:04:50.800 --> 00:04:56.440
+ It is crazy to think that I feel like I'm really shallow and surface level here
+
+00:04:56.440 --> 00:04:58.920
+ with your deep connections to humanity.
+
+00:04:58.920 --> 00:05:02.080
+ Well, I mean, I started the movie thing.
+
+00:05:02.080 --> 00:05:03.080
+ There's not going to be another movie.
+
+00:05:03.080 --> 00:05:03.320
+ Okay.
+
+00:05:03.320 --> 00:05:03.880
+ Yeah.
+
+00:05:03.880 --> 00:05:05.840
+ So you brought up Hollywood.
+
+00:05:05.840 --> 00:05:06.160
+ Yeah.
+
+00:05:06.160 --> 00:05:06.880
+ So that's your fault.
+
+00:05:06.880 --> 00:05:07.720
+ Yeah.
+
+00:05:07.720 --> 00:05:09.400
+ You should, you should watch, I don't know.
+
+00:05:09.400 --> 00:05:12.040
+ You don't watch a lot of movies, but you should watch Oppenheimer.
+
+00:05:12.040 --> 00:05:13.040
+ It was a fun.
+
+00:05:13.040 --> 00:05:13.840
+ Yeah, I want to.
+
+00:05:13.840 --> 00:05:15.760
+ I saw it as two weeks ago.
+
+00:05:16.040 --> 00:05:19.320
+ I have never had this reaction to any movie ever.
+
+00:05:19.320 --> 00:05:23.520
+ I finished watching the movie and me and Liz were walking out and I like
+
+00:05:23.520 --> 00:05:28.400
+ couldn't talk like it like affected me in such like whoa, a deep way that I needed
+
+00:05:28.400 --> 00:05:31.680
+ like 10 minutes to like, I don't know.
+
+00:05:31.680 --> 00:05:35.160
+ I just, it was just such like in a like three hours of emotion.
+
+00:05:35.160 --> 00:05:37.040
+ And I was like, really?
+
+00:05:37.040 --> 00:05:37.400
+ Yeah.
+
+00:05:37.400 --> 00:05:39.120
+ Like I never very intrigued.
+
+00:05:39.120 --> 00:05:42.680
+ I think from my point of view, I describe it as like the status movie I've
+
+00:05:42.680 --> 00:05:43.400
+ ever seen.
+
+00:05:44.200 --> 00:05:47.560
+ Oh, and the reason being is it's about something.
+
+00:05:47.560 --> 00:05:52.480
+ It's about achieving something really great, like working extremely hard
+
+00:05:52.480 --> 00:05:57.280
+ against crazy odds with thousands of people and achieving like complete
+
+00:05:57.280 --> 00:06:01.960
+ greatness, but it is like there's no glory and it's all sad.
+
+00:06:01.960 --> 00:06:05.200
+ So it's so weird to see a movie about achievement.
+
+00:06:05.200 --> 00:06:08.040
+ Like we've seen that before, like any like bio pick about someone great.
+
+00:06:08.040 --> 00:06:12.080
+ It's like they struggle and then they win and then it's great after.
+
+00:06:12.600 --> 00:06:14.240
+ But this was like they struggled.
+
+00:06:14.240 --> 00:06:17.560
+ They did it and then they struggled more with everything.
+
+00:06:17.560 --> 00:06:18.600
+ Everything they came after.
+
+00:06:18.600 --> 00:06:19.680
+ So yeah, yeah.
+
+00:06:19.680 --> 00:06:21.160
+ Like hit me really, really hard.
+
+00:06:21.160 --> 00:06:22.560
+ Huh.
+
+00:06:22.560 --> 00:06:24.720
+ Well, I was not expecting said.
+
+00:06:24.720 --> 00:06:25.200
+ I don't know.
+
+00:06:25.200 --> 00:06:26.520
+ I didn't know really much about it.
+
+00:06:26.520 --> 00:06:27.840
+ I just know it's about me neither.
+
+00:06:27.840 --> 00:06:29.480
+ Robinheimer, like that's what I know.
+
+00:06:29.480 --> 00:06:29.880
+ Yeah.
+
+00:06:29.880 --> 00:06:31.080
+ The acting was amazing.
+
+00:06:31.080 --> 00:06:33.200
+ Like Chris Reynolds is very, very good at telling story.
+
+00:06:33.200 --> 00:06:37.400
+ He's just so good at like going so deep and like hitting on like the
+
+00:06:37.400 --> 00:06:39.400
+ deepest points in a very digestible way.
+
+00:06:39.400 --> 00:06:39.720
+ Yeah.
+
+00:06:39.720 --> 00:06:44.640
+ So like his stuff is very mainstream, but I think it straddles like just
+
+00:06:44.640 --> 00:06:48.120
+ because it's mainstream doesn't mean it's like less valuable or dumber or dumb
+
+00:06:48.120 --> 00:06:48.720
+ down or anything.
+
+00:06:48.720 --> 00:06:53.400
+ It's like as deep as yeah, a lot of times mainstream means kind of dumb down.
+
+00:06:53.400 --> 00:06:59.160
+ Yeah, I mean, like Marvel movies, it's like there's no, there's not depth there, right?
+
+00:06:59.160 --> 00:07:00.240
+ Yeah, I don't know.
+
+00:07:00.240 --> 00:07:01.280
+ I haven't seen the Marvel movies.
+
+00:07:01.280 --> 00:07:01.800
+ What am I talking about?
+
+00:07:01.800 --> 00:07:02.880
+ No, no, you're, you know, you're right.
+
+00:07:02.880 --> 00:07:07.440
+ It's like I think I think sometimes he gets categorized that because like everyone
+
+00:07:07.440 --> 00:07:08.160
+ loves his movie.
+
+00:07:08.160 --> 00:07:10.640
+ So when I say I'm a big fan of his movie, oh, yeah, of course.
+
+00:07:10.640 --> 00:07:15.000
+ But like I think he's truly unique in that everyone does love his movies and that
+
+00:07:15.000 --> 00:07:17.440
+ doesn't take away from, from anything.
+
+00:07:17.440 --> 00:07:21.320
+ It's almost got that indie quality of like storytelling and all that.
+
+00:07:21.320 --> 00:07:22.320
+ Yeah, I got you.
+
+00:07:22.320 --> 00:07:23.160
+ Yeah, exactly.
+
+00:07:23.160 --> 00:07:25.720
+ I want to take my eight year old to he's never been the movie theater.
+
+00:07:25.720 --> 00:07:26.760
+ I want to take him to this first.
+
+00:07:26.760 --> 00:07:28.600
+ Well, not to often hire probably.
+
+00:07:28.600 --> 00:07:30.560
+ I don't think it's suitable for an eight year old.
+
+00:07:30.560 --> 00:07:31.520
+ I don't think you can tell me.
+
+00:07:31.520 --> 00:07:32.960
+ I don't think the theme of it.
+
+00:07:32.960 --> 00:07:36.480
+ I think it would just be boring to him and I'm like one of my biggest
+
+00:07:36.480 --> 00:07:40.520
+ realizations as I got older was when I was little, I would watch things
+
+00:07:40.520 --> 00:07:41.760
+ and they wouldn't hit me.
+
+00:07:41.760 --> 00:07:43.280
+ They wouldn't affect me as emotionally.
+
+00:07:43.280 --> 00:07:46.520
+ Like I could watch stuff that's like really sad or like whatever.
+
+00:07:46.520 --> 00:07:48.440
+ Like it just it was kind of go over my head.
+
+00:07:48.440 --> 00:07:52.120
+ And now I watch the same stuff and I'm like so deeply affected by it.
+
+00:07:52.120 --> 00:07:53.480
+ So I think for him, it would just be boring.
+
+00:07:53.480 --> 00:07:57.160
+ And you'll just be like saying next to him like going through a whole journey.
+
+00:07:57.160 --> 00:08:01.880
+ I mean, I'm already not sure if he'll enjoy sitting for the length of a movie.
+
+00:08:01.880 --> 00:08:03.880
+ I don't know if you set that long for anything.
+
+00:08:03.880 --> 00:08:05.960
+ You should just find a short movie because some movies are short.
+
+00:08:05.960 --> 00:08:08.240
+ I thought about when Mario was out and everybody was talking about Mario.
+
+00:08:08.240 --> 00:08:09.680
+ Mario was a good short movie.
+
+00:08:09.680 --> 00:08:10.880
+ I was actually going to suggest that.
+
+00:08:10.880 --> 00:08:13.120
+ There's the Ninja Turtles.
+
+00:08:13.120 --> 00:08:15.320
+ This is a new movie that maybe you would like.
+
+00:08:15.320 --> 00:08:17.120
+ OK, so I don't know if it's short.
+
+00:08:17.120 --> 00:08:18.800
+ Is he like Ninja Turtles?
+
+00:08:18.800 --> 00:08:21.960
+ No, I never heard of them, but I was really in terms of kids.
+
+00:08:21.960 --> 00:08:23.760
+ So maybe maybe I was a medic.
+
+00:08:23.760 --> 00:08:29.000
+ Oh, yeah, it was something about mutant turtles.
+
+00:08:29.000 --> 00:08:30.880
+ It just does it for us.
+
+00:08:30.880 --> 00:08:31.160
+ I don't.
+
+00:08:31.160 --> 00:08:31.840
+ Yeah, I don't know.
+
+00:08:31.840 --> 00:08:32.240
+ It was.
+
+00:08:32.240 --> 00:08:33.280
+ I think that was our era.
+
+00:08:33.280 --> 00:08:34.160
+ That's surprising to me.
+
+00:08:34.160 --> 00:08:35.280
+ They're still doing new ones.
+
+00:08:35.280 --> 00:08:41.080
+ I wonder is it like is it live action like that one movie where there's like the really creepy shredder?
+
+00:08:41.080 --> 00:08:42.880
+ Is it a cartoon?
+
+00:08:42.880 --> 00:08:44.120
+ Do you remember those movies?
+
+00:08:44.120 --> 00:08:45.200
+ The live action.
+
+00:08:45.200 --> 00:08:45.760
+ Oh, I do.
+
+00:08:45.760 --> 00:08:46.240
+ Yeah.
+
+00:08:46.240 --> 00:08:47.240
+ They were weird.
+
+00:08:47.240 --> 00:08:48.720
+ No, no, I mean, I loved it.
+
+00:08:48.720 --> 00:08:51.320
+ Yeah, but they were in retrospect.
+
+00:08:51.320 --> 00:08:52.640
+ Yeah, yeah.
+
+00:08:52.640 --> 00:08:54.520
+ I don't remember what its planner looked like about it.
+
+00:08:54.520 --> 00:08:57.360
+ Was he an actual rat in the one we're talking about?
+
+00:08:57.360 --> 00:09:01.200
+ Well, I mean, they're all like wearing these costumes with the mouths that move, right?
+
+00:09:01.200 --> 00:09:04.760
+ Yeah, yeah, yeah, like they're very clearly like prosthetic.
+
+00:09:05.080 --> 00:09:07.000
+ Yeah, yeah, so I think that's what it was.
+
+00:09:07.000 --> 00:09:10.160
+ The new one, I think, I think I know what you're talking about.
+
+00:09:10.160 --> 00:09:11.800
+ The new one, it looks like.
+
+00:09:11.800 --> 00:09:13.120
+ So there's been a bunch of.
+
+00:09:13.120 --> 00:09:16.880
+ Spider-man movies of the new animated ones.
+
+00:09:16.880 --> 00:09:17.880
+ Yeah.
+
+00:09:17.880 --> 00:09:21.800
+ And they are like some of the best animation I've ever seen.
+
+00:09:21.800 --> 00:09:26.760
+ They're like so unique and like so much going on in every scene.
+
+00:09:26.760 --> 00:09:29.760
+ And I think this new Ninja Turtles wanted like looks similar.
+
+00:09:29.760 --> 00:09:31.520
+ So I'm wondering if like the same people were kind of.
+
+00:09:31.520 --> 00:09:33.080
+ So it isn't the animated kind of thing.
+
+00:09:33.080 --> 00:09:33.880
+ Yeah, I think so.
+
+00:09:33.880 --> 00:09:35.480
+ I didn't know there were new Spider-man movies.
+
+00:09:35.480 --> 00:09:38.440
+ There's like this so many Spider-man movies.
+
+00:09:38.440 --> 00:09:42.560
+ There's so many that there's two parallel streams of like different.
+
+00:09:42.560 --> 00:09:44.960
+ There's like the live action ones going on.
+
+00:09:44.960 --> 00:09:48.640
+ Yeah, you know, the Marvel, the traditional Marvel set up.
+
+00:09:48.640 --> 00:09:52.040
+ Then there's like these animated ones going on just completely in parallel.
+
+00:09:52.040 --> 00:09:53.680
+ And they're like coming out at the same time.
+
+00:09:53.680 --> 00:09:54.920
+ That's wild.
+
+00:09:54.920 --> 00:09:57.800
+ That's why we are once Disney gets a whole of something.
+
+00:09:57.800 --> 00:10:00.400
+ They just they blow it out.
+
+00:10:00.760 --> 00:10:05.120
+ Is everyone going to get tired of the Marvel and like Lucas franchises?
+
+00:10:05.120 --> 00:10:07.960
+ Like if they just ground like ground those into the.
+
+00:10:07.960 --> 00:10:09.600
+ Drove those into the ground.
+
+00:10:09.600 --> 00:10:11.280
+ One of them I think they have.
+
+00:10:11.280 --> 00:10:14.000
+ I think we're past the peak of the Marvel stuff.
+
+00:10:14.000 --> 00:10:16.040
+ And I actually think Disney kind of recognizes it.
+
+00:10:16.040 --> 00:10:17.680
+ Like I know they're like not trying.
+
+00:10:17.680 --> 00:10:19.840
+ I can tell that they're still doing stuff.
+
+00:10:19.840 --> 00:10:22.440
+ But it seems like they're kind of like winding it down.
+
+00:10:22.440 --> 00:10:25.880
+ But I do wonder what the next thing they need to replace it with.
+
+00:10:25.880 --> 00:10:31.520
+ Because they made so much money, like driving so much money for the last 10 years.
+
+00:10:31.520 --> 00:10:35.480
+ And now you have to like replace that with something that makes as much or more.
+
+00:10:35.480 --> 00:10:36.800
+ Yeah, I don't know what it is.
+
+00:10:36.800 --> 00:10:41.800
+ Star Wars, I feel like they once I took it over, I feel like not much good ever.
+
+00:10:41.800 --> 00:10:42.880
+ Came from there.
+
+00:10:42.880 --> 00:10:45.400
+ Like some of it was the best stuff was like fine.
+
+00:10:45.400 --> 00:10:48.880
+ So I feel like that like never really sparked back up again.
+
+00:10:48.880 --> 00:10:50.600
+ But yeah, I don't know what they do.
+
+00:10:50.600 --> 00:10:53.400
+ Yeah, what a weird, what a weird history.
+
+00:10:53.400 --> 00:10:58.040
+ Star Wars as a franchise has like the original three movies.
+
+00:10:58.040 --> 00:11:05.160
+ Just being these like just huge iconic movies and pop culture and then they made those.
+
+00:11:05.160 --> 00:11:11.480
+ They came out so yeah, no, and then like just the crazy fanaticism that that drove.
+
+00:11:11.480 --> 00:11:14.920
+ And then you got these the next three with like Jar Jar Banks and all that.
+
+00:11:14.920 --> 00:11:15.720
+ I don't know.
+
+00:11:15.720 --> 00:11:21.080
+ Maybe the maybe the next three weren't all bad, but that first one that that came out was like bizarre.
+
+00:11:21.080 --> 00:11:22.200
+ You want to hear something messed up?
+
+00:11:22.200 --> 00:11:23.080
+ Yes.
+
+00:11:23.080 --> 00:11:25.280
+ OK, my personal experience it.
+
+00:11:25.280 --> 00:11:28.200
+ OK, so what you just said is how everyone feels and most people feel.
+
+00:11:28.200 --> 00:11:35.400
+ Yeah, but my personal experience was seeing the Phantom Menace, which is the first
+
+00:11:35.400 --> 00:11:39.720
+ movie I was talking about one of my first memories of being in America.
+
+00:11:39.720 --> 00:11:41.440
+ And like I was like, America's for awesome.
+
+00:11:41.440 --> 00:11:44.680
+ This wasn't even this was like years after like my family first came here.
+
+00:11:44.680 --> 00:11:47.040
+ But I remember my parents taking me to the movie theater.
+
+00:11:47.040 --> 00:11:49.440
+ I had no idea what movie I was going to watch.
+
+00:11:49.440 --> 00:11:53.560
+ And the first scene quite on gin like lights up is lightsaber and cuts.
+
+00:11:53.560 --> 00:11:54.200
+ Oh, man.
+
+00:11:54.200 --> 00:11:58.760
+ Yeah, I'm like, I'm OK, this is like the best thing I've ever seen in my whole life.
+
+00:11:58.760 --> 00:12:01.400
+ And I'm so glad I'm just say I think it's actually good.
+
+00:12:01.400 --> 00:12:05.760
+ I do Darth Maul like I'm remembering all of the like marketing leading up to that.
+
+00:12:05.760 --> 00:12:11.160
+ It was on every like Taco Bell cup like it was a huge, huge deal.
+
+00:12:11.160 --> 00:12:14.080
+ And and I don't think I was disappointed is it.
+
+00:12:14.080 --> 00:12:15.160
+ I was a kid.
+
+00:12:15.160 --> 00:12:18.440
+ I remember hearing in retrospect there was like Jar Jar Banks was so stupid.
+
+00:12:18.440 --> 00:12:20.640
+ I don't remember being that distracted by Jar Jar Banks.
+
+00:12:20.640 --> 00:12:23.400
+ I felt like it was an epic Star Wars movie.
+
+00:12:23.400 --> 00:12:24.560
+ There were lightsabers.
+
+00:12:24.560 --> 00:12:28.960
+ The Darth Maul character was super cool and menacing and all of that.
+
+00:12:28.960 --> 00:12:32.640
+ I don't know. Maybe the twists with the queen being the handmade
+
+00:12:32.640 --> 00:12:35.600
+ like that whole thing. Yes, yeah, I thought it was good.
+
+00:12:35.600 --> 00:12:36.440
+ OK, thank you.
+
+00:12:36.440 --> 00:12:38.800
+ I felt like it was like you weren't allowed to think that movie was good.
+
+00:12:38.800 --> 00:12:40.400
+ It was good.
+
+00:12:40.400 --> 00:12:43.040
+ And then the next two were the next two. OK.
+
+00:12:43.040 --> 00:12:45.800
+ Well, they had like really terrible acting.
+
+00:12:45.800 --> 00:12:48.040
+ Like some of the worst acting I've seen in my life comes from the
+
+00:12:48.040 --> 00:12:49.280
+ second one. Oh, right.
+
+00:12:49.280 --> 00:12:51.760
+ That one guy, the mane, the Anakin guy with.
+
+00:12:51.760 --> 00:12:53.080
+ Yeah, he was bad. Yeah.
+
+00:12:53.080 --> 00:12:54.000
+ Of the meme.
+
+00:12:54.000 --> 00:12:56.080
+ I forget that we all see that meme like every day.
+
+00:12:56.080 --> 00:12:57.840
+ Yeah, exactly.
+
+00:12:57.840 --> 00:13:01.880
+ Yeah, I think that here's my theory.
+
+00:13:01.880 --> 00:13:04.520
+ So OK, so hands to roll back a little.
+
+00:13:04.520 --> 00:13:05.520
+ Yeah, wrap up your.
+
+00:13:05.520 --> 00:13:11.680
+ I think that it demonstrates how much like nostalgia is a part of this stuff
+
+00:13:11.680 --> 00:13:13.200
+ because we saw it as children.
+
+00:13:13.200 --> 00:13:16.040
+ So like we liked it because we were kids and we continued to like it.
+
+00:13:16.040 --> 00:13:17.600
+ Yeah, because of those memories.
+
+00:13:17.760 --> 00:13:23.160
+ I get why someone that saw Star Wars in the 80s and then like watch this 30
+
+00:13:23.160 --> 00:13:26.480
+ years later, whatever it was, 25 years later, was like, that sucks.
+
+00:13:26.480 --> 00:13:29.640
+ Like I totally get that because I feel that way about certain things
+
+00:13:29.640 --> 00:13:30.560
+ up coming out now.
+
+00:13:30.560 --> 00:13:31.520
+ Yeah, that makes sense.
+
+00:13:31.520 --> 00:13:32.240
+ It's just crazy.
+
+00:13:32.240 --> 00:13:33.800
+ There's no objectivity to any of this.
+
+00:13:33.800 --> 00:13:35.960
+ Like all these things affect you.
+
+00:13:35.960 --> 00:13:40.960
+ But then going back to the acting, I'm convinced that hitting Christian
+
+00:13:40.960 --> 00:13:43.800
+ and the guy that played Anakin, I think he got screwed.
+
+00:13:44.200 --> 00:13:49.160
+ Here's why not only is his acting bad in that movie, everyone's acting
+
+00:13:49.160 --> 00:13:50.520
+ is bad in that movie.
+
+00:13:50.520 --> 00:13:53.200
+ Natalie Portman, who plays opposite to him.
+
+00:13:53.200 --> 00:13:58.280
+ Yeah, terrible, terrible acting, like just really bad, but she was already
+
+00:13:58.280 --> 00:14:01.080
+ kind of famous and had a crew and was able to have a career after.
+
+00:14:01.080 --> 00:14:05.960
+ And she's been a great actress in other movies to convince something
+
+00:14:05.960 --> 00:14:08.120
+ about the director something about the directing there.
+
+00:14:08.120 --> 00:14:09.760
+ Yeah, George Lucas is this, didn't he?
+
+00:14:09.760 --> 00:14:10.400
+ Yeah, exactly.
+
+00:14:10.400 --> 00:14:13.080
+ So I think he was into this like and he's even described these
+
+00:14:13.080 --> 00:14:14.400
+ movies as like a soap opera.
+
+00:14:14.400 --> 00:14:16.840
+ I think he's into like the soap opera drama of it.
+
+00:14:16.840 --> 00:14:19.760
+ And he was trying to get everyone to like do that.
+
+00:14:19.760 --> 00:14:21.480
+ But it wasn't natural.
+
+00:14:21.480 --> 00:14:25.480
+ So I think he got screwed and everyone was like, that's the first time we saw you act.
+
+00:14:25.480 --> 00:14:28.400
+ We think you suck and now your whole career.
+
+00:14:28.400 --> 00:14:30.360
+ That sucks for that guy.
+
+00:14:30.360 --> 00:14:32.760
+ Yeah, because did he really do anything after that?
+
+00:14:32.760 --> 00:14:33.800
+ I don't know.
+
+00:14:33.800 --> 00:14:35.920
+ And he doesn't look too great these days.
+
+00:14:35.920 --> 00:14:36.960
+ So I don't know.
+
+00:14:36.960 --> 00:14:40.760
+ So maybe it's just that George Lucas was in like 30 years later.
+
+00:14:41.560 --> 00:14:43.960
+ From the first start, the first hours came.
+
+00:14:43.960 --> 00:14:45.320
+ There were the 70s, right?
+
+00:14:45.320 --> 00:14:46.840
+ Like 70 years or something.
+
+00:14:46.840 --> 00:14:49.040
+ It was something like 30, almost 30 years later.
+
+00:14:49.040 --> 00:14:51.360
+ Maybe he just wasn't very good at it 30 years later.
+
+00:14:51.360 --> 00:14:52.560
+ Think like 30 years from now.
+
+00:14:52.560 --> 00:14:54.440
+ You think he'll be like a great programmer?
+
+00:14:54.440 --> 00:14:55.360
+ I don't know.
+
+00:14:55.360 --> 00:14:56.880
+ Maybe 77.
+
+00:14:56.880 --> 00:15:01.640
+ Yeah, I mean, I guess like the techniques changed and like, yeah, I don't know.
+
+00:15:01.640 --> 00:15:03.640
+ Maybe the first movies weren't even that good.
+
+00:15:03.640 --> 00:15:05.120
+ Like maybe they weren't.
+
+00:15:05.120 --> 00:15:05.880
+ Yeah, maybe they weren't.
+
+00:15:05.880 --> 00:15:07.400
+ It's just like at the time.
+
+00:15:07.400 --> 00:15:09.040
+ It was like it was like people latched on.
+
+00:15:09.040 --> 00:15:09.640
+ It was unique.
+
+00:15:09.640 --> 00:15:11.000
+ Yeah, this story was very unique.
+
+00:15:11.440 --> 00:15:12.160
+ Interesting.
+
+00:15:12.160 --> 00:15:13.360
+ Yeah, maybe he got too much credit.
+
+00:15:13.360 --> 00:15:14.040
+ I don't know.
+
+00:15:14.040 --> 00:15:14.440
+ I don't know.
+
+00:15:14.440 --> 00:15:17.280
+ I'm glad he became rich, though, because it's sponsored an ecosystem.
+
+00:15:17.280 --> 00:15:20.760
+ Like all the video games, toys, and it was a big part of my childhood.
+
+00:15:20.760 --> 00:15:23.760
+ Oh, yeah, so much that IP is everywhere.
+
+00:15:23.760 --> 00:15:24.080
+ Yeah.
+
+00:15:24.080 --> 00:15:27.400
+ Yeah, I'm sure the news, the stuff that Disney does, they're just good at stuff.
+
+00:15:27.400 --> 00:15:28.720
+ I'm sure it's good.
+
+00:15:28.720 --> 00:15:29.640
+ It can't be bad.
+
+00:15:29.640 --> 00:15:33.000
+ But if you're like a Star Wars fan, maybe it's not what you're looking for.
+
+00:15:33.000 --> 00:15:36.560
+ I think there's a floor like Disney will guarantee that it never gets worse.
+
+00:15:36.560 --> 00:15:37.160
+ Exactly.
+
+00:15:37.160 --> 00:15:37.640
+ Yeah.
+
+00:15:37.640 --> 00:15:38.440
+ Like, I don't know.
+
+00:15:38.440 --> 00:15:43.680
+ I haven't, I'm like into that world and like not much of it has, has drawn me back.
+
+00:15:43.680 --> 00:15:44.040
+ Yeah.
+
+00:15:44.040 --> 00:15:46.160
+ No, I watch a lot of TV.
+
+00:15:46.160 --> 00:15:47.240
+ Is it on Netflix?
+
+00:15:47.240 --> 00:15:48.280
+ No, they have their own thing.
+
+00:15:48.280 --> 00:15:49.520
+ Disney plus.
+
+00:15:49.520 --> 00:15:49.840
+ Yeah.
+
+00:15:49.840 --> 00:15:50.520
+ Disney plus.
+
+00:15:50.520 --> 00:15:50.880
+ Yeah.
+
+00:15:50.880 --> 00:15:55.280
+ Disney's an interesting, like an interesting business case study.
+
+00:15:55.280 --> 00:15:59.640
+ I mean, like the ESPN situation has its whole onion in its own with the layers and
+
+00:15:59.640 --> 00:16:02.600
+ layers of how they get out of their situation.
+
+00:16:02.600 --> 00:16:05.000
+ Yeah, sports rights and all that stuff.
+
+00:16:05.000 --> 00:16:05.560
+ Yeah.
+
+00:16:05.720 --> 00:16:11.560
+ And apples in that space too, because they have, uh, they have the, um, the soccer
+
+00:16:11.560 --> 00:16:14.880
+ rights, which I don't know.
+
+00:16:14.880 --> 00:16:18.000
+ So I didn't know it was joking, but I can believe this to be real.
+
+00:16:18.000 --> 00:16:22.040
+ Uh, Messi joining my team in Miami here.
+
+00:16:22.040 --> 00:16:22.400
+ Yeah.
+
+00:16:22.400 --> 00:16:24.040
+ It's impacting apples.
+
+00:16:24.040 --> 00:16:26.560
+ He was like, it's impacting apples earnings reports.
+
+00:16:26.560 --> 00:16:27.200
+ Wow.
+
+00:16:27.200 --> 00:16:30.400
+ Cause like soccer viewership is so up from this one person.
+
+00:16:30.400 --> 00:16:31.600
+ Have you bumped into Messi yet?
+
+00:16:31.600 --> 00:16:33.480
+ I mean, like, no, I'm sure I will.
+
+00:16:33.480 --> 00:16:36.400
+ Like it's just a matter of the public, yeah, it's just a matter of the right.
+
+00:16:36.400 --> 00:16:37.160
+ You know what that is.
+
+00:16:37.160 --> 00:16:39.920
+ Yeah, it's just a matter of time.
+
+00:16:39.920 --> 00:16:41.120
+ It's just like a matter of time.
+
+00:16:41.120 --> 00:16:42.120
+ Miami's not that big.
+
+00:16:42.120 --> 00:16:42.560
+ Yeah.
+
+00:16:42.560 --> 00:16:42.840
+ Yeah.
+
+00:16:42.840 --> 00:16:46.840
+ Only a few million people, uh, people are so happy and like, I think they've
+
+00:16:46.840 --> 00:16:48.160
+ lost a game yet since he joined.
+
+00:16:48.160 --> 00:16:50.160
+ They were the worst, the worst ranked team.
+
+00:16:50.160 --> 00:16:52.880
+ Is he like, is he passed this prime?
+
+00:16:52.880 --> 00:16:55.040
+ Even he's got to be getting older, isn't he?
+
+00:16:55.040 --> 00:16:55.360
+ Yeah.
+
+00:16:55.360 --> 00:16:57.080
+ But he, he just like won a world cup.
+
+00:16:57.080 --> 00:16:58.320
+ Like he's so really good.
+
+00:16:58.320 --> 00:16:59.440
+ Oh, he's still really good.
+
+00:16:59.440 --> 00:16:59.720
+ Yeah.
+
+00:16:59.760 --> 00:17:04.240
+ Even past, it's like Jordan past his prime is still the most.
+
+00:17:04.240 --> 00:17:04.680
+ Yeah.
+
+00:17:04.680 --> 00:17:05.160
+ Sorry.
+
+00:17:05.160 --> 00:17:08.760
+ And he's, uh, he's playing in like the American League, which isn't, you know,
+
+00:17:08.760 --> 00:17:09.960
+ the most competitive thing.
+
+00:17:09.960 --> 00:17:15.760
+ So the American League, like MLS is split into two leagues or you're just saying
+
+00:17:15.760 --> 00:17:18.640
+ no, I meant just like it's different than playing in Europe.
+
+00:17:18.640 --> 00:17:19.160
+ Yeah.
+
+00:17:19.160 --> 00:17:20.280
+ Like we suck.
+
+00:17:20.280 --> 00:17:21.920
+ It's like, yeah, I mean football.
+
+00:17:21.920 --> 00:17:22.600
+ I mean, whatever.
+
+00:17:22.600 --> 00:17:22.960
+ Yeah.
+
+00:17:22.960 --> 00:17:24.240
+ I wish we didn't.
+
+00:17:24.240 --> 00:17:26.560
+ I wish we were like, I wish that was the sport.
+
+00:17:26.560 --> 00:17:28.360
+ So we could put it on the thing.
+
+00:17:28.360 --> 00:17:29.240
+ Like, you know, like, maybe.
+
+00:17:29.240 --> 00:17:31.040
+ There's always a similar moments like this.
+
+00:17:31.040 --> 00:17:35.880
+ Like when F one got the Netflix thing that like 100 X that sport in terms of
+
+00:17:35.880 --> 00:17:38.600
+ interest, like that we could be the thing that could be a thing.
+
+00:17:38.600 --> 00:17:40.680
+ I just, I wish our kids would grow up.
+
+00:17:40.680 --> 00:17:40.920
+ Yeah.
+
+00:17:40.920 --> 00:17:44.160
+ And use the metric system and like soccer metric is good.
+
+00:17:44.160 --> 00:17:44.600
+ Right.
+
+00:17:44.600 --> 00:17:52.040
+ But I had an old teacher in like middle school, uh, Dan Zorn, uh, he was the best.
+
+00:17:52.040 --> 00:17:56.840
+ And he would say like, how dumb the American standard measurement system
+
+00:17:56.840 --> 00:17:59.200
+ or whatever it's called, the Imperial system, how dumb it is.
+
+00:17:59.240 --> 00:18:04.040
+ Cause like you take a kid in elementary and you're like, how many, uh, cubic inches
+
+00:18:04.040 --> 00:18:06.000
+ and a gallon and they'll just stare at you.
+
+00:18:06.000 --> 00:18:10.520
+ Like I have no idea, but you ask any like five year old in Europe, how many cubic
+
+00:18:10.520 --> 00:18:11.480
+ centimeters and a liter.
+
+00:18:11.480 --> 00:18:12.800
+ And they know it's like a thousand or whatever.
+
+00:18:12.800 --> 00:18:17.400
+ Cause everything is, it's all related volume, you know, distance, surface area,
+
+00:18:17.400 --> 00:18:18.040
+ all that stuff.
+
+00:18:18.040 --> 00:18:19.040
+ It's like all correlated.
+
+00:18:19.040 --> 00:18:19.960
+ Yeah.
+
+00:18:19.960 --> 00:18:20.520
+ We have 10.
+
+00:18:20.520 --> 00:18:22.320
+ Why do we do all these things?
+
+00:18:22.320 --> 00:18:22.720
+ At all.
+
+00:18:22.720 --> 00:18:23.440
+ Yeah.
+
+00:18:23.440 --> 00:18:23.720
+ Okay.
+
+00:18:23.720 --> 00:18:25.640
+ So when you're 12 inches in a foot, sorry, go ahead.
+
+00:18:25.640 --> 00:18:27.800
+ Here's the one thing I'm going to bring up though.
+
+00:18:27.880 --> 00:18:29.520
+ Uh, I agree.
+
+00:18:29.520 --> 00:18:32.480
+ The metric system is better for most things.
+
+00:18:32.480 --> 00:18:35.800
+ The reason I say most is because I disagree with one thing.
+
+00:18:35.800 --> 00:18:36.680
+ Oh, can I guess?
+
+00:18:36.680 --> 00:18:37.240
+ Yes.
+
+00:18:37.240 --> 00:18:38.680
+ Uh, miles.
+
+00:18:38.680 --> 00:18:40.440
+ No versus kilometer.
+
+00:18:40.440 --> 00:18:42.120
+ No, no, it's temperature idea.
+
+00:18:42.120 --> 00:18:43.080
+ Okay.
+
+00:18:43.080 --> 00:18:43.360
+ Tiptor.
+
+00:18:43.360 --> 00:18:43.800
+ Oh, yeah.
+
+00:18:43.800 --> 00:18:44.080
+ Okay.
+
+00:18:44.080 --> 00:18:44.600
+ Fair and high.
+
+00:18:44.600 --> 00:18:44.920
+ It's nice.
+
+00:18:44.920 --> 00:18:51.360
+ First, it seems like, oh, uh, the way they do temperature makes sense.
+
+00:18:51.360 --> 00:18:54.160
+ It's like zero and a hundred or whatever.
+
+00:18:54.480 --> 00:18:59.040
+ But you allocate so much space to temperatures that humans never experienced.
+
+00:18:59.040 --> 00:18:59.640
+ It's true.
+
+00:18:59.640 --> 00:19:01.920
+ It's like, I do, I do have a problem with that.
+
+00:19:01.920 --> 00:19:02.120
+ Yeah.
+
+00:19:02.120 --> 00:19:05.600
+ It's like, you never really reach temperatures above a certain number and
+
+00:19:05.600 --> 00:19:11.160
+ like half the scale is that it's like scientists made the scale and they were
+
+00:19:11.160 --> 00:19:12.240
+ like, this is great.
+
+00:19:12.240 --> 00:19:12.840
+ Exactly.
+
+00:19:12.840 --> 00:19:15.440
+ We're boiling stuff and liquid, whatever.
+
+00:19:15.440 --> 00:19:20.000
+ Because like in Fahrenheit, you know, there is a, when it's 65 degrees versus
+
+00:19:20.000 --> 00:19:22.280
+ 75 degrees, that's like a very big difference.
+
+00:19:22.280 --> 00:19:25.680
+ And we have like 10 numbers in between, in between to like describe that.
+
+00:19:25.680 --> 00:19:28.000
+ Whereas, you know, it's not the case for temperature.
+
+00:19:28.000 --> 00:19:32.080
+ And I feel like when I point this out, I don't, it doesn't seem controversial.
+
+00:19:32.080 --> 00:19:35.600
+ People are like, no, everything American does is bad.
+
+00:19:35.600 --> 00:19:37.680
+ I mean, I get it.
+
+00:19:37.680 --> 00:19:39.240
+ Like you make enough mistakes.
+
+00:19:39.240 --> 00:19:40.480
+ Like I get it.
+
+00:19:40.480 --> 00:19:46.400
+ We've done that 100% on board with distance weights metric, definitely better.
+
+00:19:46.400 --> 00:19:47.640
+ But I'm fine with temperature.
+
+00:19:47.640 --> 00:19:51.120
+ Is it possible to like teach our kids in America, those things?
+
+00:19:51.120 --> 00:19:52.880
+ Like, I bet at this age, they're sponges.
+
+00:19:52.880 --> 00:19:54.040
+ They could just pick all that stuff up.
+
+00:19:54.040 --> 00:19:58.280
+ But if we don't use it in the house, then they're just not going to really latch onto it.
+
+00:19:58.280 --> 00:20:02.480
+ I just feel like with the globalization and like internet connectedness, I just
+
+00:20:02.480 --> 00:20:09.000
+ feel more and more like this stepchild, this like idiot brother, because I don't
+
+00:20:09.000 --> 00:20:12.000
+ know anything anyone's talking about like, Oh, you like soccer.
+
+00:20:12.000 --> 00:20:12.880
+ Oh, it's fun to watch soccer.
+
+00:20:12.880 --> 00:20:13.440
+ Oh, okay.
+
+00:20:13.440 --> 00:20:15.040
+ I guess I don't know.
+
+00:20:15.040 --> 00:20:16.960
+ I wish we fit in a little better.
+
+00:20:16.960 --> 00:20:18.280
+ It's a yeah, it goes both ways.
+
+00:20:18.280 --> 00:20:21.680
+ It's also incredible that how much culture we export.
+
+00:20:21.680 --> 00:20:24.080
+ That we've talked about that.
+
+00:20:24.080 --> 00:20:24.800
+ Yeah, it is.
+
+00:20:24.800 --> 00:20:26.800
+ It is really like they watch our movies and stuff.
+
+00:20:26.800 --> 00:20:28.440
+ Do people like movies?
+
+00:20:28.440 --> 00:20:29.080
+ And I'm sorry.
+
+00:20:29.080 --> 00:20:31.240
+ That sounded so awful and dumb.
+
+00:20:31.240 --> 00:20:35.840
+ Definitely not for this death and death sentence.
+
+00:20:35.840 --> 00:20:40.680
+ It's funny because some of the best movies that have reached like critical acclaim,
+
+00:20:40.680 --> 00:20:43.120
+ like even from the Oscars in the past couple of years have been foreign.
+
+00:20:43.120 --> 00:20:44.960
+ I'm sorry.
+
+00:20:44.960 --> 00:20:46.560
+ I'm such an American trope.
+
+00:20:46.560 --> 00:20:47.720
+ Do they have cameras?
+
+00:20:48.080 --> 00:20:50.640
+ Do they have electricity out there?
+
+00:20:50.640 --> 00:20:55.200
+ I should feel really bad because people give me that.
+
+00:20:55.200 --> 00:20:57.320
+ People expect out of the Ozarks.
+
+00:20:57.320 --> 00:20:59.000
+ Like they have TVs in the Ozarks.
+
+00:20:59.000 --> 00:20:59.520
+ Yeah.
+
+00:20:59.520 --> 00:21:01.000
+ Yeah.
+
+00:21:01.000 --> 00:21:06.680
+ Let's take a quick break for a totally normal reason that aren't being.
+
+00:21:06.680 --> 00:21:09.600
+ So now we're back and we're back.
+
+00:21:09.600 --> 00:21:14.080
+ OK, anyway, OK, I want to talk about go because people are talking about go again.
+
+00:21:14.080 --> 00:21:14.560
+ Oh, yeah.
+
+00:21:14.560 --> 00:21:15.960
+ People are talking about go mutterings.
+
+00:21:16.280 --> 00:21:19.960
+ So I've said for a long time that go would be such a good language if the language
+
+00:21:19.960 --> 00:21:23.640
+ wasn't so bad because there's so many things about it that I love.
+
+00:21:23.640 --> 00:21:27.160
+ I love how it's just compiles with single binary.
+
+00:21:27.160 --> 00:21:30.760
+ You can compile it, cross-compile it for Linux, Mac, whatever.
+
+00:21:30.760 --> 00:21:36.080
+ Santa library is like pretty, pretty, pretty good to pretty fast.
+
+00:21:36.080 --> 00:21:39.040
+ The language itself is like such a pain to write.
+
+00:21:39.040 --> 00:21:43.360
+ It's like the type system was like really immature and didn't have generics.
+
+00:21:43.360 --> 00:21:47.560
+ At one point is like very little inference and that's what was kind of stopping me
+
+00:21:47.560 --> 00:21:48.320
+ from continuing to use it.
+
+00:21:48.320 --> 00:21:52.840
+ And I use it for like almost four years, I think, maybe more than four years.
+
+00:21:52.840 --> 00:21:54.880
+ And it's great to hit it over that time.
+
+00:21:54.880 --> 00:21:57.640
+ But it's it's been a while since then.
+
+00:21:57.640 --> 00:21:59.280
+ It's been maybe like five years since then.
+
+00:21:59.280 --> 00:22:01.960
+ And it's developing more.
+
+00:22:01.960 --> 00:22:03.160
+ It's like develop more.
+
+00:22:03.160 --> 00:22:08.040
+ And there's this new 1.21 release that people are pretty interested and excited
+
+00:22:08.040 --> 00:22:11.960
+ about, introduces some inference for generic functions so that you don't have to
+
+00:22:11.960 --> 00:22:15.000
+ like constantly pass in like the generic type, things like that.
+
+00:22:15.000 --> 00:22:16.000
+ Yeah.
+
+00:22:16.000 --> 00:22:20.800
+ I'm impressed because there was a time where the creators were like, even
+
+00:22:20.800 --> 00:22:25.520
+ against adding generics, because it adds so much complexity.
+
+00:22:25.520 --> 00:22:25.960
+ It adds so much.
+
+00:22:25.960 --> 00:22:29.720
+ They're like very anti anything that even feels like it can make the
+
+00:22:29.720 --> 00:22:30.760
+ language more complicated.
+
+00:22:30.760 --> 00:22:31.800
+ Yeah.
+
+00:22:31.800 --> 00:22:34.280
+ And so that's one that's kind of when I gave up on it.
+
+00:22:34.280 --> 00:22:37.920
+ I was like, I feel the culture isn't aligned with with what I what I want.
+
+00:22:37.920 --> 00:22:41.600
+ But it seems like people kept kind of fighting and they pushed it through.
+
+00:22:41.600 --> 00:22:44.480
+ And now it's getting towards stuff that is kind of complicated.
+
+00:22:44.480 --> 00:22:47.240
+ But I think generally makes a makes a language better.
+
+00:22:47.240 --> 00:22:52.680
+ And I've been saying for a while for the ST team that we should like at some
+
+00:22:52.680 --> 00:22:58.080
+ point, we should really focus on the go market and like try to market directly
+
+00:22:58.080 --> 00:22:59.640
+ to them and like make that experience.
+
+00:22:59.640 --> 00:23:00.800
+ Yeah, really good.
+
+00:23:00.800 --> 00:23:05.360
+ Because it is a fantastic choice for serverless, like writing your
+
+00:23:05.360 --> 00:23:08.680
+ functions and go like cold starts are fast and like performance is fast.
+
+00:23:08.680 --> 00:23:13.280
+ Like everything is to get a really good option between something really high
+
+00:23:13.280 --> 00:23:16.120
+ level like JavaScript and something like way too low level, like Rust.
+
+00:23:16.120 --> 00:23:16.560
+ Yeah.
+
+00:23:16.560 --> 00:23:18.880
+ So I'm kind of excited to like see that and come back.
+
+00:23:18.880 --> 00:23:20.400
+ Cause I kind of gave up on it at some point.
+
+00:23:20.400 --> 00:23:20.560
+ Yeah.
+
+00:23:20.560 --> 00:23:25.200
+ We just had so I just had this company offsite and one night in the hot tub.
+
+00:23:25.200 --> 00:23:27.240
+ Honestly, that's where it was.
+
+00:23:27.240 --> 00:23:32.800
+ It occurred to me that yeah, in the hot tub, we had a conversation, me and a handful
+
+00:23:32.800 --> 00:23:37.840
+ of engineers on the team about kind of like all the landscape of languages.
+
+00:23:38.040 --> 00:23:41.640
+ We had this big conversation and I remember my feeling was like, I wouldn't
+
+00:23:41.640 --> 00:23:47.040
+ consider go and rust as like two choices I'm choosing between because they feel
+
+00:23:47.040 --> 00:23:47.720
+ very different.
+
+00:23:47.720 --> 00:23:50.200
+ And then somebody pointed out that go is garbage collected.
+
+00:23:50.200 --> 00:23:55.320
+ If you're trying to move from some language and you're choosing between
+
+00:23:55.320 --> 00:24:00.240
+ like our go and rust to choices that you would make something like that.
+
+00:24:00.240 --> 00:24:01.560
+ Like are they comparable languages?
+
+00:24:01.560 --> 00:24:02.600
+ Basically that was the gist of it.
+
+00:24:02.600 --> 00:24:03.720
+ Are they comparable languages?
+
+00:24:03.720 --> 00:24:05.240
+ And I felt like no.
+
+00:24:05.240 --> 00:24:07.400
+ And I don't, I couldn't tell anybody why.
+
+00:24:08.480 --> 00:24:09.760
+ Just like, no, they don't feel the same.
+
+00:24:09.760 --> 00:24:12.040
+ Yeah, no, I think from a technical point of view, you're correct.
+
+00:24:12.040 --> 00:24:13.880
+ And that like they're very different.
+
+00:24:13.880 --> 00:24:18.760
+ I think I see why people compare them because they're compiled.
+
+00:24:18.760 --> 00:24:19.600
+ They're fast.
+
+00:24:19.600 --> 00:24:20.360
+ They're compiled.
+
+00:24:20.360 --> 00:24:23.760
+ But I think Russ tries to get people try to put Russ in places where it doesn't
+
+00:24:23.760 --> 00:24:25.920
+ belong and places where go belong.
+
+00:24:25.920 --> 00:24:27.360
+ So they end up being compared.
+
+00:24:27.360 --> 00:24:30.360
+ And I think in those situations, like you should always just pick go.
+
+00:24:30.360 --> 00:24:34.920
+ I think Russ says like, if you really consider like the right, the place
+
+00:24:34.920 --> 00:24:36.600
+ where it makes sense, it's like pretty narrow.
+
+00:24:36.880 --> 00:24:39.240
+ It's like a good language, but it's more like that's what I said.
+
+00:24:39.240 --> 00:24:41.080
+ It's more like a specialty language in my mind.
+
+00:24:41.080 --> 00:24:42.040
+ Yeah, exactly.
+
+00:24:42.040 --> 00:24:44.240
+ The embedded systems thing makes sense.
+
+00:24:44.240 --> 00:24:47.640
+ Like the safety is like a big thing, right?
+
+00:24:47.640 --> 00:24:48.080
+ Exactly.
+
+00:24:48.080 --> 00:24:52.080
+ So like even there, like the one time I worked on embedded systems, I actually
+
+00:24:52.080 --> 00:24:53.560
+ moved them from sea to go.
+
+00:24:53.560 --> 00:24:54.360
+ And that was great.
+
+00:24:54.360 --> 00:24:56.560
+ And I continue to use it today and a bunch of devices.
+
+00:24:56.560 --> 00:25:00.920
+ They're like three generations down and they're still running on on go from where.
+
+00:25:00.920 --> 00:25:04.440
+ So even there, it's like it's not as clear cut as well embedded.
+
+00:25:04.440 --> 00:25:05.280
+ So I should be using Russ.
+
+00:25:05.280 --> 00:25:07.800
+ It's again, so it depends on what you're doing.
+
+00:25:07.800 --> 00:25:13.280
+ They got so many things right outside of the language of like how to deploy it,
+
+00:25:13.280 --> 00:25:16.280
+ how to like compile it, like it's fast enough, all that stuff they did.
+
+00:25:16.280 --> 00:25:19.800
+ Garber selection is completely fine for most cases.
+
+00:25:19.800 --> 00:25:22.880
+ So everything about it was just good.
+
+00:25:22.880 --> 00:25:27.720
+ But when you go and use a language every day, it's like this doesn't feel fun.
+
+00:25:27.720 --> 00:25:29.320
+ Like I don't feel good using it.
+
+00:25:29.320 --> 00:25:31.600
+ Yeah, I remember now it was C++.
+
+00:25:31.600 --> 00:25:32.280
+ That was the question.
+
+00:25:32.280 --> 00:25:34.800
+ It's like if you're looking for an alternative, like you're trying to move
+
+00:25:34.800 --> 00:25:38.560
+ off to C++, like why would you choose go or rust?
+
+00:25:38.560 --> 00:25:40.960
+ I think that was sort of the question.
+
+00:25:40.960 --> 00:25:41.520
+ Yeah.
+
+00:25:41.520 --> 00:25:44.760
+ I mean, you and I just just like really depends on what you're doing.
+
+00:25:44.760 --> 00:25:46.520
+ Are you streaming on Twitch?
+
+00:25:46.520 --> 00:25:47.480
+ Then you go with Russ.
+
+00:25:47.480 --> 00:25:53.680
+ If you need to tell people you're smarter than them, you go with rust.
+
+00:25:53.680 --> 00:25:54.360
+ Russ.
+
+00:25:54.360 --> 00:25:54.840
+ Yeah.
+
+00:25:54.840 --> 00:25:57.360
+ Yeah, there was a lot of excitement around Russ.
+
+00:25:57.360 --> 00:26:00.400
+ But like almost nothing got shipped because it just doesn't make sense to use
+
+00:26:00.400 --> 00:26:02.480
+ for the majority of things that people try to use it for.
+
+00:26:02.480 --> 00:26:05.800
+ How much did the like the whole foundation thing?
+
+00:26:05.800 --> 00:26:08.480
+ Did that actually affect you think adoption of the language?
+
+00:26:08.480 --> 00:26:10.720
+ Like, will people choose Russ less because of that?
+
+00:26:10.720 --> 00:26:15.680
+ I think if people are really honest with what happens and this is completely fine.
+
+00:26:15.680 --> 00:26:16.400
+ It's not a criticism.
+
+00:26:16.400 --> 00:26:18.440
+ This is like, I think you should be honest about this.
+
+00:26:18.440 --> 00:26:22.640
+ We get bored and we want to try something new.
+
+00:26:22.640 --> 00:26:27.000
+ We try something new, but we pretend like it's some logical.
+
+00:26:28.000 --> 00:26:34.080
+ Step of like, I'm analyzing stuff I need to do and this language is correct.
+
+00:26:34.080 --> 00:26:36.640
+ And that's why I'm excited about it and has all XYZ things.
+
+00:26:36.640 --> 00:26:39.520
+ Yeah, but you're just bored and you want to want to change things.
+
+00:26:39.520 --> 00:26:40.360
+ And that's totally OK.
+
+00:26:40.360 --> 00:26:43.640
+ Like a lot of reasons I've shifted to my language is in my career professionally.
+
+00:26:43.640 --> 00:26:44.760
+ I've been just because I got bored.
+
+00:26:44.760 --> 00:26:46.040
+ I got to serve less because I was bored.
+
+00:26:46.040 --> 00:26:51.400
+ And I think there was a phase where people got bored with rust and they kind of got
+
+00:26:51.400 --> 00:26:54.320
+ bored with rust and the Russ Foundation thing was happening at the same time.
+
+00:26:54.320 --> 00:26:57.960
+ So I think that just kind of like fuel fire.
+
+00:26:57.960 --> 00:27:00.000
+ Yeah, that people move on to something else.
+
+00:27:00.000 --> 00:27:02.600
+ And you learn every time you're bored and you go try something new.
+
+00:27:02.600 --> 00:27:04.720
+ So it's totally OK.
+
+00:27:04.720 --> 00:27:09.400
+ So what what is the best not even like has to be supported in SST or has to have
+
+00:27:09.400 --> 00:27:10.440
+ really good support and SST.
+
+00:27:10.440 --> 00:27:14.920
+ But like if you're building this sort of serverless event driven lots
+
+00:27:14.920 --> 00:27:19.080
+ of lame to functions that are your back end, what is the best language in your mind?
+
+00:27:19.080 --> 00:27:23.600
+ Like if you're going to choose one that's like S tier and all the rest fall below it.
+
+00:27:23.640 --> 00:27:29.240
+ Unfortunately, it still is typescript because it just depends.
+
+00:27:29.240 --> 00:27:30.960
+ Like it's it's really between go and typescript.
+
+00:27:30.960 --> 00:27:34.520
+ And I go between these two go is technically better.
+
+00:27:34.520 --> 00:27:38.040
+ If you just look at performance and like what actually happens at runtime,
+
+00:27:38.040 --> 00:27:39.800
+ yeah, you should probably pick it.
+
+00:27:39.800 --> 00:27:43.320
+ But from a tooling point of view, everything around it is going to be in typescript.
+
+00:27:43.320 --> 00:27:44.960
+ You're front end your infrastructure.
+
+00:27:44.960 --> 00:27:46.240
+ Everything else is going to be in typescript.
+
+00:27:46.240 --> 00:27:51.880
+ So it's just hard to beat that synergy, but I can definitely see myself at some
+
+00:27:51.880 --> 00:27:55.200
+ point writing all of my back end and go again.
+
+00:27:55.200 --> 00:27:55.560
+ Yeah.
+
+00:27:55.560 --> 00:27:59.080
+ If the language gets better to the point where I'm like, at least enjoying it a little,
+
+00:27:59.080 --> 00:28:02.480
+ that'll push me over to to writing it more.
+
+00:28:02.480 --> 00:28:07.160
+ Some time in the future that SST CLI will be written and go, which is kind of inevitable.
+
+00:28:07.160 --> 00:28:08.280
+ That's just going to happen.
+
+00:28:08.280 --> 00:28:12.440
+ If I'm writing more stuff and go, I'm probably just going to want to write my
+
+00:28:12.440 --> 00:28:13.520
+ back end and go as well.
+
+00:28:13.520 --> 00:28:17.000
+ It isn't like the big strong suit of go is the concurrency model.
+
+00:28:17.000 --> 00:28:20.720
+ And wouldn't that like not be a big advantage in the serverless?
+
+00:28:20.720 --> 00:28:21.160
+ Yeah.
+
+00:28:21.160 --> 00:28:21.520
+ Yeah.
+
+00:28:21.520 --> 00:28:26.080
+ I, OK, so people really are like, go has great concurrency.
+
+00:28:26.080 --> 00:28:29.120
+ I don't think that's accurate.
+
+00:28:29.120 --> 00:28:33.840
+ I think it's that go has a concurrency model and other languages don't.
+
+00:28:33.840 --> 00:28:36.320
+ So by comparison, it has it.
+
+00:28:36.320 --> 00:28:39.160
+ I don't think it has a great concurrency model.
+
+00:28:39.160 --> 00:28:42.720
+ I think languages like Elixir have like a fantastic concurrency model.
+
+00:28:42.720 --> 00:28:44.000
+ Go just has one.
+
+00:28:44.000 --> 00:28:45.880
+ And it's good that it has one of those languages don't.
+
+00:28:45.880 --> 00:28:47.680
+ And you can do things that you can't do.
+
+00:28:47.680 --> 00:28:49.600
+ Otherwise, you're right.
+
+00:28:49.600 --> 00:28:53.240
+ It doesn't show up as much, but my challenge from the other day, where I was
+
+00:28:53.240 --> 00:28:56.240
+ like, I'm in a single Lambda function, but I still need to like make.
+
+00:28:56.240 --> 00:29:02.040
+ And number of requests out implementing that and go would have been more
+
+00:29:02.040 --> 00:29:02.720
+ performance.
+
+00:29:02.720 --> 00:29:07.280
+ It actually doesn't look much better and go than it does in in JavaScript,
+
+00:29:07.280 --> 00:29:11.480
+ just because I'm saying the model isn't really like not good.
+
+00:29:11.480 --> 00:29:12.200
+ It just exists.
+
+00:29:12.200 --> 00:29:15.760
+ Yeah, with the benefit that it does like CPU concurrency as well, which
+
+00:29:15.760 --> 00:29:16.960
+ that would not do.
+
+00:29:16.960 --> 00:29:18.720
+ So, but yeah, people like you for that reason.
+
+00:29:18.720 --> 00:29:22.400
+ When I first got on to go, it was because I was building a web crawler
+
+00:29:22.400 --> 00:29:26.800
+ and I was doing it in C sharp and I couldn't get it to like be concurrent enough.
+
+00:29:26.800 --> 00:29:30.880
+ Yeah, I switched to go, which had like a more explicit concurrency model.
+
+00:29:30.880 --> 00:29:34.760
+ So I did go for that reason, but I don't like view it as like, oh, this is
+
+00:29:34.760 --> 00:29:37.760
+ like a really great thing about the language.
+
+00:29:37.760 --> 00:29:38.560
+ Yeah.
+
+00:29:38.560 --> 00:29:43.080
+ You said C sharp, but why does nobody talk about C sharp when like 90%
+
+00:29:43.080 --> 00:29:44.600
+ of people writing code or writing C sharp?
+
+00:29:44.600 --> 00:29:46.200
+ I feel like it's never talked about.
+
+00:29:46.200 --> 00:29:46.760
+ I don't know.
+
+00:29:46.760 --> 00:29:48.160
+ Yeah, it's weird.
+
+00:29:48.880 --> 00:29:49.920
+ I wrote C sharp a long time.
+
+00:29:49.920 --> 00:29:51.000
+ I know you did as well.
+
+00:29:51.000 --> 00:29:54.160
+ A lot of people that are like our age, like it started out.
+
+00:29:54.160 --> 00:29:56.240
+ We we we cut our teeth on C sharp.
+
+00:29:56.240 --> 00:29:58.840
+ Yeah, I don't know.
+
+00:29:58.840 --> 00:30:01.720
+ I mean, I get why I wouldn't choose it in like a serverless context,
+
+00:30:01.720 --> 00:30:04.200
+ like modern reasons, just the runtime and all that stuff.
+
+00:30:04.200 --> 00:30:09.080
+ But it's still in use and like a lot of people are shipping C sharp every day.
+
+00:30:09.080 --> 00:30:14.280
+ And I feel like it's talked about zero on Twitter and the other places that I am.
+
+00:30:14.280 --> 00:30:18.160
+ Yeah, like it's funny because most languages will have some like
+
+00:30:18.720 --> 00:30:22.320
+ delegates from the language that like show up in our bubble, right?
+
+00:30:22.320 --> 00:30:26.080
+ Like, yeah, even stuff that's like just heavily used by enterprise people.
+
+00:30:26.080 --> 00:30:28.920
+ Like some of those people leave and start companies and a more on like this
+
+00:30:28.920 --> 00:30:35.000
+ sort of be online world, like Java, like I hear I see people using it.
+
+00:30:35.000 --> 00:30:38.160
+ But yeah, like you never hear from C sharp people.
+
+00:30:38.160 --> 00:30:40.080
+ I don't know why don't know why.
+
+00:30:40.080 --> 00:30:43.320
+ Just like, I guess if you're in that Microsoft bubble, if you're out there,
+
+00:30:43.320 --> 00:30:44.680
+ let us know.
+
+00:30:44.680 --> 00:30:48.400
+ I know some of you, but the people who I don't know, let us know.
+
+00:30:48.720 --> 00:30:51.880
+ I don't know how, maybe on Twitter, start talking about C sharp.
+
+00:30:51.880 --> 00:30:52.640
+ Let's make it a thing.
+
+00:30:52.640 --> 00:30:54.800
+ Let's just start making C sharp, the big topic.
+
+00:30:54.800 --> 00:30:55.680
+ Can we do that?
+
+00:30:55.680 --> 00:30:56.240
+ Can we push?
+
+00:30:56.240 --> 00:30:59.520
+ I think the secret is everyone is actually writing C sharp and they don't realize it.
+
+00:30:59.520 --> 00:31:00.480
+ Oh, what do you mean?
+
+00:31:00.480 --> 00:31:04.280
+ Because they're already in TypeScript, which is basically the same thing.
+
+00:31:04.280 --> 00:31:06.560
+ Yeah, made by the same old Anders.
+
+00:31:06.560 --> 00:31:11.640
+ If Anders, you know, if Anders dies whenever that is, maybe 20 years from now,
+
+00:31:11.640 --> 00:31:14.520
+ I'm not trying to wish any, you know, timeline on Anders.
+
+00:31:14.520 --> 00:31:16.120
+ But when he does, I'll feel that one.
+
+00:31:16.160 --> 00:31:19.280
+ That was my whole the start of my career and now with TypeScript.
+
+00:31:19.280 --> 00:31:20.960
+ Yeah, no, that's been my whole career.
+
+00:31:20.960 --> 00:31:23.480
+ I've been in some way impacted by his work.
+
+00:31:23.480 --> 00:31:24.160
+ It is crazy.
+
+00:31:24.160 --> 00:31:24.960
+ Like the whole.
+
+00:31:24.960 --> 00:31:30.640
+ The sharp TypeScript thing, like, I mean, I've said this before, but I literally never most
+
+00:31:30.640 --> 00:31:33.480
+ languages, I sit down and like go to learn the language.
+
+00:31:33.480 --> 00:31:35.160
+ I didn't do that with TypeScript.
+
+00:31:35.160 --> 00:31:38.080
+ I just like started a right C sharp and I was like, all this.
+
+00:31:38.080 --> 00:31:41.680
+ Yeah, I have to go learn anything.
+
+00:31:42.240 --> 00:31:46.920
+ Yeah, it was like repurposed it and made it like crazy mass market appeal.
+
+00:31:46.920 --> 00:31:49.960
+ Yeah, coming from Microsoft to what a crazy turnaround.
+
+00:31:49.960 --> 00:31:52.400
+ Microsoft, we've, I think we've talked about that, right?
+
+00:31:52.400 --> 00:31:56.760
+ They just owned so much of the developer touch points, like they have.
+
+00:31:56.760 --> 00:32:01.400
+ Yeah, it's, yeah, like it's, it's so funny to me because so many developers
+
+00:32:01.400 --> 00:32:06.760
+ would be like stupid Microsoft, like just like that's the invoke thing to hate.
+
+00:32:06.760 --> 00:32:12.200
+ But like they use VS code, they use GitHub, they use, I mean, granted, you know, Microsoft
+
+00:32:12.200 --> 00:32:14.320
+ bought some of these things like GitHub, but.
+
+00:32:14.320 --> 00:32:17.400
+ But yeah, at this point, but still it's a Microsoft product.
+
+00:32:17.400 --> 00:32:17.920
+ Yeah.
+
+00:32:17.920 --> 00:32:20.120
+ Why we, oh, I don't want to go down that path again.
+
+00:32:20.120 --> 00:32:21.120
+ Never mind.
+
+00:32:21.120 --> 00:32:24.080
+ Sorry to go back down on the why is GitHub down all the time.
+
+00:32:24.080 --> 00:32:24.840
+ And I was like, we've heard.
+
+00:32:24.840 --> 00:32:29.280
+ Well, I was going to say GitHub, you have reminded me, do you see our new GitHub handle?
+
+00:32:29.280 --> 00:32:30.440
+ Oh, you got the SST.
+
+00:32:30.440 --> 00:32:31.280
+ I did see that.
+
+00:32:31.280 --> 00:32:31.840
+ Yeah.
+
+00:32:31.840 --> 00:32:33.160
+ And that just redirects, right?
+
+00:32:33.160 --> 00:32:34.480
+ Like nobody has to change anything.
+
+00:32:34.480 --> 00:32:37.560
+ Like it just will redirect if you've got like your, your local.
+
+00:32:37.560 --> 00:32:41.440
+ You got your old stuff at all, because we also, we also retain the old one and we got
+
+00:32:41.440 --> 00:32:44.840
+ them to cyber redirect as you, as everyone knows, SST is just three people.
+
+00:32:44.840 --> 00:32:51.240
+ And I feel like every person has like a trait that is like a superpower and then
+
+00:32:51.240 --> 00:32:52.480
+ like comes together really nicely.
+
+00:32:52.480 --> 00:32:53.160
+ Yeah.
+
+00:32:53.160 --> 00:32:56.280
+ Frank's superpower is, and he'll say this himself.
+
+00:32:56.280 --> 00:32:57.400
+ He says this himself all the time.
+
+00:32:57.400 --> 00:32:58.840
+ He's like, I'm not smart.
+
+00:32:58.840 --> 00:33:01.680
+ I just work really hard, which sounds okay.
+
+00:33:01.680 --> 00:33:06.840
+ You've heard that before, but you do not understand what it means how hard he is
+
+00:33:06.840 --> 00:33:09.480
+ like the most persistent person ever.
+
+00:33:09.480 --> 00:33:14.000
+ Like he'll like take something to a place and you will have, you would have given up
+
+00:33:14.000 --> 00:33:17.640
+ like a hundred times before like you didn't even get this.
+
+00:33:17.640 --> 00:33:18.720
+ He has been working.
+
+00:33:18.720 --> 00:33:22.920
+ So first, the NPM package, we got the SSTM package.
+
+00:33:22.920 --> 00:33:23.200
+ Yeah.
+
+00:33:23.200 --> 00:33:23.840
+ I remember that.
+
+00:33:23.840 --> 00:33:24.120
+ Yep.
+
+00:33:24.120 --> 00:33:28.680
+ I remember like kind of trying and I saw him trying and I was like, okay, this is
+
+00:33:28.680 --> 00:33:29.440
+ never going to happen.
+
+00:33:29.440 --> 00:33:35.360
+ He like just kept going at it for months and months and months and finally contacted
+
+00:33:35.360 --> 00:33:40.760
+ us, the random guy that had it like found like he like contacted his past coworkers.
+
+00:33:40.760 --> 00:33:45.400
+ Like just did all of this like crazy like stuff and just never gave up, even though
+
+00:33:45.400 --> 00:33:47.360
+ it didn't move an inch for like a very long time.
+
+00:33:47.360 --> 00:33:48.160
+ Yeah.
+
+00:33:48.160 --> 00:33:51.320
+ This GitHub thing, same story, like it's probably been a year.
+
+00:33:51.320 --> 00:33:52.800
+ I think we've been trying to get it for a year.
+
+00:33:52.800 --> 00:33:53.520
+ Wow.
+
+00:33:53.520 --> 00:33:55.600
+ And he just been been trying and trying.
+
+00:33:55.600 --> 00:33:57.400
+ And you mentioned Chris Munns earlier.
+
+00:33:57.400 --> 00:33:58.040
+ Yeah.
+
+00:33:58.040 --> 00:34:01.760
+ And Chris Munns actually was the one that introduced him to the person that helped
+
+00:34:01.760 --> 00:34:02.720
+ us like figure this out.
+
+00:34:02.720 --> 00:34:04.080
+ So shout out right there.
+
+00:34:04.600 --> 00:34:05.280
+ That's awesome.
+
+00:34:05.280 --> 00:34:09.120
+ Yeah, it's it is just super persistent.
+
+00:34:09.120 --> 00:34:11.880
+ So whenever we have a task that's like, this is going to be a slog.
+
+00:34:11.880 --> 00:34:14.120
+ Yeah, me and Jay are not the type of people.
+
+00:34:14.120 --> 00:34:15.720
+ It's Frank are going to do that.
+
+00:34:15.720 --> 00:34:16.080
+ Yeah.
+
+00:34:16.080 --> 00:34:16.320
+ Frank.
+
+00:34:16.320 --> 00:34:17.680
+ So you guys, you guys are smart.
+
+00:34:17.680 --> 00:34:18.880
+ I'll work hard together.
+
+00:34:18.880 --> 00:34:24.360
+ Well, you know, I don't know if Frank listens, but if he does, or if you just
+
+00:34:24.360 --> 00:34:27.120
+ want to relay the message, my birthday is in just a week or so.
+
+00:34:27.120 --> 00:34:29.840
+ And I've been trying to get the atom.dev on GitHub.
+
+00:34:29.840 --> 00:34:31.200
+ I can't get a hold of person.
+
+00:34:31.200 --> 00:34:35.920
+ So if he wants to just like spend a year and give me a gift next time, this year,
+
+00:34:35.920 --> 00:34:39.080
+ next time, next year, this time, you know, I would appreciate that.
+
+00:34:39.080 --> 00:34:40.840
+ I mean, thank you, Frank.
+
+00:34:40.840 --> 00:34:41.360
+ Thank you.
+
+00:34:41.360 --> 00:34:42.320
+ I don't want to say appreciate it.
+
+00:34:42.320 --> 00:34:44.400
+ It's like A-D-A-M-D-O-T dev.
+
+00:34:44.400 --> 00:34:45.040
+ That's what you want.
+
+00:34:45.040 --> 00:34:47.960
+ Are you kidding me right now?
+
+00:34:47.960 --> 00:34:50.320
+ Are you really trying to spell my handle?
+
+00:34:50.320 --> 00:34:52.000
+ Cause you don't see it on everything.
+
+00:34:52.000 --> 00:34:54.000
+ I'm Adam.dev on literally everything.
+
+00:34:54.000 --> 00:34:56.680
+ I was clarifying it for, I don't know.
+
+00:34:56.680 --> 00:34:57.680
+ I don't know why I did that.
+
+00:35:00.280 --> 00:35:03.160
+ Is it A-D-E-M or is that A-M?
+
+00:35:03.160 --> 00:35:06.320
+ No, I know, because in my head, I was like seeing the dot as a dot.
+
+00:35:06.320 --> 00:35:07.160
+ Like a dot.
+
+00:35:07.160 --> 00:35:10.200
+ You know, I don't think you can do dot on GitHub, right?
+
+00:35:10.200 --> 00:35:11.200
+ Yeah. Yeah, yeah.
+
+00:35:11.200 --> 00:35:12.080
+ No, I want it spelled out.
+
+00:35:12.080 --> 00:35:12.960
+ Somebody has it.
+
+00:35:12.960 --> 00:35:17.200
+ And I, for some reason, I thought it was a certain person I found on LinkedIn,
+
+00:35:17.200 --> 00:35:18.480
+ but they never applied to me.
+
+00:35:18.480 --> 00:35:19.400
+ I don't know.
+
+00:35:19.400 --> 00:35:21.400
+ I didn't put much effort into it and I don't care that much.
+
+00:35:21.400 --> 00:35:23.800
+ Well, I do care that much because someday I want to be anonymous.
+
+00:35:23.800 --> 00:35:26.480
+ People are going to know that I'm Adam, but they won't know which Adam.
+
+00:35:26.480 --> 00:35:27.880
+ They won't know my last.
+
+00:35:27.880 --> 00:35:28.680
+ It's already too late.
+
+00:35:28.680 --> 00:35:30.280
+ What do you do? No, it's not. Stop it.
+
+00:35:30.280 --> 00:35:31.320
+ I'm doing it. Just wait.
+
+00:35:31.320 --> 00:35:32.480
+ Look behind you.
+
+00:35:32.480 --> 00:35:34.520
+ It just says Adam. I'm saying they're going to note.
+
+00:35:34.520 --> 00:35:38.440
+ My name will still be Adam, but they won't remember that you were the same.
+
+00:35:38.440 --> 00:35:41.200
+ No, no, no, no, no. Stop.
+
+00:35:41.200 --> 00:35:42.880
+ No, we're going to make this work.
+
+00:35:42.880 --> 00:35:43.920
+ We're going anonymous.
+
+00:35:43.920 --> 00:35:47.040
+ You're going to have to like go way harder on this if you want this to happen.
+
+00:35:47.040 --> 00:35:51.680
+ You need to start with like an anime profile picture and like just OK, maybe I will.
+
+00:35:51.680 --> 00:35:53.160
+ Yeah, maybe I will.
+
+00:35:53.160 --> 00:35:56.040
+ Then no one would ever suspect you of all people to do that.
+
+00:35:58.040 --> 00:36:00.000
+ I mean, they'll still know what my face looks like.
+
+00:36:00.000 --> 00:36:01.800
+ But then you're not going to be that anonymous.
+
+00:36:01.800 --> 00:36:02.600
+ I'm not looking.
+
+00:36:02.600 --> 00:36:04.200
+ Yeah, I'm not looking to be completely anonymous.
+
+00:36:04.200 --> 00:36:08.080
+ Just like it's hard to find out my real name, you know, that kind of anonymous.
+
+00:36:08.080 --> 00:36:10.240
+ I want people to doubt is Adam even my name.
+
+00:36:10.240 --> 00:36:13.240
+ But at this point, we can just run your face through facial recognition and it's
+
+00:36:13.240 --> 00:36:15.840
+ going to show up killing my dreams.
+
+00:36:15.840 --> 00:36:17.600
+ I'm just killing all my dreams.
+
+00:36:17.600 --> 00:36:19.200
+ Your dreams died a while ago.
+
+00:36:19.200 --> 00:36:20.960
+ And it's well, we'll see about that.
+
+00:36:20.960 --> 00:36:22.280
+ Well, you want to go complete.
+
+00:36:22.280 --> 00:36:25.440
+ Like, look, once we make the I'm going to disappear, once we make the jump into the
+
+00:36:25.440 --> 00:36:28.240
+ metaverse, then you can look at whatever you want.
+
+00:36:28.240 --> 00:36:32.000
+ And at that point already in the metaverse isn't Twitter and all this stuff.
+
+00:36:32.000 --> 00:36:33.480
+ Isn't that kind of already the metaverse?
+
+00:36:33.480 --> 00:36:36.640
+ OK, now if we were in the metaverse, the fact that it mess up my knee would have no
+
+00:36:36.640 --> 00:36:38.760
+ impact on my life because I could just do your thing.
+
+00:36:38.760 --> 00:36:40.680
+ Like it'll all be virtual reality.
+
+00:36:40.680 --> 00:36:43.720
+ And like you will be a physical being in that just the next level.
+
+00:36:43.720 --> 00:36:46.720
+ Yeah, it's the next level where I can look like whatever I want.
+
+00:36:46.720 --> 00:36:49.920
+ Yeah, how's your has your knee, by the way, it feels basically normal.
+
+00:36:49.920 --> 00:36:52.560
+ So I'm not basically I'm going to try.
+
+00:36:52.680 --> 00:36:55.800
+ I'm going to resist temptation to like treat like it's one more place.
+
+00:36:55.800 --> 00:36:58.040
+ Another week, just in case just rest up.
+
+00:36:58.040 --> 00:37:00.040
+ Yeah, but it feels fine.
+
+00:37:00.040 --> 00:37:02.840
+ It's a little stiff, but fine, continue going very hard in jujitsu.
+
+00:37:02.840 --> 00:37:07.160
+ I have I see hot on my left elbow because it hurts a little more after every session.
+
+00:37:07.160 --> 00:37:09.440
+ I should probably take a break.
+
+00:37:09.440 --> 00:37:10.080
+ I just can't.
+
+00:37:10.080 --> 00:37:11.600
+ I'm obsessed, Dax.
+
+00:37:11.600 --> 00:37:13.120
+ It's my favorite thing in the world.
+
+00:37:13.120 --> 00:37:15.080
+ Chris is asking if I post the video of my knee.
+
+00:37:15.080 --> 00:37:16.520
+ No, I did find the video on my phone.
+
+00:37:16.520 --> 00:37:18.280
+ I will I will post it later.
+
+00:37:18.280 --> 00:37:18.800
+ It's funny.
+
+00:37:18.800 --> 00:37:19.480
+ It's just me walking.
+
+00:37:19.480 --> 00:37:24.560
+ I watched it again yesterday and I just walk up and I'm go and I go, I felt something pop.
+
+00:37:24.560 --> 00:37:27.480
+ It's riveting.
+
+00:37:27.480 --> 00:37:28.600
+ Can't wait to see this.
+
+00:37:28.600 --> 00:37:30.280
+ All right, we should probably get some work done.
+
+00:37:30.280 --> 00:37:31.360
+ This has been a long one today.
+
+00:37:31.360 --> 00:37:34.760
+ Yeah, I mean, not this episode, but the two episodes we just recorded.
+
+00:37:34.760 --> 00:37:36.120
+ Is that is that?
+
+00:37:36.120 --> 00:37:37.000
+ Should I not say that?
+
+00:37:37.000 --> 00:37:39.360
+ Is that like too many peaks behind the curtain?
+
+00:37:39.360 --> 00:37:40.800
+ People are listening still.
+
+00:37:40.800 --> 00:37:43.760
+ I love the end of episodes because I feel like at this point, we can say whatever we want.
+
+00:37:43.760 --> 00:37:44.600
+ It doesn't matter.
+
+00:37:44.600 --> 00:37:46.280
+ There's like 10 people still listening.
+
+00:37:46.280 --> 00:37:48.800
+ And they really like us apparently.
+
+00:37:49.000 --> 00:37:50.000
+ There's something offensive.
+
+00:37:50.000 --> 00:37:51.200
+ I'm not going to do that.
+
+00:37:51.200 --> 00:37:53.840
+ I know there's all this stuff that you bottle up and you don't say.
+
+00:37:53.840 --> 00:37:54.680
+ So you should just say it.
+
+00:37:54.680 --> 00:37:59.960
+ Oh, I have a lot of things bottled up that I will not ever say, but I'm not ever going to say them.
+
+00:37:59.960 --> 00:38:01.440
+ That's the nature of bottling up.
+
+00:38:01.440 --> 00:38:07.360
+ I don't know if you understand how bottles work, but you put a little bit of stuff stays in there.
+
+00:38:07.360 --> 00:38:13.400
+ OK, all right.
+
+00:38:13.400 --> 00:38:14.040
+ It's been fun.
+
+00:38:14.040 --> 00:38:14.760
+ Thanks, thanks.
+
+00:38:14.760 --> 00:38:15.800
+ Yeah, see you.
+
+00:38:19.000 --> 00:38:29.000
+ [Music]
+

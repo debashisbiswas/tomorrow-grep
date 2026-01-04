@@ -1,0 +1,3440 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.300
+ Why is Canada populated at all?
+
+00:00:02.300 --> 00:00:03.600
+ Why are there people in Canada?
+
+00:00:03.600 --> 00:00:04.720
+ I don't understand.
+
+00:00:04.720 --> 00:00:07.300
+ (upbeat music)
+
+00:00:27.960 --> 00:00:30.040
+ Long time no talk.
+
+00:00:30.040 --> 00:00:31.280
+ - Yeah, I know, you skipped last week.
+
+00:00:31.280 --> 00:00:32.380
+ - I skipped last week.
+
+00:00:32.380 --> 00:00:33.220
+ - Bitch.
+
+00:00:33.220 --> 00:00:36.560
+ - So. (laughing)
+
+00:00:36.560 --> 00:00:38.080
+ That's funny.
+
+00:00:38.080 --> 00:00:40.400
+ We had to replace you with someone.
+
+00:00:40.400 --> 00:00:41.920
+ So I wasn't here talking to myself.
+
+00:00:41.920 --> 00:00:43.640
+ - Yeah, that sounds more fun, really.
+
+00:00:43.640 --> 00:00:45.320
+ I'm sure people enjoyed that.
+
+00:00:45.320 --> 00:00:46.520
+ You're welcome, everybody.
+
+00:00:46.520 --> 00:00:47.440
+ I'll skip more.
+
+00:00:47.440 --> 00:00:48.960
+ (laughing)
+
+00:00:48.960 --> 00:00:49.920
+ Not really, I'm just kidding.
+
+00:00:49.920 --> 00:00:51.120
+ I'm just kidding.
+
+00:00:51.120 --> 00:00:52.560
+ I feel like if I threaten that,
+
+00:00:52.560 --> 00:00:54.320
+ people are gonna freak out.
+
+00:00:54.320 --> 00:00:55.880
+ Sometimes I do just think like,
+
+00:00:55.880 --> 00:00:57.000
+ is this the slow fade?
+
+00:00:57.000 --> 00:00:58.160
+ Am I not gonna disappear?
+
+00:00:58.160 --> 00:01:01.840
+ I'm just gonna slowly fade out of the internet
+
+00:01:01.840 --> 00:01:02.960
+ and all of my friends.
+
+00:01:02.960 --> 00:01:04.400
+ - Adam, this is literally the guy
+
+00:01:04.400 --> 00:01:07.000
+ that made that bingo card of our podcast.
+
+00:01:07.000 --> 00:01:09.440
+ This is like, is this one of the things I said?
+
+00:01:09.440 --> 00:01:10.760
+ - This is like one of the things.
+
+00:01:10.760 --> 00:01:13.200
+ (laughing)
+
+00:01:13.200 --> 00:01:14.560
+ - Oh, let's try new stuff.
+
+00:01:14.560 --> 00:01:16.480
+ - It's like, I'm just trying to do the internet.
+
+00:01:16.480 --> 00:01:18.800
+ - Yeah, let's try new material.
+
+00:01:18.800 --> 00:01:21.800
+ I mean, I don't wanna go back to the bingo card,
+
+00:01:21.800 --> 00:01:23.600
+ but I really do need you to catch me up on months.
+
+00:01:23.600 --> 00:01:24.440
+ - It makes sense.
+
+00:01:24.440 --> 00:01:26.220
+ (laughing)
+
+00:01:26.220 --> 00:01:28.040
+ That's just one of the things I need from you
+
+00:01:28.040 --> 00:01:29.840
+ in this relationship.
+
+00:01:29.840 --> 00:01:31.080
+ - Has anything happened?
+
+00:01:31.080 --> 00:01:32.280
+ I don't know.
+
+00:01:32.280 --> 00:01:33.200
+ What's new?
+
+00:01:33.200 --> 00:01:34.040
+ - Yeah, maybe nothing.
+
+00:01:34.040 --> 00:01:35.280
+ That's fine.
+
+00:01:35.280 --> 00:01:36.120
+ That's actually great.
+
+00:01:36.120 --> 00:01:38.360
+ - I guess the main thing was
+
+00:01:38.360 --> 00:01:41.000
+ Beats finally announced their round,
+
+00:01:41.000 --> 00:01:42.520
+ which they closed a long time ago,
+
+00:01:42.520 --> 00:01:44.700
+ but I didn't go public.
+
+00:01:44.700 --> 00:01:45.540
+ Yeah.
+
+00:01:45.540 --> 00:01:46.480
+ - Yeah, so how's that work?
+
+00:01:46.480 --> 00:01:47.560
+ I mean, in the sense that like,
+
+00:01:47.560 --> 00:01:50.440
+ Evan is doing a lot of things.
+
+00:01:50.440 --> 00:01:52.000
+ So, Beat is like a company?
+
+00:01:52.000 --> 00:01:54.360
+ - Well, they established a new company called Void Zero
+
+00:01:54.360 --> 00:01:58.240
+ and their goal is to make a unified JavaScript tool chain.
+
+00:01:58.240 --> 00:01:59.080
+ - Okay.
+
+00:01:59.080 --> 00:02:00.680
+ - Which, I think if,
+
+00:02:00.680 --> 00:02:02.980
+ puts them in the same category as BUN, more or less,
+
+00:02:02.980 --> 00:02:06.400
+ I think that's like a hundred, almost near overlap.
+
+00:02:06.400 --> 00:02:08.160
+ - Like computing the runtime.
+
+00:02:08.160 --> 00:02:09.000
+ - BUN?
+
+00:02:09.000 --> 00:02:10.760
+ - I think BUN is a super set in a lot of ways.
+
+00:02:10.760 --> 00:02:12.760
+ Like I think BUN would consider,
+
+00:02:12.760 --> 00:02:14.760
+ even if they're not focusing on the same things right now,
+
+00:02:14.760 --> 00:02:16.360
+ I think BUN would consider everything Void Zero
+
+00:02:16.360 --> 00:02:19.240
+ is doing as something they eventually wanna do.
+
+00:02:19.240 --> 00:02:21.800
+ I don't think Void Zero is gonna build
+
+00:02:21.800 --> 00:02:23.080
+ a JavaScript runtime.
+
+00:02:23.080 --> 00:02:24.920
+ I don't think that's outside of their scope.
+
+00:02:24.920 --> 00:02:28.520
+ - Okay, so BUN has executed really well.
+
+00:02:28.520 --> 00:02:30.760
+ Are they gonna have similar business models
+
+00:02:30.760 --> 00:02:33.800
+ or have either of them picked a business model?
+
+00:02:33.800 --> 00:02:34.680
+ They've both raised money.
+
+00:02:34.680 --> 00:02:38.200
+ - I went on PrimeStream a bit to talk about this a bit
+
+00:02:38.200 --> 00:02:41.080
+ because I'll just give you this bill real quick.
+
+00:02:41.080 --> 00:02:45.040
+ So, with a lot of these projects,
+
+00:02:45.040 --> 00:02:49.120
+ these like open source projects that are very free
+
+00:02:49.120 --> 00:02:52.240
+ and like fundamentally need to be open source and free,
+
+00:02:52.240 --> 00:02:55.800
+ the question of like, what's a business model always comes up?
+
+00:02:55.800 --> 00:02:58.920
+ And that's a valid question.
+
+00:02:58.920 --> 00:03:01.280
+ But the point I made was,
+
+00:03:01.280 --> 00:03:03.280
+ I don't know if we talked about this already,
+
+00:03:03.280 --> 00:03:05.000
+ but these are venture scale companies
+
+00:03:05.000 --> 00:03:07.640
+ very different than a traditional company.
+
+00:03:07.640 --> 00:03:09.920
+ The example I gave was,
+
+00:03:09.920 --> 00:03:11.760
+ if search engines didn't exist
+
+00:03:11.760 --> 00:03:15.240
+ and someone invented a search engine today,
+
+00:03:15.240 --> 00:03:17.000
+ people would ask what's a business model.
+
+00:03:17.000 --> 00:03:18.200
+ And the company would be like,
+
+00:03:18.200 --> 00:03:20.600
+ oh yeah, we'll give you like 10 free searches a day.
+
+00:03:20.600 --> 00:03:22.000
+ And then if you want to go over that,
+
+00:03:22.000 --> 00:03:24.040
+ we'll charge you $10 a month, right?
+
+00:03:24.040 --> 00:03:27.320
+ And you would probably make a lot of money doing that,
+
+00:03:27.320 --> 00:03:28.960
+ especially if it's as good as Google is
+
+00:03:28.960 --> 00:03:31.080
+ and there was no other search engine.
+
+00:03:31.080 --> 00:03:32.800
+ But it would never be a product
+
+00:03:32.800 --> 00:03:34.760
+ that every single person in the world used.
+
+00:03:34.760 --> 00:03:35.600
+ - Yeah, right.
+
+00:03:35.600 --> 00:03:38.000
+ - Like there's natural friction with the paid tier.
+
+00:03:38.000 --> 00:03:41.120
+ And eventually someone would build a version
+
+00:03:41.120 --> 00:03:42.120
+ that's not paid.
+
+00:03:42.120 --> 00:03:44.840
+ And if you do build the version that's not paid
+
+00:03:44.840 --> 00:03:46.680
+ and everyone in the world starts to use it,
+
+00:03:46.680 --> 00:03:49.240
+ you now have this opportunity to build
+
+00:03:49.240 --> 00:03:51.640
+ a like trillion dollar ads business, right?
+
+00:03:51.640 --> 00:03:54.120
+ Which is really, really hard to imagine ahead of time.
+
+00:03:54.120 --> 00:03:56.960
+ Like it's so hard to imagine like if every single thing,
+
+00:03:56.960 --> 00:03:58.280
+ if we capture 100% of market,
+
+00:03:58.280 --> 00:04:00.480
+ like what are the business models?
+
+00:04:00.480 --> 00:04:03.480
+ Like none of us would have come up with,
+
+00:04:03.480 --> 00:04:05.840
+ like Google just serves as not on their own properties,
+
+00:04:05.840 --> 00:04:07.680
+ but like across the whole internet and other sites,
+
+00:04:07.680 --> 00:04:11.240
+ like it's like a giant, giant business
+
+00:04:11.240 --> 00:04:12.360
+ that came out of this thing.
+
+00:04:12.360 --> 00:04:14.200
+ And it feels like really random and unrelated.
+
+00:04:14.200 --> 00:04:16.480
+ So with these companies,
+
+00:04:16.480 --> 00:04:19.360
+ the question isn't really what's a business model.
+
+00:04:19.360 --> 00:04:23.200
+ The question is, do they have a big enough goal?
+
+00:04:23.200 --> 00:04:25.160
+ In Bun's case, it's every piece of JavaScript,
+
+00:04:25.160 --> 00:04:27.560
+ every executed should happen inside Bun.
+
+00:04:27.560 --> 00:04:29.000
+ That's a really big goal.
+
+00:04:29.000 --> 00:04:32.500
+ I can see that, I can see that potentially.
+
+00:04:32.500 --> 00:04:34.840
+ Same with void zero, like their goal is,
+
+00:04:34.840 --> 00:04:39.920
+ all JavaScript builds anything like pre-run time,
+
+00:04:39.920 --> 00:04:41.920
+ building, linting, whatever.
+
+00:04:41.920 --> 00:04:43.840
+ That should all run through their tooling.
+
+00:04:45.680 --> 00:04:47.960
+ And if they get to that level,
+
+00:04:47.960 --> 00:04:49.720
+ there's probably going to be interesting business models
+
+00:04:49.720 --> 00:04:52.360
+ that open up, it's going to be hard if they invent them.
+
+00:04:52.360 --> 00:04:55.560
+ Like there's companies like Docker that got to that level
+
+00:04:55.560 --> 00:04:57.040
+ and then like really struggled
+
+00:04:57.040 --> 00:04:59.080
+ to figure out how to invent the business model.
+
+00:04:59.080 --> 00:05:00.820
+ But the moment Docker did find something,
+
+00:05:00.820 --> 00:05:03.400
+ they went from like zero to 100 million AR in a year.
+
+00:05:03.400 --> 00:05:05.280
+ So it's just like, that's kind of
+
+00:05:05.280 --> 00:05:06.440
+ what venture scale stuff is.
+
+00:05:06.440 --> 00:05:08.640
+ Like it's really hard to see business model upfront,
+
+00:05:08.640 --> 00:05:11.160
+ but when you crack it, it's like boom.
+
+00:05:11.160 --> 00:05:14.880
+ So to be fair, I don't know if this stuff
+
+00:05:14.880 --> 00:05:16.840
+ is actually going to work out, I'm not saying that it will,
+
+00:05:16.840 --> 00:05:19.760
+ but yeah, it's just very unclear right now.
+
+00:05:19.760 --> 00:05:21.760
+ And, but that's like just not the question.
+
+00:05:21.760 --> 00:05:25.760
+ The question is like, can they actually grow to that level?
+
+00:05:25.760 --> 00:05:26.600
+ - Yeah.
+
+00:05:26.600 --> 00:05:28.400
+ Yeah, I think all that tracks for me,
+
+00:05:28.400 --> 00:05:29.640
+ if it weren't DevTools.
+
+00:05:29.640 --> 00:05:32.800
+ I just feel like the DevTools part is this quite,
+
+00:05:32.800 --> 00:05:34.840
+ I mean, Docker is an example.
+
+00:05:34.840 --> 00:05:36.440
+ The aren't, isn't Docker struggling?
+
+00:05:36.440 --> 00:05:37.920
+ Like everybody uses Docker,
+
+00:05:37.920 --> 00:05:40.400
+ but doesn't Docker like have all these issues
+
+00:05:40.400 --> 00:05:42.320
+ and they have to put all these restrictions
+
+00:05:42.320 --> 00:05:45.480
+ because of, I mean, the nature of images and bandwidth
+
+00:05:45.480 --> 00:05:47.440
+ is unfortunate.
+
+00:05:47.440 --> 00:05:50.040
+ So maybe that's inherent to their type of business
+
+00:05:50.040 --> 00:05:52.000
+ or their tool.
+
+00:05:52.000 --> 00:05:53.160
+ But are they struggling?
+
+00:05:53.160 --> 00:05:54.560
+ Did they make it?
+
+00:05:54.560 --> 00:05:55.720
+ Because everybody uses Docker.
+
+00:05:55.720 --> 00:05:58.360
+ - I think for a very long time, yeah, it's an interesting story.
+
+00:05:58.360 --> 00:05:59.880
+ They're actually a really interesting story
+
+00:05:59.880 --> 00:06:02.920
+ where anyone has wanted to understand there's like some
+
+00:06:02.920 --> 00:06:05.120
+ write up about their whole business history.
+
+00:06:05.120 --> 00:06:07.440
+ And it's a, if anyone wants to understand this space,
+
+00:06:07.440 --> 00:06:10.560
+ it basically captures every type of thing that can happen.
+
+00:06:10.560 --> 00:06:12.320
+ So they did the impossible.
+
+00:06:12.320 --> 00:06:14.600
+ They made something that like changed the world.
+
+00:06:14.600 --> 00:06:18.800
+ Like every single, like Docker is massively impactful.
+
+00:06:18.800 --> 00:06:20.400
+ Totally changed how we deploy stuff.
+
+00:06:20.400 --> 00:06:22.680
+ It's everywhere, everywhere, everywhere.
+
+00:06:22.680 --> 00:06:25.440
+ But the immediate winners were incumbents.
+
+00:06:25.440 --> 00:06:28.760
+ Google Cloud, AWS, like all the big cloud just added it.
+
+00:06:28.760 --> 00:06:31.480
+ They were at the distribution at Docker support.
+
+00:06:31.480 --> 00:06:34.280
+ Docker does not see really a penny of any of that.
+
+00:06:34.280 --> 00:06:35.120
+ - Yep.
+
+00:06:35.120 --> 00:06:37.600
+ - So Docker struggled for a long time.
+
+00:06:37.600 --> 00:06:39.520
+ And then it seemed like they're about to go under
+
+00:06:39.520 --> 00:06:43.960
+ and then they just really focused on Docker for desktop,
+
+00:06:43.960 --> 00:06:45.480
+ I think, which is like really weird.
+
+00:06:45.480 --> 00:06:46.800
+ I don't really understand it.
+
+00:06:46.800 --> 00:06:49.040
+ And they like just sold.
+
+00:06:49.040 --> 00:06:50.480
+ - I just hate it on my Mac.
+
+00:06:50.480 --> 00:06:52.000
+ I just hate Docker for desktop.
+
+00:06:52.000 --> 00:06:53.280
+ So that's why I laughed.
+
+00:06:53.280 --> 00:06:54.440
+ - I mean, I don't know if it's a good product,
+
+00:06:54.440 --> 00:06:58.560
+ but it was just an angle that they could take
+
+00:06:58.560 --> 00:07:01.040
+ that the big clouds would never.
+
+00:07:01.040 --> 00:07:02.840
+ And that's where they made a bunch of money.
+
+00:07:02.840 --> 00:07:05.120
+ Is that like super long-term sustainable?
+
+00:07:05.120 --> 00:07:07.320
+ I don't know, but they did hit a hundred million ARR
+
+00:07:07.320 --> 00:07:09.920
+ with that, which justifies a billion,
+
+00:07:09.920 --> 00:07:11.200
+ multi-billion dollar valuation.
+
+00:07:11.200 --> 00:07:12.520
+ - Yeah, okay.
+
+00:07:12.520 --> 00:07:13.600
+ - It's hard.
+
+00:07:13.600 --> 00:07:15.520
+ 'Cause they had to do two things, right?
+
+00:07:15.520 --> 00:07:18.000
+ They had to do the first impossible thing
+
+00:07:18.000 --> 00:07:21.440
+ that somehow capture value dodging
+
+00:07:21.440 --> 00:07:26.440
+ all the big giant companies trying to get there before you.
+
+00:07:26.440 --> 00:07:28.400
+ And they did.
+
+00:07:28.400 --> 00:07:29.720
+ They're always gonna get there before you.
+
+00:07:29.720 --> 00:07:30.560
+ Even if they get there later,
+
+00:07:30.560 --> 00:07:33.080
+ they're just gonna win, like BUN, for example,
+
+00:07:33.080 --> 00:07:33.920
+ the same situation.
+
+00:07:33.920 --> 00:07:36.720
+ If BUN becomes the fault way people do JavaScript,
+
+00:07:36.720 --> 00:07:40.920
+ obviously Google, AWS, we're gonna have support for it.
+
+00:07:40.920 --> 00:07:44.280
+ So it's gonna be tricky, but yeah, it creates, it's hard.
+
+00:07:44.280 --> 00:07:45.800
+ - Everywhere the JavaScript runs,
+
+00:07:45.800 --> 00:07:48.000
+ except for the browser, right?
+
+00:07:48.000 --> 00:07:49.440
+ - Except for the browser, yeah.
+
+00:07:49.440 --> 00:07:52.720
+ - So the browser still has its own thing,
+
+00:07:52.720 --> 00:07:55.520
+ but all the backend JavaScript being BUN,
+
+00:07:55.520 --> 00:07:58.440
+ and all the local development tool chain,
+
+00:07:58.440 --> 00:08:00.080
+ that's the BUN goal.
+
+00:08:00.080 --> 00:08:02.520
+ And then we're gonna have ads in our terminal.
+
+00:08:02.520 --> 00:08:03.880
+ I'm just saying, we'll see.
+
+00:08:03.880 --> 00:08:07.080
+ - Maybe that's not very imaginative of me.
+
+00:08:07.080 --> 00:08:08.880
+ (laughing)
+
+00:08:08.880 --> 00:08:10.480
+ - Yeah, I mean, who's to say?
+
+00:08:10.480 --> 00:08:12.680
+ Like, the void zero thing,
+
+00:08:12.680 --> 00:08:16.880
+ like the most obvious path for them is,
+
+00:08:16.880 --> 00:08:20.800
+ if they are handling all these like heavy, crazy builds,
+
+00:08:20.800 --> 00:08:24.280
+ giant companies need like really, really good caching systems
+
+00:08:24.280 --> 00:08:27.200
+ and typically pay for them, or willing to pay for them.
+
+00:08:27.200 --> 00:08:30.800
+ So they could build like a service that matches that.
+
+00:08:30.800 --> 00:08:32.520
+ Again, I don't know if that's a venture scale thing,
+
+00:08:32.520 --> 00:08:35.560
+ but it's like not totally out of the question
+
+00:08:35.560 --> 00:08:39.160
+ that there's ways that even now we could imagine
+
+00:08:39.160 --> 00:08:40.000
+ what they could do.
+
+00:08:40.000 --> 00:08:41.440
+ But again, there's not the goal.
+
+00:08:41.440 --> 00:08:42.560
+ There's no point in monetizing something
+
+00:08:42.560 --> 00:08:45.320
+ that doesn't win when it comes to venture scale.
+
+00:08:45.320 --> 00:08:46.680
+ So try to win first.
+
+00:08:46.680 --> 00:08:48.160
+ - Interesting.
+
+00:08:48.160 --> 00:08:49.360
+ - Try to win.
+
+00:08:49.360 --> 00:08:51.680
+ I mean, yeah, that makes sense.
+
+00:08:51.680 --> 00:08:53.160
+ I guess I said the dead tools thing,
+
+00:08:53.160 --> 00:08:57.560
+ and then I forgot SSD is also the same situation.
+
+00:08:57.560 --> 00:08:58.400
+ Yeah.
+
+00:08:58.400 --> 00:08:59.240
+ So I'm not saying--
+
+00:08:59.240 --> 00:09:01.000
+ - That's why I know it's like, I have mixed feelings,
+
+00:09:01.000 --> 00:09:04.080
+ 'cause I know how unlikely and hard and difficult it is
+
+00:09:04.080 --> 00:09:06.600
+ and how, I think the problem actually
+
+00:09:06.600 --> 00:09:08.240
+ is that everything I just described,
+
+00:09:08.240 --> 00:09:10.760
+ I actually don't even know if the founders in this space
+
+00:09:10.760 --> 00:09:13.080
+ understand what this is what they signed up for.
+
+00:09:13.080 --> 00:09:15.520
+ I technically didn't when I joined SSD
+
+00:09:15.520 --> 00:09:19.600
+ and I understood this a lot better a couple years ago.
+
+00:09:19.600 --> 00:09:22.280
+ But yeah, if you don't understand this,
+
+00:09:22.280 --> 00:09:24.640
+ then what you're gonna do is like focus
+
+00:09:24.640 --> 00:09:27.280
+ on like the business model too early
+
+00:09:27.280 --> 00:09:29.440
+ and then it turns out like your product isn't even win
+
+00:09:29.440 --> 00:09:31.360
+ and like the whole thing is always the time.
+
+00:09:31.360 --> 00:09:32.200
+ - Yeah.
+
+00:09:32.200 --> 00:09:33.040
+ - Yeah.
+
+00:09:33.040 --> 00:09:34.440
+ - Mm.
+
+00:09:34.440 --> 00:09:37.960
+ - Yeah, what we, I mean, Stammie's is like consumer.
+
+00:09:37.960 --> 00:09:40.040
+ It's a sports statistics website, though.
+
+00:09:40.040 --> 00:09:40.960
+ (laughing)
+
+00:09:40.960 --> 00:09:41.840
+ - I love Bingo Card.
+
+00:09:41.840 --> 00:09:42.680
+ (laughing)
+
+00:09:42.680 --> 00:09:43.520
+ - I love Bingo.
+
+00:09:43.520 --> 00:09:48.400
+ - Like we were pre-revenue for like five, six years,
+
+00:09:48.400 --> 00:09:50.440
+ something like that, but it's like different
+
+00:09:50.440 --> 00:09:52.600
+ 'cause it's a consumer website.
+
+00:09:52.600 --> 00:09:53.440
+ And I think--
+
+00:09:53.440 --> 00:09:55.120
+ - So different, that tool is like very,
+
+00:09:55.120 --> 00:09:57.320
+ I would say that tool is close to B2C companies.
+
+00:09:57.320 --> 00:09:58.320
+ - Yeah, I guess so.
+
+00:09:58.320 --> 00:09:59.160
+ Yeah, I guess so.
+
+00:09:59.160 --> 00:10:00.320
+ There's a lot of developers.
+
+00:10:00.320 --> 00:10:01.520
+ Yeah, I don't know where I was going with that,
+
+00:10:01.520 --> 00:10:04.200
+ but like we were, it was like very fun to be pre-revenue
+
+00:10:04.200 --> 00:10:06.240
+ because nobody judged your revenue
+
+00:10:06.240 --> 00:10:07.360
+ when you don't have revenue
+
+00:10:07.360 --> 00:10:09.160
+ and we could just kind of keep not having revenue.
+
+00:10:09.160 --> 00:10:11.040
+ But I feel like it was very predictable that like,
+
+00:10:11.040 --> 00:10:12.520
+ we're gonna have ads on a website.
+
+00:10:12.520 --> 00:10:13.360
+ It's just how it works.
+
+00:10:13.360 --> 00:10:14.640
+ We have a lot of traffic on our website.
+
+00:10:14.640 --> 00:10:16.040
+ Now we have ads on the website.
+
+00:10:16.040 --> 00:10:18.360
+ We didn't get more creative than that, I guess.
+
+00:10:18.360 --> 00:10:19.200
+ Not yet.
+
+00:10:19.200 --> 00:10:21.400
+ - Yeah, but I mean, if it works, it works.
+
+00:10:21.400 --> 00:10:22.240
+ - Yeah.
+
+00:10:22.240 --> 00:10:23.080
+ - But yeah, exactly.
+
+00:10:23.080 --> 00:10:25.040
+ Like I think there's like a over rotation on,
+
+00:10:25.040 --> 00:10:27.960
+ it's just, I think when you're in,
+
+00:10:27.960 --> 00:10:29.560
+ when you're observing some of these things,
+
+00:10:29.560 --> 00:10:33.760
+ I feel like you get the right conclusion, but not really, right?
+
+00:10:33.760 --> 00:10:38.240
+ So we had a period of time where there was these like,
+
+00:10:38.240 --> 00:10:41.080
+ really big blowups of like overfunded companies
+
+00:10:41.080 --> 00:10:44.160
+ that just never had a business model and never made sense.
+
+00:10:44.160 --> 00:10:45.440
+ And a lot of people witnessed that.
+
+00:10:45.440 --> 00:10:47.880
+ So now there's like this thing of like,
+
+00:10:47.880 --> 00:10:50.120
+ anytime they see a company saying something like,
+
+00:10:50.120 --> 00:10:52.160
+ pre-revenue or like, we'll worry about the business model
+
+00:10:52.160 --> 00:10:54.520
+ later, they're like, oh, it's one of those.
+
+00:10:54.520 --> 00:10:56.080
+ It's gonna like blow up and fail, but.
+
+00:10:56.080 --> 00:10:59.120
+ - And dev tools in particular had a lot of money.
+
+00:10:59.120 --> 00:11:02.240
+ It was a very hot VC segment.
+
+00:11:02.240 --> 00:11:05.320
+ So I think there's also like tangential,
+
+00:11:05.320 --> 00:11:09.680
+ but not completely the same blowback on dev tool stuff
+
+00:11:09.680 --> 00:11:10.520
+ for that reason.
+
+00:11:10.520 --> 00:11:13.840
+ Like there's like venture scale across all the industries
+
+00:11:13.840 --> 00:11:17.240
+ has its own taint from, is that a word I can say?
+
+00:11:17.240 --> 00:11:19.440
+ I don't know, is that a bad word?
+
+00:11:19.440 --> 00:11:21.360
+ I feel like somebody's technically a fine word
+
+00:11:21.360 --> 00:11:24.040
+ that also has more intense meaning.
+
+00:11:24.040 --> 00:11:25.040
+ - An urban dictionary meaning?
+
+00:11:25.040 --> 00:11:25.880
+ - Okay.
+
+00:11:25.880 --> 00:11:31.160
+ Like venture scale as a term and as a concept
+
+00:11:31.160 --> 00:11:33.440
+ was tainted by lots of free money.
+
+00:11:33.440 --> 00:11:35.640
+ But then dev tools, if you're a developer,
+
+00:11:35.640 --> 00:11:39.000
+ you've kind of like soured on some things about dev tools
+
+00:11:39.000 --> 00:11:44.000
+ because of poor usage of venture money
+
+00:11:44.000 --> 00:11:46.920
+ or like memeable usage of venture money
+
+00:11:46.920 --> 00:11:51.320
+ over the last few years and that still goes on.
+
+00:11:51.320 --> 00:11:52.520
+ So yeah, it's kind of a double whammy.
+
+00:11:52.520 --> 00:11:54.800
+ When I hear like venture scale dev tools,
+
+00:11:54.800 --> 00:11:57.520
+ I just, I think of all the negatives of both sides.
+
+00:11:57.520 --> 00:11:58.480
+ - Yeah.
+
+00:11:58.480 --> 00:11:59.320
+ - Yeah.
+
+00:11:59.320 --> 00:12:00.160
+ - It's not fair though.
+
+00:12:00.160 --> 00:12:03.360
+ - I mean, it's just easy to remember the negatives
+
+00:12:03.360 --> 00:12:06.040
+ and forget the pauses 'cause the ones that win
+
+00:12:06.040 --> 00:12:09.800
+ become so normal that you like just don't ever think
+
+00:12:09.800 --> 00:12:10.640
+ about them that hard.
+
+00:12:10.640 --> 00:12:11.480
+ - Yeah, yeah, yeah.
+
+00:12:11.480 --> 00:12:14.120
+ - Again, Docker venture funded.
+
+00:12:14.120 --> 00:12:16.680
+ All the HashiCorp stuff venture funded.
+
+00:12:16.680 --> 00:12:19.440
+ Like ghosty technically wouldn't exist unless,
+
+00:12:19.440 --> 00:12:22.080
+ you know, he had a nice exit where he can kind of focus
+
+00:12:22.080 --> 00:12:22.920
+ on that. - That's true.
+
+00:12:22.920 --> 00:12:24.720
+ - All the HashiCorp stuff is really great.
+
+00:12:24.720 --> 00:12:27.080
+ Like, like, tire form, a bunch of things like that.
+
+00:12:27.080 --> 00:12:32.080
+ So yeah, just so the ones that are good do the thing,
+
+00:12:32.080 --> 00:12:33.760
+ that's hard, which is you become invisible
+
+00:12:33.760 --> 00:12:34.600
+ 'cause you're just like a default.
+
+00:12:34.600 --> 00:12:36.200
+ - Yeah, and nobody talks about it.
+
+00:12:36.200 --> 00:12:37.240
+ Yeah, that makes sense.
+
+00:12:37.240 --> 00:12:38.680
+ - Yeah, some of this stuff is really crazy.
+
+00:12:38.680 --> 00:12:42.640
+ Like we were talking internally yesterday about like,
+
+00:12:42.640 --> 00:12:44.960
+ okay, if our growth continues,
+
+00:12:44.960 --> 00:12:48.200
+ what will our competition look like?
+
+00:12:48.200 --> 00:12:50.760
+ 'Cause we start to eat into places that technically
+
+00:12:50.760 --> 00:12:55.480
+ are competitive with companies we aren't competing with today.
+
+00:12:55.480 --> 00:12:59.560
+ And it is funny dynamic where it's only a problem
+
+00:12:59.560 --> 00:13:02.360
+ once you start making money, like a lot of money.
+
+00:13:02.360 --> 00:13:03.920
+ Otherwise people just look at you as like,
+
+00:13:03.920 --> 00:13:04.880
+ oh, that's a cute project.
+
+00:13:04.880 --> 00:13:07.640
+ Even if you're growing a ton and become really popular,
+
+00:13:07.640 --> 00:13:12.360
+ they'll like not really copy you or try to like stop it.
+
+00:13:12.360 --> 00:13:13.200
+ - Yeah.
+
+00:13:13.200 --> 00:13:15.840
+ - So there's a lot of benefit to staying small
+
+00:13:15.840 --> 00:13:18.520
+ with your revenue for as long as possible
+
+00:13:18.520 --> 00:13:21.800
+ 'cause it catches the competition off-guard
+
+00:13:21.800 --> 00:13:23.680
+ as we're spending into their markets.
+
+00:13:23.680 --> 00:13:24.840
+ 'Cause like a big established company
+
+00:13:24.840 --> 00:13:28.680
+ is never gonna be like, oh, this like open source projects
+
+00:13:28.680 --> 00:13:29.520
+ is getting really popular.
+
+00:13:29.520 --> 00:13:30.520
+ We need to make sure we clone it.
+
+00:13:30.520 --> 00:13:32.280
+ There's be like, what do you mean?
+
+00:13:32.280 --> 00:13:33.200
+ Like they're not making any money.
+
+00:13:33.200 --> 00:13:35.600
+ Why would we waste time on that?
+
+00:13:35.600 --> 00:13:36.960
+ By the time they see it,
+
+00:13:36.960 --> 00:13:38.400
+ by the time it actually starts to impact them,
+
+00:13:38.400 --> 00:13:39.720
+ it's like too late.
+
+00:13:39.720 --> 00:13:41.480
+ So yeah, there's a lot of funny dynamics
+
+00:13:41.480 --> 00:13:44.720
+ with being pre-revenue of some like advantages
+
+00:13:44.720 --> 00:13:45.800
+ or low revenue rather.
+
+00:13:45.800 --> 00:13:48.020
+ - Speaking of pre-revenue.
+
+00:13:48.020 --> 00:13:49.760
+ Can you catch me up on the hurricane?
+
+00:13:49.760 --> 00:13:50.840
+ (laughing)
+
+00:13:50.840 --> 00:13:53.040
+ There's like, there's a big hurricane hitting today.
+
+00:13:53.040 --> 00:13:54.160
+ - Sorry, yes.
+
+00:13:54.160 --> 00:13:55.760
+ - Known for my transitions.
+
+00:13:55.760 --> 00:13:57.240
+ - Yeah, it's funny.
+
+00:13:57.240 --> 00:13:58.720
+ - Is it hitting? - Yeah.
+
+00:13:58.720 --> 00:14:03.080
+ - No, they keep pushing the landfall time further and further.
+
+00:14:03.080 --> 00:14:04.760
+ Hurricanes move slow.
+
+00:14:04.760 --> 00:14:07.040
+ - Yeah, I think I've caught that.
+
+00:14:07.040 --> 00:14:08.360
+ - Do you know the speed of a hurricane
+
+00:14:08.360 --> 00:14:10.680
+ like in terms of how fast it travels?
+
+00:14:10.680 --> 00:14:12.440
+ - No, like across the ocean.
+
+00:14:12.440 --> 00:14:14.080
+ - Yeah, 'cause you always hear like wind speeds
+
+00:14:14.080 --> 00:14:15.520
+ of 165 miles an hour,
+
+00:14:15.520 --> 00:14:16.960
+ but the hurricane itself is moving
+
+00:14:16.960 --> 00:14:18.640
+ at like below 10 miles an hour.
+
+00:14:18.640 --> 00:14:19.760
+ - Are you serious?
+
+00:14:19.760 --> 00:14:21.720
+ Wow. - It's so slow.
+
+00:14:21.720 --> 00:14:24.400
+ - Yeah, does it speed up or slow down
+
+00:14:24.400 --> 00:14:25.520
+ when it gets over land?
+
+00:14:25.520 --> 00:14:28.600
+ - So land absorbs a lot of the hurricane's power.
+
+00:14:28.600 --> 00:14:31.420
+ So you'll see as it hits land it like weekends.
+
+00:14:31.420 --> 00:14:35.440
+ But right now it's so forecast to hit Tampa,
+
+00:14:35.440 --> 00:14:36.800
+ I'm not gonna be affected by the case.
+
+00:14:36.800 --> 00:14:38.320
+ - It's like a category four now.
+
+00:14:38.320 --> 00:14:39.280
+ I just googled it.
+
+00:14:39.280 --> 00:14:41.840
+ - It went from five to four to five again.
+
+00:14:41.840 --> 00:14:44.560
+ They think when it hits, it'll be a three.
+
+00:14:44.560 --> 00:14:45.560
+ - Oh, okay.
+
+00:14:45.560 --> 00:14:47.040
+ - That's better than a five, right?
+
+00:14:47.040 --> 00:14:48.100
+ It goes that direction.
+
+00:14:48.100 --> 00:14:48.940
+ - Yeah.
+
+00:14:48.940 --> 00:14:50.800
+ - It's weird because it's almost like binary.
+
+00:14:50.800 --> 00:14:53.800
+ There's just a bunch of structures
+
+00:14:53.800 --> 00:14:57.120
+ that are still not able to deal with any kind of hurricane.
+
+00:14:57.120 --> 00:14:59.240
+ And when they get a direct hit,
+
+00:14:59.240 --> 00:15:00.240
+ all those structures are affected.
+
+00:15:00.240 --> 00:15:01.680
+ - It blows my mind actually,
+
+00:15:01.680 --> 00:15:03.880
+ whenever something like this is about to happen
+
+00:15:03.880 --> 00:15:05.840
+ and they point out it's been like 100 years
+
+00:15:05.840 --> 00:15:06.880
+ since Tampa has been direct hit.
+
+00:15:06.880 --> 00:15:09.320
+ It's like in the Gulf of Mexico, how is that possible?
+
+00:15:09.320 --> 00:15:11.120
+ I feel like hurricanes are like constant
+
+00:15:11.120 --> 00:15:12.680
+ in the hurricane season.
+
+00:15:12.680 --> 00:15:14.960
+ - There's this feeling, there's like this,
+
+00:15:14.960 --> 00:15:17.160
+ I feel like I wish I could communicate properly.
+
+00:15:17.160 --> 00:15:18.720
+ When you see all these hurricanes flying around,
+
+00:15:18.720 --> 00:15:20.960
+ it feels like you're just like,
+
+00:15:20.960 --> 00:15:22.400
+ it feels like you're playing dodgeball
+
+00:15:22.400 --> 00:15:24.160
+ and like the ball is just like flying around you
+
+00:15:24.160 --> 00:15:25.000
+ and somehow you're not hitting.
+
+00:15:25.000 --> 00:15:27.400
+ - Like meow, where the bullets are just dodging.
+
+00:15:27.400 --> 00:15:30.560
+ - But it's funny though, 'cause like the hurricanes,
+
+00:15:30.560 --> 00:15:32.120
+ sometimes have crazy paths, right?
+
+00:15:32.120 --> 00:15:34.880
+ Like this hurricane started in the Gulf,
+
+00:15:34.880 --> 00:15:37.360
+ which I like didn't even know was a thing.
+
+00:15:37.360 --> 00:15:38.760
+ Like it can start from the left side.
+
+00:15:38.760 --> 00:15:40.280
+ Like what the hell that all came from.
+
+00:15:40.280 --> 00:15:41.920
+ - It's like, oh, I didn't know that didn't happen.
+
+00:15:41.920 --> 00:15:42.760
+ Yeah, okay.
+
+00:15:42.760 --> 00:15:46.000
+ - I mean, I guess they do, I just never.
+
+00:15:46.000 --> 00:15:46.920
+ I don't even know if they typical,
+
+00:15:46.920 --> 00:15:49.160
+ I just never realized that.
+
+00:15:49.160 --> 00:15:51.920
+ But like the last one, I think it was last year,
+
+00:15:51.920 --> 00:15:52.760
+ it was gonna hit Tampa,
+
+00:15:52.760 --> 00:15:54.800
+ but then I think it went south and hit Naples.
+
+00:15:54.800 --> 00:15:55.640
+ - Yeah.
+
+00:15:55.640 --> 00:15:58.800
+ - It came from the right, like hooked around
+
+00:15:58.800 --> 00:16:00.680
+ and it came back and then hit.
+
+00:16:00.680 --> 00:16:03.080
+ - I think I saw that, yeah, I saw the path of that one.
+
+00:16:03.080 --> 00:16:05.080
+ - Yeah, so it feels like someone's throwing
+
+00:16:05.080 --> 00:16:09.720
+ these like crazy trick shots, like at the US.
+
+00:16:09.720 --> 00:16:12.960
+ - The, we just had one, right?
+
+00:16:12.960 --> 00:16:15.280
+ The Asheville situation's super bad,
+
+00:16:15.280 --> 00:16:17.440
+ which is crazy 'cause it's so inland
+
+00:16:17.440 --> 00:16:19.440
+ and it makes me rethink all of my like,
+
+00:16:19.440 --> 00:16:21.960
+ I'm safe from hurricanes in the Midwest.
+
+00:16:21.960 --> 00:16:24.280
+ 'Cause like Asheville's in the mid, not Midwest,
+
+00:16:24.280 --> 00:16:28.480
+ but it's like, I guess it was like a damn situation.
+
+00:16:28.480 --> 00:16:29.320
+ - Yeah.
+
+00:16:29.320 --> 00:16:32.200
+ - Like it was like over flooding in the mountains,
+
+00:16:32.200 --> 00:16:33.720
+ washed out the city, basically.
+
+00:16:33.720 --> 00:16:34.560
+ - Yeah, exactly.
+
+00:16:34.560 --> 00:16:38.520
+ I mean, that's what's funny, it's like random canals,
+
+00:16:38.520 --> 00:16:40.320
+ which are like everywhere.
+
+00:16:40.320 --> 00:16:41.160
+ - Yeah.
+
+00:16:41.160 --> 00:16:42.960
+ - Even if you're not by the coast,
+
+00:16:42.960 --> 00:16:45.960
+ we'll just overflow and then cause all these problems.
+
+00:16:45.960 --> 00:16:47.680
+ - Yeah, I wanted to look up,
+
+00:16:47.680 --> 00:16:49.880
+ I feel like there's probably like a list of cities
+
+00:16:49.880 --> 00:16:53.880
+ that there's like possibility of catastrophe
+
+00:16:53.880 --> 00:16:57.880
+ if a dam breaks, like cities that are downriver from a dam.
+
+00:16:57.880 --> 00:16:59.120
+ It's probably way too many.
+
+00:16:59.120 --> 00:17:02.520
+ It's kind of like when Katrina happened so, so long ago,
+
+00:17:02.520 --> 00:17:04.840
+ it's like, why do we have cities that like rely
+
+00:17:04.840 --> 00:17:07.320
+ on structures to stay out of the sea?
+
+00:17:07.320 --> 00:17:09.680
+ Like what are levees and why did we build them?
+
+00:17:09.680 --> 00:17:11.480
+ Why not just not build a city there?
+
+00:17:11.480 --> 00:17:13.720
+ Like why don't we just go out and build the Atlantic Ocean,
+
+00:17:13.720 --> 00:17:16.480
+ like build a big like tunnel and be like, here we go.
+
+00:17:16.480 --> 00:17:17.320
+ Let's put a city here.
+
+00:17:17.320 --> 00:17:18.160
+ Why do we do this?
+
+00:17:18.160 --> 00:17:19.000
+ I don't understand it.
+
+00:17:19.000 --> 00:17:21.520
+ Or did it start out higher above sea level
+
+00:17:21.520 --> 00:17:23.760
+ and then it just like the water rose?
+
+00:17:23.760 --> 00:17:26.000
+ - Yeah, I think the reality is historically
+
+00:17:26.000 --> 00:17:29.560
+ there was no possibility for any kind of wealth
+
+00:17:29.560 --> 00:17:33.760
+ unless you were a port and you could tap into trade.
+
+00:17:33.760 --> 00:17:36.240
+ So every major city just on the water
+
+00:17:36.240 --> 00:17:37.920
+ and now there's like a side effect
+
+00:17:37.920 --> 00:17:40.320
+ of that is you're exposed to any kind of water,
+
+00:17:40.320 --> 00:17:41.480
+ natural disaster.
+
+00:17:41.480 --> 00:17:43.160
+ - Is that why we're so poor in the Ozarks?
+
+00:17:43.160 --> 00:17:44.840
+ There's no ports here.
+
+00:17:44.840 --> 00:17:45.680
+ Turned out, we're all.
+
+00:17:45.680 --> 00:17:47.480
+ - Yeah, I think, maybe.
+
+00:17:47.480 --> 00:17:48.760
+ - What major city is?
+
+00:17:48.760 --> 00:17:50.840
+ - Like wealthy and like Teddy Lee, Chicago,
+
+00:17:50.840 --> 00:17:53.800
+ but isn't Chicago, Chicago has a port.
+
+00:17:53.800 --> 00:17:56.800
+ - Yeah, yeah, I mean the Great Lakes, so they, I don't know.
+
+00:17:56.800 --> 00:17:59.160
+ - But like, didn't they use that to trade with like,
+
+00:17:59.160 --> 00:18:00.480
+ I don't know, I'm not making some shit up.
+
+00:18:00.480 --> 00:18:01.320
+ - No, probably.
+
+00:18:01.320 --> 00:18:02.160
+ - So there's some Canada or something.
+
+00:18:02.160 --> 00:18:03.600
+ (laughing)
+
+00:18:03.600 --> 00:18:05.240
+ - Maple syrup, I don't know.
+
+00:18:05.240 --> 00:18:06.560
+ (laughing)
+
+00:18:06.560 --> 00:18:08.080
+ - There's like a time where like,
+
+00:18:08.080 --> 00:18:10.920
+ everybody was like stopping around in the Canadian woods
+
+00:18:10.920 --> 00:18:13.920
+ like trapping raccoons and shit, like.
+
+00:18:13.920 --> 00:18:15.760
+ (laughing)
+
+00:18:15.760 --> 00:18:16.600
+ - It's funny.
+
+00:18:16.600 --> 00:18:20.000
+ - Yeah, I guess they probably do have ports in Chicago.
+
+00:18:20.000 --> 00:18:22.080
+ I mean, why would they be on the water otherwise?
+
+00:18:22.080 --> 00:18:22.920
+ Like, what's the point?
+
+00:18:22.920 --> 00:18:24.760
+ - Yeah, and even things like Philadelphia,
+
+00:18:24.760 --> 00:18:28.360
+ like it's on the river so they could trade up a pound.
+
+00:18:28.360 --> 00:18:30.040
+ - Yeah, yeah, yeah, yeah.
+
+00:18:30.040 --> 00:18:31.480
+ That makes sense, I guess that makes sense.
+
+00:18:31.480 --> 00:18:33.240
+ - That said, humans, I've always felt,
+
+00:18:33.240 --> 00:18:34.080
+ the thing you were saying, like,
+
+00:18:34.080 --> 00:18:35.760
+ why did we establish a thing there?
+
+00:18:35.760 --> 00:18:38.000
+ I feel this way about the whole earth in general.
+
+00:18:38.000 --> 00:18:40.080
+ Like, if you look at the whole earth,
+
+00:18:40.080 --> 00:18:43.280
+ there's clearly places that are way nicer to live
+
+00:18:43.280 --> 00:18:44.600
+ where the food's more abundant.
+
+00:18:44.600 --> 00:18:46.880
+ Why are a bunch of humans in the middle of the desert?
+
+00:18:46.880 --> 00:18:47.720
+ Like, how did-
+
+00:18:47.720 --> 00:18:50.240
+ - Why is Canada populated at all?
+
+00:18:50.240 --> 00:18:51.240
+ (laughing)
+
+00:18:51.240 --> 00:18:52.440
+ Why are there people in Canada?
+
+00:18:52.440 --> 00:18:53.280
+ I don't understand.
+
+00:18:53.280 --> 00:18:54.760
+ - We're just like, we'll live anywhere
+
+00:18:54.760 --> 00:18:56.560
+ and we'll just make it work or not.
+
+00:18:56.560 --> 00:18:57.400
+ People aren't just like-
+
+00:18:57.400 --> 00:18:59.040
+ - It's really true, yeah.
+
+00:18:59.040 --> 00:18:59.880
+ - Yeah.
+
+00:18:59.880 --> 00:19:01.320
+ - I mean, some people just want their space, I guess.
+
+00:19:01.320 --> 00:19:04.560
+ Like, they just like don't wanna be where everybody else is.
+
+00:19:04.560 --> 00:19:06.880
+ - Even then, like, it's crazy to me that
+
+00:19:06.880 --> 00:19:11.000
+ like, there's so many crazy cities in the Middle East.
+
+00:19:11.000 --> 00:19:13.200
+ Oh, I guess there's oil there now, which is what?
+
+00:19:13.200 --> 00:19:14.600
+ - Um, oil.
+
+00:19:14.600 --> 00:19:16.960
+ - Don't those cities, but even historically, right?
+
+00:19:16.960 --> 00:19:19.960
+ Like, I mean, all the ancient cities,
+
+00:19:19.960 --> 00:19:21.880
+ isn't like the original, like, Mesopotamia,
+
+00:19:21.880 --> 00:19:24.680
+ it's not like, actually no, that was on a river,
+
+00:19:24.680 --> 00:19:25.600
+ so that makes sense.
+
+00:19:25.600 --> 00:19:29.920
+ But yeah, I just feel like there's like the desert case,
+
+00:19:29.920 --> 00:19:33.000
+ but then there's also, like, the really cold,
+
+00:19:33.000 --> 00:19:36.760
+ like, Scandinavian, like Northern area.
+
+00:19:36.760 --> 00:19:37.600
+ - Yeah, what are they doing there?
+
+00:19:37.600 --> 00:19:39.080
+ - Why did you guys go all the way up there?
+
+00:19:39.080 --> 00:19:39.920
+ - Yeah.
+
+00:19:39.920 --> 00:19:41.240
+ - What are you following?
+
+00:19:41.240 --> 00:19:42.080
+ (laughing)
+
+00:19:42.080 --> 00:19:43.520
+ - Yaks or something?
+
+00:19:43.520 --> 00:19:44.360
+ - Yeah, I know.
+
+00:19:44.360 --> 00:19:47.560
+ - I started playing risk with my nine-year-old.
+
+00:19:47.560 --> 00:19:51.060
+ We got it out, grandma still had it, my mom.
+
+00:19:51.060 --> 00:19:53.240
+ Risk is so fun.
+
+00:19:53.240 --> 00:19:55.760
+ Have you played risk in a long time, 'cause it's so fun.
+
+00:19:55.760 --> 00:19:57.160
+ - Is it fun one-on-one?
+
+00:19:57.160 --> 00:19:59.480
+ - Not as fun, but I didn't know this.
+
+00:19:59.480 --> 00:20:01.640
+ I, growing up, we played one-on-one all the time,
+
+00:20:01.640 --> 00:20:05.400
+ me and actually me and my co-founder of Stat Muse,
+
+00:20:05.400 --> 00:20:08.320
+ we grew up together, and we played risk all the time,
+
+00:20:08.320 --> 00:20:10.040
+ and I'm pretty sure we played one-on-one all the time,
+
+00:20:10.040 --> 00:20:13.000
+ never did this, but there's, like, a neutral,
+
+00:20:13.000 --> 00:20:14.880
+ you set, like, neutral armies up.
+
+00:20:14.880 --> 00:20:15.960
+ There's, like, a third player,
+
+00:20:15.960 --> 00:20:18.320
+ but, like, you both control it.
+
+00:20:18.320 --> 00:20:20.560
+ That's how you play one-on-one, and it makes it better.
+
+00:20:20.560 --> 00:20:23.560
+ That's how me and my son have been playing.
+
+00:20:23.560 --> 00:20:25.280
+ We gotta talk the other two into it, though.
+
+00:20:25.280 --> 00:20:29.400
+ My other son and my wife need to just play with us,
+
+00:20:29.400 --> 00:20:30.720
+ 'cause that would be more fun, but he's five,
+
+00:20:30.720 --> 00:20:31.920
+ so he's probably gonna be into it.
+
+00:20:31.920 --> 00:20:33.360
+ - Yeah, I think it's challenging,
+
+00:20:33.360 --> 00:20:34.720
+ but your wife is a little older than five.
+
+00:20:34.720 --> 00:20:37.640
+ - Listen, you wanna control a whole continent.
+
+00:20:37.640 --> 00:20:38.920
+ Yeah, my wife is old enough.
+
+00:20:38.920 --> 00:20:40.280
+ Yeah, we could just stay up late
+
+00:20:40.280 --> 00:20:41.880
+ with my nine-year-old, but it'd be fun.
+
+00:20:41.880 --> 00:20:43.120
+ Yeah, risk is great.
+
+00:20:43.120 --> 00:20:44.840
+ Old board games, good stuff.
+
+00:20:44.840 --> 00:20:46.160
+ Who is it that's really into board,
+
+00:20:46.160 --> 00:20:47.680
+ is Chris into board games?
+
+00:20:47.680 --> 00:20:49.440
+ Did I make that up?
+
+00:20:49.440 --> 00:20:51.080
+ Somebody, oh, we talked about Python.
+
+00:20:51.080 --> 00:20:52.320
+ - I've met a lot of people recently
+
+00:20:52.320 --> 00:20:53.800
+ that are super into board games.
+
+00:20:53.800 --> 00:20:54.640
+ - Yeah.
+
+00:20:54.640 --> 00:20:56.360
+ - And I wanna get more into it.
+
+00:20:56.360 --> 00:20:58.760
+ I actually have one here that I borrow that I need to play.
+
+00:20:58.760 --> 00:21:01.440
+ - Yeah, 'cause we go to Target and all of 'em are garbage.
+
+00:21:01.440 --> 00:21:03.520
+ Like, you just look at the wall of 'em, they're all bad.
+
+00:21:03.520 --> 00:21:04.560
+ - That's what's so crazy.
+
+00:21:04.560 --> 00:21:06.120
+ Like, I don't know why I never put this together.
+
+00:21:06.120 --> 00:21:08.280
+ It's like all the ones that we know,
+
+00:21:08.280 --> 00:21:09.760
+ but even risk, this is fun,
+
+00:21:09.760 --> 00:21:13.360
+ but it's not like someone like tried really, really hard
+
+00:21:13.360 --> 00:21:15.560
+ to come up with, like the coolest thing ever,
+
+00:21:15.560 --> 00:21:17.720
+ and there's like a whole world of that,
+
+00:21:17.720 --> 00:21:19.720
+ of people that have tried that hard.
+
+00:21:19.720 --> 00:21:23.080
+ - Like they figured out how to make really good board games.
+
+00:21:23.080 --> 00:21:25.360
+ - Yeah, like there's board games that take like an hour
+
+00:21:25.360 --> 00:21:27.400
+ to set up and you play over several days,
+
+00:21:27.400 --> 00:21:29.520
+ and you need to like leave it. - That's crazy.
+
+00:21:29.520 --> 00:21:30.820
+ - Like Monopoly.
+
+00:21:30.820 --> 00:21:31.720
+ (laughing)
+
+00:21:31.720 --> 00:21:33.080
+ - But like never finished a game
+
+00:21:33.080 --> 00:21:34.720
+ with Monopoly, you have more fun.
+
+00:21:34.720 --> 00:21:37.360
+ (laughing)
+
+00:21:37.360 --> 00:21:40.720
+ - Yeah, Monopoly, I feel like literally,
+
+00:21:40.720 --> 00:21:42.840
+ I think it's actually a very bad game,
+
+00:21:42.840 --> 00:21:45.920
+ and the only thing it has going for it is like the money
+
+00:21:45.920 --> 00:21:47.480
+ feels so cool and fun,
+
+00:21:47.480 --> 00:21:50.040
+ and I think that's the only reason anyone has ever like,
+
+00:21:50.040 --> 00:21:52.320
+ oh, let's get Monopoly or let's play Monopoly.
+
+00:21:52.320 --> 00:21:53.160
+ But the game actually so much.
+
+00:21:53.160 --> 00:21:56.120
+ - Yeah, we're driven by, yeah, no, I get that.
+
+00:21:56.120 --> 00:21:58.400
+ - The game of life also has money.
+
+00:21:58.400 --> 00:22:00.280
+ It's not really as popular.
+
+00:22:00.280 --> 00:22:02.800
+ I do feel like there's a certain like,
+
+00:22:02.800 --> 00:22:04.200
+ lore around Monopoly,
+
+00:22:04.200 --> 00:22:06.360
+ or it's just like embedded enough into the pop culture.
+
+00:22:06.360 --> 00:22:09.320
+ Oddly enough, they apparently knew what they're doing
+
+00:22:09.320 --> 00:22:10.840
+ when they did the McDonald's stuff.
+
+00:22:10.840 --> 00:22:12.760
+ 'Cause I feel like I like Monopoly more
+
+00:22:12.760 --> 00:22:15.240
+ because of my memories of peeling out those stickers
+
+00:22:15.240 --> 00:22:17.040
+ off McDonald's cups, you know what I'm talking about?
+
+00:22:17.040 --> 00:22:18.480
+ I'm collecting it. - Yeah, yeah, yeah.
+
+00:22:18.480 --> 00:22:20.680
+ - Like was that Monopoly like paying McDonald's, I guess,
+
+00:22:20.680 --> 00:22:21.680
+ to be- - That's a really good question.
+
+00:22:21.680 --> 00:22:24.520
+ - Like some promotion, how did that work?
+
+00:22:24.520 --> 00:22:26.440
+ - They just were trying to like get exposure.
+
+00:22:26.440 --> 00:22:28.360
+ - I think McDonald's might have played Monopoly,
+
+00:22:28.360 --> 00:22:29.200
+ paid Monopoly.
+
+00:22:29.200 --> 00:22:31.080
+ - Paid Monopoly for the rights.
+
+00:22:31.080 --> 00:22:33.160
+ See, it's interesting 'cause that could go either way.
+
+00:22:33.160 --> 00:22:35.040
+ Like when it comes to a deal like that,
+
+00:22:35.040 --> 00:22:37.920
+ like I could see either side benefiting like McDonald's.
+
+00:22:37.920 --> 00:22:42.360
+ - But who has, like Monopoly's not gonna move more.
+
+00:22:42.360 --> 00:22:43.840
+ Like, that's what I'm saying.
+
+00:22:43.840 --> 00:22:46.200
+ It doesn't make sense that they would advertise
+
+00:22:46.200 --> 00:22:48.560
+ on McDonald's cups like so people would buy Monopoly
+
+00:22:48.560 --> 00:22:50.280
+ 'cause they're barely owns Monopoly.
+
+00:22:50.280 --> 00:22:51.240
+ Well, that's a great point.
+
+00:22:51.240 --> 00:22:54.440
+ Like, what does they have nothing to gain?
+
+00:22:54.440 --> 00:22:55.800
+ - They're just IP.
+
+00:22:55.800 --> 00:22:58.200
+ But that's interesting to think of Monopoly as IP,
+
+00:22:58.200 --> 00:22:59.920
+ as like Marvel characters.
+
+00:22:59.920 --> 00:23:00.760
+ You know what I mean?
+
+00:23:00.760 --> 00:23:01.600
+ - That is true, yeah.
+
+00:23:01.600 --> 00:23:02.560
+ - Like that McDonald's is like,
+
+00:23:02.560 --> 00:23:04.320
+ "Hey, you know what would give us some credibility?"
+
+00:23:04.320 --> 00:23:05.560
+ Monopoly.
+
+00:23:05.560 --> 00:23:07.320
+ That's just funny. (laughs)
+
+00:23:07.320 --> 00:23:08.480
+ And who owns Monopoly?
+
+00:23:08.480 --> 00:23:10.040
+ I guess Hasbro or something.
+
+00:23:10.040 --> 00:23:12.040
+ Like there's this one company that owns all the board games.
+
+00:23:12.040 --> 00:23:13.280
+ - Oh, that's a good question.
+
+00:23:13.280 --> 00:23:16.200
+ - Like who did like a startup create Monopoly
+
+00:23:16.200 --> 00:23:17.480
+ and then sell the Hasbro?
+
+00:23:17.480 --> 00:23:18.440
+ Like how does that work?
+
+00:23:18.440 --> 00:23:21.160
+ - Hasbro has owned the rights to Monopoly since '91
+
+00:23:21.160 --> 00:23:23.440
+ when it acquired Parker Brothers, the maker of the game.
+
+00:23:23.440 --> 00:23:26.120
+ - Parker Brothers, I've heard of this.
+
+00:23:26.120 --> 00:23:29.560
+ I just started typing in like a live code playground,
+
+00:23:29.560 --> 00:23:30.400
+ Parker Brothers.
+
+00:23:30.400 --> 00:23:32.200
+ - I just saw a picture of the Monopoly board
+
+00:23:32.200 --> 00:23:36.080
+ and just like, it just brought the crazy memories.
+
+00:23:36.080 --> 00:23:37.480
+ - Yeah.
+
+00:23:37.480 --> 00:23:38.920
+ You ever played Monopoly Go?
+
+00:23:38.920 --> 00:23:40.120
+ - Oh, is it like a mix of?
+
+00:23:40.120 --> 00:23:41.280
+ - It's like a card game.
+
+00:23:41.280 --> 00:23:44.120
+ It's like a shorter version of Monopoly.
+
+00:23:44.120 --> 00:23:48.080
+ It's kind of got the feel of Monopoly, but it's like,
+
+00:23:48.080 --> 00:23:48.920
+ oh, that just reminded me.
+
+00:23:48.920 --> 00:23:50.920
+ It's like the Apple Store ad just popped up.
+
+00:23:50.920 --> 00:23:53.040
+ If you ever played like digital Monopoly, that's fun.
+
+00:23:53.040 --> 00:23:56.440
+ Cause it's like animated and there's like the cars driving
+
+00:23:56.440 --> 00:23:58.040
+ and like blowing exhaust and stuff.
+
+00:23:58.040 --> 00:23:58.880
+ Yeah, good times.
+
+00:23:58.880 --> 00:24:04.240
+ There's like a million different Monoples like every,
+
+00:24:04.240 --> 00:24:05.840
+ so they're licensing IP.
+
+00:24:05.840 --> 00:24:07.560
+ There's just so much money flowing around
+
+00:24:07.560 --> 00:24:08.960
+ when it comes to Monopoly.
+
+00:24:08.960 --> 00:24:13.040
+ Like Monopoly apparently is paying Harry Potter,
+
+00:24:13.040 --> 00:24:15.640
+ the franchise to like get rights to their,
+
+00:24:15.640 --> 00:24:16.880
+ that's so interesting to me.
+
+00:24:16.880 --> 00:24:18.440
+ - It must be like a rub share though.
+
+00:24:18.440 --> 00:24:21.760
+ - Yeah, cause like Harry Potter benefits from it, I guess.
+
+00:24:21.760 --> 00:24:23.120
+ But does, I don't know,
+
+00:24:23.120 --> 00:24:25.160
+ but something like Harry Potter, like they're on everything.
+
+00:24:25.160 --> 00:24:26.400
+ Do they need more exposure?
+
+00:24:26.400 --> 00:24:28.400
+ - No, no, I think it's just ways to sell more stuff.
+
+00:24:28.400 --> 00:24:30.720
+ Like if I own Harry Potter the brand,
+
+00:24:30.720 --> 00:24:33.400
+ I'm just going to like partner with every single product maker
+
+00:24:33.400 --> 00:24:34.800
+ to slot my shit on it.
+
+00:24:34.800 --> 00:24:36.200
+ - So just sell more stuff.
+
+00:24:36.200 --> 00:24:37.400
+ Do you ever think about that though?
+
+00:24:37.400 --> 00:24:40.040
+ Like your, your, what's her name?
+
+00:24:40.040 --> 00:24:42.240
+ - Who's the lady that wrote Harry Potter?
+
+00:24:42.240 --> 00:24:44.160
+ - Tiki Rowling.
+
+00:24:44.160 --> 00:24:45.600
+ - Yes, you're JK Rowling.
+
+00:24:45.600 --> 00:24:50.080
+ I'm assuming she owns most of the Harry Potter enterprises
+
+00:24:50.080 --> 00:24:50.920
+ or whatever.
+
+00:24:50.920 --> 00:24:52.440
+ You know, maybe she doesn't share holders now.
+
+00:24:52.440 --> 00:24:57.240
+ But like she has this giant empire that is Harry Potter
+
+00:24:57.240 --> 00:24:58.240
+ and she's made more money
+
+00:24:58.240 --> 00:25:00.240
+ than she could ever need or spend.
+
+00:25:00.240 --> 00:25:02.040
+ Do you think she like thinks about like,
+
+00:25:02.040 --> 00:25:04.600
+ oh, if we move into China with this stupid product,
+
+00:25:04.600 --> 00:25:08.360
+ we could sell, you know, like $10 million next quarter.
+
+00:25:08.360 --> 00:25:09.240
+ Does she care?
+
+00:25:09.240 --> 00:25:11.400
+ Like at this point, who cares at this point?
+
+00:25:11.400 --> 00:25:13.200
+ Like how much product they move?
+
+00:25:13.200 --> 00:25:16.360
+ - Yeah, it must just be like the Disney machine.
+
+00:25:16.360 --> 00:25:18.280
+ That's just like, she's like not really-
+
+00:25:18.280 --> 00:25:20.560
+ - This is so good at consumer products.
+
+00:25:20.560 --> 00:25:21.680
+ - Oh, you know what?
+
+00:25:21.680 --> 00:25:22.640
+ Does Disney own Harry Potter?
+
+00:25:22.640 --> 00:25:23.760
+ No, they don't own Harry Potter.
+
+00:25:23.760 --> 00:25:24.960
+ They bought everything else.
+
+00:25:24.960 --> 00:25:29.120
+ - No, but Marvel, Lucas Zone, they know.
+
+00:25:29.120 --> 00:25:31.720
+ - I'm pretty sure Disney is like their publisher
+
+00:25:31.720 --> 00:25:33.280
+ or like the equivalent 'cause like-
+
+00:25:33.280 --> 00:25:35.400
+ - Oh geez, so complicated.
+
+00:25:35.400 --> 00:25:36.640
+ - Oh, is it universal?
+
+00:25:36.640 --> 00:25:38.400
+ - Oh, yes, 'cause Universal Studios-
+
+00:25:38.400 --> 00:25:39.800
+ - 'Cause they have, they have the-
+
+00:25:39.800 --> 00:25:40.800
+ - They have, yes, Universal.
+
+00:25:40.800 --> 00:25:41.640
+ It's not a-
+
+00:25:41.640 --> 00:25:42.480
+ - Yeah, yeah.
+
+00:25:42.480 --> 00:25:43.600
+ - Which it makes sense 'cause that's who did the movies.
+
+00:25:43.600 --> 00:25:44.600
+ - Yeah, I think so.
+
+00:25:44.600 --> 00:25:48.680
+ - So they are remaking Harry Potter as an HBO TV show.
+
+00:25:48.680 --> 00:25:52.200
+ - And we're old enough to remake Harry Potter?
+
+00:25:52.200 --> 00:25:54.400
+ - I really don't see how this is a good idea
+
+00:25:54.400 --> 00:25:58.440
+ because the original Harry Potter movies-
+
+00:25:58.440 --> 00:25:59.600
+ - Yes, different actors.
+
+00:25:59.600 --> 00:26:01.240
+ - Oh, no, we don't do this.
+
+00:26:01.240 --> 00:26:04.480
+ - The original Harry movies were very good.
+
+00:26:04.480 --> 00:26:07.080
+ You can watch them today and they don't feel outdated-
+
+00:26:07.080 --> 00:26:07.920
+ - Still good.
+
+00:26:07.920 --> 00:26:09.000
+ - That they show them to someone new,
+
+00:26:09.000 --> 00:26:10.680
+ and they don't feel outdated.
+
+00:26:10.680 --> 00:26:11.520
+ - Uh-huh.
+
+00:26:11.520 --> 00:26:13.760
+ - And I feel like this can really only be worse.
+
+00:26:13.760 --> 00:26:15.600
+ - Yeah, how's it gonna happen?
+
+00:26:15.600 --> 00:26:18.000
+ - And I don't wanna, we've all seen the stories-
+
+00:26:18.000 --> 00:26:19.520
+ like a billion times already.
+
+00:26:19.520 --> 00:26:20.560
+ - Why do this?
+
+00:26:20.560 --> 00:26:22.640
+ This is like when there's a new Spider-Man.
+
+00:26:22.640 --> 00:26:24.080
+ Every time I hear there's a new Spider-Man,
+
+00:26:24.080 --> 00:26:25.880
+ and we've talked about this on the podcast at some point,
+
+00:26:25.880 --> 00:26:27.680
+ because every time I hear there's a new Spider-Man,
+
+00:26:27.680 --> 00:26:29.720
+ it's like, I don't know if it's a continuation
+
+00:26:29.720 --> 00:26:31.240
+ of some story or they're like going back
+
+00:26:31.240 --> 00:26:32.320
+ to the first one again.
+
+00:26:32.320 --> 00:26:35.400
+ It's like every 10 years, they don't wait that long.
+
+00:26:35.400 --> 00:26:38.120
+ They're like, new Spider-Man, it's the new actor
+
+00:26:38.120 --> 00:26:41.080
+ that everybody knows, and like, look, we did it again.
+
+00:26:41.080 --> 00:26:43.520
+ I don't get the whole, like, it really,
+
+00:26:43.520 --> 00:26:44.960
+ people make fun of Hollywood for like,
+
+00:26:44.960 --> 00:26:46.720
+ not coming up with new stuff, but it really is true.
+
+00:26:46.720 --> 00:26:49.120
+ Like, they really just keep remaking the same stuff,
+
+00:26:49.120 --> 00:26:50.600
+ and it's kind of cringe.
+
+00:26:50.600 --> 00:26:53.100
+ I just use old cringe in a sentence, that was awesome.
+
+00:26:53.100 --> 00:26:54.960
+ (laughing)
+
+00:26:54.960 --> 00:26:56.320
+ - I mean, I've been thinking about this a bit,
+
+00:26:56.320 --> 00:26:58.440
+ and I've seen some people in Hollywood talk about it,
+
+00:26:58.440 --> 00:26:59.800
+ and it's so funny.
+
+00:26:59.800 --> 00:27:01.640
+ It's like the same thing that happens in business,
+
+00:27:01.640 --> 00:27:05.080
+ which is eventually organizations
+
+00:27:05.080 --> 00:27:07.080
+ just become crazy risk-averse
+
+00:27:07.080 --> 00:27:10.120
+ to an irrational degree, right?
+
+00:27:10.120 --> 00:27:12.200
+ So if I am someone that's gonna produce,
+
+00:27:12.200 --> 00:27:14.800
+ I work in a movie studio, I'm gonna produce a movie.
+
+00:27:14.800 --> 00:27:17.640
+ If it fails, that looks really bad on me.
+
+00:27:17.640 --> 00:27:21.120
+ But if I attach it to some existing IP,
+
+00:27:21.120 --> 00:27:23.960
+ nobody could say that it was a bad decision.
+
+00:27:23.960 --> 00:27:27.440
+ 'Cause like, there's like a perceived safety net of like,
+
+00:27:27.440 --> 00:27:29.160
+ well, I wasn't taking some crazy risk,
+
+00:27:29.160 --> 00:27:31.600
+ I was just like betting on a sure thing, you know?
+
+00:27:31.600 --> 00:27:34.160
+ So there's been so many cases that I've heard of
+
+00:27:34.160 --> 00:27:39.160
+ where there will be a script, brand new concept, new script,
+
+00:27:39.160 --> 00:27:42.720
+ they will take the script and attach it randomly
+
+00:27:42.720 --> 00:27:47.440
+ to some existing thing, just so it feels like more de-risk.
+
+00:27:47.440 --> 00:27:50.440
+ - So, I mean, I know I'm sure I do it too.
+
+00:27:50.440 --> 00:27:52.200
+ It's probably like some human nature thing
+
+00:27:52.200 --> 00:27:54.840
+ in the right situation, I would do the exact same thing.
+
+00:27:54.840 --> 00:27:57.080
+ But it just makes your soul die a little bit.
+
+00:27:57.080 --> 00:27:59.880
+ You just want people, like it makes us,
+
+00:27:59.880 --> 00:28:01.440
+ I think that's why we look up to the people
+
+00:28:01.440 --> 00:28:02.720
+ who've taken huge risks.
+
+00:28:02.720 --> 00:28:04.800
+ It's like, even if they have flaws
+
+00:28:04.800 --> 00:28:05.880
+ and you don't like that person,
+
+00:28:05.880 --> 00:28:08.160
+ like there's something about, I don't know,
+
+00:28:08.160 --> 00:28:11.640
+ real artists, you know, people who step out there.
+
+00:28:11.640 --> 00:28:13.840
+ - This just reminded me of a thing in the NFL,
+
+00:28:13.840 --> 00:28:18.840
+ this whole idea of just avoiding risk at all costs,
+
+00:28:18.840 --> 00:28:22.520
+ even at the detriment, like the New York Jets,
+
+00:28:22.520 --> 00:28:25.560
+ they're doing poorly, they just fired their coach,
+
+00:28:25.560 --> 00:28:27.280
+ they're kind of in the news.
+
+00:28:27.280 --> 00:28:29.720
+ But before they fired the coach, it's like this year,
+
+00:28:29.720 --> 00:28:33.000
+ they're all in on this organization,
+
+00:28:33.000 --> 00:28:35.000
+ like the GM and the head coach,
+
+00:28:35.000 --> 00:28:37.160
+ if they don't win this year, if they don't do well,
+
+00:28:37.160 --> 00:28:38.000
+ they're all gonna get fired,
+
+00:28:38.000 --> 00:28:39.800
+ they all know they're losing their jobs.
+
+00:28:39.800 --> 00:28:41.160
+ So they all just like go for broke
+
+00:28:41.160 --> 00:28:42.520
+ and they hire all these really old people
+
+00:28:42.520 --> 00:28:44.040
+ with bad injury history.
+
+00:28:44.040 --> 00:28:46.240
+ And it's like everybody knows this is not best
+
+00:28:46.240 --> 00:28:48.600
+ for the New York Jets for the next five years,
+
+00:28:48.600 --> 00:28:50.320
+ but it's like, all that matters is the people
+
+00:28:50.320 --> 00:28:52.720
+ making the decisions are trying to keep their job this year.
+
+00:28:52.720 --> 00:28:55.480
+ So it's like, that reminds me of something we've talked about
+
+00:28:55.480 --> 00:28:58.400
+ where it's like, the people who make the decision
+
+00:28:58.400 --> 00:29:00.600
+ can just completely jeopardize the future
+
+00:29:00.600 --> 00:29:02.320
+ because it only matters to them right now.
+
+00:29:02.320 --> 00:29:03.320
+ Is it monetary policy?
+
+00:29:03.320 --> 00:29:04.160
+ What is it?
+
+00:29:04.160 --> 00:29:05.000
+ We've talked about this.
+
+00:29:05.000 --> 00:29:05.840
+ - There's something, yeah.
+
+00:29:05.840 --> 00:29:07.920
+ I mean, I feel this comes up, this comes up a lot.
+
+00:29:07.920 --> 00:29:08.880
+ Yeah, it's super annoying.
+
+00:29:08.880 --> 00:29:10.160
+ And I feel like this is happening,
+
+00:29:10.160 --> 00:29:11.200
+ I guess you brought a football,
+
+00:29:11.200 --> 00:29:14.520
+ I think it's happening everywhere where we're just in this
+
+00:29:14.520 --> 00:29:19.520
+ like weird phase of, it's like really short term minded
+
+00:29:19.520 --> 00:29:22.320
+ and you would think that looks like craziness,
+
+00:29:22.320 --> 00:29:25.320
+ but it actually looks very boring, you know?
+
+00:29:25.320 --> 00:29:27.160
+ - Yeah, it's very boring.
+
+00:29:27.160 --> 00:29:29.560
+ - Yeah, the thing with Hollywood
+
+00:29:29.560 --> 00:29:31.880
+ just like turning out sequels and stuff.
+
+00:29:31.880 --> 00:29:36.560
+ There has to be some like corrective thing that kicks in.
+
+00:29:36.560 --> 00:29:39.160
+ At some point, do these movies just start doing bad
+
+00:29:39.160 --> 00:29:40.000
+ or is it like?
+
+00:29:40.000 --> 00:29:42.720
+ - Haven't the Marvel movies started doing bad?
+
+00:29:42.720 --> 00:29:44.720
+ - Yes, they definitely pass their peak, for sure.
+
+00:29:44.720 --> 00:29:47.360
+ - Yeah, like there is a saturation point where people are like,
+
+00:29:47.360 --> 00:29:49.240
+ you know what, I don't care about Ant-Man 7.
+
+00:29:49.240 --> 00:29:52.080
+ Like I'm done with the story, I don't care.
+
+00:29:52.080 --> 00:29:54.400
+ Ant-Man was kind of a dumb character.
+
+00:29:54.400 --> 00:29:56.560
+ - But do you see what they're doing?
+
+00:29:56.560 --> 00:29:57.400
+ - No.
+
+00:29:57.400 --> 00:29:59.440
+ - I will say this worked on me.
+
+00:29:59.440 --> 00:30:00.280
+ - Oh no.
+
+00:30:00.280 --> 00:30:02.360
+ - So they're like, their headline thing
+
+00:30:02.360 --> 00:30:03.880
+ is like the Avengers movies, right?
+
+00:30:03.880 --> 00:30:08.880
+ And that series ended with like all the famous,
+
+00:30:09.400 --> 00:30:10.880
+ actors from the last 10 years,
+
+00:30:10.880 --> 00:30:14.120
+ like their stories ending and like their contracts basically.
+
+00:30:14.120 --> 00:30:16.440
+ So that's what they're kind of struggling now.
+
+00:30:16.440 --> 00:30:19.160
+ But they're making the next series of Avenger movies.
+
+00:30:19.160 --> 00:30:22.760
+ And the main bad guy in it, who's playing it,
+
+00:30:22.760 --> 00:30:24.560
+ Robert Downey Jr.
+
+00:30:24.560 --> 00:30:26.400
+ They just like brought him back as a different character.
+
+00:30:26.400 --> 00:30:27.600
+ - He was Iron Man.
+
+00:30:27.600 --> 00:30:30.480
+ Wait, he's gonna play the villain?
+
+00:30:30.480 --> 00:30:31.320
+ - Yeah.
+
+00:30:31.320 --> 00:30:33.960
+ - Is it like Iron Man became the villain or it's like,
+
+00:30:33.960 --> 00:30:36.240
+ no, just ignore the fact that this is Robert Downey.
+
+00:30:36.240 --> 00:30:38.720
+ - It could be like in a different dimension,
+
+00:30:38.720 --> 00:30:40.800
+ like Tony Stark went bad or it could just be,
+
+00:30:40.800 --> 00:30:43.080
+ he's a totally different person.
+
+00:30:43.080 --> 00:30:43.920
+ - Oh my goodness.
+
+00:30:43.920 --> 00:30:44.880
+ - Like at some Comic Con,
+
+00:30:44.880 --> 00:30:48.640
+ a bunch of these masked people showed up on stage.
+
+00:30:48.640 --> 00:30:50.480
+ And the one guy in the front removed his mask
+
+00:30:50.480 --> 00:30:52.040
+ and was Robert Downey Jr. and everyone went nuts.
+
+00:30:52.040 --> 00:30:55.400
+ And I'm like, yeah, like this is like another flavor
+
+00:30:55.400 --> 00:30:58.600
+ of this rebooting thing, whether we be the actor, you know?
+
+00:30:58.600 --> 00:31:00.320
+ - It's so nuts to me.
+
+00:31:00.320 --> 00:31:01.560
+ I don't know.
+
+00:31:01.560 --> 00:31:02.880
+ I wanna care about something.
+
+00:31:02.880 --> 00:31:05.640
+ I wanna like be into something that's worth being into.
+
+00:31:05.640 --> 00:31:07.160
+ Like when it comes to media,
+
+00:31:07.160 --> 00:31:09.520
+ I haven't watched stuff and forever.
+
+00:31:09.520 --> 00:31:11.600
+ - Yeah, we've really struggled too.
+
+00:31:11.600 --> 00:31:13.040
+ There is still some good stuff.
+
+00:31:13.040 --> 00:31:15.360
+ And even within the zone of like,
+
+00:31:15.360 --> 00:31:17.700
+ they're just like doing the IP thing.
+
+00:31:17.700 --> 00:31:20.000
+ Have you seen The Last of Us?
+
+00:31:20.000 --> 00:31:21.000
+ - No.
+
+00:31:21.000 --> 00:31:21.840
+ I've heard of it.
+
+00:31:21.840 --> 00:31:22.680
+ - I think I've heard of it.
+
+00:31:22.680 --> 00:31:24.600
+ - The Last of Us was a really good video game,
+
+00:31:24.600 --> 00:31:26.880
+ like narrative narratively.
+
+00:31:26.880 --> 00:31:29.880
+ It was like one of the best narratives in any video game ever.
+
+00:31:29.880 --> 00:31:33.200
+ And they made two games and HBO made a TV show.
+
+00:31:33.200 --> 00:31:34.520
+ They did one season of the first game
+
+00:31:34.520 --> 00:31:36.040
+ and now the second season is about to come out.
+
+00:31:36.040 --> 00:31:38.280
+ I think at the beginning of the next year.
+
+00:31:38.280 --> 00:31:39.640
+ Like phenomenally good.
+
+00:31:39.640 --> 00:31:40.800
+ Like really, really, really good.
+
+00:31:40.800 --> 00:31:42.080
+ - Give me like the TLDR.
+
+00:31:42.080 --> 00:31:43.240
+ Like what's the setting?
+
+00:31:43.240 --> 00:31:44.080
+ Is it sci-fi?
+
+00:31:44.080 --> 00:31:45.920
+ - It's a classic like post-apocalyptic thing.
+
+00:31:45.920 --> 00:31:49.560
+ Like some kind of, in this case, it wasn't a virus.
+
+00:31:49.560 --> 00:31:54.120
+ It was like a fungus and like destroyed society.
+
+00:31:54.120 --> 00:31:56.040
+ There's some people that are surviving.
+
+00:31:56.040 --> 00:32:00.840
+ And if you get even scratched or something,
+
+00:32:00.840 --> 00:32:03.280
+ you like turn into like this crazy zombie thing.
+
+00:32:03.280 --> 00:32:06.280
+ And they're just a girl that got scratched.
+
+00:32:06.280 --> 00:32:07.600
+ So everyone's like, you're fucked.
+
+00:32:07.600 --> 00:32:09.360
+ And they usually just kill them right away
+
+00:32:09.360 --> 00:32:10.860
+ before a reason they didn't kill her.
+
+00:32:10.860 --> 00:32:12.880
+ And she started to recover.
+
+00:32:12.880 --> 00:32:17.080
+ So this story is this really reluctant guy
+
+00:32:17.080 --> 00:32:18.520
+ who's like kind of like a,
+
+00:32:18.520 --> 00:32:21.200
+ he lost his own daughter like way at the beginning,
+
+00:32:21.200 --> 00:32:24.560
+ right when everything was going down in a really like crazy way.
+
+00:32:24.560 --> 00:32:27.560
+ And he's like reluctantly agreeing to take this girl
+
+00:32:27.560 --> 00:32:30.280
+ to some research facility like across the country.
+
+00:32:30.280 --> 00:32:32.600
+ So they travel across the country.
+
+00:32:32.600 --> 00:32:34.740
+ And it's like some of the most intense,
+
+00:32:34.740 --> 00:32:38.560
+ like hard to watch situations that they like run into.
+
+00:32:38.560 --> 00:32:39.680
+ And the acting is amazing.
+
+00:32:39.680 --> 00:32:41.640
+ Like everything is done really, really well.
+
+00:32:41.640 --> 00:32:44.240
+ And that's technically just like this IP shuffling thing,
+
+00:32:44.240 --> 00:32:45.680
+ but they did a really good job with it.
+
+00:32:45.680 --> 00:32:48.880
+ - Well, yeah, I guess it's not inherently bad to use IP.
+
+00:32:48.880 --> 00:32:52.880
+ But like our TV series, better than movies now,
+
+00:32:52.880 --> 00:32:55.480
+ is that like, I feel like the good stuff people talk about
+
+00:32:55.480 --> 00:32:57.040
+ are like HBO TV series.
+
+00:32:57.040 --> 00:33:00.120
+ They're not movies anymore, but they replace,
+
+00:33:00.120 --> 00:33:02.000
+ 'cause they're all competing for the same attention, right?
+
+00:33:02.000 --> 00:33:05.480
+ Like, I don't view them differently.
+
+00:33:05.480 --> 00:33:06.720
+ If you have two hours to watch something,
+
+00:33:06.720 --> 00:33:08.200
+ you could watch two episodes of a series
+
+00:33:08.200 --> 00:33:09.280
+ or you could watch a movie.
+
+00:33:09.280 --> 00:33:10.240
+ - What's the difference?
+
+00:33:10.240 --> 00:33:12.720
+ - Yeah, I think the production quality of TVs
+
+00:33:12.720 --> 00:33:16.400
+ have gone up, TV shows have gone up a lot.
+
+00:33:16.400 --> 00:33:17.640
+ - 'Cause that was glaring.
+
+00:33:17.640 --> 00:33:20.000
+ Like 20 years ago or 10 years ago or whatever,
+
+00:33:20.000 --> 00:33:22.920
+ like TV series being so much lower budget.
+
+00:33:22.920 --> 00:33:24.800
+ Like the effects, everything about them,
+
+00:33:24.800 --> 00:33:27.320
+ they were limited, they had to almost be like a drama
+
+00:33:27.320 --> 00:33:30.320
+ to be any good, but that's changed.
+
+00:33:30.320 --> 00:33:33.000
+ - Yeah, it's changed a lot and it feels like the gap is closed,
+
+00:33:33.000 --> 00:33:34.200
+ but if you actually like,
+
+00:33:34.200 --> 00:33:36.720
+ 'cause there's been some things that have been,
+
+00:33:36.720 --> 00:33:39.880
+ even like an animated TV show that gets a movie,
+
+00:33:39.880 --> 00:33:41.400
+ you're like, oh, what's the difference?
+
+00:33:41.400 --> 00:33:43.320
+ It's just like a two hour long episode.
+
+00:33:43.320 --> 00:33:46.040
+ But they actually look, yeah, there's still like a gap
+
+00:33:46.040 --> 00:33:47.000
+ if you like pay attention.
+
+00:33:47.000 --> 00:33:49.920
+ But like, obviously the gap is closing.
+
+00:33:49.920 --> 00:33:51.760
+ But I mean, now there's some shows,
+
+00:33:51.760 --> 00:33:53.760
+ mostly actually failures that,
+
+00:33:53.760 --> 00:33:56.680
+ like their budgets are like $30 million an episode.
+
+00:33:56.680 --> 00:33:57.520
+ - Oh, wow.
+
+00:33:57.520 --> 00:33:58.760
+ - Of an episode is one hour,
+
+00:33:58.760 --> 00:34:02.320
+ that's roughly the same budget as like a $100 million movie.
+
+00:34:02.320 --> 00:34:03.160
+ - Yeah.
+
+00:34:03.160 --> 00:34:05.400
+ - So yeah, the buds are closing in,
+
+00:34:05.400 --> 00:34:07.160
+ but they're still really good movies.
+
+00:34:07.160 --> 00:34:08.840
+ I still think the movie side,
+
+00:34:08.840 --> 00:34:10.240
+ they're still really good ones.
+
+00:34:10.240 --> 00:34:14.800
+ There's just a lot of junk on both sides, I think.
+
+00:34:14.800 --> 00:34:18.040
+ - That reminds me, so we still have like a family movie night.
+
+00:34:18.040 --> 00:34:19.400
+ I haven't watched any movies just on my own
+
+00:34:19.400 --> 00:34:20.560
+ that were good in a while,
+
+00:34:20.560 --> 00:34:22.160
+ but we watch like, we go back through
+
+00:34:22.160 --> 00:34:23.760
+ the Pixar catalog and all that.
+
+00:34:23.760 --> 00:34:25.680
+ We just went through all the Toy Stories
+
+00:34:25.680 --> 00:34:28.720
+ and I have something to say about like,
+
+00:34:28.720 --> 00:34:30.600
+ revisionist history here going back
+
+00:34:30.600 --> 00:34:32.640
+ to Toy Story 1 all the way through them.
+
+00:34:32.640 --> 00:34:34.960
+ I don't know if you realize how,
+
+00:34:34.960 --> 00:34:36.760
+ so I've read like the creativity ink.
+
+00:34:36.760 --> 00:34:39.280
+ Have you listened to a read that book about Pixar?
+
+00:34:39.280 --> 00:34:40.880
+ - I know the stories of,
+
+00:34:40.880 --> 00:34:42.680
+ I like know a bunch of stories from that book, yeah.
+
+00:34:42.680 --> 00:34:43.520
+ - Yeah.
+
+00:34:43.520 --> 00:34:45.680
+ So the first Toy Story, not very good.
+
+00:34:45.680 --> 00:34:47.560
+ I like, not just that they weren't,
+
+00:34:47.560 --> 00:34:49.960
+ they're technologically with the graphics.
+
+00:34:49.960 --> 00:34:53.400
+ I remembered, I thought like Pixar came on the scene,
+
+00:34:53.400 --> 00:34:55.800
+ just amazing at the storytelling, all that stuff.
+
+00:34:55.800 --> 00:34:57.240
+ It wasn't until like Toy Story 3,
+
+00:34:57.240 --> 00:34:59.760
+ I think it was three, the one where they go to the daycare,
+
+00:34:59.760 --> 00:35:02.160
+ that like the story was like,
+
+00:35:02.160 --> 00:35:04.920
+ maybe it just resonated with me in case we have kids,
+
+00:35:04.920 --> 00:35:06.840
+ but it was like heartstrings,
+
+00:35:06.840 --> 00:35:08.320
+ all the stuff you think about Pixar now
+
+00:35:08.320 --> 00:35:11.680
+ where they're so good at like emotional storytelling.
+
+00:35:11.680 --> 00:35:13.200
+ The first two, not so much.
+
+00:35:13.200 --> 00:35:14.320
+ It's like kids play with toys.
+
+00:35:14.320 --> 00:35:16.200
+ - I can see that, yeah.
+
+00:35:16.200 --> 00:35:19.960
+ Toy Story 3 came out the month that I graduated high school.
+
+00:35:19.960 --> 00:35:23.000
+ - Really, oh your parents just ripped their heart out
+
+00:35:23.000 --> 00:35:25.680
+ and stomp on it, 'cause that's like the whole story
+
+00:35:25.680 --> 00:35:27.640
+ 'cause he's going off to college.
+
+00:35:27.640 --> 00:35:29.880
+ - Even for us as like, it was really intense,
+
+00:35:29.880 --> 00:35:31.440
+ even just for like--
+
+00:35:31.440 --> 00:35:33.480
+ - Oh, for the kids, like for high schoolers, yeah.
+
+00:35:33.480 --> 00:35:35.400
+ - Yeah, yeah, yeah, it was really crazy.
+
+00:35:35.400 --> 00:35:38.440
+ - But I feel like, they went several years there,
+
+00:35:38.440 --> 00:35:40.360
+ those first couple where I don't feel like
+
+00:35:40.360 --> 00:35:42.240
+ they had the Pixar magic.
+
+00:35:42.240 --> 00:35:44.520
+ Maybe they did, maybe I'm just too critical
+
+00:35:44.520 --> 00:35:46.440
+ or I didn't resonate with the stories,
+
+00:35:46.440 --> 00:35:49.160
+ but it didn't feel nearly as Pixar
+
+00:35:49.160 --> 00:35:50.680
+ as a modern Pixar movie.
+
+00:35:50.680 --> 00:35:51.960
+ - I think they definitely got better at that.
+
+00:35:51.960 --> 00:35:53.240
+ And I think it's similar to video games
+
+00:35:53.240 --> 00:35:56.000
+ where it was such a technological effort at first
+
+00:35:56.000 --> 00:36:00.080
+ that like also executing on narrative on top of that
+
+00:36:00.080 --> 00:36:02.400
+ was really difficult, but then you've seen over time
+
+00:36:02.400 --> 00:36:05.960
+ that they're hitting like, video games are hitting
+
+00:36:05.960 --> 00:36:08.720
+ like movie levels of like narrative and acting.
+
+00:36:08.720 --> 00:36:10.040
+ And I think that probably suddenly happened
+
+00:36:10.040 --> 00:36:12.920
+ to animated stuff.
+
+00:36:12.920 --> 00:36:15.120
+ Have you noticed that every Pixar movie
+
+00:36:15.120 --> 00:36:18.960
+ in a lot of kids movies, the plot is we got lost,
+
+00:36:18.960 --> 00:36:20.160
+ we got to get home.
+
+00:36:20.160 --> 00:36:23.440
+ That's like the plot of so many kids movies.
+
+00:36:23.440 --> 00:36:25.880
+ - Yeah, that reminds me of Homeward Bound,
+
+00:36:25.880 --> 00:36:26.720
+ do you remember those?
+
+00:36:26.720 --> 00:36:28.840
+ - Yeah, not exactly, yep, yep.
+
+00:36:28.840 --> 00:36:31.560
+ That was the Finding Nemo, like it's the next story.
+
+00:36:31.560 --> 00:36:33.160
+ - Oh, Finding Nemo, it really is.
+
+00:36:33.160 --> 00:36:34.000
+ - Well, it really is.
+
+00:36:34.000 --> 00:36:36.800
+ - Wow, it really is, huh.
+
+00:36:36.800 --> 00:36:39.320
+ - Yeah, and obviously it's the stuff that happens
+
+00:36:39.320 --> 00:36:41.680
+ in between is different, but the rough,
+
+00:36:41.680 --> 00:36:45.880
+ you start off with your home, some mistake happens,
+
+00:36:45.880 --> 00:36:48.440
+ you're not home, then you have to get back home.
+
+00:36:48.440 --> 00:36:49.280
+ - Yeah.
+
+00:36:49.280 --> 00:36:50.880
+ - Hold on, it's fine, 'cause that's a reverse.
+
+00:36:50.880 --> 00:36:52.360
+ - Oh, he was home.
+
+00:36:52.360 --> 00:36:55.320
+ - Well, not the New York one, he was not where he wanted.
+
+00:36:55.320 --> 00:36:56.160
+ - That's true.
+
+00:36:56.160 --> 00:36:57.720
+ - He was away, he wanted to get back home.
+
+00:36:57.720 --> 00:36:59.160
+ - Yeah, no, no, no.
+
+00:36:59.160 --> 00:37:01.280
+ - But there's something universal about that, I guess.
+
+00:37:01.280 --> 00:37:02.600
+ We're just trying to find our way back home.
+
+00:37:02.600 --> 00:37:03.920
+ And I tried to stand deep there,
+
+00:37:03.920 --> 00:37:05.680
+ but that just sounded really cheesy.
+
+00:37:05.680 --> 00:37:06.520
+ - No, like what else?
+
+00:37:06.520 --> 00:37:08.200
+ Like I'm looking at the Pixar movies, Coco.
+
+00:37:08.200 --> 00:37:11.080
+ Again, he gets lost in the afterlife,
+
+00:37:11.080 --> 00:37:13.080
+ and he has to get back home.
+
+00:37:13.080 --> 00:37:13.920
+ Right to where he's different.
+
+00:37:13.920 --> 00:37:14.760
+ Have you seen Ratatouille?
+
+00:37:14.760 --> 00:37:15.880
+ - No.
+
+00:37:15.880 --> 00:37:17.000
+ - Ratatouille's very good.
+
+00:37:17.000 --> 00:37:17.840
+ It's very, very good.
+
+00:37:17.840 --> 00:37:19.920
+ - It's been cooking mice or rats.
+
+00:37:19.920 --> 00:37:21.360
+ - You're cooking us, yeah, yeah, yeah.
+
+00:37:21.360 --> 00:37:23.880
+ It's actually really good.
+
+00:37:23.880 --> 00:37:26.160
+ - Yes.
+
+00:37:26.160 --> 00:37:28.000
+ - Okay, I need to go through all the Pixar movies.
+
+00:37:28.000 --> 00:37:29.560
+ I've just been watching that scene.
+
+00:37:29.560 --> 00:37:33.280
+ - The little girl gets lost in the monster world
+
+00:37:33.280 --> 00:37:34.560
+ and has to get back home.
+
+00:37:34.560 --> 00:37:38.080
+ - It literally is the plot of every movie, that's crazy.
+
+00:37:38.080 --> 00:37:39.400
+ - Was it the plot of Up 2?
+
+00:37:39.400 --> 00:37:42.320
+ Like they also get lost in the house.
+
+00:37:42.320 --> 00:37:44.720
+ - There's one that I'm trying to remember the whole plot,
+
+00:37:44.720 --> 00:37:47.360
+ but I know it's so painful.
+
+00:37:47.360 --> 00:37:49.400
+ - Up you just can't watch.
+
+00:37:49.400 --> 00:37:50.720
+ I couldn't watch it.
+
+00:37:50.720 --> 00:37:52.320
+ It was hard as a kid, and now I'm married.
+
+00:37:52.320 --> 00:37:53.800
+ - I'm getting sad just thinking about it.
+
+00:37:53.800 --> 00:37:58.800
+ Yeah, the mortality, oh, why'd you have to remind me?
+
+00:37:58.800 --> 00:38:01.080
+ I just don't even know that that movie exists.
+
+00:38:01.080 --> 00:38:02.880
+ That was Pixar too, huh?
+
+00:38:02.880 --> 00:38:05.520
+ Stinking Pixar, just crushing Oliver.
+
+00:38:05.520 --> 00:38:08.160
+ - Cars, also he gets lost and he has to get back.
+
+00:38:08.160 --> 00:38:09.520
+ - So I can't tell Teaches this.
+
+00:38:09.520 --> 00:38:11.720
+ I've just not been able to say, I've never seen cars,
+
+00:38:11.720 --> 00:38:15.160
+ and I know Teaches has a lot of cars in his orbit,
+
+00:38:15.160 --> 00:38:17.040
+ and I've just, I've never seen it.
+
+00:38:17.040 --> 00:38:19.240
+ I have nothing to say, I don't know anything about it.
+
+00:38:19.240 --> 00:38:20.600
+ - You should definitely watch the first one.
+
+00:38:20.600 --> 00:38:22.800
+ It's a classic. - Okay, good.
+
+00:38:22.800 --> 00:38:23.640
+ Yeah.
+
+00:38:23.640 --> 00:38:25.600
+ - I just forget all these franchises are Pixar.
+
+00:38:25.600 --> 00:38:27.040
+ They really are the best at this, right?
+
+00:38:27.040 --> 00:38:29.480
+ - Yeah, I think the thing that they do great is
+
+00:38:29.480 --> 00:38:33.080
+ it's a kids movie that's really entertaining as an adult,
+
+00:38:33.080 --> 00:38:34.840
+ so it's truly like a family movie.
+
+00:38:34.840 --> 00:38:37.240
+ It's like, there's like two things going on at once,
+
+00:38:37.240 --> 00:38:39.400
+ like two storylines, yeah.
+
+00:38:39.400 --> 00:38:41.720
+ - Yeah, and that way you're not bored as an adult, you know?
+
+00:38:41.720 --> 00:38:43.800
+ - Yep, oh, inside out another one.
+
+00:38:43.800 --> 00:38:45.280
+ I don't know if you saw the latest inside out.
+
+00:38:45.280 --> 00:38:47.280
+ - Yeah, I did, yeah, those movies are fun.
+
+00:38:47.280 --> 00:38:49.680
+ I've met Metaphor, it's brilliant,
+
+00:38:49.680 --> 00:38:51.800
+ and it just leads to like a lot of really funny,
+
+00:38:51.800 --> 00:38:52.840
+ funny things I can do with it.
+
+00:38:52.840 --> 00:38:55.000
+ - I will say, we watched that one,
+
+00:38:55.000 --> 00:38:59.520
+ and I couldn't help but notice that I am anxiety.
+
+00:38:59.520 --> 00:39:01.520
+ (laughing)
+
+00:39:01.520 --> 00:39:03.880
+ Casey and I talked about this, it's like, oh geez,
+
+00:39:03.880 --> 00:39:06.000
+ I'm watching that movie the first half,
+
+00:39:06.000 --> 00:39:08.120
+ and I didn't realize like, oh, this is bad.
+
+00:39:08.120 --> 00:39:10.400
+ You don't want to be like this little orange person.
+
+00:39:10.400 --> 00:39:12.160
+ I was like, this is, yeah, no, I agree.
+
+00:39:12.160 --> 00:39:13.520
+ You should definitely think through all this stuff.
+
+00:39:13.520 --> 00:39:15.520
+ - That's probably why, yes.
+
+00:39:15.520 --> 00:39:17.640
+ I didn't realize like she's kind of a bad guy.
+
+00:39:17.640 --> 00:39:19.280
+ Like, oh, this is not good.
+
+00:39:19.280 --> 00:39:22.600
+ And then it was like, oh, I let that little person
+
+00:39:22.600 --> 00:39:24.840
+ run my brain and I shouldn't got it.
+
+00:39:24.840 --> 00:39:25.680
+ - Yeah.
+
+00:39:25.680 --> 00:39:27.560
+ - That's the moral of the story.
+
+00:39:27.560 --> 00:39:30.240
+ - Have you noticed that when they zoom into the parents' brains
+
+00:39:30.240 --> 00:39:32.720
+ that a different emotion leads them?
+
+00:39:32.720 --> 00:39:33.840
+ - Oh, I didn't notice.
+
+00:39:33.840 --> 00:39:37.280
+ - Yeah, like for the main character's joy,
+
+00:39:37.280 --> 00:39:39.040
+ but then the dad, it's anger.
+
+00:39:39.040 --> 00:39:41.200
+ And then for the mom, it's sadness or like whatever.
+
+00:39:41.200 --> 00:39:45.320
+ - Interesting, like the joy is not the default leader.
+
+00:39:45.320 --> 00:39:46.740
+ That's really interesting.
+
+00:39:46.740 --> 00:39:47.580
+ Yeah, yeah.
+
+00:39:47.580 --> 00:39:49.440
+ - Yeah, so the metaphors are so good
+
+00:39:49.440 --> 00:39:51.480
+ that they can like think through all these little things.
+
+00:39:51.480 --> 00:39:53.720
+ - Oh, yeah, I love those movies.
+
+00:39:53.720 --> 00:39:54.720
+ They're really brilliant.
+
+00:39:54.720 --> 00:39:56.000
+ And the core memories, all that stuff.
+
+00:39:56.000 --> 00:39:57.800
+ I feel like I've learned stuff about our brain
+
+00:39:57.800 --> 00:39:59.480
+ from watching those movies somehow.
+
+00:39:59.480 --> 00:40:00.680
+ (laughs)
+
+00:40:00.680 --> 00:40:01.520
+ - Yeah.
+
+00:40:01.520 --> 00:40:02.680
+ - Personality islands.
+
+00:40:02.680 --> 00:40:03.880
+ Okay, I really have to pee.
+
+00:40:03.880 --> 00:40:07.840
+ We also really need to record two episodes today.
+
+00:40:07.840 --> 00:40:08.680
+ - I'm just gonna call this one.
+
+00:40:08.680 --> 00:40:09.600
+ - I'm just gonna pull the curtain.
+
+00:40:09.600 --> 00:40:10.960
+ Yeah, we're gonna pull the curtain back.
+
+00:40:10.960 --> 00:40:13.360
+ We're gonna talk again immediately after this
+
+00:40:13.360 --> 00:40:15.720
+ and pretend like it's a new episode, a new week.
+
+00:40:15.720 --> 00:40:18.120
+ - Yeah, but they won't get to hear it till next week.
+
+00:40:18.120 --> 00:40:18.960
+ - That's right.
+
+00:40:18.960 --> 00:40:19.960
+ We're just gonna string this up.
+
+00:40:19.960 --> 00:40:21.960
+ Yeah, this one has a to be continued.
+
+00:40:21.960 --> 00:40:23.000
+ So-- - To be continued.
+
+00:40:23.000 --> 00:40:25.080
+ - This story is to be continued.
+
+00:40:25.080 --> 00:40:25.920
+ Okay, be right back.
+
+00:40:25.920 --> 00:40:26.760
+ - All right.
+
+00:40:26.760 --> 00:40:29.340
+ (upbeat music)
+
+00:40:40.960 --> 00:40:50.960
+ [BLANK_AUDIO]
+

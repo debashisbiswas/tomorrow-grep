@@ -1,0 +1,1496 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.160
+ Adam, dev streaming is getting huge.
+
+00:00:03.160 --> 00:00:05.360
+ You're really excited about it. Tell me more.
+
+00:00:05.360 --> 00:00:08.460
+ >> Yeah, it's getting so big that we started another side project.
+
+00:00:08.460 --> 00:00:13.360
+ We started Watch.dev, which I think the mission of Watch.dev is help.
+
+00:00:13.360 --> 00:00:16.880
+ People who are developers get into streaming,
+
+00:00:16.880 --> 00:00:20.960
+ but also just make a place for developers who'd like to stream and developers who'd like to
+
+00:00:20.960 --> 00:00:23.040
+ watch developers stream, hang out.
+
+00:00:23.040 --> 00:00:47.120
+ [MUSIC]
+
+00:00:47.120 --> 00:00:49.360
+ Does that make sense? Is that the goal of Watch.dev?
+
+00:00:49.360 --> 00:00:50.880
+ We didn't really talk about it too formally.
+
+00:00:50.880 --> 00:00:55.640
+ >> Yeah, I was pretty excited about it because I think there are a bunch of people getting
+
+00:00:55.640 --> 00:00:58.520
+ more into this, and there's a second wave, there was a first wave.
+
+00:00:58.520 --> 00:01:01.920
+ I don't know what wave we're on, but I know there's a current wave,
+
+00:01:01.920 --> 00:01:06.800
+ which I kind of think of that as you kind of got into it, that pulled me into it.
+
+00:01:06.800 --> 00:01:13.520
+ I think there's a chain of people that are getting more into it around the past couple of months.
+
+00:01:13.520 --> 00:01:17.720
+ >> You have people in our circle, especially like we see that much more closely?
+
+00:01:17.720 --> 00:01:22.080
+ >> Right, exactly, and we're all kind of doing it together,
+
+00:01:22.080 --> 00:01:24.840
+ but they're pretty fragmented efforts, right?
+
+00:01:24.840 --> 00:01:28.040
+ We would ask each other for advice, things like that here and there.
+
+00:01:28.040 --> 00:01:32.520
+ It's nice to have an official place, obviously for the audience,
+
+00:01:32.520 --> 00:01:37.680
+ so that they can discover each other in a single community of people that like doing this weird thing.
+
+00:01:37.680 --> 00:01:41.760
+ But then also for us on the streamer side to learn from each other,
+
+00:01:41.760 --> 00:01:47.040
+ coordinate stuff together, I'm pretty excited about doing more stuff with each other.
+
+00:01:47.040 --> 00:01:49.440
+ So yeah, and that's what I'm excited for.
+
+00:01:49.440 --> 00:01:53.560
+ >> Yeah, so you asked the question and I totally ignored it and just said what I wanted to say at the beginning.
+
+00:01:53.560 --> 00:01:58.920
+ Let's go back to your question, which was, there's a lot of hype around it, dev streaming, like it's happening.
+
+00:01:58.920 --> 00:02:00.240
+ Let's talk about what it is.
+
+00:02:00.240 --> 00:02:03.680
+ So dev streaming, when we say dev streaming, mostly we're talking about Twitch.
+
+00:02:03.680 --> 00:02:08.240
+ I guess people stream on YouTube and maybe other platforms, but largely,
+
+00:02:08.240 --> 00:02:15.880
+ it's like programmers who want to turn on a camera and log into Twitch and stream their work day,
+
+00:02:15.880 --> 00:02:20.120
+ or just stream them doing programming with other people watching.
+
+00:02:20.120 --> 00:02:25.880
+ That's dev streaming for those who maybe don't know what we're talking about.
+
+00:02:25.880 --> 00:02:31.840
+ And in terms of like, it's history, I'm going to try, so Theo just made a video about this, right?
+
+00:02:31.840 --> 00:02:34.840
+ Like about the history of streaming on Twitch with this.
+
+00:02:34.840 --> 00:02:40.760
+ Twitch is like largely 95% people playing games and people watching people play games.
+
+00:02:40.760 --> 00:02:46.160
+ And there's just like burgeoning community of creatives, which includes developers,
+
+00:02:46.160 --> 00:02:49.040
+ that are doing non-gaming things on Twitch.
+
+00:02:49.040 --> 00:02:53.360
+ We are a small sliver of that, so we're a tiny, tiny sliver of all of Twitch.
+
+00:02:53.360 --> 00:03:00.240
+ But there are dozens of us now, dozens of us streaming our programming on Twitch,
+
+00:03:00.240 --> 00:03:04.000
+ and even dozens of people watching it.
+
+00:03:04.000 --> 00:03:06.840
+ That's just some context, just so you know.
+
+00:03:06.840 --> 00:03:11.200
+ There are some big dev streamers, the private gen comes to mind,
+
+00:03:11.200 --> 00:03:14.040
+ that you've got more than a thousand people watching at a time,
+
+00:03:14.040 --> 00:03:17.600
+ which is a huge deal when you're talking about like, we're writing code.
+
+00:03:17.600 --> 00:03:18.560
+ I don't know.
+
+00:03:18.560 --> 00:03:21.440
+ Is that all like setting any context stacks?
+
+00:03:21.440 --> 00:03:22.560
+ Would you add anything to that?
+
+00:03:22.560 --> 00:03:24.640
+ Yeah, I think that makes sense.
+
+00:03:24.640 --> 00:03:30.920
+ I think the overarching thing is it turns out people like watching other people do stuff live,
+
+00:03:30.920 --> 00:03:34.120
+ and there's really no limit of what that could be.
+
+00:03:34.120 --> 00:03:36.880
+ You know, like we're a niche community, I would say.
+
+00:03:36.880 --> 00:03:40.800
+ But if you look on Twitch, there's all kinds of like really niche things, right?
+
+00:03:40.800 --> 00:03:48.520
+ And they all have viewers in the audiences, and it does feel still like at the beginning.
+
+00:03:48.520 --> 00:03:54.000
+ Like we're all figuring it out, and you start to see people pushing the bar on like how they're doing it.
+
+00:03:54.000 --> 00:03:58.480
+ Like for you, you like really went crazy with the production quality.
+
+00:03:58.480 --> 00:04:01.120
+ So it still feels like early.
+
+00:04:01.120 --> 00:04:02.760
+ I don't know if you feel the same way.
+
+00:04:02.760 --> 00:04:05.840
+ No, for sure. Yeah, I've been, especially the programming thing.
+
+00:04:05.840 --> 00:04:08.120
+ And I think like it does seem to be growing.
+
+00:04:08.120 --> 00:04:13.840
+ So I'm optimistic that there's a lot of room here for lots of people who's trying to join.
+
+00:04:13.840 --> 00:04:17.200
+ So I'm trying to join our.
+
+00:04:17.200 --> 00:04:18.600
+ How do they find the link?
+
+00:04:18.600 --> 00:04:20.880
+ So I guess it's on your stream.
+
+00:04:20.880 --> 00:04:22.800
+ So we're actually streaming this podcast episode.
+
+00:04:22.800 --> 00:04:27.600
+ So yeah, somebody typed in the URL and someone's trying to join the Rivercast.
+
+00:04:27.600 --> 00:04:29.320
+ So this is funny.
+
+00:04:29.320 --> 00:04:31.120
+ Yeah, so we're actually streaming this live on Twitch.
+
+00:04:31.120 --> 00:04:36.640
+ I think like that I do have thoughts on just the like getting into it.
+
+00:04:36.640 --> 00:04:39.720
+ Whether you think you could get into it, whether you think it's for you at all.
+
+00:04:39.720 --> 00:04:42.160
+ I would say I never would have thought I'd be on Twitch.
+
+00:04:42.160 --> 00:04:46.880
+ Like I just, to me, it didn't seem like a thing that was like my speed.
+
+00:04:46.880 --> 00:04:50.160
+ I don't know. I'm not like I'm not very young anymore.
+
+00:04:50.160 --> 00:04:51.960
+ And it seemed like a young man's thing.
+
+00:04:51.960 --> 00:04:53.000
+ I don't know.
+
+00:04:53.000 --> 00:04:57.040
+ Just getting into Twitch and getting into streaming has just totally changed my career.
+
+00:04:57.040 --> 00:04:59.040
+ I mean, it's injected so much into my workdays.
+
+00:04:59.040 --> 00:05:04.320
+ Just like I thoroughly enjoy the process of having other people around while I'm working.
+
+00:05:04.320 --> 00:05:05.640
+ I don't know that that's everybody.
+
+00:05:05.640 --> 00:05:10.280
+ But for me, having worked from home for a long time over 10 years, like it was a pretty
+
+00:05:10.280 --> 00:05:11.280
+ isolated career.
+
+00:05:11.280 --> 00:05:15.840
+ You know, you work alone in your office every day, something about opening that up and having
+
+00:05:15.840 --> 00:05:18.200
+ other people to hang out with while I'm working.
+
+00:05:18.200 --> 00:05:22.120
+ I'm getting a lot less done, but I'm enjoying my work a lot more.
+
+00:05:22.120 --> 00:05:23.960
+ There's something about it that's really enjoyable.
+
+00:05:23.960 --> 00:05:29.920
+ So I do think like there are probably a lot of devs out there that they would not enjoy
+
+00:05:29.920 --> 00:05:30.920
+ it.
+
+00:05:30.920 --> 00:05:34.520
+ They would try and they would find out really quickly, not for me or other people don't
+
+00:05:34.520 --> 00:05:36.520
+ enjoy watching them do it.
+
+00:05:36.520 --> 00:05:40.240
+ But I think there's a lot of people that probably would and maybe never even try.
+
+00:05:40.240 --> 00:05:41.760
+ I hope someone, I guess what I'm trying to get at.
+
+00:05:41.760 --> 00:05:43.440
+ I hope somebody hears this.
+
+00:05:43.440 --> 00:05:47.000
+ They're a developer and they've maybe thought about it once, but then they just dismissed
+
+00:05:47.000 --> 00:05:48.000
+ it.
+
+00:05:48.000 --> 00:05:51.000
+ But they would try to stream and there's a whole lot you got to do to kind of get into it.
+
+00:05:51.000 --> 00:05:54.360
+ There's a lot of barriers to that and we can talk about kind of what that looks like.
+
+00:05:54.360 --> 00:05:57.360
+ But yeah, it could just totally surprise you.
+
+00:05:57.360 --> 00:05:58.440
+ It totally surprised me.
+
+00:05:58.440 --> 00:05:59.640
+ I love it so much.
+
+00:05:59.640 --> 00:06:01.360
+ Yeah, I feel the same way.
+
+00:06:01.360 --> 00:06:06.360
+ I think there were like years ago, I first heard of this concept of someone even just
+
+00:06:06.360 --> 00:06:09.800
+ doing this live to a random audience and I actually thought it was pretty cool.
+
+00:06:09.800 --> 00:06:13.680
+ And I was like, oh, it would be, you know, cool if I could do that one day.
+
+00:06:13.680 --> 00:06:19.200
+ But it really felt like something kind of unattainable or I feel it felt impossible.
+
+00:06:19.200 --> 00:06:21.320
+ How could I ever actually do that?
+
+00:06:21.320 --> 00:06:23.760
+ But then seeing a lot of people like yourself start to do it.
+
+00:06:23.760 --> 00:06:28.500
+ And I would, I just saw someone and people go from never having done it before to then
+
+00:06:28.500 --> 00:06:32.720
+ having done it before to like being really comfortable doing it and it becomes a habit.
+
+00:06:32.720 --> 00:06:35.600
+ And that really convinced me, oh yeah, you know, I can definitely, definitely jump in
+
+00:06:35.600 --> 00:06:36.600
+ and do this.
+
+00:06:36.600 --> 00:06:37.600
+ And yeah, I agree.
+
+00:06:37.600 --> 00:06:38.600
+ I don't think it's for everyone.
+
+00:06:38.600 --> 00:06:39.960
+ And I also genuinely love it.
+
+00:06:39.960 --> 00:06:43.800
+ Like it's just people on the internet are so funny and it's just fun to have all these
+
+00:06:43.800 --> 00:06:47.880
+ funny people around, at least for, you know, a couple hours in the day.
+
+00:06:47.880 --> 00:06:49.440
+ It's definitely less productive.
+
+00:06:49.440 --> 00:06:54.200
+ So don't expect to be like your maximum productivity while you're on stream.
+
+00:06:54.200 --> 00:06:57.120
+ But it is a fun, fun environment.
+
+00:06:57.120 --> 00:07:02.480
+ And I think for me, it also, I kind of view it as one, I genuinely love it.
+
+00:07:02.480 --> 00:07:07.420
+ And two, it's kind of practice for just being comfortable talking to yourself and without
+
+00:07:07.420 --> 00:07:10.120
+ like, you know, in front of audience of people.
+
+00:07:10.120 --> 00:07:15.840
+ It's not literally like you're on stage, but I definitely find myself getting more comfortable
+
+00:07:15.840 --> 00:07:19.320
+ when I started out a little bit more uncomfortable and I like that I developed in that way.
+
+00:07:19.320 --> 00:07:20.320
+ Yeah.
+
+00:07:20.320 --> 00:07:21.320
+ Oh, yeah.
+
+00:07:21.320 --> 00:07:24.960
+ It's teaching you stuff that you really wouldn't otherwise, I guess, pick up in this career
+
+00:07:24.960 --> 00:07:28.360
+ at least like, yeah, we don't spend time on stages.
+
+00:07:28.360 --> 00:07:31.120
+ You've said something like it doesn't have to be your whole day.
+
+00:07:31.120 --> 00:07:35.680
+ Like, I think just doing it for a portion of your work day makes a difference.
+
+00:07:35.680 --> 00:07:39.920
+ Like I think I streamed early, I kind of started just streaming everything I did that day.
+
+00:07:39.920 --> 00:07:44.800
+ And that that starts to get hard because you do get a lot less done when you're interacting
+
+00:07:44.800 --> 00:07:46.840
+ with all these people, but you learned so much.
+
+00:07:46.840 --> 00:07:49.120
+ I think I've learned more on Twitch.
+
+00:07:49.120 --> 00:07:52.560
+ Just from like people watching you do what you're doing, then pointing out things that
+
+00:07:52.560 --> 00:07:56.200
+ you could do better or things that you just didn't even know, you didn't have the question
+
+00:07:56.200 --> 00:07:57.200
+ to ask.
+
+00:07:57.200 --> 00:08:00.720
+ Like, you're not even seeking ways to improve something you're doing, but people are seeing
+
+00:08:00.720 --> 00:08:03.840
+ it and pointing it out, kind of pushing that information at you.
+
+00:08:03.840 --> 00:08:07.760
+ I love that part of Twitch or streaming, I guess, more broadly.
+
+00:08:07.760 --> 00:08:12.920
+ Yeah, it's a, there's kind of like a series of hoops you got to jump through, but if you
+
+00:08:12.920 --> 00:08:18.960
+ can get through that and just see if you enjoy having people around and if people enjoy
+
+00:08:18.960 --> 00:08:22.800
+ watching you, because I think like some people may be streaming a long time.
+
+00:08:22.800 --> 00:08:27.240
+ And if people aren't showing up, maybe a sign, I don't know, maybe just like, you're not
+
+00:08:27.240 --> 00:08:28.240
+ cut out for it.
+
+00:08:28.240 --> 00:08:31.240
+ It's not a thing that people resonate with you.
+
+00:08:31.240 --> 00:08:36.640
+ I think it helps like have a thing, a thing that you will kind of like draw people in
+
+00:08:36.640 --> 00:08:37.640
+ with.
+
+00:08:37.640 --> 00:08:42.600
+ And then if you have a personality that resonates with other people, then you'll probably build
+
+00:08:42.600 --> 00:08:43.600
+ up an audience.
+
+00:08:43.600 --> 00:08:46.480
+ I think that's like, that's part of it.
+
+00:08:46.480 --> 00:08:47.480
+ I don't know.
+
+00:08:47.480 --> 00:08:48.480
+ Am I being gatekeeper?
+
+00:08:48.480 --> 00:08:49.480
+ I don't know.
+
+00:08:49.480 --> 00:08:51.800
+ I feel like this is where someone would be like, you're being a gatekeeper.
+
+00:08:51.800 --> 00:08:54.960
+ I think, I think there is just, it just comes down to what your goals are, like if it's
+
+00:08:54.960 --> 00:08:59.080
+ just the thing you want to try out, like obviously, you know, do whatever who cares.
+
+00:08:59.080 --> 00:09:04.000
+ But it is one of those things where it just gets exponentially more fun and easy after
+
+00:09:04.000 --> 00:09:07.080
+ a certain amount of viewers that you can kind of consistently draw.
+
+00:09:07.080 --> 00:09:11.520
+ And if you have the same people coming back, you know, that's, that's even more fun.
+
+00:09:11.520 --> 00:09:15.860
+ And I found that it's really hard at the beginning because you're just literally talking to
+
+00:09:15.860 --> 00:09:20.360
+ yourself and you have no feedback to go off of because no one's really in your chat.
+
+00:09:20.360 --> 00:09:21.560
+ And that's very difficult.
+
+00:09:21.560 --> 00:09:25.720
+ And then you feel really awkward and you feel like, why would anyone ever watch me?
+
+00:09:25.720 --> 00:09:30.200
+ But if you can build up a decent size audience, doesn't have to be huge, you know, like 10,
+
+00:09:30.200 --> 00:09:35.920
+ 20 people watching you, then there's a little bit more feedback for you to, for you to react
+
+00:09:35.920 --> 00:09:36.920
+ to.
+
+00:09:36.920 --> 00:09:37.920
+ And it gets way, way easier.
+
+00:09:37.920 --> 00:09:40.960
+ So it's definitely extremely difficult at the beginning.
+
+00:09:40.960 --> 00:09:44.920
+ And as long as you're able to grow somewhat, it's, it should be something you enjoy doing
+
+00:09:44.920 --> 00:09:47.440
+ and can, and can continue to do.
+
+00:09:47.440 --> 00:09:53.160
+ I think the whole thing about you can't just stream on Twitch and do nothing else and expect
+
+00:09:53.160 --> 00:09:54.160
+ to have an audience.
+
+00:09:54.160 --> 00:09:58.080
+ I think that is very accurate, especially if you're trying to do this, you know, more
+
+00:09:58.080 --> 00:10:02.320
+ professionally or like a bigger part of your life, you do need to be building audiences
+
+00:10:02.320 --> 00:10:06.680
+ and like being known, like you said, you need to have a thing that you're known for.
+
+00:10:06.680 --> 00:10:11.080
+ It can literally be anything, the magic of the internet is no matter what the thing is,
+
+00:10:11.080 --> 00:10:14.200
+ as long as nobody else is doing it, there's going to be enough people interested in that.
+
+00:10:14.200 --> 00:10:15.720
+ It could be literally anything.
+
+00:10:15.720 --> 00:10:20.640
+ Just figure out what is unique about you and what you're into that other people aren't.
+
+00:10:20.640 --> 00:10:21.640
+ Just keep doing that.
+
+00:10:21.640 --> 00:10:24.960
+ And over time, you should be able to, when people think of that thing, they should think
+
+00:10:24.960 --> 00:10:25.960
+ of you, right?
+
+00:10:25.960 --> 00:10:26.960
+ Yeah.
+
+00:10:26.960 --> 00:10:27.960
+ Yeah.
+
+00:10:27.960 --> 00:10:28.960
+ Yeah.
+
+00:10:28.960 --> 00:10:29.960
+ Yeah.
+
+00:10:29.960 --> 00:10:30.960
+ This whole time you've been saying that I've been trying to think of something like funny
+
+00:10:30.960 --> 00:10:31.960
+ to say about your thing.
+
+00:10:31.960 --> 00:10:32.960
+ Like, what is your thing?
+
+00:10:32.960 --> 00:10:33.960
+ But I can't come up with anything.
+
+00:10:33.960 --> 00:10:34.960
+ It was going to be something insulting.
+
+00:10:34.960 --> 00:10:37.960
+ It's going to be smart and you say smart things on the internet, and I got nothing.
+
+00:10:37.960 --> 00:10:38.960
+ I got nothing.
+
+00:10:38.960 --> 00:10:39.960
+ Oh, man.
+
+00:10:39.960 --> 00:10:40.960
+ Really wanted something.
+
+00:10:40.960 --> 00:10:44.960
+ I mean, I think my thing, I think I'm going to, my entry to streaming was a little bit
+
+00:10:44.960 --> 00:10:50.320
+ easier because I already had somewhat of a presence just from my open source work and
+
+00:10:50.320 --> 00:10:53.040
+ SST and doing serverless and AWS and all that stuff.
+
+00:10:53.040 --> 00:10:59.160
+ So, yeah, I was doing it a little bit more casually, like six months ago, and that was
+
+00:10:59.160 --> 00:11:00.880
+ pretty much just for the SST audience.
+
+00:11:00.880 --> 00:11:03.640
+ In the past couple of months, I've been doing it a little bit more seriously and I've been
+
+00:11:03.640 --> 00:11:08.160
+ able to kind of build off of the initial SST audience and branch out a little bit more.
+
+00:11:08.160 --> 00:11:09.160
+ It's totally doable.
+
+00:11:09.160 --> 00:11:12.880
+ You know, it just feels impossible in the beginning when you're literally at zero, but
+
+00:11:12.880 --> 00:11:14.040
+ you can figure it out.
+
+00:11:14.040 --> 00:11:15.640
+ It's not a lottery or anything.
+
+00:11:15.640 --> 00:11:16.640
+ Yeah.
+
+00:11:16.640 --> 00:11:20.880
+ If you have like a social media presence outside of Twitch, I had kind of a Twitter following.
+
+00:11:20.880 --> 00:11:21.880
+ I think that helps a lot.
+
+00:11:21.880 --> 00:11:26.680
+ You can just kind of like keep shilling your stream to your existing audience.
+
+00:11:26.680 --> 00:11:27.680
+ I do.
+
+00:11:27.680 --> 00:11:30.480
+ I want to talk about Twitch chat and like the people who are watching because that's the
+
+00:11:30.480 --> 00:11:35.000
+ other side of Watch.dev is like a community for the people who watch a lot of us and it's
+
+00:11:35.000 --> 00:11:36.000
+ a lot of overlap.
+
+00:11:36.000 --> 00:11:39.320
+ A lot of the same people are watching our streams.
+
+00:11:39.320 --> 00:11:43.880
+ One thing I wonder because I know I get less done like when I'm streaming, but I feel like
+
+00:11:43.880 --> 00:11:47.880
+ the people watching also have to be getting less done and I do worry about like the sustainability.
+
+00:11:47.880 --> 00:11:53.080
+ I know like I'll get done streaming for four hours and then I watch you Dax and you'll
+
+00:11:53.080 --> 00:11:56.680
+ stream for a few hours and I realize like I've got nothing else done today.
+
+00:11:56.680 --> 00:11:59.640
+ I got just hung out on Twitch all day.
+
+00:11:59.640 --> 00:12:00.640
+ So there's that element of it.
+
+00:12:00.640 --> 00:12:04.360
+ Do you worry about that like in terms of sustainability of this thing long term?
+
+00:12:04.360 --> 00:12:05.360
+ Yeah.
+
+00:12:05.360 --> 00:12:08.600
+ I got to figure out a better balance for myself because the past two week or two, I've been
+
+00:12:08.600 --> 00:12:13.880
+ watching you every single day and I actually think you get more done during your streams
+
+00:12:13.880 --> 00:12:17.840
+ and I get done because I'm just like trying to think of finding things to say and chat
+
+00:12:17.840 --> 00:12:18.840
+ the whole time.
+
+00:12:18.840 --> 00:12:19.840
+ Not me.
+
+00:12:19.840 --> 00:12:23.760
+ While I'm watching you, I'm like, I'm very unproductive and you can actually see that
+
+00:12:23.760 --> 00:12:25.960
+ in what my schedule has been like.
+
+00:12:25.960 --> 00:12:29.480
+ I've been working a lot more at night like before I sleep because I just haven't been
+
+00:12:29.480 --> 00:12:31.760
+ getting up during the day.
+
+00:12:31.760 --> 00:12:36.840
+ So yeah, I think what we're currently doing probably isn't fully sustainable.
+
+00:12:36.840 --> 00:12:39.480
+ I need to like background you a little bit more.
+
+00:12:39.480 --> 00:12:41.480
+ You are really funny in my Twitch chat.
+
+00:12:41.480 --> 00:12:42.480
+ You're probably too funny.
+
+00:12:42.480 --> 00:12:46.640
+ You should probably calm down and just too many witty comments.
+
+00:12:46.640 --> 00:12:47.640
+ There's too many opportunities.
+
+00:12:47.640 --> 00:12:50.120
+ Even when I start working, I hear your voice and I hear you say something and I'm like,
+
+00:12:50.120 --> 00:12:54.480
+ I can say something snarky back to that and I have to switch over and get the comment
+
+00:12:54.480 --> 00:12:55.480
+ out.
+
+00:12:55.480 --> 00:12:56.480
+ That's funny.
+
+00:12:56.480 --> 00:13:01.360
+ Yeah, I guess I try to like hop in and out and I hope that people that watch us stream
+
+00:13:01.360 --> 00:13:02.360
+ are doing the same.
+
+00:13:02.360 --> 00:13:05.360
+ I hope they're not just the entire time locked into what we're doing.
+
+00:13:05.360 --> 00:13:09.000
+ It is easy to make that assumption though as you're streaming to just assume like, oh,
+
+00:13:09.000 --> 00:13:11.320
+ these people that are all here, they're watching everything I do, right?
+
+00:13:11.320 --> 00:13:12.400
+ But I don't think they are.
+
+00:13:12.400 --> 00:13:13.960
+ I hope not.
+
+00:13:13.960 --> 00:13:18.800
+ But there is, I think there's a good opportunity for people who maybe like you're new into
+
+00:13:18.800 --> 00:13:23.240
+ the career, you still are kind of getting your feet wet, so to speak.
+
+00:13:23.240 --> 00:13:24.760
+ Watching people stream coding.
+
+00:13:24.760 --> 00:13:29.000
+ I feel like there's value there like versus Twitter where people are like, here's a JavaScript
+
+00:13:29.000 --> 00:13:30.000
+ tip.
+
+00:13:30.000 --> 00:13:31.000
+ I feel like you watch them on Twitch.
+
+00:13:31.000 --> 00:13:34.320
+ If they're actually doing real work, I think you're going to pick up some stuff.
+
+00:13:34.320 --> 00:13:36.720
+ And most of the time you're going to ask questions, we're going to answer them.
+
+00:13:36.720 --> 00:13:41.600
+ It's not like we're overwhelmed with chat or we can't just like respond to stuff.
+
+00:13:41.600 --> 00:13:43.400
+ I think there's value on the viewership side too.
+
+00:13:43.400 --> 00:13:44.400
+ I guess what I'm trying to say.
+
+00:13:44.400 --> 00:13:45.400
+ Yeah, exactly.
+
+00:13:45.400 --> 00:13:48.680
+ And I've gotten really explicit feedback about this that I found pretty interesting.
+
+00:13:48.680 --> 00:13:52.480
+ So with SST, we're always trying to create educational content to get people to understand
+
+00:13:52.480 --> 00:13:53.640
+ certain things.
+
+00:13:53.640 --> 00:13:57.920
+ And we think about very explicit things that we think people should know.
+
+00:13:57.920 --> 00:14:02.080
+ But when people watch my stream, they comment on learning all this stuff that we literally
+
+00:14:02.080 --> 00:14:07.040
+ would have never thought of or we just wouldn't have, it's just something that wouldn't make
+
+00:14:07.040 --> 00:14:08.400
+ sense in any other form.
+
+00:14:08.400 --> 00:14:12.920
+ People will talk about how it's interesting to see how I use my tools, like how I lay out
+
+00:14:12.920 --> 00:14:14.080
+ my windows.
+
+00:14:14.080 --> 00:14:18.520
+ When I go from my editor to like the SST console, like when I go to Google or when I go to
+
+00:14:18.520 --> 00:14:23.760
+ chat to PT, like those little workflow things, there's a lot of information there that you
+
+00:14:23.760 --> 00:14:28.160
+ really can't explain that in any other format, aside from consistently streaming every day.
+
+00:14:28.160 --> 00:14:29.560
+ Yeah, you just take it for granted.
+
+00:14:29.560 --> 00:14:33.760
+ Like it's not things I would think to tell people that I do, which I'm not cool.
+
+00:14:33.760 --> 00:14:36.560
+ I'm not using arch and i3 and all that.
+
+00:14:36.560 --> 00:14:40.080
+ But like when I swipe between my workspaces on Mac, people are like, oh, I never thought
+
+00:14:40.080 --> 00:14:41.080
+ to do that.
+
+00:14:41.080 --> 00:14:42.080
+ And I just assume like everybody does that.
+
+00:14:42.080 --> 00:14:43.080
+ I don't know.
+
+00:14:43.080 --> 00:14:45.980
+ Yeah, somebody asked actually and I'm not going to hide the fact that we're streaming
+
+00:14:45.980 --> 00:14:46.980
+ this one.
+
+00:14:46.980 --> 00:14:48.680
+ I think it's on brand, right?
+
+00:14:48.680 --> 00:14:49.920
+ We're talking about dev streaming.
+
+00:14:49.920 --> 00:14:51.120
+ We're doing this on Twitch.
+
+00:14:51.120 --> 00:14:53.000
+ Someone asked, do you get any anxiety?
+
+00:14:53.000 --> 00:14:54.000
+ I think they said anxiety.
+
+00:14:54.000 --> 00:14:56.640
+ Are you afraid of people judging how you code?
+
+00:14:56.640 --> 00:14:58.200
+ Do you want to answer that one, Dax?
+
+00:14:58.200 --> 00:15:00.240
+ I've never really had that cross my mind.
+
+00:15:00.240 --> 00:15:02.440
+ I think naturally, I don't care about that.
+
+00:15:02.440 --> 00:15:05.040
+ But on top of that, all myself has been open source for so long.
+
+00:15:05.040 --> 00:15:09.080
+ So I'm thinking I'm just being public.
+
+00:15:09.080 --> 00:15:14.680
+ I've never had a negative interaction, really, like even if I was worried about it, there
+
+00:15:14.680 --> 00:15:18.320
+ was actually nothing that's ever manifested that I was like, oh, I feel bad about that
+
+00:15:18.320 --> 00:15:20.640
+ or someone made me feel bad.
+
+00:15:20.640 --> 00:15:23.920
+ It's almost always positive and like useful for me to hear.
+
+00:15:23.920 --> 00:15:27.760
+ The worst is that sometimes a feedback is not relevant.
+
+00:15:27.760 --> 00:15:29.560
+ That's like the worst you can possibly really get.
+
+00:15:29.560 --> 00:15:30.560
+ Yeah, sure.
+
+00:15:30.560 --> 00:15:33.720
+ But besides that, like, you know, I've never really had anything bad happen.
+
+00:15:33.720 --> 00:15:37.000
+ Yeah, I can't think of like, I know people have pointed out like you could do this this
+
+00:15:37.000 --> 00:15:39.840
+ way or this way is better, but I'm usually looking for that.
+
+00:15:39.840 --> 00:15:43.800
+ And I think if you go into it just assuming you're going to write bad code, probably whatever
+
+00:15:43.800 --> 00:15:48.840
+ bad code is and just not hold it too dearly, then you're going to learn a lot and I think
+
+00:15:48.840 --> 00:15:51.240
+ you'll get over it pretty quick if there is any fear there.
+
+00:15:51.240 --> 00:15:52.600
+ Yeah, it feels like a superpower.
+
+00:15:52.600 --> 00:15:55.640
+ You just get even in place where you're writing something where you don't think there's any
+
+00:15:55.640 --> 00:15:56.640
+ problem.
+
+00:15:56.640 --> 00:15:58.720
+ Sometimes people point out, oh, you could actually do that.
+
+00:15:58.720 --> 00:16:00.960
+ And it's like, wow, I would have never even stopped to think.
+
+00:16:00.960 --> 00:16:01.960
+ Yeah, sorry.
+
+00:16:01.960 --> 00:16:02.960
+ I was distracted reading Twitch.
+
+00:16:02.960 --> 00:16:04.440
+ No, because Chris is here.
+
+00:16:04.440 --> 00:16:05.440
+ Hey, Chris.
+
+00:16:05.440 --> 00:16:06.440
+ Sorry.
+
+00:16:06.440 --> 00:16:07.440
+ This is weird.
+
+00:16:07.440 --> 00:16:08.440
+ This is podcast episode.
+
+00:16:08.440 --> 00:16:09.440
+ Chris gets trolls a lot though.
+
+00:16:09.440 --> 00:16:10.440
+ I don't get a lot of trolls.
+
+00:16:10.440 --> 00:16:11.440
+ I've not had a lot of that.
+
+00:16:11.440 --> 00:16:12.600
+ Maybe people ban them before I see it.
+
+00:16:12.600 --> 00:16:13.600
+ I don't.
+
+00:16:13.600 --> 00:16:14.600
+ Yeah, I haven't gotten any trolls.
+
+00:16:14.600 --> 00:16:19.880
+ I mean, I'm at a much smaller scale, so I'm sure that shows up once you hit a certain
+
+00:16:19.880 --> 00:16:20.880
+ size.
+
+00:16:20.880 --> 00:16:21.880
+ Yeah, we have another question.
+
+00:16:21.880 --> 00:16:24.080
+ Would you always prepare or just hit record and go for it?
+
+00:16:24.080 --> 00:16:25.720
+ Do you ever prepare anything for your stream?
+
+00:16:25.720 --> 00:16:29.960
+ No, I think for me, the way I view Twitch is it's the lowest effort content I can make
+
+00:16:29.960 --> 00:16:35.600
+ and that I don't have to do a bunch of work outside of literally just doing the thing.
+
+00:16:35.600 --> 00:16:39.840
+ So for me, that's where it fits in like the spectrum of content that I do.
+
+00:16:39.840 --> 00:16:43.760
+ It is just the thing I can do every day without having to have a bunch of ceremony around
+
+00:16:43.760 --> 00:16:44.760
+ it.
+
+00:16:44.760 --> 00:16:45.760
+ So now I don't really prepare.
+
+00:16:45.760 --> 00:16:49.080
+ And obviously at the beginning, you may be a little awkward, but over time, you start
+
+00:16:49.080 --> 00:16:50.080
+ to feel really normal.
+
+00:16:50.080 --> 00:16:52.960
+ Yeah, two things I would say, one, it is so true.
+
+00:16:52.960 --> 00:16:54.280
+ It's the lowest effort content.
+
+00:16:54.280 --> 00:16:58.680
+ Like I want to put myself out there in the world, but like, I just can't be bothered
+
+00:16:58.680 --> 00:17:02.080
+ anymore to like ride a Twitter thread or like make a polished video.
+
+00:17:02.080 --> 00:17:04.000
+ It's just so it's so much effort.
+
+00:17:04.000 --> 00:17:07.640
+ And something about Twitch, even though it's more time and you probably spend more time
+
+00:17:07.640 --> 00:17:09.360
+ doing it than anything else.
+
+00:17:09.360 --> 00:17:10.360
+ It's very low effort.
+
+00:17:10.360 --> 00:17:12.480
+ You just kind of like get to be yourself.
+
+00:17:12.480 --> 00:17:16.040
+ The other thing I would say though, in terms of preparing, I did spend like four months
+
+00:17:16.040 --> 00:17:18.280
+ building my Twitter overlay, my Twitch overlay.
+
+00:17:18.280 --> 00:17:23.240
+ So I guess I prepared like in that sense, you can spend a lot of time kind of like making
+
+00:17:23.240 --> 00:17:27.520
+ your stream better, but I don't think of it as like preparing for an individual stream.
+
+00:17:27.520 --> 00:17:31.840
+ Like I don't prepare for day to day what I'm going to do on any given stream.
+
+00:17:31.840 --> 00:17:37.720
+ But I think putting a little time, a little effort into just polishing the stream in terms
+
+00:17:37.720 --> 00:17:43.640
+ of like your ergonomics, your overlays and that kind of stuff.
+
+00:17:43.640 --> 00:17:46.920
+ And if you're going to have like any kind of bits that you do or things that you do every
+
+00:17:46.920 --> 00:17:48.040
+ day, they're kind of consistent.
+
+00:17:48.040 --> 00:17:51.240
+ I know people like to feel like they know what to expect.
+
+00:17:51.240 --> 00:17:54.000
+ And like that kind of stuff, I think is good to prepare for.
+
+00:17:54.000 --> 00:17:55.000
+ Yeah.
+
+00:17:55.000 --> 00:18:00.000
+ I mean, speaking of that's another whole angle to this that I find extremely fun, like similar
+
+00:18:00.000 --> 00:18:05.360
+ to you, that it's kind of a new thing you can go really deep in and learn a bunch about
+
+00:18:05.360 --> 00:18:07.200
+ and with streaming, there's so much, right?
+
+00:18:07.200 --> 00:18:11.480
+ There's literally like, like you said, the overlays, like the different ways you can
+
+00:18:11.480 --> 00:18:15.000
+ produce your stream and there's all the equipment that goes behind it.
+
+00:18:15.000 --> 00:18:20.000
+ I'm actually having a blast figuring out how to do all this on Linux.
+
+00:18:20.000 --> 00:18:21.160
+ I don't actually find it painful.
+
+00:18:21.160 --> 00:18:24.840
+ It's like, it's fun for me to learn about all this stuff that I haven't had to in a
+
+00:18:24.840 --> 00:18:26.200
+ long time.
+
+00:18:26.200 --> 00:18:30.480
+ So it's just like another hobby that you can just go super deep in.
+
+00:18:30.480 --> 00:18:34.360
+ And yeah, I think people might be wondering like, how do they even get started?
+
+00:18:34.360 --> 00:18:36.280
+ Like where, how deep do they need to go?
+
+00:18:36.280 --> 00:18:37.280
+ Yeah.
+
+00:18:37.280 --> 00:18:38.280
+ I don't know if you have any thoughts on that.
+
+00:18:38.280 --> 00:18:39.960
+ No, I mean, I'm, I'm an obsessive.
+
+00:18:39.960 --> 00:18:47.480
+ So I love to go very deep on any new hobbies and Twitch and streaming has been that for
+
+00:18:47.480 --> 00:18:48.480
+ sure.
+
+00:18:48.480 --> 00:18:51.720
+ Like I've spent a ton of time and enjoyed just like, how can I make it better?
+
+00:18:51.720 --> 00:18:56.000
+ How can I make it like a higher quality stream?
+
+00:18:56.000 --> 00:18:58.040
+ I really enjoyed that whole process.
+
+00:18:58.040 --> 00:19:01.720
+ Yeah, it's a lot of hardware, it's a lot of software.
+
+00:19:01.720 --> 00:19:04.960
+ Once you figure out the Linux thing, I'd love to see if I can make it work on my, like I'd
+
+00:19:04.960 --> 00:19:07.080
+ love to like play with that.
+
+00:19:07.080 --> 00:19:09.480
+ So I'm very curious where that all heads.
+
+00:19:09.480 --> 00:19:10.480
+ Yeah.
+
+00:19:10.480 --> 00:19:12.480
+ No, I think it's all, it's all a lot of fun.
+
+00:19:12.480 --> 00:19:18.760
+ I think the development part, the actually coding on stream part is a very small sliver,
+
+00:19:18.760 --> 00:19:21.680
+ I guess, of what makes it actually enjoyable.
+
+00:19:21.680 --> 00:19:25.240
+ And it, because sometimes it's a small sliver of what I actually do on stream, someone else
+
+00:19:25.240 --> 00:19:28.800
+ asks, how important are the projects that you work on?
+
+00:19:28.800 --> 00:19:32.480
+ Like I'm not interested in some project streamers work on what others seem really interesting.
+
+00:19:32.480 --> 00:19:34.920
+ I honestly, I've had the feeling, I don't know if you feel the same way.
+
+00:19:34.920 --> 00:19:38.800
+ It acts, but like sometimes I think I could just stream any random thing.
+
+00:19:38.800 --> 00:19:39.800
+ It doesn't matter.
+
+00:19:39.800 --> 00:19:43.440
+ Like I think it's more just the conversations and that kind of stuff is why people are there.
+
+00:19:43.440 --> 00:19:44.600
+ Do you think that's true?
+
+00:19:44.600 --> 00:19:45.600
+ Yeah.
+
+00:19:45.600 --> 00:19:46.600
+ I feel the same way.
+
+00:19:46.600 --> 00:19:50.740
+ Like the, the working on a thing is just to provide some framing for the whole stream.
+
+00:19:50.740 --> 00:19:55.560
+ So it's like you said, people know what to expect, but I find that it doesn't really
+
+00:19:55.560 --> 00:19:56.560
+ matter.
+
+00:19:56.560 --> 00:19:59.400
+ I don't know if people are really there for the specific project that you're working
+
+00:19:59.400 --> 00:20:00.400
+ on.
+
+00:20:00.400 --> 00:20:03.200
+ I think it's like, you know, people join where they feel comfortable, where they feel they
+
+00:20:03.200 --> 00:20:06.280
+ can engage in, they have a consistent community.
+
+00:20:06.280 --> 00:20:10.320
+ So yeah, I haven't, I haven't cared too much about what I actually work on.
+
+00:20:10.320 --> 00:20:11.320
+ Yeah.
+
+00:20:11.320 --> 00:20:14.480
+ Chris says he only works on the projects that he does on stream on stream.
+
+00:20:14.480 --> 00:20:17.040
+ So it's like, he never works on that project offline.
+
+00:20:17.040 --> 00:20:18.360
+ So it motivates him to keep streaming.
+
+00:20:18.360 --> 00:20:19.360
+ That's a good call.
+
+00:20:19.360 --> 00:20:20.360
+ Yeah.
+
+00:20:20.360 --> 00:20:21.360
+ That's a good call.
+
+00:20:21.360 --> 00:20:22.360
+ Yeah.
+
+00:20:22.360 --> 00:20:23.360
+ That'll keep you doing it.
+
+00:20:23.360 --> 00:20:24.360
+ And Chris does it like you do it every day, Chris, I think.
+
+00:20:24.360 --> 00:20:27.160
+ When now we're having a conversation with someone in Twitch chat on the podcast, I don't
+
+00:20:27.160 --> 00:20:28.160
+ know.
+
+00:20:28.160 --> 00:20:29.160
+ This is interesting.
+
+00:20:29.160 --> 00:20:30.400
+ It's fun though.
+
+00:20:30.400 --> 00:20:35.600
+ It's become my life's passion and I feel like I should talk about it more because I just
+
+00:20:35.600 --> 00:20:37.920
+ know there are people out there that would really enjoy it.
+
+00:20:37.920 --> 00:20:39.320
+ And I think that's the hope.
+
+00:20:39.320 --> 00:20:41.360
+ We've seen some friends starting to get into it.
+
+00:20:41.360 --> 00:20:42.360
+ Yeah.
+
+00:20:42.360 --> 00:20:44.560
+ I don't know anything else you would say to people that are new to it that maybe have
+
+00:20:44.560 --> 00:20:46.160
+ all kinds of fears or questions.
+
+00:20:46.160 --> 00:20:47.160
+ Yeah.
+
+00:20:47.160 --> 00:20:48.880
+ I've just found it's an incredible creative outlet.
+
+00:20:48.880 --> 00:20:53.440
+ I think if you have creative energy, you might not even think you have creative energy
+
+00:20:53.440 --> 00:20:55.080
+ and you might discover that you do.
+
+00:20:55.080 --> 00:20:59.720
+ I get really excited when I get an idea for my stream, like this whole thing with my little
+
+00:20:59.720 --> 00:21:07.240
+ dog camera, I was so fun, just being able to build something that's an idea you have.
+
+00:21:07.240 --> 00:21:09.360
+ It's purely for fun, right?
+
+00:21:09.360 --> 00:21:12.480
+ What's the business model behind this, which is what 99% of my life is otherwise?
+
+00:21:12.480 --> 00:21:13.480
+ It's so serious.
+
+00:21:13.480 --> 00:21:18.360
+ But here, I can use my same skills, my software engineering skills to do these things, build
+
+00:21:18.360 --> 00:21:20.640
+ these overlays, build these automations.
+
+00:21:20.640 --> 00:21:26.120
+ But it's all towards just for having fun and that does feel so different than the rest
+
+00:21:26.120 --> 00:21:27.120
+ of my life.
+
+00:21:27.120 --> 00:21:32.240
+ Yeah, I love having that in here and I think I'm going to want something like this forever
+
+00:21:32.240 --> 00:21:33.640
+ now that I know what it's like.
+
+00:21:33.640 --> 00:21:34.640
+ Yeah.
+
+00:21:34.640 --> 00:21:40.080
+ No, I would say like as a developer, if you get into this, you're going to have a phase
+
+00:21:40.080 --> 00:21:44.880
+ probably early on where you just want to do all the things you can possibly do with the
+
+00:21:44.880 --> 00:21:49.600
+ Twitch API, like you're going to build channel point rewards, you're going to build crazy
+
+00:21:49.600 --> 00:21:53.880
+ overlays and just like embrace it, enjoy that little season.
+
+00:21:53.880 --> 00:21:59.320
+ It is like this pure joy phase that I think every developer on Twitch goes through it.
+
+00:21:59.320 --> 00:22:04.800
+ Like you're going to build a lot of stuff to just kind of make it your own and it's fun.
+
+00:22:04.800 --> 00:22:08.640
+ And then you kind of like get to settle into that and just enjoy it every day.
+
+00:22:08.640 --> 00:22:09.640
+ Yeah.
+
+00:22:09.640 --> 00:22:10.640
+ It's just, it's pure fun.
+
+00:22:10.640 --> 00:22:11.640
+ I love it.
+
+00:22:11.640 --> 00:22:12.640
+ Yeah.
+
+00:22:12.640 --> 00:22:13.640
+ Oh, wow.
+
+00:22:13.640 --> 00:22:14.640
+ This is the first time we've ever not had anything to say.
+
+00:22:14.640 --> 00:22:15.640
+ Neither one of us are.
+
+00:22:15.640 --> 00:22:16.640
+ Are we reading Twitch?
+
+00:22:16.640 --> 00:22:17.640
+ I think we're reading Twitch.
+
+00:22:17.640 --> 00:22:18.640
+ I was just looking at the Twitch chat.
+
+00:22:18.640 --> 00:22:19.640
+ Yeah.
+
+00:22:19.640 --> 00:22:20.640
+ Yeah.
+
+00:22:20.640 --> 00:22:21.640
+ Same.
+
+00:22:21.640 --> 00:22:22.640
+ Do we have anything else we want to say on this?
+
+00:22:22.640 --> 00:22:23.640
+ We don't have to.
+
+00:22:23.640 --> 00:22:24.640
+ We don't have to look at Discord again.
+
+00:22:24.640 --> 00:22:25.640
+ Watch.dev.
+
+00:22:25.640 --> 00:22:26.640
+ Yeah.
+
+00:22:26.640 --> 00:22:29.360
+ You can just go to watch.dev like in your browser and it'll redirect you to the Discord.
+
+00:22:29.360 --> 00:22:30.360
+ Yeah.
+
+00:22:30.360 --> 00:22:34.640
+ So it's a community for people that like doing this, both as an audience and as a streamer.
+
+00:22:34.640 --> 00:22:37.480
+ If you're interested in getting into it and you have questions, you know, I think when
+
+00:22:37.480 --> 00:22:42.120
+ I was getting into it, I had a lot of questions on what Mike, do I get, what camera do I get?
+
+00:22:42.120 --> 00:22:43.360
+ Again, you don't have to go crazy.
+
+00:22:43.360 --> 00:22:45.280
+ You can get started with something pretty basic.
+
+00:22:45.280 --> 00:22:46.680
+ I wanted to go crazy.
+
+00:22:46.680 --> 00:22:49.760
+ So I had a lot of questions about this stuff.
+
+00:22:49.760 --> 00:22:50.760
+ But it's fun.
+
+00:22:50.760 --> 00:22:55.440
+ There's just some really knowledgeable people there that will be able to help you out and
+
+00:22:55.440 --> 00:23:00.160
+ whatever scale you want to go to, you want to go to intro scale, you want to go to Adam's
+
+00:23:00.160 --> 00:23:01.160
+ scale.
+
+00:23:01.160 --> 00:23:02.160
+ Adam's the top end of the scale.
+
+00:23:02.160 --> 00:23:03.640
+ You can't go really past Adam.
+
+00:23:03.640 --> 00:23:09.160
+ In terms of investing in your, yeah, yeah, I'm probably invested in my setup more than
+
+00:23:09.160 --> 00:23:10.160
+ you should.
+
+00:23:10.160 --> 00:23:11.160
+ Yeah.
+
+00:23:11.160 --> 00:23:12.160
+ Yeah.
+
+00:23:12.160 --> 00:23:17.080
+ It's a great place to figure out how to do it and yeah, so join if you're interested.
+
+00:23:17.080 --> 00:23:18.080
+ Cool.
+
+00:23:18.080 --> 00:23:19.080
+ Hope to see everybody there.
+
+00:23:19.080 --> 00:23:20.080
+ All right.
+
+00:23:20.080 --> 00:23:21.080
+ We've been here.
+
+00:23:21.080 --> 00:23:22.080
+ Thanks.
+
+00:23:22.080 --> 00:23:23.080
+ We've got to hit record.
+
+00:23:23.080 --> 00:23:24.080
+ Stop it.
+
+00:23:24.080 --> 00:23:25.080
+ Stop it.
+
+00:23:25.080 --> 00:23:26.080
+ No.
+
+00:23:26.080 --> 00:23:28.400
+ He really got me for a second.
+
+00:23:28.400 --> 00:23:30.280
+ It's hard to see my monitor.
+
+00:23:30.280 --> 00:23:31.280
+ It's still recording.
+
+00:23:31.280 --> 00:23:31.480
+ I'm going to stop it now.
+

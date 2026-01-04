@@ -1,0 +1,2609 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.360
+ I feel like you have to like adopt a creed, sign something in blood.
+
+00:00:03.360 --> 00:00:07.120
+ You have to like really sell your soul to the open source community.
+
+00:00:07.120 --> 00:00:09.920
+ Do you guys all just like look down on people like me?
+
+00:00:09.920 --> 00:00:11.760
+ Are you even aware that I exist?
+
+00:00:30.000 --> 00:00:38.120
+ So, Dax, how did you get into open source?
+
+00:00:38.120 --> 00:00:42.280
+ I actually, for me, it was right at the beginning of my career.
+
+00:00:42.280 --> 00:00:45.200
+ I was into programming in high school, maybe even in middle school.
+
+00:00:45.200 --> 00:00:46.200
+ So, I was doing it for a while.
+
+00:00:46.200 --> 00:00:48.000
+ Obviously, I sucked at that age.
+
+00:00:48.000 --> 00:00:49.000
+ Obviously.
+
+00:00:49.000 --> 00:00:52.000
+ I mean, if you suck now, then obviously you sucked at that age.
+
+00:00:52.000 --> 00:00:54.360
+ I was like me having a dig at you.
+
+00:00:54.360 --> 00:00:55.360
+ Okay.
+
+00:00:55.360 --> 00:00:56.360
+ Sorry to go.
+
+00:00:56.360 --> 00:00:57.360
+ Yeah.
+
+00:00:57.360 --> 00:00:58.360
+ This is a little reversal right here.
+
+00:00:58.360 --> 00:01:03.240
+ I'm kind of working, but I thought it was good because relative to everyone else in high
+
+00:01:03.240 --> 00:01:05.240
+ school, I was a lot better.
+
+00:01:05.240 --> 00:01:08.000
+ But in the broader sense, I really didn't know what I was doing.
+
+00:01:08.000 --> 00:01:13.280
+ But this cool game came out at the time called Minecraft.
+
+00:01:13.280 --> 00:01:16.680
+ And I remember one night, I was like, I've been hearing about this game for a very long
+
+00:01:16.680 --> 00:01:17.680
+ time.
+
+00:01:17.680 --> 00:01:23.880
+ Let me watch a YouTube video of it, and I watched a YouTube video of it for like six
+
+00:01:23.880 --> 00:01:24.880
+ hours.
+
+00:01:24.880 --> 00:01:28.320
+ It was just like a series just doing all this funny stuff in it, and I was just like so
+
+00:01:28.320 --> 00:01:29.320
+ engrossed.
+
+00:01:29.320 --> 00:01:30.800
+ And I didn't even sleep that night.
+
+00:01:30.800 --> 00:01:32.640
+ And then the next day, I was like, oh, it was really cool.
+
+00:01:32.640 --> 00:01:33.640
+ I can't wait to try it.
+
+00:01:33.640 --> 00:01:39.200
+ So then I set it up and I tried and this is pretty fun and I'm into the game.
+
+00:01:39.200 --> 00:01:43.200
+ But my, it's one of those things where it's a sandbox, so it kind of captured my imagination
+
+00:01:43.200 --> 00:01:44.200
+ a lot.
+
+00:01:44.200 --> 00:01:48.440
+ And I was like, oh, it would be so cool if like this had this other feature or like, you
+
+00:01:48.440 --> 00:01:52.320
+ know, if we are playing with a bunch of people, like I'd love to like have these scenarios
+
+00:01:52.320 --> 00:01:53.320
+ in it.
+
+00:01:53.320 --> 00:01:54.320
+ So I can kind of see what happens.
+
+00:01:54.320 --> 00:02:00.960
+ So around that time, there was a new effort in making an open source version of their
+
+00:02:00.960 --> 00:02:02.420
+ multiplayer server.
+
+00:02:02.420 --> 00:02:04.880
+ The reason they were doing this is so they could add plugin support.
+
+00:02:04.880 --> 00:02:08.240
+ So they like created a whole framework around like ways to hook into things that happened
+
+00:02:08.240 --> 00:02:11.080
+ in the game and people can make plugins for it.
+
+00:02:11.080 --> 00:02:15.760
+ And the goal was, you know, not to literally make the plugins, it was to make it a thing
+
+00:02:15.760 --> 00:02:17.880
+ that people can contribute to.
+
+00:02:17.880 --> 00:02:20.000
+ So I found that and I was really interesting.
+
+00:02:20.000 --> 00:02:25.000
+ So I started to make my own plugins, I was really into creating like realistic economic
+
+00:02:25.000 --> 00:02:29.640
+ scenarios and the servers that I ran to see like what kind of emergent stuff would happen.
+
+00:02:29.640 --> 00:02:31.280
+ All kind of like crazy, funny things happen.
+
+00:02:31.280 --> 00:02:35.720
+ It's like a whole other story, like there were people that effectively like created like
+
+00:02:35.720 --> 00:02:39.360
+ mafias that like shook down people and like, you know, they like got all the money and
+
+00:02:39.360 --> 00:02:40.520
+ it was pretty sophisticated.
+
+00:02:40.520 --> 00:02:44.440
+ So I was really into like creating plugins that like enabled that kind of thing.
+
+00:02:44.440 --> 00:02:49.960
+ But then I started working on the server itself and I think my intro into that world,
+
+00:02:49.960 --> 00:02:55.560
+ the way it happened is actually exactly what I think of when I say people gained open
+
+00:02:55.560 --> 00:02:56.560
+ source.
+
+00:02:56.560 --> 00:02:58.640
+ It might be different from your experience, but I think it's a cool way to do it.
+
+00:02:58.640 --> 00:03:03.960
+ Like I said, in the beginning, I did not know much like I wasn't an experienced programmer.
+
+00:03:03.960 --> 00:03:08.280
+ I wasn't someone that was like going to come in and just do all this cool stuff.
+
+00:03:08.280 --> 00:03:13.240
+ What I did was it was back in the IRC days, I just hung out in the IRC channel like to
+
+00:03:13.240 --> 00:03:18.400
+ an insane degree, like I was on there for hours, just taking part in every single conversation
+
+00:03:18.400 --> 00:03:21.720
+ whenever someone was stuck, I would like try to Google it for them, try like look up things
+
+00:03:21.720 --> 00:03:22.960
+ and help them.
+
+00:03:22.960 --> 00:03:28.280
+ And I swear in the course of like one to two months of me doing that, I got like years
+
+00:03:28.280 --> 00:03:31.800
+ of experience just from one, like being the person that has to like figure stuff out,
+
+00:03:31.800 --> 00:03:35.960
+ like that just makes it so you understand all these things, you pick up on all these things.
+
+00:03:35.960 --> 00:03:38.640
+ Being around other people that like really knew what they were doing and listen to their
+
+00:03:38.640 --> 00:03:42.340
+ arguments and like how how they should do things and of course eventually contributing
+
+00:03:42.340 --> 00:03:43.340
+ back as well.
+
+00:03:43.340 --> 00:03:48.320
+ But that was kind of the end of that process, like my entry into open source wasn't really
+
+00:03:48.320 --> 00:03:50.680
+ I'm going to go contribute a bunch of code.
+
+00:03:50.680 --> 00:03:57.000
+ It was doing this other stuff in the community that just kind of I feel like looking back,
+
+00:03:57.000 --> 00:04:00.720
+ I feel like that like put me further ahead of my career like by years.
+
+00:04:00.720 --> 00:04:04.400
+ I just wouldn't have gotten that education that experience in it in any other way.
+
+00:04:04.400 --> 00:04:08.840
+ Yeah, so I wanted to just let you keep going and like share all that very helpful information
+
+00:04:08.840 --> 00:04:11.360
+ for our audience because I'm sure they'll get a lot out of it.
+
+00:04:11.360 --> 00:04:14.400
+ But the whole time I was just thinking how much I hate you, like I thought you were millennial
+
+00:04:14.400 --> 00:04:20.960
+ like me, like I thought you were a late bloomer, like I've accomplished nothing until I was
+
+00:04:20.960 --> 00:04:25.840
+ like 25 years old, don't even think I started writing code until I was 20 something.
+
+00:04:25.840 --> 00:04:28.720
+ And I thought you were like me, I thought you're a millennial, but you were like, you're like
+
+00:04:28.720 --> 00:04:31.680
+ the Gen Z people now who have done everything since they were like 12.
+
+00:04:31.680 --> 00:04:33.400
+ I didn't realize that about you.
+
+00:04:33.400 --> 00:04:34.400
+ I didn't know that.
+
+00:04:34.400 --> 00:04:40.600
+ It's just fun to be more on the other side being like these kids like what they're so
+
+00:04:40.600 --> 00:04:41.600
+ crazy.
+
+00:04:41.600 --> 00:04:46.560
+ Yeah, you made fun of that with me, like how accomplished some of these 16 year olds are.
+
+00:04:46.560 --> 00:04:50.560
+ Yeah, I mean, to be fair, they like I do see a lot of people that, you know, I think everyone
+
+00:04:50.560 --> 00:04:51.560
+ knows who we're talking about.
+
+00:04:51.560 --> 00:04:54.200
+ It's one of the people that are in our world.
+
+00:04:54.200 --> 00:04:57.880
+ And I think they, I mean, I'm like thinking back to what I was doing.
+
+00:04:57.880 --> 00:05:00.960
+ And I was like, I don't think I'm, of course, I've gotten to stuff early, but I still feel
+
+00:05:00.960 --> 00:05:06.520
+ like they're all like definitely way more skilled than I was at that age.
+
+00:05:06.520 --> 00:05:11.360
+ And I think a lot of that is just like that thing that I was doing, like getting exposure
+
+00:05:11.360 --> 00:05:13.880
+ to other people and them kind of teaching me.
+
+00:05:13.880 --> 00:05:17.320
+ I think I was doing that like right at the beginning of that becoming a thing.
+
+00:05:17.320 --> 00:05:18.880
+ And now it's like kind of super charged.
+
+00:05:18.880 --> 00:05:22.760
+ There's like discord exists now and there's like Sony ways to get plugged in so many resources.
+
+00:05:22.760 --> 00:05:26.240
+ So I think they're all kind of doing the same thing that I did.
+
+00:05:26.240 --> 00:05:29.320
+ But like just the outcome and the impact is like the 10x more now.
+
+00:05:29.320 --> 00:05:30.320
+ Yeah.
+
+00:05:30.320 --> 00:05:31.320
+ Yeah.
+
+00:05:31.320 --> 00:05:35.880
+ It's cool to think about how that all compounds like each generation should have like earlier
+
+00:05:35.880 --> 00:05:40.800
+ and earlier successes and just people who are able to leverage all this stuff fully.
+
+00:05:40.800 --> 00:05:41.800
+ Yeah.
+
+00:05:41.800 --> 00:05:42.800
+ Yeah.
+
+00:05:42.800 --> 00:05:43.800
+ It's interesting the game thing.
+
+00:05:43.800 --> 00:05:46.240
+ So I just finished reading a Masters of Doom.
+
+00:05:46.240 --> 00:05:47.240
+ Oh, nice.
+
+00:05:47.240 --> 00:05:52.000
+ And anytime I read a book, I have to find a way to interject that into a conversation.
+
+00:05:52.000 --> 00:05:54.480
+ And you said something about games and open source.
+
+00:05:54.480 --> 00:05:59.680
+ And in that book, John Carmack talks about how they made Doom, like very extensible and
+
+00:05:59.680 --> 00:06:03.160
+ all of the stuff he did with those early games, Quake and Doom and all those.
+
+00:06:03.160 --> 00:06:07.200
+ It was like a big part of it was open source and he's like a big, like everything should
+
+00:06:07.200 --> 00:06:09.240
+ be open source person.
+
+00:06:09.240 --> 00:06:10.240
+ Do you feel that way?
+
+00:06:10.240 --> 00:06:13.560
+ Do you feel like everything should be open source and anything that's not as evil?
+
+00:06:13.560 --> 00:06:18.000
+ I definitely feel like a lot more stuff should be open source and I don't feel, but I mean,
+
+00:06:18.000 --> 00:06:19.480
+ I don't think it's because it's evil.
+
+00:06:19.480 --> 00:06:24.320
+ I think it's just like I was talking about this with my wife yesterday.
+
+00:06:24.320 --> 00:06:32.360
+ My experience of literal code is it is the output of a lot of thinking and experience
+
+00:06:32.360 --> 00:06:35.440
+ and effort and energy and like things coming together.
+
+00:06:35.440 --> 00:06:41.040
+ The code itself is rarely something that I'm like, the code is what has the value.
+
+00:06:41.040 --> 00:06:44.800
+ It was just all the stuff that went into like deciding to even create it in that way or
+
+00:06:44.800 --> 00:06:46.680
+ the thing where we decided to focus on.
+
+00:06:46.680 --> 00:06:47.840
+ That's what has a value.
+
+00:06:47.840 --> 00:06:54.440
+ So for me, I rarely feel hesitant to open source anything, even like something that has no benefit,
+
+00:06:54.440 --> 00:06:56.040
+ like no business benefit of being open source.
+
+00:06:56.040 --> 00:06:59.400
+ Like I'm down to open source, just so it's a thing that I can point to if someone asks
+
+00:06:59.400 --> 00:07:03.080
+ me, oh, how do you do this thing, I can say, here's I'm doing it in my app.
+
+00:07:03.080 --> 00:07:05.160
+ I think way more companies can do that.
+
+00:07:05.160 --> 00:07:08.920
+ I don't think the code itself is something that has value, right?
+
+00:07:08.920 --> 00:07:14.000
+ It's there's always this like, oh, it's IP, it's intellectual property, but I just don't
+
+00:07:14.000 --> 00:07:17.200
+ see how someone just grabs that and like starts to compete with you.
+
+00:07:17.200 --> 00:07:21.720
+ It really feels like the thing that's hard to replicate are all the things that went
+
+00:07:21.720 --> 00:07:25.680
+ on behind the scenes to even get there and no one can like just feel that from you.
+
+00:07:25.680 --> 00:07:28.160
+ The code is just like the output of the labor.
+
+00:07:28.160 --> 00:07:35.800
+ But what about like elastic search and like AWS and like taking people's stuff and then
+
+00:07:35.800 --> 00:07:37.880
+ making a whole service on it?
+
+00:07:37.880 --> 00:07:38.880
+ Isn't that the counterpoint?
+
+00:07:38.880 --> 00:07:41.200
+ Well, you can always have a license around how you can use it.
+
+00:07:41.200 --> 00:07:43.040
+ And that's what elastic search eventually did.
+
+00:07:43.040 --> 00:07:44.840
+ They just not have the license in time.
+
+00:07:44.840 --> 00:07:46.160
+ Is that what the problem was like?
+
+00:07:46.160 --> 00:07:47.960
+ I'm actually was never clear on that.
+
+00:07:47.960 --> 00:07:48.960
+ I don't.
+
+00:07:48.960 --> 00:07:52.680
+ I actually don't even understand if I've always been curious about can you retroactively apply
+
+00:07:52.680 --> 00:07:56.920
+ a license or like people fork previous versions of it because it had a different license.
+
+00:07:56.920 --> 00:08:00.520
+ I'm not too sure, but if you look at things like we're actually because we're doing this
+
+00:08:00.520 --> 00:08:07.000
+ now for SSC, our like paid product is also open source.
+
+00:08:07.000 --> 00:08:08.440
+ So you fully open source everything.
+
+00:08:08.440 --> 00:08:09.760
+ You can self host it.
+
+00:08:09.760 --> 00:08:10.760
+ So you don't have to use it.
+
+00:08:10.760 --> 00:08:11.760
+ Use our hosted version.
+
+00:08:11.760 --> 00:08:15.520
+ You can do whatever you want, except we have a license and there that's going to say you
+
+00:08:15.520 --> 00:08:18.920
+ can't use it to build like a competing hosted product.
+
+00:08:18.920 --> 00:08:22.680
+ And we actually were just looking at post hug, which is they're further along, but they're
+
+00:08:22.680 --> 00:08:27.000
+ the same model where it's self-hostable, but they very make it, they very clearly state
+
+00:08:27.000 --> 00:08:31.800
+ like you can't like AWS can't go and offer like a managed post dog because there's only
+
+00:08:31.800 --> 00:08:33.440
+ one place in the world that can do that.
+
+00:08:33.440 --> 00:08:35.800
+ So I think licensing, I'm not against that.
+
+00:08:35.800 --> 00:08:40.400
+ I'm not too familiar with what happened with the last six search, but I think lights sink
+
+00:08:40.400 --> 00:08:42.320
+ and address those scenarios.
+
+00:08:42.320 --> 00:08:43.320
+ Interesting.
+
+00:08:43.320 --> 00:08:47.120
+ So do you think I have all kinds of questions that are not really where we're supposed to
+
+00:08:47.120 --> 00:08:48.120
+ be going with this episode?
+
+00:08:48.120 --> 00:08:51.240
+ So I'm going to shift into things I think we are supposed to talk about, which is getting
+
+00:08:51.240 --> 00:08:52.240
+ into open source.
+
+00:08:52.240 --> 00:08:54.600
+ I think like everyone should try and start to career that way.
+
+00:08:54.600 --> 00:08:58.320
+ Or if you're new to open source, you need to dive in, it'll benefit your career no matter
+
+00:08:58.320 --> 00:08:59.320
+ who you are.
+
+00:08:59.320 --> 00:09:00.320
+ I don't know.
+
+00:09:00.320 --> 00:09:05.640
+ So I think my main feeling is when I hear people say, how do I get into open source?
+
+00:09:05.640 --> 00:09:10.760
+ There's a few questions of like, well, what is your thinking behind this and begin like,
+
+00:09:10.760 --> 00:09:11.760
+ why are you even asking?
+
+00:09:11.760 --> 00:09:12.760
+ Should I get into open source?
+
+00:09:12.760 --> 00:09:13.760
+ Like what are your expectations?
+
+00:09:13.760 --> 00:09:14.960
+ Like what are your goals?
+
+00:09:14.960 --> 00:09:19.480
+ And also the answers that people get for that, I don't like always agree with.
+
+00:09:19.480 --> 00:09:23.760
+ So in terms of expectations and goals, it's I can kind of speak to like I said, for my
+
+00:09:23.760 --> 00:09:29.680
+ own path, it was purely to get to like supercharge my experience because open source communities
+
+00:09:29.680 --> 00:09:31.520
+ are very active.
+
+00:09:31.520 --> 00:09:35.320
+ If you work at a company, you might be interacting with like four or 500 engineers potentially
+
+00:09:35.320 --> 00:09:39.560
+ like maybe more, but day to day probably like around that whoever's on your close center
+
+00:09:39.560 --> 00:09:44.760
+ team and open source community potentially could be hundreds, could be thousands.
+
+00:09:44.760 --> 00:09:47.280
+ And like they're working on all different things and all different contexts and they
+
+00:09:47.280 --> 00:09:50.000
+ bring up things that you might have never seen before because your company doesn't even
+
+00:09:50.000 --> 00:09:51.480
+ touch that stuff.
+
+00:09:51.480 --> 00:09:54.320
+ So for me, it's primarily a learning option.
+
+00:09:54.320 --> 00:09:59.240
+ There's like a huge way to get involved in an interactive way with a community.
+
+00:09:59.240 --> 00:10:02.680
+ And that does it, you literally do not have to contribute any code, you can just hang out
+
+00:10:02.680 --> 00:10:06.400
+ where they hang out, absorb what they're talking about, answer questions.
+
+00:10:06.400 --> 00:10:10.000
+ That's like, to me, that's the first way to get involved.
+
+00:10:10.000 --> 00:10:14.280
+ And the second thing, I think a lot of advice people get is like, oh, like start to contribute
+
+00:10:14.280 --> 00:10:17.280
+ to PRs, but then it's like, well, to like what project?
+
+00:10:17.280 --> 00:10:21.480
+ So people start to like go look through GitHub and like pick random projects and try to like
+
+00:10:21.480 --> 00:10:24.200
+ solve PRs and like solve their bugs.
+
+00:10:24.200 --> 00:10:25.680
+ Sure, that has some value.
+
+00:10:25.680 --> 00:10:29.000
+ I don't think it has this type of thing where it's going to impact your career in this like
+
+00:10:29.000 --> 00:10:31.760
+ large compounding way.
+
+00:10:31.760 --> 00:10:34.440
+ So when people ask like, what projects do I want to get involved with?
+
+00:10:34.440 --> 00:10:36.080
+ And this is a part of a little tricky, right?
+
+00:10:36.080 --> 00:10:38.440
+ I look at this the exact same way as investing.
+
+00:10:38.440 --> 00:10:42.080
+ When you are an investor trying to invest in a company, you're looking to place your
+
+00:10:42.080 --> 00:10:48.680
+ resources, you know, your money with people that aren't huge yet, but you can see how
+
+00:10:48.680 --> 00:10:49.640
+ they could be huge.
+
+00:10:49.640 --> 00:10:52.280
+ Like what they're trying to do makes sense.
+
+00:10:52.280 --> 00:10:56.120
+ You like the people, you like connect with them in your core and you decide to invest
+
+00:10:56.120 --> 00:11:00.440
+ some of your resources there instead of somewhere else and you get an early and if they do well,
+
+00:11:00.440 --> 00:11:01.720
+ you're kind of uplifted as well.
+
+00:11:01.720 --> 00:11:03.840
+ I think open source is the exact same way.
+
+00:11:03.840 --> 00:11:09.240
+ You have to look at people pushing new projects that potentially have massive impact and try
+
+00:11:09.240 --> 00:11:10.240
+ to get involved early.
+
+00:11:10.240 --> 00:11:13.100
+ You're not always going to be right, like, and it's okay if you're not always right,
+
+00:11:13.100 --> 00:11:16.480
+ you're still going to get some experience as the project grows.
+
+00:11:16.480 --> 00:11:19.800
+ If you get involved with a project that's already very well established, you know, you
+
+00:11:19.800 --> 00:11:21.640
+ don't get that boost.
+
+00:11:21.640 --> 00:11:25.600
+ And a great example I have of this is I saw this happen with this all JS community.
+
+00:11:25.600 --> 00:11:30.080
+ I got in there pretty early, so I was able to kind of have a pretty impactful role there
+
+00:11:30.080 --> 00:11:34.520
+ as, you know, Ryan's reputation shut up as a reputation shut up.
+
+00:11:34.520 --> 00:11:37.320
+ There were people that got in there like way earlier than me.
+
+00:11:37.320 --> 00:11:38.320
+ And it was kind of arbitrary.
+
+00:11:38.320 --> 00:11:41.120
+ It wasn't like they were geniuses at how all these skills are ready.
+
+00:11:41.120 --> 00:11:43.900
+ They kind of just were into it and they were in there early.
+
+00:11:43.900 --> 00:11:48.760
+ And now as a project is more successful, they find themselves in these like massively influential
+
+00:11:48.760 --> 00:11:51.400
+ positions with a ton of opportunities.
+
+00:11:51.400 --> 00:11:53.360
+ So that to me is a kind of power open source.
+
+00:11:53.360 --> 00:11:57.360
+ It's kind of like, if you don't have money to invest in companies, you can invest your
+
+00:11:57.360 --> 00:12:02.480
+ time in these early stage projects and if you can place your bets and potentially, you
+
+00:12:02.480 --> 00:12:05.920
+ know, you can have some kind of outsized outcome just like investing.
+
+00:12:05.920 --> 00:12:06.920
+ Yeah.
+
+00:12:06.920 --> 00:12:10.140
+ You really look at it that way, I know you do because you, I feel like you're like an
+
+00:12:10.140 --> 00:12:17.120
+ open source investor at like you find projects early and you like pump them up now, you're
+
+00:12:17.120 --> 00:12:21.120
+ in a position now where you have some influence and you can like, you evaluate it and you're
+
+00:12:21.120 --> 00:12:24.760
+ like, these people are doing the right thing, they're, they're, this is an area that's impactful
+
+00:12:24.760 --> 00:12:26.600
+ and they're executing well.
+
+00:12:26.600 --> 00:12:28.240
+ I mean, I just think of drizzle.
+
+00:12:28.240 --> 00:12:29.640
+ I'm specifically thinking of drizzle.
+
+00:12:29.640 --> 00:12:32.560
+ You've done it with other stuff though, or you find things really early.
+
+00:12:32.560 --> 00:12:34.160
+ I don't, does everyone have that?
+
+00:12:34.160 --> 00:12:35.160
+ Can everyone do that?
+
+00:12:35.160 --> 00:12:37.880
+ Is that a unique skill of yours?
+
+00:12:37.880 --> 00:12:42.600
+ To the level that I'm doing it now is definitely like, it's, this is a, after years of being
+
+00:12:42.600 --> 00:12:48.240
+ involved in open source and, and DevTools in general, I'm able to do it to that degree.
+
+00:12:48.240 --> 00:12:53.680
+ But so like now I think what I'm getting more into is I don't really have the time to like
+
+00:12:53.680 --> 00:12:56.760
+ hang out in drizzle, just go all day, answer questions.
+
+00:12:56.760 --> 00:13:00.920
+ Like that's just not, like I'm at a different phase in my experience.
+
+00:13:00.920 --> 00:13:05.280
+ So my role has shifted, like I'm still looking for early like opportunities to get involved,
+
+00:13:05.280 --> 00:13:10.520
+ but now it's more like, okay, I see a project that checks a bunch of boxes.
+
+00:13:10.520 --> 00:13:12.160
+ It's filling a clear need.
+
+00:13:12.160 --> 00:13:16.560
+ The only reason it's not bigger is because it's just not marketed correctly.
+
+00:13:16.560 --> 00:13:19.160
+ So I'm like getting more into that now.
+
+00:13:19.160 --> 00:13:20.800
+ To me, this is like the later stage of it.
+
+00:13:20.800 --> 00:13:25.200
+ And you can think about and like, again, like going back to the investing thing.
+
+00:13:25.200 --> 00:13:26.200
+ It's kind of the same thing.
+
+00:13:26.200 --> 00:13:28.480
+ Like you, a lot of investors started out as founders because they didn't have a bunch
+
+00:13:28.480 --> 00:13:29.480
+ of money.
+
+00:13:29.480 --> 00:13:32.840
+ And they found a companies and those companies were successful and then they kind of shift
+
+00:13:32.840 --> 00:13:36.680
+ into being more investors where they can just kind of look at other things with potential
+
+00:13:36.680 --> 00:13:38.640
+ and like, you know, help blast it and make it bigger.
+
+00:13:38.640 --> 00:13:41.960
+ So I think I'm kind of like going through that phase, just like this is like the open
+
+00:13:41.960 --> 00:13:44.840
+ source version of it.
+
+00:13:44.840 --> 00:13:47.640
+ Even when you're small, like even as a founder, right, you're doing the same thing.
+
+00:13:47.640 --> 00:13:50.920
+ You're looking for opportunities that other people are ignoring that have potential.
+
+00:13:50.920 --> 00:13:54.720
+ I think getting involved in open source when you're early is similar and it is tricky,
+
+00:13:54.720 --> 00:13:55.720
+ right?
+
+00:13:55.720 --> 00:13:57.120
+ Because your judgment gets better with more experience.
+
+00:13:57.120 --> 00:13:59.520
+ So your early bets probably are going to suck.
+
+00:13:59.520 --> 00:14:05.720
+ But you know, it's just like these aren't like the, like the opportunity costs and stuff
+
+00:14:05.720 --> 00:14:06.720
+ aren't as in huge.
+
+00:14:06.720 --> 00:14:09.480
+ You spend a little bit of time every day and like, if it doesn't work out, you go to the
+
+00:14:09.480 --> 00:14:10.480
+ next one.
+
+00:14:10.480 --> 00:14:11.720
+ It's you eventually hit something.
+
+00:14:11.720 --> 00:14:12.720
+ Yeah.
+
+00:14:12.720 --> 00:14:16.280
+ So that was, I think that was my next question is like, what are the downsides here or what's
+
+00:14:16.280 --> 00:14:17.440
+ the risk?
+
+00:14:17.440 --> 00:14:21.840
+ If you invest heavily in something that doesn't go anywhere, is it better to like kind of
+
+00:14:21.840 --> 00:14:26.400
+ sprinkle yourself amongst multiple open source projects when you're early and you're trying
+
+00:14:26.400 --> 00:14:29.960
+ to find a place in a community and then find which one has more traction and double down?
+
+00:14:29.960 --> 00:14:30.960
+ Yeah.
+
+00:14:30.960 --> 00:14:36.560
+ It's funny because I think the parallels to founding and investing, they just keep continuing.
+
+00:14:36.560 --> 00:14:40.400
+ I always tell people stop trying to be like an angel investor in the beginning of your
+
+00:14:40.400 --> 00:14:43.520
+ career and like sprinkle money everywhere.
+
+00:14:43.520 --> 00:14:48.400
+ Just double down, triple down like on one thing, just give it your all.
+
+00:14:48.400 --> 00:14:51.960
+ The whole like diversification thing, that makes sense when you want like predictable
+
+00:14:51.960 --> 00:14:56.160
+ returns, not when you need to like have an outsized outcome so you can actually set yourself
+
+00:14:56.160 --> 00:14:57.160
+ up well.
+
+00:14:57.160 --> 00:15:00.880
+ So I don't think you sprinkle yourself through a bunch.
+
+00:15:00.880 --> 00:15:04.080
+ I think you like just think about what you're working on, thinking about problems, think
+
+00:15:04.080 --> 00:15:07.840
+ about a tool you use that you just love that other people aren't maybe using as much and
+
+00:15:07.840 --> 00:15:10.120
+ just get involved with their community.
+
+00:15:10.120 --> 00:15:14.000
+ It has to be like a big, big enough project, like a tiny package, it's a little utility
+
+00:15:14.000 --> 00:15:16.400
+ library of course, it's never going to ever grow big.
+
+00:15:16.400 --> 00:15:20.080
+ But I mean, if I think off the top of my head right now, I mean like drizzle is a great
+
+00:15:20.080 --> 00:15:21.080
+ example, right?
+
+00:15:21.080 --> 00:15:23.960
+ So they're starting, they're like definitely got a lot more traction in the past couple
+
+00:15:23.960 --> 00:15:27.680
+ of months, but they're still on the earlier end, like get in there, answer questions,
+
+00:15:27.680 --> 00:15:28.680
+ help them figure.
+
+00:15:28.680 --> 00:15:31.000
+ So there's still a lot to figure out there.
+
+00:15:31.000 --> 00:15:35.440
+ If you look at some front end frameworks, right, like again, solid is maybe a little bit ahead,
+
+00:15:35.440 --> 00:15:39.200
+ but there's always new front end frameworks coming out as always people doing like weird
+
+00:15:39.200 --> 00:15:40.200
+ things.
+
+00:15:40.200 --> 00:15:42.200
+ It's still time to get it on quick.
+
+00:15:42.200 --> 00:15:43.200
+ Jump in there people.
+
+00:15:43.200 --> 00:15:44.200
+ Exactly.
+
+00:15:44.200 --> 00:15:49.040
+ So it's okay if they don't, they're ultimately not like a react.
+
+00:15:49.040 --> 00:15:52.040
+ They will grow some amount in your time there.
+
+00:15:52.040 --> 00:15:56.200
+ And that's enough for you then to get the experience and judgment to go on, on to the
+
+00:15:56.200 --> 00:15:57.200
+ next thing.
+
+00:15:57.200 --> 00:15:58.360
+ You're getting something out of it.
+
+00:15:58.360 --> 00:15:59.360
+ Yeah, you're not.
+
+00:15:59.360 --> 00:16:00.360
+ It's not a complete loss.
+
+00:16:00.360 --> 00:16:01.360
+ Yeah.
+
+00:16:01.360 --> 00:16:02.360
+ Yeah.
+
+00:16:02.360 --> 00:16:06.760
+ And especially early on like it'll plateau over time, but early on it'll just be like literally
+
+00:16:06.760 --> 00:16:11.120
+ any project you get involved with, it's just going to like, you know, triple like your
+
+00:16:11.120 --> 00:16:12.200
+ skillset or experience.
+
+00:16:12.200 --> 00:16:15.560
+ And then yeah, the impact is so huge when it's early.
+
+00:16:15.560 --> 00:16:18.560
+ So I feel like I love open source.
+
+00:16:18.560 --> 00:16:19.560
+ Okay.
+
+00:16:19.560 --> 00:16:20.560
+ I love it.
+
+00:16:20.560 --> 00:16:22.120
+ It's enabled so many things in my career.
+
+00:16:22.120 --> 00:16:23.120
+ It's great.
+
+00:16:23.120 --> 00:16:27.120
+ But I don't feel like I'm a true open source person, I feel like you have to like adopt
+
+00:16:27.120 --> 00:16:28.120
+ a creed.
+
+00:16:28.120 --> 00:16:33.840
+ It's like sign something in blood that like you will never do another thing in software
+
+00:16:33.840 --> 00:16:35.000
+ that's not open source or something.
+
+00:16:35.000 --> 00:16:36.000
+ I don't know.
+
+00:16:36.000 --> 00:16:39.360
+ You have to like really sell your soul to the open source community.
+
+00:16:39.360 --> 00:16:43.440
+ I, I have used open source in sort of like a pragmatic way.
+
+00:16:43.440 --> 00:16:45.200
+ I've contributed in a very pragmatic way.
+
+00:16:45.200 --> 00:16:50.160
+ Like I, when I need something, I need a feature and a thing I use a lot and it's open source.
+
+00:16:50.160 --> 00:16:53.240
+ I know I can just submit a PR and that's basically all my contributions open source have just
+
+00:16:53.240 --> 00:16:56.440
+ been thing I use, doesn't do thing I needed to do.
+
+00:16:56.440 --> 00:16:58.400
+ I'm going to make it do that thing.
+
+00:16:58.400 --> 00:17:03.000
+ Does that make me like, do you guys all just like look down on people like me?
+
+00:17:03.000 --> 00:17:07.560
+ Are you even aware that I exist that you're describing?
+
+00:17:07.560 --> 00:17:11.600
+ I actually find very annoying like the, the side of open source where it's like everything
+
+00:17:11.600 --> 00:17:16.200
+ must be free, having a business model run a project is evil like, I think that's such
+
+00:17:16.200 --> 00:17:18.920
+ a misguided way to look at open source.
+
+00:17:18.920 --> 00:17:23.760
+ I think the upside of open source is just from like, if I'm starting a business and
+
+00:17:23.760 --> 00:17:26.920
+ it happens like SST right, why are we open source?
+
+00:17:26.920 --> 00:17:30.440
+ Because we need to integrate with a million things and we just do not have the time to
+
+00:17:30.440 --> 00:17:35.200
+ like do, to make what, to make something like SST successful, like it needs to work with
+
+00:17:35.200 --> 00:17:38.440
+ every front end framework needs to work with like all these libraries we want to use.
+
+00:17:38.440 --> 00:17:41.560
+ We just do not have the time to go and big into all those details.
+
+00:17:41.560 --> 00:17:42.680
+ We rely on the community.
+
+00:17:42.680 --> 00:17:48.360
+ So selfishly, we want more people helping us achieve what we want to achieve.
+
+00:17:48.360 --> 00:17:51.360
+ That's primarily so foundation in our open source.
+
+00:17:51.360 --> 00:17:53.080
+ Why are we making our console open source?
+
+00:17:53.080 --> 00:17:55.520
+ It doesn't have to be like our paid products and have to be open source.
+
+00:17:55.520 --> 00:17:58.360
+ I think that's just going to be me and the team working on it.
+
+00:17:58.360 --> 00:18:01.360
+ We're not really going to get a lot of contributors there.
+
+00:18:01.360 --> 00:18:04.320
+ But I don't see any downside of it being open source.
+
+00:18:04.320 --> 00:18:07.840
+ And the point of that console is to make a bunch of money like it just straight up like
+
+00:18:07.840 --> 00:18:11.480
+ we're trying, we're here, we're not doing this altruistic thing out of the goodness of
+
+00:18:11.480 --> 00:18:12.480
+ our hearts.
+
+00:18:12.480 --> 00:18:16.080
+ Like we see the potential to make a bunch of money doing this.
+
+00:18:16.080 --> 00:18:19.760
+ And there's a side of open source that's just like, that's innately bad.
+
+00:18:19.760 --> 00:18:23.200
+ Like if you're monetizing your open source project, that's bad.
+
+00:18:23.200 --> 00:18:26.840
+ But like there's so many creative ways to do that where the incentives are so long.
+
+00:18:26.840 --> 00:18:29.160
+ Like SST is still going to be massively open source.
+
+00:18:29.160 --> 00:18:33.560
+ Every feature we can shove in there that in an open source way, we're going to do it.
+
+00:18:33.560 --> 00:18:37.240
+ There's just some things we can't do in like a non hosted way.
+
+00:18:37.240 --> 00:18:38.600
+ So we're going to do that for you.
+
+00:18:38.600 --> 00:18:40.100
+ And that's going to make us money.
+
+00:18:40.100 --> 00:18:41.360
+ It's going to sustain the whole thing.
+
+00:18:41.360 --> 00:18:42.360
+ It's self sustainable.
+
+00:18:42.360 --> 00:18:47.600
+ We're not relying on donations, we're not relying on asking people to donate or like
+
+00:18:47.600 --> 00:18:49.840
+ guilty them into donating.
+
+00:18:49.840 --> 00:18:52.480
+ I think there's some projects where you have to do that because there is no business model
+
+00:18:52.480 --> 00:18:53.480
+ around it.
+
+00:18:53.480 --> 00:18:56.880
+ But there's so many business models that are possible with an open source project.
+
+00:18:56.880 --> 00:19:02.320
+ And I think when people start to look at it as, no, making money is bad.
+
+00:19:02.320 --> 00:19:06.240
+ They like lock themselves out of like even thinking about those opportunities and those
+
+00:19:06.240 --> 00:19:09.560
+ opportunities are good because they make your thing way more resilient and way more sustainable.
+
+00:19:09.560 --> 00:19:16.160
+ If we have a business with thousands of users paying us and that's what's sustaining the
+
+00:19:16.160 --> 00:19:20.480
+ project, that's way less brittle than like three giant corporate sponsors like sponsoring
+
+00:19:20.480 --> 00:19:23.160
+ your thing where like, okay, I guess what the economy goes down.
+
+00:19:23.160 --> 00:19:25.720
+ One of them decides to pull out and that's only your budget is broken.
+
+00:19:25.720 --> 00:19:26.720
+ Right?
+
+00:19:26.720 --> 00:19:27.720
+ Yeah.
+
+00:19:27.720 --> 00:19:28.720
+ Yeah.
+
+00:19:28.720 --> 00:19:32.120
+ I mean, we've all like used something and open source relied on it even heavily.
+
+00:19:32.120 --> 00:19:34.920
+ And then it lost the ability to maintain itself.
+
+00:19:34.920 --> 00:19:37.800
+ Like it lost funding or it never really had it.
+
+00:19:37.800 --> 00:19:40.520
+ And the people who were maintaining it just had other things to do.
+
+00:19:40.520 --> 00:19:45.160
+ Like there's such a, like you said, alignment of incentives when an open source project
+
+00:19:45.160 --> 00:19:47.320
+ is healthy and making money.
+
+00:19:47.320 --> 00:19:48.800
+ Where does it come from?
+
+00:19:48.800 --> 00:19:49.800
+ Do you understand?
+
+00:19:49.800 --> 00:19:55.080
+ Maybe you could help me understand the sort of zealots that don't think you should make
+
+00:19:55.080 --> 00:19:56.760
+ money with software.
+
+00:19:56.760 --> 00:20:00.360
+ Could you could you like tell me what your DAX brain has figured out about that?
+
+00:20:00.360 --> 00:20:04.400
+ Like what is the like explanation, like the good argument for that?
+
+00:20:04.400 --> 00:20:09.280
+ I mean, this like goes super deep for me because I think this sentiment of like making money
+
+00:20:09.280 --> 00:20:11.440
+ is about to get into like capitalism and stuff.
+
+00:20:11.440 --> 00:20:13.240
+ Is that what we're going to get into like religion?
+
+00:20:13.240 --> 00:20:16.080
+ We're going to get into like all kinds of things here, but I mean, just do it.
+
+00:20:16.080 --> 00:20:22.240
+ I don't know how deep I want to go, but ultimately there is a culture in certain parts of the
+
+00:20:22.240 --> 00:20:29.680
+ world where adding money is evil or like aspiring to like make money is like innately bad.
+
+00:20:29.680 --> 00:20:34.360
+ Because it's, you know, it's like just something that just historically for thousands of years,
+
+00:20:34.360 --> 00:20:41.600
+ like there's just been certain morals around like anyone that is has money is bad or like
+
+00:20:41.600 --> 00:20:42.600
+ they got it in a bad way.
+
+00:20:42.600 --> 00:20:44.200
+ They did it by stealing from others.
+
+00:20:44.200 --> 00:20:49.040
+ I think it's kind of a reflexive gut thing when people see that money is entering an open
+
+00:20:49.040 --> 00:20:51.440
+ source project that it must be automatically bad.
+
+00:20:51.440 --> 00:20:55.880
+ That's not to say there aren't some models that are broken where the incentives are actually
+
+00:20:55.880 --> 00:20:57.360
+ bad when money enters in.
+
+00:20:57.360 --> 00:21:01.840
+ But the point I want to make is that it's not automatically bad.
+
+00:21:01.840 --> 00:21:04.240
+ There are models where everyone wins.
+
+00:21:04.240 --> 00:21:05.440
+ You create value for everyone.
+
+00:21:05.440 --> 00:21:07.600
+ You capture 10% of that value.
+
+00:21:07.600 --> 00:21:10.480
+ That's enough to, you know, to stand yourself.
+
+00:21:10.480 --> 00:21:11.480
+ Yeah.
+
+00:21:11.480 --> 00:21:14.320
+ So to me, I haven't really seen a good argument against it.
+
+00:21:14.320 --> 00:21:20.600
+ Like in specific cases, yes, like, you know, there are some cases where it's not really
+
+00:21:20.600 --> 00:21:24.060
+ meant to be an open source project is kind of like an open source trap where you start
+
+00:21:24.060 --> 00:21:25.060
+ to use it.
+
+00:21:25.060 --> 00:21:29.560
+ And then there's like you kind of forced along some kind of funnel where you actually can't
+
+00:21:29.560 --> 00:21:33.200
+ use it without in practice that playing someone, right?
+
+00:21:33.200 --> 00:21:34.200
+ Yeah.
+
+00:21:34.200 --> 00:21:35.200
+ That's not a great setup.
+
+00:21:35.200 --> 00:21:40.800
+ The way SST looks at it is we try to make it fully like if you don't want to use our
+
+00:21:40.800 --> 00:21:42.800
+ paid stuff, you don't have to.
+
+00:21:42.800 --> 00:21:48.680
+ Our goal is to make the paid stuff so great that you like want to use it and you don't
+
+00:21:48.680 --> 00:21:49.680
+ have to use it.
+
+00:21:49.680 --> 00:21:52.600
+ But like, you know, if 5% of our users use it, that's all we need.
+
+00:21:52.600 --> 00:21:55.520
+ And that's I think that's a great online model.
+
+00:21:55.520 --> 00:21:59.240
+ And I don't really see a great argument against doing something like that.
+
+00:21:59.240 --> 00:22:02.680
+ Like I said, most arguments I've seen have just been reflexive that if you're not doing
+
+00:22:02.680 --> 00:22:05.760
+ this for a purely selfless reason, it's bad.
+
+00:22:05.760 --> 00:22:06.760
+ And I just don't like that.
+
+00:22:06.760 --> 00:22:11.240
+ I think the best systems in the world are where people are acting selfishly, but the
+
+00:22:11.240 --> 00:22:14.840
+ way it's set up, even though everyone's acting selfishly, everyone still wins.
+
+00:22:14.840 --> 00:22:16.600
+ I think that's a good, beautiful thing.
+
+00:22:16.600 --> 00:22:17.600
+ Yeah.
+
+00:22:17.600 --> 00:22:18.600
+ Yeah.
+
+00:22:18.600 --> 00:22:21.960
+ This just keeps coming up just in the last few days for me and my brain like the idea
+
+00:22:21.960 --> 00:22:26.680
+ that like no intentions can be completely pure.
+
+00:22:26.680 --> 00:22:31.560
+ And I think the more we're just honest with that and we just accept that our intentions
+
+00:22:31.560 --> 00:22:34.960
+ are largely selfish or at least partially selfish.
+
+00:22:34.960 --> 00:22:39.280
+ And the more upfront about that we are, I think that's the best we can do in terms of
+
+00:22:39.280 --> 00:22:41.400
+ being honest with ourselves and with everyone else.
+
+00:22:41.400 --> 00:22:45.080
+ I think you get into trouble when you start trying to pretend or start trying to convince
+
+00:22:45.080 --> 00:22:48.560
+ people that all of your motives are pure, your intentions are good.
+
+00:22:48.560 --> 00:22:50.080
+ It's all just so complicated.
+
+00:22:50.080 --> 00:22:51.080
+ Yeah.
+
+00:22:51.080 --> 00:22:52.080
+ Yeah.
+
+00:22:52.080 --> 00:22:53.080
+ And I've always loved this.
+
+00:22:53.080 --> 00:22:54.080
+ I like talking.
+
+00:22:54.080 --> 00:22:57.840
+ This makes fun of me because I think I'm obsessed with this like everyone's selfish,
+
+00:22:57.840 --> 00:22:59.600
+ but it's still a great concept.
+
+00:22:59.600 --> 00:23:04.320
+ Like I just find it so fascinating and I bring this up with open source a lot because I
+
+00:23:04.320 --> 00:23:08.760
+ think a lot of open source maintain, not a lot, but some open source maintainers do try
+
+00:23:08.760 --> 00:23:14.640
+ to make themselves seem like I'm this person that is just like sacrificing my body so that
+
+00:23:14.640 --> 00:23:19.360
+ the rest of you can like do your thing and I'm getting no benefit and I'm just killing
+
+00:23:19.360 --> 00:23:21.320
+ myself for no reason.
+
+00:23:21.320 --> 00:23:24.240
+ And I like, I hate that because one, it's not true.
+
+00:23:24.240 --> 00:23:25.240
+ And two, it's okay.
+
+00:23:25.240 --> 00:23:26.920
+ That is not true, right?
+
+00:23:26.920 --> 00:23:31.320
+ If you have a successful open source project, maybe it doesn't make you money.
+
+00:23:31.320 --> 00:23:36.640
+ Maybe you can't find a good business model around it, but you, you have like thousands
+
+00:23:36.640 --> 00:23:40.920
+ of people using your thing that know who you are that respect you, your status elevates
+
+00:23:40.920 --> 00:23:45.200
+ your influence elevates that indirectly helps you with your career in so many ways.
+
+00:23:45.200 --> 00:23:50.880
+ And you can see you've seen this, especially recently where, you know, take look at some
+
+00:23:50.880 --> 00:23:54.920
+ open source people that have been successful and look at where their career has gone, right?
+
+00:23:54.920 --> 00:23:58.760
+ You look at someone like Rich Harris, where he's made this massively successful project
+
+00:23:58.760 --> 00:23:59.960
+ that he just did on his side.
+
+00:23:59.960 --> 00:24:02.080
+ I don't think he really had much funding for it.
+
+00:24:02.080 --> 00:24:04.680
+ I think he just, it's a bit of like founding a company in a lot of ways.
+
+00:24:04.680 --> 00:24:05.680
+ Yeah.
+
+00:24:05.680 --> 00:24:08.120
+ And his exit was that Versailles gets to hire him.
+
+00:24:08.120 --> 00:24:11.400
+ I'm sure they're going to pay, they're paying him a really nice salary to continue to do
+
+00:24:11.400 --> 00:24:14.960
+ literally what he loves every single day and work with people that he loves and work with
+
+00:24:14.960 --> 00:24:15.960
+ the community.
+
+00:24:15.960 --> 00:24:18.840
+ He's built every single day and he gets to do that full time and that's like an, that's
+
+00:24:18.840 --> 00:24:22.520
+ actually going to exit right, so the equivalent of an exit for in the open source world.
+
+00:24:22.520 --> 00:24:28.760
+ So that's awesome for him and I'm really happy for him and like didn't have to be this like
+
+00:24:28.760 --> 00:24:29.920
+ purely selfless thing.
+
+00:24:29.920 --> 00:24:34.760
+ Like he's helped so many people like do so many things and he got to win as well personally.
+
+00:24:34.760 --> 00:24:38.440
+ Like that's, that's like awesome and we should, we should be really happy about that.
+
+00:24:38.440 --> 00:24:39.440
+ Yeah.
+
+00:24:39.440 --> 00:24:40.440
+ No, that sounds great.
+
+00:24:40.440 --> 00:24:43.800
+ I've never had those dreams of like just being an open source maintainer.
+
+00:24:43.800 --> 00:24:47.760
+ But I know that there's something for everybody like, I mean, it seems to be working for you.
+
+00:24:47.760 --> 00:24:48.760
+ You seem to enjoy it.
+
+00:24:48.760 --> 00:24:49.760
+ Yeah.
+
+00:24:49.760 --> 00:24:51.960
+ I mean, I'm a little bit different than him because I'm also here because I just see
+
+00:24:51.960 --> 00:24:53.480
+ an opportunity to make a bunch of money.
+
+00:24:53.480 --> 00:24:56.680
+ Like that's why I'm doing open source and the side effects of like, you know, being able
+
+00:24:56.680 --> 00:24:57.680
+ to have more influence.
+
+00:24:57.680 --> 00:24:59.880
+ Like those are all great for my career as well.
+
+00:24:59.880 --> 00:25:02.040
+ I don't feel the need to pretend like it's anything else.
+
+00:25:02.040 --> 00:25:05.640
+ And no, I know most people don't care that that's, that's why I'm doing things.
+
+00:25:05.640 --> 00:25:06.640
+ They're just happy about it.
+
+00:25:06.640 --> 00:25:11.640
+ I'd also like to hear your way of getting into it and like what you did and then kind
+
+00:25:11.640 --> 00:25:17.400
+ of how it impacted you and yeah, so I started, I mean, my first open source contribution was
+
+00:25:17.400 --> 00:25:24.480
+ to the CDK, I think, and it was that I was working with a Python shop and there was like,
+
+00:25:24.480 --> 00:25:26.320
+ we were using the CDK.
+
+00:25:26.320 --> 00:25:31.000
+ We were using it in Python and there wasn't an easy way to bundle up Python Lambda functions.
+
+00:25:31.000 --> 00:25:35.520
+ So there was like, no JS function was a construct that'll bundle like your, your thing up.
+
+00:25:35.520 --> 00:25:36.520
+ You don't have to think about it.
+
+00:25:36.520 --> 00:25:38.640
+ You just write the code and it just ships it.
+
+00:25:38.640 --> 00:25:40.080
+ There wasn't an equivalent for Python.
+
+00:25:40.080 --> 00:25:44.780
+ So I made a Python function construct, which was basically just like copying the no just
+
+00:25:44.780 --> 00:25:49.120
+ one, but doing Python things, pimp installing dependencies and all that stuff.
+
+00:25:49.120 --> 00:25:50.720
+ That was my first contribution.
+
+00:25:50.720 --> 00:25:55.360
+ I had gotten, I think I did what you said actually in retrospect, like I was kind of plugged
+
+00:25:55.360 --> 00:25:57.880
+ into the CDK community because I was using it so much.
+
+00:25:57.880 --> 00:26:01.400
+ I was in the, I don't remember if it's Slack or Discord, wherever, I was kind of in that
+
+00:26:01.400 --> 00:26:02.400
+ community.
+
+00:26:02.400 --> 00:26:06.160
+ I was seeing a lot of the GitHub activity just because like, I wanted to know when there
+
+00:26:06.160 --> 00:26:11.760
+ were some new feature or something new that we could take advantage of in the CDK.
+
+00:26:11.760 --> 00:26:13.600
+ So before I ever contributed, I was definitely doing that.
+
+00:26:13.600 --> 00:26:15.480
+ I was kind of like active member.
+
+00:26:15.480 --> 00:26:20.440
+ And then at some point needed something and put out a PR for it, learned a lot just about
+
+00:26:20.440 --> 00:26:26.920
+ like the process of working with maintainers and kind of like, especially how AWS is open
+
+00:26:26.920 --> 00:26:31.280
+ source and like, there's actually a team that's meeting every day and talking about
+
+00:26:31.280 --> 00:26:35.120
+ their stuff behind the veil and then you get little inklings of it out.
+
+00:26:35.120 --> 00:26:41.040
+ I know that's not necessarily doesn't apply everywhere with open source, but for an AWS
+
+00:26:41.040 --> 00:26:42.800
+ project, that was my first.
+
+00:26:42.800 --> 00:26:46.720
+ And then I think from there, it was kind of like cool to see it merged.
+
+00:26:46.720 --> 00:26:51.000
+ I remember the day, I can remember like being so excited when they merged it, telling my
+
+00:26:51.000 --> 00:26:52.000
+ wife about it.
+
+00:26:52.000 --> 00:26:53.000
+ She's like, okay, cool.
+
+00:26:53.000 --> 00:26:54.000
+ That's awesome.
+
+00:26:54.000 --> 00:26:55.000
+ What are these words?
+
+00:26:55.000 --> 00:26:57.680
+ And then from there, I think I did other things like that.
+
+00:26:57.680 --> 00:27:02.680
+ Like I was using turbo repo pretty early with turbo repo and it was like, I had played
+
+00:27:02.680 --> 00:27:07.000
+ with Go in my career, didn't have a lot of experience with it and kind of wanted a reason
+
+00:27:07.000 --> 00:27:10.800
+ to like do more Go stuff just to see what's this like.
+
+00:27:10.800 --> 00:27:13.160
+ And there was something it didn't do for CDK projects.
+
+00:27:13.160 --> 00:27:17.360
+ So it kind of like started with CDK that led into other projects I'm using.
+
+00:27:17.360 --> 00:27:18.520
+ They didn't work well together.
+
+00:27:18.520 --> 00:27:24.960
+ So I shipped a PR the turbo repo to make it cash CDK stuff better and just kind of like
+
+00:27:24.960 --> 00:27:29.560
+ down the line, it was like every time I ran into new things on any given project where
+
+00:27:29.560 --> 00:27:33.960
+ I was fitting together technologies that maybe a lot, a lot of people were fitting together.
+
+00:27:33.960 --> 00:27:38.600
+ So I had kind of a weird use case, open source made it possible to go in and contribute to
+
+00:27:38.600 --> 00:27:41.840
+ those projects and make it possible to do what I wanted to do.
+
+00:27:41.840 --> 00:27:44.360
+ So that's I think that's the biggest thing is just kind of like being off the beaten
+
+00:27:44.360 --> 00:27:48.560
+ path in terms of my stack in terms of things that interest me, this intersection of web
+
+00:27:48.560 --> 00:27:54.120
+ development and AWS, that really kind of like led me down a very pragmatic open source journey
+
+00:27:54.120 --> 00:27:55.120
+ if that makes sense.
+
+00:27:55.120 --> 00:27:56.120
+ Yeah.
+
+00:27:56.120 --> 00:27:59.520
+ And it sounds like in those situations you brought up, it is similar to what I was saying
+
+00:27:59.520 --> 00:28:04.680
+ earlier where you got in these into these projects, maybe a little bit earlier than when
+
+00:28:04.680 --> 00:28:09.840
+ they were maybe massive as they are now, and that's where all the opportunities to like
+
+00:28:09.840 --> 00:28:12.080
+ easily contribute show up, right?
+
+00:28:12.080 --> 00:28:13.080
+ Yeah.
+
+00:28:13.080 --> 00:28:18.160
+ I mean, the CDK is as a project, like anybody could go contribute to CDK because there's
+
+00:28:18.160 --> 00:28:22.920
+ just so much service area and like, if you know what the CDK is, it's like trying to
+
+00:28:22.920 --> 00:28:24.760
+ kind of like cover all of AWS.
+
+00:28:24.760 --> 00:28:29.160
+ So that's a huge great because it just focuses on like the 2% that you really need.
+
+00:28:29.160 --> 00:28:31.840
+ The CDK is like a wrap around cloud formation.
+
+00:28:31.840 --> 00:28:34.840
+ So there's just infinite work in that repo.
+
+00:28:34.840 --> 00:28:38.880
+ Like if you're in the AWS stuff and you need a repo to look at, there you go.
+
+00:28:38.880 --> 00:28:39.880
+ I don't know.
+
+00:28:39.880 --> 00:28:40.880
+ Does SST take contribution time?
+
+00:28:40.880 --> 00:28:43.240
+ Do you guys like actually have much community stuff?
+
+00:28:43.240 --> 00:28:44.640
+ No, we have a lot actually.
+
+00:28:44.640 --> 00:28:49.360
+ So there was a while where we just weren't accepting many contributions because our like
+
+00:28:49.360 --> 00:28:54.040
+ we as we discovered what we were building, there was just a lot of cruft and having people
+
+00:28:54.040 --> 00:28:56.960
+ contribute to areas that we know we were going to blow away just didn't really make
+
+00:28:56.960 --> 00:28:57.960
+ sense.
+
+00:28:57.960 --> 00:29:01.680
+ But as of 2.0, one of the biggest things I was excited about was we like restructured
+
+00:29:01.680 --> 00:29:02.680
+ everything.
+
+00:29:02.680 --> 00:29:05.880
+ And we were like, we're not super willing to take contributions.
+
+00:29:05.880 --> 00:29:10.560
+ And people contribute like the craziest things like they'll have gone so deep on something
+
+00:29:10.560 --> 00:29:12.680
+ and figured out something that would have taken me a whole day.
+
+00:29:12.680 --> 00:29:15.040
+ And I look at them like, this is incredible.
+
+00:29:15.040 --> 00:29:17.680
+ Like we are a team of three people.
+
+00:29:17.680 --> 00:29:21.200
+ And we literally could have never shipped this thing otherwise.
+
+00:29:21.200 --> 00:29:27.200
+ And it's a big reason why I think open source is great because you get like the super powers
+
+00:29:27.200 --> 00:29:28.400
+ for your company.
+
+00:29:28.400 --> 00:29:34.120
+ We have to be a much larger company, the ship is as much as we do now with the community's
+
+00:29:34.120 --> 00:29:35.120
+ help.
+
+00:29:35.120 --> 00:29:40.360
+ All right, you do the intro Adam.
+
+00:29:40.360 --> 00:29:41.360
+ Okay, fine.
+
+00:29:41.360 --> 00:29:42.360
+ Yeah, I tried to let you do it.
+
+00:29:42.360 --> 00:29:43.360
+ You did a terrible job.
+
+00:29:43.360 --> 00:29:44.360
+ So I'm going to do it.
+
+00:29:44.360 --> 00:29:48.800
+ So Dax, we have teach here, teach is huge in the open source community.
+
+00:29:48.800 --> 00:29:53.920
+ He's one of the core maintainers of Neil Vim and just happened to bump into him while
+
+00:29:53.920 --> 00:29:54.920
+ we're recording.
+
+00:29:54.920 --> 00:29:56.800
+ Like teach could come on and tell his story.
+
+00:29:56.800 --> 00:29:59.840
+ So teach, tell us more about how you got in open source.
+
+00:29:59.840 --> 00:30:03.960
+ Yeah, so it's kind of funny because it's a little bit similar to some of the stuff Dax
+
+00:30:03.960 --> 00:30:10.520
+ was saying I was in school at the time in college.
+
+00:30:10.520 --> 00:30:15.120
+ I didn't start programming till after like my sophomore year of college.
+
+00:30:15.120 --> 00:30:19.000
+ So I didn't, I didn't ever think I was going to write code.
+
+00:30:19.000 --> 00:30:23.880
+ And then I fell in love with writing code after I took one, took class at school.
+
+00:30:23.880 --> 00:30:29.440
+ So then during one of my internships during school, there was a guy there that I liked
+
+00:30:29.440 --> 00:30:33.040
+ a lot who was a big fan of VIM.
+
+00:30:33.040 --> 00:30:36.120
+ And I was like, I don't know anything about, like I didn't even know other texts that are
+
+00:30:36.120 --> 00:30:37.440
+ like editors existed.
+
+00:30:37.440 --> 00:30:40.640
+ Like all ideas is like a clips in our lab for computer science.
+
+00:30:40.640 --> 00:30:43.840
+ Like I had nobody in my life who knew programming.
+
+00:30:43.840 --> 00:30:45.560
+ I had no programming heroes.
+
+00:30:45.560 --> 00:30:47.240
+ I had no programming concepts.
+
+00:30:47.240 --> 00:30:54.400
+ I just like literally had taken, you know, two semesters worth of programming stuff, right.
+
+00:30:54.400 --> 00:31:00.160
+ So I got to know there was a big war between E-Max and them, none of that stuff.
+
+00:31:00.160 --> 00:31:01.480
+ But so he was really cool.
+
+00:31:01.480 --> 00:31:05.080
+ He was really productive, really great worker, loved working with him.
+
+00:31:05.080 --> 00:31:08.480
+ And so I was like, well, I want to kind of be like this guy, right?
+
+00:31:08.480 --> 00:31:09.480
+ So he used him.
+
+00:31:09.480 --> 00:31:10.560
+ So I was like, well, let's give it a go.
+
+00:31:10.560 --> 00:31:11.560
+ I don't know.
+
+00:31:11.560 --> 00:31:13.840
+ But at the time, Neil, then was just coming out.
+
+00:31:13.840 --> 00:31:18.240
+ And what I thought was super cool about that was that you could write plugins in Python.
+
+00:31:18.240 --> 00:31:25.240
+ And I was like, oh, my goodness, you can like write code, do stuff in your editor.
+
+00:31:25.240 --> 00:31:30.720
+ My mind was just blown, right, because like up until this time, you know, I just use like
+
+00:31:30.720 --> 00:31:31.720
+ a clips, right?
+
+00:31:31.720 --> 00:31:32.720
+ And everyone just hated it.
+
+00:31:32.720 --> 00:31:35.360
+ You're just like, well, just editors suck.
+
+00:31:35.360 --> 00:31:36.360
+ You'll never be happy.
+
+00:31:36.360 --> 00:31:39.280
+ It's just like the thing that happens.
+
+00:31:39.280 --> 00:31:42.560
+ And so then I get exposed to this kind of like, dude, I could just write Python.
+
+00:31:42.560 --> 00:31:44.880
+ I can like script stuff in my editor.
+
+00:31:44.880 --> 00:31:45.880
+ This is incredible.
+
+00:31:45.880 --> 00:31:49.160
+ So I started playing with it.
+
+00:31:49.160 --> 00:31:51.080
+ And then it was really funny.
+
+00:31:51.080 --> 00:31:57.600
+ We were so me and the other intern were downstairs like we had two buildings and like the other
+
+00:31:57.600 --> 00:32:02.560
+ one was we always call it the annex because it was like we just had the basement of the
+
+00:32:02.560 --> 00:32:05.200
+ building at this consulting firm.
+
+00:32:05.200 --> 00:32:09.800
+ So like we were down in the annex and we were just writing our VIMs a little, you know,
+
+00:32:09.800 --> 00:32:15.000
+ it was one time to do this.
+
+00:32:15.000 --> 00:32:20.440
+ And I wanted to do like, I wanted to put a status line thing in the middle of my status
+
+00:32:20.440 --> 00:32:21.440
+ line.
+
+00:32:21.440 --> 00:32:23.560
+ I just, I just like, you couldn't do it at the time.
+
+00:32:23.560 --> 00:32:27.440
+ The split for status line, where you could just have one and it just split it between
+
+00:32:27.440 --> 00:32:29.200
+ left and right side.
+
+00:32:29.200 --> 00:32:32.840
+ And so I was like, wow, I want to put something in the middle.
+
+00:32:32.840 --> 00:32:33.840
+ It seems kind of weird.
+
+00:32:33.840 --> 00:32:35.880
+ You can't do that.
+
+00:32:35.880 --> 00:32:38.520
+ Like literally, literally that was my whole thought process.
+
+00:32:38.520 --> 00:32:40.280
+ I didn't even know what pull requests were.
+
+00:32:40.280 --> 00:32:42.440
+ I didn't even really understand Git.
+
+00:32:42.440 --> 00:32:43.760
+ Like we, I don't even know.
+
+00:32:43.760 --> 00:32:46.840
+ We might have even been using for some of our projects at work.
+
+00:32:46.840 --> 00:32:52.880
+ We used like Mercurial and stuff because we were like a real full stack shop.
+
+00:32:52.880 --> 00:32:59.200
+ By that, I mean, we made hardware and firmware.
+
+00:32:59.200 --> 00:33:04.000
+ We made the stacks that ran for our customers, right?
+
+00:33:04.000 --> 00:33:06.400
+ And so we had to like check in binaries all the time, right?
+
+00:33:06.400 --> 00:33:08.800
+ Because you're like literally checking in firmware.
+
+00:33:08.800 --> 00:33:11.840
+ So anyways, so I like didn't even know Git or anything.
+
+00:33:11.840 --> 00:33:13.680
+ I just like go to this GitHub place.
+
+00:33:13.680 --> 00:33:15.200
+ I don't know what GitHub is.
+
+00:33:15.200 --> 00:33:17.000
+ I don't literally don't know anything.
+
+00:33:17.000 --> 00:33:20.120
+ There's like an issue about this and I'm like, that sounds cool.
+
+00:33:20.120 --> 00:33:24.160
+ And then I just like started, just started like right in some code.
+
+00:33:24.160 --> 00:33:26.000
+ I don't even know how I get cloned it.
+
+00:33:26.000 --> 00:33:29.960
+ I think I like probably copy and pasted eight different things to get it get cloned.
+
+00:33:29.960 --> 00:33:31.920
+ I don't know what's happening, you know?
+
+00:33:31.920 --> 00:33:32.920
+ Download the zip.
+
+00:33:32.920 --> 00:33:35.840
+ Yeah, like I don't think I downloaded the zip.
+
+00:33:35.840 --> 00:33:38.480
+ Because I think if I would have downloaded that, I would have been like, I don't know
+
+00:33:38.480 --> 00:33:41.720
+ how to get it from a zip to unzipped on Linux.
+
+00:33:41.720 --> 00:33:49.040
+ I don't know what I'm supposed to do next.
+
+00:33:49.040 --> 00:33:56.880
+ And so, you know, I make this PR, I can send a link later, but like I just had a good experience
+
+00:33:56.880 --> 00:33:57.880
+ there.
+
+00:33:57.880 --> 00:34:02.000
+ There were a lot of people in the Neovim community that were being like super helpful.
+
+00:34:02.000 --> 00:34:06.720
+ And I learned a ton of, like I learned more in that one PR and then like a lot of, you
+
+00:34:06.720 --> 00:34:11.120
+ know, other classes combined, you know, the classes provided the baseline that I needed
+
+00:34:11.120 --> 00:34:12.120
+ to do that PR.
+
+00:34:12.120 --> 00:34:18.120
+ But like doing that, you know, and they taught me about testing and like, I didn't know
+
+00:34:18.120 --> 00:34:23.200
+ what get rebased where I actually couldn't merge my PR at the time, like it didn't allow
+
+00:34:23.200 --> 00:34:26.400
+ maintainers to just like commit to a PR, right?
+
+00:34:26.400 --> 00:34:30.400
+ So like, I didn't know how to squash it or anything, like, and I had like a hundred commits,
+
+00:34:30.400 --> 00:34:34.320
+ you know, because I don't know what I'm doing.
+
+00:34:34.320 --> 00:34:39.640
+ So Justin was like, Justin's the maintainer of Neovim and he's like, it's okay, you know,
+
+00:34:39.640 --> 00:34:40.640
+ we'll sort it out.
+
+00:34:40.640 --> 00:34:45.000
+ And he like takes the, takes the PR and like goes and does whatever it took at the time
+
+00:34:45.000 --> 00:34:46.000
+ of, you know, I don't know.
+
+00:34:46.000 --> 00:34:49.440
+ He just cherry picked it, I'm sure, and then squashed it and then like push.
+
+00:34:49.440 --> 00:34:51.520
+ But it got merged.
+
+00:34:51.520 --> 00:34:55.320
+ And that was the first time that I did anything with open source stuff.
+
+00:34:55.320 --> 00:35:01.480
+ So there wasn't any like philosophical, you know, sort of everything should be free and
+
+00:35:01.480 --> 00:35:03.320
+ open kind of thing to start with.
+
+00:35:03.320 --> 00:35:06.880
+ I just literally didn't even think about anything.
+
+00:35:06.880 --> 00:35:07.880
+ You know what I mean?
+
+00:35:07.880 --> 00:35:10.240
+ You're just like, I just want to have my status line look this way and I can't.
+
+00:35:10.240 --> 00:35:13.080
+ So God, just write some code.
+
+00:35:13.080 --> 00:35:14.320
+ I think I can do this.
+
+00:35:14.320 --> 00:35:16.040
+ And then, and then it happened.
+
+00:35:16.040 --> 00:35:17.040
+ And then it got merged.
+
+00:35:17.040 --> 00:35:18.040
+ And it's there.
+
+00:35:18.040 --> 00:35:19.600
+ So you can use it today.
+
+00:35:19.600 --> 00:35:20.600
+ Yeah.
+
+00:35:20.600 --> 00:35:22.080
+ Your whole career then has mostly been an open source.
+
+00:35:22.080 --> 00:35:25.960
+ Like you, it was the beginning is what it sounds like, very beginning of your career.
+
+00:35:25.960 --> 00:35:26.960
+ Yeah.
+
+00:35:26.960 --> 00:35:31.520
+ Well, so like, so then I, I worked at a place where we used some open source tools and
+
+00:35:31.520 --> 00:35:35.880
+ we contributed some things back a little bit when I was at that consulting place.
+
+00:35:35.880 --> 00:35:39.760
+ And then I went to work for Epic, their medical health records company and we didn't do anything
+
+00:35:39.760 --> 00:35:41.320
+ to open source.
+
+00:35:41.320 --> 00:35:42.320
+ And that was fine.
+
+00:35:42.320 --> 00:35:44.880
+ Like I just didn't like working at a big company mostly.
+
+00:35:44.880 --> 00:35:45.880
+ Were you at there?
+
+00:35:45.880 --> 00:35:46.880
+ Were you at their campus?
+
+00:35:46.880 --> 00:35:48.480
+ And I feel where it is.
+
+00:35:48.480 --> 00:35:49.480
+ Yeah.
+
+00:35:49.480 --> 00:35:50.480
+ Yeah.
+
+00:35:50.480 --> 00:35:51.480
+ So I moved to Wisconsin for a little while.
+
+00:35:51.480 --> 00:35:57.240
+ They get a lot of sort of like unnecessary hate just because they use old old tech and
+
+00:35:57.240 --> 00:35:58.240
+ stuff like that.
+
+00:35:58.240 --> 00:36:01.080
+ But it's a, I don't know, I thought it was fine.
+
+00:36:01.080 --> 00:36:05.640
+ And they're mission like of companies, they're trying to make software that like helps people
+
+00:36:05.640 --> 00:36:06.640
+ get better.
+
+00:36:06.640 --> 00:36:07.640
+ I don't know.
+
+00:36:07.640 --> 00:36:08.640
+ It seems pretty.
+
+00:36:08.640 --> 00:36:09.640
+ It seems pretty good.
+
+00:36:09.640 --> 00:36:12.800
+ Like all the, all the people who's like, oh, you know, I work at meta.
+
+00:36:12.800 --> 00:36:16.120
+ My goal is to make sure that you hate your life and keep scrolling here.
+
+00:36:16.120 --> 00:36:19.200
+ I'm like, wow, I'm glad you use react.
+
+00:36:19.200 --> 00:36:23.360
+ But maybe you guys should like do something good instead of the world.
+
+00:36:23.360 --> 00:36:28.320
+ But I don't know this is so, so I'm the one that gets flamed, you know, because we use
+
+00:36:28.320 --> 00:36:32.200
+ weird languages, but it seemed like Epic was trying to do some good things.
+
+00:36:32.200 --> 00:36:35.080
+ You should probably clarify that it's Epic, the EMR company.
+
+00:36:35.080 --> 00:36:36.080
+ Yeah.
+
+00:36:36.080 --> 00:36:37.080
+ Yeah.
+
+00:36:37.080 --> 00:36:38.080
+ Yeah.
+
+00:36:38.080 --> 00:36:39.080
+ Not the game company.
+
+00:36:39.080 --> 00:36:40.080
+ Yeah.
+
+00:36:40.080 --> 00:36:41.080
+ Yeah.
+
+00:36:41.080 --> 00:36:44.960
+ So, so then I moved when we moved back, I worked for a different place and like started to
+
+00:36:44.960 --> 00:36:49.680
+ transition back into getting more like in, into doing open source stuff.
+
+00:36:49.680 --> 00:36:52.080
+ And I was contributing a lot more than any of them.
+
+00:36:52.080 --> 00:36:55.320
+ Like at that time, and then now I work for source graph and we're an open source company.
+
+00:36:55.320 --> 00:37:01.000
+ So, but I'm not like, like I said, I'm not like philosophically opposed to closed source.
+
+00:37:01.000 --> 00:37:07.000
+ I think that a lot of times like it's not super worth it, but it also, I can understand
+
+00:37:07.000 --> 00:37:10.720
+ there's, there's also a lot of things that are easier when like it's not open source.
+
+00:37:10.720 --> 00:37:15.640
+ Like you can just break stuff whenever you feel like, or oops, I committed a key or there's
+
+00:37:15.640 --> 00:37:20.440
+ like a lot of stuff that, that you don't have some problems with that you do when things
+
+00:37:20.440 --> 00:37:21.440
+ are open source.
+
+00:37:21.440 --> 00:37:22.440
+ Yeah.
+
+00:37:22.440 --> 00:37:25.560
+ I was going to ask if you like being so immersed, you're the person I know that's the most
+
+00:37:25.560 --> 00:37:26.560
+ end open source.
+
+00:37:26.560 --> 00:37:30.000
+ Like, did you start to develop that philosophical view?
+
+00:37:30.000 --> 00:37:34.280
+ I kind of know we started eating plants for like health reasons, moved away from any animal.
+
+00:37:34.280 --> 00:37:37.720
+ And then like eventually it's like, oh, animal welfare, we care about that stuff now.
+
+00:37:37.720 --> 00:37:40.640
+ Like I wondered if like it kind of grew on you or where you're at.
+
+00:37:40.640 --> 00:37:46.600
+ I mean, I've like definitely had some like politics and things change from when I was
+
+00:37:46.600 --> 00:37:51.840
+ like in college till now I would say, but a lot of the stuff around that, like I just
+
+00:37:51.840 --> 00:37:56.160
+ think people should, I think people should be able to write code however they want that
+
+00:37:56.160 --> 00:38:00.440
+ includes like they should be allowed to write code open or like closed source.
+
+00:38:00.440 --> 00:38:05.600
+ And if other people want to run closed source code, then that's totally fine.
+
+00:38:05.600 --> 00:38:09.720
+ But I do think like there's a lot of benefits from having code open source.
+
+00:38:09.720 --> 00:38:13.920
+ So I think like on a practical or like Dax, you mentioned that lots of times that you
+
+00:38:13.920 --> 00:38:18.120
+ can make systems where people act in their own best interest and it's still in the interest
+
+00:38:18.120 --> 00:38:19.120
+ of others.
+
+00:38:19.120 --> 00:38:22.360
+ Like I think open source is a lot of can be like that in a lot of ways.
+
+00:38:22.360 --> 00:38:26.120
+ Yeah, with that news, I mean, we're, we're kind of like trying to start thinking about
+
+00:38:26.120 --> 00:38:31.320
+ doing things open and opening up repos and I think like we realized we never had a reason
+
+00:38:31.320 --> 00:38:32.320
+ not to.
+
+00:38:32.320 --> 00:38:36.440
+ Kind of like superficial reasons we thought in our mind that it was a bad idea.
+
+00:38:36.440 --> 00:38:39.800
+ I guess on the other side, I wonder though, like who would benefit from looking at some
+
+00:38:39.800 --> 00:38:40.800
+ of these code bases now?
+
+00:38:40.800 --> 00:38:44.720
+ Like they're so gnarly and old that I don't know if anybody's going to learn anything,
+
+00:38:44.720 --> 00:38:46.200
+ but I'm not opposed.
+
+00:38:46.200 --> 00:38:51.000
+ Yeah, I think like people sometimes don't really want to grapple with the fact that open
+
+00:38:51.000 --> 00:38:56.160
+ sourcing something does have a cost, like it's not free, especially if you want to take
+
+00:38:56.160 --> 00:38:57.160
+ that seriously.
+
+00:38:57.160 --> 00:39:00.560
+ If you want to take open sourcing, it's seriously like someone makes an issue and you need
+
+00:39:00.560 --> 00:39:01.560
+ to reply.
+
+00:39:01.560 --> 00:39:06.760
+ Someone's like not necessarily a customer or maybe never will be and like that's going
+
+00:39:06.760 --> 00:39:10.240
+ to be time that you could have been spent building your next feature for customers.
+
+00:39:10.240 --> 00:39:11.240
+ Yeah.
+
+00:39:11.240 --> 00:39:15.560
+ So like that's where like, like I said, like I just don't think things have to be open
+
+00:39:15.560 --> 00:39:16.560
+ source.
+
+00:39:16.560 --> 00:39:22.440
+ Although I do tend to prefer like I prefer liking things that are open source alternatives,
+
+00:39:22.440 --> 00:39:28.480
+ but like I also use like, you know, I have a Gmail, you know what I mean?
+
+00:39:28.480 --> 00:39:36.000
+ Okay, now this is one thing I like about your story is just how random and unintentional
+
+00:39:36.000 --> 00:39:37.000
+ it all was.
+
+00:39:37.000 --> 00:39:40.520
+ Because I think when people look at someone like you or just in general, people that are
+
+00:39:40.520 --> 00:39:43.760
+ like really far down their career, whether it's almost open source or anything else,
+
+00:39:43.760 --> 00:39:49.040
+ they're like, Oh, this person like followed this like perfect planche path to like get
+
+00:39:49.040 --> 00:39:50.560
+ to where they are now.
+
+00:39:50.560 --> 00:39:52.160
+ But so much of things are just random.
+
+00:39:52.160 --> 00:39:54.280
+ You just have to like mess around with something randomly.
+
+00:39:54.280 --> 00:39:55.280
+ Yeah, exactly.
+
+00:39:55.280 --> 00:39:59.520
+ And like it ends up 10 years later, you're in like a crazy place in your life because
+
+00:39:59.520 --> 00:40:00.520
+ of it.
+
+00:40:00.520 --> 00:40:01.520
+ So you just can't plan a lot of these things.
+
+00:40:01.520 --> 00:40:07.400
+ Yeah, a lot of it though does have to do with like you want to be aware of like what
+
+00:40:07.400 --> 00:40:09.400
+ you're feeling and thinking about something.
+
+00:40:09.400 --> 00:40:10.400
+ Right.
+
+00:40:10.400 --> 00:40:12.280
+ So like what I found was that I was enjoying these things.
+
+00:40:12.280 --> 00:40:17.800
+ And so like I was able to introspect what parts of programming I liked or didn't like
+
+00:40:17.800 --> 00:40:22.120
+ and then went for the things that I liked and was passionate about.
+
+00:40:22.120 --> 00:40:25.160
+ And then that was like an intentional aspect of it.
+
+00:40:25.160 --> 00:40:29.840
+ So, you know, there's like a parallel world where I follow them up with emacs and like
+
+00:40:29.840 --> 00:40:32.960
+ become a core contributor of emacs.
+
+00:40:32.960 --> 00:40:36.800
+ And that also would have been fun, I think, like because I think emacs has a lot of the
+
+00:40:36.800 --> 00:40:39.560
+ same principles that any of them does.
+
+00:40:39.560 --> 00:40:44.200
+ But you know, what was important was that I was like analyzing what I felt and was thinking
+
+00:40:44.200 --> 00:40:49.680
+ and then went for those things instead of just like accepting whatever it was that was
+
+00:40:49.680 --> 00:40:50.680
+ happening.
+
+00:40:50.680 --> 00:40:58.360
+ People who were working at Epic who were really happy to just like get some design doc have
+
+00:40:58.360 --> 00:41:03.840
+ to go through eight meetings with that design doc, get all the sign offs, get it approved,
+
+00:41:03.840 --> 00:41:08.600
+ implement said design doc, walk it through the three stages of, you know, environments
+
+00:41:08.600 --> 00:41:11.880
+ and then get it shipped and then wait 16 months for the next release.
+
+00:41:11.880 --> 00:41:15.240
+ And that was like, they were like happy with that, you know, but like not in it.
+
+00:41:15.240 --> 00:41:16.240
+ I'm not saying it's bad.
+
+00:41:16.240 --> 00:41:17.240
+ You know what I'm saying?
+
+00:41:17.240 --> 00:41:18.240
+ It's just like they were happy with that.
+
+00:41:18.240 --> 00:41:21.760
+ They were recognized like earlier on that this isn't fun.
+
+00:41:21.760 --> 00:41:25.320
+ I don't feel like I'm learning the things I want to learn about and stuff like that.
+
+00:41:25.320 --> 00:41:26.480
+ And so then I left, right.
+
+00:41:26.480 --> 00:41:30.800
+ So there's like a big, there is still while like the serendipity is there, you want to
+
+00:41:30.800 --> 00:41:36.840
+ be cognizant of what you feel and what you're interested in doing so that like you can when
+
+00:41:36.840 --> 00:41:40.320
+ you're 10 years later be like, yeah, I am where I wanted to be as much as possible.
+
+00:41:40.320 --> 00:41:42.160
+ You know, life happens and you don't always get to choose.
+
+00:41:42.160 --> 00:41:45.920
+ But yeah, I don't know if any listeners are a little depressed after this episode, like
+
+00:41:45.920 --> 00:41:49.960
+ I am now that I know Teij started programming late in life.
+
+00:41:49.960 --> 00:41:53.120
+ I thought you were, I thought you were into it way earlier.
+
+00:41:53.120 --> 00:41:54.280
+ I was late in life.
+
+00:41:54.280 --> 00:41:58.320
+ Like I was like you in college, but like people watch me program and they don't have, they
+
+00:41:58.320 --> 00:41:59.320
+ don't question that.
+
+00:41:59.320 --> 00:42:00.320
+ It's like, yeah, sure.
+
+00:42:00.320 --> 00:42:01.320
+ He started late.
+
+00:42:01.320 --> 00:42:05.840
+ But they see people like you and they think he's been doing this since he was seven turns
+
+00:42:05.840 --> 00:42:06.840
+ out now.
+
+00:42:06.840 --> 00:42:09.080
+ So it was the end of my sophomore year.
+
+00:42:09.080 --> 00:42:13.680
+ So I went to like a smaller Christian liberal arts college and I was doing mechanical engineering.
+
+00:42:13.680 --> 00:42:17.040
+ But like for engineers, they all have to take some coding courses.
+
+00:42:17.040 --> 00:42:21.200
+ It was like part of my curriculum that I had to take one.
+
+00:42:21.200 --> 00:42:23.520
+ So I took one at the end of my sophomore year.
+
+00:42:23.520 --> 00:42:26.720
+ So I would have been, I don't know what is that like 20.
+
+00:42:26.720 --> 00:42:29.680
+ So I guess maybe next year I'll have been programming for 10 years.
+
+00:42:29.680 --> 00:42:30.680
+ Wow.
+
+00:42:30.680 --> 00:42:31.680
+ Okay.
+
+00:42:31.680 --> 00:42:32.680
+ I hate myself.
+
+00:42:32.680 --> 00:42:33.680
+ Sorry.
+
+00:42:33.680 --> 00:42:36.680
+ This has been good though.
+
+00:42:36.680 --> 00:42:37.680
+ I don't get that a lot.
+
+00:42:37.680 --> 00:42:38.680
+ I don't feel that way.
+
+00:42:38.680 --> 00:42:40.280
+ I don't feel the way I'm feeling right now.
+
+00:42:40.280 --> 00:42:44.680
+ I don't have a lot of feelings, but to each being new to programming.
+
+00:42:44.680 --> 00:42:45.680
+ Yeah.
+
+00:42:45.680 --> 00:42:46.680
+ Okay.
+
+00:42:46.680 --> 00:42:47.680
+ This is special.
+
+00:42:47.680 --> 00:42:48.680
+ You're the first teach.
+
+00:42:48.680 --> 00:42:49.680
+ You're the first person who's come on our show.
+
+00:42:49.680 --> 00:42:50.680
+ Nice.
+
+00:42:50.680 --> 00:42:51.680
+ It's not me or Dax.
+
+00:42:51.680 --> 00:42:52.680
+ First guest.
+
+00:42:52.680 --> 00:42:53.680
+ Very cool.
+
+00:42:53.680 --> 00:42:54.680
+ Well, this has been good.
+
+00:42:54.680 --> 00:42:55.680
+ Teach.
+
+00:42:55.680 --> 00:42:56.680
+ Thank you so much for coming on.
+
+00:42:56.680 --> 00:43:00.080
+ I know people are going to get a lot out of this, this particular episode you sharing
+
+00:43:00.080 --> 00:43:01.080
+ your story.
+
+00:43:01.080 --> 00:43:02.080
+ Yeah.
+
+00:43:02.080 --> 00:43:03.080
+ Open source.
+
+00:43:03.080 --> 00:43:04.080
+ Good.
+
+00:43:04.080 --> 00:43:05.080
+ I think that's takeaway.
+
+00:43:05.080 --> 00:43:06.080
+ Contribute.
+
+00:43:06.080 --> 00:43:07.080
+ Get involved in communities.
+
+00:43:07.080 --> 00:43:08.080
+ Build stuff you want to see.
+
+00:43:08.080 --> 00:43:13.880
+ Play to build something and depending on the project, it's possible to get sort of an outsized
+
+00:43:13.880 --> 00:43:16.000
+ amount of mentorship, which is really nice.
+
+00:43:16.000 --> 00:43:20.760
+ Like if you show a lot of passion and go getting, people are quite willing on a lot
+
+00:43:20.760 --> 00:43:22.960
+ of projects to like respond in kind.
+
+00:43:22.960 --> 00:43:27.600
+ So it can be a very outsized effect on your learning and like your learning speed.
+
+00:43:27.600 --> 00:43:28.600
+ Good stuff.
+
+00:43:28.600 --> 00:43:29.600
+ Cool.
+
+00:43:29.600 --> 00:43:30.600
+ All right.
+
+00:43:30.600 --> 00:43:31.600
+ Yeah.
+
+00:43:31.600 --> 00:43:32.600
+ Bye.
+
+00:43:32.600 --> 00:43:33.600
+ All right.
+
+00:43:33.600 --> 00:43:42.960
+ Thank you.
+

@@ -1,0 +1,3326 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.580
+ (upbeat music)
+
+00:00:02.580 --> 00:00:25.100
+ So for those of you that know me,
+
+00:00:25.100 --> 00:00:29.020
+ I have probably mentioned linear once, twice,
+
+00:00:29.020 --> 00:00:32.020
+ maybe five dozen times.
+
+00:00:32.020 --> 00:00:34.180
+ It is a product that I've been obsessed with
+
+00:00:34.180 --> 00:00:35.440
+ for several years.
+
+00:00:35.440 --> 00:00:37.980
+ One, and for two reasons, really.
+
+00:00:37.980 --> 00:00:41.340
+ The first one being the business is fairly interesting.
+
+00:00:41.340 --> 00:00:43.700
+ I think they took a strategy that is pretty counter
+
+00:00:43.700 --> 00:00:47.540
+ to what most of the advice that you hear today is.
+
+00:00:47.540 --> 00:00:49.740
+ And it's influenced pretty much everything I do.
+
+00:00:49.740 --> 00:00:52.860
+ And then two, I believe that it's actually
+
+00:00:52.860 --> 00:00:55.980
+ probably the best web app that I have ever seen.
+
+00:00:55.980 --> 00:00:59.220
+ I have far margin, particularly because they use
+
+00:00:59.220 --> 00:01:03.140
+ a fairly unique architecture that is not really well known
+
+00:01:03.140 --> 00:01:07.460
+ and is quite different from where, like the status quo
+
+00:01:07.460 --> 00:01:10.700
+ and what generally web developers think about.
+
+00:01:10.700 --> 00:01:13.340
+ So with that teaser, I'd like to welcome
+
+00:01:13.340 --> 00:01:17.820
+ Tomas Artman, co-founder and CTO of linear.
+
+00:01:17.820 --> 00:01:18.660
+ How are you doing today?
+
+00:01:18.660 --> 00:01:20.140
+ - Doing good. Thanks so much for having me.
+
+00:01:20.140 --> 00:01:21.060
+ - For those of you that don't know,
+
+00:01:21.060 --> 00:01:23.140
+ linear is a project management tool.
+
+00:01:23.140 --> 00:01:26.780
+ And this is not a unique idea every developer in the world
+
+00:01:26.780 --> 00:01:28.780
+ has probably at some point hated their project management
+
+00:01:28.780 --> 00:01:31.620
+ tool has had an idea to start a new one.
+
+00:01:31.620 --> 00:01:34.060
+ There are dozens, if not, and maybe 100,
+
+00:01:34.060 --> 00:01:35.540
+ I don't know what the market size is.
+
+00:01:35.540 --> 00:01:38.140
+ Not a unique idea at all.
+
+00:01:38.140 --> 00:01:40.900
+ So it feels weird to start a company saying,
+
+00:01:40.900 --> 00:01:44.100
+ I am going to build yet another project management tool.
+
+00:01:44.100 --> 00:01:45.980
+ And it's shocking to see that that actually
+
+00:01:45.980 --> 00:01:47.060
+ was quite successful.
+
+00:01:47.060 --> 00:01:51.820
+ So I'd love to hear about the original,
+
+00:01:51.820 --> 00:01:54.100
+ kind of at the beginning, when you chose to find a company,
+
+00:01:54.100 --> 00:01:55.180
+ what was the mindset?
+
+00:01:55.180 --> 00:01:56.540
+ How are you guys thinking about it?
+
+00:01:56.540 --> 00:01:58.740
+ - It was actually pretty interesting.
+
+00:01:58.740 --> 00:02:02.340
+ It took us a while to sort of get behind the idea
+
+00:02:02.340 --> 00:02:07.220
+ of doing project management or software for project management.
+
+00:02:07.220 --> 00:02:09.820
+ 'Cause ultimately, like in the beginning,
+
+00:02:09.820 --> 00:02:12.700
+ we thought it was a pretty boring space to be in.
+
+00:02:12.700 --> 00:02:17.460
+ Like the founders, we all came from sort of consumer companies.
+
+00:02:17.460 --> 00:02:19.500
+ I was working at Uber back in the day.
+
+00:02:19.500 --> 00:02:22.900
+ Jory was at Coinbase and Kari was at Airbnb.
+
+00:02:22.900 --> 00:02:27.180
+ And we started talking probably like six years ago now
+
+00:02:27.180 --> 00:02:29.460
+ with Jory about sort of the state of issue tracking
+
+00:02:29.460 --> 00:02:32.780
+ and project management at all of these companies.
+
+00:02:32.780 --> 00:02:37.380
+ I think Uber was using Fabricator for sort of engineering.
+
+00:02:37.380 --> 00:02:41.260
+ They were moving, essentially over to Jira,
+
+00:02:41.260 --> 00:02:43.620
+ just after I left.
+
+00:02:43.620 --> 00:02:46.140
+ Coinbase was using, I think, GitHub issues,
+
+00:02:46.140 --> 00:02:48.700
+ but moved over to Jira as well pretty quickly.
+
+00:02:48.700 --> 00:02:51.700
+ And Airbnb was on Jira from the get-go.
+
+00:02:51.700 --> 00:02:54.660
+ And so I think it was me and Jory
+
+00:02:54.660 --> 00:02:58.380
+ who started talking about sort of like the sense
+
+00:02:58.380 --> 00:03:02.060
+ that we have gotten from the state of project management
+
+00:03:02.060 --> 00:03:04.580
+ at these product companies.
+
+00:03:04.580 --> 00:03:09.020
+ And we sort of felt that ICs really didn't enjoy
+
+00:03:09.020 --> 00:03:10.380
+ and didn't like what they were using.
+
+00:03:10.380 --> 00:03:15.380
+ And it was usually mandated by sort of product management
+
+00:03:15.380 --> 00:03:18.140
+ or project managers or middle management.
+
+00:03:18.140 --> 00:03:19.820
+ And then sort of engineers in your ICs
+
+00:03:19.820 --> 00:03:23.340
+ just had to use whatever tool the middle management
+
+00:03:23.340 --> 00:03:24.820
+ came up with.
+
+00:03:24.820 --> 00:03:28.060
+ And we continued hearing from all these different companies
+
+00:03:28.060 --> 00:03:31.220
+ that we just randomly chatted with
+
+00:03:31.220 --> 00:03:36.220
+ that ICs really were underserved by the issue tracking needs
+
+00:03:36.220 --> 00:03:39.740
+ or by the needs of their project management.
+
+00:03:39.740 --> 00:03:43.580
+ Like two ICs project management is very different
+
+00:03:43.580 --> 00:03:48.580
+ than for your product managers or managers per se
+
+00:03:48.580 --> 00:03:51.980
+ 'cause you're just working off of a list of things
+
+00:03:51.980 --> 00:03:52.980
+ that you need to do.
+
+00:03:52.980 --> 00:03:56.900
+ So your visibility and your sort of interaction
+
+00:03:56.900 --> 00:03:58.980
+ with the tool is much more constrained
+
+00:03:58.980 --> 00:04:01.740
+ than when you're planning out what you wanna build
+
+00:04:01.740 --> 00:04:02.740
+ at a large company.
+
+00:04:02.740 --> 00:04:06.620
+ And it seemed to us that none of the existing tools
+
+00:04:06.620 --> 00:04:10.260
+ were really servicing the market of ICs.
+
+00:04:11.180 --> 00:04:16.180
+ And for the longest time we're just sort of wondering
+
+00:04:16.180 --> 00:04:20.020
+ about why nobody has tackled the market
+
+00:04:20.020 --> 00:04:23.020
+ from the side of the IC.
+
+00:04:23.020 --> 00:04:26.700
+ Why nobody has come up with a tool for ICs
+
+00:04:26.700 --> 00:04:29.740
+ and tool that ICs will be happy to use.
+
+00:04:29.740 --> 00:04:33.460
+ And it seemed like sort of a great market opportunity
+
+00:04:33.460 --> 00:04:35.420
+ and great opportunity to build something
+
+00:04:35.420 --> 00:04:38.660
+ you would immediately have quite a few customers
+
+00:04:38.660 --> 00:04:39.820
+ in the smaller segment.
+
+00:04:39.820 --> 00:04:43.700
+ Like if you started targeting smaller startups
+
+00:04:43.700 --> 00:04:46.540
+ or companies with less than 50 employees,
+
+00:04:46.540 --> 00:04:49.660
+ you would sort of be able to quite quickly
+
+00:04:49.660 --> 00:04:52.060
+ come up with a product that would be useful for them.
+
+00:04:52.060 --> 00:04:54.860
+ And it took us a while to actually jump on this
+
+00:04:54.860 --> 00:04:58.060
+ 'cause as I said, like we found the idea
+
+00:04:58.060 --> 00:05:00.540
+ of working on project management for the next years,
+
+00:05:00.540 --> 00:05:01.700
+ quite boring.
+
+00:05:01.700 --> 00:05:06.460
+ And the space itself wasn't really enticing to us.
+
+00:05:06.460 --> 00:05:09.700
+ And even more when we talked with Kari,
+
+00:05:09.700 --> 00:05:13.020
+ Kari was even more sort of not very interested
+
+00:05:13.020 --> 00:05:16.380
+ in the space being a designer himself.
+
+00:05:16.380 --> 00:05:20.340
+ But I don't know what's led to the realization
+
+00:05:20.340 --> 00:05:22.580
+ but we at some point understood that it's not really
+
+00:05:22.580 --> 00:05:27.180
+ about project management or issue tracking or any of that.
+
+00:05:27.180 --> 00:05:28.900
+ There's an underlying mission behind
+
+00:05:28.900 --> 00:05:31.020
+ sort of what we actually wanted to achieve
+
+00:05:31.020 --> 00:05:33.020
+ which was helping product companies
+
+00:05:33.020 --> 00:05:35.180
+ be better at building and shipping product.
+
+00:05:35.180 --> 00:05:37.940
+ And that felt like something that we could sink our teeth
+
+00:05:37.940 --> 00:05:41.220
+ into and that we felt was much more interesting
+
+00:05:41.220 --> 00:05:43.420
+ and was a mission that we could get behind
+
+00:05:43.420 --> 00:05:47.100
+ and work on for the next 10 or so years.
+
+00:05:47.100 --> 00:05:50.020
+ And with that realization, we started sort of
+
+00:05:50.020 --> 00:05:53.140
+ to sink our teeth into issue tracking at first
+
+00:05:53.140 --> 00:05:55.940
+ 'cause again, that's the way to get to the market
+
+00:05:55.940 --> 00:05:58.780
+ is to build an issue tracker
+
+00:05:58.780 --> 00:06:02.340
+ 'cause you immediately had all the smaller startups
+
+00:06:02.340 --> 00:06:05.580
+ that would enjoy using the products and where
+
+00:06:05.580 --> 00:06:06.900
+ the product could be useful.
+
+00:06:06.900 --> 00:06:11.460
+ And once you started working with the startups,
+
+00:06:11.460 --> 00:06:13.580
+ those people are usually very vocal
+
+00:06:13.580 --> 00:06:15.460
+ and you can sort of easily chat with them
+
+00:06:15.460 --> 00:06:19.940
+ and sort of understand, get understanding what they need
+
+00:06:19.940 --> 00:06:24.460
+ and startups hopefully grow as time passes.
+
+00:06:24.460 --> 00:06:26.740
+ So as they grow, so that's our functionality
+
+00:06:26.740 --> 00:06:28.700
+ and features that need to grow as well.
+
+00:06:28.700 --> 00:06:31.220
+ So from the start, I think we call ourselves
+
+00:06:31.220 --> 00:06:34.740
+ an issue tracker for the first two years of our existence.
+
+00:06:34.740 --> 00:06:36.540
+ But if you always knew that we wanted to do something,
+
+00:06:36.540 --> 00:06:39.420
+ something different, something more than project management,
+
+00:06:39.420 --> 00:06:41.340
+ issue tracking and even something more than project
+
+00:06:41.340 --> 00:06:46.260
+ management, we wanted to change how companies build product.
+
+00:06:46.260 --> 00:06:49.300
+ And in a sense, that was sort of a selfish
+
+00:06:49.300 --> 00:06:52.820
+ selfish mission as well 'cause we're users of software
+
+00:06:52.820 --> 00:06:56.180
+ and we sort of have these pivotal moments in our lives
+
+00:06:56.180 --> 00:06:59.820
+ when we've used new hardware or new software
+
+00:06:59.820 --> 00:07:01.580
+ that has literally changed our lives
+
+00:07:01.580 --> 00:07:03.620
+ like the first time we saw iOS for example
+
+00:07:03.620 --> 00:07:07.100
+ and used iOS ourselves felt super magical.
+
+00:07:07.100 --> 00:07:08.980
+ Not so much in the recent 10 years,
+
+00:07:08.980 --> 00:07:11.460
+ like we don't think much has happened.
+
+00:07:11.460 --> 00:07:15.340
+ I don't know why, but maybe it is because, yeah,
+
+00:07:15.340 --> 00:07:20.380
+ people have become less good at building products
+
+00:07:20.380 --> 00:07:24.340
+ or trying to do new things.
+
+00:07:24.340 --> 00:07:27.100
+ And we just thought that if you can build an issue tracker
+
+00:07:27.100 --> 00:07:30.180
+ that feels magical and feels like an application
+
+00:07:30.180 --> 00:07:33.180
+ that people would look up to, then there's really no reason
+
+00:07:33.180 --> 00:07:37.220
+ for anybody else to sort of do something less good.
+
+00:07:37.220 --> 00:07:40.340
+ If your issue tracker is something that you enjoy using
+
+00:07:40.340 --> 00:07:42.740
+ and that you look up to as a piece of software,
+
+00:07:42.740 --> 00:07:45.540
+ then hopefully that is a motivation for you as well
+
+00:07:45.540 --> 00:07:46.780
+ to build better software.
+
+00:07:46.780 --> 00:07:50.460
+ - Yeah, and I can't understand how true that ended up being.
+
+00:07:50.460 --> 00:07:55.460
+ Like I said, we started, so prior to using linear
+
+00:07:56.060 --> 00:07:58.220
+ for everything, the initial point you made about
+
+00:07:58.220 --> 00:08:00.780
+ a lack of focus on ICs is a really good one.
+
+00:08:00.780 --> 00:08:03.700
+ I tried a bunch of tools and we actually settled
+
+00:08:03.700 --> 00:08:07.380
+ on just using Airtable because we couldn't really find a tool
+
+00:08:07.380 --> 00:08:11.980
+ that as an IC, typically what you wanna see is you wake up,
+
+00:08:11.980 --> 00:08:14.220
+ you see the list of tasks for you in like a very clear way
+
+00:08:14.220 --> 00:08:15.260
+ and you can not come out.
+
+00:08:15.260 --> 00:08:17.700
+ And then as someone that's in a different role,
+
+00:08:17.700 --> 00:08:20.300
+ you need to see like a cross and plan across people
+
+00:08:20.300 --> 00:08:22.100
+ and you're right, like very few tools really just thought
+
+00:08:22.100 --> 00:08:23.740
+ about it in that simple way.
+
+00:08:23.740 --> 00:08:25.060
+ And we just ended up using Airtable
+
+00:08:25.060 --> 00:08:27.340
+ because we were able to create the views that we needed
+
+00:08:27.340 --> 00:08:29.980
+ for the project managers and the views that we needed
+
+00:08:29.980 --> 00:08:32.100
+ for the day-to-day.
+
+00:08:32.100 --> 00:08:34.860
+ So finding linear was excellent
+
+00:08:34.860 --> 00:08:38.020
+ 'cause it kind of served exactly those two purposes.
+
+00:08:38.020 --> 00:08:40.780
+ And yeah, like once we started using it,
+
+00:08:40.780 --> 00:08:42.820
+ I was like, this tool is so good.
+
+00:08:42.820 --> 00:08:45.420
+ Why have I never cared about all these little details
+
+00:08:45.420 --> 00:08:46.260
+ that they got right?
+
+00:08:46.260 --> 00:08:48.180
+ And my software just kind of became better.
+
+00:08:48.180 --> 00:08:50.940
+ Like once you see it, you can't unsee it.
+
+00:08:50.940 --> 00:08:51.940
+ Now that I know that it exists,
+
+00:08:51.940 --> 00:08:54.580
+ like am I really gonna not shoot for something
+
+00:08:54.580 --> 00:08:55.460
+ of that quality?
+
+00:08:55.460 --> 00:08:58.380
+ So yeah, I don't know why it hasn't been as common,
+
+00:08:58.380 --> 00:09:00.980
+ but it might be as simple as like just people
+
+00:09:00.980 --> 00:09:02.780
+ just weren't thinking about it.
+
+00:09:02.780 --> 00:09:03.940
+ And now that they're thinking about it,
+
+00:09:03.940 --> 00:09:06.060
+ there's kind of like a breakthrough.
+
+00:09:06.060 --> 00:09:09.100
+ So yeah, I think that intention has only been successful.
+
+00:09:09.100 --> 00:09:13.340
+ - Yeah, I know it's easy to sort of, you know, not know
+
+00:09:13.340 --> 00:09:15.700
+ or not care about the user experience.
+
+00:09:15.700 --> 00:09:18.420
+ Like when you're looking for product market fit,
+
+00:09:18.420 --> 00:09:21.660
+ like you're not, you don't want to sort of, you know,
+
+00:09:21.660 --> 00:09:23.500
+ spend your time, you know, polishing the product
+
+00:09:23.500 --> 00:09:26.260
+ when you don't know if you're gonna succeed or not.
+
+00:09:26.260 --> 00:09:28.460
+ And, you know, maybe that then becomes sort of the norm
+
+00:09:28.460 --> 00:09:30.780
+ where like, because you never have cared, you know,
+
+00:09:30.780 --> 00:09:32.700
+ too much about this bit and polish of your product.
+
+00:09:32.700 --> 00:09:35.580
+ You just, you know, don't remember to do it once you actually
+
+00:09:35.580 --> 00:09:38.580
+ have a following and moment you have users.
+
+00:09:38.580 --> 00:09:40.020
+ - Yeah, that's actually exactly what I was referring
+
+00:09:40.020 --> 00:09:41.580
+ to the beginning.
+
+00:09:41.580 --> 00:09:44.460
+ The level of detail and polish that linear has
+
+00:09:44.460 --> 00:09:47.380
+ is quite opposite to most advice that you get, right?
+
+00:09:47.380 --> 00:09:48.900
+ You know, don't waste time on that stuff
+
+00:09:48.900 --> 00:09:50.180
+ when you don't even know if your business
+
+00:09:50.180 --> 00:09:51.460
+ is gonna be successful.
+
+00:09:51.460 --> 00:09:54.020
+ But what's different about linear is
+
+00:09:54.020 --> 00:09:56.260
+ that is the differentiator, right?
+
+00:09:56.260 --> 00:09:57.940
+ Of course, there's a lot more than just that.
+
+00:09:57.940 --> 00:09:59.180
+ There's a lot of thought into the product,
+
+00:09:59.180 --> 00:10:01.340
+ but a key differentiator and key advantage
+
+00:10:01.340 --> 00:10:06.060
+ and key edge that you have is the fact that it's very good.
+
+00:10:06.060 --> 00:10:07.900
+ And I think prior to me seeing linear,
+
+00:10:07.900 --> 00:10:11.180
+ I never realized that that could just be the thing
+
+00:10:11.180 --> 00:10:12.620
+ that you differentiate on.
+
+00:10:12.620 --> 00:10:14.260
+ Did you guys realize that very early on?
+
+00:10:14.260 --> 00:10:16.180
+ Like was that intentionally the initial pitch?
+
+00:10:16.180 --> 00:10:18.340
+ Like when you were pitching investors, et cetera.
+
+00:10:18.340 --> 00:10:19.820
+ And did people understand that?
+
+00:10:19.820 --> 00:10:22.260
+ That was literally the reason why we started linear.
+
+00:10:22.260 --> 00:10:24.500
+ Like just like the market existed.
+
+00:10:24.500 --> 00:10:27.180
+ Like we weren't inventing anything new.
+
+00:10:27.180 --> 00:10:30.540
+ Like Jira had been around for 20 years at that point already.
+
+00:10:30.540 --> 00:10:32.020
+ And there were like, you know,
+
+00:10:32.020 --> 00:10:35.140
+ hundreds of different project management tools.
+
+00:10:35.140 --> 00:10:38.380
+ And our, you know, idea from the get go
+
+00:10:38.380 --> 00:10:42.100
+ was just to be better, like, you know,
+
+00:10:42.100 --> 00:10:45.740
+ better to the user, better as a user experience,
+
+00:10:45.740 --> 00:10:47.220
+ better in all kinds of things.
+
+00:10:47.220 --> 00:10:49.820
+ And, you know, we care deeply about the product,
+
+00:10:49.820 --> 00:10:51.700
+ like, you know, the founders.
+
+00:10:51.700 --> 00:10:54.460
+ Like we've always sort of, you know,
+
+00:10:54.460 --> 00:10:57.900
+ have been interested in design and good UX and all of that.
+
+00:10:57.900 --> 00:11:01.460
+ And, you know, part of our careers have been built on that as well.
+
+00:11:01.460 --> 00:11:04.660
+ So it was sort of, you know, easy to get started with that.
+
+00:11:04.660 --> 00:11:07.300
+ And like I do remember, like when we started,
+
+00:11:07.300 --> 00:11:10.060
+ like we started prototyping just on the weekends
+
+00:11:10.060 --> 00:11:13.340
+ on, you know, what would an issue tracker look like.
+
+00:11:13.340 --> 00:11:15.500
+ And we still have the history of like the first ticket
+
+00:11:15.500 --> 00:11:18.780
+ that we, or the first, first issue that we put into linear,
+
+00:11:18.780 --> 00:11:21.620
+ it was sort of built the command menu,
+
+00:11:21.620 --> 00:11:24.740
+ which is kind of silly thing to do if you don't have a product,
+
+00:11:24.740 --> 00:11:26.860
+ like, you know, start with building out a command menu.
+
+00:11:26.860 --> 00:11:30.300
+ But we were, you know, keen on figuring out
+
+00:11:30.300 --> 00:11:33.220
+ whether we can build something on the web that felt,
+
+00:11:33.220 --> 00:11:34.660
+ you know, more like an application.
+
+00:11:34.660 --> 00:11:36.700
+ And obviously superhuman was out back then.
+
+00:11:36.700 --> 00:11:39.420
+ That was a big inspiration for us to look at their command menu,
+
+00:11:39.420 --> 00:11:41.940
+ keyboard shortcuts and, you know,
+
+00:11:41.940 --> 00:11:46.500
+ try to build something that felt like a true native application
+
+00:11:46.500 --> 00:11:48.300
+ on the web.
+
+00:11:48.300 --> 00:11:50.820
+ And yeah, like from the get go, we knew that, you know,
+
+00:11:50.820 --> 00:11:52.300
+ we weren't, you know, building anything new,
+
+00:11:52.300 --> 00:11:57.380
+ but the way for us to win the market would be to just be better.
+
+00:11:57.380 --> 00:12:00.580
+ So pens sort of the focus on quality and UX.
+
+00:12:00.580 --> 00:12:03.060
+ - So I don't know when you started raising money,
+
+00:12:03.060 --> 00:12:06.180
+ but in the process, in the early process of pitching
+
+00:12:06.180 --> 00:12:09.580
+ and explaining that, did investors understand that concept
+
+00:12:09.580 --> 00:12:12.140
+ or did it seem like we were able to show something
+
+00:12:12.140 --> 00:12:15.260
+ to prove that or did they kind of have to go on your word?
+
+00:12:15.260 --> 00:12:18.820
+ - I mean, we had an easy time raising money.
+
+00:12:18.820 --> 00:12:21.140
+ Like, I keep on saying that, you know,
+
+00:12:21.140 --> 00:12:24.540
+ the experience of building linear has been a very, you know,
+
+00:12:24.540 --> 00:12:25.740
+ easy and different one.
+
+00:12:25.740 --> 00:12:29.340
+ Like usually, you know, startup comes with ups and downs.
+
+00:12:29.340 --> 00:12:31.300
+ We've been just sort of coasting upwards.
+
+00:12:31.300 --> 00:12:32.940
+ Like there have been no sort of, you know,
+
+00:12:32.940 --> 00:12:35.260
+ bigger problems or challenges to begin with,
+
+00:12:35.260 --> 00:12:36.460
+ which is, you know, super strange.
+
+00:12:36.460 --> 00:12:40.220
+ Like I think we got, you know, just, you know, hugely lucky.
+
+00:12:40.220 --> 00:12:43.820
+ So yeah, like our fundraising for a seed round
+
+00:12:43.820 --> 00:12:46.380
+ was, you know, literally just a few weeks.
+
+00:12:46.380 --> 00:12:49.300
+ And it was not of our own accord.
+
+00:12:49.300 --> 00:12:50.940
+ Like we initially didn't want to raise money,
+
+00:12:50.940 --> 00:12:53.220
+ like we wanted to build, essentially a prototype,
+
+00:12:53.220 --> 00:12:55.100
+ you know, just bootstrap it, get a few customers
+
+00:12:55.100 --> 00:12:59.020
+ and have a product that sort of, you know,
+
+00:12:59.020 --> 00:13:02.140
+ exemplified on what we want to build.
+
+00:13:02.140 --> 00:13:05.940
+ And then, you know, if need be, go ahead and raise money.
+
+00:13:05.940 --> 00:13:09.140
+ But, you know, as it turned out, Sequoia,
+
+00:13:09.140 --> 00:13:11.340
+ sort of, you know, was scouring through LinkedIn
+
+00:13:11.340 --> 00:13:13.660
+ and sort of found out that, you know, you know,
+
+00:13:13.660 --> 00:13:15.980
+ one guy from Uber and one from Airbnb
+
+00:13:15.980 --> 00:13:17.980
+ and one from Kanye's have founded the company.
+
+00:13:17.980 --> 00:13:20.500
+ And they've, you know, put out a blog post
+
+00:13:20.500 --> 00:13:22.900
+ and, you know, Twitter is, you know, a bit abuzz about,
+
+00:13:22.900 --> 00:13:24.060
+ you know, what they're building.
+
+00:13:24.060 --> 00:13:26.900
+ So they reached out to us and then sort of was, you know,
+
+00:13:26.900 --> 00:13:31.660
+ rather quick at sort of, you know, getting the seed in.
+
+00:13:31.660 --> 00:13:34.460
+ So we didn't really have to explain too much,
+
+00:13:34.460 --> 00:13:36.900
+ or, you know, show the product because we, you know,
+
+00:13:36.900 --> 00:13:39.900
+ back then, we didn't have anything to show for.
+
+00:13:39.900 --> 00:13:42.340
+ Like, yeah, we did have a few prototypes.
+
+00:13:42.340 --> 00:13:44.100
+ We did have a few designs.
+
+00:13:44.100 --> 00:13:46.780
+ And I'm sure Kari put them on the deck.
+
+00:13:46.780 --> 00:13:48.700
+ But it was very early.
+
+00:13:48.700 --> 00:13:51.300
+ But, you know, I think they, you know,
+
+00:13:51.300 --> 00:13:53.460
+ believed in the same vision of, like, you know,
+
+00:13:53.460 --> 00:13:56.100
+ first targeting ICs, building an upwards from there
+
+00:13:56.100 --> 00:13:58.980
+ and just building a product that people enjoy using.
+
+00:13:58.980 --> 00:13:59.820
+ - Cool.
+
+00:13:59.820 --> 00:14:01.540
+ So switching gears, something else that you said.
+
+00:14:01.540 --> 00:14:04.060
+ So a key part of building something like linear is,
+
+00:14:04.060 --> 00:14:05.180
+ it's not just a product.
+
+00:14:05.180 --> 00:14:08.020
+ You also need to think about what your opinion
+
+00:14:08.020 --> 00:14:10.100
+ on the right way to build products is.
+
+00:14:10.100 --> 00:14:14.300
+ And you kind of bake some of that philosophy into products.
+
+00:14:14.300 --> 00:14:15.900
+ And I think linear also has like,
+
+00:14:15.900 --> 00:14:16.900
+ I forgot what you guys call it.
+
+00:14:16.900 --> 00:14:20.260
+ You have like an actual document with the linear approaches.
+
+00:14:20.260 --> 00:14:21.100
+ What was it?
+
+00:14:21.100 --> 00:14:21.940
+ Remember what it was called?
+
+00:14:21.940 --> 00:14:23.260
+ - Yeah, we have the linear method.
+
+00:14:23.260 --> 00:14:25.300
+ - Linear method, exactly.
+
+00:14:25.300 --> 00:14:28.220
+ Was that something you discovered as you built the product
+
+00:14:28.220 --> 00:14:31.700
+ or upfront, did you guys kind of all like find alignment on,
+
+00:14:31.700 --> 00:14:32.540
+ on that?
+
+00:14:32.540 --> 00:14:34.220
+ - The method itself was something,
+
+00:14:34.220 --> 00:14:35.060
+ and it's still in flux.
+
+00:14:35.060 --> 00:14:37.180
+ Like we haven't completed the method yet.
+
+00:14:37.180 --> 00:14:40.020
+ Like it's something that we someday want to,
+
+00:14:40.020 --> 00:14:42.420
+ want to finish up and get closure on.
+
+00:14:42.420 --> 00:14:46.980
+ But in the beginning, like, we did have this idea of like,
+
+00:14:46.980 --> 00:14:50.220
+ you know, we don't want to build just a product.
+
+00:14:50.220 --> 00:14:53.060
+ Like we want to have some sort of, you know,
+
+00:14:53.060 --> 00:14:56.060
+ mission statement or idea or methodology behind it.
+
+00:14:56.060 --> 00:14:59.020
+ And that same came from the, from the,
+
+00:14:59.020 --> 00:15:01.460
+ from the insight that we had when, you know,
+
+00:15:01.460 --> 00:15:03.180
+ we were working at these, these larger companies
+
+00:15:03.180 --> 00:15:04.460
+ that people looked up to when they,
+
+00:15:04.460 --> 00:15:06.740
+ when they were building products.
+
+00:15:06.740 --> 00:15:08.700
+ And you sort of all realized that, you know,
+
+00:15:08.700 --> 00:15:12.820
+ none of the internal teams really knew how to build product
+
+00:15:12.820 --> 00:15:14.260
+ or what the methodology was.
+
+00:15:14.260 --> 00:15:16.100
+ Like everybody, you know, depending on team,
+
+00:15:16.100 --> 00:15:18.300
+ you usually use something akin to scrum.
+
+00:15:18.300 --> 00:15:21.020
+ And when you ask people like, you know,
+
+00:15:21.020 --> 00:15:23.860
+ why, why are you using scrum or why you're sprinting?
+
+00:15:23.860 --> 00:15:26.340
+ You know, people wouldn't really know what the answer was.
+
+00:15:26.340 --> 00:15:27.620
+ And they were like, no, I don't know.
+
+00:15:27.620 --> 00:15:28.540
+ Everybody does it like this.
+
+00:15:28.540 --> 00:15:31.900
+ So I guess, you know, it's, it's for development.
+
+00:15:31.900 --> 00:15:33.180
+ So it makes sense.
+
+00:15:33.180 --> 00:15:35.220
+ And I thought, well, it always wanted to range that, you know,
+
+00:15:35.220 --> 00:15:37.580
+ scrum has been invented for a very different world.
+
+00:15:37.580 --> 00:15:40.700
+ Like scrum, it actually was, was made when you had sort
+
+00:15:40.700 --> 00:15:43.500
+ of a non-technical customer and a technical team.
+
+00:15:43.500 --> 00:15:46.020
+ And the non-technical customer wanted working software
+
+00:15:46.020 --> 00:15:47.340
+ from the technical team.
+
+00:15:47.340 --> 00:15:49.660
+ And the technical team didn't want the customer to sort
+
+00:15:49.660 --> 00:15:51.860
+ of get involved when they were actually working on stuff.
+
+00:15:51.860 --> 00:15:54.980
+ And so, you know, you came up with this with this framework
+
+00:15:54.980 --> 00:15:57.460
+ that worked for both companies before the customer
+
+00:15:57.460 --> 00:15:58.820
+ and the technical team.
+
+00:15:58.820 --> 00:16:00.460
+ And, you know, every four weeks or so,
+
+00:16:00.460 --> 00:16:02.500
+ the customer would get something out of it.
+
+00:16:02.500 --> 00:16:04.980
+ And for the rest of the time, the customer would sort of,
+
+00:16:04.980 --> 00:16:08.500
+ you know, give the, give the team space to implement
+
+00:16:08.500 --> 00:16:10.820
+ whatever, you know, was asked for.
+
+00:16:10.820 --> 00:16:13.340
+ And that's not how product companies work nowadays anymore.
+
+00:16:13.340 --> 00:16:16.100
+ Like there sort of needs to be a different,
+
+00:16:16.100 --> 00:16:19.220
+ different way of building product that makes much more sense
+
+00:16:19.220 --> 00:16:22.540
+ for the, for the, for the current world where like you have
+
+00:16:22.540 --> 00:16:25.500
+ integrated teams within the company building their own software.
+
+00:16:25.500 --> 00:16:27.900
+ - Yeah. And especially at smaller companies,
+
+00:16:27.900 --> 00:16:31.300
+ this thing where it's a good point about the customer
+
+00:16:31.300 --> 00:16:33.580
+ not being super involved, like kind of giving space.
+
+00:16:33.580 --> 00:16:35.380
+ And that's what it was designed for.
+
+00:16:35.380 --> 00:16:38.460
+ This is exactly the issue I had with a lot of the approach
+
+00:16:38.460 --> 00:16:42.020
+ earlier in my career with companies that are building software.
+
+00:16:42.020 --> 00:16:45.340
+ You would plan out something like some kind of like long,
+
+00:16:45.340 --> 00:16:48.460
+ longer-term thing we're going to do exactly X, Y, and Z things.
+
+00:16:48.460 --> 00:16:51.020
+ And then three days later, your customer,
+
+00:16:51.020 --> 00:16:53.260
+ you would have an interaction with the customer
+
+00:16:53.260 --> 00:16:56.300
+ and you would get suddenly really excited to solve some problem
+
+00:16:56.300 --> 00:16:57.460
+ that wasn't on your roadmap.
+
+00:16:57.460 --> 00:16:59.220
+ Because when you're not, when you're not talking about your
+
+00:16:59.220 --> 00:17:01.460
+ customers, all issues kind of seem equal.
+
+00:17:01.460 --> 00:17:03.700
+ But the moment like someone has a problem,
+
+00:17:03.700 --> 00:17:05.740
+ suddenly an issue is like the top of your mind.
+
+00:17:05.740 --> 00:17:09.500
+ So yeah, having that flexibility, I think the reality is,
+
+00:17:09.500 --> 00:17:12.860
+ and I've only ever worked at really, really stage companies.
+
+00:17:12.860 --> 00:17:15.260
+ It's very hard to know what you're going to be excited about
+
+00:17:15.260 --> 00:17:16.100
+ week to week.
+
+00:17:16.100 --> 00:17:18.220
+ So a lot of these tools were about like locking in
+
+00:17:18.220 --> 00:17:19.780
+ these long-term plans.
+
+00:17:19.780 --> 00:17:23.420
+ And I found that that almost never, never really worked out.
+
+00:17:23.420 --> 00:17:27.060
+ And it's almost like building it water-fully,
+
+00:17:27.060 --> 00:17:29.220
+ which was what Scrum--
+
+00:17:29.220 --> 00:17:30.380
+ Wasn't supposed to not do.
+
+00:17:30.380 --> 00:17:32.980
+ In the beginning, but yeah, it was trying to avoid.
+
+00:17:32.980 --> 00:17:34.540
+ Yeah, yeah, maybe my experience as well.
+
+00:17:34.540 --> 00:17:36.860
+ Everyone is doing agile, but if you actually look at what
+
+00:17:36.860 --> 00:17:39.500
+ they're doing, it's like, yeah, it's entirely a waterfall
+
+00:17:39.500 --> 00:17:40.860
+ process.
+
+00:17:40.860 --> 00:17:43.580
+ Yeah, so I think that's really awesome where there's like a
+
+00:17:43.580 --> 00:17:47.180
+ whole document teaching you how to build product.
+
+00:17:47.180 --> 00:17:50.700
+ So the three of you came from at least the last--
+
+00:17:50.700 --> 00:17:53.380
+ I'm sure you've had other experience before, but the
+
+00:17:53.380 --> 00:17:56.380
+ last job you were at prior to founding this was at bigger
+
+00:17:56.380 --> 00:17:57.660
+ companies.
+
+00:17:57.660 --> 00:18:00.700
+ So when you're kind of developing this method, did you feel
+
+00:18:00.700 --> 00:18:04.180
+ like there is a trade-off with what works, smart companies,
+
+00:18:04.180 --> 00:18:05.300
+ what works in bigger companies?
+
+00:18:05.300 --> 00:18:07.620
+ Or do you generally find that there actually is a good
+
+00:18:07.620 --> 00:18:09.700
+ approach that works pretty well for everyone?
+
+00:18:09.700 --> 00:18:13.300
+ I mean, no approach works the same for everybody.
+
+00:18:13.300 --> 00:18:18.380
+ And I think people, when they look at the linear method and
+
+00:18:18.380 --> 00:18:22.580
+ what we've described there, it is common sense stuff.
+
+00:18:22.580 --> 00:18:26.300
+ It is not very descriptive for the plain reason that you
+
+00:18:26.300 --> 00:18:30.940
+ have to take it and sort of make it your own, because no
+
+00:18:30.940 --> 00:18:33.660
+ companies is alike.
+
+00:18:33.660 --> 00:18:38.020
+ But the idea was that there's nothing inherently in building
+
+00:18:38.020 --> 00:18:41.740
+ a product that would be different at a large company
+
+00:18:41.740 --> 00:18:42.620
+ and a small company.
+
+00:18:42.620 --> 00:18:47.500
+ I think the method and the way of working still works
+
+00:18:47.500 --> 00:18:52.940
+ regardless of size, rather than getting teams of hundreds
+
+00:18:52.940 --> 00:18:56.860
+ of engineers, companies tend to break up teams into smaller
+
+00:18:56.860 --> 00:19:01.540
+ pieces and work on functionality individually.
+
+00:19:01.540 --> 00:19:04.020
+ So if you have a small company, just have less stuff that
+
+00:19:04.020 --> 00:19:05.420
+ you're working on at the moment.
+
+00:19:05.420 --> 00:19:07.700
+ If you have a larger company, you've got more initiatives,
+
+00:19:07.700 --> 00:19:11.420
+ but they need to themselves work in the same way.
+
+00:19:11.420 --> 00:19:12.620
+ Yeah, that makes sense.
+
+00:19:12.620 --> 00:19:17.420
+ Yeah, because I think a lot of times when companies see how
+
+00:19:17.420 --> 00:19:20.780
+ a smaller company operates, they might think that could never
+
+00:19:20.780 --> 00:19:24.420
+ work for us, because we're big, or they'll have some reason.
+
+00:19:24.420 --> 00:19:27.420
+ But I think I've found that, yes, it's not exactly the same,
+
+00:19:27.420 --> 00:19:29.060
+ but roughly the principles are the same.
+
+00:19:29.060 --> 00:19:31.700
+ It's usually the low level principles that you need to get
+
+00:19:31.700 --> 00:19:32.020
+ right.
+
+00:19:32.020 --> 00:19:35.180
+ And when things are broken, it's usually not--
+
+00:19:35.180 --> 00:19:39.020
+ it's true because you're not following some of those ideas.
+
+00:19:39.020 --> 00:19:42.700
+ So that's a lot on linear as a business, the product.
+
+00:19:42.700 --> 00:19:44.780
+ But my audience is mostly engineers.
+
+00:19:44.780 --> 00:19:47.140
+ I'm trying to get them thinking more about those things.
+
+00:19:47.140 --> 00:19:50.020
+ I'd love to talk about stuff in that category.
+
+00:19:50.020 --> 00:19:53.740
+ But let's get into some of the technical details, right?
+
+00:19:53.740 --> 00:19:56.660
+ With linear, when you're using the product,
+
+00:19:56.660 --> 00:19:59.860
+ every interaction you do is near instant.
+
+00:19:59.860 --> 00:20:01.700
+ Or it's the answer you probably can't tell.
+
+00:20:01.700 --> 00:20:05.020
+ So whether that's something simple, like marking an issue
+
+00:20:05.020 --> 00:20:06.660
+ is done, or something more complicated,
+
+00:20:06.660 --> 00:20:09.700
+ like searching through all your open issues, every key
+
+00:20:09.700 --> 00:20:11.020
+ stroke, instant response.
+
+00:20:11.020 --> 00:20:12.860
+ And I think I remember initially the landing page--
+
+00:20:12.860 --> 00:20:14.940
+ or at some point, landing page, like, very clearly said there.
+
+00:20:14.940 --> 00:20:17.060
+ Maybe you continue to say that.
+
+00:20:17.060 --> 00:20:18.540
+ When was that, like, the perspective?
+
+00:20:18.540 --> 00:20:20.500
+ When did you guys decide that that was the perspective you
+
+00:20:20.500 --> 00:20:20.820
+ wanted?
+
+00:20:20.820 --> 00:20:21.820
+ That was a good rule.
+
+00:20:21.820 --> 00:20:25.340
+ You needed to have instant reaction times, everything.
+
+00:20:25.340 --> 00:20:28.580
+ Again, from the get-go, before we even started working
+
+00:20:28.580 --> 00:20:32.060
+ on anything, the way we started prototyping
+
+00:20:32.060 --> 00:20:37.620
+ and issue tracker were the first sort of prototype of linear.
+
+00:20:37.620 --> 00:20:42.060
+ I had spent, I don't know, eight, nine years working on mobile.
+
+00:20:42.060 --> 00:20:45.420
+ And I was totally burned out by mobile native engineering.
+
+00:20:45.420 --> 00:20:50.020
+ Even before we decided to start working on the linear,
+
+00:20:50.020 --> 00:20:53.060
+ I took a few weekends to sort of double with web technologies,
+
+00:20:53.060 --> 00:20:55.460
+ which I had sort of done 10 years prior.
+
+00:20:55.460 --> 00:20:57.980
+ But a lot of stuff had happened in between.
+
+00:20:57.980 --> 00:21:03.420
+ And I was totally unaware of technology stack of web
+
+00:21:03.420 --> 00:21:04.900
+ when I started going around.
+
+00:21:04.900 --> 00:21:08.980
+ And I had done a few sort of synchronization engines before.
+
+00:21:08.980 --> 00:21:11.540
+ And just thinking about the idea of if you had an issue
+
+00:21:11.540 --> 00:21:15.420
+ tracker, what would you want it to be?
+
+00:21:15.420 --> 00:21:21.420
+ And I always wanted to build an application that
+
+00:21:21.420 --> 00:21:24.460
+ was fully built on a synchronization stack.
+
+00:21:24.460 --> 00:21:25.620
+ I tried it at Uber.
+
+00:21:25.620 --> 00:21:28.900
+ When I joined Uber, I built a synchronization engine for them.
+
+00:21:28.900 --> 00:21:30.020
+ I was a bit too late.
+
+00:21:30.020 --> 00:21:32.100
+ Like the company was hyper-growing.
+
+00:21:32.100 --> 00:21:34.820
+ We did have sort of a Swift client and a Java client
+
+00:21:34.820 --> 00:21:38.660
+ and a JavaScript client out and a go implementation
+
+00:21:38.660 --> 00:21:41.380
+ for the server to do full synchronization on the Uber stack.
+
+00:21:41.380 --> 00:21:43.340
+ But the company was just going so fast.
+
+00:21:43.340 --> 00:21:46.060
+ And nobody else sort of shared the same mission.
+
+00:21:46.060 --> 00:21:49.100
+ So I wasn't able to sort of push it through.
+
+00:21:49.100 --> 00:21:51.700
+ To this day, I still think that Uber would have been much
+
+00:21:51.700 --> 00:21:54.740
+ better off if they had adopted some sort of sync technology.
+
+00:21:54.740 --> 00:21:56.700
+ Because for the next three years, they
+
+00:21:56.700 --> 00:22:02.380
+ were sort of trying to do something similar with much
+
+00:22:02.380 --> 00:22:05.460
+ various results, and something that just took them
+
+00:22:05.460 --> 00:22:06.460
+ a long time to do.
+
+00:22:06.460 --> 00:22:08.140
+ Because it wasn't natively built in
+
+00:22:08.140 --> 00:22:10.260
+ into any of the mobile stacks.
+
+00:22:10.260 --> 00:22:12.820
+ So I had this idea that the next project that I
+
+00:22:12.820 --> 00:22:19.900
+ wanted to be mobile or be web, I wanted to do it on sync.
+
+00:22:19.900 --> 00:22:23.180
+ So when I started toying around with this issue tracker
+
+00:22:23.180 --> 00:22:26.500
+ in my back head, I just wanted to try out
+
+00:22:26.500 --> 00:22:29.300
+ synchronization technologies on the web.
+
+00:22:29.300 --> 00:22:32.340
+ And that was literally the first sort of prototype
+
+00:22:32.340 --> 00:22:35.060
+ that I did, like how can I do sort of a very simple issue
+
+00:22:35.060 --> 00:22:37.940
+ tracker that was real-time synchronous across multiple clients.
+
+00:22:37.940 --> 00:22:41.820
+ And when we saw it, it was Jory and I sort of hacking
+
+00:22:41.820 --> 00:22:44.260
+ on these things back in the day.
+
+00:22:44.260 --> 00:22:45.860
+ And when we saw it working, it just
+
+00:22:45.860 --> 00:22:48.180
+ thought, you know, absolutely fantastic.
+
+00:22:48.180 --> 00:22:50.460
+ And you could imagine, like, you know,
+
+00:22:50.460 --> 00:22:53.820
+ with synchronization, like, you can be in an offline state,
+
+00:22:53.820 --> 00:22:55.620
+ like, where every single operation essentially
+
+00:22:55.620 --> 00:22:58.100
+ happens on the client, and then sort of the transactions
+
+00:22:58.100 --> 00:23:01.580
+ get sent out to the server, you know, behind the scenes.
+
+00:23:01.580 --> 00:23:03.580
+ And if you can build your application in a way where
+
+00:23:03.580 --> 00:23:06.340
+ every operation is optimistic, where sort of the client
+
+00:23:06.340 --> 00:23:09.180
+ can fathom that, you know, this operation will succeed
+
+00:23:09.180 --> 00:23:12.420
+ on the back end, then you can be optimistic on the client as well.
+
+00:23:12.420 --> 00:23:14.340
+ So when you do an operation on the client,
+
+00:23:14.340 --> 00:23:16.340
+ you can already apply it on the local state
+
+00:23:16.340 --> 00:23:19.260
+ and, you know, present the view as it will be, you know,
+
+00:23:19.260 --> 00:23:22.740
+ a few seconds from now when the server accepts this change,
+
+00:23:22.740 --> 00:23:25.180
+ because so few transactions actually, you know,
+
+00:23:25.180 --> 00:23:28.180
+ get reverted on the back end.
+
+00:23:28.180 --> 00:23:30.860
+ And with that in mind, like, we were able to build a sort
+
+00:23:30.860 --> 00:23:36.020
+ of a quick prototype that just showed how quick, you know,
+
+00:23:36.020 --> 00:23:37.220
+ your application can be.
+
+00:23:37.220 --> 00:23:39.260
+ When you start building out things, like, everything is fast,
+
+00:23:39.260 --> 00:23:41.060
+ right, like, your first program will always be fast
+
+00:23:41.060 --> 00:23:43.420
+ because you run it on your local computer.
+
+00:23:43.420 --> 00:23:46.180
+ But we sort of knew that, you know, the speed
+
+00:23:46.180 --> 00:23:49.140
+ won't really drop from here, like, the architecture itself,
+
+00:23:49.140 --> 00:23:52.100
+ lend itself to be real-time always, right,
+
+00:23:52.100 --> 00:23:54.060
+ regardless of how much data you had
+
+00:23:54.060 --> 00:23:56.100
+ or how big your application grew.
+
+00:23:56.100 --> 00:23:58.540
+ And we just thought that, you know,
+
+00:23:58.540 --> 00:24:02.780
+ that was the best user experience that you could build.
+
+00:24:02.780 --> 00:24:04.620
+ And starting with the idea, like, you know,
+
+00:24:04.620 --> 00:24:06.340
+ once we started working on a linear,
+
+00:24:06.340 --> 00:24:07.940
+ like, we knew that we just, you know,
+
+00:24:07.940 --> 00:24:09.220
+ needed to build something better.
+
+00:24:09.220 --> 00:24:10.780
+ So it was sort of an obvious choice to go
+
+00:24:10.780 --> 00:24:12.780
+ with full synchronization.
+
+00:24:12.780 --> 00:24:14.180
+ So that we could build an application
+
+00:24:14.180 --> 00:24:15.300
+ that was just super fast.
+
+00:24:15.300 --> 00:24:17.580
+ - Yeah, so just for clarity for people
+
+00:24:17.580 --> 00:24:20.580
+ that are just not in the context.
+
+00:24:20.580 --> 00:24:24.780
+ So when you say syncing, this is a architecture pattern
+
+00:24:24.780 --> 00:24:27.620
+ that linear follows, where a large portion
+
+00:24:27.620 --> 00:24:30.260
+ of your working set of data is actually synced locally
+
+00:24:30.260 --> 00:24:32.420
+ so that all the operations are happening locally.
+
+00:24:32.420 --> 00:24:34.780
+ So when you're doing search, it's searching
+
+00:24:34.780 --> 00:24:36.940
+ off of what's in your browser.
+
+00:24:36.940 --> 00:24:40.020
+ It's not making remote calls every time you press a keystroke.
+
+00:24:40.020 --> 00:24:43.300
+ And this applies to, you know, all the actions that you take.
+
+00:24:43.300 --> 00:24:44.740
+ It's a very different architecture.
+
+00:24:44.740 --> 00:24:48.140
+ I think I've seen it now called as a local first architecture.
+
+00:24:48.140 --> 00:24:49.380
+ I think it's different than like,
+
+00:24:49.380 --> 00:24:53.100
+ I think people conflate this with like offline apps.
+
+00:24:53.100 --> 00:24:54.740
+ I don't think linear is really meant to be used
+
+00:24:54.740 --> 00:24:55.580
+ like fully offline.
+
+00:24:55.580 --> 00:24:57.140
+ I'm sure a lot of it will work.
+
+00:24:57.140 --> 00:24:59.780
+ But it's not really for the use it
+
+00:24:59.780 --> 00:25:00.860
+ when you don't have internet reason.
+
+00:25:00.860 --> 00:25:05.140
+ It's more for, if you can sync a large set of the data locally,
+
+00:25:05.140 --> 00:25:07.700
+ everything can be really, really fast
+
+00:25:07.700 --> 00:25:08.900
+ because there's no remote call.
+
+00:25:08.900 --> 00:25:11.580
+ And it doesn't matter if your server is potentially slow
+
+00:25:11.580 --> 00:25:14.260
+ or if you have a lot of different users on your server.
+
+00:25:14.260 --> 00:25:16.380
+ Most operations are hitting it asynchronously.
+
+00:25:16.380 --> 00:25:19.660
+ And that's kind of the idea behind the sync engine.
+
+00:25:19.660 --> 00:25:21.500
+ I think you guys call it, right?
+
+00:25:21.500 --> 00:25:24.740
+ And I've seen this pattern show up more,
+
+00:25:24.740 --> 00:25:27.820
+ but it's still rarely deployed.
+
+00:25:27.820 --> 00:25:29.460
+ I think there's very few applications I see
+
+00:25:29.460 --> 00:25:31.540
+ that takes approach.
+
+00:25:31.540 --> 00:25:36.700
+ And I think oftentimes when I describe it to people,
+
+00:25:36.700 --> 00:25:38.820
+ they immediately think that can't work.
+
+00:25:38.820 --> 00:25:40.020
+ Like there's no way that could work
+
+00:25:40.020 --> 00:25:42.140
+ or like sync the whole day is that locally,
+
+00:25:42.140 --> 00:25:44.380
+ what do you mean, that's like too much data?
+
+00:25:44.380 --> 00:25:46.340
+ So do you have any thoughts on kind of
+
+00:25:46.340 --> 00:25:48.020
+ like that initial reaction that people have?
+
+00:25:48.020 --> 00:25:49.980
+ - Yeah, I mean, it totally depends on your application
+
+00:25:49.980 --> 00:25:51.180
+ whether it can work or not.
+
+00:25:51.180 --> 00:25:53.580
+ Like, you know, local first or sync
+
+00:25:53.580 --> 00:25:55.700
+ or whatever you wanna call it.
+
+00:25:55.700 --> 00:25:59.380
+ Works for when you have a finite set of data
+
+00:25:59.380 --> 00:26:03.380
+ that you can load to the clients almost fully.
+
+00:26:03.380 --> 00:26:05.020
+ Like we started with a full synchronization.
+
+00:26:05.020 --> 00:26:08.260
+ Like when the client would put it for the first time,
+
+00:26:08.260 --> 00:26:10.780
+ they would load the entire state of that workspace locally.
+
+00:26:10.780 --> 00:26:12.980
+ And it worked for two or three years.
+
+00:26:12.980 --> 00:26:14.660
+ And then we got sort of bigger customers
+
+00:26:14.660 --> 00:26:16.580
+ where we couldn't load the entire data set anymore
+
+00:26:16.580 --> 00:26:20.980
+ because it was 200, 300 megabytes of data.
+
+00:26:20.980 --> 00:26:22.980
+ So we had to sort of implement something
+
+00:26:22.980 --> 00:26:26.860
+ that still felt like you had all the data locally
+
+00:26:26.860 --> 00:26:29.460
+ from sort of the engineer's perspective,
+
+00:26:29.460 --> 00:26:31.860
+ but behind the scenes we would sort of stream data
+
+00:26:31.860 --> 00:26:34.020
+ in if needed.
+
+00:26:34.020 --> 00:26:38.740
+ But like, yeah, if you wanna do, I don't know,
+
+00:26:38.740 --> 00:26:42.220
+ like an application with a lot of data
+
+00:26:42.220 --> 00:26:44.220
+ that sort of changes all the time
+
+00:26:44.220 --> 00:26:48.460
+ that synchronization probably isn't the best use case
+
+00:26:48.460 --> 00:26:49.300
+ for you.
+
+00:26:49.300 --> 00:26:50.180
+ But if you have a finite set of data,
+
+00:26:50.180 --> 00:26:53.500
+ like if you're working on what you normally,
+
+00:26:53.500 --> 00:26:56.660
+ or 20 years ago would have built as a sort of
+
+00:26:56.660 --> 00:26:59.780
+ desktop application that had sort of a remote backend
+
+00:26:59.780 --> 00:27:01.380
+ where you would then store the data
+
+00:27:01.380 --> 00:27:03.300
+ or synchronize the data to.
+
+00:27:03.300 --> 00:27:07.620
+ Then yes, synchronization can definitely work for you.
+
+00:27:07.620 --> 00:27:10.060
+ The one thing that sort of we got surprised
+
+00:27:10.060 --> 00:27:14.620
+ as ourselves as well was like the benefit of it.
+
+00:27:14.620 --> 00:27:16.100
+ Like we initially thought that, you know,
+
+00:27:16.100 --> 00:27:17.580
+ the user would get the benefit.
+
+00:27:17.580 --> 00:27:18.740
+ The user would sort of, you know,
+
+00:27:18.740 --> 00:27:20.700
+ get an application that was super fast and they did.
+
+00:27:20.700 --> 00:27:23.500
+ But I think like the biggest benefit for us as a company
+
+00:27:23.500 --> 00:27:25.700
+ was that we were just, you know,
+
+00:27:25.700 --> 00:27:27.860
+ extremely quick at, you know,
+
+00:27:27.860 --> 00:27:29.580
+ iterating on the product itself.
+
+00:27:29.580 --> 00:27:32.140
+ 'Cause suddenly like you didn't have a web app anymore,
+
+00:27:32.140 --> 00:27:34.220
+ like you remember not working on an application
+
+00:27:34.220 --> 00:27:35.420
+ where you had to sort of, you know,
+
+00:27:35.420 --> 00:27:38.300
+ do remote procedure calls or, you know,
+
+00:27:38.300 --> 00:27:40.500
+ think about error handling on the backend
+
+00:27:40.500 --> 00:27:43.540
+ or sort of, you know, sanitizing your data
+
+00:27:43.540 --> 00:27:46.940
+ or whatever is involved in sending data to the backend
+
+00:27:46.940 --> 00:27:49.820
+ and then, you know, receiving it.
+
+00:27:49.820 --> 00:27:53.420
+ But literally what you had once Zoom was implemented
+
+00:27:53.420 --> 00:27:56.620
+ was sort of a local structure of, you know, of data
+
+00:27:56.620 --> 00:27:59.140
+ representing the state of your application.
+
+00:27:59.140 --> 00:28:01.900
+ And that was all that you had to work with.
+
+00:28:01.900 --> 00:28:03.460
+ You never had to go to the backend.
+
+00:28:03.460 --> 00:28:04.980
+ You never had to literally do anything
+
+00:28:04.980 --> 00:28:07.660
+ 'cause, you know, the sync engine would handle
+
+00:28:07.660 --> 00:28:08.820
+ all of it for you.
+
+00:28:08.820 --> 00:28:10.460
+ You didn't have to think about error cases
+
+00:28:10.460 --> 00:28:11.500
+ 'cause the sync engine, again,
+
+00:28:11.500 --> 00:28:15.620
+ would handle most of these error cases for you automatically.
+
+00:28:15.620 --> 00:28:17.700
+ So you were just like, you had a local set of data,
+
+00:28:17.700 --> 00:28:19.260
+ you would manipulate that data
+
+00:28:19.260 --> 00:28:21.380
+ and, you know, eventually you would call save
+
+00:28:21.380 --> 00:28:22.580
+ on, you know, some of the objects
+
+00:28:22.580 --> 00:28:24.740
+ that you actually wanted to commit to.
+
+00:28:24.740 --> 00:28:26.380
+ And that was all you needed to do.
+
+00:28:26.380 --> 00:28:28.380
+ So when you wanted to build a feature,
+
+00:28:28.380 --> 00:28:31.180
+ you just essentially, you know, add it to that data,
+
+00:28:31.180 --> 00:28:32.860
+ showed it in your UI and you were done.
+
+00:28:32.860 --> 00:28:35.140
+ It makes it so much faster to build, you know,
+
+00:28:35.140 --> 00:28:35.980
+ build the product.
+
+00:28:35.980 --> 00:28:38.300
+ And I think, you know, it's one of the biggest reasons
+
+00:28:38.300 --> 00:28:40.260
+ why we're so quick at, you know, shipping,
+
+00:28:40.260 --> 00:28:41.700
+ new functionality later.
+
+00:28:41.700 --> 00:28:42.540
+ - Yeah, exactly.
+
+00:28:42.540 --> 00:28:46.380
+ I mean, that's been, that's been my experience as well.
+
+00:28:46.380 --> 00:28:48.980
+ It's a little bit of set up initially
+
+00:28:48.980 --> 00:28:50.740
+ to get everything set up correctly.
+
+00:28:50.740 --> 00:28:52.300
+ And it's a little bit of a mental model shift
+
+00:28:52.300 --> 00:28:54.500
+ 'cause it's quite different from how most people
+
+00:28:54.500 --> 00:28:55.580
+ build things.
+
+00:28:55.580 --> 00:28:57.420
+ But once that's done and we just,
+
+00:28:57.420 --> 00:29:01.540
+ so we hit, we released a V1, a beta of our new product.
+
+00:29:01.540 --> 00:29:03.140
+ And that was a good amount of effort,
+
+00:29:03.140 --> 00:29:04.100
+ a good amount of concentrated effort.
+
+00:29:04.100 --> 00:29:06.420
+ This past week, we've just been adding new features
+
+00:29:06.420 --> 00:29:07.260
+ on top of it.
+
+00:29:07.260 --> 00:29:08.820
+ It's been insanely fast.
+
+00:29:08.820 --> 00:29:12.460
+ Like, like, I'd allocate like two days to do something.
+
+00:29:12.460 --> 00:29:13.660
+ I would finish it in two hours.
+
+00:29:13.660 --> 00:29:16.060
+ You know, it's kind of like, it's not just a slight
+
+00:29:16.060 --> 00:29:17.900
+ improvement, it's like a multiple improvement.
+
+00:29:17.900 --> 00:29:20.580
+ It's really, really incredible.
+
+00:29:20.580 --> 00:29:21.740
+ The other thing that you mentioned is
+
+00:29:21.740 --> 00:29:22.700
+ the finite set of data.
+
+00:29:22.700 --> 00:29:24.460
+ I think this is pretty interesting
+
+00:29:24.460 --> 00:29:26.500
+ because I think when people hear that,
+
+00:29:26.500 --> 00:29:28.540
+ they might think, oh, it's a very narrow use case.
+
+00:29:28.540 --> 00:29:30.140
+ That fits like, 'cause obviously data is always growing.
+
+00:29:30.140 --> 00:29:31.540
+ It's always changing.
+
+00:29:31.540 --> 00:29:34.140
+ But you can be pretty creative about what that means, right?
+
+00:29:34.140 --> 00:29:37.740
+ So with linear, obviously your issues can grow forever
+
+00:29:37.740 --> 00:29:40.140
+ for all of time, right?
+
+00:29:40.140 --> 00:29:41.980
+ So you would think that's not finite.
+
+00:29:41.980 --> 00:29:44.620
+ But practically, there is like a working set
+
+00:29:44.620 --> 00:29:45.740
+ of issues that you care about.
+
+00:29:45.740 --> 00:29:48.020
+ You know, there's maybe, maybe you expire out issues.
+
+00:29:48.020 --> 00:29:49.300
+ I don't know what exactly what linear logic is,
+
+00:29:49.300 --> 00:29:51.100
+ but maybe you expire out issues
+
+00:29:51.100 --> 00:29:53.100
+ that have been closed that are more than 30 days old.
+
+00:29:53.100 --> 00:29:56.900
+ And it's unlikely that that set of data
+
+00:29:56.900 --> 00:29:58.860
+ is gonna grow infinitely 'cause you're the rate
+
+00:29:58.860 --> 00:30:01.620
+ that your team creates issues probably is staying the same.
+
+00:30:01.620 --> 00:30:05.300
+ So I think a lot of applications actually can work
+
+00:30:05.300 --> 00:30:07.820
+ under this model because you have natural ways
+
+00:30:07.820 --> 00:30:11.460
+ of partitioning things, like B2B applications like linear.
+
+00:30:11.460 --> 00:30:13.900
+ You're not thinking all the customer's issues,
+
+00:30:13.900 --> 00:30:16.780
+ just your own workspace's issues, right?
+
+00:30:16.780 --> 00:30:19.700
+ And even like B2C applications, like you said, Uber,
+
+00:30:19.700 --> 00:30:20.740
+ it's not a social app.
+
+00:30:20.740 --> 00:30:22.980
+ You're not like downloading everyone else's information.
+
+00:30:22.980 --> 00:30:24.820
+ It's just your own information and your own trips.
+
+00:30:24.820 --> 00:30:29.060
+ So that does cover like a good portion of use cases, right?
+
+00:30:29.060 --> 00:30:30.980
+ - It does, and to give you an example
+
+00:30:30.980 --> 00:30:33.540
+ of sort of the finite data set of Uber.
+
+00:30:33.540 --> 00:30:37.500
+ Uber, you know, when I joined, they were using what, you know,
+
+00:30:37.500 --> 00:30:39.620
+ they called, hopefully it's no longer there.
+
+00:30:39.620 --> 00:30:42.860
+ They called Ping, which was a Ping to the server
+
+00:30:42.860 --> 00:30:45.780
+ every three seconds that would fetch all the data
+
+00:30:45.780 --> 00:30:47.660
+ that the user could ever see.
+
+00:30:47.660 --> 00:30:51.140
+ I included sort of user accounts and trips and past trips
+
+00:30:51.140 --> 00:30:53.740
+ and future trips and everything.
+
+00:30:53.740 --> 00:30:54.980
+ And they would sort of ping the server
+
+00:30:54.980 --> 00:30:56.140
+ every three seconds with that.
+
+00:30:56.140 --> 00:30:58.340
+ So they sort of almost were on Cinq,
+
+00:30:58.340 --> 00:31:00.300
+ just a very sort of bad Cinq.
+
+00:31:00.300 --> 00:31:02.260
+ 'Cause they would, you know, every single time
+
+00:31:02.260 --> 00:31:04.980
+ sort of get the entire set set of data.
+
+00:31:04.980 --> 00:31:07.940
+ So yes, most applications, if you're not talking
+
+00:31:07.940 --> 00:31:11.220
+ about sort of the social graph of sorts,
+
+00:31:11.220 --> 00:31:13.860
+ do have a finite set of data.
+
+00:31:13.860 --> 00:31:16.100
+ And even, you know, even in linear,
+
+00:31:16.100 --> 00:31:19.260
+ where you're constrained to one workspace at a time,
+
+00:31:19.260 --> 00:31:21.380
+ we still, within that workspace,
+
+00:31:21.380 --> 00:31:22.940
+ are able to partition the data.
+
+00:31:22.940 --> 00:31:25.540
+ You know, they were sort of kind of optimize
+
+00:31:25.540 --> 00:31:28.100
+ what we load in the beginning and what not to load.
+
+00:31:28.100 --> 00:31:32.700
+ So we do load everything that sort of has some sort of,
+
+00:31:32.700 --> 00:31:34.980
+ you know, finite, you know, finite set,
+
+00:31:34.980 --> 00:31:37.140
+ which is sort of your teams and your users
+
+00:31:37.140 --> 00:31:38.460
+ and your not the issues.
+
+00:31:38.460 --> 00:31:41.260
+ Like teams, users, organizations and labels
+
+00:31:41.260 --> 00:31:45.740
+ and things that sort of, we have under 1000s off issues.
+
+00:31:45.740 --> 00:31:48.180
+ You know, we do see customers who have, you know,
+
+00:31:48.180 --> 00:31:49.780
+ hundreds of thousands of issues.
+
+00:31:49.780 --> 00:31:51.700
+ So we don't want to load them all.
+
+00:31:51.700 --> 00:31:53.180
+ 'Cause they're usually associated with a team.
+
+00:31:53.180 --> 00:31:55.380
+ And, you know, if you have a large organization,
+
+00:31:55.380 --> 00:31:59.060
+ like you will only be part of a few teams here and there.
+
+00:31:59.060 --> 00:32:02.100
+ So it's not necessary for you to load up, you know,
+
+00:32:02.100 --> 00:32:04.180
+ the issues of all teams in order to, you know,
+
+00:32:04.180 --> 00:32:05.140
+ have them locally available.
+
+00:32:05.140 --> 00:32:06.220
+ You can do that dynamically.
+
+00:32:06.220 --> 00:32:09.780
+ Like when you, you know, when you look into a team
+
+00:32:09.780 --> 00:32:11.580
+ that you haven't looked in a while,
+
+00:32:11.580 --> 00:32:14.460
+ we can load up the issues of that team at that point.
+
+00:32:14.460 --> 00:32:16.300
+ Even if you go into sort of the issue itself,
+
+00:32:16.300 --> 00:32:18.140
+ like we've got comments and issue history,
+
+00:32:18.140 --> 00:32:21.580
+ which are only available and visible in just a few screens.
+
+00:32:21.580 --> 00:32:24.660
+ So we're selective of, you know, not loading them at startup,
+
+00:32:24.660 --> 00:32:27.580
+ just to get you to the first UI as quickly as possible,
+
+00:32:27.580 --> 00:32:30.180
+ even if you're starting with a cold client.
+
+00:32:30.180 --> 00:32:32.780
+ But when you then sort of navigate to a team,
+
+00:32:32.780 --> 00:32:34.940
+ in the background, we start streaming in the data
+
+00:32:34.940 --> 00:32:37.300
+ that, you know, we anticipate that you'll need
+
+00:32:37.300 --> 00:32:38.540
+ in the future.
+
+00:32:38.540 --> 00:32:40.780
+ And first case, like if you look at an issue
+
+00:32:40.780 --> 00:32:42.860
+ and you haven't loaded any of the data,
+
+00:32:42.860 --> 00:32:44.820
+ you'll see a blank screen, a quick loading screen
+
+00:32:44.820 --> 00:32:46.460
+ for like half a second and then, you know,
+
+00:32:46.460 --> 00:32:49.260
+ data streams in 'cause, you know, it gets prioritized
+
+00:32:49.260 --> 00:32:51.860
+ of what we load at that point in time.
+
+00:32:51.860 --> 00:32:53.700
+ From a sort of engineering perspective,
+
+00:32:53.700 --> 00:32:56.180
+ the easiest way to build an application would be
+
+00:32:56.180 --> 00:32:59.340
+ that everything is local and actually in memory,
+
+00:32:59.340 --> 00:33:00.940
+ 'cause then you don't need to sort of work
+
+00:33:00.940 --> 00:33:02.620
+ with asynchronous data.
+
+00:33:02.620 --> 00:33:04.220
+ You would have just a struct of, you know,
+
+00:33:04.220 --> 00:33:07.020
+ in memory data and you could just render your UI
+
+00:33:07.020 --> 00:33:08.380
+ as you please.
+
+00:33:08.380 --> 00:33:11.060
+ The moment when, you know, things can pop in, you know,
+
+00:33:11.060 --> 00:33:14.580
+ you need to work around it a bit and sort of, you know,
+
+00:33:14.580 --> 00:33:17.700
+ account for that, you know, you might not be able to show
+
+00:33:17.700 --> 00:33:20.780
+ some UI elements or some UI elements might pop in, you know,
+
+00:33:20.780 --> 00:33:22.540
+ few milliseconds later after your initial render
+
+00:33:22.540 --> 00:33:25.500
+ because you need to hydrate them either from this score,
+
+00:33:25.500 --> 00:33:27.180
+ you know, go to the network.
+
+00:33:27.180 --> 00:33:29.940
+ So it becomes a bit more problematic, but, you know,
+
+00:33:29.940 --> 00:33:32.660
+ it's still, you know, quite quite easy to implement.
+
+00:33:32.660 --> 00:33:33.500
+ - Yeah, exactly.
+
+00:33:33.500 --> 00:33:35.660
+ And it's kind of like, like 80% of your stuff,
+
+00:33:35.660 --> 00:33:37.460
+ it's on that first case and it's kind of like,
+
+00:33:37.460 --> 00:33:39.420
+ it's kind of diminishes, like there are some cases
+
+00:33:39.420 --> 00:33:41.900
+ where you need to handle it specifically.
+
+00:33:41.900 --> 00:33:44.980
+ So me and my wife also, we work on another app together
+
+00:33:44.980 --> 00:33:49.980
+ and it's very similar, like 95% of the day-to-day usage
+
+00:33:49.980 --> 00:33:52.820
+ of the app fits into that very simple.
+
+00:33:52.820 --> 00:33:55.740
+ Everything is local, operation running locally model.
+
+00:33:55.740 --> 00:33:58.300
+ But there are, you know, some situations where they're
+
+00:33:58.300 --> 00:34:01.300
+ looking at reporting and they're looking at larger,
+
+00:34:01.300 --> 00:34:03.220
+ they're asking larger questions of the app.
+
+00:34:03.220 --> 00:34:06.380
+ And for there, we'll fall back to something more traditional.
+
+00:34:06.380 --> 00:34:07.340
+ But to me, it's like progressive.
+
+00:34:07.340 --> 00:34:08.940
+ Like you try to do it locally, if not,
+
+00:34:08.940 --> 00:34:11.940
+ then you kind of progress to the more network-powered things.
+
+00:34:11.940 --> 00:34:15.460
+ And you'll find that, yeah, most, most data operations
+
+00:34:15.460 --> 00:34:17.220
+ can exist locally.
+
+00:34:17.220 --> 00:34:18.620
+ So one of the questions that I get a lot,
+
+00:34:18.620 --> 00:34:20.180
+ and I actually see in the chat right now is,
+
+00:34:20.180 --> 00:34:22.820
+ I think when people hear this model, they think like,
+
+00:34:22.820 --> 00:34:26.820
+ words like CRDTs or like kind of eventual consistency.
+
+00:34:26.820 --> 00:34:27.900
+ But it's quite different, right?
+
+00:34:27.900 --> 00:34:31.500
+ Sinking is very different than like collaborative,
+
+00:34:31.500 --> 00:34:34.500
+ conflict resolution type stuff.
+
+00:34:34.500 --> 00:34:36.900
+ Do you have any thoughts on the differences there?
+
+00:34:36.900 --> 00:34:38.100
+ - Yeah, sure.
+
+00:34:38.100 --> 00:34:41.140
+ Like, so we beat them, use CRDTs for the longest time.
+
+00:34:41.140 --> 00:34:43.340
+ We're actually implementing final CRDTs
+
+00:34:43.340 --> 00:34:46.100
+ for our description editor.
+
+00:34:46.100 --> 00:34:47.940
+ Hopefully, we'll have it live at some point.
+
+00:34:47.940 --> 00:34:50.500
+ Because that was literally the only point in the application
+
+00:34:50.500 --> 00:34:53.620
+ where it didn't feel like being real-time yet.
+
+00:34:53.620 --> 00:34:55.580
+ But if you look at an issue, for example,
+
+00:34:55.580 --> 00:34:57.860
+ like an issue can have a priority.
+
+00:34:57.860 --> 00:34:59.740
+ And if you modify that priority, like, there's
+
+00:34:59.740 --> 00:35:02.020
+ nothing related to CRDTs that you can do there.
+
+00:35:02.020 --> 00:35:06.540
+ Like somebody sets that priority, and the last one will win.
+
+00:35:06.540 --> 00:35:08.740
+ If I set it to high and you set it to medium,
+
+00:35:08.740 --> 00:35:11.860
+ but should it actually be, like, CRDTs can't resolve that for you
+
+00:35:11.860 --> 00:35:14.700
+ and sort of set it to medium plus or something.
+
+00:35:14.700 --> 00:35:17.980
+ So for the most of the properties on our model objects,
+
+00:35:17.980 --> 00:35:22.660
+ like we just utilized the last one wins schema,
+
+00:35:22.660 --> 00:35:24.340
+ we don't even show you any conflicts.
+
+00:35:24.340 --> 00:35:26.380
+ Like if people flip it at the same time,
+
+00:35:26.380 --> 00:35:28.820
+ like we don't show you that, you know, it was just changed
+
+00:35:28.820 --> 00:35:32.060
+ as you made the change because it's really not that necessary.
+
+00:35:32.060 --> 00:35:35.140
+ And people very infrequently modify the same data,
+
+00:35:35.140 --> 00:35:37.420
+ even if you're at a large company.
+
+00:35:37.420 --> 00:35:40.500
+ But yeah, like the editor was the last piece
+
+00:35:40.500 --> 00:35:42.580
+ that we always felt wasn't great.
+
+00:35:42.580 --> 00:35:45.380
+ And we've postponed it for a pretty long time.
+
+00:35:45.380 --> 00:35:50.140
+ Like it's been on our backlog for, I think, three years.
+
+00:35:50.140 --> 00:35:52.660
+ And we always wanted to make a sort of fully collaborative
+
+00:35:52.660 --> 00:35:55.860
+ editor that utilized CRDTs so that multiple people can
+
+00:35:55.860 --> 00:35:59.300
+ edit it at the same time, see all the changes coming in,
+
+00:35:59.300 --> 00:36:03.580
+ and sort of have conflict resolution in the editor itself.
+
+00:36:03.580 --> 00:36:06.900
+ But we just realized that it's not that many people
+
+00:36:06.900 --> 00:36:10.380
+ that edit issue descriptions at the same time,
+
+00:36:10.380 --> 00:36:12.340
+ so it wasn't really a priority for us.
+
+00:36:12.340 --> 00:36:15.260
+ Now that we want to use the editor for a few other things,
+
+00:36:15.260 --> 00:36:17.540
+ where we do anticipate that there will be multiple people
+
+00:36:17.540 --> 00:36:20.860
+ joining into a session, you know, we want to make
+
+00:36:20.860 --> 00:36:23.660
+ that use case work well as well.
+
+00:36:23.660 --> 00:36:25.660
+ And just use CRDTs for text editing.
+
+00:36:25.660 --> 00:36:27.580
+ - Yeah, it's funny, right before you joined,
+
+00:36:27.580 --> 00:36:31.540
+ someone asked the question, hey, can you ask them why,
+
+00:36:31.540 --> 00:36:33.980
+ I think that there's a linear docs feature,
+
+00:36:33.980 --> 00:36:36.820
+ why the editing there goes off.
+
+00:36:36.820 --> 00:36:39.180
+ And I actually guessed that it was exactly this.
+
+00:36:39.180 --> 00:36:42.380
+ So I'm gonna take the mantle that I know more about linear
+
+00:36:42.380 --> 00:36:45.100
+ than anyone that hasn't worked there.
+
+00:36:45.100 --> 00:36:46.940
+ So I've just looked at it so much.
+
+00:36:46.940 --> 00:36:48.620
+ But yeah, so that kind of confirms that question,
+
+00:36:48.620 --> 00:36:51.820
+ which is, again, it goes to that like 80/20 thing,
+
+00:36:51.820 --> 00:36:53.900
+ like 80% of your application is not collaborative
+
+00:36:53.900 --> 00:36:57.620
+ real-time editing, which is very simple data synchronizing.
+
+00:36:57.620 --> 00:36:59.260
+ And there's a small portion that does need that,
+
+00:36:59.260 --> 00:37:02.660
+ and you can kind of progressively look into that.
+
+00:37:02.660 --> 00:37:05.780
+ I think the thing that people kind of conflate this stuff is,
+
+00:37:05.780 --> 00:37:07.420
+ when they hear this, they think about,
+
+00:37:07.420 --> 00:37:09.280
+ oh, is it like peer-to-peer?
+
+00:37:09.280 --> 00:37:10.540
+ It's like that type of situation,
+
+00:37:10.540 --> 00:37:13.740
+ but it's not peer-to-peer, it looks somewhat similar
+
+00:37:13.740 --> 00:37:15.380
+ 'cause you're synchronizing states.
+
+00:37:15.380 --> 00:37:18.140
+ The difference between peer-to-peer and this is there's
+
+00:37:18.140 --> 00:37:20.100
+ a very important peer, which is the server,
+
+00:37:20.100 --> 00:37:23.580
+ which has ultimate authority on when something happened,
+
+00:37:23.580 --> 00:37:26.180
+ what order happened in, what's the last thing that happened.
+
+00:37:26.180 --> 00:37:28.180
+ So when you have that in play,
+
+00:37:28.180 --> 00:37:29.540
+ which is how most web apps work,
+
+00:37:29.540 --> 00:37:31.900
+ most web apps aren't really peer-to-peer applications,
+
+00:37:31.900 --> 00:37:34.820
+ you don't need the complexity of CRDTs
+
+00:37:34.820 --> 00:37:35.860
+ to the majority of things.
+
+00:37:35.860 --> 00:37:39.060
+ So you have this authoritative server
+
+00:37:39.060 --> 00:37:41.740
+ that can determine authoritative states,
+
+00:37:41.740 --> 00:37:43.460
+ and it massively simplifies everything.
+
+00:37:43.460 --> 00:37:46.900
+ So this isn't as complicated as people may have seen
+
+00:37:46.900 --> 00:37:49.780
+ with kind of peer-to-peer technologies.
+
+00:37:49.780 --> 00:37:51.460
+ - For sure, yeah.
+
+00:37:51.460 --> 00:37:55.980
+ And like, you could make linear peer-to-peer network as well,
+
+00:37:55.980 --> 00:37:58.580
+ but I don't know what the benefits would be.
+
+00:37:58.580 --> 00:38:02.140
+ Like, even with our current model, like when we run,
+
+00:38:02.140 --> 00:38:04.220
+ which was like the third thing that we got out of sync,
+
+00:38:04.220 --> 00:38:06.260
+ interestingly enough is, you know,
+
+00:38:06.260 --> 00:38:09.300
+ hugely smaller resource requirements on the backend.
+
+00:38:09.300 --> 00:38:10.580
+ Like, we're running this, you know,
+
+00:38:10.580 --> 00:38:13.860
+ with so few servers that, you know, you could hardly imagine.
+
+00:38:13.860 --> 00:38:15.540
+ 'Cause most of the operations again,
+
+00:38:15.540 --> 00:38:17.300
+ happen on the client, like there's no queries
+
+00:38:17.300 --> 00:38:18.700
+ that the client sends to the backend.
+
+00:38:18.700 --> 00:38:21.060
+ So it's only mutations essentially being, you know,
+
+00:38:21.060 --> 00:38:26.060
+ saved or, you know, being operated on, on the backend.
+
+00:38:26.060 --> 00:38:29.380
+ And you do still want to sort of, you know,
+
+00:38:29.380 --> 00:38:31.300
+ do all kinds of validation and, you know,
+
+00:38:31.300 --> 00:38:33.420
+ have an API where people can sort of submit
+
+00:38:33.420 --> 00:38:35.220
+ the same mutations as well.
+
+00:38:35.220 --> 00:38:38.780
+ So, you know, we need a backend for those operations.
+
+00:38:38.780 --> 00:38:40.740
+ - Yeah, there's another thing that we've noticed as well.
+
+00:38:40.740 --> 00:38:43.780
+ I think before performance work looked like
+
+00:38:43.780 --> 00:38:45.420
+ trying to make my backend faster,
+
+00:38:45.420 --> 00:38:46.620
+ trying to make my database faster,
+
+00:38:46.620 --> 00:38:48.660
+ trying to like make all those response times faster.
+
+00:38:48.660 --> 00:38:51.140
+ I haven't thought about that in so long.
+
+00:38:51.140 --> 00:38:52.940
+ I have no idea how slow my backend is.
+
+00:38:52.940 --> 00:38:54.580
+ It could be super slow for all I know,
+
+00:38:54.580 --> 00:38:58.100
+ but you just cannot tell when you're using the application.
+
+00:38:58.100 --> 00:39:00.460
+ So yeah, I always find it's interesting
+
+00:39:00.460 --> 00:39:02.220
+ where I think when people think about performance,
+
+00:39:02.220 --> 00:39:05.940
+ they think about optimizing like very specific things.
+
+00:39:05.940 --> 00:39:07.540
+ Like I'm going to optimize this code block
+
+00:39:07.540 --> 00:39:09.420
+ or I'm going to make my database faster,
+
+00:39:09.420 --> 00:39:11.140
+ like these individual components.
+
+00:39:11.140 --> 00:39:14.260
+ But performance oftentimes just comes from your architecture.
+
+00:39:14.260 --> 00:39:16.100
+ Like what is architecture you chose
+
+00:39:16.100 --> 00:39:17.660
+ that can make certain things really easy,
+
+00:39:17.660 --> 00:39:19.420
+ other things really hard.
+
+00:39:19.420 --> 00:39:21.540
+ And yeah, it's quite fascinating
+
+00:39:21.540 --> 00:39:26.420
+ because I think right now if you look at,
+
+00:39:26.420 --> 00:39:29.820
+ I mean, it's hard to say what is the correct source for this,
+
+00:39:29.820 --> 00:39:33.860
+ but if I look at the conversations that a lot of
+
+00:39:33.860 --> 00:39:35.980
+ web developers are having,
+
+00:39:35.980 --> 00:39:39.100
+ it's all about optimizing server rendering speed
+
+00:39:39.100 --> 00:39:42.940
+ and building these server rendered applications
+
+00:39:42.940 --> 00:39:44.900
+ or like, you know, building new frameworks
+
+00:39:44.900 --> 00:39:46.940
+ that are more performance.
+
+00:39:46.940 --> 00:39:49.220
+ And I love to point to them that, you know, linear,
+
+00:39:49.220 --> 00:39:53.380
+ which is feels as a user feels way more performance
+
+00:39:53.380 --> 00:39:55.260
+ than majority of applications.
+
+00:39:55.260 --> 00:39:56.540
+ And correct me if I'm wrong on this,
+
+00:39:56.540 --> 00:39:57.940
+ it's just a React application
+
+00:39:57.940 --> 00:40:00.180
+ and it's just a traditional SPA, right?
+
+00:40:00.180 --> 00:40:01.940
+ Nothing fancy going on there.
+
+00:40:01.940 --> 00:40:03.860
+ - No, it's straight up.
+
+00:40:03.860 --> 00:40:06.260
+ Well, sure, like we have, you know,
+
+00:40:06.260 --> 00:40:08.540
+ optimized it and made sure that performance, you know,
+
+00:40:08.540 --> 00:40:10.860
+ on the client is good.
+
+00:40:10.860 --> 00:40:12.340
+ So a lot of work goes in there.
+
+00:40:12.340 --> 00:40:13.980
+ - Yeah, but it's like just the same technology
+
+00:40:13.980 --> 00:40:15.900
+ that's been around for a while,
+
+00:40:15.900 --> 00:40:17.580
+ just, you know, implemented in an architecture
+
+00:40:17.580 --> 00:40:19.980
+ that allows it to be really fast.
+
+00:40:19.980 --> 00:40:21.460
+ And yeah, that's why I've been excited to talk to you
+
+00:40:21.460 --> 00:40:23.660
+ and kind of make this more,
+
+00:40:23.660 --> 00:40:25.980
+ make me more aware of this because,
+
+00:40:25.980 --> 00:40:29.540
+ yeah, there's just a gap.
+
+00:40:29.540 --> 00:40:32.700
+ Have you seen more companies now that you guys are out there
+
+00:40:32.700 --> 00:40:35.060
+ doing it with this approach?
+
+00:40:35.060 --> 00:40:37.660
+ Have you seen more companies take this approach?
+
+00:40:37.660 --> 00:40:39.020
+ I'm telling you like, we're doing it,
+
+00:40:39.020 --> 00:40:40.820
+ but have you seen it grow a little bit more?
+
+00:40:40.820 --> 00:40:42.100
+ - I mean, not really.
+
+00:40:42.100 --> 00:40:44.900
+ I would assume that, you know, startups that start,
+
+00:40:44.900 --> 00:40:46.820
+ you know, are founded nowadays
+
+00:40:46.820 --> 00:40:48.380
+ would have a look at synchronization.
+
+00:40:48.380 --> 00:40:50.900
+ Like if it's a good use case for them,
+
+00:40:50.900 --> 00:40:53.420
+ I haven't personally sort of, you know, used,
+
+00:40:54.460 --> 00:40:57.220
+ I don't wanna say any apps that do synchronization,
+
+00:40:57.220 --> 00:40:59.860
+ but you know, most of the applications that I use
+
+00:40:59.860 --> 00:41:02.740
+ probably don't, I wouldn't know if they do.
+
+00:41:02.740 --> 00:41:05.340
+ Yeah, yeah, I don't know.
+
+00:41:05.340 --> 00:41:07.500
+ Hopefully it will just take time, you know,
+
+00:41:07.500 --> 00:41:10.460
+ for people to sort of start toying around with this.
+
+00:41:10.460 --> 00:41:12.100
+ The problem is that, you know,
+
+00:41:12.100 --> 00:41:14.060
+ when you're building something
+
+00:41:14.060 --> 00:41:16.540
+ where you really don't have product market fit,
+
+00:41:16.540 --> 00:41:19.540
+ it's insane to start with this synchronization engine.
+
+00:41:19.540 --> 00:41:22.220
+ Like it's kind of wasteful and useless,
+
+00:41:22.220 --> 00:41:24.980
+ like to throw it all away, all that hard engineering.
+
+00:41:24.980 --> 00:41:26.660
+ It's not, it is hard engineering.
+
+00:41:26.660 --> 00:41:28.620
+ Like it takes you time to build a good, you know,
+
+00:41:28.620 --> 00:41:30.260
+ synchronization engine.
+
+00:41:30.260 --> 00:41:33.460
+ And the off the shelf solutions, you know,
+
+00:41:33.460 --> 00:41:35.100
+ might work for smaller companies,
+
+00:41:35.100 --> 00:41:37.220
+ but at some point, like you'll have to build yourself,
+
+00:41:37.220 --> 00:41:40.500
+ you know, to optimize the use case for your users.
+
+00:41:40.500 --> 00:41:41.580
+ So it's a big investment.
+
+00:41:41.580 --> 00:41:43.060
+ And if you don't know, like, you know,
+
+00:41:43.060 --> 00:41:45.620
+ what your product is, it's going to be,
+
+00:41:45.620 --> 00:41:47.900
+ or whether it's gonna take off then, you know,
+
+00:41:47.900 --> 00:41:49.900
+ you probably don't want to make that investment.
+
+00:41:49.900 --> 00:41:51.860
+ And once your product takes off, like, you know,
+
+00:41:51.860 --> 00:41:53.660
+ it might be too late to make that investment already.
+
+00:41:53.660 --> 00:41:54.500
+ - Yeah, exactly.
+
+00:41:54.500 --> 00:41:57.220
+ That's why the business part ties in really well, right?
+
+00:41:57.220 --> 00:42:00.340
+ You guys were entering a very established clear market.
+
+00:42:00.340 --> 00:42:01.500
+ You weren't trying to create a new market,
+
+00:42:01.500 --> 00:42:03.260
+ various established market.
+
+00:42:03.260 --> 00:42:05.260
+ And very clear that your entire edge
+
+00:42:05.260 --> 00:42:06.700
+ that you're going to have is the execution.
+
+00:42:06.700 --> 00:42:09.900
+ So it made sense to kind of invest upfront.
+
+00:42:09.900 --> 00:42:12.220
+ So speaking of off the shelf solutions,
+
+00:42:12.220 --> 00:42:13.460
+ have you heard of Replicash?
+
+00:42:13.460 --> 00:42:14.300
+ - I have, yeah.
+
+00:42:14.300 --> 00:42:16.500
+ - So we, that's what we use for our products.
+
+00:42:16.500 --> 00:42:18.860
+ And it was interesting because, you know,
+
+00:42:18.860 --> 00:42:20.180
+ I've been researching linear for a while.
+
+00:42:20.180 --> 00:42:21.460
+ I was like, okay, how am I going to do this?
+
+00:42:21.460 --> 00:42:22.420
+ And I was looking around,
+
+00:42:22.420 --> 00:42:23.620
+ and eventually stumbled upon it.
+
+00:42:23.620 --> 00:42:27.340
+ And on their homepage, their demo is a linear cloud.
+
+00:42:27.340 --> 00:42:29.420
+ And I was like, this is the best way to advertise,
+
+00:42:29.420 --> 00:42:31.380
+ 'cause this is what everyone is looking for,
+
+00:42:31.380 --> 00:42:32.220
+ or not everyone.
+
+00:42:32.220 --> 00:42:33.820
+ Again, really small set of people
+
+00:42:33.820 --> 00:42:35.580
+ that I think have discovered this are interested in this,
+
+00:42:35.580 --> 00:42:38.220
+ but I'm fairly excited about that.
+
+00:42:38.220 --> 00:42:41.020
+ And I think this is what I love to see in technology
+
+00:42:41.020 --> 00:42:44.420
+ where it wasn't solution-led.
+
+00:42:44.420 --> 00:42:45.980
+ I found a product that I loved.
+
+00:42:45.980 --> 00:42:49.060
+ And I loved it so much that I just had to know
+
+00:42:49.060 --> 00:42:50.340
+ how it was built.
+
+00:42:50.340 --> 00:42:51.820
+ And I imagine the Replicash founders
+
+00:42:51.820 --> 00:42:54.380
+ also probably saw linear at some point.
+
+00:42:54.380 --> 00:42:58.260
+ You kind of see the approach proved out in a product
+
+00:42:58.260 --> 00:42:59.780
+ for the end user.
+
+00:42:59.780 --> 00:43:01.780
+ Then you kind of build a solution afterward
+
+00:43:01.780 --> 00:43:05.060
+ that can make it more accessible to more people.
+
+00:43:05.060 --> 00:43:08.940
+ I think a lot of times we see solutions kind of put forth
+
+00:43:08.940 --> 00:43:10.100
+ and you're like, that looks cool,
+
+00:43:10.100 --> 00:43:13.020
+ but I haven't actually, like what,
+
+00:43:13.020 --> 00:43:14.220
+ like show me a product built with it,
+
+00:43:14.220 --> 00:43:17.420
+ show me why it actually feels good to user,
+
+00:43:17.420 --> 00:43:20.780
+ what's a cool thing you can build with it.
+
+00:43:20.780 --> 00:43:22.540
+ And this is a great example of a going in the direction
+
+00:43:22.540 --> 00:43:25.300
+ that I think actually makes sense, right?
+
+00:43:25.300 --> 00:43:28.220
+ So I'm pretty optimistic for Replicash.
+
+00:43:28.220 --> 00:43:30.380
+ Again, like you said, I can already see in places
+
+00:43:30.380 --> 00:43:32.700
+ where we're gonna outgrow it in some ways,
+
+00:43:32.700 --> 00:43:35.420
+ but just to make that initial,
+
+00:43:35.420 --> 00:43:36.820
+ you don't have to build your own sync engine.
+
+00:43:36.820 --> 00:43:39.220
+ It's still, and I wanna make this clear
+
+00:43:39.220 --> 00:43:41.300
+ for everyone listening, it's hard.
+
+00:43:41.300 --> 00:43:44.940
+ Even when you're using an off-the-shelf solution,
+
+00:43:44.940 --> 00:43:47.380
+ it's just very different from what you're used to.
+
+00:43:47.380 --> 00:43:48.980
+ And it does take effort,
+
+00:43:48.980 --> 00:43:52.380
+ but if your goal is to out execute everyone else,
+
+00:43:52.380 --> 00:43:54.940
+ it's just gonna take effort, right?
+
+00:43:54.940 --> 00:43:57.100
+ But it's definitely worth it, in my opinion.
+
+00:43:57.100 --> 00:44:01.860
+ - Cool, yeah, you know, people should definitely look into it.
+
+00:44:01.860 --> 00:44:04.060
+ And like, obviously there's other solutions as well,
+
+00:44:04.060 --> 00:44:07.140
+ like Firebase being the oldest one of them all.
+
+00:44:07.140 --> 00:44:08.340
+ Like that was actually, you know,
+
+00:44:08.340 --> 00:44:10.660
+ one of the initial sort of proofs of concept
+
+00:44:10.660 --> 00:44:13.020
+ that we did, like my first implementation
+
+00:44:13.020 --> 00:44:14.500
+ was on coach base.
+
+00:44:15.460 --> 00:44:18.140
+ - I'm sorry, coach base, coach base, coach base.
+
+00:44:18.140 --> 00:44:19.740
+ - And then, then all that.
+
+00:44:19.740 --> 00:44:22.140
+ - Yeah, exactly, yeah, coach DB.
+
+00:44:22.140 --> 00:44:24.980
+ And then Firebase as well.
+
+00:44:24.980 --> 00:44:26.500
+ And we sort of quickly realized that, you know,
+
+00:44:26.500 --> 00:44:27.540
+ they wouldn't work for us.
+
+00:44:27.540 --> 00:44:29.620
+ Like, I think coach DB, you know,
+
+00:44:29.620 --> 00:44:32.620
+ just didn't have any access control.
+
+00:44:32.620 --> 00:44:34.900
+ Back then, I don't know if they do now.
+
+00:44:34.900 --> 00:44:38.140
+ And then Firebase, like, we did a small quick calculation
+
+00:44:38.140 --> 00:44:40.340
+ on the costs and, you know, our use case
+
+00:44:40.340 --> 00:44:42.860
+ would have been costs us, you know, millions of dollars
+
+00:44:42.860 --> 00:44:44.660
+ to access the load of all of that data.
+
+00:44:44.660 --> 00:44:47.060
+ So it wouldn't have worked for us.
+
+00:44:47.060 --> 00:44:48.260
+ But it might work for you.
+
+00:44:48.260 --> 00:44:49.980
+ Like if you're working, you know, on something small
+
+00:44:49.980 --> 00:44:53.460
+ and you want to just, you know, add synchronization as,
+
+00:44:53.460 --> 00:44:56.860
+ and add on to a portion of your application, like, you know,
+
+00:44:56.860 --> 00:44:59.580
+ yes, go ahead with, you know, existing solutions
+
+00:44:59.580 --> 00:45:01.020
+ and try to, you know, start there
+
+00:45:01.020 --> 00:45:03.940
+ and see how we can benefit from losing.
+
+00:45:03.940 --> 00:45:06.260
+ - Okay, so people did ask, is it long pulling?
+
+00:45:06.260 --> 00:45:08.060
+ Like, what's the actual tech stack
+
+00:45:08.060 --> 00:45:09.380
+ that you guys use for synchronization?
+
+00:45:09.380 --> 00:45:10.780
+ So I think you've given a few talks
+
+00:45:10.780 --> 00:45:11.820
+ and it's probably what documented,
+
+00:45:11.820 --> 00:45:14.140
+ but if you can kind of just list it out here.
+
+00:45:14.140 --> 00:45:16.380
+ - Yeah, yeah, there's, I do have a few talks
+
+00:45:16.380 --> 00:45:20.460
+ on how, you know, our sync engine works.
+
+00:45:20.460 --> 00:45:23.340
+ But essentially what we have is a WebSocket connection
+
+00:45:23.340 --> 00:45:24.580
+ for all this synchronization stuff.
+
+00:45:24.580 --> 00:45:27.940
+ And then mutations still have been on a GraphQL connection
+
+00:45:27.940 --> 00:45:30.220
+ or a GraphQL request essentially that we make.
+
+00:45:30.220 --> 00:45:31.620
+ 'Cause we want to have the same backend
+
+00:45:31.620 --> 00:45:33.740
+ for the public API and then our clients.
+
+00:45:33.740 --> 00:45:35.780
+ We didn't want to duplicate it.
+
+00:45:35.780 --> 00:45:37.540
+ So if you make a change on the client,
+
+00:45:37.540 --> 00:45:38.820
+ client will create a transaction,
+
+00:45:38.820 --> 00:45:41.540
+ send that over, you know, over GraphQL
+
+00:45:41.540 --> 00:45:44.060
+ to the backend and the backend will create a sort
+
+00:45:44.060 --> 00:45:47.380
+ of log of changes that happen to your workspace
+
+00:45:47.380 --> 00:45:48.700
+ and then send those changes back
+
+00:45:48.700 --> 00:45:51.220
+ to the user over the WebSocket connection.
+
+00:45:51.220 --> 00:45:53.540
+ So you'll be receiving all the changes that you've made
+
+00:45:53.540 --> 00:45:55.940
+ and all the changes that everybody else has made
+
+00:45:55.940 --> 00:45:57.060
+ through WebSockets.
+
+00:45:57.060 --> 00:45:57.980
+ - Yeah, and that's what's interesting
+
+00:45:57.980 --> 00:46:00.220
+ 'cause it's, you guys do use GraphQL under the hood.
+
+00:46:00.220 --> 00:46:01.980
+ So it's a marriage of the synchronization
+
+00:46:01.980 --> 00:46:03.980
+ but still relying on like the type safety
+
+00:46:03.980 --> 00:46:07.220
+ and all other benefits you get from GraphQL.
+
+00:46:07.220 --> 00:46:08.940
+ Yeah, 'cause like you said, I think most companies
+
+00:46:08.940 --> 00:46:10.580
+ will need a lot of companies,
+
+00:46:10.580 --> 00:46:12.940
+ especially if you're building for other companies,
+
+00:46:12.940 --> 00:46:14.340
+ you're gonna need an API,
+
+00:46:14.340 --> 00:46:16.020
+ just having something that makes sense internally
+
+00:46:16.020 --> 00:46:18.300
+ and externally does make a lot of sense.
+
+00:46:18.300 --> 00:46:19.140
+ Okay, cool.
+
+00:46:19.140 --> 00:46:21.540
+ So I think that's really everything I had.
+
+00:46:21.540 --> 00:46:22.780
+ Thank you so much for joining.
+
+00:46:22.780 --> 00:46:24.140
+ This was really awesome.
+
+00:46:24.140 --> 00:46:26.300
+ Like I said, I just want more people to know
+
+00:46:26.300 --> 00:46:27.820
+ about how this stuff works under the hood
+
+00:46:27.820 --> 00:46:29.460
+ and it kind of be inspired to do the same.
+
+00:46:29.460 --> 00:46:30.540
+ Again, thank you for joining,
+
+00:46:30.540 --> 00:46:32.380
+ but also thank you for building linear.
+
+00:46:32.380 --> 00:46:33.740
+ Like I said, it's hugely influential
+
+00:46:33.740 --> 00:46:35.780
+ on everything that I do today,
+
+00:46:35.780 --> 00:46:39.300
+ which sounds like is what you guys hope that out to do.
+
+00:46:39.300 --> 00:46:41.180
+ So hopefully it's a nice data point.
+
+00:46:41.180 --> 00:46:44.220
+ Yeah, that's so great to hear.
+
+00:46:44.220 --> 00:46:45.220
+ Yeah, so appreciate it.
+
+00:46:45.220 --> 00:46:46.740
+ Thanks so much for having me.
+
+00:46:46.740 --> 00:46:49.320
+ (upbeat music)
+

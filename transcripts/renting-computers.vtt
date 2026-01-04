@@ -1,0 +1,1844 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.600
+ - Hey, did you see the DHH article?
+
+00:00:02.600 --> 00:00:03.440
+ Of course you did.
+
+00:00:03.440 --> 00:00:04.920
+ We said we were gonna get on and talk about this.
+
+00:00:04.920 --> 00:00:06.000
+ I know you've seen it.
+
+00:00:06.000 --> 00:00:06.840
+ I'm in it.
+
+00:00:06.840 --> 00:00:09.100
+ - Yeah, I mean, it's been everywhere.
+
+00:00:09.100 --> 00:00:13.000
+ And a lot of quote tweets, 'cause I guess no one can reply.
+
+00:00:13.000 --> 00:00:16.000
+ So it just becomes like a quote tweet flame test
+
+00:00:16.000 --> 00:00:17.320
+ with every single post.
+
+00:00:17.320 --> 00:00:18.160
+ Which, you know, everyone says it's a part
+
+00:00:18.160 --> 00:00:19.760
+ of their marketing strategy, but.
+
+00:00:19.760 --> 00:00:22.160
+ - Does it work?
+
+00:00:22.160 --> 00:00:26.720
+ Like who ends up being like, this DHH guy, what a jerk.
+
+00:00:26.720 --> 00:00:28.520
+ And then like, hey, base camp looks nice.
+
+00:00:28.520 --> 00:00:30.640
+ - I don't know, is that actually a strategy that works?
+
+00:00:30.640 --> 00:00:33.600
+ I just would love to see one case where that worked.
+
+00:00:33.600 --> 00:00:34.940
+ - Yeah, I don't know what that funnel is.
+
+00:00:34.940 --> 00:00:36.840
+ It doesn't make any sense to me, but.
+
+00:00:36.840 --> 00:00:40.420
+ (upbeat music)
+
+00:00:57.960 --> 00:01:01.080
+ Over the article, it was pretty short, pretty straightforward.
+
+00:01:01.080 --> 00:01:03.720
+ And I think it, I can probably summarize it pretty quickly.
+
+00:01:03.720 --> 00:01:06.800
+ It was just, they looked at their bill for AWS
+
+00:01:06.800 --> 00:01:10.920
+ and what they're paying for, you know, RDS, Elasticsearch.
+
+00:01:10.920 --> 00:01:14.440
+ Paying half a million dollars a year for those services.
+
+00:01:14.440 --> 00:01:18.360
+ And, you know, this is too much just for renting these servers
+
+00:01:18.360 --> 00:01:20.600
+ to run the software.
+
+00:01:20.600 --> 00:01:23.120
+ There's gonna be cheaper for us to host it ourselves.
+
+00:01:23.120 --> 00:01:27.320
+ And I think in general, a lot of people were replying,
+
+00:01:27.320 --> 00:01:32.200
+ saying, oh, like for this many users,
+
+00:01:32.200 --> 00:01:34.840
+ like there's no way your bill should be that high.
+
+00:01:34.840 --> 00:01:37.800
+ I think in general, I try to stay away from stuff like that.
+
+00:01:37.800 --> 00:01:38.880
+ I just don't know.
+
+00:01:38.880 --> 00:01:40.240
+ Like I don't know what their product is.
+
+00:01:40.240 --> 00:01:41.080
+ I know what it does.
+
+00:01:41.080 --> 00:01:44.160
+ Like everything's always more complicated than it seems.
+
+00:01:44.160 --> 00:01:48.280
+ But I think the thing that's more interesting is
+
+00:01:48.280 --> 00:01:52.120
+ that their conclusion was so broad.
+
+00:01:52.120 --> 00:01:54.160
+ They're like, we're paying too much for these services.
+
+00:01:54.160 --> 00:01:57.720
+ Therefore, the cloud has no value period.
+
+00:01:57.720 --> 00:01:59.720
+ We should go to self-hosting
+
+00:01:59.720 --> 00:02:01.920
+ and more of you should consider this as well.
+
+00:02:01.920 --> 00:02:02.800
+ Does that sound right?
+
+00:02:02.800 --> 00:02:03.960
+ - Oh yeah, it sounds right.
+
+00:02:03.960 --> 00:02:07.640
+ And I guess like is the majority,
+
+00:02:07.640 --> 00:02:10.000
+ isn't the majority case people not using the cloud?
+
+00:02:10.000 --> 00:02:12.040
+ Isn't cloud adoption still pretty small?
+
+00:02:12.040 --> 00:02:14.760
+ And like to make the case that they're like the empire
+
+00:02:14.760 --> 00:02:16.720
+ and where the rebels and we're gonna go out and prim
+
+00:02:16.720 --> 00:02:19.240
+ and do dumb stuff, like where the rebels,
+
+00:02:19.240 --> 00:02:21.160
+ I think that's the normal thing.
+
+00:02:21.160 --> 00:02:22.760
+ He talked about like the cloud
+
+00:02:22.760 --> 00:02:24.560
+ and their big like marketing cycles
+
+00:02:24.560 --> 00:02:26.720
+ and how they've really like convinced everybody.
+
+00:02:26.720 --> 00:02:27.560
+ Have they?
+
+00:02:27.560 --> 00:02:29.440
+ I feel like they're just like barely touching the surface
+
+00:02:29.440 --> 00:02:31.800
+ of what people should be doing on the cloud.
+
+00:02:31.800 --> 00:02:32.640
+ - Yeah.
+
+00:02:32.640 --> 00:02:35.480
+ There's a post, again, another post on Hacker News
+
+00:02:35.480 --> 00:02:37.840
+ that it's the same thread every time
+
+00:02:37.840 --> 00:02:40.040
+ about how the cloud is a scam.
+
+00:02:40.040 --> 00:02:42.400
+ And it's that same comment.
+
+00:02:42.400 --> 00:02:46.360
+ It's, yeah, we've had a decade of like people tricking us
+
+00:02:46.360 --> 00:02:47.920
+ into thinking everything's gonna be cheaper.
+
+00:02:47.920 --> 00:02:51.040
+ And then I don't really know what that,
+
+00:02:51.040 --> 00:02:53.000
+ what people are referring to.
+
+00:02:53.000 --> 00:02:54.560
+ But yeah, that is like a sentiment
+
+00:02:54.560 --> 00:02:56.080
+ that I think people generally have.
+
+00:02:56.080 --> 00:02:57.480
+ - Did you wanna defend DHH?
+
+00:02:57.480 --> 00:03:01.600
+ Did you wanna like make the case for why maybe you should
+
+00:03:01.600 --> 00:03:03.680
+ move away from the cloud?
+
+00:03:03.680 --> 00:03:05.320
+ Is that what you were getting at earlier?
+
+00:03:05.320 --> 00:03:07.840
+ - I think there's some legitimate gaps
+
+00:03:07.840 --> 00:03:10.120
+ that because of their service,
+
+00:03:10.120 --> 00:03:11.800
+ they're running directly into.
+
+00:03:11.800 --> 00:03:14.860
+ They are an email service that's indexing text.
+
+00:03:16.360 --> 00:03:21.200
+ There is no great serverless option in AWS for this.
+
+00:03:21.200 --> 00:03:22.840
+ You're effectively just renting servers
+
+00:03:22.840 --> 00:03:24.080
+ from them to run a lot of stuff.
+
+00:03:24.080 --> 00:03:26.160
+ - Classic search is expensive, right?
+
+00:03:26.160 --> 00:03:28.360
+ - Yeah, which is pretty expensive.
+
+00:03:28.360 --> 00:03:30.760
+ You have to like provision clusters,
+
+00:03:30.760 --> 00:03:33.320
+ you have to over provision them so that you can meet growth
+
+00:03:33.320 --> 00:03:35.480
+ and then continue to over provision them.
+
+00:03:35.480 --> 00:03:39.560
+ So that sucks and it's not a good experience.
+
+00:03:39.560 --> 00:03:42.440
+ And I can see why they might say,
+
+00:03:42.440 --> 00:03:44.380
+ yeah, this is not worth it for us.
+
+00:03:45.480 --> 00:03:46.320
+ - It's definitely a gap.
+
+00:03:46.320 --> 00:03:48.760
+ And then also on, they're also using RDS
+
+00:03:48.760 --> 00:03:53.760
+ and there is no, I know AWS has their serverless RDS
+
+00:03:53.760 --> 00:03:56.000
+ which I actually think is pretty good,
+
+00:03:56.000 --> 00:03:57.280
+ but it's not really serverless, right?
+
+00:03:57.280 --> 00:03:58.800
+ Like you're still kind of more or less.
+
+00:03:58.800 --> 00:04:01.800
+ It's just kind of like a good auto scaling RDS
+
+00:04:01.800 --> 00:04:04.360
+ in like a normal RDS instance.
+
+00:04:04.360 --> 00:04:07.480
+ So again, like very low value in terms of what the cloud
+
+00:04:07.480 --> 00:04:08.320
+ can do for them.
+
+00:04:08.320 --> 00:04:12.440
+ They're kind of just roughly managing these servers for you.
+
+00:04:12.440 --> 00:04:15.080
+ So I get their point of view and why they switch
+
+00:04:15.080 --> 00:04:17.080
+ and that like specific decision.
+
+00:04:17.080 --> 00:04:18.240
+ I think I would have still stuck with it
+
+00:04:18.240 --> 00:04:21.240
+ because as some people point out,
+
+00:04:21.240 --> 00:04:24.400
+ 500K is like two competent engineers times.
+
+00:04:24.400 --> 00:04:25.600
+ - Yeah.
+
+00:04:25.600 --> 00:04:28.600
+ - So like how much money are you going to get?
+
+00:04:28.600 --> 00:04:30.920
+ - Yeah, I feel like you're going to add
+
+00:04:30.920 --> 00:04:34.080
+ two engineers worth of concerns onto your plate
+
+00:04:34.080 --> 00:04:36.560
+ by doing all that yourselves, I would think.
+
+00:04:36.560 --> 00:04:38.920
+ - Yeah, exactly.
+
+00:04:38.920 --> 00:04:42.480
+ But I think the thing with stuff that they typically publish
+
+00:04:42.480 --> 00:04:45.520
+ is it's like it makes sense in like their narrow band
+
+00:04:45.520 --> 00:04:47.040
+ of what they're working on,
+
+00:04:47.040 --> 00:04:49.440
+ but the conclusion is pretty broad that the cloud is useless
+
+00:04:49.440 --> 00:04:52.480
+ and then that feeds into like some larger debate
+
+00:04:52.480 --> 00:04:53.880
+ that's happening on the cloud being useless
+
+00:04:53.880 --> 00:04:55.840
+ and people are pointing to it saying,
+
+00:04:55.840 --> 00:04:58.160
+ hey, look, look how expensive it is.
+
+00:04:58.160 --> 00:05:01.080
+ It is useless or is it scam, et cetera.
+
+00:05:01.080 --> 00:05:06.000
+ So yeah, I think that's just how this conversation is gone.
+
+00:05:06.000 --> 00:05:07.480
+ And I think that most of the people,
+
+00:05:07.480 --> 00:05:11.600
+ I think Zachary Cantor are the perfect summary of all this.
+
+00:05:11.600 --> 00:05:13.840
+ I don't know if you saw it, he was saying,
+
+00:05:13.840 --> 00:05:15.720
+ it's a self-fulfilling prophecy.
+
+00:05:15.720 --> 00:05:17.840
+ People are skeptical about the cloud.
+
+00:05:17.840 --> 00:05:22.120
+ So they build stuff in a portable cloud-neutral way
+
+00:05:22.120 --> 00:05:24.600
+ that doesn't take advantage of the cloud.
+
+00:05:24.600 --> 00:05:26.840
+ And then they're like, wait, I'm just renting servers
+
+00:05:26.840 --> 00:05:27.800
+ that are really expensive.
+
+00:05:27.800 --> 00:05:29.200
+ Why am I using this in the first place?
+
+00:05:29.200 --> 00:05:31.760
+ So I think that's just a cycle.
+
+00:05:31.760 --> 00:05:33.880
+ - Yeah, it's the lowest common denominator.
+
+00:05:33.880 --> 00:05:36.520
+ Like we don't know that we want to be here.
+
+00:05:36.520 --> 00:05:38.320
+ So we're going to put one foot in the door
+
+00:05:38.320 --> 00:05:40.600
+ and that ends up being really expensive.
+
+00:05:40.600 --> 00:05:42.960
+ - Yeah, but yeah, I don't even know.
+
+00:05:42.960 --> 00:05:45.680
+ Is it that much more expensive than what you're doing,
+
+00:05:45.680 --> 00:05:48.400
+ even with using that lowest common denominator stuff.
+
+00:05:48.400 --> 00:05:51.600
+ But then serverless and event-driven and all of this,
+
+00:05:51.600 --> 00:05:52.720
+ like is that the answer?
+
+00:05:52.720 --> 00:05:55.000
+ We can move to that for their use case.
+
+00:05:55.000 --> 00:05:58.520
+ Can you imagine building hay.com
+
+00:05:58.520 --> 00:06:02.400
+ on event-driven stuff that you build like an SSD?
+
+00:06:02.400 --> 00:06:04.680
+ - Yeah, I think, I actually like the way you phrase it
+
+00:06:04.680 --> 00:06:06.920
+ in your video that you put on YouTube.
+
+00:06:06.920 --> 00:06:10.280
+ I think building stuff in this like neutral way
+
+00:06:10.280 --> 00:06:13.520
+ can work, but it hasn't changed in 15 years
+
+00:06:13.520 --> 00:06:15.160
+ or whatever the timeframe was.
+
+00:06:15.160 --> 00:06:18.600
+ There's all sorts of new interesting ways to build stuff
+
+00:06:18.600 --> 00:06:22.040
+ that is very different and throws out a lot of the old stuff.
+
+00:06:22.040 --> 00:06:24.360
+ So you're kind of starting from scratch.
+
+00:06:24.360 --> 00:06:26.040
+ But yeah, for something like, hey, like,
+
+00:06:26.040 --> 00:06:28.840
+ I see no reason why it can't be mostly serverless.
+
+00:06:28.840 --> 00:06:30.920
+ At least on the compute side.
+
+00:06:30.920 --> 00:06:34.480
+ On the database side, I think for a lot of just like
+
+00:06:34.480 --> 00:06:36.880
+ the business logic stuff like their users
+
+00:06:36.880 --> 00:06:38.800
+ or accounts, things like that.
+
+00:06:38.800 --> 00:06:42.160
+ Dynamo, all those serverless database options.
+
+00:06:42.160 --> 00:06:45.480
+ What we're great, it's really just a search thing.
+
+00:06:45.480 --> 00:06:46.480
+ That's a good killer.
+
+00:06:46.480 --> 00:06:48.280
+ - Yeah, that's missing.
+
+00:06:48.280 --> 00:06:50.520
+ Were you triggered by the renting computers?
+
+00:06:50.520 --> 00:06:53.560
+ Like just that summation of what the cloud is
+
+00:06:53.560 --> 00:06:54.800
+ 'cause he makes the point to be like,
+
+00:06:54.800 --> 00:06:56.280
+ this is what the cloud is.
+
+00:06:56.280 --> 00:06:58.760
+ We're afraid to say it, but that's what it is.
+
+00:06:58.760 --> 00:06:59.600
+ - Yeah.
+
+00:06:59.600 --> 00:07:03.920
+ Yeah, I mean, I always have this dual thing where I'm like,
+
+00:07:03.920 --> 00:07:05.720
+ that annoys me, but then I'm also like,
+
+00:07:05.720 --> 00:07:07.240
+ I remember when I used to say that.
+
+00:07:07.240 --> 00:07:09.600
+ (laughing)
+
+00:07:09.600 --> 00:07:11.400
+ - You're a Kubernetes, right?
+
+00:07:11.400 --> 00:07:14.720
+ You're doing all that lowest common denominator stuff.
+
+00:07:14.720 --> 00:07:15.560
+ - Yeah.
+
+00:07:15.560 --> 00:07:19.080
+ I agreed with every single point in this article at one point.
+
+00:07:19.080 --> 00:07:20.640
+ - Oh, who, DHH, this article?
+
+00:07:20.640 --> 00:07:21.480
+ - Yeah.
+
+00:07:21.480 --> 00:07:22.320
+ - That's awesome.
+
+00:07:22.320 --> 00:07:24.920
+ So do you agree, what do you agree with still?
+
+00:07:24.920 --> 00:07:26.720
+ What do you not agree with at all?
+
+00:07:26.720 --> 00:07:30.320
+ - I mean, I think I just, I agree with all of it,
+
+00:07:30.320 --> 00:07:32.400
+ except it's like, but you haven't discovered
+
+00:07:32.400 --> 00:07:33.480
+ this other thing, you know?
+
+00:07:33.480 --> 00:07:36.000
+ It's like within your limited view of the world,
+
+00:07:36.000 --> 00:07:37.440
+ your logic is flawless.
+
+00:07:37.440 --> 00:07:39.600
+ - And could they discover the other thing,
+
+00:07:39.600 --> 00:07:41.360
+ or are they always going to use Rails?
+
+00:07:41.360 --> 00:07:43.080
+ And can you build a Rails app that takes advantage
+
+00:07:43.080 --> 00:07:43.960
+ of all this stuff?
+
+00:07:43.960 --> 00:07:46.560
+ - I actually don't know.
+
+00:07:46.560 --> 00:07:47.960
+ I'm not, I'm not that familiar with Rails.
+
+00:07:47.960 --> 00:07:49.120
+ I don't think so, 'cause I think it's great.
+
+00:07:49.120 --> 00:07:51.360
+ - I've actually, I've done some hosting for clients,
+
+00:07:51.360 --> 00:07:53.080
+ hosting Rails apps on AWS.
+
+00:07:53.080 --> 00:07:55.360
+ And I don't know that you could really take advantage
+
+00:07:55.360 --> 00:07:59.040
+ of like modern, and a bit driven stuff.
+
+00:07:59.040 --> 00:08:02.240
+ You can replace like your Q with SQS instead of sidekick,
+
+00:08:02.240 --> 00:08:07.240
+ and you can replace, I guess like instead of running Redis,
+
+00:08:07.240 --> 00:08:11.680
+ just in another compute like your Rails app,
+
+00:08:11.680 --> 00:08:14.400
+ you can run it in a last cache or whatever, but I don't know.
+
+00:08:14.400 --> 00:08:17.040
+ It's all still, again, that pretty expensive stuff
+
+00:08:17.040 --> 00:08:20.120
+ on AWS, it's not the new thing.
+
+00:08:20.120 --> 00:08:22.520
+ - Yeah, with this type of thing, it's,
+
+00:08:22.520 --> 00:08:25.280
+ I think everyone's looking for the incremental step of,
+
+00:08:25.280 --> 00:08:27.480
+ here's how it used to do things, I'm moving to the cloud,
+
+00:08:27.480 --> 00:08:29.680
+ and here's this incremental way of moving my stuff there,
+
+00:08:29.680 --> 00:08:32.200
+ which is just lifting what I have and putting in the cloud.
+
+00:08:32.200 --> 00:08:35.440
+ And the result is just appointing because these incremental steps
+
+00:08:35.440 --> 00:08:37.160
+ aren't gonna get you to anything game changing.
+
+00:08:37.160 --> 00:08:40.000
+ You kind of have to, realistically,
+
+00:08:40.000 --> 00:08:42.400
+ I don't think moving to the cloud is really an option.
+
+00:08:42.400 --> 00:08:44.800
+ I think you have to wait for new companies
+
+00:08:44.800 --> 00:08:47.040
+ to just start in this cloud native way,
+
+00:08:47.040 --> 00:08:48.000
+ 'cause when people move to the cloud,
+
+00:08:48.000 --> 00:08:49.360
+ they just run servers in the cloud,
+
+00:08:49.360 --> 00:08:51.840
+ and they're like, this is expensive, and it sucks.
+
+00:08:51.840 --> 00:08:53.360
+ - Yeah, yeah.
+
+00:08:53.360 --> 00:08:56.240
+ Yeah, so that's something I think about like,
+
+00:08:56.240 --> 00:09:01.000
+ incumbent companies and the disadvantage they have,
+
+00:09:01.000 --> 00:09:02.600
+ if they built their thing a decade ago,
+
+00:09:02.600 --> 00:09:05.240
+ like, I think it's hitting exactly what you're just saying.
+
+00:09:05.240 --> 00:09:07.680
+ Like, I don't know how you've moved that stuff
+
+00:09:07.680 --> 00:09:10.280
+ into this new world, like, can you strangler pattern your way
+
+00:09:10.280 --> 00:09:13.680
+ into, well, I guess Lego.com, so Lego did it.
+
+00:09:13.680 --> 00:09:14.520
+ - Yeah.
+
+00:09:14.520 --> 00:09:15.880
+ - But I mean, did they end up, like,
+
+00:09:15.880 --> 00:09:18.240
+ it just rewrote most everything over time,
+
+00:09:18.240 --> 00:09:20.960
+ but they had like a successful migration
+
+00:09:20.960 --> 00:09:23.840
+ into now, like, best practice it,
+
+00:09:23.840 --> 00:09:24.840
+ like, they're leading the way,
+
+00:09:24.840 --> 00:09:27.160
+ kind of showing how teams can build this way
+
+00:09:27.160 --> 00:09:30.240
+ with multiple teams, and yeah,
+
+00:09:30.240 --> 00:09:32.440
+ but I think of, like, a company, like,
+
+00:09:32.440 --> 00:09:35.760
+ what is the company that makes basecamp?
+
+00:09:35.760 --> 00:09:36.840
+ What is their company called?
+
+00:09:36.840 --> 00:09:37.760
+ - 37 Signals.
+
+00:09:37.760 --> 00:09:40.880
+ - 37 Signals, I think of them as being like,
+
+00:09:40.880 --> 00:09:43.800
+ they're never gonna change in that way,
+
+00:09:43.800 --> 00:09:45.480
+ that article is sort of reflective of that.
+
+00:09:45.480 --> 00:09:47.640
+ - And they have so much experience building things
+
+00:09:47.640 --> 00:09:49.320
+ the way they build it, like, decade,
+
+00:09:49.320 --> 00:09:51.520
+ like, literally creating that pattern, so.
+
+00:09:51.520 --> 00:09:52.720
+ - So it's probably better for them?
+
+00:09:52.720 --> 00:09:54.840
+ Like, they would never move as fast with the new stuff
+
+00:09:54.840 --> 00:09:56.360
+ than they can move with the thing they've been doing
+
+00:09:56.360 --> 00:09:57.520
+ for a decade?
+
+00:09:57.520 --> 00:09:59.240
+ - Yeah, and it's a pretty small company, too.
+
+00:09:59.240 --> 00:10:01.920
+ It's not like you're, so yeah, I get it.
+
+00:10:01.920 --> 00:10:02.760
+ It just makes sense for that.
+
+00:10:02.760 --> 00:10:03.720
+ - Smaller all the time.
+
+00:10:03.720 --> 00:10:06.360
+ The more inflammatory DHH can be on the internet,
+
+00:10:06.360 --> 00:10:08.600
+ the more people leave.
+
+00:10:08.600 --> 00:10:09.880
+ - 36 Signals, 35.
+
+00:10:09.880 --> 00:10:13.320
+ (both laughing)
+
+00:10:13.320 --> 00:10:14.880
+ - I love making fun of these giants,
+
+00:10:14.880 --> 00:10:16.360
+ like, I've ever done anything in my life,
+
+00:10:16.360 --> 00:10:19.920
+ like, I can just sit back here and throw stones.
+
+00:10:19.920 --> 00:10:21.240
+ What do I know?
+
+00:10:21.240 --> 00:10:22.840
+ I can't even find, I'm looking at the article
+
+00:10:22.840 --> 00:10:24.680
+ trying to find the thing that I totally blanked on earlier,
+
+00:10:24.680 --> 00:10:25.680
+ and I literally can't find it.
+
+00:10:25.680 --> 00:10:27.800
+ It's not even that long of an article, I don't know.
+
+00:10:27.800 --> 00:10:30.120
+ And he does talk about, like, it works on two ends
+
+00:10:30.120 --> 00:10:34.120
+ of the spectrum, the one end, and I feel so called out
+
+00:10:34.120 --> 00:10:35.720
+ when he says, "The first end is when your application
+
+00:10:35.720 --> 00:10:37.680
+ "is so simple and low traffic that you really do save
+
+00:10:37.680 --> 00:10:39.920
+ "on complexity by starting with fully managed services."
+
+00:10:39.920 --> 00:10:41.240
+ I feel like that's a sentence I would say,
+
+00:10:41.240 --> 00:10:45.520
+ like, you can start simply with these fully managed services,
+
+00:10:45.520 --> 00:10:46.920
+ and I never make it out of that part.
+
+00:10:46.920 --> 00:10:49.880
+ Like, I never get to the part where it's not just simple
+
+00:10:49.880 --> 00:10:50.760
+ and low traffic.
+
+00:10:50.760 --> 00:10:54.720
+ But then what's he say about the higher end of the spectrum?
+
+00:10:54.720 --> 00:10:57.560
+ Oh, yeah, second is when your load is highly irregular.
+
+00:10:57.560 --> 00:11:00.680
+ Okay, so he's saying, "The cloud doesn't make sense
+
+00:11:00.680 --> 00:11:02.320
+ "if you have predictable anything.
+
+00:11:02.320 --> 00:11:04.880
+ "It only makes sense if you need to be able to burst
+
+00:11:04.880 --> 00:11:08.560
+ "and scale at these crazy bursty rates,
+
+00:11:08.560 --> 00:11:10.760
+ "or if you're tiny and you don't have any traffic."
+
+00:11:10.760 --> 00:11:12.640
+ What do you take from that?
+
+00:11:12.640 --> 00:11:15.600
+ - Yeah, I think the math on that is actually counterintuitive.
+
+00:11:15.600 --> 00:11:17.000
+ I think he's kind of intuiting that,
+
+00:11:17.000 --> 00:11:19.400
+ "Oh, if we have consistent load,
+
+00:11:19.400 --> 00:11:20.800
+ "there's not gonna be a big difference
+
+00:11:20.800 --> 00:11:23.560
+ "going to something that's serverless."
+
+00:11:23.560 --> 00:11:25.920
+ But if you actually do the math, it's pretty crazy.
+
+00:11:25.920 --> 00:11:30.920
+ If you're constantly serving 10 requests a second, for example,
+
+00:11:30.920 --> 00:11:35.200
+ that seems like a lot, like a constant 10 request load.
+
+00:11:35.200 --> 00:11:37.680
+ I should pre-provision stuff.
+
+00:11:37.680 --> 00:11:42.680
+ But if each of those requests only take 100 milliseconds each,
+
+00:11:42.680 --> 00:11:45.280
+ you're actually overpaying by 90%,
+
+00:11:45.280 --> 00:11:48.680
+ 'cause in that one second, you're only using
+
+00:11:48.680 --> 00:11:53.440
+ like 100, like 100 milliseconds of that second.
+
+00:11:53.440 --> 00:11:57.560
+ So if you actually do out the math, run the math out,
+
+00:11:57.560 --> 00:11:59.600
+ the savings can be pretty crazy.
+
+00:11:59.600 --> 00:12:03.160
+ You have to multiply this by high availability.
+
+00:12:03.160 --> 00:12:04.320
+ So you don't have to have one copy,
+
+00:12:04.320 --> 00:12:05.600
+ so if you have multiple copies of stuff,
+
+00:12:05.600 --> 00:12:08.200
+ it's kind of surprising sometimes
+
+00:12:08.200 --> 00:12:09.960
+ for what feels like constant loads,
+
+00:12:09.960 --> 00:12:11.560
+ actually mostly empty space.
+
+00:12:11.560 --> 00:12:16.120
+ So yeah, I think, again, just have to do the math out
+
+00:12:16.120 --> 00:12:17.920
+ on your own and see what you get to.
+
+00:12:17.920 --> 00:12:20.920
+ But I've always been shocked when I've moved companies
+
+00:12:20.920 --> 00:12:22.640
+ to serverless stuff.
+
+00:12:22.640 --> 00:12:23.840
+ I knew it was gonna be cheaper,
+
+00:12:23.840 --> 00:12:28.040
+ but it's often like a crazy, ridiculous multiple cheaper.
+
+00:12:28.040 --> 00:12:31.240
+ - Yeah, and it shouldn't be cheaper
+
+00:12:31.240 --> 00:12:33.640
+ when you have less you need to do.
+
+00:12:33.640 --> 00:12:37.520
+ He makes the argument that you would have like cloud,
+
+00:12:37.520 --> 00:12:41.280
+ his promise, you'll need less staff to manage your thing.
+
+00:12:41.280 --> 00:12:45.080
+ And if it's cheaper even without factoring that in,
+
+00:12:45.080 --> 00:12:46.560
+ I think like if it were the same,
+
+00:12:46.560 --> 00:12:49.240
+ it still should be cheaper, total cost, right?
+
+00:12:49.240 --> 00:12:50.800
+ It's a whole total cost of ownership thing.
+
+00:12:50.800 --> 00:12:53.960
+ Like ultimately having fewer concerns,
+
+00:12:53.960 --> 00:12:57.040
+ fewer operational burdens should mean
+
+00:12:57.040 --> 00:12:59.360
+ your team can focus on things that are more important.
+
+00:12:59.360 --> 00:13:02.600
+ But DHH is making the argument that medium-sized companies,
+
+00:13:02.600 --> 00:13:04.120
+ that's not the case.
+
+00:13:04.120 --> 00:13:06.040
+ You can afford to just hire people
+
+00:13:06.040 --> 00:13:06.880
+ who manage infrastructure.
+
+00:13:06.880 --> 00:13:08.800
+ Oh, that's the thing, that's the thing,
+
+00:13:08.800 --> 00:13:09.960
+ the thing that I forgot earlier.
+
+00:13:09.960 --> 00:13:13.480
+ I should stop emphasizing it 'cause I'm gonna forget again.
+
+00:13:13.480 --> 00:13:17.200
+ The thing is he makes the claim
+
+00:13:17.200 --> 00:13:19.240
+ that it's really complicated to have people
+
+00:13:19.240 --> 00:13:21.600
+ that can manage your AWS stuff.
+
+00:13:21.600 --> 00:13:25.040
+ Like that's just as complicated as managing your on-prem stuff.
+
+00:13:25.040 --> 00:13:27.280
+ And I think again, we're talking about the difference
+
+00:13:27.280 --> 00:13:31.560
+ in running lowest common denominator, like VMs and stuff
+
+00:13:31.560 --> 00:13:35.720
+ and using event-driven modern managed services.
+
+00:13:35.720 --> 00:13:39.360
+ Yeah, which again, he's correct
+
+00:13:39.360 --> 00:13:41.200
+ because back when I did all the Kubernetes stuff,
+
+00:13:41.200 --> 00:13:44.360
+ I much preferred managing bare metal Kubernetes
+
+00:13:44.360 --> 00:13:47.480
+ than like AWS's flavor or like Google's flavor.
+
+00:13:47.480 --> 00:13:50.920
+ Google's flavor is actually pretty good, but yeah,
+
+00:13:50.920 --> 00:13:52.280
+ again, makes total sense.
+
+00:13:52.280 --> 00:13:55.400
+ I think the other thing he mentioned was
+
+00:13:55.400 --> 00:13:58.480
+ no company he knows of has scaled down their operations team
+
+00:13:58.480 --> 00:14:00.120
+ as a result of moving to the cloud.
+
+00:14:00.120 --> 00:14:02.080
+ That's totally, yeah.
+
+00:14:02.080 --> 00:14:04.600
+ I mean, that's so substantiated.
+
+00:14:04.600 --> 00:14:06.560
+ Like I'm sure there are plenty of cases.
+
+00:14:06.560 --> 00:14:09.360
+ I'm not gonna substantiate them as well, but.
+
+00:14:09.360 --> 00:14:12.680
+ Well, even if it's not substantiated,
+
+00:14:12.680 --> 00:14:14.520
+ I think this is one of those paradox things
+
+00:14:14.520 --> 00:14:19.520
+ where when something becomes cheaper or easier to use,
+
+00:14:19.520 --> 00:14:21.040
+ you use more of it.
+
+00:14:21.040 --> 00:14:24.520
+ So it's okay that your operations team didn't shrink.
+
+00:14:24.520 --> 00:14:27.280
+ Your engineering team might've even grown even
+
+00:14:27.280 --> 00:14:29.080
+ as a result of moving to the cloud.
+
+00:14:29.080 --> 00:14:31.120
+ But if you break it down to what they're doing,
+
+00:14:31.120 --> 00:14:33.720
+ what they're focusing on, like if you have resources
+
+00:14:33.720 --> 00:14:38.480
+ to spend on hiring and you're not gonna like cut that, right?
+
+00:14:38.480 --> 00:14:40.080
+ 'Cause presumably you have good stuff
+
+00:14:40.080 --> 00:14:41.200
+ that people can be doing.
+
+00:14:41.200 --> 00:14:42.600
+ So yeah, teams generally don't shrink.
+
+00:14:42.600 --> 00:14:44.760
+ They might even grow, but it's maybe because
+
+00:14:44.760 --> 00:14:46.680
+ they can more easily add more people
+
+00:14:46.680 --> 00:14:48.840
+ and have them do the useful things they need them to do.
+
+00:14:48.840 --> 00:14:51.920
+ So this like simple way of just looking at it as,
+
+00:14:51.920 --> 00:14:54.520
+ oh, did you fire people or not?
+
+00:14:54.520 --> 00:14:55.360
+ Like I don't.
+
+00:14:55.360 --> 00:14:58.480
+ The company, why not a good company?
+
+00:14:58.480 --> 00:14:59.720
+ If that's what they ended up doing.
+
+00:14:59.720 --> 00:15:02.680
+ - I've heard you in the past say like at companies,
+
+00:15:02.680 --> 00:15:04.440
+ there's never a shortage of things to do.
+
+00:15:04.440 --> 00:15:07.160
+ You're always sacrificing what you could be working on
+
+00:15:07.160 --> 00:15:08.520
+ to work on something.
+
+00:15:08.520 --> 00:15:09.920
+ So. - Yeah.
+
+00:15:09.920 --> 00:15:11.400
+ - Yeah, in that sense, I guess he's,
+
+00:15:11.400 --> 00:15:13.640
+ maybe he's trying to argue that like you have people
+
+00:15:13.640 --> 00:15:16.680
+ that are specifically, they have expertise
+
+00:15:16.680 --> 00:15:20.840
+ with managing AWS stuff and you need those people,
+
+00:15:20.840 --> 00:15:23.400
+ if you don't have the people who are specifically good
+
+00:15:23.400 --> 00:15:27.280
+ at managing infrastructure and like on-prem stuff
+
+00:15:27.280 --> 00:15:30.360
+ or whatever hybrid cloud, I don't even know all that world.
+
+00:15:30.360 --> 00:15:33.400
+ I know nothing about it, but like I guess my view
+
+00:15:33.400 --> 00:15:36.120
+ of the future is people who are good at all of it.
+
+00:15:36.120 --> 00:15:37.600
+ - Yeah, exactly. - And like one role.
+
+00:15:37.600 --> 00:15:39.840
+ It's like the event driven serverless stuff
+
+00:15:39.840 --> 00:15:42.880
+ feels much more, one developer has so much more leverage
+
+00:15:42.880 --> 00:15:45.200
+ than they did 10 years ago, and that's a good thing.
+
+00:15:45.200 --> 00:15:47.560
+ And you hire everyone you can get your hands on
+
+00:15:47.560 --> 00:15:49.280
+ and convince to work at your company.
+
+00:15:49.280 --> 00:15:50.920
+ And you don't think about what they're doing,
+
+00:15:50.920 --> 00:15:53.880
+ you just know they're capable of doing
+
+00:15:53.880 --> 00:15:55.320
+ any of the things across the stack.
+
+00:15:55.320 --> 00:15:57.320
+ I don't know, maybe that's some utopia that doesn't exist,
+
+00:15:57.320 --> 00:15:59.120
+ but that's how I like to think of the future.
+
+00:15:59.120 --> 00:16:03.000
+ - No, I think it is happening, or even myself,
+
+00:16:03.000 --> 00:16:06.440
+ I'm doing more, you know, quote unquote ops work
+
+00:16:06.440 --> 00:16:10.480
+ than I ever have before, not because of anything with me,
+
+00:16:10.480 --> 00:16:12.640
+ it's just become much more accessible and easy for me to do,
+
+00:16:12.640 --> 00:16:16.080
+ so I don't need to outsource that into another person.
+
+00:16:16.080 --> 00:16:19.400
+ So yeah, I agree, it's just ideally you want a company
+
+00:16:19.400 --> 00:16:21.400
+ where everyone's the less specialization
+
+00:16:21.400 --> 00:16:22.720
+ and better in a lot of ways.
+
+00:16:22.720 --> 00:16:27.520
+ So yeah, I think more people just do the ops role
+
+00:16:27.520 --> 00:16:28.920
+ and you have the same number of people,
+
+00:16:28.920 --> 00:16:31.840
+ but it's not this thing where like the developer
+
+00:16:31.840 --> 00:16:34.720
+ finishes their work and they give it to the ops person
+
+00:16:34.720 --> 00:16:37.640
+ to figure out their thing, and there's all this overhead
+
+00:16:37.640 --> 00:16:42.160
+ and communication and stuff that goes wrong in that process.
+
+00:16:42.160 --> 00:16:47.160
+ So yeah, I think to me it's more about making ops work
+
+00:16:47.160 --> 00:16:51.540
+ just become normal application developer work.
+
+00:16:51.540 --> 00:16:53.680
+ And that's kind of the ultimate goal.
+
+00:16:53.680 --> 00:16:57.560
+ - Yeah, I'm trying to find the Simon Woodley
+
+00:16:57.560 --> 00:17:01.440
+ had a tweet and I loved it so much in response to this DH thing.
+
+00:17:01.440 --> 00:17:04.560
+ I love Simon Woodley because you'll be like,
+
+00:17:04.560 --> 00:17:06.800
+ hey, did you see that article from DHH?
+
+00:17:06.800 --> 00:17:08.400
+ And he's like, no, who's that?
+
+00:17:08.400 --> 00:17:10.040
+ (laughing)
+
+00:17:10.040 --> 00:17:12.440
+ He's just so, he's so cool.
+
+00:17:12.440 --> 00:17:13.880
+ And he's like retired from cloud,
+
+00:17:13.880 --> 00:17:16.880
+ but he still knows more than we'll ever like unlearn.
+
+00:17:16.880 --> 00:17:19.440
+ But he basically was laying out like,
+
+00:17:19.440 --> 00:17:21.640
+ what are you even talking about like cloud infrastructure
+
+00:17:21.640 --> 00:17:23.560
+ stuff, like if you're not on serverless, you're dead,
+
+00:17:23.560 --> 00:17:25.960
+ like it's over, you missed the boat and I love it.
+
+00:17:25.960 --> 00:17:27.880
+ I just love that it takes so much 'cause I just hate,
+
+00:17:27.880 --> 00:17:30.040
+ I hate when I see these arguments pop up
+
+00:17:30.040 --> 00:17:32.400
+ and it's like that we're having to defend,
+
+00:17:32.400 --> 00:17:35.240
+ it's better to do less undifferentiated dumb stuff
+
+00:17:35.240 --> 00:17:36.080
+ at your company.
+
+00:17:36.080 --> 00:17:36.920
+ I hate having to defend that.
+
+00:17:36.920 --> 00:17:39.040
+ Like it just seems so obvious to me.
+
+00:17:39.040 --> 00:17:41.000
+ And I guess like there are edge cases,
+
+00:17:41.000 --> 00:17:43.840
+ that's Simon's point is like, there are these edge cases.
+
+00:17:43.840 --> 00:17:46.880
+ The problem is too many people thinking they're the edge case.
+
+00:17:46.880 --> 00:17:48.960
+ And like the majority of people should be building
+
+00:17:48.960 --> 00:17:49.800
+ their thing.
+
+00:17:49.800 --> 00:17:51.720
+ When I think about base camp, like task management
+
+00:17:51.720 --> 00:17:53.760
+ or something, I've never seen base camp in my life
+
+00:17:53.760 --> 00:17:56.760
+ and I hope to never have to because I don't work on teams,
+
+00:17:56.760 --> 00:17:58.440
+ not a slide at like 37 signals.
+
+00:17:58.440 --> 00:18:00.400
+ I'm just saying like, I don't use software to coordinate
+
+00:18:00.400 --> 00:18:02.160
+ with people 'cause I don't coordinate with people.
+
+00:18:02.160 --> 00:18:04.920
+ But if I did, I imagine software where you're just like
+
+00:18:04.920 --> 00:18:08.880
+ managing tasks and like action items and like workflows
+
+00:18:08.880 --> 00:18:10.800
+ and all that nonsense and communication.
+
+00:18:10.800 --> 00:18:15.320
+ I would imagine you can build that on the thing
+
+00:18:15.320 --> 00:18:19.720
+ that allows you to not think about literal servers and OS's
+
+00:18:19.720 --> 00:18:20.560
+ and networking.
+
+00:18:20.560 --> 00:18:22.760
+ And like if you're thinking about that stuff
+
+00:18:22.760 --> 00:18:25.880
+ to build that app, then there is no use case for serverless.
+
+00:18:25.880 --> 00:18:27.440
+ Like if serverless can't solve that,
+
+00:18:27.440 --> 00:18:29.360
+ if event driven applications can't be built
+
+00:18:30.320 --> 00:18:32.080
+ that solve that problem.
+
+00:18:32.080 --> 00:18:33.880
+ Like there's nothing complicated about that problem.
+
+00:18:33.880 --> 00:18:34.920
+ Am I wrong?
+
+00:18:34.920 --> 00:18:37.480
+ Is there something about base camp or that use case
+
+00:18:37.480 --> 00:18:41.800
+ that like demands serious infrastructure investment
+
+00:18:41.800 --> 00:18:43.480
+ and understanding on your team?
+
+00:18:43.480 --> 00:18:47.000
+ - No, I think pretty much in every category now
+
+00:18:47.000 --> 00:18:51.840
+ you can find one company that's doing fully serverless stuff
+
+00:18:51.840 --> 00:18:52.680
+ and not a whole product.
+
+00:18:52.680 --> 00:18:54.400
+ You can probably find a comparable product
+
+00:18:54.400 --> 00:18:56.080
+ that is built with this new architecture.
+
+00:18:56.080 --> 00:19:00.800
+ So yeah, at this point, it's like, you can't argue it doesn't work.
+
+00:19:00.800 --> 00:19:03.160
+ And I actually think this is the way it's always been.
+
+00:19:03.160 --> 00:19:06.280
+ I'm sure there was a time where someone was like,
+
+00:19:06.280 --> 00:19:08.320
+ if you're not literally, you know,
+
+00:19:08.320 --> 00:19:12.200
+ putting your CPU on your motherboard and building your server,
+
+00:19:12.200 --> 00:19:15.200
+ like there's something wrong with that.
+
+00:19:15.200 --> 00:19:17.200
+ Or like, you know, you're getting tricked
+
+00:19:17.200 --> 00:19:18.480
+ to buy these preassembled servers.
+
+00:19:18.480 --> 00:19:20.160
+ - You bought into the marketing.
+
+00:19:20.160 --> 00:19:21.000
+ - Yeah.
+
+00:19:21.000 --> 00:19:22.240
+ - With these machine makers.
+
+00:19:22.240 --> 00:19:26.040
+ - Just life goes on and we build higher and higher abstractions
+
+00:19:26.040 --> 00:19:29.480
+ than we build on top of other things that exist.
+
+00:19:29.480 --> 00:19:30.480
+ Like all the way down to like,
+
+00:19:30.480 --> 00:19:32.280
+ we're not worrying about the electricity getting towards it.
+
+00:19:32.280 --> 00:19:34.400
+ Like it's just, there's just so many infinite layers
+
+00:19:34.400 --> 00:19:35.920
+ over the thousands of years of work.
+
+00:19:35.920 --> 00:19:39.120
+ So yeah, I think it's just kind of dumb to fight these things.
+
+00:19:39.120 --> 00:19:42.080
+ - So is there just this, what is the like,
+
+00:19:42.080 --> 00:19:44.800
+ what is the ending here that makes me feel better?
+
+00:19:44.800 --> 00:19:46.640
+ 'Cause I all these stupid arguments crop up
+
+00:19:46.640 --> 00:19:48.000
+ because of these dumb blog posts.
+
+00:19:48.000 --> 00:19:49.040
+ Sorry, I'm so inflammatory.
+
+00:19:49.040 --> 00:19:50.600
+ I think I'm an inflammatory person.
+
+00:19:50.600 --> 00:19:51.880
+ I'm learning.
+
+00:19:51.880 --> 00:19:54.560
+ I think I'm very upset about things and I shouldn't.
+
+00:19:54.560 --> 00:19:55.560
+ 'Cause it doesn't affect me.
+
+00:19:55.560 --> 00:19:57.600
+ But like, I get all fired up.
+
+00:19:57.600 --> 00:19:58.440
+ I see this article.
+
+00:19:58.440 --> 00:20:00.000
+ I see the whole debate rage on again.
+
+00:20:00.000 --> 00:20:01.160
+ And I just bothered me so much.
+
+00:20:01.160 --> 00:20:04.240
+ Is there gonna be like an unceremonious ending to all that?
+
+00:20:04.240 --> 00:20:06.440
+ Like, this is not gonna be some big moment
+
+00:20:06.440 --> 00:20:09.400
+ where I get to be like, see, it makes sense.
+
+00:20:09.400 --> 00:20:10.480
+ - You know what, that's what sucks.
+
+00:20:10.480 --> 00:20:12.200
+ There's never that satisfying moment.
+
+00:20:12.200 --> 00:20:13.040
+ - Yeah, it's not going to.
+
+00:20:13.040 --> 00:20:14.680
+ - I feel like I've seen this enough times now
+
+00:20:14.680 --> 00:20:18.840
+ where there was a time where everyone hated static,
+
+00:20:18.840 --> 00:20:20.560
+ not everyone, but there's a lot of debate around static
+
+00:20:20.560 --> 00:20:21.840
+ typing and type safety.
+
+00:20:21.840 --> 00:20:24.280
+ And it was just like, that's dumb or like,
+
+00:20:24.280 --> 00:20:26.600
+ that's just dumb overhead.
+
+00:20:26.600 --> 00:20:28.560
+ And TypeScript came out
+
+00:20:28.560 --> 00:20:31.760
+ and just slowly got incremental adoption every single month.
+
+00:20:31.760 --> 00:20:32.920
+ And now everyone's using it.
+
+00:20:32.920 --> 00:20:35.040
+ And no one is, there was never a moment
+
+00:20:35.040 --> 00:20:37.480
+ where it was like, ha, ha, yeah.
+
+00:20:37.480 --> 00:20:39.320
+ - Yeah, it's just, you go six months
+
+00:20:39.320 --> 00:20:42.920
+ and you realize, and this is real, like honest assessment
+
+00:20:42.920 --> 00:20:44.400
+ for me, I feel like I've gone six months
+
+00:20:44.400 --> 00:20:46.480
+ and not seen somebody argue against TypeScript.
+
+00:20:46.480 --> 00:20:47.760
+ And that's like the first time on Twitter,
+
+00:20:47.760 --> 00:20:49.800
+ I think I've gone six months without seeing that argument.
+
+00:20:49.800 --> 00:20:51.480
+ So it does feel like it just, oh yeah,
+
+00:20:51.480 --> 00:20:53.320
+ people used to argue about that.
+
+00:20:53.320 --> 00:20:54.280
+ It just disappears.
+
+00:20:54.280 --> 00:20:55.760
+ - It just disappears.
+
+00:20:55.760 --> 00:20:59.560
+ - Yeah, we should maybe do like,
+
+00:20:59.560 --> 00:21:03.640
+ someone out there should like archive this stuff of like,
+
+00:21:03.640 --> 00:21:05.240
+ okay, here's the debate.
+
+00:21:05.240 --> 00:21:08.240
+ I should publish the debate it's over, hasn't come up.
+
+00:21:08.240 --> 00:21:09.080
+ And like, you know.
+
+00:21:09.080 --> 00:21:09.900
+ - I feel so good.
+
+00:21:09.900 --> 00:21:10.740
+ - Yeah, I feel so good.
+
+00:21:10.740 --> 00:21:12.400
+ - Remember when people were saying XYZ?
+
+00:21:12.400 --> 00:21:14.640
+ - Yeah, I think of it, I've got kids.
+
+00:21:14.640 --> 00:21:18.720
+ I think of it like, we forget all about like the first year
+
+00:21:18.720 --> 00:21:19.840
+ when we didn't sleep at all.
+
+00:21:19.840 --> 00:21:21.840
+ Like, in the moment it feels like,
+
+00:21:21.840 --> 00:21:24.160
+ this is never gonna end, this is my whole life.
+
+00:21:24.160 --> 00:21:25.040
+ It's so consuming.
+
+00:21:25.040 --> 00:21:25.960
+ And then years later, you're like,
+
+00:21:25.960 --> 00:21:26.880
+ oh yeah, that just stopped.
+
+00:21:26.880 --> 00:21:29.240
+ I mean, I didn't think about the fact that it stopped.
+
+00:21:29.240 --> 00:21:33.200
+ So eventually the DHH article is about dumb stuff.
+
+00:21:33.200 --> 00:21:35.000
+ Well, it's not DHH, this is his first
+
+00:21:35.000 --> 00:21:37.760
+ moving away from the cloud article, I think.
+
+00:21:37.760 --> 00:21:40.360
+ It's not DHH, he's just the symbol right now.
+
+00:21:40.360 --> 00:21:42.680
+ But eventually these arguments will stop cropping up
+
+00:21:42.680 --> 00:21:46.040
+ and will stop having to defend why it's good to focus
+
+00:21:46.040 --> 00:21:47.480
+ on the thing you're trying to build
+
+00:21:47.480 --> 00:21:49.120
+ and not all the other things.
+
+00:21:49.120 --> 00:21:49.960
+ And that's what it is.
+
+00:21:49.960 --> 00:21:52.480
+ I mean, that's what, I don't think of the term cloud
+
+00:21:52.480 --> 00:21:55.240
+ or serverless as being clear in that regard.
+
+00:21:55.240 --> 00:21:56.760
+ I think that's what we're focused on though.
+
+00:21:56.760 --> 00:21:58.680
+ When we talk about a thing,
+
+00:21:58.680 --> 00:22:01.880
+ we're talking about more focus on real problems,
+
+00:22:01.880 --> 00:22:05.320
+ less focus on undifferentiated stuff, right?
+
+00:22:05.320 --> 00:22:06.360
+ - Yeah, I agree.
+
+00:22:06.360 --> 00:22:08.960
+ And to be honest, it is as annoying as it is
+
+00:22:08.960 --> 00:22:10.480
+ not as much energy it takes up.
+
+00:22:10.480 --> 00:22:15.840
+ On some level, I think we all enjoy being part of a group
+
+00:22:15.840 --> 00:22:18.960
+ that's trying to make what we see like the next thing happen
+
+00:22:18.960 --> 00:22:20.320
+ with a bunch of people being like,
+
+00:22:20.320 --> 00:22:22.800
+ no, this old thing is better.
+
+00:22:22.800 --> 00:22:23.640
+ - Oh yeah.
+
+00:22:23.640 --> 00:22:27.400
+ - Again, that's why I can't sign with Vercelle
+
+00:22:27.400 --> 00:22:28.440
+ 'cause they have like one.
+
+00:22:28.440 --> 00:22:30.280
+ So I want my looking for the next thing.
+
+00:22:30.280 --> 00:22:32.640
+ That same thing in me that I kind of want
+
+00:22:32.640 --> 00:22:33.840
+ to be the underdog to somebody.
+
+00:22:33.840 --> 00:22:36.200
+ - Yeah, that's why the Star Wars movies are good.
+
+00:22:36.200 --> 00:22:37.360
+ They're the rebellion.
+
+00:22:37.360 --> 00:22:40.840
+ So this was harder to talk about than I thought it'd be.
+
+00:22:40.840 --> 00:22:42.520
+ I thought like when that article came out,
+
+00:22:42.520 --> 00:22:44.400
+ I was like, I gotta get on with DAX
+
+00:22:44.400 --> 00:22:46.400
+ and talk about this 'cause it's so fired up.
+
+00:22:46.400 --> 00:22:48.100
+ And then we got on and it was kind of like,
+
+00:22:48.100 --> 00:22:50.000
+ I don't know, do I have coherent thoughts
+
+00:22:50.000 --> 00:22:50.840
+ about this topic?
+
+00:22:50.840 --> 00:22:51.760
+ Maybe not.
+
+00:22:51.760 --> 00:22:52.600
+ We'll see.
+
+00:22:52.600 --> 00:22:54.160
+ The podcast listeners can tell us.
+
+00:22:54.160 --> 00:22:55.960
+ - Yeah, you know, I kind of feel the same way.
+
+00:22:55.960 --> 00:22:58.440
+ I think it turns out we've,
+
+00:22:58.440 --> 00:22:59.680
+ there's nothing new in this.
+
+00:22:59.680 --> 00:23:00.920
+ I've kind of heard this a lot of times
+
+00:23:00.920 --> 00:23:03.360
+ and we've probably talked about it a million times so.
+
+00:23:03.360 --> 00:23:05.520
+ - I feel dumb even saying like TCO.
+
+00:23:05.520 --> 00:23:08.880
+ I feel like dumb like I'm like being pedantic
+
+00:23:08.880 --> 00:23:10.160
+ or like I'm being, not pedantic.
+
+00:23:10.160 --> 00:23:12.240
+ I'm being like, I'm talking down to the audience
+
+00:23:12.240 --> 00:23:13.600
+ trying to say terms like that
+
+00:23:13.600 --> 00:23:16.160
+ when I feel like they've been beat so hard
+
+00:23:16.160 --> 00:23:18.480
+ that drum has been drummed
+
+00:23:18.480 --> 00:23:21.280
+ and I don't need to explain total cost of ownership
+
+00:23:21.280 --> 00:23:22.400
+ to anybody anymore.
+
+00:23:22.400 --> 00:23:23.320
+ But I guess I do.
+
+00:23:23.320 --> 00:23:27.360
+ I guess there's people that still don't see the world that way
+
+00:23:27.360 --> 00:23:28.200
+ and maybe never will.
+
+00:23:28.200 --> 00:23:29.040
+ I don't know.
+
+00:23:29.040 --> 00:23:33.560
+ Okay, I really don't have an ending for this one.
+
+00:23:33.560 --> 00:23:35.440
+ I didn't have a little, I didn't have a beginning.
+
+00:23:35.440 --> 00:23:37.160
+ I don't have anything for this one.
+
+00:23:37.160 --> 00:23:38.300
+ I'm just fired up.
+
+00:23:38.300 --> 00:23:40.640
+ This has been fun.
+
+00:23:40.640 --> 00:23:44.320
+ I'm really enjoying not doing new guests
+
+00:23:44.320 --> 00:23:45.960
+ and just talking to DAX all the time.
+
+00:23:45.960 --> 00:23:48.960
+ - Yeah, it's good not to just have these conversations
+
+00:23:48.960 --> 00:23:50.160
+ with myself and my head all day.
+
+00:23:50.160 --> 00:23:51.000
+ - Yeah, exactly.
+
+00:23:51.000 --> 00:23:52.880
+ - Yeah, we leave it out here and we can kind of move on.
+
+00:23:52.880 --> 00:23:55.120
+ - So yeah, my listeners may disagree.
+
+00:23:55.120 --> 00:23:57.480
+ They might wish some of my things just stayed in my head,
+
+00:23:57.480 --> 00:23:59.960
+ but it feels good to me.
+
+00:23:59.960 --> 00:24:00.840
+ I'm enjoying it.
+
+00:24:00.840 --> 00:24:02.400
+ I'm enjoying getting it all out of my head.
+
+00:24:02.400 --> 00:24:03.880
+ - Yeah.
+
+00:24:03.880 --> 00:24:06.360
+ - All right, it's been good.
+
+00:24:06.360 --> 00:24:07.640
+ Thanks DAX.
+
+00:24:07.640 --> 00:24:08.480
+ - See ya.
+
+00:24:08.480 --> 00:24:09.320
+ - See ya.
+
+00:24:09.320 --> 00:24:11.900
+ (upbeat music)
+
+00:24:15.960 --> 00:24:18.540
+ (upbeat music)
+

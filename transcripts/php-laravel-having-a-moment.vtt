@@ -1,0 +1,1271 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.760
+ I can't believe all of you are falling for Adam.dev's layervel scam.
+
+00:00:03.760 --> 00:00:04.760
+ Oh, my God.
+
+00:00:04.760 --> 00:00:07.540
+ He clicks away to you with the stream title say you're going to build a project with
+
+00:00:07.540 --> 00:00:09.600
+ layervel and just talking about layervel never does any layer.
+
+00:00:30.000 --> 00:00:35.960
+ I hate that that's accurate.
+
+00:00:35.960 --> 00:00:39.520
+ I hate that it's true because I'm not scamming.
+
+00:00:39.520 --> 00:00:41.040
+ I'm not.
+
+00:00:41.040 --> 00:00:42.240
+ So many people think I'm trolling.
+
+00:00:42.240 --> 00:00:43.240
+ I'm really not.
+
+00:00:43.240 --> 00:00:45.600
+ I'm actually excited about layervel.
+
+00:00:45.600 --> 00:00:46.960
+ Why would I troll about that?
+
+00:00:46.960 --> 00:00:49.000
+ It's like a fantastic community.
+
+00:00:49.000 --> 00:00:50.000
+ It's amazing technology.
+
+00:00:50.000 --> 00:00:51.000
+ You're doing it again.
+
+00:00:51.000 --> 00:00:53.360
+ You're again, just talking about it and not actually doing.
+
+00:00:53.360 --> 00:00:57.040
+ I've actually done some layervel, just not on stream yet, okay?
+
+00:00:57.040 --> 00:00:59.180
+ I've built the starter project, okay?
+
+00:00:59.180 --> 00:01:00.180
+ It was a lot of CLI commands.
+
+00:01:00.180 --> 00:01:05.360
+ It was a lot of CLI commands or one CLI command because you have to MPM install because nothing
+
+00:01:05.360 --> 00:01:10.400
+ can escape the grasp of MPM and JavaScript.
+
+00:01:10.400 --> 00:01:14.440
+ So if it were for that, it would just be a couple that you got to build your front end
+
+00:01:14.440 --> 00:01:15.440
+ assets or whatever.
+
+00:01:15.440 --> 00:01:16.440
+ I don't know.
+
+00:01:16.440 --> 00:01:20.680
+ You're not one of those people that just clones a starter thing and then starts talking
+
+00:01:20.680 --> 00:01:21.680
+ about a technology.
+
+00:01:21.680 --> 00:01:22.680
+ Okay.
+
+00:01:22.680 --> 00:01:23.680
+ I'm not.
+
+00:01:23.680 --> 00:01:28.520
+ But in this case that maybe one of them, no, but but I'm not that kind of person.
+
+00:01:28.520 --> 00:01:29.880
+ It doesn't define me.
+
+00:01:29.880 --> 00:01:32.200
+ One, one action does not define my person.
+
+00:01:32.200 --> 00:01:37.320
+ I agree, but I'm just saying technically speaking, that is a bullet point when you're
+
+00:01:37.320 --> 00:01:39.360
+ being judged later.
+
+00:01:39.360 --> 00:01:43.360
+ It's true that I did not actually alter the starter project in any way.
+
+00:01:43.360 --> 00:01:44.360
+ Not any meaningful way.
+
+00:01:44.360 --> 00:01:48.120
+ I did change the markup a little bit just to see that it doesn't have hot reloading, which
+
+00:01:48.120 --> 00:01:49.120
+ we should talk about that.
+
+00:01:49.120 --> 00:01:51.840
+ Taylor, we should talk about what JavaScript developers expect.
+
+00:01:51.840 --> 00:01:57.240
+ Now that there's a flood of JavaScript developers flooding into the PHP and layervel world,
+
+00:01:57.240 --> 00:01:58.920
+ we need to set some expectations.
+
+00:01:58.920 --> 00:02:03.120
+ We expect when we make a change in the file and we save it, it just automatically updates
+
+00:02:03.120 --> 00:02:04.120
+ in the browser.
+
+00:02:04.120 --> 00:02:05.360
+ It's just an expectation.
+
+00:02:05.360 --> 00:02:11.360
+ It's all we've got really JavaScript is hell on earth and this full stack JavaScript stuff.
+
+00:02:11.360 --> 00:02:14.480
+ If we're going to have a deal with all that, at least we can save a file and see it immediately
+
+00:02:14.480 --> 00:02:16.240
+ reflected in the in the browser.
+
+00:02:16.240 --> 00:02:17.240
+ That's all we got.
+
+00:02:17.240 --> 00:02:20.080
+ I'm sure they're really happy that you're in this, you're in their space now.
+
+00:02:20.080 --> 00:02:25.240
+ I wonder actually, I wonder how much there's people like with some consternation.
+
+00:02:25.240 --> 00:02:26.440
+ Why did I use that word?
+
+00:02:26.440 --> 00:02:30.640
+ I wonder how many people are like a little upset and a little nervous about JavaScript
+
+00:02:30.640 --> 00:02:34.280
+ boys showing up into their very adult community.
+
+00:02:34.280 --> 00:02:35.840
+ There's no drama.
+
+00:02:35.840 --> 00:02:38.040
+ Yeah, I was messaging about this.
+
+00:02:38.040 --> 00:02:40.920
+ You were like, Oh man, layer of else of this peaceful paradise.
+
+00:02:40.920 --> 00:02:43.120
+ Okay, everyone go run into it.
+
+00:02:43.120 --> 00:02:44.920
+ That's so true.
+
+00:02:44.920 --> 00:02:46.440
+ What have I done?
+
+00:02:46.440 --> 00:02:50.320
+ I'm going to be the person that took down the layer of our community and brought all the
+
+00:02:50.320 --> 00:02:51.720
+ JavaScript people to it.
+
+00:02:51.720 --> 00:02:52.720
+ Oh no.
+
+00:02:52.720 --> 00:02:54.120
+ Have you ever used it?
+
+00:02:54.120 --> 00:02:56.920
+ So I've done even less than you, but I've like read every word.
+
+00:02:56.920 --> 00:02:58.160
+ I don't know if it's possible.
+
+00:02:58.160 --> 00:03:02.360
+ I don't know if it's possible if you've done less than me, but you've read every word
+
+00:03:02.360 --> 00:03:03.360
+ of the docs.
+
+00:03:03.360 --> 00:03:04.360
+ Why?
+
+00:03:04.360 --> 00:03:09.680
+ Because one, it just says like, because I work on a framework and I, they're like kind
+
+00:03:09.680 --> 00:03:11.880
+ of a gold standard in a lot of ways.
+
+00:03:11.880 --> 00:03:14.840
+ So just because I want to understand how to do their docs, how they structured it, but
+
+00:03:14.840 --> 00:03:17.400
+ also like how everything works.
+
+00:03:17.400 --> 00:03:22.640
+ Because I think in terms of like what primitives do people need, it like sets a nice bar on
+
+00:03:22.640 --> 00:03:25.840
+ here's a list of everything you need, and you have these you can directly build most
+
+00:03:25.840 --> 00:03:26.840
+ things.
+
+00:03:26.840 --> 00:03:27.840
+ Yeah.
+
+00:03:27.840 --> 00:03:29.920
+ So yeah, I just want to understand all that worked and how they organize stuff.
+
+00:03:29.920 --> 00:03:35.720
+ Big question I always have is, you know, you have to separate your concerns somehow and
+
+00:03:35.720 --> 00:03:39.600
+ some applications separate them by what the thing is like all your events go here, all
+
+00:03:39.600 --> 00:03:44.080
+ your data models go here, all your whatever goes here, or you separate them by like business
+
+00:03:44.080 --> 00:03:49.840
+ concerns, like all your user stuff goes here, all your to do stuff goes, et cetera.
+
+00:03:49.840 --> 00:03:53.840
+ So yeah, that was kind of research and we kind of constantly refer back to it.
+
+00:03:53.840 --> 00:03:57.840
+ And they do they do the, the not the business, see you way, right?
+
+00:03:57.840 --> 00:04:00.920
+ They do like actions and controllers, they have folders like that.
+
+00:04:00.920 --> 00:04:06.200
+ Yeah, which is different than where I do the, I usually do the other thing, like to have,
+
+00:04:06.200 --> 00:04:09.600
+ if I'm working on user stuff, like to see like all the events and all the database models
+
+00:04:09.600 --> 00:04:14.000
+ and everything all in one place, but yeah, just kind of looking at their approach, understand
+
+00:04:14.000 --> 00:04:17.720
+ like if it's better, like when it's better, when it's worse.
+
+00:04:17.720 --> 00:04:22.800
+ So this would be a good exercise for me because I'd like to hear all the, like I'm very enamored.
+
+00:04:22.800 --> 00:04:26.680
+ I'm in that early honeymoon phase where I just love everything about this, everything
+
+00:04:26.680 --> 00:04:27.680
+ I'm seeing about Laravel.
+
+00:04:27.680 --> 00:04:30.920
+ But I know there's trade offs because everything in technology is trade offs.
+
+00:04:30.920 --> 00:04:35.080
+ So you're helping me, you can help me kind of understand if you've read all the docs.
+
+00:04:35.080 --> 00:04:37.880
+ One thing, one big question I have is like, what is the performance story?
+
+00:04:37.880 --> 00:04:41.480
+ Because I've heard a lot of people come at me now on Twitter, since I declared my love
+
+00:04:41.480 --> 00:04:45.800
+ publicly for Laravel about how slow it is and PHP so slow.
+
+00:04:45.800 --> 00:04:47.800
+ Is it really, has anyone actually done the benchmarks?
+
+00:04:47.800 --> 00:04:51.680
+ I wouldn't be surprised if no one's actually done the benchmarks, but that's the thing.
+
+00:04:51.680 --> 00:04:52.680
+ Yeah.
+
+00:04:52.680 --> 00:04:53.680
+ It just comes on here.
+
+00:04:53.680 --> 00:04:56.880
+ The thing I always say is like your speed is really never about your language.
+
+00:04:56.880 --> 00:05:00.880
+ It's usually about your architecture, like, because it's not about the benchmarks really.
+
+00:05:00.880 --> 00:05:03.360
+ It's about how people feel when they're using your app.
+
+00:05:03.360 --> 00:05:07.640
+ So what kind of database are you using, like what kind of strategies are you using with
+
+00:05:07.640 --> 00:05:08.640
+ the database?
+
+00:05:08.640 --> 00:05:11.360
+ I'm sure you can have a Laravel app that feels effective.
+
+00:05:11.360 --> 00:05:15.000
+ I imagine it's a little bit harder, just because some of the JavaScript tools are a little bit
+
+00:05:15.000 --> 00:05:21.360
+ more integrated for the stuff that makes things feels fast, but I'm sure you can make
+
+00:05:21.360 --> 00:05:23.360
+ it feel fast.
+
+00:05:23.360 --> 00:05:27.320
+ But on a technical basis, yes, it is slower, which means you're going to pay a little bit
+
+00:05:27.320 --> 00:05:28.800
+ more the language itself.
+
+00:05:28.800 --> 00:05:29.800
+ The language itself.
+
+00:05:29.800 --> 00:05:33.080
+ If I had a page, and this is what I'd like to do, I'd like to take some sample app that's
+
+00:05:33.080 --> 00:05:36.960
+ got some kind of like SSR scenario where you have to fetch some data from a database and
+
+00:05:36.960 --> 00:05:37.960
+ then render the page.
+
+00:05:37.960 --> 00:05:42.680
+ I'd like to create that app with Next.js server components, and I'd like to create it with
+
+00:05:42.680 --> 00:05:46.360
+ Laravel, and I'd like to like time it.
+
+00:05:46.360 --> 00:05:47.360
+ Can we do that?
+
+00:05:47.360 --> 00:05:48.480
+ Is that an exercise that I could do?
+
+00:05:48.480 --> 00:05:51.480
+ Is it slower, like time differs by just generating a page?
+
+00:05:51.480 --> 00:05:56.000
+ Yeah, but you have to like test adequate things like you have to, so you know how in JavaScript
+
+00:05:56.000 --> 00:06:01.000
+ you can easily do two requests at once because of the like event loop, like it'll kick off
+
+00:06:01.000 --> 00:06:04.360
+ the narrow requests, do some of the work stuff and all that stuff.
+
+00:06:04.360 --> 00:06:08.200
+ I don't, I just don't know enough about PHP to understand, does it, one does it have that?
+
+00:06:08.200 --> 00:06:14.020
+ Is it 100% like does it have this concept of like asynchronous IO, right?
+
+00:06:14.020 --> 00:06:19.480
+ This stuff historically mattered a lot more when a single container server, whatever was
+
+00:06:19.480 --> 00:06:22.440
+ handling a lot of requests, but these are all deployed to Lambda function.
+
+00:06:22.440 --> 00:06:26.520
+ So it's not like needs to handle a hundred requests at once, but within the context of
+
+00:06:26.520 --> 00:06:31.360
+ a single request, you know, how, how much parallel work can it do?
+
+00:06:31.360 --> 00:06:35.600
+ Yeah, I don't know the answer to these things, but it is a simpler language and I imagine
+
+00:06:35.600 --> 00:06:39.800
+ that it doesn't have some of these optimizations, which is what keeps it simple.
+
+00:06:39.800 --> 00:06:40.800
+ Yeah.
+
+00:06:40.800 --> 00:06:41.800
+ Okay.
+
+00:06:41.800 --> 00:06:42.800
+ Are there other downsides I'm overlooking?
+
+00:06:42.800 --> 00:06:43.800
+ Is the type system thing?
+
+00:06:43.800 --> 00:06:48.440
+ I guess people who are really big into type safety, I mean, you as someone that has been
+
+00:06:48.440 --> 00:06:52.320
+ doing a bunch of in TypeScript and is using TypeScript language, TypeScript libraries,
+
+00:06:52.320 --> 00:06:56.560
+ you might find like it feel, you might feel like it's like a slide backwards.
+
+00:06:56.560 --> 00:07:01.240
+ The other thing that I didn't get to when we're talking about the other day is the diversity
+
+00:07:01.240 --> 00:07:02.240
+ thing.
+
+00:07:02.240 --> 00:07:06.800
+ But it does show up in some places, like, so for me, I hate class based doing things
+
+00:07:06.800 --> 00:07:07.800
+ by classes.
+
+00:07:07.800 --> 00:07:09.680
+ I hate modeling everything as a class.
+
+00:07:09.680 --> 00:07:13.600
+ I love having like typed objects and passing them around to functions.
+
+00:07:13.600 --> 00:07:19.000
+ Like I just my background, if I shift to the Laravel world, like just can't do functional
+
+00:07:19.000 --> 00:07:22.880
+ stuff as much in the JavaScript world, there's a lot of people that use classes.
+
+00:07:22.880 --> 00:07:23.880
+ That's fine.
+
+00:07:23.880 --> 00:07:25.160
+ But there's also people like me that don't.
+
+00:07:25.160 --> 00:07:31.960
+ So yeah, there's certain styles that maybe you're willing to give up, maybe you want to
+
+00:07:31.960 --> 00:07:33.760
+ shift, but in exchange for all this stuff you get.
+
+00:07:33.760 --> 00:07:36.560
+ But I think for me, there's like a few things that keep me away from it.
+
+00:07:36.560 --> 00:07:41.040
+ It's really just a type to some end, just a class oriented nature of everything.
+
+00:07:41.040 --> 00:07:42.040
+ Okay.
+
+00:07:42.040 --> 00:07:43.640
+ I'm still going down this path.
+
+00:07:43.640 --> 00:07:44.640
+ You didn't dissuade me.
+
+00:07:44.640 --> 00:07:45.640
+ No, I'm not trying to persuade you.
+
+00:07:45.640 --> 00:07:46.640
+ I'm going to try it.
+
+00:07:46.640 --> 00:07:47.640
+ I'm going to build something.
+
+00:07:47.640 --> 00:07:48.640
+ Yeah, you are.
+
+00:07:48.640 --> 00:07:49.640
+ Of course you are.
+
+00:07:49.640 --> 00:07:54.440
+ I was just trying to pop my balloon, Dax, I get all excited.
+
+00:07:54.440 --> 00:07:55.540
+ I'm easily excited.
+
+00:07:55.540 --> 00:07:58.840
+ I guess that's probably the problem, but then you always just want to pop my balloon.
+
+00:07:58.840 --> 00:07:59.840
+ I'm not doing anything.
+
+00:07:59.840 --> 00:08:01.920
+ You're going through your own roller coaster emotional journey right now.
+
+00:08:01.920 --> 00:08:06.840
+ Dax, you just sent me a tweet that you wrote this morning that's popping, literally popping
+
+00:08:06.840 --> 00:08:07.840
+ my bubble.
+
+00:08:07.840 --> 00:08:08.840
+ It's not literally.
+
+00:08:08.840 --> 00:08:09.840
+ Wait, what do you mean?
+
+00:08:09.840 --> 00:08:10.840
+ What do you do?
+
+00:08:10.840 --> 00:08:13.240
+ You just you denied it, but you just you sent me the tweet.
+
+00:08:13.240 --> 00:08:17.040
+ You told me that you wrote this tweet and you you're talking about how I'm scamming.
+
+00:08:17.040 --> 00:08:18.440
+ I'm not actually into Laravel.
+
+00:08:18.440 --> 00:08:24.120
+ If anything, that's encouraging you to prove me wrong and it's fair because I am feeling
+
+00:08:24.120 --> 00:08:25.120
+ a little more motivated now.
+
+00:08:25.120 --> 00:08:28.600
+ Don't blame all your problems on on other people.
+
+00:08:28.600 --> 00:08:29.600
+ Maybe look inwards.
+
+00:08:29.600 --> 00:08:31.520
+ Is that a valid criticism?
+
+00:08:31.520 --> 00:08:32.520
+ Was that real?
+
+00:08:32.520 --> 00:08:35.720
+ I can't tell if that's like the truth about it is not real.
+
+00:08:35.720 --> 00:08:36.720
+ Okay.
+
+00:08:36.720 --> 00:08:41.520
+ We've got that point in our relationship where I don't have the time.
+
+00:08:41.520 --> 00:08:44.480
+ I don't know if we're being serious or if we're joking.
+
+00:08:44.480 --> 00:08:45.480
+ Okay.
+
+00:08:45.480 --> 00:08:46.480
+ What's on your mind?
+
+00:08:46.480 --> 00:08:48.040
+ I just said a lot of stuff about Lara, though.
+
+00:08:48.040 --> 00:08:49.040
+ What's on your mind?
+
+00:08:49.040 --> 00:08:50.040
+ What is on my mind?
+
+00:08:50.040 --> 00:08:55.320
+ I've been yesterday helping rocks with the thing he's working on, which has been kind
+
+00:08:55.320 --> 00:08:56.320
+ of interesting.
+
+00:08:56.320 --> 00:08:58.920
+ And I may whole mention today he's kind of doing something very similar.
+
+00:08:58.920 --> 00:09:03.520
+ As I think we've talked about a bunch where if you just learn some of these tools, you
+
+00:09:03.520 --> 00:09:07.220
+ can make things life a lot easier for yourself.
+
+00:09:07.220 --> 00:09:10.800
+ So the thing that rocks is doing, I think you're trying my Laravel, right?
+
+00:09:10.800 --> 00:09:11.800
+ If we just learn.
+
+00:09:11.800 --> 00:09:12.800
+ No, no.
+
+00:09:12.800 --> 00:09:13.800
+ I'm not.
+
+00:09:13.800 --> 00:09:16.000
+ We're not helping with this.
+
+00:09:16.000 --> 00:09:17.000
+ Nice try.
+
+00:09:17.000 --> 00:09:18.000
+ Good try.
+
+00:09:18.000 --> 00:09:23.560
+ He has this, he's trying to build this tool that people upload videos and extracts frames
+
+00:09:23.560 --> 00:09:26.560
+ that you could potentially use for thumbnails for that video on YouTube.
+
+00:09:26.560 --> 00:09:31.080
+ So frames where there's a person's face and they're excited, et cetera.
+
+00:09:31.080 --> 00:09:34.960
+ And it turns out there is literally an AWS service that does exactly this.
+
+00:09:34.960 --> 00:09:37.080
+ I think you've actually played with this already.
+
+00:09:37.080 --> 00:09:43.480
+ It's like within an hour, I was able to kind of recreate the exact pipeline that he wanted,
+
+00:09:43.480 --> 00:09:45.600
+ which is basically core of his application.
+
+00:09:45.600 --> 00:09:46.600
+ Yeah.
+
+00:09:46.600 --> 00:09:51.240
+ And I think for him, the version he made also didn't take him that long, but the difference
+
+00:09:51.240 --> 00:09:55.520
+ is this approach, once it's done, it's done forever.
+
+00:09:55.520 --> 00:09:56.520
+ It doesn't matter.
+
+00:09:56.520 --> 00:10:00.200
+ We're doing one video a day, a thousand videos a day, we don't ever worry about deploying.
+
+00:10:00.200 --> 00:10:03.000
+ And I think he was kind of in this constant cycle of like, where do I host?
+
+00:10:03.000 --> 00:10:04.000
+ How do I deploy it?
+
+00:10:04.000 --> 00:10:05.000
+ Like what are my options?
+
+00:10:05.000 --> 00:10:08.720
+ So it kind of removes all those concerns and it was nice to see that.
+
+00:10:08.720 --> 00:10:14.280
+ That said, there is a reality of stuff that's using this kind of thing, which is the results
+
+00:10:14.280 --> 00:10:16.480
+ were not amazing.
+
+00:10:16.480 --> 00:10:17.480
+ I think they were still there.
+
+00:10:17.480 --> 00:10:21.960
+ I think they were roughly the same as his results, but I think the ceiling to improve,
+
+00:10:21.960 --> 00:10:26.400
+ to get to do exactly what you want is lower because like you're kind of cooperating within
+
+00:10:26.400 --> 00:10:31.400
+ the realm of what AWS supports, like you'd want to skip frames that have text on it because
+
+00:10:31.400 --> 00:10:33.480
+ you don't want like random text in your video.
+
+00:10:33.480 --> 00:10:34.480
+ Yep.
+
+00:10:34.480 --> 00:10:36.160
+ And it can't like also do text analysis at the same time.
+
+00:10:36.160 --> 00:10:41.600
+ So there is some rigidity, but the next level down is still like very managed and very serverless,
+
+00:10:41.600 --> 00:10:47.480
+ like seeing as it sees the long learning jobs to kind of do your own custom logic, as opposed
+
+00:10:47.480 --> 00:10:50.400
+ to like, you know, deploying on a railway server and then it's overloaded and I spent
+
+00:10:50.400 --> 00:10:53.840
+ up another one and like managing all that.
+
+00:10:53.840 --> 00:10:57.880
+ It's just a lot, especially for someone that like does not want to focus so much on the
+
+00:10:57.880 --> 00:11:00.560
+ infrastructure stuff and do these other things.
+
+00:11:00.560 --> 00:11:04.880
+ So yeah, then Mayhol is doing something very similar and I'm like, can I just do a whole
+
+00:11:04.880 --> 00:11:12.520
+ thing where I just like rebuild indie hackers, projects in like my setup, and then I basically
+
+00:11:12.520 --> 00:11:14.000
+ do the napkins for everyone.
+
+00:11:14.000 --> 00:11:20.520
+ Yeah, I would love to see like all of the just the example repos for these use cases,
+
+00:11:20.520 --> 00:11:26.520
+ because you just obviously think so fluently in SST that you're going to come up with like
+
+00:11:26.520 --> 00:11:31.040
+ the best way to do it so quickly on AWS and yeah, you could turn them out so quickly.
+
+00:11:31.040 --> 00:11:36.080
+ So I don't know how we make this worth it for you, but I mean, it's not marketing.
+
+00:11:36.080 --> 00:11:42.600
+ Yeah, everything is a sea marketing, like it would be funny if like the end result of
+
+00:11:42.600 --> 00:11:48.360
+ each of these things was just like an API with a very specific command just for these
+
+00:11:48.360 --> 00:11:50.120
+ people's projects.
+
+00:11:50.120 --> 00:11:55.920
+ It's like, I just have like a hundred single customer API is that I whipped up in a day.
+
+00:11:55.920 --> 00:11:58.640
+ Did you actually give it to rocks to like run on this?
+
+00:11:58.640 --> 00:12:02.360
+ He got to create his own AWS account. Did you actually get rocks to create an AWS account?
+
+00:12:02.360 --> 00:12:03.560
+ Or are you hosting it for him?
+
+00:12:03.560 --> 00:12:07.480
+ No, because again, this I can just run it on mine and I'll just send him the bill.
+
+00:12:07.480 --> 00:12:10.120
+ Oh, for real. You're going to like, you're just running it in your state.
+
+00:12:10.120 --> 00:12:15.240
+ I was like, I was like, if you just pay me two X to bill, I'll do it.
+
+00:12:15.240 --> 00:12:16.240
+ This is awesome.
+
+00:12:16.240 --> 00:12:19.440
+ If he's ever like naturally successful, I'm going to be twice as successful.
+
+00:12:19.440 --> 00:12:26.400
+ So I don't know if that works that way twice. You wouldn't be twice as you just be twice
+
+00:12:26.400 --> 00:12:27.960
+ the the spend anyway.
+
+00:12:27.960 --> 00:12:28.960
+ Yes.
+
+00:12:28.960 --> 00:12:29.960
+ Okay.
+
+00:12:29.960 --> 00:12:34.720
+ So I want to see this code. I want to see recognition also does like the sharpness,
+
+00:12:34.720 --> 00:12:35.720
+ right?
+
+00:12:35.720 --> 00:12:38.960
+ If you're building something like that for like making thumbnails, which that's what
+
+00:12:38.960 --> 00:12:40.280
+ he's doing, right?
+
+00:12:40.280 --> 00:12:44.320
+ He'd want to know like, these are the best frames of this expression or something, but
+
+00:12:44.320 --> 00:12:45.480
+ it's not very good, you said?
+
+00:12:45.480 --> 00:12:51.280
+ No, no. So, okay. So my algorithm, my crazy algorithm I wrote in nine minutes yesterday,
+
+00:12:51.280 --> 00:12:56.200
+ basically, it's actually funny because the data that recognition gives you gives you
+
+00:12:56.200 --> 00:12:57.200
+ a lot of stuff back.
+
+00:12:57.200 --> 00:13:03.280
+ So obviously, I was like, okay, score it by how happy they look, how surprised they look,
+
+00:13:03.280 --> 00:13:06.920
+ but also by how much their eyes are open and how open their mouth is and how much they're
+
+00:13:06.920 --> 00:13:11.480
+ smiling and how bright the video is and how short you guys do.
+
+00:13:11.480 --> 00:13:13.240
+ Perfect YouTube clip.
+
+00:13:13.240 --> 00:13:17.280
+ The first, like, I first I just did happy and surprised and the results were like kind
+
+00:13:17.280 --> 00:13:22.200
+ of okay. And then the more I added like all of those things, they like pretty much got
+
+00:13:22.200 --> 00:13:28.280
+ the right clips, the right frames. The only issue is if within a one second window, if
+
+00:13:28.280 --> 00:13:33.160
+ there's like one frame with text over it and one frame without text over it, like it might
+
+00:13:33.160 --> 00:13:37.200
+ have just picked the one with text on it. So yeah, I'm trying like there's probably like
+
+00:13:37.200 --> 00:13:40.360
+ two other alternatives I can build. Again, I could probably both those alternatives I
+
+00:13:40.360 --> 00:13:47.600
+ can probably build within a day as well. And it's just like the initial effort is pretty
+
+00:13:47.600 --> 00:13:53.200
+ small, but then like the time saved over time is like insane. Just never have to worry about
+
+00:13:53.200 --> 00:13:54.200
+ it again.
+
+00:13:54.200 --> 00:13:58.560
+ It's kind of hits on that whole serverless as a spectrum conversation. I mean, just like
+
+00:13:58.560 --> 00:14:03.200
+ thinking about, yeah, okay, so it's a managed service, this Amazon recognition, he can only
+
+00:14:03.200 --> 00:14:08.240
+ go so far with it, then he's got to go lower level, but he doesn't have to go to a virtual
+
+00:14:08.240 --> 00:14:13.800
+ machine where he's installing everything on it. And like, that's too far down. There's
+
+00:14:13.800 --> 00:14:15.800
+ there's things in between. It's a gradient.
+
+00:14:15.800 --> 00:14:19.360
+ Yeah, yeah, I think people do see as binary, but it really isn't. There's like so many
+
+00:14:19.360 --> 00:14:23.840
+ stops, stops on the way. And even even like if you're going to run a container, it's also
+
+00:14:23.840 --> 00:14:26.320
+ like more serverless place on a container, right?
+
+00:14:26.320 --> 00:14:30.440
+ Yeah, right. You've got to do this next because the indie hacker crowd, if anyone should be
+
+00:14:30.440 --> 00:14:36.720
+ using serverless, it's perfect for indie hacking. Like, indie hacking to me implies you don't
+
+00:14:36.720 --> 00:14:43.000
+ have any money and you're working alone, and you're going to just rough something together
+
+00:14:43.000 --> 00:14:51.120
+ quickly. And to me, serverless, like start with no costs. It'll grow as your your thing
+
+00:14:51.120 --> 00:14:54.680
+ grows. I don't know. Is it not a perfect use case? Do you do you have the opposite take?
+
+00:14:54.680 --> 00:14:59.360
+ I feel like that look, I think it is. It's just the, I think the mentality when the indie
+
+00:14:59.360 --> 00:15:03.720
+ hacking space is like, don't learn stuff because that's a waste of time. You might not you
+
+00:15:03.720 --> 00:15:04.720
+ might not need it.
+
+00:15:04.720 --> 00:15:09.560
+ I have so many problems with indie hacking as a concept. But it's like, it's like, it's
+
+00:15:09.560 --> 00:15:13.800
+ not learn nothing. Just learn like one thing and then maybe you don't need to learn a bunch
+
+00:15:13.800 --> 00:15:14.800
+ of other stuff.
+
+00:15:14.800 --> 00:15:18.120
+ Yeah, I don't know why it bothers me. I feel like they should all just rebrand. They need
+
+00:15:18.120 --> 00:15:24.080
+ a a new public relations person. Maybe I'll take over. Maybe I'll become an indie hacker.
+
+00:15:24.080 --> 00:15:30.160
+ Yeah, you become. Yes. Okay. Do it. And just funnel them all into SST. It's just one big
+
+00:15:30.160 --> 00:15:31.160
+ marketing funnel.
+
+00:15:31.160 --> 00:15:43.200
+ Yeah, except, you know, that will make SST like dozens of dollars. Yeah, that's the best
+
+00:15:43.200 --> 00:15:51.520
+ strategy for us. Oh, it's a funny thing you've ever said. It's funny because I posted about
+
+00:15:51.520 --> 00:15:57.960
+ this, but just being in, I think maybe I've been messaging you about this, but just being
+
+00:15:57.960 --> 00:16:01.280
+ in this Twitter bubble where everyone's like at the beginning of projects, like very, very
+
+00:16:01.280 --> 00:16:04.760
+ small projects and we're always like trying to get something off the ground. When I was
+
+00:16:04.760 --> 00:16:09.120
+ at React Miami, someone came over and they were like, Hey, like, you know, our company
+
+00:16:09.120 --> 00:16:15.760
+ uses SST. That's awesome. Like what what's your company do? There's some oil and gas
+
+00:16:15.760 --> 00:16:21.800
+ related company in Kansas City or somewhere around Kansas City that makes like $4 billion
+
+00:16:21.800 --> 00:16:28.320
+ a year. And they had they were like, Oh, yeah, you know, we just moved 200 engineers to using
+
+00:16:28.320 --> 00:16:32.520
+ SST every single day. I'm just like, wait, what? What? They have 200 engineers? Yeah,
+
+00:16:32.520 --> 00:16:36.080
+ it's just like, and then all of them are just using SST and they're using it every day.
+
+00:16:36.080 --> 00:16:41.840
+ And they're like, and then we're on Twitter or our Discord talking. And he's like, wow,
+
+00:16:41.840 --> 00:16:46.480
+ you know, worst case scenario, if everything fails, I'm just going to go work for this
+
+00:16:46.480 --> 00:16:51.240
+ company, you know, yeah, there you go. They need to keep you some SST. Yeah. And like, you
+
+00:16:51.240 --> 00:16:55.880
+ know, it's just so I think there's just like this whole spectrum of these giant usages
+
+00:16:55.880 --> 00:17:02.360
+ of it that we just don't really don't really come across directly. That's where for us,
+
+00:17:02.360 --> 00:17:05.960
+ you know, all the opportunity is because if we build a nice product for them, you know,
+
+00:17:05.960 --> 00:17:10.760
+ they're going to pay, they can pay a lot for it. So sorry, indie hacking crowd, just don't
+
+00:17:10.760 --> 00:17:16.680
+ have the deep pockets. You guys can pay me back and making videos praising me.
+
+00:17:16.680 --> 00:17:21.160
+ There you go. That's a strategy. I do the real world thing. I think the Twitter bubble
+
+00:17:21.160 --> 00:17:25.320
+ is so real. I realize how much my perception of everything in the world is warped through
+
+00:17:25.320 --> 00:17:32.440
+ Twitter. Like this company that I would never know existed that has 200 software engineers.
+
+00:17:32.440 --> 00:17:36.840
+ But like everything we talk about on Twitter is about these tiny little startups that are
+
+00:17:36.840 --> 00:17:39.320
+ really just dropping the bucket and the grand scheme of things.
+
+00:17:39.320 --> 00:17:42.360
+ Yeah, in my head, there's like, oh, there's like four companies out there that could employ
+
+00:17:42.360 --> 00:17:46.760
+ me. That's like my perception of the world, but like there's like thousands of companies
+
+00:17:46.760 --> 00:17:51.720
+ with like hundreds of engineers. Dark matter devs, the majority of devs in industry, but we don't
+
+00:17:51.720 --> 00:17:56.760
+ see them. That's true. There's millions that that phrase that's from Scott Hanselman,
+
+00:17:56.760 --> 00:18:01.160
+ you started your career in dot net, right? Yeah. You know, Scott Hanselman? Don't I think
+
+00:18:01.160 --> 00:18:04.680
+ you don't know Scott Hanselman? Yeah, of course. Yeah. Why didn't you say that when I said Scott
+
+00:18:04.680 --> 00:18:09.240
+ Hanselman? You should have been like, Oh, Scott. Yeah. Scott making you feel awkward. Okay. Well,
+
+00:18:09.240 --> 00:18:13.640
+ it worked because I had to do all that whole thing. So Scott Hanselman wrote the article,
+
+00:18:13.640 --> 00:18:19.960
+ Dark Matter devs, 10 years ago, 15 years ago, it's been a long time. That actually kind of
+
+00:18:19.960 --> 00:18:26.120
+ started my well, this was the early early days for Adam in content. I made a blog because of that
+
+00:18:26.120 --> 00:18:34.680
+ one article, Adam and more dot net. I wrote one blog post. It's so me in retrospect. It's so me.
+
+00:18:34.680 --> 00:18:39.320
+ I wrote one blog post about my home office because I had this amazing home office. It's still again,
+
+00:18:39.320 --> 00:18:44.920
+ it's so me wrote one blog post. I was going to be a blogger. And then Scott Hanselman put it in his
+
+00:18:44.920 --> 00:18:50.920
+ newsletter. He put a link to my blog posts. And it was the beginning. I was on a trajectory like
+
+00:18:50.920 --> 00:18:57.800
+ no other and then I fell back down, did nothing to me. And yeah, dark matter dumps. I'll never
+
+00:18:57.800 --> 00:19:01.800
+ forget that though. So when somebody says that, what is what is the concept that he wrote about?
+
+00:19:01.800 --> 00:19:05.800
+ Oh, you really don't know? No, I've never, I don't know. I know who he is. I don't know that.
+
+00:19:05.800 --> 00:19:11.880
+ Do you know what dark matter is? Yeah. Well, that trick question. Nobody knows. Nobody knows what
+
+00:19:11.880 --> 00:19:16.200
+ dark matter is. Dev. What do you know, the secrets of the universe? So dark matter. You call me Dev.
+
+00:19:16.200 --> 00:19:23.800
+ What? That calls you Dev. I meant that. I don't know why I would do that. I don't interact with
+
+00:19:23.800 --> 00:19:28.120
+ Dev on the phone. So if you don't know what dark matter is, dark matter, like the whole known
+
+00:19:28.120 --> 00:19:33.640
+ universe, everything we know, like the atoms, all the elements on the periodic table, all the stuff
+
+00:19:33.640 --> 00:19:40.360
+ that makes up stars and clouds of dust and planets and all that. That's matter. Dark matter,
+
+00:19:40.360 --> 00:19:44.440
+ there's six times more of it. We know nothing about it. We can't measure it in any way. We've
+
+00:19:44.440 --> 00:19:49.720
+ never actually perceived it. We just see effects on gravity. Okay. So like, it's like scaffolding
+
+00:19:49.720 --> 00:19:54.840
+ that holds up the galaxies or something. I don't know. We can see like on the outer bands of galaxies,
+
+00:19:54.840 --> 00:19:57.640
+ the impact, why am I talking about astrophysics? How did we get into this? I don't know anything
+
+00:19:57.640 --> 00:20:01.400
+ about astrophysics. I know more about Laravel than I know about astrophysics. I'm going to keep going.
+
+00:20:01.400 --> 00:20:05.720
+ It's not where you know more about astrophysics. I've listened to a lot of physics books.
+
+00:20:05.720 --> 00:20:11.480
+ So we see like the effects on like stars on the outer bands of galaxies. We see these weird effects
+
+00:20:11.480 --> 00:20:15.240
+ on gravity that don't make sense unless there's like a lot of mass, but there's nothing. We don't
+
+00:20:15.240 --> 00:20:19.560
+ see it. It's dark matter. That's dark matter. And the point of the blog post that Scott wrote,
+
+00:20:19.560 --> 00:20:25.000
+ and apparently some of the adjacent also calls it dark matter, dark matter devs are the 99%
+
+00:20:25.000 --> 00:20:30.520
+ of developers who aren't online. They don't have a public presence. You can't see them.
+
+00:20:31.240 --> 00:20:36.200
+ But they're out there writing code happily every day. They work at their oil and gas companies.
+
+00:20:36.200 --> 00:20:40.600
+ But they're not on Twitter. They're not making YouTube videos. That's the dark matter developers.
+
+00:20:40.600 --> 00:20:44.680
+ It's this tiny little sliver that are like active on Twitter and talk every day and think
+
+00:20:44.680 --> 00:20:48.920
+ the JavaScript matters and all that. That's the idea. Yeah. I'm familiar with that concept because
+
+00:20:48.920 --> 00:20:53.720
+ my dad's a software engineer and he definitely was in that category. Dark matter. He wasn't on
+
+00:20:53.720 --> 00:21:00.840
+ Twitter. Nope. And none of the technologies he's worked with even come up, but you know,
+
+00:21:00.840 --> 00:21:07.000
+ they powered massive amounts of money moving around. So yeah, you never hear from them again,
+
+00:21:07.000 --> 00:21:12.840
+ because they are too busy. Yeah, they're too busy. Exactly. I think the amount of activity on social
+
+00:21:12.840 --> 00:21:20.840
+ media is inversely proportionate. Am I saying words that make sense? Inversely, inversely proportionate
+
+00:21:20.840 --> 00:21:25.480
+ to the amount that you're getting actually done. Does that sentence make sense?
+
+00:21:25.480 --> 00:21:32.440
+ Sure. If you spend more time on social media, the more active, it's just so funny. I do like,
+
+00:21:32.440 --> 00:21:37.400
+ I'm still straddling this fence of the worlds of like being a person who talks about software
+
+00:21:37.400 --> 00:21:41.320
+ development and being someone who actually does software development. I feel like I'm straddling
+
+00:21:41.320 --> 00:21:45.240
+ that line. Why are you looking at me like that, Dax? I feel like you've had an attitude, okay?
+
+00:21:45.240 --> 00:21:51.400
+ We've got to talk about your attitude. I'm not listening to me. I was looking at your face,
+
+00:21:51.400 --> 00:21:55.320
+ listening to you. What? I don't think you're looking at my face, but that's fine. You don't
+
+00:21:55.320 --> 00:21:59.640
+ have a teleprompter, do you? I'm actually looking at your face. You're looking somewhere else.
+
+00:21:59.640 --> 00:22:03.640
+ So you're upset because I'm not using a teleprompter. I have a teleprompter. I'm just not using it.
+
+00:22:03.640 --> 00:22:07.320
+ Why are she using it? I just like, I can't find the right place to put it where it's kind of not
+
+00:22:07.320 --> 00:22:12.520
+ annoying in the way. Okay, I was trying to say the word smirk and I said snark and smark. You missed
+
+00:22:12.520 --> 00:22:18.840
+ it. You were talking. This is going fantastic. I was going somewhere. So I was, I'm still on the
+
+00:22:18.840 --> 00:22:23.160
+ fence on whether I want to be someone who talks about this stuff on the internet. How are you on
+
+00:22:23.160 --> 00:22:26.920
+ the fence? I'm on the fence. I don't know. Do I want to do this? I might just quit. One of these
+
+00:22:26.920 --> 00:22:30.120
+ days, they actually are going to be like, where'd Adam go? And I'm just not going to show up again
+
+00:22:30.120 --> 00:22:33.640
+ on special matter. My point of view, you're not on the fence. You're like deep in it. Deep in which
+
+00:22:33.640 --> 00:22:41.960
+ side getting stuff done or deep in the way. You're saying I'm deep in the in the world of talking
+
+00:22:41.960 --> 00:22:45.000
+ about stuff. I'm not saying that's all you do, but I'm saying, I feel like you're definitely
+
+00:22:45.000 --> 00:22:49.960
+ committed. We're literally talking to each other on a podcast. I know anyone can have a podcast.
+
+00:22:49.960 --> 00:22:54.040
+ Anyone can just start recording their voice. I'm saying that, you know, it sounds like you
+
+00:22:54.040 --> 00:22:58.360
+ like doing this and you're committed to doing more of it. Are you still you're like, what about that?
+
+00:22:58.360 --> 00:23:02.680
+ Do you get the perception that like people who do all the conferences and they're all the faces
+
+00:23:02.680 --> 00:23:06.200
+ of technology? Don't you get since they don't really do anything? Like they literally never
+
+00:23:06.200 --> 00:23:11.080
+ build anything ever anymore? I don't want to be that person. Yeah. Definitely. And do you want to
+
+00:23:11.080 --> 00:23:15.080
+ be that person? Are you at risk? I don't find I don't think I'm at risk of being that person.
+
+00:23:15.080 --> 00:23:20.920
+ Why? Why are you exempt? Because I don't that's not my full-time job. Like I still have to do
+
+00:23:20.920 --> 00:23:26.760
+ other stuff. But like, okay, are any of those people is it their full-time job? I feel like most
+
+00:23:26.760 --> 00:23:30.040
+ of the faces I'm talking about have actual jobs, don't they? You're talking about the
+
+00:23:30.040 --> 00:23:33.720
+ conference people that let us go to every conference and do the job. Yeah, like the people who talk,
+
+00:23:33.720 --> 00:23:39.400
+ I guess that's their job. Their job is dev rel. It's dev rel. I'm not a dev rel. So I don't
+
+00:23:39.400 --> 00:23:43.880
+ have to worry. I'm not going to become that person. That's what you're saying to me. Yeah, I don't
+
+00:23:43.880 --> 00:23:48.680
+ see you on that path at all. So I'm just going to kind of, it's like kind of weird for me to hear
+
+00:23:48.680 --> 00:23:52.680
+ that you're worried about that. Okay. No, that's good. Good to know. Or you got the one conference
+
+00:23:52.680 --> 00:23:56.680
+ and you're like, I've gotten to one conference. I'm going to another. I'm not even speaking. I'm
+
+00:23:56.680 --> 00:24:01.560
+ just going to. Exactly. You're like worried and not getting stuck into this world that you're like
+
+00:24:01.560 --> 00:24:09.000
+ barely, barely in. Does that make me a dark matter dev? No, dark matter dev is get stuff done.
+
+00:24:09.000 --> 00:24:13.640
+ That's the other side of it. Ouch, dax, ouch. First, you don't look at me.
+
+00:24:13.640 --> 00:24:18.440
+ You just like stare off to the side. Then you say, I don't get anything done.
+
+00:24:18.440 --> 00:24:25.080
+ You're just trying to make you feel awkward now. Look at that. Third, third bad thing in a row.
+
+00:24:25.080 --> 00:24:28.520
+ I'm not that one. I wasn't trying to make you feel awkward. That was just awkward.
+
+00:24:28.520 --> 00:24:33.560
+ Oh, okay. Should we just in the podcast? No, no, no, hang on. Let me summarize this whole thing.
+
+00:24:33.560 --> 00:24:41.080
+ Whatever this was, you do work and you also spend time talking about it. And that's it.
+
+00:24:41.960 --> 00:24:47.000
+ That's it. That's it. There's no drama here. The dark matter dev thing is just like,
+
+00:24:47.000 --> 00:24:51.960
+ they just don't do the other thing. You can do both. I'm sure you can do only one or the other,
+
+00:24:51.960 --> 00:24:57.960
+ but I have a bunch of work I need to get done. And anything I talk about is from a conclusion
+
+00:24:57.960 --> 00:25:01.480
+ because I was doing a bunch of work. You don't think it's like a slippery slope that people think
+
+00:25:01.480 --> 00:25:05.320
+ this, they have good intentions, and then they end up just talking at all the conferences and
+
+00:25:05.320 --> 00:25:11.240
+ never working again? Yeah, I think so. But I think, I definitely rebalance my life
+
+00:25:11.240 --> 00:25:17.480
+ compared to where I was a while ago, but there's also less for me to do and improve on the just
+
+00:25:17.480 --> 00:25:22.920
+ doing work side. I've just gotten good enough where like, if I spent all my time doing that,
+
+00:25:22.920 --> 00:25:27.080
+ I'm like improving, I don't know, like 1% every month or whatever. But then on this side of
+
+00:25:27.080 --> 00:25:32.120
+ things, like communicating ideas and all that, like I feel like I can improve 20% a month if I do it.
+
+00:25:32.120 --> 00:25:37.400
+ So yeah, for me, it's just like, I need something, I needed something new to work on and get better
+
+00:25:37.400 --> 00:25:42.280
+ at. So this was that thing. Are you taking suggestions? Because a teleprompter would be one. If you
+
+00:25:42.280 --> 00:25:46.200
+ would go and set that up, I think that's 20%. You could knock off this month, just immediately.
+
+00:25:46.200 --> 00:25:55.800
+ You're just trying to make it awkward. You're just stopping talking on purpose. Yeah, I guess
+
+00:25:55.800 --> 00:26:01.720
+ your perception of getting better, just buying a thing. It's true at your approach. Most of
+
+00:26:01.720 --> 00:26:06.680
+ everything I feel like I've gotten better at was just more money I spent. It's true. Let's go get
+
+00:26:06.680 --> 00:26:11.000
+ some work done. What do you say? Okay. Maybe. See you. All right, see you next.
+

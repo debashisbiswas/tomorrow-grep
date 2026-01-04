@@ -1,0 +1,1856 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:28.640
+ Yeah, this is not podcast content. Chris, cut this out. You know what I mean?
+
+00:00:28.640 --> 00:00:33.040
+ I need to really badly do a rant. Perfect. Do it. That's what this is for. That's what
+
+00:00:33.040 --> 00:00:37.680
+ this podcast is. I like was writing out a tweet and I was like, like a really ranty tweet and I
+
+00:00:37.680 --> 00:00:41.360
+ was like holding myself back. So I was like, I should probably just like rant about this on the
+
+00:00:41.360 --> 00:00:48.960
+ on the podcast. Let's go. So we released open off beta last week or not last week.
+
+00:00:48.960 --> 00:00:53.920
+ Damn. Only been what is that Monday? It's only been a week and it's been really cool.
+
+00:00:53.920 --> 00:00:57.680
+ We've gotten like a lot of really great PRs like a crazy amount of people like every day I wake up
+
+00:00:57.680 --> 00:01:02.160
+ to like five or six PRs that are definitely enjoyable. And it's really great because that's
+
+00:01:02.160 --> 00:01:06.240
+ kind of what we hope for like we wanted to build a shell of something and the power of open source
+
+00:01:06.240 --> 00:01:11.440
+ is to like cover the like a long tail list of something and the community is actually doing that
+
+00:01:11.440 --> 00:01:17.440
+ and helping us there, which is which is awesome. But I think it's general enough of a project that
+
+00:01:17.440 --> 00:01:24.960
+ I'm getting like a much wider audience of people that are like looking at it. And so I'm attracting
+
+00:01:24.960 --> 00:01:30.880
+ some of these like very annoying open source type situations. So it's not what people might
+
+00:01:30.880 --> 00:01:35.680
+ imagine. It's not the person demanding a future. I actually don't care about that. Like, I'm like,
+
+00:01:35.680 --> 00:01:40.080
+ I'm, I don't find that annoying. Like someone, you know, I know I know I know some people and
+
+00:01:40.080 --> 00:01:42.960
+ they're like, you don't pay for this. But for us, it's like a little bit different.
+
+00:01:42.960 --> 00:01:50.160
+ I get like, man, I've been struck the reason and pose it to be some struggling to find the right
+
+00:01:50.160 --> 00:01:57.200
+ insult for it, this type of person. Like, it's like a Karen. It's like a Karen category of person.
+
+00:01:57.200 --> 00:02:01.600
+ But I feel like it's, it's more specific than that. A couple of days ago, I got two issues
+
+00:02:01.600 --> 00:02:06.720
+ opened being like, do not use JBLT is they're insecure. And then there's a second one that was
+
+00:02:06.720 --> 00:02:10.720
+ like, do not use local storage. They're insecure. And this person just like linked a bunch of like
+
+00:02:10.720 --> 00:02:17.440
+ random security articles. Yeah. And their view of things is so binary. And whenever it comes to,
+
+00:02:17.440 --> 00:02:23.200
+ like, I found this anytime you get in the category of like compliance or security or everything,
+
+00:02:23.200 --> 00:02:29.120
+ people are so fucking proud to like know the no a rule. They're so proud to know a rule. You
+
+00:02:29.120 --> 00:02:34.560
+ shouldn't do this. And then whenever it comes up, there's a blanket apply the rule. The
+
+00:02:34.560 --> 00:02:40.000
+ rule says you shouldn't do this. So he, you know, he wrote this thing about JWT is not being valid.
+
+00:02:40.000 --> 00:02:44.800
+ And they're like, you should never use them. But security is not like that. And complies is also
+
+00:02:44.800 --> 00:02:49.440
+ not like that. Anyone that actually works in these spaces knows that there's always a spectrum of
+
+00:02:49.440 --> 00:02:54.400
+ insecure to extremely secure. And then you pick somewhere in that spectrum that balances the
+
+00:02:54.400 --> 00:02:58.640
+ security aspect of what you're trying to do with there's always a good product trade off. Okay.
+
+00:02:58.640 --> 00:03:03.920
+ Yeah. So he wrote this in like, as well as a binary thing. And it's wrong because
+
+00:03:03.920 --> 00:03:10.480
+ what I want kind of peeled authority, like every single, like a bunch of authors of service companies
+
+00:03:10.480 --> 00:03:14.720
+ uses the exact same model. And there is a very specific trade off and very specific design you'd
+
+00:03:14.720 --> 00:03:18.880
+ use to minimize the downsides of it, which is exactly what we did. And in fact, I'll just link
+
+00:03:18.880 --> 00:03:24.960
+ to a bunch of stuff. So I said like, is it expiration? Is that the key? Yeah. So if you set the problem
+
+00:03:24.960 --> 00:03:30.560
+ with JWT is the upside is you can verify JWT without calling another server. So it's really
+
+00:03:30.560 --> 00:03:35.840
+ efficient. Like there's a bunch of good reasons for that. But that exact property, it makes it so
+
+00:03:35.840 --> 00:03:40.160
+ someone can't revoke them. So if someone is like, Oh, there's a who was leaked, I need to revoke it.
+
+00:03:40.960 --> 00:03:43.600
+ Other systems are still going to keep validating it. They don't know that you
+
+00:03:43.600 --> 00:03:49.200
+ flagged it as bad. And if you try to design some kind of system to like make them check a database
+
+00:03:49.200 --> 00:03:55.840
+ first, then you've effectively lost all the benefits of JWT. So what you do is you set the
+
+00:03:55.840 --> 00:04:01.360
+ JWT expiration to be really low, like five minutes. And then you also issue a refresh token. And the
+
+00:04:01.360 --> 00:04:06.720
+ refresh token is not a JWT. That's something that has to be sent to a server to get a new,
+
+00:04:06.720 --> 00:04:11.760
+ a new access token. So that's what the deal with the refresh token is. I've always,
+
+00:04:11.760 --> 00:04:16.800
+ it's always just been my mind been like, okay, but like you just moved it to a different field.
+
+00:04:16.800 --> 00:04:23.760
+ Okay. So the root thing is here, the access token is sent to random places. It's sent to
+
+00:04:23.760 --> 00:04:29.040
+ API to send to other people. The refresh token is never sent anywhere except to the authorization
+
+00:04:29.040 --> 00:04:34.080
+ server. So that like moves, okay, flies around less. So it's theoretically, you know, less exposed.
+
+00:04:34.080 --> 00:04:39.200
+ So we had that model that way, you know, if you revoke someone's refresh token,
+
+00:04:39.200 --> 00:04:42.480
+ they can keep accessing the system for five minutes. But after five minutes,
+
+00:04:42.480 --> 00:04:46.560
+ like their access token will expire and they'll fail to refresh a new one. So we did that design.
+
+00:04:46.560 --> 00:04:49.440
+ They didn't factor that at all. So I literally was like,
+
+00:04:49.440 --> 00:04:56.000
+ I explained that. And then I said, I understand that this is going to be a continuous problem.
+
+00:04:56.000 --> 00:04:59.360
+ This is like a security related thing. So people are going to come in with these like dumbass
+
+00:04:59.360 --> 00:05:04.240
+ binary like payments around this stuff and like confuse people because people don't know.
+
+00:05:04.240 --> 00:05:07.040
+ People are going to see that and they're going to be like, Oh, is that mean it's not secure?
+
+00:05:07.040 --> 00:05:11.200
+ So I wrote like, this is the first we haven't the first issue of this. So I'm not going to like
+
+00:05:11.200 --> 00:05:16.560
+ do anything off of this. But I'm updating our code of conduct being like, if you are here to
+
+00:05:16.560 --> 00:05:23.120
+ report a security issue, I put it in quotes security issue. You must report it in these terms. You
+
+00:05:23.120 --> 00:05:32.480
+ need to say, I see that the design is a and it was probably chosen because it has these benefits
+
+00:05:32.480 --> 00:05:38.560
+ and it has these downsides. And here's how it's currently mitigated. But I think it's not,
+
+00:05:38.560 --> 00:05:42.320
+ it doesn't go far enough. If you don't phrase it like that, I'm just going to flat out close the
+
+00:05:42.320 --> 00:05:47.040
+ issue because you're not here to actually contribute. You're just here to like get someone on some
+
+00:05:47.040 --> 00:05:51.440
+ kind of rule. So I find that extremely annoying. So I wrote this code of conduct. It's only two
+
+00:05:51.440 --> 00:05:56.560
+ things I put in there. I was like, it's two points. It says reporting security issues. I say like,
+
+00:05:56.560 --> 00:06:00.960
+ if it's security issue, like, you know, don't post it publicly message me. And if we don't
+
+00:06:00.960 --> 00:06:04.560
+ respond in some amount of time, then you can just close it publicly in case there's like
+
+00:06:04.560 --> 00:06:09.760
+ some kind of hold exploit. Yeah, then number two, I wrote reporting security issues in quotations.
+
+00:06:09.760 --> 00:06:13.920
+ And I was like, you're likely reporting a not really a security issue. Like, you know,
+
+00:06:13.920 --> 00:06:16.960
+ please phrase it in this way. So we know that you've actually done your research.
+
+00:06:16.960 --> 00:06:21.600
+ Yeah. So I wrote that. Okay, great. I think this problem solved. And today I wake up,
+
+00:06:21.600 --> 00:06:30.080
+ I get another PR fix code of conduct. It's a type of PR. And it's like, in this PR message,
+
+00:06:30.080 --> 00:06:35.200
+ it says code of conduct is very bad. It's it should not be used for these type of things.
+
+00:06:35.200 --> 00:06:41.680
+ And then they copy paste it just like some generic as code of conduct. Like, we think you
+
+00:06:41.680 --> 00:06:46.160
+ should be a good person. Like, please do not like discriminate someone by their gender,
+
+00:06:46.160 --> 00:06:51.440
+ but it's it's all that dumbass legal crap that is just infiltrating every single corner of the
+
+00:06:51.440 --> 00:06:56.400
+ world of just people being like, please be a good person. And then they list out like all these
+
+00:06:56.400 --> 00:07:01.920
+ really shallow stupid ways of what a good person is. Like, man, what the fuck does this have to do
+
+00:07:01.920 --> 00:07:08.000
+ with an authentication library? Like, I deleted the thing that I the actual thing that's going to
+
+00:07:08.000 --> 00:07:14.480
+ come up that stuff that I wrote. And they submitted this PR. And beyond this just being really stupid,
+
+00:07:14.480 --> 00:07:20.320
+ like me not liking the actual approach. What the hell is wrong with people? You have no history
+
+00:07:20.320 --> 00:07:24.000
+ with this project. I don't even think you're a user of this project. You haven't contributed
+
+00:07:24.000 --> 00:07:28.320
+ any code. You haven't contributed any examples. You are literally a random person just drove by and
+
+00:07:28.320 --> 00:07:34.400
+ was like, I have an opinion on how this project should be run. Use a random as person, like no
+
+00:07:34.400 --> 00:07:41.520
+ tied to the project at all. So I was like, yeah, this is so fucking annoying. And this is a type
+
+00:07:41.520 --> 00:07:45.440
+ of stuff and open source that like never gets talked about. The cliche thing is like,
+
+00:07:45.440 --> 00:07:52.800
+ like overly demanding user, which like I said, is annoying, but at least they're like using
+
+00:07:52.800 --> 00:07:57.680
+ your thing and like giving you data points on how to like fix stuff. Yeah, this is just people
+
+00:07:57.680 --> 00:08:01.840
+ being bored and being like, I'm going to insert myself into this and like teach other people how
+
+00:08:01.840 --> 00:08:07.200
+ to be a good person. And I just can't stand it. That's not fun. I'm seeing your point of view and
+
+00:08:07.200 --> 00:08:13.040
+ all that so much more clearly. I think I just I have this thing where like, if someone wants to
+
+00:08:13.040 --> 00:08:19.520
+ take charge and set rules and be authoritative, I will follow. And I get tossed around a lot because
+
+00:08:19.520 --> 00:08:22.400
+ I don't know, they sounded like they knew what they were talking about. And they said, we should
+
+00:08:22.400 --> 00:08:28.000
+ do this. We should name our branches Maine instead of master. I saw that in the GitHub repo the
+
+00:08:28.000 --> 00:08:32.320
+ other day, like where it was like renamed or it was some big flag that like this was renamed. And
+
+00:08:32.320 --> 00:08:36.960
+ I just remembered that whole era. And it's like, yeah, that's a lot of toil. And like, does anyone
+
+00:08:36.960 --> 00:08:42.400
+ really care? I don't know. Maybe they do. But it just feels like, yeah, there's a group of people
+
+00:08:42.400 --> 00:08:47.520
+ that just really want to look like they care is how I would describe it. Yeah, it's just like,
+
+00:08:47.520 --> 00:08:53.840
+ what's all that's going on here is you're trying to like make yourself look like a good person. And
+
+00:08:53.840 --> 00:08:59.600
+ you are wasting people's times like it is really, really frustrating. That's so funny. I just saw
+
+00:08:59.600 --> 00:09:04.240
+ a video this morning, well, maybe everyone in the world did because I think Elon retweeted it.
+
+00:09:04.240 --> 00:09:08.400
+ Elon, do you want to switch to show up on everybody's timeline? I don't know if I have them.
+
+00:09:08.400 --> 00:09:15.280
+ I do. Okay. Well, I need to do that because he tweets a lot. But he retweeted this video about
+
+00:09:15.280 --> 00:09:20.880
+ recycling. And I don't know who the source of this video is. I know recycling is, I mean,
+
+00:09:20.880 --> 00:09:24.720
+ assuming it's that thing where like we just set up this whole fake system to make ourselves feel
+
+00:09:24.720 --> 00:09:29.520
+ better. And we just all goes into try. Yeah, I think that's true. I didn't realize how fake
+
+00:09:29.520 --> 00:09:34.640
+ recycling is. I'm a diligent recycler. I didn't realize I was doing it just to feel good about
+
+00:09:34.640 --> 00:09:40.000
+ myself. But I guess I was. And apparently you can't recycle plastic, like basically not possible.
+
+00:09:40.000 --> 00:09:44.720
+ I mean, it just doesn't or at least not very very, very tiny percentage of it actually
+
+00:09:44.720 --> 00:09:51.120
+ gets recycled. And then we have this complicated system of recycling. It probably has a big financial
+
+00:09:51.120 --> 00:09:56.400
+ cost like, yeah, in environmental cost, it's kind of ironic, like some of the details around it.
+
+00:09:56.400 --> 00:10:00.320
+ And again, there could be counterpoints. Maybe there are things that are good to recycle.
+
+00:10:00.320 --> 00:10:04.080
+ I don't know. Like a lot of it just shipped other countries to like a lot of stuff just
+
+00:10:04.080 --> 00:10:08.800
+ dumped into to landfills and other countries. You know, they just dump plastic in the ocean.
+
+00:10:08.800 --> 00:10:14.400
+ I didn't know that. I thought it was like, what? What's that? No, like people other countries just
+
+00:10:14.400 --> 00:10:19.840
+ literally like every minute, a truckload of plastic is dumped into the ocean. I was in this video
+
+00:10:19.840 --> 00:10:23.440
+ through proper channels or just like a company randomly trying to dispose of waste. And there's
+
+00:10:23.440 --> 00:10:28.000
+ an like enforcement of I don't know the part of the video is talking about how we ship all this
+
+00:10:28.000 --> 00:10:34.640
+ plastic to other countries. And then those countries in turn, either burn it or dump it in the ocean,
+
+00:10:34.640 --> 00:10:41.760
+ which is both bad, both bad things to do, I guess. I don't know. Yeah, the plastic thing's
+
+00:10:41.760 --> 00:10:45.680
+ interesting too, because like I listened to a big thing about microplastics. And it's like,
+
+00:10:45.680 --> 00:10:49.680
+ basically, it's everywhere. Everywhere we've ever looked, there's microplastics everywhere.
+
+00:10:49.680 --> 00:10:54.480
+ And like there's no escaping at this point. We're just kind of all filled with and covered in
+
+00:10:54.480 --> 00:11:01.680
+ microplastics. TBD, if that matters, I don't know. But basically like all the uproar about
+
+00:11:01.680 --> 00:11:06.240
+ plastic is just kind of like, it's too late. There's plastic. I just don't understand how we can
+
+00:11:06.240 --> 00:11:10.720
+ produce so much of it. Like everything is covered in plastic. I'm like, I'm like imagining like,
+
+00:11:10.720 --> 00:11:15.040
+ okay, like how much oil does this take? Like, is it like one drop of oil, you can like stretch
+
+00:11:15.040 --> 00:11:19.840
+ it into a bag? Is that how it works? Like how are we producing so much of it? And this is the
+
+00:11:19.840 --> 00:11:24.720
+ cheapest container. And I think about how like, you know, I don't know, back in, I don't know when
+
+00:11:24.720 --> 00:11:30.800
+ pre plastic era was like, but whenever I watch like Mad Men or like a show that takes place in the
+
+00:11:30.800 --> 00:11:36.160
+ 60s, like, it's just not anywhere. And everything just looks so nice. But everything just looks so
+
+00:11:36.160 --> 00:11:42.560
+ much better. I know, I do wish they didn't exist. I mean, I don't know, I have to question all of
+
+00:11:42.560 --> 00:11:49.920
+ my motives why I say or think things like plastic is bad after learning that you can't even recycle
+
+00:11:49.920 --> 00:11:55.920
+ plastic. I don't know. It's like, yeah, I do think there's something about, I try to avoid like,
+
+00:11:55.920 --> 00:12:01.040
+ when we buy toys for the kids, we try to buy stuff that lasts longer. I think the plastic era just
+
+00:12:01.040 --> 00:12:07.760
+ kind of sucks. Everything's so shitty and plastic. Except for Legos. Legos is true. They're plastic
+
+00:12:07.760 --> 00:12:11.680
+ and they're great. Yeah, some things look nice. I was thinking about it. I just had a thought this
+
+00:12:11.680 --> 00:12:18.160
+ morning about plastic, about building a giant keyboard, like maybe the world's largest. I wonder
+
+00:12:18.160 --> 00:12:25.360
+ if we could get like a keycap manufacturer like GMK to like be excited about molding giant.
+
+00:12:25.360 --> 00:12:30.560
+ A good giant one. Yeah. Yeah. And I thought, how much plastic, how much ABS or whatever plastic would
+
+00:12:30.560 --> 00:12:38.160
+ it take to create like keycaps as big as a chair? Like that would be a lot of plastic. And then I
+
+00:12:38.160 --> 00:12:43.200
+ just went down a whole trail of like, how could you even type on that keyboard? Well, if everyone
+
+00:12:43.200 --> 00:12:47.200
+ was standing on a key and you had little like headphones where it beeped when they need to jump,
+
+00:12:47.200 --> 00:12:54.080
+ you could type. Sorry, just this is all. Well, I was just thinking like, what if we made out of
+
+00:12:54.080 --> 00:13:00.640
+ wood? Oh, okay. There we go. Just like the entire forest cut down probably. But like, I guess that
+
+00:13:00.640 --> 00:13:04.640
+ happens every minute anyway. It's renewable. That's right. I can find another tree.
+
+00:13:04.640 --> 00:13:10.960
+ The world's so complicated. I don't know how to feel. Oh, tell me how to feel the X.
+
+00:13:10.960 --> 00:13:14.320
+ I don't know. The plastic thing is crazy. But yeah, just this whole,
+
+00:13:14.320 --> 00:13:20.080
+ it's all the towers we build to make ourselves feel better in a not real way.
+
+00:13:20.080 --> 00:13:24.320
+ Just so much of that. It's kind of like a TSA, how it's security theater.
+
+00:13:24.320 --> 00:13:29.360
+ Yeah. It's perfect. Yeah. Like when I heard that term. Yeah, I have mixed feelings about this.
+
+00:13:29.360 --> 00:13:32.880
+ Well, I was just thinking as I thought through that example too. And can I say it before you do,
+
+00:13:32.880 --> 00:13:39.600
+ because then it'll just sound like I got to use your smart. It has to get some things like
+
+00:13:39.600 --> 00:13:43.360
+ literally metal detectors. Everybody has to go through a metal detector. They scan the bags.
+
+00:13:43.360 --> 00:13:48.640
+ I'm sure they missed stuff, but it can't be a zero add kind of thing. That was my thought.
+
+00:13:48.640 --> 00:13:55.040
+ Keep going. Okay. My thoughts smarter. Of course it is. I should have left my dog in my brain.
+
+00:13:55.840 --> 00:14:02.720
+ Couldn't be ridiculed. I'm just kidding. Okay. So, well, I think what people point to is when they
+
+00:14:02.720 --> 00:14:07.360
+ run tests, people often get through like when they like test them without telling them when they
+
+00:14:07.360 --> 00:14:14.560
+ would try something, they often get through. But I think there is an aspect to it stopping stuff
+
+00:14:14.560 --> 00:14:19.840
+ that from before someone even tries, right? Like they won't try because they know
+
+00:14:19.840 --> 00:14:24.080
+ they definitely get to see and it's too scary. Exactly. Like I think a lot of stuff is like
+
+00:14:24.080 --> 00:14:28.400
+ opportunistic when you see that there's a very specific gap, you're like more willing to try it.
+
+00:14:28.400 --> 00:14:33.280
+ So if it was just like a chill process, like there might be more people that are going to try.
+
+00:14:33.280 --> 00:14:39.200
+ So it might just stop stuff from happening before they do. Just like having a lock on a gate,
+
+00:14:39.200 --> 00:14:44.320
+ even if it's not like literally locked and someone walks by, like that'll probably prevent someone
+
+00:14:44.320 --> 00:14:48.080
+ from they can just unlock it and get it if they wanted to, but it probably sounds much
+
+00:14:48.080 --> 00:14:53.440
+ opportunistic things from happening. Just the littlest barrier can be like
+
+00:14:54.080 --> 00:14:57.520
+ a huge barrier, basically. There's a principle around that or something, right?
+
+00:14:57.520 --> 00:15:01.760
+ It's like a window or something. Yeah, yeah, something.
+
+00:15:01.760 --> 00:15:06.880
+ I don't know. It's like there's a principle.
+
+00:15:06.880 --> 00:15:11.840
+ Pro is a good guess because that applies to like literally everything in the world.
+
+00:15:11.840 --> 00:15:18.320
+ Nice. Okay. If it's, yeah, I just, I started realizing like, I think I liked TSA. I would feel
+
+00:15:18.320 --> 00:15:22.560
+ pretty bad. Is it security theater? If I would really feel pretty bad if it didn't exist,
+
+00:15:22.560 --> 00:15:25.040
+ and I just got on a plane with everybody else off the street.
+
+00:15:25.040 --> 00:15:29.440
+ Okay. So my issue with the TSA and this is changing because have you seen those new
+
+00:15:29.440 --> 00:15:37.360
+ machines was crazy, like circular, sleek white ones? Yeah. Yeah. Okay. So my issue historically
+
+00:15:37.360 --> 00:15:41.360
+ with the TSA is every time you show up, it's a random process. It's like, today we're doing
+
+00:15:41.360 --> 00:15:46.720
+ laptops in bag. It's fine. Don't take any laptops. Okay. Next week, we're doing laptops out of bag.
+
+00:15:46.720 --> 00:15:51.200
+ Yeah. It's always related to how busy they are. And I'm just like, I don't care if this is a
+
+00:15:51.200 --> 00:15:56.720
+ complicated process. Just tell me, like, I want to know what it is. So I can just do it every time
+
+00:15:56.720 --> 00:16:01.440
+ instead of being like, what this time do I take off my shoes? Do I take off my jacket?
+
+00:16:01.440 --> 00:16:08.480
+ You have to say free. No, I don't. Really? I just, I typically don't, I just typically,
+
+00:16:08.480 --> 00:16:11.760
+ it's not like flying. I just don't travel much. So I just never felt worth it.
+
+00:16:11.760 --> 00:16:14.880
+ Yeah. That's what I mean, you don't like traveling is what I really meant. Like you don't like to
+
+00:16:14.880 --> 00:16:18.800
+ leave your home. Yeah. That said, I traveled a lot this year. So it kind of would have been worth
+
+00:16:18.800 --> 00:16:24.080
+ it. But it's really worth it. Yeah. But that said, these new machines are great, because
+
+00:16:24.080 --> 00:16:28.880
+ don't do anything to drop your bag in. Go same thing every single time. So whenever I'm flying
+
+00:16:28.880 --> 00:16:33.120
+ in New York, which has this and some terminals in Miami have this too. Great process.
+
+00:16:33.120 --> 00:16:39.520
+ Oh, more of those machines, please. Yeah. The security thing's so funny. At one point,
+
+00:16:39.520 --> 00:16:45.600
+ I was flying a lot, like three, four times a week, just for like a few months. It was a fundraising
+
+00:16:45.600 --> 00:16:51.280
+ era. And I got the clear thing at the beginning of the stretch. I knew I was going to be fine. Yeah.
+
+00:16:51.280 --> 00:16:56.880
+ So back then, this was, and I know you're talking, I know what you're going to say. Yeah.
+
+00:16:56.880 --> 00:17:00.480
+ Like such an asshole, but it was amazing. They walk you right up in front of everybody and like,
+
+00:17:00.480 --> 00:17:05.600
+ hand you off. But now it's like the clear line is as long as the TSA preline. And it's kind of
+
+00:17:05.600 --> 00:17:10.400
+ funny, like business models like that, where like it's only good until you're really successful.
+
+00:17:10.400 --> 00:17:13.360
+ And then nobody gets anything out of it. Yeah, exactly. It's like, then they're going to have
+
+00:17:13.360 --> 00:17:18.880
+ clear plus plus or something. And it's like, because I've also even seen the TSA precheck.
+
+00:17:18.880 --> 00:17:23.200
+ Like, I mean, that one, they check you less. So it, it's always going to move faster.
+
+00:17:23.200 --> 00:17:26.480
+ It's faster. Yeah. I've seen a lot of people. But it's a huge line. Yeah. Yeah.
+
+00:17:26.480 --> 00:17:29.520
+ And then sometimes like the airport's busy and they redirect everyone to the same way.
+
+00:17:29.520 --> 00:17:33.200
+ So just be an auction and like you bid to get to the front of the line. Like, what's the highest
+
+00:17:33.200 --> 00:17:38.080
+ bid right now? We got a hundred and fifty six dollars. This asshole from New York. I keep cursing.
+
+00:17:38.080 --> 00:17:44.400
+ Ever since I said, I don't see a normal person, I just keep trying. I mean, I think it sounds good.
+
+00:17:44.400 --> 00:17:51.120
+ I don't know. Okay. Yeah. Clear still feels worth it. It's definitely like on the cusp of like,
+
+00:17:51.120 --> 00:17:57.360
+ is maybe only saving you a handful of minutes, but yeah, it still feels like it's not completely
+
+00:17:57.360 --> 00:18:03.440
+ useless. But you get to feel super pretentious. It's a nice feeling. I'm better than all of you.
+
+00:18:03.440 --> 00:18:11.600
+ I don't feel good in those situations. I feel like any moment some like the wealth gap in America
+
+00:18:11.600 --> 00:18:14.880
+ is going to reach some breaking point. And then my people are going to burst out that line and
+
+00:18:14.880 --> 00:18:21.120
+ like murder me. That's how I feel. There are things in that vein, not specifically clear.
+
+00:18:21.120 --> 00:18:27.520
+ But I definitely have that growing sense of dread that having money will bite us all eventually.
+
+00:18:28.400 --> 00:18:33.120
+ The trajectory we're on. I don't know. Some guy was murdered in the street in New York. I'm not
+
+00:18:33.120 --> 00:18:41.200
+ some guy, a CEO, a person with money. That happened. And I don't know. I think society always needs
+
+00:18:41.200 --> 00:18:46.800
+ to be at its perfect tension zone. And then it like, it recorrects through situations like that.
+
+00:18:46.800 --> 00:18:52.480
+ Yeah. I think there's a lot of thoughts on about like the murder and being like good or bad. Like
+
+00:18:52.480 --> 00:18:59.120
+ obviously murder is like a moral and like it's a bad thing. But I think the interesting part is
+
+00:18:59.120 --> 00:19:05.760
+ like all rules of society, they're all like enforced by violence effectively. Like the reason
+
+00:19:05.760 --> 00:19:09.760
+ I don't go and murder someone is because the government is like, I will violently take you
+
+00:19:09.760 --> 00:19:17.680
+ and put you in a box if you do that. I think the like equilibrium we reach is if society is
+
+00:19:17.680 --> 00:19:22.960
+ generally doing well enough, that threat of that government violence keeps most people in check.
+
+00:19:22.960 --> 00:19:30.320
+ If the government gets too oppressive, what happens is that threat is like not that bad
+
+00:19:30.320 --> 00:19:35.920
+ compared to the day to day conditions. And you will have these like these situations happen where
+
+00:19:35.920 --> 00:19:40.320
+ people like make that trade off. They're like, I'm just going to commit violence because stuff
+
+00:19:40.320 --> 00:19:45.040
+ is so bad that I'm not really afraid of the punishment. And you see this a lot with like
+
+00:19:45.840 --> 00:19:51.600
+ like rioting. I think this topic comes up a lot. They're like, it's bad to loot. Right.
+
+00:19:51.600 --> 00:19:56.640
+ We all agree. Like it's bad to like smash open a store and steal stuff. You're not doing anything
+
+00:19:56.640 --> 00:20:01.920
+ for a cause. You're not like it's just like you being selfish in that moment. But from a systemic
+
+00:20:01.920 --> 00:20:07.200
+ point of view, like it's almost good that some percentage of people do that because it's like a
+
+00:20:07.200 --> 00:20:13.440
+ feedback mechanism to the government. Like you can't if you like start to like go over the line,
+
+00:20:13.440 --> 00:20:17.600
+ like, yes, we have democracy, but like even in democracy, the governments can go over the line
+
+00:20:17.600 --> 00:20:21.840
+ and things. You'd have to deal with all these random things happening, like someone murdering
+
+00:20:21.840 --> 00:20:26.240
+ someone or someone, you know, including stores. So on individual level, it's like, yeah, like,
+
+00:20:26.240 --> 00:20:30.320
+ that's a wrong thing to do. But from like a system from a system point of view, like,
+
+00:20:30.320 --> 00:20:36.720
+ it's all like enforced through violence in some way. So do you think so could you spell it out for
+
+00:20:36.720 --> 00:20:42.800
+ me? In this case, what's the feedback or who's the feedback to CEOs? Not CEOs in general, just
+
+00:20:42.800 --> 00:20:49.040
+ they're like, it's clear that the state of our health care system is continuing to degrade.
+
+00:20:49.040 --> 00:20:52.720
+ And yeah, it's just like, I think people struggle to hold both things in their head.
+
+00:20:52.720 --> 00:20:58.080
+ And myself included, it's like, it's wrong to murder someone 100%. Like I'm not endorsing
+
+00:20:58.080 --> 00:21:02.880
+ the murder at all. And like that person who did that should go to jail. That doesn't mean that
+
+00:21:02.880 --> 00:21:07.520
+ like everything's fine. Yeah, right. You know, that was technically wrong. So everything's fine.
+
+00:21:07.520 --> 00:21:12.240
+ It just means that what we should look at is, wow, stuff is getting so bad that we're getting
+
+00:21:12.240 --> 00:21:18.800
+ these types of things popping up where someone is not afraid of going to jail for life to like,
+
+00:21:18.800 --> 00:21:22.640
+ you know, push forward this cause. And that's the type of stuff that like, I think it does serve as
+
+00:21:22.640 --> 00:21:27.520
+ a data point to the whole system. And I'm sure like every health care CEO is like really freaked
+
+00:21:27.520 --> 00:21:32.720
+ out now. Oh, yeah. Oh, sure. If I was a CEO or involved in insurance company, I would be
+
+00:21:32.720 --> 00:21:36.320
+ really freaked out. And like how far I push might be tempered a little bit now.
+
+00:21:37.840 --> 00:21:44.480
+ Do you think there's like a, what's the word I'm looking for? Like, is this a thing that could
+
+00:21:44.480 --> 00:21:48.480
+ catch like wildfire? Is it contagious? I'm worried about that. Like, you know,
+
+00:21:48.480 --> 00:21:53.200
+ copycats have happened all the time and that would be pretty bad. So maybe this is dramatically,
+
+00:21:53.200 --> 00:21:56.400
+ but how did the French Revolution happen? I don't know anything about history.
+
+00:21:56.400 --> 00:22:02.400
+ Like, is it that kind of vibe where it's like, it's about wealth disparity. It's about the conditions
+
+00:22:02.400 --> 00:22:09.200
+ of health care in America. And like, eventually, just like the lower takeover, the upper through
+
+00:22:09.200 --> 00:22:14.640
+ violence, is that kind of what happened? I think historically, that's been like the pattern. It's
+
+00:22:14.640 --> 00:22:21.760
+ been a ruling class and everyone else. And there's been moments where everyone else had it good enough
+
+00:22:21.760 --> 00:22:25.280
+ that they weren't willing to literally raise their lives to kill the ruling class. And as soon as that
+
+00:22:25.280 --> 00:22:31.920
+ equilibrium is breaks, like that's kind of what happens. And I think the reason America is really,
+
+00:22:31.920 --> 00:22:40.080
+ really successful is because it's a democracy where at least you feel, even if things aren't
+
+00:22:40.080 --> 00:22:46.320
+ great, at least you feel like you have some amount of control over who the leader is.
+
+00:22:46.320 --> 00:22:53.440
+ And just that feeling is enough to prevent these like rebellious moments, which leads
+
+00:22:53.440 --> 00:22:56.800
+ to stability, which leads to a good system. So it's not literally the fact that like we're
+
+00:22:56.800 --> 00:23:01.920
+ electing good leaders. It's just a fact that we're not dealing with this cycle of like,
+
+00:23:01.920 --> 00:23:09.280
+ bad leader rebel group comes up, you know, kills bad leader. Now the leader is a leader.
+
+00:23:09.280 --> 00:23:12.640
+ And then he also becomes bad. And then it just like loops over and over and over.
+
+00:23:12.640 --> 00:23:16.560
+ Yes. Do you think, but do you don't think that there's a tipping point that could happen in
+
+00:23:16.560 --> 00:23:22.240
+ America where we do resort to? I mean, there's so many mitigating factors are just the reality
+
+00:23:22.240 --> 00:23:26.960
+ that like quality of life. I guess the riot. I mean, there's been a lot of rioting in the last
+
+00:23:26.960 --> 00:23:32.160
+ three or four years, right? Five, 10 years. I don't know. I mean, my context is all thrown
+
+00:23:32.160 --> 00:23:36.000
+ off, but I know there was an era where it was really common. Maybe it's the last election cycle.
+
+00:23:36.000 --> 00:23:39.680
+ Yeah. I mean, it just comes down to quality of life. Like if people's quality of life is good,
+
+00:23:39.680 --> 00:23:43.760
+ that is always a mitigating factor. Like they're willing to deal with, okay, so it wasn't perfect,
+
+00:23:43.760 --> 00:23:48.080
+ but you know, I have a pretty decent life. I'm not going to throw it all the way to go after this.
+
+00:23:48.080 --> 00:23:53.600
+ Makes sense. It's basic psychology from like an individual household standpoint. Like if you're
+
+00:23:53.600 --> 00:23:59.760
+ doing okay. And that's the question, I guess. Does anyone keep track of the average or like the
+
+00:23:59.760 --> 00:24:04.640
+ number of people who would say, I'm not doing okay. And I am kind of done with it. And I am
+
+00:24:04.640 --> 00:24:09.440
+ willing to, because you hear those kinds of things on the internet that like things are bad. But like
+
+00:24:09.440 --> 00:24:14.400
+ for how many people and what is that point where? Is this a stupid question? Is this a dumb
+
+00:24:14.400 --> 00:24:18.240
+ conversation? Is there nothing to be said about this? The answer is just it's like it's not really
+
+00:24:18.240 --> 00:24:23.120
+ what people say. It's what people do. Yeah. So that you always enough to force is you're going to have,
+
+00:24:23.120 --> 00:24:28.480
+ I mean, both forces are always trying to get as there's a people more in power than people less
+
+00:24:28.480 --> 00:24:33.200
+ in power. And both sides are trying to get away with as much as possible. And we land at some point.
+
+00:24:33.200 --> 00:24:38.320
+ And the reality is this quality of life compared to like a hundred years ago is like outrageous,
+
+00:24:38.320 --> 00:24:43.680
+ even though it sucks in a lot of ways. Like it like, you know, tempers people a ton.
+
+00:24:43.680 --> 00:24:48.320
+ It's different when you're like literally don't have any food and you like live outside, you know?
+
+00:24:48.320 --> 00:24:53.600
+ Yeah, it's that rational optimist book. It's like, as much as people want to complain about
+
+00:24:53.600 --> 00:24:57.840
+ things that aren't great, they're so much better than they were. So by and large,
+
+00:24:57.840 --> 00:25:01.920
+ like how many people can you imagine literally being like, I'm going to go
+
+00:25:01.920 --> 00:25:08.960
+ like commit terrorism effectively? I mean, I don't know everything. So I don't have a pulse on this
+
+00:25:08.960 --> 00:25:14.880
+ stuff. I'd say like, like imagine how bad it would have to be for like a significant group of people
+
+00:25:14.880 --> 00:25:19.600
+ to be like, yeah, I'm willing to risk myself, my family, everything around you. Yeah, for this
+
+00:25:19.600 --> 00:25:25.040
+ type of thing. I'm not saying it can't happen, but and the point is like, when it does happen in
+
+00:25:25.040 --> 00:25:29.760
+ these situations, it's like a data point back into the system. Yeah, so there was another there's
+
+00:25:29.760 --> 00:25:36.000
+ kind of a tangential thing that I forgot about, which was like all the murmuring of like this election
+
+00:25:36.000 --> 00:25:41.120
+ cycle. Like, we're ready for civil war. This is going to happen. I haven't seen any militia
+
+00:25:41.120 --> 00:25:46.000
+ people walking down the streets. Did it it didn't happen? I guess no civil war. We're free.
+
+00:25:46.000 --> 00:25:52.160
+ Who's to say depending on if somebody else won? But a lot of people are like people love role
+
+00:25:52.160 --> 00:25:56.800
+ playing. Also, it's actually just the same as the person submitting this PR. Really? It's the exact
+
+00:25:56.800 --> 00:26:02.240
+ same psychology. Really? They have this identity and they like just want to live they like live
+
+00:26:02.240 --> 00:26:06.400
+ in this fantasy where they like, I feel like submitting a PR is a little different than walking
+
+00:26:06.400 --> 00:26:10.480
+ around with like a rifle. I feel like there's a there's a different psychology there, but I'm
+
+00:26:10.480 --> 00:26:14.880
+ saying it's the same exact thing. Really? It's like it's it's all an identity thing, right? It's
+
+00:26:14.880 --> 00:26:22.000
+ they like they're actually romanticizing a civil war effectively. Like it's not really about like
+
+00:26:22.000 --> 00:26:26.560
+ no one is pushed to the point of like actually like the thing I was talking about before, like
+
+00:26:26.560 --> 00:26:32.480
+ actually throwing it all away. They're kind of fantasizing about like, you know, the concept of
+
+00:26:32.480 --> 00:26:36.320
+ like we could do a civil war. Like I would be one of the people that like for bells. And then when
+
+00:26:36.320 --> 00:26:41.600
+ there are kind of like isolated isolated incidents, it's because enough people were fantasizing and
+
+00:26:41.600 --> 00:26:45.680
+ walking around with their and it escalated like they were all in their military garb and then
+
+00:26:45.680 --> 00:26:50.320
+ eventually somebody provoked somebody enough. Because there are things that happen, right?
+
+00:26:50.320 --> 00:26:55.120
+ Yeah, I think and go both ways. I think yes, some of those are just like stupid escalations.
+
+00:26:55.120 --> 00:26:58.080
+ Some of them, but I'm not going to say all like I'm sure maybe some of them are just
+
+00:26:58.080 --> 00:27:02.960
+ someone was pushed to a point where they're like, I don't care. This is I'm like not gonna, you know,
+
+00:27:02.960 --> 00:27:07.920
+ I'm down to throw it all away. But yeah, I do think that civil war thing is like a little like
+
+00:27:07.920 --> 00:27:13.840
+ there's like a weird romantic. The people when people talk about it, it's like really romantic.
+
+00:27:13.840 --> 00:27:19.360
+ So to me it doesn't feel like it's coming from a weird thing to be. Yeah, I mean, that's a funny
+
+00:27:19.360 --> 00:27:24.720
+ thing like being a romantic person, you can do this in like so many different aspects of life. So it's
+
+00:27:24.720 --> 00:27:30.480
+ not like what people would imagine. Oh, the type of person that's romantic is like this. But a lot
+
+00:27:30.480 --> 00:27:34.880
+ of like very stereotypically, like if you imagine stereotype of someone that's like walking around
+
+00:27:34.880 --> 00:27:39.440
+ with a rifle, like thinking about civil war, you have a stereotype image of their head. That person
+
+00:27:39.440 --> 00:27:45.200
+ is often like a very romantic person. They tend to romanticize like the way life works and the way
+
+00:27:45.200 --> 00:27:51.280
+ things are. Okay, I want to break this down because this is the thing I've said about myself. And
+
+00:27:52.400 --> 00:27:59.200
+ I've hoped in the last few months, as I've tried to work on myself through my marriage situation
+
+00:27:59.200 --> 00:28:05.360
+ and all that, I've hoped that maybe it is possible I could be, I could have some semblance of romance
+
+00:28:05.360 --> 00:28:11.600
+ in my life. I've always said I have no romantic bone in my body. Like that's just not a thing I have.
+
+00:28:11.600 --> 00:28:19.440
+ Is that a personality trait? What do you know about romance? Tell me Dax, look into my eyes and
+
+00:28:19.440 --> 00:28:25.600
+ tell me. I think from knowing you, I would say you're probably not a very romantic person.
+
+00:28:25.600 --> 00:28:28.800
+ Yeah, I'm not. I just said that. You don't have to rub it in.
+
+00:28:28.800 --> 00:28:34.480
+ I'm saying, I think your assessment is correct. It's not like, yeah, yeah, I can see what you're
+
+00:28:34.480 --> 00:28:40.560
+ saying. Is it a thing you can learn or grow into? Or is it just part of your kind of like identity?
+
+00:28:40.560 --> 00:28:45.760
+ I don't know. It's a and again, just are you a romantic person? Yeah, I think I think so.
+
+00:28:45.760 --> 00:28:53.040
+ I tend to fantasize a lot and like view things in very like dramatic like movie like ways.
+
+00:28:53.040 --> 00:28:58.320
+ And again, I just be clear. When I say romantic, it's not like related to like,
+
+00:28:58.320 --> 00:29:03.600
+ you know, a relationship. Yeah, not just relationship. It kind of like permeates everything.
+
+00:29:03.600 --> 00:29:08.960
+ Like it's, you have a romantic view of the world and of life. Yeah, so I would say definitely,
+
+00:29:08.960 --> 00:29:13.680
+ I'm not like the most, but it's like clear that I am to some degree. Yeah.
+
+00:29:15.440 --> 00:29:18.320
+ I feel like I'm dramatic. It's different than dramatic though, right?
+
+00:29:18.320 --> 00:29:24.640
+ I think it's close. I think if you're dramatic, it's oftentimes can be. If you feel like you're
+
+00:29:24.640 --> 00:29:29.360
+ dramatic, then you probably can be romantic also. I feel like it's very close to each other.
+
+00:29:29.360 --> 00:29:39.280
+ Okay. Do you ever view normal situations, normal ish? Like that's exciting. Do you like really
+
+00:29:39.280 --> 00:29:48.240
+ lean into depicting it in like the most dramatic, extreme, possible? I don't think so. I don't,
+
+00:29:48.240 --> 00:29:55.360
+ I'm really bad at hypotheticals or like remembering anything in my life. So this is going to be a
+
+00:29:55.360 --> 00:30:01.280
+ struggle. Okay, so I guess you know better than than I do about my personality. You've seen me
+
+00:30:01.280 --> 00:30:06.720
+ on Twitch or something. I don't know. Okay, let's say you're starting a company and it is going up
+
+00:30:06.720 --> 00:30:12.160
+ against, again, incumbent. Let's say you're starting to get very disruptive. It's going
+
+00:30:12.160 --> 00:30:20.880
+ against Starbucks, something like that. Yeah, like, do you picture this? Are you someone that
+
+00:30:20.880 --> 00:30:25.040
+ just like, I just like, yeah, yeah, we're starting again. You kind of look at it in a clear cut
+
+00:30:25.040 --> 00:30:32.320
+ straightforward way or do parts of you imagine this like really like epic battle between you being
+
+00:30:32.320 --> 00:30:38.080
+ tiny against his giant thing. And it feels like this. I don't even think I had considered that
+
+00:30:38.080 --> 00:30:43.760
+ either of my startups has any competitors. That's funny. I definitely never think about them if they
+
+00:30:43.760 --> 00:30:50.320
+ are. Yeah, they're pretty theoretical. I don't know. But like real startups that I've started,
+
+00:30:50.320 --> 00:30:55.120
+ I feel like I could just go to that real data and say that I've never once thought about taking down
+
+00:30:55.120 --> 00:31:01.360
+ an incumbent. And there probably are incumbents. I just I wouldn't even know. I think I don't think
+
+00:31:01.360 --> 00:31:07.040
+ yeah, I think first that music. I got distracted, didn't I? That was not the point. That was not
+
+00:31:07.040 --> 00:31:11.920
+ the point. But I'm trying to think it's scenarios that you might be able to imagine.
+
+00:31:11.920 --> 00:31:16.480
+ But yeah, I mean, it just sounds like you're you're not but like, why do you feel like you need to
+
+00:31:16.480 --> 00:31:21.680
+ learn it? It's just like a random property of a person, you know, it's not like, it's not like
+
+00:31:21.680 --> 00:31:29.680
+ my wife needs it. She knows this about me. She's always known this about me. It's just kind of like
+
+00:31:29.680 --> 00:31:34.640
+ a thing in life. I thought I wasn't able to have. And maybe I could have it. Maybe it adds a layer
+
+00:31:34.640 --> 00:31:39.680
+ to life that would be nice. That's the thought. Not that I have to have it. It's just, I always
+
+00:31:39.680 --> 00:31:43.920
+ thought it was off limits. It just wasn't part of my personality or something. And then I just started
+
+00:31:43.920 --> 00:31:48.000
+ wondering, maybe part of my personality is broken and I need to fix it. And I'll have some things I
+
+00:31:48.000 --> 00:31:52.480
+ didn't think I could have after I fix it. Yeah. It's so hard to know what I struggle. I think
+
+00:31:52.480 --> 00:31:56.080
+ about this all the time. Like, I don't think about very many things a lot. But I think about
+
+00:31:56.080 --> 00:32:01.360
+ personality. Like, what is my personality and what is just the parts of me that are
+
+00:32:01.360 --> 00:32:09.280
+ super fucked up because of my past or whatever, trauma, whatever, brain chemistry.
+
+00:32:09.280 --> 00:32:13.600
+ Did Liz tell you about this philosopher that she's super into? He's like, I'm gonna say
+
+00:32:13.600 --> 00:32:17.600
+ philosopher, but he's like, I'm just a modern day person. He's still alive writing. I've got his name.
+
+00:32:17.600 --> 00:32:25.360
+ I think he might be Korean. I forgot. I forgot what it is. But what you were saying reminded me
+
+00:32:25.360 --> 00:32:30.560
+ because I she mentioned me the other day, Adam really needs to read his stuff. And you're not
+
+00:32:30.560 --> 00:32:36.240
+ going to like it. But I think it is the perfect explanation of everything that you're going through.
+
+00:32:36.240 --> 00:32:40.480
+ Really? Well, I would like that. That would be very nice.
+
+00:32:40.480 --> 00:32:49.280
+ Let me ask you right now. What is that philosopher guy? Yeah, because I'd love if she could tell
+
+00:32:49.280 --> 00:32:55.200
+ us, could you yell at Liz? Come in here. Come here. Because I'd love to like bring up this person's
+
+00:32:55.200 --> 00:32:58.720
+ name. I just love when we talk about stuff on the podcast and I get like five DMs. And it's like,
+
+00:32:58.720 --> 00:33:03.360
+ hey, if you like him, you should check out this guy. It's amazing. Thank you for all the things
+
+00:33:03.360 --> 00:33:06.960
+ you guys send me like movie recommendations. You check Slack. I sent you a message.
+
+00:33:06.960 --> 00:33:14.400
+ You guys are hilarious. Honey, check Slack.
+
+00:33:14.400 --> 00:33:21.200
+ That's funny. Wait, do you just call Liz Liz? Do you have any pet names for each other?
+
+00:33:22.880 --> 00:33:26.160
+ I just don't call her. I have this thing. I think we talked about this. I don't like like
+
+00:33:26.160 --> 00:33:33.200
+ say people's names. It's just I don't need anyone ever. I just never say anyone's name.
+
+00:33:33.200 --> 00:33:37.680
+ It's not that. I just for some reason I try to avoid. I don't know what it is. Something about
+
+00:33:37.680 --> 00:33:42.480
+ it feels weird. Just you have any pet names for you. I don't know if pet names is a weird way to
+
+00:33:42.480 --> 00:33:50.720
+ put this. Any names? I guess we don't. I don't think we do. It's okay. I have gone through a few.
+
+00:33:50.720 --> 00:33:55.920
+ And as part of our separation and reuniting, we've decided to come up with new ones,
+
+00:33:55.920 --> 00:34:00.160
+ new era, new pet names. It's always hard because you keep calling them the old ones.
+
+00:34:00.160 --> 00:34:04.960
+ It's hard to force it too. It's better when you talk. Yeah. I'm trying a few actually.
+
+00:34:04.960 --> 00:34:08.960
+ And we'll see which one sticks. Is she is she checking Slack or?
+
+00:34:08.960 --> 00:34:15.040
+ I'm going to get up and I'm going to go. Oh, and I just want to be on behind you taking photos
+
+00:34:15.040 --> 00:34:24.560
+ behind the scenes. Beyond Chul Han. Oh, man. Three body problem. All over it.
+
+00:34:24.560 --> 00:34:27.920
+ I'm going to go over that. Re-listen it to around Slack.
+
+00:34:27.920 --> 00:34:33.120
+ Hey, Liz. Check Slack. I'm going to. Okay. I don't know where to post this like because
+
+00:34:33.120 --> 00:34:37.040
+ because Kristin just need to see it too. I'm going to post it in a DM with him.
+
+00:34:37.040 --> 00:34:42.560
+ Let tomorrow. Yeah, yeah, yeah. Beyond Chul Han. Good try.
+
+00:34:42.560 --> 00:34:48.080
+ Okay. Now that we know his name. Can you give me just a brief synopsis of what I'm going to find?
+
+00:34:48.080 --> 00:34:52.640
+ I've only ever heard what Liz explained to me. Like what she's read his stuff. And she's like,
+
+00:34:52.640 --> 00:34:58.560
+ told me what he's about. I personally feel like I have been saying all this for a long time.
+
+00:34:58.560 --> 00:35:04.960
+ So I'm like, Hey, I haven't listened. Or you mean with with her?
+
+00:35:04.960 --> 00:35:09.600
+ Well, I mean, obviously, obviously, I've like casually thought about this here and there.
+
+00:35:09.600 --> 00:35:13.760
+ This person obviously went way deeper and probably expresses it in like a much more clear
+
+00:35:13.760 --> 00:35:23.200
+ convincing way. Yeah, sure. So his whole thing is about how much we have nothing to focus on.
+
+00:35:23.200 --> 00:35:30.560
+ So we introspect infinitely. And it sounds like a very cliche. This very cliche thing. But the way
+
+00:35:30.560 --> 00:35:34.400
+ he expressed it and the way the points that he makes are very good. And it's like a very well
+
+00:35:34.400 --> 00:35:38.400
+ well thought out process of it. It's kind of where it started talking about earlier. A quality of
+
+00:35:38.400 --> 00:35:46.480
+ life is actually extremely, extremely high. And there is just infinite things in the world to
+
+00:35:46.480 --> 00:35:52.560
+ introspect and micro analyze every little thing about yourself. And that in itself is the torture.
+
+00:35:52.560 --> 00:35:57.760
+ It's not the stuff that's wrong with you. So if we were all just trying to like find food to live
+
+00:35:57.760 --> 00:36:04.160
+ another day, we wouldn't probably be thinking about whether we're bipolar or I mean,
+
+00:36:04.160 --> 00:36:10.560
+ maybe that's a specific example for me. We wouldn't be trying to figure out if, I don't know,
+
+00:36:10.560 --> 00:36:14.720
+ whatever we just were talking about. If I'm a romantic or not, like, I'm just trying to live.
+
+00:36:14.720 --> 00:36:20.400
+ I mean, it's like, it's not that it just, it's just like, again, a spectrum, right? There's like,
+
+00:36:20.400 --> 00:36:25.920
+ a lot of these problems are are actually there, you know, they're things that it's not like it's
+
+00:36:25.920 --> 00:36:32.400
+ completely fake. But oftentimes, like, you're actually feeding it by trying to understand and
+
+00:36:32.400 --> 00:36:36.160
+ solve it. And it doesn't have to go the extreme of us literally being starving. There's just like,
+
+00:36:36.160 --> 00:36:43.280
+ you know, we've just hit this weird threshold of just stuff displacing other stuff. And then new
+
+00:36:43.280 --> 00:36:48.880
+ stuff is like, just pulling you deeper and deeper and deeper into this kind of thing.
+
+00:36:48.880 --> 00:36:58.000
+ It makes sense through the lens, like if I look at the pipeline of like young professionals that
+
+00:36:58.000 --> 00:37:02.960
+ get to a place where they're doing pretty good, their standard of living is above average,
+
+00:37:02.960 --> 00:37:06.400
+ and then they start listening to Huberman and taking ice baths, you know what I mean?
+
+00:37:06.400 --> 00:37:11.040
+ To get pretty specific. There's also like, I've thought about this the other day,
+
+00:37:11.040 --> 00:37:15.280
+ this is, I'm jumping all over the place, but there's a software dev kind of pipeline where
+
+00:37:15.280 --> 00:37:20.400
+ software developers get paid really well. You work for like a decade and you're probably doing
+
+00:37:20.400 --> 00:37:26.320
+ pretty well if you've been working in the US in particular. And then you start getting on YouTube
+
+00:37:26.320 --> 00:37:32.000
+ and making YouTube videos and then then you start a coffee company or whatever.
+
+00:37:32.000 --> 00:37:37.440
+ Like there's like a pipeline of software dev to senior software dev to buys a camera and it's like
+
+00:37:37.440 --> 00:37:43.280
+ undefeated. Hence the podcast that we are talking about.
+
+00:37:43.280 --> 00:37:50.880
+ Yeah, it's just not that deep of a field, I guess. Yeah. But yeah, so I mean, he talks about like,
+
+00:37:50.880 --> 00:37:58.240
+ he goes across everything and it's like, I think it's a very good analysis of what's going on.
+
+00:37:58.240 --> 00:38:04.720
+ Okay. And the reason I said, you know, people aren't going to like it is because it's not,
+
+00:38:04.720 --> 00:38:08.640
+ it's like people are looking for the answer, but the answer is like, stop asking questions.
+
+00:38:08.640 --> 00:38:17.120
+ Looking for the answer. Yeah. But yeah, so I think it's, like I said, I feel like we just are so
+
+00:38:17.120 --> 00:38:23.920
+ focused on ourselves. Like, like peak me, like what is my life? What are my feelings? Like,
+
+00:38:23.920 --> 00:38:28.960
+ what should I be eating? How should I be living? Like, it's just like, so crazy. And it's, uh,
+
+00:38:28.960 --> 00:38:34.560
+ I think that's a lot of reasons why people are, you know, struggling in a lot of ways.
+
+00:38:34.560 --> 00:38:40.080
+ So, so I totally resonate with all that. I'm excited to dig into this guy's stuff.
+
+00:38:40.080 --> 00:38:45.760
+ The one question I have just off the top is, and I don't, I don't know how to say this without sounding,
+
+00:38:47.200 --> 00:38:51.200
+ well, I'm just going to say it. Uh, Casey, if you're listening, I'm sorry.
+
+00:38:51.200 --> 00:38:57.200
+ If I didn't have a relationship, if I was alone in the world, I don't think I think about myself
+
+00:38:57.200 --> 00:39:04.160
+ one bit, I would just be coasting. And I think everything would be really easy. At the same time,
+
+00:39:04.160 --> 00:39:09.280
+ I'd probably live a pretty shallow existence for other reasons, related reasons. Just my personality
+
+00:39:09.280 --> 00:39:13.840
+ is such that like, I would get obsessed with my work or something and just be obsessed with that
+
+00:39:13.840 --> 00:39:18.960
+ thing until I died. Because I'm in a relationship, that's where I feel like I really am digging into
+
+00:39:18.960 --> 00:39:22.960
+ all these other things, trying to figure out how to make the relationship better to give this other
+
+00:39:22.960 --> 00:39:28.640
+ person what they need in the relationship. That's where all my self-introspection comes.
+
+00:39:28.640 --> 00:39:38.640
+ It's like, I want to be the person that is, uh, worthy of this relationship that she is getting
+
+00:39:38.640 --> 00:39:44.800
+ what she needs out of it. Otherwise, and the main problem that she has in our relationship is that
+
+00:39:44.800 --> 00:39:49.120
+ I don't think about these things at all. So that's why I'm trying to think about them so hard. Does that
+
+00:39:49.120 --> 00:39:54.400
+ make sense? Yeah, but what's funny is this guy's entire point is people don't know how to build
+
+00:39:54.400 --> 00:40:01.120
+ relationships. So in both the scenarios, you are, it's like, it's even if you're alone,
+
+00:40:01.120 --> 00:40:05.280
+ you're still feeling a good relationship. So he kind of diagnosed that as being a root.
+
+00:40:05.280 --> 00:40:11.760
+ And you might not be introspecting in the same way as you are now, but you probably are living a
+
+00:40:11.760 --> 00:40:18.400
+ very self-focused life and like my manifests in different ways. So I think his root thing is all
+
+00:40:18.400 --> 00:40:25.280
+ about like, just we just don't know how to have normal relationships. Is there is in his stuff?
+
+00:40:25.280 --> 00:40:30.880
+ Is there an antidote besides just stop, stop doing it? I'm sure there is, but I think with a lot of
+
+00:40:30.880 --> 00:40:36.080
+ this stuff, it's like alternatives. Things I could do with my time. We just have these habits and
+
+00:40:36.080 --> 00:40:42.320
+ ways of looking at things. By the way, I say we, I just mean like, just world in general,
+
+00:40:42.320 --> 00:40:47.120
+ I mean, everyone struggles with it in different different points. I've told you before, I reached
+
+00:40:47.120 --> 00:40:52.640
+ a point where I'm like, I'm done, like, I'm like fully baked. And a lot of those instincts kind of
+
+00:40:52.640 --> 00:40:58.320
+ kind of went away. But yeah, I think, I think just really understanding what he's saying and like
+
+00:40:58.320 --> 00:41:03.760
+ really buying it and like having that realization is probably what fixes things. I don't think there's
+
+00:41:03.760 --> 00:41:09.600
+ like, he's what you'll be doing instead. It's just kind of admitting that this is what's actually
+
+00:41:09.600 --> 00:41:15.360
+ going on. Okay. Well, I will, is it a book? Is it paper? I don't know. I'm sure there's like
+
+00:41:15.360 --> 00:41:21.040
+ YouTube stuff on him. And I don't know. Like I said, I haven't actually consumed any of his stuff.
+
+00:41:21.040 --> 00:41:25.840
+ It's just stuff that I've been told by Liz, but she's a, she thinks he's very, very good.
+
+00:41:25.840 --> 00:41:31.520
+ This Liz have my problem. Does she just look at herself and her stuff unlike you?
+
+00:41:31.520 --> 00:41:36.720
+ I think, I think historically, yeah, it's just like everyone else. And like, it's changed over time.
+
+00:41:36.720 --> 00:41:42.400
+ And she's has done that less. Yeah. Like I said, I went just at a different point.
+
+00:41:42.400 --> 00:41:48.880
+ Yeah. Like I said, the world is built to teach you to literally do that all the time. Yeah,
+
+00:41:48.880 --> 00:41:54.160
+ like the world's always telling that you should be doing this. Yeah. And people, you want to feel
+
+00:41:54.160 --> 00:42:00.160
+ like you're not impacted by that, but we literally all are. Yeah. Okay. I have so many thoughts on my
+
+00:42:00.160 --> 00:42:03.680
+ brain just went to like four different things at once. And I don't know if I want to say any of them.
+
+00:42:03.680 --> 00:42:07.760
+ I tried coming back to Twitter. I liked it. It was funny. I don't know if it's good for me.
+
+00:42:07.760 --> 00:42:13.920
+ I just don't know if it's good for me. I'm on the fence. Is blue sky better? It's your vibe on
+
+00:42:13.920 --> 00:42:20.160
+ Twitter is like for the most part, except when you like start to like apologize a bunch. Well, a lot
+
+00:42:20.160 --> 00:42:25.360
+ of the times you just post something and just it just feels so it just feels like you just do not
+
+00:42:25.360 --> 00:42:30.560
+ care about anyone, which is great. I think it's a great deal. I mean, I don't care about anyone
+
+00:42:30.560 --> 00:42:33.840
+ on Twitter. But like, what part do you think is bad for you? I think it's the consuming stuff. I
+
+00:42:33.840 --> 00:42:38.480
+ think it's when I start scrolling. It's like it's right only. Twitter is right only. I know. That's
+
+00:42:38.480 --> 00:42:43.200
+ the problem. Like all my tweets are just me being really annoyed about something I just saw on
+
+00:42:43.200 --> 00:42:47.760
+ Twitter and responding to it. That's basically fine. That's okay. Except the part where it's a
+
+00:42:47.760 --> 00:42:52.000
+ reflection that like, wait, why do I get on a thing that I'm just annoyed every time I get off?
+
+00:42:52.000 --> 00:42:56.560
+ Yeah, that's fair. Well, maybe if I just cut that part out. Yeah, if I had a right only
+
+00:42:56.560 --> 00:43:02.160
+ Twitter client where I could just dump my random thoughts, that'd be kind of fun. Why is somebody
+
+00:43:02.160 --> 00:43:06.080
+ made this? Does anyone made this? I feel like it should be. I wish to do that with blue sky since
+
+00:43:06.080 --> 00:43:10.880
+ you can't actually build stuff like that. Well, actually, you know, you can do right only Twitter
+
+00:43:10.880 --> 00:43:16.000
+ if you do it through like buffer or something. Oh, okay. One of those apps.
+
+00:43:16.000 --> 00:43:22.160
+ Okay, so for me, I want. Here's what I want. And maybe I'll actually take the time and do this.
+
+00:43:22.160 --> 00:43:30.240
+ I want a thing that lets me write and see replies. I'm okay reading replies to my stuff. But I think
+
+00:43:30.240 --> 00:43:35.760
+ I'm the same where I kind of agree with you. I just don't want to read. So I would like that plus
+
+00:43:35.760 --> 00:43:41.120
+ a whitelist of the people I want to see their tweets. Oh, you have control over that already.
+
+00:43:41.120 --> 00:43:49.200
+ It's the control. That's all of us, right? We have we have a way to control how do I do that?
+
+00:43:49.200 --> 00:43:54.240
+ We could just follow a small set of people and just look at the following tab. But we all
+
+00:43:54.240 --> 00:43:59.120
+ don't do that because we don't have control. The following tab is bad because I'm following
+
+00:43:59.120 --> 00:44:05.520
+ people that I'm quote unquote friends with. It's a social dynamic. It's not actually like I want
+
+00:44:05.520 --> 00:44:13.120
+ to follow these people. Just unfollow them, Adam. It would be so hard and painful. But then I just
+
+00:44:13.120 --> 00:44:17.360
+ I hate when I get on Twitter when I look at somebody's profile and they follow like 26 people. I'm like,
+
+00:44:17.360 --> 00:44:24.720
+ you jerk. Just socialize. I don't think that at all ever. Really? I'm missing my app right now.
+
+00:44:24.720 --> 00:44:31.600
+ I just randomly unfollow 10 people. That's what I want to do. Every day it's going to be like a
+
+00:44:31.600 --> 00:44:36.880
+ Russian real life. You're really going to do that. Let's go to 100. Just don't randomly unfollow
+
+00:44:36.880 --> 00:44:41.840
+ somebody you care about. That's a slap in the face. Every time you unfollow someone,
+
+00:44:41.840 --> 00:44:46.640
+ you are literally slapping them in the face. That's what I think. I have the perfect solution for you.
+
+00:44:46.640 --> 00:44:52.320
+ You say every day you're going to unfollow five people randomly, but it's not random. You just pick
+
+00:44:52.320 --> 00:45:01.440
+ but you say it's random. That's a perfect color. I can like absolve myself of the guilt and shame
+
+00:45:01.440 --> 00:45:07.920
+ and feeling like I hurt people's feelings. It's it's dumb. I should just yeah. If I just followed
+
+00:45:07.920 --> 00:45:13.600
+ like 30 people and I could just read your tweets, that would be that would be good. But there'd be
+
+00:45:13.600 --> 00:45:18.560
+ so much stress around. Well, there'd be so much stress around who deciding who gets to be in my
+
+00:45:18.560 --> 00:45:23.920
+ she doesn't have to be 30. It just has to be just just unfollow people's stuff that you don't like
+
+00:45:23.920 --> 00:45:29.680
+ seeing. It's that something I didn't know who I follow anymore. Yeah. Okay, because I tried the
+
+00:45:29.680 --> 00:45:33.440
+ following tab for a bit and it just gets so dominated. It's somebody wakes up and they're sitting on
+
+00:45:33.440 --> 00:45:38.240
+ the toilet and posts like 25 times. Yeah, that's me. Yeah. And then it's like, well, the following
+
+00:45:38.240 --> 00:45:45.440
+ tab is just decks this morning. So that's what I get on the phone. Pass it. Okay, fine. I gotta
+
+00:45:45.440 --> 00:45:50.160
+ figure it out. Because I do think there's something to like, it's the only place I interact with most
+
+00:45:50.160 --> 00:45:54.160
+ of my friends. So I don't want to just not be on the platform. But I don't want to just be annoyed
+
+00:45:54.160 --> 00:46:00.640
+ all the time because I'm seeing the news of the day and people being dumb. In my opinion,
+
+00:46:00.640 --> 00:46:06.400
+ they're not being dumb. They're just doing something I don't like. But I do stuff they don't like.
+
+00:46:06.400 --> 00:46:11.600
+ So it's all it balances out. I feel like I don't see that much annoying stuff on Twitter.
+
+00:46:11.600 --> 00:46:16.000
+ Really? I feel like my feed turned. And maybe it's I might be on the four you tab, but I feel like
+
+00:46:16.000 --> 00:46:21.360
+ it just turned into like any post that has over like a thousand likes just shows up on my feed.
+
+00:46:21.360 --> 00:46:26.240
+ Oh, no, no, no. Okay. So the four you tab. Yes, I'm saying my following tab. I don't know.
+
+00:46:26.240 --> 00:46:29.280
+ Oh, you just follow. You just look at your following tab. Is that what you do?
+
+00:46:29.280 --> 00:46:33.760
+ No, I don't. I look at my four you tab also because I don't have any self control like anyone else.
+
+00:46:33.760 --> 00:46:39.840
+ Do you do you feel like you get annoyed on Twitter? Yeah, surely you do. Of course.
+
+00:46:39.840 --> 00:46:43.200
+ When you're better than everybody, you must get even more annoyed. I know.
+
+00:46:43.200 --> 00:46:48.960
+ I know it really hard. Yeah. I definitely do. But it's mostly the people replying to me.
+
+00:46:48.960 --> 00:46:53.600
+ Like dumb people are lying to me control that too. You know, just don't tweet.
+
+00:46:53.600 --> 00:47:01.280
+ Nobody nobody replies when you don't tweet or when you tweet the dumbest stuff in the world.
+
+00:47:01.280 --> 00:47:07.200
+ No one replies to that either. Bouch. Okay. Anyway, I don't want to talk about Twitter anymore.
+
+00:47:07.200 --> 00:47:11.440
+ Let's talk about something else. Yeah. Come up with something. How's the API stuff going?
+
+00:47:11.440 --> 00:47:16.560
+ Good. I'm surprised actually that I was able to let my hair down and have this podcast episode go
+
+00:47:16.560 --> 00:47:20.800
+ because everything is splayed out on the operating table and I'm trying to finish it today before the
+
+00:47:20.800 --> 00:47:31.120
+ weekend. It's a it's a gigantic effort. Turns out our API pretty bad. We want to make it public.
+
+00:47:31.120 --> 00:47:34.720
+ Well, it's pretty bad. We don't want to do that right now. But okay, let's talk API design real
+
+00:47:34.720 --> 00:47:39.120
+ quick because maybe somebody will DM me and I'll get some useful stuff here about you should do
+
+00:47:39.120 --> 00:47:44.800
+ this. Just don't say Jason API, please. Here's the thing. I love Jason API for the record.
+
+00:47:44.800 --> 00:47:56.240
+ It's actually so hard to like have a consistent API that has a nice open API document and all
+
+00:47:56.240 --> 00:48:02.160
+ the responses match the responses in the document. Like, could you have this layer of tools? We have
+
+00:48:02.160 --> 00:48:06.160
+ like four or five different tools at play and like, oh, well, that one turns out it's got a middleware
+
+00:48:06.160 --> 00:48:10.400
+ that just randomly intercepts certain errors and responds in certain ways and they don't match our
+
+00:48:10.400 --> 00:48:16.960
+ open API spec. It's like that kind of stuff. But then also, only it's so many things. All these tools
+
+00:48:16.960 --> 00:48:22.080
+ have varying degrees of support for each other. So you kind of build up a little stack to try and
+
+00:48:22.080 --> 00:48:28.320
+ get your docs stack going. And a lot of people use these same tools, Mintlify, which I think we're
+
+00:48:28.320 --> 00:48:33.920
+ going to use for our doxy website. It's just like not working with the open API spec generated from
+
+00:48:33.920 --> 00:48:38.080
+ this one tool that we use, but it was working with the previous tool. And then it's like, do we go
+
+00:48:38.080 --> 00:48:42.720
+ back to the previous tool? And then I'm like, but all the time I've spent trying to get automated
+
+00:48:42.720 --> 00:48:48.000
+ open API generation, I could just written an open API doc probably. Like, I don't like writing
+
+00:48:48.000 --> 00:48:54.160
+ YAML or JSON. But at the end of the day, maybe our API doesn't need to change much. And this is
+
+00:48:54.160 --> 00:48:59.440
+ all just wasted time. I feel like I've spent a week. No, it's not because the whole point is, yeah,
+
+00:48:59.440 --> 00:49:03.760
+ we can do a one off thing. But we're just never going to maintain this stuff. Well, yeah, that's
+
+00:49:03.760 --> 00:49:07.920
+ not automatic. Yeah, yeah, we've learned this lesson S is T enough times where we're like,
+
+00:49:07.920 --> 00:49:13.120
+ it just has to be as automatically generated as possible. Otherwise there's drift and you never
+
+00:49:13.120 --> 00:49:19.280
+ fix it. Yeah, it makes sense. Yeah, the drift would be really painful and annoying. And I don't know.
+
+00:49:19.280 --> 00:49:23.680
+ Yeah, you want to explain, you want to get people context that we're going to have an API where you
+
+00:49:23.680 --> 00:49:28.000
+ can order coffee. Yeah, just for our podcast viewers, because this isn't all the information,
+
+00:49:28.000 --> 00:49:33.600
+ you just leaked all of it out. I'm sorry. Yeah, we're going to make our API public. And we're,
+
+00:49:33.600 --> 00:49:38.160
+ we think it's going to, it's funny for, I have to spend a lot of time making it like a really
+
+00:49:38.160 --> 00:49:46.000
+ high quality documentation site with a sandbox and, you know, just make it feel like a real,
+
+00:49:46.000 --> 00:49:51.280
+ like a real product, except it's just to order coffee programmatically. And we want to have people,
+
+00:49:51.280 --> 00:49:59.280
+ we're going to have a contest to see who can come up with the craziest place to integrate.
+
+00:49:59.280 --> 00:50:02.960
+ Yes. This thing, where what's a craziest place you can order coffee from?
+
+00:50:02.960 --> 00:50:06.400
+ Yeah. And winter gets free coffee for life,
+
+00:50:06.400 --> 00:50:11.440
+ which is going to be which chat's going to run with this. There's going to be so many just like
+
+00:50:11.440 --> 00:50:16.640
+ degenerate ways that they integrate this into things. I'm so excited to see.
+
+00:50:16.640 --> 00:50:21.920
+ Yeah. So we're, we're building it out and it's going to be, you know, we're going to have SDKs
+
+00:50:21.920 --> 00:50:26.400
+ in various languages too. Yeah. We're talking today. You see my, you see my message about the
+
+00:50:26.400 --> 00:50:31.600
+ Java and Kotlin one, no, we're going to have a Java SDK. Oh, of course we have to have a
+
+00:50:31.600 --> 00:50:36.880
+ Java coffee ordering, everything costs 10 times as much if you order the Java SDK.
+
+00:50:39.440 --> 00:50:43.840
+ Of course, Java, I'm just, I'm sure TJ will hand build an old camel one,
+
+00:50:43.840 --> 00:50:51.280
+ because I don't think. Oh, of course, yeah, generates. Oh, man. Yeah. Anyway, I'm sure you'll
+
+00:50:51.280 --> 00:50:54.640
+ throw it into telescope. I'm sure he'll do a bunch of like a telescope. That'd be good.
+
+00:50:54.640 --> 00:51:00.000
+ Yeah. So you'll be able to generate a personal access token and just order your coffee all over
+
+00:51:00.000 --> 00:51:05.520
+ the place, make a cron job cron job. Yeah. Yeah. That one's a great one. So we started with SSH
+
+00:51:06.160 --> 00:51:11.680
+ next the world, basically everywhere. There's going to be coffee ordering in every corner of the
+
+00:51:11.680 --> 00:51:17.920
+ internet. SDK is going to be on every single computing device on the planet. We should put one
+
+00:51:17.920 --> 00:51:23.440
+ on a satellite or something. Yeah. I'm still looking into that. Oh, the shipping stuff in the space.
+
+00:51:23.440 --> 00:51:27.760
+ Yes, for sure. I'm going to do that. I shared the idea with a few people that were not even
+
+00:51:27.760 --> 00:51:32.800
+ like that technical and they thought it was so funny. So that just makes me really motivated.
+
+00:51:32.800 --> 00:51:38.320
+ Can we make it happen? Ironically, for the memes, can we raise around?
+
+00:51:38.320 --> 00:51:41.120
+ Can we just like raise a ton of money so we can do the stupidest stuff ever?
+
+00:51:41.120 --> 00:51:45.360
+ And that's actually not a bad idea. Is there any VC that wants to do that kind of thing,
+
+00:51:45.360 --> 00:51:49.520
+ like invest in it? That's really not a bad idea. A joke of a company. We're not a joke. I mean,
+
+00:51:49.520 --> 00:51:53.440
+ we're a real company. We actually make money. That's what's funny. It's like the most real
+
+00:51:53.440 --> 00:51:58.240
+ company I've ever been involved in. It's just like a business. We have to do taxes probably this year,
+
+00:51:58.240 --> 00:52:04.000
+ our first year. I start a reminder about that. Oh, yeah, that sucks. Now it's fine. Yeah,
+
+00:52:04.000 --> 00:52:08.960
+ it's a real company. We're going to go around. It's a funny idea. I wonder if we can pull it off.
+
+00:52:08.960 --> 00:52:13.840
+ Like, could we raise like a million dollars? That'd be so funny. Oh, the best thing to do.
+
+00:52:13.840 --> 00:52:17.920
+ Oh, my God, this is such a good idea. I don't know if this would actually screw us over,
+
+00:52:17.920 --> 00:52:25.840
+ but if we could get a single investor to do a price round, a billion dollar valuation.
+
+00:52:28.880 --> 00:52:32.160
+ But like, you know, they're only invest like 10K or whatever. Yeah, yeah, yeah.
+
+00:52:32.160 --> 00:52:37.040
+ A tiny percentage. I think there's some signals that this at some point. I know they had some
+
+00:52:37.040 --> 00:52:41.200
+ crazy value. Really? This is hilarious. So we can be a billion dollar company.
+
+00:52:41.200 --> 00:52:46.400
+ Yeah, but like legally, like dig it at 409A down and everything. But like,
+
+00:52:46.400 --> 00:52:52.080
+ does that screw us later? Because if we probably down round, if we ever did actually,
+
+00:52:52.080 --> 00:52:58.400
+ like a down round only matters if we gave liquidation preferences to that investor, I think.
+
+00:52:58.400 --> 00:53:02.560
+ And if we don't do that, there's got to be a way to do this for the names.
+
+00:53:02.560 --> 00:53:08.640
+ That is so good. Oh, my God. That would be so funny to have an actual 409A and be a billion
+
+00:53:08.640 --> 00:53:17.040
+ dollar company. That is so funny. I would love that a whole lot. Oh, man. And even if it does
+
+00:53:17.040 --> 00:53:22.560
+ screw us, we could just say we're never going to race because we shot ourselves with foot. It's like
+
+00:53:22.560 --> 00:53:26.240
+ we. We ripped the parachute off. It's like, no, we're doing this.
+
+00:53:26.240 --> 00:53:33.680
+ That's really good. Okay, we have to do that. That's really funny. Terminal is now.
+
+00:53:33.680 --> 00:53:42.400
+ I love it so much. We get a tech crunch to cover it. Yes, a tech crunch article. Oh, my goodness.
+
+00:53:43.760 --> 00:53:50.880
+ Oh, it's so good. All right. I do need to get back. I keep staring at the code on my computer
+
+00:53:50.880 --> 00:53:57.120
+ and it's Friday when I got to get this done. Okay. Cool. Well, hopefully you can get it all done
+
+00:53:57.120 --> 00:54:01.760
+ today. Well, the question is how much my merge conflicts are going to take up of my day.
+
+00:54:01.760 --> 00:54:07.120
+ How bad is it? What did you do? I don't think it's going to be that bad because what I did was
+
+00:54:07.120 --> 00:54:13.440
+ it mostly info stuff. I actually just checked out the info folder from your branch to avoid
+
+00:54:13.440 --> 00:54:18.880
+ merge conflicts. Nice. I haven't touched the info since you did. Okay. Like if you just mess
+
+00:54:18.880 --> 00:54:23.600
+ around, did you jump into the cord or any of the other packages? I added a new core
+
+00:54:23.600 --> 00:54:28.160
+ folder, but that's not going to conflict. I don't think your merge is going to be that bad.
+
+00:54:28.160 --> 00:54:32.800
+ Okay. Okay. Well, then maybe I do get this done today. Just maybe I figured out the stainless
+
+00:54:32.800 --> 00:54:38.480
+ stuff. By the way, should I not say that on the target? I don't know. I don't know. I don't know
+
+00:54:38.480 --> 00:54:43.120
+ anything. No, it's fine. We're definitely going to promote them that we're using stainless. I added
+
+00:54:43.120 --> 00:54:47.360
+ to our Slack, by the way, they're in there and they're very excited. Cool. I'll hop in there. I do
+
+00:54:47.360 --> 00:54:53.040
+ have a question, but I figured out the issue. So one question about their model, I can ask and
+
+00:54:53.040 --> 00:55:00.880
+ slack, never mind. Their model is annoying, but it is what it is. Well, the repos are so many repos,
+
+00:55:00.880 --> 00:55:06.720
+ and they pushed a change to update their spec because they changed something. They have a new
+
+00:55:06.720 --> 00:55:12.640
+ way of defining your whatever. They updated it for us, but they updated it in that repo. That's not
+
+00:55:12.640 --> 00:55:17.600
+ in our thing where our stainless YAML is. So when I made changes to our stainless YAML,
+
+00:55:17.600 --> 00:55:22.640
+ I just jumped all over their changes and raised the new thing and it erased our, yeah, our SDK.
+
+00:55:22.640 --> 00:55:28.160
+ But I fixed it. I found the history and got it all working. Okay. I'm sure there's like five more
+
+00:55:28.160 --> 00:55:34.320
+ annoying PRs for me to go look at in the time of this. Oh, yeah. Good luck with that. Open source
+
+00:55:34.320 --> 00:55:39.600
+ person. Have fun with that. After that person replied to me, I'll angry. We'll see. All right.
+
+00:55:39.600 --> 00:55:41.600
+ All right. See ya. See ya.
+
